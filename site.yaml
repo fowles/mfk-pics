@@ -3,3 +3,6 @@ author: ""
 photo_dir: "photos"
 output_dir: "output"
 site_url: ""
+ebird:
+  ml_csv: "ML_photo.csv"
+  checklist_zip: "ebird_data.zip"
