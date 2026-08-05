@@ -4,3 +4,7 @@ author: "Matthew Kulukundis"
 photo_dir: "photos"
 output_dir: "output"
 site_url: ""
+photographers:
+  Google Pixel 8 Pro: Matthew Kulukundis
+maps:
+  google_api_key: "AIzaSyC4nvtwUbdHLVi-DJEIPOMRkxtBQJNUapo"
