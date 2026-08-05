@@ -8,3 +8,7 @@ photographers:
   Google Pixel 8 Pro: Matthew Kulukundis
 maps:
   google_api_key: "AIzaSyC4nvtwUbdHLVi-DJEIPOMRkxtBQJNUapo"
+dive_sites:
+  Weber's Joy:
+    lat: 12.2065506
+    lon: -68.3164123
