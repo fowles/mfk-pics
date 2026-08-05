@@ -6,9 +6,13 @@ output_dir: "output"
 site_url: ""
 photographers:
   Google Pixel 8 Pro: Matthew Kulukundis
+  '838056001033': Delia Kulukundis
 maps:
   google_api_key: "AIzaSyC4nvtwUbdHLVi-DJEIPOMRkxtBQJNUapo"
 dive_sites:
   Weber's Joy:
     lat: 12.2065506
     lon: -68.3164123
+  Invisibles:
+    lat: 12.0776183
+    lon: -68.28015169999999
