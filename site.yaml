@@ -7,8 +7,6 @@ site_url: "https://mfk.pics"
 photographers:
   Google Pixel 8 Pro: Matthew Kulukundis
   '838056001033': Delia Kulukundis
-maps:
-  google_api_key: "AIzaSyC4nvtwUbdHLVi-DJEIPOMRkxtBQJNUapo"
 dive_sites:
   Weber's Joy:
     lat: 12.2065506
@@ -17,5 +15,5 @@ dive_sites:
     lat: 12.0776183
     lon: -68.28015169999999
 deploy:
-  account_id: "<cloudflare-account-id>"
-  bucket: "mfk-pics"
+  account_id: "605649affbab92b2f8367d609dc4f3b6"
+  bucket: "mfk-pics-images"
