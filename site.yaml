@@ -50,6 +50,32 @@ dive_sites:
   Tori's Reef:
     lat: 12.070475199999999
     lon: -68.2806703
+  Juliet Live Aboard 1:
+    lat: 25.7737406
+    lon: -80.1900783
+  Juliet Live Aboard 2:
+    lat: 25.7737406
+    lon: -80.1900783
+  Juliet Live Aboard 3:
+    lat: 25.7737406
+    lon: -80.1900783
+  Juliet Live Aboard 4:
+    lat: 25.7737406
+    lon: -80.1900783
+  Juliet Live Aboard 5:
+    lat: 25.7737406
+    lon: -80.1900783
+  Juliet Live Aboard 6:
+    lat: 25.7737406
+    lon: -80.1900783
+  Juliet Live Aboard 7:
+    lat: 25.7737406
+    lon: -80.1900783
 deploy:
   account_id: "605649affbab92b2f8367d609dc4f3b6"
   bucket: "mfk-pics-images"
+trips:
+- name: Juliet Live Aboard · October 2025
+  start: '2025-10-05'
+  end: '2025-10-09'
+  slug: juliet-live-aboard-october-2025
