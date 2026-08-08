@@ -14,6 +14,42 @@ dive_sites:
   Invisibles:
     lat: 12.0776183
     lon: -68.28015169999999
+  Salt Pier:
+    lat: 12.082963699999999
+    lon: -68.28180019999999
+  Candyland:
+    lat: 12.222591
+    lon: -68.40111449999999
+  La Dania's Leap:
+    lat: 12.2181035
+    lon: -68.34805419999999
+  Angel City:
+    lat: 12.103454
+    lon: -68.2872912
+  Red Slave:
+    lat: 12.026556999999999
+    lon: -68.2513754
+  Oil Slick Leap:
+    lat: 12.2001484
+    lon: -68.3086211
+  Something Special:
+    lat: 12.150402
+    lon: -68.2854452
+  Molasses Reef:
+    lat: 25.0151854
+    lon: -80.3785098
+  Blue Heron Bridge:
+    lat: 26.7838864
+    lon: -80.044118
+  Bachelor's Beach:
+    lat: 12.125370400000001
+    lon: -68.2874429
+  Juliet Live Aboard:
+    lat: 25.6511059
+    lon: -79.2927854
+  Tori's Reef:
+    lat: 12.070475199999999
+    lon: -68.2806703
 deploy:
   account_id: "605649affbab92b2f8367d609dc4f3b6"
   bucket: "mfk-pics-images"
