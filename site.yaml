@@ -7,6 +7,7 @@ site_url: "https://mfk.pics"
 photographers:
   Google Pixel 8 Pro: Matthew Kulukundis
   '838056001033': Delia Kulukundis
+  Google Pixel 8: Delia Kulukundis
 dive_sites:
   Weber's Joy:
     lat: 12.2065506
@@ -71,6 +72,18 @@ dive_sites:
   Juliet Live Aboard 7:
     lat: 25.7737406
     lon: -80.1900783
+  Pink Beach:
+    lat: 12.0662114
+    lon: -68.2814167
+  Red Beryl:
+    lat: 12.0464185
+    lon: -68.2678076
+  Cliff:
+    lat: 12.1743341
+    lon: -68.2903018
+  Jeff Davis Memorial:
+    lat: 12.2050008
+    lon: -68.3139741
 deploy:
   account_id: "605649affbab92b2f8367d609dc4f3b6"
   bucket: "mfk-pics-images"
