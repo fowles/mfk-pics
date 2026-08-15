@@ -1,0 +1,231 @@
+# Files deleted by `photogen audit`, so a later re-import of the same album
+# does not simply copy them back. Each entry is scoped to the album it was
+# deleted FROM, by raw album title -- re-importing a *different* album that
+# contains the same bytes still restores the file.
+#
+# To un-delete something, remove its entry here and re-import its album.
+- filename: 12352835025528eb.webp
+  album: 2024-11-14, Bonaire, Oil Slick Leap
+  deleted_at: '2026-08-14T10:02:37'
+  fix: keep_one
+  issue_key: duplicate_file:2024-11-13-oil-slick-leap/12352835025528eb.webp
+- filename: 12352835025528eb.webp
+  album: 2024-11-14, Bonaire, Red Slave
+  deleted_at: '2026-08-14T10:02:37'
+  fix: keep_one
+  issue_key: duplicate_file:2024-11-13-oil-slick-leap/12352835025528eb.webp
+- filename: 12e4eb35b4a4f5db.mp4
+  album: 2024-11-14, Bonaire, Oil Slick Leap
+  deleted_at: '2026-08-14T10:02:41'
+  fix: keep_one
+  issue_key: duplicate_file:2024-11-13-oil-slick-leap/12e4eb35b4a4f5db.mp4
+- filename: 12e4eb35b4a4f5db.mp4
+  album: 2024-11-14, Bonaire, Red Slave
+  deleted_at: '2026-08-14T10:02:41'
+  fix: keep_one
+  issue_key: duplicate_file:2024-11-13-oil-slick-leap/12e4eb35b4a4f5db.mp4
+- filename: 3748006d808588f3.webp
+  album: 2024-11-14, Bonaire, Red Slave
+  deleted_at: '2026-08-14T10:02:48'
+  fix: keep_one
+  issue_key: duplicate_file:2024-11-14-oil-slick-leap/3748006d808588f3.webp
+- filename: 3b4c1d0b558e490f.webp
+  album: 2024-11-14, Bonaire, Oil Slick Leap
+  deleted_at: '2026-08-14T10:03:47'
+  fix: keep_one
+  issue_key: duplicate_file:2024-11-14-oil-slick-leap/3b4c1d0b558e490f.webp
+- filename: 440fc2f289bc4b56.webp
+  album: 2024-11-14, Bonaire, Oil Slick Leap
+  deleted_at: '2026-08-14T10:03:58'
+  fix: keep_one
+  issue_key: duplicate_file:2024-11-14-oil-slick-leap/440fc2f289bc4b56.webp
+- filename: 4d6988a037b4416e.mp4
+  album: 2024-11-14, Bonaire, Oil Slick Leap
+  deleted_at: '2026-08-14T10:04:08'
+  fix: keep_one
+  issue_key: duplicate_file:2024-11-13-oil-slick-leap/4d6988a037b4416e.mp4
+- filename: 4d6988a037b4416e.mp4
+  album: 2024-11-14, Bonaire, Red Slave
+  deleted_at: '2026-08-14T10:04:08'
+  fix: keep_one
+  issue_key: duplicate_file:2024-11-13-oil-slick-leap/4d6988a037b4416e.mp4
+- filename: 51e2047f5f2f1073.webp
+  album: 2024-11-14, Bonaire, Red Slave
+  deleted_at: '2026-08-14T10:04:45'
+  fix: keep_one
+  issue_key: duplicate_file:2024-11-14-oil-slick-leap/51e2047f5f2f1073.webp
+- filename: 7516e26f23bfdaeb.webp
+  album: 2024-11-14, Bonaire, Red Slave
+  deleted_at: '2026-08-14T10:04:56'
+  fix: keep_one
+  issue_key: duplicate_file:2024-11-14-oil-slick-leap/7516e26f23bfdaeb.webp
+- filename: 7c2459fc40eb2519.webp
+  album: 2024-11-14, Bonaire, Oil Slick Leap
+  deleted_at: '2026-08-14T10:05:01'
+  fix: keep_one
+  issue_key: duplicate_file:2024-11-13-oil-slick-leap/7c2459fc40eb2519.webp
+- filename: 7c2459fc40eb2519.webp
+  album: 2024-11-14, Bonaire, Red Slave
+  deleted_at: '2026-08-14T10:05:01'
+  fix: keep_one
+  issue_key: duplicate_file:2024-11-13-oil-slick-leap/7c2459fc40eb2519.webp
+- filename: 9f0479b19ced4e79.webp
+  album: 2024-11-14, Bonaire, Oil Slick Leap
+  deleted_at: '2026-08-14T10:05:23'
+  fix: keep_one
+  issue_key: duplicate_file:2024-11-13-oil-slick-leap/9f0479b19ced4e79.webp
+- filename: 9f0479b19ced4e79.webp
+  album: 2024-11-14, Bonaire, Red Slave
+  deleted_at: '2026-08-14T10:05:23'
+  fix: keep_one
+  issue_key: duplicate_file:2024-11-13-oil-slick-leap/9f0479b19ced4e79.webp
+- filename: a7a35de2d73fee5b.webp
+  album: 2024-11-14, Bonaire, Red Slave
+  deleted_at: '2026-08-14T10:05:35'
+  fix: keep_one
+  issue_key: duplicate_file:2024-11-14-oil-slick-leap/a7a35de2d73fee5b.webp
+- filename: b03171545eb2da76.webp
+  album: 2024-11-14, Bonaire, Oil Slick Leap
+  deleted_at: '2026-08-14T10:05:40'
+  fix: keep_one
+  issue_key: duplicate_file:2024-11-13-oil-slick-leap/b03171545eb2da76.webp
+- filename: b03171545eb2da76.webp
+  album: 2024-11-14, Bonaire, Red Slave
+  deleted_at: '2026-08-14T10:05:40'
+  fix: keep_one
+  issue_key: duplicate_file:2024-11-13-oil-slick-leap/b03171545eb2da76.webp
+- filename: b6c3a048e1143bc2.webp
+  album: 2024-11-14, Bonaire, Oil Slick Leap
+  deleted_at: '2026-08-14T10:05:42'
+  fix: keep_one
+  issue_key: duplicate_file:2024-11-13-oil-slick-leap/b6c3a048e1143bc2.webp
+- filename: b6c3a048e1143bc2.webp
+  album: 2024-11-14, Bonaire, Red Slave
+  deleted_at: '2026-08-14T10:05:42'
+  fix: keep_one
+  issue_key: duplicate_file:2024-11-13-oil-slick-leap/b6c3a048e1143bc2.webp
+- filename: b74b98565201493c.webp
+  album: 2024-11-14, Bonaire, Oil Slick Leap
+  deleted_at: '2026-08-14T10:05:45'
+  fix: keep_one
+  issue_key: duplicate_file:2024-11-13-oil-slick-leap/b74b98565201493c.webp
+- filename: b74b98565201493c.webp
+  album: 2024-11-14, Bonaire, Red Slave
+  deleted_at: '2026-08-14T10:05:45'
+  fix: keep_one
+  issue_key: duplicate_file:2024-11-13-oil-slick-leap/b74b98565201493c.webp
+- filename: d6e938478976d800.webp
+  album: 2024-11-14, Bonaire, Oil Slick Leap
+  deleted_at: '2026-08-14T10:05:55'
+  fix: keep_one
+  issue_key: duplicate_file:2024-11-13-oil-slick-leap/d6e938478976d800.webp
+- filename: d6e938478976d800.webp
+  album: 2024-11-14, Bonaire, Red Slave
+  deleted_at: '2026-08-14T10:05:55'
+  fix: keep_one
+  issue_key: duplicate_file:2024-11-13-oil-slick-leap/d6e938478976d800.webp
+- filename: eff2afc6d4d85e54.webp
+  album: 2024-11-14, Bonaire, Oil Slick Leap
+  deleted_at: '2026-08-14T10:05:57'
+  fix: keep_one
+  issue_key: duplicate_file:2024-11-13-oil-slick-leap/eff2afc6d4d85e54.webp
+- filename: eff2afc6d4d85e54.webp
+  album: 2024-11-14, Bonaire, Red Slave
+  deleted_at: '2026-08-14T10:05:57'
+  fix: keep_one
+  issue_key: duplicate_file:2024-11-13-oil-slick-leap/eff2afc6d4d85e54.webp
+- filename: f8165bef723a1fab.webp
+  album: 2024-11-14, Bonaire, Oil Slick Leap
+  deleted_at: '2026-08-14T10:06:00'
+  fix: keep_one
+  issue_key: duplicate_file:2024-11-13-oil-slick-leap/f8165bef723a1fab.webp
+- filename: f8165bef723a1fab.webp
+  album: 2024-11-14, Bonaire, Red Slave
+  deleted_at: '2026-08-14T10:06:00'
+  fix: keep_one
+  issue_key: duplicate_file:2024-11-13-oil-slick-leap/f8165bef723a1fab.webp
+- filename: 91a4bfa2cfe857bf.webp
+  album: 2024-11-14, Bonaire, Red Slave
+  deleted_at: '2026-08-14T10:06:23'
+  fix: keep_one
+  issue_key: duplicate_file:2024-11-14-oil-slick-leap/91a4bfa2cfe857bf.webp
+- filename: b2e0eb8b8f98d5af.webp
+  album: 2025-08-12 - Candyland
+  deleted_at: '2026-08-14T11:40:00'
+  fix: delete_file
+  issue_key: gps_far:2025-08-12-candyland/b2e0eb8b8f98d5af.webp
+- filename: 8770850e90a76b20.webp
+  album: 2024-11-14, Bonaire, Oil Slick Leap
+  deleted_at: '2026-08-14T11:42:06'
+  fix: keep_one
+  issue_key: duplicate_file:2024-11-14-oil-slick-leap/8770850e90a76b20.webp
+- filename: d55831602892b737.webp
+  album: 2024-11-14, Bonaire, Oil Slick Leap
+  deleted_at: '2026-08-14T11:42:15'
+  fix: keep_one
+  issue_key: duplicate_file:2024-11-14-oil-slick-leap/d55831602892b737.webp
+- filename: 9aa17d39cda6426b.mp4
+  album: Bonaire, Something Special, 2024-03-10
+  deleted_at: '2026-08-14T17:45:09'
+  fix: delete_file
+  issue_key: dive_window:2024-03-10-something-special/9aa17d39cda6426b.mp4
+- filename: 105c15b00ec9d0c7.webp
+  album: Bonaire, Oil Slick Leap, 2024-03-11
+  deleted_at: '2026-08-14T18:18:26'
+  fix: delete_file
+  issue_key: dive_window:2024-03-11-oil-slick-leap/105c15b00ec9d0c7.webp
+- filename: dcd21debdef477de.webp
+  album: Bonaire, Oil Slick Leap, 2024-03-11
+  deleted_at: '2026-08-14T18:18:28'
+  fix: delete_file
+  issue_key: dive_window:2024-03-11-oil-slick-leap/dcd21debdef477de.webp
+- filename: dec72c03f2fb5a36.dive-plus.mp4
+  album: Bonaire, Oil Slick Leap, 2024-03-11
+  deleted_at: '2026-08-14T18:18:39'
+  fix: delete_file
+  issue_key: dive_window:2024-03-11-oil-slick-leap/dec72c03f2fb5a36.mp4
+- filename: dec72c03f2fb5a36.mp4
+  album: Bonaire, Oil Slick Leap, 2024-03-11
+  deleted_at: '2026-08-14T18:18:39'
+  fix: delete_file
+  issue_key: dive_window:2024-03-11-oil-slick-leap/dec72c03f2fb5a36.mp4
+- filename: 3748006d808588f3.webp
+  album: 2024-11-14, Bonaire, Oil Slick Leap
+  deleted_at: '2026-08-15T01:03:06'
+  fix: move_to_dive
+  issue_key: plan:2024-11-14-oil-slick-leap/3748006d808588f3.webp
+- filename: 51e2047f5f2f1073.webp
+  album: 2024-11-14, Bonaire, Oil Slick Leap
+  deleted_at: '2026-08-15T01:03:06'
+  fix: move_to_dive
+  issue_key: plan:2024-11-14-oil-slick-leap/51e2047f5f2f1073.webp
+- filename: 7516e26f23bfdaeb.webp
+  album: 2024-11-14, Bonaire, Oil Slick Leap
+  deleted_at: '2026-08-15T01:03:06'
+  fix: move_to_dive
+  issue_key: plan:2024-11-14-oil-slick-leap/7516e26f23bfdaeb.webp
+- filename: 91a4bfa2cfe857bf.webp
+  album: 2024-11-14, Bonaire, Oil Slick Leap
+  deleted_at: '2026-08-15T01:03:06'
+  fix: move_to_dive
+  issue_key: plan:2024-11-14-oil-slick-leap/91a4bfa2cfe857bf.webp
+- filename: a7a35de2d73fee5b.webp
+  album: 2024-11-14, Bonaire, Oil Slick Leap
+  deleted_at: '2026-08-15T01:03:06'
+  fix: move_to_dive
+  issue_key: plan:2024-11-14-oil-slick-leap/a7a35de2d73fee5b.webp
+- filename: 73f923b02365d096.webp
+  album: 2024-11-14, Bonaire, Red Slave
+  deleted_at: '2026-08-15T01:03:06'
+  fix: delete_file
+  issue_key: plan:2024-11-14-red-slave/73f923b02365d096.webp
+- filename: 26c95eabcd0847cf.webp
+  album: 2025-08-10 - Bonaire, Salt Pier
+  deleted_at: '2026-08-15T01:03:06'
+  fix: delete_file
+  issue_key: plan:2025-08-10-salt-pier/26c95eabcd0847cf.webp
+- filename: 807afabf05303f4f.webp
+  album: 2025-08-12 - Candyland
+  deleted_at: '2026-08-15T01:03:06'
+  fix: delete_file
+  issue_key: plan:2025-08-12-candyland/807afabf05303f4f.webp
