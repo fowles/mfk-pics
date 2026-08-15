@@ -45,33 +45,9 @@ dive_sites:
   Bachelor's Beach:
     lat: 12.125370400000001
     lon: -68.2874429
-  Juliet Live Aboard:
-    lat: 25.6511059
-    lon: -79.2927854
   Tori's Reef:
     lat: 12.070475199999999
     lon: -68.2806703
-  Juliet Live Aboard 1:
-    lat: 25.7737406
-    lon: -80.1900783
-  Juliet Live Aboard 2:
-    lat: 25.7737406
-    lon: -80.1900783
-  Juliet Live Aboard 3:
-    lat: 25.7737406
-    lon: -80.1900783
-  Juliet Live Aboard 4:
-    lat: 25.7737406
-    lon: -80.1900783
-  Juliet Live Aboard 5:
-    lat: 25.7737406
-    lon: -80.1900783
-  Juliet Live Aboard 6:
-    lat: 25.7737406
-    lon: -80.1900783
-  Juliet Live Aboard 7:
-    lat: 25.7737406
-    lon: -80.1900783
   Pink Beach:
     lat: 12.0662114
     lon: -68.2814167
@@ -84,6 +60,24 @@ dive_sites:
   Jeff Davis Memorial:
     lat: 12.2050008
     lon: -68.3139741
+  Sponge Garden:
+    lat: 25.5251
+    lon: -79.303
+  Lunkhead:
+    lat: 25.4636
+    lon: -79.2431
+  Krispy Kreme:
+    lat: 25.5543
+    lon: -79.2886
+  Moxon Rocks:
+    lat: 25.54167
+    lon: -79.27083
+  Bull Run:
+    lat: 25.5006
+    lon: -79.2641
+  'Wreck #2':
+    lat: 25.7183
+    lon: -79.3154
 deploy:
   account_id: "605649affbab92b2f8367d609dc4f3b6"
   bucket: "mfk-pics-images"
