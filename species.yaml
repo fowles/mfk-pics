@@ -1,0 +1,191 @@
+# SPDX-License-Identifier: MIT
+# Species registry: scientific name is the identity key; common name is display.
+# aliases fold other common names to the entry (verbatim, never fuzzy);
+# regions is free text (used by the identify engine's candidate filter, later).
+- {scientific: "Pterois volitans", common: "Red Lionfish", aliases: ["Lionfish"], regions: ["Caribbean"]}
+- {scientific: "Sparisoma viride", common: "Stoplight Parrotfish", regions: ["Caribbean"]}
+- {scientific: "Scarus vetula", common: "Queen Parrotfish", regions: ["Caribbean"]}
+- {scientific: "Scarus taeniopterus", common: "Princess Parrotfish", regions: ["Caribbean"]}
+- {scientific: "Scarus iseri", common: "Striped Parrotfish", regions: ["Caribbean"]}
+- {scientific: "Sparisoma aurofrenatum", common: "Redband Parrotfish", regions: ["Caribbean"]}
+- {scientific: "Sparisoma rubripinne", common: "Yellowtail Parrotfish", aliases: ["Redfin Parrotfish"], regions: ["Caribbean"]}
+- {scientific: "Scarus guacamaia", common: "Rainbow Parrotfish", regions: ["Caribbean"]}
+- {scientific: "Scarus coeruleus", common: "Blue Parrotfish", regions: ["Caribbean"]}
+- {scientific: "Scarus coelestinus", common: "Midnight Parrotfish", regions: ["Caribbean"]}
+- {scientific: "Holacanthus ciliaris", common: "Queen Angelfish", regions: ["Caribbean"]}
+- {scientific: "Pomacanthus paru", common: "French Angelfish", regions: ["Caribbean"]}
+- {scientific: "Pomacanthus arcuatus", common: "Gray Angelfish", regions: ["Caribbean"]}
+- {scientific: "Holacanthus tricolor", common: "Rock Beauty", regions: ["Caribbean"]}
+- {scientific: "Centropyge argi", common: "Cherubfish", regions: ["Caribbean"]}
+- {scientific: "Chaetodon capistratus", common: "Foureye Butterflyfish", regions: ["Caribbean"]}
+- {scientific: "Chaetodon ocellatus", common: "Spotfin Butterflyfish", regions: ["Caribbean"]}
+- {scientific: "Chaetodon striatus", common: "Banded Butterflyfish", regions: ["Caribbean"]}
+- {scientific: "Prognathodes aculeatus", common: "Longsnout Butterflyfish", regions: ["Caribbean"]}
+- {scientific: "Acanthurus coeruleus", common: "Blue Tang", regions: ["Caribbean"]}
+- {scientific: "Acanthurus chirurgus", common: "Doctorfish", regions: ["Caribbean"]}
+- {scientific: "Acanthurus tractus", common: "Ocean Surgeonfish", regions: ["Caribbean"]}
+- {scientific: "Balistes vetula", common: "Queen Triggerfish", regions: ["Caribbean"]}
+- {scientific: "Melichthys niger", common: "Black Durgon", regions: ["Caribbean"]}
+- {scientific: "Canthidermis sufflamen", common: "Ocean Triggerfish", regions: ["Caribbean"]}
+- {scientific: "Aluterus scriptus", common: "Scrawled Filefish", regions: ["Caribbean"]}
+- {scientific: "Cantherhines pullus", common: "Orangespotted Filefish", regions: ["Caribbean"]}
+- {scientific: "Cantherhines macrocerus", common: "Whitespotted Filefish", regions: ["Caribbean"]}
+- {scientific: "Monacanthus tuckeri", common: "Slender Filefish", regions: ["Caribbean"]}
+- {scientific: "Lactophrys triqueter", common: "Smooth Trunkfish", regions: ["Caribbean"]}
+- {scientific: "Acanthostracion polygonius", common: "Honeycomb Cowfish", regions: ["Caribbean"]}
+- {scientific: "Acanthostracion quadricornis", common: "Scrawled Cowfish", regions: ["Caribbean"]}
+- {scientific: "Lactophrys bicaudalis", common: "Spotted Trunkfish", regions: ["Caribbean"]}
+- {scientific: "Diodon hystrix", common: "Porcupinefish", regions: ["Caribbean"]}
+- {scientific: "Diodon holocanthus", common: "Balloonfish", regions: ["Caribbean"]}
+- {scientific: "Canthigaster rostrata", common: "Sharpnose Puffer", regions: ["Caribbean"]}
+- {scientific: "Sphoeroides spengleri", common: "Bandtail Puffer", regions: ["Caribbean"]}
+- {scientific: "Chilomycterus antillarum", common: "Web Burrfish", regions: ["Caribbean"]}
+- {scientific: "Ocyurus chrysurus", common: "Yellowtail Snapper", regions: ["Caribbean"]}
+- {scientific: "Lutjanus apodus", common: "Schoolmaster", regions: ["Caribbean"]}
+- {scientific: "Lutjanus mahogoni", common: "Mahogany Snapper", regions: ["Caribbean"]}
+- {scientific: "Lutjanus griseus", common: "Gray Snapper", aliases: ["Mangrove Snapper"], regions: ["Caribbean"]}
+- {scientific: "Lutjanus analis", common: "Mutton Snapper", regions: ["Caribbean"]}
+- {scientific: "Lutjanus jocu", common: "Dog Snapper", regions: ["Caribbean"]}
+- {scientific: "Haemulon flavolineatum", common: "French Grunt", regions: ["Caribbean"]}
+- {scientific: "Haemulon sciurus", common: "Bluestriped Grunt", regions: ["Caribbean"]}
+- {scientific: "Haemulon plumierii", common: "White Grunt", regions: ["Caribbean"]}
+- {scientific: "Haemulon carbonarium", common: "Caesar Grunt", regions: ["Caribbean"]}
+- {scientific: "Haemulon chrysargyreum", common: "Smallmouth Grunt", regions: ["Caribbean"]}
+- {scientific: "Anisotremus virginicus", common: "Porkfish", regions: ["Caribbean"]}
+- {scientific: "Anisotremus surinamensis", common: "Black Margate", regions: ["Caribbean"]}
+- {scientific: "Cephalopholis cruentata", common: "Graysby", regions: ["Caribbean"]}
+- {scientific: "Cephalopholis fulva", common: "Coney", regions: ["Caribbean"]}
+- {scientific: "Epinephelus guttatus", common: "Red Hind", regions: ["Caribbean"]}
+- {scientific: "Epinephelus striatus", common: "Nassau Grouper", regions: ["Caribbean"]}
+- {scientific: "Mycteroperca tigris", common: "Tiger Grouper", regions: ["Caribbean"]}
+- {scientific: "Mycteroperca bonaci", common: "Black Grouper", regions: ["Caribbean"]}
+- {scientific: "Mycteroperca venenosa", common: "Yellowfin Grouper", regions: ["Caribbean"]}
+- {scientific: "Epinephelus itajara", common: "Goliath Grouper", regions: ["Caribbean"]}
+- {scientific: "Hypoplectrus puella", common: "Barred Hamlet", regions: ["Caribbean"]}
+- {scientific: "Hypoplectrus unicolor", common: "Butter Hamlet", regions: ["Caribbean"]}
+- {scientific: "Hypoplectrus indigo", common: "Indigo Hamlet", regions: ["Caribbean"]}
+- {scientific: "Hypoplectrus nigricans", common: "Black Hamlet", regions: ["Caribbean"]}
+- {scientific: "Hypoplectrus chlorurus", common: "Yellowtail Hamlet", regions: ["Caribbean"]}
+- {scientific: "Serranus tigrinus", common: "Harlequin Bass", regions: ["Caribbean"]}
+- {scientific: "Serranus tabacarius", common: "Tobaccofish", regions: ["Caribbean"]}
+- {scientific: "Gramma loreto", common: "Fairy Basslet", aliases: ["Royal Gramma"], regions: ["Caribbean"]}
+- {scientific: "Chromis cyanea", common: "Blue Chromis", regions: ["Caribbean"]}
+- {scientific: "Chromis multilineata", common: "Brown Chromis", regions: ["Caribbean"]}
+- {scientific: "Stegastes partitus", common: "Bicolor Damselfish", regions: ["Caribbean"]}
+- {scientific: "Stegastes adustus", common: "Dusky Damselfish", regions: ["Caribbean"]}
+- {scientific: "Stegastes planifrons", common: "Threespot Damselfish", regions: ["Caribbean"]}
+- {scientific: "Stegastes leucostictus", common: "Beaugregory", regions: ["Caribbean"]}
+- {scientific: "Microspathodon chrysurus", common: "Yellowtail Damselfish", regions: ["Caribbean"]}
+- {scientific: "Abudefduf saxatilis", common: "Sergeant Major", regions: ["Caribbean"]}
+- {scientific: "Thalassoma bifasciatum", common: "Bluehead Wrasse", aliases: ["Bluehead"], regions: ["Caribbean"]}
+- {scientific: "Halichoeres bivittatus", common: "Slippery Dick", regions: ["Caribbean"]}
+- {scientific: "Halichoeres garnoti", common: "Yellowhead Wrasse", regions: ["Caribbean"]}
+- {scientific: "Halichoeres radiatus", common: "Puddingwife", regions: ["Caribbean"]}
+- {scientific: "Halichoeres maculipinna", common: "Clown Wrasse", regions: ["Caribbean"]}
+- {scientific: "Bodianus rufus", common: "Spanish Hogfish", regions: ["Caribbean"]}
+- {scientific: "Lachnolaimus maximus", common: "Hogfish", regions: ["Caribbean"]}
+- {scientific: "Clepticus parrae", common: "Creole Wrasse", regions: ["Caribbean"]}
+- {scientific: "Xyrichtys splendens", common: "Green Razorfish", regions: ["Caribbean"]}
+- {scientific: "Xyrichtys martinicensis", common: "Rosy Razorfish", regions: ["Caribbean"]}
+- {scientific: "Coryphopterus glaucofraenum", common: "Bridled Goby", regions: ["Caribbean"]}
+- {scientific: "Elacatinus evelynae", common: "Sharknose Goby", regions: ["Caribbean"]}
+- {scientific: "Elacatinus oceanops", common: "Neon Goby", regions: ["Caribbean"]}
+- {scientific: "Gnatholepis thompsoni", common: "Goldspot Goby", regions: ["Caribbean"]}
+- {scientific: "Coryphopterus personatus", common: "Masked Goby", regions: ["Caribbean"]}
+- {scientific: "Malacoctenus triangulatus", common: "Saddled Blenny", regions: ["Caribbean"]}
+- {scientific: "Ophioblennius macclurei", common: "Redlip Blenny", regions: ["Caribbean"]}
+- {scientific: "Acanthemblemaria spinosa", common: "Spinyhead Blenny", regions: ["Caribbean"]}
+- {scientific: "Acanthemblemaria maria", common: "Secretary Blenny", regions: ["Caribbean"]}
+- {scientific: "Emblemaria pandionis", common: "Sailfin Blenny", regions: ["Caribbean"]}
+- {scientific: "Opistognathus aurifrons", common: "Yellowhead Jawfish", regions: ["Caribbean"]}
+- {scientific: "Sphyraena barracuda", common: "Great Barracuda", aliases: ["Barracuda"], regions: ["Caribbean"]}
+- {scientific: "Caranx ruber", common: "Bar Jack", regions: ["Caribbean"]}
+- {scientific: "Caranx latus", common: "Horse-eye Jack", regions: ["Caribbean"]}
+- {scientific: "Caranx crysos", common: "Blue Runner", regions: ["Caribbean"]}
+- {scientific: "Trachinotus falcatus", common: "Permit", regions: ["Caribbean"]}
+- {scientific: "Selar crumenophthalmus", common: "Bigeye Scad", regions: ["Caribbean"]}
+- {scientific: "Aulostomus maculatus", common: "Trumpetfish", regions: ["Caribbean"]}
+- {scientific: "Fistularia tabacaria", common: "Bluespotted Cornetfish", regions: ["Caribbean"]}
+- {scientific: "Kyphosus sectatrix", common: "Bermuda Chub", regions: ["Caribbean"]}
+- {scientific: "Calamus calamus", common: "Saucereye Porgy", regions: ["Caribbean"]}
+- {scientific: "Holocentrus adscensionis", common: "Squirrelfish", regions: ["Caribbean"]}
+- {scientific: "Holocentrus rufus", common: "Longspine Squirrelfish", regions: ["Caribbean"]}
+- {scientific: "Myripristis jacobus", common: "Blackbar Soldierfish", regions: ["Caribbean"]}
+- {scientific: "Sargocentron coruscum", common: "Reef Squirrelfish", regions: ["Caribbean"]}
+- {scientific: "Neoniphon marianus", common: "Longjaw Squirrelfish", regions: ["Caribbean"]}
+- {scientific: "Pempheris schomburgkii", common: "Glassy Sweeper", regions: ["Caribbean"]}
+- {scientific: "Apogon maculatus", common: "Flamefish", regions: ["Caribbean"]}
+- {scientific: "Heteropriacanthus cruentatus", common: "Glasseye Snapper", regions: ["Caribbean"]}
+- {scientific: "Pseudupeneus maculatus", common: "Spotted Goatfish", regions: ["Caribbean"]}
+- {scientific: "Mulloidichthys martinicus", common: "Yellow Goatfish", regions: ["Caribbean"]}
+- {scientific: "Equetus punctatus", common: "Spotted Drum", regions: ["Caribbean"]}
+- {scientific: "Equetus lanceolatus", common: "Jackknife-fish", regions: ["Caribbean"]}
+- {scientific: "Pareques acuminatus", common: "Highhat", regions: ["Caribbean"]}
+- {scientific: "Scorpaena plumieri", common: "Spotted Scorpionfish", regions: ["Caribbean"]}
+- {scientific: "Bothus lunatus", common: "Peacock Flounder", regions: ["Caribbean"]}
+- {scientific: "Synodus intermedius", common: "Sand Diver", regions: ["Caribbean"]}
+- {scientific: "Dactylopterus volitans", common: "Flying Gurnard", regions: ["Caribbean"]}
+- {scientific: "Hippocampus reidi", common: "Longsnout Seahorse", regions: ["Caribbean"]}
+- {scientific: "Hippocampus erectus", common: "Lined Seahorse", regions: ["Caribbean"]}
+- {scientific: "Antennarius multiocellatus", common: "Longlure Frogfish", regions: ["Caribbean"]}
+- {scientific: "Ogcocephalus nasutus", common: "Shortnose Batfish", regions: ["Caribbean"]}
+- {scientific: "Gymnothorax moringa", common: "Spotted Moray", regions: ["Caribbean"]}
+- {scientific: "Gymnothorax funebris", common: "Green Moray", regions: ["Caribbean"]}
+- {scientific: "Gymnothorax miliaris", common: "Goldentail Moray", regions: ["Caribbean"]}
+- {scientific: "Echidna catenata", common: "Chain Moray", regions: ["Caribbean"]}
+- {scientific: "Enchelycore carychroa", common: "Chestnut Moray", regions: ["Caribbean"]}
+- {scientific: "Myrichthys breviceps", common: "Sharptail Eel", regions: ["Caribbean"]}
+- {scientific: "Myrichthys ocellatus", common: "Goldspotted Eel", regions: ["Caribbean"]}
+- {scientific: "Heteroconger longissimus", common: "Brown Garden Eel", regions: ["Caribbean"]}
+- {scientific: "Ginglymostoma cirratum", common: "Nurse Shark", regions: ["Caribbean"]}
+- {scientific: "Carcharhinus perezi", common: "Caribbean Reef Shark", regions: ["Caribbean"]}
+- {scientific: "Sphyrna mokarran", common: "Great Hammerhead", regions: ["Caribbean"]}
+- {scientific: "Negaprion brevirostris", common: "Lemon Shark", regions: ["Caribbean"]}
+- {scientific: "Galeocerdo cuvier", common: "Tiger Shark", regions: ["Caribbean"]}
+- {scientific: "Hypanus americanus", common: "Southern Stingray", regions: ["Caribbean"]}
+- {scientific: "Urobatis jamaicensis", common: "Yellow Stingray", regions: ["Caribbean"]}
+- {scientific: "Aetobatus narinari", common: "Spotted Eagle Ray", regions: ["Caribbean"]}
+- {scientific: "Chelonia mydas", common: "Green Sea Turtle", aliases: ["Green Turtle"], regions: ["Caribbean"]}
+- {scientific: "Eretmochelys imbricata", common: "Hawksbill Sea Turtle", aliases: ["Hawksbill Turtle"], regions: ["Caribbean"]}
+- {scientific: "Caretta caretta", common: "Loggerhead Sea Turtle", aliases: ["Loggerhead Turtle"], regions: ["Caribbean"]}
+- {scientific: "Tursiops truncatus", common: "Bottlenose Dolphin", regions: ["Caribbean"]}
+- {scientific: "Octopus briareus", common: "Caribbean Reef Octopus", regions: ["Caribbean"]}
+- {scientific: "Octopus vulgaris", common: "Common Octopus", regions: ["Caribbean"]}
+- {scientific: "Sepioteuthis sepioidea", common: "Caribbean Reef Squid", regions: ["Caribbean"]}
+- {scientific: "Panulirus argus", common: "Caribbean Spiny Lobster", aliases: ["Spiny Lobster"], regions: ["Caribbean"]}
+- {scientific: "Panulirus guttatus", common: "Spotted Spiny Lobster", regions: ["Caribbean"]}
+- {scientific: "Stenopus hispidus", common: "Banded Coral Shrimp", regions: ["Caribbean"]}
+- {scientific: "Periclimenes yucatanicus", common: "Spotted Cleaner Shrimp", regions: ["Caribbean"]}
+- {scientific: "Ancylomenes pedersoni", common: "Pederson Cleaner Shrimp", regions: ["Caribbean"]}
+- {scientific: "Lysmata wurdemanni", common: "Peppermint Shrimp", regions: ["Caribbean"]}
+- {scientific: "Mithrax spinosissimus", common: "Channel Clinging Crab", regions: ["Caribbean"]}
+- {scientific: "Stenorhynchus seticornis", common: "Yellowline Arrow Crab", aliases: ["Arrow Crab"], regions: ["Caribbean"]}
+- {scientific: "Percnon gibbesi", common: "Nimble Spray Crab", regions: ["Caribbean"]}
+- {scientific: "Paguristes cadenati", common: "Red Reef Hermit Crab", regions: ["Caribbean"]}
+- {scientific: "Diadema antillarum", common: "Long-spined Sea Urchin", regions: ["Caribbean"]}
+- {scientific: "Oreaster reticulatus", common: "Cushion Sea Star", regions: ["Caribbean"]}
+- {scientific: "Ophiothrix suensonii", common: "Sponge Brittle Star", regions: ["Caribbean"]}
+- {scientific: "Holothuria mexicana", common: "Donkey Dung Sea Cucumber", regions: ["Caribbean"]}
+- {scientific: "Davidaster rubiginosus", common: "Golden Crinoid", regions: ["Caribbean"]}
+- {scientific: "Condylactis gigantea", common: "Giant Anemone", regions: ["Caribbean"]}
+- {scientific: "Bartholomea annulata", common: "Corkscrew Anemone", regions: ["Caribbean"]}
+- {scientific: "Spirobranchus giganteus", common: "Christmas Tree Worm", regions: ["Caribbean"]}
+- {scientific: "Hermodice carunculata", common: "Bearded Fireworm", regions: ["Caribbean"]}
+- {scientific: "Elysia crispata", common: "Lettuce Sea Slug", regions: ["Caribbean"]}
+- {scientific: "Cyphoma gibbosum", common: "Flamingo Tongue", regions: ["Caribbean"]}
+- {scientific: "Cassiopea xamachana", common: "Upside-down Jellyfish", regions: ["Caribbean"]}
+- {scientific: "Aurelia aurita", common: "Moon Jellyfish", regions: ["Caribbean"]}
+- {scientific: "Xestospongia muta", common: "Giant Barrel Sponge", regions: ["Caribbean"]}
+- {scientific: "Aplysina fistularis", common: "Yellow Tube Sponge", regions: ["Caribbean"]}
+- {scientific: "Callyspongia plicifera", common: "Azure Vase Sponge", regions: ["Caribbean"]}
+- {scientific: "Acropora palmata", common: "Elkhorn Coral", regions: ["Caribbean"]}
+- {scientific: "Acropora cervicornis", common: "Staghorn Coral", regions: ["Caribbean"]}
+- {scientific: "Orbicella annularis", common: "Lobed Star Coral", regions: ["Caribbean"]}
+- {scientific: "Montastraea cavernosa", common: "Great Star Coral", regions: ["Caribbean"]}
+- {scientific: "Colpophyllia natans", common: "Boulder Brain Coral", regions: ["Caribbean"]}
+- {scientific: "Diploria labyrinthiformis", common: "Grooved Brain Coral", regions: ["Caribbean"]}
+- {scientific: "Dendrogyra cylindrus", common: "Pillar Coral", regions: ["Caribbean"]}
+- {scientific: "Millepora complanata", common: "Blade Fire Coral", regions: ["Caribbean"]}
+- {scientific: "Gorgonia ventalina", common: "Common Sea Fan", regions: ["Caribbean"]}
+- {scientific: "Antillogorgia americana", common: "Slimy Sea Plume", regions: ["Caribbean"]}
+- {scientific: "Cirrhipathes leutkeni", common: "Wire Coral", regions: ["Caribbean"]}
