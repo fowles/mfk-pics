@@ -190,4 +190,4 @@
 - {scientific: "Gorgonia ventalina", common: "Common Sea Fan", regions: ["Caribbean"]}
 - {scientific: "Antillogorgia americana", common: "Slimy Sea Plume", regions: ["Caribbean"]}
 - {scientific: "Cirrhipathes leutkeni", common: "Wire Coral", regions: ["Caribbean"]}
-- {scientific: "Homo sapiens"}
+- {scientific: "Homo sapiens", sort_last: true}
