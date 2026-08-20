@@ -218,3 +218,52 @@
 - {scientific: "Eucidaris tribuloides", common: "Slate Pencil Urchin", regions: ["Caribbean"]}
 - {scientific: "Tripneustes ventricosus", common: "West Indian Sea Egg", regions: ["Caribbean"]}
 - {scientific: "Homo sapiens", sort_last: true}
+
+# --- Distractors -----------------------------------------------------------
+# Scored by `identify` alongside the taxa above, but NEVER surfaced as an
+# identification and never published: they exist to absorb frames with no
+# identifiable subject (reef-scape, sponge, rubble), which a closed-vocabulary
+# engine would otherwise force onto the nearest real taxon at high confidence.
+# Flip `distractor` to move an entry between the two roles - that is the whole
+# migration. Adding one costs a text embedding; it cannot corrupt a good ID.
+
+- {scientific: "Xestospongia muta", common: "Giant Barrel Sponge", regions: ["Caribbean"], distractor: true}
+- {scientific: "Aplysina fistularis", common: "Yellow Tube Sponge", regions: ["Caribbean"], distractor: true}
+- {scientific: "Aplysina archeri", common: "Stove-pipe Sponge", regions: ["Caribbean"], distractor: true}
+- {scientific: "Callyspongia plicifera", common: "Azure Vase Sponge", regions: ["Caribbean"], distractor: true}
+- {scientific: "Niphates digitalis", common: "Pink Vase Sponge", regions: ["Caribbean"], distractor: true}
+- {scientific: "Agelas clathrodes", common: "Orange Elephant Ear Sponge", regions: ["Caribbean"], distractor: true}
+- {scientific: "Acropora palmata", common: "Elkhorn Coral", regions: ["Caribbean"], distractor: true}
+- {scientific: "Acropora cervicornis", common: "Staghorn Coral", regions: ["Caribbean"], distractor: true}
+- {scientific: "Orbicella annularis", common: "Lobed Star Coral", regions: ["Caribbean"], distractor: true}
+- {scientific: "Orbicella faveolata", common: "Mountainous Star Coral", regions: ["Caribbean"], distractor: true}
+- {scientific: "Montastraea cavernosa", common: "Great Star Coral", regions: ["Caribbean"], distractor: true}
+- {scientific: "Colpophyllia natans", common: "Boulder Brain Coral", regions: ["Caribbean"], distractor: true}
+- {scientific: "Diploria labyrinthiformis", common: "Grooved Brain Coral", regions: ["Caribbean"], distractor: true}
+- {scientific: "Pseudodiploria strigosa", common: "Symmetrical Brain Coral", regions: ["Caribbean"], distractor: true}
+- {scientific: "Dendrogyra cylindrus", common: "Pillar Coral", regions: ["Caribbean"], distractor: true}
+- {scientific: "Siderastrea siderea", common: "Massive Starlet Coral", regions: ["Caribbean"], distractor: true}
+- {scientific: "Agaricia agaricites", common: "Lettuce Coral", regions: ["Caribbean"], distractor: true}
+- {scientific: "Porites astreoides", common: "Mustard Hill Coral", regions: ["Caribbean"], distractor: true}
+- {scientific: "Porites porites", common: "Finger Coral", regions: ["Caribbean"], distractor: true}
+- {scientific: "Eusmilia fastigiata", common: "Smooth Flower Coral", regions: ["Caribbean"], distractor: true}
+- {scientific: "Madracis auretenra", common: "Yellow Pencil Coral", regions: ["Caribbean"], distractor: true}
+- {scientific: "Meandrina meandrites", common: "Maze Coral", regions: ["Caribbean"], distractor: true}
+- {scientific: "Stephanocoenia intersepta", common: "Blushing Star Coral", regions: ["Caribbean"], distractor: true}
+- {scientific: "Tubastraea coccinea", common: "Orange Cup Coral", regions: ["Caribbean"], distractor: true}
+- {scientific: "Millepora complanata", common: "Blade Fire Coral", regions: ["Caribbean"], distractor: true}
+- {scientific: "Millepora alcicornis", common: "Branching Fire Coral", regions: ["Caribbean"], distractor: true}
+- {scientific: "Gorgonia ventalina", common: "Common Sea Fan", regions: ["Caribbean"], distractor: true}
+- {scientific: "Antillogorgia americana", common: "Slimy Sea Plume", regions: ["Caribbean"], distractor: true}
+- {scientific: "Briareum asbestinum", common: "Corky Sea Finger", regions: ["Caribbean"], distractor: true}
+- {scientific: "Cirrhipathes leutkeni", common: "Wire Coral", regions: ["Caribbean"], distractor: true}
+- {scientific: "Palythoa caribaeorum", common: "White Encrusting Zoanthid", regions: ["Caribbean"], distractor: true}
+- {scientific: "Condylactis gigantea", common: "Giant Anemone", regions: ["Caribbean"], distractor: true}
+- {scientific: "Bartholomea annulata", common: "Corkscrew Anemone", regions: ["Caribbean"], distractor: true}
+- {scientific: "Stichodactyla helianthus", common: "Sun Anemone", regions: ["Caribbean"], distractor: true}
+- {scientific: "Lebrunia neglecta", common: "Branching Anemone", regions: ["Caribbean"], distractor: true}
+- {scientific: "Sabellastarte magnifica", common: "Magnificent Feather Duster", regions: ["Caribbean"], distractor: true}
+- {scientific: "Spirobranchus giganteus", common: "Christmas Tree Worm", regions: ["Caribbean"], distractor: true}
+- {scientific: "Clavelina picta", common: "Painted Tunicate", regions: ["Caribbean"], distractor: true}
+- {scientific: "Thalassia testudinum", common: "Turtle Grass", regions: ["Caribbean"], distractor: true}
+- {scientific: "Halimeda opuntia", common: "Watercress Alga", regions: ["Caribbean"], distractor: true}
