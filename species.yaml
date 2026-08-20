@@ -217,7 +217,10 @@
 - {scientific: "Echinometra viridis", common: "Reef Urchin", regions: ["Caribbean"]}
 - {scientific: "Eucidaris tribuloides", common: "Slate Pencil Urchin", regions: ["Caribbean"]}
 - {scientific: "Tripneustes ventricosus", common: "West Indian Sea Egg", regions: ["Caribbean"]}
-- {scientific: "Homo sapiens", sort_last: true}
+# `unlisted: true`: kept off the homepage Species section, but still listed on
+# /species/, still has its own page, and still shows on a photo it is tagged on.
+- {scientific: "Caracara plancus", common: "Crested Caracara", regions: ["Caribbean"], unlisted: true}
+- {scientific: "Homo sapiens", sort_last: true, unlisted: true}
 
 # --- Distractors -----------------------------------------------------------
 # Scored by `identify` alongside the taxa above, but NEVER surfaced as an
