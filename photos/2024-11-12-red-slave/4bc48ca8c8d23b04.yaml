@@ -1,0 +1,20 @@
+date: '2024-11-12 11:43:46'
+location: Bonaire
+location_source: dive_site
+dive_site: Red Slave
+credit: Delia Kulukundis
+import_album: 2024-11-12, Bonaire, Red Slave
+import_original_name: IMG_4984.JPG
+lat: 12.026556999999999
+lon: -68.2513754
+gps_source: dive_site
+variants:
+- method: google
+  file: 4bc48ca8c8d23b04.google.webp
+  import_original_name: 254a7f1b886cb286.webp
+date_reviewed: true
+dive_window_reviewed: true
+species:
+- scientific: Homo sapiens
+  role: secondary
+  identified_by: human

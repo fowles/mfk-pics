@@ -1,0 +1,15 @@
+date: '2025-08-11 17:01:54'
+location: Bonaire
+location_source: dive_site
+dive_site: Bachelor's Beach
+credit: Matthew Kulukundis
+import_album: 2025-08-11 - Bonaire, Bachelor's Beach
+import_original_name: PXL_20250811_210154581.jpg
+lat: 12.125370400000001
+lon: -68.2874429
+gps_source: dive_site
+variants:
+- method: dive-plus
+  file: 483d4a84f2068a21.dive-plus.webp
+  import_original_name: 97fa6cd1df742e30.webp
+date_reviewed: true

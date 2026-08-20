@@ -1,0 +1,15 @@
+date: '2024-07-09 13:11:33'
+location: Bonaire
+location_source: dive_site
+dive_site: Candyland
+credit: Matthew Kulukundis
+import_album: Candyland, Bonaire, 7-9-2024
+import_original_name: PXL_20240709_171133641.jpg
+lat: 12.222591
+lon: -68.40111449999999
+gps_source: dive_site
+variants:
+- method: dive-plus
+  file: dc73c8ed10ccb47f.dive-plus.webp
+  import_original_name: 2b3995e588e08b79.webp
+date_reviewed: true

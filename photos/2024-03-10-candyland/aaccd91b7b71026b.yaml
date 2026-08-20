@@ -1,0 +1,13 @@
+date: '2024-03-10 11:29:00'
+location: Bonaire
+location_source: dive_site
+dive_site: Candyland
+credit: Matthew Kulukundis
+import_album: Bonaire, Candyland, 2024-03-10
+import_original_name: PXL_20240310_152900796.jpg
+variants:
+- method: dive-plus
+  file: aaccd91b7b71026b.dive-plus.webp
+  import_original_name: 2d74eb7c27caf8d4.webp
+date_reviewed: true
+culled: true

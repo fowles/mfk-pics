@@ -1,0 +1,15 @@
+date: '2024-11-14 17:22:52'
+location: Bonaire
+location_source: dive_site
+dive_site: Oil Slick Leap
+credit: Matthew Kulukundis
+import_album: 2024-11-14, Bonaire, Oil Slick Leap
+import_original_name: PXL_20241114_212252837.jpg
+lat: 12.2001484
+lon: -68.3086211
+gps_source: dive_site
+variants:
+- method: dive-plus
+  file: 03de970d13954834.dive-plus.webp
+  import_original_name: 15068373c5abe425.webp
+date_reviewed: true

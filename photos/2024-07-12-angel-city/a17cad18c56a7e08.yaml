@@ -1,0 +1,15 @@
+date: '2024-07-12 15:36:43'
+location: Bonaire
+location_source: dive_site
+dive_site: Angel City
+credit: Matthew Kulukundis
+import_album: Angel City, Bonaire, 7-12-2024
+import_original_name: PXL_20240712_193643939.jpg
+lat: 12.103454
+lon: -68.2872912
+gps_source: dive_site
+variants:
+- method: dive-plus
+  file: a17cad18c56a7e08.dive-plus.webp
+  import_original_name: 5a6ebbf197f6c04d.webp
+date_reviewed: true

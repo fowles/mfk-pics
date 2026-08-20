@@ -1,0 +1,13 @@
+date: '2024-11-14 14:12:11'
+location: Bonaire
+location_source: dive_site
+dive_site: Red Slave
+credit: Matthew Kulukundis
+import_album: 2024-11-14, Bonaire, Red Slave
+import_original_name: PXL_20241114_181211991.jpg
+variants:
+- method: dive-plus
+  file: 7618c2e61cc8b6d4.dive-plus.webp
+  import_original_name: 9d99197796ae8f84.webp
+date_reviewed: true
+culled: true

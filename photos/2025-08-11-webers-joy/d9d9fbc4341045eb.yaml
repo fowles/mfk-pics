@@ -1,0 +1,15 @@
+date: '2025-08-11 14:04:16'
+location: Bonaire
+location_source: dive_site
+dive_site: Weber's Joy
+credit: Matthew Kulukundis
+import_album: 2025-08-11 - Bonaire, Weber's Joy
+import_original_name: PXL_20250811_180416223.jpg
+lat: 12.2065506
+lon: -68.3164123
+gps_source: dive_site
+variants:
+- method: dive-plus
+  file: d9d9fbc4341045eb.dive-plus.webp
+  import_original_name: b8c3bbe90eb25869.webp
+date_reviewed: true

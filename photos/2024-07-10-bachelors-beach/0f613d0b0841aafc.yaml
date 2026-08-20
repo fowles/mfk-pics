@@ -1,0 +1,15 @@
+date: '2024-07-10 15:55:48'
+location: Bonaire
+location_source: dive_site
+dive_site: Bachelor's Beach
+credit: Matthew Kulukundis
+import_album: Bachelor's Beach, Bonaire 7-10-2024
+import_original_name: PXL_20240710_195548425.jpg
+lat: 12.125370400000001
+lon: -68.2874429
+gps_source: dive_site
+variants:
+- method: dive-plus
+  file: 0f613d0b0841aafc.dive-plus.webp
+  import_original_name: ed15857ad21bc7ae.webp
+date_reviewed: true

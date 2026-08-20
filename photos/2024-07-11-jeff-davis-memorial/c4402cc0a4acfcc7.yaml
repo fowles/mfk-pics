@@ -1,0 +1,15 @@
+date: '2024-07-11 13:19:09'
+location: Bonaire
+location_source: dive_site
+dive_site: Jeff Davis Memorial
+credit: Matthew Kulukundis
+import_album: Jeff Davis Memorial, Bonaire, 7-11-2024
+import_original_name: PXL_20240711_171909939.jpg
+lat: 12.2050008
+lon: -68.3139741
+gps_source: dive_site
+variants:
+- method: dive-plus
+  file: c4402cc0a4acfcc7.dive-plus.webp
+  import_original_name: c86f65028de2d7a7.webp
+date_reviewed: true

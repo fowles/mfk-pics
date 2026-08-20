@@ -1,0 +1,15 @@
+date: '2024-11-09 14:45:02'
+location: Bonaire
+location_source: dive_site
+dive_site: Salt Pier
+credit: Matthew Kulukundis
+import_album: 2024-11-09, Bonaire, Salt Pier
+import_original_name: PXL_20241109_184502518.jpg
+lat: 12.082963699999999
+lon: -68.28180019999999
+gps_source: dive_site
+variants:
+- method: dive-plus
+  file: 9324e72eee56f0f6.dive-plus.webp
+  import_original_name: 7e52c9dad6c927c7.webp
+date_reviewed: true

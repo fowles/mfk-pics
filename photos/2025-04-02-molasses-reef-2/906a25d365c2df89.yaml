@@ -1,0 +1,15 @@
+date: '2025-04-02 14:19:18'
+location: Key West, FL, USA
+location_source: dive_site
+dive_site: Molasses Reef
+credit: Matthew Kulukundis
+import_album: 2025-04-02, USA, FL, Key West, Molasses Reef
+import_original_name: PXL_20250402_181918528.jpg
+variants:
+- method: dive-plus
+  file: 906a25d365c2df89.dive-plus.webp
+  import_original_name: 8281ec2ea4d9e65b.webp
+lat: 25.0151854
+lon: -80.3785098
+gps_source: manual
+date_reviewed: true

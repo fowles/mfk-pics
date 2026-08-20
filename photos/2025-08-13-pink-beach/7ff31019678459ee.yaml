@@ -1,0 +1,15 @@
+date: '2025-08-13 14:45:21'
+location: Bonaire
+location_source: dive_site
+dive_site: Pink Beach
+credit: Matthew Kulukundis
+import_album: 2025-08-13 - Bonaire, Pink Beach
+import_original_name: PXL_20250813_184521206.jpg
+lat: 12.0662114
+lon: -68.2814167
+gps_source: dive_site
+variants:
+- method: dive-plus
+  file: 7ff31019678459ee.dive-plus.webp
+  import_original_name: 46101b0a2dc7877e.webp
+date_reviewed: true

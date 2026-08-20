@@ -1,0 +1,15 @@
+date: '2025-04-04 14:33:10'
+location: West Palm Beach, FL, USA
+location_source: dive_site
+dive_site: Blue Heron Bridge
+credit: Matthew Kulukundis
+import_album: 2025-04-04, Blue Heron Bridge, West Palm Beach, FL
+import_original_name: PXL_20250404_183310793.jpg
+lat: 26.7838864
+lon: -80.044118
+gps_source: dive_site
+variants:
+- method: dive-plus
+  file: 3397a570420d6d14.dive-plus.webp
+  import_original_name: 7fd2165c72b4cbf7.webp
+date_reviewed: true

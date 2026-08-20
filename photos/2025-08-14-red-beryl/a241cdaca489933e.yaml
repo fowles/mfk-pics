@@ -1,0 +1,16 @@
+date: '2025-08-14 15:44:50'
+location: Bonaire
+location_source: dive_site
+dive_site: Red Beryl
+credit: Matthew Kulukundis
+import_album: 2025-08-14 - Bonaire, Red Beryl
+import_original_name: PXL_20250814_195506683.jpg
+lat: 12.0464185
+lon: -68.2678076
+gps_source: dive_site
+variants:
+- method: dive-plus
+  file: a241cdaca489933e.dive-plus.webp
+  import_original_name: dc14bd89d89d9e44.webp
+date_reviewed: true
+rotation_reviewed: true

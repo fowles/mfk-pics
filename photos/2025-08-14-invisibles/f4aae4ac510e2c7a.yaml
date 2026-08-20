@@ -1,0 +1,15 @@
+date: '2025-08-14 13:27:06'
+location: Bonaire
+location_source: dive_site
+dive_site: Invisibles
+credit: Matthew Kulukundis
+import_album: 2025-08-14 - Bonaire, Invisibles
+import_original_name: PXL_20250814_172706764.jpg
+lat: 12.0776183
+lon: -68.28015169999999
+gps_source: dive_site
+variants:
+- method: dive-plus
+  file: f4aae4ac510e2c7a.dive-plus.webp
+  import_original_name: 3aebbc500e3eb436.webp
+date_reviewed: true

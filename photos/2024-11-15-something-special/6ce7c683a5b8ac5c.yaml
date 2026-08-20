@@ -1,0 +1,15 @@
+date: '2024-11-15 10:59:58'
+location: Bonaire
+location_source: dive_site
+dive_site: Something Special
+credit: Matthew Kulukundis
+import_album: 2024-11-15, Bonaire, Something Special
+import_original_name: PXL_20241115_145958434.MP.jpg
+lat: 12.150402
+lon: -68.2854452
+gps_source: dive_site
+variants:
+- method: dive-plus
+  file: 6ce7c683a5b8ac5c.dive-plus.webp
+  import_original_name: 8222b4c786069cf2.webp
+date_reviewed: true
