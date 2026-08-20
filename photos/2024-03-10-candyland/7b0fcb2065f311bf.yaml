@@ -23,7 +23,15 @@ species_suggestions:
   - scientific: Thalassoma bifasciatum
     confidence: 0.1475
 species:
-- scientific: Aulostomus maculatus
+- scientific: Scarus taeniopterus
   role: primary
-  confidence: 0.3629
-  identified_by: bioclip
+  identified_by: human
+  reviewed_by: matt
+- scientific: Thalassoma bifasciatum
+  role: secondary
+  identified_by: human
+  confirmed_from: bioclip
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

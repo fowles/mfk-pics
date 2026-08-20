@@ -25,3 +25,20 @@ species_suggestions:
   absorbed_by:
     scientific: Aplysina archeri
     confidence: 0.5706
+species:
+- scientific: Thalassoma bifasciatum
+  role: secondary
+  identified_by: human
+  confirmed_from: bioclip
+  reviewed_by: matt
+- scientific: Scarus taeniopterus
+  role: primary
+  identified_by: human
+  reviewed_by: matt
+- scientific: Clepticus parrae
+  role: secondary
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

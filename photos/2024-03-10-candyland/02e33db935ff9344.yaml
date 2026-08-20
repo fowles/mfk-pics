@@ -23,7 +23,14 @@ species_suggestions:
   - scientific: Gymnothorax funebris
     confidence: 0.0684
 species:
-- scientific: Mycteroperca tigris
+- scientific: Lactophrys triqueter
   role: primary
-  confidence: 0.1814
-  identified_by: bioclip
+  identified_by: human
+  reviewed_by: matt
+- scientific: Stegastes partitus
+  role: secondary
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

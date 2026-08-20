@@ -22,8 +22,7 @@ species_suggestions:
     confidence: 0.1762
   - scientific: Elacatinus genie
     confidence: 0.0333
-species:
-- scientific: Thalassoma bifasciatum
-  role: primary
-  confidence: 0.4204
-  identified_by: bioclip
+species: []
+species_reviewed:
+- primary
+- secondary

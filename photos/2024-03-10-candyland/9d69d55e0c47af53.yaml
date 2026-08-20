@@ -25,3 +25,11 @@ species_suggestions:
   absorbed_by:
     scientific: Gorgonia ventalina
     confidence: 0.5251
+species:
+- scientific: Lactophrys triqueter
+  role: primary
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

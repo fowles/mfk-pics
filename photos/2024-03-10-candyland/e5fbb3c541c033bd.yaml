@@ -22,8 +22,7 @@ species_suggestions:
     confidence: 0.2016
   - scientific: Hypoplectrus nigricans
     confidence: 0.1078
-species:
-- scientific: Sepioteuthis sepioidea
-  role: primary
-  confidence: 0.2779
-  identified_by: bioclip
+species: []
+species_reviewed:
+- primary
+- secondary

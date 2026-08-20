@@ -22,4 +22,11 @@ species_suggestions:
     confidence: 0.1722
   - scientific: Aliger gigas
     confidence: 0.1321
-species: []
+species:
+- scientific: Caracara plancus
+  role: primary
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

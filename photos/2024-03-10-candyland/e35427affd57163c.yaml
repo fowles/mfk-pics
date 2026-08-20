@@ -29,3 +29,11 @@ species_suggestions:
   absorbed_by:
     scientific: Antillogorgia americana
     confidence: 0.8796
+species:
+- scientific: Holacanthus ciliaris
+  role: primary
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

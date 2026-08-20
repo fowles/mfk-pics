@@ -25,3 +25,11 @@ species_suggestions:
   absorbed_by:
     scientific: Montastraea cavernosa
     confidence: 0.9905
+species:
+- scientific: Gramma loreto
+  role: primary
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

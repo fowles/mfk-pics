@@ -24,7 +24,14 @@ species_suggestions:
   - scientific: Aulostomus maculatus
     confidence: 0.0337
 species:
-- scientific: Epinephelus itajara
+- scientific: Chrysiptera parasema
   role: primary
-  confidence: 0.6232
-  identified_by: bioclip
+  identified_by: human
+  reviewed_by: matt
+- scientific: Homo sapiens
+  role: secondary
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

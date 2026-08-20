@@ -24,7 +24,14 @@ species_suggestions:
   - scientific: Epinephelus itajara
     confidence: 0.0573
 species:
-- scientific: Diodon holocanthus
+- scientific: Aulostomus maculatus
   role: primary
-  confidence: 0.3175
-  identified_by: bioclip
+  identified_by: human
+  reviewed_by: matt
+- scientific: Homo sapiens
+  role: secondary
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

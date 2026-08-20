@@ -23,7 +23,10 @@ species_suggestions:
   - scientific: Mycteroperca tigris
     confidence: 0.1174
 species:
-- scientific: Mycteroperca venenosa
+- scientific: Aluterus scriptus
   role: primary
-  confidence: 0.4961
-  identified_by: bioclip
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

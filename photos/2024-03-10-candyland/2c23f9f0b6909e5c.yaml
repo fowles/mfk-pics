@@ -23,7 +23,18 @@ species_suggestions:
   - scientific: Aulostomus maculatus
     confidence: 0.0047
 species:
-- scientific: Pareques acuminatus
+- scientific: Scarus taeniopterus
   role: primary
-  confidence: 0.568
-  identified_by: bioclip
+  identified_by: human
+  reviewed_by: matt
+- scientific: Clepticus parrae
+  role: secondary
+  identified_by: human
+  reviewed_by: matt
+- scientific: Thalassoma bifasciatum
+  role: secondary
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

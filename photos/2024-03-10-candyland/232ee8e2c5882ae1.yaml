@@ -23,7 +23,10 @@ species_suggestions:
   - scientific: Ginglymostoma cirratum
     confidence: 0.0509
 species:
-- scientific: Lutjanus griseus
+- scientific: Homo sapiens
   role: primary
-  confidence: 0.3988
-  identified_by: bioclip
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

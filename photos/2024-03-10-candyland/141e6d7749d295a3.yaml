@@ -23,7 +23,10 @@ species_suggestions:
   - scientific: Scarus taeniopterus
     confidence: 0.0024
 species:
-- scientific: Monacanthus tuckeri
+- scientific: Canthigaster jamestyleri
   role: primary
-  confidence: 0.9694
-  identified_by: bioclip
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

@@ -23,7 +23,10 @@ species_suggestions:
   - scientific: Aulostomus maculatus
     confidence: 0.0262
 species:
-- scientific: Epinephelus striatus
+- scientific: Diodon hystrix
   role: primary
-  confidence: 0.8229
-  identified_by: bioclip
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

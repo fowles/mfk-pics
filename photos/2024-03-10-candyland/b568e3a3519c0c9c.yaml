@@ -23,7 +23,11 @@ species_suggestions:
   - scientific: Gramma loreto
     confidence: 0.0365
 species:
-- scientific: Stegastes leucostictus
+- scientific: Gramma loreto
   role: primary
-  confidence: 0.897
-  identified_by: bioclip
+  identified_by: human
+  confirmed_from: bioclip
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

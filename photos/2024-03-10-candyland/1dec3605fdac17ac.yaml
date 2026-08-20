@@ -23,7 +23,7 @@ species_suggestions:
   - scientific: Bodianus rufus
     confidence: 0.1202
 species:
-- scientific: Thalassoma bifasciatum
+- scientific: Clepticus parrae
   role: primary
-  confidence: 0.5042
-  identified_by: bioclip
+  identified_by: human
+  reviewed_by: matt

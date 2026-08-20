@@ -22,8 +22,8 @@ species_suggestions:
     confidence: 0.1176
   - scientific: Gymnothorax funebris
     confidence: 0.0991
-species:
-- scientific: Gymnothorax miliaris
-  role: primary
-  confidence: 0.5907
-  identified_by: bioclip
+species: []
+culled: true
+species_reviewed:
+- primary
+- secondary

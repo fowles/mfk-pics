@@ -26,5 +26,9 @@ species_suggestions:
 species:
 - scientific: Aulostomus maculatus
   role: primary
-  confidence: 0.753
-  identified_by: bioclip
+  identified_by: human
+  confirmed_from: bioclip
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

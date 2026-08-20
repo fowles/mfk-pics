@@ -23,7 +23,10 @@ species_suggestions:
   - scientific: Centropyge argi
     confidence: 0.0076
 species:
-- scientific: Scarus coelestinus
+- scientific: Aluterus scriptus
   role: primary
-  confidence: 0.705
-  identified_by: bioclip
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

@@ -23,7 +23,10 @@ species_suggestions:
   - scientific: Cephalopholis fulva
     confidence: 0.0272
 species:
-- scientific: Gymnothorax funebris
+- scientific: Haemulon sciurus
   role: primary
-  confidence: 0.5479
-  identified_by: bioclip
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

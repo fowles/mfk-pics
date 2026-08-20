@@ -23,7 +23,10 @@ species_suggestions:
   - scientific: Mycteroperca venenosa
     confidence: 0.1554
 species:
-- scientific: Epinephelus itajara
+- scientific: Aluterus scriptus
   role: primary
-  confidence: 0.5384
-  identified_by: bioclip
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

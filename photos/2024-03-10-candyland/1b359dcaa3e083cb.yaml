@@ -25,5 +25,9 @@ species_suggestions:
 species:
 - scientific: Gramma loreto
   role: primary
-  confidence: 0.8717
-  identified_by: bioclip
+  identified_by: human
+  confirmed_from: bioclip
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

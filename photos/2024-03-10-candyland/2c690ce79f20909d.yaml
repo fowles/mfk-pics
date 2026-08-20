@@ -24,7 +24,14 @@ species_suggestions:
   - scientific: Enchelycore carychroa
     confidence: 0.0404
 species:
-- scientific: Acanthostracion polygonius
+- scientific: Aulostomus maculatus
   role: primary
-  confidence: 0.3614
-  identified_by: bioclip
+  identified_by: human
+  reviewed_by: matt
+- scientific: Homo sapiens
+  role: secondary
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

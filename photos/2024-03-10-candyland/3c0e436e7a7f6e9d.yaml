@@ -23,7 +23,10 @@ species_suggestions:
   - scientific: Myripristis jacobus
     confidence: 0.0434
 species:
-- scientific: Haemulon chrysargyreum
+- scientific: Clepticus parrae
   role: primary
-  confidence: 0.3543
-  identified_by: bioclip
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary
