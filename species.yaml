@@ -270,3 +270,5 @@
 - {scientific: "Clavelina picta", common: "Painted Tunicate", regions: ["Caribbean"], distractor: true}
 - {scientific: "Thalassia testudinum", common: "Turtle Grass", regions: ["Caribbean"], distractor: true}
 - {scientific: "Halimeda opuntia", common: "Watercress Alga", regions: ["Caribbean"], distractor: true}
+- {scientific: Chrysiptera parasema, common: Yellowtail Blue Damsel}
+- {scientific: Canthigaster jamestyleri, common: Goldface Toby}
