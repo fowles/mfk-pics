@@ -10,3 +10,18 @@ lon: -79.2431
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159783.797991
+  top:
+  - scientific: Cyphoma gibbosum
+    confidence: 0.0001
+  - scientific: Acanthurus coeruleus
+    confidence: 0.0
+  - scientific: Scarus coelestinus
+    confidence: 0.0
+  absorbed_by:
+    scientific: Gorgonia ventalina
+    confidence: 0.9998

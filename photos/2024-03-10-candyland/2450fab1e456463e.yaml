@@ -10,3 +10,20 @@ variants:
   file: 2450fab1e456463e.dive-plus.webp
   import_original_name: 7949c46fcb8194f6.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158872.2602437
+  top:
+  - scientific: Lactophrys triqueter
+    confidence: 0.6942
+  - scientific: Serranus tigrinus
+    confidence: 0.1748
+  - scientific: Gymnothorax moringa
+    confidence: 0.0454
+species:
+- scientific: Lactophrys triqueter
+  role: primary
+  confidence: 0.6942
+  identified_by: bioclip

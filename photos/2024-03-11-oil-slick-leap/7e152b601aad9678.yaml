@@ -13,3 +13,20 @@ variants:
   file: 7e152b601aad9678.dive-plus.webp
   import_original_name: ec5ad7484796d338.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158973.6109903
+  top:
+  - scientific: Caranx latus
+    confidence: 0.9687
+  - scientific: Carangoides bartholomaei
+    confidence: 0.031
+  - scientific: Ocyurus chrysurus
+    confidence: 0.0001
+species:
+- scientific: Caranx latus
+  role: primary
+  confidence: 0.9687
+  identified_by: bioclip

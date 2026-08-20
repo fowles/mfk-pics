@@ -13,3 +13,20 @@ variants:
   file: 9791ddcfbd5267a5.dive-plus.webp
   import_original_name: 5c34fb705d76fa04.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158189.2745416
+  top:
+  - scientific: Myrichthys ocellatus
+    confidence: 0.1451
+  - scientific: Xyrichtys martinicensis
+    confidence: 0.094
+  - scientific: Pareques acuminatus
+    confidence: 0.0914
+species:
+- scientific: Myrichthys ocellatus
+  role: primary
+  confidence: 0.1451
+  identified_by: bioclip

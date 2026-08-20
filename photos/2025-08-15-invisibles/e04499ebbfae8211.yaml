@@ -10,3 +10,20 @@ lon: -68.28015169999999
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786071943.3470674
+  top:
+  - scientific: Lactophrys triqueter
+    confidence: 0.7905
+  - scientific: Myrichthys ocellatus
+    confidence: 0.0406
+  - scientific: Xyrichtys martinicensis
+    confidence: 0.0392
+species:
+- scientific: Lactophrys triqueter
+  role: primary
+  confidence: 0.7905
+  identified_by: bioclip

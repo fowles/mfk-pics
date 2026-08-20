@@ -10,3 +10,20 @@ variants:
   file: e49609831c01bb06.dive-plus.webp
   import_original_name: 0c997b99ba9050da.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156346.0282762
+  top:
+  - scientific: Thalassoma bifasciatum
+    confidence: 0.7435
+  - scientific: Serranus tigrinus
+    confidence: 0.2401
+  - scientific: Halichoeres bivittatus
+    confidence: 0.0063
+species:
+- scientific: Thalassoma bifasciatum
+  role: primary
+  confidence: 0.7435
+  identified_by: bioclip

@@ -10,3 +10,20 @@ variants:
   file: 546075217a78e514.dive-plus.webp
   import_original_name: dde4818aa6e3c141.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157880.2358346
+  top:
+  - scientific: Sparisoma aurofrenatum
+    confidence: 0.3701
+  - scientific: Scorpaena plumieri
+    confidence: 0.3091
+  - scientific: Emblemaria pandionis
+    confidence: 0.0437
+species:
+- scientific: Sparisoma aurofrenatum
+  role: primary
+  confidence: 0.3701
+  identified_by: bioclip

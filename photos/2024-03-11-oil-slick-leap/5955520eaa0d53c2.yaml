@@ -13,3 +13,20 @@ variants:
   file: 5955520eaa0d53c2.dive-plus.webp
   import_original_name: 97f35a53b701f934.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158980.1261
+  top:
+  - scientific: Thalassoma bifasciatum
+    confidence: 0.4903
+  - scientific: Trachinotus goodei
+    confidence: 0.4676
+  - scientific: Opistognathus aurifrons
+    confidence: 0.0151
+species:
+- scientific: Thalassoma bifasciatum
+  role: primary
+  confidence: 0.4903
+  identified_by: bioclip

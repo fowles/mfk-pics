@@ -10,3 +10,20 @@ lon: -68.2513754
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156973.3211637
+  top:
+  - scientific: Haemulon macrostomum
+    confidence: 0.3348
+  - scientific: Sepioteuthis sepioidea
+    confidence: 0.223
+  - scientific: Haemulon chrysargyreum
+    confidence: 0.1097
+species:
+- scientific: Haemulon macrostomum
+  role: primary
+  confidence: 0.3348
+  identified_by: bioclip

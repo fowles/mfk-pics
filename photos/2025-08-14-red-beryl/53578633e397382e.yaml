@@ -10,3 +10,20 @@ lon: -68.2678076
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158332.9878187
+  top:
+  - scientific: Ocyurus chrysurus
+    confidence: 0.7883
+  - scientific: Haemulon macrostomum
+    confidence: 0.0505
+  - scientific: Haemulon sciurus
+    confidence: 0.0322
+species:
+- scientific: Ocyurus chrysurus
+  role: primary
+  confidence: 0.7883
+  identified_by: bioclip

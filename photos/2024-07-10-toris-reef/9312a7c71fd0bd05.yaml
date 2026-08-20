@@ -13,3 +13,20 @@ variants:
   file: 9312a7c71fd0bd05.dive-plus.webp
   import_original_name: e77664c34fbe2d10.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786160207.80837
+  top:
+  - scientific: Lactophrys triqueter
+    confidence: 0.406
+  - scientific: Abudefduf saxatilis
+    confidence: 0.2378
+  - scientific: Caretta caretta
+    confidence: 0.0929
+species:
+- scientific: Lactophrys triqueter
+  role: primary
+  confidence: 0.406
+  identified_by: bioclip

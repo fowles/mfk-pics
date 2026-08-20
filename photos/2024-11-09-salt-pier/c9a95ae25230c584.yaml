@@ -13,3 +13,20 @@ variants:
   file: c9a95ae25230c584.dive-plus.webp
   import_original_name: a211e1c5c83125fb.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156580.3779356
+  top:
+  - scientific: Aulostomus maculatus
+    confidence: 0.7897
+  - scientific: Amblycirrhitus pinos
+    confidence: 0.0444
+  - scientific: Holocentrus rufus
+    confidence: 0.0287
+species:
+- scientific: Aulostomus maculatus
+  role: primary
+  confidence: 0.7897
+  identified_by: bioclip

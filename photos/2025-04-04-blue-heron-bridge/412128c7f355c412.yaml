@@ -10,3 +10,20 @@ variants:
   file: 412128c7f355c412.dive-plus.webp
   import_original_name: 010b819dcdc2c6b4.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157491.3938339
+  top:
+  - scientific: Xyrichtys martinicensis
+    confidence: 0.9386
+  - scientific: Xyrichtys splendens
+    confidence: 0.0545
+  - scientific: Canthigaster rostrata
+    confidence: 0.0057
+species:
+- scientific: Xyrichtys martinicensis
+  role: primary
+  confidence: 0.9386
+  identified_by: bioclip

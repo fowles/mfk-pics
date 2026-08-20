@@ -10,3 +10,20 @@ variants:
   file: c420fa23db7de1f1.dive-plus.webp
   import_original_name: f9b7d6b3fd3ad87d.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158186.7016487
+  top:
+  - scientific: Abudefduf saxatilis
+    confidence: 0.3005
+  - scientific: Thalassoma bifasciatum
+    confidence: 0.2179
+  - scientific: Serranus tabacarius
+    confidence: 0.0948
+species:
+- scientific: Abudefduf saxatilis
+  role: primary
+  confidence: 0.3005
+  identified_by: bioclip

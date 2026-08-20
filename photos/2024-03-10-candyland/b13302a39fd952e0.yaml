@@ -11,3 +11,20 @@ variants:
   import_original_name: 799abbb5ffb08b95.webp
 date_reviewed: true
 rotation_applied: 270
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1787030640.6926837
+  top:
+  - scientific: Acanthostracion polygonius
+    confidence: 0.229
+  - scientific: Sparisoma viride
+    confidence: 0.1065
+  - scientific: Sepioteuthis sepioidea
+    confidence: 0.0854
+species:
+- scientific: Acanthostracion polygonius
+  role: primary
+  confidence: 0.229
+  identified_by: bioclip

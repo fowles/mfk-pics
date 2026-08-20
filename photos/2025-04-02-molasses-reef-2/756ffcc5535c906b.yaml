@@ -13,3 +13,20 @@ lat: 25.0151854
 lon: -80.3785098
 gps_source: manual
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157279.8740568
+  top:
+  - scientific: Sparisoma aurofrenatum
+    confidence: 0.762
+  - scientific: Scarus vetula
+    confidence: 0.0734
+  - scientific: Sparisoma viride
+    confidence: 0.0559
+species:
+- scientific: Sparisoma aurofrenatum
+  role: primary
+  confidence: 0.762
+  identified_by: bioclip

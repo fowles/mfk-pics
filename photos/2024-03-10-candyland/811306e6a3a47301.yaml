@@ -13,3 +13,20 @@ variants:
   file: 811306e6a3a47301.dive-plus.webp
   import_original_name: 61f0101fdb71f4f5.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158875.608243
+  top:
+  - scientific: Pareques acuminatus
+    confidence: 0.6682
+  - scientific: Diadema antillarum
+    confidence: 0.0877
+  - scientific: Dactylopterus volitans
+    confidence: 0.0871
+species:
+- scientific: Pareques acuminatus
+  role: primary
+  confidence: 0.6682
+  identified_by: bioclip

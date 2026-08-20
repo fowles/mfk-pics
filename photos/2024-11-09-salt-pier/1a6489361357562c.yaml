@@ -10,3 +10,20 @@ variants:
   file: 1a6489361357562c.dive-plus.webp
   import_original_name: 3e639825ed81ff43.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156577.1826882
+  top:
+  - scientific: Aulostomus maculatus
+    confidence: 0.9728
+  - scientific: Fistularia tabacaria
+    confidence: 0.0079
+  - scientific: Hypanus americanus
+    confidence: 0.006
+species:
+- scientific: Aulostomus maculatus
+  role: primary
+  confidence: 0.9728
+  identified_by: bioclip

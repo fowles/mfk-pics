@@ -10,3 +10,20 @@ lon: -68.2874429
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158710.65507
+  top:
+  - scientific: Sparisoma viride
+    confidence: 0.4336
+  - scientific: Prognathodes aculeatus
+    confidence: 0.1085
+  - scientific: Octopus briareus
+    confidence: 0.0774
+species:
+- scientific: Sparisoma viride
+  role: primary
+  confidence: 0.4336
+  identified_by: bioclip

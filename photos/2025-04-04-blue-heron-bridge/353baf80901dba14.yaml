@@ -13,3 +13,20 @@ variants:
   file: 353baf80901dba14.dive-plus.webp
   import_original_name: ab9c96fb9968ca79.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157493.4511547
+  top:
+  - scientific: Sphoeroides spengleri
+    confidence: 0.2203
+  - scientific: Sphoeroides testudineus
+    confidence: 0.2034
+  - scientific: Acanthostracion polygonius
+    confidence: 0.1792
+species:
+- scientific: Sphoeroides spengleri
+  role: primary
+  confidence: 0.2203
+  identified_by: bioclip

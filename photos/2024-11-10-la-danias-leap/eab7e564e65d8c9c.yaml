@@ -10,3 +10,20 @@ lon: -68.34805419999999
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156686.6754792
+  top:
+  - scientific: Panulirus guttatus
+    confidence: 0.9987
+  - scientific: Panulirus argus
+    confidence: 0.0012
+  - scientific: Diadema antillarum
+    confidence: 0.0001
+species:
+- scientific: Panulirus guttatus
+  role: primary
+  confidence: 0.9987
+  identified_by: bioclip

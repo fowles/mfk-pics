@@ -10,3 +10,20 @@ lon: -68.28015169999999
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158229.6759875
+  top:
+  - scientific: Melichthys niger
+    confidence: 0.9889
+  - scientific: Elacatinus oceanops
+    confidence: 0.0038
+  - scientific: Acanthurus coeruleus
+    confidence: 0.0036
+species:
+- scientific: Melichthys niger
+  role: primary
+  confidence: 0.9889
+  identified_by: bioclip

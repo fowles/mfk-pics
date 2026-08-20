@@ -10,3 +10,20 @@ variants:
   file: c75570a1a5cabd99.dive-plus.webp
   import_original_name: 5ac7805edc13460d.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786071913.3164039
+  top:
+  - scientific: Thalassoma bifasciatum
+    confidence: 0.3182
+  - scientific: Emblemaria pandionis
+    confidence: 0.2905
+  - scientific: Gymnothorax funebris
+    confidence: 0.1046
+species:
+- scientific: Thalassoma bifasciatum
+  role: primary
+  confidence: 0.3182
+  identified_by: bioclip

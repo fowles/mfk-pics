@@ -10,3 +10,20 @@ variants:
   file: 292c21650e778b10.dive-plus.webp
   import_original_name: 2b2198362e1ba684.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158964.4396098
+  top:
+  - scientific: Rypticus saponaceus
+    confidence: 0.3548
+  - scientific: Gymnothorax funebris
+    confidence: 0.1214
+  - scientific: Epinephelus itajara
+    confidence: 0.108
+species:
+- scientific: Rypticus saponaceus
+  role: primary
+  confidence: 0.3548
+  identified_by: bioclip

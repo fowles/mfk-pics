@@ -13,3 +13,20 @@ variants:
   file: c8e341f63082d289.dive-plus.webp
   import_original_name: c66ea9d28e35217e.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156981.438638
+  top:
+  - scientific: Sphyraena barracuda
+    confidence: 0.5152
+  - scientific: Kyphosus sectatrix
+    confidence: 0.2439
+  - scientific: Acanthurus coeruleus
+    confidence: 0.0448
+species:
+- scientific: Sphyraena barracuda
+  role: primary
+  confidence: 0.5152
+  identified_by: bioclip

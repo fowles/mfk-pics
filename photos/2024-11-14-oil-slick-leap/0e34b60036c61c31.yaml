@@ -13,3 +13,20 @@ variants:
   file: 0e34b60036c61c31.dive-plus.webp
   import_original_name: f2c05577507cc1ff.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156899.4717
+  top:
+  - scientific: Gymnothorax miliaris
+    confidence: 0.1716
+  - scientific: Ginglymostoma cirratum
+    confidence: 0.126
+  - scientific: Sparisoma aurofrenatum
+    confidence: 0.1207
+species:
+- scientific: Gymnothorax miliaris
+  role: primary
+  confidence: 0.1716
+  identified_by: bioclip

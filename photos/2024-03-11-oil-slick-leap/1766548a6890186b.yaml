@@ -13,3 +13,20 @@ variants:
   file: 1766548a6890186b.dive-plus.webp
   import_original_name: 48259e279dbe2309.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158973.5101168
+  top:
+  - scientific: Caranx ruber
+    confidence: 0.9986
+  - scientific: Hypanus americanus
+    confidence: 0.0006
+  - scientific: Trachinotus goodei
+    confidence: 0.0005
+species:
+- scientific: Caranx ruber
+  role: primary
+  confidence: 0.9986
+  identified_by: bioclip

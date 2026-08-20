@@ -10,3 +10,20 @@ variants:
   file: 58cc0f1290e77ec4.dive-plus.webp
   import_original_name: 5a19cf851cba2242.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158186.064502
+  top:
+  - scientific: Mycteroperca tigris
+    confidence: 0.9466
+  - scientific: Epinephelus striatus
+    confidence: 0.0499
+  - scientific: Labrisomus nuchipinnis
+    confidence: 0.001
+species:
+- scientific: Mycteroperca tigris
+  role: primary
+  confidence: 0.9466
+  identified_by: bioclip

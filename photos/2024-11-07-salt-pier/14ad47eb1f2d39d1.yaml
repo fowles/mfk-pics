@@ -10,3 +10,20 @@ lon: -68.28180019999999
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156312.2402241
+  top:
+  - scientific: Haemulon flavolineatum
+    confidence: 0.594
+  - scientific: Jenkinsia lamprotaenia
+    confidence: 0.092
+  - scientific: Scarus iseri
+    confidence: 0.0548
+species:
+- scientific: Haemulon flavolineatum
+  role: primary
+  confidence: 0.594
+  identified_by: bioclip

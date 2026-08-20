@@ -13,3 +13,18 @@ variants:
   file: 377b1e9355a2f1eb.dive-plus.webp
   import_original_name: 0c542e69a2b35f85.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156581.2904816
+  top:
+  - scientific: Halichoeres pictus
+    confidence: 0.2317
+  - scientific: Stegastes partitus
+    confidence: 0.1422
+  - scientific: Chaetodon capistratus
+    confidence: 0.1117
+  absorbed_by:
+    scientific: Niphates digitalis
+    confidence: 0.2567

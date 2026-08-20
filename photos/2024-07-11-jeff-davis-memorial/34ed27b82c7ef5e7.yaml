@@ -10,3 +10,18 @@ variants:
   file: 34ed27b82c7ef5e7.dive-plus.webp
   import_original_name: 720bfe5aedfa592a.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159575.6196282
+  top:
+  - scientific: Serranus tortugarum
+    confidence: 0.1322
+  - scientific: Scarus coelestinus
+    confidence: 0.0699
+  - scientific: Acanthurus coeruleus
+    confidence: 0.0383
+  absorbed_by:
+    scientific: Callyspongia plicifera
+    confidence: 0.5366

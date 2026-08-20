@@ -13,3 +13,20 @@ variants:
   file: 0bf9067ce732685b.dive-plus.webp
   import_original_name: 3617ec01e7c4a225.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157216.2747855
+  top:
+  - scientific: Periclimenes yucatanicus
+    confidence: 0.4538
+  - scientific: Cephalopholis cruentata
+    confidence: 0.2025
+  - scientific: Cephalopholis fulva
+    confidence: 0.0525
+species:
+- scientific: Periclimenes yucatanicus
+  role: primary
+  confidence: 0.4538
+  identified_by: bioclip

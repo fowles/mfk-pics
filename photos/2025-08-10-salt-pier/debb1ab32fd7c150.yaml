@@ -10,3 +10,20 @@ lon: -68.28180019999999
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157578.3844452
+  top:
+  - scientific: Emblemaria pandionis
+    confidence: 0.6496
+  - scientific: Gymnothorax miliaris
+    confidence: 0.2841
+  - scientific: Octopus briareus
+    confidence: 0.0361
+species:
+- scientific: Emblemaria pandionis
+  role: primary
+  confidence: 0.6496
+  identified_by: bioclip

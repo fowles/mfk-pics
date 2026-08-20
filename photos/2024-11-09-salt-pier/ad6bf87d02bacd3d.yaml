@@ -14,3 +14,20 @@ variants:
   import_original_name: c3c19e093c51cc23.webp
 date_reviewed: true
 rotation_applied: 90
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1787030621.238266
+  top:
+  - scientific: Sparisoma viride
+    confidence: 0.2511
+  - scientific: Thalassoma bifasciatum
+    confidence: 0.0485
+  - scientific: Abudefduf saxatilis
+    confidence: 0.0477
+species:
+- scientific: Sparisoma viride
+  role: primary
+  confidence: 0.2511
+  identified_by: bioclip

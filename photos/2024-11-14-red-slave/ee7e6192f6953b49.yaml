@@ -15,3 +15,20 @@ variants:
 date_reviewed: true
 extra_variants:
 - channel-stretch
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156982.0434117
+  top:
+  - scientific: Dactylopterus volitans
+    confidence: 0.1657
+  - scientific: Echeneis naucrates
+    confidence: 0.1505
+  - scientific: Aetobatus narinari
+    confidence: 0.145
+species:
+- scientific: Dactylopterus volitans
+  role: primary
+  confidence: 0.1657
+  identified_by: bioclip

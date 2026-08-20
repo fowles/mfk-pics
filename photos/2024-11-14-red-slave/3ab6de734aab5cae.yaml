@@ -11,3 +11,20 @@ variants:
   import_original_name: 63a74228d0b60860.webp
 date_reviewed: true
 rotation_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156978.5555286
+  top:
+  - scientific: Myrichthys breviceps
+    confidence: 0.8248
+  - scientific: Gymnothorax funebris
+    confidence: 0.0567
+  - scientific: Aetobatus narinari
+    confidence: 0.0393
+species:
+- scientific: Myrichthys breviceps
+  role: primary
+  confidence: 0.8248
+  identified_by: bioclip

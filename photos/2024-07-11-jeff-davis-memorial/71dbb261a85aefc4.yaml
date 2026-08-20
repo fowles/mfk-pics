@@ -11,3 +11,20 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 rotation_applied: 90
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1787176037.7583134
+  top:
+  - scientific: Equetus punctatus
+    confidence: 0.4991
+  - scientific: Hypoplectrus indigo
+    confidence: 0.3553
+  - scientific: Abudefduf saxatilis
+    confidence: 0.0585
+species:
+- scientific: Equetus punctatus
+  role: primary
+  confidence: 0.4991
+  identified_by: bioclip

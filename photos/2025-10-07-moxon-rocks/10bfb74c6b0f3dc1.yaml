@@ -9,3 +9,20 @@ lat: 25.54167
 lon: -79.27083
 gps_source: dive_site
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159802.6232822
+  top:
+  - scientific: Thalassoma bifasciatum
+    confidence: 0.4849
+  - scientific: Halichoeres maculipinna
+    confidence: 0.225
+  - scientific: Hypoplectrus indigo
+    confidence: 0.1403
+species:
+- scientific: Thalassoma bifasciatum
+  role: primary
+  confidence: 0.4849
+  identified_by: bioclip

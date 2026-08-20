@@ -13,3 +13,20 @@ variants:
   file: 02366906611f691e.dive-plus.webp
   import_original_name: b8ca06652b538874.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156746.934919
+  top:
+  - scientific: Epinephelus itajara
+    confidence: 0.5344
+  - scientific: Epinephelus striatus
+    confidence: 0.3049
+  - scientific: Holocentrus adscensionis
+    confidence: 0.0391
+species:
+- scientific: Epinephelus itajara
+  role: primary
+  confidence: 0.5344
+  identified_by: bioclip

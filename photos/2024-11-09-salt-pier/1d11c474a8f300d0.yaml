@@ -10,3 +10,20 @@ variants:
   file: 1d11c474a8f300d0.dive-plus.webp
   import_original_name: d18878893d06557c.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156576.2548268
+  top:
+  - scientific: Myrichthys breviceps
+    confidence: 0.4822
+  - scientific: Dactylopterus volitans
+    confidence: 0.211
+  - scientific: Canthidermis sufflamen
+    confidence: 0.0587
+species:
+- scientific: Myrichthys breviceps
+  role: primary
+  confidence: 0.4822
+  identified_by: bioclip

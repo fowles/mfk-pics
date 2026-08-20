@@ -13,3 +13,20 @@ variants:
   file: 5517acceff446423.dive-plus.webp
   import_original_name: cf897b8669cb32ae.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158745.2419257
+  top:
+  - scientific: Hippocampus erectus
+    confidence: 0.6357
+  - scientific: Monacanthus tuckeri
+    confidence: 0.3551
+  - scientific: Antennarius striatus
+    confidence: 0.0022
+species:
+- scientific: Hippocampus erectus
+  role: primary
+  confidence: 0.6357
+  identified_by: bioclip

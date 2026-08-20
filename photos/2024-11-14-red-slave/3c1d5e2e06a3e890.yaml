@@ -10,3 +10,20 @@ variants:
   file: 3c1d5e2e06a3e890.dive-plus.webp
   import_original_name: 1399b50970db43c0.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156978.2630267
+  top:
+  - scientific: Pareques acuminatus
+    confidence: 0.3726
+  - scientific: Holothuria mexicana
+    confidence: 0.1564
+  - scientific: Haemulon macrostomum
+    confidence: 0.1537
+species:
+- scientific: Pareques acuminatus
+  role: primary
+  confidence: 0.3726
+  identified_by: bioclip

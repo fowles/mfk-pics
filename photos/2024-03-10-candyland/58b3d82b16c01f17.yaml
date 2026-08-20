@@ -10,3 +10,20 @@ variants:
   file: 58b3d82b16c01f17.dive-plus.webp
   import_original_name: 96ad4f39fec6f15b.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158872.1967227
+  top:
+  - scientific: Diodon hystrix
+    confidence: 0.18
+  - scientific: Diodon holocanthus
+    confidence: 0.1252
+  - scientific: Mycteroperca tigris
+    confidence: 0.1105
+species:
+- scientific: Diodon hystrix
+  role: primary
+  confidence: 0.18
+  identified_by: bioclip

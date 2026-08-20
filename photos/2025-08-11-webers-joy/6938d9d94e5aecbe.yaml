@@ -10,3 +10,20 @@ variants:
   file: 6938d9d94e5aecbe.dive-plus.webp
   import_original_name: 529c48e78fb33173.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786071913.0307007
+  top:
+  - scientific: Antennarius multiocellatus
+    confidence: 0.1733
+  - scientific: Elysia crispata
+    confidence: 0.1519
+  - scientific: Monacanthus tuckeri
+    confidence: 0.0976
+species:
+- scientific: Antennarius multiocellatus
+  role: primary
+  confidence: 0.1733
+  identified_by: bioclip

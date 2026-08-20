@@ -10,3 +10,20 @@ variants:
   file: 999bbb63dee5a309.dive-plus.webp
   import_original_name: 2782855855b469ae.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159065.1273263
+  top:
+  - scientific: Thalassoma bifasciatum
+    confidence: 0.4193
+  - scientific: Elacatinus genie
+    confidence: 0.1085
+  - scientific: Gymnothorax funebris
+    confidence: 0.0889
+species:
+- scientific: Thalassoma bifasciatum
+  role: primary
+  confidence: 0.4193
+  identified_by: bioclip

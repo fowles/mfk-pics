@@ -13,3 +13,20 @@ variants:
   file: c35f96f13086a64f.dive-plus.webp
   import_original_name: 45b0a6386b0632d1.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158337.5437622
+  top:
+  - scientific: Aulostomus maculatus
+    confidence: 0.745
+  - scientific: Gymnothorax funebris
+    confidence: 0.0953
+  - scientific: Synodus intermedius
+    confidence: 0.0366
+species:
+- scientific: Aulostomus maculatus
+  role: primary
+  confidence: 0.745
+  identified_by: bioclip

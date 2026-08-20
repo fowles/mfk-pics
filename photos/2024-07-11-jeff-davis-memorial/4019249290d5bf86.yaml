@@ -10,3 +10,20 @@ lon: -68.3139741
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159557.1510568
+  top:
+  - scientific: Cyphoma gibbosum
+    confidence: 0.7956
+  - scientific: Pareques acuminatus
+    confidence: 0.0901
+  - scientific: Haemulon carbonarium
+    confidence: 0.0137
+species:
+- scientific: Cyphoma gibbosum
+  role: primary
+  confidence: 0.7956
+  identified_by: bioclip

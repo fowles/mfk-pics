@@ -10,3 +10,20 @@ variants:
   file: 8e53c62f02a4cf13.dive-plus.webp
   import_original_name: 308d1772e4fbae9c.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156348.3413694
+  top:
+  - scientific: Dactylopterus volitans
+    confidence: 0.2755
+  - scientific: Diodon holocanthus
+    confidence: 0.2296
+  - scientific: Sepioteuthis sepioidea
+    confidence: 0.0386
+species:
+- scientific: Dactylopterus volitans
+  role: primary
+  confidence: 0.2755
+  identified_by: bioclip

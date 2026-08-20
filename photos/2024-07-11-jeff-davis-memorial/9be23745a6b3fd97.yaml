@@ -13,3 +13,20 @@ variants:
   file: 9be23745a6b3fd97.dive-plus.webp
   import_original_name: 26acedc6cec4a3ac.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159606.0726275
+  top:
+  - scientific: Hippocampus erectus
+    confidence: 0.5712
+  - scientific: Gymnothorax funebris
+    confidence: 0.0359
+  - scientific: Thalassoma bifasciatum
+    confidence: 0.0168
+species:
+- scientific: Hippocampus erectus
+  role: primary
+  confidence: 0.5712
+  identified_by: bioclip

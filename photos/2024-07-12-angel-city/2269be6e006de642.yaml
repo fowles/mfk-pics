@@ -10,3 +10,20 @@ lon: -68.2872912
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158484.2123191
+  top:
+  - scientific: Hypoplectrus indigo
+    confidence: 0.4848
+  - scientific: Sparisoma viride
+    confidence: 0.1816
+  - scientific: Amblycirrhitus pinos
+    confidence: 0.0917
+species:
+- scientific: Hypoplectrus indigo
+  role: primary
+  confidence: 0.4848
+  identified_by: bioclip

@@ -13,3 +13,20 @@ variants:
   file: 93d952bb1253285f.dive-plus.webp
   import_original_name: b049140008f885d3.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786160205.887802
+  top:
+  - scientific: Hypanus americanus
+    confidence: 0.4503
+  - scientific: Ginglymostoma cirratum
+    confidence: 0.2112
+  - scientific: Bothus lunatus
+    confidence: 0.11
+species:
+- scientific: Hypanus americanus
+  role: primary
+  confidence: 0.4503
+  identified_by: bioclip

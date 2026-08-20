@@ -10,3 +10,20 @@ variants:
   file: 481b2c318c744d0f.dive-plus.webp
   import_original_name: 7af923e115af5f5f.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159286.6021187
+  top:
+  - scientific: Pterois volitans
+    confidence: 0.4869
+  - scientific: Sparisoma viride
+    confidence: 0.1941
+  - scientific: Amblycirrhitus pinos
+    confidence: 0.1274
+species:
+- scientific: Pterois volitans
+  role: primary
+  confidence: 0.4869
+  identified_by: bioclip

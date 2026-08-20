@@ -10,3 +10,20 @@ variants:
   file: 686c727cc872440d.dive-plus.webp
   import_original_name: 4c382518def235bf.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158965.6299481
+  top:
+  - scientific: Aulostomus maculatus
+    confidence: 0.142
+  - scientific: Hypoplectrus nigricans
+    confidence: 0.136
+  - scientific: Sepioteuthis sepioidea
+    confidence: 0.0993
+species:
+- scientific: Aulostomus maculatus
+  role: primary
+  confidence: 0.142
+  identified_by: bioclip

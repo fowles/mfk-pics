@@ -10,3 +10,18 @@ variants:
   file: 3dd733d7416aaf41.dive-plus.webp
   import_original_name: 8a75dc0a9be40d7e.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156575.585763
+  top:
+  - scientific: Sepioteuthis sepioidea
+    confidence: 0.0879
+  - scientific: Hypoplectrus puella
+    confidence: 0.0672
+  - scientific: Haemulon macrostomum
+    confidence: 0.0649
+  absorbed_by:
+    scientific: Gorgonia ventalina
+    confidence: 0.256

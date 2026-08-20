@@ -13,3 +13,20 @@ variants:
   file: 3281d3024332a65b.dive-plus.webp
   import_original_name: 5ed8af0ba2356b96.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156902.1418853
+  top:
+  - scientific: Haemulon chrysargyreum
+    confidence: 0.2777
+  - scientific: Pempheris schomburgkii
+    confidence: 0.1722
+  - scientific: Megalops atlanticus
+    confidence: 0.1465
+species:
+- scientific: Haemulon chrysargyreum
+  role: primary
+  confidence: 0.2777
+  identified_by: bioclip

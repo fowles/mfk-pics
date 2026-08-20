@@ -10,3 +10,20 @@ lon: -68.2874429
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158396.581115
+  top:
+  - scientific: Cantherhines pullus
+    confidence: 0.5365
+  - scientific: Scarus taeniopterus
+    confidence: 0.2629
+  - scientific: Scarus iseri
+    confidence: 0.1439
+species:
+- scientific: Cantherhines pullus
+  role: primary
+  confidence: 0.5365
+  identified_by: bioclip

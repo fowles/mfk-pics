@@ -13,3 +13,20 @@ variants:
   file: 0fa3b446700ff38e.dive-plus.webp
   import_original_name: 54a89cde96f61b66.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159605.9590697
+  top:
+  - scientific: Pterois volitans
+    confidence: 0.4422
+  - scientific: Mycteroperca tigris
+    confidence: 0.1078
+  - scientific: Neoniphon marianus
+    confidence: 0.0384
+species:
+- scientific: Pterois volitans
+  role: primary
+  confidence: 0.4422
+  identified_by: bioclip

@@ -10,3 +10,20 @@ variants:
   file: 1cbac7d3cf8b5d89.dive-plus.webp
   import_original_name: bf76d98d2499851c.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156741.2499816
+  top:
+  - scientific: Hypoplectrus indigo
+    confidence: 0.5654
+  - scientific: Melichthys niger
+    confidence: 0.2327
+  - scientific: Epinephelus itajara
+    confidence: 0.0301
+species:
+- scientific: Hypoplectrus indigo
+  role: primary
+  confidence: 0.5654
+  identified_by: bioclip

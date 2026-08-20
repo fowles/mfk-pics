@@ -11,3 +11,20 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 rotation_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157580.8226793
+  top:
+  - scientific: Chromis multilineata
+    confidence: 0.4343
+  - scientific: Sepioteuthis sepioidea
+    confidence: 0.3643
+  - scientific: Sparisoma viride
+    confidence: 0.019
+species:
+- scientific: Chromis multilineata
+  role: primary
+  confidence: 0.4343
+  identified_by: bioclip

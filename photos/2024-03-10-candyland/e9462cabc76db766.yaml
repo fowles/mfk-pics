@@ -13,3 +13,18 @@ variants:
   file: e9462cabc76db766.dive-plus.webp
   import_original_name: 058e6334cbcb9a5f.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158874.8485446
+  top:
+  - scientific: Aulostomus maculatus
+    confidence: 0.0305
+  - scientific: Haemulon macrostomum
+    confidence: 0.0181
+  - scientific: Chaetodon capistratus
+    confidence: 0.0098
+  absorbed_by:
+    scientific: Briareum asbestinum
+    confidence: 0.7682

@@ -10,3 +10,20 @@ lon: -68.3086211
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156894.9617722
+  top:
+  - scientific: Epinephelus striatus
+    confidence: 0.9586
+  - scientific: Scartella cristata
+    confidence: 0.0272
+  - scientific: Aluterus scriptus
+    confidence: 0.0055
+species:
+- scientific: Epinephelus striatus
+  role: primary
+  confidence: 0.9586
+  identified_by: bioclip

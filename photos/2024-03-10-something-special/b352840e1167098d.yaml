@@ -13,3 +13,20 @@ variants:
   file: b352840e1167098d.dive-plus.webp
   import_original_name: 5b0d48bdccb726e6.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159067.4388123
+  top:
+  - scientific: Sparisoma viride
+    confidence: 0.2949
+  - scientific: Acanthostracion polygonius
+    confidence: 0.2497
+  - scientific: Sparisoma aurofrenatum
+    confidence: 0.0803
+species:
+- scientific: Sparisoma viride
+  role: primary
+  confidence: 0.2949
+  identified_by: bioclip

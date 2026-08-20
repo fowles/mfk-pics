@@ -13,3 +13,20 @@ variants:
   file: e35e5ca58a144515.dive-plus.webp
   import_original_name: f6929a403996eb8e.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786160216.187168
+  top:
+  - scientific: Hippocampus erectus
+    confidence: 0.5423
+  - scientific: Lactophrys triqueter
+    confidence: 0.1546
+  - scientific: Dactylopterus volitans
+    confidence: 0.0706
+species:
+- scientific: Hippocampus erectus
+  role: primary
+  confidence: 0.5423
+  identified_by: bioclip

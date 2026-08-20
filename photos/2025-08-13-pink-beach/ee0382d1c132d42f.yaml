@@ -10,3 +10,20 @@ variants:
   file: ee0382d1c132d42f.dive-plus.webp
   import_original_name: 76855d5c3e947d38.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158186.2127037
+  top:
+  - scientific: Tursiops truncatus
+    confidence: 0.991
+  - scientific: Megalops atlanticus
+    confidence: 0.0046
+  - scientific: Carcharhinus perezi
+    confidence: 0.0039
+species:
+- scientific: Tursiops truncatus
+  role: primary
+  confidence: 0.991
+  identified_by: bioclip

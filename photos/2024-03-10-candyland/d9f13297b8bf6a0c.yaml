@@ -13,3 +13,18 @@ variants:
   file: d9f13297b8bf6a0c.dive-plus.webp
   import_original_name: 693a31ffe811b7f5.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158874.2751746
+  top:
+  - scientific: Microspathodon chrysurus
+    confidence: 0.0401
+  - scientific: Bodianus rufus
+    confidence: 0.0076
+  - scientific: Equetus punctatus
+    confidence: 0.0049
+  absorbed_by:
+    scientific: Millepora complanata
+    confidence: 0.7734

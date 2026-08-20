@@ -13,3 +13,20 @@ variants:
   file: dda28476b48d7b86.dive-plus.webp
   import_original_name: cea23892f8a2662f.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159195.474869
+  top:
+  - scientific: Pomacanthus paru
+    confidence: 0.3354
+  - scientific: Lactophrys triqueter
+    confidence: 0.282
+  - scientific: Aulostomus maculatus
+    confidence: 0.0642
+species:
+- scientific: Pomacanthus paru
+  role: primary
+  confidence: 0.3354
+  identified_by: bioclip

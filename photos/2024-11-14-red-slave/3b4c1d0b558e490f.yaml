@@ -10,3 +10,18 @@ lon: -68.2513754
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156964.6783254
+  top:
+  - scientific: Aulostomus maculatus
+    confidence: 0.0963
+  - scientific: Stenorhynchus seticornis
+    confidence: 0.0281
+  - scientific: Gymnothorax funebris
+    confidence: 0.0039
+  absorbed_by:
+    scientific: Aplysina archeri
+    confidence: 0.753

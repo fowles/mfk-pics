@@ -14,3 +14,20 @@ variants:
   import_original_name: 2d782a5a81831a26.webp
 date_reviewed: true
 rotation_applied: 90
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1787030744.0886898
+  top:
+  - scientific: Bothus lunatus
+    confidence: 0.8554
+  - scientific: Lactophrys triqueter
+    confidence: 0.0522
+  - scientific: Cyphoma gibbosum
+    confidence: 0.0227
+species:
+- scientific: Bothus lunatus
+  role: primary
+  confidence: 0.8554
+  identified_by: bioclip

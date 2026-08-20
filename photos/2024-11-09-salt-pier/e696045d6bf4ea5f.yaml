@@ -11,3 +11,18 @@ variants:
   import_original_name: 851a5faeded52bd3.webp
 date_reviewed: true
 rotation_applied: 270
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1787029416.9994981
+  top:
+  - scientific: Aulostomus maculatus
+    confidence: 0.0286
+  - scientific: Stenorhynchus seticornis
+    confidence: 0.0107
+  - scientific: Hypoplectrus indigo
+    confidence: 0.0039
+  absorbed_by:
+    scientific: Cirrhipathes leutkeni
+    confidence: 0.8784

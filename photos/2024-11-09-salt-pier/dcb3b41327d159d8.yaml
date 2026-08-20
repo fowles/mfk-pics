@@ -10,3 +10,20 @@ variants:
   file: dcb3b41327d159d8.dive-plus.webp
   import_original_name: a77326934a775d12.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156578.2928195
+  top:
+  - scientific: Acanthostracion polygonius
+    confidence: 0.5798
+  - scientific: Dactylopterus volitans
+    confidence: 0.1994
+  - scientific: Bothus lunatus
+    confidence: 0.0779
+species:
+- scientific: Acanthostracion polygonius
+  role: primary
+  confidence: 0.5798
+  identified_by: bioclip

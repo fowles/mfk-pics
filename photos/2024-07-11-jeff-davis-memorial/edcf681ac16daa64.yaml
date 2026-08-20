@@ -13,3 +13,20 @@ variants:
   file: edcf681ac16daa64.dive-plus.webp
   import_original_name: c66a0759f5a06bca.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159606.7531366
+  top:
+  - scientific: Hippocampus erectus
+    confidence: 0.3395
+  - scientific: Acanthostracion polygonius
+    confidence: 0.2146
+  - scientific: Holothuria mexicana
+    confidence: 0.1099
+species:
+- scientific: Hippocampus erectus
+  role: primary
+  confidence: 0.3395
+  identified_by: bioclip

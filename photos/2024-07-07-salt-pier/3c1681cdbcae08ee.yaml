@@ -13,3 +13,20 @@ variants:
   file: 3c1681cdbcae08ee.dive-plus.webp
   import_original_name: adf912115053b4f0.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159989.7780287
+  top:
+  - scientific: Monacanthus tuckeri
+    confidence: 0.9086
+  - scientific: Myrichthys breviceps
+    confidence: 0.0763
+  - scientific: Myrichthys ocellatus
+    confidence: 0.0028
+species:
+- scientific: Monacanthus tuckeri
+  role: primary
+  confidence: 0.9086
+  identified_by: bioclip

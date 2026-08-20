@@ -9,3 +9,20 @@ lat: 25.5006
 lon: -79.2641
 gps_source: dive_site
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159806.8604298
+  top:
+  - scientific: Chaetodon sedentarius
+    confidence: 0.4534
+  - scientific: Hypoplectrus unicolor
+    confidence: 0.2672
+  - scientific: Prognathodes aculeatus
+    confidence: 0.1576
+species:
+- scientific: Chaetodon sedentarius
+  role: primary
+  confidence: 0.4534
+  identified_by: bioclip

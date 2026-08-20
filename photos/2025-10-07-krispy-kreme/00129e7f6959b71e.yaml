@@ -10,3 +10,20 @@ lon: -79.2886
 gps_source: dive_site
 date_reviewed: true
 rotation_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159793.878169
+  top:
+  - scientific: Gerres cinereus
+    confidence: 0.9913
+  - scientific: Holocentrus rufus
+    confidence: 0.002
+  - scientific: Serranus tigrinus
+    confidence: 0.0015
+species:
+- scientific: Gerres cinereus
+  role: primary
+  confidence: 0.9913
+  identified_by: bioclip

@@ -13,3 +13,20 @@ variants:
   file: ffa343b4d301226b.dive-plus.webp
   import_original_name: 6c7f78cf42a6d427.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156586.6640887
+  top:
+  - scientific: Thalassoma bifasciatum
+    confidence: 0.5573
+  - scientific: Diodon holocanthus
+    confidence: 0.2142
+  - scientific: Aulostomus maculatus
+    confidence: 0.0783
+species:
+- scientific: Thalassoma bifasciatum
+  role: primary
+  confidence: 0.5573
+  identified_by: bioclip

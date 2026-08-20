@@ -10,3 +10,20 @@ variants:
   file: 8a26974d30fca116.dive-plus.webp
   import_original_name: aff4789781ce25c2.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158187.031215
+  top:
+  - scientific: Gymnothorax funebris
+    confidence: 0.9965
+  - scientific: Thalassoma bifasciatum
+    confidence: 0.0019
+  - scientific: Lutjanus apodus
+    confidence: 0.0002
+species:
+- scientific: Gymnothorax funebris
+  role: primary
+  confidence: 0.9965
+  identified_by: bioclip

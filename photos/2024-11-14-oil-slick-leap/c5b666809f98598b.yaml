@@ -13,3 +13,20 @@ variants:
   file: c5b666809f98598b.dive-plus.webp
   import_original_name: 8f0b6efe0a04e6d8.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156898.8751652
+  top:
+  - scientific: Echeneis naucrates
+    confidence: 0.6035
+  - scientific: Sphyraena barracuda
+    confidence: 0.1714
+  - scientific: Ginglymostoma cirratum
+    confidence: 0.0733
+species:
+- scientific: Echeneis naucrates
+  role: primary
+  confidence: 0.6035
+  identified_by: bioclip

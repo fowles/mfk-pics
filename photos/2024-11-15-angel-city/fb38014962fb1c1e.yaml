@@ -13,3 +13,20 @@ variants:
   file: fb38014962fb1c1e.dive-plus.webp
   import_original_name: f882632eeebd6111.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157056.467386
+  top:
+  - scientific: Gymnothorax funebris
+    confidence: 0.3363
+  - scientific: Opistognathus aurifrons
+    confidence: 0.1511
+  - scientific: Xyrichtys splendens
+    confidence: 0.1006
+species:
+- scientific: Gymnothorax funebris
+  role: primary
+  confidence: 0.3363
+  identified_by: bioclip

@@ -10,3 +10,20 @@ variants:
   file: 5aa1f8d7d4a8142f.dive-plus.webp
   import_original_name: d089c0a3b026cf84.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158237.0906832
+  top:
+  - scientific: Gymnothorax moringa
+    confidence: 0.9993
+  - scientific: Equetus punctatus
+    confidence: 0.0005
+  - scientific: Lactophrys triqueter
+    confidence: 0.0001
+species:
+- scientific: Gymnothorax moringa
+  role: primary
+  confidence: 0.9993
+  identified_by: bioclip

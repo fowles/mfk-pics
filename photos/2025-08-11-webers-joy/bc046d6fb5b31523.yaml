@@ -13,3 +13,20 @@ variants:
   file: bc046d6fb5b31523.dive-plus.webp
   import_original_name: fd28cb4428999eb8.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786071914.995723
+  top:
+  - scientific: Sepioteuthis sepioidea
+    confidence: 0.437
+  - scientific: Kyphosus sectatrix
+    confidence: 0.1828
+  - scientific: Malacanthus plumieri
+    confidence: 0.1681
+species:
+- scientific: Sepioteuthis sepioidea
+  role: primary
+  confidence: 0.437
+  identified_by: bioclip

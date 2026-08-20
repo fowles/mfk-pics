@@ -13,3 +13,20 @@ variants:
   file: 79028f13359a698b.dive-plus.webp
   import_original_name: d17180dc35390a93.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786071914.8386314
+  top:
+  - scientific: Aulostomus maculatus
+    confidence: 0.5379
+  - scientific: Sepioteuthis sepioidea
+    confidence: 0.1459
+  - scientific: Chaetodon striatus
+    confidence: 0.0736
+species:
+- scientific: Aulostomus maculatus
+  role: primary
+  confidence: 0.5379
+  identified_by: bioclip

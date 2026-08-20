@@ -10,3 +10,20 @@ lon: -68.2513754
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156816.0136852
+  top:
+  - scientific: Halichoeres garnoti
+    confidence: 0.7196
+  - scientific: Halichoeres pictus
+    confidence: 0.2475
+  - scientific: Cantherhines macrocerus
+    confidence: 0.0293
+species:
+- scientific: Halichoeres garnoti
+  role: primary
+  confidence: 0.7196
+  identified_by: bioclip

@@ -13,3 +13,20 @@ variants:
   file: a54e8f1230947c5c.dive-plus.webp
   import_original_name: 062ac71ff2d8c740.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159989.3990338
+  top:
+  - scientific: Bothus lunatus
+    confidence: 0.351
+  - scientific: Scarus coeruleus
+    confidence: 0.2011
+  - scientific: Xyrichtys martinicensis
+    confidence: 0.1447
+species:
+- scientific: Bothus lunatus
+  role: primary
+  confidence: 0.351
+  identified_by: bioclip

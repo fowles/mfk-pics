@@ -10,3 +10,20 @@ variants:
   file: 09dd6eca0e1c751c.dive-plus.webp
   import_original_name: ec1d1f76329e5227.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156575.9682019
+  top:
+  - scientific: Heteroconger longissimus
+    confidence: 0.6212
+  - scientific: Xyrichtys splendens
+    confidence: 0.1025
+  - scientific: Emblemaria pandionis
+    confidence: 0.0799
+species:
+- scientific: Heteroconger longissimus
+  role: primary
+  confidence: 0.6212
+  identified_by: bioclip

@@ -10,3 +10,20 @@ lon: -68.28180019999999
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157579.4355628
+  top:
+  - scientific: Emblemaria pandionis
+    confidence: 0.4782
+  - scientific: Gymnothorax miliaris
+    confidence: 0.2105
+  - scientific: Acanthemblemaria maria
+    confidence: 0.1525
+species:
+- scientific: Emblemaria pandionis
+  role: primary
+  confidence: 0.4782
+  identified_by: bioclip

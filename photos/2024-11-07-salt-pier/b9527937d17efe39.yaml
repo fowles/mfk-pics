@@ -13,3 +13,20 @@ variants:
   file: b9527937d17efe39.dive-plus.webp
   import_original_name: 3ac82f5204549d02.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156359.5092847
+  top:
+  - scientific: Lactophrys triqueter
+    confidence: 0.8374
+  - scientific: Epinephelus guttatus
+    confidence: 0.0098
+  - scientific: Stenopus hispidus
+    confidence: 0.0088
+species:
+- scientific: Lactophrys triqueter
+  role: primary
+  confidence: 0.8374
+  identified_by: bioclip

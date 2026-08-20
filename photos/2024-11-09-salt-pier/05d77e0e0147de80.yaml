@@ -13,3 +13,20 @@ variants:
   file: 05d77e0e0147de80.dive-plus.webp
   import_original_name: 509ec428b4c9640b.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156580.0186057
+  top:
+  - scientific: Emblemaria pandionis
+    confidence: 0.4051
+  - scientific: Eretmochelys imbricata
+    confidence: 0.3231
+  - scientific: Diodon holocanthus
+    confidence: 0.1
+species:
+- scientific: Emblemaria pandionis
+  role: primary
+  confidence: 0.4051
+  identified_by: bioclip

@@ -13,3 +13,20 @@ variants:
   file: a7204202b829ebe4.dive-plus.webp
   import_original_name: 840208b34822bf8a.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156585.1028802
+  top:
+  - scientific: Acanthostracion polygonius
+    confidence: 0.6841
+  - scientific: Lactophrys triqueter
+    confidence: 0.1211
+  - scientific: Diodon hystrix
+    confidence: 0.1072
+species:
+- scientific: Acanthostracion polygonius
+  role: primary
+  confidence: 0.6841
+  identified_by: bioclip

@@ -13,3 +13,20 @@ variants:
   file: 8e2be187ebc6ebe1.dive-plus.webp
   import_original_name: 4ea976bc2a7a2da1.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786160203.4967608
+  top:
+  - scientific: Holothuria mexicana
+    confidence: 0.5453
+  - scientific: Sparisoma viride
+    confidence: 0.1399
+  - scientific: Sparisoma aurofrenatum
+    confidence: 0.1121
+species:
+- scientific: Holothuria mexicana
+  role: primary
+  confidence: 0.5453
+  identified_by: bioclip

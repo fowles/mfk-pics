@@ -10,3 +10,20 @@ lon: -68.28180019999999
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156311.3469105
+  top:
+  - scientific: Tursiops truncatus
+    confidence: 0.9889
+  - scientific: Gymnothorax funebris
+    confidence: 0.0055
+  - scientific: Sepioteuthis sepioidea
+    confidence: 0.0013
+species:
+- scientific: Tursiops truncatus
+  role: primary
+  confidence: 0.9889
+  identified_by: bioclip

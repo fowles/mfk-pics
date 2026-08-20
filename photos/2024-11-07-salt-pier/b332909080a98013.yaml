@@ -14,3 +14,20 @@ variants:
   import_original_name: ee6dfdbb8277de46.webp
 date_reviewed: true
 rotation_applied: 270
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1787030910.5752738
+  top:
+  - scientific: Gymnothorax miliaris
+    confidence: 0.7009
+  - scientific: Myrichthys ocellatus
+    confidence: 0.0912
+  - scientific: Lactophrys triqueter
+    confidence: 0.0393
+species:
+- scientific: Gymnothorax miliaris
+  role: primary
+  confidence: 0.7009
+  identified_by: bioclip

@@ -13,3 +13,20 @@ variants:
   file: 35ed65445163c2ed.dive-plus.webp
   import_original_name: c17bea671dfeb3a7.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157215.7277482
+  top:
+  - scientific: Aluterus scriptus
+    confidence: 0.998
+  - scientific: Acanthostracion quadricornis
+    confidence: 0.0015
+  - scientific: Diodon holocanthus
+    confidence: 0.0002
+species:
+- scientific: Aluterus scriptus
+  role: primary
+  confidence: 0.998
+  identified_by: bioclip

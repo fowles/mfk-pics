@@ -10,3 +10,20 @@ lon: -68.40111449999999
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158858.0546753
+  top:
+  - scientific: Aluterus scriptus
+    confidence: 0.2764
+  - scientific: Scomberomorus regalis
+    confidence: 0.2318
+  - scientific: Scarus vetula
+    confidence: 0.1437
+species:
+- scientific: Aluterus scriptus
+  role: primary
+  confidence: 0.2764
+  identified_by: bioclip

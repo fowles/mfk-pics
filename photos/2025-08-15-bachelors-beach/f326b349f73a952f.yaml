@@ -10,3 +10,20 @@ lon: -68.2874429
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158392.6657188
+  top:
+  - scientific: Heteropriacanthus cruentatus
+    confidence: 0.8367
+  - scientific: Cephalopholis cruentata
+    confidence: 0.0594
+  - scientific: Myripristis jacobus
+    confidence: 0.0244
+species:
+- scientific: Heteropriacanthus cruentatus
+  role: primary
+  confidence: 0.8367
+  identified_by: bioclip

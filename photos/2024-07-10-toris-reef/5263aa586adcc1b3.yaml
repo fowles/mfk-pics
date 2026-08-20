@@ -13,3 +13,20 @@ variants:
   file: 5263aa586adcc1b3.dive-plus.webp
   import_original_name: dafcacf26fcdca62.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786160213.428713
+  top:
+  - scientific: Chromis cyanea
+    confidence: 0.5164
+  - scientific: Bothus lunatus
+    confidence: 0.1104
+  - scientific: Heteroconger longissimus
+    confidence: 0.082
+species:
+- scientific: Chromis cyanea
+  role: primary
+  confidence: 0.5164
+  identified_by: bioclip

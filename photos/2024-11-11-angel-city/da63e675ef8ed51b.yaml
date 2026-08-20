@@ -13,3 +13,20 @@ variants:
   file: da63e675ef8ed51b.dive-plus.webp
   import_original_name: 80035f58a7ba1ba0.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156747.5893254
+  top:
+  - scientific: Acanthostracion polygonius
+    confidence: 0.7484
+  - scientific: Acanthostracion quadricornis
+    confidence: 0.0737
+  - scientific: Gymnothorax funebris
+    confidence: 0.0244
+species:
+- scientific: Acanthostracion polygonius
+  role: primary
+  confidence: 0.7484
+  identified_by: bioclip

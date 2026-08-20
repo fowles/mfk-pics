@@ -10,3 +10,18 @@ variants:
   file: 76707b368bcb8d4d.dive-plus.webp
   import_original_name: 4c079843f324b7e4.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158970.2385452
+  top:
+  - scientific: Microspathodon chrysurus
+    confidence: 0.0518
+  - scientific: Gramma loreto
+    confidence: 0.0096
+  - scientific: Scarus coelestinus
+    confidence: 0.0051
+  absorbed_by:
+    scientific: Meandrina meandrites
+    confidence: 0.842

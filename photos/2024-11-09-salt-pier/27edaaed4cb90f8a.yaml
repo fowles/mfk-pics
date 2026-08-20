@@ -10,3 +10,18 @@ variants:
   file: 27edaaed4cb90f8a.dive-plus.webp
   import_original_name: 52b0b2686d701aaa.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156576.1224258
+  top:
+  - scientific: Dactylopterus volitans
+    confidence: 0.2343
+  - scientific: Aulostomus maculatus
+    confidence: 0.0655
+  - scientific: Cassiopea xamachana
+    confidence: 0.0331
+  absorbed_by:
+    scientific: Gorgonia ventalina
+    confidence: 0.3234

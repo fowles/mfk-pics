@@ -10,3 +10,20 @@ variants:
   file: 8a8b8bc626c5f5f3.dive-plus.webp
   import_original_name: fd6d2abf17206112.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156575.6870894
+  top:
+  - scientific: Pareques acuminatus
+    confidence: 0.3359
+  - scientific: Monacanthus tuckeri
+    confidence: 0.1399
+  - scientific: Haemulon macrostomum
+    confidence: 0.0988
+species:
+- scientific: Pareques acuminatus
+  role: primary
+  confidence: 0.3359
+  identified_by: bioclip

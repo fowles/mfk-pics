@@ -11,3 +11,20 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 rotation_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156319.8329391
+  top:
+  - scientific: Melichthys niger
+    confidence: 0.6543
+  - scientific: Microspathodon chrysurus
+    confidence: 0.1773
+  - scientific: Haemulon macrostomum
+    confidence: 0.0266
+species:
+- scientific: Melichthys niger
+  role: primary
+  confidence: 0.6543
+  identified_by: bioclip

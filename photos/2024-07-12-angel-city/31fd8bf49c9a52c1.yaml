@@ -14,3 +14,20 @@ variants:
   import_original_name: 05e8260ef0b722ec.webp
 date_reviewed: true
 rotation_applied: 90
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1787031076.7021086
+  top:
+  - scientific: Hypoplectrus indigo
+    confidence: 0.1662
+  - scientific: Acanthostracion polygonius
+    confidence: 0.0998
+  - scientific: Chaetodon capistratus
+    confidence: 0.0885
+species:
+- scientific: Hypoplectrus indigo
+  role: primary
+  confidence: 0.1662
+  identified_by: bioclip

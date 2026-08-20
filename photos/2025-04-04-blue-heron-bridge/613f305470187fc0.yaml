@@ -10,3 +10,20 @@ variants:
   file: 613f305470187fc0.dive-plus.webp
   import_original_name: f2851fde36ba6cc3.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157491.045961
+  top:
+  - scientific: Thalassoma bifasciatum
+    confidence: 0.8874
+  - scientific: Pomacanthus paru
+    confidence: 0.0604
+  - scientific: Chaetodon striatus
+    confidence: 0.028
+species:
+- scientific: Thalassoma bifasciatum
+  role: primary
+  confidence: 0.8874
+  identified_by: bioclip

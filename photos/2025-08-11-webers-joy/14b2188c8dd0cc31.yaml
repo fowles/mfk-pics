@@ -13,3 +13,18 @@ variants:
   file: 14b2188c8dd0cc31.dive-plus.webp
   import_original_name: 6a4479296b201290.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786071914.0520265
+  top:
+  - scientific: Aulostomus maculatus
+    confidence: 0.0033
+  - scientific: Gymnothorax funebris
+    confidence: 0.0017
+  - scientific: Gramma loreto
+    confidence: 0.0004
+  absorbed_by:
+    scientific: Xestospongia muta
+    confidence: 0.9543

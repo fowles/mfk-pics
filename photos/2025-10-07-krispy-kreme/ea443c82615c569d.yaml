@@ -9,3 +9,20 @@ lat: 25.5543
 lon: -79.2886
 gps_source: dive_site
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159795.976095
+  top:
+  - scientific: Ancylomenes pedersoni
+    confidence: 0.5981
+  - scientific: Periclimenes yucatanicus
+    confidence: 0.2057
+  - scientific: Stenopus hispidus
+    confidence: 0.0398
+species:
+- scientific: Ancylomenes pedersoni
+  role: primary
+  confidence: 0.5981
+  identified_by: bioclip

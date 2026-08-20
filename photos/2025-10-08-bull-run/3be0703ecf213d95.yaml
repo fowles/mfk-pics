@@ -9,3 +9,20 @@ lat: 25.5006
 lon: -79.2641
 gps_source: dive_site
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159809.4030747
+  top:
+  - scientific: Scomberomorus regalis
+    confidence: 0.4561
+  - scientific: Kyphosus sectatrix
+    confidence: 0.1716
+  - scientific: Megalops atlanticus
+    confidence: 0.1283
+species:
+- scientific: Scomberomorus regalis
+  role: primary
+  confidence: 0.4561
+  identified_by: bioclip

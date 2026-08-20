@@ -10,3 +10,20 @@ variants:
   file: 3ae5522138a1875d.dive-plus.webp
   import_original_name: e13e20dd70a38143.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159948.4801102
+  top:
+  - scientific: Lactophrys triqueter
+    confidence: 0.3733
+  - scientific: Eretmochelys imbricata
+    confidence: 0.187
+  - scientific: Dactylopterus volitans
+    confidence: 0.1356
+species:
+- scientific: Lactophrys triqueter
+  role: primary
+  confidence: 0.3733
+  identified_by: bioclip

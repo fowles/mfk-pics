@@ -13,3 +13,20 @@ variants:
   file: 92207a0d8793e978.dive-plus.webp
   import_original_name: 2b04c20c52dd2745.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156983.7086978
+  top:
+  - scientific: Myrichthys ocellatus
+    confidence: 0.7317
+  - scientific: Dactylopterus volitans
+    confidence: 0.2259
+  - scientific: Xyrichtys martinicensis
+    confidence: 0.0167
+species:
+- scientific: Myrichthys ocellatus
+  role: primary
+  confidence: 0.7317
+  identified_by: bioclip

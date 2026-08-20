@@ -13,3 +13,20 @@ variants:
   file: 5c77c393a36a0a5c.dive-plus.webp
   import_original_name: a3d45abfe4faf16f.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156377.7582238
+  top:
+  - scientific: Equetus punctatus
+    confidence: 0.9992
+  - scientific: Aulostomus maculatus
+    confidence: 0.0006
+  - scientific: Haemulon macrostomum
+    confidence: 0.0001
+species:
+- scientific: Equetus punctatus
+  role: primary
+  confidence: 0.9992
+  identified_by: bioclip

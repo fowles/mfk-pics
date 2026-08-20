@@ -11,3 +11,20 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 rotation_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156813.0202696
+  top:
+  - scientific: Aluterus scriptus
+    confidence: 0.9006
+  - scientific: Scarus coelestinus
+    confidence: 0.0728
+  - scientific: Acanthostracion polygonius
+    confidence: 0.0118
+species:
+- scientific: Aluterus scriptus
+  role: primary
+  confidence: 0.9006
+  identified_by: bioclip

@@ -10,3 +10,20 @@ variants:
   file: a2045d6023f27a9d.dive-plus.webp
   import_original_name: b6c39dc509ad6e6b.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159065.413999
+  top:
+  - scientific: Aulostomus maculatus
+    confidence: 0.8117
+  - scientific: Diadema antillarum
+    confidence: 0.0534
+  - scientific: Panulirus argus
+    confidence: 0.0325
+species:
+- scientific: Aulostomus maculatus
+  role: primary
+  confidence: 0.8117
+  identified_by: bioclip

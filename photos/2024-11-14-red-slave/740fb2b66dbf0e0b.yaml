@@ -10,3 +10,20 @@ lon: -68.2513754
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156964.7560322
+  top:
+  - scientific: Ginglymostoma cirratum
+    confidence: 0.4493
+  - scientific: Aetobatus narinari
+    confidence: 0.269
+  - scientific: Gymnothorax funebris
+    confidence: 0.0855
+species:
+- scientific: Ginglymostoma cirratum
+  role: primary
+  confidence: 0.4493
+  identified_by: bioclip

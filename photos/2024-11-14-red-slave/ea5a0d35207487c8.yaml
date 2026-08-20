@@ -13,3 +13,20 @@ variants:
   file: ea5a0d35207487c8.dive-plus.webp
   import_original_name: f91fe93f54ff3e36.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156983.5762398
+  top:
+  - scientific: Aulostomus maculatus
+    confidence: 0.4818
+  - scientific: Haemulon chrysargyreum
+    confidence: 0.0577
+  - scientific: Haemulon sciurus
+    confidence: 0.0478
+species:
+- scientific: Aulostomus maculatus
+  role: primary
+  confidence: 0.4818
+  identified_by: bioclip

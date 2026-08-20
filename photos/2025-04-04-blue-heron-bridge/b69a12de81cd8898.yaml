@@ -13,3 +13,20 @@ variants:
   file: b69a12de81cd8898.dive-plus.webp
   import_original_name: a9347ed20c2c0873.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157494.958841
+  top:
+  - scientific: Ogcocephalus nasutus
+    confidence: 0.8297
+  - scientific: Dactylopterus volitans
+    confidence: 0.0943
+  - scientific: Trachinotus goodei
+    confidence: 0.0237
+species:
+- scientific: Ogcocephalus nasutus
+  role: primary
+  confidence: 0.8297
+  identified_by: bioclip

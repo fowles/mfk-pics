@@ -10,3 +10,20 @@ variants:
   file: 4977a83b92ebc59b.dive-plus.webp
   import_original_name: d1c958860ec8a43b.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156897.4885662
+  top:
+  - scientific: Sepioteuthis sepioidea
+    confidence: 0.281
+  - scientific: Epinephelus striatus
+    confidence: 0.261
+  - scientific: Gymnothorax funebris
+    confidence: 0.2387
+species:
+- scientific: Sepioteuthis sepioidea
+  role: primary
+  confidence: 0.281
+  identified_by: bioclip

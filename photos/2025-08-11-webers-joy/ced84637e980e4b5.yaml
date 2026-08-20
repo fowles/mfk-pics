@@ -13,3 +13,20 @@ variants:
   file: ced84637e980e4b5.dive-plus.webp
   import_original_name: 087fe1e0279cf29f.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786071915.9386625
+  top:
+  - scientific: Diadema antillarum
+    confidence: 0.9971
+  - scientific: Pterois volitans
+    confidence: 0.0019
+  - scientific: Pareques acuminatus
+    confidence: 0.0006
+species:
+- scientific: Diadema antillarum
+  role: primary
+  confidence: 0.9971
+  identified_by: bioclip

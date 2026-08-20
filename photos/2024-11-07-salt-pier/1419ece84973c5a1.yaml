@@ -13,3 +13,20 @@ variants:
   file: 1419ece84973c5a1.dive-plus.webp
   import_original_name: 19e3f317b24622a8.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156371.6185694
+  top:
+  - scientific: Aetobatus narinari
+    confidence: 0.3152
+  - scientific: Megalops atlanticus
+    confidence: 0.0991
+  - scientific: Canthidermis sufflamen
+    confidence: 0.094
+species:
+- scientific: Aetobatus narinari
+  role: primary
+  confidence: 0.3152
+  identified_by: bioclip

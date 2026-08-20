@@ -13,3 +13,18 @@ variants:
   file: c58d917b69b04ad6.dive-plus.webp
   import_original_name: 71f98f033e27be85.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158743.4959939
+  top:
+  - scientific: Hippocampus erectus
+    confidence: 0.3093
+  - scientific: Aulostomus maculatus
+    confidence: 0.0532
+  - scientific: Aetobatus narinari
+    confidence: 0.038
+  absorbed_by:
+    scientific: Gorgonia ventalina
+    confidence: 0.3593

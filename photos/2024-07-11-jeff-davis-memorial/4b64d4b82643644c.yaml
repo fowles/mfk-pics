@@ -10,3 +10,20 @@ variants:
   file: 4b64d4b82643644c.dive-plus.webp
   import_original_name: d5d6014382c5967b.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159575.2653103
+  top:
+  - scientific: Chaetodon striatus
+    confidence: 0.4994
+  - scientific: Aulostomus maculatus
+    confidence: 0.182
+  - scientific: Haemulon macrostomum
+    confidence: 0.0851
+species:
+- scientific: Chaetodon striatus
+  role: primary
+  confidence: 0.4994
+  identified_by: bioclip

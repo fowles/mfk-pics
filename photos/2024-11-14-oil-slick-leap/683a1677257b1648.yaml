@@ -10,3 +10,20 @@ variants:
   file: 683a1677257b1648.dive-plus.webp
   import_original_name: 3b723ced6dea0762.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156897.5298393
+  top:
+  - scientific: Sepioteuthis sepioidea
+    confidence: 0.2574
+  - scientific: Gymnothorax funebris
+    confidence: 0.2105
+  - scientific: Pareques acuminatus
+    confidence: 0.2008
+species:
+- scientific: Sepioteuthis sepioidea
+  role: primary
+  confidence: 0.2574
+  identified_by: bioclip

@@ -13,3 +13,20 @@ variants:
   file: 5949a90df83a348e.dive-plus.webp
   import_original_name: d55a12e874d71213.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158873.1693547
+  top:
+  - scientific: Melichthys niger
+    confidence: 0.445
+  - scientific: Mycteroperca venenosa
+    confidence: 0.3331
+  - scientific: Chaetodipterus faber
+    confidence: 0.0909
+species:
+- scientific: Melichthys niger
+  role: primary
+  confidence: 0.445
+  identified_by: bioclip

@@ -10,3 +10,20 @@ variants:
   file: ddc3bd6af6f73fff.dive-plus.webp
   import_original_name: 6261b593f9216046.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157491.3555253
+  top:
+  - scientific: Serranus tortugarum
+    confidence: 0.8385
+  - scientific: Xyrichtys martinicensis
+    confidence: 0.0841
+  - scientific: Holocentrus adscensionis
+    confidence: 0.0235
+species:
+- scientific: Serranus tortugarum
+  role: primary
+  confidence: 0.8385
+  identified_by: bioclip

@@ -13,3 +13,20 @@ variants:
   file: 31ac83725e9617e9.dive-plus.webp
   import_original_name: c7a0d1a5a8398164.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156747.7394614
+  top:
+  - scientific: Gymnothorax miliaris
+    confidence: 0.4018
+  - scientific: Pempheris schomburgkii
+    confidence: 0.1333
+  - scientific: Gymnothorax funebris
+    confidence: 0.1196
+species:
+- scientific: Gymnothorax miliaris
+  role: primary
+  confidence: 0.4018
+  identified_by: bioclip

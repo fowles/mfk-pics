@@ -10,3 +10,20 @@ lon: -68.2806703
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786160157.5952878
+  top:
+  - scientific: Sepioteuthis sepioidea
+    confidence: 0.2846
+  - scientific: Haemulon sciurus
+    confidence: 0.2541
+  - scientific: Sparisoma viride
+    confidence: 0.0653
+species:
+- scientific: Sepioteuthis sepioidea
+  role: primary
+  confidence: 0.2846
+  identified_by: bioclip

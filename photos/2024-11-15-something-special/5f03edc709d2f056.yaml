@@ -10,3 +10,18 @@ variants:
   file: 5f03edc709d2f056.dive-plus.webp
   import_original_name: 3e8a316a29d55738.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157212.6536021
+  top:
+  - scientific: Diodon holocanthus
+    confidence: 0.0608
+  - scientific: Gymnothorax miliaris
+    confidence: 0.0375
+  - scientific: Stenopus hispidus
+    confidence: 0.0155
+  absorbed_by:
+    scientific: Xestospongia muta
+    confidence: 0.679

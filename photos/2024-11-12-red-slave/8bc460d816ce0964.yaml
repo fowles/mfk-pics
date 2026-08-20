@@ -14,3 +14,15 @@ species:
 - scientific: Aetobatus narinari
   role: primary
   identified_by: human
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156803.6409428
+  top:
+  - scientific: Aetobatus narinari
+    confidence: 1.0
+  - scientific: Echeneis naucrates
+    confidence: 0.0
+  - scientific: Hypanus americanus
+    confidence: 0.0

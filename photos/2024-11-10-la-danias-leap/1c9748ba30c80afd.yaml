@@ -10,3 +10,20 @@ lon: -68.34805419999999
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156692.8525245
+  top:
+  - scientific: Cantherhines pullus
+    confidence: 0.4484
+  - scientific: Cantherhines macrocerus
+    confidence: 0.219
+  - scientific: Monacanthus tuckeri
+    confidence: 0.0873
+species:
+- scientific: Cantherhines pullus
+  role: primary
+  confidence: 0.4484
+  identified_by: bioclip

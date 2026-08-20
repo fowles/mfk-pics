@@ -10,3 +10,20 @@ lon: -68.2872912
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158487.2001417
+  top:
+  - scientific: Monacanthus tuckeri
+    confidence: 0.6035
+  - scientific: Aulostomus maculatus
+    confidence: 0.1795
+  - scientific: Hypoplectrus puella
+    confidence: 0.0581
+species:
+- scientific: Monacanthus tuckeri
+  role: primary
+  confidence: 0.6035
+  identified_by: bioclip

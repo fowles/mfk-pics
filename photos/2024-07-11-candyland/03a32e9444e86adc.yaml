@@ -13,3 +13,20 @@ variants:
   file: 03a32e9444e86adc.dive-plus.webp
   import_original_name: 8dd5407a7fb0876e.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159294.576255
+  top:
+  - scientific: Thalassoma bifasciatum
+    confidence: 0.6884
+  - scientific: Epinephelus itajara
+    confidence: 0.0585
+  - scientific: Scarus guacamaia
+    confidence: 0.031
+species:
+- scientific: Thalassoma bifasciatum
+  role: primary
+  confidence: 0.6884
+  identified_by: bioclip

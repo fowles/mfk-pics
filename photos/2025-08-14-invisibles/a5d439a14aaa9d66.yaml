@@ -10,3 +10,20 @@ variants:
   file: a5d439a14aaa9d66.dive-plus.webp
   import_original_name: 1995a28012730ae5.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158235.4351857
+  top:
+  - scientific: Canthidermis sufflamen
+    confidence: 0.9978
+  - scientific: Balistes vetula
+    confidence: 0.001
+  - scientific: Ogcocephalus radiatus
+    confidence: 0.0004
+species:
+- scientific: Canthidermis sufflamen
+  role: primary
+  confidence: 0.9978
+  identified_by: bioclip

@@ -13,3 +13,20 @@ variants:
   file: 032f38f2d477cf2b.dive-plus.webp
   import_original_name: 55b74bc7b720b8fc.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156981.555483
+  top:
+  - scientific: Diodon hystrix
+    confidence: 0.977
+  - scientific: Diodon holocanthus
+    confidence: 0.0074
+  - scientific: Acanthostracion polygonius
+    confidence: 0.0039
+species:
+- scientific: Diodon hystrix
+  role: primary
+  confidence: 0.977
+  identified_by: bioclip

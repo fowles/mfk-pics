@@ -10,3 +10,20 @@ variants:
   file: c8f3122cae3776e3.dive-plus.webp
   import_original_name: f9685f1648b1bd8d.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158968.2427182
+  top:
+  - scientific: Sepioteuthis sepioidea
+    confidence: 0.2838
+  - scientific: Mycteroperca venenosa
+    confidence: 0.1637
+  - scientific: Serranus tigrinus
+    confidence: 0.0854
+species:
+- scientific: Sepioteuthis sepioidea
+  role: primary
+  confidence: 0.2838
+  identified_by: bioclip

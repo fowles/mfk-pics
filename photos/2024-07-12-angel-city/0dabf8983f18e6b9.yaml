@@ -13,3 +13,20 @@ variants:
   file: 0dabf8983f18e6b9.dive-plus.webp
   import_original_name: 92ee1b4e3c8986aa.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158520.5858068
+  top:
+  - scientific: Ginglymostoma cirratum
+    confidence: 0.5159
+  - scientific: Echeneis naucrates
+    confidence: 0.3808
+  - scientific: Sepioteuthis sepioidea
+    confidence: 0.0309
+species:
+- scientific: Ginglymostoma cirratum
+  role: primary
+  confidence: 0.5159
+  identified_by: bioclip

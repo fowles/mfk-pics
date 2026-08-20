@@ -13,3 +13,20 @@ variants:
   file: 23a8c1183443cf0a.dive-plus.webp
   import_original_name: 6f69e8182f4431aa.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156579.3406165
+  top:
+  - scientific: Gramma loreto
+    confidence: 0.1648
+  - scientific: Haemulon flavolineatum
+    confidence: 0.1578
+  - scientific: Abudefduf saxatilis
+    confidence: 0.1336
+species:
+- scientific: Gramma loreto
+  role: primary
+  confidence: 0.1648
+  identified_by: bioclip

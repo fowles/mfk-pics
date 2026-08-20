@@ -10,3 +10,20 @@ lon: -68.28180019999999
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156326.1585965
+  top:
+  - scientific: Aluterus scriptus
+    confidence: 0.3123
+  - scientific: Sphyraena barracuda
+    confidence: 0.2012
+  - scientific: Sepioteuthis sepioidea
+    confidence: 0.1707
+species:
+- scientific: Aluterus scriptus
+  role: primary
+  confidence: 0.3123
+  identified_by: bioclip

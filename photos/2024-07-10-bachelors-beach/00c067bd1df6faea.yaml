@@ -10,3 +10,18 @@ variants:
   file: 00c067bd1df6faea.dive-plus.webp
   import_original_name: 297238ed373ceadc.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158723.3811955
+  top:
+  - scientific: Aulostomus maculatus
+    confidence: 0.0013
+  - scientific: Astrophyton muricatum
+    confidence: 0.001
+  - scientific: Pareques acuminatus
+    confidence: 0.0
+  absorbed_by:
+    scientific: Cirrhipathes leutkeni
+    confidence: 0.8513

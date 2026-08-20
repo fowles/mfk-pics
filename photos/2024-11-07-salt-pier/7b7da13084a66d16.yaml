@@ -10,3 +10,20 @@ variants:
   file: 7b7da13084a66d16.dive-plus.webp
   import_original_name: 9de2b2ea517b613c.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156328.331436
+  top:
+  - scientific: Chaetodon striatus
+    confidence: 0.3506
+  - scientific: Chaetodon capistratus
+    confidence: 0.2701
+  - scientific: Chaetodon sedentarius
+    confidence: 0.1575
+species:
+- scientific: Chaetodon striatus
+  role: primary
+  confidence: 0.3506
+  identified_by: bioclip

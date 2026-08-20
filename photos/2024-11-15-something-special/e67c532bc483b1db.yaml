@@ -13,3 +13,20 @@ variants:
   file: e67c532bc483b1db.dive-plus.webp
   import_original_name: e87e188bbdb0c02d.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157216.2619472
+  top:
+  - scientific: Octopus briareus
+    confidence: 0.5257
+  - scientific: Cephalopholis cruentata
+    confidence: 0.2367
+  - scientific: Gymnothorax miliaris
+    confidence: 0.1612
+species:
+- scientific: Octopus briareus
+  role: primary
+  confidence: 0.5257
+  identified_by: bioclip

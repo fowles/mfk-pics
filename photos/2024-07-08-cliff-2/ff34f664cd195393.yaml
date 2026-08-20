@@ -10,3 +10,20 @@ lon: -68.2903018
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159369.5469716
+  top:
+  - scientific: Trachinotus goodei
+    confidence: 0.8088
+  - scientific: Megalops atlanticus
+    confidence: 0.0677
+  - scientific: Scomberomorus regalis
+    confidence: 0.0558
+species:
+- scientific: Trachinotus goodei
+  role: primary
+  confidence: 0.8088
+  identified_by: bioclip

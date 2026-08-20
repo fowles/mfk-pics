@@ -13,3 +13,20 @@ variants:
   file: ada70d1cf0c62ee3.dive-plus.webp
   import_original_name: c0fae3a412e1ba60.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157213.7951179
+  top:
+  - scientific: Gymnothorax moringa
+    confidence: 0.9985
+  - scientific: Diodon hystrix
+    confidence: 0.0009
+  - scientific: Equetus punctatus
+    confidence: 0.0003
+species:
+- scientific: Gymnothorax moringa
+  role: primary
+  confidence: 0.9985
+  identified_by: bioclip

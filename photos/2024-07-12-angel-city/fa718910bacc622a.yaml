@@ -10,3 +10,20 @@ variants:
   file: fa718910bacc622a.dive-plus.webp
   import_original_name: 649cd592fdeaf30b.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158501.250471
+  top:
+  - scientific: Selar crumenophthalmus
+    confidence: 0.2302
+  - scientific: Ocyurus chrysurus
+    confidence: 0.2147
+  - scientific: Holocentrus adscensionis
+    confidence: 0.0727
+species:
+- scientific: Selar crumenophthalmus
+  role: primary
+  confidence: 0.2302
+  identified_by: bioclip

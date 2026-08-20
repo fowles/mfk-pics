@@ -13,3 +13,20 @@ variants:
   file: 4cb1ba46786200f4.dive-plus.webp
   import_original_name: 7b2cbbe9534c38d5.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158337.485146
+  top:
+  - scientific: Ancylomenes pedersoni
+    confidence: 0.8217
+  - scientific: Periclimenes yucatanicus
+    confidence: 0.0644
+  - scientific: Panulirus guttatus
+    confidence: 0.043
+species:
+- scientific: Ancylomenes pedersoni
+  role: primary
+  confidence: 0.8217
+  identified_by: bioclip

@@ -13,3 +13,18 @@ variants:
   file: 25ce563649f0ce0c.dive-plus.webp
   import_original_name: 0c1a7a35d6d8c990.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158238.187577
+  top:
+  - scientific: Astrophyton muricatum
+    confidence: 0.1094
+  - scientific: Cyphoma gibbosum
+    confidence: 0.0288
+  - scientific: Gymnothorax moringa
+    confidence: 0.0198
+  absorbed_by:
+    scientific: Antillogorgia americana
+    confidence: 0.4693

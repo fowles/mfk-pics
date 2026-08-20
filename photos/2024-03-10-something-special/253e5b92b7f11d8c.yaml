@@ -13,3 +13,20 @@ variants:
   file: 253e5b92b7f11d8c.dive-plus.webp
   import_original_name: 7b054e7746bda46a.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159067.1547039
+  top:
+  - scientific: Mycteroperca venenosa
+    confidence: 0.632
+  - scientific: Mycteroperca tigris
+    confidence: 0.2769
+  - scientific: Aluterus scriptus
+    confidence: 0.0491
+species:
+- scientific: Mycteroperca venenosa
+  role: primary
+  confidence: 0.632
+  identified_by: bioclip

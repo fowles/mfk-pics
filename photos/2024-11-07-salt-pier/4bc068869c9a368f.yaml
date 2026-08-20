@@ -10,3 +10,20 @@ lon: -68.28180019999999
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156319.374624
+  top:
+  - scientific: Haemulon chrysargyreum
+    confidence: 0.5192
+  - scientific: Haemulon macrostomum
+    confidence: 0.321
+  - scientific: Anisotremus virginicus
+    confidence: 0.0315
+species:
+- scientific: Haemulon chrysargyreum
+  role: primary
+  confidence: 0.5192
+  identified_by: bioclip

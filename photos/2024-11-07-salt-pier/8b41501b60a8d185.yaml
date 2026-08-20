@@ -10,3 +10,20 @@ lon: -68.28180019999999
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156309.9957614
+  top:
+  - scientific: Chelonia mydas
+    confidence: 0.9707
+  - scientific: Echeneis naucrates
+    confidence: 0.0097
+  - scientific: Eretmochelys imbricata
+    confidence: 0.0091
+species:
+- scientific: Chelonia mydas
+  role: primary
+  confidence: 0.9707
+  identified_by: bioclip

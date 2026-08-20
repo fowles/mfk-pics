@@ -13,3 +13,20 @@ variants:
   file: b44a699a815eff94.dive-plus.webp
   import_original_name: 9cb78bd7c4fd42bf.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156980.62978
+  top:
+  - scientific: Halichoeres garnoti
+    confidence: 0.9637
+  - scientific: Canthigaster rostrata
+    confidence: 0.0084
+  - scientific: Bodianus rufus
+    confidence: 0.006
+species:
+- scientific: Halichoeres garnoti
+  role: primary
+  confidence: 0.9637
+  identified_by: bioclip

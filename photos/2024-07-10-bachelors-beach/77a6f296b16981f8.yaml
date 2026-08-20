@@ -10,3 +10,20 @@ variants:
   file: 77a6f296b16981f8.dive-plus.webp
   import_original_name: 23ee8f5cfecb04f7.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158725.0837922
+  top:
+  - scientific: Holocentrus rufus
+    confidence: 0.3494
+  - scientific: Haemulon macrostomum
+    confidence: 0.255
+  - scientific: Pareques acuminatus
+    confidence: 0.1685
+species:
+- scientific: Holocentrus rufus
+  role: primary
+  confidence: 0.3494
+  identified_by: bioclip

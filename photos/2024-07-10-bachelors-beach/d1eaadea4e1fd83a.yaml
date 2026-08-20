@@ -13,3 +13,20 @@ variants:
   file: d1eaadea4e1fd83a.dive-plus.webp
   import_original_name: 51a050e8667304f9.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158750.0412223
+  top:
+  - scientific: Aulostomus maculatus
+    confidence: 0.6372
+  - scientific: Jenkinsia lamprotaenia
+    confidence: 0.2811
+  - scientific: Panulirus argus
+    confidence: 0.0349
+species:
+- scientific: Aulostomus maculatus
+  role: primary
+  confidence: 0.6372
+  identified_by: bioclip

@@ -6,3 +6,20 @@ credit: Matthew Kulukundis
 import_album: Salt Pier, Bonaire, 7-7-2024
 import_original_name: PXL_20240707_203608578.jpg
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159954.531733
+  top:
+  - scientific: Lactophrys triqueter
+    confidence: 0.4521
+  - scientific: Melichthys niger
+    confidence: 0.092
+  - scientific: Sparisoma viride
+    confidence: 0.0778
+species:
+- scientific: Lactophrys triqueter
+  role: primary
+  confidence: 0.4521
+  identified_by: bioclip

@@ -10,3 +10,20 @@ variants:
   file: ed0da6afedcef2a8.dive-plus.webp
   import_original_name: ab981c912b4638ab.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159064.1205344
+  top:
+  - scientific: Scarus coelestinus
+    confidence: 0.9757
+  - scientific: Sparisoma viride
+    confidence: 0.0142
+  - scientific: Scarus vetula
+    confidence: 0.0032
+species:
+- scientific: Scarus coelestinus
+  role: primary
+  confidence: 0.9757
+  identified_by: bioclip

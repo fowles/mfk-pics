@@ -13,3 +13,20 @@ variants:
   file: 0a21ec5293fc5347.dive-plus.webp
   import_original_name: 7569cc319b8d877f.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156372.8487267
+  top:
+  - scientific: Gymnothorax funebris
+    confidence: 0.3623
+  - scientific: Serranus tigrinus
+    confidence: 0.1598
+  - scientific: Diodon holocanthus
+    confidence: 0.0442
+species:
+- scientific: Gymnothorax funebris
+  role: primary
+  confidence: 0.3623
+  identified_by: bioclip

@@ -15,3 +15,20 @@ variants:
 date_reviewed: true
 extra_variants:
 - dive-plus
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156584.6927207
+  top:
+  - scientific: Acanthostracion polygonius
+    confidence: 0.3639
+  - scientific: Astrophyton muricatum
+    confidence: 0.2164
+  - scientific: Acanthostracion quadricornis
+    confidence: 0.1543
+species:
+- scientific: Acanthostracion polygonius
+  role: primary
+  confidence: 0.3639
+  identified_by: bioclip

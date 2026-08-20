@@ -13,3 +13,20 @@ variants:
   file: 96935f8df3d5f79f.dive-plus.webp
   import_original_name: 74d73116379f62ac.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156582.8895175
+  top:
+  - scientific: Diodon hystrix
+    confidence: 0.5239
+  - scientific: Bothus lunatus
+    confidence: 0.2853
+  - scientific: Lactophrys bicaudalis
+    confidence: 0.0659
+species:
+- scientific: Diodon hystrix
+  role: primary
+  confidence: 0.5239
+  identified_by: bioclip

@@ -9,3 +9,20 @@ lat: 25.5006
 lon: -79.2641
 gps_source: dive_site
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159806.0329869
+  top:
+  - scientific: Chaetodipterus faber
+    confidence: 0.9926
+  - scientific: Equetus lanceolatus
+    confidence: 0.0064
+  - scientific: Abudefduf saxatilis
+    confidence: 0.0006
+species:
+- scientific: Chaetodipterus faber
+  role: primary
+  confidence: 0.9926
+  identified_by: bioclip

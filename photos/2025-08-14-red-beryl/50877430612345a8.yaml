@@ -14,3 +14,20 @@ variants:
   import_original_name: 0931e5896065472f.webp
 date_reviewed: true
 rotation_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158338.4583437
+  top:
+  - scientific: Aulostomus maculatus
+    confidence: 0.5243
+  - scientific: Sphoeroides spengleri
+    confidence: 0.1992
+  - scientific: Monacanthus tuckeri
+    confidence: 0.0491
+species:
+- scientific: Aulostomus maculatus
+  role: primary
+  confidence: 0.5243
+  identified_by: bioclip

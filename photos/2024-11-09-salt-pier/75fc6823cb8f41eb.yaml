@@ -13,3 +13,20 @@ variants:
   file: 75fc6823cb8f41eb.dive-plus.webp
   import_original_name: 7124771d34c831b9.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156580.644698
+  top:
+  - scientific: Gymnothorax funebris
+    confidence: 0.2689
+  - scientific: Enchelycore carychroa
+    confidence: 0.1857
+  - scientific: Thalassoma bifasciatum
+    confidence: 0.1579
+species:
+- scientific: Gymnothorax funebris
+  role: primary
+  confidence: 0.2689
+  identified_by: bioclip

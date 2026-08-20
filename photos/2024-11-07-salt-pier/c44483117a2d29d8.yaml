@@ -14,3 +14,20 @@ variants:
   import_original_name: ee4726af56513a4f.webp
 date_reviewed: true
 rotation_applied: 270
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1787028954.7923622
+  top:
+  - scientific: Gymnothorax vicinus
+    confidence: 0.2469
+  - scientific: Gymnothorax funebris
+    confidence: 0.2023
+  - scientific: Acanthostracion polygonius
+    confidence: 0.2003
+species:
+- scientific: Gymnothorax vicinus
+  role: primary
+  confidence: 0.2469
+  identified_by: bioclip

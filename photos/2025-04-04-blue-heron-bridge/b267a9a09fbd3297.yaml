@@ -13,3 +13,20 @@ variants:
   file: b267a9a09fbd3297.dive-plus.webp
   import_original_name: b7ae722896e4d744.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157493.6530275
+  top:
+  - scientific: Bothus lunatus
+    confidence: 0.4999
+  - scientific: Panulirus argus
+    confidence: 0.1444
+  - scientific: Acanthostracion polygonius
+    confidence: 0.1346
+species:
+- scientific: Bothus lunatus
+  role: primary
+  confidence: 0.4999
+  identified_by: bioclip

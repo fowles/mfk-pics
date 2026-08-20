@@ -13,3 +13,20 @@ variants:
   file: 10fbc0b84cdf57a5.dive-plus.webp
   import_original_name: e7888a19876c649e.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157283.1403303
+  top:
+  - scientific: Hypanus americanus
+    confidence: 0.9668
+  - scientific: Aetobatus narinari
+    confidence: 0.0163
+  - scientific: Fistularia tabacaria
+    confidence: 0.0054
+species:
+- scientific: Hypanus americanus
+  role: primary
+  confidence: 0.9668
+  identified_by: bioclip

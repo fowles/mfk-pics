@@ -10,3 +10,20 @@ variants:
   file: 0efafef576707d76.dive-plus.webp
   import_original_name: 5b9eca741725261d.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156740.8696675
+  top:
+  - scientific: Lactophrys triqueter
+    confidence: 0.2042
+  - scientific: Epinephelus itajara
+    confidence: 0.1608
+  - scientific: Synodus intermedius
+    confidence: 0.1196
+species:
+- scientific: Lactophrys triqueter
+  role: primary
+  confidence: 0.2042
+  identified_by: bioclip

@@ -13,3 +13,20 @@ variants:
   file: c31396e643b0e113.dive-plus.webp
   import_original_name: 0c1b7ca88c873883.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158337.4765782
+  top:
+  - scientific: Mycteroperca tigris
+    confidence: 0.806
+  - scientific: Cephalopholis cruentata
+    confidence: 0.1634
+  - scientific: Mycteroperca venenosa
+    confidence: 0.0247
+species:
+- scientific: Mycteroperca tigris
+  role: primary
+  confidence: 0.806
+  identified_by: bioclip

@@ -9,3 +9,20 @@ lat: 25.7183
 lon: -79.3154
 gps_source: dive_site
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159819.3374698
+  top:
+  - scientific: Aulostomus maculatus
+    confidence: 0.4085
+  - scientific: Pempheris schomburgkii
+    confidence: 0.0875
+  - scientific: Acanthostracion polygonius
+    confidence: 0.0733
+species:
+- scientific: Aulostomus maculatus
+  role: primary
+  confidence: 0.4085
+  identified_by: bioclip

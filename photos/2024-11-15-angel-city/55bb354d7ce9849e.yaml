@@ -13,3 +13,20 @@ variants:
   file: 55bb354d7ce9849e.dive-plus.webp
   import_original_name: 329d1ff9c2480025.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157056.8387604
+  top:
+  - scientific: Scorpaena plumieri
+    confidence: 0.9661
+  - scientific: Epinephelus itajara
+    confidence: 0.0252
+  - scientific: Dactylopterus volitans
+    confidence: 0.0039
+species:
+- scientific: Scorpaena plumieri
+  role: primary
+  confidence: 0.9661
+  identified_by: bioclip

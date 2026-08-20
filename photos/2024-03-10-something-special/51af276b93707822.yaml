@@ -10,3 +10,18 @@ variants:
   file: 51af276b93707822.dive-plus.webp
   import_original_name: ba0f93ab9ef04b5d.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159062.9852188
+  top:
+  - scientific: Sparisoma rubripinne
+    confidence: 0.0744
+  - scientific: Gymnothorax funebris
+    confidence: 0.0519
+  - scientific: Sparisoma viride
+    confidence: 0.0329
+  absorbed_by:
+    scientific: Madracis auretenra
+    confidence: 0.6253

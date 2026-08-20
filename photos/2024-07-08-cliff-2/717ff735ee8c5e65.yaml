@@ -10,3 +10,20 @@ lon: -68.2903018
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159369.5497541
+  top:
+  - scientific: Microspathodon chrysurus
+    confidence: 0.9877
+  - scientific: Pomacanthus paru
+    confidence: 0.0047
+  - scientific: Stegastes partitus
+    confidence: 0.0025
+species:
+- scientific: Microspathodon chrysurus
+  role: primary
+  confidence: 0.9877
+  identified_by: bioclip

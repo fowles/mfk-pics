@@ -10,3 +10,18 @@ variants:
   file: edefed59ec1b3c93.dive-plus.webp
   import_original_name: c81a3e621138907e.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159063.1901553
+  top:
+  - scientific: Elacatinus evelynae
+    confidence: 0.1512
+  - scientific: Cephalopholis fulva
+    confidence: 0.0779
+  - scientific: Melichthys niger
+    confidence: 0.0406
+  absorbed_by:
+    scientific: Madracis auretenra
+    confidence: 0.2759

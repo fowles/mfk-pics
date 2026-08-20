@@ -10,3 +10,20 @@ variants:
   file: 66e094919de40dd4.dive-plus.webp
   import_original_name: c295cc9ed841e529.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158972.8117387
+  top:
+  - scientific: Aulostomus maculatus
+    confidence: 0.2227
+  - scientific: Heteroconger longissimus
+    confidence: 0.1987
+  - scientific: Gymnothorax miliaris
+    confidence: 0.1043
+species:
+- scientific: Aulostomus maculatus
+  role: primary
+  confidence: 0.2227
+  identified_by: bioclip

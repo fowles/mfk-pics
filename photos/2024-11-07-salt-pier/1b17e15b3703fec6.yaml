@@ -14,3 +14,18 @@ variants:
   import_original_name: 56a2e23ed251922c.webp
 date_reviewed: true
 rotation_applied: 270
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1787030515.0486608
+  top:
+  - scientific: Aulostomus maculatus
+    confidence: 0.1053
+  - scientific: Enchelycore carychroa
+    confidence: 0.0012
+  - scientific: Stenorhynchus seticornis
+    confidence: 0.0011
+  absorbed_by:
+    scientific: Gorgonia ventalina
+    confidence: 0.6331

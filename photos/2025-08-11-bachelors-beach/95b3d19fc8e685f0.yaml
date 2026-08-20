@@ -11,3 +11,20 @@ variants:
   import_original_name: 029ce58c18bd2eed.webp
 date_reviewed: true
 rotation_applied: 270
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1787029560.7762904
+  top:
+  - scientific: Amblycirrhitus pinos
+    confidence: 0.605
+  - scientific: Serranus tigrinus
+    confidence: 0.1168
+  - scientific: Canthigaster rostrata
+    confidence: 0.0362
+species:
+- scientific: Amblycirrhitus pinos
+  role: primary
+  confidence: 0.605
+  identified_by: bioclip

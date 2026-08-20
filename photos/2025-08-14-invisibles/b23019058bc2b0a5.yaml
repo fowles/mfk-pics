@@ -13,3 +13,20 @@ variants:
   file: b23019058bc2b0a5.dive-plus.webp
   import_original_name: b6e032eb7fd61259.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158238.6552548
+  top:
+  - scientific: Heteroconger longissimus
+    confidence: 0.9986
+  - scientific: Jenkinsia lamprotaenia
+    confidence: 0.0012
+  - scientific: Thalassoma bifasciatum
+    confidence: 0.0001
+species:
+- scientific: Heteroconger longissimus
+  role: primary
+  confidence: 0.9986
+  identified_by: bioclip

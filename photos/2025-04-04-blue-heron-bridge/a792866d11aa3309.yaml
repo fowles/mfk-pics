@@ -13,3 +13,20 @@ variants:
   file: a792866d11aa3309.dive-plus.webp
   import_original_name: e4417a7f1829186c.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157493.0112584
+  top:
+  - scientific: Mulloidichthys martinicus
+    confidence: 0.5178
+  - scientific: Ocyurus chrysurus
+    confidence: 0.3333
+  - scientific: Thalassoma bifasciatum
+    confidence: 0.0463
+species:
+- scientific: Mulloidichthys martinicus
+  role: primary
+  confidence: 0.5178
+  identified_by: bioclip

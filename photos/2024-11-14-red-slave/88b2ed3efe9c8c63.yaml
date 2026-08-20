@@ -13,3 +13,18 @@ variants:
   file: 88b2ed3efe9c8c63.dive-plus.webp
   import_original_name: 353dce35b071fb83.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156980.7355404
+  top:
+  - scientific: Monacanthus tuckeri
+    confidence: 0.4069
+  - scientific: Sepioteuthis sepioidea
+    confidence: 0.0482
+  - scientific: Hippocampus erectus
+    confidence: 0.0223
+  absorbed_by:
+    scientific: Antillogorgia americana
+    confidence: 0.4947

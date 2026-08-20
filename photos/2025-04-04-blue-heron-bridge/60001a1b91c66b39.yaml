@@ -10,3 +10,20 @@ variants:
   file: 60001a1b91c66b39.dive-plus.webp
   import_original_name: 3645f8308fdf4bee.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157489.547912
+  top:
+  - scientific: Thalassoma bifasciatum
+    confidence: 0.311
+  - scientific: Elacatinus genie
+    confidence: 0.2156
+  - scientific: Stegastes leucostictus
+    confidence: 0.0585
+species:
+- scientific: Thalassoma bifasciatum
+  role: primary
+  confidence: 0.311
+  identified_by: bioclip

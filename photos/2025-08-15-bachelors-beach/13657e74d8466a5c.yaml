@@ -11,3 +11,20 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 rotation_applied: 270
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1787178442.442586
+  top:
+  - scientific: Sepioteuthis sepioidea
+    confidence: 0.3637
+  - scientific: Gymnothorax funebris
+    confidence: 0.1601
+  - scientific: Echidna catenata
+    confidence: 0.1071
+species:
+- scientific: Sepioteuthis sepioidea
+  role: primary
+  confidence: 0.3637
+  identified_by: bioclip

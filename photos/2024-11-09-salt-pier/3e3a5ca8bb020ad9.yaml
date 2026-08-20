@@ -13,3 +13,20 @@ variants:
   file: 3e3a5ca8bb020ad9.dive-plus.webp
   import_original_name: 2c506530fc0d2ce8.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156584.5561411
+  top:
+  - scientific: Dactylopterus volitans
+    confidence: 0.4598
+  - scientific: Scorpaena plumieri
+    confidence: 0.4366
+  - scientific: Emblemaria pandionis
+    confidence: 0.0475
+species:
+- scientific: Dactylopterus volitans
+  role: primary
+  confidence: 0.4598
+  identified_by: bioclip

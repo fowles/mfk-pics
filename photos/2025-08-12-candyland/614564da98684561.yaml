@@ -14,3 +14,20 @@ variants:
   import_original_name: 11eb1d60b83fe533.webp
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158132.5578322
+  top:
+  - scientific: Pterois volitans
+    confidence: 0.9524
+  - scientific: Equetus punctatus
+    confidence: 0.0255
+  - scientific: Equetus lanceolatus
+    confidence: 0.0083
+species:
+- scientific: Pterois volitans
+  role: primary
+  confidence: 0.9524
+  identified_by: bioclip

@@ -13,3 +13,20 @@ variants:
   file: 078c32b9bd219d2c.dive-plus.webp
   import_original_name: 890913157d2f70e9.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159985.918757
+  top:
+  - scientific: Gymnothorax funebris
+    confidence: 0.3034
+  - scientific: Sparisoma rubripinne
+    confidence: 0.1688
+  - scientific: Sphoeroides spengleri
+    confidence: 0.1378
+species:
+- scientific: Gymnothorax funebris
+  role: primary
+  confidence: 0.3034
+  identified_by: bioclip

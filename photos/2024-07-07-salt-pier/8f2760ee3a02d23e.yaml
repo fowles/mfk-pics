@@ -10,3 +10,20 @@ variants:
   file: 8f2760ee3a02d23e.dive-plus.webp
   import_original_name: 19ee63d7d011fe60.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159957.0520456
+  top:
+  - scientific: Haemulon sciurus
+    confidence: 0.5591
+  - scientific: Haemulon chrysargyreum
+    confidence: 0.1155
+  - scientific: Anisotremus virginicus
+    confidence: 0.0995
+species:
+- scientific: Haemulon sciurus
+  role: primary
+  confidence: 0.5591
+  identified_by: bioclip

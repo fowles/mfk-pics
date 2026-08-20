@@ -13,3 +13,20 @@ variants:
   file: 3c42deec2b320ed6.dive-plus.webp
   import_original_name: 6c8769ed3ab14333.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156744.7416294
+  top:
+  - scientific: Aulostomus maculatus
+    confidence: 0.6794
+  - scientific: Gymnothorax miliaris
+    confidence: 0.0446
+  - scientific: Sphyraena barracuda
+    confidence: 0.0414
+species:
+- scientific: Aulostomus maculatus
+  role: primary
+  confidence: 0.6794
+  identified_by: bioclip

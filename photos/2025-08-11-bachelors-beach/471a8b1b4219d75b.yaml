@@ -10,3 +10,20 @@ variants:
   file: 471a8b1b4219d75b.dive-plus.webp
   import_original_name: 5cc5a6a63411c11d.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157880.996438
+  top:
+  - scientific: Gymnothorax funebris
+    confidence: 0.9601
+  - scientific: Gymnothorax vicinus
+    confidence: 0.0206
+  - scientific: Hypanus americanus
+    confidence: 0.0066
+species:
+- scientific: Gymnothorax funebris
+  role: primary
+  confidence: 0.9601
+  identified_by: bioclip

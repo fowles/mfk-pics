@@ -10,3 +10,20 @@ variants:
   file: ce853dc0f3c9ff68.dive-plus.webp
   import_original_name: 22f5dc3a5fb5954b.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159282.779868
+  top:
+  - scientific: Astrophyton muricatum
+    confidence: 0.3805
+  - scientific: Pterois volitans
+    confidence: 0.1159
+  - scientific: Hypoplectrus puella
+    confidence: 0.0313
+species:
+- scientific: Astrophyton muricatum
+  role: primary
+  confidence: 0.3805
+  identified_by: bioclip

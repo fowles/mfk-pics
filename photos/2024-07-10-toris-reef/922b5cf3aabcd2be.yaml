@@ -13,3 +13,20 @@ variants:
   file: 922b5cf3aabcd2be.dive-plus.webp
   import_original_name: 4657c7b09da25d45.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786160206.8387396
+  top:
+  - scientific: Lactophrys triqueter
+    confidence: 0.5037
+  - scientific: Bothus lunatus
+    confidence: 0.3121
+  - scientific: Canthidermis sufflamen
+    confidence: 0.0896
+species:
+- scientific: Lactophrys triqueter
+  role: primary
+  confidence: 0.5037
+  identified_by: bioclip

@@ -13,3 +13,20 @@ variants:
   file: 88c930a1f996b542.dive-plus.webp
   import_original_name: 3799828dfcd4bf63.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159991.7592738
+  top:
+  - scientific: Caretta caretta
+    confidence: 0.3627
+  - scientific: Chelonia mydas
+    confidence: 0.2615
+  - scientific: Acanthostracion polygonius
+    confidence: 0.1815
+species:
+- scientific: Caretta caretta
+  role: primary
+  confidence: 0.3627
+  identified_by: bioclip

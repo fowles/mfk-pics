@@ -11,3 +11,20 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 rotation_applied: 90
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1787176081.4562817
+  top:
+  - scientific: Synodus intermedius
+    confidence: 0.6536
+  - scientific: Serranus tigrinus
+    confidence: 0.1605
+  - scientific: Periclimenes yucatanicus
+    confidence: 0.1573
+species:
+- scientific: Synodus intermedius
+  role: primary
+  confidence: 0.6536
+  identified_by: bioclip

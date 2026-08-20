@@ -13,3 +13,20 @@ variants:
   file: cc6227a9bb3d9ed8.dive-plus.webp
   import_original_name: f5eee83c57edd094.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786071915.0384848
+  top:
+  - scientific: Epinephelus striatus
+    confidence: 0.4068
+  - scientific: Mycteroperca tigris
+    confidence: 0.2848
+  - scientific: Scarus coelestinus
+    confidence: 0.1215
+species:
+- scientific: Epinephelus striatus
+  role: primary
+  confidence: 0.4068
+  identified_by: bioclip

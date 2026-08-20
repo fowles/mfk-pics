@@ -13,3 +13,20 @@ variants:
   file: 6a86b2a982209ebc.dive-plus.webp
   import_original_name: aa04fb6aed867a95.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158512.3474987
+  top:
+  - scientific: Scarus coelestinus
+    confidence: 0.163
+  - scientific: Sepioteuthis sepioidea
+    confidence: 0.136
+  - scientific: Acanthurus chirurgus
+    confidence: 0.0966
+species:
+- scientific: Scarus coelestinus
+  role: primary
+  confidence: 0.163
+  identified_by: bioclip

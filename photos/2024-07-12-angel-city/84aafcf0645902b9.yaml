@@ -13,3 +13,20 @@ variants:
   file: 84aafcf0645902b9.dive-plus.webp
   import_original_name: a6d3dc65111543bf.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158521.1437454
+  top:
+  - scientific: Thalassoma bifasciatum
+    confidence: 0.1626
+  - scientific: Elacatinus genie
+    confidence: 0.1004
+  - scientific: Hippocampus erectus
+    confidence: 0.1001
+species:
+- scientific: Thalassoma bifasciatum
+  role: primary
+  confidence: 0.1626
+  identified_by: bioclip

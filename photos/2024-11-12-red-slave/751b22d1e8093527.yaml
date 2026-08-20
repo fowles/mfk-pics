@@ -10,3 +10,20 @@ lon: -68.2513754
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156808.9204748
+  top:
+  - scientific: Lactophrys triqueter
+    confidence: 0.7683
+  - scientific: Canthidermis sufflamen
+    confidence: 0.0941
+  - scientific: Diodon hystrix
+    confidence: 0.0739
+species:
+- scientific: Lactophrys triqueter
+  role: primary
+  confidence: 0.7683
+  identified_by: bioclip

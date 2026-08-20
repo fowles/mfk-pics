@@ -10,3 +10,20 @@ lon: -68.2903018
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159372.1676311
+  top:
+  - scientific: Hippocampus erectus
+    confidence: 0.906
+  - scientific: Cyphoma gibbosum
+    confidence: 0.0228
+  - scientific: Hippocampus reidi
+    confidence: 0.0101
+species:
+- scientific: Hippocampus erectus
+  role: primary
+  confidence: 0.906
+  identified_by: bioclip

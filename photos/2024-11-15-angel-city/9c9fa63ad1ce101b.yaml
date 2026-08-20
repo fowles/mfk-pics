@@ -13,3 +13,20 @@ variants:
   file: 9c9fa63ad1ce101b.dive-plus.webp
   import_original_name: fa0210cf1e55eea4.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157056.1671946
+  top:
+  - scientific: Halichoeres garnoti
+    confidence: 0.9002
+  - scientific: Cephalopholis fulva
+    confidence: 0.08
+  - scientific: Microspathodon chrysurus
+    confidence: 0.0112
+species:
+- scientific: Halichoeres garnoti
+  role: primary
+  confidence: 0.9002
+  identified_by: bioclip

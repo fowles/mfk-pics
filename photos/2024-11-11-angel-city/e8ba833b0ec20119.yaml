@@ -13,3 +13,20 @@ variants:
   file: e8ba833b0ec20119.dive-plus.webp
   import_original_name: 9a315882660bbeb2.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156747.5477467
+  top:
+  - scientific: Melichthys niger
+    confidence: 0.2727
+  - scientific: Dactylopterus volitans
+    confidence: 0.1922
+  - scientific: Pomacanthus paru
+    confidence: 0.1062
+species:
+- scientific: Melichthys niger
+  role: primary
+  confidence: 0.2727
+  identified_by: bioclip

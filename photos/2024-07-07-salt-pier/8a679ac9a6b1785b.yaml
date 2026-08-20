@@ -13,3 +13,20 @@ variants:
   file: 8a679ac9a6b1785b.dive-plus.webp
   import_original_name: 17982a562b20b4e8.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159981.4080637
+  top:
+  - scientific: Sphoeroides spengleri
+    confidence: 0.1745
+  - scientific: Synodus intermedius
+    confidence: 0.145
+  - scientific: Diadema antillarum
+    confidence: 0.0983
+species:
+- scientific: Sphoeroides spengleri
+  role: primary
+  confidence: 0.1745
+  identified_by: bioclip

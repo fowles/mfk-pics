@@ -13,3 +13,20 @@ variants:
   file: 9423f7dd3a0d95a2.dive-plus.webp
   import_original_name: 7f38a810b1047cee.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156580.5847876
+  top:
+  - scientific: Gymnothorax funebris
+    confidence: 0.4573
+  - scientific: Thalassoma bifasciatum
+    confidence: 0.2655
+  - scientific: Aulostomus maculatus
+    confidence: 0.1653
+species:
+- scientific: Gymnothorax funebris
+  role: primary
+  confidence: 0.4573
+  identified_by: bioclip

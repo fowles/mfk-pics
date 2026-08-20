@@ -10,3 +10,20 @@ variants:
   file: dd1419af9b870a05.dive-plus.webp
   import_original_name: ed316eb988aac76c.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156740.342953
+  top:
+  - scientific: Opistognathus aurifrons
+    confidence: 0.4195
+  - scientific: Elacatinus evelynae
+    confidence: 0.2065
+  - scientific: Scomberomorus regalis
+    confidence: 0.0884
+species:
+- scientific: Opistognathus aurifrons
+  role: primary
+  confidence: 0.4195
+  identified_by: bioclip

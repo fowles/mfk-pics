@@ -13,3 +13,20 @@ variants:
   file: 008b6f2aea570377.dive-plus.webp
   import_original_name: 0108b3cc8f1957e9.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156745.8304036
+  top:
+  - scientific: Diadema antillarum
+    confidence: 0.2693
+  - scientific: Aulostomus maculatus
+    confidence: 0.1317
+  - scientific: Pomacanthus paru
+    confidence: 0.1114
+species:
+- scientific: Diadema antillarum
+  role: primary
+  confidence: 0.2693
+  identified_by: bioclip

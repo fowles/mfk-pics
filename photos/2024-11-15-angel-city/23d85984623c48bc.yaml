@@ -10,3 +10,20 @@ variants:
   file: 23d85984623c48bc.dive-plus.webp
   import_original_name: d227436a06e501d9.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157054.11501
+  top:
+  - scientific: Chaetodon striatus
+    confidence: 0.3141
+  - scientific: Thalassoma bifasciatum
+    confidence: 0.2545
+  - scientific: Hypoplectrus nigricans
+    confidence: 0.0591
+species:
+- scientific: Chaetodon striatus
+  role: primary
+  confidence: 0.3141
+  identified_by: bioclip

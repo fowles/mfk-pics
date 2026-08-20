@@ -13,3 +13,20 @@ variants:
   file: c951f9c2268ad52b.dive-plus.webp
   import_original_name: 11b96914df0145c0.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156747.3609893
+  top:
+  - scientific: Equetus punctatus
+    confidence: 0.5833
+  - scientific: Pomacanthus paru
+    confidence: 0.2282
+  - scientific: Melichthys niger
+    confidence: 0.0497
+species:
+- scientific: Equetus punctatus
+  role: primary
+  confidence: 0.5833
+  identified_by: bioclip

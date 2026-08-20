@@ -10,3 +10,20 @@ lon: -68.28180019999999
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157572.8294983
+  top:
+  - scientific: Haemulon chrysargyreum
+    confidence: 0.9078
+  - scientific: Haemulon sciurus
+    confidence: 0.07
+  - scientific: Haemulon flavolineatum
+    confidence: 0.0157
+species:
+- scientific: Haemulon chrysargyreum
+  role: primary
+  confidence: 0.9078
+  identified_by: bioclip

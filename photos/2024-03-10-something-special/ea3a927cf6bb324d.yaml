@@ -10,3 +10,20 @@ lon: -68.2854452
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159051.1248612
+  top:
+  - scientific: Diadema antillarum
+    confidence: 0.4816
+  - scientific: Sparisoma viride
+    confidence: 0.3194
+  - scientific: Sparisoma aurofrenatum
+    confidence: 0.0388
+species:
+- scientific: Diadema antillarum
+  role: primary
+  confidence: 0.4816
+  identified_by: bioclip

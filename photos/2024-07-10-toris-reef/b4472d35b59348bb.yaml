@@ -13,3 +13,18 @@ lat: 12.070475199999999
 lon: -68.2806703
 gps_source: manual
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786160173.5936253
+  top:
+  - scientific: Aulostomus maculatus
+    confidence: 0.1058
+  - scientific: Monacanthus tuckeri
+    confidence: 0.0541
+  - scientific: Sparisoma viride
+    confidence: 0.0293
+  absorbed_by:
+    scientific: Antillogorgia americana
+    confidence: 0.6719

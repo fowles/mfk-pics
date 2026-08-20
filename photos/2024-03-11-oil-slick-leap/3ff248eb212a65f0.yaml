@@ -10,3 +10,20 @@ variants:
   file: 3ff248eb212a65f0.dive-plus.webp
   import_original_name: 029802ad3603de78.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158972.810539
+  top:
+  - scientific: Epinephelus striatus
+    confidence: 0.5229
+  - scientific: Serranus tigrinus
+    confidence: 0.4156
+  - scientific: Amblycirrhitus pinos
+    confidence: 0.029
+species:
+- scientific: Epinephelus striatus
+  role: primary
+  confidence: 0.5229
+  identified_by: bioclip

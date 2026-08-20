@@ -10,3 +10,18 @@ variants:
   file: 88daa2a767a5e0f2.dive-plus.webp
   import_original_name: 8e320a9836321364.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159286.268437
+  top:
+  - scientific: Epinephelus itajara
+    confidence: 0.003
+  - scientific: Sparisoma viride
+    confidence: 0.0012
+  - scientific: Melichthys niger
+    confidence: 0.0011
+  absorbed_by:
+    scientific: Xestospongia muta
+    confidence: 0.9798

@@ -13,3 +13,18 @@ variants:
   file: aadf6deb3315437f.dive-plus.webp
   import_original_name: 6cc207b162dab3d4.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158875.0725095
+  top:
+  - scientific: Microspathodon chrysurus
+    confidence: 0.0792
+  - scientific: Lactophrys triqueter
+    confidence: 0.0242
+  - scientific: Thalassoma bifasciatum
+    confidence: 0.0133
+  absorbed_by:
+    scientific: Orbicella faveolata
+    confidence: 0.3593

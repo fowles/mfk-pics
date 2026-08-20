@@ -10,3 +10,20 @@ lon: -79.2431
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159790.4426773
+  top:
+  - scientific: Gymnothorax moringa
+    confidence: 0.1584
+  - scientific: Acanthemblemaria spinosa
+    confidence: 0.1529
+  - scientific: Ogcocephalus nasutus
+    confidence: 0.1489
+species:
+- scientific: Gymnothorax moringa
+  role: primary
+  confidence: 0.1584
+  identified_by: bioclip

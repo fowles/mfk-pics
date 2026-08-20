@@ -10,3 +10,20 @@ variants:
   file: 42cd220c4ce69e87.dive-plus.webp
   import_original_name: c8e4ca05e165898c.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156978.320991
+  top:
+  - scientific: Melichthys niger
+    confidence: 0.2153
+  - scientific: Lutjanus jocu
+    confidence: 0.1255
+  - scientific: Scarus coelestinus
+    confidence: 0.091
+species:
+- scientific: Melichthys niger
+  role: primary
+  confidence: 0.2153
+  identified_by: bioclip

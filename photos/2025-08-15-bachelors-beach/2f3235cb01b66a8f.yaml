@@ -11,3 +11,20 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 rotation_applied: 180
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1787176383.0505064
+  top:
+  - scientific: Equetus punctatus
+    confidence: 0.6248
+  - scientific: Halichoeres maculipinna
+    confidence: 0.1892
+  - scientific: Prognathodes aculeatus
+    confidence: 0.0513
+species:
+- scientific: Equetus punctatus
+  role: primary
+  confidence: 0.6248
+  identified_by: bioclip

@@ -13,3 +13,20 @@ variants:
   file: 03a28f54f5383e2b.dive-plus.webp
   import_original_name: 71aa2c5c0699ec05.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158237.7591274
+  top:
+  - scientific: Sepioteuthis sepioidea
+    confidence: 0.8698
+  - scientific: Lactophrys triqueter
+    confidence: 0.0404
+  - scientific: Aetobatus narinari
+    confidence: 0.0294
+species:
+- scientific: Sepioteuthis sepioidea
+  role: primary
+  confidence: 0.8698
+  identified_by: bioclip

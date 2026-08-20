@@ -13,3 +13,20 @@ variants:
   file: c5c6c2d8dd0c2d3c.dive-plus.webp
   import_original_name: 5ec97071a324d92f.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156586.04401
+  top:
+  - scientific: Haemulon macrostomum
+    confidence: 0.8611
+  - scientific: Pareques acuminatus
+    confidence: 0.0763
+  - scientific: Cantherhines pullus
+    confidence: 0.0475
+species:
+- scientific: Haemulon macrostomum
+  role: primary
+  confidence: 0.8611
+  identified_by: bioclip

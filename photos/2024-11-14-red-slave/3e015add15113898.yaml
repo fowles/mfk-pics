@@ -11,3 +11,20 @@ variants:
   import_original_name: a22396067f00c150.webp
 date_reviewed: true
 rotation_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156980.1411893
+  top:
+  - scientific: Melichthys niger
+    confidence: 0.4371
+  - scientific: Scarus coelestinus
+    confidence: 0.3272
+  - scientific: Halichoeres garnoti
+    confidence: 0.0795
+species:
+- scientific: Melichthys niger
+  role: primary
+  confidence: 0.4371
+  identified_by: bioclip

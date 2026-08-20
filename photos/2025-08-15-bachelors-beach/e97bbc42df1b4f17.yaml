@@ -10,3 +10,20 @@ lon: -68.2874429
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158399.084433
+  top:
+  - scientific: Malacoctenus triangulatus
+    confidence: 0.4107
+  - scientific: Hypoplectrus puella
+    confidence: 0.403
+  - scientific: Serranus tabacarius
+    confidence: 0.0591
+species:
+- scientific: Malacoctenus triangulatus
+  role: primary
+  confidence: 0.4107
+  identified_by: bioclip

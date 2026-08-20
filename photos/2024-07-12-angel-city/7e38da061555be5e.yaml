@@ -10,3 +10,20 @@ lon: -68.2872912
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158481.2466214
+  top:
+  - scientific: Scarus vetula
+    confidence: 0.9979
+  - scientific: Scarus coeruleus
+    confidence: 0.0018
+  - scientific: Ginglymostoma cirratum
+    confidence: 0.0001
+species:
+- scientific: Scarus vetula
+  role: primary
+  confidence: 0.9979
+  identified_by: bioclip

@@ -13,3 +13,20 @@ variants:
   file: a17cad18c56a7e08.dive-plus.webp
   import_original_name: 5a6ebbf197f6c04d.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158512.6792314
+  top:
+  - scientific: Sparisoma viride
+    confidence: 0.5671
+  - scientific: Scarus coelestinus
+    confidence: 0.1128
+  - scientific: Gymnothorax funebris
+    confidence: 0.0646
+species:
+- scientific: Sparisoma viride
+  role: primary
+  confidence: 0.5671
+  identified_by: bioclip

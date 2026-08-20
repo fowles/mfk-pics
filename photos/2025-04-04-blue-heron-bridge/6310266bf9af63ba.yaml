@@ -13,3 +13,20 @@ variants:
   file: 6310266bf9af63ba.dive-plus.webp
   import_original_name: 4b03cb51feff8f9f.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157494.006584
+  top:
+  - scientific: Petrochirus diogenes
+    confidence: 0.9908
+  - scientific: Mithraculus sculptus
+    confidence: 0.0026
+  - scientific: Hippocampus erectus
+    confidence: 0.0016
+species:
+- scientific: Petrochirus diogenes
+  role: primary
+  confidence: 0.9908
+  identified_by: bioclip

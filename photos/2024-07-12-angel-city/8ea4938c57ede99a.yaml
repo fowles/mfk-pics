@@ -10,3 +10,20 @@ variants:
   file: 8ea4938c57ede99a.dive-plus.webp
   import_original_name: 4de690f70981a9ab.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158502.398915
+  top:
+  - scientific: Equetus punctatus
+    confidence: 0.3838
+  - scientific: Mycteroperca tigris
+    confidence: 0.2561
+  - scientific: Gymnothorax moringa
+    confidence: 0.1637
+species:
+- scientific: Equetus punctatus
+  role: primary
+  confidence: 0.3838
+  identified_by: bioclip

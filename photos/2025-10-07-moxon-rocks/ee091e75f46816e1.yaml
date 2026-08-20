@@ -9,3 +9,20 @@ lat: 25.54167
 lon: -79.27083
 gps_source: dive_site
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159799.1399221
+  top:
+  - scientific: Chaetodon sedentarius
+    confidence: 0.2612
+  - scientific: Haemulon macrostomum
+    confidence: 0.1377
+  - scientific: Hypoplectrus chlorurus
+    confidence: 0.097
+species:
+- scientific: Chaetodon sedentarius
+  role: primary
+  confidence: 0.2612
+  identified_by: bioclip

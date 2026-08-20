@@ -13,3 +13,20 @@ variants:
   file: aa4c6cd6720a1aa8.dive-plus.webp
   import_original_name: 0e11e89a3d9b8f34.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157493.7284126
+  top:
+  - scientific: Acanthostracion polygonius
+    confidence: 0.8212
+  - scientific: Bothus lunatus
+    confidence: 0.1039
+  - scientific: Chilomycterus schoepfii
+    confidence: 0.0411
+species:
+- scientific: Acanthostracion polygonius
+  role: primary
+  confidence: 0.8212
+  identified_by: bioclip

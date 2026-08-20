@@ -9,3 +9,20 @@ lat: 25.5006
 lon: -79.2641
 gps_source: dive_site
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159807.3841064
+  top:
+  - scientific: Carcharhinus perezi
+    confidence: 0.8602
+  - scientific: Ginglymostoma cirratum
+    confidence: 0.0621
+  - scientific: Kyphosus sectatrix
+    confidence: 0.0526
+species:
+- scientific: Carcharhinus perezi
+  role: primary
+  confidence: 0.8602
+  identified_by: bioclip

@@ -13,3 +13,20 @@ variants:
   file: 46f9f82bd1c1ede7.dive-plus.webp
   import_original_name: 2243a4e8e219101c.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156899.5301473
+  top:
+  - scientific: Aulostomus maculatus
+    confidence: 0.9176
+  - scientific: Diadema antillarum
+    confidence: 0.036
+  - scientific: Gymnothorax miliaris
+    confidence: 0.0305
+species:
+- scientific: Aulostomus maculatus
+  role: primary
+  confidence: 0.9176
+  identified_by: bioclip

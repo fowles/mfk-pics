@@ -13,3 +13,20 @@ variants:
   file: 56a71649d9c8d874.dive-plus.webp
   import_original_name: c81b63fc1568d801.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159584.7837658
+  top:
+  - scientific: Cephalopholis cruentata
+    confidence: 0.1635
+  - scientific: Sepioteuthis sepioidea
+    confidence: 0.1399
+  - scientific: Holocentrus adscensionis
+    confidence: 0.1381
+species:
+- scientific: Cephalopholis cruentata
+  role: primary
+  confidence: 0.1635
+  identified_by: bioclip

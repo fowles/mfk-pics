@@ -10,3 +10,20 @@ variants:
   file: fece0eda8bc69c9d.dive-plus.webp
   import_original_name: 4283c4a062c45a7b.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159179.9914293
+  top:
+  - scientific: Gymnothorax funebris
+    confidence: 0.488
+  - scientific: Serranus tigrinus
+    confidence: 0.0942
+  - scientific: Hypoplectrus puella
+    confidence: 0.0941
+species:
+- scientific: Gymnothorax funebris
+  role: primary
+  confidence: 0.488
+  identified_by: bioclip

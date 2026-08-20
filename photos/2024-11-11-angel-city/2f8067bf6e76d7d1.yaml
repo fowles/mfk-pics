@@ -13,3 +13,20 @@ variants:
   file: 2f8067bf6e76d7d1.dive-plus.webp
   import_original_name: 70d1958003d6a5ce.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156746.901257
+  top:
+  - scientific: Epinephelus itajara
+    confidence: 0.9845
+  - scientific: Diodon hystrix
+    confidence: 0.0127
+  - scientific: Ogcocephalus nasutus
+    confidence: 0.0014
+species:
+- scientific: Epinephelus itajara
+  role: primary
+  confidence: 0.9845
+  identified_by: bioclip

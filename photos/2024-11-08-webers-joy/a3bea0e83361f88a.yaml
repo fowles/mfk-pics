@@ -10,3 +10,18 @@ lon: -68.3164123
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156525.217476
+  top:
+  - scientific: Elysia crispata
+    confidence: 0.0631
+  - scientific: Holothuria mexicana
+    confidence: 0.0192
+  - scientific: Octopus briareus
+    confidence: 0.0107
+  absorbed_by:
+    scientific: Callyspongia plicifera
+    confidence: 0.5024

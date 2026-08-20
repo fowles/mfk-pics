@@ -13,3 +13,20 @@ variants:
   file: f0a506f5fd68663c.dive-plus.webp
   import_original_name: c766bf76f86d2622.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158187.4190874
+  top:
+  - scientific: Aulostomus maculatus
+    confidence: 0.7664
+  - scientific: Gymnothorax funebris
+    confidence: 0.0868
+  - scientific: Hippocampus erectus
+    confidence: 0.0394
+species:
+- scientific: Aulostomus maculatus
+  role: primary
+  confidence: 0.7664
+  identified_by: bioclip

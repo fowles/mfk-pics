@@ -10,3 +10,18 @@ variants:
   file: 2febcab4f4a7f5a0.dive-plus.webp
   import_original_name: 789ed55f5b7f8e1c.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159285.1771412
+  top:
+  - scientific: Thalassoma bifasciatum
+    confidence: 0.1894
+  - scientific: Hypoplectrus indigo
+    confidence: 0.0171
+  - scientific: Elacatinus evelynae
+    confidence: 0.0148
+  absorbed_by:
+    scientific: Porites astreoides
+    confidence: 0.6536

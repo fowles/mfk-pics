@@ -13,3 +13,20 @@ variants:
   file: 5dec377f102809bc.dive-plus.webp
   import_original_name: ec19ee3f1fbc8b4f.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156980.595509
+  top:
+  - scientific: Caranx latus
+    confidence: 0.8627
+  - scientific: Selar crumenophthalmus
+    confidence: 0.1043
+  - scientific: Caranx crysos
+    confidence: 0.0195
+species:
+- scientific: Caranx latus
+  role: primary
+  confidence: 0.8627
+  identified_by: bioclip

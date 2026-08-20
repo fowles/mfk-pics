@@ -13,3 +13,20 @@ variants:
   file: d18395ed192b21f9.dive-plus.webp
   import_original_name: 184694002713d954.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157492.1587362
+  top:
+  - scientific: Stenopus hispidus
+    confidence: 0.2654
+  - scientific: Diodon hystrix
+    confidence: 0.2144
+  - scientific: Canthidermis sufflamen
+    confidence: 0.1554
+species:
+- scientific: Stenopus hispidus
+  role: primary
+  confidence: 0.2654
+  identified_by: bioclip

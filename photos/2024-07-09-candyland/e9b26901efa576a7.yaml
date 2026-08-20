@@ -9,3 +9,20 @@ lat: 12.222591
 lon: -68.40111449999999
 gps_source: dive_site
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159184.9602394
+  top:
+  - scientific: Aetobatus narinari
+    confidence: 0.9998
+  - scientific: Ogcocephalus radiatus
+    confidence: 0.0001
+  - scientific: Ogcocephalus nasutus
+    confidence: 0.0
+species:
+- scientific: Aetobatus narinari
+  role: primary
+  confidence: 0.9998
+  identified_by: bioclip

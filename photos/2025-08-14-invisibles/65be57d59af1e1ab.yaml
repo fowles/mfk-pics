@@ -13,3 +13,18 @@ variants:
   file: 65be57d59af1e1ab.dive-plus.webp
   import_original_name: f195d160de6b1a37.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158238.1711836
+  top:
+  - scientific: Cyphoma gibbosum
+    confidence: 0.2051
+  - scientific: Gymnothorax moringa
+    confidence: 0.1781
+  - scientific: Ophiothrix suensonii
+    confidence: 0.0175
+  absorbed_by:
+    scientific: Cirrhipathes leutkeni
+    confidence: 0.4998

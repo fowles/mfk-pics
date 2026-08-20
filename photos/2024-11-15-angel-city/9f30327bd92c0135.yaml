@@ -13,3 +13,20 @@ variants:
   file: 9f30327bd92c0135.dive-plus.webp
   import_original_name: cc50824a1dea6b41.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157056.9807305
+  top:
+  - scientific: Tripneustes ventricosus
+    confidence: 0.9981
+  - scientific: Diodon hystrix
+    confidence: 0.0004
+  - scientific: Stegastes partitus
+    confidence: 0.0
+species:
+- scientific: Tripneustes ventricosus
+  role: primary
+  confidence: 0.9981
+  identified_by: bioclip

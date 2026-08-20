@@ -13,3 +13,20 @@ variants:
   file: f813df23ba6b5fba.dive-plus.webp
   import_original_name: c291f25c9356d9be.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157055.2924578
+  top:
+  - scientific: Pareques acuminatus
+    confidence: 0.4039
+  - scientific: Sphyraena barracuda
+    confidence: 0.2423
+  - scientific: Aulostomus maculatus
+    confidence: 0.1574
+species:
+- scientific: Pareques acuminatus
+  role: primary
+  confidence: 0.4039
+  identified_by: bioclip

@@ -10,3 +10,20 @@ variants:
   file: 23e0a66c47784b0f.dive-plus.webp
   import_original_name: 5d268cdc01658f43.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158501.5462096
+  top:
+  - scientific: Aulostomus maculatus
+    confidence: 0.556
+  - scientific: Scomberomorus regalis
+    confidence: 0.1082
+  - scientific: Malacanthus plumieri
+    confidence: 0.0933
+species:
+- scientific: Aulostomus maculatus
+  role: primary
+  confidence: 0.556
+  identified_by: bioclip

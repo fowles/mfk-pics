@@ -13,3 +13,20 @@ variants:
   file: 28ad1d49a1a64821.dive-plus.webp
   import_original_name: 96d6fd51e6cf4930.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158512.6761658
+  top:
+  - scientific: Sparisoma viride
+    confidence: 0.2666
+  - scientific: Serranus tigrinus
+    confidence: 0.2077
+  - scientific: Amblycirrhitus pinos
+    confidence: 0.1365
+species:
+- scientific: Sparisoma viride
+  role: primary
+  confidence: 0.2666
+  identified_by: bioclip

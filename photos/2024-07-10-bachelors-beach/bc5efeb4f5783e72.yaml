@@ -13,3 +13,20 @@ variants:
   file: bc5efeb4f5783e72.dive-plus.webp
   import_original_name: 1467a0146f215a82.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158742.3844
+  top:
+  - scientific: Aulostomus maculatus
+    confidence: 0.4408
+  - scientific: Astrophyton muricatum
+    confidence: 0.3085
+  - scientific: Gymnothorax funebris
+    confidence: 0.0177
+species:
+- scientific: Aulostomus maculatus
+  role: primary
+  confidence: 0.4408
+  identified_by: bioclip

@@ -9,3 +9,20 @@ lat: 25.5006
 lon: -79.2641
 gps_source: dive_site
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159807.723348
+  top:
+  - scientific: Chromis multilineata
+    confidence: 0.59
+  - scientific: Haemulon chrysargyreum
+    confidence: 0.2016
+  - scientific: Haemulon macrostomum
+    confidence: 0.0839
+species:
+- scientific: Chromis multilineata
+  role: primary
+  confidence: 0.59
+  identified_by: bioclip

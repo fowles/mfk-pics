@@ -11,3 +11,20 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 rotation_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156324.7076647
+  top:
+  - scientific: Sphyraena barracuda
+    confidence: 0.2383
+  - scientific: Haemulon macrostomum
+    confidence: 0.1633
+  - scientific: Sepioteuthis sepioidea
+    confidence: 0.0962
+species:
+- scientific: Sphyraena barracuda
+  role: primary
+  confidence: 0.2383
+  identified_by: bioclip

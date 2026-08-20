@@ -13,3 +13,18 @@ variants:
   file: bdf4cbda30fcdfa8.dive-plus.webp
   import_original_name: 47c731d39576875e.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156745.7558937
+  top:
+  - scientific: Hypoplectrus indigo
+    confidence: 0.0003
+  - scientific: Cyphoma gibbosum
+    confidence: 0.0002
+  - scientific: Stenopus hispidus
+    confidence: 0.0002
+  absorbed_by:
+    scientific: Cirrhipathes leutkeni
+    confidence: 0.9937

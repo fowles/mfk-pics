@@ -10,3 +10,20 @@ lon: -79.2431
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159792.1387365
+  top:
+  - scientific: Aulostomus maculatus
+    confidence: 0.3424
+  - scientific: Gymnothorax moringa
+    confidence: 0.148
+  - scientific: Opistognathus aurifrons
+    confidence: 0.112
+species:
+- scientific: Aulostomus maculatus
+  role: primary
+  confidence: 0.3424
+  identified_by: bioclip

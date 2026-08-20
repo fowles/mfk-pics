@@ -13,3 +13,20 @@ variants:
   file: d6213599a1c85b95.dive-plus.webp
   import_original_name: 4dec8504c0b37c3f.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157493.262389
+  top:
+  - scientific: Canthidermis sufflamen
+    confidence: 0.5028
+  - scientific: Thalassoma bifasciatum
+    confidence: 0.3296
+  - scientific: Lactophrys triqueter
+    confidence: 0.0164
+species:
+- scientific: Canthidermis sufflamen
+  role: primary
+  confidence: 0.5028
+  identified_by: bioclip

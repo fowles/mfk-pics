@@ -10,3 +10,20 @@ variants:
   file: 46ea340094c865d0.dive-plus.webp
   import_original_name: 636f6988b1e4c743.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157490.6942775
+  top:
+  - scientific: Mithraculus sculptus
+    confidence: 0.5109
+  - scientific: Stenopus hispidus
+    confidence: 0.4385
+  - scientific: Petrochirus diogenes
+    confidence: 0.0172
+species:
+- scientific: Mithraculus sculptus
+  role: primary
+  confidence: 0.5109
+  identified_by: bioclip

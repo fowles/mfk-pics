@@ -10,3 +10,20 @@ variants:
   file: 9a1ff11e0522482d.dive-plus.webp
   import_original_name: 441c91fb452e876e.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159282.0610182
+  top:
+  - scientific: Melichthys niger
+    confidence: 1.0
+  - scientific: Scarus coelestinus
+    confidence: 0.0
+  - scientific: Hypoplectrus chlorurus
+    confidence: 0.0
+species:
+- scientific: Melichthys niger
+  role: primary
+  confidence: 1.0
+  identified_by: bioclip

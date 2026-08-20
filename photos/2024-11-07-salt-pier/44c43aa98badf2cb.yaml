@@ -10,3 +10,20 @@ lon: -68.28180019999999
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156311.3517768
+  top:
+  - scientific: Aurelia aurita
+    confidence: 0.9107
+  - scientific: Hypanus americanus
+    confidence: 0.0357
+  - scientific: Acanthurus coeruleus
+    confidence: 0.0299
+species:
+- scientific: Aurelia aurita
+  role: primary
+  confidence: 0.9107
+  identified_by: bioclip

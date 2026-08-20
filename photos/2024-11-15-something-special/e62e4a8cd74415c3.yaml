@@ -13,3 +13,20 @@ variants:
   file: e62e4a8cd74415c3.dive-plus.webp
   import_original_name: 3bbe26ddfe3de21e.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157213.6444616
+  top:
+  - scientific: Pempheris schomburgkii
+    confidence: 0.8743
+  - scientific: Lactophrys triqueter
+    confidence: 0.0366
+  - scientific: Bothus lunatus
+    confidence: 0.0111
+species:
+- scientific: Pempheris schomburgkii
+  role: primary
+  confidence: 0.8743
+  identified_by: bioclip

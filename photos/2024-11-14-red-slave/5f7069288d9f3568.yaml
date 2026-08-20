@@ -10,3 +10,20 @@ lon: -68.2513754
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156974.589865
+  top:
+  - scientific: Chromis multilineata
+    confidence: 0.6613
+  - scientific: Trachinotus goodei
+    confidence: 0.246
+  - scientific: Caranx ruber
+    confidence: 0.0424
+species:
+- scientific: Chromis multilineata
+  role: primary
+  confidence: 0.6613
+  identified_by: bioclip

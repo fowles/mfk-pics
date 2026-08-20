@@ -10,3 +10,20 @@ lon: -68.2854452
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159059.249439
+  top:
+  - scientific: Myripristis jacobus
+    confidence: 0.9108
+  - scientific: Holocentrus adscensionis
+    confidence: 0.0885
+  - scientific: Lutjanus mahogoni
+    confidence: 0.0006
+species:
+- scientific: Myripristis jacobus
+  role: primary
+  confidence: 0.9108
+  identified_by: bioclip

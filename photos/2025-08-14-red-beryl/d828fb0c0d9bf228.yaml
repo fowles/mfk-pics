@@ -13,3 +13,20 @@ variants:
   file: d828fb0c0d9bf228.dive-plus.webp
   import_original_name: c09d3305da8d8068.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158337.7921152
+  top:
+  - scientific: Gymnothorax funebris
+    confidence: 0.3763
+  - scientific: Ginglymostoma cirratum
+    confidence: 0.2261
+  - scientific: Gymnothorax miliaris
+    confidence: 0.1705
+species:
+- scientific: Gymnothorax funebris
+  role: primary
+  confidence: 0.3763
+  identified_by: bioclip

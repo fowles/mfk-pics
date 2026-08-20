@@ -10,3 +10,20 @@ variants:
   file: c284040f7191b92f.dive-plus.webp
   import_original_name: 256eec5dbfa66787.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157281.0574167
+  top:
+  - scientific: Lutjanus griseus
+    confidence: 0.548
+  - scientific: Lutjanus mahogoni
+    confidence: 0.397
+  - scientific: Lutjanus analis
+    confidence: 0.0254
+species:
+- scientific: Lutjanus griseus
+  role: primary
+  confidence: 0.548
+  identified_by: bioclip

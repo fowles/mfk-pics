@@ -13,3 +13,20 @@ variants:
   file: 93cfb74d0194c601.dive-plus.webp
   import_original_name: 05c0b8300ca022ef.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156743.2989876
+  top:
+  - scientific: Chromis multilineata
+    confidence: 0.47
+  - scientific: Haemulon carbonarium
+    confidence: 0.1537
+  - scientific: Thalassoma bifasciatum
+    confidence: 0.1353
+species:
+- scientific: Chromis multilineata
+  role: primary
+  confidence: 0.47
+  identified_by: bioclip

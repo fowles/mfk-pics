@@ -10,3 +10,20 @@ variants:
   file: e5cd0a98ecac0a7f.dive-plus.webp
   import_original_name: c85fd5981ea95567.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157053.982704
+  top:
+  - scientific: Diodon hystrix
+    confidence: 0.8029
+  - scientific: Epinephelus itajara
+    confidence: 0.1686
+  - scientific: Sphyraena barracuda
+    confidence: 0.0147
+species:
+- scientific: Diodon hystrix
+  role: primary
+  confidence: 0.8029
+  identified_by: bioclip

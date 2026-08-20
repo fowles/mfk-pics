@@ -13,3 +13,20 @@ variants:
   file: 463fcf01a7a78e9a.dive-plus.webp
   import_original_name: 3e33256440cab37d.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157055.1115744
+  top:
+  - scientific: Fistularia tabacaria
+    confidence: 0.4365
+  - scientific: Aulostomus maculatus
+    confidence: 0.16
+  - scientific: Sphoeroides spengleri
+    confidence: 0.0559
+species:
+- scientific: Fistularia tabacaria
+  role: primary
+  confidence: 0.4365
+  identified_by: bioclip

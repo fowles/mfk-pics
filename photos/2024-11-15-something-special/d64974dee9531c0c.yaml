@@ -13,3 +13,20 @@ variants:
   file: d64974dee9531c0c.dive-plus.webp
   import_original_name: 90d9fbd1a823a85a.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157215.593709
+  top:
+  - scientific: Fistularia tabacaria
+    confidence: 0.963
+  - scientific: Sphyraena barracuda
+    confidence: 0.0273
+  - scientific: Scomberomorus regalis
+    confidence: 0.0022
+species:
+- scientific: Fistularia tabacaria
+  role: primary
+  confidence: 0.963
+  identified_by: bioclip

@@ -13,3 +13,20 @@ variants:
   file: da2ec384d9252df2.dive-plus.webp
   import_original_name: 983adb450528040f.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159613.002192
+  top:
+  - scientific: Cephalopholis fulva
+    confidence: 0.2018
+  - scientific: Cantherhines macrocerus
+    confidence: 0.1957
+  - scientific: Cyphoma gibbosum
+    confidence: 0.1816
+species:
+- scientific: Cephalopholis fulva
+  role: primary
+  confidence: 0.2018
+  identified_by: bioclip

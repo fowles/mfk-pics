@@ -10,3 +10,20 @@ variants:
   file: 62cceae64e2a011d.dive-plus.webp
   import_original_name: dea83f87bb524937.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158969.3652039
+  top:
+  - scientific: Microspathodon chrysurus
+    confidence: 0.7895
+  - scientific: Chaetodon capistratus
+    confidence: 0.0488
+  - scientific: Thalassoma bifasciatum
+    confidence: 0.0259
+species:
+- scientific: Microspathodon chrysurus
+  role: primary
+  confidence: 0.7895
+  identified_by: bioclip

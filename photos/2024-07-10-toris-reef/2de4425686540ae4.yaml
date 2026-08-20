@@ -13,3 +13,20 @@ variants:
   file: 2de4425686540ae4.dive-plus.webp
   import_original_name: c4a945e48defd02d.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786160202.906536
+  top:
+  - scientific: Pareques acuminatus
+    confidence: 0.9766
+  - scientific: Equetus punctatus
+    confidence: 0.0159
+  - scientific: Diodon holocanthus
+    confidence: 0.0003
+species:
+- scientific: Pareques acuminatus
+  role: primary
+  confidence: 0.9766
+  identified_by: bioclip

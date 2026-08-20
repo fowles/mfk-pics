@@ -10,3 +10,20 @@ lon: -80.044118
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157485.9404836
+  top:
+  - scientific: Aliger gigas
+    confidence: 0.9778
+  - scientific: Petrochirus diogenes
+    confidence: 0.0075
+  - scientific: Lutjanus jocu
+    confidence: 0.0043
+species:
+- scientific: Aliger gigas
+  role: primary
+  confidence: 0.9778
+  identified_by: bioclip

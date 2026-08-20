@@ -6,3 +6,20 @@ credit: Matthew Kulukundis
 import_album: 2024-11-09, Bonaire, Salt Pier
 import_original_name: PXL_20241109_172835890.jpg
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156575.2147415
+  top:
+  - scientific: Homo sapiens
+    confidence: 0.7478
+  - scientific: Caretta caretta
+    confidence: 0.0321
+  - scientific: Abudefduf saxatilis
+    confidence: 0.0307
+species:
+- scientific: Homo sapiens
+  role: primary
+  confidence: 0.7478
+  identified_by: bioclip

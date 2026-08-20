@@ -13,3 +13,18 @@ variants:
   file: 203b5bff43bfedde.dive-plus.webp
   import_original_name: 47b62e7cd1004bf6.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158188.034312
+  top:
+  - scientific: Aulostomus maculatus
+    confidence: 0.1784
+  - scientific: Sphoeroides spengleri
+    confidence: 0.0802
+  - scientific: Monacanthus tuckeri
+    confidence: 0.0103
+  absorbed_by:
+    scientific: Antillogorgia americana
+    confidence: 0.7058

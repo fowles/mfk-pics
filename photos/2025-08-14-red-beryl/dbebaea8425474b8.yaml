@@ -10,3 +10,20 @@ variants:
   file: dbebaea8425474b8.dive-plus.webp
   import_original_name: 80421c8c429f47e5.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158336.8276317
+  top:
+  - scientific: Dactylopterus volitans
+    confidence: 0.2781
+  - scientific: Aetobatus narinari
+    confidence: 0.2048
+  - scientific: Canthidermis sufflamen
+    confidence: 0.1947
+species:
+- scientific: Dactylopterus volitans
+  role: primary
+  confidence: 0.2781
+  identified_by: bioclip

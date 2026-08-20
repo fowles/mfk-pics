@@ -13,3 +13,20 @@ variants:
   file: 67ba9169d165d711.dive-plus.webp
   import_original_name: 52101a11b1aad34c.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157283.2882984
+  top:
+  - scientific: Haemulon macrostomum
+    confidence: 0.3347
+  - scientific: Aulostomus maculatus
+    confidence: 0.1911
+  - scientific: Heteroconger longissimus
+    confidence: 0.0833
+species:
+- scientific: Haemulon macrostomum
+  role: primary
+  confidence: 0.3347
+  identified_by: bioclip

@@ -10,3 +10,18 @@ variants:
   file: 475d5ef6d084a244.dive-plus.webp
   import_original_name: 35cd518a30714f1a.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156337.9007614
+  top:
+  - scientific: Serranus tigrinus
+    confidence: 0.3272
+  - scientific: Epinephelus itajara
+    confidence: 0.0931
+  - scientific: Gymnothorax funebris
+    confidence: 0.031
+  absorbed_by:
+    scientific: Meandrina meandrites
+    confidence: 0.3718

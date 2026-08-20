@@ -10,3 +10,20 @@ variants:
   file: 92ec94b07c202e22.dive-plus.webp
   import_original_name: eac2fa50752979a8.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158967.9959445
+  top:
+  - scientific: Haemulon carbonarium
+    confidence: 0.7282
+  - scientific: Haemulon macrostomum
+    confidence: 0.02
+  - scientific: Stegastes partitus
+    confidence: 0.0098
+species:
+- scientific: Haemulon carbonarium
+  role: primary
+  confidence: 0.7282
+  identified_by: bioclip

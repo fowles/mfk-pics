@@ -13,3 +13,20 @@ variants:
   file: f7434d6583114c0c.dive-plus.webp
   import_original_name: 32509c5eb2c7e3d2.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786160205.7718608
+  top:
+  - scientific: Lactophrys triqueter
+    confidence: 0.497
+  - scientific: Canthidermis sufflamen
+    confidence: 0.2966
+  - scientific: Trachinotus goodei
+    confidence: 0.0566
+species:
+- scientific: Lactophrys triqueter
+  role: primary
+  confidence: 0.497
+  identified_by: bioclip

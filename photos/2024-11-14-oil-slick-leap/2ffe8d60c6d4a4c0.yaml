@@ -13,3 +13,20 @@ variants:
   file: 2ffe8d60c6d4a4c0.dive-plus.webp
   import_original_name: a1cc85fd8854af27.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156901.602562
+  top:
+  - scientific: Gymnothorax moringa
+    confidence: 0.8431
+  - scientific: Gymnothorax miliaris
+    confidence: 0.0984
+  - scientific: Serranus tigrinus
+    confidence: 0.0208
+species:
+- scientific: Gymnothorax moringa
+  role: primary
+  confidence: 0.8431
+  identified_by: bioclip

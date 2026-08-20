@@ -13,3 +13,20 @@ variants:
   file: 6633cf1147ecaf64.dive-plus.webp
   import_original_name: c1e4bd0be81be516.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158874.1083994
+  top:
+  - scientific: Stenopus hispidus
+    confidence: 0.7139
+  - scientific: Lysmata grabhami
+    confidence: 0.0514
+  - scientific: Astrophyton muricatum
+    confidence: 0.0111
+species:
+- scientific: Stenopus hispidus
+  role: primary
+  confidence: 0.7139
+  identified_by: bioclip

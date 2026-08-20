@@ -10,3 +10,20 @@ variants:
   file: e7cd678bf5883ed9.dive-plus.webp
   import_original_name: d09c8f59232d8ba2.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157491.1521077
+  top:
+  - scientific: Haemulon flavolineatum
+    confidence: 0.926
+  - scientific: Haemulon chrysargyreum
+    confidence: 0.0538
+  - scientific: Anisotremus virginicus
+    confidence: 0.0101
+species:
+- scientific: Haemulon flavolineatum
+  role: primary
+  confidence: 0.926
+  identified_by: bioclip

@@ -13,3 +13,20 @@ variants:
   file: f822375a1a469343.dive-plus.webp
   import_original_name: 7f29e75ed8d5827e.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156583.8002245
+  top:
+  - scientific: Serranus tigrinus
+    confidence: 0.5905
+  - scientific: Sepioteuthis sepioidea
+    confidence: 0.0705
+  - scientific: Scarus coelestinus
+    confidence: 0.0565
+species:
+- scientific: Serranus tigrinus
+  role: primary
+  confidence: 0.5905
+  identified_by: bioclip

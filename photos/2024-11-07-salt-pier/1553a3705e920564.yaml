@@ -13,3 +13,20 @@ variants:
   file: 1553a3705e920564.dive-plus.webp
   import_original_name: 407b932ca9508855.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156378.575831
+  top:
+  - scientific: Heteroconger longissimus
+    confidence: 0.3619
+  - scientific: Gymnothorax funebris
+    confidence: 0.0819
+  - scientific: Elacatinus evelynae
+    confidence: 0.0723
+species:
+- scientific: Heteroconger longissimus
+  role: primary
+  confidence: 0.3619
+  identified_by: bioclip

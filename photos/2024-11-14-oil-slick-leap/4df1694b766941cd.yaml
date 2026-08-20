@@ -13,3 +13,20 @@ variants:
   file: 4df1694b766941cd.dive-plus.webp
   import_original_name: ddd0a3be24096312.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156901.4213858
+  top:
+  - scientific: Aulostomus maculatus
+    confidence: 0.3724
+  - scientific: Chaetodon capistratus
+    confidence: 0.2416
+  - scientific: Hypoplectrus nigricans
+    confidence: 0.1113
+species:
+- scientific: Aulostomus maculatus
+  role: primary
+  confidence: 0.3724
+  identified_by: bioclip

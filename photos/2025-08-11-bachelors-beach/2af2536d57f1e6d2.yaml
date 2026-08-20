@@ -13,3 +13,20 @@ variants:
   file: 2af2536d57f1e6d2.dive-plus.webp
   import_original_name: 00908c5a3049e7b2.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157883.3283918
+  top:
+  - scientific: Synodus intermedius
+    confidence: 0.6321
+  - scientific: Myrichthys ocellatus
+    confidence: 0.1338
+  - scientific: Sphoeroides spengleri
+    confidence: 0.076
+species:
+- scientific: Synodus intermedius
+  role: primary
+  confidence: 0.6321
+  identified_by: bioclip

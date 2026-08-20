@@ -13,3 +13,20 @@ variants:
   file: b84d59951fc6b69c.dive-plus.webp
   import_original_name: 6a7e190879af79a2.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158743.2100773
+  top:
+  - scientific: Holocentrus adscensionis
+    confidence: 0.3591
+  - scientific: Sargocentron coruscum
+    confidence: 0.1682
+  - scientific: Sparisoma viride
+    confidence: 0.1223
+species:
+- scientific: Holocentrus adscensionis
+  role: primary
+  confidence: 0.3591
+  identified_by: bioclip

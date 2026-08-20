@@ -13,3 +13,20 @@ variants:
   file: 0bdbd3e0be70ad08.dive-plus.webp
   import_original_name: 9cdffd0a5b1a78f9.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157491.9216154
+  top:
+  - scientific: Haemulon plumierii
+    confidence: 0.9963
+  - scientific: Haemulon sciurus
+    confidence: 0.0037
+  - scientific: Haemulon flavolineatum
+    confidence: 0.0
+species:
+- scientific: Haemulon plumierii
+  role: primary
+  confidence: 0.9963
+  identified_by: bioclip

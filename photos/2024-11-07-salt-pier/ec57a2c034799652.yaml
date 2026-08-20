@@ -10,3 +10,20 @@ variants:
   file: ec57a2c034799652.dive-plus.webp
   import_original_name: e826d481bbfdf662.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156335.4118998
+  top:
+  - scientific: Lactophrys triqueter
+    confidence: 0.4474
+  - scientific: Scarus iseri
+    confidence: 0.2035
+  - scientific: Haemulon sciurus
+    confidence: 0.0677
+species:
+- scientific: Lactophrys triqueter
+  role: primary
+  confidence: 0.4474
+  identified_by: bioclip

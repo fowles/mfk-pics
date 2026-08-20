@@ -10,3 +10,20 @@ variants:
   file: eb5b8fa893e495d7.dive-plus.webp
   import_original_name: 1eea548cc0bac8d8.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158972.7309065
+  top:
+  - scientific: Aulostomus maculatus
+    confidence: 0.2598
+  - scientific: Synodus intermedius
+    confidence: 0.2556
+  - scientific: Mycteroperca tigris
+    confidence: 0.1849
+species:
+- scientific: Aulostomus maculatus
+  role: primary
+  confidence: 0.2598
+  identified_by: bioclip

@@ -13,3 +13,20 @@ variants:
   file: 1c9cc750539b50c0.dive-plus.webp
   import_original_name: 53895f05161ef6eb.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159606.2571993
+  top:
+  - scientific: Scarus coeruleus
+    confidence: 0.3855
+  - scientific: Caranx ruber
+    confidence: 0.3603
+  - scientific: Acanthurus coeruleus
+    confidence: 0.1857
+species:
+- scientific: Scarus coeruleus
+  role: primary
+  confidence: 0.3855
+  identified_by: bioclip

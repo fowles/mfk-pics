@@ -10,3 +10,20 @@ lon: -68.2903018
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159373.980689
+  top:
+  - scientific: Caranx ruber
+    confidence: 1.0
+  - scientific: Carangoides bartholomaei
+    confidence: 0.0
+  - scientific: Ocyurus chrysurus
+    confidence: 0.0
+species:
+- scientific: Caranx ruber
+  role: primary
+  confidence: 1.0
+  identified_by: bioclip

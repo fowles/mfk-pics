@@ -14,3 +14,18 @@ variants:
   import_original_name: b08c5a9bee40ffc2.webp
 date_reviewed: true
 rotation_applied: 180
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1787029236.2418387
+  top:
+  - scientific: Pareques acuminatus
+    confidence: 0.0934
+  - scientific: Aulostomus maculatus
+    confidence: 0.0245
+  - scientific: Stenorhynchus seticornis
+    confidence: 0.0018
+  absorbed_by:
+    scientific: Cirrhipathes leutkeni
+    confidence: 0.553

@@ -13,3 +13,20 @@ lat: 12.070475199999999
 lon: -68.2806703
 gps_source: manual
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786160161.271794
+  top:
+  - scientific: Chromis cyanea
+    confidence: 0.2459
+  - scientific: Haemulon flavolineatum
+    confidence: 0.2186
+  - scientific: Chaetodon capistratus
+    confidence: 0.0991
+species:
+- scientific: Chromis cyanea
+  role: primary
+  confidence: 0.2459
+  identified_by: bioclip

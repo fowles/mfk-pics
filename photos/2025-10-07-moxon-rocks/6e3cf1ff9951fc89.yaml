@@ -9,3 +9,18 @@ lat: 25.54167
 lon: -79.27083
 gps_source: dive_site
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159799.429305
+  top:
+  - scientific: Amblycirrhitus pinos
+    confidence: 0.0482
+  - scientific: Hypoplectrus nigricans
+    confidence: 0.0095
+  - scientific: Microspathodon chrysurus
+    confidence: 0.0083
+  absorbed_by:
+    scientific: Porites porites
+    confidence: 0.3281

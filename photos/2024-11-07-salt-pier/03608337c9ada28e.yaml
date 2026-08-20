@@ -10,3 +10,20 @@ lon: -68.28180019999999
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156312.1216536
+  top:
+  - scientific: Ginglymostoma cirratum
+    confidence: 0.3848
+  - scientific: Tursiops truncatus
+    confidence: 0.3375
+  - scientific: Gymnothorax funebris
+    confidence: 0.1046
+species:
+- scientific: Ginglymostoma cirratum
+  role: primary
+  confidence: 0.3848
+  identified_by: bioclip

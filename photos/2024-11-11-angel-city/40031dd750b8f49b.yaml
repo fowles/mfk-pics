@@ -13,3 +13,20 @@ variants:
   file: 40031dd750b8f49b.dive-plus.webp
   import_original_name: 42978fa370cb1ed3.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156745.2349007
+  top:
+  - scientific: Holocentrus adscensionis
+    confidence: 0.5491
+  - scientific: Holocentrus rufus
+    confidence: 0.102
+  - scientific: Aulostomus maculatus
+    confidence: 0.0938
+species:
+- scientific: Holocentrus adscensionis
+  role: primary
+  confidence: 0.5491
+  identified_by: bioclip

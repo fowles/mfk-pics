@@ -10,3 +10,20 @@ variants:
   file: 57571bdcf8946bbe.dive-plus.webp
   import_original_name: c50980fdd1d7fa6b.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157212.074267
+  top:
+  - scientific: Fistularia tabacaria
+    confidence: 0.2336
+  - scientific: Aluterus scriptus
+    confidence: 0.1048
+  - scientific: Sphyraena barracuda
+    confidence: 0.0916
+species:
+- scientific: Fistularia tabacaria
+  role: primary
+  confidence: 0.2336
+  identified_by: bioclip

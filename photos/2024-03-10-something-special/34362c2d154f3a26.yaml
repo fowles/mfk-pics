@@ -10,3 +10,18 @@ variants:
   file: 34362c2d154f3a26.dive-plus.webp
   import_original_name: 419bc73c4039e530.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159065.100807
+  top:
+  - scientific: Panulirus argus
+    confidence: 0.0842
+  - scientific: Thalassoma bifasciatum
+    confidence: 0.0111
+  - scientific: Caretta caretta
+    confidence: 0.0105
+  absorbed_by:
+    scientific: Xestospongia muta
+    confidence: 0.7627

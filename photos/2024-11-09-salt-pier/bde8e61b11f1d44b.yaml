@@ -13,3 +13,18 @@ variants:
   file: bde8e61b11f1d44b.dive-plus.webp
   import_original_name: cfe53bb3d54e00e8.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156581.1309485
+  top:
+  - scientific: Stegastes partitus
+    confidence: 0.1016
+  - scientific: Stenorhynchus seticornis
+    confidence: 0.0055
+  - scientific: Cyphoma gibbosum
+    confidence: 0.0043
+  absorbed_by:
+    scientific: Aplysina archeri
+    confidence: 0.6978

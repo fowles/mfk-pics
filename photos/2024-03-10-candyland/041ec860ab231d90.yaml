@@ -13,3 +13,20 @@ variants:
   file: 041ec860ab231d90.dive-plus.webp
   import_original_name: aa9b4506e2dbcb3f.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158875.3590262
+  top:
+  - scientific: Pareques acuminatus
+    confidence: 0.2865
+  - scientific: Gramma loreto
+    confidence: 0.0681
+  - scientific: Eucidaris tribuloides
+    confidence: 0.0677
+species:
+- scientific: Pareques acuminatus
+  role: primary
+  confidence: 0.2865
+  identified_by: bioclip

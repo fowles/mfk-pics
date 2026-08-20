@@ -10,3 +10,20 @@ lon: -68.28180019999999
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156311.8997948
+  top:
+  - scientific: Enchelycore carychroa
+    confidence: 0.8224
+  - scientific: Gymnothorax vicinus
+    confidence: 0.0909
+  - scientific: Gymnothorax funebris
+    confidence: 0.0288
+species:
+- scientific: Enchelycore carychroa
+  role: primary
+  confidence: 0.8224
+  identified_by: bioclip

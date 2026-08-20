@@ -10,3 +10,20 @@ variants:
   file: eba5abe78502e2c2.dive-plus.webp
   import_original_name: 52d3c6e9685a5f86.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156577.1512842
+  top:
+  - scientific: Megalops atlanticus
+    confidence: 0.7198
+  - scientific: Scomberomorus regalis
+    confidence: 0.1487
+  - scientific: Malacanthus plumieri
+    confidence: 0.1172
+species:
+- scientific: Megalops atlanticus
+  role: primary
+  confidence: 0.7198
+  identified_by: bioclip

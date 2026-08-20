@@ -10,3 +10,20 @@ variants:
   file: a88f43f18a4561ca.dive-plus.webp
   import_original_name: 0bc819a9ca2d6e58.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159958.9349265
+  top:
+  - scientific: Holacanthus ciliaris
+    confidence: 0.8153
+  - scientific: Microspathodon chrysurus
+    confidence: 0.0476
+  - scientific: Opistognathus aurifrons
+    confidence: 0.0223
+species:
+- scientific: Holacanthus ciliaris
+  role: primary
+  confidence: 0.8153
+  identified_by: bioclip

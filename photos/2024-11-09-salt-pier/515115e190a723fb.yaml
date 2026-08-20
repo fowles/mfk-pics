@@ -13,3 +13,20 @@ variants:
   file: 515115e190a723fb.dive-plus.webp
   import_original_name: a6e9a843d60025b8.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156584.2192752
+  top:
+  - scientific: Heteroconger longissimus
+    confidence: 0.8377
+  - scientific: Emblemaria pandionis
+    confidence: 0.0947
+  - scientific: Thalassoma bifasciatum
+    confidence: 0.0363
+species:
+- scientific: Heteroconger longissimus
+  role: primary
+  confidence: 0.8377
+  identified_by: bioclip

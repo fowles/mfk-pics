@@ -13,3 +13,18 @@ variants:
   file: 3110d4c837064944.dive-plus.webp
   import_original_name: 01f21db4b2686826.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158189.177891
+  top:
+  - scientific: Aulostomus maculatus
+    confidence: 0.0025
+  - scientific: Pareques acuminatus
+    confidence: 0.0006
+  - scientific: Monacanthus tuckeri
+    confidence: 0.0006
+  absorbed_by:
+    scientific: Gorgonia ventalina
+    confidence: 0.9928

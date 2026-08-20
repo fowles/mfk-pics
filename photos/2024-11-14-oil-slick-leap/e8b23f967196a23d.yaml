@@ -13,3 +13,18 @@ variants:
   file: e8b23f967196a23d.dive-plus.webp
   import_original_name: 7c235c02767639e2.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156900.4186296
+  top:
+  - scientific: Chaetodon sedentarius
+    confidence: 0.0175
+  - scientific: Gymnothorax funebris
+    confidence: 0.0063
+  - scientific: Chaetodon capistratus
+    confidence: 0.002
+  absorbed_by:
+    scientific: Diploria labyrinthiformis
+    confidence: 0.6868

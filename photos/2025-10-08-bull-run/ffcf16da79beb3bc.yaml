@@ -10,3 +10,20 @@ lon: -79.2641
 gps_source: dive_site
 date_reviewed: true
 rotation_applied: 270
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1787173585.9584553
+  top:
+  - scientific: Caranx ruber
+    confidence: 0.5072
+  - scientific: Selar crumenophthalmus
+    confidence: 0.3152
+  - scientific: Trachinotus goodei
+    confidence: 0.1326
+species:
+- scientific: Caranx ruber
+  role: primary
+  confidence: 0.5072
+  identified_by: bioclip

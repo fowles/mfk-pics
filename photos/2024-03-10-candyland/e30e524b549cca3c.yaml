@@ -10,3 +10,20 @@ variants:
   file: e30e524b549cca3c.dive-plus.webp
   import_original_name: d951b88d0945d43d.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158872.4566944
+  top:
+  - scientific: Scarus coelestinus
+    confidence: 0.705
+  - scientific: Melichthys niger
+    confidence: 0.2541
+  - scientific: Centropyge argi
+    confidence: 0.0076
+species:
+- scientific: Scarus coelestinus
+  role: primary
+  confidence: 0.705
+  identified_by: bioclip

@@ -10,3 +10,18 @@ variants:
   file: 635d28d4384f40e5.dive-plus.webp
   import_original_name: 340eb1e5888001aa.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158967.4721935
+  top:
+  - scientific: Hypoplectrus nigricans
+    confidence: 0.0628
+  - scientific: Diadema antillarum
+    confidence: 0.0169
+  - scientific: Hypoplectrus puella
+    confidence: 0.0138
+  absorbed_by:
+    scientific: Madracis auretenra
+    confidence: 0.4174

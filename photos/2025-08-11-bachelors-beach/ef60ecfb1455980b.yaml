@@ -10,3 +10,20 @@ variants:
   file: ef60ecfb1455980b.dive-plus.webp
   import_original_name: 4ad07f263b4476f9.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157880.947503
+  top:
+  - scientific: Gymnothorax funebris
+    confidence: 0.8369
+  - scientific: Pempheris schomburgkii
+    confidence: 0.0292
+  - scientific: Equetus punctatus
+    confidence: 0.0241
+species:
+- scientific: Gymnothorax funebris
+  role: primary
+  confidence: 0.8369
+  identified_by: bioclip

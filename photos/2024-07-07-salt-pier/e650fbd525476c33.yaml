@@ -10,3 +10,20 @@ variants:
   file: e650fbd525476c33.dive-plus.webp
   import_original_name: e77d95dc5c3b91f0.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159965.4292114
+  top:
+  - scientific: Scorpaena plumieri
+    confidence: 0.9976
+  - scientific: Acanthostracion polygonius
+    confidence: 0.0018
+  - scientific: Bothus lunatus
+    confidence: 0.0004
+species:
+- scientific: Scorpaena plumieri
+  role: primary
+  confidence: 0.9976
+  identified_by: bioclip

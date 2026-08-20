@@ -6,3 +6,20 @@ credit: Matthew Kulukundis
 import_album: 2025-08-11 - Bonaire, Weber's Joy
 import_original_name: PXL_20250811_173128960.MP.jpg
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786071912.5663204
+  top:
+  - scientific: Homo sapiens
+    confidence: 0.9994
+  - scientific: Diodon hystrix
+    confidence: 0.0001
+  - scientific: Megalops atlanticus
+    confidence: 0.0001
+species:
+- scientific: Homo sapiens
+  role: primary
+  confidence: 0.9994
+  identified_by: bioclip

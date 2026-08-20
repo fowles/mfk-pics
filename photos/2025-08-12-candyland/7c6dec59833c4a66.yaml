@@ -11,3 +11,20 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 rotation_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158136.7454534
+  top:
+  - scientific: Prognathodes aculeatus
+    confidence: 0.4828
+  - scientific: Enchelycore carychroa
+    confidence: 0.0628
+  - scientific: Serranus tigrinus
+    confidence: 0.0418
+species:
+- scientific: Prognathodes aculeatus
+  role: primary
+  confidence: 0.4828
+  identified_by: bioclip

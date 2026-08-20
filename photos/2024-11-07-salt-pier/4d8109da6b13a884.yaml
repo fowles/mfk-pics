@@ -10,3 +10,20 @@ lon: -68.28180019999999
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156327.3917265
+  top:
+  - scientific: Scomberomorus regalis
+    confidence: 0.5134
+  - scientific: Acanthostracion quadricornis
+    confidence: 0.1205
+  - scientific: Acanthostracion polygonius
+    confidence: 0.1104
+species:
+- scientific: Scomberomorus regalis
+  role: primary
+  confidence: 0.5134
+  identified_by: bioclip

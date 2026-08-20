@@ -13,3 +13,20 @@ variants:
   file: 52a38ad7020fd906.dive-plus.webp
   import_original_name: 848398e2e77b92d2.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156370.9527845
+  top:
+  - scientific: Megalops atlanticus
+    confidence: 0.2069
+  - scientific: Lutjanus griseus
+    confidence: 0.1935
+  - scientific: Sphyraena barracuda
+    confidence: 0.1708
+species:
+- scientific: Megalops atlanticus
+  role: primary
+  confidence: 0.2069
+  identified_by: bioclip

@@ -10,3 +10,20 @@ lon: -79.2431
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159792.633648
+  top:
+  - scientific: Tursiops truncatus
+    confidence: 0.3839
+  - scientific: Aurelia aurita
+    confidence: 0.2093
+  - scientific: Sepioteuthis sepioidea
+    confidence: 0.177
+species:
+- scientific: Tursiops truncatus
+  role: primary
+  confidence: 0.3839
+  identified_by: bioclip

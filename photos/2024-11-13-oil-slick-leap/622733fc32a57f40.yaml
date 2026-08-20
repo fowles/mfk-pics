@@ -10,3 +10,20 @@ lon: -68.3086211
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156872.482379
+  top:
+  - scientific: Aliger gigas
+    confidence: 0.5765
+  - scientific: Thalassoma bifasciatum
+    confidence: 0.0158
+  - scientific: Caretta caretta
+    confidence: 0.0148
+species:
+- scientific: Aliger gigas
+  role: primary
+  confidence: 0.5765
+  identified_by: bioclip

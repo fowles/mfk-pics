@@ -10,3 +10,20 @@ lon: -68.40111449999999
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156487.4971352
+  top:
+  - scientific: Holocentrus rufus
+    confidence: 0.3924
+  - scientific: Haemulon chrysargyreum
+    confidence: 0.2923
+  - scientific: Haemulon macrostomum
+    confidence: 0.108
+species:
+- scientific: Holocentrus rufus
+  role: primary
+  confidence: 0.3924
+  identified_by: bioclip

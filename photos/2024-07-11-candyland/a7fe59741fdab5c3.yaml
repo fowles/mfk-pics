@@ -10,3 +10,18 @@ lon: -68.40111449999999
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159273.3650877
+  top:
+  - scientific: Chaetodon striatus
+    confidence: 0.016
+  - scientific: Aulostomus maculatus
+    confidence: 0.0128
+  - scientific: Microspathodon chrysurus
+    confidence: 0.0115
+  absorbed_by:
+    scientific: Briareum asbestinum
+    confidence: 0.8811

@@ -13,3 +13,20 @@ variants:
   file: f408411a07920d7f.dive-plus.webp
   import_original_name: 7896e2dab04847b8.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159296.877415
+  top:
+  - scientific: Mycteroperca tigris
+    confidence: 0.5128
+  - scientific: Acanthostracion polygonius
+    confidence: 0.199
+  - scientific: Epinephelus itajara
+    confidence: 0.1757
+species:
+- scientific: Mycteroperca tigris
+  role: primary
+  confidence: 0.5128
+  identified_by: bioclip

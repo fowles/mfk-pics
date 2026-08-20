@@ -10,3 +10,20 @@ variants:
   file: 9a732e2a67c43942.dive-plus.webp
   import_original_name: 6bed941fb0faecc1.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156576.522784
+  top:
+  - scientific: Haemulon carbonarium
+    confidence: 0.5031
+  - scientific: Kyphosus sectatrix
+    confidence: 0.1907
+  - scientific: Lutjanus apodus
+    confidence: 0.0939
+species:
+- scientific: Haemulon carbonarium
+  role: primary
+  confidence: 0.5031
+  identified_by: bioclip

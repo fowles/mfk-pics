@@ -13,3 +13,20 @@ variants:
   file: 75f24f3286cbca4b.dive-plus.webp
   import_original_name: 157182b50e80721a.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156583.5844543
+  top:
+  - scientific: Serranus tigrinus
+    confidence: 0.3579
+  - scientific: Haemulon macrostomum
+    confidence: 0.1699
+  - scientific: Chaetodon striatus
+    confidence: 0.0379
+species:
+- scientific: Serranus tigrinus
+  role: primary
+  confidence: 0.3579
+  identified_by: bioclip

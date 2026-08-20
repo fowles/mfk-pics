@@ -13,3 +13,18 @@ variants:
   file: 7535ee03ff97fd6e.dive-plus.webp
   import_original_name: 27055934f3b1f6e8.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156901.6579678
+  top:
+  - scientific: Gymnothorax moringa
+    confidence: 0.258
+  - scientific: Gymnothorax miliaris
+    confidence: 0.0303
+  - scientific: Aulostomus maculatus
+    confidence: 0.0177
+  absorbed_by:
+    scientific: Sabellastarte magnifica
+    confidence: 0.3751

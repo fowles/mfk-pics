@@ -13,3 +13,18 @@ variants:
   file: 746e7c77769c538d.dive-plus.webp
   import_original_name: 1bc3d5cb0b34b887.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158743.0533984
+  top:
+  - scientific: Monacanthus tuckeri
+    confidence: 0.0415
+  - scientific: Hippocampus erectus
+    confidence: 0.011
+  - scientific: Stegastes partitus
+    confidence: 0.0004
+  absorbed_by:
+    scientific: Cirrhipathes leutkeni
+    confidence: 0.9334

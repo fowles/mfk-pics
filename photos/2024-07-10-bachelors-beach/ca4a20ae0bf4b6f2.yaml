@@ -10,3 +10,20 @@ variants:
   file: ca4a20ae0bf4b6f2.dive-plus.webp
   import_original_name: d4581590e298d166.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158733.1620853
+  top:
+  - scientific: Equetus punctatus
+    confidence: 0.915
+  - scientific: Pomacanthus paru
+    confidence: 0.0385
+  - scientific: Pomacanthus arcuatus
+    confidence: 0.0121
+species:
+- scientific: Equetus punctatus
+  role: primary
+  confidence: 0.915
+  identified_by: bioclip

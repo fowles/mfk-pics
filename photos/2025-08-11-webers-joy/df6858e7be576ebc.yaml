@@ -13,3 +13,20 @@ variants:
   file: df6858e7be576ebc.dive-plus.webp
   import_original_name: 37fab51330fe2f65.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786071913.3010132
+  top:
+  - scientific: Acanthostracion quadricornis
+    confidence: 0.215
+  - scientific: Gymnothorax funebris
+    confidence: 0.1577
+  - scientific: Sparisoma viride
+    confidence: 0.077
+species:
+- scientific: Acanthostracion quadricornis
+  role: primary
+  confidence: 0.215
+  identified_by: bioclip

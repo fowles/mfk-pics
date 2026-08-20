@@ -11,3 +11,20 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 rotation_applied: 90
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1787175773.842568
+  top:
+  - scientific: Sparisoma rubripinne
+    confidence: 0.2955
+  - scientific: Ginglymostoma cirratum
+    confidence: 0.1415
+  - scientific: Sparisoma aurofrenatum
+    confidence: 0.0843
+species:
+- scientific: Sparisoma rubripinne
+  role: primary
+  confidence: 0.2955
+  identified_by: bioclip

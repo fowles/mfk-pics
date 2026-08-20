@@ -13,3 +13,20 @@ variants:
   file: e6b8897a069e23f8.dive-plus.webp
   import_original_name: 0a49ec4a80e1751d.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156901.1050107
+  top:
+  - scientific: Gymnothorax miliaris
+    confidence: 0.3866
+  - scientific: Sphoeroides spengleri
+    confidence: 0.2205
+  - scientific: Holothuria mexicana
+    confidence: 0.1737
+species:
+- scientific: Gymnothorax miliaris
+  role: primary
+  confidence: 0.3866
+  identified_by: bioclip

@@ -13,3 +13,20 @@ variants:
   file: 4ab1007fc2ea7bdb.dive-plus.webp
   import_original_name: f7e2b12f038f94df.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156745.194608
+  top:
+  - scientific: Epinephelus striatus
+    confidence: 0.2197
+  - scientific: Sepioteuthis sepioidea
+    confidence: 0.1642
+  - scientific: Scarus vetula
+    confidence: 0.1268
+species:
+- scientific: Epinephelus striatus
+  role: primary
+  confidence: 0.2197
+  identified_by: bioclip

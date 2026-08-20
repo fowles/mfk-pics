@@ -13,3 +13,20 @@ variants:
   file: 17c87c0332ea9204.dive-plus.webp
   import_original_name: 77c0456d5c6c5a86.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156983.207239
+  top:
+  - scientific: Trachinotus goodei
+    confidence: 0.9616
+  - scientific: Canthidermis sufflamen
+    confidence: 0.0121
+  - scientific: Heteroconger longissimus
+    confidence: 0.0088
+species:
+- scientific: Trachinotus goodei
+  role: primary
+  confidence: 0.9616
+  identified_by: bioclip

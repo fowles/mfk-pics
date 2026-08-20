@@ -13,3 +13,20 @@ variants:
   file: 190f0410f09fbd93.dive-plus.webp
   import_original_name: aea57baf57c74bb9.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157215.5843446
+  top:
+  - scientific: Aluterus scriptus
+    confidence: 0.8681
+  - scientific: Opistognathus aurifrons
+    confidence: 0.0682
+  - scientific: Diodon holocanthus
+    confidence: 0.0245
+species:
+- scientific: Aluterus scriptus
+  role: primary
+  confidence: 0.8681
+  identified_by: bioclip

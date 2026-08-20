@@ -10,3 +10,20 @@ lon: -68.2874429
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158396.8375695
+  top:
+  - scientific: Haemulon macrostomum
+    confidence: 0.4091
+  - scientific: Haemulon sciurus
+    confidence: 0.1451
+  - scientific: Cantherhines pullus
+    confidence: 0.1081
+species:
+- scientific: Haemulon macrostomum
+  role: primary
+  confidence: 0.4091
+  identified_by: bioclip

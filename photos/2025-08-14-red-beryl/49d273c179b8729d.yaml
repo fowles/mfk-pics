@@ -10,3 +10,20 @@ lon: -68.2678076
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158334.863319
+  top:
+  - scientific: Sparisoma viride
+    confidence: 0.7607
+  - scientific: Serranus tigrinus
+    confidence: 0.1402
+  - scientific: Sparisoma rubripinne
+    confidence: 0.0458
+species:
+- scientific: Sparisoma viride
+  role: primary
+  confidence: 0.7607
+  identified_by: bioclip

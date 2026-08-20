@@ -13,3 +13,18 @@ variants:
   file: ad63b2ca054857a5.dive-plus.webp
   import_original_name: 16d372630f912c7e.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159066.6387513
+  top:
+  - scientific: Microspathodon chrysurus
+    confidence: 0.0253
+  - scientific: Cephalopholis fulva
+    confidence: 0.024
+  - scientific: Epinephelus itajara
+    confidence: 0.0179
+  absorbed_by:
+    scientific: Xestospongia muta
+    confidence: 0.2731

@@ -13,3 +13,20 @@ variants:
   file: a9169772fd607a6b.dive-plus.webp
   import_original_name: d24fd34c9afd7835.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156900.9128022
+  top:
+  - scientific: Sphoeroides spengleri
+    confidence: 0.4936
+  - scientific: Sphoeroides testudineus
+    confidence: 0.3024
+  - scientific: Synodus intermedius
+    confidence: 0.0737
+species:
+- scientific: Sphoeroides spengleri
+  role: primary
+  confidence: 0.4936
+  identified_by: bioclip

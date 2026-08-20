@@ -13,3 +13,20 @@ variants:
   file: 4817b17aea85976a.dive-plus.webp
   import_original_name: 17f66333b39332de.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158238.6102638
+  top:
+  - scientific: Holothuria mexicana
+    confidence: 0.8978
+  - scientific: Sparisoma aurofrenatum
+    confidence: 0.0537
+  - scientific: Acanthostracion polygonius
+    confidence: 0.0136
+species:
+- scientific: Holothuria mexicana
+  role: primary
+  confidence: 0.8978
+  identified_by: bioclip

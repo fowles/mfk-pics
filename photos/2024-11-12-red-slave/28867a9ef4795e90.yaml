@@ -10,3 +10,20 @@ lon: -68.2513754
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156818.0234826
+  top:
+  - scientific: Cantherhines macrocerus
+    confidence: 0.6723
+  - scientific: Microspathodon chrysurus
+    confidence: 0.1788
+  - scientific: Chaetodon capistratus
+    confidence: 0.0604
+species:
+- scientific: Cantherhines macrocerus
+  role: primary
+  confidence: 0.6723
+  identified_by: bioclip

@@ -10,3 +10,20 @@ variants:
   file: e07f770ace73d34a.dive-plus.webp
   import_original_name: 85e8efe4f6e875c0.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159181.5711217
+  top:
+  - scientific: Serranus tigrinus
+    confidence: 0.4346
+  - scientific: Aulostomus maculatus
+    confidence: 0.1014
+  - scientific: Gymnothorax funebris
+    confidence: 0.0215
+species:
+- scientific: Serranus tigrinus
+  role: primary
+  confidence: 0.4346
+  identified_by: bioclip

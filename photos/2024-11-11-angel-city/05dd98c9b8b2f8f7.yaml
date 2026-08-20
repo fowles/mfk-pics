@@ -13,3 +13,20 @@ variants:
   file: 05dd98c9b8b2f8f7.dive-plus.webp
   import_original_name: 4983f745b9871573.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156743.1879654
+  top:
+  - scientific: Aulostomus maculatus
+    confidence: 0.4003
+  - scientific: Gymnothorax funebris
+    confidence: 0.3792
+  - scientific: Diodon holocanthus
+    confidence: 0.0238
+species:
+- scientific: Aulostomus maculatus
+  role: primary
+  confidence: 0.4003
+  identified_by: bioclip

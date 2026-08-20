@@ -13,3 +13,20 @@ variants:
   file: a5b5eba764c343d7.dive-plus.webp
   import_original_name: af2ae870278e57ef.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158189.036493
+  top:
+  - scientific: Gymnothorax moringa
+    confidence: 0.1546
+  - scientific: Sepioteuthis sepioidea
+    confidence: 0.1213
+  - scientific: Octopus briareus
+    confidence: 0.0739
+species:
+- scientific: Gymnothorax moringa
+  role: primary
+  confidence: 0.1546
+  identified_by: bioclip

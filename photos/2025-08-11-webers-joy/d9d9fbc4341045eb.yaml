@@ -13,3 +13,20 @@ variants:
   file: d9d9fbc4341045eb.dive-plus.webp
   import_original_name: b8c3bbe90eb25869.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786071914.0777786
+  top:
+  - scientific: Periclimenes yucatanicus
+    confidence: 0.4262
+  - scientific: Ancylomenes pedersoni
+    confidence: 0.3987
+  - scientific: Gramma loreto
+    confidence: 0.08
+species:
+- scientific: Periclimenes yucatanicus
+  role: primary
+  confidence: 0.4262
+  identified_by: bioclip

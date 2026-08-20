@@ -10,3 +10,20 @@ variants:
   file: b8cb09f19cfc5494.dive-plus.webp
   import_original_name: e57af2a2a7d9dafe.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158186.7233298
+  top:
+  - scientific: Serranus tigrinus
+    confidence: 0.6065
+  - scientific: Serranus tabacarius
+    confidence: 0.3093
+  - scientific: Opistognathus aurifrons
+    confidence: 0.023
+species:
+- scientific: Serranus tigrinus
+  role: primary
+  confidence: 0.6065
+  identified_by: bioclip

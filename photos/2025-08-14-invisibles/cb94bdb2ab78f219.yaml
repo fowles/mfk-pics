@@ -13,3 +13,20 @@ variants:
   file: cb94bdb2ab78f219.dive-plus.webp
   import_original_name: 6d328bd82c793277.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158237.261953
+  top:
+  - scientific: Aulostomus maculatus
+    confidence: 0.6164
+  - scientific: Pareques acuminatus
+    confidence: 0.1338
+  - scientific: Equetus lanceolatus
+    confidence: 0.065
+species:
+- scientific: Aulostomus maculatus
+  role: primary
+  confidence: 0.6164
+  identified_by: bioclip

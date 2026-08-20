@@ -10,3 +10,20 @@ variants:
   file: 275aebbd376649d6.dive-plus.webp
   import_original_name: 35f009d67ae7bce1.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159176.3264155
+  top:
+  - scientific: Melichthys niger
+    confidence: 0.9772
+  - scientific: Scarus coelestinus
+    confidence: 0.0063
+  - scientific: Ginglymostoma cirratum
+    confidence: 0.002
+species:
+- scientific: Melichthys niger
+  role: primary
+  confidence: 0.9772
+  identified_by: bioclip

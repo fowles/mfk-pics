@@ -10,3 +10,20 @@ variants:
   file: 15a3c42c96b48281.dive-plus.webp
   import_original_name: 9b7869ce0799f31f.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156337.255022
+  top:
+  - scientific: Heteroconger longissimus
+    confidence: 0.2244
+  - scientific: Aulostomus maculatus
+    confidence: 0.1401
+  - scientific: Sphoeroides spengleri
+    confidence: 0.1387
+species:
+- scientific: Heteroconger longissimus
+  role: primary
+  confidence: 0.2244
+  identified_by: bioclip

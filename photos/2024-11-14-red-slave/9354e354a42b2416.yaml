@@ -13,3 +13,20 @@ variants:
   file: 9354e354a42b2416.dive-plus.webp
   import_original_name: b8d34b6e49383256.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156981.5100913
+  top:
+  - scientific: Haemulon macrostomum
+    confidence: 0.4546
+  - scientific: Hypoplectrus chlorurus
+    confidence: 0.2234
+  - scientific: Sepioteuthis sepioidea
+    confidence: 0.0753
+species:
+- scientific: Haemulon macrostomum
+  role: primary
+  confidence: 0.4546
+  identified_by: bioclip

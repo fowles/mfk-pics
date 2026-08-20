@@ -13,3 +13,18 @@ variants:
   file: 8d0adf00eb98af3b.dive-plus.webp
   import_original_name: f7830bde8e9dc7bf.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158732.8644695
+  top:
+  - scientific: Aulostomus maculatus
+    confidence: 0.0047
+  - scientific: Monacanthus tuckeri
+    confidence: 0.0029
+  - scientific: Stegastes partitus
+    confidence: 0.0011
+  absorbed_by:
+    scientific: Cirrhipathes leutkeni
+    confidence: 0.8697

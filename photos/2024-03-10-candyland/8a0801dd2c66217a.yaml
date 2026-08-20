@@ -10,3 +10,20 @@ variants:
   file: 8a0801dd2c66217a.dive-plus.webp
   import_original_name: ca7d6bc8ac47fac4.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158872.0336044
+  top:
+  - scientific: Scarus coelestinus
+    confidence: 0.1838
+  - scientific: Holacanthus ciliaris
+    confidence: 0.1241
+  - scientific: Bodianus rufus
+    confidence: 0.1025
+species:
+- scientific: Scarus coelestinus
+  role: primary
+  confidence: 0.1838
+  identified_by: bioclip

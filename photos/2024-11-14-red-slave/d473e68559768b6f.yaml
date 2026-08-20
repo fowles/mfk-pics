@@ -10,3 +10,20 @@ variants:
   file: d473e68559768b6f.dive-plus.webp
   import_original_name: 93439b26199fa9e8.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156979.6101499
+  top:
+  - scientific: Scarus coelestinus
+    confidence: 0.4392
+  - scientific: Thalassoma bifasciatum
+    confidence: 0.2142
+  - scientific: Centropyge argi
+    confidence: 0.0858
+species:
+- scientific: Scarus coelestinus
+  role: primary
+  confidence: 0.4392
+  identified_by: bioclip

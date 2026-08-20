@@ -13,3 +13,20 @@ variants:
   file: a8792d2f6854789c.dive-plus.webp
   import_original_name: f0619baa1aad3cf4.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157055.3605886
+  top:
+  - scientific: Sphyraena barracuda
+    confidence: 0.6468
+  - scientific: Ginglymostoma cirratum
+    confidence: 0.1107
+  - scientific: Malacanthus plumieri
+    confidence: 0.1104
+species:
+- scientific: Sphyraena barracuda
+  role: primary
+  confidence: 0.6468
+  identified_by: bioclip

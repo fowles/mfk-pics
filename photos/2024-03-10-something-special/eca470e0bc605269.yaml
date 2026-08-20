@@ -13,3 +13,20 @@ variants:
   file: eca470e0bc605269.dive-plus.webp
   import_original_name: ac06e890ff761f7b.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159067.4784677
+  top:
+  - scientific: Thalassoma bifasciatum
+    confidence: 0.2241
+  - scientific: Serranus tigrinus
+    confidence: 0.189
+  - scientific: Lactophrys triqueter
+    confidence: 0.0434
+species:
+- scientific: Thalassoma bifasciatum
+  role: primary
+  confidence: 0.2241
+  identified_by: bioclip

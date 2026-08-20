@@ -13,3 +13,20 @@ variants:
   file: 74ce9ed43bcfefbd.dive-plus.webp
   import_original_name: 3ce9a7961431869b.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156980.5589046
+  top:
+  - scientific: Cyphoma gibbosum
+    confidence: 0.4967
+  - scientific: Monacanthus tuckeri
+    confidence: 0.3362
+  - scientific: Astrophyton muricatum
+    confidence: 0.0362
+species:
+- scientific: Cyphoma gibbosum
+  role: primary
+  confidence: 0.4967
+  identified_by: bioclip

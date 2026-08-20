@@ -13,3 +13,20 @@ variants:
   file: 3518cbdf734bf268.dive-plus.webp
   import_original_name: f4263ab637a0be75.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159971.320628
+  top:
+  - scientific: Opistognathus aurifrons
+    confidence: 0.5767
+  - scientific: Emblemaria pandionis
+    confidence: 0.1065
+  - scientific: Chelonia mydas
+    confidence: 0.0817
+species:
+- scientific: Opistognathus aurifrons
+  role: primary
+  confidence: 0.5767
+  identified_by: bioclip

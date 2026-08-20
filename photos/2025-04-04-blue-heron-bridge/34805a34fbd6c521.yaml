@@ -13,3 +13,20 @@ variants:
   file: 34805a34fbd6c521.dive-plus.webp
   import_original_name: 7a90e4bcb23ac6b3.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157494.5366771
+  top:
+  - scientific: Scorpaena plumieri
+    confidence: 0.9822
+  - scientific: Hippocampus erectus
+    confidence: 0.0112
+  - scientific: Bothus lunatus
+    confidence: 0.0044
+species:
+- scientific: Scorpaena plumieri
+  role: primary
+  confidence: 0.9822
+  identified_by: bioclip

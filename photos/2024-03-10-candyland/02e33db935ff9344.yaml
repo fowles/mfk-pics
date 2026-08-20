@@ -10,3 +10,20 @@ variants:
   file: 02e33db935ff9344.dive-plus.webp
   import_original_name: 50e7628b8dbc5cbb.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158872.1076155
+  top:
+  - scientific: Mycteroperca tigris
+    confidence: 0.1814
+  - scientific: Pempheris schomburgkii
+    confidence: 0.0701
+  - scientific: Gymnothorax funebris
+    confidence: 0.0684
+species:
+- scientific: Mycteroperca tigris
+  role: primary
+  confidence: 0.1814
+  identified_by: bioclip

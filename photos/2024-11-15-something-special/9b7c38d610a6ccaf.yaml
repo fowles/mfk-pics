@@ -10,3 +10,20 @@ variants:
   file: 9b7c38d610a6ccaf.dive-plus.webp
   import_original_name: 704b56eb701e84c1.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157212.677552
+  top:
+  - scientific: Mycteroperca venenosa
+    confidence: 0.6178
+  - scientific: Mycteroperca tigris
+    confidence: 0.0969
+  - scientific: Scarus coelestinus
+    confidence: 0.082
+species:
+- scientific: Mycteroperca venenosa
+  role: primary
+  confidence: 0.6178
+  identified_by: bioclip

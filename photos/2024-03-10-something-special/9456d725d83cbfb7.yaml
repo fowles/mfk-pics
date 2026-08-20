@@ -10,3 +10,18 @@ lon: -68.2854452
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159051.4661226
+  top:
+  - scientific: Elacatinus genie
+    confidence: 0.0002
+  - scientific: Sparisoma aurofrenatum
+    confidence: 0.0002
+  - scientific: Sparisoma rubripinne
+    confidence: 0.0002
+  absorbed_by:
+    scientific: Porites astreoides
+    confidence: 0.9845

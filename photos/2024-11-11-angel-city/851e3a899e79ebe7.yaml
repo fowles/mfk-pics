@@ -13,3 +13,20 @@ variants:
   file: 851e3a899e79ebe7.dive-plus.webp
   import_original_name: 1f3172c5f6bf43ec.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156747.020409
+  top:
+  - scientific: Ogcocephalus radiatus
+    confidence: 0.4664
+  - scientific: Canthidermis sufflamen
+    confidence: 0.1657
+  - scientific: Echeneis naucrates
+    confidence: 0.0501
+species:
+- scientific: Ogcocephalus radiatus
+  role: primary
+  confidence: 0.4664
+  identified_by: bioclip

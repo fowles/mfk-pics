@@ -13,3 +13,20 @@ variants:
   file: fb651ddd030de0ca.dive-plus.webp
   import_original_name: a7fc641c3b5cb8ef.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157881.3224874
+  top:
+  - scientific: Bothus lunatus
+    confidence: 0.9962
+  - scientific: Hypanus americanus
+    confidence: 0.0018
+  - scientific: Acanthostracion quadricornis
+    confidence: 0.0016
+species:
+- scientific: Bothus lunatus
+  role: primary
+  confidence: 0.9962
+  identified_by: bioclip

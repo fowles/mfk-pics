@@ -11,3 +11,18 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 rotation_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158713.9460049
+  top:
+  - scientific: Aulostomus maculatus
+    confidence: 0.0245
+  - scientific: Sepioteuthis sepioidea
+    confidence: 0.0236
+  - scientific: Pareques acuminatus
+    confidence: 0.0173
+  absorbed_by:
+    scientific: Antillogorgia americana
+    confidence: 0.831

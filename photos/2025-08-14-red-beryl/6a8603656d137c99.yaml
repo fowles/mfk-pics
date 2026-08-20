@@ -10,3 +10,20 @@ lon: -68.2678076
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158334.7162168
+  top:
+  - scientific: Bodianus rufus
+    confidence: 0.9918
+  - scientific: Cephalopholis fulva
+    confidence: 0.0032
+  - scientific: Microspathodon chrysurus
+    confidence: 0.0018
+species:
+- scientific: Bodianus rufus
+  role: primary
+  confidence: 0.9918
+  identified_by: bioclip

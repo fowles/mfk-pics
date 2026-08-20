@@ -10,3 +10,20 @@ variants:
   file: 061161c2384fcff6.dive-plus.webp
   import_original_name: 03d65c5fe9f6d77b.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159955.2359753
+  top:
+  - scientific: Jenkinsia lamprotaenia
+    confidence: 0.4657
+  - scientific: Sphoeroides spengleri
+    confidence: 0.2351
+  - scientific: Stenorhynchus seticornis
+    confidence: 0.0369
+species:
+- scientific: Jenkinsia lamprotaenia
+  role: primary
+  confidence: 0.4657
+  identified_by: bioclip

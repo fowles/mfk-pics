@@ -13,3 +13,20 @@ variants:
   file: 0e44fbd8effa4054.dive-plus.webp
   import_original_name: ff48d2314bfec694.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157055.6685271
+  top:
+  - scientific: Aulostomus maculatus
+    confidence: 0.5615
+  - scientific: Sphyraena barracuda
+    confidence: 0.3754
+  - scientific: Chaetodon striatus
+    confidence: 0.0355
+species:
+- scientific: Aulostomus maculatus
+  role: primary
+  confidence: 0.5615
+  identified_by: bioclip

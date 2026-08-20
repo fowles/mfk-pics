@@ -13,3 +13,20 @@ variants:
   file: f67c5cbc0c181493.dive-plus.webp
   import_original_name: 3106f267fc59b96e.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156898.3207479
+  top:
+  - scientific: Thalassoma bifasciatum
+    confidence: 0.4904
+  - scientific: Scarus coelestinus
+    confidence: 0.1244
+  - scientific: Holocentrus adscensionis
+    confidence: 0.0957
+species:
+- scientific: Thalassoma bifasciatum
+  role: primary
+  confidence: 0.4904
+  identified_by: bioclip

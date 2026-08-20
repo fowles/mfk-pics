@@ -13,3 +13,18 @@ variants:
   file: d06855f536c95e00.dive-plus.webp
   import_original_name: c81f3c54f90611f1.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156742.395839
+  top:
+  - scientific: Gymnothorax funebris
+    confidence: 0.1611
+  - scientific: Lutjanus jocu
+    confidence: 0.0049
+  - scientific: Epinephelus guttatus
+    confidence: 0.0025
+  absorbed_by:
+    scientific: Diploria labyrinthiformis
+    confidence: 0.8081

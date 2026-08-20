@@ -12,3 +12,20 @@ variants:
 date_reviewed: true
 extra_variants:
 - ancuti-fusion
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159575.5661554
+  top:
+  - scientific: Aulostomus maculatus
+    confidence: 0.4871
+  - scientific: Thalassoma bifasciatum
+    confidence: 0.2214
+  - scientific: Pareques acuminatus
+    confidence: 0.0444
+species:
+- scientific: Aulostomus maculatus
+  role: primary
+  confidence: 0.4871
+  identified_by: bioclip

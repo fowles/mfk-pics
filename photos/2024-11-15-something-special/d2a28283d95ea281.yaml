@@ -10,3 +10,18 @@ variants:
   file: d2a28283d95ea281.dive-plus.webp
   import_original_name: cbcaf481d22c77bf.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157212.6006382
+  top:
+  - scientific: Octopus vulgaris
+    confidence: 0.0216
+  - scientific: Gymnothorax funebris
+    confidence: 0.0189
+  - scientific: Diodon holocanthus
+    confidence: 0.0157
+  absorbed_by:
+    scientific: Xestospongia muta
+    confidence: 0.7217

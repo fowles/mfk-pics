@@ -13,3 +13,20 @@ variants:
   file: abd844dc01c51240.dive-plus.webp
   import_original_name: 956ad2fc7c1ef603.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157055.7400644
+  top:
+  - scientific: Acanthostracion polygonius
+    confidence: 0.7373
+  - scientific: Monacanthus tuckeri
+    confidence: 0.0902
+  - scientific: Acanthostracion quadricornis
+    confidence: 0.0581
+species:
+- scientific: Acanthostracion polygonius
+  role: primary
+  confidence: 0.7373
+  identified_by: bioclip

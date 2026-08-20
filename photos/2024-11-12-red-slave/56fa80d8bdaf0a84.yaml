@@ -10,3 +10,18 @@ lon: -68.2513754
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156814.9077637
+  top:
+  - scientific: Cyphoma gibbosum
+    confidence: 0.1597
+  - scientific: Aulostomus maculatus
+    confidence: 0.0966
+  - scientific: Hypoplectrus chlorurus
+    confidence: 0.0291
+  absorbed_by:
+    scientific: Antillogorgia americana
+    confidence: 0.6012

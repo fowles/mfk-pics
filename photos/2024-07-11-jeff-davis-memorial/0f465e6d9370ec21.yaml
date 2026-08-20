@@ -10,3 +10,20 @@ lon: -68.3139741
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159560.2385123
+  top:
+  - scientific: Scarus taeniopterus
+    confidence: 0.7114
+  - scientific: Sparisoma aurofrenatum
+    confidence: 0.1789
+  - scientific: Scarus vetula
+    confidence: 0.1026
+species:
+- scientific: Scarus taeniopterus
+  role: primary
+  confidence: 0.7114
+  identified_by: bioclip

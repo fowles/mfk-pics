@@ -9,3 +9,20 @@ lat: 25.54167
 lon: -79.27083
 gps_source: dive_site
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159804.525366
+  top:
+  - scientific: Halichoeres maculipinna
+    confidence: 0.9613
+  - scientific: Halichoeres bivittatus
+    confidence: 0.0371
+  - scientific: Halichoeres pictus
+    confidence: 0.0008
+species:
+- scientific: Halichoeres maculipinna
+  role: primary
+  confidence: 0.9613
+  identified_by: bioclip

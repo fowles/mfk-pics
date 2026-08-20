@@ -10,3 +10,20 @@ variants:
   file: f517e5fb8c265fb8.dive-plus.webp
   import_original_name: 60d099870918fa58.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158870.9625485
+  top:
+  - scientific: Melichthys niger
+    confidence: 0.5498
+  - scientific: Gymnothorax funebris
+    confidence: 0.0718
+  - scientific: Centropyge argi
+    confidence: 0.0682
+species:
+- scientific: Melichthys niger
+  role: primary
+  confidence: 0.5498
+  identified_by: bioclip

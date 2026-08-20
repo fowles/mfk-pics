@@ -10,3 +10,20 @@ variants:
   file: 9bc36529fc74f666.dive-plus.webp
   import_original_name: 10ba9e9092dd0413.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158972.1875293
+  top:
+  - scientific: Centropyge argi
+    confidence: 0.181
+  - scientific: Hypoplectrus indigo
+    confidence: 0.1622
+  - scientific: Aulostomus maculatus
+    confidence: 0.1025
+species:
+- scientific: Centropyge argi
+  role: primary
+  confidence: 0.181
+  identified_by: bioclip

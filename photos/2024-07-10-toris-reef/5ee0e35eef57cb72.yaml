@@ -13,3 +13,20 @@ variants:
   file: 5ee0e35eef57cb72.dive-plus.webp
   import_original_name: 620b2e9bf7182629.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786160203.175302
+  top:
+  - scientific: Periclimenes yucatanicus
+    confidence: 0.3189
+  - scientific: Stenopus hispidus
+    confidence: 0.3054
+  - scientific: Ancylomenes pedersoni
+    confidence: 0.093
+species:
+- scientific: Periclimenes yucatanicus
+  role: primary
+  confidence: 0.3189
+  identified_by: bioclip

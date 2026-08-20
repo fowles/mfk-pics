@@ -10,3 +10,20 @@ lon: -68.3139741
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159565.3367643
+  top:
+  - scientific: Scarus guacamaia
+    confidence: 0.4364
+  - scientific: Sparisoma viride
+    confidence: 0.1939
+  - scientific: Scarus taeniopterus
+    confidence: 0.1503
+species:
+- scientific: Scarus guacamaia
+  role: primary
+  confidence: 0.4364
+  identified_by: bioclip

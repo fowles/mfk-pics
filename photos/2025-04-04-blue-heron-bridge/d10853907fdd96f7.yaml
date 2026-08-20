@@ -13,3 +13,20 @@ variants:
   file: d10853907fdd96f7.dive-plus.webp
   import_original_name: ed8321c271587bdc.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157493.183234
+  top:
+  - scientific: Dactylopterus volitans
+    confidence: 0.721
+  - scientific: Scorpaena plumieri
+    confidence: 0.1038
+  - scientific: Pareques acuminatus
+    confidence: 0.0992
+species:
+- scientific: Dactylopterus volitans
+  role: primary
+  confidence: 0.721
+  identified_by: bioclip

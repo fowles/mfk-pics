@@ -10,3 +10,20 @@ variants:
   file: 1179bca35cdb9b5b.dive-plus.webp
   import_original_name: 8823b3ab5711d8eb.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158237.2942376
+  top:
+  - scientific: Gymnothorax miliaris
+    confidence: 0.3456
+  - scientific: Gymnothorax funebris
+    confidence: 0.1384
+  - scientific: Diodon holocanthus
+    confidence: 0.1138
+species:
+- scientific: Gymnothorax miliaris
+  role: primary
+  confidence: 0.3456
+  identified_by: bioclip

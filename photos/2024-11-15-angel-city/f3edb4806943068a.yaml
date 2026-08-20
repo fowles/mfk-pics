@@ -10,3 +10,20 @@ variants:
   file: f3edb4806943068a.dive-plus.webp
   import_original_name: eb01d3a8b56b3fd8.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157054.4692745
+  top:
+  - scientific: Hypoplectrus indigo
+    confidence: 0.199
+  - scientific: Gymnothorax funebris
+    confidence: 0.1251
+  - scientific: Melichthys niger
+    confidence: 0.0815
+species:
+- scientific: Hypoplectrus indigo
+  role: primary
+  confidence: 0.199
+  identified_by: bioclip

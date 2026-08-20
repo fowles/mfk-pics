@@ -14,3 +14,20 @@ variants:
   import_original_name: fcf2e4084a4d57a6.webp
 date_reviewed: true
 rotation_applied: 90
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1787029255.3954487
+  top:
+  - scientific: Thalassoma bifasciatum
+    confidence: 0.7057
+  - scientific: Haemulon macrostomum
+    confidence: 0.1473
+  - scientific: Aulostomus maculatus
+    confidence: 0.0521
+species:
+- scientific: Thalassoma bifasciatum
+  role: primary
+  confidence: 0.7057
+  identified_by: bioclip

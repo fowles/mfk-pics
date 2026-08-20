@@ -10,3 +10,20 @@ variants:
   file: 119f42ec47d3480a.dive-plus.webp
   import_original_name: 7bd9a33a1a2b2bf9.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159574.4324298
+  top:
+  - scientific: Aulostomus maculatus
+    confidence: 0.7121
+  - scientific: Sphyraena barracuda
+    confidence: 0.2383
+  - scientific: Fistularia tabacaria
+    confidence: 0.012
+species:
+- scientific: Aulostomus maculatus
+  role: primary
+  confidence: 0.7121
+  identified_by: bioclip

@@ -10,3 +10,20 @@ lon: -68.2854452
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159060.9162514
+  top:
+  - scientific: Thalassoma bifasciatum
+    confidence: 0.12
+  - scientific: Sparisoma viride
+    confidence: 0.1136
+  - scientific: Epinephelus itajara
+    confidence: 0.1074
+species:
+- scientific: Thalassoma bifasciatum
+  role: primary
+  confidence: 0.12
+  identified_by: bioclip

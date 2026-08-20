@@ -15,3 +15,20 @@ variants:
 date_reviewed: true
 extra_variants:
 - hue-shift
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156743.297475
+  top:
+  - scientific: Chromis multilineata
+    confidence: 0.4833
+  - scientific: Thalassoma bifasciatum
+    confidence: 0.3821
+  - scientific: Chromis cyanea
+    confidence: 0.0632
+species:
+- scientific: Chromis multilineata
+  role: primary
+  confidence: 0.4833
+  identified_by: bioclip

@@ -13,3 +13,20 @@ variants:
   file: af9e6e9611cb4f79.dive-plus.webp
   import_original_name: be468caa9b8cc097.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159993.2985003
+  top:
+  - scientific: Caretta caretta
+    confidence: 0.5811
+  - scientific: Chelonia mydas
+    confidence: 0.3807
+  - scientific: Abudefduf saxatilis
+    confidence: 0.0091
+species:
+- scientific: Caretta caretta
+  role: primary
+  confidence: 0.5811
+  identified_by: bioclip

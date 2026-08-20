@@ -10,3 +10,20 @@ variants:
   file: 4c7c6823f213e42f.dive-plus.webp
   import_original_name: 11afb51a05ffa5fd.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157280.8200336
+  top:
+  - scientific: Echeneis naucrates
+    confidence: 0.1853
+  - scientific: Heteroconger longissimus
+    confidence: 0.0834
+  - scientific: Synodus intermedius
+    confidence: 0.0693
+species:
+- scientific: Echeneis naucrates
+  role: primary
+  confidence: 0.1853
+  identified_by: bioclip

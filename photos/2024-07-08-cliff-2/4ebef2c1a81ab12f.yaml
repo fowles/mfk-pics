@@ -10,3 +10,20 @@ lon: -68.2903018
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159376.6079826
+  top:
+  - scientific: Acanthostracion quadricornis
+    confidence: 0.7076
+  - scientific: Sparisoma aurofrenatum
+    confidence: 0.1781
+  - scientific: Sphoeroides spengleri
+    confidence: 0.0233
+species:
+- scientific: Acanthostracion quadricornis
+  role: primary
+  confidence: 0.7076
+  identified_by: bioclip

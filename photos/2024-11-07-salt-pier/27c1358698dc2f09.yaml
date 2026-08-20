@@ -10,3 +10,20 @@ variants:
   file: 27c1358698dc2f09.dive-plus.webp
   import_original_name: 3f4333f6c0d975ff.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156336.0616283
+  top:
+  - scientific: Sepioteuthis sepioidea
+    confidence: 0.2776
+  - scientific: Haemulon macrostomum
+    confidence: 0.0895
+  - scientific: Thalassoma bifasciatum
+    confidence: 0.0754
+species:
+- scientific: Sepioteuthis sepioidea
+  role: primary
+  confidence: 0.2776
+  identified_by: bioclip

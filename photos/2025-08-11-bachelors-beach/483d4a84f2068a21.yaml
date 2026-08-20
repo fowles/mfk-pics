@@ -13,3 +13,20 @@ variants:
   file: 483d4a84f2068a21.dive-plus.webp
   import_original_name: 97fa6cd1df742e30.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157882.9210339
+  top:
+  - scientific: Hypoplectrus puella
+    confidence: 0.5261
+  - scientific: Hypoplectrus indigo
+    confidence: 0.4681
+  - scientific: Hypoplectrus unicolor
+    confidence: 0.0023
+species:
+- scientific: Hypoplectrus puella
+  role: primary
+  confidence: 0.5261
+  identified_by: bioclip

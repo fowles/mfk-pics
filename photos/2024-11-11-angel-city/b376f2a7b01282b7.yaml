@@ -13,3 +13,20 @@ variants:
   file: b376f2a7b01282b7.dive-plus.webp
   import_original_name: 52f8baf1c4aa85e3.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156744.3168163
+  top:
+  - scientific: Lutjanus jocu
+    confidence: 0.4071
+  - scientific: Epinephelus striatus
+    confidence: 0.0842
+  - scientific: Lutjanus mahogoni
+    confidence: 0.0828
+species:
+- scientific: Lutjanus jocu
+  role: primary
+  confidence: 0.4071
+  identified_by: bioclip

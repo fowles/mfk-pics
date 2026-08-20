@@ -13,3 +13,20 @@ variants:
   file: 15212ce21ed9877c.dive-plus.webp
   import_original_name: 83ef907716ba7e53.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159066.0978398
+  top:
+  - scientific: Gymnothorax funebris
+    confidence: 0.5296
+  - scientific: Melichthys niger
+    confidence: 0.1065
+  - scientific: Sepioteuthis sepioidea
+    confidence: 0.0395
+species:
+- scientific: Gymnothorax funebris
+  role: primary
+  confidence: 0.5296
+  identified_by: bioclip

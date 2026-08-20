@@ -10,3 +10,20 @@ lon: -68.2854452
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159057.0794265
+  top:
+  - scientific: Lutjanus jocu
+    confidence: 0.319
+  - scientific: Caranx latus
+    confidence: 0.1585
+  - scientific: Kyphosus sectatrix
+    confidence: 0.1347
+species:
+- scientific: Lutjanus jocu
+  role: primary
+  confidence: 0.319
+  identified_by: bioclip

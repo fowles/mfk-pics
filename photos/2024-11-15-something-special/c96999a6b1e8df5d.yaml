@@ -13,3 +13,20 @@ variants:
   file: c96999a6b1e8df5d.dive-plus.webp
   import_original_name: 500c2c963b0cef21.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157216.2873402
+  top:
+  - scientific: Octopus briareus
+    confidence: 0.8507
+  - scientific: Cephalopholis cruentata
+    confidence: 0.068
+  - scientific: Diodon hystrix
+    confidence: 0.0246
+species:
+- scientific: Octopus briareus
+  role: primary
+  confidence: 0.8507
+  identified_by: bioclip

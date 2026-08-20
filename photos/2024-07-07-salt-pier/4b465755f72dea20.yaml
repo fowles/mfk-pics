@@ -13,3 +13,20 @@ variants:
   file: 4b465755f72dea20.dive-plus.webp
   import_original_name: 5b62a208c877e947.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159989.2438364
+  top:
+  - scientific: Xyrichtys martinicensis
+    confidence: 0.3639
+  - scientific: Scarus coeruleus
+    confidence: 0.3148
+  - scientific: Opistognathus aurifrons
+    confidence: 0.1367
+species:
+- scientific: Xyrichtys martinicensis
+  role: primary
+  confidence: 0.3639
+  identified_by: bioclip

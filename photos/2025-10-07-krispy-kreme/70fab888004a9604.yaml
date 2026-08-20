@@ -9,3 +9,20 @@ lat: 25.5543
 lon: -79.2886
 gps_source: dive_site
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159798.1426249
+  top:
+  - scientific: Sepioteuthis sepioidea
+    confidence: 0.7764
+  - scientific: Octopus briareus
+    confidence: 0.1604
+  - scientific: Diodon holocanthus
+    confidence: 0.0287
+species:
+- scientific: Sepioteuthis sepioidea
+  role: primary
+  confidence: 0.7764
+  identified_by: bioclip

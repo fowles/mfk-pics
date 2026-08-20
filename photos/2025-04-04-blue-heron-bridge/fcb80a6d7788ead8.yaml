@@ -13,3 +13,20 @@ variants:
   file: fcb80a6d7788ead8.dive-plus.webp
   import_original_name: 58079dcf916efe4e.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157493.201249
+  top:
+  - scientific: Scorpaena plumieri
+    confidence: 0.6763
+  - scientific: Dactylopterus volitans
+    confidence: 0.1893
+  - scientific: Panulirus guttatus
+    confidence: 0.0629
+species:
+- scientific: Scorpaena plumieri
+  role: primary
+  confidence: 0.6763
+  identified_by: bioclip

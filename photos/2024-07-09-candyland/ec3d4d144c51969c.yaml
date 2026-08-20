@@ -10,3 +10,20 @@ variants:
   file: ec3d4d144c51969c.dive-plus.webp
   import_original_name: f45980e0d36deb5d.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159171.5349462
+  top:
+  - scientific: Gymnothorax funebris
+    confidence: 0.462
+  - scientific: Epinephelus itajara
+    confidence: 0.3418
+  - scientific: Mycteroperca venenosa
+    confidence: 0.0626
+species:
+- scientific: Gymnothorax funebris
+  role: primary
+  confidence: 0.462
+  identified_by: bioclip

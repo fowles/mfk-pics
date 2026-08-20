@@ -11,3 +11,18 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 rotation_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157580.5841947
+  top:
+  - scientific: Holothuria mexicana
+    confidence: 0.0471
+  - scientific: Cephalopholis fulva
+    confidence: 0.0052
+  - scientific: Eucidaris tribuloides
+    confidence: 0.0016
+  absorbed_by:
+    scientific: Aplysina fistularis
+    confidence: 0.3526

@@ -10,3 +10,20 @@ lon: -68.2678076
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158330.7922757
+  top:
+  - scientific: Sparisoma viride
+    confidence: 0.6185
+  - scientific: Scarus guacamaia
+    confidence: 0.2893
+  - scientific: Mycteroperca tigris
+    confidence: 0.0379
+species:
+- scientific: Sparisoma viride
+  role: primary
+  confidence: 0.6185
+  identified_by: bioclip

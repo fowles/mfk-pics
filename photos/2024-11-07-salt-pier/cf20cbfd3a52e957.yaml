@@ -10,3 +10,20 @@ lon: -68.28180019999999
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156316.8697162
+  top:
+  - scientific: Melichthys niger
+    confidence: 0.6429
+  - scientific: Sepioteuthis sepioidea
+    confidence: 0.1965
+  - scientific: Enchelycore carychroa
+    confidence: 0.026
+species:
+- scientific: Melichthys niger
+  role: primary
+  confidence: 0.6429
+  identified_by: bioclip

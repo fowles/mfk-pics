@@ -13,3 +13,20 @@ variants:
   file: f7887ce50b6e8a34.dive-plus.webp
   import_original_name: be77261a5b57cf69.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156744.9964876
+  top:
+  - scientific: Epinephelus striatus
+    confidence: 0.5111
+  - scientific: Sparisoma viride
+    confidence: 0.2077
+  - scientific: Sepioteuthis sepioidea
+    confidence: 0.1104
+species:
+- scientific: Epinephelus striatus
+  role: primary
+  confidence: 0.5111
+  identified_by: bioclip

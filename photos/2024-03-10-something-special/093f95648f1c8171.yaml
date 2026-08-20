@@ -10,3 +10,20 @@ variants:
   file: 093f95648f1c8171.dive-plus.webp
   import_original_name: 6a56cb15d9618c51.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159065.5217273
+  top:
+  - scientific: Opistognathus aurifrons
+    confidence: 0.9381
+  - scientific: Gramma loreto
+    confidence: 0.0539
+  - scientific: Microspathodon chrysurus
+    confidence: 0.0023
+species:
+- scientific: Opistognathus aurifrons
+  role: primary
+  confidence: 0.9381
+  identified_by: bioclip

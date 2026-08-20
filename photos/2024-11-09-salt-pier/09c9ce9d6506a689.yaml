@@ -13,3 +13,20 @@ variants:
   file: 09c9ce9d6506a689.dive-plus.webp
   import_original_name: ddf0a07b00241843.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156584.0592222
+  top:
+  - scientific: Haemulon sciurus
+    confidence: 0.8134
+  - scientific: Haemulon macrostomum
+    confidence: 0.0763
+  - scientific: Ocyurus chrysurus
+    confidence: 0.0139
+species:
+- scientific: Haemulon sciurus
+  role: primary
+  confidence: 0.8134
+  identified_by: bioclip

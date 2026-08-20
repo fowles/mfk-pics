@@ -13,3 +13,20 @@ variants:
   file: a8c8a93dc4067812.dive-plus.webp
   import_original_name: e2ec512117ebd9ca.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786071915.9156764
+  top:
+  - scientific: Dactylopterus volitans
+    confidence: 0.4009
+  - scientific: Thalassoma bifasciatum
+    confidence: 0.2585
+  - scientific: Elacatinus genie
+    confidence: 0.0555
+species:
+- scientific: Dactylopterus volitans
+  role: primary
+  confidence: 0.4009
+  identified_by: bioclip

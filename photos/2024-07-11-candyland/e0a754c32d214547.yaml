@@ -10,3 +10,20 @@ lon: -68.40111449999999
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159268.7613294
+  top:
+  - scientific: Hypoplectrus nigricans
+    confidence: 0.6427
+  - scientific: Melichthys niger
+    confidence: 0.203
+  - scientific: Sepioteuthis sepioidea
+    confidence: 0.0457
+species:
+- scientific: Hypoplectrus nigricans
+  role: primary
+  confidence: 0.6427
+  identified_by: bioclip

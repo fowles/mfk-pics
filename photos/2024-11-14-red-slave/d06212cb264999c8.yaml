@@ -10,3 +10,20 @@ variants:
   file: d06212cb264999c8.dive-plus.webp
   import_original_name: 26d4c6723078c003.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156978.3662133
+  top:
+  - scientific: Hypanus americanus
+    confidence: 0.9835
+  - scientific: Kyphosus sectatrix
+    confidence: 0.0072
+  - scientific: Ocyurus chrysurus
+    confidence: 0.0022
+species:
+- scientific: Hypanus americanus
+  role: primary
+  confidence: 0.9835
+  identified_by: bioclip

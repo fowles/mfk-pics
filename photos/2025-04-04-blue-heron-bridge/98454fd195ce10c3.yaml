@@ -13,3 +13,20 @@ variants:
   file: 98454fd195ce10c3.dive-plus.webp
   import_original_name: 444a78aabdd9a1c0.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157491.9960246
+  top:
+  - scientific: Sphoeroides spengleri
+    confidence: 0.933
+  - scientific: Chilomycterus schoepfii
+    confidence: 0.0255
+  - scientific: Acanthostracion polygonius
+    confidence: 0.0136
+species:
+- scientific: Sphoeroides spengleri
+  role: primary
+  confidence: 0.933
+  identified_by: bioclip

@@ -13,3 +13,18 @@ variants:
   file: 68c760358089b3c4.dive-plus.webp
   import_original_name: 36e6d7052f3a5118.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159066.3283775
+  top:
+  - scientific: Gymnothorax moringa
+    confidence: 0.1502
+  - scientific: Mycteroperca tigris
+    confidence: 0.1393
+  - scientific: Equetus punctatus
+    confidence: 0.1073
+  absorbed_by:
+    scientific: Montastraea cavernosa
+    confidence: 0.2023

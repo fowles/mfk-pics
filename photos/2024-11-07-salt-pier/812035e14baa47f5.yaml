@@ -11,3 +11,20 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 rotation_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156326.0933995
+  top:
+  - scientific: Lutjanus apodus
+    confidence: 0.346
+  - scientific: Anisotremus virginicus
+    confidence: 0.1989
+  - scientific: Lutjanus jocu
+    confidence: 0.1196
+species:
+- scientific: Lutjanus apodus
+  role: primary
+  confidence: 0.346
+  identified_by: bioclip

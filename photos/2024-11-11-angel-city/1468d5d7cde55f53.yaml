@@ -13,3 +13,20 @@ variants:
   file: 1468d5d7cde55f53.dive-plus.webp
   import_original_name: 9c607068accb39df.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156744.8271658
+  top:
+  - scientific: Aulostomus maculatus
+    confidence: 0.482
+  - scientific: Haemulon macrostomum
+    confidence: 0.1456
+  - scientific: Sphoeroides spengleri
+    confidence: 0.1202
+species:
+- scientific: Aulostomus maculatus
+  role: primary
+  confidence: 0.482
+  identified_by: bioclip

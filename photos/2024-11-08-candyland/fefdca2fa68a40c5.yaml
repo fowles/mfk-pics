@@ -10,3 +10,20 @@ lon: -68.40111449999999
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156490.4136095
+  top:
+  - scientific: Hypoplectrus unicolor
+    confidence: 0.3049
+  - scientific: Kyphosus sectatrix
+    confidence: 0.3001
+  - scientific: Ocyurus chrysurus
+    confidence: 0.0981
+species:
+- scientific: Hypoplectrus unicolor
+  role: primary
+  confidence: 0.3049
+  identified_by: bioclip

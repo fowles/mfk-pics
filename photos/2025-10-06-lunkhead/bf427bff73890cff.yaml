@@ -10,3 +10,20 @@ lon: -79.2431
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159782.84737
+  top:
+  - scientific: Chaetodon sedentarius
+    confidence: 0.652
+  - scientific: Chaetodon striatus
+    confidence: 0.0958
+  - scientific: Holocentrus adscensionis
+    confidence: 0.0886
+species:
+- scientific: Chaetodon sedentarius
+  role: primary
+  confidence: 0.652
+  identified_by: bioclip

@@ -13,3 +13,20 @@ variants:
   file: d5c0c82d00d083f3.dive-plus.webp
   import_original_name: ae53ca5d45004d54.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158741.7734475
+  top:
+  - scientific: Aulostomus maculatus
+    confidence: 0.7217
+  - scientific: Diadema antillarum
+    confidence: 0.0556
+  - scientific: Chaetodon striatus
+    confidence: 0.0425
+species:
+- scientific: Aulostomus maculatus
+  role: primary
+  confidence: 0.7217
+  identified_by: bioclip

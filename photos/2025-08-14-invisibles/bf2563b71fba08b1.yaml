@@ -11,3 +11,20 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 rotation_applied: 270
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1787175136.730112
+  top:
+  - scientific: Myrichthys breviceps
+    confidence: 0.9851
+  - scientific: Myrichthys ocellatus
+    confidence: 0.0069
+  - scientific: Synodus intermedius
+    confidence: 0.0029
+species:
+- scientific: Myrichthys breviceps
+  role: primary
+  confidence: 0.9851
+  identified_by: bioclip

@@ -13,3 +13,20 @@ variants:
   file: be70cc777857c10d.dive-plus.webp
   import_original_name: 78c415645b74544c.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159191.6289628
+  top:
+  - scientific: Chaetodon ocellatus
+    confidence: 0.7304
+  - scientific: Chaetodon capistratus
+    confidence: 0.0852
+  - scientific: Lactophrys triqueter
+    confidence: 0.0403
+species:
+- scientific: Chaetodon ocellatus
+  role: primary
+  confidence: 0.7304
+  identified_by: bioclip

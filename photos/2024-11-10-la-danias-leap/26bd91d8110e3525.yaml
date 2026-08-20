@@ -10,3 +10,20 @@ lon: -68.34805419999999
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156686.5730395
+  top:
+  - scientific: Thalassoma bifasciatum
+    confidence: 0.8955
+  - scientific: Pomacanthus paru
+    confidence: 0.0236
+  - scientific: Chaetodon striatus
+    confidence: 0.0189
+species:
+- scientific: Thalassoma bifasciatum
+  role: primary
+  confidence: 0.8955
+  identified_by: bioclip

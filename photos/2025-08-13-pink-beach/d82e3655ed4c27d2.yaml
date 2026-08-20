@@ -13,3 +13,20 @@ variants:
   file: d82e3655ed4c27d2.dive-plus.webp
   import_original_name: 72b44ea313ae317c.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158189.2710383
+  top:
+  - scientific: Xyrichtys martinicensis
+    confidence: 0.4096
+  - scientific: Dactylopterus volitans
+    confidence: 0.1919
+  - scientific: Xyrichtys splendens
+    confidence: 0.1678
+species:
+- scientific: Xyrichtys martinicensis
+  role: primary
+  confidence: 0.4096
+  identified_by: bioclip

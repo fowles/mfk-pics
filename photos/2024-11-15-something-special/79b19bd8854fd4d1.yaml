@@ -13,3 +13,20 @@ variants:
   file: 79b19bd8854fd4d1.dive-plus.webp
   import_original_name: 34cc28b8b2fc25b5.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157216.227096
+  top:
+  - scientific: Cephalopholis cruentata
+    confidence: 0.9602
+  - scientific: Panulirus guttatus
+    confidence: 0.0089
+  - scientific: Periclimenes yucatanicus
+    confidence: 0.0063
+species:
+- scientific: Cephalopholis cruentata
+  role: primary
+  confidence: 0.9602
+  identified_by: bioclip

@@ -10,3 +10,20 @@ lon: -68.40111449999999
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159271.5121293
+  top:
+  - scientific: Holocentrus adscensionis
+    confidence: 0.5174
+  - scientific: Sepioteuthis sepioidea
+    confidence: 0.1286
+  - scientific: Myripristis jacobus
+    confidence: 0.0523
+species:
+- scientific: Holocentrus adscensionis
+  role: primary
+  confidence: 0.5174
+  identified_by: bioclip

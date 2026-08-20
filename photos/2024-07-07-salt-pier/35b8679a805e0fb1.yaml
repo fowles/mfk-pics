@@ -15,3 +15,20 @@ variants:
 date_reviewed: true
 extra_variants:
 - dive-plus
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159982.583125
+  top:
+  - scientific: Gymnothorax funebris
+    confidence: 0.6005
+  - scientific: Sphoeroides spengleri
+    confidence: 0.0648
+  - scientific: Gymnothorax vicinus
+    confidence: 0.0586
+species:
+- scientific: Gymnothorax funebris
+  role: primary
+  confidence: 0.6005
+  identified_by: bioclip

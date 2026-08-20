@@ -10,3 +10,20 @@ variants:
   file: 82861ca5ab8d91ec.dive-plus.webp
   import_original_name: 10a28682a95f8851.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156578.358515
+  top:
+  - scientific: Acanthostracion polygonius
+    confidence: 0.34
+  - scientific: Diodon hystrix
+    confidence: 0.2579
+  - scientific: Gymnothorax moringa
+    confidence: 0.1542
+species:
+- scientific: Acanthostracion polygonius
+  role: primary
+  confidence: 0.34
+  identified_by: bioclip

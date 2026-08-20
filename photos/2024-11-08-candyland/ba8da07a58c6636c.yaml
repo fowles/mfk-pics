@@ -10,3 +10,20 @@ lon: -68.40111449999999
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156490.1896558
+  top:
+  - scientific: Chaetodon capistratus
+    confidence: 0.2655
+  - scientific: Pomacanthus paru
+    confidence: 0.1677
+  - scientific: Sepioteuthis sepioidea
+    confidence: 0.12
+species:
+- scientific: Chaetodon capistratus
+  role: primary
+  confidence: 0.2655
+  identified_by: bioclip

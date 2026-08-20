@@ -13,3 +13,18 @@ variants:
   file: 38f596a24c52b1bf.dive-plus.webp
   import_original_name: 98cadb9da99849e2.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158874.6799214
+  top:
+  - scientific: Haemulon macrostomum
+    confidence: 0.0337
+  - scientific: Aulostomus maculatus
+    confidence: 0.0297
+  - scientific: Thalassoma bifasciatum
+    confidence: 0.0206
+  absorbed_by:
+    scientific: Briareum asbestinum
+    confidence: 0.7485

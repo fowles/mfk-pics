@@ -13,3 +13,20 @@ variants:
   file: 2f067900b7dbc43d.dive-plus.webp
   import_original_name: 43bfae3666f33e68.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159178.6906216
+  top:
+  - scientific: Melichthys niger
+    confidence: 0.3656
+  - scientific: Hypoplectrus indigo
+    confidence: 0.3406
+  - scientific: Chromis cyanea
+    confidence: 0.0846
+species:
+- scientific: Melichthys niger
+  role: primary
+  confidence: 0.3656
+  identified_by: bioclip

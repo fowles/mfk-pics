@@ -13,3 +13,20 @@ variants:
   file: efe5b9a39eb7b9ae.dive-plus.webp
   import_original_name: 5fb45cd984105e91.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157493.5054
+  top:
+  - scientific: Cassiopea xamachana
+    confidence: 0.5036
+  - scientific: Dactylopterus volitans
+    confidence: 0.1953
+  - scientific: Bothus lunatus
+    confidence: 0.1174
+species:
+- scientific: Cassiopea xamachana
+  role: primary
+  confidence: 0.5036
+  identified_by: bioclip

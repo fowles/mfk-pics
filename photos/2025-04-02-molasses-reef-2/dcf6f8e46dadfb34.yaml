@@ -9,3 +9,20 @@ lat: 25.0151854
 lon: -80.3785098
 gps_source: manual
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157279.784261
+  top:
+  - scientific: Aulostomus maculatus
+    confidence: 0.2074
+  - scientific: Sepioteuthis sepioidea
+    confidence: 0.1169
+  - scientific: Haemulon flavolineatum
+    confidence: 0.1103
+species:
+- scientific: Aulostomus maculatus
+  role: primary
+  confidence: 0.2074
+  identified_by: bioclip

@@ -13,3 +13,20 @@ variants:
   file: 37d4cd57488cfcfd.dive-plus.webp
   import_original_name: 011b3e85649dde03.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159065.5214212
+  top:
+  - scientific: Gymnothorax funebris
+    confidence: 0.1787
+  - scientific: Pareques acuminatus
+    confidence: 0.1162
+  - scientific: Balistes vetula
+    confidence: 0.1044
+species:
+- scientific: Gymnothorax funebris
+  role: primary
+  confidence: 0.1787
+  identified_by: bioclip

@@ -13,3 +13,20 @@ variants:
   file: afd3f562c7e3b48c.dive-plus.webp
   import_original_name: 17f39ba1afddf134.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156980.423954
+  top:
+  - scientific: Sphyraena barracuda
+    confidence: 0.9573
+  - scientific: Sepioteuthis sepioidea
+    confidence: 0.0338
+  - scientific: Scomberomorus regalis
+    confidence: 0.0041
+species:
+- scientific: Sphyraena barracuda
+  role: primary
+  confidence: 0.9573
+  identified_by: bioclip

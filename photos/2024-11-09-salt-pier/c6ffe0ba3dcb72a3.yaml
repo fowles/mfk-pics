@@ -10,3 +10,20 @@ variants:
   file: c6ffe0ba3dcb72a3.dive-plus.webp
   import_original_name: c79d95b41602ee73.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156578.37752
+  top:
+  - scientific: Acanthostracion polygonius
+    confidence: 0.9993
+  - scientific: Lactophrys triqueter
+    confidence: 0.0003
+  - scientific: Sepioteuthis sepioidea
+    confidence: 0.0003
+species:
+- scientific: Acanthostracion polygonius
+  role: primary
+  confidence: 0.9993
+  identified_by: bioclip

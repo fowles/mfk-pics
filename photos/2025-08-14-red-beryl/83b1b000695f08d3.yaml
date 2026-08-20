@@ -13,3 +13,20 @@ variants:
   file: 83b1b000695f08d3.dive-plus.webp
   import_original_name: 8f51081abb592dea.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158338.9084635
+  top:
+  - scientific: Hypoplectrus nigricans
+    confidence: 0.2217
+  - scientific: Melichthys niger
+    confidence: 0.1162
+  - scientific: Pomacanthus paru
+    confidence: 0.0851
+species:
+- scientific: Hypoplectrus nigricans
+  role: primary
+  confidence: 0.2217
+  identified_by: bioclip

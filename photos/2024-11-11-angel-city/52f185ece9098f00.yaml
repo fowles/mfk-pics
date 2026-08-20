@@ -13,3 +13,20 @@ variants:
   file: 52f185ece9098f00.dive-plus.webp
   import_original_name: ae6e5f5e8032515e.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156747.6292052
+  top:
+  - scientific: Ocyurus chrysurus
+    confidence: 0.9099
+  - scientific: Holocentrus rufus
+    confidence: 0.0235
+  - scientific: Haemulon chrysargyreum
+    confidence: 0.018
+species:
+- scientific: Ocyurus chrysurus
+  role: primary
+  confidence: 0.9099
+  identified_by: bioclip

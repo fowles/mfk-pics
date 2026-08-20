@@ -13,3 +13,18 @@ variants:
   file: 912ebe03158f61a6.dive-plus.webp
   import_original_name: 6db0a1b1159d7beb.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156981.60335
+  top:
+  - scientific: Gymnothorax funebris
+    confidence: 0.0507
+  - scientific: Myrichthys breviceps
+    confidence: 0.038
+  - scientific: Opistognathus aurifrons
+    confidence: 0.035
+  absorbed_by:
+    scientific: Xestospongia muta
+    confidence: 0.6439

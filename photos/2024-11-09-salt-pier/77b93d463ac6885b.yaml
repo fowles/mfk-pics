@@ -13,3 +13,20 @@ variants:
   file: 77b93d463ac6885b.dive-plus.webp
   import_original_name: 123eedd7edb8a1c8.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156579.2041342
+  top:
+  - scientific: Sepioteuthis sepioidea
+    confidence: 0.9226
+  - scientific: Octopus briareus
+    confidence: 0.0288
+  - scientific: Echeneis naucrates
+    confidence: 0.0102
+species:
+- scientific: Sepioteuthis sepioidea
+  role: primary
+  confidence: 0.9226
+  identified_by: bioclip

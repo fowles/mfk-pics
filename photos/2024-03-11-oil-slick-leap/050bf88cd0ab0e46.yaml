@@ -13,3 +13,20 @@ variants:
   file: 050bf88cd0ab0e46.dive-plus.webp
   import_original_name: e8ef1d07bcacef77.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158982.3184984
+  top:
+  - scientific: Diadema antillarum
+    confidence: 0.4425
+  - scientific: Aulostomus maculatus
+    confidence: 0.0603
+  - scientific: Astrophyton muricatum
+    confidence: 0.0281
+species:
+- scientific: Diadema antillarum
+  role: primary
+  confidence: 0.4425
+  identified_by: bioclip

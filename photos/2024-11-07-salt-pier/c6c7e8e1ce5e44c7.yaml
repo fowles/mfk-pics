@@ -13,3 +13,20 @@ variants:
   file: c6c7e8e1ce5e44c7.dive-plus.webp
   import_original_name: 69cb569043c4c21e.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156349.0976138
+  top:
+  - scientific: Haemulon chrysargyreum
+    confidence: 0.5198
+  - scientific: Gerres cinereus
+    confidence: 0.1577
+  - scientific: Haemulon macrostomum
+    confidence: 0.1346
+species:
+- scientific: Haemulon chrysargyreum
+  role: primary
+  confidence: 0.5198
+  identified_by: bioclip

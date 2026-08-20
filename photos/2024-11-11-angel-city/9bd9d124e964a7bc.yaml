@@ -13,3 +13,20 @@ variants:
   file: 9bd9d124e964a7bc.dive-plus.webp
   import_original_name: 1da930a791540906.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156743.7778902
+  top:
+  - scientific: Melichthys niger
+    confidence: 0.9705
+  - scientific: Scarus coelestinus
+    confidence: 0.0093
+  - scientific: Pomacanthus paru
+    confidence: 0.0029
+species:
+- scientific: Melichthys niger
+  role: primary
+  confidence: 0.9705
+  identified_by: bioclip

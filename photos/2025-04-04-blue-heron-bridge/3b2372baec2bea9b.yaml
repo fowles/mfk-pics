@@ -13,3 +13,20 @@ variants:
   file: 3b2372baec2bea9b.dive-plus.webp
   import_original_name: fcd19cf79fa72cd0.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157492.126238
+  top:
+  - scientific: Canthidermis sufflamen
+    confidence: 0.2238
+  - scientific: Diodon hystrix
+    confidence: 0.1883
+  - scientific: Megalops atlanticus
+    confidence: 0.1857
+species:
+- scientific: Canthidermis sufflamen
+  role: primary
+  confidence: 0.2238
+  identified_by: bioclip

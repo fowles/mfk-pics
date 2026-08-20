@@ -10,3 +10,20 @@ lon: -68.2806703
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786160159.6672966
+  top:
+  - scientific: Pomacanthus paru
+    confidence: 0.7974
+  - scientific: Scarus coelestinus
+    confidence: 0.1796
+  - scientific: Microspathodon chrysurus
+    confidence: 0.0073
+species:
+- scientific: Pomacanthus paru
+  role: primary
+  confidence: 0.7974
+  identified_by: bioclip

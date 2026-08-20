@@ -10,3 +10,18 @@ lon: -79.2431
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159793.244282
+  top:
+  - scientific: Pterois volitans
+    confidence: 0.1925
+  - scientific: Diadema antillarum
+    confidence: 0.1793
+  - scientific: Panulirus argus
+    confidence: 0.0902
+  absorbed_by:
+    scientific: Gorgonia ventalina
+    confidence: 0.3351

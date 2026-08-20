@@ -10,3 +10,18 @@ variants:
   file: 72b3a037ff614ae7.dive-plus.webp
   import_original_name: 9f9760f9bb51622e.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156577.964776
+  top:
+  - scientific: Aulostomus maculatus
+    confidence: 0.2449
+  - scientific: Stenorhynchus seticornis
+    confidence: 0.0395
+  - scientific: Enchelycore carychroa
+    confidence: 0.0176
+  absorbed_by:
+    scientific: Cirrhipathes leutkeni
+    confidence: 0.5973

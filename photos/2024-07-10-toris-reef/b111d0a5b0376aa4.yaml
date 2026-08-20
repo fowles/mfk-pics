@@ -10,3 +10,18 @@ lon: -68.2806703
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786160158.196014
+  top:
+  - scientific: Chromis multilineata
+    confidence: 0.0107
+  - scientific: Holocentrus adscensionis
+    confidence: 0.0025
+  - scientific: Thalassoma bifasciatum
+    confidence: 0.0014
+  absorbed_by:
+    scientific: Callyspongia plicifera
+    confidence: 0.9515

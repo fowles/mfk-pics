@@ -10,3 +10,20 @@ lon: -79.2431
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159789.5964935
+  top:
+  - scientific: Sepioteuthis sepioidea
+    confidence: 0.197
+  - scientific: Chaetodon ocellatus
+    confidence: 0.1031
+  - scientific: Prognathodes aculeatus
+    confidence: 0.0698
+species:
+- scientific: Sepioteuthis sepioidea
+  role: primary
+  confidence: 0.197
+  identified_by: bioclip

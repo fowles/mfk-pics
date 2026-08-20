@@ -13,3 +13,20 @@ variants:
   file: 3d28854a0a38b8c7.dive-plus.webp
   import_original_name: 9bb90686405781bd.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156901.507843
+  top:
+  - scientific: Opistognathus aurifrons
+    confidence: 0.3175
+  - scientific: Sepioteuthis sepioidea
+    confidence: 0.2937
+  - scientific: Sparisoma viride
+    confidence: 0.0809
+species:
+- scientific: Opistognathus aurifrons
+  role: primary
+  confidence: 0.3175
+  identified_by: bioclip

@@ -10,3 +10,20 @@ variants:
   file: 4605574ed108374d.dive-plus.webp
   import_original_name: e6f6330eac0d8133.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159176.4337556
+  top:
+  - scientific: Melichthys niger
+    confidence: 0.9063
+  - scientific: Scarus coelestinus
+    confidence: 0.0882
+  - scientific: Mycteroperca venenosa
+    confidence: 0.0012
+species:
+- scientific: Melichthys niger
+  role: primary
+  confidence: 0.9063
+  identified_by: bioclip

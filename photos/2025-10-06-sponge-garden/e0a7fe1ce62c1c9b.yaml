@@ -10,3 +10,18 @@ lon: -79.303
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159776.2930071
+  top:
+  - scientific: Lutjanus griseus
+    confidence: 0.2322
+  - scientific: Sepioteuthis sepioidea
+    confidence: 0.0961
+  - scientific: Chaetodon sedentarius
+    confidence: 0.0363
+  absorbed_by:
+    scientific: Montastraea cavernosa
+    confidence: 0.3211

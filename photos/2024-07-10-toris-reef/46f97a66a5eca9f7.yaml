@@ -13,3 +13,20 @@ variants:
   file: 46f97a66a5eca9f7.dive-plus.webp
   import_original_name: d33a16a28575560b.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786160200.8668895
+  top:
+  - scientific: Hypoplectrus puella
+    confidence: 0.5601
+  - scientific: Melichthys niger
+    confidence: 0.1004
+  - scientific: Sepioteuthis sepioidea
+    confidence: 0.0797
+species:
+- scientific: Hypoplectrus puella
+  role: primary
+  confidence: 0.5601
+  identified_by: bioclip

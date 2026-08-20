@@ -13,3 +13,20 @@ variants:
   file: fc5566d2f6172d55.dive-plus.webp
   import_original_name: 0a07ceac0d2c0530.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159196.5997548
+  top:
+  - scientific: Lutjanus mahogoni
+    confidence: 0.3209
+  - scientific: Haemulon macrostomum
+    confidence: 0.2803
+  - scientific: Haemulon carbonarium
+    confidence: 0.233
+species:
+- scientific: Lutjanus mahogoni
+  role: primary
+  confidence: 0.3209
+  identified_by: bioclip

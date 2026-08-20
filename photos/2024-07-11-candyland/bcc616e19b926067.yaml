@@ -10,3 +10,18 @@ variants:
   file: bcc616e19b926067.dive-plus.webp
   import_original_name: 84edb23a1c56bc4b.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159286.5430498
+  top:
+  - scientific: Pterois volitans
+    confidence: 0.2527
+  - scientific: Chromis multilineata
+    confidence: 0.1034
+  - scientific: Diadema antillarum
+    confidence: 0.0675
+  absorbed_by:
+    scientific: Sabellastarte magnifica
+    confidence: 0.3277

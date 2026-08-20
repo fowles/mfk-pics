@@ -13,3 +13,20 @@ variants:
   file: 65314c2c73fed5e3.dive-plus.webp
   import_original_name: 55f1b7fb6d84947e.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156982.0360317
+  top:
+  - scientific: Acanthostracion polygonius
+    confidence: 0.3934
+  - scientific: Sphoeroides spengleri
+    confidence: 0.2394
+  - scientific: Heteroconger longissimus
+    confidence: 0.1201
+species:
+- scientific: Acanthostracion polygonius
+  role: primary
+  confidence: 0.3934
+  identified_by: bioclip

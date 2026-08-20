@@ -10,3 +10,20 @@ lon: -68.28015169999999
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786071952.3171542
+  top:
+  - scientific: Scorpaena plumieri
+    confidence: 0.4649
+  - scientific: Diadema antillarum
+    confidence: 0.2579
+  - scientific: Myrichthys breviceps
+    confidence: 0.1447
+species:
+- scientific: Scorpaena plumieri
+  role: primary
+  confidence: 0.4649
+  identified_by: bioclip

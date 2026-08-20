@@ -10,3 +10,20 @@ lon: -68.2854452
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159049.164549
+  top:
+  - scientific: Aliger gigas
+    confidence: 0.3423
+  - scientific: Octopus briareus
+    confidence: 0.0797
+  - scientific: Ocyurus chrysurus
+    confidence: 0.0756
+species:
+- scientific: Aliger gigas
+  role: primary
+  confidence: 0.3423
+  identified_by: bioclip

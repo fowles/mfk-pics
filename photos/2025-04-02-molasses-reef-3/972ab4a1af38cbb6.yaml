@@ -13,3 +13,20 @@ variants:
   file: 972ab4a1af38cbb6.dive-plus.webp
   import_original_name: 5ef2d984b1a5247f.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157282.4579165
+  top:
+  - scientific: Hypanus americanus
+    confidence: 0.9971
+  - scientific: Aetobatus narinari
+    confidence: 0.0029
+  - scientific: Acanthurus coeruleus
+    confidence: 0.0
+species:
+- scientific: Hypanus americanus
+  role: primary
+  confidence: 0.9971
+  identified_by: bioclip

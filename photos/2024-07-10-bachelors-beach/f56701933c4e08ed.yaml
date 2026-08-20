@@ -13,3 +13,18 @@ variants:
   file: f56701933c4e08ed.dive-plus.webp
   import_original_name: cab0332625b7ff25.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158732.7145364
+  top:
+  - scientific: Aulostomus maculatus
+    confidence: 0.0015
+  - scientific: Sepioteuthis sepioidea
+    confidence: 0.0013
+  - scientific: Holothuria mexicana
+    confidence: 0.0005
+  absorbed_by:
+    scientific: Cirrhipathes leutkeni
+    confidence: 0.759

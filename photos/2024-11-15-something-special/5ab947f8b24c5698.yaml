@@ -13,3 +13,20 @@ variants:
   file: 5ab947f8b24c5698.dive-plus.webp
   import_original_name: e23bb87df869e9d0.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157213.6098416
+  top:
+  - scientific: Pempheris schomburgkii
+    confidence: 0.9692
+  - scientific: Lactophrys triqueter
+    confidence: 0.0085
+  - scientific: Gymnothorax miliaris
+    confidence: 0.0044
+species:
+- scientific: Pempheris schomburgkii
+  role: primary
+  confidence: 0.9692
+  identified_by: bioclip

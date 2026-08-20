@@ -10,3 +10,20 @@ variants:
   file: 0f413872b29b0630.dive-plus.webp
   import_original_name: d63a9a47d457d0d7.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158337.280986
+  top:
+  - scientific: Amblycirrhitus pinos
+    confidence: 0.6986
+  - scientific: Abudefduf saxatilis
+    confidence: 0.059
+  - scientific: Myripristis jacobus
+    confidence: 0.0527
+species:
+- scientific: Amblycirrhitus pinos
+  role: primary
+  confidence: 0.6986
+  identified_by: bioclip

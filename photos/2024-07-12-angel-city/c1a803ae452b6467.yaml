@@ -13,3 +13,20 @@ variants:
   file: c1a803ae452b6467.dive-plus.webp
   import_original_name: c1607126fe423a78.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158512.127643
+  top:
+  - scientific: Hypoplectrus indigo
+    confidence: 0.2913
+  - scientific: Thalassoma bifasciatum
+    confidence: 0.2864
+  - scientific: Serranus tortugarum
+    confidence: 0.1065
+species:
+- scientific: Hypoplectrus indigo
+  role: primary
+  confidence: 0.2913
+  identified_by: bioclip

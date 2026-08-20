@@ -10,3 +10,20 @@ variants:
   file: f2cfa38b3cfa3f4b.dive-plus.webp
   import_original_name: 3cb0eef7664637ae.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158186.9450738
+  top:
+  - scientific: Opistognathus aurifrons
+    confidence: 0.5042
+  - scientific: Cephalopholis fulva
+    confidence: 0.1229
+  - scientific: Bodianus pulchellus
+    confidence: 0.0921
+species:
+- scientific: Opistognathus aurifrons
+  role: primary
+  confidence: 0.5042
+  identified_by: bioclip

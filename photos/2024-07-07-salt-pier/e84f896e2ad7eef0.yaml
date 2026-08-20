@@ -13,3 +13,20 @@ variants:
   file: e84f896e2ad7eef0.dive-plus.webp
   import_original_name: 6935c4599f05dade.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159990.1457078
+  top:
+  - scientific: Acanthostracion polygonius
+    confidence: 0.9125
+  - scientific: Lactophrys triqueter
+    confidence: 0.016
+  - scientific: Myrichthys breviceps
+    confidence: 0.0136
+species:
+- scientific: Acanthostracion polygonius
+  role: primary
+  confidence: 0.9125
+  identified_by: bioclip

@@ -13,3 +13,20 @@ variants:
   file: 18cffe1222276b53.dive-plus.webp
   import_original_name: 3efb49e803ca1012.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786071915.7393854
+  top:
+  - scientific: Caranx ruber
+    confidence: 0.8695
+  - scientific: Carangoides bartholomaei
+    confidence: 0.1235
+  - scientific: Acanthurus coeruleus
+    confidence: 0.005
+species:
+- scientific: Caranx ruber
+  role: primary
+  confidence: 0.8695
+  identified_by: bioclip

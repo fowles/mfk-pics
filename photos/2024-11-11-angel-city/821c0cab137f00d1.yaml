@@ -13,3 +13,20 @@ variants:
   file: 821c0cab137f00d1.dive-plus.webp
   import_original_name: ec875de0f772437b.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156742.5192492
+  top:
+  - scientific: Scarus coelestinus
+    confidence: 0.989
+  - scientific: Melichthys niger
+    confidence: 0.0075
+  - scientific: Sparisoma viride
+    confidence: 0.0017
+species:
+- scientific: Scarus coelestinus
+  role: primary
+  confidence: 0.989
+  identified_by: bioclip

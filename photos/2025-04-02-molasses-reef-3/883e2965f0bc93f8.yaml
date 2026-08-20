@@ -13,3 +13,20 @@ variants:
   file: 883e2965f0bc93f8.dive-plus.webp
   import_original_name: 9b3700b013eae694.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157282.7087111
+  top:
+  - scientific: Hypanus americanus
+    confidence: 0.9999
+  - scientific: Aetobatus narinari
+    confidence: 0.0
+  - scientific: Urobatis jamaicensis
+    confidence: 0.0
+species:
+- scientific: Hypanus americanus
+  role: primary
+  confidence: 0.9999
+  identified_by: bioclip

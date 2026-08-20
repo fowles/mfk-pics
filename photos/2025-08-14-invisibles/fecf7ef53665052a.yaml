@@ -10,3 +10,20 @@ variants:
   file: fecf7ef53665052a.dive-plus.webp
   import_original_name: e184c61d545979f8.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158236.2649662
+  top:
+  - scientific: Gymnothorax moringa
+    confidence: 0.9711
+  - scientific: Diodon hystrix
+    confidence: 0.0187
+  - scientific: Diodon holocanthus
+    confidence: 0.0023
+species:
+- scientific: Gymnothorax moringa
+  role: primary
+  confidence: 0.9711
+  identified_by: bioclip

@@ -14,3 +14,18 @@ variants:
   import_original_name: 23eceaf4aa49a887.webp
 date_reviewed: true
 rotation_applied: 90
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1787030956.9575787
+  top:
+  - scientific: Aulostomus maculatus
+    confidence: 0.0284
+  - scientific: Hypoplectrus nigricans
+    confidence: 0.0006
+  - scientific: Pomacanthus paru
+    confidence: 0.0005
+  absorbed_by:
+    scientific: Antillogorgia americana
+    confidence: 0.8796

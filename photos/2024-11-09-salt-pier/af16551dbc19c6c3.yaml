@@ -10,3 +10,20 @@ variants:
   file: af16551dbc19c6c3.dive-plus.webp
   import_original_name: fd4ab2b60125d375.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156575.4028108
+  top:
+  - scientific: Elacatinus genie
+    confidence: 0.3431
+  - scientific: Canthidermis sufflamen
+    confidence: 0.114
+  - scientific: Sphoeroides spengleri
+    confidence: 0.0853
+species:
+- scientific: Elacatinus genie
+  role: primary
+  confidence: 0.3431
+  identified_by: bioclip

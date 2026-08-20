@@ -13,3 +13,20 @@ variants:
   file: d67e7dcc854008bc.dive-plus.webp
   import_original_name: eb0f882093fdf4ea.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157881.9663336
+  top:
+  - scientific: Caranx ruber
+    confidence: 0.9206
+  - scientific: Chromis cyanea
+    confidence: 0.0349
+  - scientific: Thalassoma bifasciatum
+    confidence: 0.0208
+species:
+- scientific: Caranx ruber
+  role: primary
+  confidence: 0.9206
+  identified_by: bioclip

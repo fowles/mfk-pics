@@ -13,3 +13,20 @@ variants:
   file: 824b5273466e643c.dive-plus.webp
   import_original_name: 00091f4f3de1b55e.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156900.2749324
+  top:
+  - scientific: Sepioteuthis sepioidea
+    confidence: 0.5185
+  - scientific: Aliger gigas
+    confidence: 0.1005
+  - scientific: Sparisoma aurofrenatum
+    confidence: 0.0649
+species:
+- scientific: Sepioteuthis sepioidea
+  role: primary
+  confidence: 0.5185
+  identified_by: bioclip

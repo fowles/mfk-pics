@@ -13,3 +13,20 @@ variants:
   file: cbdf2ae7c75d831d.dive-plus.webp
   import_original_name: b746218228cd0613.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157056.8018277
+  top:
+  - scientific: Scorpaena plumieri
+    confidence: 0.9931
+  - scientific: Dactylopterus volitans
+    confidence: 0.0044
+  - scientific: Ogcocephalus radiatus
+    confidence: 0.0017
+species:
+- scientific: Scorpaena plumieri
+  role: primary
+  confidence: 0.9931
+  identified_by: bioclip

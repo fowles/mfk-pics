@@ -13,3 +13,20 @@ variants:
   file: d519135efcbf2524.dive-plus.webp
   import_original_name: 9b59c9d1e3bd71c0.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786071914.4273434
+  top:
+  - scientific: Lactophrys triqueter
+    confidence: 0.9961
+  - scientific: Lactophrys bicaudalis
+    confidence: 0.0034
+  - scientific: Acanthostracion polygonius
+    confidence: 0.0002
+species:
+- scientific: Lactophrys triqueter
+  role: primary
+  confidence: 0.9961
+  identified_by: bioclip

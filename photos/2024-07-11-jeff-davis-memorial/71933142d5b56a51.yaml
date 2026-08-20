@@ -13,3 +13,20 @@ variants:
   file: 71933142d5b56a51.dive-plus.webp
   import_original_name: d79bfa6776ce1e4d.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159585.4119642
+  top:
+  - scientific: Scarus coelestinus
+    confidence: 0.2714
+  - scientific: Microspathodon chrysurus
+    confidence: 0.2285
+  - scientific: Gymnothorax miliaris
+    confidence: 0.1017
+species:
+- scientific: Scarus coelestinus
+  role: primary
+  confidence: 0.2714
+  identified_by: bioclip

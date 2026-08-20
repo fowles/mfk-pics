@@ -13,3 +13,18 @@ variants:
   file: 73b95347ba8f7218.dive-plus.webp
   import_original_name: 6686429864a596e5.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159066.5644236
+  top:
+  - scientific: Cephalopholis fulva
+    confidence: 0.0338
+  - scientific: Acanthostracion polygonius
+    confidence: 0.0089
+  - scientific: Epinephelus itajara
+    confidence: 0.0031
+  absorbed_by:
+    scientific: Diploria labyrinthiformis
+    confidence: 0.3479

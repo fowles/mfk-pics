@@ -10,3 +10,20 @@ variants:
   file: d8528b1009bd0e7f.dive-plus.webp
   import_original_name: 458fd3bed39dcf3e.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156979.474612
+  top:
+  - scientific: Gymnothorax funebris
+    confidence: 0.9953
+  - scientific: Gymnothorax miliaris
+    confidence: 0.0039
+  - scientific: Enchelycore carychroa
+    confidence: 0.0003
+species:
+- scientific: Gymnothorax funebris
+  role: primary
+  confidence: 0.9953
+  identified_by: bioclip

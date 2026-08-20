@@ -10,3 +10,20 @@ lon: -68.28180019999999
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157581.0183475
+  top:
+  - scientific: Octopus vulgaris
+    confidence: 0.4738
+  - scientific: Aplysia dactylomela
+    confidence: 0.169
+  - scientific: Diodon holocanthus
+    confidence: 0.0459
+species:
+- scientific: Octopus vulgaris
+  role: primary
+  confidence: 0.4738
+  identified_by: bioclip

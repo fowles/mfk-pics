@@ -10,3 +10,20 @@ lon: -79.2431
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159788.102697
+  top:
+  - scientific: Carcharhinus perezi
+    confidence: 0.8829
+  - scientific: Sepioteuthis sepioidea
+    confidence: 0.0547
+  - scientific: Megalops atlanticus
+    confidence: 0.0237
+species:
+- scientific: Carcharhinus perezi
+  role: primary
+  confidence: 0.8829
+  identified_by: bioclip

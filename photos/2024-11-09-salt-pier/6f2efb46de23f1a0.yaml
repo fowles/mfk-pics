@@ -13,3 +13,20 @@ variants:
   file: 6f2efb46de23f1a0.dive-plus.webp
   import_original_name: 576828eb76fd3b0e.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156584.6984153
+  top:
+  - scientific: Scorpaena plumieri
+    confidence: 0.9938
+  - scientific: Hippocampus erectus
+    confidence: 0.0017
+  - scientific: Ogcocephalus radiatus
+    confidence: 0.001
+species:
+- scientific: Scorpaena plumieri
+  role: primary
+  confidence: 0.9938
+  identified_by: bioclip

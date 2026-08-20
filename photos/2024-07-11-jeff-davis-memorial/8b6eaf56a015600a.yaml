@@ -13,3 +13,18 @@ variants:
   file: 8b6eaf56a015600a.dive-plus.webp
   import_original_name: 99f161efb730e1b7.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159606.5368793
+  top:
+  - scientific: Diadema antillarum
+    confidence: 0.0316
+  - scientific: Aulostomus maculatus
+    confidence: 0.0311
+  - scientific: Serranus tigrinus
+    confidence: 0.0178
+  absorbed_by:
+    scientific: Antillogorgia americana
+    confidence: 0.6557

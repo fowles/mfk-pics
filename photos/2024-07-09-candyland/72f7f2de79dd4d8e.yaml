@@ -10,3 +10,20 @@ variants:
   file: 72f7f2de79dd4d8e.dive-plus.webp
   import_original_name: 93b8e379512c4a11.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159169.8881679
+  top:
+  - scientific: Acanthurus chirurgus
+    confidence: 0.3499
+  - scientific: Aulostomus maculatus
+    confidence: 0.142
+  - scientific: Thalassoma bifasciatum
+    confidence: 0.0905
+species:
+- scientific: Acanthurus chirurgus
+  role: primary
+  confidence: 0.3499
+  identified_by: bioclip

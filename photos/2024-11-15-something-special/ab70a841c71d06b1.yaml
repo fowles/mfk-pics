@@ -10,3 +10,20 @@ variants:
   file: ab70a841c71d06b1.dive-plus.webp
   import_original_name: 22eb5017ac182721.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157212.1228964
+  top:
+  - scientific: Fistularia tabacaria
+    confidence: 0.5473
+  - scientific: Aulostomus maculatus
+    confidence: 0.1513
+  - scientific: Sepioteuthis sepioidea
+    confidence: 0.0756
+species:
+- scientific: Fistularia tabacaria
+  role: primary
+  confidence: 0.5473
+  identified_by: bioclip

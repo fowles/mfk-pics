@@ -10,3 +10,20 @@ variants:
   file: 549e925eecd66772.dive-plus.webp
   import_original_name: 0701e10695cb1ba5.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158237.114903
+  top:
+  - scientific: Acanthurus coeruleus
+    confidence: 0.8369
+  - scientific: Melichthys niger
+    confidence: 0.1331
+  - scientific: Hypoplectrus indigo
+    confidence: 0.0148
+species:
+- scientific: Acanthurus coeruleus
+  role: primary
+  confidence: 0.8369
+  identified_by: bioclip

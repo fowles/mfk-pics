@@ -10,3 +10,20 @@ lon: -68.2903018
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159372.9823475
+  top:
+  - scientific: Acanthostracion polygonius
+    confidence: 0.7467
+  - scientific: Cephalopholis cruentata
+    confidence: 0.1596
+  - scientific: Mycteroperca venenosa
+    confidence: 0.0197
+species:
+- scientific: Acanthostracion polygonius
+  role: primary
+  confidence: 0.7467
+  identified_by: bioclip

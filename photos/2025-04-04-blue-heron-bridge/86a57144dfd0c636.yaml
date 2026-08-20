@@ -11,3 +11,20 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 rotation_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157487.7137215
+  top:
+  - scientific: Stenorhynchus seticornis
+    confidence: 0.9997
+  - scientific: Panulirus argus
+    confidence: 0.0003
+  - scientific: Lysmata grabhami
+    confidence: 0.0
+species:
+- scientific: Stenorhynchus seticornis
+  role: primary
+  confidence: 0.9997
+  identified_by: bioclip

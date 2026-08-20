@@ -13,3 +13,20 @@ variants:
   file: 891950278f1f7207.dive-plus.webp
   import_original_name: 9c40faa138e7f82f.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159191.3184338
+  top:
+  - scientific: Scarus vetula
+    confidence: 0.5967
+  - scientific: Scarus coelestinus
+    confidence: 0.2857
+  - scientific: Kyphosus sectatrix
+    confidence: 0.0373
+species:
+- scientific: Scarus vetula
+  role: primary
+  confidence: 0.5967
+  identified_by: bioclip

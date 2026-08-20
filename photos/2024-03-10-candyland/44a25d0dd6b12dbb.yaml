@@ -11,3 +11,20 @@ variants:
   import_original_name: 22e3e99b258c5fa0.webp
 date_reviewed: true
 rotation_applied: 270
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1787178323.3421223
+  top:
+  - scientific: Epinephelus itajara
+    confidence: 0.6232
+  - scientific: Gymnothorax funebris
+    confidence: 0.2712
+  - scientific: Aulostomus maculatus
+    confidence: 0.0337
+species:
+- scientific: Epinephelus itajara
+  role: primary
+  confidence: 0.6232
+  identified_by: bioclip

@@ -13,3 +13,20 @@ variants:
   file: 2e7d06389b3eef71.dive-plus.webp
   import_original_name: 1cd57379b8dd706e.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159186.665072
+  top:
+  - scientific: Pempheris schomburgkii
+    confidence: 0.7073
+  - scientific: Chromis cyanea
+    confidence: 0.0724
+  - scientific: Chromis multilineata
+    confidence: 0.0548
+species:
+- scientific: Pempheris schomburgkii
+  role: primary
+  confidence: 0.7073
+  identified_by: bioclip

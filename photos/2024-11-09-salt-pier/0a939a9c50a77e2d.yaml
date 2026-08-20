@@ -10,3 +10,20 @@ variants:
   file: 0a939a9c50a77e2d.dive-plus.webp
   import_original_name: f03bf2bc497aeaf5.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156577.191427
+  top:
+  - scientific: Megalops atlanticus
+    confidence: 0.939
+  - scientific: Echeneis naucrates
+    confidence: 0.0318
+  - scientific: Scomberomorus regalis
+    confidence: 0.011
+species:
+- scientific: Megalops atlanticus
+  role: primary
+  confidence: 0.939
+  identified_by: bioclip

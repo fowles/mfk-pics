@@ -10,3 +10,20 @@ variants:
   file: 4cadd7d1c7f9a260.dive-plus.webp
   import_original_name: 91f12cf70a0f4e50.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157212.787293
+  top:
+  - scientific: Aulostomus maculatus
+    confidence: 0.4669
+  - scientific: Opistognathus aurifrons
+    confidence: 0.1239
+  - scientific: Diodon holocanthus
+    confidence: 0.0801
+species:
+- scientific: Aulostomus maculatus
+  role: primary
+  confidence: 0.4669
+  identified_by: bioclip

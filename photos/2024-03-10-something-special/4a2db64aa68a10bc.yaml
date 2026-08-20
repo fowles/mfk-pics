@@ -10,3 +10,20 @@ lon: -68.2854452
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159052.2824976
+  top:
+  - scientific: Scarus iseri
+    confidence: 0.5042
+  - scientific: Elacatinus oceanops
+    confidence: 0.1917
+  - scientific: Gymnothorax funebris
+    confidence: 0.105
+species:
+- scientific: Scarus iseri
+  role: primary
+  confidence: 0.5042
+  identified_by: bioclip

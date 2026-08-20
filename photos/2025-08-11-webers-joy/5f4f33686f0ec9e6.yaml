@@ -13,3 +13,20 @@ variants:
   file: 5f4f33686f0ec9e6.dive-plus.webp
   import_original_name: ed0757c4ae84ae4f.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786071915.6799119
+  top:
+  - scientific: Aulostomus maculatus
+    confidence: 0.3335
+  - scientific: Hypoplectrus puella
+    confidence: 0.1187
+  - scientific: Pareques acuminatus
+    confidence: 0.0945
+species:
+- scientific: Aulostomus maculatus
+  role: primary
+  confidence: 0.3335
+  identified_by: bioclip

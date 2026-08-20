@@ -13,3 +13,20 @@ variants:
   file: 63a19a6c013096e3.dive-plus.webp
   import_original_name: 016877ddc5c6683b.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157495.071612
+  top:
+  - scientific: Cyphoma gibbosum
+    confidence: 0.2958
+  - scientific: Heteropriacanthus cruentatus
+    confidence: 0.2851
+  - scientific: Acanthostracion quadricornis
+    confidence: 0.0792
+species:
+- scientific: Cyphoma gibbosum
+  role: primary
+  confidence: 0.2958
+  identified_by: bioclip

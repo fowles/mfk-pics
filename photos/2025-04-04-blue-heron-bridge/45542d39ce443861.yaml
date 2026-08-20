@@ -10,3 +10,20 @@ lon: -80.044118
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157485.5643566
+  top:
+  - scientific: Malacoctenus triangulatus
+    confidence: 0.8229
+  - scientific: Emblemaria pandionis
+    confidence: 0.0661
+  - scientific: Parablennius marmoreus
+    confidence: 0.0324
+species:
+- scientific: Malacoctenus triangulatus
+  role: primary
+  confidence: 0.8229
+  identified_by: bioclip

@@ -9,3 +9,20 @@ lat: 25.54167
 lon: -79.27083
 gps_source: dive_site
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159805.282283
+  top:
+  - scientific: Ginglymostoma cirratum
+    confidence: 0.9965
+  - scientific: Aetobatus narinari
+    confidence: 0.0012
+  - scientific: Lutjanus griseus
+    confidence: 0.0012
+species:
+- scientific: Ginglymostoma cirratum
+  role: primary
+  confidence: 0.9965
+  identified_by: bioclip

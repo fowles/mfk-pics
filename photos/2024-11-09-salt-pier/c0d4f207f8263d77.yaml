@@ -14,3 +14,20 @@ variants:
   import_original_name: 3a2b15d48c8c160a.webp
 date_reviewed: true
 rotation_applied: 90
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1787028565.435931
+  top:
+  - scientific: Heteroconger longissimus
+    confidence: 0.8911
+  - scientific: Enchelycore carychroa
+    confidence: 0.0331
+  - scientific: Gymnothorax miliaris
+    confidence: 0.0222
+species:
+- scientific: Heteroconger longissimus
+  role: primary
+  confidence: 0.8911
+  identified_by: bioclip

@@ -13,3 +13,20 @@ variants:
   file: 5b198bf5300b80c5.dive-plus.webp
   import_original_name: 36ae269f55a84720.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156746.8932843
+  top:
+  - scientific: Lutjanus jocu
+    confidence: 0.2551
+  - scientific: Sphyraena barracuda
+    confidence: 0.2357
+  - scientific: Ginglymostoma cirratum
+    confidence: 0.0628
+species:
+- scientific: Lutjanus jocu
+  role: primary
+  confidence: 0.2551
+  identified_by: bioclip

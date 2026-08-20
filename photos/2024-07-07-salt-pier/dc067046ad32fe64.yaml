@@ -13,3 +13,18 @@ variants:
   file: dc067046ad32fe64.dive-plus.webp
   import_original_name: b6b28a94684cbfe4.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159990.208484
+  top:
+  - scientific: Thalassoma bifasciatum
+    confidence: 0.1769
+  - scientific: Gymnothorax funebris
+    confidence: 0.1086
+  - scientific: Serranus tortugarum
+    confidence: 0.0948
+  absorbed_by:
+    scientific: Xestospongia muta
+    confidence: 0.2144

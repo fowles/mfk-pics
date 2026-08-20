@@ -10,3 +10,20 @@ lon: -68.40111449999999
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158862.4473217
+  top:
+  - scientific: Scarus guacamaia
+    confidence: 0.7015
+  - scientific: Melichthys niger
+    confidence: 0.252
+  - scientific: Thalassoma bifasciatum
+    confidence: 0.0097
+species:
+- scientific: Scarus guacamaia
+  role: primary
+  confidence: 0.7015
+  identified_by: bioclip

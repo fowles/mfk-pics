@@ -13,3 +13,20 @@ variants:
   file: 5262a495782b8db8.dive-plus.webp
   import_original_name: 033f20066f7a5eab.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156368.6720529
+  top:
+  - scientific: Lactophrys triqueter
+    confidence: 0.994
+  - scientific: Lactophrys bicaudalis
+    confidence: 0.0057
+  - scientific: Microspathodon chrysurus
+    confidence: 0.0001
+species:
+- scientific: Lactophrys triqueter
+  role: primary
+  confidence: 0.994
+  identified_by: bioclip

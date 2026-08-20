@@ -11,3 +11,20 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 rotation_applied: 270
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1787174975.381908
+  top:
+  - scientific: Epinephelus striatus
+    confidence: 0.2876
+  - scientific: Sphoeroides spengleri
+    confidence: 0.1369
+  - scientific: Synodus intermedius
+    confidence: 0.1367
+species:
+- scientific: Epinephelus striatus
+  role: primary
+  confidence: 0.2876
+  identified_by: bioclip

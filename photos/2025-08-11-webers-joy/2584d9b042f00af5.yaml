@@ -13,3 +13,20 @@ variants:
   file: 2584d9b042f00af5.dive-plus.webp
   import_original_name: d0274fc090f642e6.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786071914.9720345
+  top:
+  - scientific: Aulostomus maculatus
+    confidence: 0.9673
+  - scientific: Panulirus argus
+    confidence: 0.0109
+  - scientific: Hypanus americanus
+    confidence: 0.0052
+species:
+- scientific: Aulostomus maculatus
+  role: primary
+  confidence: 0.9673
+  identified_by: bioclip

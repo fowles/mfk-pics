@@ -10,3 +10,20 @@ lon: -68.2513754
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156811.7817693
+  top:
+  - scientific: Hypanus americanus
+    confidence: 0.4843
+  - scientific: Sepioteuthis sepioidea
+    confidence: 0.1923
+  - scientific: Chaetodon sedentarius
+    confidence: 0.1176
+species:
+- scientific: Hypanus americanus
+  role: primary
+  confidence: 0.4843
+  identified_by: bioclip

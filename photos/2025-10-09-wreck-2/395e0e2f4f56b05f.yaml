@@ -9,3 +9,20 @@ lat: 25.7183
 lon: -79.3154
 gps_source: dive_site
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159810.16643
+  top:
+  - scientific: Melichthys niger
+    confidence: 0.7574
+  - scientific: Scarus coeruleus
+    confidence: 0.1279
+  - scientific: Scarus guacamaia
+    confidence: 0.0959
+species:
+- scientific: Melichthys niger
+  role: primary
+  confidence: 0.7574
+  identified_by: bioclip

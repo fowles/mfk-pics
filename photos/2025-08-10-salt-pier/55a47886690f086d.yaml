@@ -10,3 +10,20 @@ lon: -68.28180019999999
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157579.9494412
+  top:
+  - scientific: Epinephelus itajara
+    confidence: 0.7593
+  - scientific: Holothuria mexicana
+    confidence: 0.0688
+  - scientific: Acanthostracion polygonius
+    confidence: 0.0606
+species:
+- scientific: Epinephelus itajara
+  role: primary
+  confidence: 0.7593
+  identified_by: bioclip

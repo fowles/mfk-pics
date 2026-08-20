@@ -10,3 +10,20 @@ variants:
   file: 73cec1030dd90423.dive-plus.webp
   import_original_name: c1df9b3b6a21a6dd.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157055.0837953
+  top:
+  - scientific: Aulostomus maculatus
+    confidence: 0.3904
+  - scientific: Sepioteuthis sepioidea
+    confidence: 0.3073
+  - scientific: Haemulon sciurus
+    confidence: 0.0325
+species:
+- scientific: Aulostomus maculatus
+  role: primary
+  confidence: 0.3904
+  identified_by: bioclip

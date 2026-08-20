@@ -13,3 +13,20 @@ variants:
   file: 1f81d6334831ce50.dive-plus.webp
   import_original_name: a2675767a0f9fc8a.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158511.31838
+  top:
+  - scientific: Scarus taeniopterus
+    confidence: 0.4964
+  - scientific: Scarus iseri
+    confidence: 0.2605
+  - scientific: Halichoeres radiatus
+    confidence: 0.1296
+species:
+- scientific: Scarus taeniopterus
+  role: primary
+  confidence: 0.4964
+  identified_by: bioclip

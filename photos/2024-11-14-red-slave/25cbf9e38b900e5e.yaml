@@ -13,3 +13,20 @@ variants:
   file: 25cbf9e38b900e5e.dive-plus.webp
   import_original_name: 2e117518b4e23ea9.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156980.6234736
+  top:
+  - scientific: Astrophyton muricatum
+    confidence: 0.711
+  - scientific: Monacanthus tuckeri
+    confidence: 0.0644
+  - scientific: Hypoplectrus nigricans
+    confidence: 0.0311
+species:
+- scientific: Astrophyton muricatum
+  role: primary
+  confidence: 0.711
+  identified_by: bioclip

@@ -13,3 +13,20 @@ variants:
   file: 025fbf75888caee7.dive-plus.webp
   import_original_name: 98d8cae9a36e33d0.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157055.7996953
+  top:
+  - scientific: Bothus lunatus
+    confidence: 0.6723
+  - scientific: Ogcocephalus nasutus
+    confidence: 0.217
+  - scientific: Dactylopterus volitans
+    confidence: 0.0725
+species:
+- scientific: Bothus lunatus
+  role: primary
+  confidence: 0.6723
+  identified_by: bioclip

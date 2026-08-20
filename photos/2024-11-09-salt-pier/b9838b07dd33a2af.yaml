@@ -13,3 +13,20 @@ variants:
   file: b9838b07dd33a2af.dive-plus.webp
   import_original_name: 0b38eae846bcccea.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156586.5135758
+  top:
+  - scientific: Acanthostracion polygonius
+    confidence: 0.5271
+  - scientific: Sepioteuthis sepioidea
+    confidence: 0.2913
+  - scientific: Dactylopterus volitans
+    confidence: 0.0456
+species:
+- scientific: Acanthostracion polygonius
+  role: primary
+  confidence: 0.5271
+  identified_by: bioclip

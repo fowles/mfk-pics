@@ -10,3 +10,20 @@ variants:
   file: 4d554a8c5559973b.dive-plus.webp
   import_original_name: 05c8810de95b2700.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159959.8757143
+  top:
+  - scientific: Haemulon chrysargyreum
+    confidence: 0.8912
+  - scientific: Haemulon carbonarium
+    confidence: 0.0994
+  - scientific: Haemulon macrostomum
+    confidence: 0.0042
+species:
+- scientific: Haemulon chrysargyreum
+  role: primary
+  confidence: 0.8912
+  identified_by: bioclip

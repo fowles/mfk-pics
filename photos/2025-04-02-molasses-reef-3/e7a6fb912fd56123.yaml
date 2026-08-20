@@ -10,3 +10,20 @@ variants:
   file: e7a6fb912fd56123.dive-plus.webp
   import_original_name: 7854e41ae3c81336.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157280.3933418
+  top:
+  - scientific: Mycteroperca venenosa
+    confidence: 0.6942
+  - scientific: Lutjanus griseus
+    confidence: 0.0783
+  - scientific: Aluterus scriptus
+    confidence: 0.0432
+species:
+- scientific: Mycteroperca venenosa
+  role: primary
+  confidence: 0.6942
+  identified_by: bioclip

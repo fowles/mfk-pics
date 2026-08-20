@@ -13,3 +13,20 @@ variants:
   file: 02d2feac83155f55.dive-plus.webp
   import_original_name: 03bcaa71da106662.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156580.9861374
+  top:
+  - scientific: Aulostomus maculatus
+    confidence: 0.8648
+  - scientific: Echeneis naucrates
+    confidence: 0.0816
+  - scientific: Gymnothorax miliaris
+    confidence: 0.0052
+species:
+- scientific: Aulostomus maculatus
+  role: primary
+  confidence: 0.8648
+  identified_by: bioclip

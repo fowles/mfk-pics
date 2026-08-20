@@ -10,3 +10,20 @@ variants:
   file: fe6a5296940a184e.dive-plus.webp
   import_original_name: f9538a3f2e814a40.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157054.0651968
+  top:
+  - scientific: Thalassoma bifasciatum
+    confidence: 0.4004
+  - scientific: Chaetodon striatus
+    confidence: 0.0772
+  - scientific: Melichthys niger
+    confidence: 0.0675
+species:
+- scientific: Thalassoma bifasciatum
+  role: primary
+  confidence: 0.4004
+  identified_by: bioclip

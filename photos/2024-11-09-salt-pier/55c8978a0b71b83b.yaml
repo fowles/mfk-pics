@@ -13,3 +13,20 @@ variants:
   file: 55c8978a0b71b83b.dive-plus.webp
   import_original_name: 1ca4a4afbd035af3.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156585.7056994
+  top:
+  - scientific: Acanthostracion polygonius
+    confidence: 0.2021
+  - scientific: Ginglymostoma cirratum
+    confidence: 0.121
+  - scientific: Aulostomus maculatus
+    confidence: 0.1141
+species:
+- scientific: Acanthostracion polygonius
+  role: primary
+  confidence: 0.2021
+  identified_by: bioclip

@@ -10,3 +10,18 @@ lon: -68.34805419999999
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156692.9100766
+  top:
+  - scientific: Bodianus rufus
+    confidence: 0.0
+  - scientific: Scarus taeniopterus
+    confidence: 0.0
+  - scientific: Halichoeres pictus
+    confidence: 0.0
+  absorbed_by:
+    scientific: Acropora palmata
+    confidence: 0.9473

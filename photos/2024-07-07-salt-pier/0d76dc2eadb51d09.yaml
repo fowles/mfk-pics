@@ -13,3 +13,20 @@ variants:
   file: 0d76dc2eadb51d09.dive-plus.webp
   import_original_name: ad0f47b8724b5ce8.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159991.6260257
+  top:
+  - scientific: Chelonia mydas
+    confidence: 0.7433
+  - scientific: Caretta caretta
+    confidence: 0.219
+  - scientific: Scarus guacamaia
+    confidence: 0.0125
+species:
+- scientific: Chelonia mydas
+  role: primary
+  confidence: 0.7433
+  identified_by: bioclip

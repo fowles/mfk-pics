@@ -10,3 +10,18 @@ variants:
   file: f206896879c1caf9.dive-plus.webp
   import_original_name: 9c3239673251db84.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159182.713139
+  top:
+  - scientific: Aulostomus maculatus
+    confidence: 0.1076
+  - scientific: Gymnothorax funebris
+    confidence: 0.0996
+  - scientific: Epinephelus itajara
+    confidence: 0.0875
+  absorbed_by:
+    scientific: Meandrina meandrites
+    confidence: 0.2922

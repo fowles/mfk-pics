@@ -10,3 +10,20 @@ variants:
   file: 51c2545a7a4c28a0.dive-plus.webp
   import_original_name: 558790b02178326d.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158336.7202547
+  top:
+  - scientific: Sphoeroides spengleri
+    confidence: 0.533
+  - scientific: Sphyraena barracuda
+    confidence: 0.3442
+  - scientific: Aulostomus maculatus
+    confidence: 0.0361
+species:
+- scientific: Sphoeroides spengleri
+  role: primary
+  confidence: 0.533
+  identified_by: bioclip

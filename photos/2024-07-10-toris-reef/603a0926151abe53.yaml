@@ -13,3 +13,20 @@ variants:
   file: 603a0926151abe53.dive-plus.webp
   import_original_name: a29c1fa297f5d413.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786160220.2251236
+  top:
+  - scientific: Holothuria mexicana
+    confidence: 0.2866
+  - scientific: Acanthostracion polygonius
+    confidence: 0.064
+  - scientific: Bothus lunatus
+    confidence: 0.0562
+species:
+- scientific: Holothuria mexicana
+  role: primary
+  confidence: 0.2866
+  identified_by: bioclip

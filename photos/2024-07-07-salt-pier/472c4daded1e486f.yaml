@@ -13,3 +13,20 @@ variants:
   file: 472c4daded1e486f.dive-plus.webp
   import_original_name: bf87ca1543f1a81d.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159997.9796317
+  top:
+  - scientific: Melichthys niger
+    confidence: 0.4369
+  - scientific: Diodon hystrix
+    confidence: 0.1992
+  - scientific: Echeneis naucrates
+    confidence: 0.1625
+species:
+- scientific: Melichthys niger
+  role: primary
+  confidence: 0.4369
+  identified_by: bioclip

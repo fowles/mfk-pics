@@ -10,3 +10,20 @@ variants:
   file: 8a25a4c3bb0cdf78.dive-plus.webp
   import_original_name: 389b6873bf57c666.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156741.5195482
+  top:
+  - scientific: Hypoplectrus puella
+    confidence: 0.6393
+  - scientific: Pareques acuminatus
+    confidence: 0.0211
+  - scientific: Monacanthus tuckeri
+    confidence: 0.0165
+species:
+- scientific: Hypoplectrus puella
+  role: primary
+  confidence: 0.6393
+  identified_by: bioclip

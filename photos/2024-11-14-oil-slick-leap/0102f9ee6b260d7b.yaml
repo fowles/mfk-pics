@@ -13,3 +13,20 @@ variants:
   file: 0102f9ee6b260d7b.dive-plus.webp
   import_original_name: 96ffe9833f95928c.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156902.234426
+  top:
+  - scientific: Lactophrys triqueter
+    confidence: 0.5928
+  - scientific: Melichthys niger
+    confidence: 0.2613
+  - scientific: Megalops atlanticus
+    confidence: 0.0593
+species:
+- scientific: Lactophrys triqueter
+  role: primary
+  confidence: 0.5928
+  identified_by: bioclip

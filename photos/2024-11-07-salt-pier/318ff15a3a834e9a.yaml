@@ -10,3 +10,20 @@ lon: -68.28180019999999
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156324.3766143
+  top:
+  - scientific: Sepioteuthis sepioidea
+    confidence: 0.5887
+  - scientific: Gymnothorax moringa
+    confidence: 0.0977
+  - scientific: Aulostomus maculatus
+    confidence: 0.0321
+species:
+- scientific: Sepioteuthis sepioidea
+  role: primary
+  confidence: 0.5887
+  identified_by: bioclip

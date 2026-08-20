@@ -13,3 +13,20 @@ variants:
   file: 1f993c20d78a39f2.dive-plus.webp
   import_original_name: b40f53da72975a2d.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157882.1110415
+  top:
+  - scientific: Sepioteuthis sepioidea
+    confidence: 0.6654
+  - scientific: Aulostomus maculatus
+    confidence: 0.0543
+  - scientific: Mycteroperca venenosa
+    confidence: 0.0359
+species:
+- scientific: Sepioteuthis sepioidea
+  role: primary
+  confidence: 0.6654
+  identified_by: bioclip

@@ -10,3 +10,20 @@ lon: -80.044118
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157486.3183968
+  top:
+  - scientific: Anisotremus virginicus
+    confidence: 0.999
+  - scientific: Haemulon flavolineatum
+    confidence: 0.0003
+  - scientific: Haemulon macrostomum
+    confidence: 0.0002
+species:
+- scientific: Anisotremus virginicus
+  role: primary
+  confidence: 0.999
+  identified_by: bioclip

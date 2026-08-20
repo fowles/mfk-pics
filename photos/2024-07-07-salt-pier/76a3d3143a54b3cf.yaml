@@ -13,3 +13,20 @@ variants:
   file: 76a3d3143a54b3cf.dive-plus.webp
   import_original_name: 70fa4eba89e50bdd.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159990.7679935
+  top:
+  - scientific: Chelonia mydas
+    confidence: 0.3262
+  - scientific: Tursiops truncatus
+    confidence: 0.2527
+  - scientific: Caretta caretta
+    confidence: 0.2313
+species:
+- scientific: Chelonia mydas
+  role: primary
+  confidence: 0.3262
+  identified_by: bioclip

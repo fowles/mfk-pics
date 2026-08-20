@@ -13,3 +13,20 @@ variants:
   file: 9e5adbe3d4927d45.dive-plus.webp
   import_original_name: a089dc87175ed428.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158873.6944776
+  top:
+  - scientific: Aulostomus maculatus
+    confidence: 0.2696
+  - scientific: Gymnothorax miliaris
+    confidence: 0.1033
+  - scientific: Elacatinus evelynae
+    confidence: 0.1026
+species:
+- scientific: Aulostomus maculatus
+  role: primary
+  confidence: 0.2696
+  identified_by: bioclip

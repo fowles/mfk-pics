@@ -13,3 +13,18 @@ variants:
   file: 51ebe356ad9ecf5b.dive-plus.webp
   import_original_name: c960d0fa8cbfaef6.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156745.8747845
+  top:
+  - scientific: Diadema antillarum
+    confidence: 0.1395
+  - scientific: Aulostomus maculatus
+    confidence: 0.1096
+  - scientific: Chaetodon capistratus
+    confidence: 0.1022
+  absorbed_by:
+    scientific: Gorgonia ventalina
+    confidence: 0.2666

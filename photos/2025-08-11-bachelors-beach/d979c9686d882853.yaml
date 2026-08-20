@@ -10,3 +10,20 @@ variants:
   file: d979c9686d882853.dive-plus.webp
   import_original_name: 03596e93e97c822f.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157881.1973298
+  top:
+  - scientific: Bothus lunatus
+    confidence: 0.7638
+  - scientific: Elysia crispata
+    confidence: 0.1837
+  - scientific: Periclimenes yucatanicus
+    confidence: 0.0068
+species:
+- scientific: Bothus lunatus
+  role: primary
+  confidence: 0.7638
+  identified_by: bioclip

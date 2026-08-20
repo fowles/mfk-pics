@@ -13,3 +13,20 @@ variants:
   file: de6090c7010f4755.dive-plus.webp
   import_original_name: b7d06cf324169d60.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157493.9704454
+  top:
+  - scientific: Cassiopea xamachana
+    confidence: 0.7337
+  - scientific: Acanthostracion polygonius
+    confidence: 0.1115
+  - scientific: Acanthostracion quadricornis
+    confidence: 0.0412
+species:
+- scientific: Cassiopea xamachana
+  role: primary
+  confidence: 0.7337
+  identified_by: bioclip

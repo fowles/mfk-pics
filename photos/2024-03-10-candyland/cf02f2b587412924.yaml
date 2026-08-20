@@ -13,3 +13,20 @@ variants:
   file: cf02f2b587412924.dive-plus.webp
   import_original_name: 017c84f878801c0f.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158875.806943
+  top:
+  - scientific: Pareques acuminatus
+    confidence: 0.5181
+  - scientific: Equetus punctatus
+    confidence: 0.3583
+  - scientific: Equetus lanceolatus
+    confidence: 0.1158
+species:
+- scientific: Pareques acuminatus
+  role: primary
+  confidence: 0.5181
+  identified_by: bioclip

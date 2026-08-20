@@ -13,3 +13,20 @@ variants:
   file: 855cd0a1f6eb69c6.dive-plus.webp
   import_original_name: e68145c8bc84feaa.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156581.7386823
+  top:
+  - scientific: Mulloidichthys martinicus
+    confidence: 0.4872
+  - scientific: Scomberomorus regalis
+    confidence: 0.2291
+  - scientific: Acanthostracion polygonius
+    confidence: 0.1324
+species:
+- scientific: Mulloidichthys martinicus
+  role: primary
+  confidence: 0.4872
+  identified_by: bioclip

@@ -13,3 +13,20 @@ variants:
   file: 0236b6d2e4e80a48.dive-plus.webp
   import_original_name: 0d0585210ba0a081.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156744.2363992
+  top:
+  - scientific: Melichthys niger
+    confidence: 0.9357
+  - scientific: Scarus coelestinus
+    confidence: 0.0315
+  - scientific: Kyphosus sectatrix
+    confidence: 0.0137
+species:
+- scientific: Melichthys niger
+  role: primary
+  confidence: 0.9357
+  identified_by: bioclip

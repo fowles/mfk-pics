@@ -10,3 +10,18 @@ variants:
   file: f5723036c5ff753e.dive-plus.webp
   import_original_name: f6ee3152a241d276.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158723.7715354
+  top:
+  - scientific: Aulostomus maculatus
+    confidence: 0.202
+  - scientific: Gymnothorax funebris
+    confidence: 0.0125
+  - scientific: Astrophyton muricatum
+    confidence: 0.0097
+  absorbed_by:
+    scientific: Antillogorgia americana
+    confidence: 0.4001

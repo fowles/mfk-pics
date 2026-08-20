@@ -13,3 +13,20 @@ variants:
   file: 249a732eb234252e.dive-plus.webp
   import_original_name: d4f5bc3960d66fb6.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157056.0639348
+  top:
+  - scientific: Acanthostracion polygonius
+    confidence: 0.3798
+  - scientific: Sphoeroides spengleri
+    confidence: 0.1914
+  - scientific: Scarus iseri
+    confidence: 0.066
+species:
+- scientific: Acanthostracion polygonius
+  role: primary
+  confidence: 0.3798
+  identified_by: bioclip

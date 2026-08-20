@@ -10,3 +10,20 @@ lon: -68.3139741
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159564.9861245
+  top:
+  - scientific: Pseudupeneus maculatus
+    confidence: 0.9313
+  - scientific: Lutjanus synagris
+    confidence: 0.058
+  - scientific: Sepioteuthis sepioidea
+    confidence: 0.0077
+species:
+- scientific: Pseudupeneus maculatus
+  role: primary
+  confidence: 0.9313
+  identified_by: bioclip

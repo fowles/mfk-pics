@@ -13,3 +13,20 @@ variants:
   file: 5fbe8eebbe1016b2.dive-plus.webp
   import_original_name: 89ea17a261f3e3bb.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156584.8353703
+  top:
+  - scientific: Sphyraena barracuda
+    confidence: 0.5353
+  - scientific: Scomberomorus regalis
+    confidence: 0.4404
+  - scientific: Megalops atlanticus
+    confidence: 0.0085
+species:
+- scientific: Sphyraena barracuda
+  role: primary
+  confidence: 0.5353
+  identified_by: bioclip

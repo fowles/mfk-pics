@@ -13,3 +13,20 @@ variants:
   file: c2efd73ceab9801d.dive-plus.webp
   import_original_name: 4f8ac63313e64100.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156899.6415906
+  top:
+  - scientific: Canthidermis sufflamen
+    confidence: 0.2081
+  - scientific: Melichthys niger
+    confidence: 0.1676
+  - scientific: Acanthurus chirurgus
+    confidence: 0.1389
+species:
+- scientific: Canthidermis sufflamen
+  role: primary
+  confidence: 0.2081
+  identified_by: bioclip

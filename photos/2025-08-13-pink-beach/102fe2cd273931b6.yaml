@@ -13,3 +13,20 @@ variants:
   file: 102fe2cd273931b6.dive-plus.webp
   import_original_name: 2850444a8dbb5d42.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158189.5047765
+  top:
+  - scientific: Pomacanthus paru
+    confidence: 0.995
+  - scientific: Scarus coelestinus
+    confidence: 0.0033
+  - scientific: Epinephelus itajara
+    confidence: 0.0007
+species:
+- scientific: Pomacanthus paru
+  role: primary
+  confidence: 0.995
+  identified_by: bioclip

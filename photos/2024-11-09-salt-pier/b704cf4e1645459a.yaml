@@ -13,3 +13,20 @@ variants:
   file: b704cf4e1645459a.dive-plus.webp
   import_original_name: eb54accf8464a129.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156583.5477362
+  top:
+  - scientific: Diodon hystrix
+    confidence: 0.8132
+  - scientific: Canthidermis sufflamen
+    confidence: 0.1125
+  - scientific: Aetobatus narinari
+    confidence: 0.0142
+species:
+- scientific: Diodon hystrix
+  role: primary
+  confidence: 0.8132
+  identified_by: bioclip

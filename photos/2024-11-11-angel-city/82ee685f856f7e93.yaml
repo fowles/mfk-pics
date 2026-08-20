@@ -13,3 +13,18 @@ variants:
   file: 82ee685f856f7e93.dive-plus.webp
   import_original_name: f47fd10154c2369b.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156745.772339
+  top:
+  - scientific: Diodon hystrix
+    confidence: 0.1536
+  - scientific: Chaetodon striatus
+    confidence: 0.0651
+  - scientific: Pomacanthus paru
+    confidence: 0.0375
+  absorbed_by:
+    scientific: Gorgonia ventalina
+    confidence: 0.4987

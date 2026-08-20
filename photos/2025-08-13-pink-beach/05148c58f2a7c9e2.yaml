@@ -13,3 +13,20 @@ variants:
   file: 05148c58f2a7c9e2.dive-plus.webp
   import_original_name: 5602b52ad157f7c2.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158189.1055906
+  top:
+  - scientific: Gymnothorax miliaris
+    confidence: 0.6905
+  - scientific: Gramma loreto
+    confidence: 0.1672
+  - scientific: Thalassoma bifasciatum
+    confidence: 0.032
+species:
+- scientific: Gymnothorax miliaris
+  role: primary
+  confidence: 0.6905
+  identified_by: bioclip

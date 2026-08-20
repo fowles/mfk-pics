@@ -10,3 +10,20 @@ lon: -68.2513754
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156820.5288587
+  top:
+  - scientific: Mycteroperca tigris
+    confidence: 0.4563
+  - scientific: Holocentrus adscensionis
+    confidence: 0.3179
+  - scientific: Holocentrus rufus
+    confidence: 0.2036
+species:
+- scientific: Mycteroperca tigris
+  role: primary
+  confidence: 0.4563
+  identified_by: bioclip

@@ -13,3 +13,20 @@ variants:
   file: aba3bdfb41694d69.dive-plus.webp
   import_original_name: c1c4dae0731cfbc9.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158980.6424031
+  top:
+  - scientific: Haemulon carbonarium
+    confidence: 0.5775
+  - scientific: Hypoplectrus puella
+    confidence: 0.0727
+  - scientific: Thalassoma bifasciatum
+    confidence: 0.0603
+species:
+- scientific: Haemulon carbonarium
+  role: primary
+  confidence: 0.5775
+  identified_by: bioclip

@@ -10,3 +10,20 @@ variants:
   file: f1b85484b5f42e65.dive-plus.webp
   import_original_name: 2751d20f51b597bc.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157879.797796
+  top:
+  - scientific: Thalassoma bifasciatum
+    confidence: 0.3158
+  - scientific: Gymnothorax funebris
+    confidence: 0.2592
+  - scientific: Sparisoma rubripinne
+    confidence: 0.1915
+species:
+- scientific: Thalassoma bifasciatum
+  role: primary
+  confidence: 0.3158
+  identified_by: bioclip

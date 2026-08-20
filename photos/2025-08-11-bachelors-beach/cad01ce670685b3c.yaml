@@ -11,3 +11,20 @@ variants:
   import_original_name: a7807b6be3d85ad6.webp
 date_reviewed: true
 rotation_applied: 270
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1787178415.878654
+  top:
+  - scientific: Gymnothorax miliaris
+    confidence: 0.6446
+  - scientific: Aulostomus maculatus
+    confidence: 0.1653
+  - scientific: Holocentrus adscensionis
+    confidence: 0.0399
+species:
+- scientific: Gymnothorax miliaris
+  role: primary
+  confidence: 0.6446
+  identified_by: bioclip

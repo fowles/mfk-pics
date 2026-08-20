@@ -13,3 +13,18 @@ variants:
   file: a9b106e0f2614ba1.dive-plus.webp
   import_original_name: a9e1ec436a5d1c61.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157214.8683121
+  top:
+  - scientific: Hypoplectrus indigo
+    confidence: 0.1935
+  - scientific: Epinephelus striatus
+    confidence: 0.1243
+  - scientific: Thalassoma bifasciatum
+    confidence: 0.054
+  absorbed_by:
+    scientific: Gorgonia ventalina
+    confidence: 0.2747

@@ -13,3 +13,20 @@ variants:
   file: f26014fe5c334f2a.dive-plus.webp
   import_original_name: 6da42f3b7c55eef0.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156747.6689274
+  top:
+  - scientific: Aluterus scriptus
+    confidence: 0.8766
+  - scientific: Scomberomorus regalis
+    confidence: 0.0605
+  - scientific: Lutjanus synagris
+    confidence: 0.0142
+species:
+- scientific: Aluterus scriptus
+  role: primary
+  confidence: 0.8766
+  identified_by: bioclip

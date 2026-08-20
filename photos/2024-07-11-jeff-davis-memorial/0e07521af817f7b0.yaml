@@ -13,3 +13,20 @@ variants:
   file: 0e07521af817f7b0.dive-plus.webp
   import_original_name: 4d7755fce48d8bbf.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159604.7407553
+  top:
+  - scientific: Caranx ruber
+    confidence: 0.9961
+  - scientific: Acanthurus coeruleus
+    confidence: 0.0033
+  - scientific: Hypoplectrus indigo
+    confidence: 0.0002
+species:
+- scientific: Caranx ruber
+  role: primary
+  confidence: 0.9961
+  identified_by: bioclip

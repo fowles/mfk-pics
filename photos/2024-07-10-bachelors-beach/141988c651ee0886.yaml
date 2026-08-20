@@ -13,3 +13,18 @@ variants:
   file: 141988c651ee0886.dive-plus.webp
   import_original_name: e5b184d19a9f842b.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158733.3960114
+  top:
+  - scientific: Hypoplectrus puella
+    confidence: 0.0731
+  - scientific: Hypoplectrus nigricans
+    confidence: 0.0573
+  - scientific: Hypoplectrus unicolor
+    confidence: 0.0342
+  absorbed_by:
+    scientific: Colpophyllia natans
+    confidence: 0.2698

@@ -10,3 +10,20 @@ variants:
   file: 10a25f63d7d4f15b.dive-plus.webp
   import_original_name: 87c2f2a11d7a8b35.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158972.3243096
+  top:
+  - scientific: Serranus tigrinus
+    confidence: 0.2633
+  - scientific: Dactylopterus volitans
+    confidence: 0.2549
+  - scientific: Thalassoma bifasciatum
+    confidence: 0.1073
+species:
+- scientific: Serranus tigrinus
+  role: primary
+  confidence: 0.2633
+  identified_by: bioclip

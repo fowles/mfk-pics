@@ -10,3 +10,18 @@ lon: -68.40111449999999
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158137.199628
+  top:
+  - scientific: Halichoeres maculipinna
+    confidence: 0.0234
+  - scientific: Thalassoma bifasciatum
+    confidence: 0.0218
+  - scientific: Sparisoma aurofrenatum
+    confidence: 0.0159
+  absorbed_by:
+    scientific: Stephanocoenia intersepta
+    confidence: 0.5017

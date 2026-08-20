@@ -14,3 +14,20 @@ variants:
   import_original_name: 7f844be441a634a1.webp
 date_reviewed: true
 rotation_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156357.8472896
+  top:
+  - scientific: Aetobatus narinari
+    confidence: 0.3887
+  - scientific: Diodon hystrix
+    confidence: 0.3817
+  - scientific: Equetus punctatus
+    confidence: 0.077
+species:
+- scientific: Aetobatus narinari
+  role: primary
+  confidence: 0.3887
+  identified_by: bioclip

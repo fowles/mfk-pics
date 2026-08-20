@@ -13,3 +13,20 @@ variants:
   file: 73b6f17b721455f1.dive-plus.webp
   import_original_name: 82891bd8e0cced9e.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156743.674496
+  top:
+  - scientific: Sphyraena barracuda
+    confidence: 0.3868
+  - scientific: Selar crumenophthalmus
+    confidence: 0.3033
+  - scientific: Megalops atlanticus
+    confidence: 0.145
+species:
+- scientific: Sphyraena barracuda
+  role: primary
+  confidence: 0.3868
+  identified_by: bioclip

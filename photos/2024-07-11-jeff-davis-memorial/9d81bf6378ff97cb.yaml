@@ -10,3 +10,20 @@ variants:
   file: 9d81bf6378ff97cb.dive-plus.webp
   import_original_name: 485d06bbf9d9ede9.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159575.4224114
+  top:
+  - scientific: Aulostomus maculatus
+    confidence: 0.9804
+  - scientific: Ocyurus chrysurus
+    confidence: 0.0052
+  - scientific: Gymnothorax funebris
+    confidence: 0.0027
+species:
+- scientific: Aulostomus maculatus
+  role: primary
+  confidence: 0.9804
+  identified_by: bioclip

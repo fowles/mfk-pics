@@ -10,3 +10,20 @@ variants:
   file: 8ee04ec2817fc7ac.dive-plus.webp
   import_original_name: c6a7d613fd208268.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158337.35738
+  top:
+  - scientific: Diadema antillarum
+    confidence: 0.6287
+  - scientific: Holocentrus rufus
+    confidence: 0.1603
+  - scientific: Pareques acuminatus
+    confidence: 0.1407
+species:
+- scientific: Diadema antillarum
+  role: primary
+  confidence: 0.6287
+  identified_by: bioclip

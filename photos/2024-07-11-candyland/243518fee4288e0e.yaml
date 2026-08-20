@@ -13,3 +13,20 @@ variants:
   file: 243518fee4288e0e.dive-plus.webp
   import_original_name: 2003f2b7fbb8a288.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159292.41756
+  top:
+  - scientific: Acanthostracion polygonius
+    confidence: 0.2547
+  - scientific: Eretmochelys imbricata
+    confidence: 0.1445
+  - scientific: Caretta caretta
+    confidence: 0.1101
+species:
+- scientific: Acanthostracion polygonius
+  role: primary
+  confidence: 0.2547
+  identified_by: bioclip

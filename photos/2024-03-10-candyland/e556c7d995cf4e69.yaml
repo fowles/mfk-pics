@@ -10,3 +10,18 @@ lon: -68.40111449999999
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158861.069737
+  top:
+  - scientific: Monacanthus tuckeri
+    confidence: 0.1045
+  - scientific: Aulostomus maculatus
+    confidence: 0.0804
+  - scientific: Cyphoma gibbosum
+    confidence: 0.0263
+  absorbed_by:
+    scientific: Gorgonia ventalina
+    confidence: 0.581

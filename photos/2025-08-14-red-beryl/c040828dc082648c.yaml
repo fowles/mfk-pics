@@ -13,3 +13,20 @@ variants:
   file: c040828dc082648c.dive-plus.webp
   import_original_name: 6c5df55251b1bea3.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158337.3565772
+  top:
+  - scientific: Cephalopholis cruentata
+    confidence: 0.8392
+  - scientific: Acanthostracion polygonius
+    confidence: 0.0608
+  - scientific: Cephalopholis fulva
+    confidence: 0.0528
+species:
+- scientific: Cephalopholis cruentata
+  role: primary
+  confidence: 0.8392
+  identified_by: bioclip

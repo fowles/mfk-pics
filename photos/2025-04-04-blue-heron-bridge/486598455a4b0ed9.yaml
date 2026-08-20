@@ -10,3 +10,20 @@ variants:
   file: 486598455a4b0ed9.dive-plus.webp
   import_original_name: 0a19f398dd87d06d.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157490.9969397
+  top:
+  - scientific: Oreaster reticulatus
+    confidence: 0.9968
+  - scientific: Ginglymostoma cirratum
+    confidence: 0.0007
+  - scientific: Sepioteuthis sepioidea
+    confidence: 0.0006
+species:
+- scientific: Oreaster reticulatus
+  role: primary
+  confidence: 0.9968
+  identified_by: bioclip

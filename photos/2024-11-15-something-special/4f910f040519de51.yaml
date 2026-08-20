@@ -13,3 +13,20 @@ variants:
   file: 4f910f040519de51.dive-plus.webp
   import_original_name: 134ac15ef29d244d.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157212.818129
+  top:
+  - scientific: Megalops atlanticus
+    confidence: 0.748
+  - scientific: Abudefduf saxatilis
+    confidence: 0.0548
+  - scientific: Lutjanus synagris
+    confidence: 0.051
+species:
+- scientific: Megalops atlanticus
+  role: primary
+  confidence: 0.748
+  identified_by: bioclip

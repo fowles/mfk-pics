@@ -10,3 +10,20 @@ lon: -68.40111449999999
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156487.407716
+  top:
+  - scientific: Mycteroperca tigris
+    confidence: 0.5532
+  - scientific: Pterois volitans
+    confidence: 0.3406
+  - scientific: Equetus punctatus
+    confidence: 0.0109
+species:
+- scientific: Mycteroperca tigris
+  role: primary
+  confidence: 0.5532
+  identified_by: bioclip

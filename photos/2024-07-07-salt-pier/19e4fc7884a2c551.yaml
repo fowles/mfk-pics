@@ -13,3 +13,20 @@ variants:
   file: 19e4fc7884a2c551.dive-plus.webp
   import_original_name: c19f232c2c27548c.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159980.72583
+  top:
+  - scientific: Acanthostracion polygonius
+    confidence: 0.5573
+  - scientific: Sphoeroides spengleri
+    confidence: 0.217
+  - scientific: Pareques acuminatus
+    confidence: 0.0774
+species:
+- scientific: Acanthostracion polygonius
+  role: primary
+  confidence: 0.5573
+  identified_by: bioclip

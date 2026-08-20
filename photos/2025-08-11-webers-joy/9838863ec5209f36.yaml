@@ -13,3 +13,20 @@ variants:
   file: 9838863ec5209f36.dive-plus.webp
   import_original_name: 02227fcd960d484f.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786071915.9345558
+  top:
+  - scientific: Diadema antillarum
+    confidence: 0.7741
+  - scientific: Panulirus argus
+    confidence: 0.2069
+  - scientific: Stenopus hispidus
+    confidence: 0.0112
+species:
+- scientific: Diadema antillarum
+  role: primary
+  confidence: 0.7741
+  identified_by: bioclip

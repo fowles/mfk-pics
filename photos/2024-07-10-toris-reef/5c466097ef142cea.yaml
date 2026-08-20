@@ -13,3 +13,20 @@ variants:
   file: 5c466097ef142cea.dive-plus.webp
   import_original_name: 189fdc745ede0613.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786160203.486072
+  top:
+  - scientific: Enchelycore carychroa
+    confidence: 0.3661
+  - scientific: Aulostomus maculatus
+    confidence: 0.2362
+  - scientific: Gymnothorax miliaris
+    confidence: 0.1594
+species:
+- scientific: Enchelycore carychroa
+  role: primary
+  confidence: 0.3661
+  identified_by: bioclip

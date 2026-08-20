@@ -13,3 +13,20 @@ variants:
   file: e326baac83e94568.dive-plus.webp
   import_original_name: 7dfb7c44a4f72893.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159596.4712565
+  top:
+  - scientific: Scorpaena plumieri
+    confidence: 0.9992
+  - scientific: Hippocampus erectus
+    confidence: 0.0005
+  - scientific: Acanthostracion quadricornis
+    confidence: 0.0
+species:
+- scientific: Scorpaena plumieri
+  role: primary
+  confidence: 0.9992
+  identified_by: bioclip

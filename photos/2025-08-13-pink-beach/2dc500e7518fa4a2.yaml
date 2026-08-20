@@ -13,3 +13,20 @@ variants:
   file: 2dc500e7518fa4a2.dive-plus.webp
   import_original_name: 613362061e0bba14.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158188.1515806
+  top:
+  - scientific: Acanthostracion polygonius
+    confidence: 0.377
+  - scientific: Serranus tigrinus
+    confidence: 0.2174
+  - scientific: Lactophrys triqueter
+    confidence: 0.1071
+species:
+- scientific: Acanthostracion polygonius
+  role: primary
+  confidence: 0.377
+  identified_by: bioclip

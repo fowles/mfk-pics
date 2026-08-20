@@ -13,3 +13,20 @@ variants:
   file: 78216d50151af957.dive-plus.webp
   import_original_name: 6ceeb7ade316f27e.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786071915.0205078
+  top:
+  - scientific: Scarus coelestinus
+    confidence: 0.9101
+  - scientific: Aluterus scriptus
+    confidence: 0.0617
+  - scientific: Melichthys niger
+    confidence: 0.0046
+species:
+- scientific: Scarus coelestinus
+  role: primary
+  confidence: 0.9101
+  identified_by: bioclip

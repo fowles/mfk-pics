@@ -6,3 +6,20 @@ credit: Matthew Kulukundis
 import_album: 2025-08-14 - Bonaire, Invisibles
 import_original_name: PXL_20250814_163040126.MP.jpg
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158234.9207795
+  top:
+  - scientific: Sepioteuthis sepioidea
+    confidence: 0.3603
+  - scientific: Aulostomus maculatus
+    confidence: 0.2314
+  - scientific: Epinephelus itajara
+    confidence: 0.1104
+species:
+- scientific: Sepioteuthis sepioidea
+  role: primary
+  confidence: 0.3603
+  identified_by: bioclip

@@ -13,3 +13,20 @@ variants:
   file: 5a36712db15f941b.dive-plus.webp
   import_original_name: 1d74281d01897f78.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157213.6285486
+  top:
+  - scientific: Gymnothorax moringa
+    confidence: 0.9996
+  - scientific: Equetus punctatus
+    confidence: 0.0001
+  - scientific: Kyphosus sectatrix
+    confidence: 0.0001
+species:
+- scientific: Gymnothorax moringa
+  role: primary
+  confidence: 0.9996
+  identified_by: bioclip

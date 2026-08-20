@@ -13,3 +13,20 @@ variants:
   file: 2a4b3b04f72d1e49.dive-plus.webp
   import_original_name: cf91e8ccdd272dc4.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157883.1834438
+  top:
+  - scientific: Dactylopterus volitans
+    confidence: 0.3004
+  - scientific: Xyrichtys splendens
+    confidence: 0.1355
+  - scientific: Synodus intermedius
+    confidence: 0.11
+species:
+- scientific: Dactylopterus volitans
+  role: primary
+  confidence: 0.3004
+  identified_by: bioclip

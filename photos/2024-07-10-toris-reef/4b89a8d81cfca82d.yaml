@@ -13,3 +13,20 @@ lat: 12.070475199999999
 lon: -68.2806703
 gps_source: manual
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786160162.881
+  top:
+  - scientific: Canthidermis sufflamen
+    confidence: 0.6243
+  - scientific: Carcharhinus perezi
+    confidence: 0.2173
+  - scientific: Haemulon sciurus
+    confidence: 0.0392
+species:
+- scientific: Canthidermis sufflamen
+  role: primary
+  confidence: 0.6243
+  identified_by: bioclip

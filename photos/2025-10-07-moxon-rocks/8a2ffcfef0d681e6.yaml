@@ -9,3 +9,20 @@ lat: 25.54167
 lon: -79.27083
 gps_source: dive_site
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159802.5257137
+  top:
+  - scientific: Halichoeres maculipinna
+    confidence: 0.791
+  - scientific: Thalassoma bifasciatum
+    confidence: 0.1556
+  - scientific: Halichoeres radiatus
+    confidence: 0.0368
+species:
+- scientific: Halichoeres maculipinna
+  role: primary
+  confidence: 0.791
+  identified_by: bioclip

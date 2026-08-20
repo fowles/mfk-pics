@@ -13,3 +13,20 @@ variants:
   file: b460692d36a69f6c.dive-plus.webp
   import_original_name: 3e36ced42753a200.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156359.4546425
+  top:
+  - scientific: Gymnothorax moringa
+    confidence: 0.7455
+  - scientific: Bothus lunatus
+    confidence: 0.115
+  - scientific: Gymnothorax miliaris
+    confidence: 0.0447
+species:
+- scientific: Gymnothorax moringa
+  role: primary
+  confidence: 0.7455
+  identified_by: bioclip

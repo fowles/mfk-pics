@@ -10,3 +10,20 @@ lon: -68.28180019999999
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157572.6150346
+  top:
+  - scientific: Ocyurus chrysurus
+    confidence: 0.5061
+  - scientific: Anisotremus virginicus
+    confidence: 0.1774
+  - scientific: Calamus calamus
+    confidence: 0.0935
+species:
+- scientific: Ocyurus chrysurus
+  role: primary
+  confidence: 0.5061
+  identified_by: bioclip

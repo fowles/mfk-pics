@@ -14,3 +14,20 @@ variants:
   import_original_name: a462ea267b091327.webp
 date_reviewed: true
 rotation_applied: 270
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1787178406.2208529
+  top:
+  - scientific: Emblemaria pandionis
+    confidence: 0.349
+  - scientific: Gnatholepis thompsoni
+    confidence: 0.2735
+  - scientific: Hippocampus erectus
+    confidence: 0.1709
+species:
+- scientific: Emblemaria pandionis
+  role: primary
+  confidence: 0.349
+  identified_by: bioclip

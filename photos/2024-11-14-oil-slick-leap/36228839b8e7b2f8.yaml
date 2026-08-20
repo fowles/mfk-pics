@@ -13,3 +13,20 @@ variants:
   file: 36228839b8e7b2f8.dive-plus.webp
   import_original_name: 7d14ed7e7ff7cd70.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156899.3409297
+  top:
+  - scientific: Ocyurus chrysurus
+    confidence: 0.3046
+  - scientific: Sepioteuthis sepioidea
+    confidence: 0.1863
+  - scientific: Epinephelus striatus
+    confidence: 0.1307
+species:
+- scientific: Ocyurus chrysurus
+  role: primary
+  confidence: 0.3046
+  identified_by: bioclip

@@ -13,3 +13,18 @@ variants:
   file: 99e49717f2f52541.dive-plus.webp
   import_original_name: b7e9e75171c99dfc.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158874.6342342
+  top:
+  - scientific: Melichthys niger
+    confidence: 0.0911
+  - scientific: Thalassoma bifasciatum
+    confidence: 0.0615
+  - scientific: Haemulon carbonarium
+    confidence: 0.0366
+  absorbed_by:
+    scientific: Madracis auretenra
+    confidence: 0.2045

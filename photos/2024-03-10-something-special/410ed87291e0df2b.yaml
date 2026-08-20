@@ -13,3 +13,20 @@ variants:
   file: 410ed87291e0df2b.dive-plus.webp
   import_original_name: 014ff303b589fd29.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159067.3585508
+  top:
+  - scientific: Trachinotus goodei
+    confidence: 0.1408
+  - scientific: Bothus lunatus
+    confidence: 0.1312
+  - scientific: Hypanus americanus
+    confidence: 0.1045
+species:
+- scientific: Trachinotus goodei
+  role: primary
+  confidence: 0.1408
+  identified_by: bioclip

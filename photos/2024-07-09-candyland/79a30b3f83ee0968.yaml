@@ -10,3 +10,20 @@ variants:
   file: 79a30b3f83ee0968.dive-plus.webp
   import_original_name: 9adf277d3d797021.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159182.1400073
+  top:
+  - scientific: Serranus tigrinus
+    confidence: 0.5298
+  - scientific: Eretmochelys imbricata
+    confidence: 0.1581
+  - scientific: Lactophrys triqueter
+    confidence: 0.0775
+species:
+- scientific: Serranus tigrinus
+  role: primary
+  confidence: 0.5298
+  identified_by: bioclip

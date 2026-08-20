@@ -13,3 +13,20 @@ variants:
   file: 090dab44f00061af.dive-plus.webp
   import_original_name: ca9d2c75b8dd72e8.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156743.704285
+  top:
+  - scientific: Gymnothorax funebris
+    confidence: 0.2198
+  - scientific: Lactophrys triqueter
+    confidence: 0.1699
+  - scientific: Melichthys niger
+    confidence: 0.1537
+species:
+- scientific: Gymnothorax funebris
+  role: primary
+  confidence: 0.2198
+  identified_by: bioclip

@@ -13,3 +13,20 @@ variants:
   file: 381765b305ab1d62.dive-plus.webp
   import_original_name: 747a28ddf70640c9.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156744.8449078
+  top:
+  - scientific: Melichthys niger
+    confidence: 0.3794
+  - scientific: Pomacanthus arcuatus
+    confidence: 0.2124
+  - scientific: Pareques acuminatus
+    confidence: 0.1135
+species:
+- scientific: Melichthys niger
+  role: primary
+  confidence: 0.3794
+  identified_by: bioclip

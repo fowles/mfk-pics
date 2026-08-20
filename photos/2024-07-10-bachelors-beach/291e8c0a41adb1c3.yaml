@@ -13,3 +13,20 @@ variants:
   file: 291e8c0a41adb1c3.dive-plus.webp
   import_original_name: e56356c4c18d7c6c.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158750.6832337
+  top:
+  - scientific: Sparisoma viride
+    confidence: 0.159
+  - scientific: Scarus coelestinus
+    confidence: 0.1571
+  - scientific: Aulostomus maculatus
+    confidence: 0.1493
+species:
+- scientific: Sparisoma viride
+  role: primary
+  confidence: 0.159
+  identified_by: bioclip

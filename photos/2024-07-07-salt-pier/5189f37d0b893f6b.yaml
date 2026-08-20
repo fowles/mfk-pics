@@ -13,3 +13,20 @@ variants:
   file: 5189f37d0b893f6b.dive-plus.webp
   import_original_name: 0e51271ad97adcb1.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159969.6025405
+  top:
+  - scientific: Heteroconger longissimus
+    confidence: 0.7557
+  - scientific: Gymnothorax funebris
+    confidence: 0.0677
+  - scientific: Opistognathus aurifrons
+    confidence: 0.0318
+species:
+- scientific: Heteroconger longissimus
+  role: primary
+  confidence: 0.7557
+  identified_by: bioclip

@@ -13,3 +13,20 @@ variants:
   file: 91781fcad35f4030.dive-plus.webp
   import_original_name: 7483f607f9ad66dc.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159987.601362
+  top:
+  - scientific: Hypoplectrus puella
+    confidence: 0.6756
+  - scientific: Sphoeroides spengleri
+    confidence: 0.0517
+  - scientific: Aulostomus maculatus
+    confidence: 0.0439
+species:
+- scientific: Hypoplectrus puella
+  role: primary
+  confidence: 0.6756
+  identified_by: bioclip

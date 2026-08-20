@@ -10,3 +10,20 @@ variants:
   file: bbb7f4ead1f972f5.dive-plus.webp
   import_original_name: 130a7455487e7315.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158873.1446564
+  top:
+  - scientific: Aluterus scriptus
+    confidence: 0.4303
+  - scientific: Aulostomus maculatus
+    confidence: 0.3297
+  - scientific: Scarus coelestinus
+    confidence: 0.1349
+species:
+- scientific: Aluterus scriptus
+  role: primary
+  confidence: 0.4303
+  identified_by: bioclip

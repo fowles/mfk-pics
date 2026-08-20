@@ -13,3 +13,20 @@ variants:
   file: 611085bd9010920f.dive-plus.webp
   import_original_name: 960077928d611e21.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159985.8089015
+  top:
+  - scientific: Gymnothorax miliaris
+    confidence: 0.4163
+  - scientific: Aulostomus maculatus
+    confidence: 0.1637
+  - scientific: Gymnothorax funebris
+    confidence: 0.1452
+species:
+- scientific: Gymnothorax miliaris
+  role: primary
+  confidence: 0.4163
+  identified_by: bioclip

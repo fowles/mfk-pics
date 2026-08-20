@@ -13,3 +13,20 @@ variants:
   file: 100e5fa29dbfa884.dive-plus.webp
   import_original_name: 834ce94558d36d0d.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157214.8903766
+  top:
+  - scientific: Opistognathus aurifrons
+    confidence: 0.5764
+  - scientific: Diodon holocanthus
+    confidence: 0.0832
+  - scientific: Thalassoma bifasciatum
+    confidence: 0.0783
+species:
+- scientific: Opistognathus aurifrons
+  role: primary
+  confidence: 0.5764
+  identified_by: bioclip

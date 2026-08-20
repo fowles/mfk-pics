@@ -10,3 +10,20 @@ lon: -68.2874429
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158712.2207549
+  top:
+  - scientific: Kyphosus sectatrix
+    confidence: 0.2971
+  - scientific: Haemulon chrysargyreum
+    confidence: 0.2363
+  - scientific: Haemulon aurolineatum
+    confidence: 0.1828
+species:
+- scientific: Kyphosus sectatrix
+  role: primary
+  confidence: 0.2971
+  identified_by: bioclip

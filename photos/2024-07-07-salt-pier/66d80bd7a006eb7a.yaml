@@ -13,3 +13,18 @@ variants:
   file: 66d80bd7a006eb7a.dive-plus.webp
   import_original_name: 7fd54c9238881a41.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159975.4510264
+  top:
+  - scientific: Diodon holocanthus
+    confidence: 0.0848
+  - scientific: Elacatinus evelynae
+    confidence: 0.0702
+  - scientific: Acanthostracion polygonius
+    confidence: 0.0537
+  absorbed_by:
+    scientific: Xestospongia muta
+    confidence: 0.3809

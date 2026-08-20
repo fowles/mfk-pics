@@ -10,3 +10,20 @@ lon: -68.28015169999999
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786071953.9367113
+  top:
+  - scientific: Hippocampus erectus
+    confidence: 0.5062
+  - scientific: Pterois volitans
+    confidence: 0.3817
+  - scientific: Cyphoma gibbosum
+    confidence: 0.05
+species:
+- scientific: Hippocampus erectus
+  role: primary
+  confidence: 0.5062
+  identified_by: bioclip

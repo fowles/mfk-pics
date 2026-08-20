@@ -10,3 +10,20 @@ lon: -68.2678076
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158333.8330696
+  top:
+  - scientific: Hypoplectrus chlorurus
+    confidence: 0.6224
+  - scientific: Holacanthus tricolor
+    confidence: 0.2408
+  - scientific: Microspathodon chrysurus
+    confidence: 0.0619
+species:
+- scientific: Hypoplectrus chlorurus
+  role: primary
+  confidence: 0.6224
+  identified_by: bioclip

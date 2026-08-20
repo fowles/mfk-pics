@@ -10,3 +10,20 @@ variants:
   file: 46f83581761eacec.dive-plus.webp
   import_original_name: 6cf77f2fdd9164b1.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158725.204599
+  top:
+  - scientific: Hypoplectrus nigricans
+    confidence: 0.6779
+  - scientific: Holacanthus ciliaris
+    confidence: 0.0772
+  - scientific: Cantherhines macrocerus
+    confidence: 0.0259
+species:
+- scientific: Hypoplectrus nigricans
+  role: primary
+  confidence: 0.6779
+  identified_by: bioclip

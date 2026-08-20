@@ -13,3 +13,20 @@ variants:
   file: 6ecd0e24798bb35b.dive-plus.webp
   import_original_name: 4238d6b711d63a77.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786160213.0866368
+  top:
+  - scientific: Gymnothorax funebris
+    confidence: 0.5261
+  - scientific: Epinephelus striatus
+    confidence: 0.0804
+  - scientific: Sparisoma viride
+    confidence: 0.0421
+species:
+- scientific: Gymnothorax funebris
+  role: primary
+  confidence: 0.5261
+  identified_by: bioclip

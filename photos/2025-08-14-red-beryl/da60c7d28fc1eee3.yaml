@@ -13,3 +13,18 @@ variants:
   file: da60c7d28fc1eee3.dive-plus.webp
   import_original_name: 36b31195923a7efa.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158337.3086462
+  top:
+  - scientific: Pareques acuminatus
+    confidence: 0.1925
+  - scientific: Synodus intermedius
+    confidence: 0.0766
+  - scientific: Acanthostracion polygonius
+    confidence: 0.0737
+  absorbed_by:
+    scientific: Xestospongia muta
+    confidence: 0.3134

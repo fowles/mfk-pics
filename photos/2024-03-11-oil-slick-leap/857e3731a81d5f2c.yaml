@@ -13,3 +13,20 @@ variants:
   file: 857e3731a81d5f2c.dive-plus.webp
   import_original_name: 7753358175bfc110.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158980.9743
+  top:
+  - scientific: Thalassoma bifasciatum
+    confidence: 0.5659
+  - scientific: Haemulon carbonarium
+    confidence: 0.0797
+  - scientific: Sphyraena barracuda
+    confidence: 0.0743
+species:
+- scientific: Thalassoma bifasciatum
+  role: primary
+  confidence: 0.5659
+  identified_by: bioclip

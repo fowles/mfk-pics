@@ -12,3 +12,20 @@ variants:
 date_reviewed: true
 extra_variants:
 - dicam
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156979.8784099
+  top:
+  - scientific: Acanthostracion polygonius
+    confidence: 0.3533
+  - scientific: Acanthostracion quadricornis
+    confidence: 0.1525
+  - scientific: Bothus lunatus
+    confidence: 0.1068
+species:
+- scientific: Acanthostracion polygonius
+  role: primary
+  confidence: 0.3533
+  identified_by: bioclip

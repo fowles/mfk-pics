@@ -11,3 +11,20 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 rotation_applied: 90
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1787029206.3976755
+  top:
+  - scientific: Aulostomus maculatus
+    confidence: 0.8316
+  - scientific: Echeneis naucrates
+    confidence: 0.1594
+  - scientific: Pareques acuminatus
+    confidence: 0.0052
+species:
+- scientific: Aulostomus maculatus
+  role: primary
+  confidence: 0.8316
+  identified_by: bioclip

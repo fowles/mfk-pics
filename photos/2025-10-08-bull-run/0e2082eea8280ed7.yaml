@@ -10,3 +10,20 @@ lon: -79.2641
 gps_source: dive_site
 date_reviewed: true
 rotation_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159808.031247
+  top:
+  - scientific: Caranx crysos
+    confidence: 0.3048
+  - scientific: Megalops atlanticus
+    confidence: 0.2901
+  - scientific: Scomberomorus regalis
+    confidence: 0.0822
+species:
+- scientific: Caranx crysos
+  role: primary
+  confidence: 0.3048
+  identified_by: bioclip

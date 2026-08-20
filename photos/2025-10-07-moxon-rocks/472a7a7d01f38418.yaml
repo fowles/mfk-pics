@@ -9,3 +9,20 @@ lat: 25.54167
 lon: -79.27083
 gps_source: dive_site
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159800.104866
+  top:
+  - scientific: Stegastes adustus
+    confidence: 0.4886
+  - scientific: Percnon gibbesi
+    confidence: 0.3306
+  - scientific: Stegastes diencaeus
+    confidence: 0.1008
+species:
+- scientific: Stegastes adustus
+  role: primary
+  confidence: 0.4886
+  identified_by: bioclip

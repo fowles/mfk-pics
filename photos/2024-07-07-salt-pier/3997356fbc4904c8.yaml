@@ -14,3 +14,20 @@ variants:
   import_original_name: 78f06e29bd8180e5.webp
 date_reviewed: true
 rotation_applied: 90
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1787028732.2970006
+  top:
+  - scientific: Scorpaena plumieri
+    confidence: 0.4375
+  - scientific: Acanthostracion polygonius
+    confidence: 0.3227
+  - scientific: Sphoeroides spengleri
+    confidence: 0.0577
+species:
+- scientific: Scorpaena plumieri
+  role: primary
+  confidence: 0.4375
+  identified_by: bioclip

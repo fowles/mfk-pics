@@ -10,3 +10,20 @@ variants:
   file: 42ed2fb4961c9aa0.dive-plus.webp
   import_original_name: dfe200a162cbbfa6.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158972.8799021
+  top:
+  - scientific: Hypoplectrus indigo
+    confidence: 0.2832
+  - scientific: Thalassoma bifasciatum
+    confidence: 0.1017
+  - scientific: Hypoplectrus puella
+    confidence: 0.0876
+species:
+- scientific: Hypoplectrus indigo
+  role: primary
+  confidence: 0.2832
+  identified_by: bioclip

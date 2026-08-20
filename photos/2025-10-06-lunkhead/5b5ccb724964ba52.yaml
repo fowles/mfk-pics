@@ -10,3 +10,20 @@ lon: -79.2431
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159780.1714432
+  top:
+  - scientific: Selar crumenophthalmus
+    confidence: 0.3816
+  - scientific: Atherinomorus stipes
+    confidence: 0.2943
+  - scientific: Megalops atlanticus
+    confidence: 0.2345
+species:
+- scientific: Selar crumenophthalmus
+  role: primary
+  confidence: 0.3816
+  identified_by: bioclip

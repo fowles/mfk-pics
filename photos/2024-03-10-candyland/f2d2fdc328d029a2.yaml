@@ -13,3 +13,20 @@ variants:
   file: f2d2fdc328d029a2.dive-plus.webp
   import_original_name: 60a77a6f83f48145.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158875.240859
+  top:
+  - scientific: Thalassoma bifasciatum
+    confidence: 0.1639
+  - scientific: Diadema antillarum
+    confidence: 0.1486
+  - scientific: Gramma loreto
+    confidence: 0.0892
+species:
+- scientific: Thalassoma bifasciatum
+  role: primary
+  confidence: 0.1639
+  identified_by: bioclip

@@ -13,3 +13,20 @@ variants:
   file: 953ab6c0dc45580b.dive-plus.webp
   import_original_name: ece33e86a7b1a6f6.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156982.0222719
+  top:
+  - scientific: Hippocampus erectus
+    confidence: 0.6354
+  - scientific: Aulostomus maculatus
+    confidence: 0.164
+  - scientific: Synodus intermedius
+    confidence: 0.0407
+species:
+- scientific: Hippocampus erectus
+  role: primary
+  confidence: 0.6354
+  identified_by: bioclip

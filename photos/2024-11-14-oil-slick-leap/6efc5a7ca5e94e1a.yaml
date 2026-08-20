@@ -10,3 +10,20 @@ variants:
   file: 6efc5a7ca5e94e1a.dive-plus.webp
   import_original_name: 66b9d27568397651.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156897.0713
+  top:
+  - scientific: Sepioteuthis sepioidea
+    confidence: 0.7145
+  - scientific: Hypanus americanus
+    confidence: 0.0574
+  - scientific: Gymnothorax vicinus
+    confidence: 0.0523
+species:
+- scientific: Sepioteuthis sepioidea
+  role: primary
+  confidence: 0.7145
+  identified_by: bioclip

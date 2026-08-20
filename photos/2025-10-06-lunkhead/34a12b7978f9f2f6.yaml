@@ -10,3 +10,20 @@ lon: -79.2431
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159787.3202372
+  top:
+  - scientific: Aulostomus maculatus
+    confidence: 0.3326
+  - scientific: Sphyraena barracuda
+    confidence: 0.2999
+  - scientific: Haemulon sciurus
+    confidence: 0.201
+species:
+- scientific: Aulostomus maculatus
+  role: primary
+  confidence: 0.3326
+  identified_by: bioclip

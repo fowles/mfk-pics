@@ -13,3 +13,20 @@ variants:
   file: c1efcbb1bee3327b.dive-plus.webp
   import_original_name: b288ba4d6b9eae76.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157215.6029866
+  top:
+  - scientific: Centropyge argi
+    confidence: 0.7008
+  - scientific: Opistognathus aurifrons
+    confidence: 0.0692
+  - scientific: Heteropriacanthus cruentatus
+    confidence: 0.0147
+species:
+- scientific: Centropyge argi
+  role: primary
+  confidence: 0.7008
+  identified_by: bioclip

@@ -13,3 +13,20 @@ variants:
   file: 7bf82fca2cd9949a.dive-plus.webp
   import_original_name: 2f527b6b4757bf91.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156582.2761977
+  top:
+  - scientific: Diodon hystrix
+    confidence: 0.4471
+  - scientific: Dactylopterus volitans
+    confidence: 0.2258
+  - scientific: Acanthostracion polygonius
+    confidence: 0.1112
+species:
+- scientific: Diodon hystrix
+  role: primary
+  confidence: 0.4471
+  identified_by: bioclip

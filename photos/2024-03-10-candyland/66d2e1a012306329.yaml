@@ -10,3 +10,20 @@ variants:
   file: 66d2e1a012306329.dive-plus.webp
   import_original_name: c47863542b8b29ab.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158872.4275901
+  top:
+  - scientific: Sparisoma viride
+    confidence: 0.4053
+  - scientific: Scarus coelestinus
+    confidence: 0.0284
+  - scientific: Halichoeres pictus
+    confidence: 0.0249
+species:
+- scientific: Sparisoma viride
+  role: primary
+  confidence: 0.4053
+  identified_by: bioclip

@@ -10,3 +10,20 @@ lon: -68.28180019999999
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156315.4401057
+  top:
+  - scientific: Synodus intermedius
+    confidence: 0.665
+  - scientific: Serranus tigrinus
+    confidence: 0.1444
+  - scientific: Hippocampus erectus
+    confidence: 0.0231
+species:
+- scientific: Synodus intermedius
+  role: primary
+  confidence: 0.665
+  identified_by: bioclip

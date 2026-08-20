@@ -9,3 +9,20 @@ lat: 25.5543
 lon: -79.2886
 gps_source: dive_site
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159798.4176574
+  top:
+  - scientific: Sargocentron coruscum
+    confidence: 0.8119
+  - scientific: Serranus tigrinus
+    confidence: 0.0928
+  - scientific: Gramma loreto
+    confidence: 0.0283
+species:
+- scientific: Sargocentron coruscum
+  role: primary
+  confidence: 0.8119
+  identified_by: bioclip

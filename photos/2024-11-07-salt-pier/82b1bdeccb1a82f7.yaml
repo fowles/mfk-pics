@@ -10,3 +10,20 @@ variants:
   file: 82b1bdeccb1a82f7.dive-plus.webp
   import_original_name: 33fab6811a015293.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156339.1478004
+  top:
+  - scientific: Synodus intermedius
+    confidence: 0.9913
+  - scientific: Aulostomus maculatus
+    confidence: 0.0024
+  - scientific: Sphoeroides spengleri
+    confidence: 0.0017
+species:
+- scientific: Synodus intermedius
+  role: primary
+  confidence: 0.9913
+  identified_by: bioclip

@@ -13,3 +13,20 @@ variants:
   file: 77470d7ae6e69263.dive-plus.webp
   import_original_name: 99051f8e13dbea43.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156900.3539102
+  top:
+  - scientific: Serranus tigrinus
+    confidence: 0.328
+  - scientific: Lactophrys triqueter
+    confidence: 0.2688
+  - scientific: Epinephelus striatus
+    confidence: 0.1036
+species:
+- scientific: Serranus tigrinus
+  role: primary
+  confidence: 0.328
+  identified_by: bioclip

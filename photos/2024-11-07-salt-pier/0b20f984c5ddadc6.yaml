@@ -13,3 +13,20 @@ variants:
   file: 0b20f984c5ddadc6.dive-plus.webp
   import_original_name: f489eef836c030cd.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156367.7584488
+  top:
+  - scientific: Thalassoma bifasciatum
+    confidence: 0.6014
+  - scientific: Hermodice carunculata
+    confidence: 0.0756
+  - scientific: Aulostomus maculatus
+    confidence: 0.0623
+species:
+- scientific: Thalassoma bifasciatum
+  role: primary
+  confidence: 0.6014
+  identified_by: bioclip

@@ -10,3 +10,20 @@ variants:
   file: e555b6e313b62e97.dive-plus.webp
   import_original_name: 5c22b0e0189140c4.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156979.5970588
+  top:
+  - scientific: Scarus coelestinus
+    confidence: 0.3907
+  - scientific: Aulostomus maculatus
+    confidence: 0.1232
+  - scientific: Thalassoma bifasciatum
+    confidence: 0.0491
+species:
+- scientific: Scarus coelestinus
+  role: primary
+  confidence: 0.3907
+  identified_by: bioclip

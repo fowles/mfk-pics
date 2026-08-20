@@ -10,3 +10,20 @@ variants:
   file: c5beec2836a88723.dive-plus.webp
   import_original_name: 11cd505762271741.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157491.3930945
+  top:
+  - scientific: Xyrichtys martinicensis
+    confidence: 0.3931
+  - scientific: Xyrichtys splendens
+    confidence: 0.3379
+  - scientific: Pseudupeneus maculatus
+    confidence: 0.1103
+species:
+- scientific: Xyrichtys martinicensis
+  role: primary
+  confidence: 0.3931
+  identified_by: bioclip

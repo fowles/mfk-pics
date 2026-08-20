@@ -13,3 +13,20 @@ variants:
   file: 7d72e016bc1de7e0.dive-plus.webp
   import_original_name: 748aaa54bcbcce1f.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156370.1775172
+  top:
+  - scientific: Halichoeres bivittatus
+    confidence: 0.5541
+  - scientific: Thalassoma bifasciatum
+    confidence: 0.3497
+  - scientific: Halichoeres pictus
+    confidence: 0.017
+species:
+- scientific: Halichoeres bivittatus
+  role: primary
+  confidence: 0.5541
+  identified_by: bioclip

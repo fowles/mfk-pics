@@ -13,3 +13,20 @@ variants:
   file: ea402c9c68d60b61.dive-plus.webp
   import_original_name: 2bb48f062f68e6c9.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157215.5282214
+  top:
+  - scientific: Aluterus scriptus
+    confidence: 0.9743
+  - scientific: Diodon hystrix
+    confidence: 0.0056
+  - scientific: Lutjanus synagris
+    confidence: 0.0051
+species:
+- scientific: Aluterus scriptus
+  role: primary
+  confidence: 0.9743
+  identified_by: bioclip

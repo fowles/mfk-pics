@@ -13,3 +13,20 @@ variants:
   file: b85647b508abf435.dive-plus.webp
   import_original_name: 78d8135b2fc6529c.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157881.6765246
+  top:
+  - scientific: Ginglymostoma cirratum
+    confidence: 0.8522
+  - scientific: Aetobatus narinari
+    confidence: 0.0949
+  - scientific: Sphyraena barracuda
+    confidence: 0.019
+species:
+- scientific: Ginglymostoma cirratum
+  role: primary
+  confidence: 0.8522
+  identified_by: bioclip

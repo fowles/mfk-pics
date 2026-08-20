@@ -13,3 +13,20 @@ variants:
   file: 39b0efe2e78cbc36.dive-plus.webp
   import_original_name: 33087a21c784ab29.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159986.4970071
+  top:
+  - scientific: Sparisoma viride
+    confidence: 0.3759
+  - scientific: Sparisoma rubripinne
+    confidence: 0.2223
+  - scientific: Sparisoma aurofrenatum
+    confidence: 0.1886
+species:
+- scientific: Sparisoma viride
+  role: primary
+  confidence: 0.3759
+  identified_by: bioclip

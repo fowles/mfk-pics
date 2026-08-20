@@ -13,3 +13,20 @@ variants:
   file: 73acbd94fe09decf.dive-plus.webp
   import_original_name: 75d9201fd77e5e53.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159585.860415
+  top:
+  - scientific: Chelonia mydas
+    confidence: 0.7079
+  - scientific: Eretmochelys imbricata
+    confidence: 0.2094
+  - scientific: Caretta caretta
+    confidence: 0.081
+species:
+- scientific: Chelonia mydas
+  role: primary
+  confidence: 0.7079
+  identified_by: bioclip

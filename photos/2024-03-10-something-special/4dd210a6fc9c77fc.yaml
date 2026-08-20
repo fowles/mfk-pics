@@ -10,3 +10,20 @@ variants:
   file: 4dd210a6fc9c77fc.dive-plus.webp
   import_original_name: d06cfb33ae17e4dc.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159065.099573
+  top:
+  - scientific: Elacatinus genie
+    confidence: 0.2949
+  - scientific: Thalassoma bifasciatum
+    confidence: 0.1183
+  - scientific: Diadema antillarum
+    confidence: 0.1093
+species:
+- scientific: Elacatinus genie
+  role: primary
+  confidence: 0.2949
+  identified_by: bioclip

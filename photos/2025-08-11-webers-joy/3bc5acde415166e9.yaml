@@ -13,3 +13,18 @@ variants:
   file: 3bc5acde415166e9.dive-plus.webp
   import_original_name: fbb0a0d392047baf.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786071913.33714
+  top:
+  - scientific: Aulostomus maculatus
+    confidence: 0.1142
+  - scientific: Acanthostracion quadricornis
+    confidence: 0.1087
+  - scientific: Bothus lunatus
+    confidence: 0.0793
+  absorbed_by:
+    scientific: Gorgonia ventalina
+    confidence: 0.2066

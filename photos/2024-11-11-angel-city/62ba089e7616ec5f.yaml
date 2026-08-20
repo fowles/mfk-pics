@@ -13,3 +13,20 @@ variants:
   file: 62ba089e7616ec5f.dive-plus.webp
   import_original_name: 4399f6ddd9ed33ef.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156744.9887252
+  top:
+  - scientific: Epinephelus striatus
+    confidence: 0.7669
+  - scientific: Epinephelus itajara
+    confidence: 0.0492
+  - scientific: Sepioteuthis sepioidea
+    confidence: 0.0448
+species:
+- scientific: Epinephelus striatus
+  role: primary
+  confidence: 0.7669
+  identified_by: bioclip

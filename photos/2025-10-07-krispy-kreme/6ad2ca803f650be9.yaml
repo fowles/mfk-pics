@@ -13,3 +13,15 @@ species:
 - scientific: Homo sapiens
   role: primary
   identified_by: human
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159794.9153666
+  top:
+  - scientific: Sepioteuthis sepioidea
+    confidence: 0.8726
+  - scientific: Sparisoma viride
+    confidence: 0.0235
+  - scientific: Epinephelus itajara
+    confidence: 0.0087

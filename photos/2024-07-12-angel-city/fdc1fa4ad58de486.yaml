@@ -13,3 +13,20 @@ variants:
   file: fdc1fa4ad58de486.dive-plus.webp
   import_original_name: 1bcb1c390d394329.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158513.9510078
+  top:
+  - scientific: Epinephelus itajara
+    confidence: 0.6217
+  - scientific: Holothuria mexicana
+    confidence: 0.2327
+  - scientific: Synodus intermedius
+    confidence: 0.1001
+species:
+- scientific: Epinephelus itajara
+  role: primary
+  confidence: 0.6217
+  identified_by: bioclip

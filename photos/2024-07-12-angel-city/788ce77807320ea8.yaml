@@ -10,3 +10,20 @@ variants:
   file: 788ce77807320ea8.dive-plus.webp
   import_original_name: 1acf37671c4adc4c.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158501.754898
+  top:
+  - scientific: Hypoplectrus puella
+    confidence: 0.2623
+  - scientific: Sparisoma viride
+    confidence: 0.16
+  - scientific: Hypoplectrus chlorurus
+    confidence: 0.1341
+species:
+- scientific: Hypoplectrus puella
+  role: primary
+  confidence: 0.2623
+  identified_by: bioclip

@@ -13,3 +13,20 @@ variants:
   file: 4f464989f5144653.dive-plus.webp
   import_original_name: a9d9c9ce024b6115.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156584.118352
+  top:
+  - scientific: Mycteroperca venenosa
+    confidence: 0.4883
+  - scientific: Haemulon sciurus
+    confidence: 0.3959
+  - scientific: Haemulon macrostomum
+    confidence: 0.067
+species:
+- scientific: Mycteroperca venenosa
+  role: primary
+  confidence: 0.4883
+  identified_by: bioclip

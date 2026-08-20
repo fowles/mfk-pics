@@ -10,3 +10,18 @@ variants:
   file: ce58940c16ce92c2.dive-plus.webp
   import_original_name: 4b61d10eb99cc3b9.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158732.560003
+  top:
+  - scientific: Hypoplectrus nigricans
+    confidence: 0.0889
+  - scientific: Haemulon macrostomum
+    confidence: 0.0364
+  - scientific: Monacanthus tuckeri
+    confidence: 0.0184
+  absorbed_by:
+    scientific: Antillogorgia americana
+    confidence: 0.7916

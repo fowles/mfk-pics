@@ -10,3 +10,20 @@ lon: -68.40111449999999
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158850.923951
+  top:
+  - scientific: Haemulon macrostomum
+    confidence: 0.7446
+  - scientific: Amblycirrhitus pinos
+    confidence: 0.057
+  - scientific: Haemulon chrysargyreum
+    confidence: 0.0384
+species:
+- scientific: Haemulon macrostomum
+  role: primary
+  confidence: 0.7446
+  identified_by: bioclip

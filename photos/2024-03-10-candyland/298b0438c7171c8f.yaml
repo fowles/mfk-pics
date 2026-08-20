@@ -10,3 +10,20 @@ variants:
   file: 298b0438c7171c8f.dive-plus.webp
   import_original_name: 9fd19416bc69012f.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158872.6220012
+  top:
+  - scientific: Aluterus scriptus
+    confidence: 0.4173
+  - scientific: Scarus coelestinus
+    confidence: 0.3186
+  - scientific: Sparisoma viride
+    confidence: 0.0891
+species:
+- scientific: Aluterus scriptus
+  role: primary
+  confidence: 0.4173
+  identified_by: bioclip

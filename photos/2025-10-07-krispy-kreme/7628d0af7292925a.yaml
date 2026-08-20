@@ -9,3 +9,20 @@ lat: 25.5543
 lon: -79.2886
 gps_source: dive_site
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159793.6670341
+  top:
+  - scientific: Epinephelus striatus
+    confidence: 0.687
+  - scientific: Mycteroperca tigris
+    confidence: 0.1354
+  - scientific: Aluterus scriptus
+    confidence: 0.0573
+species:
+- scientific: Epinephelus striatus
+  role: primary
+  confidence: 0.687
+  identified_by: bioclip

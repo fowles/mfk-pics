@@ -10,3 +10,20 @@ variants:
   file: 1cd5bcd6acb3498b.dive-plus.webp
   import_original_name: 2b4560bdbd1a0e71.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157280.7886236
+  top:
+  - scientific: Heteroconger longissimus
+    confidence: 0.2619
+  - scientific: Bothus lunatus
+    confidence: 0.2533
+  - scientific: Opistognathus aurifrons
+    confidence: 0.126
+species:
+- scientific: Heteroconger longissimus
+  role: primary
+  confidence: 0.2619
+  identified_by: bioclip

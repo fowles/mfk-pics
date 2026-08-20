@@ -10,3 +10,20 @@ variants:
   file: ef67c05da98a76f6.dive-plus.webp
   import_original_name: 685feeb7e5107a09.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158187.150005
+  top:
+  - scientific: Sepioteuthis sepioidea
+    confidence: 0.2291
+  - scientific: Haemulon macrostomum
+    confidence: 0.1719
+  - scientific: Sphoeroides spengleri
+    confidence: 0.0996
+species:
+- scientific: Sepioteuthis sepioidea
+  role: primary
+  confidence: 0.2291
+  identified_by: bioclip

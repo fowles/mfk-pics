@@ -13,3 +13,18 @@ variants:
   file: ea8c6bc8b2c16b55.dive-plus.webp
   import_original_name: b917a35fcff19506.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156581.1907387
+  top:
+  - scientific: Aulostomus maculatus
+    confidence: 0.0383
+  - scientific: Elacatinus genie
+    confidence: 0.004
+  - scientific: Cyphoma gibbosum
+    confidence: 0.0027
+  absorbed_by:
+    scientific: Aplysina archeri
+    confidence: 0.8357

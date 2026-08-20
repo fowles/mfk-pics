@@ -13,3 +13,20 @@ variants:
   file: 4320b1274e906444.dive-plus.webp
   import_original_name: f9b8344a1759b50e.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158743.037901
+  top:
+  - scientific: Stenorhynchus seticornis
+    confidence: 0.5429
+  - scientific: Astrophyton muricatum
+    confidence: 0.0432
+  - scientific: Pareques acuminatus
+    confidence: 0.026
+species:
+- scientific: Stenorhynchus seticornis
+  role: primary
+  confidence: 0.5429
+  identified_by: bioclip

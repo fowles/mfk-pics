@@ -10,3 +10,20 @@ variants:
   file: 4321349e0c135d39.dive-plus.webp
   import_original_name: d06584573bfe459f.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156740.5185592
+  top:
+  - scientific: Chaetodon striatus
+    confidence: 0.7188
+  - scientific: Abudefduf saxatilis
+    confidence: 0.1396
+  - scientific: Chaetodipterus faber
+    confidence: 0.0437
+species:
+- scientific: Chaetodon striatus
+  role: primary
+  confidence: 0.7188
+  identified_by: bioclip

@@ -13,3 +13,20 @@ variants:
   file: f55a5f9109fcf83d.dive-plus.webp
   import_original_name: 1f1d047f6cadc2d8.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157494.651019
+  top:
+  - scientific: Scorpaena plumieri
+    confidence: 0.9995
+  - scientific: Bothus lunatus
+    confidence: 0.0002
+  - scientific: Ogcocephalus radiatus
+    confidence: 0.0002
+species:
+- scientific: Scorpaena plumieri
+  role: primary
+  confidence: 0.9995
+  identified_by: bioclip

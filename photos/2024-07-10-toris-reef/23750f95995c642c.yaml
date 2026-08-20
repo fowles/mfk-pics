@@ -13,3 +13,20 @@ variants:
   file: 23750f95995c642c.dive-plus.webp
   import_original_name: f3d92538a8c86c85.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786160222.3993406
+  top:
+  - scientific: Haemulon macrostomum
+    confidence: 0.3145
+  - scientific: Haemulon flavolineatum
+    confidence: 0.1021
+  - scientific: Serranus tigrinus
+    confidence: 0.0982
+species:
+- scientific: Haemulon macrostomum
+  role: primary
+  confidence: 0.3145
+  identified_by: bioclip

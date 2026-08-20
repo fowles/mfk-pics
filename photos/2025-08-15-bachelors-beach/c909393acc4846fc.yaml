@@ -10,3 +10,20 @@ lon: -68.2874429
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158399.0081255
+  top:
+  - scientific: Holocentrus adscensionis
+    confidence: 0.3473
+  - scientific: Sepioteuthis sepioidea
+    confidence: 0.1753
+  - scientific: Hypoplectrus indigo
+    confidence: 0.1328
+species:
+- scientific: Holocentrus adscensionis
+  role: primary
+  confidence: 0.3473
+  identified_by: bioclip

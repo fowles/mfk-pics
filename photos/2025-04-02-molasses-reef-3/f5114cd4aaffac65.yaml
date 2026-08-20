@@ -10,3 +10,20 @@ variants:
   file: f5114cd4aaffac65.dive-plus.webp
   import_original_name: 966ddeeab035fc9e.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157281.07037
+  top:
+  - scientific: Epinephelus striatus
+    confidence: 0.3443
+  - scientific: Mycteroperca venenosa
+    confidence: 0.1505
+  - scientific: Trachinotus goodei
+    confidence: 0.1117
+species:
+- scientific: Epinephelus striatus
+  role: primary
+  confidence: 0.3443
+  identified_by: bioclip

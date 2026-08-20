@@ -13,3 +13,20 @@ variants:
   file: c778a1bb19ce9ce0.dive-plus.webp
   import_original_name: d961ccd88162b70d.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159190.227352
+  top:
+  - scientific: Thalassoma bifasciatum
+    confidence: 0.7121
+  - scientific: Melichthys niger
+    confidence: 0.0811
+  - scientific: Aulostomus maculatus
+    confidence: 0.0721
+species:
+- scientific: Thalassoma bifasciatum
+  role: primary
+  confidence: 0.7121
+  identified_by: bioclip

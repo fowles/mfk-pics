@@ -10,3 +10,18 @@ lon: -68.2903018
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159375.4517744
+  top:
+  - scientific: Microspathodon chrysurus
+    confidence: 0.0984
+  - scientific: Ginglymostoma cirratum
+    confidence: 0.0633
+  - scientific: Chaetodon capistratus
+    confidence: 0.0078
+  absorbed_by:
+    scientific: Millepora complanata
+    confidence: 0.5041

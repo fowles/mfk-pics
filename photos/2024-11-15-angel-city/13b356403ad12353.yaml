@@ -13,3 +13,20 @@ variants:
   file: 13b356403ad12353.dive-plus.webp
   import_original_name: d34112f86c909ece.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157055.3932834
+  top:
+  - scientific: Emblemaria pandionis
+    confidence: 0.3023
+  - scientific: Acanthostracion polygonius
+    confidence: 0.1396
+  - scientific: Panulirus guttatus
+    confidence: 0.1008
+species:
+- scientific: Emblemaria pandionis
+  role: primary
+  confidence: 0.3023
+  identified_by: bioclip

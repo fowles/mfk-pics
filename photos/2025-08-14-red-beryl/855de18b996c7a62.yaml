@@ -13,3 +13,20 @@ variants:
   file: 855de18b996c7a62.dive-plus.webp
   import_original_name: 90cb98a582e9708f.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158337.7994761
+  top:
+  - scientific: Gymnothorax funebris
+    confidence: 0.2485
+  - scientific: Gymnothorax miliaris
+    confidence: 0.1839
+  - scientific: Dactylopterus volitans
+    confidence: 0.0552
+species:
+- scientific: Gymnothorax funebris
+  role: primary
+  confidence: 0.2485
+  identified_by: bioclip

@@ -10,3 +10,20 @@ variants:
   file: ae847b2a087b02ce.dive-plus.webp
   import_original_name: e025f6aeede130b8.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157878.9542332
+  top:
+  - scientific: Gymnothorax moringa
+    confidence: 0.9908
+  - scientific: Cephalopholis cruentata
+    confidence: 0.0027
+  - scientific: Acanthostracion polygonius
+    confidence: 0.0016
+species:
+- scientific: Gymnothorax moringa
+  role: primary
+  confidence: 0.9908
+  identified_by: bioclip

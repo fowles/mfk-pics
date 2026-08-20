@@ -13,3 +13,20 @@ variants:
   file: 00b4bd5cb3f04b34.dive-plus.webp
   import_original_name: 9f1d8a7443f61ede.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156580.5772407
+  top:
+  - scientific: Enchelycore carychroa
+    confidence: 0.2547
+  - scientific: Eretmochelys imbricata
+    confidence: 0.2003
+  - scientific: Diodon holocanthus
+    confidence: 0.1808
+species:
+- scientific: Enchelycore carychroa
+  role: primary
+  confidence: 0.2547
+  identified_by: bioclip

@@ -10,3 +10,20 @@ lon: -68.28180019999999
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156316.6712081
+  top:
+  - scientific: Synodus intermedius
+    confidence: 0.9003
+  - scientific: Dactylopterus volitans
+    confidence: 0.057
+  - scientific: Sphoeroides spengleri
+    confidence: 0.0283
+species:
+- scientific: Synodus intermedius
+  role: primary
+  confidence: 0.9003
+  identified_by: bioclip

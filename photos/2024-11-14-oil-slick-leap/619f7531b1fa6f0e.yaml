@@ -10,3 +10,20 @@ variants:
   file: 619f7531b1fa6f0e.dive-plus.webp
   import_original_name: 67444f7f13ae6a34.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156897.8240907
+  top:
+  - scientific: Acanthostracion polygonius
+    confidence: 0.3673
+  - scientific: Aluterus scriptus
+    confidence: 0.3359
+  - scientific: Diodon hystrix
+    confidence: 0.0809
+species:
+- scientific: Acanthostracion polygonius
+  role: primary
+  confidence: 0.3673
+  identified_by: bioclip

@@ -10,3 +10,20 @@ lon: -68.3086211
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156870.4736748
+  top:
+  - scientific: Scarus coelestinus
+    confidence: 0.9372
+  - scientific: Gramma loreto
+    confidence: 0.0219
+  - scientific: Clepticus parrae
+    confidence: 0.0215
+species:
+- scientific: Scarus coelestinus
+  role: primary
+  confidence: 0.9372
+  identified_by: bioclip

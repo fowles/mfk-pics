@@ -13,3 +13,20 @@ variants:
   file: 2d6e681a9b65b578.dive-plus.webp
   import_original_name: 16f29ed40dfdb57c.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157494.9148672
+  top:
+  - scientific: Stenorhynchus seticornis
+    confidence: 0.9983
+  - scientific: Aulostomus maculatus
+    confidence: 0.0013
+  - scientific: Stenopus hispidus
+    confidence: 0.0
+species:
+- scientific: Stenorhynchus seticornis
+  role: primary
+  confidence: 0.9983
+  identified_by: bioclip

@@ -20,3 +20,15 @@ species:
 - scientific: Lactophrys triqueter
   role: secondary
   identified_by: human
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786071943.0519202
+  top:
+  - scientific: Aetobatus narinari
+    confidence: 0.994
+  - scientific: Hypanus americanus
+    confidence: 0.0058
+  - scientific: Ginglymostoma cirratum
+    confidence: 0.0001

@@ -10,3 +10,20 @@ lon: -68.28015169999999
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786071952.6218455
+  top:
+  - scientific: Acanthurus coeruleus
+    confidence: 0.4416
+  - scientific: Scarus coeruleus
+    confidence: 0.4135
+  - scientific: Scarus coelestinus
+    confidence: 0.0599
+species:
+- scientific: Acanthurus coeruleus
+  role: primary
+  confidence: 0.4416
+  identified_by: bioclip

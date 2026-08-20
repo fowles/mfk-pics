@@ -9,3 +9,20 @@ lat: 25.7183
 lon: -79.3154
 gps_source: dive_site
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159816.7626069
+  top:
+  - scientific: Malacanthus plumieri
+    confidence: 0.53
+  - scientific: Opistognathus aurifrons
+    confidence: 0.4328
+  - scientific: Xyrichtys martinicensis
+    confidence: 0.0365
+species:
+- scientific: Malacanthus plumieri
+  role: primary
+  confidence: 0.53
+  identified_by: bioclip

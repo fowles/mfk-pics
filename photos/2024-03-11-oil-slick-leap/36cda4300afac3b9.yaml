@@ -13,3 +13,20 @@ variants:
   file: 36cda4300afac3b9.dive-plus.webp
   import_original_name: 3c2636c1e42063c2.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158982.3810225
+  top:
+  - scientific: Fistularia tabacaria
+    confidence: 0.2535
+  - scientific: Aulostomus maculatus
+    confidence: 0.1377
+  - scientific: Heteroconger longissimus
+    confidence: 0.1079
+species:
+- scientific: Fistularia tabacaria
+  role: primary
+  confidence: 0.2535
+  identified_by: bioclip

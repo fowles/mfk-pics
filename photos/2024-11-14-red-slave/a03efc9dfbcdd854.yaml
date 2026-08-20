@@ -10,3 +10,20 @@ lon: -68.2513754
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156972.2600143
+  top:
+  - scientific: Megalops atlanticus
+    confidence: 0.5179
+  - scientific: Chromis multilineata
+    confidence: 0.2936
+  - scientific: Sphyraena barracuda
+    confidence: 0.1136
+species:
+- scientific: Megalops atlanticus
+  role: primary
+  confidence: 0.5179
+  identified_by: bioclip

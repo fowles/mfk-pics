@@ -10,3 +10,20 @@ variants:
   file: ed917a4ca872022f.dive-plus.webp
   import_original_name: 18eb3df342f7ab8b.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157054.034089
+  top:
+  - scientific: Serranus tigrinus
+    confidence: 0.6378
+  - scientific: Diodon holocanthus
+    confidence: 0.1015
+  - scientific: Thalassoma bifasciatum
+    confidence: 0.0172
+species:
+- scientific: Serranus tigrinus
+  role: primary
+  confidence: 0.6378
+  identified_by: bioclip

@@ -13,3 +13,20 @@ variants:
   file: 063edd7a250cb0ef.dive-plus.webp
   import_original_name: 93c3066842fb932e.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158501.878644
+  top:
+  - scientific: Haemulon macrostomum
+    confidence: 0.3593
+  - scientific: Sepioteuthis sepioidea
+    confidence: 0.2216
+  - scientific: Cantherhines pullus
+    confidence: 0.0376
+species:
+- scientific: Haemulon macrostomum
+  role: primary
+  confidence: 0.3593
+  identified_by: bioclip

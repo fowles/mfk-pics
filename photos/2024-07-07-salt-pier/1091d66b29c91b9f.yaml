@@ -13,3 +13,20 @@ variants:
   file: 1091d66b29c91b9f.dive-plus.webp
   import_original_name: 7791c233ec1e6d6c.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159978.112034
+  top:
+  - scientific: Acanthostracion polygonius
+    confidence: 0.537
+  - scientific: Bothus lunatus
+    confidence: 0.3045
+  - scientific: Cyphoma gibbosum
+    confidence: 0.0483
+species:
+- scientific: Acanthostracion polygonius
+  role: primary
+  confidence: 0.537
+  identified_by: bioclip

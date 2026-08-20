@@ -13,3 +13,20 @@ variants:
   file: 9361a9a161f0b018.dive-plus.webp
   import_original_name: 4e6c746895128205.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156581.3905973
+  top:
+  - scientific: Stegastes partitus
+    confidence: 0.3372
+  - scientific: Aulostomus maculatus
+    confidence: 0.1354
+  - scientific: Halichoeres pictus
+    confidence: 0.1097
+species:
+- scientific: Stegastes partitus
+  role: primary
+  confidence: 0.3372
+  identified_by: bioclip

@@ -13,3 +13,20 @@ variants:
   file: dd9f0e786a3afcc7.dive-plus.webp
   import_original_name: be8043c8541a8fc9.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156744.0082254
+  top:
+  - scientific: Hypoplectrus puella
+    confidence: 0.2244
+  - scientific: Chaetodon striatus
+    confidence: 0.2148
+  - scientific: Prognathodes aculeatus
+    confidence: 0.1737
+species:
+- scientific: Hypoplectrus puella
+  role: primary
+  confidence: 0.2244
+  identified_by: bioclip

@@ -10,3 +10,20 @@ variants:
   file: 320fc9a0d086905f.dive-plus.webp
   import_original_name: 4dd3050aec6e9be0.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158235.565982
+  top:
+  - scientific: Canthidermis sufflamen
+    confidence: 0.9356
+  - scientific: Balistes vetula
+    confidence: 0.0442
+  - scientific: Scarus coeruleus
+    confidence: 0.0061
+species:
+- scientific: Canthidermis sufflamen
+  role: primary
+  confidence: 0.9356
+  identified_by: bioclip

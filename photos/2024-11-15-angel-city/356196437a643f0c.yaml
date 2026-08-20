@@ -13,3 +13,20 @@ variants:
   file: 356196437a643f0c.dive-plus.webp
   import_original_name: 0fc47bde6d59cdee.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157056.7543511
+  top:
+  - scientific: Holothuria mexicana
+    confidence: 0.8614
+  - scientific: Epinephelus itajara
+    confidence: 0.0487
+  - scientific: Acanthostracion polygonius
+    confidence: 0.0214
+species:
+- scientific: Holothuria mexicana
+  role: primary
+  confidence: 0.8614
+  identified_by: bioclip

@@ -10,3 +10,20 @@ lon: -68.28015169999999
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786071943.0730295
+  top:
+  - scientific: Tursiops truncatus
+    confidence: 0.2074
+  - scientific: Pempheris schomburgkii
+    confidence: 0.1643
+  - scientific: Scarus guacamaia
+    confidence: 0.1347
+species:
+- scientific: Tursiops truncatus
+  role: primary
+  confidence: 0.2074
+  identified_by: bioclip

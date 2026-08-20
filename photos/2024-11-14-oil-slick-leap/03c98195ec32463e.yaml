@@ -13,3 +13,20 @@ variants:
   file: 03c98195ec32463e.dive-plus.webp
   import_original_name: f824740a29fedbfe.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156900.5060093
+  top:
+  - scientific: Gymnothorax funebris
+    confidence: 0.6813
+  - scientific: Chaetodon sedentarius
+    confidence: 0.0237
+  - scientific: Sparisoma viride
+    confidence: 0.0142
+species:
+- scientific: Gymnothorax funebris
+  role: primary
+  confidence: 0.6813
+  identified_by: bioclip

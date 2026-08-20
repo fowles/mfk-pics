@@ -13,3 +13,20 @@ variants:
   file: 1e6082ae9ae40681.dive-plus.webp
   import_original_name: cc5311ed6dd07b66.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156584.8657994
+  top:
+  - scientific: Acanthostracion polygonius
+    confidence: 0.9996
+  - scientific: Sphoeroides spengleri
+    confidence: 0.0001
+  - scientific: Mycteroperca venenosa
+    confidence: 0.0001
+species:
+- scientific: Acanthostracion polygonius
+  role: primary
+  confidence: 0.9996
+  identified_by: bioclip

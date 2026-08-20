@@ -13,3 +13,18 @@ variants:
   file: e5fec528c2c15f1f.dive-plus.webp
   import_original_name: dab7bae43d3bdd14.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158190.117644
+  top:
+  - scientific: Aulostomus maculatus
+    confidence: 0.0035
+  - scientific: Pareques acuminatus
+    confidence: 0.003
+  - scientific: Diadema antillarum
+    confidence: 0.0008
+  absorbed_by:
+    scientific: Antillogorgia americana
+    confidence: 0.7728

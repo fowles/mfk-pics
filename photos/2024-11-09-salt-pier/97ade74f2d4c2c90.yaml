@@ -13,3 +13,20 @@ variants:
   file: 97ade74f2d4c2c90.dive-plus.webp
   import_original_name: 921b926fbd275a8b.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156581.5666463
+  top:
+  - scientific: Lactophrys bicaudalis
+    confidence: 0.2813
+  - scientific: Scomberomorus regalis
+    confidence: 0.1322
+  - scientific: Canthidermis sufflamen
+    confidence: 0.1158
+species:
+- scientific: Lactophrys bicaudalis
+  role: primary
+  confidence: 0.2813
+  identified_by: bioclip

@@ -10,3 +10,20 @@ lon: -68.2513754
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156976.0267334
+  top:
+  - scientific: Calamus calamus
+    confidence: 0.4837
+  - scientific: Caranx ruber
+    confidence: 0.4069
+  - scientific: Gerres cinereus
+    confidence: 0.0669
+species:
+- scientific: Calamus calamus
+  role: primary
+  confidence: 0.4837
+  identified_by: bioclip

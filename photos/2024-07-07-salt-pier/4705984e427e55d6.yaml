@@ -10,3 +10,20 @@ variants:
   file: 4705984e427e55d6.dive-plus.webp
   import_original_name: 9a92a42f82058294.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159965.6402695
+  top:
+  - scientific: Scorpaena plumieri
+    confidence: 0.7914
+  - scientific: Acanthostracion polygonius
+    confidence: 0.2
+  - scientific: Epinephelus itajara
+    confidence: 0.0042
+species:
+- scientific: Scorpaena plumieri
+  role: primary
+  confidence: 0.7914
+  identified_by: bioclip

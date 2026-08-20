@@ -13,3 +13,20 @@ variants:
   file: 3aeb96757286e602.dive-plus.webp
   import_original_name: 8476122d571a24e5.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159991.688523
+  top:
+  - scientific: Chelonia mydas
+    confidence: 0.6969
+  - scientific: Tursiops truncatus
+    confidence: 0.1735
+  - scientific: Megalops atlanticus
+    confidence: 0.072
+species:
+- scientific: Chelonia mydas
+  role: primary
+  confidence: 0.6969
+  identified_by: bioclip

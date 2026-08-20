@@ -13,3 +13,20 @@ variants:
   file: f75b7cc42ce2a110.dive-plus.webp
   import_original_name: d6b353c775a47248.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156579.4222357
+  top:
+  - scientific: Hypoplectrus indigo
+    confidence: 0.5321
+  - scientific: Abudefduf saxatilis
+    confidence: 0.4527
+  - scientific: Amblycirrhitus pinos
+    confidence: 0.0059
+species:
+- scientific: Hypoplectrus indigo
+  role: primary
+  confidence: 0.5321
+  identified_by: bioclip

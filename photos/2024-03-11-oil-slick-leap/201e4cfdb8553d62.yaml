@@ -13,3 +13,20 @@ variants:
   file: 201e4cfdb8553d62.dive-plus.webp
   import_original_name: ff26a0e402ecafe7.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158981.7613883
+  top:
+  - scientific: Sepioteuthis sepioidea
+    confidence: 0.4093
+  - scientific: Melichthys niger
+    confidence: 0.2085
+  - scientific: Scarus coelestinus
+    confidence: 0.1163
+species:
+- scientific: Sepioteuthis sepioidea
+  role: primary
+  confidence: 0.4093
+  identified_by: bioclip

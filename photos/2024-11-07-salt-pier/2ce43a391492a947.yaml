@@ -10,3 +10,20 @@ variants:
   file: 2ce43a391492a947.dive-plus.webp
   import_original_name: b7aab2a141f2e236.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156328.1080697
+  top:
+  - scientific: Chromis cyanea
+    confidence: 0.8305
+  - scientific: Chaetodon capistratus
+    confidence: 0.0902
+  - scientific: Acanthurus coeruleus
+    confidence: 0.0572
+species:
+- scientific: Chromis cyanea
+  role: primary
+  confidence: 0.8305
+  identified_by: bioclip

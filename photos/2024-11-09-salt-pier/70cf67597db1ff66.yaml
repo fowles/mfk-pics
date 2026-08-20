@@ -10,3 +10,20 @@ variants:
   file: 70cf67597db1ff66.dive-plus.webp
   import_original_name: 6c1609631e9b41a5.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156576.9743571
+  top:
+  - scientific: Scomberomorus regalis
+    confidence: 0.8291
+  - scientific: Sphyraena barracuda
+    confidence: 0.1595
+  - scientific: Aulostomus maculatus
+    confidence: 0.0042
+species:
+- scientific: Scomberomorus regalis
+  role: primary
+  confidence: 0.8291
+  identified_by: bioclip

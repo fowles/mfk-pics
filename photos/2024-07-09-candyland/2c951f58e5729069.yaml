@@ -10,3 +10,20 @@ variants:
   file: 2c951f58e5729069.dive-plus.webp
   import_original_name: 6f54679285069bb4.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159168.393814
+  top:
+  - scientific: Thalassoma bifasciatum
+    confidence: 0.6269
+  - scientific: Pomacanthus paru
+    confidence: 0.0762
+  - scientific: Hypoplectrus chlorurus
+    confidence: 0.0586
+species:
+- scientific: Thalassoma bifasciatum
+  role: primary
+  confidence: 0.6269
+  identified_by: bioclip

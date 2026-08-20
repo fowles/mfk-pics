@@ -10,3 +10,20 @@ lon: -68.2874429
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158712.268849
+  top:
+  - scientific: Lutjanus mahogoni
+    confidence: 0.3444
+  - scientific: Kyphosus sectatrix
+    confidence: 0.2791
+  - scientific: Holocentrus adscensionis
+    confidence: 0.1171
+species:
+- scientific: Lutjanus mahogoni
+  role: primary
+  confidence: 0.3444
+  identified_by: bioclip

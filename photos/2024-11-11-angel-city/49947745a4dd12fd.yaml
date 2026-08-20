@@ -10,3 +10,20 @@ variants:
   file: 49947745a4dd12fd.dive-plus.webp
   import_original_name: 3ff60d9134380597.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156741.2919393
+  top:
+  - scientific: Acanthostracion polygonius
+    confidence: 0.958
+  - scientific: Serranus tigrinus
+    confidence: 0.0087
+  - scientific: Serranus tabacarius
+    confidence: 0.0056
+species:
+- scientific: Acanthostracion polygonius
+  role: primary
+  confidence: 0.958
+  identified_by: bioclip

@@ -11,3 +11,20 @@ variants:
   import_original_name: 9082f2343fdada4f.webp
 date_reviewed: true
 rotation_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157880.0993962
+  top:
+  - scientific: Pareques acuminatus
+    confidence: 0.2075
+  - scientific: Gymnothorax miliaris
+    confidence: 0.1026
+  - scientific: Diodon hystrix
+    confidence: 0.0914
+species:
+- scientific: Pareques acuminatus
+  role: primary
+  confidence: 0.2075
+  identified_by: bioclip

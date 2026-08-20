@@ -13,3 +13,20 @@ variants:
   file: 15ac6b33706e6651.dive-plus.webp
   import_original_name: 65381b39d2f0ef1a.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159595.8777437
+  top:
+  - scientific: Scorpaena plumieri
+    confidence: 0.9983
+  - scientific: Antennarius striatus
+    confidence: 0.001
+  - scientific: Bothus lunatus
+    confidence: 0.0003
+species:
+- scientific: Scorpaena plumieri
+  role: primary
+  confidence: 0.9983
+  identified_by: bioclip

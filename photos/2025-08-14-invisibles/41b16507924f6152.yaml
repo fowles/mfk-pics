@@ -10,3 +10,20 @@ lon: -68.28015169999999
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158232.6175401
+  top:
+  - scientific: Pareques acuminatus
+    confidence: 0.792
+  - scientific: Haemulon macrostomum
+    confidence: 0.1012
+  - scientific: Chaetodipterus faber
+    confidence: 0.0226
+species:
+- scientific: Pareques acuminatus
+  role: primary
+  confidence: 0.792
+  identified_by: bioclip

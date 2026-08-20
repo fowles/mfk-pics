@@ -10,3 +10,20 @@ variants:
   file: 0767197cf85f6345.dive-plus.webp
   import_original_name: 275ba03e5e3394a2.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156338.4249308
+  top:
+  - scientific: Pareques acuminatus
+    confidence: 0.1201
+  - scientific: Serranus tigrinus
+    confidence: 0.1137
+  - scientific: Enchelycore carychroa
+    confidence: 0.091
+species:
+- scientific: Pareques acuminatus
+  role: primary
+  confidence: 0.1201
+  identified_by: bioclip

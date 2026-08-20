@@ -10,3 +10,20 @@ lon: -80.044118
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157485.5888162
+  top:
+  - scientific: Cyphoma gibbosum
+    confidence: 0.2837
+  - scientific: Xyrichtys splendens
+    confidence: 0.2047
+  - scientific: Stenopus hispidus
+    confidence: 0.168
+species:
+- scientific: Cyphoma gibbosum
+  role: primary
+  confidence: 0.2837
+  identified_by: bioclip

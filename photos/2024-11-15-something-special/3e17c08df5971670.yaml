@@ -10,3 +10,20 @@ variants:
   file: 3e17c08df5971670.dive-plus.webp
   import_original_name: 43bf3923408e2ec3.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157212.9871564
+  top:
+  - scientific: Canthidermis sufflamen
+    confidence: 0.3273
+  - scientific: Scarus coeruleus
+    confidence: 0.2312
+  - scientific: Bothus lunatus
+    confidence: 0.1586
+species:
+- scientific: Canthidermis sufflamen
+  role: primary
+  confidence: 0.3273
+  identified_by: bioclip

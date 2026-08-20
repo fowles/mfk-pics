@@ -10,3 +10,20 @@ lon: -68.28015169999999
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786071949.2898262
+  top:
+  - scientific: Scorpaena plumieri
+    confidence: 0.9918
+  - scientific: Antennarius multiocellatus
+    confidence: 0.0073
+  - scientific: Hippocampus erectus
+    confidence: 0.0008
+species:
+- scientific: Scorpaena plumieri
+  role: primary
+  confidence: 0.9918
+  identified_by: bioclip

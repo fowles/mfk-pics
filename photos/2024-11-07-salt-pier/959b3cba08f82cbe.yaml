@@ -11,3 +11,18 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 rotation_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156319.1548762
+  top:
+  - scientific: Ginglymostoma cirratum
+    confidence: 0.0485
+  - scientific: Diodon hystrix
+    confidence: 0.0245
+  - scientific: Diodon holocanthus
+    confidence: 0.0118
+  absorbed_by:
+    scientific: Montastraea cavernosa
+    confidence: 0.5437

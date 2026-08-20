@@ -13,3 +13,20 @@ lat: 12.070475199999999
 lon: -68.2806703
 gps_source: manual
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786160161.3745666
+  top:
+  - scientific: Abudefduf saxatilis
+    confidence: 0.3634
+  - scientific: Melichthys niger
+    confidence: 0.1802
+  - scientific: Trachinotus goodei
+    confidence: 0.0802
+species:
+- scientific: Abudefduf saxatilis
+  role: primary
+  confidence: 0.3634
+  identified_by: bioclip

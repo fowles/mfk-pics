@@ -10,3 +10,20 @@ variants:
   file: f285dc7a9d6f52a9.dive-plus.webp
   import_original_name: 7242c0341b8257e3.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157490.9659827
+  top:
+  - scientific: Thalassoma bifasciatum
+    confidence: 0.4231
+  - scientific: Holocentrus adscensionis
+    confidence: 0.1805
+  - scientific: Haemulon flavolineatum
+    confidence: 0.152
+species:
+- scientific: Thalassoma bifasciatum
+  role: primary
+  confidence: 0.4231
+  identified_by: bioclip

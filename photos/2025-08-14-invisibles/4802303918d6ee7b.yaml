@@ -10,3 +10,20 @@ variants:
   file: 4802303918d6ee7b.dive-plus.webp
   import_original_name: a918cc7556bab991.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158236.4602757
+  top:
+  - scientific: Gymnothorax moringa
+    confidence: 0.999
+  - scientific: Diodon hystrix
+    confidence: 0.0004
+  - scientific: Lactophrys triqueter
+    confidence: 0.0004
+species:
+- scientific: Gymnothorax moringa
+  role: primary
+  confidence: 0.999
+  identified_by: bioclip

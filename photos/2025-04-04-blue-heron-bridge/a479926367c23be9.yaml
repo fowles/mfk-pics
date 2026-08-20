@@ -10,3 +10,20 @@ variants:
   file: a479926367c23be9.dive-plus.webp
   import_original_name: 54d917a702628661.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157490.6396086
+  top:
+  - scientific: Mithraculus sculptus
+    confidence: 0.5345
+  - scientific: Stenopus hispidus
+    confidence: 0.1917
+  - scientific: Hippocampus reidi
+    confidence: 0.1725
+species:
+- scientific: Mithraculus sculptus
+  role: primary
+  confidence: 0.5345
+  identified_by: bioclip

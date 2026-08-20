@@ -13,3 +13,20 @@ lat: 12.070475199999999
 lon: -68.2806703
 gps_source: manual
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786160182.0525517
+  top:
+  - scientific: Epinephelus itajara
+    confidence: 0.2523
+  - scientific: Acanthostracion polygonius
+    confidence: 0.1637
+  - scientific: Scorpaena plumieri
+    confidence: 0.1278
+species:
+- scientific: Epinephelus itajara
+  role: primary
+  confidence: 0.2523
+  identified_by: bioclip

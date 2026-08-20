@@ -10,3 +10,20 @@ variants:
   file: 87fbb6f55edd37ae.dive-plus.webp
   import_original_name: db6d9d6693d9c511.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156978.2405114
+  top:
+  - scientific: Chromis multilineata
+    confidence: 0.6122
+  - scientific: Chromis cyanea
+    confidence: 0.166
+  - scientific: Thalassoma bifasciatum
+    confidence: 0.1289
+species:
+- scientific: Chromis multilineata
+  role: primary
+  confidence: 0.6122
+  identified_by: bioclip

@@ -13,3 +13,20 @@ variants:
   file: a61b6f607752e985.dive-plus.webp
   import_original_name: 9533c83df06093c4.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156586.3653631
+  top:
+  - scientific: Dactylopterus volitans
+    confidence: 0.6074
+  - scientific: Heteroconger longissimus
+    confidence: 0.1012
+  - scientific: Fistularia tabacaria
+    confidence: 0.0562
+species:
+- scientific: Dactylopterus volitans
+  role: primary
+  confidence: 0.6074
+  identified_by: bioclip

@@ -13,3 +13,20 @@ variants:
   file: 03b94c4a3339cd28.dive-plus.webp
   import_original_name: 92947b2f3f119409.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157491.726522
+  top:
+  - scientific: Lutjanus griseus
+    confidence: 0.4772
+  - scientific: Haemulon sciurus
+    confidence: 0.372
+  - scientific: Haemulon macrostomum
+    confidence: 0.0582
+species:
+- scientific: Lutjanus griseus
+  role: primary
+  confidence: 0.4772
+  identified_by: bioclip

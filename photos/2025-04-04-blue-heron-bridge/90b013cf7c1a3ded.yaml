@@ -10,3 +10,20 @@ variants:
   file: 90b013cf7c1a3ded.dive-plus.webp
   import_original_name: e6f7edd244318d09.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157490.4488852
+  top:
+  - scientific: Petrochirus diogenes
+    confidence: 0.9634
+  - scientific: Mithraculus sculptus
+    confidence: 0.0158
+  - scientific: Diodon holocanthus
+    confidence: 0.0042
+species:
+- scientific: Petrochirus diogenes
+  role: primary
+  confidence: 0.9634
+  identified_by: bioclip

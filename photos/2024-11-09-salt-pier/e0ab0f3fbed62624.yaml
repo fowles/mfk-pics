@@ -13,3 +13,20 @@ variants:
   file: e0ab0f3fbed62624.dive-plus.webp
   import_original_name: 7e6543f9c08066de.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156581.8769314
+  top:
+  - scientific: Epinephelus itajara
+    confidence: 0.3323
+  - scientific: Opistognathus aurifrons
+    confidence: 0.2239
+  - scientific: Epinephelus striatus
+    confidence: 0.1761
+species:
+- scientific: Epinephelus itajara
+  role: primary
+  confidence: 0.3323
+  identified_by: bioclip

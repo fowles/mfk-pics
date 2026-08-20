@@ -11,3 +11,20 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 rotation_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158336.0993843
+  top:
+  - scientific: Synodus intermedius
+    confidence: 0.9896
+  - scientific: Synodus foetens
+    confidence: 0.0077
+  - scientific: Sphoeroides spengleri
+    confidence: 0.0025
+species:
+- scientific: Synodus intermedius
+  role: primary
+  confidence: 0.9896
+  identified_by: bioclip

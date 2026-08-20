@@ -13,3 +13,20 @@ variants:
   file: 6db6c66085d29e30.dive-plus.webp
   import_original_name: 0795572f98ce9ca1.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158338.5778627
+  top:
+  - scientific: Epinephelus itajara
+    confidence: 0.2615
+  - scientific: Serranus tigrinus
+    confidence: 0.0879
+  - scientific: Sparisoma viride
+    confidence: 0.0791
+species:
+- scientific: Epinephelus itajara
+  role: primary
+  confidence: 0.2615
+  identified_by: bioclip

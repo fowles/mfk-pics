@@ -10,3 +10,20 @@ lon: -68.2854452
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159054.3604734
+  top:
+  - scientific: Haemulon aurolineatum
+    confidence: 0.8139
+  - scientific: Lutjanus mahogoni
+    confidence: 0.1713
+  - scientific: Haemulon sciurus
+    confidence: 0.0059
+species:
+- scientific: Haemulon aurolineatum
+  role: primary
+  confidence: 0.8139
+  identified_by: bioclip

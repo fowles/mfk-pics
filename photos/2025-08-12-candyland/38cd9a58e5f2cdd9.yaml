@@ -11,3 +11,20 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 rotation_applied: 90
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1787178290.930067
+  top:
+  - scientific: Gymnothorax funebris
+    confidence: 0.9783
+  - scientific: Gymnothorax miliaris
+    confidence: 0.009
+  - scientific: Stegastes planifrons
+    confidence: 0.0036
+species:
+- scientific: Gymnothorax funebris
+  role: primary
+  confidence: 0.9783
+  identified_by: bioclip

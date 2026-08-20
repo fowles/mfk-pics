@@ -13,3 +13,20 @@ variants:
   file: 0f613d0b0841aafc.dive-plus.webp
   import_original_name: ed15857ad21bc7ae.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158734.3718934
+  top:
+  - scientific: Pareques acuminatus
+    confidence: 0.294
+  - scientific: Ancylomenes pedersoni
+    confidence: 0.2248
+  - scientific: Heteropriacanthus cruentatus
+    confidence: 0.07
+species:
+- scientific: Pareques acuminatus
+  role: primary
+  confidence: 0.294
+  identified_by: bioclip

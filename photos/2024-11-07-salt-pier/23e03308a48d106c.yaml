@@ -10,3 +10,20 @@ lon: -68.28180019999999
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156329.7560666
+  top:
+  - scientific: Cantherhines pullus
+    confidence: 0.4169
+  - scientific: Sepioteuthis sepioidea
+    confidence: 0.2148
+  - scientific: Scarus iseri
+    confidence: 0.207
+species:
+- scientific: Cantherhines pullus
+  role: primary
+  confidence: 0.4169
+  identified_by: bioclip

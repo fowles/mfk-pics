@@ -9,3 +9,20 @@ lat: 25.5006
 lon: -79.2641
 gps_source: dive_site
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159808.641658
+  top:
+  - scientific: Tursiops truncatus
+    confidence: 0.721
+  - scientific: Aurelia aurita
+    confidence: 0.1197
+  - scientific: Megalops atlanticus
+    confidence: 0.0621
+species:
+- scientific: Tursiops truncatus
+  role: primary
+  confidence: 0.721
+  identified_by: bioclip

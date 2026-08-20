@@ -13,3 +13,20 @@ variants:
   file: 5bea5210bf1131d0.dive-plus.webp
   import_original_name: 1c6de87a6ccd4ff4.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157280.4297132
+  top:
+  - scientific: Gymnothorax funebris
+    confidence: 0.2229
+  - scientific: Gymnothorax miliaris
+    confidence: 0.2132
+  - scientific: Heteroconger longissimus
+    confidence: 0.1373
+species:
+- scientific: Gymnothorax funebris
+  role: primary
+  confidence: 0.2229
+  identified_by: bioclip

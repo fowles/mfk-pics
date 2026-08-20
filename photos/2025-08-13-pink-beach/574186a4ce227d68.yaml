@@ -10,3 +10,20 @@ variants:
   file: 574186a4ce227d68.dive-plus.webp
   import_original_name: 8111d091c8861bf1.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158186.9624872
+  top:
+  - scientific: Gymnothorax funebris
+    confidence: 0.9836
+  - scientific: Opistognathus aurifrons
+    confidence: 0.0061
+  - scientific: Aulostomus maculatus
+    confidence: 0.0029
+species:
+- scientific: Gymnothorax funebris
+  role: primary
+  confidence: 0.9836
+  identified_by: bioclip

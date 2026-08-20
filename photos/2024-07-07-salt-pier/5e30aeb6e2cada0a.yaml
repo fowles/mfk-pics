@@ -13,3 +13,20 @@ variants:
   file: 5e30aeb6e2cada0a.dive-plus.webp
   import_original_name: e91a8a718eea11b1.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159988.7236183
+  top:
+  - scientific: Aulostomus maculatus
+    confidence: 0.3128
+  - scientific: Holocentrus adscensionis
+    confidence: 0.2255
+  - scientific: Haemulon macrostomum
+    confidence: 0.1055
+species:
+- scientific: Aulostomus maculatus
+  role: primary
+  confidence: 0.3128
+  identified_by: bioclip

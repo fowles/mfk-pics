@@ -10,3 +10,20 @@ variants:
   file: dc7a1990b9428a77.dive-plus.webp
   import_original_name: 4c2c312107180e16.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157281.288456
+  top:
+  - scientific: Hypanus americanus
+    confidence: 0.8709
+  - scientific: Dactylopterus volitans
+    confidence: 0.0869
+  - scientific: Echeneis naucrates
+    confidence: 0.0114
+species:
+- scientific: Hypanus americanus
+  role: primary
+  confidence: 0.8709
+  identified_by: bioclip

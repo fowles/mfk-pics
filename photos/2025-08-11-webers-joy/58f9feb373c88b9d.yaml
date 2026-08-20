@@ -13,3 +13,20 @@ variants:
   file: 58f9feb373c88b9d.dive-plus.webp
   import_original_name: 6aaa746eab5f79b9.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786071915.3436868
+  top:
+  - scientific: Sparisoma aurofrenatum
+    confidence: 0.1972
+  - scientific: Acanthurus chirurgus
+    confidence: 0.1737
+  - scientific: Lactophrys triqueter
+    confidence: 0.0647
+species:
+- scientific: Sparisoma aurofrenatum
+  role: primary
+  confidence: 0.1972
+  identified_by: bioclip

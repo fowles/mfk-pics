@@ -13,3 +13,20 @@ variants:
   file: ca8755a563f93da5.dive-plus.webp
   import_original_name: 4f52bb4896cce1d5.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156982.466497
+  top:
+  - scientific: Acanthostracion polygonius
+    confidence: 0.6846
+  - scientific: Gerres cinereus
+    confidence: 0.1993
+  - scientific: Trachinotus goodei
+    confidence: 0.031
+species:
+- scientific: Acanthostracion polygonius
+  role: primary
+  confidence: 0.6846
+  identified_by: bioclip

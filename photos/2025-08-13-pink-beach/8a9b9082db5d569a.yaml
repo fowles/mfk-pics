@@ -13,3 +13,20 @@ variants:
   file: 8a9b9082db5d569a.dive-plus.webp
   import_original_name: 5265f4a52693c40f.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158189.227651
+  top:
+  - scientific: Aulostomus maculatus
+    confidence: 0.2883
+  - scientific: Chaetodon capistratus
+    confidence: 0.2187
+  - scientific: Holothuria mexicana
+    confidence: 0.0712
+species:
+- scientific: Aulostomus maculatus
+  role: primary
+  confidence: 0.2883
+  identified_by: bioclip

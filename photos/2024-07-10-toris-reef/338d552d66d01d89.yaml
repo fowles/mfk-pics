@@ -13,3 +13,20 @@ variants:
   file: 338d552d66d01d89.dive-plus.webp
   import_original_name: c8846d80ac7ee8d3.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786160205.4923873
+  top:
+  - scientific: Pareques acuminatus
+    confidence: 0.3195
+  - scientific: Aulostomus maculatus
+    confidence: 0.214
+  - scientific: Diadema antillarum
+    confidence: 0.0949
+species:
+- scientific: Pareques acuminatus
+  role: primary
+  confidence: 0.3195
+  identified_by: bioclip

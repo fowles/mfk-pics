@@ -13,3 +13,20 @@ variants:
   file: 556716bdf28ad352.dive-plus.webp
   import_original_name: bb1b147dd6423be9.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156580.0038033
+  top:
+  - scientific: Sparisoma viride
+    confidence: 0.1779
+  - scientific: Centropyge argi
+    confidence: 0.1524
+  - scientific: Stenopus hispidus
+    confidence: 0.0893
+species:
+- scientific: Sparisoma viride
+  role: primary
+  confidence: 0.1779
+  identified_by: bioclip

@@ -13,3 +13,20 @@ variants:
   file: 6aec680aac205248.dive-plus.webp
   import_original_name: f26c057485438e75.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156744.2017355
+  top:
+  - scientific: Epinephelus itajara
+    confidence: 0.2962
+  - scientific: Sphyraena barracuda
+    confidence: 0.2317
+  - scientific: Scomberomorus regalis
+    confidence: 0.1004
+species:
+- scientific: Epinephelus itajara
+  role: primary
+  confidence: 0.2962
+  identified_by: bioclip

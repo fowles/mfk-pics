@@ -10,3 +10,18 @@ lon: -68.2854452
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159062.2250535
+  top:
+  - scientific: Gymnothorax funebris
+    confidence: 0.2482
+  - scientific: Sepioteuthis sepioidea
+    confidence: 0.0767
+  - scientific: Thalassoma bifasciatum
+    confidence: 0.0609
+  absorbed_by:
+    scientific: Condylactis gigantea
+    confidence: 0.461

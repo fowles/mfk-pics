@@ -13,3 +13,20 @@ variants:
   file: 5204dfcf5e75afe4.dive-plus.webp
   import_original_name: e98ce119c951579e.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159990.3623455
+  top:
+  - scientific: Scarus coeruleus
+    confidence: 0.5211
+  - scientific: Xyrichtys splendens
+    confidence: 0.2428
+  - scientific: Xyrichtys martinicensis
+    confidence: 0.0613
+species:
+- scientific: Scarus coeruleus
+  role: primary
+  confidence: 0.5211
+  identified_by: bioclip

@@ -10,3 +10,20 @@ variants:
   file: e167cf3e901c154a.dive-plus.webp
   import_original_name: b0e5449902156408.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158965.2913465
+  top:
+  - scientific: Sphoeroides spengleri
+    confidence: 0.4819
+  - scientific: Synodus intermedius
+    confidence: 0.186
+  - scientific: Dactylopterus volitans
+    confidence: 0.1168
+species:
+- scientific: Sphoeroides spengleri
+  role: primary
+  confidence: 0.4819
+  identified_by: bioclip

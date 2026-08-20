@@ -13,3 +13,20 @@ variants:
   file: a6503557ecd87068.dive-plus.webp
   import_original_name: b2d1887f9f12c600.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158187.4182932
+  top:
+  - scientific: Aulostomus maculatus
+    confidence: 0.6706
+  - scientific: Gymnothorax funebris
+    confidence: 0.0165
+  - scientific: Monacanthus tuckeri
+    confidence: 0.0124
+species:
+- scientific: Aulostomus maculatus
+  role: primary
+  confidence: 0.6706
+  identified_by: bioclip

@@ -13,3 +13,20 @@ variants:
   file: 47a3df6e263f8e14.dive-plus.webp
   import_original_name: e09f6826bd7bf655.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156746.7372103
+  top:
+  - scientific: Holocentrus adscensionis
+    confidence: 0.2821
+  - scientific: Melichthys niger
+    confidence: 0.2404
+  - scientific: Mulloidichthys martinicus
+    confidence: 0.0762
+species:
+- scientific: Holocentrus adscensionis
+  role: primary
+  confidence: 0.2821
+  identified_by: bioclip

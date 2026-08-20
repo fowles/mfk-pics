@@ -13,3 +13,18 @@ variants:
   file: 17c6c57c639faf79.dive-plus.webp
   import_original_name: 74aff03d00c403ab.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156581.2268436
+  top:
+  - scientific: Stegastes partitus
+    confidence: 0.0401
+  - scientific: Astrophyton muricatum
+    confidence: 0.0049
+  - scientific: Hypoplectrus nigricans
+    confidence: 0.0029
+  absorbed_by:
+    scientific: Aplysina archeri
+    confidence: 0.7166

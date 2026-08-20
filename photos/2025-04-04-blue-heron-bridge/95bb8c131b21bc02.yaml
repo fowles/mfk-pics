@@ -10,3 +10,20 @@ variants:
   file: 95bb8c131b21bc02.dive-plus.webp
   import_original_name: 00c0463033e7f1bc.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157490.030476
+  top:
+  - scientific: Petrochirus diogenes
+    confidence: 0.408
+  - scientific: Aliger gigas
+    confidence: 0.2416
+  - scientific: Lutjanus apodus
+    confidence: 0.1177
+species:
+- scientific: Petrochirus diogenes
+  role: primary
+  confidence: 0.408
+  identified_by: bioclip

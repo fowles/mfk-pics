@@ -13,3 +13,20 @@ variants:
   file: 5b3fd2320d38aa02.dive-plus.webp
   import_original_name: 1f63edd050a3844d.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159183.615734
+  top:
+  - scientific: Aetobatus narinari
+    confidence: 0.9794
+  - scientific: Echeneis naucrates
+    confidence: 0.0198
+  - scientific: Aulostomus maculatus
+    confidence: 0.0002
+species:
+- scientific: Aetobatus narinari
+  role: primary
+  confidence: 0.9794
+  identified_by: bioclip

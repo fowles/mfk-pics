@@ -13,3 +13,20 @@ variants:
   file: 94826f867c9dd6f6.dive-plus.webp
   import_original_name: 4ceaa991a51b3e22.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156581.8999112
+  top:
+  - scientific: Acanthostracion polygonius
+    confidence: 0.7381
+  - scientific: Epinephelus itajara
+    confidence: 0.1335
+  - scientific: Canthidermis sufflamen
+    confidence: 0.0245
+species:
+- scientific: Acanthostracion polygonius
+  role: primary
+  confidence: 0.7381
+  identified_by: bioclip

@@ -10,3 +10,20 @@ variants:
   file: 159df276159b6ffd.dive-plus.webp
   import_original_name: e8611e3aa9083362.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158234.8330362
+  top:
+  - scientific: Trachinotus goodei
+    confidence: 0.4649
+  - scientific: Megalops atlanticus
+    confidence: 0.4076
+  - scientific: Scomberomorus regalis
+    confidence: 0.0445
+species:
+- scientific: Trachinotus goodei
+  role: primary
+  confidence: 0.4649
+  identified_by: bioclip

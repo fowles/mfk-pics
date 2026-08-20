@@ -13,3 +13,18 @@ variants:
   file: 9711ae401ec9c2c5.dive-plus.webp
   import_original_name: 3b83f3706630a135.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156983.5948207
+  top:
+  - scientific: Diadema antillarum
+    confidence: 0.0064
+  - scientific: Octopus briareus
+    confidence: 0.0024
+  - scientific: Sepioteuthis sepioidea
+    confidence: 0.0019
+  absorbed_by:
+    scientific: Condylactis gigantea
+    confidence: 0.9688

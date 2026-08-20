@@ -13,3 +13,20 @@ variants:
   file: 592b8cfdcf61e132.dive-plus.webp
   import_original_name: c86c9e28c1714604.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786071914.1815748
+  top:
+  - scientific: Scorpaena plumieri
+    confidence: 0.5294
+  - scientific: Sparisoma aurofrenatum
+    confidence: 0.2731
+  - scientific: Percnon gibbesi
+    confidence: 0.0394
+species:
+- scientific: Scorpaena plumieri
+  role: primary
+  confidence: 0.5294
+  identified_by: bioclip

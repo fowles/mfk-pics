@@ -10,3 +10,20 @@ lon: -68.2903018
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159383.266815
+  top:
+  - scientific: Haemulon chrysargyreum
+    confidence: 0.6845
+  - scientific: Ocyurus chrysurus
+    confidence: 0.1182
+  - scientific: Neoniphon marianus
+    confidence: 0.0788
+species:
+- scientific: Haemulon chrysargyreum
+  role: primary
+  confidence: 0.6845
+  identified_by: bioclip

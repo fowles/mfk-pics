@@ -10,3 +10,20 @@ lon: -79.303
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159776.81467
+  top:
+  - scientific: Caranx ruber
+    confidence: 0.9554
+  - scientific: Selar crumenophthalmus
+    confidence: 0.0358
+  - scientific: Caranx crysos
+    confidence: 0.0037
+species:
+- scientific: Caranx ruber
+  role: primary
+  confidence: 0.9554
+  identified_by: bioclip

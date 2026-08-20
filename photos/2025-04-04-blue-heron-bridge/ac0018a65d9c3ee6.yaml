@@ -10,3 +10,20 @@ variants:
   file: ac0018a65d9c3ee6.dive-plus.webp
   import_original_name: 0940b6bf47ad2a42.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157490.577798
+  top:
+  - scientific: Petrochirus diogenes
+    confidence: 0.492
+  - scientific: Carpilius corallinus
+    confidence: 0.1888
+  - scientific: Stenopus hispidus
+    confidence: 0.1465
+species:
+- scientific: Petrochirus diogenes
+  role: primary
+  confidence: 0.492
+  identified_by: bioclip

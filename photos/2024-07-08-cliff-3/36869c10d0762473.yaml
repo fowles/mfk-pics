@@ -11,3 +11,20 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 rotation_applied: 90
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1787030472.4437592
+  top:
+  - scientific: Aulostomus maculatus
+    confidence: 0.9806
+  - scientific: Haemulon macrostomum
+    confidence: 0.0068
+  - scientific: Haemulon sciurus
+    confidence: 0.0022
+species:
+- scientific: Aulostomus maculatus
+  role: primary
+  confidence: 0.9806
+  identified_by: bioclip

@@ -10,3 +10,20 @@ lon: -68.2513754
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156967.4590125
+  top:
+  - scientific: Hypoplectrus nigricans
+    confidence: 0.3421
+  - scientific: Aulostomus maculatus
+    confidence: 0.2876
+  - scientific: Sepioteuthis sepioidea
+    confidence: 0.1074
+species:
+- scientific: Hypoplectrus nigricans
+  role: primary
+  confidence: 0.3421
+  identified_by: bioclip

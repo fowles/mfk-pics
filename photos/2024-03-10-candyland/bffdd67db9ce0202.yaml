@@ -10,3 +10,20 @@ variants:
   file: bffdd67db9ce0202.dive-plus.webp
   import_original_name: ec48b62d1763c1ef.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158872.6060054
+  top:
+  - scientific: Diodon hystrix
+    confidence: 0.5086
+  - scientific: Sphyraena barracuda
+    confidence: 0.1272
+  - scientific: Diodon holocanthus
+    confidence: 0.109
+species:
+- scientific: Diodon hystrix
+  role: primary
+  confidence: 0.5086
+  identified_by: bioclip

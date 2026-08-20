@@ -10,3 +10,20 @@ variants:
   file: 1ad24e4968176c3b.dive-plus.webp
   import_original_name: ae5bc166e11566f6.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157281.4793317
+  top:
+  - scientific: Hypanus americanus
+    confidence: 0.6995
+  - scientific: Aetobatus narinari
+    confidence: 0.2864
+  - scientific: Dactylopterus volitans
+    confidence: 0.0105
+species:
+- scientific: Hypanus americanus
+  role: primary
+  confidence: 0.6995
+  identified_by: bioclip

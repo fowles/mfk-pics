@@ -13,3 +13,20 @@ variants:
   file: c4e7e42944827a51.dive-plus.webp
   import_original_name: 7f1d7aa71dd58f80.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156580.486336
+  top:
+  - scientific: Sparisoma aurofrenatum
+    confidence: 0.2587
+  - scientific: Halichoeres bivittatus
+    confidence: 0.2477
+  - scientific: Cephalopholis fulva
+    confidence: 0.0979
+species:
+- scientific: Sparisoma aurofrenatum
+  role: primary
+  confidence: 0.2587
+  identified_by: bioclip

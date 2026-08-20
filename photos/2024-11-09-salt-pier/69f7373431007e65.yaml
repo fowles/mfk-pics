@@ -10,3 +10,20 @@ variants:
   file: 69f7373431007e65.dive-plus.webp
   import_original_name: 2512a0c63f3fe363.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156577.004384
+  top:
+  - scientific: Megalops atlanticus
+    confidence: 0.7084
+  - scientific: Scomberomorus regalis
+    confidence: 0.2712
+  - scientific: Kyphosus sectatrix
+    confidence: 0.007
+species:
+- scientific: Megalops atlanticus
+  role: primary
+  confidence: 0.7084
+  identified_by: bioclip

@@ -13,3 +13,20 @@ variants:
   file: 85a2b94ce9c73c8a.dive-plus.webp
   import_original_name: 6655ebb1d86db3b7.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156583.2143695
+  top:
+  - scientific: Aulostomus maculatus
+    confidence: 0.0922
+  - scientific: Sepioteuthis sepioidea
+    confidence: 0.0793
+  - scientific: Ocyurus chrysurus
+    confidence: 0.0628
+species:
+- scientific: Aulostomus maculatus
+  role: primary
+  confidence: 0.0922
+  identified_by: bioclip

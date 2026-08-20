@@ -13,3 +13,20 @@ variants:
   file: 22a9e4b9d3a36fd0.dive-plus.webp
   import_original_name: 267a18e4019da054.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159182.9231029
+  top:
+  - scientific: Serranus tigrinus
+    confidence: 0.3733
+  - scientific: Scarus coelestinus
+    confidence: 0.316
+  - scientific: Aulostomus maculatus
+    confidence: 0.0337
+species:
+- scientific: Serranus tigrinus
+  role: primary
+  confidence: 0.3733
+  identified_by: bioclip

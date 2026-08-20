@@ -10,3 +10,20 @@ lon: -68.3086211
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156869.098974
+  top:
+  - scientific: Hypoplectrus puella
+    confidence: 0.8957
+  - scientific: Lutjanus jocu
+    confidence: 0.0371
+  - scientific: Acanthurus coeruleus
+    confidence: 0.0353
+species:
+- scientific: Hypoplectrus puella
+  role: primary
+  confidence: 0.8957
+  identified_by: bioclip

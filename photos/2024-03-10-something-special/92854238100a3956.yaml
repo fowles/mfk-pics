@@ -10,3 +10,20 @@ variants:
   file: 92854238100a3956.dive-plus.webp
   import_original_name: c8061884b87f6846.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159065.2146423
+  top:
+  - scientific: Lactophrys triqueter
+    confidence: 0.9685
+  - scientific: Lactophrys bicaudalis
+    confidence: 0.0298
+  - scientific: Pomacanthus paru
+    confidence: 0.0005
+species:
+- scientific: Lactophrys triqueter
+  role: primary
+  confidence: 0.9685
+  identified_by: bioclip

@@ -13,3 +13,20 @@ variants:
   file: 3e35deba11a93a82.dive-plus.webp
   import_original_name: 5424318991ec0132.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157281.936417
+  top:
+  - scientific: Sphyraena barracuda
+    confidence: 0.4789
+  - scientific: Ginglymostoma cirratum
+    confidence: 0.1923
+  - scientific: Haemulon sciurus
+    confidence: 0.1735
+species:
+- scientific: Sphyraena barracuda
+  role: primary
+  confidence: 0.4789
+  identified_by: bioclip

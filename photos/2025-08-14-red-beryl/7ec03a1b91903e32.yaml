@@ -10,3 +10,20 @@ variants:
   file: 7ec03a1b91903e32.dive-plus.webp
   import_original_name: 058be1f1961b059b.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158336.0130172
+  top:
+  - scientific: Trachinotus goodei
+    confidence: 0.86
+  - scientific: Dactylopterus volitans
+    confidence: 0.0716
+  - scientific: Caranx ruber
+    confidence: 0.0301
+species:
+- scientific: Trachinotus goodei
+  role: primary
+  confidence: 0.86
+  identified_by: bioclip

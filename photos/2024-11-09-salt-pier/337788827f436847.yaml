@@ -13,3 +13,20 @@ variants:
   file: 337788827f436847.dive-plus.webp
   import_original_name: 31a7bd0dd4da6a91.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156583.6187408
+  top:
+  - scientific: Sepioteuthis sepioidea
+    confidence: 0.47
+  - scientific: Ogcocephalus radiatus
+    confidence: 0.1843
+  - scientific: Anisotremus virginicus
+    confidence: 0.0866
+species:
+- scientific: Sepioteuthis sepioidea
+  role: primary
+  confidence: 0.47
+  identified_by: bioclip

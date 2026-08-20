@@ -13,3 +13,18 @@ variants:
   file: 2b357b503fb0211f.dive-plus.webp
   import_original_name: d1b5e1b1228ebae8.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156983.644232
+  top:
+  - scientific: Aulostomus maculatus
+    confidence: 0.0137
+  - scientific: Gymnothorax vicinus
+    confidence: 0.0043
+  - scientific: Haemulon sciurus
+    confidence: 0.0041
+  absorbed_by:
+    scientific: Condylactis gigantea
+    confidence: 0.8844

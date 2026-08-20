@@ -13,3 +13,20 @@ variants:
   file: 5f8cda029afb14e2.dive-plus.webp
   import_original_name: b3f5a59732cb0d16.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158873.4275749
+  top:
+  - scientific: Aulostomus maculatus
+    confidence: 0.4311
+  - scientific: Cyphoma gibbosum
+    confidence: 0.0746
+  - scientific: Diadema antillarum
+    confidence: 0.0493
+species:
+- scientific: Aulostomus maculatus
+  role: primary
+  confidence: 0.4311
+  identified_by: bioclip

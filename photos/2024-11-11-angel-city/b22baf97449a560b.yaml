@@ -13,3 +13,20 @@ variants:
   file: b22baf97449a560b.dive-plus.webp
   import_original_name: 19bb33be20df8c4a.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156745.020134
+  top:
+  - scientific: Holocentrus adscensionis
+    confidence: 0.8034
+  - scientific: Kyphosus sectatrix
+    confidence: 0.0324
+  - scientific: Serranus tortugarum
+    confidence: 0.031
+species:
+- scientific: Holocentrus adscensionis
+  role: primary
+  confidence: 0.8034
+  identified_by: bioclip

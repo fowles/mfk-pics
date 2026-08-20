@@ -10,3 +10,20 @@ variants:
   file: bb86e8c4802409ca.dive-plus.webp
   import_original_name: c2f8fbfc82c390ef.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156576.80686
+  top:
+  - scientific: Mycteroperca venenosa
+    confidence: 0.5877
+  - scientific: Lutjanus jocu
+    confidence: 0.2475
+  - scientific: Kyphosus sectatrix
+    confidence: 0.0722
+species:
+- scientific: Mycteroperca venenosa
+  role: primary
+  confidence: 0.5877
+  identified_by: bioclip

@@ -13,3 +13,20 @@ variants:
   file: b34ff56ddac3405a.dive-plus.webp
   import_original_name: af2aca78a3eb79c7.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156585.611294
+  top:
+  - scientific: Malacanthus plumieri
+    confidence: 0.4953
+  - scientific: Haemulon sciurus
+    confidence: 0.1478
+  - scientific: Bodianus pulchellus
+    confidence: 0.0729
+species:
+- scientific: Malacanthus plumieri
+  role: primary
+  confidence: 0.4953
+  identified_by: bioclip

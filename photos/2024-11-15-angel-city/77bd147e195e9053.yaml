@@ -10,3 +10,20 @@ variants:
   file: 77bd147e195e9053.dive-plus.webp
   import_original_name: baaab9a8f0d880f2.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157053.797236
+  top:
+  - scientific: Mulloidichthys martinicus
+    confidence: 0.3199
+  - scientific: Sepioteuthis sepioidea
+    confidence: 0.2613
+  - scientific: Selar crumenophthalmus
+    confidence: 0.101
+species:
+- scientific: Mulloidichthys martinicus
+  role: primary
+  confidence: 0.3199
+  identified_by: bioclip

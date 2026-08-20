@@ -13,3 +13,20 @@ variants:
   file: 21f2ddcbd52dd39f.dive-plus.webp
   import_original_name: d5d38105eff3ac03.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156744.449008
+  top:
+  - scientific: Sepioteuthis sepioidea
+    confidence: 0.4466
+  - scientific: Sphyraena barracuda
+    confidence: 0.3761
+  - scientific: Aulostomus maculatus
+    confidence: 0.0893
+species:
+- scientific: Sepioteuthis sepioidea
+  role: primary
+  confidence: 0.4466
+  identified_by: bioclip

@@ -13,3 +13,20 @@ lat: 25.0151854
 lon: -80.3785098
 gps_source: manual
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157280.1575637
+  top:
+  - scientific: Melichthys niger
+    confidence: 0.7448
+  - scientific: Scarus coelestinus
+    confidence: 0.1253
+  - scientific: Scarus coeruleus
+    confidence: 0.0313
+species:
+- scientific: Melichthys niger
+  role: primary
+  confidence: 0.7448
+  identified_by: bioclip

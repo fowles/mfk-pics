@@ -10,3 +10,20 @@ variants:
   file: 82673daf4cb9d191.dive-plus.webp
   import_original_name: 54da9724a84a25c5.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158732.9226286
+  top:
+  - scientific: Equetus punctatus
+    confidence: 0.4721
+  - scientific: Bothus lunatus
+    confidence: 0.1243
+  - scientific: Pomacanthus arcuatus
+    confidence: 0.115
+species:
+- scientific: Equetus punctatus
+  role: primary
+  confidence: 0.4721
+  identified_by: bioclip

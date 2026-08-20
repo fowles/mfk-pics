@@ -13,3 +13,20 @@ variants:
   file: 30c09811e73ec35a.dive-plus.webp
   import_original_name: 3861234d606db2aa.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156743.911826
+  top:
+  - scientific: Echeneis naucrates
+    confidence: 0.5125
+  - scientific: Sphoeroides spengleri
+    confidence: 0.0988
+  - scientific: Pempheris schomburgkii
+    confidence: 0.0773
+species:
+- scientific: Echeneis naucrates
+  role: primary
+  confidence: 0.5125
+  identified_by: bioclip

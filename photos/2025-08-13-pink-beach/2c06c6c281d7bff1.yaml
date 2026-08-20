@@ -13,3 +13,18 @@ variants:
   file: 2c06c6c281d7bff1.dive-plus.webp
   import_original_name: 67ee40084569e3f4.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158190.0232532
+  top:
+  - scientific: Pareques acuminatus
+    confidence: 0.186
+  - scientific: Hippocampus erectus
+    confidence: 0.0067
+  - scientific: Holocentrus rufus
+    confidence: 0.0067
+  absorbed_by:
+    scientific: Gorgonia ventalina
+    confidence: 0.5451

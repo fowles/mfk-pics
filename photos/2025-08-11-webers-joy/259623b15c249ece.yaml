@@ -13,3 +13,20 @@ variants:
   file: 259623b15c249ece.dive-plus.webp
   import_original_name: 24bc98a66c6b2a59.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786071914.0266626
+  top:
+  - scientific: Gramma loreto
+    confidence: 0.5872
+  - scientific: Equetus punctatus
+    confidence: 0.0199
+  - scientific: Hypoplectrus puella
+    confidence: 0.0184
+species:
+- scientific: Gramma loreto
+  role: primary
+  confidence: 0.5872
+  identified_by: bioclip

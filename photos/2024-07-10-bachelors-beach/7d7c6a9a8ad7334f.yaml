@@ -13,3 +13,20 @@ variants:
   file: 7d7c6a9a8ad7334f.dive-plus.webp
   import_original_name: 4810d51788c10e57.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158751.3145463
+  top:
+  - scientific: Hippocampus erectus
+    confidence: 0.1384
+  - scientific: Acanthostracion polygonius
+    confidence: 0.1193
+  - scientific: Aulostomus maculatus
+    confidence: 0.1173
+species:
+- scientific: Hippocampus erectus
+  role: primary
+  confidence: 0.1384
+  identified_by: bioclip

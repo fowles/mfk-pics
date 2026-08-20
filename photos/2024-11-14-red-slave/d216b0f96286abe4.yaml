@@ -11,3 +11,20 @@ variants:
   import_original_name: 0586e0993d9730aa.webp
 date_reviewed: true
 rotation_applied: 90
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1787028630.4828255
+  top:
+  - scientific: Gymnothorax funebris
+    confidence: 0.5918
+  - scientific: Pomacanthus paru
+    confidence: 0.0773
+  - scientific: Thalassoma bifasciatum
+    confidence: 0.0689
+species:
+- scientific: Gymnothorax funebris
+  role: primary
+  confidence: 0.5918
+  identified_by: bioclip

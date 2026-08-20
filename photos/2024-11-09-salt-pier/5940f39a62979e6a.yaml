@@ -13,3 +13,20 @@ variants:
   file: 5940f39a62979e6a.dive-plus.webp
   import_original_name: f7ebc2538597c560.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156584.640795
+  top:
+  - scientific: Scorpaena plumieri
+    confidence: 0.9999
+  - scientific: Dactylopterus volitans
+    confidence: 0.0001
+  - scientific: Acanthostracion polygonius
+    confidence: 0.0
+species:
+- scientific: Scorpaena plumieri
+  role: primary
+  confidence: 0.9999
+  identified_by: bioclip

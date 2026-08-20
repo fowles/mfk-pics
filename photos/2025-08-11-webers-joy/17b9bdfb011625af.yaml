@@ -10,3 +10,18 @@ variants:
   file: 17b9bdfb011625af.dive-plus.webp
   import_original_name: 762bd74d223d2cba.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786071913.2183297
+  top:
+  - scientific: Haemulon macrostomum
+    confidence: 0.186
+  - scientific: Aulostomus maculatus
+    confidence: 0.1642
+  - scientific: Equetus punctatus
+    confidence: 0.0223
+  absorbed_by:
+    scientific: Antillogorgia americana
+    confidence: 0.4401

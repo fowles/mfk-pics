@@ -10,3 +10,20 @@ variants:
   file: dd5e8f1eeeef1275.dive-plus.webp
   import_original_name: e483ca89fd1624c3.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158237.1172686
+  top:
+  - scientific: Scarus taeniopterus
+    confidence: 0.6999
+  - scientific: Scarus guacamaia
+    confidence: 0.1649
+  - scientific: Scarus iseri
+    confidence: 0.0686
+species:
+- scientific: Scarus taeniopterus
+  role: primary
+  confidence: 0.6999
+  identified_by: bioclip

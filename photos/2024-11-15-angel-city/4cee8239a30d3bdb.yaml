@@ -6,3 +6,20 @@ credit: Matthew Kulukundis
 import_album: 2024-11-15, Bonaire, Angel City
 import_original_name: PXL_20241115_171217049.jpg
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157053.144601
+  top:
+  - scientific: Scomberomorus regalis
+    confidence: 0.3219
+  - scientific: Sepioteuthis sepioidea
+    confidence: 0.1517
+  - scientific: Sphyraena barracuda
+    confidence: 0.1124
+species:
+- scientific: Scomberomorus regalis
+  role: primary
+  confidence: 0.3219
+  identified_by: bioclip

@@ -10,3 +10,20 @@ variants:
   file: 1038fa44f709f1b2.dive-plus.webp
   import_original_name: 757d72192abd49d1.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158724.3540435
+  top:
+  - scientific: Equetus punctatus
+    confidence: 0.9993
+  - scientific: Pareques acuminatus
+    confidence: 0.0006
+  - scientific: Melichthys niger
+    confidence: 0.0001
+species:
+- scientific: Equetus punctatus
+  role: primary
+  confidence: 0.9993
+  identified_by: bioclip

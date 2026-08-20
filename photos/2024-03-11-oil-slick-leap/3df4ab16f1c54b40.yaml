@@ -10,3 +10,20 @@ variants:
   file: 3df4ab16f1c54b40.dive-plus.webp
   import_original_name: 35c4e178484ca646.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158967.4321744
+  top:
+  - scientific: Hypoplectrus nigricans
+    confidence: 0.3024
+  - scientific: Hypoplectrus puella
+    confidence: 0.1373
+  - scientific: Hypoplectrus indigo
+    confidence: 0.028
+species:
+- scientific: Hypoplectrus nigricans
+  role: primary
+  confidence: 0.3024
+  identified_by: bioclip

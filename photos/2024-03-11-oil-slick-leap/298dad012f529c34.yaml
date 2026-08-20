@@ -13,3 +13,20 @@ variants:
   file: 298dad012f529c34.dive-plus.webp
   import_original_name: 74dc42e61618b059.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158973.6113198
+  top:
+  - scientific: Haemulon macrostomum
+    confidence: 0.5503
+  - scientific: Pareques acuminatus
+    confidence: 0.1548
+  - scientific: Sparisoma aurofrenatum
+    confidence: 0.0875
+species:
+- scientific: Haemulon macrostomum
+  role: primary
+  confidence: 0.5503
+  identified_by: bioclip

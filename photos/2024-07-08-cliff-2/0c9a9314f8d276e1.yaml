@@ -10,3 +10,20 @@ lon: -68.2903018
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159371.2449532
+  top:
+  - scientific: Halichoeres pictus
+    confidence: 0.6094
+  - scientific: Sepioteuthis sepioidea
+    confidence: 0.2293
+  - scientific: Sparisoma aurofrenatum
+    confidence: 0.0681
+species:
+- scientific: Halichoeres pictus
+  role: primary
+  confidence: 0.6094
+  identified_by: bioclip

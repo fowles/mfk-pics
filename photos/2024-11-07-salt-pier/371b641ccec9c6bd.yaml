@@ -13,3 +13,20 @@ variants:
   file: 371b641ccec9c6bd.dive-plus.webp
   import_original_name: 8cf999fbff4105be.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156362.0286326
+  top:
+  - scientific: Acanthostracion polygonius
+    confidence: 0.4545
+  - scientific: Bothus lunatus
+    confidence: 0.1915
+  - scientific: Diodon holocanthus
+    confidence: 0.0309
+species:
+- scientific: Acanthostracion polygonius
+  role: primary
+  confidence: 0.4545
+  identified_by: bioclip

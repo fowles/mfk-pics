@@ -10,3 +10,20 @@ variants:
   file: bdefd98a08c501aa.dive-plus.webp
   import_original_name: 0d648a27ff718e37.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158723.8130527
+  top:
+  - scientific: Equetus punctatus
+    confidence: 0.5518
+  - scientific: Pareques acuminatus
+    confidence: 0.3068
+  - scientific: Periclimenes yucatanicus
+    confidence: 0.03
+species:
+- scientific: Equetus punctatus
+  role: primary
+  confidence: 0.5518
+  identified_by: bioclip

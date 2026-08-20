@@ -13,3 +13,20 @@ variants:
   file: b875da4798eb3d51.dive-plus.webp
   import_original_name: efca01c771a1a057.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157492.4770918
+  top:
+  - scientific: Bothus lunatus
+    confidence: 0.9205
+  - scientific: Ogcocephalus nasutus
+    confidence: 0.0429
+  - scientific: Urobatis jamaicensis
+    confidence: 0.024
+species:
+- scientific: Bothus lunatus
+  role: primary
+  confidence: 0.9205
+  identified_by: bioclip

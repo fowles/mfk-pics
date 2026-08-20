@@ -13,3 +13,20 @@ variants:
   file: 321871b5e90fd21c.dive-plus.webp
   import_original_name: 8c8fba762be15225.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158975.8550198
+  top:
+  - scientific: Mulloidichthys martinicus
+    confidence: 0.2725
+  - scientific: Jenkinsia lamprotaenia
+    confidence: 0.1895
+  - scientific: Haemulon carbonarium
+    confidence: 0.1649
+species:
+- scientific: Mulloidichthys martinicus
+  role: primary
+  confidence: 0.2725
+  identified_by: bioclip

@@ -13,3 +13,20 @@ variants:
   file: 9887134cbfa74b11.dive-plus.webp
   import_original_name: a7d536da520d8a32.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156982.0359402
+  top:
+  - scientific: Heteroconger longissimus
+    confidence: 0.9699
+  - scientific: Dactylopterus volitans
+    confidence: 0.0256
+  - scientific: Elacatinus genie
+    confidence: 0.0015
+species:
+- scientific: Heteroconger longissimus
+  role: primary
+  confidence: 0.9699
+  identified_by: bioclip

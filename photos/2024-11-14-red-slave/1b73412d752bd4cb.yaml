@@ -10,3 +10,20 @@ variants:
   file: 1b73412d752bd4cb.dive-plus.webp
   import_original_name: f1328729fc6946a5.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156978.8589566
+  top:
+  - scientific: Scarus coelestinus
+    confidence: 0.9185
+  - scientific: Scarus coeruleus
+    confidence: 0.0407
+  - scientific: Sepioteuthis sepioidea
+    confidence: 0.0151
+species:
+- scientific: Scarus coelestinus
+  role: primary
+  confidence: 0.9185
+  identified_by: bioclip

@@ -10,3 +10,20 @@ lon: -68.3086211
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156892.920359
+  top:
+  - scientific: Fistularia tabacaria
+    confidence: 0.6305
+  - scientific: Aluterus scriptus
+    confidence: 0.2722
+  - scientific: Myrichthys ocellatus
+    confidence: 0.0491
+species:
+- scientific: Fistularia tabacaria
+  role: primary
+  confidence: 0.6305
+  identified_by: bioclip

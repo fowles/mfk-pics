@@ -13,3 +13,20 @@ variants:
   file: 77856ff95ed1a6ee.dive-plus.webp
   import_original_name: 77863eee99b8cd92.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156745.748456
+  top:
+  - scientific: Aulostomus maculatus
+    confidence: 0.3066
+  - scientific: Hypoplectrus indigo
+    confidence: 0.1596
+  - scientific: Pomacanthus paru
+    confidence: 0.116
+species:
+- scientific: Aulostomus maculatus
+  role: primary
+  confidence: 0.3066
+  identified_by: bioclip

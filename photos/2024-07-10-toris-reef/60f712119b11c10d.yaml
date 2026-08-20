@@ -13,3 +13,20 @@ variants:
   file: 60f712119b11c10d.dive-plus.webp
   import_original_name: 2651f88175948382.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786160217.9587927
+  top:
+  - scientific: Heteroconger longissimus
+    confidence: 0.4368
+  - scientific: Bothus lunatus
+    confidence: 0.0671
+  - scientific: Jenkinsia lamprotaenia
+    confidence: 0.0596
+species:
+- scientific: Heteroconger longissimus
+  role: primary
+  confidence: 0.4368
+  identified_by: bioclip

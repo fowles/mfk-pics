@@ -11,3 +11,20 @@ variants:
   import_original_name: bd9dfa3ecd464e05.webp
 date_reviewed: true
 rotation_applied: 180
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1787029343.8652687
+  top:
+  - scientific: Halichoeres garnoti
+    confidence: 0.4481
+  - scientific: Gymnothorax funebris
+    confidence: 0.4368
+  - scientific: Thalassoma bifasciatum
+    confidence: 0.035
+species:
+- scientific: Halichoeres garnoti
+  role: primary
+  confidence: 0.4481
+  identified_by: bioclip

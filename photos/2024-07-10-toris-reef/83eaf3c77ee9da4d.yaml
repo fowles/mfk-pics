@@ -13,3 +13,20 @@ variants:
   file: 83eaf3c77ee9da4d.dive-plus.webp
   import_original_name: cbfa48fd9a84c6e3.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786160221.6893446
+  top:
+  - scientific: Thalassoma bifasciatum
+    confidence: 0.8522
+  - scientific: Elacatinus evelynae
+    confidence: 0.0239
+  - scientific: Acanthostracion polygonius
+    confidence: 0.0129
+species:
+- scientific: Thalassoma bifasciatum
+  role: primary
+  confidence: 0.8522
+  identified_by: bioclip

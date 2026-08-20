@@ -10,3 +10,20 @@ lon: -68.28015169999999
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158225.9178774
+  top:
+  - scientific: Xyrichtys martinicensis
+    confidence: 0.3801
+  - scientific: Thalassoma bifasciatum
+    confidence: 0.2045
+  - scientific: Halichoeres bivittatus
+    confidence: 0.1658
+species:
+- scientific: Xyrichtys martinicensis
+  role: primary
+  confidence: 0.3801
+  identified_by: bioclip

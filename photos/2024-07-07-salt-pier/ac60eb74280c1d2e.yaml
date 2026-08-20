@@ -11,3 +11,18 @@ variants:
   import_original_name: 4f2493d81a1c0306.webp
 date_reviewed: true
 rotation_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159956.8248897
+  top:
+  - scientific: Cyphoma gibbosum
+    confidence: 0.0738
+  - scientific: Astrophyton muricatum
+    confidence: 0.0613
+  - scientific: Pareques acuminatus
+    confidence: 0.0012
+  absorbed_by:
+    scientific: Gorgonia ventalina
+    confidence: 0.8228

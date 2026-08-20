@@ -13,3 +13,20 @@ variants:
   file: 3e1657c04f1d7452.dive-plus.webp
   import_original_name: 82ea4c742c8f456d.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156983.0805793
+  top:
+  - scientific: Trachinotus goodei
+    confidence: 0.5565
+  - scientific: Acanthurus chirurgus
+    confidence: 0.32
+  - scientific: Xyrichtys martinicensis
+    confidence: 0.0561
+species:
+- scientific: Trachinotus goodei
+  role: primary
+  confidence: 0.5565
+  identified_by: bioclip

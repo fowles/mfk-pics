@@ -13,3 +13,20 @@ variants:
   file: dd54c0c5b26bf3a8.dive-plus.webp
   import_original_name: ff8cda77d9d71180.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156980.645017
+  top:
+  - scientific: Cantherhines macrocerus
+    confidence: 0.7416
+  - scientific: Acanthostracion quadricornis
+    confidence: 0.0765
+  - scientific: Canthigaster rostrata
+    confidence: 0.0708
+species:
+- scientific: Cantherhines macrocerus
+  role: primary
+  confidence: 0.7416
+  identified_by: bioclip

@@ -10,3 +10,18 @@ variants:
   file: 1097568d148924dc.dive-plus.webp
   import_original_name: 7d5e73429a53036c.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159064.4084814
+  top:
+  - scientific: Pareques acuminatus
+    confidence: 0.0248
+  - scientific: Myrichthys ocellatus
+    confidence: 0.0127
+  - scientific: Halichoeres bivittatus
+    confidence: 0.0092
+  absorbed_by:
+    scientific: Halimeda opuntia
+    confidence: 0.8354

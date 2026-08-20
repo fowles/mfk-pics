@@ -13,3 +13,20 @@ variants:
   file: 281de01eec33e9cf.dive-plus.webp
   import_original_name: 741314c2a70cc17d.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159606.433247
+  top:
+  - scientific: Serranus tigrinus
+    confidence: 0.5299
+  - scientific: Xyrichtys splendens
+    confidence: 0.1126
+  - scientific: Amblycirrhitus pinos
+    confidence: 0.0967
+species:
+- scientific: Serranus tigrinus
+  role: primary
+  confidence: 0.5299
+  identified_by: bioclip

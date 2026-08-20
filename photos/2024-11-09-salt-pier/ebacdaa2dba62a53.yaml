@@ -10,3 +10,20 @@ variants:
   file: ebacdaa2dba62a53.dive-plus.webp
   import_original_name: 81fc9c3e0f9ea143.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156577.234978
+  top:
+  - scientific: Serranus tigrinus
+    confidence: 0.9022
+  - scientific: Xyrichtys splendens
+    confidence: 0.0119
+  - scientific: Monacanthus tuckeri
+    confidence: 0.0101
+species:
+- scientific: Serranus tigrinus
+  role: primary
+  confidence: 0.9022
+  identified_by: bioclip

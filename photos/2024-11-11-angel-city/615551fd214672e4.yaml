@@ -10,3 +10,20 @@ variants:
   file: 615551fd214672e4.dive-plus.webp
   import_original_name: 81761d9fa6e341f3.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156742.1905768
+  top:
+  - scientific: Malacoctenus triangulatus
+    confidence: 0.4144
+  - scientific: Serranus tabacarius
+    confidence: 0.1791
+  - scientific: Synodus intermedius
+    confidence: 0.1764
+species:
+- scientific: Malacoctenus triangulatus
+  role: primary
+  confidence: 0.4144
+  identified_by: bioclip

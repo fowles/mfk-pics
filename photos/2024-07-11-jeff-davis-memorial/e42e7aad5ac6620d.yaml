@@ -13,3 +13,18 @@ variants:
   file: e42e7aad5ac6620d.dive-plus.webp
   import_original_name: 33c06cac6ddf3bd0.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159585.7153034
+  top:
+  - scientific: Aulostomus maculatus
+    confidence: 0.1255
+  - scientific: Synodus intermedius
+    confidence: 0.008
+  - scientific: Stegastes partitus
+    confidence: 0.0069
+  absorbed_by:
+    scientific: Cirrhipathes leutkeni
+    confidence: 0.7741

@@ -13,3 +13,20 @@ variants:
   file: 0275d45cf545ea3d.dive-plus.webp
   import_original_name: 1b4c955ca9472746.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158237.1449366
+  top:
+  - scientific: Caranx latus
+    confidence: 0.9552
+  - scientific: Ocyurus chrysurus
+    confidence: 0.0148
+  - scientific: Scomberomorus regalis
+    confidence: 0.01
+species:
+- scientific: Caranx latus
+  role: primary
+  confidence: 0.9552
+  identified_by: bioclip

@@ -13,3 +13,20 @@ variants:
   file: 50ef86d8c36c7679.dive-plus.webp
   import_original_name: 1fcabab23f2527f7.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156981.2587094
+  top:
+  - scientific: Selar crumenophthalmus
+    confidence: 0.5954
+  - scientific: Megalops atlanticus
+    confidence: 0.1893
+  - scientific: Caranx ruber
+    confidence: 0.1285
+species:
+- scientific: Selar crumenophthalmus
+  role: primary
+  confidence: 0.5954
+  identified_by: bioclip

@@ -6,3 +6,20 @@ credit: Matthew Kulukundis
 import_album: Bonaire, Something Special, 2024-03-10
 import_original_name: PXL_20240310_185128825.MP.jpg
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159062.944696
+  top:
+  - scientific: Sphyraena barracuda
+    confidence: 0.2326
+  - scientific: Haemulon sciurus
+    confidence: 0.2069
+  - scientific: Aliger gigas
+    confidence: 0.1521
+species:
+- scientific: Sphyraena barracuda
+  role: primary
+  confidence: 0.2326
+  identified_by: bioclip

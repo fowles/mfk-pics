@@ -10,3 +10,20 @@ lon: -68.3164123
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156520.020559
+  top:
+  - scientific: Heteropriacanthus cruentatus
+    confidence: 0.9999
+  - scientific: Mycteroperca bonaci
+    confidence: 0.0
+  - scientific: Mycteroperca tigris
+    confidence: 0.0
+species:
+- scientific: Heteropriacanthus cruentatus
+  role: primary
+  confidence: 0.9999
+  identified_by: bioclip

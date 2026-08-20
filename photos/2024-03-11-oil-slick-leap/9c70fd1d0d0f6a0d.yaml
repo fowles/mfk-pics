@@ -13,3 +13,20 @@ variants:
   file: 9c70fd1d0d0f6a0d.dive-plus.webp
   import_original_name: 893acb45a95df656.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158980.8379438
+  top:
+  - scientific: Haemulon carbonarium
+    confidence: 0.1336
+  - scientific: Scomberomorus regalis
+    confidence: 0.1049
+  - scientific: Thalassoma bifasciatum
+    confidence: 0.1042
+species:
+- scientific: Haemulon carbonarium
+  role: primary
+  confidence: 0.1336
+  identified_by: bioclip

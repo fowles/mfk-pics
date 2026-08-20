@@ -13,3 +13,20 @@ variants:
   file: 0e31eafde36baa98.dive-plus.webp
   import_original_name: eee6a0395f4eeb07.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157881.9312427
+  top:
+  - scientific: Bothus lunatus
+    confidence: 0.9992
+  - scientific: Urobatis jamaicensis
+    confidence: 0.0001
+  - scientific: Acanthostracion quadricornis
+    confidence: 0.0
+species:
+- scientific: Bothus lunatus
+  role: primary
+  confidence: 0.9992
+  identified_by: bioclip

@@ -13,3 +13,20 @@ variants:
   file: 5c06fa3ebd375e3d.dive-plus.webp
   import_original_name: 4ba5d1c9f1a2f4d5.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158187.9994578
+  top:
+  - scientific: Sparisoma rubripinne
+    confidence: 0.6553
+  - scientific: Scarus coelestinus
+    confidence: 0.0672
+  - scientific: Sparisoma viride
+    confidence: 0.0605
+species:
+- scientific: Sparisoma rubripinne
+  role: primary
+  confidence: 0.6553
+  identified_by: bioclip

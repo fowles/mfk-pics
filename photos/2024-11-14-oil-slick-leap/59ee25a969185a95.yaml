@@ -13,3 +13,20 @@ variants:
   file: 59ee25a969185a95.dive-plus.webp
   import_original_name: 2edfdf0ca4eaaa45.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156901.5360365
+  top:
+  - scientific: Sepioteuthis sepioidea
+    confidence: 0.9776
+  - scientific: Opistognathus aurifrons
+    confidence: 0.008
+  - scientific: Octopus briareus
+    confidence: 0.0058
+species:
+- scientific: Sepioteuthis sepioidea
+  role: primary
+  confidence: 0.9776
+  identified_by: bioclip

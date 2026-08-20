@@ -11,3 +11,20 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 rotation_applied: 180
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1787174216.5467944
+  top:
+  - scientific: Diadema antillarum
+    confidence: 0.9934
+  - scientific: Stenopus hispidus
+    confidence: 0.0043
+  - scientific: Panulirus argus
+    confidence: 0.0011
+species:
+- scientific: Diadema antillarum
+  role: primary
+  confidence: 0.9934
+  identified_by: bioclip

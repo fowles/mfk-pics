@@ -10,3 +10,16 @@ lon: -68.40111449999999
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158850.3930666
+  top:
+  - scientific: Haemulon macrostomum
+    confidence: 0.3174
+  - scientific: Diodon hystrix
+    confidence: 0.1722
+  - scientific: Aliger gigas
+    confidence: 0.1321
+species: []

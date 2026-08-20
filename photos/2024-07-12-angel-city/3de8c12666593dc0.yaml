@@ -10,3 +10,20 @@ lon: -68.2872912
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158484.2346144
+  top:
+  - scientific: Malacanthus plumieri
+    confidence: 0.5578
+  - scientific: Caranx ruber
+    confidence: 0.2372
+  - scientific: Kyphosus sectatrix
+    confidence: 0.09
+species:
+- scientific: Malacanthus plumieri
+  role: primary
+  confidence: 0.5578
+  identified_by: bioclip

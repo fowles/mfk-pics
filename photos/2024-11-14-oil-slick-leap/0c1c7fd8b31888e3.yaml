@@ -10,3 +10,20 @@ variants:
   file: 0c1c7fd8b31888e3.dive-plus.webp
   import_original_name: 89c765a698c03594.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156897.757423
+  top:
+  - scientific: Haemulon sciurus
+    confidence: 0.1903
+  - scientific: Holocentrus adscensionis
+    confidence: 0.0823
+  - scientific: Haemulon carbonarium
+    confidence: 0.0741
+species:
+- scientific: Haemulon sciurus
+  role: primary
+  confidence: 0.1903
+  identified_by: bioclip

@@ -10,3 +10,20 @@ lon: -68.2872912
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158481.1176207
+  top:
+  - scientific: Aluterus scriptus
+    confidence: 0.9992
+  - scientific: Acanthostracion quadricornis
+    confidence: 0.0007
+  - scientific: Scarus coelestinus
+    confidence: 0.0001
+species:
+- scientific: Aluterus scriptus
+  role: primary
+  confidence: 0.9992
+  identified_by: bioclip

@@ -10,3 +10,20 @@ lon: -79.2886
 gps_source: dive_site
 date_reviewed: true
 rotation_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159793.9712543
+  top:
+  - scientific: Gerres cinereus
+    confidence: 0.51
+  - scientific: Haemulon macrostomum
+    confidence: 0.2281
+  - scientific: Lutjanus griseus
+    confidence: 0.1025
+species:
+- scientific: Gerres cinereus
+  role: primary
+  confidence: 0.51
+  identified_by: bioclip

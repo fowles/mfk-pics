@@ -10,3 +10,20 @@ lon: -68.34805419999999
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156689.4543605
+  top:
+  - scientific: Holocentrus adscensionis
+    confidence: 0.8839
+  - scientific: Holocentrus rufus
+    confidence: 0.0814
+  - scientific: Aulostomus maculatus
+    confidence: 0.009
+species:
+- scientific: Holocentrus adscensionis
+  role: primary
+  confidence: 0.8839
+  identified_by: bioclip

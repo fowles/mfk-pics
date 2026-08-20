@@ -13,3 +13,20 @@ variants:
   file: c9ec5c74fc1309e8.dive-plus.webp
   import_original_name: 0fe6446c20bc4cb2.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157214.9089475
+  top:
+  - scientific: Hypanus americanus
+    confidence: 0.397
+  - scientific: Opistognathus aurifrons
+    confidence: 0.2035
+  - scientific: Diodon holocanthus
+    confidence: 0.0782
+species:
+- scientific: Hypanus americanus
+  role: primary
+  confidence: 0.397
+  identified_by: bioclip

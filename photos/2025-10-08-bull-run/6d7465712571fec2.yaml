@@ -10,3 +10,20 @@ lon: -79.2641
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786681476.9344525
+  top:
+  - scientific: Tursiops truncatus
+    confidence: 0.3568
+  - scientific: Lutjanus griseus
+    confidence: 0.1781
+  - scientific: Megalops atlanticus
+    confidence: 0.1114
+species:
+- scientific: Tursiops truncatus
+  role: primary
+  confidence: 0.3568
+  identified_by: bioclip

@@ -10,3 +10,20 @@ lon: -68.2874429
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158391.8112154
+  top:
+  - scientific: Sargocentron coruscum
+    confidence: 0.7778
+  - scientific: Holocentrus adscensionis
+    confidence: 0.1491
+  - scientific: Neoniphon marianus
+    confidence: 0.0674
+species:
+- scientific: Sargocentron coruscum
+  role: primary
+  confidence: 0.7778
+  identified_by: bioclip

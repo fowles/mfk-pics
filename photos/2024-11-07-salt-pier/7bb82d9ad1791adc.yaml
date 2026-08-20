@@ -11,3 +11,20 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 rotation_applied: 90
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1787175954.3248045
+  top:
+  - scientific: Acanthostracion polygonius
+    confidence: 0.2879
+  - scientific: Epinephelus striatus
+    confidence: 0.0646
+  - scientific: Serranus tigrinus
+    confidence: 0.0643
+species:
+- scientific: Acanthostracion polygonius
+  role: primary
+  confidence: 0.2879
+  identified_by: bioclip

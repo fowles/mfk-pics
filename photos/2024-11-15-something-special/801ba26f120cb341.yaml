@@ -10,3 +10,20 @@ variants:
   file: 801ba26f120cb341.dive-plus.webp
   import_original_name: 04f045b1b816336f.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157212.8842466
+  top:
+  - scientific: Trachinotus goodei
+    confidence: 0.6301
+  - scientific: Hypanus americanus
+    confidence: 0.0949
+  - scientific: Scarus coeruleus
+    confidence: 0.0827
+species:
+- scientific: Trachinotus goodei
+  role: primary
+  confidence: 0.6301
+  identified_by: bioclip

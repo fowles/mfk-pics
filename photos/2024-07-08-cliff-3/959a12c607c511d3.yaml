@@ -10,3 +10,20 @@ lon: -68.2903018
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159383.2269208
+  top:
+  - scientific: Acanthostracion polygonius
+    confidence: 0.8187
+  - scientific: Acanthostracion quadricornis
+    confidence: 0.0732
+  - scientific: Mycteroperca venenosa
+    confidence: 0.0671
+species:
+- scientific: Acanthostracion polygonius
+  role: primary
+  confidence: 0.8187
+  identified_by: bioclip

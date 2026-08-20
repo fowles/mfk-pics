@@ -10,3 +10,20 @@ variants:
   file: 34a2c2150fbf6139.dive-plus.webp
   import_original_name: 2de63596d49bdf7b.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158186.2773566
+  top:
+  - scientific: Ginglymostoma cirratum
+    confidence: 0.8607
+  - scientific: Tursiops truncatus
+    confidence: 0.0577
+  - scientific: Carcharhinus perezi
+    confidence: 0.0245
+species:
+- scientific: Ginglymostoma cirratum
+  role: primary
+  confidence: 0.8607
+  identified_by: bioclip

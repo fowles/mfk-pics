@@ -13,3 +13,18 @@ variants:
   file: b2bc075002c36487.dive-plus.webp
   import_original_name: e84882417faefafd.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158873.3725247
+  top:
+  - scientific: Ginglymostoma cirratum
+    confidence: 0.0409
+  - scientific: Aulostomus maculatus
+    confidence: 0.032
+  - scientific: Sparisoma viride
+    confidence: 0.0283
+  absorbed_by:
+    scientific: Agaricia agaricites
+    confidence: 0.3007

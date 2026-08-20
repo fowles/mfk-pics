@@ -13,3 +13,20 @@ variants:
   file: 712d66f3c04679a0.dive-plus.webp
   import_original_name: 78180b7b58f52bc9.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156983.1492374
+  top:
+  - scientific: Trachinotus goodei
+    confidence: 0.9319
+  - scientific: Dactylopterus volitans
+    confidence: 0.0427
+  - scientific: Myrichthys ocellatus
+    confidence: 0.0112
+species:
+- scientific: Trachinotus goodei
+  role: primary
+  confidence: 0.9319
+  identified_by: bioclip

@@ -13,3 +13,18 @@ variants:
   file: fbb3dd8a94dc9c0b.dive-plus.webp
   import_original_name: 1be5da3e5e4536b6.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158743.30033
+  top:
+  - scientific: Pareques acuminatus
+    confidence: 0.0452
+  - scientific: Aulostomus maculatus
+    confidence: 0.0207
+  - scientific: Astrophyton muricatum
+    confidence: 0.0197
+  absorbed_by:
+    scientific: Antillogorgia americana
+    confidence: 0.6021

@@ -13,3 +13,20 @@ variants:
   file: cfebcf587f683294.dive-plus.webp
   import_original_name: 795a6a5933307cb1.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159067.2888749
+  top:
+  - scientific: Jenkinsia lamprotaenia
+    confidence: 0.7185
+  - scientific: Heteroconger longissimus
+    confidence: 0.0773
+  - scientific: Aulostomus maculatus
+    confidence: 0.0726
+species:
+- scientific: Jenkinsia lamprotaenia
+  role: primary
+  confidence: 0.7185
+  identified_by: bioclip

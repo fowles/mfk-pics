@@ -10,3 +10,20 @@ variants:
   file: ea8562e68e080bd6.dive-plus.webp
   import_original_name: d3054018576649e9.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156340.6944454
+  top:
+  - scientific: Hippocampus erectus
+    confidence: 0.3327
+  - scientific: Serranus tigrinus
+    confidence: 0.1533
+  - scientific: Diodon holocanthus
+    confidence: 0.1326
+species:
+- scientific: Hippocampus erectus
+  role: primary
+  confidence: 0.3327
+  identified_by: bioclip

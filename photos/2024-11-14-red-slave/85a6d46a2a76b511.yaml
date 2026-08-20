@@ -13,3 +13,20 @@ variants:
   file: 85a6d46a2a76b511.dive-plus.webp
   import_original_name: a9d111c2e69886b4.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156982.8280258
+  top:
+  - scientific: Aetobatus narinari
+    confidence: 0.5709
+  - scientific: Hypanus americanus
+    confidence: 0.1332
+  - scientific: Ginglymostoma cirratum
+    confidence: 0.1161
+species:
+- scientific: Aetobatus narinari
+  role: primary
+  confidence: 0.5709
+  identified_by: bioclip

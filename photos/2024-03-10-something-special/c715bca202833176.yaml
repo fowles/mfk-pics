@@ -10,3 +10,20 @@ variants:
   file: c715bca202833176.dive-plus.webp
   import_original_name: ffacde4f44c26aa4.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159064.1471372
+  top:
+  - scientific: Acanthostracion quadricornis
+    confidence: 0.6808
+  - scientific: Acanthostracion polygonius
+    confidence: 0.2329
+  - scientific: Aluterus scriptus
+    confidence: 0.0373
+species:
+- scientific: Acanthostracion quadricornis
+  role: primary
+  confidence: 0.6808
+  identified_by: bioclip

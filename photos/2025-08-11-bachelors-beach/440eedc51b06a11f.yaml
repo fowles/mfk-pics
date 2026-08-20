@@ -13,3 +13,20 @@ variants:
   file: 440eedc51b06a11f.dive-plus.webp
   import_original_name: 0d7d506e49977da1.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157882.1479306
+  top:
+  - scientific: Gymnothorax funebris
+    confidence: 0.5836
+  - scientific: Scarus guacamaia
+    confidence: 0.1301
+  - scientific: Cantherhines pullus
+    confidence: 0.0966
+species:
+- scientific: Gymnothorax funebris
+  role: primary
+  confidence: 0.5836
+  identified_by: bioclip

@@ -13,3 +13,20 @@ variants:
   file: 46dda2053894df58.dive-plus.webp
   import_original_name: 4f067d53b88719a6.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158874.1972353
+  top:
+  - scientific: Melichthys niger
+    confidence: 0.9998
+  - scientific: Scarus coelestinus
+    confidence: 0.0001
+  - scientific: Acanthurus coeruleus
+    confidence: 0.0
+species:
+- scientific: Melichthys niger
+  role: primary
+  confidence: 0.9998
+  identified_by: bioclip

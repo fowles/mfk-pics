@@ -10,3 +10,20 @@ lon: -68.28180019999999
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157576.903917
+  top:
+  - scientific: Tripneustes ventricosus
+    confidence: 0.2831
+  - scientific: Acanthemblemaria maria
+    confidence: 0.1251
+  - scientific: Pempheris schomburgkii
+    confidence: 0.0949
+species:
+- scientific: Tripneustes ventricosus
+  role: primary
+  confidence: 0.2831
+  identified_by: bioclip

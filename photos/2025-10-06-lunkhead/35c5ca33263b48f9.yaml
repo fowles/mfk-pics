@@ -11,3 +11,18 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 rotation_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159791.9777513
+  top:
+  - scientific: Acanthostracion quadricornis
+    confidence: 0.201
+  - scientific: Sphoeroides spengleri
+    confidence: 0.0267
+  - scientific: Selar crumenophthalmus
+    confidence: 0.0206
+  absorbed_by:
+    scientific: Meandrina meandrites
+    confidence: 0.4176

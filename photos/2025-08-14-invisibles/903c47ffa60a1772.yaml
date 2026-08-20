@@ -13,3 +13,20 @@ variants:
   file: 903c47ffa60a1772.dive-plus.webp
   import_original_name: 82f8a3b85debce6a.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158237.9209282
+  top:
+  - scientific: Aetobatus narinari
+    confidence: 0.2984
+  - scientific: Sphyraena barracuda
+    confidence: 0.235
+  - scientific: Melichthys niger
+    confidence: 0.2031
+species:
+- scientific: Aetobatus narinari
+  role: primary
+  confidence: 0.2984
+  identified_by: bioclip

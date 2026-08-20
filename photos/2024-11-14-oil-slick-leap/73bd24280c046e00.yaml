@@ -10,3 +10,20 @@ variants:
   file: 73bd24280c046e00.dive-plus.webp
   import_original_name: 5632c97dfaefa0bd.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156897.5051956
+  top:
+  - scientific: Acanthostracion quadricornis
+    confidence: 0.7311
+  - scientific: Acanthostracion polygonius
+    confidence: 0.2003
+  - scientific: Halichoeres radiatus
+    confidence: 0.0222
+species:
+- scientific: Acanthostracion quadricornis
+  role: primary
+  confidence: 0.7311
+  identified_by: bioclip

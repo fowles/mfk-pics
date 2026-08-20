@@ -13,3 +13,20 @@ variants:
   file: 1760aa53fb1d8abd.dive-plus.webp
   import_original_name: 81dbe8389d7b7504.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156585.6766386
+  top:
+  - scientific: Lactophrys triqueter
+    confidence: 0.9948
+  - scientific: Diodon holocanthus
+    confidence: 0.0033
+  - scientific: Equetus punctatus
+    confidence: 0.0004
+species:
+- scientific: Lactophrys triqueter
+  role: primary
+  confidence: 0.9948
+  identified_by: bioclip

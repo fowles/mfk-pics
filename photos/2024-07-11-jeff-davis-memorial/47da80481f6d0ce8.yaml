@@ -13,3 +13,20 @@ variants:
   file: 47da80481f6d0ce8.dive-plus.webp
   import_original_name: bd311f527ae88b13.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159584.4070153
+  top:
+  - scientific: Epinephelus itajara
+    confidence: 0.2481
+  - scientific: Sepioteuthis sepioidea
+    confidence: 0.1743
+  - scientific: Sphoeroides spengleri
+    confidence: 0.098
+species:
+- scientific: Epinephelus itajara
+  role: primary
+  confidence: 0.2481
+  identified_by: bioclip

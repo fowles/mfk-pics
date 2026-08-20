@@ -13,3 +13,20 @@ variants:
   file: 55b49b5621b9366e.dive-plus.webp
   import_original_name: 546bf00181850a41.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156982.1473653
+  top:
+  - scientific: Opistognathus aurifrons
+    confidence: 0.4511
+  - scientific: Acanthostracion polygonius
+    confidence: 0.2422
+  - scientific: Microspathodon chrysurus
+    confidence: 0.0571
+species:
+- scientific: Opistognathus aurifrons
+  role: primary
+  confidence: 0.4511
+  identified_by: bioclip

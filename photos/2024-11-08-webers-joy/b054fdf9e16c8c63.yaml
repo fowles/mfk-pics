@@ -10,3 +10,20 @@ lon: -68.3164123
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156522.7980287
+  top:
+  - scientific: Kyphosus sectatrix
+    confidence: 0.5571
+  - scientific: Aetobatus narinari
+    confidence: 0.4153
+  - scientific: Haemulon plumierii
+    confidence: 0.0092
+species:
+- scientific: Kyphosus sectatrix
+  role: primary
+  confidence: 0.5571
+  identified_by: bioclip

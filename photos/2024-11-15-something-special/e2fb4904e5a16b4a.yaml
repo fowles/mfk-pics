@@ -13,3 +13,20 @@ variants:
   file: e2fb4904e5a16b4a.dive-plus.webp
   import_original_name: 9d1d1910b6e73d9d.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157214.5646641
+  top:
+  - scientific: Gymnothorax moringa
+    confidence: 0.4203
+  - scientific: Lactophrys triqueter
+    confidence: 0.3315
+  - scientific: Kyphosus sectatrix
+    confidence: 0.1139
+species:
+- scientific: Gymnothorax moringa
+  role: primary
+  confidence: 0.4203
+  identified_by: bioclip

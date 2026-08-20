@@ -13,3 +13,20 @@ variants:
   file: d21a2d90dcbf4e89.dive-plus.webp
   import_original_name: dec1a98e82393ed5.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157492.5617619
+  top:
+  - scientific: Bothus lunatus
+    confidence: 0.5961
+  - scientific: Hippocampus erectus
+    confidence: 0.2529
+  - scientific: Sphoeroides testudineus
+    confidence: 0.0354
+species:
+- scientific: Bothus lunatus
+  role: primary
+  confidence: 0.5961
+  identified_by: bioclip

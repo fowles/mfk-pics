@@ -13,3 +13,20 @@ variants:
   file: 4199ba769ab8b08b.dive-plus.webp
   import_original_name: 37f2596a44c72f46.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159606.0021503
+  top:
+  - scientific: Epinephelus itajara
+    confidence: 0.3931
+  - scientific: Mycteroperca tigris
+    confidence: 0.2135
+  - scientific: Mycteroperca venenosa
+    confidence: 0.0405
+species:
+- scientific: Epinephelus itajara
+  role: primary
+  confidence: 0.3931
+  identified_by: bioclip

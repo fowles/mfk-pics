@@ -10,3 +10,20 @@ variants:
   file: 42032cc87886b1db.dive-plus.webp
   import_original_name: 40a61d550423fa59.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158972.5934203
+  top:
+  - scientific: Serranus tigrinus
+    confidence: 0.4316
+  - scientific: Dactylopterus volitans
+    confidence: 0.3301
+  - scientific: Acanthostracion polygonius
+    confidence: 0.0948
+species:
+- scientific: Serranus tigrinus
+  role: primary
+  confidence: 0.4316
+  identified_by: bioclip

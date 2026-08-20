@@ -10,3 +10,20 @@ variants:
   file: 9e6488f59b41cf30.dive-plus.webp
   import_original_name: b836a9a09218c59e.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156339.092657
+  top:
+  - scientific: Mycteroperca venenosa
+    confidence: 0.3192
+  - scientific: Synodus intermedius
+    confidence: 0.302
+  - scientific: Sphoeroides spengleri
+    confidence: 0.1359
+species:
+- scientific: Mycteroperca venenosa
+  role: primary
+  confidence: 0.3192
+  identified_by: bioclip

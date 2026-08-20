@@ -13,3 +13,20 @@ variants:
   file: 29372f47f326e7f5.dive-plus.webp
   import_original_name: b1780dbef13af523.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159604.5760074
+  top:
+  - scientific: Hippocampus erectus
+    confidence: 0.9544
+  - scientific: Diodon hystrix
+    confidence: 0.0105
+  - scientific: Antennarius striatus
+    confidence: 0.0084
+species:
+- scientific: Hippocampus erectus
+  role: primary
+  confidence: 0.9544
+  identified_by: bioclip

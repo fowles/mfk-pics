@@ -11,3 +11,18 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 rotation_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157576.8598814
+  top:
+  - scientific: Aulostomus maculatus
+    confidence: 0.0078
+  - scientific: Thalassoma bifasciatum
+    confidence: 0.0049
+  - scientific: Stegastes partitus
+    confidence: 0.0026
+  absorbed_by:
+    scientific: Aplysina archeri
+    confidence: 0.9494

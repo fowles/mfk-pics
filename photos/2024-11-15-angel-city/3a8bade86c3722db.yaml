@@ -6,3 +6,20 @@ credit: Matthew Kulukundis
 import_album: 2024-11-15, Bonaire, Angel City
 import_original_name: PXL_20241115_171232350.jpg
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157053.4917367
+  top:
+  - scientific: Chelonia mydas
+    confidence: 0.2817
+  - scientific: Caretta caretta
+    confidence: 0.2426
+  - scientific: Thalassoma bifasciatum
+    confidence: 0.0626
+species:
+- scientific: Chelonia mydas
+  role: primary
+  confidence: 0.2817
+  identified_by: bioclip

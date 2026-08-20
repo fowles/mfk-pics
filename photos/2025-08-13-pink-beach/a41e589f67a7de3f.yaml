@@ -13,3 +13,20 @@ variants:
   file: a41e589f67a7de3f.dive-plus.webp
   import_original_name: 7939e9b5041def74.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158189.9383874
+  top:
+  - scientific: Chaetodon striatus
+    confidence: 0.7911
+  - scientific: Pomacanthus paru
+    confidence: 0.1922
+  - scientific: Chaetodipterus faber
+    confidence: 0.0054
+species:
+- scientific: Chaetodon striatus
+  role: primary
+  confidence: 0.7911
+  identified_by: bioclip

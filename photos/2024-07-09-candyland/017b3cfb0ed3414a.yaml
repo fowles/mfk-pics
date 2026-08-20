@@ -13,3 +13,20 @@ variants:
   file: 017b3cfb0ed3414a.dive-plus.webp
   import_original_name: 255ab554ad7b6f09.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159189.8322484
+  top:
+  - scientific: Sphyraena barracuda
+    confidence: 0.3702
+  - scientific: Malacanthus plumieri
+    confidence: 0.2605
+  - scientific: Aulostomus maculatus
+    confidence: 0.093
+species:
+- scientific: Sphyraena barracuda
+  role: primary
+  confidence: 0.3702
+  identified_by: bioclip

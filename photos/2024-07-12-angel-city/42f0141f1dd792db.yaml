@@ -10,3 +10,20 @@ lon: -68.2872912
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158488.877943
+  top:
+  - scientific: Halichoeres radiatus
+    confidence: 0.5029
+  - scientific: Sepioteuthis sepioidea
+    confidence: 0.1856
+  - scientific: Thalassoma bifasciatum
+    confidence: 0.1532
+species:
+- scientific: Halichoeres radiatus
+  role: primary
+  confidence: 0.5029
+  identified_by: bioclip

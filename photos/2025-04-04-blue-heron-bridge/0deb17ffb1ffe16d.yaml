@@ -13,3 +13,20 @@ variants:
   file: 0deb17ffb1ffe16d.dive-plus.webp
   import_original_name: 4ed3895410e43c49.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157492.6343884
+  top:
+  - scientific: Aliger gigas
+    confidence: 0.9979
+  - scientific: Cantherhines pullus
+    confidence: 0.0012
+  - scientific: Petrochirus diogenes
+    confidence: 0.0003
+species:
+- scientific: Aliger gigas
+  role: primary
+  confidence: 0.9979
+  identified_by: bioclip

@@ -13,3 +13,20 @@ variants:
   file: 284cd6d4f14f197e.dive-plus.webp
   import_original_name: c080a6e4b02ee027.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158739.1947308
+  top:
+  - scientific: Hippocampus erectus
+    confidence: 0.6887
+  - scientific: Monacanthus tuckeri
+    confidence: 0.1547
+  - scientific: Chaetodon capistratus
+    confidence: 0.0221
+species:
+- scientific: Hippocampus erectus
+  role: primary
+  confidence: 0.6887
+  identified_by: bioclip

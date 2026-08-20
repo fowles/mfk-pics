@@ -13,3 +13,20 @@ variants:
   file: 59719e4b99129579.dive-plus.webp
   import_original_name: 7f19ac130114bda5.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156581.912815
+  top:
+  - scientific: Acanthostracion quadricornis
+    confidence: 0.4386
+  - scientific: Acanthostracion polygonius
+    confidence: 0.3289
+  - scientific: Lactophrys bicaudalis
+    confidence: 0.1041
+species:
+- scientific: Acanthostracion quadricornis
+  role: primary
+  confidence: 0.4386
+  identified_by: bioclip

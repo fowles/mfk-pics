@@ -10,3 +10,20 @@ variants:
   file: 6abdc8ff18075ac7.dive-plus.webp
   import_original_name: 6334e8446d07def4.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156338.7717674
+  top:
+  - scientific: Elysia crispata
+    confidence: 0.4676
+  - scientific: Gymnothorax funebris
+    confidence: 0.1881
+  - scientific: Chilomycterus antillarum
+    confidence: 0.0173
+species:
+- scientific: Elysia crispata
+  role: primary
+  confidence: 0.4676
+  identified_by: bioclip

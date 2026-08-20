@@ -13,3 +13,20 @@ variants:
   file: b34861feb5da83df.dive-plus.webp
   import_original_name: 681d267a22a2dfec.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158873.9053817
+  top:
+  - scientific: Thalassoma bifasciatum
+    confidence: 0.2142
+  - scientific: Sepioteuthis sepioidea
+    confidence: 0.1972
+  - scientific: Elacatinus evelynae
+    confidence: 0.0801
+species:
+- scientific: Thalassoma bifasciatum
+  role: primary
+  confidence: 0.2142
+  identified_by: bioclip

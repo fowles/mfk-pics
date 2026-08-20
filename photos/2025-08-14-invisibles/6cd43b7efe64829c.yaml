@@ -13,3 +13,20 @@ variants:
   file: 6cd43b7efe64829c.dive-plus.webp
   import_original_name: 40c678a8e10dae35.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158238.0202148
+  top:
+  - scientific: Equetus punctatus
+    confidence: 0.4997
+  - scientific: Thalassoma bifasciatum
+    confidence: 0.4552
+  - scientific: Melichthys niger
+    confidence: 0.0325
+species:
+- scientific: Equetus punctatus
+  role: primary
+  confidence: 0.4997
+  identified_by: bioclip

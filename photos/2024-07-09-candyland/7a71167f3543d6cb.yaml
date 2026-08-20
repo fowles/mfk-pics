@@ -13,3 +13,20 @@ variants:
   file: 7a71167f3543d6cb.dive-plus.webp
   import_original_name: 24ecf1203c3c5044.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159197.1533458
+  top:
+  - scientific: Haemulon macrostomum
+    confidence: 0.6926
+  - scientific: Haemulon carbonarium
+    confidence: 0.1236
+  - scientific: Haemulon sciurus
+    confidence: 0.0255
+species:
+- scientific: Haemulon macrostomum
+  role: primary
+  confidence: 0.6926
+  identified_by: bioclip

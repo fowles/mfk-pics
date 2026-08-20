@@ -10,3 +10,20 @@ variants:
   file: f68ca262787ebb65.dive-plus.webp
   import_original_name: 2c71922cecaffa25.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158186.9802802
+  top:
+  - scientific: Hypanus americanus
+    confidence: 0.4957
+  - scientific: Gymnothorax funebris
+    confidence: 0.2632
+  - scientific: Sepioteuthis sepioidea
+    confidence: 0.1264
+species:
+- scientific: Hypanus americanus
+  role: primary
+  confidence: 0.4957
+  identified_by: bioclip

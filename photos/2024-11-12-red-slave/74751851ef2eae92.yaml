@@ -10,3 +10,20 @@ lon: -68.2513754
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156817.8440096
+  top:
+  - scientific: Melichthys niger
+    confidence: 0.7807
+  - scientific: Hypoplectrus chlorurus
+    confidence: 0.0844
+  - scientific: Pomacanthus paru
+    confidence: 0.0629
+species:
+- scientific: Melichthys niger
+  role: primary
+  confidence: 0.7807
+  identified_by: bioclip

@@ -13,3 +13,20 @@ variants:
   file: a6a1cbecb2b6af5a.dive-plus.webp
   import_original_name: 695a3a45ad3317b1.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786160207.9269445
+  top:
+  - scientific: Hypanus americanus
+    confidence: 0.2523
+  - scientific: Lactophrys triqueter
+    confidence: 0.202
+  - scientific: Heteroconger longissimus
+    confidence: 0.1531
+species:
+- scientific: Hypanus americanus
+  role: primary
+  confidence: 0.2523
+  identified_by: bioclip

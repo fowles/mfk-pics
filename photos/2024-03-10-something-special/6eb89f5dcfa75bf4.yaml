@@ -10,3 +10,20 @@ lon: -68.2854452
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159050.9908342
+  top:
+  - scientific: Sparisoma viride
+    confidence: 0.2066
+  - scientific: Chaetodon sedentarius
+    confidence: 0.0731
+  - scientific: Aulostomus maculatus
+    confidence: 0.0545
+species:
+- scientific: Sparisoma viride
+  role: primary
+  confidence: 0.2066
+  identified_by: bioclip

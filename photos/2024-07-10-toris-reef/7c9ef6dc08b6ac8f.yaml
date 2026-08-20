@@ -13,3 +13,20 @@ variants:
   file: 7c9ef6dc08b6ac8f.dive-plus.webp
   import_original_name: ad1979da47d2c88a.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786160215.1343944
+  top:
+  - scientific: Heteroconger longissimus
+    confidence: 0.6589
+  - scientific: Lactophrys triqueter
+    confidence: 0.1625
+  - scientific: Bothus lunatus
+    confidence: 0.0837
+species:
+- scientific: Heteroconger longissimus
+  role: primary
+  confidence: 0.6589
+  identified_by: bioclip

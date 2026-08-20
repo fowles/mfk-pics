@@ -13,3 +13,18 @@ variants:
   file: b1dd0460e410ccf0.dive-plus.webp
   import_original_name: b8d72c40c4766c08.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158874.84102
+  top:
+  - scientific: Astrophyton muricatum
+    confidence: 0.3884
+  - scientific: Aulostomus maculatus
+    confidence: 0.0386
+  - scientific: Diadema antillarum
+    confidence: 0.0014
+  absorbed_by:
+    scientific: Antillogorgia americana
+    confidence: 0.4532

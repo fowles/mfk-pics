@@ -13,3 +13,20 @@ variants:
   file: c4402cc0a4acfcc7.dive-plus.webp
   import_original_name: c86f65028de2d7a7.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159595.7075388
+  top:
+  - scientific: Thalassoma bifasciatum
+    confidence: 0.7971
+  - scientific: Halichoeres pictus
+    confidence: 0.0261
+  - scientific: Mycteroperca tigris
+    confidence: 0.0122
+species:
+- scientific: Thalassoma bifasciatum
+  role: primary
+  confidence: 0.7971
+  identified_by: bioclip

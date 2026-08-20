@@ -10,3 +10,20 @@ lon: -68.2513754
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156819.227454
+  top:
+  - scientific: Epinephelus itajara
+    confidence: 0.8151
+  - scientific: Epinephelus striatus
+    confidence: 0.12
+  - scientific: Mycteroperca tigris
+    confidence: 0.028
+species:
+- scientific: Epinephelus itajara
+  role: primary
+  confidence: 0.8151
+  identified_by: bioclip

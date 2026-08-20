@@ -13,3 +13,20 @@ variants:
   file: ea15c0ab5b04d602.dive-plus.webp
   import_original_name: 0cbf8fdd9be54716.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157494.00819
+  top:
+  - scientific: Petrochirus diogenes
+    confidence: 0.8695
+  - scientific: Hippocampus erectus
+    confidence: 0.0447
+  - scientific: Ogcocephalus radiatus
+    confidence: 0.0371
+species:
+- scientific: Petrochirus diogenes
+  role: primary
+  confidence: 0.8695
+  identified_by: bioclip

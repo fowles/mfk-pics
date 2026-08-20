@@ -10,3 +10,20 @@ variants:
   file: 324ce675b8d4c4d1.dive-plus.webp
   import_original_name: ae44aca2e0da80c5.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157280.8248186
+  top:
+  - scientific: Diodon hystrix
+    confidence: 0.9993
+  - scientific: Diodon holocanthus
+    confidence: 0.0005
+  - scientific: Lactophrys triqueter
+    confidence: 0.0002
+species:
+- scientific: Diodon hystrix
+  role: primary
+  confidence: 0.9993
+  identified_by: bioclip

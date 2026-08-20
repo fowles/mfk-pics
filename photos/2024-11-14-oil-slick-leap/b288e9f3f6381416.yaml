@@ -10,3 +10,20 @@ lon: -68.3086211
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156893.9871268
+  top:
+  - scientific: Aluterus scriptus
+    confidence: 0.9267
+  - scientific: Fistularia tabacaria
+    confidence: 0.0638
+  - scientific: Acanthostracion quadricornis
+    confidence: 0.0079
+species:
+- scientific: Aluterus scriptus
+  role: primary
+  confidence: 0.9267
+  identified_by: bioclip

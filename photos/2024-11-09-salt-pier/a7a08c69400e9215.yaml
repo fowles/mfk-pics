@@ -13,3 +13,20 @@ variants:
   file: a7a08c69400e9215.dive-plus.webp
   import_original_name: 9e1897e28e140a71.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156586.2015944
+  top:
+  - scientific: Haemulon macrostomum
+    confidence: 0.988
+  - scientific: Scarus iseri
+    confidence: 0.0043
+  - scientific: Cantherhines pullus
+    confidence: 0.0038
+species:
+- scientific: Haemulon macrostomum
+  role: primary
+  confidence: 0.988
+  identified_by: bioclip

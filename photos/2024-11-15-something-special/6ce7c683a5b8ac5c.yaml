@@ -13,3 +13,20 @@ variants:
   file: 6ce7c683a5b8ac5c.dive-plus.webp
   import_original_name: 8222b4c786069cf2.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157214.5400212
+  top:
+  - scientific: Acanthostracion polygonius
+    confidence: 0.7181
+  - scientific: Serranus tigrinus
+    confidence: 0.1122
+  - scientific: Epinephelus striatus
+    confidence: 0.0435
+species:
+- scientific: Acanthostracion polygonius
+  role: primary
+  confidence: 0.7181
+  identified_by: bioclip

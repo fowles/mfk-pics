@@ -10,3 +10,18 @@ variants:
   file: b975ebbc9380e6b8.dive-plus.webp
   import_original_name: 423878fb6c381918.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159575.6445944
+  top:
+  - scientific: Elacatinus evelynae
+    confidence: 0.1276
+  - scientific: Stenorhynchus seticornis
+    confidence: 0.1186
+  - scientific: Amblycirrhitus pinos
+    confidence: 0.0811
+  absorbed_by:
+    scientific: Cirrhipathes leutkeni
+    confidence: 0.2911

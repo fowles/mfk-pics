@@ -10,3 +10,20 @@ lon: -68.28180019999999
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157578.9723275
+  top:
+  - scientific: Holocentrus rufus
+    confidence: 0.3382
+  - scientific: Sepioteuthis sepioidea
+    confidence: 0.193
+  - scientific: Canthigaster rostrata
+    confidence: 0.1835
+species:
+- scientific: Holocentrus rufus
+  role: primary
+  confidence: 0.3382
+  identified_by: bioclip

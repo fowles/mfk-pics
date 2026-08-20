@@ -10,3 +10,20 @@ variants:
   file: 036354eabebe18d1.dive-plus.webp
   import_original_name: 382b7eaf7407e4de.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158971.3768892
+  top:
+  - scientific: Hypoplectrus indigo
+    confidence: 0.2195
+  - scientific: Hypoplectrus puella
+    confidence: 0.1708
+  - scientific: Cephalopholis fulva
+    confidence: 0.1341
+species:
+- scientific: Hypoplectrus indigo
+  role: primary
+  confidence: 0.2195
+  identified_by: bioclip

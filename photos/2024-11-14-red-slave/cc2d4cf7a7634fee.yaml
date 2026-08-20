@@ -13,3 +13,20 @@ variants:
   file: cc2d4cf7a7634fee.dive-plus.webp
   import_original_name: 648e3c19e2a1f02a.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156982.934351
+  top:
+  - scientific: Trachinotus goodei
+    confidence: 0.6342
+  - scientific: Acanthostracion polygonius
+    confidence: 0.199
+  - scientific: Acanthurus chirurgus
+    confidence: 0.0493
+species:
+- scientific: Trachinotus goodei
+  role: primary
+  confidence: 0.6342
+  identified_by: bioclip

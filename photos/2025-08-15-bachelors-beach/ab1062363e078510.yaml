@@ -10,3 +10,20 @@ lon: -68.2874429
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158393.2789075
+  top:
+  - scientific: Scorpaena plumieri
+    confidence: 0.7237
+  - scientific: Ogcocephalus nasutus
+    confidence: 0.1428
+  - scientific: Sparisoma aurofrenatum
+    confidence: 0.0557
+species:
+- scientific: Scorpaena plumieri
+  role: primary
+  confidence: 0.7237
+  identified_by: bioclip

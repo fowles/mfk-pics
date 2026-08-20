@@ -13,3 +13,20 @@ variants:
   file: f4fb6d58ad623a84.dive-plus.webp
   import_original_name: 691bdaed470499f8.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156745.0158231
+  top:
+  - scientific: Hypoplectrus indigo
+    confidence: 0.7042
+  - scientific: Serranus tortugarum
+    confidence: 0.0406
+  - scientific: Scarus vetula
+    confidence: 0.0367
+species:
+- scientific: Hypoplectrus indigo
+  role: primary
+  confidence: 0.7042
+  identified_by: bioclip

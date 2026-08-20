@@ -13,3 +13,20 @@ variants:
   file: 27003b2574e71a53.dive-plus.webp
   import_original_name: d9b158adb13ed251.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158875.8386874
+  top:
+  - scientific: Thalassoma bifasciatum
+    confidence: 0.3517
+  - scientific: Equetus punctatus
+    confidence: 0.1842
+  - scientific: Pareques acuminatus
+    confidence: 0.1148
+species:
+- scientific: Thalassoma bifasciatum
+  role: primary
+  confidence: 0.3517
+  identified_by: bioclip

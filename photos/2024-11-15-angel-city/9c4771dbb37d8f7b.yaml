@@ -13,3 +13,18 @@ variants:
   file: 9c4771dbb37d8f7b.dive-plus.webp
   import_original_name: 2e861492bfd1066c.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157056.636331
+  top:
+  - scientific: Tripneustes ventricosus
+    confidence: 0.1956
+  - scientific: Lactophrys triqueter
+    confidence: 0.0484
+  - scientific: Chilomycterus antillarum
+    confidence: 0.0236
+  absorbed_by:
+    scientific: Palythoa caribaeorum
+    confidence: 0.3266

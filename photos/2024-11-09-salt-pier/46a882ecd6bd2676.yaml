@@ -13,3 +13,20 @@ variants:
   file: 46a882ecd6bd2676.dive-plus.webp
   import_original_name: 5ba1eee2fec7debe.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156583.7062972
+  top:
+  - scientific: Serranus tigrinus
+    confidence: 0.3696
+  - scientific: Sepioteuthis sepioidea
+    confidence: 0.1506
+  - scientific: Holocentrus adscensionis
+    confidence: 0.095
+species:
+- scientific: Serranus tigrinus
+  role: primary
+  confidence: 0.3696
+  identified_by: bioclip

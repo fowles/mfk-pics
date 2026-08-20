@@ -13,3 +13,20 @@ variants:
   file: a9e4a804ee243ab2.dive-plus.webp
   import_original_name: ac6c8671142aa8e5.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157493.6544595
+  top:
+  - scientific: Tripneustes ventricosus
+    confidence: 0.6593
+  - scientific: Ogcocephalus nasutus
+    confidence: 0.0912
+  - scientific: Acanthostracion polygonius
+    confidence: 0.0618
+species:
+- scientific: Tripneustes ventricosus
+  role: primary
+  confidence: 0.6593
+  identified_by: bioclip

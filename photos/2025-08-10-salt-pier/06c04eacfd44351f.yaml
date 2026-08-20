@@ -10,3 +10,20 @@ lon: -68.28180019999999
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157582.533994
+  top:
+  - scientific: Sepioteuthis sepioidea
+    confidence: 0.3281
+  - scientific: Sparisoma aurofrenatum
+    confidence: 0.3046
+  - scientific: Epinephelus guttatus
+    confidence: 0.0743
+species:
+- scientific: Sepioteuthis sepioidea
+  role: primary
+  confidence: 0.3281
+  identified_by: bioclip

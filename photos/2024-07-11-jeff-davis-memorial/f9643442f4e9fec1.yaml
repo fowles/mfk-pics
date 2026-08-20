@@ -10,3 +10,20 @@ lon: -68.3139741
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159557.3103619
+  top:
+  - scientific: Canthidermis sufflamen
+    confidence: 0.4218
+  - scientific: Aurelia aurita
+    confidence: 0.3036
+  - scientific: Hypanus americanus
+    confidence: 0.1213
+species:
+- scientific: Canthidermis sufflamen
+  role: primary
+  confidence: 0.4218
+  identified_by: bioclip

@@ -10,3 +10,20 @@ variants:
   file: a1b602dd213f29b0.dive-plus.webp
   import_original_name: a83a6e91f512b57f.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158732.686225
+  top:
+  - scientific: Equetus punctatus
+    confidence: 0.2805
+  - scientific: Thalassoma bifasciatum
+    confidence: 0.2342
+  - scientific: Pomacanthus paru
+    confidence: 0.1248
+species:
+- scientific: Equetus punctatus
+  role: primary
+  confidence: 0.2805
+  identified_by: bioclip

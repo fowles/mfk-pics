@@ -10,3 +10,20 @@ variants:
   file: a280b1f2fafba29c.dive-plus.webp
   import_original_name: 53969d07f5eae9cd.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157489.8646092
+  top:
+  - scientific: Serranus tigrinus
+    confidence: 0.9789
+  - scientific: Sphoeroides spengleri
+    confidence: 0.0203
+  - scientific: Equetus punctatus
+    confidence: 0.0003
+species:
+- scientific: Serranus tigrinus
+  role: primary
+  confidence: 0.9789
+  identified_by: bioclip

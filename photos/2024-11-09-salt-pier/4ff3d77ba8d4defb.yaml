@@ -13,3 +13,20 @@ variants:
   file: 4ff3d77ba8d4defb.dive-plus.webp
   import_original_name: 54337ee3f5834b42.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156579.401923
+  top:
+  - scientific: Hypoplectrus indigo
+    confidence: 0.1961
+  - scientific: Scarus coeruleus
+    confidence: 0.1694
+  - scientific: Centropyge argi
+    confidence: 0.0862
+species:
+- scientific: Hypoplectrus indigo
+  role: primary
+  confidence: 0.1961
+  identified_by: bioclip

@@ -10,3 +10,20 @@ lon: -68.28180019999999
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156326.0699916
+  top:
+  - scientific: Scomberomorus regalis
+    confidence: 0.9616
+  - scientific: Sepioteuthis sepioidea
+    confidence: 0.0082
+  - scientific: Echeneis naucrates
+    confidence: 0.0075
+species:
+- scientific: Scomberomorus regalis
+  role: primary
+  confidence: 0.9616
+  identified_by: bioclip

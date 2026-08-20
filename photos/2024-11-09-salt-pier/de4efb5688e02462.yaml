@@ -13,3 +13,20 @@ variants:
   file: de4efb5688e02462.dive-plus.webp
   import_original_name: 6ee8ae43f09835ea.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156578.9678743
+  top:
+  - scientific: Aulostomus maculatus
+    confidence: 0.5237
+  - scientific: Stenopus hispidus
+    confidence: 0.3068
+  - scientific: Periclimenes yucatanicus
+    confidence: 0.0447
+species:
+- scientific: Aulostomus maculatus
+  role: primary
+  confidence: 0.5237
+  identified_by: bioclip

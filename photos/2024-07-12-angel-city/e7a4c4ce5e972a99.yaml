@@ -10,3 +10,20 @@ lon: -68.2872912
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158485.3816273
+  top:
+  - scientific: Sparisoma aurofrenatum
+    confidence: 0.5631
+  - scientific: Sparisoma viride
+    confidence: 0.0997
+  - scientific: Sepioteuthis sepioidea
+    confidence: 0.0848
+species:
+- scientific: Sparisoma aurofrenatum
+  role: primary
+  confidence: 0.5631
+  identified_by: bioclip

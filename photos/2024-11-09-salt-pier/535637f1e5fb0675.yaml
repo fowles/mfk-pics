@@ -13,3 +13,20 @@ variants:
   file: 535637f1e5fb0675.dive-plus.webp
   import_original_name: b8d36d4cdb386189.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156581.4687068
+  top:
+  - scientific: Aulostomus maculatus
+    confidence: 0.4811
+  - scientific: Stenorhynchus seticornis
+    confidence: 0.2363
+  - scientific: Pareques acuminatus
+    confidence: 0.0361
+species:
+- scientific: Aulostomus maculatus
+  role: primary
+  confidence: 0.4811
+  identified_by: bioclip

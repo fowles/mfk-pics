@@ -10,3 +10,20 @@ variants:
   file: e860bf2f4eaa9f47.dive-plus.webp
   import_original_name: 30be0b23dca65b86.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158235.3570712
+  top:
+  - scientific: Canthidermis sufflamen
+    confidence: 0.9207
+  - scientific: Balistes vetula
+    confidence: 0.0667
+  - scientific: Pareques acuminatus
+    confidence: 0.004
+species:
+- scientific: Canthidermis sufflamen
+  role: primary
+  confidence: 0.9207
+  identified_by: bioclip

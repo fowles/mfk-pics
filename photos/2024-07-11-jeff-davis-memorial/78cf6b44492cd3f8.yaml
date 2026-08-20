@@ -10,3 +10,20 @@ variants:
   file: 78cf6b44492cd3f8.dive-plus.webp
   import_original_name: f207d12d80c1844f.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159574.7743657
+  top:
+  - scientific: Sepioteuthis sepioidea
+    confidence: 0.7912
+  - scientific: Haemulon macrostomum
+    confidence: 0.0745
+  - scientific: Chaetodon striatus
+    confidence: 0.0586
+species:
+- scientific: Sepioteuthis sepioidea
+  role: primary
+  confidence: 0.7912
+  identified_by: bioclip

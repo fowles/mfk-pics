@@ -10,3 +10,20 @@ variants:
   file: 004a413bd6ce522b.dive-plus.webp
   import_original_name: 7e3ce1a484cb9ff3.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156577.1312335
+  top:
+  - scientific: Megalops atlanticus
+    confidence: 0.4678
+  - scientific: Caranx crysos
+    confidence: 0.2058
+  - scientific: Carangoides bartholomaei
+    confidence: 0.1857
+species:
+- scientific: Megalops atlanticus
+  role: primary
+  confidence: 0.4678
+  identified_by: bioclip

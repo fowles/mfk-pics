@@ -13,3 +13,20 @@ variants:
   file: ac4e81fc4bb0d24f.dive-plus.webp
   import_original_name: c59a58f57c8e9837.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159067.0420587
+  top:
+  - scientific: Scarus coelestinus
+    confidence: 0.8761
+  - scientific: Microspathodon chrysurus
+    confidence: 0.0178
+  - scientific: Mycteroperca venenosa
+    confidence: 0.0165
+species:
+- scientific: Scarus coelestinus
+  role: primary
+  confidence: 0.8761
+  identified_by: bioclip

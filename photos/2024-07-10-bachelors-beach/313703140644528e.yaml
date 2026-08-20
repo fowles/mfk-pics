@@ -10,3 +10,20 @@ variants:
   file: 313703140644528e.dive-plus.webp
   import_original_name: 99f92ff3d2cc199f.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158723.3731492
+  top:
+  - scientific: Equetus punctatus
+    confidence: 0.9933
+  - scientific: Emblemaria pandionis
+    confidence: 0.0047
+  - scientific: Pomacanthus paru
+    confidence: 0.0005
+species:
+- scientific: Equetus punctatus
+  role: primary
+  confidence: 0.9933
+  identified_by: bioclip

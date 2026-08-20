@@ -10,3 +10,20 @@ variants:
   file: 5e0c86501154e105.dive-plus.webp
   import_original_name: d32fb5bc168c2ce7.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159065.1953118
+  top:
+  - scientific: Amblycirrhitus pinos
+    confidence: 0.8566
+  - scientific: Hypoplectrus indigo
+    confidence: 0.0538
+  - scientific: Holocentrus adscensionis
+    confidence: 0.03
+species:
+- scientific: Amblycirrhitus pinos
+  role: primary
+  confidence: 0.8566
+  identified_by: bioclip

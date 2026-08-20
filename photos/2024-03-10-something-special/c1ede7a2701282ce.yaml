@@ -13,3 +13,20 @@ variants:
   file: c1ede7a2701282ce.dive-plus.webp
   import_original_name: fda5150f49b1f40f.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159067.4148788
+  top:
+  - scientific: Sphoeroides spengleri
+    confidence: 0.6663
+  - scientific: Sparisoma aurofrenatum
+    confidence: 0.0901
+  - scientific: Acanthostracion polygonius
+    confidence: 0.0827
+species:
+- scientific: Sphoeroides spengleri
+  role: primary
+  confidence: 0.6663
+  identified_by: bioclip

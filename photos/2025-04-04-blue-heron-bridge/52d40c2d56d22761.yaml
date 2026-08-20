@@ -13,3 +13,20 @@ variants:
   file: 52d40c2d56d22761.dive-plus.webp
   import_original_name: 34f8da41e64cdba5.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157492.15104
+  top:
+  - scientific: Pseudupeneus maculatus
+    confidence: 0.5344
+  - scientific: Sparisoma aurofrenatum
+    confidence: 0.2039
+  - scientific: Lutjanus analis
+    confidence: 0.0833
+species:
+- scientific: Pseudupeneus maculatus
+  role: primary
+  confidence: 0.5344
+  identified_by: bioclip

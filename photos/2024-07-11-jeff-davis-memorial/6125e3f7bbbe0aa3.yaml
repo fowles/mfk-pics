@@ -13,3 +13,20 @@ variants:
   file: 6125e3f7bbbe0aa3.dive-plus.webp
   import_original_name: 9fbdd5fece72e50a.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159596.1525035
+  top:
+  - scientific: Scorpaena plumieri
+    confidence: 0.9715
+  - scientific: Bothus lunatus
+    confidence: 0.0172
+  - scientific: Octopus briareus
+    confidence: 0.0083
+species:
+- scientific: Scorpaena plumieri
+  role: primary
+  confidence: 0.9715
+  identified_by: bioclip

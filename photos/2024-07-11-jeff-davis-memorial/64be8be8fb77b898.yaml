@@ -10,3 +10,20 @@ variants:
   file: 64be8be8fb77b898.dive-plus.webp
   import_original_name: 11c9426b46107713.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159574.2101438
+  top:
+  - scientific: Hypoplectrus nigricans
+    confidence: 0.387
+  - scientific: Sepioteuthis sepioidea
+    confidence: 0.2102
+  - scientific: Haemulon macrostomum
+    confidence: 0.1227
+species:
+- scientific: Hypoplectrus nigricans
+  role: primary
+  confidence: 0.387
+  identified_by: bioclip

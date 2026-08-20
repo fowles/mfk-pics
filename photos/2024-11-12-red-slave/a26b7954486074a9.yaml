@@ -11,3 +11,20 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 rotation_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156808.6662133
+  top:
+  - scientific: Trachinotus goodei
+    confidence: 0.7004
+  - scientific: Pareques acuminatus
+    confidence: 0.1253
+  - scientific: Abudefduf saxatilis
+    confidence: 0.0983
+species:
+- scientific: Trachinotus goodei
+  role: primary
+  confidence: 0.7004
+  identified_by: bioclip

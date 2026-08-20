@@ -13,3 +13,20 @@ lat: 25.0151854
 lon: -80.3785098
 gps_source: manual
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157280.2947679
+  top:
+  - scientific: Haemulon chrysargyreum
+    confidence: 0.7662
+  - scientific: Ocyurus chrysurus
+    confidence: 0.097
+  - scientific: Haemulon sciurus
+    confidence: 0.0903
+species:
+- scientific: Haemulon chrysargyreum
+  role: primary
+  confidence: 0.7662
+  identified_by: bioclip

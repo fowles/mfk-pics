@@ -10,3 +10,20 @@ variants:
   file: 8fe20b640256436b.dive-plus.webp
   import_original_name: 701a2d7a12c2279e.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158187.136481
+  top:
+  - scientific: Haemulon macrostomum
+    confidence: 0.8626
+  - scientific: Haemulon carbonarium
+    confidence: 0.0577
+  - scientific: Chaetodon striatus
+    confidence: 0.009
+species:
+- scientific: Haemulon macrostomum
+  role: primary
+  confidence: 0.8626
+  identified_by: bioclip

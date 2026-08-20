@@ -13,3 +13,20 @@ variants:
   file: 310743bf1cec3b27.dive-plus.webp
   import_original_name: b070deefe3f56e21.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159605.7686105
+  top:
+  - scientific: Acanthostracion polygonius
+    confidence: 0.2791
+  - scientific: Diodon holocanthus
+    confidence: 0.2311
+  - scientific: Gymnothorax funebris
+    confidence: 0.0507
+species:
+- scientific: Acanthostracion polygonius
+  role: primary
+  confidence: 0.2791
+  identified_by: bioclip

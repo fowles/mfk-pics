@@ -13,3 +13,20 @@ dive_window_reviewed: true
 extra_variants:
 - ancuti-fusion
 rotation_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159792.219546
+  top:
+  - scientific: Sepioteuthis sepioidea
+    confidence: 0.7688
+  - scientific: Kyphosus sectatrix
+    confidence: 0.1604
+  - scientific: Aulostomus maculatus
+    confidence: 0.0588
+species:
+- scientific: Sepioteuthis sepioidea
+  role: primary
+  confidence: 0.7688
+  identified_by: bioclip

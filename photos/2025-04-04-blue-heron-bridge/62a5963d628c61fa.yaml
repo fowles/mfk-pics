@@ -13,3 +13,20 @@ variants:
   file: 62a5963d628c61fa.dive-plus.webp
   import_original_name: a9a836825a76fae6.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157491.8851714
+  top:
+  - scientific: Haemulon plumierii
+    confidence: 0.9859
+  - scientific: Haemulon sciurus
+    confidence: 0.0121
+  - scientific: Lutjanus griseus
+    confidence: 0.0014
+species:
+- scientific: Haemulon plumierii
+  role: primary
+  confidence: 0.9859
+  identified_by: bioclip

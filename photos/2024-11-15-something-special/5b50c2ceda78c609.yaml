@@ -13,3 +13,20 @@ variants:
   file: 5b50c2ceda78c609.dive-plus.webp
   import_original_name: 893d4f01b8860257.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157216.196885
+  top:
+  - scientific: Dactylopterus volitans
+    confidence: 0.8041
+  - scientific: Gymnothorax miliaris
+    confidence: 0.1233
+  - scientific: Bothus lunatus
+    confidence: 0.011
+species:
+- scientific: Dactylopterus volitans
+  role: primary
+  confidence: 0.8041
+  identified_by: bioclip

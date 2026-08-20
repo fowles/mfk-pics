@@ -10,3 +10,20 @@ variants:
   file: f97c63e67b8b8866.dive-plus.webp
   import_original_name: 5a726651130babc6.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156576.960887
+  top:
+  - scientific: Thalassoma bifasciatum
+    confidence: 0.6145
+  - scientific: Haemulon carbonarium
+    confidence: 0.1495
+  - scientific: Melichthys niger
+    confidence: 0.0326
+species:
+- scientific: Thalassoma bifasciatum
+  role: primary
+  confidence: 0.6145
+  identified_by: bioclip

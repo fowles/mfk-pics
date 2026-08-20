@@ -13,3 +13,20 @@ variants:
   file: 7be9303644c43381.dive-plus.webp
   import_original_name: 317e0888973a74ab.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158188.831069
+  top:
+  - scientific: Cyphoma gibbosum
+    confidence: 0.3052
+  - scientific: Bothus lunatus
+    confidence: 0.1035
+  - scientific: Monacanthus tuckeri
+    confidence: 0.0266
+species:
+- scientific: Cyphoma gibbosum
+  role: primary
+  confidence: 0.3052
+  identified_by: bioclip

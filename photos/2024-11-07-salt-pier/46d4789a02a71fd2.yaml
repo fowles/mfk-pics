@@ -10,3 +10,20 @@ lon: -68.28180019999999
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156310.8272262
+  top:
+  - scientific: Fistularia tabacaria
+    confidence: 0.4275
+  - scientific: Jenkinsia lamprotaenia
+    confidence: 0.3708
+  - scientific: Selar crumenophthalmus
+    confidence: 0.09
+species:
+- scientific: Fistularia tabacaria
+  role: primary
+  confidence: 0.4275
+  identified_by: bioclip

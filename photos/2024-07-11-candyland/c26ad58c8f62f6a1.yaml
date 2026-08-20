@@ -13,3 +13,20 @@ variants:
   file: c26ad58c8f62f6a1.dive-plus.webp
   import_original_name: e2e7926037c3a0b9.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159295.5965304
+  top:
+  - scientific: Gymnothorax funebris
+    confidence: 0.2006
+  - scientific: Pomacanthus paru
+    confidence: 0.0773
+  - scientific: Sparisoma viride
+    confidence: 0.0743
+species:
+- scientific: Gymnothorax funebris
+  role: primary
+  confidence: 0.2006
+  identified_by: bioclip

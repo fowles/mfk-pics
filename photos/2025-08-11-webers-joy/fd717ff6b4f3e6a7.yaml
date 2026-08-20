@@ -13,3 +13,20 @@ variants:
   file: fd717ff6b4f3e6a7.dive-plus.webp
   import_original_name: fb14f4f34be18e7e.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786071915.1004143
+  top:
+  - scientific: Sepioteuthis sepioidea
+    confidence: 0.457
+  - scientific: Scarus coelestinus
+    confidence: 0.3893
+  - scientific: Sparisoma viride
+    confidence: 0.045
+species:
+- scientific: Sepioteuthis sepioidea
+  role: primary
+  confidence: 0.457
+  identified_by: bioclip

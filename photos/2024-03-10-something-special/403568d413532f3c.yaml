@@ -10,3 +10,20 @@ lon: -68.2854452
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159050.7116024
+  top:
+  - scientific: Serranus tigrinus
+    confidence: 0.9914
+  - scientific: Sparisoma viride
+    confidence: 0.0058
+  - scientific: Synodus intermedius
+    confidence: 0.0025
+species:
+- scientific: Serranus tigrinus
+  role: primary
+  confidence: 0.9914
+  identified_by: bioclip

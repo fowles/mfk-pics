@@ -10,3 +10,20 @@ variants:
   file: a0465e7bdaf38a47.dive-plus.webp
   import_original_name: fb5422c9163484a4.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157054.4890594
+  top:
+  - scientific: Thalassoma bifasciatum
+    confidence: 0.2351
+  - scientific: Scomberomorus regalis
+    confidence: 0.1438
+  - scientific: Hypanus americanus
+    confidence: 0.1263
+species:
+- scientific: Thalassoma bifasciatum
+  role: primary
+  confidence: 0.2351
+  identified_by: bioclip

@@ -10,3 +10,20 @@ lon: -80.044118
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157490.142227
+  top:
+  - scientific: Pomacanthus paru
+    confidence: 0.572
+  - scientific: Pomacanthus arcuatus
+    confidence: 0.3313
+  - scientific: Melichthys niger
+    confidence: 0.0936
+species:
+- scientific: Pomacanthus paru
+  role: primary
+  confidence: 0.572
+  identified_by: bioclip

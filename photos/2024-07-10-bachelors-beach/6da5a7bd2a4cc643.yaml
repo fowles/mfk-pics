@@ -10,3 +10,20 @@ lon: -68.2874429
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158711.064393
+  top:
+  - scientific: Hypoplectrus nigricans
+    confidence: 0.7347
+  - scientific: Cantherhines macrocerus
+    confidence: 0.0842
+  - scientific: Hypoplectrus puella
+    confidence: 0.019
+species:
+- scientific: Hypoplectrus nigricans
+  role: primary
+  confidence: 0.7347
+  identified_by: bioclip

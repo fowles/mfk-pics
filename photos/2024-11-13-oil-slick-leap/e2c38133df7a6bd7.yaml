@@ -11,3 +11,20 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 rotation_applied: 90
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1787178379.4226215
+  top:
+  - scientific: Astrophyton muricatum
+    confidence: 0.6332
+  - scientific: Stenorhynchus seticornis
+    confidence: 0.1768
+  - scientific: Stenopus hispidus
+    confidence: 0.0062
+species:
+- scientific: Astrophyton muricatum
+  role: primary
+  confidence: 0.6332
+  identified_by: bioclip

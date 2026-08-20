@@ -10,3 +10,20 @@ variants:
   file: eae5189053b1de08.dive-plus.webp
   import_original_name: b6690ada2cde02f6.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158502.1624992
+  top:
+  - scientific: Equetus punctatus
+    confidence: 0.389
+  - scientific: Mycteroperca tigris
+    confidence: 0.291
+  - scientific: Serranus tigrinus
+    confidence: 0.1613
+species:
+- scientific: Equetus punctatus
+  role: primary
+  confidence: 0.389
+  identified_by: bioclip

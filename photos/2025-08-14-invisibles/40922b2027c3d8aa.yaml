@@ -13,3 +13,20 @@ variants:
   file: 40922b2027c3d8aa.dive-plus.webp
   import_original_name: 5983a4d4830e7f14.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158238.6374037
+  top:
+  - scientific: Sparisoma aurofrenatum
+    confidence: 0.5001
+  - scientific: Xyrichtys martinicensis
+    confidence: 0.087
+  - scientific: Holothuria mexicana
+    confidence: 0.0703
+species:
+- scientific: Sparisoma aurofrenatum
+  role: primary
+  confidence: 0.5001
+  identified_by: bioclip

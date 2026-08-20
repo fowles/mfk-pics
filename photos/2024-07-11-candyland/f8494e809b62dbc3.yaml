@@ -14,3 +14,20 @@ variants:
   import_original_name: ce2ab2f608246129.webp
 date_reviewed: true
 rotation_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159296.7125127
+  top:
+  - scientific: Thalassoma bifasciatum
+    confidence: 0.512
+  - scientific: Gramma loreto
+    confidence: 0.0563
+  - scientific: Centropyge argi
+    confidence: 0.0494
+species:
+- scientific: Thalassoma bifasciatum
+  role: primary
+  confidence: 0.512
+  identified_by: bioclip

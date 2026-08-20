@@ -13,3 +13,20 @@ variants:
   file: faea89211391d616.dive-plus.webp
   import_original_name: 776bb6cf2d5b6132.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158973.6113472
+  top:
+  - scientific: Caranx ruber
+    confidence: 0.9991
+  - scientific: Carangoides bartholomaei
+    confidence: 0.0004
+  - scientific: Caranx crysos
+    confidence: 0.0003
+species:
+- scientific: Caranx ruber
+  role: primary
+  confidence: 0.9991
+  identified_by: bioclip

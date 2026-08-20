@@ -13,3 +13,20 @@ variants:
   file: 4715ae5b15885b74.dive-plus.webp
   import_original_name: 0d0bd49c73992db4.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159970.5738194
+  top:
+  - scientific: Sphoeroides spengleri
+    confidence: 0.841
+  - scientific: Sphoeroides testudineus
+    confidence: 0.0352
+  - scientific: Hippocampus erectus
+    confidence: 0.0256
+species:
+- scientific: Sphoeroides spengleri
+  role: primary
+  confidence: 0.841
+  identified_by: bioclip

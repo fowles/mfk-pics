@@ -10,3 +10,20 @@ variants:
   file: b05402dbdcef1446.dive-plus.webp
   import_original_name: ba89c8113a33da96.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157281.9985461
+  top:
+  - scientific: Ginglymostoma cirratum
+    confidence: 1.0
+  - scientific: Sphyrna mokarran
+    confidence: 0.0
+  - scientific: Carcharhinus perezi
+    confidence: 0.0
+species:
+- scientific: Ginglymostoma cirratum
+  role: primary
+  confidence: 1.0
+  identified_by: bioclip

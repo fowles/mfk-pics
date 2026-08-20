@@ -13,3 +13,20 @@ variants:
   file: bb22d88a06e85aa2.dive-plus.webp
   import_original_name: 113b74baf57edcf7.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159992.370211
+  top:
+  - scientific: Scarus coeruleus
+    confidence: 0.4965
+  - scientific: Hypanus americanus
+    confidence: 0.3092
+  - scientific: Heteroconger longissimus
+    confidence: 0.0612
+species:
+- scientific: Scarus coeruleus
+  role: primary
+  confidence: 0.4965
+  identified_by: bioclip

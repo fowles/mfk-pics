@@ -13,3 +13,20 @@ variants:
   file: e562ab71f8d8d810.dive-plus.webp
   import_original_name: 7d785c9ef9dbf069.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158875.1973846
+  top:
+  - scientific: Sparisoma viride
+    confidence: 0.2313
+  - scientific: Serranus tigrinus
+    confidence: 0.1918
+  - scientific: Thalassoma bifasciatum
+    confidence: 0.1015
+species:
+- scientific: Sparisoma viride
+  role: primary
+  confidence: 0.2313
+  identified_by: bioclip

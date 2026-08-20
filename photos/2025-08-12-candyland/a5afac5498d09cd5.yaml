@@ -10,3 +10,20 @@ lon: -68.40111449999999
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158128.0474284
+  top:
+  - scientific: Stegastes planifrons
+    confidence: 0.9069
+  - scientific: Stegastes leucostictus
+    confidence: 0.0403
+  - scientific: Stegastes adustus
+    confidence: 0.0398
+species:
+- scientific: Stegastes planifrons
+  role: primary
+  confidence: 0.9069
+  identified_by: bioclip

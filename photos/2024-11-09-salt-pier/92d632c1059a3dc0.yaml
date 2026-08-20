@@ -13,3 +13,20 @@ variants:
   file: 92d632c1059a3dc0.dive-plus.webp
   import_original_name: f6d09df9304b382c.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156586.225508
+  top:
+  - scientific: Dactylopterus volitans
+    confidence: 0.4932
+  - scientific: Canthidermis sufflamen
+    confidence: 0.3022
+  - scientific: Aliger gigas
+    confidence: 0.0361
+species:
+- scientific: Dactylopterus volitans
+  role: primary
+  confidence: 0.4932
+  identified_by: bioclip

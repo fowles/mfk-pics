@@ -10,3 +10,20 @@ variants:
   file: d09d720e37904a23.dive-plus.webp
   import_original_name: 8d6f5fcd474ae8ea.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159065.0519764
+  top:
+  - scientific: Hypoplectrus puella
+    confidence: 0.9918
+  - scientific: Hypoplectrus indigo
+    confidence: 0.004
+  - scientific: Chaetodon striatus
+    confidence: 0.0025
+species:
+- scientific: Hypoplectrus puella
+  role: primary
+  confidence: 0.9918
+  identified_by: bioclip

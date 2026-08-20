@@ -10,3 +10,20 @@ variants:
   file: 7ac54cd23d4c936c.dive-plus.webp
   import_original_name: 95c5922ac6aa8b6a.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158723.755849
+  top:
+  - scientific: Equetus punctatus
+    confidence: 0.9897
+  - scientific: Pareques acuminatus
+    confidence: 0.0095
+  - scientific: Haemulon macrostomum
+    confidence: 0.0004
+species:
+- scientific: Equetus punctatus
+  role: primary
+  confidence: 0.9897
+  identified_by: bioclip

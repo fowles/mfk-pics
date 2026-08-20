@@ -10,3 +10,20 @@ variants:
   file: 00bd7e2f204861eb.dive-plus.webp
   import_original_name: f1342ed4930b64fa.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159183.2958527
+  top:
+  - scientific: Aulostomus maculatus
+    confidence: 0.4683
+  - scientific: Pomacanthus paru
+    confidence: 0.178
+  - scientific: Acanthostracion polygonius
+    confidence: 0.0318
+species:
+- scientific: Aulostomus maculatus
+  role: primary
+  confidence: 0.4683
+  identified_by: bioclip

@@ -13,3 +13,20 @@ variants:
   file: 97b4924acf6a978e.dive-plus.webp
   import_original_name: dd40d93abe5eb55b.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159195.1509275
+  top:
+  - scientific: Aetobatus narinari
+    confidence: 0.9819
+  - scientific: Kyphosus sectatrix
+    confidence: 0.0107
+  - scientific: Lactophrys triqueter
+    confidence: 0.0042
+species:
+- scientific: Aetobatus narinari
+  role: primary
+  confidence: 0.9819
+  identified_by: bioclip

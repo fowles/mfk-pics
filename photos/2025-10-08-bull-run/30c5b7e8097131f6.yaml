@@ -9,3 +9,20 @@ lat: 25.5006
 lon: -79.2641
 gps_source: dive_site
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159807.9583063
+  top:
+  - scientific: Haemulon macrostomum
+    confidence: 0.7428
+  - scientific: Haemulon carbonarium
+    confidence: 0.1338
+  - scientific: Haemulon sciurus
+    confidence: 0.0566
+species:
+- scientific: Haemulon macrostomum
+  role: primary
+  confidence: 0.7428
+  identified_by: bioclip

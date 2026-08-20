@@ -10,3 +10,20 @@ lon: -68.40111449999999
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158871.202068
+  top:
+  - scientific: Hippocampus erectus
+    confidence: 0.7125
+  - scientific: Sepioteuthis sepioidea
+    confidence: 0.194
+  - scientific: Megalops atlanticus
+    confidence: 0.0262
+species:
+- scientific: Hippocampus erectus
+  role: primary
+  confidence: 0.7125
+  identified_by: bioclip

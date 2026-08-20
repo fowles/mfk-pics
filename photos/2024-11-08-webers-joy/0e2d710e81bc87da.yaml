@@ -12,3 +12,20 @@ date_reviewed: true
 dive_window_reviewed: true
 extra_variants:
 - hue-shift
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156520.2048006
+  top:
+  - scientific: Aliger gigas
+    confidence: 0.545
+  - scientific: Enchelycore carychroa
+    confidence: 0.4008
+  - scientific: Gymnothorax funebris
+    confidence: 0.009
+species:
+- scientific: Aliger gigas
+  role: primary
+  confidence: 0.545
+  identified_by: bioclip

@@ -13,3 +13,20 @@ variants:
   file: 2376216dda8231ef.dive-plus.webp
   import_original_name: 4f94c80199ae4c21.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786071913.637821
+  top:
+  - scientific: Aulostomus maculatus
+    confidence: 0.1654
+  - scientific: Diodon hystrix
+    confidence: 0.1565
+  - scientific: Epinephelus striatus
+    confidence: 0.0955
+species:
+- scientific: Aulostomus maculatus
+  role: primary
+  confidence: 0.1654
+  identified_by: bioclip

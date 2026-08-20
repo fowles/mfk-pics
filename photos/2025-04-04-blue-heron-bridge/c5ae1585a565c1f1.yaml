@@ -10,3 +10,20 @@ lon: -80.044118
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157487.6149492
+  top:
+  - scientific: Kyphosus sectatrix
+    confidence: 0.7187
+  - scientific: Ginglymostoma cirratum
+    confidence: 0.1228
+  - scientific: Melichthys niger
+    confidence: 0.0353
+species:
+- scientific: Kyphosus sectatrix
+  role: primary
+  confidence: 0.7187
+  identified_by: bioclip

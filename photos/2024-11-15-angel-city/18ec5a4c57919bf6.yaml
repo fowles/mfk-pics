@@ -10,3 +10,20 @@ variants:
   file: 18ec5a4c57919bf6.dive-plus.webp
   import_original_name: fd758f8fac98113a.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157054.8462758
+  top:
+  - scientific: Haemulon chrysargyreum
+    confidence: 0.8714
+  - scientific: Haemulon sciurus
+    confidence: 0.076
+  - scientific: Ocyurus chrysurus
+    confidence: 0.0117
+species:
+- scientific: Haemulon chrysargyreum
+  role: primary
+  confidence: 0.8714
+  identified_by: bioclip

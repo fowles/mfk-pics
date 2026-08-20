@@ -13,3 +13,20 @@ variants:
   file: b7095fa154d22b96.dive-plus.webp
   import_original_name: 95c918e2794c5fb9.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158339.1363013
+  top:
+  - scientific: Aulostomus maculatus
+    confidence: 0.7821
+  - scientific: Sphyraena barracuda
+    confidence: 0.1008
+  - scientific: Hypanus americanus
+    confidence: 0.0777
+species:
+- scientific: Aulostomus maculatus
+  role: primary
+  confidence: 0.7821
+  identified_by: bioclip

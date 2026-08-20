@@ -13,3 +13,20 @@ variants:
   file: c1b08c013a23799c.dive-plus.webp
   import_original_name: 75776f735038f28e.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158189.52936
+  top:
+  - scientific: Scarus coelestinus
+    confidence: 0.9523
+  - scientific: Pomacanthus paru
+    confidence: 0.0314
+  - scientific: Microspathodon chrysurus
+    confidence: 0.0102
+species:
+- scientific: Scarus coelestinus
+  role: primary
+  confidence: 0.9523
+  identified_by: bioclip

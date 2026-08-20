@@ -13,3 +13,20 @@ variants:
   file: 609edc3d9816698e.dive-plus.webp
   import_original_name: 3caa5f0539f1dff2.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156746.827861
+  top:
+  - scientific: Epinephelus itajara
+    confidence: 0.7933
+  - scientific: Epinephelus striatus
+    confidence: 0.1383
+  - scientific: Sparisoma viride
+    confidence: 0.0104
+species:
+- scientific: Epinephelus itajara
+  role: primary
+  confidence: 0.7933
+  identified_by: bioclip

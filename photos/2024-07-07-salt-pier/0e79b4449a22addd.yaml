@@ -10,3 +10,20 @@ variants:
   file: 0e79b4449a22addd.dive-plus.webp
   import_original_name: 7aa326b723be4b2f.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159959.1564987
+  top:
+  - scientific: Microspathodon chrysurus
+    confidence: 0.4406
+  - scientific: Scarus coelestinus
+    confidence: 0.1741
+  - scientific: Holacanthus ciliaris
+    confidence: 0.1736
+species:
+- scientific: Microspathodon chrysurus
+  role: primary
+  confidence: 0.4406
+  identified_by: bioclip

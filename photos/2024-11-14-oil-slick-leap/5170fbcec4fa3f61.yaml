@@ -10,3 +10,20 @@ variants:
   file: 5170fbcec4fa3f61.dive-plus.webp
   import_original_name: 5eef5463d0447f11.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156897.4192293
+  top:
+  - scientific: Sepioteuthis sepioidea
+    confidence: 0.4091
+  - scientific: Hypanus americanus
+    confidence: 0.1685
+  - scientific: Sphoeroides spengleri
+    confidence: 0.0733
+species:
+- scientific: Sepioteuthis sepioidea
+  role: primary
+  confidence: 0.4091
+  identified_by: bioclip

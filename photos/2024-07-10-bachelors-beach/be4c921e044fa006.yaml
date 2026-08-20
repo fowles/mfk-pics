@@ -13,3 +13,20 @@ variants:
   file: be4c921e044fa006.dive-plus.webp
   import_original_name: 08962c488c301151.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158742.9126465
+  top:
+  - scientific: Aulostomus maculatus
+    confidence: 0.2967
+  - scientific: Sphoeroides spengleri
+    confidence: 0.2575
+  - scientific: Dactylopterus volitans
+    confidence: 0.0487
+species:
+- scientific: Aulostomus maculatus
+  role: primary
+  confidence: 0.2967
+  identified_by: bioclip

@@ -13,3 +13,20 @@ variants:
   file: 82a342ede706dfa2.dive-plus.webp
   import_original_name: 22438235f4af7443.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158338.5558996
+  top:
+  - scientific: Malacanthus plumieri
+    confidence: 0.553
+  - scientific: Lutjanus mahogoni
+    confidence: 0.1504
+  - scientific: Gymnothorax funebris
+    confidence: 0.1152
+species:
+- scientific: Malacanthus plumieri
+  role: primary
+  confidence: 0.553
+  identified_by: bioclip

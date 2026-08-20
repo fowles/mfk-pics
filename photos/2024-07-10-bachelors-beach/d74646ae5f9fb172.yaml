@@ -10,3 +10,20 @@ lon: -68.2874429
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158711.6517353
+  top:
+  - scientific: Stegastes planifrons
+    confidence: 0.3125
+  - scientific: Hypoplectrus nigricans
+    confidence: 0.3121
+  - scientific: Hypoplectrus puella
+    confidence: 0.1642
+species:
+- scientific: Stegastes planifrons
+  role: primary
+  confidence: 0.3125
+  identified_by: bioclip

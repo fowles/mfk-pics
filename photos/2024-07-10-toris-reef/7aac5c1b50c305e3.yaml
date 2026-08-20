@@ -13,3 +13,20 @@ lat: 12.070475199999999
 lon: -68.2806703
 gps_source: manual
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786160182.1169746
+  top:
+  - scientific: Aulostomus maculatus
+    confidence: 0.2242
+  - scientific: Diodon holocanthus
+    confidence: 0.1579
+  - scientific: Diadema antillarum
+    confidence: 0.0762
+species:
+- scientific: Aulostomus maculatus
+  role: primary
+  confidence: 0.2242
+  identified_by: bioclip

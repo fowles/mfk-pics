@@ -13,3 +13,20 @@ variants:
   file: cb5ba232ed631012.dive-plus.webp
   import_original_name: 0b24172c76526bae.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156899.3059106
+  top:
+  - scientific: Diodon hystrix
+    confidence: 0.4701
+  - scientific: Acanthostracion polygonius
+    confidence: 0.22
+  - scientific: Aetobatus narinari
+    confidence: 0.0927
+species:
+- scientific: Diodon hystrix
+  role: primary
+  confidence: 0.4701
+  identified_by: bioclip

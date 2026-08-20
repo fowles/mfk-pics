@@ -10,3 +10,20 @@ lon: -68.3139741
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159562.7502367
+  top:
+  - scientific: Scorpaena plumieri
+    confidence: 0.9063
+  - scientific: Octopus briareus
+    confidence: 0.0275
+  - scientific: Ogcocephalus radiatus
+    confidence: 0.0158
+species:
+- scientific: Scorpaena plumieri
+  role: primary
+  confidence: 0.9063
+  identified_by: bioclip

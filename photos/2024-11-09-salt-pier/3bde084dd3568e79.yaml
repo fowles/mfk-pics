@@ -13,3 +13,20 @@ variants:
   file: 3bde084dd3568e79.dive-plus.webp
   import_original_name: 67b2ea6708a50b9f.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156585.703695
+  top:
+  - scientific: Hypanus americanus
+    confidence: 0.6587
+  - scientific: Fistularia tabacaria
+    confidence: 0.1839
+  - scientific: Bothus lunatus
+    confidence: 0.0849
+species:
+- scientific: Hypanus americanus
+  role: primary
+  confidence: 0.6587
+  identified_by: bioclip

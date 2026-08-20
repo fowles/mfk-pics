@@ -13,3 +13,20 @@ variants:
   file: f5d4481c704c8451.dive-plus.webp
   import_original_name: 4f1e0ac14603d244.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158238.570552
+  top:
+  - scientific: Sphyraena barracuda
+    confidence: 0.4601
+  - scientific: Sepioteuthis sepioidea
+    confidence: 0.2512
+  - scientific: Echeneis naucrates
+    confidence: 0.1256
+species:
+- scientific: Sphyraena barracuda
+  role: primary
+  confidence: 0.4601
+  identified_by: bioclip

@@ -9,3 +9,20 @@ lat: 25.5543
 lon: -79.2886
 gps_source: dive_site
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159793.469856
+  top:
+  - scientific: Mithraculus sculptus
+    confidence: 0.3127
+  - scientific: Emblemaria pandionis
+    confidence: 0.1057
+  - scientific: Paguristes cadenati
+    confidence: 0.0571
+species:
+- scientific: Mithraculus sculptus
+  role: primary
+  confidence: 0.3127
+  identified_by: bioclip

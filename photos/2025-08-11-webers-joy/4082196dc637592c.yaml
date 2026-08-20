@@ -13,3 +13,20 @@ variants:
   file: 4082196dc637592c.dive-plus.webp
   import_original_name: 491c48173230425c.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786071915.0737257
+  top:
+  - scientific: Serranus tigrinus
+    confidence: 0.3626
+  - scientific: Scarus coelestinus
+    confidence: 0.3019
+  - scientific: Lutjanus jocu
+    confidence: 0.0894
+species:
+- scientific: Serranus tigrinus
+  role: primary
+  confidence: 0.3626
+  identified_by: bioclip

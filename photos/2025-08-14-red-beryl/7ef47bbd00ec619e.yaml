@@ -10,3 +10,20 @@ variants:
   file: 7ef47bbd00ec619e.dive-plus.webp
   import_original_name: aeba5cd1c2fba4e3.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158335.867472
+  top:
+  - scientific: Dactylopterus volitans
+    confidence: 0.9592
+  - scientific: Canthidermis sufflamen
+    confidence: 0.0161
+  - scientific: Trachinotus goodei
+    confidence: 0.0079
+species:
+- scientific: Dactylopterus volitans
+  role: primary
+  confidence: 0.9592
+  identified_by: bioclip

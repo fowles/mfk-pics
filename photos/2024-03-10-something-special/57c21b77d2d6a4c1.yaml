@@ -13,3 +13,18 @@ variants:
   file: 57c21b77d2d6a4c1.dive-plus.webp
   import_original_name: 3248ea8d261e0d3b.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159066.3851607
+  top:
+  - scientific: Gymnothorax moringa
+    confidence: 0.1447
+  - scientific: Ginglymostoma cirratum
+    confidence: 0.0569
+  - scientific: Epinephelus itajara
+    confidence: 0.0332
+  absorbed_by:
+    scientific: Meandrina meandrites
+    confidence: 0.3381

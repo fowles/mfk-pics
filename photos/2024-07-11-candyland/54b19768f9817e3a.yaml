@@ -13,3 +13,20 @@ variants:
   file: 54b19768f9817e3a.dive-plus.webp
   import_original_name: 9c322fb4d1d8da9c.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159284.7227542
+  top:
+  - scientific: Sphyraena barracuda
+    confidence: 0.4537
+  - scientific: Haemulon macrostomum
+    confidence: 0.2952
+  - scientific: Aulostomus maculatus
+    confidence: 0.1358
+species:
+- scientific: Sphyraena barracuda
+  role: primary
+  confidence: 0.4537
+  identified_by: bioclip

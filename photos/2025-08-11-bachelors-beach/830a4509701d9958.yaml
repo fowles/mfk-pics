@@ -13,3 +13,20 @@ variants:
   file: 830a4509701d9958.dive-plus.webp
   import_original_name: bffcd3adf9c2ee26.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157882.0415332
+  top:
+  - scientific: Gymnothorax miliaris
+    confidence: 0.5337
+  - scientific: Pomacanthus paru
+    confidence: 0.0724
+  - scientific: Equetus punctatus
+    confidence: 0.0688
+species:
+- scientific: Gymnothorax miliaris
+  role: primary
+  confidence: 0.5337
+  identified_by: bioclip

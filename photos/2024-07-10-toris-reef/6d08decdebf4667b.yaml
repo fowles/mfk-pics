@@ -10,3 +10,20 @@ lon: -68.2806703
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786160159.9966307
+  top:
+  - scientific: Sphoeroides testudineus
+    confidence: 0.6218
+  - scientific: Aluterus scriptus
+    confidence: 0.1446
+  - scientific: Acanthostracion quadricornis
+    confidence: 0.0468
+species:
+- scientific: Sphoeroides testudineus
+  role: primary
+  confidence: 0.6218
+  identified_by: bioclip

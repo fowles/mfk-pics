@@ -13,3 +13,20 @@ variants:
   file: 562f117e591d9bb6.dive-plus.webp
   import_original_name: 6937f55f69d10043.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158982.0059204
+  top:
+  - scientific: Aulostomus maculatus
+    confidence: 0.351
+  - scientific: Sphoeroides spengleri
+    confidence: 0.1075
+  - scientific: Sparisoma aurofrenatum
+    confidence: 0.0788
+species:
+- scientific: Aulostomus maculatus
+  role: primary
+  confidence: 0.351
+  identified_by: bioclip

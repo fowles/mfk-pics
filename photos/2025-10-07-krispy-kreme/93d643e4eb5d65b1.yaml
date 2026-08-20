@@ -9,3 +9,20 @@ lat: 25.5543
 lon: -79.2886
 gps_source: dive_site
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159797.0105202
+  top:
+  - scientific: Caranx latus
+    confidence: 0.7555
+  - scientific: Ocyurus chrysurus
+    confidence: 0.0866
+  - scientific: Lutjanus mahogoni
+    confidence: 0.0405
+species:
+- scientific: Caranx latus
+  role: primary
+  confidence: 0.7555
+  identified_by: bioclip

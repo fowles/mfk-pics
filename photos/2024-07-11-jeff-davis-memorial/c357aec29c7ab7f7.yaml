@@ -13,3 +13,18 @@ variants:
   file: c357aec29c7ab7f7.dive-plus.webp
   import_original_name: 2cb0f88c301dc49c.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159596.4111211
+  top:
+  - scientific: Scorpaena plumieri
+    confidence: 0.1923
+  - scientific: Hippocampus erectus
+    confidence: 0.1283
+  - scientific: Acanthostracion polygonius
+    confidence: 0.1039
+  absorbed_by:
+    scientific: Meandrina meandrites
+    confidence: 0.2196

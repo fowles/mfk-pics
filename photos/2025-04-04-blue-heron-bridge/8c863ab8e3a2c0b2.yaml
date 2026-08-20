@@ -13,3 +13,20 @@ variants:
   file: 8c863ab8e3a2c0b2.dive-plus.webp
   import_original_name: 713b753030a73e74.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157494.188079
+  top:
+  - scientific: Haemulon chrysargyreum
+    confidence: 0.2132
+  - scientific: Ginglymostoma cirratum
+    confidence: 0.1426
+  - scientific: Sepioteuthis sepioidea
+    confidence: 0.1356
+species:
+- scientific: Haemulon chrysargyreum
+  role: primary
+  confidence: 0.2132
+  identified_by: bioclip

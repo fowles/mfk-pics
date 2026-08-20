@@ -13,3 +13,20 @@ variants:
   file: 9de360079b8a536f.dive-plus.webp
   import_original_name: fb2ae85ea1773a64.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156744.0448546
+  top:
+  - scientific: Haemulon macrostomum
+    confidence: 0.2972
+  - scientific: Epinephelus striatus
+    confidence: 0.202
+  - scientific: Hypoplectrus puella
+    confidence: 0.1716
+species:
+- scientific: Haemulon macrostomum
+  role: primary
+  confidence: 0.2972
+  identified_by: bioclip

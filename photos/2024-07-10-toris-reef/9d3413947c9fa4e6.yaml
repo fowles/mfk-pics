@@ -10,3 +10,20 @@ lon: -68.2806703
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786160159.1621542
+  top:
+  - scientific: Ocyurus chrysurus
+    confidence: 0.8504
+  - scientific: Anisotremus virginicus
+    confidence: 0.1201
+  - scientific: Haemulon chrysargyreum
+    confidence: 0.0185
+species:
+- scientific: Ocyurus chrysurus
+  role: primary
+  confidence: 0.8504
+  identified_by: bioclip

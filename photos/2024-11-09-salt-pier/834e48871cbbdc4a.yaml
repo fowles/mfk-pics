@@ -13,3 +13,20 @@ variants:
   file: 834e48871cbbdc4a.dive-plus.webp
   import_original_name: 50d5dfa9344baee9.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156585.1024544
+  top:
+  - scientific: Acanthostracion polygonius
+    confidence: 0.9359
+  - scientific: Sphoeroides testudineus
+    confidence: 0.0576
+  - scientific: Aluterus scriptus
+    confidence: 0.0023
+species:
+- scientific: Acanthostracion polygonius
+  role: primary
+  confidence: 0.9359
+  identified_by: bioclip

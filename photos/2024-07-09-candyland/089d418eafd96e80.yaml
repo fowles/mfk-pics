@@ -13,3 +13,20 @@ variants:
   file: 089d418eafd96e80.dive-plus.webp
   import_original_name: 3420e8427747ddd9.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159184.0303183
+  top:
+  - scientific: Aetobatus narinari
+    confidence: 0.9999
+  - scientific: Echeneis naucrates
+    confidence: 0.0001
+  - scientific: Ogcocephalus radiatus
+    confidence: 0.0
+species:
+- scientific: Aetobatus narinari
+  role: primary
+  confidence: 0.9999
+  identified_by: bioclip

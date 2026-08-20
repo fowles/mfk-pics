@@ -13,3 +13,20 @@ variants:
   file: 230e3427eade9243.dive-plus.webp
   import_original_name: 4a36898a7afcad4b.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157883.1489937
+  top:
+  - scientific: Aulostomus maculatus
+    confidence: 0.3351
+  - scientific: Thalassoma bifasciatum
+    confidence: 0.1711
+  - scientific: Gymnothorax miliaris
+    confidence: 0.0971
+species:
+- scientific: Aulostomus maculatus
+  role: primary
+  confidence: 0.3351
+  identified_by: bioclip

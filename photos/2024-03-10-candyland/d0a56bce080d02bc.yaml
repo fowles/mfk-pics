@@ -13,3 +13,20 @@ variants:
   file: d0a56bce080d02bc.dive-plus.webp
   import_original_name: bd0b4e2b8be92ba1.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158874.405977
+  top:
+  - scientific: Stenopus hispidus
+    confidence: 0.9788
+  - scientific: Diadema antillarum
+    confidence: 0.0074
+  - scientific: Stenorhynchus seticornis
+    confidence: 0.0057
+species:
+- scientific: Stenopus hispidus
+  role: primary
+  confidence: 0.9788
+  identified_by: bioclip

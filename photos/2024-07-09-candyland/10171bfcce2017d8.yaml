@@ -13,3 +13,20 @@ variants:
   file: 10171bfcce2017d8.dive-plus.webp
   import_original_name: 5cc30aa5e91670ad.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159195.6122048
+  top:
+  - scientific: Aetobatus narinari
+    confidence: 0.9097
+  - scientific: Lactophrys triqueter
+    confidence: 0.0472
+  - scientific: Lactophrys bicaudalis
+    confidence: 0.0143
+species:
+- scientific: Aetobatus narinari
+  role: primary
+  confidence: 0.9097
+  identified_by: bioclip

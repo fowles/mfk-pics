@@ -10,3 +10,20 @@ lon: -68.34805419999999
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156689.8820515
+  top:
+  - scientific: Aulostomus maculatus
+    confidence: 0.5434
+  - scientific: Mycteroperca venenosa
+    confidence: 0.0309
+  - scientific: Bothus lunatus
+    confidence: 0.0253
+species:
+- scientific: Aulostomus maculatus
+  role: primary
+  confidence: 0.5434
+  identified_by: bioclip

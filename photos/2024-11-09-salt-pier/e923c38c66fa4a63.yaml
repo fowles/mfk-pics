@@ -10,3 +10,20 @@ variants:
   file: e923c38c66fa4a63.dive-plus.webp
   import_original_name: aa29bbfb6c84f4e7.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156576.167662
+  top:
+  - scientific: Malacanthus plumieri
+    confidence: 0.8905
+  - scientific: Myrichthys breviceps
+    confidence: 0.0238
+  - scientific: Heteroconger longissimus
+    confidence: 0.0187
+species:
+- scientific: Malacanthus plumieri
+  role: primary
+  confidence: 0.8905
+  identified_by: bioclip

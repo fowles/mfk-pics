@@ -11,3 +11,20 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 rotation_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159270.3361092
+  top:
+  - scientific: Ocyurus chrysurus
+    confidence: 0.3512
+  - scientific: Chaetodon sedentarius
+    confidence: 0.16
+  - scientific: Thalassoma bifasciatum
+    confidence: 0.1177
+species:
+- scientific: Ocyurus chrysurus
+  role: primary
+  confidence: 0.3512
+  identified_by: bioclip

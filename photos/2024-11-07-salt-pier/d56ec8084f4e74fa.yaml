@@ -14,3 +14,20 @@ variants:
   import_original_name: 5303726a7317a455.webp
 date_reviewed: true
 rotation_applied: 270
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1787028827.1374166
+  top:
+  - scientific: Diodon hystrix
+    confidence: 0.1565
+  - scientific: Enchelycore carychroa
+    confidence: 0.1443
+  - scientific: Holocentrus adscensionis
+    confidence: 0.1251
+species:
+- scientific: Diodon hystrix
+  role: primary
+  confidence: 0.1565
+  identified_by: bioclip

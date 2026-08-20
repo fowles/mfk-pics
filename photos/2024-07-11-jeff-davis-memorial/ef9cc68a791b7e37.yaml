@@ -13,3 +13,20 @@ variants:
   file: ef9cc68a791b7e37.dive-plus.webp
   import_original_name: eb755fdc6f7e8439.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159585.0997195
+  top:
+  - scientific: Bothus lunatus
+    confidence: 0.9073
+  - scientific: Chelonia mydas
+    confidence: 0.0423
+  - scientific: Caretta caretta
+    confidence: 0.0268
+species:
+- scientific: Bothus lunatus
+  role: primary
+  confidence: 0.9073
+  identified_by: bioclip

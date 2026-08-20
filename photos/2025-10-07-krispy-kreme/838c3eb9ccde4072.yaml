@@ -9,3 +9,20 @@ lat: 25.5543
 lon: -79.2886
 gps_source: dive_site
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159796.4936361
+  top:
+  - scientific: Thalassoma bifasciatum
+    confidence: 0.2705
+  - scientific: Gramma loreto
+    confidence: 0.0999
+  - scientific: Gymnothorax funebris
+    confidence: 0.0994
+species:
+- scientific: Thalassoma bifasciatum
+  role: primary
+  confidence: 0.2705
+  identified_by: bioclip

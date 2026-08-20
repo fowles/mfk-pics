@@ -13,3 +13,20 @@ variants:
   file: 92c0ce137e44eeda.dive-plus.webp
   import_original_name: 7d6d43701c82c852.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786160213.158042
+  top:
+  - scientific: Serranus tigrinus
+    confidence: 0.3937
+  - scientific: Gymnothorax funebris
+    confidence: 0.2106
+  - scientific: Anisotremus virginicus
+    confidence: 0.0618
+species:
+- scientific: Serranus tigrinus
+  role: primary
+  confidence: 0.3937
+  identified_by: bioclip

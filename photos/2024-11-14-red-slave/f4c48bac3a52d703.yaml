@@ -10,3 +10,20 @@ variants:
   file: f4c48bac3a52d703.dive-plus.webp
   import_original_name: 8fc9bc102dd6a4ff.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156978.0401127
+  top:
+  - scientific: Haemulon macrostomum
+    confidence: 0.7466
+  - scientific: Aulostomus maculatus
+    confidence: 0.1221
+  - scientific: Pomacanthus paru
+    confidence: 0.0324
+species:
+- scientific: Haemulon macrostomum
+  role: primary
+  confidence: 0.7466
+  identified_by: bioclip

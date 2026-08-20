@@ -13,3 +13,20 @@ variants:
   file: 21138a735aa94ab8.dive-plus.webp
   import_original_name: e282fe57c3894d35.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157216.4205139
+  top:
+  - scientific: Gymnothorax miliaris
+    confidence: 0.346
+  - scientific: Heteroconger longissimus
+    confidence: 0.1948
+  - scientific: Dactylopterus volitans
+    confidence: 0.1146
+species:
+- scientific: Gymnothorax miliaris
+  role: primary
+  confidence: 0.346
+  identified_by: bioclip

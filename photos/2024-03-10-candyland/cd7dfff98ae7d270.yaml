@@ -10,3 +10,20 @@ variants:
   file: cd7dfff98ae7d270.dive-plus.webp
   import_original_name: 42d11dc4910835ad.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158871.510079
+  top:
+  - scientific: Aulostomus maculatus
+    confidence: 0.8581
+  - scientific: Hypanus americanus
+    confidence: 0.0978
+  - scientific: Ocyurus chrysurus
+    confidence: 0.0278
+species:
+- scientific: Aulostomus maculatus
+  role: primary
+  confidence: 0.8581
+  identified_by: bioclip

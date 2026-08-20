@@ -13,3 +13,20 @@ variants:
   file: b79c409d60a2dce8.dive-plus.webp
   import_original_name: 751d8333630b82f8.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158338.873204
+  top:
+  - scientific: Holocentrus adscensionis
+    confidence: 0.3327
+  - scientific: Gymnothorax funebris
+    confidence: 0.1225
+  - scientific: Scarus coelestinus
+    confidence: 0.0948
+species:
+- scientific: Holocentrus adscensionis
+  role: primary
+  confidence: 0.3327
+  identified_by: bioclip

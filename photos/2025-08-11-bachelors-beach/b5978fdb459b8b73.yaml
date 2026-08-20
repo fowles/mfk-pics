@@ -13,3 +13,20 @@ variants:
   file: b5978fdb459b8b73.dive-plus.webp
   import_original_name: 5cae6a0ff0c28d3c.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157883.1251242
+  top:
+  - scientific: Elacatinus evelynae
+    confidence: 0.331
+  - scientific: Thalassoma bifasciatum
+    confidence: 0.3086
+  - scientific: Halichoeres garnoti
+    confidence: 0.1619
+species:
+- scientific: Elacatinus evelynae
+  role: primary
+  confidence: 0.331
+  identified_by: bioclip

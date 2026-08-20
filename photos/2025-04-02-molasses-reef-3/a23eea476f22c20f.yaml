@@ -13,3 +13,20 @@ variants:
   file: a23eea476f22c20f.dive-plus.webp
   import_original_name: 72451554df0ae4b8.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157282.8793743
+  top:
+  - scientific: Hypanus americanus
+    confidence: 1.0
+  - scientific: Urobatis jamaicensis
+    confidence: 0.0
+  - scientific: Acanthurus coeruleus
+    confidence: 0.0
+species:
+- scientific: Hypanus americanus
+  role: primary
+  confidence: 1.0
+  identified_by: bioclip

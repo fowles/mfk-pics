@@ -13,3 +13,20 @@ lat: 12.070475199999999
 lon: -68.2806703
 gps_source: manual
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786160161.7928872
+  top:
+  - scientific: Aetobatus narinari
+    confidence: 0.3657
+  - scientific: Trachinotus goodei
+    confidence: 0.2508
+  - scientific: Hypanus americanus
+    confidence: 0.113
+species:
+- scientific: Aetobatus narinari
+  role: primary
+  confidence: 0.3657
+  identified_by: bioclip

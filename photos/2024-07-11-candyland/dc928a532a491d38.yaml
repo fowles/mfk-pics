@@ -10,3 +10,20 @@ variants:
   file: dc928a532a491d38.dive-plus.webp
   import_original_name: 3bfd7b5ebe00b061.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159285.46315
+  top:
+  - scientific: Aulostomus maculatus
+    confidence: 0.1456
+  - scientific: Ginglymostoma cirratum
+    confidence: 0.1328
+  - scientific: Serranus tigrinus
+    confidence: 0.1061
+species:
+- scientific: Aulostomus maculatus
+  role: primary
+  confidence: 0.1456
+  identified_by: bioclip

@@ -11,3 +11,20 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 rotation_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156872.0857944
+  top:
+  - scientific: Mycteroperca venenosa
+    confidence: 0.689
+  - scientific: Gymnothorax moringa
+    confidence: 0.0978
+  - scientific: Mycteroperca tigris
+    confidence: 0.0716
+species:
+- scientific: Mycteroperca venenosa
+  role: primary
+  confidence: 0.689
+  identified_by: bioclip

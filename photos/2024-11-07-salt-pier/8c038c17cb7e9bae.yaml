@@ -10,3 +10,20 @@ variants:
   file: 8c038c17cb7e9bae.dive-plus.webp
   import_original_name: eb8555a81de484a3.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156340.854101
+  top:
+  - scientific: Serranus tigrinus
+    confidence: 0.5682
+  - scientific: Diodon holocanthus
+    confidence: 0.2312
+  - scientific: Acanthostracion polygonius
+    confidence: 0.041
+species:
+- scientific: Serranus tigrinus
+  role: primary
+  confidence: 0.5682
+  identified_by: bioclip

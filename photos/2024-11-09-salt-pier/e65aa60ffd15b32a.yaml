@@ -13,3 +13,20 @@ variants:
   file: e65aa60ffd15b32a.dive-plus.webp
   import_original_name: d10e26d6e201f3b3.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156583.6421382
+  top:
+  - scientific: Lutjanus jocu
+    confidence: 0.3724
+  - scientific: Sepioteuthis sepioidea
+    confidence: 0.1017
+  - scientific: Melichthys niger
+    confidence: 0.1005
+species:
+- scientific: Lutjanus jocu
+  role: primary
+  confidence: 0.3724
+  identified_by: bioclip

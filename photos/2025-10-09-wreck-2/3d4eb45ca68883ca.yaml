@@ -9,3 +9,20 @@ lat: 25.7183
 lon: -79.3154
 gps_source: dive_site
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159811.043648
+  top:
+  - scientific: Diodon hystrix
+    confidence: 0.3711
+  - scientific: Anisotremus surinamensis
+    confidence: 0.3198
+  - scientific: Pomacanthus arcuatus
+    confidence: 0.143
+species:
+- scientific: Diodon hystrix
+  role: primary
+  confidence: 0.3711
+  identified_by: bioclip

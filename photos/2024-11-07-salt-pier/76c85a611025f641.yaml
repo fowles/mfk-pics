@@ -13,3 +13,20 @@ variants:
   file: 76c85a611025f641.dive-plus.webp
   import_original_name: a414fbf5d246e075.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156362.5065002
+  top:
+  - scientific: Xyrichtys martinicensis
+    confidence: 0.8385
+  - scientific: Diodon holocanthus
+    confidence: 0.0514
+  - scientific: Halichoeres bivittatus
+    confidence: 0.0197
+species:
+- scientific: Xyrichtys martinicensis
+  role: primary
+  confidence: 0.8385
+  identified_by: bioclip

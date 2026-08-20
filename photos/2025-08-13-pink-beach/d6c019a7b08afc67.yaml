@@ -10,3 +10,20 @@ variants:
   file: d6c019a7b08afc67.dive-plus.webp
   import_original_name: b25f4cfa4f18f255.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158186.3813682
+  top:
+  - scientific: Aetobatus narinari
+    confidence: 0.6939
+  - scientific: Sphyraena barracuda
+    confidence: 0.2183
+  - scientific: Echeneis naucrates
+    confidence: 0.0341
+species:
+- scientific: Aetobatus narinari
+  role: primary
+  confidence: 0.6939
+  identified_by: bioclip

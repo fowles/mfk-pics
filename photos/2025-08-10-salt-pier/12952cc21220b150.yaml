@@ -10,3 +10,20 @@ lon: -68.28180019999999
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157579.0416818
+  top:
+  - scientific: Octopus briareus
+    confidence: 0.5482
+  - scientific: Octopus vulgaris
+    confidence: 0.4464
+  - scientific: Scorpaena plumieri
+    confidence: 0.0013
+species:
+- scientific: Octopus briareus
+  role: primary
+  confidence: 0.5482
+  identified_by: bioclip

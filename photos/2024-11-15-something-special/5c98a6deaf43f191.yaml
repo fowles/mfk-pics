@@ -13,3 +13,20 @@ variants:
   file: 5c98a6deaf43f191.dive-plus.webp
   import_original_name: 9fa0048ed1931254.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157215.5440893
+  top:
+  - scientific: Aluterus scriptus
+    confidence: 0.477
+  - scientific: Acanthostracion quadricornis
+    confidence: 0.3332
+  - scientific: Epinephelus striatus
+    confidence: 0.105
+species:
+- scientific: Aluterus scriptus
+  role: primary
+  confidence: 0.477
+  identified_by: bioclip

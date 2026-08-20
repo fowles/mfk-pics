@@ -10,3 +10,20 @@ variants:
   file: 719b1f48d7bb66b8.dive-plus.webp
   import_original_name: 0785b8ddca10e664.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157281.0354664
+  top:
+  - scientific: Pseudupeneus maculatus
+    confidence: 0.3518
+  - scientific: Lutjanus mahogoni
+    confidence: 0.3024
+  - scientific: Lutjanus analis
+    confidence: 0.17
+species:
+- scientific: Pseudupeneus maculatus
+  role: primary
+  confidence: 0.3518
+  identified_by: bioclip

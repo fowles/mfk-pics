@@ -9,3 +9,20 @@ lat: 25.5543
 lon: -79.2886
 gps_source: dive_site
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159796.467255
+  top:
+  - scientific: Caranx latus
+    confidence: 0.9967
+  - scientific: Caranx ruber
+    confidence: 0.0016
+  - scientific: Selar crumenophthalmus
+    confidence: 0.0003
+species:
+- scientific: Caranx latus
+  role: primary
+  confidence: 0.9967
+  identified_by: bioclip

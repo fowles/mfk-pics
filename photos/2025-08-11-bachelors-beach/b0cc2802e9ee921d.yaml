@@ -13,3 +13,20 @@ variants:
   file: b0cc2802e9ee921d.dive-plus.webp
   import_original_name: 1b4a9b10ce64835f.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157883.0744452
+  top:
+  - scientific: Dactylopterus volitans
+    confidence: 0.2719
+  - scientific: Bothus lunatus
+    confidence: 0.0714
+  - scientific: Hermodice carunculata
+    confidence: 0.0707
+species:
+- scientific: Dactylopterus volitans
+  role: primary
+  confidence: 0.2719
+  identified_by: bioclip

@@ -13,3 +13,20 @@ variants:
   file: 7a112528a56f1ef3.dive-plus.webp
   import_original_name: 975d1c53d8074bf5.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158238.2961018
+  top:
+  - scientific: Acanthostracion quadricornis
+    confidence: 0.7804
+  - scientific: Echeneis naucrates
+    confidence: 0.0551
+  - scientific: Acanthostracion polygonius
+    confidence: 0.0384
+species:
+- scientific: Acanthostracion quadricornis
+  role: primary
+  confidence: 0.7804
+  identified_by: bioclip

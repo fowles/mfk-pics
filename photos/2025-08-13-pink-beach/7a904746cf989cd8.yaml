@@ -10,3 +10,20 @@ variants:
   file: 7a904746cf989cd8.dive-plus.webp
   import_original_name: acf6474d0a22c9fb.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158186.273769
+  top:
+  - scientific: Carcharhinus perezi
+    confidence: 0.6869
+  - scientific: Aetobatus narinari
+    confidence: 0.2819
+  - scientific: Ginglymostoma cirratum
+    confidence: 0.0149
+species:
+- scientific: Carcharhinus perezi
+  role: primary
+  confidence: 0.6869
+  identified_by: bioclip

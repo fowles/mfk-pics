@@ -13,3 +13,20 @@ variants:
   file: c4dd624a230f9511.dive-plus.webp
   import_original_name: 2b0619d56842a868.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158238.0324051
+  top:
+  - scientific: Equetus punctatus
+    confidence: 0.7486
+  - scientific: Thalassoma bifasciatum
+    confidence: 0.1865
+  - scientific: Equetus lanceolatus
+    confidence: 0.0297
+species:
+- scientific: Equetus punctatus
+  role: primary
+  confidence: 0.7486
+  identified_by: bioclip

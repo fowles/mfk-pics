@@ -13,3 +13,20 @@ variants:
   file: 5e7de1f5ac22e789.dive-plus.webp
   import_original_name: b3ef7b491b81c6ec.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786160212.2869163
+  top:
+  - scientific: Serranus tigrinus
+    confidence: 0.1716
+  - scientific: Sparisoma viride
+    confidence: 0.1511
+  - scientific: Pomacanthus paru
+    confidence: 0.0725
+species:
+- scientific: Serranus tigrinus
+  role: primary
+  confidence: 0.1716
+  identified_by: bioclip

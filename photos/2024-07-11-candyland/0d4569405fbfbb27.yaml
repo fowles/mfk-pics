@@ -13,3 +13,20 @@ variants:
   file: 0d4569405fbfbb27.dive-plus.webp
   import_original_name: 545d307df4fc04ab.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159295.806774
+  top:
+  - scientific: Serranus tigrinus
+    confidence: 0.3269
+  - scientific: Thalassoma bifasciatum
+    confidence: 0.1425
+  - scientific: Heteroconger longissimus
+    confidence: 0.0962
+species:
+- scientific: Serranus tigrinus
+  role: primary
+  confidence: 0.3269
+  identified_by: bioclip

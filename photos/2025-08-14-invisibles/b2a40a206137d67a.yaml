@@ -13,3 +13,20 @@ variants:
   file: b2a40a206137d67a.dive-plus.webp
   import_original_name: bba2edbf22c9490a.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158237.1555357
+  top:
+  - scientific: Melichthys niger
+    confidence: 0.9748
+  - scientific: Caranx ruber
+    confidence: 0.0097
+  - scientific: Acanthurus coeruleus
+    confidence: 0.0047
+species:
+- scientific: Melichthys niger
+  role: primary
+  confidence: 0.9748
+  identified_by: bioclip

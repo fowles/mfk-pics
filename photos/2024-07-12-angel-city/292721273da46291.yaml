@@ -10,3 +10,20 @@ variants:
   file: 292721273da46291.dive-plus.webp
   import_original_name: 6a204a2dfd8dbaf5.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158492.9902349
+  top:
+  - scientific: Aulostomus maculatus
+    confidence: 0.7178
+  - scientific: Sepioteuthis sepioidea
+    confidence: 0.0342
+  - scientific: Aetobatus narinari
+    confidence: 0.0329
+species:
+- scientific: Aulostomus maculatus
+  role: primary
+  confidence: 0.7178
+  identified_by: bioclip

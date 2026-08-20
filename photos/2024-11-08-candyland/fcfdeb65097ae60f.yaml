@@ -10,3 +10,18 @@ lon: -68.40111449999999
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156491.870624
+  top:
+  - scientific: Chromis multilineata
+    confidence: 0.0006
+  - scientific: Holocentrus rufus
+    confidence: 0.0005
+  - scientific: Aulostomus maculatus
+    confidence: 0.0004
+  absorbed_by:
+    scientific: Sabellastarte magnifica
+    confidence: 0.9851

@@ -10,3 +10,20 @@ lon: -68.2513754
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156811.9694598
+  top:
+  - scientific: Lutjanus apodus
+    confidence: 0.9951
+  - scientific: Hypoplectrus unicolor
+    confidence: 0.0024
+  - scientific: Lutjanus jocu
+    confidence: 0.0006
+species:
+- scientific: Lutjanus apodus
+  role: primary
+  confidence: 0.9951
+  identified_by: bioclip

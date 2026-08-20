@@ -13,3 +13,20 @@ variants:
   file: 658dc6bb7f5cab9a.dive-plus.webp
   import_original_name: 27d2db4c8afa7bdd.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158875.2047653
+  top:
+  - scientific: Mycteroperca tigris
+    confidence: 0.1503
+  - scientific: Gymnothorax funebris
+    confidence: 0.1025
+  - scientific: Gramma loreto
+    confidence: 0.0931
+species:
+- scientific: Mycteroperca tigris
+  role: primary
+  confidence: 0.1503
+  identified_by: bioclip

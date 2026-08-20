@@ -10,3 +10,20 @@ variants:
   file: 27944f6b589d8a18.dive-plus.webp
   import_original_name: 4daa15ce9376ede5.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157212.5728452
+  top:
+  - scientific: Gymnothorax miliaris
+    confidence: 0.6402
+  - scientific: Ginglymostoma cirratum
+    confidence: 0.2836
+  - scientific: Gymnothorax vicinus
+    confidence: 0.0369
+species:
+- scientific: Gymnothorax miliaris
+  role: primary
+  confidence: 0.6402
+  identified_by: bioclip

@@ -10,3 +10,20 @@ variants:
   file: c4809b922c6dcb1c.dive-plus.webp
   import_original_name: 01ca5077d7bc0e95.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159964.5719833
+  top:
+  - scientific: Aulostomus maculatus
+    confidence: 0.4883
+  - scientific: Sphyraena barracuda
+    confidence: 0.4846
+  - scientific: Ginglymostoma cirratum
+    confidence: 0.0095
+species:
+- scientific: Aulostomus maculatus
+  role: primary
+  confidence: 0.4883
+  identified_by: bioclip

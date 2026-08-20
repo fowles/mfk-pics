@@ -10,3 +10,20 @@ lon: -68.2903018
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159375.6051035
+  top:
+  - scientific: Haemulon sciurus
+    confidence: 0.7423
+  - scientific: Haemulon flavolineatum
+    confidence: 0.1736
+  - scientific: Lutjanus synagris
+    confidence: 0.0831
+species:
+- scientific: Haemulon sciurus
+  role: primary
+  confidence: 0.7423
+  identified_by: bioclip

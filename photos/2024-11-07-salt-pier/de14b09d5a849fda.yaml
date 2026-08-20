@@ -13,3 +13,20 @@ variants:
   file: de14b09d5a849fda.dive-plus.webp
   import_original_name: 9eb2f9a093a3ed8c.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156368.8869874
+  top:
+  - scientific: Gymnothorax moringa
+    confidence: 0.8481
+  - scientific: Lactophrys triqueter
+    confidence: 0.1495
+  - scientific: Lactophrys bicaudalis
+    confidence: 0.0019
+species:
+- scientific: Gymnothorax moringa
+  role: primary
+  confidence: 0.8481
+  identified_by: bioclip

@@ -13,3 +13,20 @@ variants:
   file: b93bafb037dfb0d4.dive-plus.webp
   import_original_name: c4ce2564782cf980.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156743.2901587
+  top:
+  - scientific: Aulostomus maculatus
+    confidence: 0.9128
+  - scientific: Sepioteuthis sepioidea
+    confidence: 0.0209
+  - scientific: Echeneis naucrates
+    confidence: 0.0197
+species:
+- scientific: Aulostomus maculatus
+  role: primary
+  confidence: 0.9128
+  identified_by: bioclip

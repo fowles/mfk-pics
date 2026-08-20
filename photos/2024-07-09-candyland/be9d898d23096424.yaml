@@ -10,3 +10,20 @@ lon: -68.40111449999999
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159158.3378565
+  top:
+  - scientific: Aetobatus narinari
+    confidence: 1.0
+  - scientific: Dactylopterus volitans
+    confidence: 0.0
+  - scientific: Echeneis naucrates
+    confidence: 0.0
+species:
+- scientific: Aetobatus narinari
+  role: primary
+  confidence: 1.0
+  identified_by: bioclip

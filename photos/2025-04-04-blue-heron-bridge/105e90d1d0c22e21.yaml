@@ -10,3 +10,20 @@ variants:
   file: 105e90d1d0c22e21.dive-plus.webp
   import_original_name: dcbef8028bb7c420.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157491.076424
+  top:
+  - scientific: Oreaster reticulatus
+    confidence: 0.9999
+  - scientific: Cephalopholis cruentata
+    confidence: 0.0
+  - scientific: Ogcocephalus nasutus
+    confidence: 0.0
+species:
+- scientific: Oreaster reticulatus
+  role: primary
+  confidence: 0.9999
+  identified_by: bioclip

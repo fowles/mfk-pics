@@ -10,3 +10,20 @@ variants:
   file: 9359d411e5327113.dive-plus.webp
   import_original_name: f28eb76bc861350d.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158968.2038317
+  top:
+  - scientific: Aulostomus maculatus
+    confidence: 0.292
+  - scientific: Halichoeres bivittatus
+    confidence: 0.1861
+  - scientific: Sphyraena barracuda
+    confidence: 0.1457
+species:
+- scientific: Aulostomus maculatus
+  role: primary
+  confidence: 0.292
+  identified_by: bioclip

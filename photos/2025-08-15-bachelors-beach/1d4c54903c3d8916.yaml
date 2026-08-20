@@ -10,3 +10,20 @@ lon: -68.2874429
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158400.3911867
+  top:
+  - scientific: Scorpaena plumieri
+    confidence: 0.8502
+  - scientific: Holothuria mexicana
+    confidence: 0.1302
+  - scientific: Epinephelus itajara
+    confidence: 0.0071
+species:
+- scientific: Scorpaena plumieri
+  role: primary
+  confidence: 0.8502
+  identified_by: bioclip

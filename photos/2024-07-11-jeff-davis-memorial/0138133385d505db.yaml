@@ -10,3 +10,20 @@ lon: -68.3139741
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159557.2594488
+  top:
+  - scientific: Hypoplectrus indigo
+    confidence: 0.574
+  - scientific: Thalassoma bifasciatum
+    confidence: 0.3562
+  - scientific: Hypoplectrus puella
+    confidence: 0.0167
+species:
+- scientific: Hypoplectrus indigo
+  role: primary
+  confidence: 0.574
+  identified_by: bioclip

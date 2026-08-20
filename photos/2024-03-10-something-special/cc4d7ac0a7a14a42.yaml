@@ -13,3 +13,20 @@ variants:
   file: cc4d7ac0a7a14a42.dive-plus.webp
   import_original_name: 97a059a5ff3e5617.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159068.2856925
+  top:
+  - scientific: Dactylopterus volitans
+    confidence: 0.6201
+  - scientific: Myrichthys ocellatus
+    confidence: 0.273
+  - scientific: Bothus lunatus
+    confidence: 0.0636
+species:
+- scientific: Dactylopterus volitans
+  role: primary
+  confidence: 0.6201
+  identified_by: bioclip

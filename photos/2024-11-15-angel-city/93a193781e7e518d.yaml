@@ -13,3 +13,20 @@ variants:
   file: 93a193781e7e518d.dive-plus.webp
   import_original_name: 7021b29644dc05d3.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157056.7115948
+  top:
+  - scientific: Synodus intermedius
+    confidence: 0.5735
+  - scientific: Holothuria mexicana
+    confidence: 0.1798
+  - scientific: Bothus lunatus
+    confidence: 0.0699
+species:
+- scientific: Synodus intermedius
+  role: primary
+  confidence: 0.5735
+  identified_by: bioclip

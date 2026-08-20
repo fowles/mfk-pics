@@ -10,3 +10,20 @@ lon: -68.28180019999999
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157578.0315442
+  top:
+  - scientific: Octopus briareus
+    confidence: 0.6476
+  - scientific: Octopus vulgaris
+    confidence: 0.169
+  - scientific: Urobatis jamaicensis
+    confidence: 0.0724
+species:
+- scientific: Octopus briareus
+  role: primary
+  confidence: 0.6476
+  identified_by: bioclip

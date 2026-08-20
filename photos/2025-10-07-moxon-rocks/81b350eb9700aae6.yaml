@@ -9,3 +9,20 @@ lat: 25.54167
 lon: -79.27083
 gps_source: dive_site
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159799.8896914
+  top:
+  - scientific: Scarus coeruleus
+    confidence: 0.6079
+  - scientific: Scarus guacamaia
+    confidence: 0.3711
+  - scientific: Scarus taeniopterus
+    confidence: 0.0073
+species:
+- scientific: Scarus coeruleus
+  role: primary
+  confidence: 0.6079
+  identified_by: bioclip

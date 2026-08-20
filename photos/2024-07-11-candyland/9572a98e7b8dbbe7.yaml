@@ -10,3 +10,20 @@ lon: -68.40111449999999
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159270.8317966
+  top:
+  - scientific: Diadema antillarum
+    confidence: 0.6257
+  - scientific: Pterois volitans
+    confidence: 0.0892
+  - scientific: Aulostomus maculatus
+    confidence: 0.021
+species:
+- scientific: Diadema antillarum
+  role: primary
+  confidence: 0.6257
+  identified_by: bioclip

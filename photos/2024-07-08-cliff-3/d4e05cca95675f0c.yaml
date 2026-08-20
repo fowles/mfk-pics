@@ -12,3 +12,20 @@ date_reviewed: true
 dive_window_reviewed: true
 extra_variants:
 - channel-stretch
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159378.355547
+  top:
+  - scientific: Megalops atlanticus
+    confidence: 0.9581
+  - scientific: Sphyraena barracuda
+    confidence: 0.0316
+  - scientific: Sepioteuthis sepioidea
+    confidence: 0.0063
+species:
+- scientific: Megalops atlanticus
+  role: primary
+  confidence: 0.9581
+  identified_by: bioclip

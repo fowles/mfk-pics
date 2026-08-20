@@ -11,3 +11,20 @@ variants:
   import_original_name: 96b5b7200f7ab55c.webp
 date_reviewed: true
 rotation_applied: 90
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1787028749.9467156
+  top:
+  - scientific: Lactophrys triqueter
+    confidence: 0.5709
+  - scientific: Acanthostracion polygonius
+    confidence: 0.09
+  - scientific: Pomacanthus paru
+    confidence: 0.0626
+species:
+- scientific: Lactophrys triqueter
+  role: primary
+  confidence: 0.5709
+  identified_by: bioclip

@@ -10,3 +10,20 @@ variants:
   file: 55a56a0385c5133e.dive-plus.webp
   import_original_name: c4795677afa71b14.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158336.2134683
+  top:
+  - scientific: Trachinotus goodei
+    confidence: 0.9045
+  - scientific: Hypanus americanus
+    confidence: 0.054
+  - scientific: Aetobatus narinari
+    confidence: 0.024
+species:
+- scientific: Trachinotus goodei
+  role: primary
+  confidence: 0.9045
+  identified_by: bioclip

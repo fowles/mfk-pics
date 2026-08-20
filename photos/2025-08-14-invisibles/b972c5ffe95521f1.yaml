@@ -6,3 +6,20 @@ credit: Matthew Kulukundis
 import_album: 2025-08-14 - Bonaire, Invisibles
 import_original_name: PXL_20250814_163535552.jpg
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158234.8091474
+  top:
+  - scientific: Scarus iseri
+    confidence: 0.4197
+  - scientific: Pempheris schomburgkii
+    confidence: 0.2531
+  - scientific: Sepioteuthis sepioidea
+    confidence: 0.0914
+species:
+- scientific: Scarus iseri
+  role: primary
+  confidence: 0.4197
+  identified_by: bioclip

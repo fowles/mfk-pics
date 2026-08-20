@@ -10,3 +10,20 @@ lon: -68.40111449999999
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158857.4099817
+  top:
+  - scientific: Megalops atlanticus
+    confidence: 0.9162
+  - scientific: Holocentrus adscensionis
+    confidence: 0.0294
+  - scientific: Kyphosus sectatrix
+    confidence: 0.0284
+species:
+- scientific: Megalops atlanticus
+  role: primary
+  confidence: 0.9162
+  identified_by: bioclip

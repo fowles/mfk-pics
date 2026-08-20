@@ -10,3 +10,20 @@ variants:
   file: e7b577f46392735f.dive-plus.webp
   import_original_name: c699a03812da8932.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159959.8952541
+  top:
+  - scientific: Hypoplectrus indigo
+    confidence: 0.3035
+  - scientific: Serranus tigrinus
+    confidence: 0.1441
+  - scientific: Heteroconger longissimus
+    confidence: 0.0947
+species:
+- scientific: Hypoplectrus indigo
+  role: primary
+  confidence: 0.3035
+  identified_by: bioclip

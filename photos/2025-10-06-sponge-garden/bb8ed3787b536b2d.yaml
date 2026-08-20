@@ -10,3 +10,20 @@ lon: -79.303
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159776.8235145
+  top:
+  - scientific: Scarus coeruleus
+    confidence: 0.9599
+  - scientific: Hypoplectrus indigo
+    confidence: 0.0124
+  - scientific: Acanthurus coeruleus
+    confidence: 0.0118
+species:
+- scientific: Scarus coeruleus
+  role: primary
+  confidence: 0.9599
+  identified_by: bioclip

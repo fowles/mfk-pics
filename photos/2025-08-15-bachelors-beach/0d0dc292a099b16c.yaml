@@ -10,3 +10,20 @@ lon: -68.2874429
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158398.2338424
+  top:
+  - scientific: Emblemaria pandionis
+    confidence: 0.4396
+  - scientific: Dactylopterus volitans
+    confidence: 0.288
+  - scientific: Hypoplectrus puella
+    confidence: 0.0995
+species:
+- scientific: Emblemaria pandionis
+  role: primary
+  confidence: 0.4396
+  identified_by: bioclip

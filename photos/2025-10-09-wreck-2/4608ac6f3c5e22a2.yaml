@@ -9,3 +9,20 @@ lat: 25.7183
 lon: -79.3154
 gps_source: dive_site
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159812.1011014
+  top:
+  - scientific: Thalassoma bifasciatum
+    confidence: 0.4168
+  - scientific: Haemulon macrostomum
+    confidence: 0.1379
+  - scientific: Aulostomus maculatus
+    confidence: 0.1286
+species:
+- scientific: Thalassoma bifasciatum
+  role: primary
+  confidence: 0.4168
+  identified_by: bioclip

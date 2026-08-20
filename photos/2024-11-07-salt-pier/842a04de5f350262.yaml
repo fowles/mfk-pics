@@ -10,3 +10,20 @@ variants:
   file: 842a04de5f350262.dive-plus.webp
   import_original_name: e27a8541ee268646.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156348.671928
+  top:
+  - scientific: Dactylopterus volitans
+    confidence: 0.8623
+  - scientific: Synodus intermedius
+    confidence: 0.113
+  - scientific: Scorpaena plumieri
+    confidence: 0.0195
+species:
+- scientific: Dactylopterus volitans
+  role: primary
+  confidence: 0.8623
+  identified_by: bioclip

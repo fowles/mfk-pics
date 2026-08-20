@@ -13,3 +13,20 @@ lat: 25.0151854
 lon: -80.3785098
 gps_source: manual
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157280.0816717
+  top:
+  - scientific: Selar crumenophthalmus
+    confidence: 0.4119
+  - scientific: Ocyurus chrysurus
+    confidence: 0.2963
+  - scientific: Mulloidichthys martinicus
+    confidence: 0.1778
+species:
+- scientific: Selar crumenophthalmus
+  role: primary
+  confidence: 0.4119
+  identified_by: bioclip

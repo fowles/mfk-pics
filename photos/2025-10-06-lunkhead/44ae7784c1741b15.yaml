@@ -10,3 +10,20 @@ lon: -79.2431
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159784.1075397
+  top:
+  - scientific: Mycteroperca bonaci
+    confidence: 0.3557
+  - scientific: Lutjanus griseus
+    confidence: 0.2436
+  - scientific: Scarus guacamaia
+    confidence: 0.2095
+species:
+- scientific: Mycteroperca bonaci
+  role: primary
+  confidence: 0.3557
+  identified_by: bioclip

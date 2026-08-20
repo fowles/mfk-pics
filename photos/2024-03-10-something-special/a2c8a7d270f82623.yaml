@@ -10,3 +10,20 @@ variants:
   file: a2c8a7d270f82623.dive-plus.webp
   import_original_name: c9ee61b823ffc51d.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159063.2755907
+  top:
+  - scientific: Cephalopholis fulva
+    confidence: 0.5211
+  - scientific: Lactophrys triqueter
+    confidence: 0.153
+  - scientific: Aulostomus maculatus
+    confidence: 0.1487
+species:
+- scientific: Cephalopholis fulva
+  role: primary
+  confidence: 0.5211
+  identified_by: bioclip

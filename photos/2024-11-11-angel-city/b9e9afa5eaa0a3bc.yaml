@@ -11,3 +11,20 @@ variants:
   import_original_name: 095e8dbfebf6a951.webp
 date_reviewed: true
 rotation_applied: 90
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1787028810.3729982
+  top:
+  - scientific: Microspathodon chrysurus
+    confidence: 0.996
+  - scientific: Stegastes planifrons
+    confidence: 0.0011
+  - scientific: Stegastes diencaeus
+    confidence: 0.0009
+species:
+- scientific: Microspathodon chrysurus
+  role: primary
+  confidence: 0.996
+  identified_by: bioclip

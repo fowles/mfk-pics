@@ -10,3 +10,20 @@ variants:
   file: 29702e2c69a3d898.dive-plus.webp
   import_original_name: 196937f316433f08.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159575.7167091
+  top:
+  - scientific: Scarus vetula
+    confidence: 0.4884
+  - scientific: Scarus coelestinus
+    confidence: 0.2288
+  - scientific: Thalassoma bifasciatum
+    confidence: 0.109
+species:
+- scientific: Scarus vetula
+  role: primary
+  confidence: 0.4884
+  identified_by: bioclip

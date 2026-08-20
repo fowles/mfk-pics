@@ -13,3 +13,20 @@ variants:
   file: 4e71c88fa98c1d9c.dive-plus.webp
   import_original_name: 35f846eb827d1baa.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159997.5535042
+  top:
+  - scientific: Gymnothorax funebris
+    confidence: 0.5171
+  - scientific: Synodus intermedius
+    confidence: 0.0949
+  - scientific: Sphoeroides spengleri
+    confidence: 0.0933
+species:
+- scientific: Gymnothorax funebris
+  role: primary
+  confidence: 0.5171
+  identified_by: bioclip

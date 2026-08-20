@@ -13,3 +13,20 @@ variants:
   file: f779d7c1afc62b13.dive-plus.webp
   import_original_name: 32ee1fc98ac6703b.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157494.0204153
+  top:
+  - scientific: Petrochirus diogenes
+    confidence: 0.9899
+  - scientific: Hippocampus erectus
+    confidence: 0.0039
+  - scientific: Stenopus hispidus
+    confidence: 0.0015
+species:
+- scientific: Petrochirus diogenes
+  role: primary
+  confidence: 0.9899
+  identified_by: bioclip

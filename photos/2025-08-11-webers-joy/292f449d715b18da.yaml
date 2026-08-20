@@ -11,3 +11,20 @@ variants:
   import_original_name: 279b42bf8f2a3f17.webp
 date_reviewed: true
 rotation_applied: 90
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1787030659.9385126
+  top:
+  - scientific: Ancylomenes pedersoni
+    confidence: 0.4009
+  - scientific: Octopus briareus
+    confidence: 0.3223
+  - scientific: Stenopus hispidus
+    confidence: 0.0822
+species:
+- scientific: Ancylomenes pedersoni
+  role: primary
+  confidence: 0.4009
+  identified_by: bioclip

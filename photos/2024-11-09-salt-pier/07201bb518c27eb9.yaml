@@ -11,3 +11,20 @@ variants:
   import_original_name: 38aff459c776e8b9.webp
 date_reviewed: true
 rotation_applied: 270
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1787029577.323152
+  top:
+  - scientific: Gymnothorax funebris
+    confidence: 0.2286
+  - scientific: Diodon holocanthus
+    confidence: 0.1837
+  - scientific: Thalassoma bifasciatum
+    confidence: 0.1434
+species:
+- scientific: Gymnothorax funebris
+  role: primary
+  confidence: 0.2286
+  identified_by: bioclip

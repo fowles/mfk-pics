@@ -13,3 +13,20 @@ variants:
   file: 570500c589de9df8.dive-plus.webp
   import_original_name: 1e24587a67977808.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156370.468594
+  top:
+  - scientific: Opistognathus aurifrons
+    confidence: 0.8788
+  - scientific: Diodon hystrix
+    confidence: 0.0676
+  - scientific: Diodon holocanthus
+    confidence: 0.0214
+species:
+- scientific: Opistognathus aurifrons
+  role: primary
+  confidence: 0.8788
+  identified_by: bioclip

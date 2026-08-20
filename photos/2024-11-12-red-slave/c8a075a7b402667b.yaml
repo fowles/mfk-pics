@@ -10,3 +10,20 @@ lon: -68.2513754
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156818.4919007
+  top:
+  - scientific: Cyphoma gibbosum
+    confidence: 0.2506
+  - scientific: Cantherhines macrocerus
+    confidence: 0.1175
+  - scientific: Chaetodon capistratus
+    confidence: 0.097
+species:
+- scientific: Cyphoma gibbosum
+  role: primary
+  confidence: 0.2506
+  identified_by: bioclip

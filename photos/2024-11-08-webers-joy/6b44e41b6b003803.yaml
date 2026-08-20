@@ -11,3 +11,18 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 rotation_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156525.5256655
+  top:
+  - scientific: Sepioteuthis sepioidea
+    confidence: 0.3198
+  - scientific: Monacanthus tuckeri
+    confidence: 0.0079
+  - scientific: Synodus intermedius
+    confidence: 0.007
+  absorbed_by:
+    scientific: Aplysina fistularis
+    confidence: 0.3679

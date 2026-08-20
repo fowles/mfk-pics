@@ -13,3 +13,20 @@ variants:
   file: dbdaf16cbc76e3ae.dive-plus.webp
   import_original_name: 5b90cf6e409bdc3e.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156899.6129405
+  top:
+  - scientific: Gymnothorax funebris
+    confidence: 0.5004
+  - scientific: Gymnothorax miliaris
+    confidence: 0.0458
+  - scientific: Hypoplectrus puella
+    confidence: 0.0451
+species:
+- scientific: Gymnothorax funebris
+  role: primary
+  confidence: 0.5004
+  identified_by: bioclip

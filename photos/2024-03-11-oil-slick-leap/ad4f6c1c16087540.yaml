@@ -10,3 +10,20 @@ variants:
   file: ad4f6c1c16087540.dive-plus.webp
   import_original_name: 238da1dd83d3d6e2.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158970.3519814
+  top:
+  - scientific: Holocentrus adscensionis
+    confidence: 0.3848
+  - scientific: Gymnothorax funebris
+    confidence: 0.085
+  - scientific: Aulostomus maculatus
+    confidence: 0.0829
+species:
+- scientific: Holocentrus adscensionis
+  role: primary
+  confidence: 0.3848
+  identified_by: bioclip

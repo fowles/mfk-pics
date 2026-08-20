@@ -13,3 +13,20 @@ variants:
   file: 1a38f5517dd42807.dive-plus.webp
   import_original_name: aa3c8acc3ecb650c.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157494.5551982
+  top:
+  - scientific: Synodus intermedius
+    confidence: 0.5929
+  - scientific: Sphoeroides spengleri
+    confidence: 0.1556
+  - scientific: Malacoctenus triangulatus
+    confidence: 0.0736
+species:
+- scientific: Synodus intermedius
+  role: primary
+  confidence: 0.5929
+  identified_by: bioclip

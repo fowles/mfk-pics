@@ -13,3 +13,20 @@ variants:
   file: d66dfc222ba642f6.dive-plus.webp
   import_original_name: 119ed9fe835263f3.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159987.0720336
+  top:
+  - scientific: Haemulon macrostomum
+    confidence: 0.871
+  - scientific: Sparisoma viride
+    confidence: 0.0272
+  - scientific: Aulostomus maculatus
+    confidence: 0.0226
+species:
+- scientific: Haemulon macrostomum
+  role: primary
+  confidence: 0.871
+  identified_by: bioclip

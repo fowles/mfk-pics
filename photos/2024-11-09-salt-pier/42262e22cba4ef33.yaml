@@ -13,3 +13,20 @@ variants:
   file: 42262e22cba4ef33.dive-plus.webp
   import_original_name: 92b58fe19d5342ea.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156582.1533222
+  top:
+  - scientific: Diodon hystrix
+    confidence: 0.9201
+  - scientific: Diodon holocanthus
+    confidence: 0.0448
+  - scientific: Epinephelus itajara
+    confidence: 0.0186
+species:
+- scientific: Diodon hystrix
+  role: primary
+  confidence: 0.9201
+  identified_by: bioclip

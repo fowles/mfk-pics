@@ -11,3 +11,20 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 rotation_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159060.2939627
+  top:
+  - scientific: Abudefduf saxatilis
+    confidence: 0.999
+  - scientific: Amblycirrhitus pinos
+    confidence: 0.0002
+  - scientific: Pomacanthus paru
+    confidence: 0.0001
+species:
+- scientific: Abudefduf saxatilis
+  role: primary
+  confidence: 0.999
+  identified_by: bioclip

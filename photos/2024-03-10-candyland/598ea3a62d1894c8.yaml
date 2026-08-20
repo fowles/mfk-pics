@@ -10,3 +10,20 @@ lon: -68.40111449999999
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158866.8828185
+  top:
+  - scientific: Melichthys niger
+    confidence: 0.3905
+  - scientific: Tursiops truncatus
+    confidence: 0.2747
+  - scientific: Aetobatus narinari
+    confidence: 0.0608
+species:
+- scientific: Melichthys niger
+  role: primary
+  confidence: 0.3905
+  identified_by: bioclip

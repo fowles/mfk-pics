@@ -10,3 +10,20 @@ lon: -68.28015169999999
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158226.6638606
+  top:
+  - scientific: Ginglymostoma cirratum
+    confidence: 0.5542
+  - scientific: Carcharhinus perezi
+    confidence: 0.1041
+  - scientific: Sepioteuthis sepioidea
+    confidence: 0.072
+species:
+- scientific: Ginglymostoma cirratum
+  role: primary
+  confidence: 0.5542
+  identified_by: bioclip

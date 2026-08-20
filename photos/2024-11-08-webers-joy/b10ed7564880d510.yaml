@@ -10,3 +10,18 @@ lon: -68.3164123
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156524.8038967
+  top:
+  - scientific: Hypoplectrus nigricans
+    confidence: 0.0002
+  - scientific: Aulostomus maculatus
+    confidence: 0.0001
+  - scientific: Haemulon macrostomum
+    confidence: 0.0001
+  absorbed_by:
+    scientific: Antillogorgia americana
+    confidence: 0.9983

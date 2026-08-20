@@ -10,3 +10,20 @@ lon: -68.40111449999999
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156493.812382
+  top:
+  - scientific: Sparisoma aurofrenatum
+    confidence: 0.6946
+  - scientific: Sparisoma viride
+    confidence: 0.1016
+  - scientific: Pareques acuminatus
+    confidence: 0.024
+species:
+- scientific: Sparisoma aurofrenatum
+  role: primary
+  confidence: 0.6946
+  identified_by: bioclip

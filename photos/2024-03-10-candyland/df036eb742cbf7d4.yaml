@@ -10,3 +10,20 @@ variants:
   file: df036eb742cbf7d4.dive-plus.webp
   import_original_name: 57042fab7d46125b.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158872.6106
+  top:
+  - scientific: Epinephelus itajara
+    confidence: 0.5384
+  - scientific: Sparisoma viride
+    confidence: 0.1675
+  - scientific: Mycteroperca venenosa
+    confidence: 0.1554
+species:
+- scientific: Epinephelus itajara
+  role: primary
+  confidence: 0.5384
+  identified_by: bioclip

@@ -10,3 +10,20 @@ lon: -68.34805419999999
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156686.7456553
+  top:
+  - scientific: Acanthostracion polygonius
+    confidence: 0.9263
+  - scientific: Mycteroperca tigris
+    confidence: 0.0282
+  - scientific: Cephalopholis cruentata
+    confidence: 0.0141
+species:
+- scientific: Acanthostracion polygonius
+  role: primary
+  confidence: 0.9263
+  identified_by: bioclip

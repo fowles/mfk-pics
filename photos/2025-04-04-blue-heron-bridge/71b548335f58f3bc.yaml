@@ -13,3 +13,20 @@ variants:
   file: 71b548335f58f3bc.dive-plus.webp
   import_original_name: fb88577dc04ee100.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157493.7197163
+  top:
+  - scientific: Diodon holocanthus
+    confidence: 0.4489
+  - scientific: Dactylopterus volitans
+    confidence: 0.1192
+  - scientific: Chilomycterus schoepfii
+    confidence: 0.0841
+species:
+- scientific: Diodon holocanthus
+  role: primary
+  confidence: 0.4489
+  identified_by: bioclip

@@ -13,3 +13,20 @@ lat: 12.070475199999999
 lon: -68.2806703
 gps_source: manual
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786160192.5158095
+  top:
+  - scientific: Gymnothorax funebris
+    confidence: 0.4179
+  - scientific: Gymnothorax vicinus
+    confidence: 0.1691
+  - scientific: Diadema antillarum
+    confidence: 0.0852
+species:
+- scientific: Gymnothorax funebris
+  role: primary
+  confidence: 0.4179
+  identified_by: bioclip

@@ -13,3 +13,20 @@ variants:
   file: 99595be8ae7ae01b.dive-plus.webp
   import_original_name: 171491e35e1afb4a.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156372.9609416
+  top:
+  - scientific: Aulostomus maculatus
+    confidence: 0.6998
+  - scientific: Pareques acuminatus
+    confidence: 0.246
+  - scientific: Ginglymostoma cirratum
+    confidence: 0.0418
+species:
+- scientific: Aulostomus maculatus
+  role: primary
+  confidence: 0.6998
+  identified_by: bioclip

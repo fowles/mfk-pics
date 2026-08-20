@@ -13,3 +13,20 @@ variants:
   file: b3277d3a3b3389f2.dive-plus.webp
   import_original_name: 7295919aac97dc02.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159294.4279697
+  top:
+  - scientific: Acanthostracion polygonius
+    confidence: 0.7262
+  - scientific: Sphoeroides spengleri
+    confidence: 0.1659
+  - scientific: Lactophrys triqueter
+    confidence: 0.0321
+species:
+- scientific: Acanthostracion polygonius
+  role: primary
+  confidence: 0.7262
+  identified_by: bioclip

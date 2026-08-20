@@ -13,3 +13,20 @@ variants:
   file: e51a47b33132854f.dive-plus.webp
   import_original_name: 25ae48f9a5c18cca.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156982.3952262
+  top:
+  - scientific: Canthidermis sufflamen
+    confidence: 0.2285
+  - scientific: Abudefduf saxatilis
+    confidence: 0.126
+  - scientific: Sepioteuthis sepioidea
+    confidence: 0.1115
+species:
+- scientific: Canthidermis sufflamen
+  role: primary
+  confidence: 0.2285
+  identified_by: bioclip

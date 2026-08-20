@@ -10,3 +10,18 @@ variants:
   file: 3e1695202a2d32fa.dive-plus.webp
   import_original_name: 5906c48911b375e8.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159180.733343
+  top:
+  - scientific: Aulostomus maculatus
+    confidence: 0.2259
+  - scientific: Serranus tigrinus
+    confidence: 0.1078
+  - scientific: Hypoplectrus puella
+    confidence: 0.063
+  absorbed_by:
+    scientific: Meandrina meandrites
+    confidence: 0.2307

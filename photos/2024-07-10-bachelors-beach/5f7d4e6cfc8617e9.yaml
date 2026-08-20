@@ -10,3 +10,20 @@ variants:
   file: 5f7d4e6cfc8617e9.dive-plus.webp
   import_original_name: 48dd43ec8a08842f.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158714.7492034
+  top:
+  - scientific: Aulostomus maculatus
+    confidence: 0.742
+  - scientific: Jenkinsia lamprotaenia
+    confidence: 0.0973
+  - scientific: Equetus lanceolatus
+    confidence: 0.0728
+species:
+- scientific: Aulostomus maculatus
+  role: primary
+  confidence: 0.742
+  identified_by: bioclip

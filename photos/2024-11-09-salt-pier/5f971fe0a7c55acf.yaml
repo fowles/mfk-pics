@@ -13,3 +13,20 @@ variants:
   file: 5f971fe0a7c55acf.dive-plus.webp
   import_original_name: 06e7d7c1792d0627.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156579.3707347
+  top:
+  - scientific: Aulostomus maculatus
+    confidence: 0.2588
+  - scientific: Gymnothorax funebris
+    confidence: 0.2384
+  - scientific: Halichoeres radiatus
+    confidence: 0.2139
+species:
+- scientific: Aulostomus maculatus
+  role: primary
+  confidence: 0.2588
+  identified_by: bioclip

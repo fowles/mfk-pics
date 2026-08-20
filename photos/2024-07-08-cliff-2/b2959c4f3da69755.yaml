@@ -10,3 +10,20 @@ lon: -68.2903018
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159369.711646
+  top:
+  - scientific: Mycteroperca venenosa
+    confidence: 0.5616
+  - scientific: Mycteroperca tigris
+    confidence: 0.1508
+  - scientific: Aluterus scriptus
+    confidence: 0.0683
+species:
+- scientific: Mycteroperca venenosa
+  role: primary
+  confidence: 0.5616
+  identified_by: bioclip

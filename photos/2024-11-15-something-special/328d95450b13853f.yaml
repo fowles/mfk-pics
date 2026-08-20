@@ -13,3 +13,18 @@ variants:
   file: 328d95450b13853f.dive-plus.webp
   import_original_name: 292792802a787ed6.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157213.6895626
+  top:
+  - scientific: Emblemaria pandionis
+    confidence: 0.1074
+  - scientific: Aliger gigas
+    confidence: 0.0182
+  - scientific: Equetus lanceolatus
+    confidence: 0.0063
+  absorbed_by:
+    scientific: Xestospongia muta
+    confidence: 0.8169

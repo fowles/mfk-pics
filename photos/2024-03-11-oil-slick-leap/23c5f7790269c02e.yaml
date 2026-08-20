@@ -10,3 +10,20 @@ variants:
   file: 23c5f7790269c02e.dive-plus.webp
   import_original_name: 924ec0ed53c0a496.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158966.5277812
+  top:
+  - scientific: Aulostomus maculatus
+    confidence: 0.2022
+  - scientific: Kyphosus sectatrix
+    confidence: 0.166
+  - scientific: Scarus taeniopterus
+    confidence: 0.1649
+species:
+- scientific: Aulostomus maculatus
+  role: primary
+  confidence: 0.2022
+  identified_by: bioclip

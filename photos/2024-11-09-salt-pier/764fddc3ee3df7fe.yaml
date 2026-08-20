@@ -13,3 +13,20 @@ variants:
   file: 764fddc3ee3df7fe.dive-plus.webp
   import_original_name: fbb9418cf5bcc2a3.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156586.0824335
+  top:
+  - scientific: Acanthostracion polygonius
+    confidence: 0.9837
+  - scientific: Epinephelus striatus
+    confidence: 0.0028
+  - scientific: Bothus lunatus
+    confidence: 0.0025
+species:
+- scientific: Acanthostracion polygonius
+  role: primary
+  confidence: 0.9837
+  identified_by: bioclip

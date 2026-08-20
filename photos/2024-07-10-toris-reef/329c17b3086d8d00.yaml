@@ -13,3 +13,20 @@ variants:
   file: 329c17b3086d8d00.dive-plus.webp
   import_original_name: d789ecf3fc9b2bb4.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786160203.2574484
+  top:
+  - scientific: Gymnothorax miliaris
+    confidence: 0.3872
+  - scientific: Aulostomus maculatus
+    confidence: 0.0699
+  - scientific: Xyrichtys splendens
+    confidence: 0.0569
+species:
+- scientific: Gymnothorax miliaris
+  role: primary
+  confidence: 0.3872
+  identified_by: bioclip

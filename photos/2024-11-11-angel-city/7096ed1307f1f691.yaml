@@ -13,3 +13,20 @@ variants:
   file: 7096ed1307f1f691.dive-plus.webp
   import_original_name: dd26cbd6f00d80f4.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156746.7238808
+  top:
+  - scientific: Melichthys niger
+    confidence: 0.4149
+  - scientific: Pareques acuminatus
+    confidence: 0.2629
+  - scientific: Haemulon macrostomum
+    confidence: 0.1424
+species:
+- scientific: Melichthys niger
+  role: primary
+  confidence: 0.4149
+  identified_by: bioclip

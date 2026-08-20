@@ -10,3 +10,20 @@ variants:
   file: 37f4d664fb7d2e80.dive-plus.webp
   import_original_name: 9b0b85b4336651f3.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156978.2766652
+  top:
+  - scientific: Scorpaena plumieri
+    confidence: 0.3759
+  - scientific: Acanthostracion polygonius
+    confidence: 0.2616
+  - scientific: Ogcocephalus radiatus
+    confidence: 0.1913
+species:
+- scientific: Scorpaena plumieri
+  role: primary
+  confidence: 0.3759
+  identified_by: bioclip

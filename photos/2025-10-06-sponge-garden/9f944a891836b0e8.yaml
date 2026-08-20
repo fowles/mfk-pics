@@ -10,3 +10,20 @@ lon: -79.303
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159778.8648415
+  top:
+  - scientific: Ginglymostoma cirratum
+    confidence: 0.9478
+  - scientific: Carcharhinus perezi
+    confidence: 0.0312
+  - scientific: Lutjanus jocu
+    confidence: 0.0152
+species:
+- scientific: Ginglymostoma cirratum
+  role: primary
+  confidence: 0.9478
+  identified_by: bioclip

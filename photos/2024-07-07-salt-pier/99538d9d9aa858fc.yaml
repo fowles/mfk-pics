@@ -14,3 +14,20 @@ variants:
   import_original_name: 0e13fa666cceae65.webp
 date_reviewed: true
 rotation_applied: 90
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1787030550.2860103
+  top:
+  - scientific: Bothus lunatus
+    confidence: 0.6276
+  - scientific: Octopus briareus
+    confidence: 0.3172
+  - scientific: Myrichthys breviceps
+    confidence: 0.0188
+species:
+- scientific: Bothus lunatus
+  role: primary
+  confidence: 0.6276
+  identified_by: bioclip

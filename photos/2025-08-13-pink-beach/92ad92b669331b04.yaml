@@ -13,3 +13,18 @@ variants:
   file: 92ad92b669331b04.dive-plus.webp
   import_original_name: 6381715ca80237dd.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158189.171818
+  top:
+  - scientific: Scorpaena plumieri
+    confidence: 0.1009
+  - scientific: Diadema antillarum
+    confidence: 0.026
+  - scientific: Aulostomus maculatus
+    confidence: 0.0238
+  absorbed_by:
+    scientific: Gorgonia ventalina
+    confidence: 0.6538

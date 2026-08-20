@@ -10,3 +10,20 @@ lon: -68.28180019999999
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157576.7122858
+  top:
+  - scientific: Gymnothorax miliaris
+    confidence: 0.3831
+  - scientific: Canthigaster rostrata
+    confidence: 0.2153
+  - scientific: Enchelycore carychroa
+    confidence: 0.1179
+species:
+- scientific: Gymnothorax miliaris
+  role: primary
+  confidence: 0.3831
+  identified_by: bioclip

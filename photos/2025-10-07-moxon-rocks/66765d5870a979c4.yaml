@@ -9,3 +9,20 @@ lat: 25.54167
 lon: -79.27083
 gps_source: dive_site
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159802.3668928
+  top:
+  - scientific: Microspathodon chrysurus
+    confidence: 0.9051
+  - scientific: Bodianus rufus
+    confidence: 0.0647
+  - scientific: Gramma loreto
+    confidence: 0.0098
+species:
+- scientific: Microspathodon chrysurus
+  role: primary
+  confidence: 0.9051
+  identified_by: bioclip

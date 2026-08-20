@@ -13,3 +13,18 @@ variants:
   file: 8001a67b8473f5da.dive-plus.webp
   import_original_name: c1c9505eee0462d7.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158238.056014
+  top:
+  - scientific: Aulostomus maculatus
+    confidence: 0.0271
+  - scientific: Haemulon flavolineatum
+    confidence: 0.0222
+  - scientific: Sparisoma viride
+    confidence: 0.0208
+  absorbed_by:
+    scientific: Aplysina fistularis
+    confidence: 0.637

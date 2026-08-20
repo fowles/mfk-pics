@@ -10,3 +10,20 @@ variants:
   file: 598cfb6ce3deaabd.dive-plus.webp
   import_original_name: 4086f37ecb0131dd.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156576.1033769
+  top:
+  - scientific: Dactylopterus volitans
+    confidence: 0.5289
+  - scientific: Cassiopea xamachana
+    confidence: 0.2242
+  - scientific: Emblemaria pandionis
+    confidence: 0.1194
+species:
+- scientific: Dactylopterus volitans
+  role: primary
+  confidence: 0.5289
+  identified_by: bioclip

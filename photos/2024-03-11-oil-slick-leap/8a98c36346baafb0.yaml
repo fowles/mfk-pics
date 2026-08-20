@@ -10,3 +10,18 @@ variants:
   file: 8a98c36346baafb0.dive-plus.webp
   import_original_name: 70f9a00604926c58.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158973.216327
+  top:
+  - scientific: Sparisoma viride
+    confidence: 0.0845
+  - scientific: Epinephelus itajara
+    confidence: 0.0317
+  - scientific: Chromis multilineata
+    confidence: 0.0171
+  absorbed_by:
+    scientific: Meandrina meandrites
+    confidence: 0.499

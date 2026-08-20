@@ -10,3 +10,20 @@ variants:
   file: 6460a6e844f4761a.dive-plus.webp
   import_original_name: 11c170e3af8f8f2f.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156898.4857306
+  top:
+  - scientific: Melichthys niger
+    confidence: 0.1841
+  - scientific: Sparisoma viride
+    confidence: 0.0929
+  - scientific: Opistognathus aurifrons
+    confidence: 0.084
+species:
+- scientific: Melichthys niger
+  role: primary
+  confidence: 0.1841
+  identified_by: bioclip

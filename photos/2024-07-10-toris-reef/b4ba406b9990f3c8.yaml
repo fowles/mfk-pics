@@ -13,3 +13,20 @@ variants:
   file: b4ba406b9990f3c8.dive-plus.webp
   import_original_name: 491e76515081a8d0.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786160205.4775734
+  top:
+  - scientific: Holothuria mexicana
+    confidence: 0.6921
+  - scientific: Holocentrus adscensionis
+    confidence: 0.047
+  - scientific: Diadema antillarum
+    confidence: 0.0206
+species:
+- scientific: Holothuria mexicana
+  role: primary
+  confidence: 0.6921
+  identified_by: bioclip

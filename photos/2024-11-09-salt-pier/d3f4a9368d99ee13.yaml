@@ -13,3 +13,20 @@ variants:
   file: d3f4a9368d99ee13.dive-plus.webp
   import_original_name: 65b6257069a7ad24.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156583.440825
+  top:
+  - scientific: Mycteroperca venenosa
+    confidence: 0.3252
+  - scientific: Haemulon carbonarium
+    confidence: 0.1528
+  - scientific: Mulloidichthys martinicus
+    confidence: 0.1121
+species:
+- scientific: Mycteroperca venenosa
+  role: primary
+  confidence: 0.3252
+  identified_by: bioclip

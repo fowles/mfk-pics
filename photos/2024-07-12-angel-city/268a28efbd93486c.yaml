@@ -13,3 +13,20 @@ variants:
   file: 268a28efbd93486c.dive-plus.webp
   import_original_name: c57956c4625c3806.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158511.6818347
+  top:
+  - scientific: Scarus coelestinus
+    confidence: 0.4755
+  - scientific: Scarus iseri
+    confidence: 0.0911
+  - scientific: Thalassoma bifasciatum
+    confidence: 0.0826
+species:
+- scientific: Scarus coelestinus
+  role: primary
+  confidence: 0.4755
+  identified_by: bioclip

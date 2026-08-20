@@ -13,3 +13,20 @@ variants:
   file: 7571e81673294e22.dive-plus.webp
   import_original_name: a57f594f771790e5.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157056.8387787
+  top:
+  - scientific: Aplysia dactylomela
+    confidence: 0.9904
+  - scientific: Hippocampus erectus
+    confidence: 0.0014
+  - scientific: Sphoeroides spengleri
+    confidence: 0.0009
+species:
+- scientific: Aplysia dactylomela
+  role: primary
+  confidence: 0.9904
+  identified_by: bioclip

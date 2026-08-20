@@ -13,3 +13,20 @@ variants:
   file: 8426d4c919b51124.dive-plus.webp
   import_original_name: d2f42dd498e7da74.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156745.8097405
+  top:
+  - scientific: Melichthys niger
+    confidence: 0.1541
+  - scientific: Haemulon macrostomum
+    confidence: 0.147
+  - scientific: Haemulon sciurus
+    confidence: 0.1067
+species:
+- scientific: Melichthys niger
+  role: primary
+  confidence: 0.1541
+  identified_by: bioclip

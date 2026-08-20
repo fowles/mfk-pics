@@ -13,3 +13,18 @@ variants:
   file: cb6c803c33cae904.dive-plus.webp
   import_original_name: 61b393728089c7c7.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158873.4912071
+  top:
+  - scientific: Rypticus saponaceus
+    confidence: 0.21
+  - scientific: Heteropriacanthus cruentatus
+    confidence: 0.059
+  - scientific: Melichthys niger
+    confidence: 0.02
+  absorbed_by:
+    scientific: Xestospongia muta
+    confidence: 0.5342

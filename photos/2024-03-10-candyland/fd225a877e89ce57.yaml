@@ -13,3 +13,18 @@ variants:
   file: fd225a877e89ce57.dive-plus.webp
   import_original_name: ddd60c2a48bd1d5a.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158873.2966757
+  top:
+  - scientific: Haemulon carbonarium
+    confidence: 0.1911
+  - scientific: Chromis multilineata
+    confidence: 0.0968
+  - scientific: Ginglymostoma cirratum
+    confidence: 0.0222
+  absorbed_by:
+    scientific: Meandrina meandrites
+    confidence: 0.4123

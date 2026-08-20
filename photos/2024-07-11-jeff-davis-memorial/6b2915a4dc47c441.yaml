@@ -11,3 +11,18 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 rotation_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159556.291916
+  top:
+  - scientific: Diadema antillarum
+    confidence: 0.2501
+  - scientific: Aulostomus maculatus
+    confidence: 0.0104
+  - scientific: Sepioteuthis sepioidea
+    confidence: 0.006
+  absorbed_by:
+    scientific: Briareum asbestinum
+    confidence: 0.6272

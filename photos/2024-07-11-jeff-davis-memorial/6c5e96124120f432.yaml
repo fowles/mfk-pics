@@ -10,3 +10,20 @@ variants:
   file: 6c5e96124120f432.dive-plus.webp
   import_original_name: 85c3c8d42ac975b8.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786159575.8035855
+  top:
+  - scientific: Aulostomus maculatus
+    confidence: 0.9997
+  - scientific: Gymnothorax funebris
+    confidence: 0.0002
+  - scientific: Haemulon macrostomum
+    confidence: 0.0001
+species:
+- scientific: Aulostomus maculatus
+  role: primary
+  confidence: 0.9997
+  identified_by: bioclip

@@ -10,3 +10,20 @@ variants:
   file: e50f5c66b2300c38.dive-plus.webp
   import_original_name: 29717378e6b1fac0.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156742.1355028
+  top:
+  - scientific: Dactylopterus volitans
+    confidence: 0.7898
+  - scientific: Scorpaena plumieri
+    confidence: 0.146
+  - scientific: Hypoplectrus puella
+    confidence: 0.0165
+species:
+- scientific: Dactylopterus volitans
+  role: primary
+  confidence: 0.7898
+  identified_by: bioclip

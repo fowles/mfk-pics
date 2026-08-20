@@ -10,3 +10,20 @@ variants:
   file: 1598d1dff6db7821.dive-plus.webp
   import_original_name: efe1d7d45c7ab88d.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157491.4543896
+  top:
+  - scientific: Xyrichtys martinicensis
+    confidence: 0.9096
+  - scientific: Canthigaster rostrata
+    confidence: 0.0722
+  - scientific: Sparisoma aurofrenatum
+    confidence: 0.0144
+species:
+- scientific: Xyrichtys martinicensis
+  role: primary
+  confidence: 0.9096
+  identified_by: bioclip

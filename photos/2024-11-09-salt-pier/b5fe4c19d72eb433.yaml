@@ -13,3 +13,18 @@ variants:
   file: b5fe4c19d72eb433.dive-plus.webp
   import_original_name: 6509a075cdb3f4fd.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156581.1989553
+  top:
+  - scientific: Aulostomus maculatus
+    confidence: 0.2303
+  - scientific: Stenorhynchus seticornis
+    confidence: 0.0675
+  - scientific: Chaetodon capistratus
+    confidence: 0.0382
+  absorbed_by:
+    scientific: Aplysina archeri
+    confidence: 0.3538

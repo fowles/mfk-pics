@@ -14,3 +14,20 @@ variants:
   import_original_name: 3c20ba9f78e4cc74.webp
 date_reviewed: true
 rotation_applied: 90
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1787178274.5747964
+  top:
+  - scientific: Epinephelus striatus
+    confidence: 0.5493
+  - scientific: Eretmochelys imbricata
+    confidence: 0.2252
+  - scientific: Acanthostracion polygonius
+    confidence: 0.0427
+species:
+- scientific: Epinephelus striatus
+  role: primary
+  confidence: 0.5493
+  identified_by: bioclip

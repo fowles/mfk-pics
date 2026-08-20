@@ -13,3 +13,20 @@ variants:
   file: 5bdc4b4d5b13367a.dive-plus.webp
   import_original_name: 54047974468b099e.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158873.1934094
+  top:
+  - scientific: Gramma loreto
+    confidence: 0.3687
+  - scientific: Thalassoma bifasciatum
+    confidence: 0.2972
+  - scientific: Centropyge argi
+    confidence: 0.0937
+species:
+- scientific: Gramma loreto
+  role: primary
+  confidence: 0.3687
+  identified_by: bioclip

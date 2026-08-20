@@ -10,3 +10,20 @@ variants:
   file: 78c9cc306297eb44.dive-plus.webp
   import_original_name: 08ac7d5b31c70c68.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158964.778146
+  top:
+  - scientific: Epinephelus itajara
+    confidence: 0.973
+  - scientific: Serranus tigrinus
+    confidence: 0.0069
+  - scientific: Sphoeroides spengleri
+    confidence: 0.0045
+species:
+- scientific: Epinephelus itajara
+  role: primary
+  confidence: 0.973
+  identified_by: bioclip

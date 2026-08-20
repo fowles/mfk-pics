@@ -10,3 +10,20 @@ variants:
   file: d537e37969f0d7c7.dive-plus.webp
   import_original_name: f696dd6a43de36fa.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786157281.7124841
+  top:
+  - scientific: Kyphosus sectatrix
+    confidence: 0.5271
+  - scientific: Megalops atlanticus
+    confidence: 0.2732
+  - scientific: Canthidermis sufflamen
+    confidence: 0.0678
+species:
+- scientific: Kyphosus sectatrix
+  role: primary
+  confidence: 0.5271
+  identified_by: bioclip

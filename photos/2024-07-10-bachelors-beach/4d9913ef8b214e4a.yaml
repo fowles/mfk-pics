@@ -10,3 +10,20 @@ lon: -68.2874429
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158708.71522
+  top:
+  - scientific: Equetus punctatus
+    confidence: 0.999
+  - scientific: Equetus lanceolatus
+    confidence: 0.0009
+  - scientific: Pomacanthus arcuatus
+    confidence: 0.0
+species:
+- scientific: Equetus punctatus
+  role: primary
+  confidence: 0.999
+  identified_by: bioclip

@@ -6,3 +6,20 @@ credit: Matthew Kulukundis
 import_album: 2024-11-14, Bonaire, Oil Slick Leap
 import_original_name: PXL_20241114_201528599.jpg
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156895.9919426
+  top:
+  - scientific: Balistes vetula
+    confidence: 0.4007
+  - scientific: Canthidermis sufflamen
+    confidence: 0.3568
+  - scientific: Thalassoma bifasciatum
+    confidence: 0.0329
+species:
+- scientific: Balistes vetula
+  role: primary
+  confidence: 0.4007
+  identified_by: bioclip

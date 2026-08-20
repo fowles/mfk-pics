@@ -11,3 +11,18 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 rotation_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156324.6535113
+  top:
+  - scientific: Aurelia aurita
+    confidence: 0.2024
+  - scientific: Lutjanus griseus
+    confidence: 0.1296
+  - scientific: Megalops atlanticus
+    confidence: 0.1106
+  absorbed_by:
+    scientific: Montastraea cavernosa
+    confidence: 0.2684

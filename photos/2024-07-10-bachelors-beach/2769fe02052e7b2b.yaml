@@ -13,3 +13,20 @@ variants:
   file: 2769fe02052e7b2b.dive-plus.webp
   import_original_name: 10a05222a828a69f.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158750.897035
+  top:
+  - scientific: Stenorhynchus seticornis
+    confidence: 0.8323
+  - scientific: Aulostomus maculatus
+    confidence: 0.1371
+  - scientific: Eretmochelys imbricata
+    confidence: 0.0043
+species:
+- scientific: Stenorhynchus seticornis
+  role: primary
+  confidence: 0.8323
+  identified_by: bioclip

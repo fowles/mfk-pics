@@ -13,3 +13,20 @@ variants:
   file: 50938cf0b12a66e2.dive-plus.webp
   import_original_name: cbea8c7e3f9be5b3.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786156579.1561465
+  top:
+  - scientific: Thalassoma bifasciatum
+    confidence: 0.3069
+  - scientific: Gymnothorax miliaris
+    confidence: 0.1231
+  - scientific: Gymnothorax funebris
+    confidence: 0.1033
+species:
+- scientific: Thalassoma bifasciatum
+  role: primary
+  confidence: 0.3069
+  identified_by: bioclip

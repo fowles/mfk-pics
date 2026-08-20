@@ -13,3 +13,18 @@ variants:
   file: 8c40a9dd73d457f4.dive-plus.webp
   import_original_name: d34b5effacf5a1da.webp
 date_reviewed: true
+species_suggestions:
+  engine: bioclip
+  model: hf-hub:imageomics/bioclip
+  created: '2026-08-20T03:59:54Z'
+  src_mtime: 1786158190.0990286
+  top:
+  - scientific: Chaetodon sedentarius
+    confidence: 0.0863
+  - scientific: Bothus lunatus
+    confidence: 0.0744
+  - scientific: Microspathodon chrysurus
+    confidence: 0.0382
+  absorbed_by:
+    scientific: Stephanocoenia intersepta
+    confidence: 0.233
