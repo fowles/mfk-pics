@@ -11,5 +11,6 @@ output-cache/
 output-curated/
 unfiltered/
 
+.env
 .venv/
 __pycache__/
