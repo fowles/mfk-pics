@@ -1,0 +1,9 @@
+# SPDX-License-Identifier: MIT
+[project]
+name = "mfk-pics"
+version = "0"
+requires-python = ">=3.13"
+dependencies = ["photogen"]
+
+[tool.uv.sources]
+photogen = { path = "../photogen", editable = true }

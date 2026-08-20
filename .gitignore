@@ -1,0 +1,15 @@
+# Media is untracked; sidecars, dive.yaml, and album markers are tracked.
+# git cannot re-include inside an excluded DIRECTORY, hence descend-and-negate:
+photos/**
+!photos/*/
+!photos/*/*.yaml
+!photos/*/.photogen-album
+
+# Build trees and source archives — regenerable or archival, never tracked
+output/
+output-cache/
+output-curated/
+unfiltered/
+
+.venv/
+__pycache__/
