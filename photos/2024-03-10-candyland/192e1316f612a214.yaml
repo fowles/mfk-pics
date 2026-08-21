@@ -23,7 +23,11 @@ species_suggestions:
   - scientific: Elacatinus genie
     confidence: 0.0162
 species:
-- scientific: Haemulon chrysargyreum
+- scientific: Sparisoma amplum
   role: primary
-  confidence: 0.8327
-  identified_by: bioclip
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary
+rotation_applied: 360

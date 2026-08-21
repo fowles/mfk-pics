@@ -26,7 +26,10 @@ species_suggestions:
   - scientific: Elacatinus evelynae
     confidence: 0.1026
 species:
-- scientific: Aulostomus maculatus
+- scientific: Diodon hystrix
   role: primary
-  confidence: 0.2696
-  identified_by: bioclip
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

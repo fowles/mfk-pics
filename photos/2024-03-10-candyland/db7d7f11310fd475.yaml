@@ -23,7 +23,19 @@ species_suggestions:
   - scientific: Hypoplectrus indigo
     confidence: 0.0488
 species:
-- scientific: Sepioteuthis sepioidea
+- scientific: Chromis multilineata
   role: primary
-  confidence: 0.4745
-  identified_by: bioclip
+  identified_by: human
+  reviewed_by: matt
+- scientific: Thalassoma bifasciatum
+  role: secondary
+  identified_by: human
+  confirmed_from: bioclip
+  reviewed_by: matt
+- scientific: Stegastes partitus
+  role: secondary
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

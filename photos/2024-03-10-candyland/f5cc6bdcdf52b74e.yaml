@@ -25,3 +25,7 @@ species_suggestions:
   absorbed_by:
     scientific: Sabellastarte magnifica
     confidence: 0.4424
+species_reviewed:
+- primary
+- secondary
+species: []

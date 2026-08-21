@@ -26,7 +26,16 @@ species_suggestions:
   - scientific: Centropyge argi
     confidence: 0.0937
 species:
-- scientific: Gramma loreto
+- scientific: Holacanthus ciliaris
   role: primary
-  confidence: 0.3687
-  identified_by: bioclip
+  identified_by: human
+  reviewed_by: matt
+- scientific: Gramma loreto
+  role: secondary
+  identified_by: human
+  confirmed_from: bioclip
+  reviewed_by: matt
+rotation_applied: 180
+species_reviewed:
+- primary
+- secondary

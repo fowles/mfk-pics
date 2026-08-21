@@ -28,3 +28,11 @@ species_suggestions:
   absorbed_by:
     scientific: Xestospongia muta
     confidence: 0.5342
+species:
+- scientific: Diodon hystrix
+  role: primary
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

@@ -22,8 +22,7 @@ species_suggestions:
     confidence: 0.0174
   - scientific: Astrophyton muricatum
     confidence: 0.0032
-species:
-- scientific: Stenorhynchus seticornis
-  role: primary
-  confidence: 0.8049
-  identified_by: bioclip
+species: []
+species_reviewed:
+- primary
+- secondary
