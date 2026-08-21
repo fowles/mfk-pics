@@ -23,7 +23,10 @@ species_suggestions:
   - scientific: Gymnothorax funebris
     confidence: 0.0008
 species:
-- scientific: Octopus briareus
+- scientific: Octopus vulgaris
   role: primary
-  confidence: 0.9955
-  identified_by: bioclip
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

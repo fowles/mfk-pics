@@ -23,7 +23,15 @@ species_suggestions:
   - scientific: Myrichthys breviceps
     confidence: 0.0003
 species:
-- scientific: Octopus briareus
+- scientific: Thalassoma bifasciatum
+  role: secondary
+  identified_by: human
+  reviewed_by: matt
+- scientific: Octopus vulgaris
   role: primary
-  confidence: 0.9486
-  identified_by: bioclip
+  identified_by: human
+  confirmed_from: bioclip
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

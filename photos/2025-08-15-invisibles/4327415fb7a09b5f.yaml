@@ -23,7 +23,10 @@ species_suggestions:
   - scientific: Cantherhines pullus
     confidence: 0.054
 species:
-- scientific: Gymnothorax funebris
+- scientific: Octopus vulgaris
   role: primary
-  confidence: 0.6467
-  identified_by: bioclip
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

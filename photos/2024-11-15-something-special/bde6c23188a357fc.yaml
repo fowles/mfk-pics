@@ -26,7 +26,10 @@ species_suggestions:
   - scientific: Periclimenes yucatanicus
     confidence: 0.0353
 species:
-- scientific: Octopus briareus
+- scientific: Octopus vulgaris
   role: primary
-  confidence: 0.8311
-  identified_by: bioclip
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

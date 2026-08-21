@@ -25,5 +25,6 @@ species_suggestions:
 species:
 - scientific: Chromis cyanea
   role: primary
-  confidence: 0.8259
-  identified_by: bioclip
+  identified_by: human
+  confirmed_from: bioclip
+  reviewed_by: matt

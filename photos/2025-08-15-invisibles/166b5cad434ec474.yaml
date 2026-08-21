@@ -23,7 +23,10 @@ species_suggestions:
   - scientific: Sepioteuthis sepioidea
     confidence: 0.0731
 species:
-- scientific: Octopus briareus
+- scientific: Octopus vulgaris
   role: primary
-  confidence: 0.6189
-  identified_by: bioclip
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

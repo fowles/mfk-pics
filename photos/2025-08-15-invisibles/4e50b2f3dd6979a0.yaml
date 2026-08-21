@@ -23,8 +23,15 @@ species_suggestions:
   - scientific: Urobatis jamaicensis
     confidence: 0.0756
 species:
-- scientific: Octopus briareus
+- scientific: Octopus vulgaris
   role: primary
-  confidence: 0.5163
-  identified_by: bioclip
+  identified_by: human
+  reviewed_by: matt
+- scientific: Epinephelus adscensionis
+  role: secondary
+  identified_by: human
+  reviewed_by: matt
 rotation_reviewed: true
+species_reviewed:
+- primary
+- secondary

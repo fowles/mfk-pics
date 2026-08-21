@@ -23,7 +23,10 @@ species_suggestions:
   - scientific: Pareques acuminatus
     confidence: 0.0368
 species:
-- scientific: Pomacanthus arcuatus
+- scientific: Octopus vulgaris
   role: primary
-  confidence: 0.6083
-  identified_by: bioclip
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

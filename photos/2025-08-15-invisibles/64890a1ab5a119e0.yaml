@@ -23,7 +23,14 @@ species_suggestions:
   - scientific: Hypanus americanus
     confidence: 0.1594
 species:
-- scientific: Gymnothorax funebris
+- scientific: Octopus vulgaris
   role: primary
-  confidence: 0.4271
-  identified_by: bioclip
+  identified_by: human
+  reviewed_by: matt
+- scientific: Stegastes planifrons
+  role: secondary
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

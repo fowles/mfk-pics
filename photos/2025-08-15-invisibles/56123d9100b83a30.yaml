@@ -23,7 +23,18 @@ species_suggestions:
   - scientific: Myrichthys breviceps
     confidence: 0.0409
 species:
-- scientific: Diadema antillarum
+- scientific: Octopus vulgaris
   role: primary
-  confidence: 0.6205
-  identified_by: bioclip
+  identified_by: human
+  reviewed_by: matt
+- scientific: Stegastes planifrons
+  role: secondary
+  identified_by: human
+  reviewed_by: matt
+- scientific: Epinephelus adscensionis
+  role: secondary
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

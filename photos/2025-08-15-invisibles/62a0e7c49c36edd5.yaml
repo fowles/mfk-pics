@@ -23,7 +23,10 @@ species_suggestions:
   - scientific: Sphoeroides spengleri
     confidence: 0.0823
 species:
-- scientific: Sepioteuthis sepioidea
+- scientific: Octopus vulgaris
   role: primary
-  confidence: 0.5622
-  identified_by: bioclip
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

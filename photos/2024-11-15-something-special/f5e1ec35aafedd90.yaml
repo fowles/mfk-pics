@@ -26,7 +26,10 @@ species_suggestions:
   - scientific: Sparisoma viride
     confidence: 0.025
 species:
-- scientific: Diodon holocanthus
+- scientific: Gymnothorax moringa
   role: primary
-  confidence: 0.8157
-  identified_by: bioclip
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

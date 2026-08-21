@@ -14,3 +14,19 @@ variants:
   import_original_name: b21f379a4cf0852b.mp4
 date_reviewed: true
 dive_window_reviewed: true
+species:
+- scientific: Octopus vulgaris
+  role: primary
+  identified_by: human
+  reviewed_by: matt
+- scientific: Thalassoma bifasciatum
+  role: secondary
+  identified_by: human
+  reviewed_by: matt
+- scientific: Stegastes partitus
+  role: secondary
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

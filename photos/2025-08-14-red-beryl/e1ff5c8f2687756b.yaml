@@ -25,5 +25,9 @@ species_suggestions:
 species:
 - scientific: Chaetodon capistratus
   role: primary
-  confidence: 0.9988
-  identified_by: bioclip
+  identified_by: human
+  confirmed_from: bioclip
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

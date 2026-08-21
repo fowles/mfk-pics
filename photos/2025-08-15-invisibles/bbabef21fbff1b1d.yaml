@@ -10,3 +10,27 @@ lon: -68.28015169999999
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species:
+- scientific: Octopus vulgaris
+  role: primary
+  identified_by: human
+  reviewed_by: matt
+- scientific: Thalassoma bifasciatum
+  role: secondary
+  identified_by: human
+  reviewed_by: matt
+- scientific: Chaetodon capistratus
+  role: secondary
+  identified_by: human
+  reviewed_by: matt
+- scientific: Stegastes partitus
+  role: secondary
+  identified_by: human
+  reviewed_by: matt
+- scientific: Chromis cyanea
+  role: secondary
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

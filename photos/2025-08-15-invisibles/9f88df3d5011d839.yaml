@@ -23,7 +23,11 @@ species_suggestions:
   - scientific: Hypanus americanus
     confidence: 0.001
 species:
-- scientific: Octopus briareus
+- scientific: Octopus vulgaris
   role: primary
-  confidence: 0.9961
-  identified_by: bioclip
+  identified_by: human
+  confirmed_from: bioclip
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

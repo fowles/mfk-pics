@@ -22,8 +22,4 @@ species_suggestions:
     confidence: 0.0902
   - scientific: Acanthurus coeruleus
     confidence: 0.0572
-species:
-- scientific: Chromis cyanea
-  role: primary
-  confidence: 0.8305
-  identified_by: bioclip
+species: []

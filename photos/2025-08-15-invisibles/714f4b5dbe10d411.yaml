@@ -23,7 +23,10 @@ species_suggestions:
   - scientific: Hippocampus erectus
     confidence: 0.0072
 species:
-- scientific: Scorpaena plumieri
+- scientific: Octopus vulgaris
   role: primary
-  confidence: 0.9177
-  identified_by: bioclip
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

@@ -23,7 +23,11 @@ species_suggestions:
   - scientific: Diodon hystrix
     confidence: 0.0043
 species:
-- scientific: Octopus briareus
+- scientific: Octopus vulgaris
   role: primary
-  confidence: 0.978
-  identified_by: bioclip
+  identified_by: human
+  confirmed_from: bioclip
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

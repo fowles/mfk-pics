@@ -23,7 +23,19 @@ species_suggestions:
   - scientific: Myrichthys breviceps
     confidence: 0.0
 species:
-- scientific: Octopus briareus
+- scientific: Octopus vulgaris
   role: primary
-  confidence: 0.9711
-  identified_by: bioclip
+  identified_by: human
+  confirmed_from: bioclip
+  reviewed_by: matt
+- scientific: Stegastes partitus
+  role: secondary
+  identified_by: human
+  reviewed_by: matt
+- scientific: Microspathodon chrysurus
+  role: secondary
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

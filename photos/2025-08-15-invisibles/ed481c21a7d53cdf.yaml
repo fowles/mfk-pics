@@ -23,7 +23,10 @@ species_suggestions:
   - scientific: Octopus briareus
     confidence: 0.0978
 species:
-- scientific: Sphoeroides spengleri
+- scientific: Octopus vulgaris
   role: primary
-  confidence: 0.4507
-  identified_by: bioclip
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

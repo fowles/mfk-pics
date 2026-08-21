@@ -26,3 +26,11 @@ species_suggestions:
   absorbed_by:
     scientific: Antillogorgia americana
     confidence: 0.7738
+species:
+- scientific: Octopus vulgaris
+  role: primary
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary
