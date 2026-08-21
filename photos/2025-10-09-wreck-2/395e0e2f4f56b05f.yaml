@@ -22,7 +22,10 @@ species_suggestions:
   - scientific: Scarus guacamaia
     confidence: 0.0959
 species:
-- scientific: Melichthys niger
+- scientific: Balistes vetula
   role: primary
-  confidence: 0.7574
-  identified_by: bioclip
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

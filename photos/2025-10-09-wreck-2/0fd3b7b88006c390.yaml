@@ -22,7 +22,10 @@ species_suggestions:
   - scientific: Gymnothorax funebris
     confidence: 0.0395
 species:
-- scientific: Melichthys niger
+- scientific: Homo sapiens
   role: primary
-  confidence: 0.4681
-  identified_by: bioclip
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

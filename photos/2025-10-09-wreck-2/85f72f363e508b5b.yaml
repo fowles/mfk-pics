@@ -22,7 +22,10 @@ species_suggestions:
   - scientific: Melichthys niger
     confidence: 0.2658
 species:
-- scientific: Acanthurus coeruleus
+- scientific: Balistes vetula
   role: primary
-  confidence: 0.3825
-  identified_by: bioclip
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

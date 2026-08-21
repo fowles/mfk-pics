@@ -22,7 +22,11 @@ species_suggestions:
   - scientific: Acanthurus coeruleus
     confidence: 0.0495
 species:
-- scientific: Scarus coeruleus
+- scientific: Balistes vetula
   role: primary
-  confidence: 0.8501
-  identified_by: bioclip
+  identified_by: human
+  reviewed_by: matt
+  cover: true
+species_reviewed:
+- primary
+- secondary
