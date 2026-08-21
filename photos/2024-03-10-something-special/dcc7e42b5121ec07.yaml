@@ -27,3 +27,4 @@ species:
   role: primary
   confidence: 0.5491
   identified_by: bioclip
+rotation_applied: 90
