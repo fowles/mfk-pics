@@ -13,7 +13,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1786158336.7202547
     top:
     - scientific: Sphoeroides spengleri
@@ -34,7 +34,7 @@ species_suggestions:
     - scientific: Carcharhinus perezi
       confidence: 0.1078
 species:
-- scientific: Sphoeroides spengleri
+- scientific: Sphyraena barracuda
   role: primary
-  confidence: 0.2665
-  identified_by: bioclip
+  confidence: 0.1567
+  identified_by: bioclip+bioclip-2

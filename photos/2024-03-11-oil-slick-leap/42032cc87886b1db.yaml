@@ -13,7 +13,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1786158972.5934203
     top:
     - scientific: Serranus tigrinus
@@ -34,7 +34,7 @@ species_suggestions:
     - scientific: Stegastes partitus
       confidence: 0.0955
 species:
-- scientific: Serranus tigrinus
+- scientific: Halichoeres garnoti
   role: primary
-  confidence: 0.2157
-  identified_by: bioclip
+  confidence: 0.1855
+  identified_by: bioclip-2

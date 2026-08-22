@@ -14,7 +14,7 @@ rotation_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1786159559.63339
     top:
     - scientific: Sepioteuthis sepioidea
@@ -40,5 +40,5 @@ species_suggestions:
 species:
 - scientific: Caranx ruber
   role: primary
-  confidence: 0.2832
+  confidence: 0.5663
   identified_by: bioclip-2

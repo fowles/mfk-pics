@@ -16,7 +16,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1786156743.122678
     top:
     - scientific: Abudefduf saxatilis
@@ -37,7 +37,7 @@ species_suggestions:
     - scientific: Caranx crysos
       confidence: 0.1296
 species:
-- scientific: Abudefduf saxatilis
+- scientific: Carcharhinus perezi
   role: primary
-  confidence: 0.2099
-  identified_by: bioclip
+  confidence: 0.1866
+  identified_by: bioclip-2

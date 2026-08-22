@@ -12,7 +12,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1786159811.5394132
     top:
     - scientific: Lutjanus griseus
@@ -33,7 +33,7 @@ species_suggestions:
     - scientific: Epinephelus itajara
       confidence: 0.0681
 species:
-- scientific: Lutjanus griseus
+- scientific: Kyphosus sectatrix
   role: primary
-  confidence: 0.3525
-  identified_by: bioclip
+  confidence: 0.356
+  identified_by: bioclip+bioclip-2

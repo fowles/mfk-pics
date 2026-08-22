@@ -13,7 +13,7 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1786156490.4067566
     top:
     - scientific: Melichthys niger
@@ -34,7 +34,7 @@ species_suggestions:
     - scientific: Clepticus parrae
       confidence: 0.0779
 species:
-- scientific: Melichthys niger
+- scientific: Chromis cyanea
   role: primary
-  confidence: 0.4326
-  identified_by: bioclip
+  confidence: 0.5537
+  identified_by: bioclip-2

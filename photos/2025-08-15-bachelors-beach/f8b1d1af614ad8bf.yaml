@@ -13,7 +13,7 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1786158400.4208333
     top:
     - scientific: Percnon gibbesi
@@ -34,7 +34,7 @@ species_suggestions:
     - scientific: Gymnothorax miliaris
       confidence: 0.0988
 species:
-- scientific: Percnon gibbesi
+- scientific: Holocentrus rufus
   role: primary
-  confidence: 0.2036
-  identified_by: bioclip
+  confidence: 0.1371
+  identified_by: bioclip-2

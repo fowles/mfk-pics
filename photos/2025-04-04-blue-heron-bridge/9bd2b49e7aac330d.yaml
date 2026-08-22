@@ -13,7 +13,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1786157489.8085775
     top:
     - scientific: Hippocampus erectus
@@ -36,3 +36,8 @@ species_suggestions:
       confidence: 0.2877
     - scientific: Monacanthus tuckeri
       confidence: 0.1768
+species:
+- scientific: Sphoeroides spengleri
+  role: primary
+  confidence: 0.293
+  identified_by: bioclip-2

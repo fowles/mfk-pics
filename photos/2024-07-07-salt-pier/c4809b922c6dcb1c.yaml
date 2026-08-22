@@ -13,7 +13,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1786159964.5719833
     top:
     - scientific: Aulostomus maculatus
@@ -36,5 +36,5 @@ species_suggestions:
 species:
 - scientific: Sphyraena barracuda
   role: primary
-  confidence: 0.7304
+  confidence: 0.9763
   identified_by: bioclip+bioclip-2

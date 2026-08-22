@@ -12,7 +12,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1786159809.3358996
     top:
     - scientific: Sphyraena barracuda
@@ -33,7 +33,7 @@ species_suggestions:
     - scientific: Caranx crysos
       confidence: 0.0812
 species:
-- scientific: Sphyraena barracuda
+- scientific: Scomberomorus regalis
   role: primary
-  confidence: 0.4576
-  identified_by: bioclip
+  confidence: 0.7069
+  identified_by: bioclip+bioclip-2

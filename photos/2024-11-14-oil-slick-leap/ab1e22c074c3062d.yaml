@@ -16,7 +16,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1786156899.4813175
     top:
     - scientific: Scarus coeruleus
@@ -37,7 +37,7 @@ species_suggestions:
     - scientific: Scarus coeruleus
       confidence: 0.1309
 species:
-- scientific: Scarus coeruleus
+- scientific: Acanthurus coeruleus
   role: primary
-  confidence: 0.4707
+  confidence: 0.1781
   identified_by: bioclip+bioclip-2

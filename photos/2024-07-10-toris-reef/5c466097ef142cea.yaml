@@ -16,7 +16,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1786160203.486072
     top:
     - scientific: Enchelycore carychroa
@@ -37,7 +37,7 @@ species_suggestions:
     - scientific: Hermodice carunculata
       confidence: 0.0641
 species:
-- scientific: Enchelycore carychroa
+- scientific: Cyphoma gibbosum
   role: primary
-  confidence: 0.1769
-  identified_by: bioclip
+  confidence: 0.2149
+  identified_by: bioclip-2

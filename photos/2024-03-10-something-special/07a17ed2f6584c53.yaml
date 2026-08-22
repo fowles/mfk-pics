@@ -9,7 +9,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1786159062.944696
     top:
     - scientific: Sphyraena barracuda
@@ -30,7 +30,7 @@ species_suggestions:
     - scientific: Carcharhinus perezi
       confidence: 0.029
 species:
-- scientific: Sphyraena barracuda
+- scientific: Eretmochelys imbricata
   role: primary
-  confidence: 0.1163
-  identified_by: bioclip
+  confidence: 0.1935
+  identified_by: bioclip-2

@@ -13,7 +13,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1786156578.131421
     top:
     - scientific: Acanthostracion polygonius
@@ -36,5 +36,5 @@ species_suggestions:
 species:
 - scientific: Acanthostracion polygonius
   role: primary
-  confidence: 0.5352
+  confidence: 0.6061
   identified_by: bioclip+bioclip-2

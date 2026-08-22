@@ -13,7 +13,7 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1786160149.4135652
     top:
     - scientific: Diodon hystrix
@@ -34,7 +34,7 @@ species_suggestions:
     - scientific: Diodon hystrix
       confidence: 0.0968
 species:
-- scientific: Diodon hystrix
+- scientific: Ogcocephalus radiatus
   role: primary
-  confidence: 0.5459
-  identified_by: bioclip+bioclip-2
+  confidence: 0.7351
+  identified_by: bioclip-2

@@ -17,7 +17,7 @@ species:
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1786156803.6720963
     top:
     - scientific: Aetobatus narinari

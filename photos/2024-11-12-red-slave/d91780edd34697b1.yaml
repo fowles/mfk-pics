@@ -14,7 +14,7 @@ rotation_applied: 270
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1787174975.381908
     top:
     - scientific: Epinephelus striatus
@@ -37,5 +37,5 @@ species_suggestions:
 species:
 - scientific: Lutjanus analis
   role: primary
-  confidence: 0.2979
+  confidence: 0.5957
   identified_by: bioclip-2

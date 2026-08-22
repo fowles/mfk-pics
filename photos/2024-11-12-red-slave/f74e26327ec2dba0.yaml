@@ -14,7 +14,7 @@ rotation_applied: 90
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1787173709.2468028
     top:
     - scientific: Aulostomus maculatus
@@ -40,5 +40,5 @@ species_suggestions:
 species:
 - scientific: Scorpaena plumieri
   role: primary
-  confidence: 0.277
+  confidence: 0.554
   identified_by: bioclip-2

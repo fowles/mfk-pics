@@ -16,7 +16,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1786159987.0720336
     top:
     - scientific: Haemulon macrostomum
@@ -39,8 +39,4 @@ species_suggestions:
     absorbed_by:
       scientific: Orbicella faveolata
       confidence: 0.0552
-species:
-- scientific: Haemulon macrostomum
-  role: primary
-  confidence: 0.4354
-  identified_by: bioclip
+species: []

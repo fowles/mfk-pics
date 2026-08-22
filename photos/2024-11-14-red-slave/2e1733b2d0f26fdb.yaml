@@ -16,7 +16,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1786156979.8910127
     top:
     - scientific: Jenkinsia lamprotaenia
@@ -37,7 +37,7 @@ species_suggestions:
     - scientific: Caranx crysos
       confidence: 0.2422
 species:
-- scientific: Jenkinsia lamprotaenia
+- scientific: Scomberomorus regalis
   role: primary
-  confidence: 0.3554
-  identified_by: bioclip
+  confidence: 0.2688
+  identified_by: bioclip+bioclip-2

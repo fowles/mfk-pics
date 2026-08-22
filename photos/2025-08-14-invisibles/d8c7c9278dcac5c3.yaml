@@ -13,7 +13,7 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1786158235.3612592
     top:
     - scientific: Sphoeroides testudineus
@@ -34,7 +34,7 @@ species_suggestions:
     - scientific: Hypanus americanus
       confidence: 0.0276
 species:
-- scientific: Sphoeroides testudineus
+- scientific: Bothus lunatus
   role: primary
-  confidence: 0.2369
-  identified_by: bioclip
+  confidence: 0.4486
+  identified_by: bioclip-2

@@ -16,7 +16,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1786157883.1489937
     top:
     - scientific: Aulostomus maculatus
@@ -37,7 +37,7 @@ species_suggestions:
     - scientific: Serranus tigrinus
       confidence: 0.1523
 species:
-- scientific: Aulostomus maculatus
+- scientific: Halichoeres radiatus
   role: primary
-  confidence: 0.1673
-  identified_by: bioclip
+  confidence: 0.2337
+  identified_by: bioclip-2

@@ -13,7 +13,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1786159965.4164357
     top:
     - scientific: Thalassoma bifasciatum
@@ -34,7 +34,7 @@ species_suggestions:
     - scientific: Scarus vetula
       confidence: 0.0647
 species:
-- scientific: Thalassoma bifasciatum
+- scientific: Enchelycore carychroa
   role: primary
-  confidence: 0.2689
-  identified_by: bioclip
+  confidence: 0.2197
+  identified_by: bioclip-2

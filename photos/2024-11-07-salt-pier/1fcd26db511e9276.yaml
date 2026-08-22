@@ -13,7 +13,7 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1786156326.0699916
     top:
     - scientific: Scomberomorus regalis
@@ -34,7 +34,7 @@ species_suggestions:
     - scientific: Eretmochelys imbricata
       confidence: 0.1022
 species:
-- scientific: Scomberomorus regalis
+- scientific: Echeneis naucrates
   role: primary
-  confidence: 0.4808
-  identified_by: bioclip
+  confidence: 0.4083
+  identified_by: bioclip+bioclip-2

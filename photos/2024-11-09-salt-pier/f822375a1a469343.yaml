@@ -16,7 +16,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1786156583.8002245
     top:
     - scientific: Serranus tigrinus
@@ -37,7 +37,7 @@ species_suggestions:
     - scientific: Haemulon carbonarium
       confidence: 0.0761
 species:
-- scientific: Serranus tigrinus
+- scientific: Calamus calamus
   role: primary
-  confidence: 0.2946
-  identified_by: bioclip
+  confidence: 0.1997
+  identified_by: bioclip-2

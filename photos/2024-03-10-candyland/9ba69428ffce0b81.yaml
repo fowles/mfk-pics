@@ -13,7 +13,7 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1786158861.8490257
     top:
     - scientific: Thalassoma bifasciatum
@@ -34,7 +34,7 @@ species_suggestions:
     - scientific: Mulloidichthys martinicus
       confidence: 0.0588
 species:
-- scientific: Thalassoma bifasciatum
+- scientific: Ocyurus chrysurus
   role: primary
-  confidence: 0.4304
-  identified_by: bioclip
+  confidence: 0.5556
+  identified_by: bioclip+bioclip-2

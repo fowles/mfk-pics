@@ -16,7 +16,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1786160161.5197015
     top:
     - scientific: Scarus coeruleus
@@ -37,7 +37,7 @@ species_suggestions:
     - scientific: Caranx crysos
       confidence: 0.1645
 species:
-- scientific: Scarus coeruleus
+- scientific: Malacanthus plumieri
   role: primary
-  confidence: 0.1213
-  identified_by: bioclip
+  confidence: 0.2141
+  identified_by: bioclip-2

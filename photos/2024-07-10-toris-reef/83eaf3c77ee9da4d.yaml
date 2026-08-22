@@ -16,7 +16,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1786160221.6893446
     top:
     - scientific: Thalassoma bifasciatum
@@ -37,7 +37,7 @@ species_suggestions:
     - scientific: Halichoeres radiatus
       confidence: 0.1209
 species:
-- scientific: Thalassoma bifasciatum
+- scientific: Sparisoma viride
   role: primary
-  confidence: 0.426
-  identified_by: bioclip
+  confidence: 0.1662
+  identified_by: bioclip-2

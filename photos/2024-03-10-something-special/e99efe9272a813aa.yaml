@@ -14,7 +14,7 @@ rotation_applied: 180
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1787174216.5467944
     top:
     - scientific: Diadema antillarum
@@ -37,5 +37,5 @@ species_suggestions:
 species:
 - scientific: Diadema antillarum
   role: primary
-  confidence: 0.9181
+  confidence: 0.8428
   identified_by: bioclip+bioclip-2

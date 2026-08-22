@@ -13,7 +13,7 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1786158869.1739786
     top:
     - scientific: Melichthys niger
@@ -34,7 +34,7 @@ species_suggestions:
     - scientific: Acanthurus coeruleus
       confidence: 0.0707
 species:
-- scientific: Melichthys niger
+- scientific: Chromis cyanea
   role: primary
-  confidence: 0.4909
-  identified_by: bioclip
+  confidence: 0.4632
+  identified_by: bioclip-2

@@ -13,7 +13,7 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1786156871.530316
     top:
     - scientific: Stenorhynchus seticornis
@@ -36,5 +36,5 @@ species_suggestions:
 species:
 - scientific: Astrophyton muricatum
   role: primary
-  confidence: 0.5413
+  confidence: 0.7647
   identified_by: bioclip+bioclip-2

@@ -13,7 +13,7 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1786156870.4736748
     top:
     - scientific: Scarus coelestinus
@@ -34,7 +34,7 @@ species_suggestions:
     - scientific: Bodianus rufus
       confidence: 0.1353
 species:
-- scientific: Scarus coelestinus
+- scientific: Clepticus parrae
   role: primary
-  confidence: 0.4666
-  identified_by: bioclip
+  confidence: 0.4431
+  identified_by: bioclip+bioclip-2

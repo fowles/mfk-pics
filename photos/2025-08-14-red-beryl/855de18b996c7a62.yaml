@@ -16,7 +16,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1786158337.7994761
     top:
     - scientific: Gymnothorax funebris
@@ -39,8 +39,4 @@ species_suggestions:
     absorbed_by:
       scientific: Porites porites
       confidence: 0.1594
-species:
-- scientific: Gymnothorax funebris
-  role: primary
-  confidence: 0.1237
-  identified_by: bioclip
+species: []

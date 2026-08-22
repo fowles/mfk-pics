@@ -17,7 +17,7 @@ rotation_applied: 90
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1787030550.2860103
     top:
     - scientific: Bothus lunatus
@@ -40,5 +40,5 @@ species_suggestions:
 species:
 - scientific: Octopus briareus
   role: primary
-  confidence: 0.5862
+  confidence: 0.9031
   identified_by: bioclip+bioclip-2

@@ -10,7 +10,7 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1786158335.5164788
     top:
     - scientific: Hypanus americanus
@@ -33,5 +33,5 @@ species_suggestions:
 species:
 - scientific: Hypanus americanus
   role: primary
-  confidence: 0.9986
+  confidence: 0.998
   identified_by: bioclip+bioclip-2

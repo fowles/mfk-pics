@@ -14,7 +14,7 @@ rotation_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1786158713.6115055
     top:
     - scientific: Aulostomus maculatus
@@ -35,7 +35,7 @@ species_suggestions:
     - scientific: Chromis cyanea
       confidence: 0.0596
 species:
-- scientific: Aulostomus maculatus
+- scientific: Chromis multilineata
   role: primary
-  confidence: 0.3436
-  identified_by: bioclip
+  confidence: 0.4531
+  identified_by: bioclip+bioclip-2

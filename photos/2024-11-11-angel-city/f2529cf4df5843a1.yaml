@@ -16,7 +16,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1786156746.5401342
     top:
     - scientific: Haemulon macrostomum
@@ -37,7 +37,7 @@ species_suggestions:
     - scientific: Chaetodon sedentarius
       confidence: 0.075
 species:
-- scientific: Haemulon macrostomum
+- scientific: Anisotremus surinamensis
   role: primary
-  confidence: 0.2064
-  identified_by: bioclip
+  confidence: 0.0866
+  identified_by: bioclip-2

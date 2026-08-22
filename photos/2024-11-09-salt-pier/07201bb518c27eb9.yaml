@@ -14,7 +14,7 @@ rotation_applied: 270
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1787029577.323152
     top:
     - scientific: Gymnothorax funebris
@@ -35,7 +35,7 @@ species_suggestions:
     - scientific: Cyphoma gibbosum
       confidence: 0.0336
 species:
-- scientific: Gymnothorax funebris
+- scientific: Serranus tigrinus
   role: primary
-  confidence: 0.1132
-  identified_by: bioclip
+  confidence: 0.0664
+  identified_by: bioclip-2

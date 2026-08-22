@@ -13,7 +13,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1786159171.3255916
     top:
     - scientific: Lactophrys triqueter
@@ -34,7 +34,7 @@ species_suggestions:
     - scientific: Epinephelus adscensionis
       confidence: 0.0609
 species:
-- scientific: Lactophrys triqueter
+- scientific: Lactophrys bicaudalis
   role: primary
-  confidence: 0.4745
+  confidence: 0.5635
   identified_by: bioclip+bioclip-2

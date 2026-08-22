@@ -12,7 +12,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1786159817.6453233
     top:
     - scientific: Scarus coelestinus
@@ -33,7 +33,7 @@ species_suggestions:
     - scientific: Scarus coelestinus
       confidence: 0.0943
 species:
-- scientific: Scarus coelestinus
+- scientific: Scarus coeruleus
   role: primary
-  confidence: 0.2878
+  confidence: 0.2434
   identified_by: bioclip+bioclip-2

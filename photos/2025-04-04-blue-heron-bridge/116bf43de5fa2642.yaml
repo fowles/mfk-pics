@@ -16,7 +16,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1786157494.5633168
     top:
     - scientific: Pomacanthus paru
@@ -37,7 +37,7 @@ species_suggestions:
     - scientific: Holacanthus ciliaris
       confidence: 0.0018
 species:
-- scientific: Pomacanthus paru
+- scientific: Pomacanthus arcuatus
   role: primary
-  confidence: 0.4836
+  confidence: 0.9195
   identified_by: bioclip+bioclip-2

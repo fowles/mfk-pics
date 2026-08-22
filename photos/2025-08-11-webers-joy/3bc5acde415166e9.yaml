@@ -16,7 +16,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1786071913.33714
     top:
     - scientific: Aulostomus maculatus
@@ -42,5 +42,5 @@ species_suggestions:
 species:
 - scientific: Aulostomus maculatus
   role: primary
-  confidence: 0.1053
+  confidence: 0.0964
   identified_by: bioclip+bioclip-2

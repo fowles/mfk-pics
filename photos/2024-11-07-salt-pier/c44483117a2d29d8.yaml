@@ -17,7 +17,7 @@ rotation_applied: 270
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1787028954.7923622
     top:
     - scientific: Gymnothorax vicinus
@@ -38,7 +38,7 @@ species_suggestions:
     - scientific: Gymnothorax miliaris
       confidence: 0.0686
 species:
-- scientific: Gymnothorax vicinus
+- scientific: Myrichthys breviceps
   role: primary
-  confidence: 0.1234
-  identified_by: bioclip
+  confidence: 0.2411
+  identified_by: bioclip-2

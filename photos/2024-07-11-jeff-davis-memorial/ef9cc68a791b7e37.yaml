@@ -16,7 +16,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1786159585.0997195
     top:
     - scientific: Bothus lunatus
@@ -37,7 +37,7 @@ species_suggestions:
     - scientific: Chelonia mydas
       confidence: 0.132
 species:
-- scientific: Bothus lunatus
+- scientific: Eretmochelys imbricata
   role: primary
-  confidence: 0.4536
-  identified_by: bioclip
+  confidence: 0.5396
+  identified_by: bioclip-2

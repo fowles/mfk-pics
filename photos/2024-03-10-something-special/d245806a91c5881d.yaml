@@ -13,7 +13,7 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1786159054.429222
     top:
     - scientific: Aulostomus maculatus
@@ -34,7 +34,7 @@ species_suggestions:
     - scientific: Lutjanus mahogoni
       confidence: 0.0508
 species:
-- scientific: Aulostomus maculatus
+- scientific: Microspathodon chrysurus
   role: primary
-  confidence: 0.1887
-  identified_by: bioclip
+  confidence: 0.1242
+  identified_by: bioclip-2

@@ -16,7 +16,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1786157493.0112584
     top:
     - scientific: Mulloidichthys martinicus
@@ -37,7 +37,7 @@ species_suggestions:
     - scientific: Bodianus rufus
       confidence: 0.1216
 species:
-- scientific: Mulloidichthys martinicus
+- scientific: Ocyurus chrysurus
   role: primary
-  confidence: 0.3874
+  confidence: 0.3914
   identified_by: bioclip+bioclip-2

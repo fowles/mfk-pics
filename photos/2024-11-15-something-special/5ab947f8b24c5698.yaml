@@ -16,7 +16,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1786157213.6098416
     top:
     - scientific: Pempheris schomburgkii
@@ -39,8 +39,4 @@ species_suggestions:
     absorbed_by:
       scientific: Bartholomea annulata
       confidence: 0.6272
-species:
-- scientific: Pempheris schomburgkii
-  role: primary
-  confidence: 0.4846
-  identified_by: bioclip
+species: []

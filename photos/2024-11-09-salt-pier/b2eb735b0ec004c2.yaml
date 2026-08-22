@@ -9,7 +9,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1786156575.2843282
     top:
     - scientific: Homo sapiens
@@ -30,7 +30,7 @@ species_suggestions:
     - scientific: Caranx ruber
       confidence: 0.0569
 species:
-- scientific: Homo sapiens
+- scientific: Echeneis naucrates
   role: primary
-  confidence: 0.2346
-  identified_by: bioclip
+  confidence: 0.1972
+  identified_by: bioclip-2

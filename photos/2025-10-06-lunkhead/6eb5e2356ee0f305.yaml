@@ -13,7 +13,7 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1786159789.5133903
     top:
     - scientific: Canthidermis sufflamen
@@ -34,7 +34,7 @@ species_suggestions:
     - scientific: Thalassoma bifasciatum
       confidence: 0.0673
 species:
-- scientific: Canthidermis sufflamen
+- scientific: Sepioteuthis sepioidea
   role: primary
-  confidence: 0.2208
-  identified_by: bioclip
+  confidence: 0.1055
+  identified_by: bioclip+bioclip-2

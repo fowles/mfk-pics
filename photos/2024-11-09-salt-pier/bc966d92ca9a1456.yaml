@@ -16,7 +16,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1786156585.6310334
     top:
     - scientific: Lactophrys triqueter
@@ -39,6 +39,6 @@ species_suggestions:
 species:
 - scientific: Lactophrys triqueter
   role: primary
-  confidence: 0.821
+  confidence: 0.991
   identified_by: bioclip+bioclip-2
 rotation_reviewed: true

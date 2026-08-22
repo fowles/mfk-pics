@@ -9,7 +9,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1786158234.9491508
     top:
     - scientific: Sepioteuthis sepioidea
@@ -30,7 +30,7 @@ species_suggestions:
     - scientific: Galeocerdo cuvier
       confidence: 0.0592
 species:
-- scientific: Sepioteuthis sepioidea
+- scientific: Heteroconger longissimus
   role: primary
-  confidence: 0.1837
-  identified_by: bioclip
+  confidence: 0.0668
+  identified_by: bioclip-2

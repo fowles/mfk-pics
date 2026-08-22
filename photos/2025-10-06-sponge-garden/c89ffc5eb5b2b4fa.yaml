@@ -13,7 +13,7 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1786159780.148208
     top:
     - scientific: Lutjanus griseus
@@ -34,7 +34,7 @@ species_suggestions:
     - scientific: Echeneis naucrates
       confidence: 0.1345
 species:
-- scientific: Lutjanus griseus
+- scientific: Caretta caretta
   role: primary
-  confidence: 0.225
-  identified_by: bioclip
+  confidence: 0.212
+  identified_by: bioclip-2

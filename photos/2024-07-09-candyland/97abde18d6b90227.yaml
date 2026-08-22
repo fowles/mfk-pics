@@ -13,7 +13,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1786159172.047696
     top:
     - scientific: Gymnothorax funebris
@@ -34,7 +34,7 @@ species_suggestions:
     - scientific: Bodianus rufus
       confidence: 0.1009
 species:
-- scientific: Gymnothorax funebris
+- scientific: Aulostomus maculatus
   role: primary
-  confidence: 0.4636
-  identified_by: bioclip
+  confidence: 0.1636
+  identified_by: bioclip-2

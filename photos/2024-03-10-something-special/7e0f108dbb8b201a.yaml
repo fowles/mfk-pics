@@ -14,7 +14,7 @@ rotation_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1786159060.2939627
     top:
     - scientific: Abudefduf saxatilis
@@ -37,5 +37,5 @@ species_suggestions:
 species:
 - scientific: Abudefduf saxatilis
   role: primary
-  confidence: 0.9919
+  confidence: 0.9847
   identified_by: bioclip+bioclip-2

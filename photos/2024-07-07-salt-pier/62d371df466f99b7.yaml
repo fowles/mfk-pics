@@ -13,7 +13,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1786159955.6323981
     top:
     - scientific: Heteroconger longissimus
@@ -34,7 +34,7 @@ species_suggestions:
     - scientific: Carcharhinus perezi
       confidence: 0.1201
 species:
-- scientific: Heteroconger longissimus
+- scientific: Caranx ruber
   role: primary
-  confidence: 0.3223
-  identified_by: bioclip
+  confidence: 0.421
+  identified_by: bioclip-2

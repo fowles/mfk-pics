@@ -16,7 +16,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1786156980.419937
     top:
     - scientific: Astrophyton muricatum
@@ -39,3 +39,8 @@ species_suggestions:
       confidence: 0.0399
     - scientific: Octopus briareus
       confidence: 0.0313
+species:
+- scientific: Cyphoma gibbosum
+  role: primary
+  confidence: 0.5465
+  identified_by: bioclip-2

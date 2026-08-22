@@ -16,7 +16,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1786158189.2710383
     top:
     - scientific: Xyrichtys martinicensis
@@ -37,7 +37,7 @@ species_suggestions:
     - scientific: Echidna catenata
       confidence: 0.1102
 species:
-- scientific: Xyrichtys martinicensis
+- scientific: Myrichthys breviceps
   role: primary
-  confidence: 0.2041
-  identified_by: bioclip
+  confidence: 0.278
+  identified_by: bioclip-2

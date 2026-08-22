@@ -16,7 +16,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1786156586.2015944
     top:
     - scientific: Haemulon macrostomum
@@ -37,7 +37,7 @@ species_suggestions:
     - scientific: Haemulon macrostomum
       confidence: 0.037
 species:
-- scientific: Haemulon macrostomum
+- scientific: Cantherhines pullus
   role: primary
-  confidence: 0.5125
+  confidence: 0.7171
   identified_by: bioclip+bioclip-2

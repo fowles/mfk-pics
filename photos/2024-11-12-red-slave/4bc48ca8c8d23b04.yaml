@@ -22,12 +22,12 @@ species:
   - Matthew Kulukundis
 - scientific: Sepioteuthis sepioidea
   role: primary
-  confidence: 0.326
+  confidence: 0.652
   identified_by: bioclip-2
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1786156804.943392
     top:
     - scientific: Canthidermis sufflamen

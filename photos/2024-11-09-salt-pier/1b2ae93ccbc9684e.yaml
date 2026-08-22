@@ -16,7 +16,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1786156578.4979672
     top:
     - scientific: Aurelia aurita
@@ -39,8 +39,4 @@ species_suggestions:
     absorbed_by:
       scientific: Xestospongia muta
       confidence: 0.3023
-species:
-- scientific: Aurelia aurita
-  role: primary
-  confidence: 0.4771
-  identified_by: bioclip
+species: []

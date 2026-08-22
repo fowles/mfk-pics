@@ -14,7 +14,7 @@ rotation_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1786157880.0993962
     top:
     - scientific: Pareques acuminatus
@@ -35,7 +35,7 @@ species_suggestions:
     - scientific: Pomacanthus arcuatus
       confidence: 0.0387
 species:
-- scientific: Pareques acuminatus
+- scientific: Cephalopholis cruentata
   role: primary
-  confidence: 0.1037
-  identified_by: bioclip
+  confidence: 0.1497
+  identified_by: bioclip-2

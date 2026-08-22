@@ -9,7 +9,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1786156895.9919426
     top:
     - scientific: Balistes vetula
@@ -30,7 +30,7 @@ species_suggestions:
     - scientific: Chaetodon capistratus
       confidence: 0.1333
 species:
-- scientific: Balistes vetula
+- scientific: Bodianus pulchellus
   role: primary
-  confidence: 0.1998
-  identified_by: bioclip
+  confidence: 0.2544
+  identified_by: bioclip-2

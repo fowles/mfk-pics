@@ -13,7 +13,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1786158967.0424013
     top:
     - scientific: Sphyraena barracuda
@@ -34,7 +34,7 @@ species_suggestions:
     - scientific: Caranx ruber
       confidence: 0.0688
 species:
-- scientific: Sphyraena barracuda
+- scientific: Scarus vetula
   role: primary
-  confidence: 0.1431
-  identified_by: bioclip
+  confidence: 0.1976
+  identified_by: bioclip-2

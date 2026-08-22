@@ -13,7 +13,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1786157878.8157535
     top:
     - scientific: Gymnothorax miliaris
@@ -36,5 +36,5 @@ species_suggestions:
 species:
 - scientific: Enchelycore carychroa
   role: primary
-  confidence: 0.3286
+  confidence: 0.5982
   identified_by: bioclip+bioclip-2

@@ -16,14 +16,14 @@ species:
   identified_by: human
   person:
   - Matthew Kulukundis
-- scientific: Sepioteuthis sepioidea
+- scientific: Caranx ruber
   role: primary
-  confidence: 0.3062
-  identified_by: bioclip+bioclip-2
+  confidence: 0.1423
+  identified_by: bioclip-2
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1786156805.0537412
     top:
     - scientific: Sepioteuthis sepioidea

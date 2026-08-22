@@ -17,7 +17,7 @@ rotation_applied: 90
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1787028929.756452
     top:
     - scientific: Scarus vetula
@@ -40,5 +40,5 @@ species_suggestions:
 species:
 - scientific: Scarus vetula
   role: primary
-  confidence: 0.9789
+  confidence: 0.9815
   identified_by: bioclip+bioclip-2

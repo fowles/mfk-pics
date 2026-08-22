@@ -14,7 +14,7 @@ rotation_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1786157580.8226793
     top:
     - scientific: Chromis multilineata
@@ -37,8 +37,4 @@ species_suggestions:
     absorbed_by:
       scientific: Briareum asbestinum
       confidence: 0.2897
-species:
-- scientific: Chromis multilineata
-  role: primary
-  confidence: 0.2171
-  identified_by: bioclip
+species: []

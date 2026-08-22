@@ -13,7 +13,7 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1786159050.9908342
     top:
     - scientific: Sparisoma viride
@@ -34,7 +34,7 @@ species_suggestions:
     - scientific: Acanthurus chirurgus
       confidence: 0.05
 species:
-- scientific: Sparisoma viride
+- scientific: Acanthostracion polygonius
   role: primary
-  confidence: 0.1804
-  identified_by: bioclip+bioclip-2
+  confidence: 0.1628
+  identified_by: bioclip-2

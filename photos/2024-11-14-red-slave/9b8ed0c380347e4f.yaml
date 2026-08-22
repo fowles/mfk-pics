@@ -16,7 +16,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1786156982.9985042
     top:
     - scientific: Ginglymostoma cirratum
@@ -37,7 +37,7 @@ species_suggestions:
     - scientific: Aetobatus narinari
       confidence: 0.1093
 species:
-- scientific: Ginglymostoma cirratum
+- scientific: Carcharhinus perezi
   role: primary
-  confidence: 0.1719
-  identified_by: bioclip
+  confidence: 0.2116
+  identified_by: bioclip-2

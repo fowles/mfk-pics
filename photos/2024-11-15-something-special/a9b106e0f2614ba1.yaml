@@ -16,7 +16,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1786157214.8683121
     top:
     - scientific: Hypoplectrus indigo
@@ -39,3 +39,8 @@ species_suggestions:
       confidence: 0.0783
     - scientific: Holocentrus adscensionis
       confidence: 0.042
+species:
+- scientific: Bodianus rufus
+  role: primary
+  confidence: 0.1557
+  identified_by: bioclip-2

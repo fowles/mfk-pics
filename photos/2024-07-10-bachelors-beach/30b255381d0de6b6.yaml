@@ -17,7 +17,7 @@ rotation_applied: 270
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1787028974.2192643
     top:
     - scientific: Acanthostracion polygonius
@@ -40,5 +40,5 @@ species_suggestions:
 species:
 - scientific: Serranus tigrinus
   role: primary
-  confidence: 0.3282
+  confidence: 0.6565
   identified_by: bioclip-2

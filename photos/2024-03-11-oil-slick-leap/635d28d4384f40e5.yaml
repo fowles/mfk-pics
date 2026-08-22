@@ -13,7 +13,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1786158967.4721935
     top:
     - scientific: Hypoplectrus nigricans
@@ -36,3 +36,8 @@ species_suggestions:
       confidence: 0.0499
     - scientific: Holocentrus adscensionis
       confidence: 0.0371
+species:
+- scientific: Haemulon aurolineatum
+  role: primary
+  confidence: 0.0651
+  identified_by: bioclip-2

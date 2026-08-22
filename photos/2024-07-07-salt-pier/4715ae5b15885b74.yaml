@@ -16,7 +16,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1786159970.5738194
     top:
     - scientific: Sphoeroides spengleri
@@ -39,8 +39,4 @@ species_suggestions:
     absorbed_by:
       scientific: Briareum asbestinum
       confidence: 0.1856
-species:
-- scientific: Sphoeroides spengleri
-  role: primary
-  confidence: 0.4205
-  identified_by: bioclip
+species: []

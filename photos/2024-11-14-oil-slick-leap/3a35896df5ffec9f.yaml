@@ -9,7 +9,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1786156896.1608386
     top:
     - scientific: Ginglymostoma cirratum
@@ -30,7 +30,7 @@ species_suggestions:
     - scientific: Thalassoma bifasciatum
       confidence: 0.0481
 species:
-- scientific: Ginglymostoma cirratum
+- scientific: Scarus guacamaia
   role: primary
-  confidence: 0.134
-  identified_by: bioclip
+  confidence: 0.0866
+  identified_by: bioclip-2

@@ -16,7 +16,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1786156901.1050107
     top:
     - scientific: Gymnothorax miliaris
@@ -37,7 +37,7 @@ species_suggestions:
     - scientific: Ginglymostoma cirratum
       confidence: 0.0812
 species:
-- scientific: Gymnothorax miliaris
+- scientific: Malacanthus plumieri
   role: primary
-  confidence: 0.1933
-  identified_by: bioclip
+  confidence: 0.1622
+  identified_by: bioclip-2

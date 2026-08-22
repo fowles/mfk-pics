@@ -16,7 +16,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1786159977.3664463
     top:
     - scientific: Myrichthys breviceps
@@ -39,8 +39,4 @@ species_suggestions:
     absorbed_by:
       scientific: Acropora cervicornis
       confidence: 0.1754
-species:
-- scientific: Myrichthys breviceps
-  role: primary
-  confidence: 0.2063
-  identified_by: bioclip
+species: []

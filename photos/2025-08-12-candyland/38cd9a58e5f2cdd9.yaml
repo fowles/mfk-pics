@@ -14,7 +14,7 @@ rotation_applied: 90
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1787178290.930067
     top:
     - scientific: Gymnothorax funebris
@@ -37,5 +37,5 @@ species_suggestions:
 species:
 - scientific: Gymnothorax funebris
   role: primary
-  confidence: 0.9771
+  confidence: 0.976
   identified_by: bioclip+bioclip-2

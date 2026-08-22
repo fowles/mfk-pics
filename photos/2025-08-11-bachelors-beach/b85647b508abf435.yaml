@@ -16,7 +16,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1786157881.6765246
     top:
     - scientific: Ginglymostoma cirratum
@@ -37,7 +37,7 @@ species_suggestions:
     - scientific: Rypticus saponaceus
       confidence: 0.099
 species:
-- scientific: Ginglymostoma cirratum
+- scientific: Mycteroperca bonaci
   role: primary
-  confidence: 0.4261
-  identified_by: bioclip
+  confidence: 0.683
+  identified_by: bioclip-2

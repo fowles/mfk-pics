@@ -14,7 +14,7 @@ rotation_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1786156324.6535113
     top:
     - scientific: Aurelia aurita
@@ -37,3 +37,8 @@ species_suggestions:
       confidence: 0.0944
     - scientific: Caranx ruber
       confidence: 0.0881
+species:
+- scientific: Selar crumenophthalmus
+  role: primary
+  confidence: 0.1386
+  identified_by: bioclip-2

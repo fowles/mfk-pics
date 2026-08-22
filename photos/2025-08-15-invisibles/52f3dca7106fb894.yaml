@@ -13,7 +13,7 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1786071955.234357
     top:
     - scientific: Chaetodon sedentarius
@@ -34,7 +34,7 @@ species_suggestions:
     - scientific: Halichoeres pictus
       confidence: 0.0283
 species:
-- scientific: Chaetodon sedentarius
+- scientific: Thalassoma bifasciatum
   role: primary
-  confidence: 0.4089
-  identified_by: bioclip
+  confidence: 0.7542
+  identified_by: bioclip+bioclip-2

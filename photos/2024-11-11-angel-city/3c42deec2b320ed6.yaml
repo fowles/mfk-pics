@@ -16,7 +16,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1786156744.7416294
     top:
     - scientific: Aulostomus maculatus
@@ -37,7 +37,7 @@ species_suggestions:
     - scientific: Chromis cyanea
       confidence: 0.0498
 species:
-- scientific: Aulostomus maculatus
+- scientific: Sphyraena barracuda
   role: primary
-  confidence: 0.3397
-  identified_by: bioclip
+  confidence: 0.1849
+  identified_by: bioclip+bioclip-2

@@ -16,7 +16,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1786159586.0152776
     top:
     - scientific: Chelonia mydas
@@ -37,7 +37,7 @@ species_suggestions:
     - scientific: Chelonia mydas
       confidence: 0.0782
 species:
-- scientific: Chelonia mydas
+- scientific: Eretmochelys imbricata
   role: primary
-  confidence: 0.4951
+  confidence: 0.8162
   identified_by: bioclip+bioclip-2

@@ -35,5 +35,14 @@ species_suggestions:
 species:
 - scientific: Chaetodipterus faber
   role: primary
-  confidence: 0.9969
-  identified_by: bioclip+bioclip-2
+  identified_by: human
+  confirmed_from: bioclip+bioclip-2
+  reviewed_by: matt
+  cover: true
+- scientific: Haemulon sciurus
+  role: secondary
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

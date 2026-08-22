@@ -16,7 +16,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1786157055.6685271
     top:
     - scientific: Aulostomus maculatus
@@ -39,5 +39,5 @@ species_suggestions:
 species:
 - scientific: Scomberomorus regalis
   role: primary
-  confidence: 0.391
+  confidence: 0.7819
   identified_by: bioclip-2

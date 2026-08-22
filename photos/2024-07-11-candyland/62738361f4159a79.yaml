@@ -13,7 +13,7 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1786159269.3510764
     top:
     - scientific: Caretta caretta
@@ -34,7 +34,7 @@ species_suggestions:
     - scientific: Eretmochelys imbricata
       confidence: 0.0632
 species:
-- scientific: Homo sapiens
+- scientific: Aliger gigas
   role: primary
-  confidence: 0.125
-  identified_by: bioclip+bioclip-2
+  confidence: 0.191
+  identified_by: bioclip-2

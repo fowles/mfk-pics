@@ -13,7 +13,7 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1786156689.4543605
     top:
     - scientific: Holocentrus adscensionis
@@ -34,7 +34,7 @@ species_suggestions:
     - scientific: Diodon holocanthus
       confidence: 0.1086
 species:
-- scientific: Holocentrus adscensionis
+- scientific: Canthidermis sufflamen
   role: primary
-  confidence: 0.4419
-  identified_by: bioclip
+  confidence: 0.2779
+  identified_by: bioclip-2

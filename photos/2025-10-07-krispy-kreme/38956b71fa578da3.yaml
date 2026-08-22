@@ -12,7 +12,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1786159798.4176574
     top:
     - scientific: Sargocentron coruscum
@@ -33,7 +33,7 @@ species_suggestions:
     - scientific: Monacanthus tuckeri
       confidence: 0.0618
 species:
-- scientific: Sargocentron coruscum
+- scientific: Serranus tigrinus
   role: primary
-  confidence: 0.4059
-  identified_by: bioclip
+  confidence: 0.2001
+  identified_by: bioclip+bioclip-2

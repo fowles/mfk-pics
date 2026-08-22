@@ -13,7 +13,7 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1786158485.610371
     top:
     - scientific: Scarus taeniopterus
@@ -36,5 +36,5 @@ species_suggestions:
 species:
 - scientific: Scarus iseri
   role: primary
-  confidence: 0.3826
+  confidence: 0.7651
   identified_by: bioclip-2

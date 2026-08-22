@@ -17,7 +17,7 @@ rotation_applied: 90
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1787029041.0502942
     top:
     - scientific: Pareques acuminatus
@@ -40,3 +40,8 @@ species_suggestions:
       confidence: 0.0907
     - scientific: Chaetodon ocellatus
       confidence: 0.0588
+species:
+- scientific: Chaetodon capistratus
+  role: primary
+  confidence: 0.1985
+  identified_by: bioclip-2

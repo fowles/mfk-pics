@@ -13,7 +13,7 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1786071953.6620696
     top:
     - scientific: Gymnothorax funebris
@@ -34,7 +34,7 @@ species_suggestions:
     - scientific: Enchelycore carychroa
       confidence: 0.0231
 species:
-- scientific: Gymnothorax funebris
+- scientific: Octopus insularis
   role: primary
-  confidence: 0.2761
-  identified_by: bioclip
+  confidence: 0.5473
+  identified_by: bioclip-2

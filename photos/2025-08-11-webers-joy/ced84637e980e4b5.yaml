@@ -16,7 +16,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1786071915.9386625
     top:
     - scientific: Diadema antillarum
@@ -37,7 +37,7 @@ species_suggestions:
     - scientific: Diadema antillarum
       confidence: 0.0006
 species:
-- scientific: Diadema antillarum
+- scientific: Pterois volitans
   role: primary
-  confidence: 0.4989
+  confidence: 0.9956
   identified_by: bioclip+bioclip-2

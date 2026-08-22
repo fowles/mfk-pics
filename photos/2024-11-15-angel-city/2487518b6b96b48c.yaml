@@ -9,7 +9,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1786157052.9941514
     top:
     - scientific: Gymnothorax miliaris
@@ -30,7 +30,7 @@ species_suggestions:
     - scientific: Aliger gigas
       confidence: 0.087
 species:
-- scientific: Gymnothorax miliaris
+- scientific: Chelonia mydas
   role: primary
-  confidence: 0.2202
-  identified_by: bioclip
+  confidence: 0.1622
+  identified_by: bioclip-2

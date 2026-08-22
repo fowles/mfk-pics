@@ -13,7 +13,7 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1786157487.6149492
     top:
     - scientific: Kyphosus sectatrix
@@ -34,7 +34,7 @@ species_suggestions:
     - scientific: Anisotremus surinamensis
       confidence: 0.0892
 species:
-- scientific: Kyphosus sectatrix
+- scientific: Scarus coelestinus
   role: primary
-  confidence: 0.3594
-  identified_by: bioclip
+  confidence: 0.4207
+  identified_by: bioclip-2

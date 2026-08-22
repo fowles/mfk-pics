@@ -13,7 +13,7 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1786158487.1493003
     top:
     - scientific: Stenorhynchus seticornis
@@ -36,8 +36,4 @@ species_suggestions:
     absorbed_by:
       scientific: Antillogorgia americana
       confidence: 0.1626
-species:
-- scientific: Stenorhynchus seticornis
-  role: primary
-  confidence: 0.1804
-  identified_by: bioclip
+species: []

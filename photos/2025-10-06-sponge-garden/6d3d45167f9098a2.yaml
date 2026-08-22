@@ -13,7 +13,7 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1786159779.6683128
     top:
     - scientific: Tursiops truncatus
@@ -34,7 +34,7 @@ species_suggestions:
     - scientific: Diodon holocanthus
       confidence: 0.0667
 species:
-- scientific: Tursiops truncatus
+- scientific: Eretmochelys imbricata
   role: primary
-  confidence: 0.3825
-  identified_by: bioclip
+  confidence: 0.2776
+  identified_by: bioclip-2

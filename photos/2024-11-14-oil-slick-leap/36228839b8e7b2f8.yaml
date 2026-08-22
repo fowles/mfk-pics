@@ -16,7 +16,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1786156899.3409297
     top:
     - scientific: Ocyurus chrysurus
@@ -37,7 +37,7 @@ species_suggestions:
     - scientific: Hypoplectrus chlorurus
       confidence: 0.123
 species:
-- scientific: Ocyurus chrysurus
+- scientific: Bodianus rufus
   role: primary
-  confidence: 0.152
-  identified_by: bioclip
+  confidence: 0.2014
+  identified_by: bioclip-2

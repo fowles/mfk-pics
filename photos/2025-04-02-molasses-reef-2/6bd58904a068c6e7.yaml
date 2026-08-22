@@ -16,7 +16,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1786157280.0816717
     top:
     - scientific: Selar crumenophthalmus
@@ -39,5 +39,5 @@ species_suggestions:
 species:
 - scientific: Mulloidichthys martinicus
   role: primary
-  confidence: 0.3744
+  confidence: 0.571
   identified_by: bioclip+bioclip-2

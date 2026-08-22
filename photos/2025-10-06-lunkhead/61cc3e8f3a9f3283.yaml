@@ -13,7 +13,7 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1786159792.1387365
     top:
     - scientific: Aulostomus maculatus
@@ -36,8 +36,4 @@ species_suggestions:
     absorbed_by:
       scientific: Callyspongia plicifera
       confidence: 0.1773
-species:
-- scientific: Aulostomus maculatus
-  role: primary
-  confidence: 0.1707
-  identified_by: bioclip
+species: []

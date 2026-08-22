@@ -13,7 +13,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1786159065.099573
     top:
     - scientific: Elacatinus genie
@@ -34,7 +34,7 @@ species_suggestions:
     - scientific: Rypticus saponaceus
       confidence: 0.0157
 species:
-- scientific: Elacatinus genie
+- scientific: Holacanthus tricolor
   role: primary
-  confidence: 0.1471
-  identified_by: bioclip
+  confidence: 0.1531
+  identified_by: bioclip-2

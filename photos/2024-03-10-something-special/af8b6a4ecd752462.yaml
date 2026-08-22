@@ -13,7 +13,7 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1786159055.8821645
     top:
     - scientific: Canthidermis sufflamen
@@ -34,7 +34,7 @@ species_suggestions:
     - scientific: Lutjanus mahogoni
       confidence: 0.1178
 species:
-- scientific: Canthidermis sufflamen
+- scientific: Caranx ruber
   role: primary
-  confidence: 0.108
-  identified_by: bioclip
+  confidence: 0.2112
+  identified_by: bioclip-2

@@ -12,7 +12,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1786159799.5844002
     top:
     - scientific: Abudefduf saxatilis
@@ -35,8 +35,4 @@ species_suggestions:
     absorbed_by:
       scientific: Dendrogyra cylindrus
       confidence: 0.8122
-species:
-- scientific: Abudefduf saxatilis
-  role: primary
-  confidence: 0.4301
-  identified_by: bioclip+bioclip-2
+species: []

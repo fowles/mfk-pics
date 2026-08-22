@@ -13,7 +13,7 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1786156327.2597349
     top:
     - scientific: Equetus punctatus
@@ -36,5 +36,5 @@ species_suggestions:
 species:
 - scientific: Equetus punctatus
   role: primary
-  confidence: 0.8264
+  confidence: 0.6577
   identified_by: bioclip+bioclip-2

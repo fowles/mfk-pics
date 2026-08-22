@@ -12,7 +12,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1786159798.0945635
     top:
     - scientific: Cyphoma gibbosum
@@ -33,7 +33,7 @@ species_suggestions:
     - scientific: Caranx ruber
       confidence: 0.0496
 species:
-- scientific: Cyphoma gibbosum
+- scientific: Echeneis naucrates
   role: primary
-  confidence: 0.2212
-  identified_by: bioclip
+  confidence: 0.1525
+  identified_by: bioclip-2

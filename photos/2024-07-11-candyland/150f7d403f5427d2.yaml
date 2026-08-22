@@ -13,7 +13,7 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1786159271.6068833
     top:
     - scientific: Melichthys niger
@@ -34,7 +34,7 @@ species_suggestions:
     - scientific: Scarus vetula
       confidence: 0.0974
 species:
-- scientific: Melichthys niger
+- scientific: Kyphosus sectatrix
   role: primary
-  confidence: 0.3174
-  identified_by: bioclip
+  confidence: 0.2509
+  identified_by: bioclip+bioclip-2

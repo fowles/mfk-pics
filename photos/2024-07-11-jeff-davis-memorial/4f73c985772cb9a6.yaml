@@ -14,7 +14,7 @@ rotation_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1786159556.6851676
     top:
     - scientific: Hypoplectrus indigo
@@ -35,7 +35,7 @@ species_suggestions:
     - scientific: Mycteroperca tigris
       confidence: 0.0455
 species:
-- scientific: Hypoplectrus indigo
+- scientific: Abudefduf saxatilis
   role: primary
-  confidence: 0.2882
-  identified_by: bioclip
+  confidence: 0.3394
+  identified_by: bioclip-2

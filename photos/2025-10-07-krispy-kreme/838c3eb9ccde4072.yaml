@@ -12,7 +12,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1786159796.4936361
     top:
     - scientific: Thalassoma bifasciatum
@@ -33,7 +33,7 @@ species_suggestions:
     - scientific: Thalassoma bifasciatum
       confidence: 0.0479
 species:
-- scientific: Thalassoma bifasciatum
+- scientific: Serranus tigrinus
   role: primary
-  confidence: 0.1592
-  identified_by: bioclip+bioclip-2
+  confidence: 0.13
+  identified_by: bioclip-2

@@ -9,7 +9,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1786158234.8091474
     top:
     - scientific: Scarus iseri
@@ -30,7 +30,7 @@ species_suggestions:
     - scientific: Panulirus argus
       confidence: 0.0562
 species:
-- scientific: Scarus iseri
+- scientific: Sepioteuthis sepioidea
   role: primary
-  confidence: 0.2097
-  identified_by: bioclip
+  confidence: 0.139
+  identified_by: bioclip+bioclip-2

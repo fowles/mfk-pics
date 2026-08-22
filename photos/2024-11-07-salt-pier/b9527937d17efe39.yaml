@@ -16,7 +16,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1786156359.5092847
     top:
     - scientific: Lactophrys triqueter
@@ -37,7 +37,7 @@ species_suggestions:
     - scientific: Holacanthus tricolor
       confidence: 0.0497
 species:
-- scientific: Lactophrys triqueter
+- scientific: Petrochirus diogenes
   role: primary
-  confidence: 0.4507
-  identified_by: bioclip+bioclip-2
+  confidence: 0.0916
+  identified_by: bioclip-2

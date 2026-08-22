@@ -16,7 +16,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1786156367.7584488
     top:
     - scientific: Thalassoma bifasciatum
@@ -37,7 +37,7 @@ species_suggestions:
     - scientific: Lactophrys triqueter
       confidence: 0.0431
 species:
-- scientific: Thalassoma bifasciatum
+- scientific: Serranus tigrinus
   role: primary
-  confidence: 0.2995
-  identified_by: bioclip
+  confidence: 0.075
+  identified_by: bioclip-2

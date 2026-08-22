@@ -14,7 +14,7 @@ rotation_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1786156324.7076647
     top:
     - scientific: Sphyraena barracuda
@@ -37,8 +37,4 @@ species_suggestions:
     absorbed_by:
       scientific: Millepora alcicornis
       confidence: 0.0849
-species:
-- scientific: Sphyraena barracuda
-  role: primary
-  confidence: 0.1192
-  identified_by: bioclip
+species: []

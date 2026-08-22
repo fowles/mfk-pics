@@ -13,7 +13,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1786156896.4554791
     top:
     - scientific: Cassiopea xamachana
@@ -34,7 +34,7 @@ species_suggestions:
     - scientific: Sphyrna mokarran
       confidence: 0.0587
 species:
-- scientific: Cassiopea xamachana
+- scientific: Aurelia aurita
   role: primary
-  confidence: 0.198
-  identified_by: bioclip
+  confidence: 0.1997
+  identified_by: bioclip-2

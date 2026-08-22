@@ -13,7 +13,7 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1786156897.398728
     top:
     - scientific: Sphoeroides spengleri
@@ -36,8 +36,4 @@ species_suggestions:
     absorbed_by:
       scientific: Lebrunia neglecta
       confidence: 0.1859
-species:
-- scientific: Sphoeroides spengleri
-  role: primary
-  confidence: 0.2116
-  identified_by: bioclip
+species: []

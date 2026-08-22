@@ -13,7 +13,7 @@ rotation_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1786159793.878169
     top:
     - scientific: Gerres cinereus
@@ -34,7 +34,7 @@ species_suggestions:
     - scientific: Neoniphon marianus
       confidence: 0.0281
 species:
-- scientific: Gerres cinereus
+- scientific: Holocentrus adscensionis
   role: primary
-  confidence: 0.4956
-  identified_by: bioclip
+  confidence: 0.5958
+  identified_by: bioclip-2

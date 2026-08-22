@@ -13,7 +13,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1786158968.2038317
     top:
     - scientific: Aulostomus maculatus
@@ -34,7 +34,7 @@ species_suggestions:
     - scientific: Aulostomus maculatus
       confidence: 0.0599
 species:
-- scientific: Aulostomus maculatus
+- scientific: Sepioteuthis sepioidea
   role: primary
-  confidence: 0.1759
-  identified_by: bioclip+bioclip-2
+  confidence: 0.3189
+  identified_by: bioclip-2

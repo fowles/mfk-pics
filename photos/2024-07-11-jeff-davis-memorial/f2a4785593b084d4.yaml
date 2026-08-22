@@ -13,7 +13,7 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1786159556.57257
     top:
     - scientific: Aulostomus maculatus
@@ -36,3 +36,8 @@ species_suggestions:
       confidence: 0.1769
     - scientific: Holacanthus tricolor
       confidence: 0.1021
+species:
+- scientific: Centropyge argi
+  role: primary
+  confidence: 0.2755
+  identified_by: bioclip-2

@@ -16,7 +16,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1786157492.6343884
     top:
     - scientific: Aliger gigas
@@ -37,7 +37,7 @@ species_suggestions:
     - scientific: Panulirus argus
       confidence: 0.0023
 species:
-- scientific: Aliger gigas
+- scientific: Petrochirus diogenes
   role: primary
-  confidence: 0.499
-  identified_by: bioclip
+  confidence: 0.9932
+  identified_by: bioclip+bioclip-2

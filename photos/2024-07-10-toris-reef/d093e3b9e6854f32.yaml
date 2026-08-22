@@ -16,7 +16,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T14:59:00Z'
     src_mtime: 1786160194.6770144
     top:
     - scientific: Elacatinus evelynae
@@ -39,8 +39,4 @@ species_suggestions:
     absorbed_by:
       scientific: Orbicella annularis
       confidence: 0.1115
-species:
-- scientific: Elacatinus evelynae
-  role: primary
-  confidence: 0.1381
-  identified_by: bioclip
+species: []
