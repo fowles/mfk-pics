@@ -1,0 +1,14 @@
+date: '2023-04-06 10:18:28'
+location: Cabo Pulmo, Baja California Sur, Mexico
+location_source: dive_site
+dive_site: Los Morros
+credit: Matthew Kulukundis
+import_album: 2023-04-06, Mexico, Baja California Sur, Cabo Pulmo, Los Morros
+import_original_name: 638163731081481250.jpg
+lat: 23.4627
+lon: -109.405
+gps_source: dive_site
+variants:
+- method: dive-plus
+  file: 6300ae50574e53a4.dive-plus.webp
+  import_original_name: 2dd9ba609d0fbeda.webp

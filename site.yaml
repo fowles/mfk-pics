@@ -1,9 +1,9 @@
 # SPDX-License-Identifier: MIT
-title: "Where the Wild Matt Dives"
-author: "Matthew Kulukundis"
-photo_dir: "photos"
-output_dir: "output"
-site_url: "https://mfk.pics"
+title: Where the Wild Matt Dives
+author: Matthew Kulukundis
+photo_dir: photos
+output_dir: output
+site_url: https://mfk.pics
 species:
   publish: true
   publish_min_confidence: 0.8
@@ -11,6 +11,9 @@ photographers:
   Google Pixel 8 Pro: Matthew Kulukundis
   '838056001033': Delia Kulukundis
   Google Pixel 8: Delia Kulukundis
+  Google Pixel 7 Pro: Matthew Kulukundis
+  NIKON CORPORATION NIKON 1 AW1: Keith Saddler
+  Canon PowerShot G1 X: Keith Saddler
 dive_sites:
   Weber's Joy:
     lat: 12.2065506
@@ -81,9 +84,39 @@ dive_sites:
   'Wreck #2':
     lat: 25.7183
     lon: -79.3154
+  Big Drop:
+    lat: 7.1014
+    lon: 134.2497
+  German Channel:
+    lat: 7.1276
+    lon: 134.2857
+  Turtle Cove:
+    lat: 7.0867
+    lon: 134.2596
+  Blue Corner:
+    lat: 7.1343
+    lon: 134.2213
+  Blue Holes:
+    lat: 7.1372
+    lon: 134.2226
+  New Drop:
+    lat: 7.106
+    lon: 134.2395
+  Ulong Channel:
+    lat: 7.2834
+    lon: 134.2447
+  Playa el Chileno:
+    lat: 22.94523
+    lon: -109.80243
+  Mala Wharf:
+    lat: 20.88461
+    lon: -156.68646
+  Los Morros:
+    lat: 23.4627
+    lon: -109.405
 deploy:
-  account_id: "605649affbab92b2f8367d609dc4f3b6"
-  bucket: "mfk-pics-images"
+  account_id: 605649affbab92b2f8367d609dc4f3b6
+  bucket: mfk-pics-images
 trips:
 - name: Juliet Live Aboard · October 2025
   start: '2025-10-05'

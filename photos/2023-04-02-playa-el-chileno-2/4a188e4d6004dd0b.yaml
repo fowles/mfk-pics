@@ -1,0 +1,16 @@
+date: '2023-04-02 09:33:52'
+location: Los Cabos, Baja California Sur, Mexico
+location_source: dive_site
+dive_site: Playa el Chileno
+credit: Matthew Kulukundis
+import_album: 2023-04-02, Mexico, Baja California Sur, Los Cabos, Playa el Chileno
+import_original_name: IMG_638160248321160030.jpg
+lat: 22.94523
+lon: -109.80243
+gps_source: dive_site
+variants:
+- method: dive-plus
+  file: 4a188e4d6004dd0b.dive-plus.webp
+  import_original_name: 83636bc11416d121.webp
+date_reviewed: true
+correction_standalone: true
