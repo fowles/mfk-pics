@@ -3,7 +3,7 @@
 # aliases fold other common names to the entry (verbatim, never fuzzy);
 # regions: biogeographic provinces (Caribbean | Indo-Pacific | Eastern Pacific | Mediterranean);
 # identify offers an entry only on dives in a listed province; untagged = every dive.
-- {scientific: "Pterois volitans", common: "Red Lionfish", aliases: ["Lionfish"], regions: ["Caribbean"]}
+- {scientific: "Pterois volitans", common: "Red Lionfish", aliases: ["Lionfish"], regions: ["Caribbean", "Indo-Pacific"]}
 - {scientific: "Sparisoma viride", common: "Stoplight Parrotfish", regions: ["Caribbean"]}
 - {scientific: "Scarus vetula", common: "Queen Parrotfish", regions: ["Caribbean"]}
 - {scientific: "Scarus taeniopterus", common: "Princess Parrotfish", regions: ["Caribbean"]}
@@ -26,9 +26,9 @@
 - {scientific: "Acanthurus chirurgus", common: "Doctorfish", regions: ["Caribbean"]}
 - {scientific: "Acanthurus tractus", common: "Ocean Surgeonfish", regions: ["Caribbean"]}
 - {scientific: "Balistes vetula", common: "Queen Triggerfish", regions: ["Caribbean"]}
-- {scientific: "Melichthys niger", common: "Black Durgon", regions: ["Caribbean"]}
+- {scientific: "Melichthys niger", common: "Black Durgon", regions: ["Caribbean", "Eastern Pacific", "Indo-Pacific"]}
 - {scientific: "Canthidermis sufflamen", common: "Ocean Triggerfish", regions: ["Caribbean"]}
-- {scientific: "Aluterus scriptus", common: "Scrawled Filefish", regions: ["Caribbean"]}
+- {scientific: "Aluterus scriptus", common: "Scrawled Filefish", regions: ["Caribbean", "Eastern Pacific", "Indo-Pacific"]}
 - {scientific: "Cantherhines pullus", common: "Orangespotted Filefish", regions: ["Caribbean"]}
 - {scientific: "Cantherhines macrocerus", common: "Whitespotted Filefish", regions: ["Caribbean"]}
 - {scientific: "Monacanthus tuckeri", common: "Slender Filefish", regions: ["Caribbean"]}
@@ -36,8 +36,8 @@
 - {scientific: "Acanthostracion polygonius", common: "Honeycomb Cowfish", regions: ["Caribbean"]}
 - {scientific: "Acanthostracion quadricornis", common: "Scrawled Cowfish", regions: ["Caribbean"]}
 - {scientific: "Lactophrys bicaudalis", common: "Spotted Trunkfish", regions: ["Caribbean"]}
-- {scientific: "Diodon hystrix", common: "Porcupinefish", regions: ["Caribbean"]}
-- {scientific: "Diodon holocanthus", common: "Balloonfish", regions: ["Caribbean"]}
+- {scientific: "Diodon hystrix", common: "Porcupinefish", regions: ["Caribbean", "Eastern Pacific", "Indo-Pacific"]}
+- {scientific: "Diodon holocanthus", common: "Balloonfish", regions: ["Caribbean", "Eastern Pacific", "Indo-Pacific"]}
 - {scientific: "Canthigaster rostrata", common: "Sharpnose Puffer", regions: ["Caribbean"]}
 - {scientific: "Sphoeroides spengleri", common: "Bandtail Puffer", regions: ["Caribbean"]}
 - {scientific: "Chilomycterus antillarum", common: "Web Burrfish", regions: ["Caribbean"]}
@@ -99,13 +99,13 @@
 - {scientific: "Acanthemblemaria maria", common: "Secretary Blenny", regions: ["Caribbean"]}
 - {scientific: "Emblemaria pandionis", common: "Sailfin Blenny", regions: ["Caribbean"]}
 - {scientific: "Opistognathus aurifrons", common: "Yellowhead Jawfish", regions: ["Caribbean"]}
-- {scientific: "Sphyraena barracuda", common: "Great Barracuda", aliases: ["Barracuda"], regions: ["Caribbean"]}
+- {scientific: "Sphyraena barracuda", common: "Great Barracuda", aliases: ["Barracuda"], regions: ["Caribbean", "Indo-Pacific"]}
 - {scientific: "Caranx ruber", common: "Bar Jack", regions: ["Caribbean"]}
 - {scientific: "Caranx latus", common: "Horse-eye Jack", regions: ["Caribbean"]}
 - {scientific: "Caranx crysos", common: "Blue Runner", regions: ["Caribbean"]}
 - {scientific: "Trachinotus falcatus", common: "Permit", regions: ["Caribbean"]}
 - {scientific: "Trachinotus goodei", common: "Palometa", regions: ["Caribbean"]}
-- {scientific: "Selar crumenophthalmus", common: "Bigeye Scad", regions: ["Caribbean"]}
+- {scientific: "Selar crumenophthalmus", common: "Bigeye Scad", regions: ["Caribbean", "Eastern Pacific", "Indo-Pacific"]}
 - {scientific: "Aulostomus maculatus", common: "Trumpetfish", regions: ["Caribbean"]}
 - {scientific: "Fistularia tabacaria", common: "Bluespotted Cornetfish", regions: ["Caribbean"]}
 - {scientific: "Kyphosus sectatrix", common: "Bermuda Chub", regions: ["Caribbean"]}
@@ -117,7 +117,7 @@
 - {scientific: "Neoniphon marianus", common: "Longjaw Squirrelfish", regions: ["Caribbean"]}
 - {scientific: "Pempheris schomburgkii", common: "Glassy Sweeper", regions: ["Caribbean"]}
 - {scientific: "Apogon maculatus", common: "Flamefish", regions: ["Caribbean"]}
-- {scientific: "Heteropriacanthus cruentatus", common: "Glasseye Snapper", regions: ["Caribbean"]}
+- {scientific: "Heteropriacanthus cruentatus", common: "Glasseye Snapper", regions: ["Caribbean", "Eastern Pacific", "Indo-Pacific"]}
 - {scientific: "Pseudupeneus maculatus", common: "Spotted Goatfish", regions: ["Caribbean"]}
 - {scientific: "Mulloidichthys martinicus", common: "Yellow Goatfish", regions: ["Caribbean"]}
 - {scientific: "Equetus punctatus", common: "Spotted Drum", regions: ["Caribbean"]}
@@ -141,28 +141,28 @@
 - {scientific: "Heteroconger longissimus", common: "Brown Garden Eel", regions: ["Caribbean"]}
 - {scientific: "Ginglymostoma cirratum", common: "Nurse Shark", regions: ["Caribbean"]}
 - {scientific: "Carcharhinus perezi", common: "Caribbean Reef Shark", regions: ["Caribbean"]}
-- {scientific: "Sphyrna mokarran", common: "Great Hammerhead", regions: ["Caribbean"]}
-- {scientific: "Negaprion brevirostris", common: "Lemon Shark", regions: ["Caribbean"]}
-- {scientific: "Galeocerdo cuvier", common: "Tiger Shark", regions: ["Caribbean"]}
+- {scientific: "Sphyrna mokarran", common: "Great Hammerhead", regions: ["Caribbean", "Eastern Pacific", "Indo-Pacific"]}
+- {scientific: "Negaprion brevirostris", common: "Lemon Shark", regions: ["Caribbean", "Eastern Pacific"]}
+- {scientific: "Galeocerdo cuvier", common: "Tiger Shark", regions: ["Caribbean", "Eastern Pacific", "Indo-Pacific"]}
 - {scientific: "Hypanus americanus", common: "Southern Stingray", regions: ["Caribbean"]}
 - {scientific: "Urobatis jamaicensis", common: "Yellow Stingray", regions: ["Caribbean"]}
 - {scientific: "Aetobatus narinari", common: "Spotted Eagle Ray", regions: ["Caribbean"]}
-- {scientific: "Chelonia mydas", common: "Green Sea Turtle", aliases: ["Green Turtle"], regions: ["Caribbean"]}
-- {scientific: "Eretmochelys imbricata", common: "Hawksbill Sea Turtle", aliases: ["Hawksbill Turtle"], regions: ["Caribbean"]}
-- {scientific: "Caretta caretta", common: "Loggerhead Sea Turtle", aliases: ["Loggerhead Turtle"], regions: ["Caribbean"]}
-- {scientific: "Tursiops truncatus", common: "Bottlenose Dolphin", regions: ["Caribbean"]}
+- {scientific: "Chelonia mydas", common: "Green Sea Turtle", aliases: ["Green Turtle"], regions: ["Caribbean", "Eastern Pacific", "Indo-Pacific"]}
+- {scientific: "Eretmochelys imbricata", common: "Hawksbill Sea Turtle", aliases: ["Hawksbill Turtle"], regions: ["Caribbean", "Eastern Pacific", "Indo-Pacific"]}
+- {scientific: "Caretta caretta", common: "Loggerhead Sea Turtle", aliases: ["Loggerhead Turtle"], regions: ["Caribbean", "Eastern Pacific", "Indo-Pacific"]}
+- {scientific: "Tursiops truncatus", common: "Bottlenose Dolphin", regions: ["Caribbean", "Eastern Pacific", "Indo-Pacific"]}
 - {scientific: "Octopus briareus", common: "Caribbean Reef Octopus", regions: ["Caribbean"]}
 - {scientific: "Octopus insularis", common: "Caribbean Common Octopus", aliases: ["Common Octopus", "Octopus vulgaris"], regions: ["Caribbean"]}
 - {scientific: "Sepioteuthis sepioidea", common: "Caribbean Reef Squid", regions: ["Caribbean"]}
 - {scientific: "Panulirus argus", common: "Caribbean Spiny Lobster", aliases: ["Spiny Lobster"], regions: ["Caribbean"]}
 - {scientific: "Panulirus guttatus", common: "Spotted Spiny Lobster", regions: ["Caribbean"]}
-- {scientific: "Stenopus hispidus", common: "Banded Coral Shrimp", regions: ["Caribbean"]}
+- {scientific: "Stenopus hispidus", common: "Banded Coral Shrimp", regions: ["Caribbean", "Eastern Pacific", "Indo-Pacific"]}
 - {scientific: "Periclimenes yucatanicus", common: "Spotted Cleaner Shrimp", regions: ["Caribbean"]}
 - {scientific: "Ancylomenes pedersoni", common: "Pederson Cleaner Shrimp", regions: ["Caribbean"]}
 - {scientific: "Lysmata wurdemanni", common: "Peppermint Shrimp", regions: ["Caribbean"]}
 - {scientific: "Mithrax spinosissimus", common: "Channel Clinging Crab", regions: ["Caribbean"]}
 - {scientific: "Stenorhynchus seticornis", common: "Yellowline Arrow Crab", aliases: ["Arrow Crab"], regions: ["Caribbean"]}
-- {scientific: "Percnon gibbesi", common: "Nimble Spray Crab", regions: ["Caribbean"]}
+- {scientific: "Percnon gibbesi", common: "Nimble Spray Crab", regions: ["Caribbean", "Eastern Pacific"]}
 - {scientific: "Paguristes cadenati", common: "Red Reef Hermit Crab", regions: ["Caribbean"]}
 - {scientific: "Diadema antillarum", common: "Long-spined Sea Urchin", regions: ["Caribbean"]}
 - {scientific: "Oreaster reticulatus", common: "Cushion Sea Star", regions: ["Caribbean"]}
@@ -173,10 +173,10 @@
 - {scientific: "Elysia crispata", common: "Lettuce Sea Slug", regions: ["Caribbean"]}
 - {scientific: "Cyphoma gibbosum", common: "Flamingo Tongue", regions: ["Caribbean"]}
 - {scientific: "Cassiopea xamachana", common: "Upside-down Jellyfish", regions: ["Caribbean"]}
-- {scientific: "Aurelia aurita", common: "Moon Jellyfish", regions: ["Caribbean"]}
+- {scientific: "Aurelia aurita", common: "Moon Jellyfish", regions: ["Caribbean", "Eastern Pacific", "Indo-Pacific"]}
 - {scientific: "Megalops atlanticus", common: "Tarpon", regions: ["Caribbean"]}
 - {scientific: "Chaetodipterus faber", common: "Atlantic Spadefish", regions: ["Caribbean"]}
-- {scientific: "Echeneis naucrates", common: "Sharksucker", aliases: ["Remora"], regions: ["Caribbean"]}
+- {scientific: "Echeneis naucrates", common: "Sharksucker", aliases: ["Remora"], regions: ["Caribbean", "Eastern Pacific", "Indo-Pacific"]}
 - {scientific: "Malacanthus plumieri", common: "Sand Tilefish", regions: ["Caribbean"]}
 - {scientific: "Serranus tortugarum", common: "Chalk Bass", regions: ["Caribbean"]}
 - {scientific: "Rypticus saponaceus", common: "Greater Soapfish", regions: ["Caribbean"]}
@@ -200,7 +200,7 @@
 - {scientific: "Lutjanus synagris", common: "Lane Snapper", regions: ["Caribbean"]}
 - {scientific: "Atherinomorus stipes", common: "Hardhead Silverside", regions: ["Caribbean"]}
 - {scientific: "Jenkinsia lamprotaenia", common: "Dwarf Herring", regions: ["Caribbean"]}
-- {scientific: "Antennarius striatus", common: "Striated Frogfish", regions: ["Caribbean"]}
+- {scientific: "Antennarius striatus", common: "Striated Frogfish", regions: ["Caribbean", "Eastern Pacific", "Indo-Pacific"]}
 - {scientific: "Ogcocephalus radiatus", common: "Polka-dot Batfish", regions: ["Caribbean"]}
 - {scientific: "Sparisoma atomarium", common: "Greenblotch Parrotfish", regions: ["Caribbean"]}
 - {scientific: "Priacanthus arenatus", common: "Bigeye", regions: ["Caribbean"]}
@@ -254,7 +254,7 @@
 - {scientific: "Madracis auretenra", common: "Yellow Pencil Coral", regions: ["Caribbean"], distractor: true}
 - {scientific: "Meandrina meandrites", common: "Maze Coral", regions: ["Caribbean"], distractor: true}
 - {scientific: "Stephanocoenia intersepta", common: "Blushing Star Coral", regions: ["Caribbean"], distractor: true}
-- {scientific: "Tubastraea coccinea", common: "Orange Cup Coral", regions: ["Caribbean"], distractor: true}
+- {scientific: "Tubastraea coccinea", common: "Orange Cup Coral", regions: ["Caribbean", "Eastern Pacific", "Indo-Pacific"], distractor: true}
 - {scientific: "Millepora complanata", common: "Blade Fire Coral", regions: ["Caribbean"], distractor: true}
 - {scientific: "Millepora alcicornis", common: "Branching Fire Coral", regions: ["Caribbean"], distractor: true}
 - {scientific: "Gorgonia ventalina", common: "Common Sea Fan", regions: ["Caribbean"], distractor: true}
@@ -270,10 +270,1618 @@
 - {scientific: "Spirobranchus giganteus", common: "Christmas Tree Worm", regions: ["Caribbean"], distractor: true}
 - {scientific: "Clavelina picta", common: "Painted Tunicate", regions: ["Caribbean"], distractor: true}
 - {scientific: "Thalassia testudinum", common: "Turtle Grass", regions: ["Caribbean"], distractor: true}
-- {scientific: "Halimeda opuntia", common: "Watercress Alga", regions: ["Caribbean"], distractor: true}
-- {scientific: Chrysiptera parasema, common: Yellowtail Blue Damsel}
+- {scientific: "Halimeda opuntia", common: "Watercress Alga", regions: ["Caribbean", "Eastern Pacific", "Indo-Pacific"], distractor: true}
+- {scientific: "Chrysiptera parasema", common: "Yellowtail Blue Damsel", regions: ["Indo-Pacific"]}
 - {scientific: Canthigaster jamestyleri, common: Goldface Toby, regions: [Caribbean]}
 - {scientific: Sparisoma amplum, common: Reef Parrotfish, regions: [Caribbean]}
 - {scientific: Epinephelus adscensionis, common: Rock Hind, regions: [Caribbean]}
 - {scientific: Osachila antillensis, common: Box Crab, regions: [Caribbean]}
 - {scientific: Haemulon album, common: White Margate, regions: [Caribbean]}
+
+# --- Eastern Pacific (Sea of Cortez: Cabo Pulmo, Los Cabos, La Paz) ---------
+# Seeded 2026-08-22 from the regional reef-fish and invertebrate faunas; the
+# Panamic province shares a handful of circumtropical taxa with the Caribbean
+# (tagged on the entries above) and more with the Indo-Pacific (tagged on both).
+- {scientific: "Holacanthus passer", common: "King Angelfish", regions: ["Eastern Pacific"]}
+- {scientific: "Pomacanthus zonipectus", common: "Cortez Angelfish", regions: ["Eastern Pacific"]}
+- {scientific: "Holacanthus clarionensis", common: "Clarion Angelfish", regions: ["Eastern Pacific"]}
+- {scientific: "Chaetodon humeralis", common: "Threebanded Butterflyfish", regions: ["Eastern Pacific"]}
+- {scientific: "Johnrandallia nigrirostris", common: "Barberfish", aliases: ["Blacknosed Butterflyfish"], regions: ["Eastern Pacific"]}
+- {scientific: "Forcipiger flavissimus", common: "Longnose Butterflyfish", regions: ["Eastern Pacific", "Indo-Pacific"]}
+- {scientific: "Prionurus punctatus", common: "Yellowtail Surgeonfish", regions: ["Eastern Pacific"]}
+- {scientific: "Acanthurus xanthopterus", common: "Yellowfin Surgeonfish", regions: ["Eastern Pacific", "Indo-Pacific"]}
+- {scientific: "Acanthurus triostegus", common: "Convict Surgeonfish", aliases: ["Convict Tang"], regions: ["Eastern Pacific", "Indo-Pacific"]}
+- {scientific: "Acanthurus nigricans", common: "Whitecheek Surgeonfish", aliases: ["Goldrim Surgeonfish"], regions: ["Eastern Pacific", "Indo-Pacific"]}
+- {scientific: "Zanclus cornutus", common: "Moorish Idol", regions: ["Eastern Pacific", "Indo-Pacific"]}
+- {scientific: "Scarus ghobban", common: "Bluebarred Parrotfish", aliases: ["Blue-barred Parrotfish"], regions: ["Eastern Pacific", "Indo-Pacific"]}
+- {scientific: "Scarus perrico", common: "Pacific Bumphead Parrotfish", regions: ["Eastern Pacific"]}
+- {scientific: "Scarus compressus", common: "Azure Parrotfish", regions: ["Eastern Pacific"]}
+- {scientific: "Scarus rubroviolaceus", common: "Ember Parrotfish", aliases: ["Redlip Parrotfish"], regions: ["Eastern Pacific", "Indo-Pacific"]}
+- {scientific: "Nicholsina denticulata", common: "Loosetooth Parrotfish", regions: ["Eastern Pacific"]}
+- {scientific: "Thalassoma lucasanum", common: "Cortez Rainbow Wrasse", regions: ["Eastern Pacific"]}
+- {scientific: "Thalassoma grammaticum", common: "Sunset Wrasse", regions: ["Eastern Pacific"]}
+- {scientific: "Halichoeres dispilus", common: "Chameleon Wrasse", regions: ["Eastern Pacific"]}
+- {scientific: "Halichoeres nicholsi", common: "Spinster Wrasse", regions: ["Eastern Pacific"]}
+- {scientific: "Halichoeres chierchiae", common: "Wounded Wrasse", regions: ["Eastern Pacific"]}
+- {scientific: "Halichoeres notospilus", common: "Banded Wrasse", regions: ["Eastern Pacific"]}
+- {scientific: "Halichoeres semicinctus", common: "Rock Wrasse", regions: ["Eastern Pacific"]}
+- {scientific: "Bodianus diplotaenia", common: "Mexican Hogfish", regions: ["Eastern Pacific"]}
+- {scientific: "Bodianus pulcher", common: "California Sheephead", aliases: ["Semicossyphus pulcher"], regions: ["Eastern Pacific"]}
+- {scientific: "Novaculichthys taeniourus", common: "Rockmover Wrasse", aliases: ["Dragon Wrasse"], regions: ["Eastern Pacific", "Indo-Pacific"]}
+- {scientific: "Iniistius pavo", common: "Peacock Razorfish", aliases: ["Blue Razorfish"], regions: ["Eastern Pacific", "Indo-Pacific"]}
+- {scientific: "Stethojulis bandanensis", common: "Bluelined Wrasse", aliases: ["Red-shoulder Wrasse"], regions: ["Eastern Pacific", "Indo-Pacific"]}
+- {scientific: "Abudefduf troschelii", common: "Panamic Sergeant Major", regions: ["Eastern Pacific"]}
+- {scientific: "Abudefduf concolor", common: "Dusky Sergeant", regions: ["Eastern Pacific"]}
+- {scientific: "Stegastes rectifraenum", common: "Cortez Damselfish", regions: ["Eastern Pacific"]}
+- {scientific: "Stegastes flavilatus", common: "Beaubrummel", regions: ["Eastern Pacific"]}
+- {scientific: "Stegastes acapulcoensis", common: "Acapulco Damselfish", regions: ["Eastern Pacific"]}
+- {scientific: "Microspathodon dorsalis", common: "Giant Damselfish", regions: ["Eastern Pacific"]}
+- {scientific: "Microspathodon bairdii", common: "Bumphead Damselfish", regions: ["Eastern Pacific"]}
+- {scientific: "Chromis atrilobata", common: "Scissortail Damselfish", aliases: ["Azurina atrilobata"], regions: ["Eastern Pacific"]}
+- {scientific: "Chromis limbaughi", common: "Limbaugh's Damselfish", aliases: ["Blue-and-yellow Chromis"], regions: ["Eastern Pacific"]}
+- {scientific: "Mycteroperca rosacea", common: "Leopard Grouper", regions: ["Eastern Pacific"]}
+- {scientific: "Mycteroperca jordani", common: "Gulf Grouper", regions: ["Eastern Pacific"]}
+- {scientific: "Mycteroperca prionura", common: "Sawtail Grouper", regions: ["Eastern Pacific"]}
+- {scientific: "Mycteroperca xenarcha", common: "Broomtail Grouper", regions: ["Eastern Pacific"]}
+- {scientific: "Epinephelus labriformis", common: "Starry Grouper", aliases: ["Flag Cabrilla"], regions: ["Eastern Pacific"]}
+- {scientific: "Epinephelus analogus", common: "Spotted Cabrilla", regions: ["Eastern Pacific"]}
+- {scientific: "Cephalopholis panamensis", common: "Panamic Graysby", aliases: ["Pacific Graysby"], regions: ["Eastern Pacific"]}
+- {scientific: "Dermatolepis dermatolepis", common: "Leather Bass", regions: ["Eastern Pacific"]}
+- {scientific: "Alphestes immaculatus", common: "Pacific Mutton Hamlet", regions: ["Eastern Pacific"]}
+- {scientific: "Paralabrax maculatofasciatus", common: "Spotted Sand Bass", regions: ["Eastern Pacific"]}
+- {scientific: "Paranthias colonus", common: "Pacific Creolefish", aliases: ["Cephalopholis colonus"], regions: ["Eastern Pacific"]}
+- {scientific: "Serranus psittacinus", common: "Barred Serrano", regions: ["Eastern Pacific"]}
+- {scientific: "Lutjanus argentiventris", common: "Yellow Snapper", aliases: ["Amarillo Snapper"], regions: ["Eastern Pacific"]}
+- {scientific: "Lutjanus novemfasciatus", common: "Pacific Dog Snapper", regions: ["Eastern Pacific"]}
+- {scientific: "Lutjanus guttatus", common: "Spotted Rose Snapper", regions: ["Eastern Pacific"]}
+- {scientific: "Lutjanus viridis", common: "Blue-and-gold Snapper", regions: ["Eastern Pacific"]}
+- {scientific: "Lutjanus colorado", common: "Colorado Snapper", regions: ["Eastern Pacific"]}
+- {scientific: "Lutjanus peru", common: "Pacific Red Snapper", regions: ["Eastern Pacific"]}
+- {scientific: "Hoplopagrus guentherii", common: "Mexican Barred Snapper", regions: ["Eastern Pacific"]}
+- {scientific: "Haemulon sexfasciatum", common: "Graybar Grunt", regions: ["Eastern Pacific"]}
+- {scientific: "Haemulon flaviguttatum", common: "Cortez Grunt", regions: ["Eastern Pacific"]}
+- {scientific: "Haemulon maculicauda", common: "Spottail Grunt", regions: ["Eastern Pacific"]}
+- {scientific: "Haemulon steindachneri", common: "Latin Grunt", regions: ["Eastern Pacific"]}
+- {scientific: "Haemulon scudderii", common: "Grey Grunt", regions: ["Eastern Pacific"]}
+- {scientific: "Anisotremus interruptus", common: "Burrito Grunt", regions: ["Eastern Pacific"]}
+- {scientific: "Anisotremus davidsonii", common: "Sargo", regions: ["Eastern Pacific"]}
+- {scientific: "Anisotremus taeniatus", common: "Panamic Porkfish", regions: ["Eastern Pacific"]}
+- {scientific: "Microlepidotus inornatus", common: "Wavyline Grunt", regions: ["Eastern Pacific"]}
+- {scientific: "Orthopristis reddingi", common: "Bronzestriped Grunt", regions: ["Eastern Pacific"]}
+- {scientific: "Xenichthys xanti", common: "Salema", regions: ["Eastern Pacific"]}
+- {scientific: "Calamus brachysomus", common: "Pacific Porgy", regions: ["Eastern Pacific"]}
+- {scientific: "Kyphosus elegans", common: "Cortez Chub", regions: ["Eastern Pacific"]}
+- {scientific: "Kyphosus vaigiensis", common: "Brassy Chub", aliases: ["Lowfin Chub"], regions: ["Eastern Pacific", "Indo-Pacific"]}
+- {scientific: "Girella simplicidens", common: "Gulf Opaleye", regions: ["Eastern Pacific"]}
+- {scientific: "Kyphosus azureus", common: "Zebra-perch", aliases: ["Hermosilla azurea"], regions: ["Eastern Pacific"]}
+- {scientific: "Caranx sexfasciatus", common: "Bigeye Trevally", aliases: ["Bigeye Jack"], regions: ["Eastern Pacific", "Indo-Pacific"]}
+- {scientific: "Caranx caninus", common: "Pacific Crevalle Jack", regions: ["Eastern Pacific"]}
+- {scientific: "Caranx melampygus", common: "Bluefin Trevally", regions: ["Eastern Pacific", "Indo-Pacific"]}
+- {scientific: "Caranx lugubris", common: "Black Jack", regions: ["Eastern Pacific", "Indo-Pacific"]}
+- {scientific: "Seriola rivoliana", common: "Almaco Jack", regions: ["Caribbean", "Eastern Pacific", "Indo-Pacific"]}
+- {scientific: "Seriola lalandi", common: "California Yellowtail", aliases: ["Yellowtail Amberjack", "Seriola lalandi", "Seriola dorsalis"], regions: ["Eastern Pacific"]}
+- {scientific: "Trachinotus rhodopus", common: "Gafftopsail Pompano", regions: ["Eastern Pacific"]}
+- {scientific: "Gnathanodon speciosus", common: "Golden Trevally", regions: ["Eastern Pacific", "Indo-Pacific"]}
+- {scientific: "Elagatis bipinnulata", common: "Rainbow Runner", regions: ["Caribbean", "Eastern Pacific", "Indo-Pacific"]}
+- {scientific: "Sphyraena ensis", common: "Mexican Barracuda", regions: ["Eastern Pacific"]}
+- {scientific: "Scomberomorus sierra", common: "Pacific Sierra", regions: ["Eastern Pacific"]}
+- {scientific: "Euthynnus lineatus", common: "Black Skipjack", regions: ["Eastern Pacific"]}
+- {scientific: "Balistes polylepis", common: "Finescale Triggerfish", regions: ["Eastern Pacific"]}
+- {scientific: "Pseudobalistes naufragium", common: "Blunthead Triggerfish", regions: ["Eastern Pacific"]}
+- {scientific: "Sufflamen verres", common: "Orangeside Triggerfish", regions: ["Eastern Pacific"]}
+- {scientific: "Canthidermis maculata", common: "Rough Triggerfish", aliases: ["Spotted Oceanic Triggerfish"], regions: ["Eastern Pacific", "Indo-Pacific"]}
+- {scientific: "Xanthichthys mento", common: "Redtail Triggerfish", aliases: ["Crosshatch Triggerfish"], regions: ["Eastern Pacific", "Indo-Pacific"]}
+- {scientific: "Cantherhines dumerilii", common: "Barred Filefish", aliases: ["Whitespotted Pacific Filefish"], regions: ["Eastern Pacific", "Indo-Pacific"]}
+- {scientific: "Ostracion meleagris", common: "Spotted Boxfish", aliases: ["Pacific Boxfish"], regions: ["Eastern Pacific", "Indo-Pacific"]}
+- {scientific: "Arothron meleagris", common: "Guineafowl Puffer", aliases: ["Golden Puffer"], regions: ["Eastern Pacific", "Indo-Pacific"]}
+- {scientific: "Arothron hispidus", common: "White-spotted Puffer", aliases: ["Stars-and-stripes Puffer"], regions: ["Eastern Pacific", "Indo-Pacific"]}
+- {scientific: "Canthigaster punctatissima", common: "Spotted Sharpnose Puffer", regions: ["Eastern Pacific"]}
+- {scientific: "Sphoeroides annulatus", common: "Bullseye Puffer", regions: ["Eastern Pacific"]}
+- {scientific: "Sphoeroides lobatus", common: "Longnose Puffer", regions: ["Eastern Pacific"]}
+- {scientific: "Chilomycterus reticulatus", common: "Spotfin Burrfish", regions: ["Eastern Pacific", "Indo-Pacific"]}
+- {scientific: "Gymnothorax castaneus", common: "Panamic Green Moray", regions: ["Eastern Pacific"]}
+- {scientific: "Gymnothorax dovii", common: "Finespotted Moray", regions: ["Eastern Pacific"]}
+- {scientific: "Gymnothorax panamensis", common: "Masked Moray", regions: ["Eastern Pacific"]}
+- {scientific: "Muraena lentiginosa", common: "Jewel Moray", regions: ["Eastern Pacific"]}
+- {scientific: "Muraena argus", common: "Argus Moray", regions: ["Eastern Pacific"]}
+- {scientific: "Echidna nocturna", common: "Palenose Moray", regions: ["Eastern Pacific"]}
+- {scientific: "Echidna nebulosa", common: "Starry Moray", aliases: ["Snowflake Moray"], regions: ["Eastern Pacific", "Indo-Pacific"]}
+- {scientific: "Gymnomuraena zebra", common: "Zebra Moray", regions: ["Eastern Pacific", "Indo-Pacific"]}
+- {scientific: "Enchelycore octaviana", common: "Slenderjaw Moray", regions: ["Eastern Pacific"]}
+- {scientific: "Myrichthys tigrinus", common: "Tiger Snake Eel", regions: ["Eastern Pacific"]}
+- {scientific: "Ophichthus triserialis", common: "Pacific Snake Eel", regions: ["Eastern Pacific"]}
+- {scientific: "Heteroconger digueti", common: "Cortez Garden Eel", regions: ["Eastern Pacific"]}
+- {scientific: "Heteroconger canabus", common: "Cape Garden Eel", regions: ["Eastern Pacific"]}
+- {scientific: "Aulostomus chinensis", common: "Pacific Trumpetfish", regions: ["Eastern Pacific", "Indo-Pacific"]}
+- {scientific: "Fistularia commersonii", common: "Reef Cornetfish", aliases: ["Bluespotted Pacific Cornetfish"], regions: ["Eastern Pacific", "Indo-Pacific"]}
+- {scientific: "Cirrhitichthys oxycephalus", common: "Coral Hawkfish", aliases: ["Pixy Hawkfish"], regions: ["Eastern Pacific", "Indo-Pacific"]}
+- {scientific: "Cirrhitus rivulatus", common: "Giant Hawkfish", regions: ["Eastern Pacific"]}
+- {scientific: "Oxycirrhites typus", common: "Longnose Hawkfish", regions: ["Eastern Pacific", "Indo-Pacific"]}
+- {scientific: "Myripristis leiognathus", common: "Panamic Soldierfish", regions: ["Eastern Pacific"]}
+- {scientific: "Sargocentron suborbitale", common: "Tinsel Squirrelfish", regions: ["Eastern Pacific"]}
+- {scientific: "Apogon pacificus", common: "Pink Cardinalfish", regions: ["Eastern Pacific"]}
+- {scientific: "Apogon retrosella", common: "Barspot Cardinalfish", regions: ["Eastern Pacific"]}
+- {scientific: "Pseudupeneus grandisquamis", common: "Bigscale Goatfish", regions: ["Eastern Pacific"]}
+- {scientific: "Mulloidichthys dentatus", common: "Mexican Goatfish", regions: ["Eastern Pacific"]}
+- {scientific: "Scorpaena mystes", common: "Stone Scorpionfish", aliases: ["Pacific Spotted Scorpionfish"], regions: ["Eastern Pacific"]}
+- {scientific: "Scorpaenodes xyris", common: "Rainbow Scorpionfish", regions: ["Eastern Pacific"]}
+- {scientific: "Bothus leopardinus", common: "Pacific Leopard Flounder", regions: ["Eastern Pacific"]}
+- {scientific: "Bothus mancus", common: "Flowery Flounder", regions: ["Eastern Pacific", "Indo-Pacific"]}
+- {scientific: "Synodus lacertinus", common: "Sauro Lizardfish", aliases: ["Calico Lizardfish"], regions: ["Eastern Pacific"]}
+- {scientific: "Opistognathus punctatus", common: "Finespotted Jawfish", regions: ["Eastern Pacific"]}
+- {scientific: "Opistognathus rosenblatti", common: "Bluespotted Jawfish", regions: ["Eastern Pacific"]}
+- {scientific: "Malacoctenus hubbsi", common: "Redside Blenny", regions: ["Eastern Pacific"]}
+- {scientific: "Malacoctenus ebisui", common: "Fishgod Blenny", regions: ["Eastern Pacific"]}
+- {scientific: "Malacoctenus gigas", common: "Sonora Blenny", regions: ["Eastern Pacific"]}
+- {scientific: "Malacoctenus tetranemus", common: "Throatspotted Blenny", regions: ["Eastern Pacific"]}
+- {scientific: "Ophioblennius steindachneri", common: "Panamic Fanged Blenny", aliases: ["Large-banded Blenny"], regions: ["Eastern Pacific"]}
+- {scientific: "Acanthemblemaria crockeri", common: "Browncheek Blenny", regions: ["Eastern Pacific"]}
+- {scientific: "Acanthemblemaria macrospilus", common: "Barnacle Blenny", regions: ["Eastern Pacific"]}
+- {scientific: "Plagiotremus azaleus", common: "Sabertooth Blenny", regions: ["Eastern Pacific"]}
+- {scientific: "Emblemaria hypacanthus", common: "Signal Blenny", regions: ["Eastern Pacific"]}
+- {scientific: "Paraclinus asper", common: "Sargassum Blenny", aliases: ["Exerpes asper"], regions: ["Eastern Pacific"]}
+- {scientific: "Protemblemaria bicirrus", common: "Warthead Blenny", regions: ["Eastern Pacific"]}
+- {scientific: "Elacatinus puncticulatus", common: "Redhead Goby", regions: ["Eastern Pacific"]}
+- {scientific: "Tigrigobius digueti", common: "Banded Cleaner Goby", aliases: ["Elacatinus digueti"], regions: ["Eastern Pacific"]}
+- {scientific: "Lythrypnus dalli", common: "Bluebanded Goby", aliases: ["Catalina Goby"], regions: ["Eastern Pacific"]}
+- {scientific: "Lythrypnus pulchellus", common: "Gorgeous Goby", regions: ["Eastern Pacific"]}
+- {scientific: "Coryphopterus urospilus", common: "Redlight Goby", regions: ["Eastern Pacific"]}
+- {scientific: "Gobiosoma chiquita", common: "Sonora Goby", regions: ["Eastern Pacific"]}
+- {scientific: "Bathygobius ramosus", common: "Panamic Frillfin", regions: ["Eastern Pacific"]}
+- {scientific: "Antennarius commerson", common: "Giant Frogfish", aliases: ["Commerson's Frogfish"], regions: ["Eastern Pacific", "Indo-Pacific"]}
+- {scientific: "Antennatus sanguineus", common: "Sanguine Frogfish", aliases: ["Bloody Frogfish", "Abantennarius sanguineus"], regions: ["Eastern Pacific"]}
+- {scientific: "Antennatus strigatus", common: "Bandtail Frogfish", regions: ["Eastern Pacific"]}
+- {scientific: "Hippocampus ingens", common: "Pacific Seahorse", aliases: ["Giant Seahorse"], regions: ["Eastern Pacific"]}
+- {scientific: "Doryrhamphus excisus", common: "Bluestripe Pipefish", regions: ["Eastern Pacific", "Indo-Pacific"]}
+- {scientific: "Zapteryx exasperata", common: "Banded Guitarfish", regions: ["Eastern Pacific"]}
+- {scientific: "Pseudobatos productus", common: "Shovelnose Guitarfish", regions: ["Eastern Pacific"]}
+- {scientific: "Urobatis halleri", common: "Round Stingray", regions: ["Eastern Pacific"]}
+- {scientific: "Urobatis concentricus", common: "Bullseye Round Stingray", aliases: ["Spotted Round Ray"], regions: ["Eastern Pacific"]}
+- {scientific: "Urobatis maculatus", common: "Cortez Round Stingray", regions: ["Eastern Pacific"]}
+- {scientific: "Hypanus dipterurus", common: "Diamond Stingray", regions: ["Eastern Pacific"]}
+- {scientific: "Hypanus longus", common: "Longtail Stingray", regions: ["Eastern Pacific"]}
+- {scientific: "Taeniurops meyeni", common: "Blotched Fantail Ray", aliases: ["Round Ribbontail Ray", "Marbled Stingray"], regions: ["Eastern Pacific", "Indo-Pacific"]}
+- {scientific: "Aetobatus laticeps", common: "Pacific White-spotted Eagle Ray", regions: ["Eastern Pacific"]}
+- {scientific: "Rhinoptera steindachneri", common: "Pacific Cownose Ray", regions: ["Eastern Pacific"]}
+- {scientific: "Mobula birostris", common: "Giant Manta Ray", aliases: ["Oceanic Manta Ray", "Manta birostris"], regions: ["Caribbean", "Eastern Pacific", "Indo-Pacific"]}
+- {scientific: "Mobula munkiana", common: "Munk's Devil Ray", aliases: ["Munk's Pygmy Devil Ray"], regions: ["Eastern Pacific"]}
+- {scientific: "Mobula thurstoni", common: "Bentfin Devil Ray", regions: ["Eastern Pacific", "Indo-Pacific"]}
+- {scientific: "Mobula tarapacana", common: "Chilean Devil Ray", aliases: ["Sicklefin Devil Ray"], regions: ["Eastern Pacific", "Indo-Pacific"]}
+- {scientific: "Narcine entemedor", common: "Giant Electric Ray", regions: ["Eastern Pacific"]}
+- {scientific: "Triaenodon obesus", common: "Whitetip Reef Shark", regions: ["Eastern Pacific", "Indo-Pacific"]}
+- {scientific: "Carcharhinus limbatus", common: "Blacktip Shark", regions: ["Caribbean", "Eastern Pacific", "Indo-Pacific"]}
+- {scientific: "Carcharhinus galapagensis", common: "Galapagos Shark", regions: ["Eastern Pacific", "Indo-Pacific"]}
+- {scientific: "Carcharhinus leucas", common: "Bull Shark", regions: ["Caribbean", "Eastern Pacific", "Indo-Pacific"]}
+- {scientific: "Carcharhinus albimarginatus", common: "Silvertip Shark", regions: ["Eastern Pacific", "Indo-Pacific"]}
+- {scientific: "Carcharhinus falciformis", common: "Silky Shark", regions: ["Caribbean", "Eastern Pacific", "Indo-Pacific"]}
+- {scientific: "Sphyrna lewini", common: "Scalloped Hammerhead", regions: ["Caribbean", "Eastern Pacific", "Indo-Pacific"]}
+- {scientific: "Rhincodon typus", common: "Whale Shark", regions: ["Caribbean", "Eastern Pacific", "Indo-Pacific"]}
+- {scientific: "Heterodontus mexicanus", common: "Mexican Hornshark", regions: ["Eastern Pacific"]}
+- {scientific: "Heterodontus francisci", common: "Horn Shark", regions: ["Eastern Pacific"]}
+- {scientific: "Ginglymostoma unami", common: "Pacific Nurse Shark", regions: ["Eastern Pacific"]}
+- {scientific: "Zalophus californianus", common: "California Sea Lion", aliases: ["Sea Lion"], regions: ["Eastern Pacific"]}
+- {scientific: "Megaptera novaeangliae", common: "Humpback Whale", regions: ["Caribbean", "Eastern Pacific", "Indo-Pacific"]}
+- {scientific: "Orcinus orca", common: "Orca", aliases: ["Killer Whale"], regions: ["Eastern Pacific", "Indo-Pacific"]}
+- {scientific: "Delphinus delphis", common: "Common Dolphin", regions: ["Eastern Pacific"]}
+- {scientific: "Stenella attenuata", common: "Pantropical Spotted Dolphin", regions: ["Eastern Pacific", "Indo-Pacific"]}
+- {scientific: "Lepidochelys olivacea", common: "Olive Ridley Sea Turtle", aliases: ["Olive Ridley"], regions: ["Eastern Pacific", "Indo-Pacific"]}
+- {scientific: "Hydrophis platurus", common: "Yellow-bellied Sea Snake", aliases: ["Pelamis platura"], regions: ["Eastern Pacific", "Indo-Pacific"]}
+- {scientific: "Octopus hubbsorum", common: "Hubbs' Octopus", regions: ["Eastern Pacific"]}
+- {scientific: "Octopus bimaculatus", common: "California Two-spot Octopus", regions: ["Eastern Pacific"]}
+- {scientific: "Panulirus interruptus", common: "California Spiny Lobster", regions: ["Eastern Pacific"]}
+- {scientific: "Panulirus inflatus", common: "Blue Spiny Lobster", regions: ["Eastern Pacific"]}
+- {scientific: "Panulirus gracilis", common: "Green Spiny Lobster", regions: ["Eastern Pacific"]}
+- {scientific: "Lysmata californica", common: "Red Rock Shrimp", regions: ["Eastern Pacific"]}
+- {scientific: "Stenorhynchus debilis", common: "Panamic Arrow Crab", regions: ["Eastern Pacific"]}
+- {scientific: "Dardanus sinistripes", common: "Left-handed Hermit Crab", regions: ["Eastern Pacific"]}
+- {scientific: "Calcinus californiensis", common: "California Hermit Crab", regions: ["Eastern Pacific"]}
+- {scientific: "Grapsus grapsus", common: "Sally Lightfoot Crab", regions: ["Caribbean", "Eastern Pacific"]}
+- {scientific: "Diadema mexicanum", common: "Mexican Long-spined Urchin", regions: ["Eastern Pacific"]}
+- {scientific: "Eucidaris thouarsii", common: "Pacific Slate Pencil Urchin", regions: ["Eastern Pacific"]}
+- {scientific: "Toxopneustes roseus", common: "Rose Flower Urchin", regions: ["Eastern Pacific"]}
+- {scientific: "Centrostephanus coronatus", common: "Crowned Sea Urchin", regions: ["Eastern Pacific"]}
+- {scientific: "Tripneustes depressus", common: "White Sea Urchin", regions: ["Eastern Pacific"]}
+- {scientific: "Pharia pyramidata", common: "Pyramid Sea Star", regions: ["Eastern Pacific"]}
+- {scientific: "Phataria unifascialis", common: "Tan Sea Star", aliases: ["Blue Sea Star of Cortez"], regions: ["Eastern Pacific"]}
+- {scientific: "Pentaceraster cumingi", common: "Panamic Cushion Star", aliases: ["Cortez Cushion Star"], regions: ["Eastern Pacific"]}
+- {scientific: "Nidorellia armata", common: "Chocolate Chip Sea Star", regions: ["Eastern Pacific"]}
+- {scientific: "Heliaster kubiniji", common: "Gulf Sun Star", regions: ["Eastern Pacific"]}
+- {scientific: "Acanthaster planci", common: "Crown-of-thorns Sea Star", aliases: ["Crown-of-thorns"], regions: ["Eastern Pacific", "Indo-Pacific"]}
+- {scientific: "Isostichopus fuscus", common: "Brown Sea Cucumber", regions: ["Eastern Pacific"]}
+- {scientific: "Ophiocoma aethiops", common: "Black Brittle Star", regions: ["Eastern Pacific"]}
+- {scientific: "Felimare californiensis", common: "California Blue Dorid", regions: ["Eastern Pacific"]}
+- {scientific: "Felimida norrisi", common: "Norris's Dorid", regions: ["Eastern Pacific"]}
+- {scientific: "Tambja eliora", common: "Eliora Nudibranch", regions: ["Eastern Pacific"]}
+- {scientific: "Aplysia californica", common: "California Sea Hare", regions: ["Eastern Pacific"]}
+- {scientific: "Pteria sterna", common: "Rainbow-lipped Pearl Oyster", regions: ["Eastern Pacific"]}
+- {scientific: "Pinctada mazatlanica", common: "Panamic Pearl Oyster", regions: ["Eastern Pacific"]}
+- {scientific: "Titanostrombus galeatus", common: "Eastern Pacific Giant Conch", aliases: ["Strombus galeatus"], regions: ["Eastern Pacific"]}
+- {scientific: "Pherecardia striata", common: "Lined Fireworm", regions: ["Eastern Pacific", "Indo-Pacific"]}
+- {scientific: "Chloeia viridis", common: "Green Fireworm", regions: ["Eastern Pacific"]}
+
+# Eastern Pacific distractors (reef-scape, gorgonians, algae)
+- {scientific: "Pocillopora damicornis", common: "Cauliflower Coral", regions: ["Eastern Pacific", "Indo-Pacific"], distractor: true}
+- {scientific: "Pocillopora verrucosa", common: "Rasp Coral", regions: ["Eastern Pacific", "Indo-Pacific"], distractor: true}
+- {scientific: "Pocillopora meandrina", common: "Meandrine Cauliflower Coral", regions: ["Eastern Pacific", "Indo-Pacific"], distractor: true}
+- {scientific: "Pocillopora grandis", common: "Antler Coral", aliases: ["Pocillopora eydouxi"], regions: ["Eastern Pacific", "Indo-Pacific"], distractor: true}
+- {scientific: "Pocillopora capitata", common: "Lobed Cauliflower Coral", regions: ["Eastern Pacific"], distractor: true}
+- {scientific: "Pocillopora elegans", common: "Elegant Cauliflower Coral", regions: ["Eastern Pacific"], distractor: true}
+- {scientific: "Porites panamensis", common: "Panamic Porites", regions: ["Eastern Pacific"], distractor: true}
+- {scientific: "Porites lobata", common: "Lobe Coral", regions: ["Eastern Pacific", "Indo-Pacific"], distractor: true}
+- {scientific: "Pavona gigantea", common: "Giant Pavona", regions: ["Eastern Pacific"], distractor: true}
+- {scientific: "Pavona clavus", common: "Club Pavona", regions: ["Eastern Pacific", "Indo-Pacific"], distractor: true}
+- {scientific: "Pavona varians", common: "Variable Pavona", regions: ["Eastern Pacific", "Indo-Pacific"], distractor: true}
+- {scientific: "Psammocora stellata", common: "Starry Sandpaper Coral", regions: ["Eastern Pacific", "Indo-Pacific"], distractor: true}
+- {scientific: "Gardineroseris planulata", common: "Gardineroseris Coral", regions: ["Eastern Pacific", "Indo-Pacific"], distractor: true}
+- {scientific: "Millepora platyphylla", common: "Plate Fire Coral", regions: ["Eastern Pacific", "Indo-Pacific"], distractor: true}
+- {scientific: "Muricea californica", common: "California Golden Gorgonian", regions: ["Eastern Pacific"], distractor: true}
+- {scientific: "Muricea fruticosa", common: "Brown Gorgonian", regions: ["Eastern Pacific"], distractor: true}
+- {scientific: "Leptogorgia rigida", common: "Purple Sea Fan", regions: ["Eastern Pacific"], distractor: true}
+- {scientific: "Pacifigorgia irene", common: "Pacific Sea Fan", regions: ["Eastern Pacific"], distractor: true}
+- {scientific: "Eugorgia daniana", common: "Orange Sea Fan", regions: ["Eastern Pacific"], distractor: true}
+- {scientific: "Antipathes galapagensis", common: "Galapagos Black Coral", regions: ["Eastern Pacific"], distractor: true}
+- {scientific: "Myriopathes panamensis", common: "Panamic Black Coral", regions: ["Eastern Pacific"], distractor: true}
+- {scientific: "Carijoa riisei", common: "Snowflake Coral", regions: ["Caribbean", "Eastern Pacific", "Indo-Pacific"], distractor: true}
+- {scientific: "Aplysina gerardogreeni", common: "Yellow Cortez Sponge", regions: ["Eastern Pacific"], distractor: true}
+- {scientific: "Pachycerianthus fimbriatus", common: "Tube-dwelling Anemone", regions: ["Eastern Pacific"], distractor: true}
+- {scientific: "Anthopleura dowii", common: "Dow's Anemone", regions: ["Eastern Pacific"], distractor: true}
+- {scientific: "Spirobranchus incrassatus", common: "Pacific Christmas Tree Worm", regions: ["Eastern Pacific"], distractor: true}
+- {scientific: "Megabalanus peninsularis", common: "Giant Acorn Barnacle", regions: ["Eastern Pacific"], distractor: true}
+- {scientific: "Sargassum horridum", common: "Cortez Sargassum", regions: ["Eastern Pacific"], distractor: true}
+- {scientific: "Padina durvillei", common: "Durville's Padina", regions: ["Eastern Pacific"], distractor: true}
+- {scientific: "Lobophora variegata", common: "Encrusting Fan-leaf Alga", regions: ["Caribbean", "Eastern Pacific", "Indo-Pacific"], distractor: true}
+- {scientific: "Caulerpa sertularioides", common: "Feather Caulerpa", regions: ["Caribbean", "Eastern Pacific", "Indo-Pacific"], distractor: true}
+- {scientific: "Halimeda discoidea", common: "Disc Halimeda", regions: ["Caribbean", "Eastern Pacific", "Indo-Pacific"], distractor: true}
+
+# --- Indo-Pacific (Palau) ---------------------------------------------------
+# Seeded 2026-08-22 for the Palau reefs, walls, channels, Jellyfish Lake and
+# the Rock Islands. Much larger than the Caribbean list because the fauna is.
+- {scientific: "Pomacanthus imperator", common: "Emperor Angelfish", regions: ["Indo-Pacific"]}
+- {scientific: "Pomacanthus semicirculatus", common: "Semicircle Angelfish", aliases: ["Koran Angelfish"], regions: ["Indo-Pacific"]}
+- {scientific: "Pomacanthus xanthometopon", common: "Blueface Angelfish", aliases: ["Yellowface Angelfish"], regions: ["Indo-Pacific"]}
+- {scientific: "Pomacanthus navarchus", common: "Bluegirdled Angelfish", aliases: ["Majestic Angelfish"], regions: ["Indo-Pacific"]}
+- {scientific: "Pomacanthus sexstriatus", common: "Sixbar Angelfish", regions: ["Indo-Pacific"]}
+- {scientific: "Pygoplites diacanthus", common: "Regal Angelfish", aliases: ["Royal Angelfish"], regions: ["Indo-Pacific"]}
+- {scientific: "Centropyge bicolor", common: "Bicolor Angelfish", regions: ["Indo-Pacific"]}
+- {scientific: "Centropyge vrolikii", common: "Pearlscale Angelfish", regions: ["Indo-Pacific"]}
+- {scientific: "Centropyge bispinosa", common: "Coral Beauty", aliases: ["Twospined Angelfish"], regions: ["Indo-Pacific"]}
+- {scientific: "Centropyge flavissima", common: "Lemonpeel Angelfish", regions: ["Indo-Pacific"]}
+- {scientific: "Centropyge loriculus", common: "Flame Angelfish", regions: ["Indo-Pacific"]}
+- {scientific: "Genicanthus lamarck", common: "Lamarck's Angelfish", regions: ["Indo-Pacific"]}
+- {scientific: "Genicanthus melanospilos", common: "Blackspot Angelfish", regions: ["Indo-Pacific"]}
+- {scientific: "Apolemichthys trimaculatus", common: "Threespot Angelfish", regions: ["Indo-Pacific"]}
+- {scientific: "Chaetodon auriga", common: "Threadfin Butterflyfish", regions: ["Indo-Pacific"]}
+- {scientific: "Chaetodon lunula", common: "Raccoon Butterflyfish", regions: ["Indo-Pacific"]}
+- {scientific: "Chaetodon vagabundus", common: "Vagabond Butterflyfish", regions: ["Indo-Pacific"]}
+- {scientific: "Chaetodon ephippium", common: "Saddled Butterflyfish", regions: ["Indo-Pacific"]}
+- {scientific: "Chaetodon ornatissimus", common: "Ornate Butterflyfish", regions: ["Indo-Pacific"]}
+- {scientific: "Chaetodon meyeri", common: "Meyer's Butterflyfish", regions: ["Indo-Pacific"]}
+- {scientific: "Chaetodon lineolatus", common: "Lined Butterflyfish", regions: ["Indo-Pacific"]}
+- {scientific: "Chaetodon ulietensis", common: "Pacific Double-saddle Butterflyfish", regions: ["Indo-Pacific"]}
+- {scientific: "Chaetodon trifascialis", common: "Chevron Butterflyfish", regions: ["Indo-Pacific"]}
+- {scientific: "Chaetodon lunulatus", common: "Oval Butterflyfish", aliases: ["Redfin Butterflyfish"], regions: ["Indo-Pacific"]}
+- {scientific: "Chaetodon melannotus", common: "Blackback Butterflyfish", regions: ["Indo-Pacific"]}
+- {scientific: "Chaetodon kleinii", common: "Klein's Butterflyfish", regions: ["Indo-Pacific"]}
+- {scientific: "Chaetodon bennetti", common: "Bennett's Butterflyfish", regions: ["Indo-Pacific"]}
+- {scientific: "Chaetodon baronessa", common: "Eastern Triangular Butterflyfish", regions: ["Indo-Pacific"]}
+- {scientific: "Chaetodon rafflesii", common: "Latticed Butterflyfish", regions: ["Indo-Pacific"]}
+- {scientific: "Chaetodon semeion", common: "Dotted Butterflyfish", regions: ["Indo-Pacific"]}
+- {scientific: "Chaetodon punctatofasciatus", common: "Spotband Butterflyfish", regions: ["Indo-Pacific"]}
+- {scientific: "Chaetodon unimaculatus", common: "Teardrop Butterflyfish", regions: ["Indo-Pacific"]}
+- {scientific: "Chaetodon citrinellus", common: "Speckled Butterflyfish", regions: ["Indo-Pacific"]}
+- {scientific: "Chaetodon octofasciatus", common: "Eightband Butterflyfish", regions: ["Indo-Pacific"]}
+- {scientific: "Chaetodon reticulatus", common: "Mailed Butterflyfish", regions: ["Indo-Pacific"]}
+- {scientific: "Heniochus acuminatus", common: "Pennant Bannerfish", aliases: ["Longfin Bannerfish"], regions: ["Indo-Pacific"]}
+- {scientific: "Heniochus chrysostomus", common: "Threeband Pennantfish", regions: ["Indo-Pacific"]}
+- {scientific: "Heniochus varius", common: "Humphead Bannerfish", regions: ["Indo-Pacific"]}
+- {scientific: "Heniochus singularius", common: "Singular Bannerfish", regions: ["Indo-Pacific"]}
+- {scientific: "Heniochus monoceros", common: "Masked Bannerfish", regions: ["Indo-Pacific"]}
+- {scientific: "Forcipiger longirostris", common: "Big Longnose Butterflyfish", regions: ["Indo-Pacific"]}
+- {scientific: "Hemitaurichthys polylepis", common: "Pyramid Butterflyfish", regions: ["Indo-Pacific"]}
+- {scientific: "Acanthurus lineatus", common: "Lined Surgeonfish", aliases: ["Clown Surgeonfish"], regions: ["Indo-Pacific"]}
+- {scientific: "Acanthurus nigricauda", common: "Epaulette Surgeonfish", regions: ["Indo-Pacific"]}
+- {scientific: "Acanthurus olivaceus", common: "Orangespot Surgeonfish", aliases: ["Orangeband Surgeonfish"], regions: ["Indo-Pacific"]}
+- {scientific: "Acanthurus pyroferus", common: "Chocolate Surgeonfish", aliases: ["Mimic Surgeonfish"], regions: ["Indo-Pacific"]}
+- {scientific: "Acanthurus blochii", common: "Ringtail Surgeonfish", regions: ["Indo-Pacific"]}
+- {scientific: "Acanthurus thompsoni", common: "Thompson's Surgeonfish", regions: ["Indo-Pacific"]}
+- {scientific: "Acanthurus nigrofuscus", common: "Brown Surgeonfish", regions: ["Indo-Pacific"]}
+- {scientific: "Acanthurus mata", common: "Elongate Surgeonfish", regions: ["Indo-Pacific"]}
+- {scientific: "Acanthurus guttatus", common: "Whitespotted Surgeonfish", regions: ["Indo-Pacific"]}
+- {scientific: "Ctenochaetus striatus", common: "Striated Surgeonfish", aliases: ["Lined Bristletooth"], regions: ["Indo-Pacific"]}
+- {scientific: "Ctenochaetus binotatus", common: "Twospot Bristletooth", regions: ["Indo-Pacific"]}
+- {scientific: "Zebrasoma scopas", common: "Brushtail Tang", aliases: ["Twotone Tang"], regions: ["Indo-Pacific"]}
+- {scientific: "Zebrasoma velifer", common: "Sailfin Tang", aliases: ["Zebrasoma veliferum"], regions: ["Indo-Pacific"]}
+- {scientific: "Naso lituratus", common: "Orangespine Unicornfish", regions: ["Indo-Pacific"]}
+- {scientific: "Naso unicornis", common: "Bluespine Unicornfish", regions: ["Indo-Pacific"]}
+- {scientific: "Naso vlamingii", common: "Bignose Unicornfish", aliases: ["Vlaming's Unicornfish"], regions: ["Indo-Pacific"]}
+- {scientific: "Naso brevirostris", common: "Spotted Unicornfish", aliases: ["Shortnose Unicornfish"], regions: ["Indo-Pacific"]}
+- {scientific: "Naso hexacanthus", common: "Sleek Unicornfish", regions: ["Indo-Pacific"]}
+- {scientific: "Naso annulatus", common: "Whitemargin Unicornfish", regions: ["Indo-Pacific"]}
+- {scientific: "Naso brachycentron", common: "Humpback Unicornfish", regions: ["Indo-Pacific"]}
+- {scientific: "Paracanthurus hepatus", common: "Palette Surgeonfish", aliases: ["Regal Tang", "Blue Hippo Tang"], regions: ["Indo-Pacific"]}
+- {scientific: "Bolbometopon muricatum", common: "Green Humphead Parrotfish", aliases: ["Humphead Parrotfish", "Bumphead Parrotfish"], regions: ["Indo-Pacific"]}
+- {scientific: "Cetoscarus ocellatus", common: "Spotted Parrotfish", aliases: ["Bicolor Parrotfish"], regions: ["Indo-Pacific"]}
+- {scientific: "Chlorurus microrhinos", common: "Steephead Parrotfish", regions: ["Indo-Pacific"]}
+- {scientific: "Chlorurus spilurus", common: "Pacific Daisy Parrotfish", aliases: ["Bullethead Parrotfish", "Chlorurus sordidus"], regions: ["Indo-Pacific"]}
+- {scientific: "Chlorurus bleekeri", common: "Bleeker's Parrotfish", regions: ["Indo-Pacific"]}
+- {scientific: "Scarus frenatus", common: "Bridled Parrotfish", regions: ["Indo-Pacific"]}
+- {scientific: "Scarus niger", common: "Dusky Parrotfish", aliases: ["Swarthy Parrotfish"], regions: ["Indo-Pacific"]}
+- {scientific: "Scarus psittacus", common: "Palenose Parrotfish", regions: ["Indo-Pacific"]}
+- {scientific: "Scarus schlegeli", common: "Yellowband Parrotfish", regions: ["Indo-Pacific"]}
+- {scientific: "Scarus oviceps", common: "Dark-capped Parrotfish", regions: ["Indo-Pacific"]}
+- {scientific: "Scarus dimidiatus", common: "Yellowbarred Parrotfish", regions: ["Indo-Pacific"]}
+- {scientific: "Scarus forsteni", common: "Forsten's Parrotfish", regions: ["Indo-Pacific"]}
+- {scientific: "Scarus altipinnis", common: "Filament-finned Parrotfish", regions: ["Indo-Pacific"]}
+- {scientific: "Scarus spinus", common: "Greensnout Parrotfish", regions: ["Indo-Pacific"]}
+- {scientific: "Scarus quoyi", common: "Quoy's Parrotfish", regions: ["Indo-Pacific"]}
+- {scientific: "Scarus prasiognathos", common: "Singapore Parrotfish", regions: ["Indo-Pacific"]}
+- {scientific: "Scarus festivus", common: "Festive Parrotfish", regions: ["Indo-Pacific"]}
+- {scientific: "Scarus flavipectoralis", common: "Yellowfin Parrotfish", regions: ["Indo-Pacific"]}
+- {scientific: "Hipposcarus longiceps", common: "Pacific Longnose Parrotfish", regions: ["Indo-Pacific"]}
+- {scientific: "Calotomus carolinus", common: "Stareye Parrotfish", regions: ["Eastern Pacific", "Indo-Pacific"]}
+- {scientific: "Leptoscarus vaigiensis", common: "Marbled Parrotfish", regions: ["Indo-Pacific"]}
+- {scientific: "Cheilinus undulatus", common: "Humphead Wrasse", aliases: ["Napoleon Wrasse", "Maori Wrasse"], regions: ["Indo-Pacific"]}
+- {scientific: "Cheilinus fasciatus", common: "Redbreasted Wrasse", regions: ["Indo-Pacific"]}
+- {scientific: "Cheilinus trilobatus", common: "Tripletail Wrasse", regions: ["Indo-Pacific"]}
+- {scientific: "Cheilinus chlorourus", common: "Floral Wrasse", regions: ["Indo-Pacific"]}
+- {scientific: "Oxycheilinus digramma", common: "Cheeklined Wrasse", regions: ["Indo-Pacific"]}
+- {scientific: "Oxycheilinus unifasciatus", common: "Ringtail Maori Wrasse", regions: ["Indo-Pacific"]}
+- {scientific: "Epibulus insidiator", common: "Slingjaw Wrasse", regions: ["Indo-Pacific"]}
+- {scientific: "Gomphosus varius", common: "Bird Wrasse", regions: ["Indo-Pacific"]}
+- {scientific: "Thalassoma lunare", common: "Moon Wrasse", aliases: ["Crescent Wrasse"], regions: ["Indo-Pacific"]}
+- {scientific: "Thalassoma hardwicke", common: "Sixbar Wrasse", regions: ["Indo-Pacific"]}
+- {scientific: "Thalassoma amblycephalum", common: "Bluntheaded Wrasse", regions: ["Indo-Pacific"]}
+- {scientific: "Thalassoma quinquevittatum", common: "Fivestripe Wrasse", regions: ["Indo-Pacific"]}
+- {scientific: "Thalassoma purpureum", common: "Surge Wrasse", regions: ["Indo-Pacific"]}
+- {scientific: "Thalassoma jansenii", common: "Jansen's Wrasse", regions: ["Indo-Pacific"]}
+- {scientific: "Thalassoma lutescens", common: "Yellow-brown Wrasse", aliases: ["Sunset Thalassoma"], regions: ["Indo-Pacific"]}
+- {scientific: "Halichoeres hortulanus", common: "Checkerboard Wrasse", regions: ["Indo-Pacific"]}
+- {scientific: "Halichoeres marginatus", common: "Dusky Wrasse", regions: ["Indo-Pacific"]}
+- {scientific: "Halichoeres chrysus", common: "Canary Wrasse", regions: ["Indo-Pacific"]}
+- {scientific: "Halichoeres melanurus", common: "Tailspot Wrasse", regions: ["Indo-Pacific"]}
+- {scientific: "Halichoeres biocellatus", common: "Redlined Wrasse", regions: ["Indo-Pacific"]}
+- {scientific: "Halichoeres prosopeion", common: "Twotone Wrasse", regions: ["Indo-Pacific"]}
+- {scientific: "Halichoeres scapularis", common: "Zigzag Wrasse", regions: ["Indo-Pacific"]}
+- {scientific: "Halichoeres trimaculatus", common: "Threespot Wrasse", regions: ["Indo-Pacific"]}
+- {scientific: "Hemigymnus melapterus", common: "Blackeye Thicklip", regions: ["Indo-Pacific"]}
+- {scientific: "Hemigymnus fasciatus", common: "Barred Thicklip", regions: ["Indo-Pacific"]}
+- {scientific: "Coris gaimard", common: "Yellowtail Coris", aliases: ["Clown Coris Wrasse"], regions: ["Indo-Pacific"]}
+- {scientific: "Coris batuensis", common: "Batu Coris", regions: ["Indo-Pacific"]}
+- {scientific: "Coris aygula", common: "Clown Coris", regions: ["Indo-Pacific"]}
+- {scientific: "Labroides dimidiatus", common: "Bluestreak Cleaner Wrasse", aliases: ["Cleaner Wrasse"], regions: ["Indo-Pacific"]}
+- {scientific: "Labroides bicolor", common: "Bicolor Cleaner Wrasse", regions: ["Indo-Pacific"]}
+- {scientific: "Labroides pectoralis", common: "Blackspot Cleaner Wrasse", regions: ["Indo-Pacific"]}
+- {scientific: "Labropsis xanthonota", common: "Yellowback Tubelip", regions: ["Indo-Pacific"]}
+- {scientific: "Labrichthys unilineatus", common: "Tubelip Wrasse", regions: ["Indo-Pacific"]}
+- {scientific: "Bodianus mesothorax", common: "Splitlevel Hogfish", regions: ["Indo-Pacific"]}
+- {scientific: "Bodianus axillaris", common: "Axilspot Hogfish", regions: ["Indo-Pacific"]}
+- {scientific: "Bodianus diana", common: "Diana's Hogfish", regions: ["Indo-Pacific"]}
+- {scientific: "Bodianus anthioides", common: "Lyretail Hogfish", regions: ["Indo-Pacific"]}
+- {scientific: "Bodianus bimaculatus", common: "Twospot Hogfish", regions: ["Indo-Pacific"]}
+- {scientific: "Anampses meleagrides", common: "Spotted Wrasse", aliases: ["Yellowtail Tamarin"], regions: ["Indo-Pacific"]}
+- {scientific: "Anampses caeruleopunctatus", common: "Bluespotted Wrasse", regions: ["Indo-Pacific"]}
+- {scientific: "Anampses twistii", common: "Yellowbreasted Wrasse", regions: ["Indo-Pacific"]}
+- {scientific: "Anampses geographicus", common: "Geographic Wrasse", regions: ["Indo-Pacific"]}
+- {scientific: "Anampses neoguinaicus", common: "New Guinea Wrasse", regions: ["Indo-Pacific"]}
+- {scientific: "Macropharyngodon meleagris", common: "Leopard Wrasse", regions: ["Indo-Pacific"]}
+- {scientific: "Macropharyngodon negrosensis", common: "Black Leopard Wrasse", regions: ["Indo-Pacific"]}
+- {scientific: "Stethojulis strigiventer", common: "Silverstreaked Wrasse", regions: ["Indo-Pacific"]}
+- {scientific: "Stethojulis trilineata", common: "Threeline Wrasse", regions: ["Indo-Pacific"]}
+- {scientific: "Pseudocheilinus hexataenia", common: "Sixline Wrasse", regions: ["Indo-Pacific"]}
+- {scientific: "Pseudocheilinus evanidus", common: "Striated Wrasse", regions: ["Indo-Pacific"]}
+- {scientific: "Pseudocheilinus octotaenia", common: "Eightline Wrasse", regions: ["Indo-Pacific"]}
+- {scientific: "Cirrhilabrus cyanopleura", common: "Bluesided Fairy Wrasse", regions: ["Indo-Pacific"]}
+- {scientific: "Cirrhilabrus exquisitus", common: "Exquisite Fairy Wrasse", regions: ["Indo-Pacific"]}
+- {scientific: "Cirrhilabrus solorensis", common: "Redeye Fairy Wrasse", regions: ["Indo-Pacific"]}
+- {scientific: "Paracheilinus filamentosus", common: "Filamented Flasher Wrasse", regions: ["Indo-Pacific"]}
+- {scientific: "Pseudodax moluccanus", common: "Chiseltooth Wrasse", regions: ["Indo-Pacific"]}
+- {scientific: "Cheilio inermis", common: "Cigar Wrasse", regions: ["Indo-Pacific"]}
+- {scientific: "Hologymnosus doliatus", common: "Pastel Ringwrasse", regions: ["Indo-Pacific"]}
+- {scientific: "Hologymnosus annulatus", common: "Ring Wrasse", regions: ["Indo-Pacific"]}
+- {scientific: "Choerodon anchorago", common: "Orange-dotted Tuskfish", regions: ["Indo-Pacific"]}
+- {scientific: "Labropsis xanthura", common: "Yellowtail Tubelip", aliases: ["Diproctacanthus xanthurus"], regions: ["Indo-Pacific"]}
+- {scientific: "Plectropomus leopardus", common: "Leopard Coralgrouper", aliases: ["Coral Trout"], regions: ["Indo-Pacific"]}
+- {scientific: "Plectropomus laevis", common: "Blacksaddled Coralgrouper", regions: ["Indo-Pacific"]}
+- {scientific: "Plectropomus areolatus", common: "Squaretail Coralgrouper", regions: ["Indo-Pacific"]}
+- {scientific: "Plectropomus oligacanthus", common: "Highfin Coralgrouper", regions: ["Indo-Pacific"]}
+- {scientific: "Cephalopholis argus", common: "Peacock Grouper", aliases: ["Peacock Hind", "Bluespotted Grouper"], regions: ["Indo-Pacific"]}
+- {scientific: "Cephalopholis miniata", common: "Coral Hind", aliases: ["Coral Grouper"], regions: ["Indo-Pacific"]}
+- {scientific: "Cephalopholis urodeta", common: "Darkfin Hind", aliases: ["Flagtail Grouper"], regions: ["Indo-Pacific"]}
+- {scientific: "Cephalopholis leopardus", common: "Leopard Hind", regions: ["Indo-Pacific"]}
+- {scientific: "Cephalopholis sexmaculata", common: "Sixblotch Hind", regions: ["Indo-Pacific"]}
+- {scientific: "Cephalopholis boenak", common: "Chocolate Hind", regions: ["Indo-Pacific"]}
+- {scientific: "Cephalopholis sonnerati", common: "Tomato Hind", regions: ["Indo-Pacific"]}
+- {scientific: "Cephalopholis cyanostigma", common: "Bluespotted Hind", regions: ["Indo-Pacific"]}
+- {scientific: "Epinephelus fasciatus", common: "Blacktip Grouper", regions: ["Indo-Pacific"]}
+- {scientific: "Epinephelus merra", common: "Honeycomb Grouper", regions: ["Indo-Pacific"]}
+- {scientific: "Epinephelus hexagonatus", common: "Starspotted Grouper", regions: ["Indo-Pacific"]}
+- {scientific: "Epinephelus maculatus", common: "Highfin Grouper", regions: ["Indo-Pacific"]}
+- {scientific: "Epinephelus polyphekadion", common: "Camouflage Grouper", regions: ["Indo-Pacific"]}
+- {scientific: "Epinephelus fuscoguttatus", common: "Brown-marbled Grouper", regions: ["Indo-Pacific"]}
+- {scientific: "Epinephelus lanceolatus", common: "Giant Grouper", regions: ["Indo-Pacific"]}
+- {scientific: "Epinephelus tukula", common: "Potato Grouper", aliases: ["Potato Cod"], regions: ["Indo-Pacific"]}
+- {scientific: "Epinephelus ongus", common: "White-streaked Grouper", regions: ["Indo-Pacific"]}
+- {scientific: "Epinephelus howlandi", common: "Blacksaddle Grouper", regions: ["Indo-Pacific"]}
+- {scientific: "Epinephelus spilotoceps", common: "Foursaddle Grouper", regions: ["Indo-Pacific"]}
+- {scientific: "Epinephelus coioides", common: "Orange-spotted Grouper", regions: ["Indo-Pacific"]}
+- {scientific: "Epinephelus malabaricus", common: "Malabar Grouper", regions: ["Indo-Pacific"]}
+- {scientific: "Epinephelus tauvina", common: "Greasy Grouper", regions: ["Indo-Pacific"]}
+- {scientific: "Variola louti", common: "Yellow-edged Lyretail", aliases: ["Lyretail Grouper"], regions: ["Indo-Pacific"]}
+- {scientific: "Variola albimarginata", common: "White-edged Lyretail", regions: ["Indo-Pacific"]}
+- {scientific: "Aethaloperca rogaa", common: "Redmouth Grouper", regions: ["Indo-Pacific"]}
+- {scientific: "Anyperodon leucogrammicus", common: "Slender Grouper", regions: ["Indo-Pacific"]}
+- {scientific: "Gracila albomarginata", common: "Masked Grouper", regions: ["Indo-Pacific"]}
+- {scientific: "Cromileptes altivelis", common: "Humpback Grouper", aliases: ["Barramundi Cod", "Panther Grouper"], regions: ["Indo-Pacific"]}
+- {scientific: "Pseudanthias squamipinnis", common: "Sea Goldie", aliases: ["Lyretail Anthias", "Scalefin Anthias"], regions: ["Indo-Pacific"]}
+- {scientific: "Pseudanthias tuka", common: "Purple Queen Anthias", aliases: ["Yellowstriped Fairy Basslet", "Mirolabrichthys tuka"], regions: ["Indo-Pacific"]}
+- {scientific: "Pseudanthias pleurotaenia", common: "Squarespot Anthias", regions: ["Indo-Pacific"]}
+- {scientific: "Pseudanthias huchtii", common: "Threadfin Anthias", aliases: ["Red-cheeked Anthias"], regions: ["Indo-Pacific"]}
+- {scientific: "Pseudanthias dispar", common: "Peach Anthias", aliases: ["Redfin Anthias"], regions: ["Indo-Pacific"]}
+- {scientific: "Pseudanthias bicolor", common: "Bicolor Anthias", aliases: ["Nemanthias bicolor"], regions: ["Indo-Pacific"]}
+- {scientific: "Pseudanthias lori", common: "Lori's Anthias", aliases: ["Pyronotanthias lori"], regions: ["Indo-Pacific"]}
+- {scientific: "Pseudanthias smithvanizi", common: "Princess Anthias", aliases: ["Pyronotanthias smithvanizi"], regions: ["Indo-Pacific"]}
+- {scientific: "Pseudanthias randalli", common: "Randall's Anthias", regions: ["Indo-Pacific"]}
+- {scientific: "Pseudanthias pascalus", common: "Amethyst Anthias", aliases: ["Mirolabrichthys pascalus"], regions: ["Indo-Pacific"]}
+- {scientific: "Luzonichthys waitei", common: "Waite's Splitfin", regions: ["Indo-Pacific"]}
+- {scientific: "Serranocirrhitus latus", common: "Hawkfish Anthias", aliases: ["Sunburst Anthias"], regions: ["Indo-Pacific"]}
+- {scientific: "Grammistes sexlineatus", common: "Sixline Soapfish", aliases: ["Goldenstriped Soapfish"], regions: ["Indo-Pacific"]}
+- {scientific: "Diploprion bifasciatus", common: "Barred Soapfish", aliases: ["Two-banded Soapfish", "Diploprion bifasciatum"], regions: ["Indo-Pacific"]}
+- {scientific: "Belonoperca chabanaudi", common: "Arrowhead Soapfish", regions: ["Indo-Pacific"]}
+- {scientific: "Lutjanus bohar", common: "Twinspot Snapper", aliases: ["Red Bass"], regions: ["Indo-Pacific"]}
+- {scientific: "Lutjanus gibbus", common: "Humpback Snapper", aliases: ["Paddletail Snapper"], regions: ["Indo-Pacific"]}
+- {scientific: "Lutjanus kasmira", common: "Bluestripe Snapper", aliases: ["Common Bluestripe Snapper"], regions: ["Indo-Pacific"]}
+- {scientific: "Lutjanus quinquelineatus", common: "Fiveline Snapper", regions: ["Indo-Pacific"]}
+- {scientific: "Lutjanus fulvus", common: "Blacktail Snapper", regions: ["Indo-Pacific"]}
+- {scientific: "Lutjanus monostigma", common: "Onespot Snapper", regions: ["Indo-Pacific"]}
+- {scientific: "Lutjanus fulviflamma", common: "Blackspot Snapper", aliases: ["Dory Snapper"], regions: ["Indo-Pacific"]}
+- {scientific: "Lutjanus rivulatus", common: "Blubberlip Snapper", regions: ["Indo-Pacific"]}
+- {scientific: "Lutjanus argentimaculatus", common: "Mangrove Red Snapper", regions: ["Indo-Pacific"]}
+- {scientific: "Lutjanus decussatus", common: "Checkered Snapper", regions: ["Indo-Pacific"]}
+- {scientific: "Lutjanus biguttatus", common: "Twospot Snapper", regions: ["Indo-Pacific"]}
+- {scientific: "Lutjanus semicinctus", common: "Black-banded Snapper", regions: ["Indo-Pacific"]}
+- {scientific: "Macolor niger", common: "Black-and-white Snapper", aliases: ["Black Snapper"], regions: ["Indo-Pacific"]}
+- {scientific: "Macolor macularis", common: "Midnight Snapper", regions: ["Indo-Pacific"]}
+- {scientific: "Aprion virescens", common: "Green Jobfish", regions: ["Indo-Pacific"]}
+- {scientific: "Aphareus furca", common: "Small-toothed Jobfish", regions: ["Indo-Pacific"]}
+- {scientific: "Symphorichthys spilurus", common: "Sailfin Snapper", aliases: ["Blue-lined Sea Bream"], regions: ["Indo-Pacific"]}
+- {scientific: "Symphorus nematophorus", common: "Chinamanfish", regions: ["Indo-Pacific"]}
+- {scientific: "Caesio teres", common: "Yellow-and-blueback Fusilier", regions: ["Indo-Pacific"]}
+- {scientific: "Caesio cuning", common: "Redbelly Yellowtail Fusilier", regions: ["Indo-Pacific"]}
+- {scientific: "Caesio caerulaurea", common: "Blue-and-gold Fusilier", aliases: ["Scissor-tailed Fusilier"], regions: ["Indo-Pacific"]}
+- {scientific: "Caesio lunaris", common: "Lunar Fusilier", regions: ["Indo-Pacific"]}
+- {scientific: "Caesio xanthonota", common: "Yellowback Fusilier", regions: ["Indo-Pacific"]}
+- {scientific: "Pterocaesio tile", common: "Dark-banded Fusilier", aliases: ["Neon Fusilier"], regions: ["Indo-Pacific"]}
+- {scientific: "Pterocaesio marri", common: "Marr's Fusilier", regions: ["Indo-Pacific"]}
+- {scientific: "Pterocaesio trilineata", common: "Three-lined Fusilier", regions: ["Indo-Pacific"]}
+- {scientific: "Pterocaesio pisang", common: "Banana Fusilier", regions: ["Indo-Pacific"]}
+- {scientific: "Pterocaesio chrysozona", common: "Goldband Fusilier", regions: ["Indo-Pacific"]}
+- {scientific: "Pterocaesio digramma", common: "Double-lined Fusilier", regions: ["Indo-Pacific"]}
+- {scientific: "Pterocaesio tessellata", common: "One-stripe Fusilier", regions: ["Indo-Pacific"]}
+- {scientific: "Plectorhinchus chaetodonoides", common: "Harlequin Sweetlips", aliases: ["Many-spotted Sweetlips", "Clown Sweetlips"], regions: ["Indo-Pacific"]}
+- {scientific: "Plectorhinchus vittatus", common: "Oriental Sweetlips", aliases: ["Plectorhinchus orientalis"], regions: ["Indo-Pacific"]}
+- {scientific: "Plectorhinchus lineatus", common: "Yellowbanded Sweetlips", aliases: ["Diagonal-banded Sweetlips"], regions: ["Indo-Pacific"]}
+- {scientific: "Plectorhinchus lessonii", common: "Lesson's Sweetlips", regions: ["Indo-Pacific"]}
+- {scientific: "Plectorhinchus albovittatus", common: "Giant Sweetlips", aliases: ["Two-striped Sweetlips"], regions: ["Indo-Pacific"]}
+- {scientific: "Plectorhinchus gibbosus", common: "Brown Sweetlips", aliases: ["Gibbus Sweetlips"], regions: ["Indo-Pacific"]}
+- {scientific: "Plectorhinchus pica", common: "Painted Sweetlips", aliases: ["Dotted Sweetlips", "Plectorhinchus picus"], regions: ["Indo-Pacific"]}
+- {scientific: "Plectorhinchus flavomaculatus", common: "Lemonfish", aliases: ["Goldspotted Sweetlips"], regions: ["Indo-Pacific"]}
+- {scientific: "Plectorhinchus polytaenia", common: "Ribboned Sweetlips", regions: ["Indo-Pacific"]}
+- {scientific: "Diagramma pictum", common: "Slatey Sweetlips", aliases: ["Painted Grunt"], regions: ["Indo-Pacific"]}
+- {scientific: "Lethrinus olivaceus", common: "Longface Emperor", regions: ["Indo-Pacific"]}
+- {scientific: "Lethrinus erythracanthus", common: "Orange-spotted Emperor", regions: ["Indo-Pacific"]}
+- {scientific: "Lethrinus harak", common: "Thumbprint Emperor", regions: ["Indo-Pacific"]}
+- {scientific: "Lethrinus obsoletus", common: "Orange-striped Emperor", regions: ["Indo-Pacific"]}
+- {scientific: "Lethrinus nebulosus", common: "Spangled Emperor", regions: ["Indo-Pacific"]}
+- {scientific: "Lethrinus xanthochilus", common: "Yellowlip Emperor", regions: ["Indo-Pacific"]}
+- {scientific: "Lethrinus ornatus", common: "Ornate Emperor", regions: ["Indo-Pacific"]}
+- {scientific: "Lethrinus atkinsoni", common: "Pacific Yellowtail Emperor", regions: ["Indo-Pacific"]}
+- {scientific: "Lethrinus microdon", common: "Smalltooth Emperor", regions: ["Indo-Pacific"]}
+- {scientific: "Lethrinus lentjan", common: "Pink Ear Emperor", regions: ["Indo-Pacific"]}
+- {scientific: "Lethrinus rubrioperculatus", common: "Spotcheek Emperor", regions: ["Indo-Pacific"]}
+- {scientific: "Lethrinus erythropterus", common: "Longfin Emperor", regions: ["Indo-Pacific"]}
+- {scientific: "Monotaxis grandoculis", common: "Bigeye Emperor", aliases: ["Humpnose Big-eye Bream"], regions: ["Indo-Pacific"]}
+- {scientific: "Monotaxis heterodon", common: "Redfin Emperor", regions: ["Indo-Pacific"]}
+- {scientific: "Gnathodentex aureolineatus", common: "Striped Large-eye Bream", aliases: ["Goldlined Sea Bream"], regions: ["Indo-Pacific"]}
+- {scientific: "Gymnocranius grandoculis", common: "Blue-lined Large-eye Bream", regions: ["Indo-Pacific"]}
+- {scientific: "Gymnocranius euanus", common: "Japanese Large-eye Bream", regions: ["Indo-Pacific"]}
+- {scientific: "Scolopsis bilineata", common: "Two-lined Monocle Bream", aliases: ["Bridled Monocle Bream"], regions: ["Indo-Pacific"]}
+- {scientific: "Scolopsis lineata", common: "Striped Monocle Bream", regions: ["Indo-Pacific"]}
+- {scientific: "Scolopsis margaritifera", common: "Pearly Monocle Bream", regions: ["Indo-Pacific"]}
+- {scientific: "Scolopsis ciliata", common: "Saw-jawed Monocle Bream", regions: ["Indo-Pacific"]}
+- {scientific: "Pentapodus caninus", common: "Small-toothed Whiptail", regions: ["Indo-Pacific"]}
+- {scientific: "Pentapodus trivittatus", common: "Three-striped Whiptail", regions: ["Indo-Pacific"]}
+- {scientific: "Pentapodus aureofasciatus", common: "Yellowstripe Threadfin Bream", regions: ["Indo-Pacific"]}
+- {scientific: "Caranx ignobilis", common: "Giant Trevally", regions: ["Indo-Pacific"]}
+- {scientific: "Caranx papuensis", common: "Brassy Trevally", regions: ["Indo-Pacific"]}
+- {scientific: "Caranx tille", common: "Tille Trevally", regions: ["Indo-Pacific"]}
+- {scientific: "Carangoides ferdau", common: "Blue Trevally", aliases: ["Ferdauia ferdau"], regions: ["Indo-Pacific"]}
+- {scientific: "Carangoides orthogrammus", common: "Island Trevally", aliases: ["Ferdauia orthogrammus"], regions: ["Eastern Pacific", "Indo-Pacific"]}
+- {scientific: "Carangoides bajad", common: "Orangespotted Trevally", aliases: ["Flavocaranx bajad"], regions: ["Indo-Pacific"]}
+- {scientific: "Carangoides plagiotaenia", common: "Barcheek Trevally", aliases: ["Craterognathus plagiotaenia"], regions: ["Indo-Pacific"]}
+- {scientific: "Carangoides fulvoguttatus", common: "Yellowspotted Trevally", aliases: ["Turrum fulvoguttatum"], regions: ["Indo-Pacific"]}
+- {scientific: "Scomberoides lysan", common: "Doublespotted Queenfish", regions: ["Indo-Pacific"]}
+- {scientific: "Trachinotus blochii", common: "Snubnose Pompano", regions: ["Indo-Pacific"]}
+- {scientific: "Trachinotus baillonii", common: "Smallspotted Dart", regions: ["Indo-Pacific"]}
+- {scientific: "Alectis ciliaris", common: "African Pompano", aliases: ["Threadfin Trevally"], regions: ["Caribbean", "Eastern Pacific", "Indo-Pacific"]}
+- {scientific: "Scyris indica", common: "Indian Threadfish", aliases: ["Alectis indica"], regions: ["Indo-Pacific"]}
+- {scientific: "Decapterus macarellus", common: "Mackerel Scad", regions: ["Caribbean", "Eastern Pacific", "Indo-Pacific"]}
+- {scientific: "Atule mate", common: "Yellowtail Scad", regions: ["Indo-Pacific"]}
+- {scientific: "Selar boops", common: "Oxeye Scad", regions: ["Indo-Pacific"]}
+- {scientific: "Sphyraena qenie", common: "Blackfin Barracuda", aliases: ["Chevron Barracuda"], regions: ["Eastern Pacific", "Indo-Pacific"]}
+- {scientific: "Sphyraena jello", common: "Pickhandle Barracuda", regions: ["Indo-Pacific"]}
+- {scientific: "Sphyraena forsteri", common: "Bigeye Barracuda", regions: ["Indo-Pacific"]}
+- {scientific: "Sphyraena flavicauda", common: "Yellowtail Barracuda", regions: ["Indo-Pacific"]}
+- {scientific: "Sphyraena putnamae", common: "Sawtooth Barracuda", regions: ["Indo-Pacific"]}
+- {scientific: "Gymnosarda unicolor", common: "Dogtooth Tuna", regions: ["Indo-Pacific"]}
+- {scientific: "Scomberomorus commerson", common: "Narrow-barred Spanish Mackerel", regions: ["Indo-Pacific"]}
+- {scientific: "Grammatorcynus bilineatus", common: "Double-lined Mackerel", regions: ["Indo-Pacific"]}
+- {scientific: "Rastrelliger kanagurta", common: "Indian Mackerel", regions: ["Indo-Pacific"]}
+- {scientific: "Euthynnus affinis", common: "Kawakawa", aliases: ["Mackerel Tuna"], regions: ["Indo-Pacific"]}
+- {scientific: "Katsuwonus pelamis", common: "Skipjack Tuna", regions: ["Caribbean", "Eastern Pacific", "Indo-Pacific"]}
+- {scientific: "Thunnus albacares", common: "Yellowfin Tuna", regions: ["Caribbean", "Eastern Pacific", "Indo-Pacific"]}
+- {scientific: "Tylosurus crocodilus", common: "Hound Needlefish", aliases: ["Crocodile Needlefish"], regions: ["Caribbean", "Eastern Pacific", "Indo-Pacific"]}
+- {scientific: "Ablennes hians", common: "Flat Needlefish", regions: ["Caribbean", "Eastern Pacific", "Indo-Pacific"]}
+- {scientific: "Platybelone argalus", common: "Keeltail Needlefish", regions: ["Caribbean", "Eastern Pacific", "Indo-Pacific"]}
+- {scientific: "Hemiramphus far", common: "Black-barred Halfbeak", regions: ["Indo-Pacific"]}
+- {scientific: "Balistoides viridescens", common: "Titan Triggerfish", aliases: ["Moustache Triggerfish"], regions: ["Indo-Pacific"]}
+- {scientific: "Balistoides conspicillum", common: "Clown Triggerfish", regions: ["Indo-Pacific"]}
+- {scientific: "Balistapus undulatus", common: "Orange-lined Triggerfish", aliases: ["Undulate Triggerfish"], regions: ["Indo-Pacific"]}
+- {scientific: "Rhinecanthus aculeatus", common: "Picasso Triggerfish", aliases: ["Lagoon Triggerfish", "Humuhumunukunukuapua'a"], regions: ["Indo-Pacific"]}
+- {scientific: "Rhinecanthus rectangulus", common: "Wedge-tail Triggerfish", aliases: ["Reef Triggerfish"], regions: ["Indo-Pacific"]}
+- {scientific: "Rhinecanthus verrucosus", common: "Blackbelly Triggerfish", regions: ["Indo-Pacific"]}
+- {scientific: "Sufflamen bursa", common: "Scythe Triggerfish", aliases: ["Boomerang Triggerfish", "Lei Triggerfish"], regions: ["Indo-Pacific"]}
+- {scientific: "Sufflamen chrysopterum", common: "Halfmoon Triggerfish", aliases: ["Flagtail Triggerfish"], regions: ["Indo-Pacific"]}
+- {scientific: "Sufflamen fraenatum", common: "Masked Triggerfish", aliases: ["Bridled Triggerfish"], regions: ["Indo-Pacific"]}
+- {scientific: "Melichthys vidua", common: "Pinktail Triggerfish", regions: ["Indo-Pacific"]}
+- {scientific: "Odonus niger", common: "Redtoothed Triggerfish", aliases: ["Niger Triggerfish"], regions: ["Indo-Pacific"]}
+- {scientific: "Pseudobalistes flavimarginatus", common: "Yellowmargin Triggerfish", regions: ["Indo-Pacific"]}
+- {scientific: "Pseudobalistes fuscus", common: "Yellow-spotted Triggerfish", aliases: ["Blue Triggerfish", "Rippled Triggerfish"], regions: ["Indo-Pacific"]}
+- {scientific: "Xanthichthys auromarginatus", common: "Gilded Triggerfish", regions: ["Indo-Pacific"]}
+- {scientific: "Xanthichthys caeruleolineatus", common: "Outrigger Triggerfish", regions: ["Indo-Pacific"]}
+- {scientific: "Abalistes stellatus", common: "Starry Triggerfish", regions: ["Indo-Pacific"]}
+- {scientific: "Cantherhines pardalis", common: "Honeycomb Filefish", aliases: ["Wire-net Filefish"], regions: ["Indo-Pacific"]}
+- {scientific: "Cantherhines fronticinctus", common: "Spectacled Filefish", regions: ["Indo-Pacific"]}
+- {scientific: "Oxymonacanthus longirostris", common: "Harlequin Filefish", aliases: ["Orange-spotted Filefish", "Longnose Filefish"], regions: ["Indo-Pacific"]}
+- {scientific: "Paraluteres prionurus", common: "Mimic Filefish", aliases: ["Blacksaddle Filefish"], regions: ["Indo-Pacific"]}
+- {scientific: "Pervagor janthinosoma", common: "Blackbar Filefish", regions: ["Indo-Pacific"]}
+- {scientific: "Pervagor melanocephalus", common: "Redtail Filefish", regions: ["Indo-Pacific"]}
+- {scientific: "Pervagor aspricaudus", common: "Orangetail Filefish", regions: ["Indo-Pacific"]}
+- {scientific: "Amanses scopas", common: "Broom Filefish", regions: ["Indo-Pacific"]}
+- {scientific: "Acreichthys tomentosus", common: "Bristle-tail Filefish", regions: ["Indo-Pacific"]}
+- {scientific: "Aluterus monoceros", common: "Unicorn Leatherjacket", aliases: ["Unicorn Filefish"], regions: ["Caribbean", "Eastern Pacific", "Indo-Pacific"]}
+- {scientific: "Ostracion cubicum", common: "Yellow Boxfish", aliases: ["Ostracion cubicus"], regions: ["Indo-Pacific"]}
+- {scientific: "Ostracion solorense", common: "Reticulate Boxfish", aliases: ["Ostracion solorensis"], regions: ["Indo-Pacific"]}
+- {scientific: "Lactoria cornuta", common: "Longhorn Cowfish", regions: ["Indo-Pacific"]}
+- {scientific: "Lactoria fornasini", common: "Thornback Cowfish", regions: ["Indo-Pacific"]}
+- {scientific: "Tetrosomus gibbosus", common: "Humpback Turretfish", regions: ["Indo-Pacific"]}
+- {scientific: "Arothron nigropunctatus", common: "Blackspotted Puffer", aliases: ["Dog-faced Puffer"], regions: ["Indo-Pacific"]}
+- {scientific: "Arothron stellatus", common: "Starry Puffer", aliases: ["Stellate Puffer"], regions: ["Indo-Pacific"]}
+- {scientific: "Arothron mappa", common: "Map Puffer", regions: ["Indo-Pacific"]}
+- {scientific: "Arothron manilensis", common: "Narrow-lined Puffer", regions: ["Indo-Pacific"]}
+- {scientific: "Arothron reticularis", common: "Reticulated Puffer", regions: ["Indo-Pacific"]}
+- {scientific: "Arothron caeruleopunctatus", common: "Blue-spotted Puffer", regions: ["Indo-Pacific"]}
+- {scientific: "Canthigaster valentini", common: "Valentin's Sharpnose Puffer", aliases: ["Black-saddled Toby", "Saddled Puffer"], regions: ["Indo-Pacific"]}
+- {scientific: "Canthigaster solandri", common: "Spotted Sharpnose Toby", aliases: ["Solander's Toby"], regions: ["Indo-Pacific"]}
+- {scientific: "Canthigaster janthinoptera", common: "Honeycomb Toby", regions: ["Indo-Pacific"]}
+- {scientific: "Canthigaster papua", common: "Papuan Toby", regions: ["Indo-Pacific"]}
+- {scientific: "Canthigaster compressa", common: "Compressed Toby", regions: ["Indo-Pacific"]}
+- {scientific: "Canthigaster bennetti", common: "Bennett's Toby", regions: ["Indo-Pacific"]}
+- {scientific: "Canthigaster amboinensis", common: "Ambon Toby", regions: ["Eastern Pacific", "Indo-Pacific"]}
+- {scientific: "Diodon liturosus", common: "Black-blotched Porcupinefish", aliases: ["Shortspine Porcupinefish"], regions: ["Indo-Pacific"]}
+- {scientific: "Cyclichthys orbicularis", common: "Birdbeak Burrfish", regions: ["Indo-Pacific"]}
+- {scientific: "Gymnothorax javanicus", common: "Giant Moray", regions: ["Indo-Pacific"]}
+- {scientific: "Gymnothorax flavimarginatus", common: "Yellow-edged Moray", aliases: ["Yellowmargin Moray"], regions: ["Eastern Pacific", "Indo-Pacific"]}
+- {scientific: "Gymnothorax fimbriatus", common: "Fimbriated Moray", aliases: ["Darkspotted Moray"], regions: ["Indo-Pacific"]}
+- {scientific: "Gymnothorax meleagris", common: "Whitemouth Moray", aliases: ["Turkey Moray"], regions: ["Eastern Pacific", "Indo-Pacific"]}
+- {scientific: "Gymnothorax favagineus", common: "Honeycomb Moray", aliases: ["Laced Moray", "Leopard Moray"], regions: ["Indo-Pacific"]}
+- {scientific: "Gymnothorax undulatus", common: "Undulated Moray", regions: ["Eastern Pacific", "Indo-Pacific"]}
+- {scientific: "Gymnothorax thyrsoideus", common: "Greyface Moray", aliases: ["White-eyed Moray"], regions: ["Indo-Pacific"]}
+- {scientific: "Gymnothorax zonipectis", common: "Bartail Moray", regions: ["Indo-Pacific"]}
+- {scientific: "Gymnothorax breedeni", common: "Blackcheek Moray", regions: ["Indo-Pacific"]}
+- {scientific: "Gymnothorax richardsonii", common: "Richardson's Moray", regions: ["Indo-Pacific"]}
+- {scientific: "Gymnothorax pictus", common: "Peppered Moray", aliases: ["Paintspotted Moray"], regions: ["Eastern Pacific", "Indo-Pacific"]}
+- {scientific: "Gymnothorax melatremus", common: "Dwarf Golden Moray", regions: ["Indo-Pacific"]}
+- {scientific: "Gymnothorax rueppelliae", common: "Banded Moray", aliases: ["Yellow-headed Moray"], regions: ["Indo-Pacific"]}
+- {scientific: "Gymnothorax buroensis", common: "Vagrant Moray", regions: ["Eastern Pacific", "Indo-Pacific"]}
+- {scientific: "Gymnothorax chilospilus", common: "Lipspot Moray", regions: ["Indo-Pacific"]}
+- {scientific: "Gymnothorax nudivomer", common: "Yellowmouth Moray", regions: ["Indo-Pacific"]}
+- {scientific: "Echidna polyzona", common: "Barred Moray", aliases: ["Girdled Moray"], regions: ["Indo-Pacific"]}
+- {scientific: "Rhinomuraena quaesita", common: "Ribbon Eel", aliases: ["Blue Ribbon Eel"], regions: ["Indo-Pacific"]}
+- {scientific: "Enchelycore pardalis", common: "Dragon Moray", aliases: ["Leopard Moray Eel"], regions: ["Indo-Pacific"]}
+- {scientific: "Enchelynassa canina", common: "Viper Moray", regions: ["Indo-Pacific"]}
+- {scientific: "Scuticaria tigrina", common: "Tiger Reef Eel", aliases: ["Tiger Moray"], regions: ["Eastern Pacific", "Indo-Pacific"]}
+- {scientific: "Strophidon sathete", common: "Slender Giant Moray", regions: ["Indo-Pacific"]}
+- {scientific: "Myrichthys colubrinus", common: "Banded Snake Eel", aliases: ["Harlequin Snake Eel"], regions: ["Indo-Pacific"]}
+- {scientific: "Myrichthys maculosus", common: "Spotted Snake Eel", aliases: ["Tiger Snake Eel Pacific"], regions: ["Indo-Pacific"]}
+- {scientific: "Ophichthus bonaparti", common: "Napoleon Snake Eel", aliases: ["Purplebanded Snake Eel"], regions: ["Indo-Pacific"]}
+- {scientific: "Callechelys marmorata", common: "Marbled Snake Eel", regions: ["Indo-Pacific"]}
+- {scientific: "Leiuranus semicinctus", common: "Saddled Snake Eel", regions: ["Indo-Pacific"]}
+- {scientific: "Conger cinereus", common: "Moustache Conger", aliases: ["Blacklip Conger"], regions: ["Indo-Pacific"]}
+- {scientific: "Heteroconger hassi", common: "Spotted Garden Eel", regions: ["Indo-Pacific"]}
+- {scientific: "Gorgasia preclara", common: "Splendid Garden Eel", aliases: ["Orange-barred Garden Eel"], regions: ["Indo-Pacific"]}
+- {scientific: "Gorgasia maculata", common: "Whitespotted Garden Eel", regions: ["Indo-Pacific"]}
+- {scientific: "Heteroconger taylori", common: "Taylor's Garden Eel", regions: ["Indo-Pacific"]}
+- {scientific: "Amphiprion clarkii", common: "Clark's Anemonefish", aliases: ["Yellowtail Clownfish"], regions: ["Indo-Pacific"]}
+- {scientific: "Amphiprion perideraion", common: "Pink Skunk Clownfish", aliases: ["Pink Anemonefish"], regions: ["Indo-Pacific"]}
+- {scientific: "Amphiprion ocellaris", common: "Ocellaris Clownfish", aliases: ["False Clown Anemonefish", "Clownfish"], regions: ["Indo-Pacific"]}
+- {scientific: "Amphiprion percula", common: "Orange Clownfish", aliases: ["True Percula Clownfish"], regions: ["Indo-Pacific"]}
+- {scientific: "Amphiprion chrysopterus", common: "Orangefin Anemonefish", regions: ["Indo-Pacific"]}
+- {scientific: "Amphiprion melanopus", common: "Red-and-black Anemonefish", aliases: ["Fire Clownfish", "Cinnamon Clownfish"], regions: ["Indo-Pacific"]}
+- {scientific: "Amphiprion sandaracinos", common: "Orange Skunk Clownfish", aliases: ["Orange Anemonefish"], regions: ["Indo-Pacific"]}
+- {scientific: "Amphiprion frenatus", common: "Tomato Clownfish", regions: ["Indo-Pacific"]}
+- {scientific: "Amphiprion polymnus", common: "Saddleback Clownfish", aliases: ["Saddleback Anemonefish"], regions: ["Indo-Pacific"]}
+- {scientific: "Amphiprion biaculeatus", common: "Maroon Clownfish", aliases: ["Spinecheek Anemonefish", "Premnas biaculeatus"], regions: ["Indo-Pacific"]}
+- {scientific: "Dascyllus aruanus", common: "Humbug Dascyllus", aliases: ["Whitetail Dascyllus", "Three-stripe Damselfish"], regions: ["Indo-Pacific"]}
+- {scientific: "Dascyllus reticulatus", common: "Reticulated Dascyllus", aliases: ["Two-stripe Damselfish"], regions: ["Indo-Pacific"]}
+- {scientific: "Dascyllus trimaculatus", common: "Threespot Dascyllus", aliases: ["Domino Damselfish"], regions: ["Indo-Pacific"]}
+- {scientific: "Dascyllus melanurus", common: "Blacktail Humbug", aliases: ["Four-stripe Damselfish"], regions: ["Indo-Pacific"]}
+- {scientific: "Chromis viridis", common: "Blue-green Chromis", aliases: ["Green Chromis"], regions: ["Indo-Pacific"]}
+- {scientific: "Chromis atripectoralis", common: "Blackaxil Chromis", regions: ["Indo-Pacific"]}
+- {scientific: "Chromis ternatensis", common: "Ternate Chromis", regions: ["Indo-Pacific"]}
+- {scientific: "Chromis margaritifer", common: "Bicolor Chromis", aliases: ["Pycnochromis margaritifer"], regions: ["Indo-Pacific"]}
+- {scientific: "Chromis amboinensis", common: "Ambon Chromis", aliases: ["Pycnochromis amboinensis"], regions: ["Indo-Pacific"]}
+- {scientific: "Chromis xanthura", common: "Paletail Chromis", regions: ["Indo-Pacific"]}
+- {scientific: "Chromis weberi", common: "Weber's Chromis", regions: ["Indo-Pacific"]}
+- {scientific: "Chromis lepidolepis", common: "Scaly Chromis", aliases: ["Azurina lepidolepis"], regions: ["Indo-Pacific"]}
+- {scientific: "Chromis retrofasciata", common: "Blackbar Chromis", aliases: ["Pycnochromis retrofasciatus"], regions: ["Indo-Pacific"]}
+- {scientific: "Chromis agilis", common: "Agile Chromis", aliases: ["Pycnochromis agilis"], regions: ["Indo-Pacific"]}
+- {scientific: "Chromis analis", common: "Yellow Chromis", regions: ["Indo-Pacific"]}
+- {scientific: "Chromis vanderbilti", common: "Vanderbilt's Chromis", aliases: ["Pycnochromis vanderbilti"], regions: ["Indo-Pacific"]}
+- {scientific: "Chromis iomelas", common: "Half-and-half Chromis", aliases: ["Pycnochromis iomelas"], regions: ["Indo-Pacific"]}
+- {scientific: "Pomacentrus moluccensis", common: "Lemon Damsel", regions: ["Indo-Pacific"]}
+- {scientific: "Pomacentrus coelestis", common: "Neon Damsel", regions: ["Indo-Pacific"]}
+- {scientific: "Pomacentrus pavo", common: "Sapphire Damsel", aliases: ["Peacock Damsel"], regions: ["Indo-Pacific"]}
+- {scientific: "Pomacentrus amboinensis", common: "Ambon Damsel", regions: ["Indo-Pacific"]}
+- {scientific: "Pomacentrus vaiuli", common: "Princess Damsel", aliases: ["Ocellate Damsel"], regions: ["Indo-Pacific"]}
+- {scientific: "Pomacentrus philippinus", common: "Philippine Damsel", regions: ["Indo-Pacific"]}
+- {scientific: "Pomacentrus bankanensis", common: "Speckled Damsel", regions: ["Indo-Pacific"]}
+- {scientific: "Pomacentrus lepidogenys", common: "Scaly Damsel", regions: ["Indo-Pacific"]}
+- {scientific: "Pomacentrus brachialis", common: "Charcoal Damsel", regions: ["Indo-Pacific"]}
+- {scientific: "Pomacentrus nigromanus", common: "Goldback Damsel", regions: ["Indo-Pacific"]}
+- {scientific: "Pomacentrus chrysurus", common: "Whitetail Damsel", regions: ["Indo-Pacific"]}
+- {scientific: "Pomacentrus adelus", common: "Obscure Damsel", regions: ["Indo-Pacific"]}
+- {scientific: "Pomacentrus grammorhynchus", common: "Bluespot Damsel", regions: ["Indo-Pacific"]}
+- {scientific: "Chrysiptera cyanea", common: "Sapphire Devil", aliases: ["Blue Devil Damsel"], regions: ["Indo-Pacific"]}
+- {scientific: "Chrysiptera talboti", common: "Talbot's Demoiselle", regions: ["Indo-Pacific"]}
+- {scientific: "Chrysiptera rex", common: "King Demoiselle", regions: ["Indo-Pacific"]}
+- {scientific: "Chrysiptera rollandi", common: "Rolland's Demoiselle", regions: ["Indo-Pacific"]}
+- {scientific: "Chrysiptera unimaculata", common: "Onespot Demoiselle", regions: ["Indo-Pacific"]}
+- {scientific: "Chrysiptera glauca", common: "Grey Demoiselle", regions: ["Indo-Pacific"]}
+- {scientific: "Chrysiptera biocellata", common: "Twinspot Demoiselle", regions: ["Indo-Pacific"]}
+- {scientific: "Chrysiptera brownriggii", common: "Surge Demoiselle", regions: ["Indo-Pacific"]}
+- {scientific: "Chrysiptera oxycephala", common: "Bluespot Demoiselle", regions: ["Indo-Pacific"]}
+- {scientific: "Chrysiptera springeri", common: "Springer's Demoiselle", regions: ["Indo-Pacific"]}
+- {scientific: "Chrysiptera starcki", common: "Starck's Demoiselle", regions: ["Indo-Pacific"]}
+- {scientific: "Chrysiptera traceyi", common: "Tracey's Demoiselle", regions: ["Indo-Pacific"]}
+- {scientific: "Neoglyphidodon melas", common: "Bowtie Damsel", aliases: ["Black Damsel"], regions: ["Indo-Pacific"]}
+- {scientific: "Neoglyphidodon nigroris", common: "Black-and-gold Damsel", aliases: ["Behn's Damsel"], regions: ["Indo-Pacific"]}
+- {scientific: "Neoglyphidodon crossi", common: "Cross's Damsel", regions: ["Indo-Pacific"]}
+- {scientific: "Neoglyphidodon oxyodon", common: "Bluestreak Damsel", aliases: ["Javanese Damsel"], regions: ["Indo-Pacific"]}
+- {scientific: "Neopomacentrus azysron", common: "Yellowtail Demoiselle", regions: ["Indo-Pacific"]}
+- {scientific: "Neopomacentrus violascens", common: "Violet Demoiselle", regions: ["Indo-Pacific"]}
+- {scientific: "Neopomacentrus cyanomos", common: "Regal Demoiselle", regions: ["Indo-Pacific"]}
+- {scientific: "Neopomacentrus nemurus", common: "Coral Demoiselle", regions: ["Indo-Pacific"]}
+- {scientific: "Amblyglyphidodon curacao", common: "Staghorn Damsel", regions: ["Indo-Pacific"]}
+- {scientific: "Amblyglyphidodon aureus", common: "Golden Damsel", regions: ["Indo-Pacific"]}
+- {scientific: "Amblyglyphidodon leucogaster", common: "Whitebelly Damsel", regions: ["Indo-Pacific"]}
+- {scientific: "Amblyglyphidodon ternatensis", common: "Ternate Damsel", regions: ["Indo-Pacific"]}
+- {scientific: "Amblyglyphidodon batunaorum", common: "Batuna's Damsel", aliases: ["Amblyglyphidodon batunai"], regions: ["Indo-Pacific"]}
+- {scientific: "Plectroglyphidodon lacrymatus", common: "Jewel Damsel", aliases: ["Whitespotted Devil", "Stegastes lacrymatus"], regions: ["Indo-Pacific"]}
+- {scientific: "Plectroglyphidodon dickii", common: "Dick's Damsel", aliases: ["Blackbar Devil"], regions: ["Indo-Pacific"]}
+- {scientific: "Plectroglyphidodon johnstonianus", common: "Johnston Damsel", aliases: ["Blunt Snout Gregory"], regions: ["Indo-Pacific"]}
+- {scientific: "Plectroglyphidodon leucozona", common: "Singlebar Devil", regions: ["Indo-Pacific"]}
+- {scientific: "Stegastes fasciolatus", common: "Pacific Gregory", aliases: ["Plectroglyphidodon fasciolatus"], regions: ["Indo-Pacific"]}
+- {scientific: "Stegastes nigricans", common: "Dusky Farmerfish", regions: ["Indo-Pacific"]}
+- {scientific: "Stegastes lividus", common: "Bluntsnout Gregory", regions: ["Indo-Pacific"]}
+- {scientific: "Stegastes albifasciatus", common: "Whitebar Gregory", regions: ["Indo-Pacific"]}
+- {scientific: "Abudefduf vaigiensis", common: "Indo-Pacific Sergeant", regions: ["Indo-Pacific"]}
+- {scientific: "Abudefduf sexfasciatus", common: "Scissortail Sergeant", regions: ["Indo-Pacific"]}
+- {scientific: "Abudefduf septemfasciatus", common: "Banded Sergeant", regions: ["Indo-Pacific"]}
+- {scientific: "Abudefduf sordidus", common: "Blackspot Sergeant", regions: ["Indo-Pacific"]}
+- {scientific: "Abudefduf lorenzi", common: "Black-tail Sergeant", regions: ["Indo-Pacific"]}
+- {scientific: "Abudefduf notatus", common: "Yellowtail Sergeant", regions: ["Indo-Pacific"]}
+- {scientific: "Dischistodus perspicillatus", common: "White Damsel", regions: ["Indo-Pacific"]}
+- {scientific: "Dischistodus melanotus", common: "Blackvent Damsel", regions: ["Indo-Pacific"]}
+- {scientific: "Dischistodus prosopotaenia", common: "Honey-head Damsel", regions: ["Indo-Pacific"]}
+- {scientific: "Hemiglyphidodon plagiometopon", common: "Lagoon Damsel", regions: ["Indo-Pacific"]}
+- {scientific: "Cheiloprion labiatus", common: "Big-lip Damsel", regions: ["Indo-Pacific"]}
+- {scientific: "Acanthochromis polyacanthus", common: "Spiny Chromis", regions: ["Indo-Pacific"]}
+- {scientific: "Lepidozygus tapeinosoma", common: "Fusilier Damsel", regions: ["Indo-Pacific"]}
+- {scientific: "Amblypomacentrus breviceps", common: "Black-banded Demoiselle", regions: ["Indo-Pacific"]}
+- {scientific: "Nemateleotris magnifica", common: "Fire Dartfish", aliases: ["Fire Goby", "Firefish"], regions: ["Indo-Pacific"]}
+- {scientific: "Nemateleotris decora", common: "Purple Firefish", aliases: ["Elegant Firefish", "Decorated Dartfish"], regions: ["Indo-Pacific"]}
+- {scientific: "Nemateleotris helfrichi", common: "Helfrich's Firefish", aliases: ["Helfrich's Dartfish"], regions: ["Indo-Pacific"]}
+- {scientific: "Ptereleotris evides", common: "Blackfin Dartfish", aliases: ["Arrow Dartfish", "Scissortail Dartfish"], regions: ["Indo-Pacific"]}
+- {scientific: "Ptereleotris zebra", common: "Zebra Dartfish", regions: ["Indo-Pacific"]}
+- {scientific: "Ptereleotris heteroptera", common: "Spottail Dartfish", regions: ["Indo-Pacific"]}
+- {scientific: "Ptereleotris microlepis", common: "Pearly Dartfish", regions: ["Indo-Pacific"]}
+- {scientific: "Ptereleotris hanae", common: "Threadfin Dartfish", regions: ["Indo-Pacific"]}
+- {scientific: "Valenciennea strigata", common: "Blueband Goby", aliases: ["Goldhead Sleeper Goby"], regions: ["Indo-Pacific"]}
+- {scientific: "Valenciennea puellaris", common: "Maiden Goby", aliases: ["Orange-dashed Goby"], regions: ["Indo-Pacific"]}
+- {scientific: "Valenciennea sexguttata", common: "Sixspot Goby", regions: ["Indo-Pacific"]}
+- {scientific: "Valenciennea helsdingenii", common: "Twostripe Goby", regions: ["Indo-Pacific"]}
+- {scientific: "Valenciennea longipinnis", common: "Longfinned Goby", regions: ["Indo-Pacific"]}
+- {scientific: "Amblyeleotris guttata", common: "Spotted Prawn-goby", regions: ["Indo-Pacific"]}
+- {scientific: "Amblyeleotris steinitzi", common: "Steinitz's Prawn-goby", regions: ["Indo-Pacific"]}
+- {scientific: "Amblyeleotris wheeleri", common: "Gorgeous Prawn-goby", aliases: ["Wheeler's Shrimpgoby"], regions: ["Indo-Pacific"]}
+- {scientific: "Amblyeleotris randalli", common: "Randall's Prawn-goby", regions: ["Indo-Pacific"]}
+- {scientific: "Amblyeleotris periophthalmus", common: "Broad-banded Prawn-goby", regions: ["Indo-Pacific"]}
+- {scientific: "Amblyeleotris fontanesii", common: "Giant Prawn-goby", regions: ["Indo-Pacific"]}
+- {scientific: "Amblyeleotris yanoi", common: "Flagtail Prawn-goby", regions: ["Indo-Pacific"]}
+- {scientific: "Amblyeleotris aurora", common: "Pinkbar Prawn-goby", regions: ["Indo-Pacific"]}
+- {scientific: "Cryptocentrus cinctus", common: "Yellow Prawn-goby", aliases: ["Yellow Watchman Goby"], regions: ["Indo-Pacific"]}
+- {scientific: "Cryptocentrus leptocephalus", common: "Pink-speckled Prawn-goby", regions: ["Indo-Pacific"]}
+- {scientific: "Cryptocentrus fasciatus", common: "Y-bar Prawn-goby", regions: ["Indo-Pacific"]}
+- {scientific: "Cryptocentrus strigilliceps", common: "Target Prawn-goby", regions: ["Indo-Pacific"]}
+- {scientific: "Ctenogobiops feroculus", common: "Sandy Prawn-goby", regions: ["Indo-Pacific"]}
+- {scientific: "Ctenogobiops pomastictus", common: "Goldspeckled Prawn-goby", regions: ["Indo-Pacific"]}
+- {scientific: "Ctenogobiops tangaroai", common: "Tangaroa Prawn-goby", regions: ["Indo-Pacific"]}
+- {scientific: "Stonogobiops nematodes", common: "Filament-finned Prawn-goby", aliases: ["Blackray Shrimpgoby", "Hi-fin Red Banded Goby"], regions: ["Indo-Pacific"]}
+- {scientific: "Stonogobiops yasha", common: "Yasha Goby", aliases: ["Orange-striped Shrimpgoby"], regions: ["Indo-Pacific"]}
+- {scientific: "Stonogobiops xanthorhinicus", common: "Yellownose Prawn-goby", regions: ["Indo-Pacific"]}
+- {scientific: "Vanderhorstia ambanoro", common: "Ambanoro Prawn-goby", regions: ["Indo-Pacific"]}
+- {scientific: "Mahidolia mystacina", common: "Flagfin Prawn-goby", regions: ["Indo-Pacific"]}
+- {scientific: "Tomiyamichthys oni", common: "Monster Shrimpgoby", regions: ["Indo-Pacific"]}
+- {scientific: "Lotilia graciliosa", common: "Whitecap Shrimpgoby", regions: ["Indo-Pacific"]}
+- {scientific: "Istigobius decoratus", common: "Decorated Goby", regions: ["Indo-Pacific"]}
+- {scientific: "Istigobius rigilius", common: "Rigilius Goby", aliases: ["Orange-spotted Sand Goby"], regions: ["Indo-Pacific"]}
+- {scientific: "Amblygobius phalaena", common: "Banded Goby", aliases: ["Whitebarred Goby"], regions: ["Indo-Pacific"]}
+- {scientific: "Amblygobius decussatus", common: "Orange-striped Goby", regions: ["Indo-Pacific"]}
+- {scientific: "Koumansetta rainfordi", common: "Rainford's Goby", aliases: ["Old Glory Goby", "Amblygobius rainfordi"], regions: ["Indo-Pacific"]}
+- {scientific: "Koumansetta hectori", common: "Hector's Goby", aliases: ["Amblygobius hectori"], regions: ["Indo-Pacific"]}
+- {scientific: "Amblygobius sphynx", common: "Sphinx Goby", regions: ["Indo-Pacific"]}
+- {scientific: "Gobiodon okinawae", common: "Yellow Coral Goby", aliases: ["Okinawa Goby"], regions: ["Indo-Pacific"]}
+- {scientific: "Gobiodon citrinus", common: "Citron Coral Goby", regions: ["Indo-Pacific"]}
+- {scientific: "Gobiodon histrio", common: "Broad-barred Coral Goby", regions: ["Indo-Pacific"]}
+- {scientific: "Gobiodon quinquestrigatus", common: "Five-lined Coral Goby", regions: ["Indo-Pacific"]}
+- {scientific: "Paragobiodon echinocephalus", common: "Redhead Coral Goby", regions: ["Indo-Pacific"]}
+- {scientific: "Paragobiodon xanthosoma", common: "Emerald Coral Goby", regions: ["Indo-Pacific"]}
+- {scientific: "Trimma tevegae", common: "Bluestriped Cave Goby", aliases: ["Tevega's Pygmy Goby"], regions: ["Indo-Pacific"]}
+- {scientific: "Trimma okinawae", common: "Okinawa Pygmy Goby", regions: ["Indo-Pacific"]}
+- {scientific: "Trimma striatum", common: "Stripehead Pygmy Goby", regions: ["Indo-Pacific"]}
+- {scientific: "Trimma cana", common: "Candycane Pygmy Goby", regions: ["Indo-Pacific"]}
+- {scientific: "Trimma benjamini", common: "Ring-eye Pygmy Goby", regions: ["Indo-Pacific"]}
+- {scientific: "Bryaninops yongei", common: "Wire Coral Goby", aliases: ["Whip Goby"], regions: ["Indo-Pacific"]}
+- {scientific: "Bryaninops natans", common: "Redeye Goby", aliases: ["Purple-eyed Goby"], regions: ["Indo-Pacific"]}
+- {scientific: "Bryaninops amplus", common: "Large Whip Goby", regions: ["Indo-Pacific"]}
+- {scientific: "Pleurosicya mossambica", common: "Toothy Goby", aliases: ["Mozambique Ghost Goby"], regions: ["Indo-Pacific"]}
+- {scientific: "Pleurosicya micheli", common: "Michel's Ghost Goby", regions: ["Indo-Pacific"]}
+- {scientific: "Signigobius biocellatus", common: "Crab-eye Goby", aliases: ["Twinspot Goby", "Signal Goby"], regions: ["Indo-Pacific"]}
+- {scientific: "Exyrias belissimus", common: "Mud Reef Goby", regions: ["Indo-Pacific"]}
+- {scientific: "Gnatholepis anjerensis", common: "Eye-bar Goby", regions: ["Indo-Pacific"]}
+- {scientific: "Gnatholepis cauerensis", common: "Eyebar Sand Goby", regions: ["Indo-Pacific"]}
+- {scientific: "Fusigobius neophytus", common: "Common Fusegoby", regions: ["Indo-Pacific"]}
+- {scientific: "Fusigobius signipinnis", common: "Flasher Sandgoby", regions: ["Indo-Pacific"]}
+- {scientific: "Oplopomus oplopomus", common: "Spinecheek Goby", regions: ["Indo-Pacific"]}
+- {scientific: "Asterropteryx semipunctata", common: "Starry Goby", regions: ["Indo-Pacific"]}
+- {scientific: "Macrodontogobius wilburi", common: "Wilbur's Goby", regions: ["Indo-Pacific"]}
+- {scientific: "Eviota sebreei", common: "Sebree's Pygmy Goby", regions: ["Indo-Pacific"]}
+- {scientific: "Eviota bifasciata", common: "Twostripe Pygmy Goby", regions: ["Indo-Pacific"]}
+- {scientific: "Eviota nigriventris", common: "Redbelly Pygmy Goby", regions: ["Indo-Pacific"]}
+- {scientific: "Eviota pellucida", common: "Neon Pygmy Goby", regions: ["Indo-Pacific"]}
+- {scientific: "Periophthalmus argentilineatus", common: "Barred Mudskipper", aliases: ["Silverlined Mudskipper"], regions: ["Indo-Pacific"]}
+- {scientific: "Ecsenius bicolor", common: "Bicolor Blenny", regions: ["Indo-Pacific"]}
+- {scientific: "Ecsenius midas", common: "Midas Blenny", regions: ["Indo-Pacific"]}
+- {scientific: "Ecsenius lineatus", common: "Linear Blenny", regions: ["Indo-Pacific"]}
+- {scientific: "Ecsenius yaeyamaensis", common: "Yaeyama Blenny", regions: ["Indo-Pacific"]}
+- {scientific: "Ecsenius bathi", common: "Bath's Comb-tooth Blenny", regions: ["Indo-Pacific"]}
+- {scientific: "Ecsenius stigmatura", common: "Tailspot Blenny", regions: ["Indo-Pacific"]}
+- {scientific: "Ecsenius namiyei", common: "Black Comb-tooth Blenny", regions: ["Indo-Pacific"]}
+- {scientific: "Meiacanthus grammistes", common: "Striped Fangblenny", aliases: ["Striped Poison-fang Blenny"], regions: ["Indo-Pacific"]}
+- {scientific: "Meiacanthus atrodorsalis", common: "Forktail Fangblenny", aliases: ["Yellowtail Fangblenny"], regions: ["Indo-Pacific"]}
+- {scientific: "Meiacanthus smithi", common: "Smith's Fangblenny", aliases: ["Disco Blenny"], regions: ["Indo-Pacific"]}
+- {scientific: "Meiacanthus ditrema", common: "One-striped Fangblenny", regions: ["Indo-Pacific"]}
+- {scientific: "Plagiotremus rhinorhynchos", common: "Bluestriped Fangblenny", regions: ["Indo-Pacific"]}
+- {scientific: "Plagiotremus tapeinosoma", common: "Piano Fangblenny", aliases: ["Scale-eating Fangblenny"], regions: ["Indo-Pacific"]}
+- {scientific: "Plagiotremus laudandus", common: "Bicolor Fangblenny", regions: ["Indo-Pacific"]}
+- {scientific: "Aspidontus taeniatus", common: "False Cleanerfish", aliases: ["Cleaner Mimic"], regions: ["Indo-Pacific"]}
+- {scientific: "Aspidontus dussumieri", common: "Lance Blenny", regions: ["Indo-Pacific"]}
+- {scientific: "Petroscirtes mitratus", common: "Floral Blenny", regions: ["Indo-Pacific"]}
+- {scientific: "Petroscirtes breviceps", common: "Striped Poison-fang Blenny Mimic", aliases: ["Shorthead Fangblenny"], regions: ["Indo-Pacific"]}
+- {scientific: "Petroscirtes variabilis", common: "Variable Sabretooth Blenny", regions: ["Indo-Pacific"]}
+- {scientific: "Salarias fasciatus", common: "Jewelled Blenny", aliases: ["Lawnmower Blenny"], regions: ["Indo-Pacific"]}
+- {scientific: "Salarias ramosus", common: "Starry Blenny", regions: ["Indo-Pacific"]}
+- {scientific: "Salarias segmentatus", common: "Segmented Blenny", regions: ["Indo-Pacific"]}
+- {scientific: "Cirripectes stigmaticus", common: "Red-streaked Blenny", regions: ["Indo-Pacific"]}
+- {scientific: "Cirripectes variolosus", common: "Red-speckled Blenny", regions: ["Indo-Pacific"]}
+- {scientific: "Cirripectes castaneus", common: "Chestnut Eyelash Blenny", regions: ["Indo-Pacific"]}
+- {scientific: "Cirripectes chelomatus", common: "Lady Musgrave Blenny", regions: ["Indo-Pacific"]}
+- {scientific: "Cirripectes filamentosus", common: "Filamentous Blenny", regions: ["Indo-Pacific"]}
+- {scientific: "Cirripectes polyzona", common: "Barred Blenny", regions: ["Indo-Pacific"]}
+- {scientific: "Cirripectes quagga", common: "Squiggly Blenny", regions: ["Indo-Pacific"]}
+- {scientific: "Exallias brevis", common: "Leopard Blenny", regions: ["Indo-Pacific"]}
+- {scientific: "Istiblennius edentulus", common: "Rippled Rockskipper", regions: ["Indo-Pacific"]}
+- {scientific: "Istiblennius lineatus", common: "Lined Rockskipper", regions: ["Indo-Pacific"]}
+- {scientific: "Blenniella chrysospilos", common: "Red-spotted Blenny", aliases: ["Orange-spotted Blenny"], regions: ["Indo-Pacific"]}
+- {scientific: "Blenniella periophthalmus", common: "Blue-dashed Rockskipper", regions: ["Indo-Pacific"]}
+- {scientific: "Atrosalarias fuscus", common: "Brown Coral Blenny", aliases: ["Dusky Blenny"], regions: ["Indo-Pacific"]}
+- {scientific: "Crossosalarias macrospilus", common: "Triplespot Blenny", regions: ["Indo-Pacific"]}
+- {scientific: "Entomacrodus striatus", common: "Reef Margin Blenny", regions: ["Indo-Pacific"]}
+- {scientific: "Sphaeramia nematoptera", common: "Pajama Cardinalfish", aliases: ["Polka-dot Cardinalfish"], regions: ["Indo-Pacific"]}
+- {scientific: "Sphaeramia orbicularis", common: "Orbiculate Cardinalfish", regions: ["Indo-Pacific"]}
+- {scientific: "Ostorhinchus aureus", common: "Ring-tailed Cardinalfish", regions: ["Indo-Pacific"]}
+- {scientific: "Ostorhinchus cyanosoma", common: "Yellowstriped Cardinalfish", aliases: ["Orange-lined Cardinalfish"], regions: ["Indo-Pacific"]}
+- {scientific: "Ostorhinchus compressus", common: "Ochre-striped Cardinalfish", regions: ["Indo-Pacific"]}
+- {scientific: "Ostorhinchus angustatus", common: "Broadstriped Cardinalfish", regions: ["Indo-Pacific"]}
+- {scientific: "Ostorhinchus nigrofasciatus", common: "Blackstripe Cardinalfish", regions: ["Indo-Pacific"]}
+- {scientific: "Ostorhinchus novemfasciatus", common: "Sevenstriped Cardinalfish", regions: ["Indo-Pacific"]}
+- {scientific: "Ostorhinchus cookii", common: "Cook's Cardinalfish", regions: ["Indo-Pacific"]}
+- {scientific: "Ostorhinchus apogonoides", common: "Short-tooth Cardinalfish", aliases: ["Plain Cardinalfish"], regions: ["Indo-Pacific"]}
+- {scientific: "Ostorhinchus fleurieu", common: "Flower Cardinalfish", regions: ["Indo-Pacific"]}
+- {scientific: "Ostorhinchus endekataenia", common: "Candystripe Cardinalfish", regions: ["Indo-Pacific"]}
+- {scientific: "Ostorhinchus hartzfeldii", common: "Hartzfeld's Cardinalfish", regions: ["Indo-Pacific"]}
+- {scientific: "Ostorhinchus chrysopomus", common: "Spotted-gill Cardinalfish", regions: ["Indo-Pacific"]}
+- {scientific: "Ostorhinchus moluccensis", common: "Moluccan Cardinalfish", regions: ["Indo-Pacific"]}
+- {scientific: "Ostorhinchus sealei", common: "Seale's Cardinalfish", regions: ["Indo-Pacific"]}
+- {scientific: "Ostorhinchus wassinki", common: "Kupang Cardinalfish", regions: ["Indo-Pacific"]}
+- {scientific: "Cheilodipterus quinquelineatus", common: "Fiveline Cardinalfish", regions: ["Indo-Pacific"]}
+- {scientific: "Cheilodipterus macrodon", common: "Tiger Cardinalfish", aliases: ["Large-toothed Cardinalfish"], regions: ["Indo-Pacific"]}
+- {scientific: "Cheilodipterus artus", common: "Wolf Cardinalfish", regions: ["Indo-Pacific"]}
+- {scientific: "Cheilodipterus isostigma", common: "Dog-toothed Cardinalfish", regions: ["Indo-Pacific"]}
+- {scientific: "Taeniamia zosterophora", common: "Girdled Cardinalfish", aliases: ["Blackbelted Cardinalfish", "Archamia zosterophora"], regions: ["Indo-Pacific"]}
+- {scientific: "Taeniamia fucata", common: "Orangelined Cardinalfish", aliases: ["Archamia fucata"], regions: ["Indo-Pacific"]}
+- {scientific: "Zoramia leptacanthus", common: "Threadfin Cardinalfish", regions: ["Indo-Pacific"]}
+- {scientific: "Zoramia fragilis", common: "Fragile Cardinalfish", regions: ["Indo-Pacific"]}
+- {scientific: "Nectamia fusca", common: "Ghost Cardinalfish", regions: ["Indo-Pacific"]}
+- {scientific: "Nectamia savayensis", common: "Samoan Cardinalfish", regions: ["Indo-Pacific"]}
+- {scientific: "Pristiapogon kallopterus", common: "Iridescent Cardinalfish", aliases: ["Spinyhead Cardinalfish"], regions: ["Indo-Pacific"]}
+- {scientific: "Pristiapogon fraenatus", common: "Bridled Cardinalfish", regions: ["Indo-Pacific"]}
+- {scientific: "Pristiapogon exostigma", common: "Narrowstripe Cardinalfish", regions: ["Indo-Pacific"]}
+- {scientific: "Rhabdamia gracilis", common: "Slender Cardinalfish", regions: ["Indo-Pacific"]}
+- {scientific: "Paracirrhites forsteri", common: "Freckled Hawkfish", aliases: ["Blackside Hawkfish", "Forster's Hawkfish"], regions: ["Indo-Pacific"]}
+- {scientific: "Paracirrhites arcatus", common: "Arc-eye Hawkfish", regions: ["Indo-Pacific"]}
+- {scientific: "Paracirrhites hemistictus", common: "Halfspotted Hawkfish", regions: ["Indo-Pacific"]}
+- {scientific: "Cirrhitichthys falco", common: "Dwarf Hawkfish", aliases: ["Falco Hawkfish"], regions: ["Indo-Pacific"]}
+- {scientific: "Cirrhitichthys aprinus", common: "Spotted Hawkfish", aliases: ["Threadfin Hawkfish"], regions: ["Indo-Pacific"]}
+- {scientific: "Cirrhitus pinnulatus", common: "Stocky Hawkfish", regions: ["Indo-Pacific"]}
+- {scientific: "Neocirrhites armatus", common: "Flame Hawkfish", regions: ["Indo-Pacific"]}
+- {scientific: "Cyprinocirrhites polyactis", common: "Lyretail Hawkfish", aliases: ["Swallowtail Hawkfish"], regions: ["Indo-Pacific"]}
+- {scientific: "Amblycirrhitus bimacula", common: "Twinspot Hawkfish", regions: ["Indo-Pacific"]}
+- {scientific: "Pterois antennata", common: "Spotfin Lionfish", aliases: ["Broadbarred Lionfish", "Ragged-finned Lionfish", "Pteropterus antennatus"], regions: ["Indo-Pacific"]}
+- {scientific: "Pterois radiata", common: "Clearfin Lionfish", aliases: ["Radial Lionfish", "Tailbar Lionfish", "Pteropterus radiatus"], regions: ["Indo-Pacific"]}
+- {scientific: "Pterois lunulata", common: "Luna Lionfish", regions: ["Indo-Pacific"]}
+- {scientific: "Dendrochirus zebra", common: "Zebra Lionfish", aliases: ["Zebra Turkeyfish"], regions: ["Indo-Pacific"]}
+- {scientific: "Dendrochirus brachypterus", common: "Shortfin Lionfish", aliases: ["Dwarf Lionfish", "Neochirus brachyptera"], regions: ["Indo-Pacific"]}
+- {scientific: "Dendrochirus biocellatus", common: "Twospot Lionfish", aliases: ["Fu Manchu Lionfish", "Nemapterois biocellatus"], regions: ["Indo-Pacific"]}
+- {scientific: "Scorpaenopsis oxycephala", common: "Tassled Scorpionfish", regions: ["Indo-Pacific"]}
+- {scientific: "Scorpaenopsis diabolus", common: "False Stonefish", aliases: ["Devil Scorpionfish"], regions: ["Indo-Pacific"]}
+- {scientific: "Scorpaenopsis macrochir", common: "Flasher Scorpionfish", regions: ["Indo-Pacific"]}
+- {scientific: "Scorpaenopsis papuensis", common: "Papuan Scorpionfish", regions: ["Indo-Pacific"]}
+- {scientific: "Scorpaenopsis venosa", common: "Raggy Scorpionfish", regions: ["Indo-Pacific"]}
+- {scientific: "Scorpaenopsis possi", common: "Poss's Scorpionfish", regions: ["Indo-Pacific"]}
+- {scientific: "Synanceia verrucosa", common: "Reef Stonefish", aliases: ["Stonefish"], regions: ["Indo-Pacific"]}
+- {scientific: "Synanceia horrida", common: "Estuarine Stonefish", regions: ["Indo-Pacific"]}
+- {scientific: "Inimicus didactylus", common: "Spiny Devilfish", aliases: ["Demon Stinger", "Bearded Ghoul"], regions: ["Indo-Pacific"]}
+- {scientific: "Taenianotus triacanthus", common: "Leaf Scorpionfish", aliases: ["Paperfish"], regions: ["Indo-Pacific"]}
+- {scientific: "Rhinopias frondosa", common: "Weedy Scorpionfish", regions: ["Indo-Pacific"]}
+- {scientific: "Rhinopias aphanes", common: "Lacy Scorpionfish", regions: ["Indo-Pacific"]}
+- {scientific: "Rhinopias eschmeyeri", common: "Eschmeyer's Scorpionfish", aliases: ["Paddle-flap Scorpionfish"], regions: ["Indo-Pacific"]}
+- {scientific: "Sebastapistes cyanostigma", common: "Yellowspotted Scorpionfish", regions: ["Indo-Pacific"]}
+- {scientific: "Sebastapistes strongia", common: "Barchin Scorpionfish", regions: ["Indo-Pacific"]}
+- {scientific: "Scorpaenodes guamensis", common: "Guam Scorpionfish", regions: ["Indo-Pacific"]}
+- {scientific: "Parascorpaena mossambica", common: "Mozambique Scorpionfish", regions: ["Indo-Pacific"]}
+- {scientific: "Ablabys taenianotus", common: "Cockatoo Waspfish", regions: ["Indo-Pacific"]}
+- {scientific: "Caracanthus maculatus", common: "Spotted Coral Croucher", regions: ["Indo-Pacific"]}
+- {scientific: "Caracanthus unipinna", common: "Pygmy Coral Croucher", regions: ["Indo-Pacific"]}
+- {scientific: "Iracundus signifer", common: "Decoy Scorpionfish", regions: ["Indo-Pacific"]}
+- {scientific: "Myripristis murdjan", common: "Pinecone Soldierfish", regions: ["Indo-Pacific"]}
+- {scientific: "Myripristis berndti", common: "Blotcheye Soldierfish", aliases: ["Bigscale Soldierfish"], regions: ["Eastern Pacific", "Indo-Pacific"]}
+- {scientific: "Myripristis violacea", common: "Lattice Soldierfish", aliases: ["Violet Soldierfish"], regions: ["Indo-Pacific"]}
+- {scientific: "Myripristis kuntee", common: "Shoulderbar Soldierfish", aliases: ["Epaulette Soldierfish"], regions: ["Indo-Pacific"]}
+- {scientific: "Myripristis adusta", common: "Shadowfin Soldierfish", aliases: ["Bronze Soldierfish"], regions: ["Indo-Pacific"]}
+- {scientific: "Myripristis pralinia", common: "Scarlet Soldierfish", regions: ["Indo-Pacific"]}
+- {scientific: "Myripristis vittata", common: "Whitetip Soldierfish", regions: ["Indo-Pacific"]}
+- {scientific: "Myripristis hexagona", common: "Doubletooth Soldierfish", regions: ["Indo-Pacific"]}
+- {scientific: "Sargocentron spiniferum", common: "Sabre Squirrelfish", aliases: ["Giant Squirrelfish", "Longjaw Sabre Squirrelfish"], regions: ["Indo-Pacific"]}
+- {scientific: "Sargocentron caudimaculatum", common: "Tailspot Squirrelfish", aliases: ["Silverspot Squirrelfish"], regions: ["Indo-Pacific"]}
+- {scientific: "Sargocentron diadema", common: "Crown Squirrelfish", regions: ["Indo-Pacific"]}
+- {scientific: "Sargocentron rubrum", common: "Redcoat Squirrelfish", regions: ["Indo-Pacific"]}
+- {scientific: "Sargocentron tiere", common: "Blue-lined Squirrelfish", aliases: ["Tahitian Squirrelfish"], regions: ["Indo-Pacific"]}
+- {scientific: "Sargocentron melanospilos", common: "Blackblotch Squirrelfish", regions: ["Indo-Pacific"]}
+- {scientific: "Sargocentron microstoma", common: "Smallmouth Squirrelfish", regions: ["Indo-Pacific"]}
+- {scientific: "Sargocentron punctatissimum", common: "Speckled Squirrelfish", regions: ["Indo-Pacific"]}
+- {scientific: "Sargocentron ittodai", common: "Samurai Squirrelfish", regions: ["Indo-Pacific"]}
+- {scientific: "Sargocentron violaceum", common: "Violet Squirrelfish", regions: ["Indo-Pacific"]}
+- {scientific: "Sargocentron cornutum", common: "Threespot Squirrelfish", regions: ["Indo-Pacific"]}
+- {scientific: "Neoniphon sammara", common: "Sammara Squirrelfish", aliases: ["Spotfin Squirrelfish", "Bloodspot Squirrelfish"], regions: ["Indo-Pacific"]}
+- {scientific: "Neoniphon opercularis", common: "Blackfin Squirrelfish", regions: ["Indo-Pacific"]}
+- {scientific: "Neoniphon argenteus", common: "Clearfin Squirrelfish", regions: ["Indo-Pacific"]}
+- {scientific: "Plectrypops lima", common: "Shy Soldierfish", regions: ["Indo-Pacific"]}
+- {scientific: "Parupeneus barberinus", common: "Dash-and-dot Goatfish", aliases: ["Dash-dot Goatfish"], regions: ["Indo-Pacific"]}
+- {scientific: "Parupeneus cyclostomus", common: "Goldsaddle Goatfish", aliases: ["Yellowsaddle Goatfish", "Blue Goatfish"], regions: ["Indo-Pacific"]}
+- {scientific: "Parupeneus multifasciatus", common: "Manybar Goatfish", aliases: ["Multibarred Goatfish"], regions: ["Indo-Pacific"]}
+- {scientific: "Parupeneus crassilabris", common: "Doublebar Goatfish", aliases: ["Twobar Goatfish", "Parupeneus bifasciatus"], regions: ["Indo-Pacific"]}
+- {scientific: "Parupeneus indicus", common: "Indian Goatfish", regions: ["Indo-Pacific"]}
+- {scientific: "Parupeneus pleurostigma", common: "Sidespot Goatfish", regions: ["Indo-Pacific"]}
+- {scientific: "Parupeneus heptacantha", common: "Cinnabar Goatfish", regions: ["Indo-Pacific"]}
+- {scientific: "Parupeneus ciliatus", common: "Whitesaddle Goatfish", regions: ["Indo-Pacific"]}
+- {scientific: "Parupeneus macronemus", common: "Long-barbel Goatfish", regions: ["Indo-Pacific"]}
+- {scientific: "Parupeneus barberinoides", common: "Bicolor Goatfish", aliases: ["Half-and-half Goatfish"], regions: ["Indo-Pacific"]}
+- {scientific: "Mulloidichthys flavolineatus", common: "Yellowstripe Goatfish", regions: ["Indo-Pacific"]}
+- {scientific: "Mulloidichthys vanicolensis", common: "Yellowfin Goatfish", regions: ["Indo-Pacific"]}
+- {scientific: "Upeneus tragula", common: "Freckled Goatfish", aliases: ["Bartail Goatfish"], regions: ["Indo-Pacific"]}
+- {scientific: "Upeneus vittatus", common: "Yellowstriped Goatfish", regions: ["Indo-Pacific"]}
+- {scientific: "Upeneus moluccensis", common: "Goldband Goatfish", regions: ["Indo-Pacific"]}
+- {scientific: "Siganus vulpinus", common: "Foxface Rabbitfish", aliases: ["Foxface"], regions: ["Indo-Pacific"]}
+- {scientific: "Siganus corallinus", common: "Blue-spotted Spinefoot", aliases: ["Coral Rabbitfish"], regions: ["Indo-Pacific"]}
+- {scientific: "Siganus puellus", common: "Masked Rabbitfish", aliases: ["Masked Spinefoot"], regions: ["Indo-Pacific"]}
+- {scientific: "Siganus doliatus", common: "Barred Rabbitfish", aliases: ["Pencil-streaked Spinefoot"], regions: ["Indo-Pacific"]}
+- {scientific: "Siganus argenteus", common: "Streamlined Spinefoot", aliases: ["Forktail Rabbitfish"], regions: ["Indo-Pacific"]}
+- {scientific: "Siganus spinus", common: "Little Spinefoot", regions: ["Indo-Pacific"]}
+- {scientific: "Siganus lineatus", common: "Golden-lined Spinefoot", aliases: ["Goldlined Rabbitfish"], regions: ["Indo-Pacific"]}
+- {scientific: "Siganus guttatus", common: "Orange-spotted Spinefoot", aliases: ["Goldspotted Rabbitfish"], regions: ["Indo-Pacific"]}
+- {scientific: "Siganus punctatus", common: "Goldspotted Spinefoot", regions: ["Indo-Pacific"]}
+- {scientific: "Siganus unimaculatus", common: "One-spot Foxface", aliases: ["Blotched Foxface"], regions: ["Indo-Pacific"]}
+- {scientific: "Siganus virgatus", common: "Barhead Spinefoot", aliases: ["Virgate Rabbitfish"], regions: ["Indo-Pacific"]}
+- {scientific: "Siganus vermiculatus", common: "Vermiculated Spinefoot", regions: ["Indo-Pacific"]}
+- {scientific: "Siganus canaliculatus", common: "White-spotted Spinefoot", regions: ["Indo-Pacific"]}
+- {scientific: "Siganus punctatissimus", common: "Finespotted Rabbitfish", aliases: ["Peppered Spinefoot"], regions: ["Indo-Pacific"]}
+- {scientific: "Platax teira", common: "Longfin Batfish", aliases: ["Teira Batfish", "Longfin Spadefish"], regions: ["Indo-Pacific"]}
+- {scientific: "Platax orbicularis", common: "Orbicular Batfish", aliases: ["Circular Batfish", "Round Batfish"], regions: ["Indo-Pacific"]}
+- {scientific: "Platax pinnatus", common: "Pinnate Batfish", aliases: ["Dusky Batfish", "Shaded Batfish"], regions: ["Indo-Pacific"]}
+- {scientific: "Platax boersii", common: "Golden Spadefish", aliases: ["Boer's Batfish"], regions: ["Indo-Pacific"]}
+- {scientific: "Platax batavianus", common: "Humphead Batfish", regions: ["Indo-Pacific"]}
+- {scientific: "Pempheris oualensis", common: "Copper Sweeper", aliases: ["Silver Sweeper"], regions: ["Indo-Pacific"]}
+- {scientific: "Pempheris vanicolensis", common: "Vanikoro Sweeper", regions: ["Indo-Pacific"]}
+- {scientific: "Pempheris schwenkii", common: "Black-stripe Sweeper", regions: ["Indo-Pacific"]}
+- {scientific: "Parapriacanthus ransonneti", common: "Pygmy Sweeper", aliases: ["Golden Sweeper", "Slender Sweeper"], regions: ["Indo-Pacific"]}
+- {scientific: "Priacanthus hamrur", common: "Moontail Bigeye", aliases: ["Crescent-tail Bigeye", "Goggle Eye"], regions: ["Indo-Pacific"]}
+- {scientific: "Priacanthus blochii", common: "Paeony Bigeye", regions: ["Indo-Pacific"]}
+- {scientific: "Bothus pantherinus", common: "Leopard Flounder", regions: ["Indo-Pacific"]}
+- {scientific: "Pardachirus pavoninus", common: "Peacock Sole", regions: ["Indo-Pacific"]}
+- {scientific: "Soleichthys heterorhinos", common: "Black-tip Sole", regions: ["Indo-Pacific"]}
+- {scientific: "Synodus variegatus", common: "Variegated Lizardfish", aliases: ["Reef Lizardfish"], regions: ["Indo-Pacific"]}
+- {scientific: "Synodus dermatogenys", common: "Sand Lizardfish", aliases: ["Clearfin Lizardfish"], regions: ["Indo-Pacific"]}
+- {scientific: "Synodus jaculum", common: "Blacktail Lizardfish", aliases: ["Lighthouse Lizardfish"], regions: ["Indo-Pacific"]}
+- {scientific: "Synodus binotatus", common: "Twospot Lizardfish", regions: ["Indo-Pacific"]}
+- {scientific: "Synodus rubromarmoratus", common: "Redmarbled Lizardfish", regions: ["Indo-Pacific"]}
+- {scientific: "Saurida gracilis", common: "Graceful Lizardfish", aliases: ["Slender Lizardfish"], regions: ["Indo-Pacific"]}
+- {scientific: "Saurida nebulosa", common: "Clouded Lizardfish", regions: ["Indo-Pacific"]}
+- {scientific: "Trachinocephalus myops", common: "Snakefish", aliases: ["Bluntnose Lizardfish"], regions: ["Caribbean", "Eastern Pacific", "Indo-Pacific"]}
+- {scientific: "Cymbacephalus beauforti", common: "Crocodile Flathead", aliases: ["Beaufort's Crocodilefish"], regions: ["Indo-Pacific"]}
+- {scientific: "Thysanophrys chiltonae", common: "Longsnout Flathead", regions: ["Indo-Pacific"]}
+- {scientific: "Sunagocia otaitensis", common: "Fringelip Flathead", regions: ["Indo-Pacific"]}
+- {scientific: "Antennarius pictus", common: "Painted Frogfish", regions: ["Indo-Pacific"]}
+- {scientific: "Antennarius maculatus", common: "Warty Frogfish", aliases: ["Clown Frogfish"], regions: ["Indo-Pacific"]}
+- {scientific: "Antennarius hispidus", common: "Shaggy Frogfish", aliases: ["Hispid Frogfish"], regions: ["Indo-Pacific"]}
+- {scientific: "Antennarius nummifer", common: "Spotfin Frogfish", aliases: ["Coinbearing Frogfish", "Abantennarius nummifer"], regions: ["Indo-Pacific"]}
+- {scientific: "Antennatus coccineus", common: "Scarlet Frogfish", aliases: ["Freckled Frogfish", "Abantennarius coccineus"], regions: ["Eastern Pacific", "Indo-Pacific"]}
+- {scientific: "Antennatus dorehensis", common: "New Guinea Frogfish", aliases: ["Abantennarius dorehensis"], regions: ["Indo-Pacific"]}
+- {scientific: "Antennatus tuberosus", common: "Tuberculated Frogfish", regions: ["Indo-Pacific"]}
+- {scientific: "Histrio histrio", common: "Sargassumfish", regions: ["Caribbean", "Indo-Pacific"]}
+- {scientific: "Hippocampus kuda", common: "Spotted Seahorse", aliases: ["Yellow Seahorse", "Common Seahorse"], regions: ["Indo-Pacific"]}
+- {scientific: "Hippocampus bargibanti", common: "Bargibant's Pygmy Seahorse", aliases: ["Pygmy Seahorse"], regions: ["Indo-Pacific"]}
+- {scientific: "Hippocampus denise", common: "Denise's Pygmy Seahorse", regions: ["Indo-Pacific"]}
+- {scientific: "Hippocampus histrix", common: "Thorny Seahorse", regions: ["Indo-Pacific"]}
+- {scientific: "Hippocampus pontohi", common: "Pontoh's Pygmy Seahorse", regions: ["Indo-Pacific"]}
+- {scientific: "Hippocampus spinosissimus", common: "Hedgehog Seahorse", regions: ["Indo-Pacific"]}
+- {scientific: "Hippocampus comes", common: "Tiger-tail Seahorse", regions: ["Indo-Pacific"]}
+- {scientific: "Corythoichthys intestinalis", common: "Scribbled Pipefish", aliases: ["Messmate Pipefish"], regions: ["Indo-Pacific"]}
+- {scientific: "Corythoichthys haematopterus", common: "Reeftop Pipefish", regions: ["Indo-Pacific"]}
+- {scientific: "Corythoichthys schultzi", common: "Schultz's Pipefish", aliases: ["Guilded Pipefish"], regions: ["Indo-Pacific"]}
+- {scientific: "Corythoichthys ocellatus", common: "Ocellated Pipefish", aliases: ["Orange-spotted Pipefish"], regions: ["Indo-Pacific"]}
+- {scientific: "Corythoichthys amplexus", common: "Brown-banded Pipefish", regions: ["Indo-Pacific"]}
+- {scientific: "Corythoichthys flavofasciatus", common: "Network Pipefish", regions: ["Indo-Pacific"]}
+- {scientific: "Doryrhamphus janssi", common: "Janss's Pipefish", aliases: ["Cleaner Pipefish"], regions: ["Indo-Pacific"]}
+- {scientific: "Dunckerocampus dactyliophorus", common: "Ringed Pipefish", aliases: ["Banded Pipefish", "Doryrhamphus dactyliophorus"], regions: ["Indo-Pacific"]}
+- {scientific: "Dunckerocampus pessuliferus", common: "Yellowbanded Pipefish", regions: ["Indo-Pacific"]}
+- {scientific: "Dunckerocampus multiannulatus", common: "Many-banded Pipefish", regions: ["Indo-Pacific"]}
+- {scientific: "Dunckerocampus boylei", common: "Broad-banded Pipefish", regions: ["Indo-Pacific"]}
+- {scientific: "Halicampus macrorhynchus", common: "Winged Pipefish", aliases: ["Ornate Pipefish"], regions: ["Indo-Pacific"]}
+- {scientific: "Halicampus dunckeri", common: "Red-hair Pipefish", regions: ["Indo-Pacific"]}
+- {scientific: "Halicampus brocki", common: "Brock's Pipefish", regions: ["Indo-Pacific"]}
+- {scientific: "Trachyrhamphus bicoarctatus", common: "Double-ended Pipefish", aliases: ["Bentstick Pipefish"], regions: ["Indo-Pacific"]}
+- {scientific: "Trachyrhamphus longirostris", common: "Straightstick Pipefish", regions: ["Indo-Pacific"]}
+- {scientific: "Solenostomus paradoxus", common: "Ornate Ghost Pipefish", aliases: ["Harlequin Ghost Pipefish"], regions: ["Indo-Pacific"]}
+- {scientific: "Solenostomus cyanopterus", common: "Robust Ghost Pipefish", regions: ["Indo-Pacific"]}
+- {scientific: "Solenostomus halimeda", common: "Halimeda Ghost Pipefish", regions: ["Indo-Pacific"]}
+- {scientific: "Solenostomus paegnius", common: "Roughsnout Ghost Pipefish", regions: ["Indo-Pacific"]}
+- {scientific: "Syngnathoides biaculeatus", common: "Alligator Pipefish", regions: ["Indo-Pacific"]}
+- {scientific: "Choeroichthys sculptus", common: "Sculptured Pipefish", regions: ["Indo-Pacific"]}
+- {scientific: "Taeniura lymma", common: "Bluespotted Ribbontail Ray", aliases: ["Bluespotted Ray", "Ribbontail Stingray"], regions: ["Indo-Pacific"]}
+- {scientific: "Neotrygon kuhlii", common: "Bluespotted Stingray", aliases: ["Kuhl's Maskray", "Bluespotted Maskray"], regions: ["Indo-Pacific"]}
+- {scientific: "Pateobatis fai", common: "Pink Whipray", regions: ["Indo-Pacific"]}
+- {scientific: "Pateobatis jenkinsii", common: "Jenkins' Whipray", regions: ["Indo-Pacific"]}
+- {scientific: "Himantura uarnak", common: "Reticulate Whipray", aliases: ["Honeycomb Stingray"], regions: ["Indo-Pacific"]}
+- {scientific: "Himantura undulata", common: "Leopard Whipray", regions: ["Indo-Pacific"]}
+- {scientific: "Urogymnus asperrimus", common: "Porcupine Ray", regions: ["Indo-Pacific"]}
+- {scientific: "Urogymnus granulatus", common: "Mangrove Whipray", regions: ["Indo-Pacific"]}
+- {scientific: "Pastinachus ater", common: "Broad Cowtail Ray", aliases: ["Cowtail Stingray", "Feathertail Stingray"], regions: ["Indo-Pacific"]}
+- {scientific: "Aetobatus ocellatus", common: "Ocellated Eagle Ray", regions: ["Indo-Pacific"]}
+- {scientific: "Mobula alfredi", common: "Reef Manta Ray", aliases: ["Manta alfredi"], regions: ["Indo-Pacific"]}
+- {scientific: "Rhynchobatus australiae", common: "Bottlenose Wedgefish", aliases: ["White-spotted Guitarfish", "White-spotted Wedgefish"], regions: ["Indo-Pacific"]}
+- {scientific: "Rhina ancylostomus", common: "Bowmouth Guitarfish", aliases: ["Shark Ray", "Rhina ancylostoma"], regions: ["Indo-Pacific"]}
+- {scientific: "Glaucostegus typus", common: "Giant Shovelnose Ray", aliases: ["Giant Guitarfish"], regions: ["Indo-Pacific"]}
+- {scientific: "Carcharhinus amblyrhynchos", common: "Grey Reef Shark", aliases: ["Gray Reef Shark"], regions: ["Indo-Pacific"]}
+- {scientific: "Carcharhinus melanopterus", common: "Blacktip Reef Shark", regions: ["Indo-Pacific"]}
+- {scientific: "Carcharhinus longimanus", common: "Oceanic Whitetip Shark", regions: ["Caribbean", "Eastern Pacific", "Indo-Pacific"]}
+- {scientific: "Carcharhinus sorrah", common: "Spot-tail Shark", regions: ["Indo-Pacific"]}
+- {scientific: "Negaprion acutidens", common: "Sicklefin Lemon Shark", aliases: ["Sharptooth Lemon Shark"], regions: ["Indo-Pacific"]}
+- {scientific: "Nebrius ferrugineus", common: "Tawny Nurse Shark", regions: ["Indo-Pacific"]}
+- {scientific: "Stegostoma tigrinum", common: "Zebra Shark", aliases: ["Stegostoma fasciatum"], regions: ["Indo-Pacific"]}
+- {scientific: "Chiloscyllium punctatum", common: "Brownbanded Bamboo Shark", regions: ["Indo-Pacific"]}
+- {scientific: "Chiloscyllium plagiosum", common: "Whitespotted Bamboo Shark", regions: ["Indo-Pacific"]}
+- {scientific: "Alopias pelagicus", common: "Pelagic Thresher Shark", regions: ["Eastern Pacific", "Indo-Pacific"]}
+- {scientific: "Pristis pristis", common: "Largetooth Sawfish", regions: ["Caribbean", "Eastern Pacific", "Indo-Pacific"]}
+- {scientific: "Laticauda colubrina", common: "Yellow-lipped Sea Krait", aliases: ["Banded Sea Krait"], regions: ["Indo-Pacific"]}
+- {scientific: "Laticauda laticaudata", common: "Blue-lipped Sea Krait", regions: ["Indo-Pacific"]}
+- {scientific: "Crocodylus porosus", common: "Saltwater Crocodile", aliases: ["Estuarine Crocodile"], regions: ["Indo-Pacific"]}
+- {scientific: "Dugong dugon", common: "Dugong", regions: ["Indo-Pacific"]}
+- {scientific: "Tursiops aduncus", common: "Indo-Pacific Bottlenose Dolphin", regions: ["Indo-Pacific"]}
+- {scientific: "Stenella longirostris", common: "Spinner Dolphin", regions: ["Caribbean", "Eastern Pacific", "Indo-Pacific"]}
+- {scientific: "Globicephala macrorhynchus", common: "Short-finned Pilot Whale", regions: ["Caribbean", "Eastern Pacific", "Indo-Pacific"]}
+- {scientific: "Pseudorca crassidens", common: "False Killer Whale", regions: ["Caribbean", "Eastern Pacific", "Indo-Pacific"]}
+- {scientific: "Physeter macrocephalus", common: "Sperm Whale", regions: ["Caribbean", "Eastern Pacific", "Indo-Pacific"]}
+- {scientific: "Mastigias papua", common: "Golden Jellyfish", aliases: ["Papuan Jellyfish", "Spotted Jelly"], regions: ["Indo-Pacific"]}
+- {scientific: "Cassiopea andromeda", common: "Mangrove Upside-down Jellyfish", regions: ["Indo-Pacific"]}
+- {scientific: "Cephea cephea", common: "Crown Jellyfish", aliases: ["Cauliflower Jellyfish"], regions: ["Indo-Pacific"]}
+- {scientific: "Phyllorhiza punctata", common: "Floating Bell Jellyfish", aliases: ["Australian Spotted Jellyfish"], regions: ["Indo-Pacific"]}
+- {scientific: "Physalia physalis", common: "Portuguese Man o' War", regions: ["Caribbean", "Eastern Pacific", "Indo-Pacific"]}
+- {scientific: "Octopus cyanea", common: "Day Octopus", aliases: ["Big Blue Octopus"], regions: ["Indo-Pacific"]}
+- {scientific: "Hapalochlaena lunulata", common: "Greater Blue-ringed Octopus", aliases: ["Blue-ringed Octopus"], regions: ["Indo-Pacific"]}
+- {scientific: "Amphioctopus marginatus", common: "Coconut Octopus", aliases: ["Veined Octopus"], regions: ["Indo-Pacific"]}
+- {scientific: "Thaumoctopus mimicus", common: "Mimic Octopus", regions: ["Indo-Pacific"]}
+- {scientific: "Wunderpus photogenicus", common: "Wunderpus", regions: ["Indo-Pacific"]}
+- {scientific: "Abdopus aculeatus", common: "Algae Octopus", regions: ["Indo-Pacific"]}
+- {scientific: "Callistoctopus ornatus", common: "Ornate Octopus", aliases: ["White-striped Octopus", "Pinnoctopus ornatus"], regions: ["Indo-Pacific"]}
+- {scientific: "Amphioctopus mototi", common: "Poison Ocellate Octopus", aliases: ["Mototi Octopus"], regions: ["Indo-Pacific"]}
+- {scientific: "Sepia latimanus", common: "Broadclub Cuttlefish", aliases: ["Ascarosepion latimanus"], regions: ["Indo-Pacific"]}
+- {scientific: "Sepia pharaonis", common: "Pharaoh Cuttlefish", aliases: ["Acanthosepion pharaonis"], regions: ["Indo-Pacific"]}
+- {scientific: "Metasepia pfefferi", common: "Flamboyant Cuttlefish", aliases: ["Ascarosepion pfefferi"], regions: ["Indo-Pacific"]}
+- {scientific: "Sepia bandensis", common: "Dwarf Cuttlefish", aliases: ["Stumpy-spined Cuttlefish", "Ascarosepion bandense"], regions: ["Indo-Pacific"]}
+- {scientific: "Sepioteuthis lessoniana", common: "Bigfin Reef Squid", regions: ["Indo-Pacific"]}
+- {scientific: "Nautilus pompilius", common: "Chambered Nautilus", aliases: ["Nautilus", "Nautilus belauensis", "Palau Nautilus"], regions: ["Indo-Pacific"]}
+- {scientific: "Panulirus versicolor", common: "Painted Spiny Lobster", regions: ["Indo-Pacific"]}
+- {scientific: "Panulirus penicillatus", common: "Pronghorn Spiny Lobster", regions: ["Eastern Pacific", "Indo-Pacific"]}
+- {scientific: "Panulirus ornatus", common: "Ornate Spiny Lobster", regions: ["Indo-Pacific"]}
+- {scientific: "Parribacus antarcticus", common: "Sculptured Slipper Lobster", regions: ["Caribbean", "Indo-Pacific"]}
+- {scientific: "Scyllarides squammosus", common: "Blunt Slipper Lobster", regions: ["Indo-Pacific"]}
+- {scientific: "Enoplometopus debelius", common: "Debelius' Reef Lobster", regions: ["Indo-Pacific"]}
+- {scientific: "Stenopus tenuirostris", common: "Blue Coral Shrimp", regions: ["Indo-Pacific"]}
+- {scientific: "Stenopus pyrsonotus", common: "Ghost Boxer Shrimp", regions: ["Indo-Pacific"]}
+- {scientific: "Lysmata amboinensis", common: "Pacific Cleaner Shrimp", aliases: ["Skunk Cleaner Shrimp", "White-banded Cleaner Shrimp"], regions: ["Indo-Pacific"]}
+- {scientific: "Lysmata debelius", common: "Fire Shrimp", aliases: ["Blood Shrimp", "Scarlet Cleaner Shrimp"], regions: ["Indo-Pacific"]}
+- {scientific: "Ancylomenes holthuisi", common: "Holthuis' Anemone Shrimp", regions: ["Indo-Pacific"]}
+- {scientific: "Ancylomenes magnificus", common: "Magnificent Anemone Shrimp", regions: ["Indo-Pacific"]}
+- {scientific: "Ancylomenes sarasvati", common: "Sarasvati Anemone Shrimp", regions: ["Indo-Pacific"]}
+- {scientific: "Ancylomenes venustus", common: "Graceful Anemone Shrimp", regions: ["Indo-Pacific"]}
+- {scientific: "Periclimenes brevicarpalis", common: "Peacock-tail Anemone Shrimp", aliases: ["Glass Anemone Shrimp", "Ancylocaris brevicarpalis"], regions: ["Indo-Pacific"]}
+- {scientific: "Zenopontonia rex", common: "Emperor Shrimp", aliases: ["Periclimenes imperator"], regions: ["Indo-Pacific"]}
+- {scientific: "Zenopontonia soror", common: "Sea Star Shrimp", aliases: ["Periclimenes soror"], regions: ["Eastern Pacific", "Indo-Pacific"]}
+- {scientific: "Periclimenes colemani", common: "Coleman's Shrimp", regions: ["Indo-Pacific"]}
+- {scientific: "Thor amboinensis", common: "Squat Anemone Shrimp", aliases: ["Sexy Shrimp"], regions: ["Caribbean", "Eastern Pacific", "Indo-Pacific"]}
+- {scientific: "Hymenocera picta", common: "Harlequin Shrimp", regions: ["Eastern Pacific", "Indo-Pacific"]}
+- {scientific: "Rhynchocinetes durbanensis", common: "Durban Dancing Shrimp", aliases: ["Hinge-beak Shrimp", "Camel Shrimp"], regions: ["Indo-Pacific"]}
+- {scientific: "Saron marmoratus", common: "Marbled Shrimp", regions: ["Indo-Pacific"]}
+- {scientific: "Urocaridella antonbruunii", common: "Clear Cleaner Shrimp", aliases: ["Anton Bruun's Cleaner Shrimp"], regions: ["Indo-Pacific"]}
+- {scientific: "Vir philippinensis", common: "Bubble Coral Shrimp", aliases: ["Palaemonella philippinensis"], regions: ["Indo-Pacific"]}
+- {scientific: "Coralliocaris graminea", common: "Green Acropora Shrimp", regions: ["Indo-Pacific"]}
+- {scientific: "Dasycaris zanzibarica", common: "Whip-coral Shrimp", aliases: ["Zanzibar Whip Coral Shrimp"], regions: ["Indo-Pacific"]}
+- {scientific: "Pontonides unciger", common: "Sea Fan Shrimp", regions: ["Indo-Pacific"]}
+- {scientific: "Tozeuma armatum", common: "Sawblade Shrimp", regions: ["Indo-Pacific"]}
+- {scientific: "Alpheus randalli", common: "Randall's Pistol Shrimp", regions: ["Indo-Pacific"]}
+- {scientific: "Alpheus bellulus", common: "Tiger Pistol Shrimp", regions: ["Indo-Pacific"]}
+- {scientific: "Odontodactylus scyllarus", common: "Peacock Mantis Shrimp", aliases: ["Harlequin Mantis Shrimp"], regions: ["Indo-Pacific"]}
+- {scientific: "Lysiosquilla maculata", common: "Zebra Mantis Shrimp", aliases: ["Lysiosquillina maculata"], regions: ["Indo-Pacific"]}
+- {scientific: "Gonodactylus smithii", common: "Smith's Mantis Shrimp", aliases: ["Purple-spot Mantis Shrimp"], regions: ["Indo-Pacific"]}
+- {scientific: "Pseudosquilla ciliata", common: "Ciliated False Squilla", aliases: ["Rainbow Mantis Shrimp"], regions: ["Caribbean", "Eastern Pacific", "Indo-Pacific"]}
+- {scientific: "Zebrida adamsii", common: "Zebra Urchin Crab", regions: ["Indo-Pacific"]}
+- {scientific: "Lissocarcinus orbicularis", common: "Sea Cucumber Swimming Crab", aliases: ["Harlequin Swimming Crab"], regions: ["Indo-Pacific"]}
+- {scientific: "Lissocarcinus laevis", common: "Anemone Swimming Crab", regions: ["Indo-Pacific"]}
+- {scientific: "Neopetrolisthes maculatus", common: "Spotted Porcelain Crab", aliases: ["Anemone Porcelain Crab"], regions: ["Indo-Pacific"]}
+- {scientific: "Trapezia rufopunctata", common: "Rust-spotted Guard Crab", regions: ["Indo-Pacific"]}
+- {scientific: "Trapezia cymodoce", common: "Blue Coral Crab", regions: ["Indo-Pacific"]}
+- {scientific: "Carpilius maculatus", common: "Spotted Reef Crab", aliases: ["Seven-eleven Crab"], regions: ["Indo-Pacific"]}
+- {scientific: "Carpilius convexus", common: "Convex Reef Crab", regions: ["Indo-Pacific"]}
+- {scientific: "Etisus splendidus", common: "Splendid Spooner", aliases: ["Red Reef Crab"], regions: ["Indo-Pacific"]}
+- {scientific: "Eriphia sebana", common: "Red-eyed Reef Crab", regions: ["Indo-Pacific"]}
+- {scientific: "Atergatis floridus", common: "Floral Egg Crab", regions: ["Indo-Pacific"]}
+- {scientific: "Zosimus aeneus", common: "Devil Reef Crab", regions: ["Indo-Pacific"]}
+- {scientific: "Lybia tessellata", common: "Pom-pom Crab", aliases: ["Boxer Crab"], regions: ["Indo-Pacific"]}
+- {scientific: "Achaeus japonicus", common: "Orangutan Crab", regions: ["Indo-Pacific"]}
+- {scientific: "Xenocarcinus tuberculatus", common: "Whip Coral Crab", regions: ["Indo-Pacific"]}
+- {scientific: "Xenocarcinus conicus", common: "Conical Spider Crab", regions: ["Indo-Pacific"]}
+- {scientific: "Hoplophrys oatesii", common: "Candy Crab", aliases: ["Soft Coral Crab", "Dendronephthya Crab", "Hoplophrys oatesi"], regions: ["Indo-Pacific"]}
+- {scientific: "Naxioides taurus", common: "Bull Crab", regions: ["Indo-Pacific"]}
+- {scientific: "Cyclocoeloma tuberculatum", common: "Decorator Spider Crab", regions: ["Indo-Pacific"]}
+- {scientific: "Camposcia retusa", common: "Spider Decorator Crab", regions: ["Indo-Pacific"]}
+- {scientific: "Huenia heraldica", common: "Halimeda Crab", regions: ["Indo-Pacific"]}
+- {scientific: "Tumidodromia dormia", common: "Sleepy Sponge Crab", aliases: ["Dromia dormia"], regions: ["Indo-Pacific"]}
+- {scientific: "Calappa calappa", common: "Giant Box Crab", aliases: ["Smooth Box Crab"], regions: ["Indo-Pacific"]}
+- {scientific: "Calappa hepatica", common: "Reef Box Crab", regions: ["Indo-Pacific"]}
+- {scientific: "Portunus pelagicus", common: "Blue Swimming Crab", regions: ["Indo-Pacific"]}
+- {scientific: "Grapsus tenuicrustatus", common: "Natal Lightfoot Crab", aliases: ["Thin-shelled Rock Crab"], regions: ["Indo-Pacific"]}
+- {scientific: "Grapsus albolineatus", common: "Mottled Lightfoot Crab", regions: ["Indo-Pacific"]}
+- {scientific: "Birgus latro", common: "Coconut Crab", aliases: ["Robber Crab"], regions: ["Indo-Pacific"]}
+- {scientific: "Dardanus megistos", common: "White-spotted Hermit Crab", regions: ["Indo-Pacific"]}
+- {scientific: "Dardanus pedunculatus", common: "Anemone Hermit Crab", regions: ["Indo-Pacific"]}
+- {scientific: "Dardanus lagopodes", common: "Hairy Red Hermit Crab", regions: ["Indo-Pacific"]}
+- {scientific: "Dardanus gemmatus", common: "Jeweled Anemone Hermit Crab", regions: ["Indo-Pacific"]}
+- {scientific: "Calcinus elegans", common: "Electric Blue Hermit Crab", regions: ["Indo-Pacific"]}
+- {scientific: "Calcinus minutus", common: "Orange-clawed Hermit Crab", regions: ["Indo-Pacific"]}
+- {scientific: "Calcinus laevimanus", common: "Dwarf Zebra Hermit Crab", regions: ["Indo-Pacific"]}
+- {scientific: "Ciliopagurus strigatus", common: "Halloween Hermit Crab", regions: ["Indo-Pacific"]}
+- {scientific: "Aniculus maximus", common: "Hairy Yellow Hermit Crab", regions: ["Indo-Pacific"]}
+- {scientific: "Allogalathea elegans", common: "Crinoid Squat Lobster", aliases: ["Elegant Squat Lobster"], regions: ["Indo-Pacific"]}
+- {scientific: "Lauriea siagiani", common: "Hairy Squat Lobster", aliases: ["Pink Squat Lobster"], regions: ["Indo-Pacific"]}
+- {scientific: "Linckia laevigata", common: "Blue Sea Star", aliases: ["Blue Linckia"], regions: ["Indo-Pacific"]}
+- {scientific: "Linckia multifora", common: "Multipore Sea Star", aliases: ["Spotted Linckia"], regions: ["Indo-Pacific"]}
+- {scientific: "Linckia guildingi", common: "Green Linckia", regions: ["Caribbean", "Indo-Pacific"]}
+- {scientific: "Fromia monilis", common: "Necklace Sea Star", aliases: ["Peppermint Sea Star"], regions: ["Indo-Pacific"]}
+- {scientific: "Fromia indica", common: "Indian Sea Star", regions: ["Indo-Pacific"]}
+- {scientific: "Fromia milleporella", common: "Red Fromia", regions: ["Indo-Pacific"]}
+- {scientific: "Protoreaster nodosus", common: "Horned Sea Star", aliases: ["Knobbly Sea Star"], regions: ["Indo-Pacific"]}
+- {scientific: "Culcita novaeguineae", common: "Pincushion Sea Star", regions: ["Indo-Pacific"]}
+- {scientific: "Choriaster granulatus", common: "Granulated Sea Star", aliases: ["Doughboy Sea Star"], regions: ["Indo-Pacific"]}
+- {scientific: "Nardoa novaecaledoniae", common: "New Caledonia Sea Star", regions: ["Indo-Pacific"]}
+- {scientific: "Echinaster luzonicus", common: "Luzon Sea Star", regions: ["Indo-Pacific"]}
+- {scientific: "Echinaster callosus", common: "Warty Sea Star", regions: ["Indo-Pacific"]}
+- {scientific: "Gomophia egyptiaca", common: "Egyptian Sea Star", regions: ["Indo-Pacific"]}
+- {scientific: "Fromia heffernani", common: "Heffernan's Sea Star", aliases: ["Celerina heffernani"], regions: ["Indo-Pacific"]}
+- {scientific: "Thromidia catalai", common: "Giant Sea Star", regions: ["Indo-Pacific"]}
+- {scientific: "Pentaceraster alveolatus", common: "Honeycomb Sea Star", regions: ["Indo-Pacific"]}
+- {scientific: "Asteropsis carinifera", common: "Keeled Sea Star", regions: ["Eastern Pacific", "Indo-Pacific"]}
+- {scientific: "Iconaster longimanus", common: "Icon Sea Star", regions: ["Indo-Pacific"]}
+- {scientific: "Archaster typicus", common: "Sand-sifting Sea Star", aliases: ["Common Sand Star"], regions: ["Indo-Pacific"]}
+- {scientific: "Astropecten polyacanthus", common: "Comb Sea Star", regions: ["Indo-Pacific"]}
+- {scientific: "Ophiarachna incrassata", common: "Green Brittle Star", regions: ["Indo-Pacific"]}
+- {scientific: "Ophiothrix purpurea", common: "Purple Brittle Star", regions: ["Indo-Pacific"]}
+- {scientific: "Ophiomastix elegans", common: "Elegant Brittle Star", aliases: ["Ophiarthrum elegans"], regions: ["Indo-Pacific"]}
+- {scientific: "Astroboa nuda", common: "Night Basket Star", aliases: ["Naked Basket Star"], regions: ["Indo-Pacific"]}
+- {scientific: "Diadema setosum", common: "Black Longspine Urchin", aliases: ["Black Sea Urchin"], regions: ["Indo-Pacific"]}
+- {scientific: "Diadema savignyi", common: "Savigny's Urchin", aliases: ["Blue-spotted Longspine Urchin"], regions: ["Indo-Pacific"]}
+- {scientific: "Echinothrix calamaris", common: "Banded Sea Urchin", aliases: ["Double-spined Urchin"], regions: ["Indo-Pacific"]}
+- {scientific: "Echinothrix diadema", common: "Blue-black Urchin", aliases: ["Diadem Urchin"], regions: ["Indo-Pacific"]}
+- {scientific: "Astropyga radiata", common: "Radiant Sea Urchin", aliases: ["Red Urchin"], regions: ["Indo-Pacific"]}
+- {scientific: "Asthenosoma varium", common: "Fire Urchin", aliases: ["Variable Fire Urchin"], regions: ["Indo-Pacific"]}
+- {scientific: "Asthenosoma ijimai", common: "Ijima's Fire Urchin", regions: ["Indo-Pacific"]}
+- {scientific: "Toxopneustes pileolus", common: "Flower Urchin", regions: ["Indo-Pacific"]}
+- {scientific: "Tripneustes gratilla", common: "Collector Urchin", aliases: ["Cake Urchin"], regions: ["Indo-Pacific"]}
+- {scientific: "Mespilia globulus", common: "Sphere Urchin", aliases: ["Tuxedo Urchin", "Globe Urchin"], regions: ["Indo-Pacific"]}
+- {scientific: "Echinometra mathaei", common: "Burrowing Urchin", aliases: ["Rock-boring Urchin"], regions: ["Indo-Pacific"]}
+- {scientific: "Heterocentrotus mamillatus", common: "Red Slate Pencil Urchin", regions: ["Indo-Pacific"]}
+- {scientific: "Eucidaris metularia", common: "Ten-lined Urchin", regions: ["Indo-Pacific"]}
+- {scientific: "Phyllacanthus imperialis", common: "Imperial Lance Urchin", regions: ["Indo-Pacific"]}
+- {scientific: "Colobocentrotus atratus", common: "Shingle Urchin", aliases: ["Helmet Urchin"], regions: ["Indo-Pacific"]}
+- {scientific: "Thelenota ananas", common: "Prickly Redfish", aliases: ["Pineapple Sea Cucumber"], regions: ["Indo-Pacific"]}
+- {scientific: "Thelenota anax", common: "Amberfish Sea Cucumber", regions: ["Indo-Pacific"]}
+- {scientific: "Thelenota rubralineata", common: "Candy Cane Sea Cucumber", aliases: ["Red-lined Sea Cucumber"], regions: ["Indo-Pacific"]}
+- {scientific: "Bohadschia argus", common: "Leopard Sea Cucumber", aliases: ["Ocellated Sea Cucumber"], regions: ["Indo-Pacific"]}
+- {scientific: "Bohadschia vitiensis", common: "Brown Sandfish", regions: ["Indo-Pacific"]}
+- {scientific: "Bohadschia marmorata", common: "Chalky Sea Cucumber", regions: ["Indo-Pacific"]}
+- {scientific: "Pearsonothuria graeffei", common: "Graeffe's Sea Cucumber", aliases: ["Flowerfish", "Blackspotted Sea Cucumber", "Bohadschia graeffei"], regions: ["Indo-Pacific"]}
+- {scientific: "Holothuria atra", common: "Lollyfish", aliases: ["Black Sea Cucumber"], regions: ["Indo-Pacific"]}
+- {scientific: "Holothuria edulis", common: "Pinkfish", aliases: ["Edible Sea Cucumber"], regions: ["Indo-Pacific"]}
+- {scientific: "Holothuria fuscopunctata", common: "Elephant Trunkfish", regions: ["Indo-Pacific"]}
+- {scientific: "Holothuria leucospilota", common: "White-threads Fish", aliases: ["Black Long Sea Cucumber"], regions: ["Indo-Pacific"]}
+- {scientific: "Holothuria hilla", common: "Tigertail Sea Cucumber", regions: ["Indo-Pacific"]}
+- {scientific: "Holothuria scabra", common: "Sandfish", regions: ["Indo-Pacific"]}
+- {scientific: "Holothuria fuscogilva", common: "White Teatfish", regions: ["Indo-Pacific"]}
+- {scientific: "Holothuria whitmaei", common: "Black Teatfish", regions: ["Indo-Pacific"]}
+- {scientific: "Holothuria coluber", common: "Snakefish Sea Cucumber", regions: ["Indo-Pacific"]}
+- {scientific: "Holothuria impatiens", common: "Brown-spotted Sea Cucumber", aliases: ["Impatient Sea Cucumber"], regions: ["Caribbean", "Eastern Pacific", "Indo-Pacific"]}
+- {scientific: "Stichopus chloronotus", common: "Greenfish", regions: ["Indo-Pacific"]}
+- {scientific: "Stichopus herrmanni", common: "Curryfish", regions: ["Indo-Pacific"]}
+- {scientific: "Stichopus horrens", common: "Dragonfish", aliases: ["Warty Sea Cucumber"], regions: ["Indo-Pacific"]}
+- {scientific: "Stichopus vastus", common: "Brown Curryfish", regions: ["Indo-Pacific"]}
+- {scientific: "Actinopyga echinites", common: "Deep-water Redfish", aliases: ["Brownfish"], regions: ["Indo-Pacific"]}
+- {scientific: "Actinopyga mauritiana", common: "Surf Redfish", regions: ["Indo-Pacific"]}
+- {scientific: "Actinopyga miliaris", common: "Hairy Blackfish", regions: ["Indo-Pacific"]}
+- {scientific: "Actinopyga lecanora", common: "Stonefish Sea Cucumber", regions: ["Indo-Pacific"]}
+- {scientific: "Actinopyga palauensis", common: "Palau Blackfish", aliases: ["Panning's Blackfish"], regions: ["Indo-Pacific"]}
+- {scientific: "Synapta maculata", common: "Spotted Worm Sea Cucumber", aliases: ["Snake Sea Cucumber"], regions: ["Indo-Pacific"]}
+- {scientific: "Euapta godeffroyi", common: "Lion's Paw Sea Cucumber", regions: ["Indo-Pacific"]}
+- {scientific: "Opheodesoma grisea", common: "Grey Synaptid Sea Cucumber", regions: ["Indo-Pacific"]}
+- {scientific: "Colochirus robustus", common: "Yellow Sea Cucumber", aliases: ["Robust Sea Cucumber"], regions: ["Indo-Pacific"]}
+- {scientific: "Pseudocolochirus violaceus", common: "Sea Apple", regions: ["Indo-Pacific"]}
+- {scientific: "Cercodemas anceps", common: "Thorny Sea Cucumber", aliases: ["Pink Warty Sea Cucumber"], regions: ["Indo-Pacific"]}
+- {scientific: "Anneissia bennetti", common: "Bennett's Feather Star", aliases: ["Oxycomanthus bennetti"], regions: ["Indo-Pacific"]}
+- {scientific: "Comaster schlegelii", common: "Variable Bushy Feather Star", aliases: ["Schlegel's Feather Star"], regions: ["Indo-Pacific"]}
+- {scientific: "Comaster nobilis", common: "Noble Feather Star", regions: ["Indo-Pacific"]}
+- {scientific: "Himerometra robustipinna", common: "Robust Feather Star", regions: ["Indo-Pacific"]}
+- {scientific: "Dichrometra palmata", common: "Palm Feather Star", aliases: ["Lamprometra palmata"], regions: ["Indo-Pacific"]}
+- {scientific: "Cenometra bella", common: "Elegant Feather Star", regions: ["Indo-Pacific"]}
+- {scientific: "Comatella stelligera", common: "Starry Feather Star", regions: ["Indo-Pacific"]}
+- {scientific: "Tridacna gigas", common: "Giant Clam", regions: ["Indo-Pacific"]}
+- {scientific: "Tridacna derasa", common: "Southern Giant Clam", aliases: ["Smooth Giant Clam"], regions: ["Indo-Pacific"]}
+- {scientific: "Tridacna squamosa", common: "Fluted Giant Clam", regions: ["Indo-Pacific"]}
+- {scientific: "Tridacna maxima", common: "Small Giant Clam", aliases: ["Maxima Clam"], regions: ["Indo-Pacific"]}
+- {scientific: "Tridacna crocea", common: "Boring Giant Clam", aliases: ["Crocus Clam"], regions: ["Indo-Pacific"]}
+- {scientific: "Hippopus hippopus", common: "Horse's Hoof Clam", aliases: ["Bear Paw Clam", "Strawberry Clam"], regions: ["Indo-Pacific"]}
+- {scientific: "Pinctada margaritifera", common: "Black-lip Pearl Oyster", regions: ["Indo-Pacific"]}
+- {scientific: "Pteria penguin", common: "Penguin Wing Oyster", regions: ["Indo-Pacific"]}
+- {scientific: "Spondylus varius", common: "Giant Thorny Oyster", regions: ["Indo-Pacific"]}
+- {scientific: "Ctenoides ales", common: "Electric Clam", aliases: ["Disco Clam", "Electric Flame Scallop"], regions: ["Indo-Pacific"]}
+- {scientific: "Pedum spondyloideum", common: "Coral Scallop", aliases: ["Iridescent Scallop"], regions: ["Indo-Pacific"]}
+- {scientific: "Cypraea tigris", common: "Tiger Cowrie", regions: ["Indo-Pacific"]}
+- {scientific: "Monetaria moneta", common: "Money Cowrie", regions: ["Indo-Pacific"]}
+- {scientific: "Monetaria annulus", common: "Gold-ringer Cowrie", aliases: ["Ring Cowrie"], regions: ["Indo-Pacific"]}
+- {scientific: "Mauritia mauritiana", common: "Humpback Cowrie", regions: ["Indo-Pacific"]}
+- {scientific: "Ovula ovum", common: "Egg Cowrie", aliases: ["Common Egg Cowrie"], regions: ["Indo-Pacific"]}
+- {scientific: "Calpurnus verrucosus", common: "Little Egg Cowrie", aliases: ["Umbilical Ovulid"], regions: ["Indo-Pacific"]}
+- {scientific: "Conus geographus", common: "Geography Cone", regions: ["Indo-Pacific"]}
+- {scientific: "Conus textile", common: "Textile Cone", regions: ["Indo-Pacific"]}
+- {scientific: "Conus marmoreus", common: "Marble Cone", regions: ["Indo-Pacific"]}
+- {scientific: "Conus striatus", common: "Striated Cone", regions: ["Indo-Pacific"]}
+- {scientific: "Conus leopardus", common: "Leopard Cone", regions: ["Indo-Pacific"]}
+- {scientific: "Conus litteratus", common: "Lettered Cone", regions: ["Indo-Pacific"]}
+- {scientific: "Conus vexillum", common: "Flag Cone", regions: ["Indo-Pacific"]}
+- {scientific: "Conus ebraeus", common: "Hebrew Cone", regions: ["Eastern Pacific", "Indo-Pacific"]}
+- {scientific: "Conus imperialis", common: "Imperial Cone", regions: ["Indo-Pacific"]}
+- {scientific: "Conus virgo", common: "Virgin Cone", regions: ["Indo-Pacific"]}
+- {scientific: "Conus miles", common: "Soldier Cone", regions: ["Indo-Pacific"]}
+- {scientific: "Charonia tritonis", common: "Giant Triton", aliases: ["Triton's Trumpet"], regions: ["Indo-Pacific"]}
+- {scientific: "Lambis lambis", common: "Common Spider Conch", regions: ["Indo-Pacific"]}
+- {scientific: "Lambis truncata", common: "Giant Spider Conch", regions: ["Indo-Pacific"]}
+- {scientific: "Harpago chiragra", common: "Chiragra Spider Conch", aliases: ["Lambis chiragra"], regions: ["Indo-Pacific"]}
+- {scientific: "Lambis scorpius", common: "Scorpion Conch", regions: ["Indo-Pacific"]}
+- {scientific: "Lentigo lentiginosus", common: "Silver Conch", regions: ["Indo-Pacific"]}
+- {scientific: "Conomurex luhuanus", common: "Strawberry Conch", regions: ["Indo-Pacific"]}
+- {scientific: "Rochia nilotica", common: "Commercial Top Shell", aliases: ["Trochus", "Tectus niloticus", "Trochus niloticus"], regions: ["Indo-Pacific"]}
+- {scientific: "Turbo marmoratus", common: "Green Turban", regions: ["Indo-Pacific"]}
+- {scientific: "Turbo petholatus", common: "Tapestry Turban", regions: ["Indo-Pacific"]}
+- {scientific: "Cassis cornuta", common: "Horned Helmet", regions: ["Indo-Pacific"]}
+- {scientific: "Cypraecassis rufa", common: "Bullmouth Helmet", regions: ["Indo-Pacific"]}
+- {scientific: "Tonna perdix", common: "Partridge Tun", regions: ["Indo-Pacific"]}
+- {scientific: "Murex pecten", common: "Venus Comb Murex", regions: ["Indo-Pacific"]}
+- {scientific: "Chicoreus ramosus", common: "Ramose Murex", regions: ["Indo-Pacific"]}
+- {scientific: "Mitra mitra", common: "Episcopal Miter", regions: ["Indo-Pacific"]}
+- {scientific: "Haliotis asinina", common: "Donkey's Ear Abalone", regions: ["Indo-Pacific"]}
+- {scientific: "Chromodoris annae", common: "Anna's Chromodoris", regions: ["Indo-Pacific"]}
+- {scientific: "Chromodoris magnifica", common: "Magnificent Chromodoris", regions: ["Indo-Pacific"]}
+- {scientific: "Chromodoris willani", common: "Willan's Chromodoris", regions: ["Indo-Pacific"]}
+- {scientific: "Chromodoris lochi", common: "Loch's Chromodoris", regions: ["Indo-Pacific"]}
+- {scientific: "Chromodoris elisabethina", common: "Elisabeth's Chromodoris", regions: ["Indo-Pacific"]}
+- {scientific: "Chromodoris strigata", common: "Striped Chromodoris", regions: ["Indo-Pacific"]}
+- {scientific: "Chromodoris dianae", common: "Diana's Chromodoris", regions: ["Indo-Pacific"]}
+- {scientific: "Goniobranchus geometricus", common: "Geometric Chromodoris", regions: ["Indo-Pacific"]}
+- {scientific: "Goniobranchus coi", common: "Co's Chromodoris", regions: ["Indo-Pacific"]}
+- {scientific: "Goniobranchus leopardus", common: "Leopard Chromodoris", regions: ["Indo-Pacific"]}
+- {scientific: "Goniobranchus reticulatus", common: "Reticulated Chromodoris", regions: ["Indo-Pacific"]}
+- {scientific: "Goniobranchus fidelis", common: "Faithful Chromodoris", regions: ["Indo-Pacific"]}
+- {scientific: "Goniobranchus hintuanensis", common: "Hintuan Chromodoris", regions: ["Indo-Pacific"]}
+- {scientific: "Goniobranchus albopunctatus", common: "White-spotted Chromodoris", regions: ["Indo-Pacific"]}
+- {scientific: "Goniobranchus collingwoodi", common: "Collingwood's Chromodoris", regions: ["Indo-Pacific"]}
+- {scientific: "Goniobranchus kuniei", common: "Kunie's Chromodoris", regions: ["Indo-Pacific"]}
+- {scientific: "Hypselodoris bullockii", common: "Bullock's Hypselodoris", aliases: ["Hypselodoris bullocki"], regions: ["Indo-Pacific"]}
+- {scientific: "Hypselodoris apolegma", common: "Apolegma Hypselodoris", regions: ["Indo-Pacific"]}
+- {scientific: "Hypselodoris tryoni", common: "Tryon's Hypselodoris", regions: ["Indo-Pacific"]}
+- {scientific: "Hypselodoris infucata", common: "Infucata Hypselodoris", regions: ["Indo-Pacific"]}
+- {scientific: "Hypselodoris whitei", common: "White's Hypselodoris", regions: ["Indo-Pacific"]}
+- {scientific: "Hypselodoris maculosa", common: "Spotted Hypselodoris", regions: ["Indo-Pacific"]}
+- {scientific: "Hypselodoris zephyra", common: "Zephyr Hypselodoris", regions: ["Indo-Pacific"]}
+- {scientific: "Hypselodoris kanga", common: "Kanga Hypselodoris", regions: ["Indo-Pacific"]}
+- {scientific: "Hypselodoris emma", common: "Emma's Hypselodoris", regions: ["Indo-Pacific"]}
+- {scientific: "Ardeadoris egretta", common: "Egret Ardeadoris", regions: ["Indo-Pacific"]}
+- {scientific: "Ardeadoris averni", common: "Avern's Ardeadoris", regions: ["Indo-Pacific"]}
+- {scientific: "Ardeadoris cruenta", common: "Bloody Ardeadoris", aliases: ["Glossodoris cruenta"], regions: ["Indo-Pacific"]}
+- {scientific: "Glossodoris cincta", common: "Girdled Glossodoris", regions: ["Indo-Pacific"]}
+- {scientific: "Doriprismatica atromarginata", common: "Black-margined Glossodoris", aliases: ["Glossodoris atromarginata"], regions: ["Indo-Pacific"]}
+- {scientific: "Doriprismatica sibogae", common: "Siboga Glossodoris", regions: ["Indo-Pacific"]}
+- {scientific: "Glossodoris rufomarginata", common: "Red-margined Glossodoris", regions: ["Indo-Pacific"]}
+- {scientific: "Glossodoris hikuerensis", common: "Hikueru Glossodoris", regions: ["Indo-Pacific"]}
+- {scientific: "Mexichromis multituberculata", common: "Multi-tubercled Mexichromis", regions: ["Indo-Pacific"]}
+- {scientific: "Thorunna furtiva", common: "Furtive Thorunna", regions: ["Indo-Pacific"]}
+- {scientific: "Thorunna daniellae", common: "Danielle's Thorunna", regions: ["Indo-Pacific"]}
+- {scientific: "Ceratosoma trilobatum", common: "Three-lobed Ceratosoma", regions: ["Indo-Pacific"]}
+- {scientific: "Ceratosoma tenue", common: "Slender Ceratosoma", regions: ["Indo-Pacific"]}
+- {scientific: "Miamira sinuata", common: "Sinuous Miamira", aliases: ["Ceratosoma sinuatum"], regions: ["Indo-Pacific"]}
+- {scientific: "Miamira magnifica", common: "Magnificent Miamira", regions: ["Indo-Pacific"]}
+- {scientific: "Phyllidia varicosa", common: "Varicose Phyllidia", aliases: ["Scrambled Egg Nudibranch"], regions: ["Indo-Pacific"]}
+- {scientific: "Phyllidia ocellata", common: "Ocellated Phyllidia", regions: ["Indo-Pacific"]}
+- {scientific: "Phyllidia elegans", common: "Elegant Phyllidia", regions: ["Indo-Pacific"]}
+- {scientific: "Phyllidia coelestis", common: "Celestial Phyllidia", regions: ["Indo-Pacific"]}
+- {scientific: "Phyllidia picta", common: "Painted Phyllidia", regions: ["Indo-Pacific"]}
+- {scientific: "Phyllidiella pustulosa", common: "Pustulose Phyllidiella", regions: ["Indo-Pacific"]}
+- {scientific: "Phyllidiella nigra", common: "Black Phyllidiella", regions: ["Indo-Pacific"]}
+- {scientific: "Phyllidiella lizae", common: "Liza's Phyllidiella", regions: ["Indo-Pacific"]}
+- {scientific: "Phyllidiella rudmani", common: "Rudman's Phyllidiella", regions: ["Indo-Pacific"]}
+- {scientific: "Phyllidiella annulata", common: "Ringed Phyllidiella", regions: ["Indo-Pacific"]}
+- {scientific: "Phyllidiopsis krempfi", common: "Krempf's Phyllidiopsis", regions: ["Indo-Pacific"]}
+- {scientific: "Phyllidiopsis shireenae", common: "Shireen's Phyllidiopsis", regions: ["Indo-Pacific"]}
+- {scientific: "Phyllidiopsis fissurata", common: "Fissured Phyllidiopsis", regions: ["Indo-Pacific"]}
+- {scientific: "Reticulidia fungia", common: "Fungia Reticulidia", regions: ["Indo-Pacific"]}
+- {scientific: "Reticulidia halgerda", common: "Halgerda Reticulidia", regions: ["Indo-Pacific"]}
+- {scientific: "Halgerda batangas", common: "Batangas Halgerda", regions: ["Indo-Pacific"]}
+- {scientific: "Halgerda carlsoni", common: "Carlson's Halgerda", regions: ["Indo-Pacific"]}
+- {scientific: "Halgerda tessellata", common: "Tessellated Halgerda", regions: ["Indo-Pacific"]}
+- {scientific: "Halgerda willeyi", common: "Willey's Halgerda", regions: ["Indo-Pacific"]}
+- {scientific: "Halgerda malesso", common: "Malesso Halgerda", regions: ["Indo-Pacific"]}
+- {scientific: "Jorunna funebris", common: "Funeral Jorunna", aliases: ["Dotted Nudibranch"], regions: ["Indo-Pacific"]}
+- {scientific: "Discodoris boholiensis", common: "Bohol Discodoris", regions: ["Indo-Pacific"]}
+- {scientific: "Platydoris scabra", common: "Rough Platydoris", regions: ["Indo-Pacific"]}
+- {scientific: "Platydoris cruenta", common: "Bloody Platydoris", regions: ["Indo-Pacific"]}
+- {scientific: "Sebadoris fragilis", common: "Fragile Sebadoris", regions: ["Indo-Pacific"]}
+- {scientific: "Asteronotus cespitosus", common: "Tufted Asteronotus", regions: ["Indo-Pacific"]}
+- {scientific: "Dendrodoris nigra", common: "Black Dendrodoris", regions: ["Indo-Pacific"]}
+- {scientific: "Dendrodoris tuberculosa", common: "Tuberculate Dendrodoris", regions: ["Indo-Pacific"]}
+- {scientific: "Dendrodoris krusensternii", common: "Denison's Dendrodoris", aliases: ["Dendrodoris denisoni"], regions: ["Indo-Pacific"]}
+- {scientific: "Hexabranchus sanguineus", common: "Spanish Dancer", regions: ["Indo-Pacific"]}
+- {scientific: "Gymnodoris ceylonica", common: "Ceylon Gymnodoris", regions: ["Indo-Pacific"]}
+- {scientific: "Gymnodoris impudica", common: "Red-papillate Gymnodoris", aliases: ["Gymnodoris rubropapulosa"], regions: ["Indo-Pacific"]}
+- {scientific: "Nembrotha kubaryana", common: "Kubary's Nembrotha", aliases: ["Variable Neon Slug"], regions: ["Indo-Pacific"]}
+- {scientific: "Nembrotha cristata", common: "Crested Nembrotha", regions: ["Indo-Pacific"]}
+- {scientific: "Nembrotha lineolata", common: "Lined Nembrotha", regions: ["Indo-Pacific"]}
+- {scientific: "Nembrotha chamberlaini", common: "Chamberlain's Nembrotha", regions: ["Indo-Pacific"]}
+- {scientific: "Nembrotha milleri", common: "Miller's Nembrotha", regions: ["Indo-Pacific"]}
+- {scientific: "Nembrotha purpureolineata", common: "Purple-lined Nembrotha", regions: ["Indo-Pacific"]}
+- {scientific: "Nembrotha livingstonei", common: "Livingstone's Nembrotha", regions: ["Indo-Pacific"]}
+- {scientific: "Tambja morosa", common: "Gloomy Tambja", regions: ["Indo-Pacific"]}
+- {scientific: "Tambja gabrielae", common: "Gabriela's Tambja", regions: ["Indo-Pacific"]}
+- {scientific: "Roboastra gracilis", common: "Graceful Roboastra", regions: ["Indo-Pacific"]}
+- {scientific: "Tyrannodoris luteolineata", common: "Yellow-lined Roboastra", aliases: ["Roboastra luteolineata"], regions: ["Indo-Pacific"]}
+- {scientific: "Notodoris minor", common: "Banana Nudibranch", aliases: ["Aegires minor"], regions: ["Indo-Pacific"]}
+- {scientific: "Notodoris gardineri", common: "Gardiner's Notodoris", regions: ["Indo-Pacific"]}
+- {scientific: "Notodoris serenae", common: "Serena's Notodoris", regions: ["Indo-Pacific"]}
+- {scientific: "Aegires citrinus", common: "Citrus Aegires", regions: ["Indo-Pacific"]}
+- {scientific: "Aegires villosus", common: "Hairy Aegires", regions: ["Indo-Pacific"]}
+- {scientific: "Kalinga ornata", common: "Ornate Kalinga", regions: ["Indo-Pacific"]}
+- {scientific: "Coryphellina exoptata", common: "Desirable Flabellina", aliases: ["Flabellina exoptata", "Much-desired Flabellina"], regions: ["Indo-Pacific"]}
+- {scientific: "Coryphellina rubrolineata", common: "Red-lined Flabellina", aliases: ["Flabellina rubrolineata"], regions: ["Indo-Pacific"]}
+- {scientific: "Samla bilas", common: "Bilas Flabellina", aliases: ["Flabellina bilas"], regions: ["Indo-Pacific"]}
+- {scientific: "Pteraeolidia semperi", common: "Blue Dragon Nudibranch", aliases: ["Pteraeolidia ianthina"], regions: ["Indo-Pacific"]}
+- {scientific: "Caloria indica", common: "Indian Caloria", aliases: ["Phidiana indica"], regions: ["Indo-Pacific"]}
+- {scientific: "Favorinus tsuruganus", common: "Tsuruga Favorinus", regions: ["Indo-Pacific"]}
+- {scientific: "Favorinus japonicus", common: "Japanese Favorinus", regions: ["Indo-Pacific"]}
+- {scientific: "Cratena lineata", common: "Lined Cratena", regions: ["Indo-Pacific"]}
+- {scientific: "Cratena simba", common: "Simba Cratena", regions: ["Indo-Pacific"]}
+- {scientific: "Phyllodesmium longicirrum", common: "Solar-powered Phyllodesmium", aliases: ["Long-cirri Phyllodesmium"], regions: ["Indo-Pacific"]}
+- {scientific: "Phyllodesmium briareum", common: "Briareum Phyllodesmium", regions: ["Indo-Pacific"]}
+- {scientific: "Phyllodesmium kabiranum", common: "Kabira Phyllodesmium", regions: ["Indo-Pacific"]}
+- {scientific: "Phyllodesmium magnum", common: "Great Phyllodesmium", regions: ["Indo-Pacific"]}
+- {scientific: "Phyllodesmium poindimiei", common: "Poindimie's Phyllodesmium", regions: ["Indo-Pacific"]}
+- {scientific: "Bornella anguilla", common: "Eel Bornella", regions: ["Indo-Pacific"]}
+- {scientific: "Bornella stellifera", common: "Starry Bornella", regions: ["Indo-Pacific"]}
+- {scientific: "Phestilla sibogae", common: "Siboga Trinchesia", aliases: ["Trinchesia sibogae"], regions: ["Indo-Pacific"]}
+- {scientific: "Tenellia yamasui", common: "Yamasu's Trinchesia", aliases: ["Trinchesia yamasui"], regions: ["Indo-Pacific"]}
+- {scientific: "Baeolidia moebii", common: "Moebius' Baeolidia", regions: ["Indo-Pacific"]}
+- {scientific: "Melibe viridis", common: "Green Melibe", regions: ["Indo-Pacific"]}
+- {scientific: "Melibe engeli", common: "Engel's Melibe", regions: ["Indo-Pacific"]}
+- {scientific: "Melibe colemani", common: "Coleman's Melibe", regions: ["Indo-Pacific"]}
+- {scientific: "Tritoniopsis elegans", common: "Elegant Tritoniopsis", regions: ["Indo-Pacific"]}
+- {scientific: "Janolus savinkini", common: "Savinkin's Janolus", regions: ["Indo-Pacific"]}
+- {scientific: "Thecacera pacifica", common: "Pikachu Nudibranch", aliases: ["Pacific Thecacera"], regions: ["Indo-Pacific"]}
+- {scientific: "Thecacera picta", common: "Painted Thecacera", regions: ["Indo-Pacific"]}
+- {scientific: "Elysia ornata", common: "Ornate Elysia", regions: ["Indo-Pacific"]}
+- {scientific: "Elysia marginata", common: "Margined Elysia", regions: ["Indo-Pacific"]}
+- {scientific: "Thuridilla lineolata", common: "Lined Thuridilla", regions: ["Indo-Pacific"]}
+- {scientific: "Thuridilla gracilis", common: "Graceful Thuridilla", regions: ["Indo-Pacific"]}
+- {scientific: "Thuridilla splendens", common: "Splendid Thuridilla", regions: ["Indo-Pacific"]}
+- {scientific: "Cyerce nigricans", common: "Blackish Cyerce", regions: ["Indo-Pacific"]}
+- {scientific: "Cyerce elegans", common: "Elegant Cyerce", regions: ["Indo-Pacific"]}
+- {scientific: "Plakobranchus ocellatus", common: "Ocellated Plakobranchus", regions: ["Indo-Pacific"]}
+- {scientific: "Costasiella kuroshimae", common: "Leaf Sheep", aliases: ["Shaun the Sheep Slug"], regions: ["Indo-Pacific"]}
+- {scientific: "Costasiella usagi", common: "Usagi Costasiella", regions: ["Indo-Pacific"]}
+- {scientific: "Chelidonura varians", common: "Blue Velvet Headshield Slug", regions: ["Indo-Pacific"]}
+- {scientific: "Chelidonura amoena", common: "Lovely Headshield Slug", regions: ["Indo-Pacific"]}
+- {scientific: "Chelidonura hirundinina", common: "Swallowtail Headshield Slug", regions: ["Caribbean", "Indo-Pacific"]}
+- {scientific: "Chelidonura electra", common: "Electra Headshield Slug", regions: ["Indo-Pacific"]}
+- {scientific: "Mariaglaja inornata", common: "Plain Headshield Slug", aliases: ["Chelidonura inornata"], regions: ["Indo-Pacific"]}
+- {scientific: "Tubulophilinopsis gardineri", common: "Gardiner's Headshield Slug", aliases: ["Philinopsis gardineri"], regions: ["Indo-Pacific"]}
+- {scientific: "Tubulophilinopsis pilsbryi", common: "Pilsbry's Headshield Slug", aliases: ["Philinopsis pilsbryi"], regions: ["Indo-Pacific"]}
+- {scientific: "Philinopsis speciosa", common: "Blue Headshield Slug", aliases: ["Philinopsis cyanea"], regions: ["Indo-Pacific"]}
+- {scientific: "Sagaminopteron psychedelicum", common: "Psychedelic Batwing Slug", regions: ["Indo-Pacific"]}
+- {scientific: "Sagaminopteron ornatum", common: "Ornate Batwing Slug", regions: ["Indo-Pacific"]}
+- {scientific: "Micromelo undatus", common: "Wavy Bubble Snail", regions: ["Caribbean", "Indo-Pacific"]}
+- {scientific: "Lamprohaminoea cymbalum", common: "Cymbal Bubble Snail", aliases: ["Haminoea cymbalum"], regions: ["Indo-Pacific"]}
+- {scientific: "Lamprohaminoea ovalis", common: "Oval Bubble Snail", aliases: ["Haminoea ovalis"], regions: ["Indo-Pacific"]}
+- {scientific: "Aplysia argus", common: "Indo-Pacific Spotted Sea Hare", regions: ["Indo-Pacific"]}
+- {scientific: "Dolabella auricularia", common: "Wedge Sea Hare", regions: ["Indo-Pacific"]}
+- {scientific: "Stylocheilus striatus", common: "Lined Sea Hare", regions: ["Caribbean", "Eastern Pacific", "Indo-Pacific"]}
+- {scientific: "Bursatella leachii", common: "Ragged Sea Hare", regions: ["Caribbean", "Indo-Pacific"]}
+- {scientific: "Pseudobiceros bedfordi", common: "Persian Carpet Flatworm", aliases: ["Bedford's Flatworm"], regions: ["Indo-Pacific"]}
+- {scientific: "Pseudobiceros gloriosus", common: "Glorious Flatworm", regions: ["Indo-Pacific"]}
+- {scientific: "Pseudobiceros hancockanus", common: "Hancock's Flatworm", regions: ["Indo-Pacific"]}
+- {scientific: "Pseudobiceros fulgor", common: "Fulgor Flatworm", regions: ["Indo-Pacific"]}
+- {scientific: "Pseudobiceros flowersi", common: "Flowers' Flatworm", regions: ["Indo-Pacific"]}
+- {scientific: "Pseudobiceros gratus", common: "Grateful Flatworm", regions: ["Indo-Pacific"]}
+- {scientific: "Pseudoceros bifurcus", common: "Racing Stripe Flatworm", aliases: ["Blue Pseudoceros"], regions: ["Indo-Pacific"]}
+- {scientific: "Pseudoceros dimidiatus", common: "Divided Flatworm", regions: ["Indo-Pacific"]}
+- {scientific: "Pseudoceros ferrugineus", common: "Ferruginous Flatworm", regions: ["Indo-Pacific"]}
+- {scientific: "Pseudoceros lindae", common: "Linda's Flatworm", regions: ["Indo-Pacific"]}
+- {scientific: "Pseudoceros bimarginatus", common: "Two-margined Flatworm", regions: ["Indo-Pacific"]}
+- {scientific: "Pseudoceros scintillatus", common: "Sparkling Flatworm", regions: ["Indo-Pacific"]}
+- {scientific: "Pseudoceros paralaticlavus", common: "Paralaticlavus Flatworm", regions: ["Indo-Pacific"]}
+- {scientific: "Pseudoceros laingensis", common: "Laing Island Flatworm", regions: ["Indo-Pacific"]}
+- {scientific: "Pseudoceros caeruleocinctus", common: "Sapphire Flatworm", aliases: ["Pseudoceros sapphirinus"], regions: ["Indo-Pacific"]}
+- {scientific: "Pseudoceros imitatus", common: "Imitating Flatworm", regions: ["Indo-Pacific"]}
+- {scientific: "Pseudoceros goslineri", common: "Gosliner's Flatworm", regions: ["Indo-Pacific"]}
+- {scientific: "Thysanozoon nigropapillosum", common: "Yellow-spotted Flatworm", aliases: ["Gold-dotted Flatworm"], regions: ["Indo-Pacific"]}
+- {scientific: "Cycloporus venetus", common: "Venetian Flatworm", regions: ["Indo-Pacific"]}
+- {scientific: "Eunice aphroditois", common: "Bobbit Worm", regions: ["Indo-Pacific"]}
+- {scientific: "Chloeia flava", common: "Golden Fireworm", regions: ["Indo-Pacific"]}
+- {scientific: "Chloeia incerta", common: "Small Fireworm", aliases: ["Chloeia parva"], regions: ["Indo-Pacific"]}
+- {scientific: "Eurythoe complanata", common: "Orange Fireworm", regions: ["Caribbean", "Eastern Pacific", "Indo-Pacific"]}
+- {scientific: "Loimia medusa", common: "Medusa Spaghetti Worm", regions: ["Caribbean", "Eastern Pacific", "Indo-Pacific"]}
+
+# Indo-Pacific distractors (anemones, hard + soft corals, sponges, algae, seagrass, mangrove)
+- {scientific: "Heteractis magnifica", common: "Magnificent Sea Anemone", aliases: ["Ritteri Anemone", "Radianthus magnifica"], regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Heteractis crispa", common: "Sebae Anemone", aliases: ["Leathery Sea Anemone", "Radianthus crispa"], regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Heteractis aurora", common: "Beaded Sea Anemone", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Stichodactyla gigantea", common: "Giant Carpet Anemone", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Stichodactyla mertensii", common: "Mertens' Carpet Anemone", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Stichodactyla haddoni", common: "Haddon's Carpet Anemone", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Entacmaea quadricolor", common: "Bubble-tip Anemone", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Macrodactyla doreensis", common: "Long Tentacle Anemone", aliases: ["Radianthus doreensis"], regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Cryptodendrum adhaesivum", common: "Adhesive Sea Anemone", aliases: ["Pizza Anemone"], regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Actinodendron plumosum", common: "Hell's Fire Anemone", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Cerianthus filiformis", common: "Indo-Pacific Tube Anemone", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Triactis producta", common: "Boxer Crab Anemone", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Amplexidiscus fenestrafer", common: "Giant Elephant Ear Corallimorph", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Palythoa tuberculosa", common: "Indo-Pacific Button Polyp", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Acropora millepora", common: "Millepora Staghorn Coral", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Acropora hyacinthus", common: "Hyacinth Table Coral", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Acropora muricata", common: "Staghorn Acropora", aliases: ["Acropora formosa"], regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Acropora tenuis", common: "Tenuis Acropora", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Acropora digitifera", common: "Finger Acropora", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Acropora humilis", common: "Humilis Acropora", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Acropora nasuta", common: "Nasuta Acropora", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Acropora cytherea", common: "Cytherea Table Coral", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Acropora florida", common: "Florida Acropora", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Acropora robusta", common: "Robust Acropora", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Acropora yongei", common: "Yonge's Acropora", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Acropora grandis", common: "Grand Acropora", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Isopora palifera", common: "Palifera Coral", aliases: ["Acropora palifera"], regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Montipora digitata", common: "Digitate Montipora", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Montipora capricornis", common: "Capricorn Montipora", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Montipora foliosa", common: "Foliose Montipora", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Montipora aequituberculata", common: "Plating Montipora", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Montipora verrucosa", common: "Verrucose Montipora", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Porites cylindrica", common: "Cylinder Coral", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Porites lutea", common: "Hump Coral", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Porites rus", common: "Rus Porites", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Porites nigrescens", common: "Blackish Porites", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Porites evermanni", common: "Evermann's Porites", regions: ["Eastern Pacific", "Indo-Pacific"], distractor: true}
+- {scientific: "Goniopora lobata", common: "Lobed Flowerpot Coral", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Goniopora stokesi", common: "Stokes' Flowerpot Coral", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Goniopora columna", common: "Columnar Flowerpot Coral", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Stylophora pistillata", common: "Hood Coral", aliases: ["Smooth Cauliflower Coral"], regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Seriatopora hystrix", common: "Birdsnest Coral", aliases: ["Thin Birdsnest Coral"], regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Pavona cactus", common: "Cactus Coral", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Pavona decussata", common: "Decussate Pavona", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Pavona explanulata", common: "Explanate Pavona", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Pavona frondifera", common: "Frondose Pavona", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Pavona duerdeni", common: "Duerden's Pavona", regions: ["Eastern Pacific", "Indo-Pacific"], distractor: true}
+- {scientific: "Pavona maldivensis", common: "Maldives Pavona", regions: ["Eastern Pacific", "Indo-Pacific"], distractor: true}
+- {scientific: "Pachyseris speciosa", common: "Serpent Coral", aliases: ["Phonograph Coral"], regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Pachyseris rugosa", common: "Rugose Pachyseris", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Fungia fungites", common: "Mushroom Coral", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Heliofungia actiniformis", common: "Anemone Mushroom Coral", aliases: ["Long Tentacle Plate Coral"], regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Herpolitha limax", common: "Tongue Coral", aliases: ["Slipper Coral"], regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Ctenactis echinata", common: "Echinate Mushroom Coral", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Polyphyllia talpina", common: "Mole Mushroom Coral", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Sandalolitha robusta", common: "Robust Mushroom Coral", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Lobactis scutaria", common: "Shield Mushroom Coral", aliases: ["Fungia scutaria"], regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Galaxea fascicularis", common: "Galaxy Coral", aliases: ["Octopus Coral"], regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Galaxea astreata", common: "Astreate Galaxy Coral", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Euphyllia glabrescens", common: "Torch Coral", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Fimbriaphyllia ancora", common: "Hammer Coral", aliases: ["Anchor Coral", "Euphyllia ancora"], regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Fimbriaphyllia divisa", common: "Frogspawn Coral", aliases: ["Euphyllia divisa"], regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Fimbriaphyllia paraancora", common: "Branching Hammer Coral", aliases: ["Euphyllia paraancora"], regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Plerogyra sinuosa", common: "Bubble Coral", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Physogyra lichtensteini", common: "Pearl Bubble Coral", aliases: ["Grape Bubble Coral"], regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Catalaphyllia jardinei", common: "Elegance Coral", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Turbinaria reniformis", common: "Yellow Scroll Coral", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Turbinaria mesenterina", common: "Disc Coral", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Duncanopsammia peltata", common: "Peltate Turbinaria", aliases: ["Turbinaria peltata"], regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Lobophyllia hemprichii", common: "Lobed Brain Coral", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Lobophyllia corymbosa", common: "Corymbose Lobed Brain Coral", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Lobophyllia radians", common: "Radiant Brain Coral", aliases: ["Symphyllia radians"], regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Lobophyllia recta", common: "Straight Brain Coral", aliases: ["Symphyllia recta"], regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Lobophyllia agaricia", common: "Agaricia Brain Coral", aliases: ["Symphyllia agaricia"], regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Acanthastrea echinata", common: "Echinate Acanthastrea", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Cynarina lacrymalis", common: "Button Coral", aliases: ["Cat's Eye Coral"], regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Trachyphyllia geoffroyi", common: "Open Brain Coral", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Dipsastraea pallida", common: "Pale Dipsastraea", aliases: ["Favia pallida"], regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Dipsastraea speciosa", common: "Showy Dipsastraea", aliases: ["Favia speciosa"], regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Dipsastraea favus", common: "Honeycomb Dipsastraea", aliases: ["Favia favus"], regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Dipsastraea matthaii", common: "Matthai's Dipsastraea", aliases: ["Favia matthaii"], regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Favites abdita", common: "Larger Star Coral", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Favites halicora", common: "Halicora Favites", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Favites pentagona", common: "Pentagonal Favites", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Favites flexuosa", common: "Flexuose Favites", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Goniastrea retiformis", common: "Retiform Goniastrea", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Goniastrea edwardsi", common: "Edwards' Goniastrea", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Goniastrea pectinata", common: "Pectinate Goniastrea", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Goniastrea stelligera", common: "Stelligera Goniastrea", aliases: ["Favia stelligera"], regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Platygyra daedalea", common: "Lesser Valley Coral", aliases: ["Daedalea Brain Coral"], regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Platygyra lamellina", common: "Lamellina Brain Coral", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Platygyra sinensis", common: "Chinese Brain Coral", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Platygyra pini", common: "Pini Brain Coral", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Leptoria phrygia", common: "Closed Brain Coral", aliases: ["Phrygian Brain Coral"], regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Oulophyllia crispa", common: "Crisp Oulophyllia", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Hydnophora exesa", common: "Horn Coral", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Hydnophora rigida", common: "Rigid Horn Coral", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Hydnophora microconos", common: "Microconos Horn Coral", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Merulina ampliata", common: "Ruffled Coral", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Astrea curta", common: "Short Astrea", aliases: ["Montastrea curta"], regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Leptastrea purpurea", common: "Purple Leptastrea", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Leptastrea transversa", common: "Transverse Leptastrea", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Cyphastrea serailia", common: "Serailia Cyphastrea", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Cyphastrea chalcidicum", common: "Chalcidicum Cyphastrea", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Echinopora lamellosa", common: "Lamellose Echinopora", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Echinopora horrida", common: "Horrid Echinopora", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Echinopora gemmacea", common: "Gemmaceous Echinopora", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Diploastrea heliopora", common: "Diploastrea Honeycomb Coral", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Oulastrea crispata", common: "Zebra Coral", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Caulastraea furcata", common: "Candy Cane Coral", aliases: ["Trumpet Coral"], regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Blastomussa wellsi", common: "Wells' Blastomussa", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Pectinia lactuca", common: "Lettuce Pectinia", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Pectinia paeonia", common: "Peony Pectinia", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Mycedium elephantotus", common: "Elephant Nose Coral", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Oxypora lacera", common: "Lacerate Oxypora", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Echinophyllia aspera", common: "Rough Echinophyllia", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Tubastraea micranthus", common: "Green Tree Coral", aliases: ["Black Sun Coral"], regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Astreopora myriophthalma", common: "Porous Star Coral", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Astreopora listeri", common: "Lister's Astreopora", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Psammocora contigua", common: "Contiguous Sandpaper Coral", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Psammocora digitata", common: "Digitate Sandpaper Coral", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Psammocora profundacella", common: "Deep-celled Sandpaper Coral", regions: ["Eastern Pacific", "Indo-Pacific"], distractor: true}
+- {scientific: "Psammocora columna", common: "Columnar Coscinaraea", aliases: ["Coscinaraea columna"], regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Millepora dichotoma", common: "Net Fire Coral", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Millepora tenera", common: "Tender Fire Coral", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Millepora intricata", common: "Intricate Fire Coral", regions: ["Eastern Pacific", "Indo-Pacific"], distractor: true}
+- {scientific: "Distichopora violacea", common: "Violet Lace Coral", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Heliopora coerulea", common: "Blue Coral", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Tubipora musica", common: "Organ Pipe Coral", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Sarcophyton glaucum", common: "Toadstool Leather Coral", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Sarcophyton trocheliophorum", common: "Trochel's Leather Coral", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Sarcophyton ehrenbergi", common: "Ehrenberg's Leather Coral", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Sinularia flexibilis", common: "Flexible Leather Coral", aliases: ["Spaghetti Finger Leather Coral", "Sclerophytum flexibile"], regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Sinularia polydactyla", common: "Many-fingered Leather Coral", aliases: ["Sclerophytum polydactylum"], regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Sinularia brassica", common: "Brassica Leather Coral", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Sinularia leptoclados", common: "Leptoclados Leather Coral", aliases: ["Sclerophytum leptoclados"], regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Sinularia maxima", common: "Great Leather Coral", aliases: ["Sclerophytum maximum"], regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Lobophytum pauciflorum", common: "Devil's Hand Leather Coral", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Lobophytum crassum", common: "Thick Lobophytum", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Xenia umbellata", common: "Pulsing Xenia", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Dendronephthya gigantea", common: "Giant Carnation Coral", aliases: ["Carnation Tree Coral"], regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Dendronephthya mucronata", common: "Mucronate Carnation Coral", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Dendronephthya rubeola", common: "Ruby Carnation Coral", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Briareum violaceum", common: "Violet Briareum", aliases: ["Pachyclavularia violacea"], regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Annella mollis", common: "Giant Sea Fan", aliases: ["Subergorgia mollis"], regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Melithaea ochracea", common: "Ochre Sea Fan", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Ellisella ceratophyta", common: "Red Sea Whip", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Junceella fragilis", common: "Fragile Sea Whip", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Ctenocella pectinata", common: "Comb Sea Fan", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Rumphella aggregata", common: "Bushy Gorgonian", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Muricella plectana", common: "Plectana Sea Fan", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Antipathes grandis", common: "Grand Black Coral", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Cirrhipathes anguina", common: "Spiral Wire Coral", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Xestospongia testudinaria", common: "Indo-Pacific Barrel Sponge", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Ianthella basta", common: "Elephant Ear Sponge", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Callyspongia aerizusa", common: "Indo-Pacific Tube Sponge", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Theonella swinhoei", common: "Swinhoe's Sponge", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Cliona orientalis", common: "Oriental Boring Sponge", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Cinachyrella australiensis", common: "Golf Ball Sponge", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Stylissa carteri", common: "Carter's Sponge", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Phyllospongia foliascens", common: "Foliose Sponge", aliases: ["Carteriospongia foliascens"], regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Leucetta chagosensis", common: "Lemon Sponge", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Polycarpa aurata", common: "Gold-mouth Sea Squirt", aliases: ["Ox-heart Ascidian", "Ink-spot Sea Squirt"], regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Rhopalaea crassa", common: "Blue Club Tunicate", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Clavelina moluccensis", common: "Bluebell Tunicate", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Didemnum molle", common: "Green Barrel Sea Squirt", aliases: ["Urn Ascidian"], regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Atriolum robustum", common: "Green Urn Tunicate", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Nephtheis fascicularis", common: "Blue Palm Tunicate", aliases: ["Oxycorynia fascicularis"], regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Pachyrhynchia cuppressina", common: "Stinging Feather Hydroid", aliases: ["Aglaophenia cupressina"], regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Macrorhynchia philippina", common: "White Stinging Hydroid", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Pennaria disticha", common: "Christmas Tree Hydroid", regions: ["Caribbean", "Eastern Pacific", "Indo-Pacific"], distractor: true}
+- {scientific: "Sabellastarte spectabilis", common: "Indo-Pacific Feather Duster", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Protula bispiralis", common: "Red Fanworm", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Spirobranchus corniculatus", common: "Indo-Pacific Christmas Tree Worm", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Halimeda macroloba", common: "Large-lobed Halimeda", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Caulerpa racemosa", common: "Sea Grapes", regions: ["Caribbean", "Eastern Pacific", "Indo-Pacific"], distractor: true}
+- {scientific: "Caulerpa taxifolia", common: "Killer Alga", aliases: ["Taxifolia Caulerpa"], regions: ["Caribbean", "Indo-Pacific"], distractor: true}
+- {scientific: "Caulerpa lentillifera", common: "Sea Grape Lentillifera", aliases: ["Umibudo"], regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Padina australis", common: "Australian Padina", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Turbinaria ornata", common: "Ornate Turbinweed", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Turbinaria conoides", common: "Conoid Turbinweed", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Sargassum ilicifolium", common: "Holly-leaf Sargassum", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Chlorodesmis fastigiata", common: "Turtle Weed", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Valonia ventricosa", common: "Sailor's Eyeball", aliases: ["Bubble Algae"], regions: ["Caribbean", "Eastern Pacific", "Indo-Pacific"], distractor: true}
+- {scientific: "Porolithon onkodes", common: "Onkodes Crustose Coralline", aliases: ["Hydrolithon onkodes"], regions: ["Eastern Pacific", "Indo-Pacific"], distractor: true}
+- {scientific: "Enhalus acoroides", common: "Tape Seagrass", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Thalassia hemprichii", common: "Sickle Seagrass", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Halophila ovalis", common: "Paddle Weed", aliases: ["Spoon Grass"], regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Rhizophora apiculata", common: "Tall-stilt Mangrove", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Sonneratia alba", common: "Mangrove Apple", regions: ["Indo-Pacific"], distractor: true}
