@@ -13,29 +13,29 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
-    src_mtime: 1786158236.183979
+    created: '2026-08-22T13:40:14Z'
+    src_mtime: 1787325219.569603
     top:
-    - scientific: Gymnothorax funebris
-      confidence: 0.5129
     - scientific: Enchelycore carychroa
-      confidence: 0.1464
-    - scientific: Diodon holocanthus
-      confidence: 0.0496
+      confidence: 0.3366
+    - scientific: Gymnothorax funebris
+      confidence: 0.2189
+    - scientific: Thalassoma bifasciatum
+      confidence: 0.1079
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1787325219.569603
     top:
     - scientific: Gymnothorax moringa
-      confidence: 0.2299
+      confidence: 0.2298
     - scientific: Gymnothorax miliaris
-      confidence: 0.2002
+      confidence: 0.2001
     - scientific: Enchelycore carychroa
-      confidence: 0.0979
+      confidence: 0.0978
 species:
-- scientific: Gymnothorax moringa
+- scientific: Enchelycore carychroa
   role: primary
-  confidence: 0.2299
-  identified_by: bioclip-2
+  confidence: 0.2172
+  identified_by: bioclip+bioclip-2
 rotation_applied: 90

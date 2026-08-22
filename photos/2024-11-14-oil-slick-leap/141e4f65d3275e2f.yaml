@@ -13,26 +13,26 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1786156895.834423
     top:
     - scientific: Aulostomus maculatus
-      confidence: 0.2831
+      confidence: 0.283
     - scientific: Mycteroperca tigris
       confidence: 0.0732
     - scientific: Pareques acuminatus
       confidence: 0.0719
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:41:08Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1786156895.834423
     top:
     - scientific: Cephalopholis cruentata
-      confidence: 0.3857
+      confidence: 0.3826
     - scientific: Aulostomus maculatus
-      confidence: 0.1627
+      confidence: 0.1613
     - scientific: Mycteroperca bonaci
-      confidence: 0.1129
+      confidence: 0.112
 species:
 - scientific: Epinephelus adscensionis
   role: primary

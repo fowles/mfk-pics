@@ -13,18 +13,18 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
-    src_mtime: 1786159065.5776315
+    created: '2026-08-22T13:40:14Z'
+    src_mtime: 1787278469.2865431
     top:
+    - scientific: Periclimenes yucatanicus
+      confidence: 0.7112
     - scientific: Sphoeroides spengleri
-      confidence: 0.5491
-    - scientific: Serranus tigrinus
-      confidence: 0.2277
+      confidence: 0.212
     - scientific: Serranus tortugarum
-      confidence: 0.1607
+      confidence: 0.0221
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1787278469.2865431
     top:
     - scientific: Serranus tigrinus
@@ -36,6 +36,6 @@ species_suggestions:
 species:
 - scientific: Serranus tigrinus
   role: primary
-  confidence: 0.9888
+  confidence: 0.4944
   identified_by: bioclip-2
 rotation_applied: 90

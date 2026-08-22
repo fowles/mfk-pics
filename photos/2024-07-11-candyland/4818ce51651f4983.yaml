@@ -13,18 +13,18 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1786159271.668518
     top:
     - scientific: Kyphosus sectatrix
-      confidence: 0.7432
+      confidence: 0.743
     - scientific: Sepioteuthis sepioidea
       confidence: 0.0512
     - scientific: Scarus vetula
       confidence: 0.0399
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1786159271.668518
     top:
     - scientific: Canthidermis sufflamen
@@ -36,5 +36,5 @@ species_suggestions:
 species:
 - scientific: Kyphosus sectatrix
   role: primary
-  confidence: 0.4947
+  confidence: 0.4946
   identified_by: bioclip+bioclip-2

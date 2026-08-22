@@ -13,18 +13,18 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1786159561.381956
     top:
     - scientific: Lactophrys triqueter
-      confidence: 0.477
+      confidence: 0.4769
     - scientific: Lactophrys bicaudalis
       confidence: 0.0848
     - scientific: Sparisoma viride
       confidence: 0.0703
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1786159561.381956
     top:
     - scientific: Halichoeres pictus
@@ -36,5 +36,5 @@ species_suggestions:
 species:
 - scientific: Lactophrys triqueter
   role: primary
-  confidence: 0.2385
+  confidence: 0.2384
   identified_by: bioclip

@@ -13,18 +13,18 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1786156810.2764642
     top:
     - scientific: Anisotremus virginicus
-      confidence: 0.2471
+      confidence: 0.247
     - scientific: Thalassoma bifasciatum
-      confidence: 0.1629
+      confidence: 0.1628
     - scientific: Sparisoma aurofrenatum
-      confidence: 0.081
+      confidence: 0.0809
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1786156810.2764642
     top:
     - scientific: Ocyurus chrysurus

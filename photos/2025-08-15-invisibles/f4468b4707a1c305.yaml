@@ -13,18 +13,18 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1786071945.8433127
     top:
     - scientific: Cephalopholis cruentata
-      confidence: 0.9964
+      confidence: 0.9104
+    - scientific: Epinephelus adscensionis
+      confidence: 0.0863
     - scientific: Diodon hystrix
-      confidence: 0.0023
-    - scientific: Mycteroperca tigris
-      confidence: 0.0006
+      confidence: 0.0021
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1786071945.8433127
     top:
     - scientific: Cephalopholis cruentata
@@ -36,5 +36,5 @@ species_suggestions:
 species:
 - scientific: Cephalopholis cruentata
   role: primary
-  confidence: 0.909
+  confidence: 0.866
   identified_by: bioclip+bioclip-2

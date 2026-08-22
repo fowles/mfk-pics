@@ -14,7 +14,7 @@ rotation_applied: 270
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1787028754.4364552
     top:
     - scientific: Gymnothorax funebris
@@ -25,17 +25,17 @@ species_suggestions:
       confidence: 0.0762
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1787028754.4364552
     top:
     - scientific: Gymnothorax funebris
-      confidence: 0.5312
+      confidence: 0.5301
     - scientific: Pomacanthus paru
-      confidence: 0.1846
+      confidence: 0.1842
     - scientific: Enchelycore carychroa
-      confidence: 0.0813
+      confidence: 0.0811
 species:
 - scientific: Gymnothorax funebris
   role: primary
-  confidence: 0.4973
+  confidence: 0.4968
   identified_by: bioclip+bioclip-2

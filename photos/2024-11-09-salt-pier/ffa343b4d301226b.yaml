@@ -16,31 +16,31 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1786156586.6640887
     top:
     - scientific: Thalassoma bifasciatum
-      confidence: 0.5573
+      confidence: 0.5571
     - scientific: Diodon holocanthus
-      confidence: 0.2142
+      confidence: 0.2141
     - scientific: Aulostomus maculatus
       confidence: 0.0783
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1786156586.6640887
     top:
     - scientific: Lactophrys triqueter
-      confidence: 0.0812
+      confidence: 0.081
     - scientific: Holacanthus tricolor
-      confidence: 0.0582
+      confidence: 0.058
     - scientific: Halichoeres maculipinna
-      confidence: 0.045
+      confidence: 0.0449
     absorbed_by:
       scientific: Orbicella annularis
-      confidence: 0.1474
+      confidence: 0.1471
 species:
 - scientific: Thalassoma bifasciatum
   role: primary
-  confidence: 0.2787
+  confidence: 0.2786
   identified_by: bioclip

@@ -14,7 +14,7 @@ rotation_applied: 180
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1787029641.753393
     top:
     - scientific: Gymnothorax funebris
@@ -25,11 +25,11 @@ species_suggestions:
       confidence: 0.0884
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1787029641.753393
     top:
     - scientific: Cantherhines macrocerus
-      confidence: 0.7808
+      confidence: 0.7805
     - scientific: Cantherhines pullus
       confidence: 0.0294
     - scientific: Acanthostracion polygonius
@@ -37,5 +37,5 @@ species_suggestions:
 species:
 - scientific: Cantherhines macrocerus
   role: primary
-  confidence: 0.3904
+  confidence: 0.3902
   identified_by: bioclip-2

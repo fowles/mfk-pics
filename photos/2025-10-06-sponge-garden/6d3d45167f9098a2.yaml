@@ -13,7 +13,7 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1786159779.6683128
     top:
     - scientific: Tursiops truncatus
@@ -24,15 +24,15 @@ species_suggestions:
       confidence: 0.0706
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1786159779.6683128
     top:
     - scientific: Eretmochelys imbricata
-      confidence: 0.2772
+      confidence: 0.2776
     - scientific: Caretta caretta
-      confidence: 0.2279
+      confidence: 0.2282
     - scientific: Diodon holocanthus
-      confidence: 0.0666
+      confidence: 0.0667
 species:
 - scientific: Tursiops truncatus
   role: primary

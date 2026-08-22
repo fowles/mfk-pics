@@ -13,28 +13,28 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1786071950.9979706
     top:
     - scientific: Octopus briareus
-      confidence: 0.985
-    - scientific: Octopus vulgaris
-      confidence: 0.0149
+      confidence: 0.6925
+    - scientific: Octopus insularis
+      confidence: 0.3074
     - scientific: Ogcocephalus nasutus
       confidence: 0.0
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:41:08Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1786071950.9979706
     top:
+    - scientific: Octopus insularis
+      confidence: 0.5814
     - scientific: Octopus briareus
-      confidence: 0.9996
-    - scientific: Octopus vulgaris
-      confidence: 0.0002
+      confidence: 0.4185
     - scientific: Sepioteuthis sepioidea
-      confidence: 0.0001
+      confidence: 0.0
 species:
-- scientific: Octopus vulgaris
+- scientific: Octopus insularis
   role: primary
   identified_by: human
   confirmed_from: bioclip

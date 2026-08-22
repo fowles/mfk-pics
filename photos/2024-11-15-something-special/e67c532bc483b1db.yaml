@@ -16,28 +16,28 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1786157216.2619472
     top:
+    - scientific: Octopus insularis
+      confidence: 0.4464
     - scientific: Octopus briareus
-      confidence: 0.5257
+      confidence: 0.292
     - scientific: Cephalopholis cruentata
-      confidence: 0.2367
-    - scientific: Gymnothorax miliaris
-      confidence: 0.1612
+      confidence: 0.1315
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1786157216.2619472
     top:
+    - scientific: Octopus insularis
+      confidence: 0.9194
     - scientific: Octopus briareus
-      confidence: 0.9275
-    - scientific: Octopus vulgaris
-      confidence: 0.0677
+      confidence: 0.0802
     - scientific: Opistognathus aurifrons
-      confidence: 0.001
+      confidence: 0.0001
 species:
-- scientific: Octopus briareus
+- scientific: Octopus insularis
   role: primary
-  confidence: 0.7266
+  confidence: 0.6829
   identified_by: bioclip+bioclip-2

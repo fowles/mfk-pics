@@ -17,7 +17,7 @@ rotation_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1786156357.8472896
     top:
     - scientific: Aetobatus narinari
@@ -28,17 +28,17 @@ species_suggestions:
       confidence: 0.077
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1786156357.8472896
     top:
     - scientific: Gymnothorax moringa
-      confidence: 0.6729
+      confidence: 0.6721
     - scientific: Gymnothorax miliaris
-      confidence: 0.0315
+      confidence: 0.0314
     - scientific: Equetus punctatus
       confidence: 0.0188
 species:
 - scientific: Gymnothorax moringa
   role: primary
-  confidence: 0.3365
+  confidence: 0.3361
   identified_by: bioclip-2

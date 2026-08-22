@@ -16,28 +16,28 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1786156746.934919
     top:
     - scientific: Epinephelus itajara
-      confidence: 0.5344
+      confidence: 0.5342
     - scientific: Epinephelus striatus
       confidence: 0.3049
     - scientific: Holocentrus adscensionis
       confidence: 0.0391
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1786156746.934919
     top:
     - scientific: Anisotremus surinamensis
-      confidence: 0.261
+      confidence: 0.2608
     - scientific: Canthidermis sufflamen
-      confidence: 0.145
+      confidence: 0.1449
     - scientific: Chaetodon striatus
       confidence: 0.0747
 species:
 - scientific: Epinephelus itajara
   role: primary
-  confidence: 0.2672
+  confidence: 0.2671
   identified_by: bioclip

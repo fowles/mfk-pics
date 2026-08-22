@@ -13,28 +13,28 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1786158400.3911867
     top:
     - scientific: Scorpaena plumieri
-      confidence: 0.8502
+      confidence: 0.85
     - scientific: Holothuria mexicana
-      confidence: 0.1302
+      confidence: 0.1301
     - scientific: Epinephelus itajara
       confidence: 0.0071
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1786158400.3911867
     top:
     - scientific: Gymnothorax funebris
-      confidence: 0.184
+      confidence: 0.1838
     - scientific: Gymnothorax miliaris
-      confidence: 0.0961
+      confidence: 0.096
     - scientific: Halichoeres maculipinna
-      confidence: 0.0903
+      confidence: 0.0902
 species:
 - scientific: Scorpaena plumieri
   role: primary
-  confidence: 0.4251
+  confidence: 0.425
   identified_by: bioclip

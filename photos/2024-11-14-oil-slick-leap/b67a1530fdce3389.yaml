@@ -13,24 +13,24 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1786156897.25091
     top:
     - scientific: Chaetodon sedentarius
-      confidence: 0.2927
+      confidence: 0.2924
     - scientific: Epinephelus striatus
-      confidence: 0.2458
+      confidence: 0.2455
     - scientific: Gymnothorax funebris
-      confidence: 0.1306
+      confidence: 0.1305
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1786156897.25091
     top:
     - scientific: Chaetodon capistratus
-      confidence: 0.0676
+      confidence: 0.0675
     - scientific: Cephalopholis cruentata
-      confidence: 0.0581
+      confidence: 0.058
     - scientific: Chaetodon striatus
       confidence: 0.0371
     absorbed_by:
@@ -39,5 +39,5 @@ species_suggestions:
 species:
 - scientific: Chaetodon sedentarius
   role: primary
-  confidence: 0.1464
+  confidence: 0.1462
   identified_by: bioclip

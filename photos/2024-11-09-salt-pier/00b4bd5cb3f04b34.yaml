@@ -16,28 +16,28 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1786156580.5772407
     top:
     - scientific: Enchelycore carychroa
-      confidence: 0.2547
+      confidence: 0.2543
     - scientific: Eretmochelys imbricata
-      confidence: 0.2003
+      confidence: 0.2
     - scientific: Diodon holocanthus
-      confidence: 0.1808
+      confidence: 0.1806
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1786156580.5772407
     top:
     - scientific: Chaetodon capistratus
-      confidence: 0.06
+      confidence: 0.0599
     - scientific: Anisotremus surinamensis
-      confidence: 0.0574
+      confidence: 0.0573
     - scientific: Bodianus pulchellus
-      confidence: 0.0357
+      confidence: 0.0356
 species:
 - scientific: Enchelycore carychroa
   role: primary
-  confidence: 0.1273
+  confidence: 0.1272
   identified_by: bioclip

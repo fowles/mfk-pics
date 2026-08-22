@@ -13,28 +13,28 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1786159784.0260165
     top:
     - scientific: Malacanthus plumieri
-      confidence: 0.6137
+      confidence: 0.6134
     - scientific: Sparisoma aurofrenatum
-      confidence: 0.1002
+      confidence: 0.1001
     - scientific: Lutjanus jocu
-      confidence: 0.0894
+      confidence: 0.0893
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1786159784.0260165
     top:
     - scientific: Cephalopholis cruentata
-      confidence: 0.1841
+      confidence: 0.1788
     - scientific: Scorpaena plumieri
-      confidence: 0.1227
+      confidence: 0.1192
     - scientific: Cephalopholis fulva
-      confidence: 0.0958
+      confidence: 0.093
 species:
 - scientific: Malacanthus plumieri
   role: primary
-  confidence: 0.3069
+  confidence: 0.3067
   identified_by: bioclip

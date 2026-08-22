@@ -13,18 +13,18 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1786159561.3922725
     top:
     - scientific: Sparisoma viride
-      confidence: 0.4133
+      confidence: 0.4127
     - scientific: Thalassoma bifasciatum
-      confidence: 0.1516
+      confidence: 0.1514
     - scientific: Gymnothorax funebris
-      confidence: 0.102
+      confidence: 0.1018
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1786159561.3922725
     top:
     - scientific: Bodianus rufus
@@ -35,9 +35,9 @@ species_suggestions:
       confidence: 0.0493
     absorbed_by:
       scientific: Agelas clathrodes
-      confidence: 0.2249
+      confidence: 0.2248
 species:
 - scientific: Sparisoma viride
   role: primary
-  confidence: 0.2067
+  confidence: 0.2064
   identified_by: bioclip

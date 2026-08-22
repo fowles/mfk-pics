@@ -16,7 +16,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1786156980.5952628
     top:
     - scientific: Astrophyton muricatum
@@ -30,15 +30,15 @@ species_suggestions:
       confidence: 0.5974
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1786156980.5952628
     top:
     - scientific: Astrophyton muricatum
-      confidence: 0.2525
+      confidence: 0.2524
     - scientific: Panulirus argus
       confidence: 0.0522
     - scientific: Monacanthus tuckeri
-      confidence: 0.0316
+      confidence: 0.0315
     absorbed_by:
       scientific: Antillogorgia americana
-      confidence: 0.3852
+      confidence: 0.3851

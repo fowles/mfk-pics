@@ -14,22 +14,22 @@ rotation_applied: 90
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1787176519.436818
     top:
     - scientific: Gymnothorax funebris
-      confidence: 0.4998
+      confidence: 0.4997
     - scientific: Aulostomus maculatus
       confidence: 0.1721
     - scientific: Haemulon chrysargyreum
       confidence: 0.0303
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1787176519.436818
     top:
     - scientific: Haemulon flavolineatum
-      confidence: 0.4971
+      confidence: 0.4969
     - scientific: Gymnothorax funebris
       confidence: 0.1168
     - scientific: Haemulon chrysargyreum
@@ -37,5 +37,5 @@ species_suggestions:
 species:
 - scientific: Gymnothorax funebris
   role: primary
-  confidence: 0.3083
+  confidence: 0.3082
   identified_by: bioclip+bioclip-2

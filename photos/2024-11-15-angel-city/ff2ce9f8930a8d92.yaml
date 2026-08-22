@@ -13,7 +13,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1786157054.2097504
     top:
     - scientific: Thalassoma bifasciatum
@@ -24,17 +24,17 @@ species_suggestions:
       confidence: 0.1264
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1786157054.2097504
     top:
     - scientific: Sphyraena barracuda
-      confidence: 0.2795
+      confidence: 0.2789
     - scientific: Sepioteuthis sepioidea
-      confidence: 0.2476
+      confidence: 0.2471
     - scientific: Diodon hystrix
-      confidence: 0.0551
+      confidence: 0.055
 species:
 - scientific: Sphyraena barracuda
   role: primary
-  confidence: 0.1398
+  confidence: 0.1394
   identified_by: bioclip-2

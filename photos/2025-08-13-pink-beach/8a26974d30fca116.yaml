@@ -13,7 +13,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1786158187.031215
     top:
     - scientific: Gymnothorax funebris
@@ -24,13 +24,13 @@ species_suggestions:
       confidence: 0.0002
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1786158187.031215
     top:
     - scientific: Haemulon flavolineatum
       confidence: 0.2448
     - scientific: Lutjanus jocu
-      confidence: 0.1354
+      confidence: 0.1353
     - scientific: Cantherhines macrocerus
       confidence: 0.1104
 species:

@@ -16,7 +16,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1786156981.9611762
     top:
     - scientific: Heteroconger longissimus
@@ -27,11 +27,11 @@ species_suggestions:
       confidence: 0.0085
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1786156981.9611762
     top:
     - scientific: Heteroconger longissimus
-      confidence: 0.7458
+      confidence: 0.7454
     - scientific: Myrichthys breviceps
       confidence: 0.0337
     - scientific: Carcharhinus perezi
@@ -39,5 +39,5 @@ species_suggestions:
 species:
 - scientific: Heteroconger longissimus
   role: primary
-  confidence: 0.8463
+  confidence: 0.8461
   identified_by: bioclip+bioclip-2

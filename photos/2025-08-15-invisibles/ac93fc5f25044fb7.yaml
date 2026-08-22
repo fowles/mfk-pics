@@ -13,28 +13,28 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1786071952.3412476
     top:
     - scientific: Synodus intermedius
-      confidence: 0.5152
+      confidence: 0.5135
     - scientific: Diadema antillarum
-      confidence: 0.3116
+      confidence: 0.3106
     - scientific: Scorpaena plumieri
-      confidence: 0.0283
+      confidence: 0.0282
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1786071952.3412476
     top:
     - scientific: Cephalopholis cruentata
-      confidence: 0.8565
+      confidence: 0.8556
     - scientific: Epinephelus adscensionis
       confidence: 0.0848
     - scientific: Epinephelus guttatus
-      confidence: 0.0372
+      confidence: 0.0371
 species:
 - scientific: Cephalopholis cruentata
   role: primary
-  confidence: 0.4283
+  confidence: 0.4278
   identified_by: bioclip-2

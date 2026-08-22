@@ -16,7 +16,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1786159067.390496
     top:
     - scientific: Sphoeroides spengleri
@@ -27,11 +27,11 @@ species_suggestions:
       confidence: 0.0568
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1786159067.390496
     top:
     - scientific: Bothus lunatus
-      confidence: 0.9546
+      confidence: 0.9545
     - scientific: Ogcocephalus radiatus
       confidence: 0.0119
     - scientific: Ogcocephalus nasutus

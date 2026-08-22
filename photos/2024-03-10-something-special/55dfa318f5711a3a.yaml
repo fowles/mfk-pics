@@ -14,18 +14,18 @@ rotation_applied: 180
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1787029032.086237
     top:
     - scientific: Holothuria mexicana
-      confidence: 0.249
+      confidence: 0.2485
     - scientific: Sparisoma viride
-      confidence: 0.2463
+      confidence: 0.2458
     - scientific: Sparisoma rubripinne
-      confidence: 0.1005
+      confidence: 0.1003
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1787029032.086237
     top:
     - scientific: Bothus lunatus

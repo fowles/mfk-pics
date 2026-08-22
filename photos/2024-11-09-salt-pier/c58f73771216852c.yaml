@@ -13,26 +13,26 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1786156576.1722345
     top:
     - scientific: Hypoplectrus puella
-      confidence: 0.1896
+      confidence: 0.1895
     - scientific: Aulostomus maculatus
-      confidence: 0.1214
+      confidence: 0.1213
     - scientific: Hypoplectrus indigo
-      confidence: 0.0523
+      confidence: 0.0522
     absorbed_by:
       scientific: Gorgonia ventalina
-      confidence: 0.3408
+      confidence: 0.3405
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1786156576.1722345
     top:
     - scientific: Hypanus americanus
-      confidence: 0.1423
+      confidence: 0.142
     - scientific: Cephalopholis fulva
-      confidence: 0.0791
+      confidence: 0.079
     - scientific: Heteroconger longissimus
-      confidence: 0.0771
+      confidence: 0.0769

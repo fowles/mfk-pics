@@ -13,22 +13,22 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1786158186.9450738
     top:
     - scientific: Opistognathus aurifrons
-      confidence: 0.5042
+      confidence: 0.5004
     - scientific: Cephalopholis fulva
-      confidence: 0.1229
+      confidence: 0.122
     - scientific: Bodianus pulchellus
-      confidence: 0.0921
+      confidence: 0.0914
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1786158186.9450738
     top:
     - scientific: Sphyraena barracuda
-      confidence: 0.7881
+      confidence: 0.788
     - scientific: Diodon hystrix
       confidence: 0.0276
     - scientific: Pseudupeneus maculatus
@@ -36,5 +36,5 @@ species_suggestions:
 species:
 - scientific: Sphyraena barracuda
   role: primary
-  confidence: 0.3941
+  confidence: 0.394
   identified_by: bioclip-2

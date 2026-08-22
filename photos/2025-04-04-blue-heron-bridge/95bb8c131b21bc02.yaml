@@ -13,28 +13,28 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1786157490.030476
     top:
     - scientific: Petrochirus diogenes
-      confidence: 0.408
+      confidence: 0.4078
     - scientific: Aliger gigas
-      confidence: 0.2416
+      confidence: 0.2415
     - scientific: Lutjanus apodus
       confidence: 0.1177
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1786157490.030476
     top:
     - scientific: Petrochirus diogenes
-      confidence: 0.9563
+      confidence: 0.9629
     - scientific: Panulirus argus
-      confidence: 0.0102
+      confidence: 0.0103
     - scientific: Mithrax spinosissimus
-      confidence: 0.0093
+      confidence: 0.0094
 species:
 - scientific: Petrochirus diogenes
   role: primary
-  confidence: 0.6822
+  confidence: 0.6854
   identified_by: bioclip+bioclip-2

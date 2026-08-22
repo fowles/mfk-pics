@@ -12,7 +12,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1786159809.9674852
     top:
     - scientific: Melichthys niger
@@ -23,15 +23,15 @@ species_suggestions:
       confidence: 0.0395
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:41:08Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1786159809.9674852
     top:
     - scientific: Pempheris schomburgkii
-      confidence: 0.1051
+      confidence: 0.1047
     - scientific: Serranus tabacarius
-      confidence: 0.085
+      confidence: 0.0846
     - scientific: Heteroconger longissimus
-      confidence: 0.0635
+      confidence: 0.0632
 species:
 - scientific: Homo sapiens
   role: primary

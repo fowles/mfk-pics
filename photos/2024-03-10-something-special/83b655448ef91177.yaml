@@ -14,21 +14,21 @@ rotation_applied: 180
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1787028864.0243597
     top:
     - scientific: Octopus briareus
       confidence: 0.0001
-    - scientific: Gymnothorax funebris
+    - scientific: Octopus insularis
       confidence: 0.0
-    - scientific: Thalassoma bifasciatum
+    - scientific: Gymnothorax funebris
       confidence: 0.0
     absorbed_by:
       scientific: Condylactis gigantea
       confidence: 0.9907
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1787028864.0243597
     top:
     - scientific: Carpilius corallinus

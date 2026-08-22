@@ -14,28 +14,28 @@ rotation_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1786156323.3211918
     top:
     - scientific: Chromis multilineata
-      confidence: 0.3537
+      confidence: 0.3533
     - scientific: Microspathodon chrysurus
-      confidence: 0.1587
+      confidence: 0.1586
     - scientific: Sparisoma aurofrenatum
-      confidence: 0.1131
+      confidence: 0.113
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1786156323.3211918
     top:
     - scientific: Chromis multilineata
-      confidence: 0.3103
+      confidence: 0.3105
     - scientific: Chromis cyanea
-      confidence: 0.1831
+      confidence: 0.1832
     - scientific: Pempheris schomburgkii
       confidence: 0.0648
 species:
 - scientific: Chromis multilineata
   role: primary
-  confidence: 0.332
+  confidence: 0.3319
   identified_by: bioclip+bioclip-2

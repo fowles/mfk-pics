@@ -13,29 +13,29 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1786156691.571933
     top:
     - scientific: Aulostomus maculatus
-      confidence: 0.4365
+      confidence: 0.4364
     - scientific: Synodus intermedius
       confidence: 0.3828
     - scientific: Panulirus argus
       confidence: 0.0918
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1786156691.571933
     top:
     - scientific: Holacanthus tricolor
-      confidence: 0.1021
+      confidence: 0.1019
     - scientific: Chaetodon capistratus
-      confidence: 0.0865
+      confidence: 0.0863
     - scientific: Myrichthys breviceps
-      confidence: 0.0378
+      confidence: 0.0377
     absorbed_by:
       scientific: Millepora complanata
-      confidence: 0.1038
+      confidence: 0.1035
 species:
 - scientific: Aulostomus maculatus
   role: primary

@@ -13,18 +13,18 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1786158710.3295374
     top:
     - scientific: Sparisoma viride
-      confidence: 0.2308
+      confidence: 0.2367
     - scientific: Diodon holocanthus
-      confidence: 0.1451
+      confidence: 0.1488
     - scientific: Gymnothorax funebris
-      confidence: 0.097
+      confidence: 0.0995
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1786158710.3295374
     top:
     - scientific: Thalassoma bifasciatum
@@ -36,5 +36,5 @@ species_suggestions:
 species:
 - scientific: Sparisoma viride
   role: primary
-  confidence: 0.1154
+  confidence: 0.1183
   identified_by: bioclip

@@ -13,18 +13,18 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1786159058.8597054
     top:
     - scientific: Acanthurus coeruleus
-      confidence: 0.9969
+      confidence: 0.9967
     - scientific: Chromis cyanea
       confidence: 0.0021
     - scientific: Hypoplectrus indigo
       confidence: 0.0007
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1786159058.8597054
     top:
     - scientific: Acanthurus coeruleus
@@ -36,5 +36,5 @@ species_suggestions:
 species:
 - scientific: Acanthurus coeruleus
   role: primary
-  confidence: 0.9951
+  confidence: 0.995
   identified_by: bioclip+bioclip-2

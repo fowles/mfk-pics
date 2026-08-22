@@ -18,28 +18,28 @@ species:
   - Matthew Kulukundis
 - scientific: Sepioteuthis sepioidea
   role: primary
-  confidence: 0.4841
+  confidence: 0.484
   identified_by: bioclip+bioclip-2
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1786156805.132331
     top:
     - scientific: Sepioteuthis sepioidea
-      confidence: 0.7089
+      confidence: 0.7088
     - scientific: Synodus intermedius
       confidence: 0.1239
     - scientific: Dactylopterus volitans
       confidence: 0.0452
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1786156805.132331
     top:
     - scientific: Sepioteuthis sepioidea
-      confidence: 0.2593
+      confidence: 0.2592
     - scientific: Galeocerdo cuvier
-      confidence: 0.1356
+      confidence: 0.1355
     - scientific: Sphyrna mokarran
-      confidence: 0.0837
+      confidence: 0.0836

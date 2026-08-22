@@ -16,7 +16,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1786156578.4979672
     top:
     - scientific: Aurelia aurita
@@ -27,18 +27,18 @@ species_suggestions:
       confidence: 0.006
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1786156578.4979672
     top:
     - scientific: Panulirus argus
-      confidence: 0.1047
+      confidence: 0.1062
     - scientific: Octopus briareus
-      confidence: 0.0905
+      confidence: 0.0918
     - scientific: Stenorhynchus seticornis
-      confidence: 0.0368
+      confidence: 0.0374
     absorbed_by:
       scientific: Xestospongia muta
-      confidence: 0.298
+      confidence: 0.3023
 species:
 - scientific: Aurelia aurita
   role: primary

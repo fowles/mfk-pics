@@ -16,18 +16,18 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1786156581.505735
     top:
     - scientific: Canthigaster rostrata
-      confidence: 0.8688
+      confidence: 0.7334
+    - scientific: Sparisoma amplum
+      confidence: 0.1559
     - scientific: Elacatinus genie
-      confidence: 0.0386
-    - scientific: Sparisoma aurofrenatum
-      confidence: 0.0249
+      confidence: 0.0326
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1786156581.505735
     top:
     - scientific: Canthigaster rostrata
@@ -39,5 +39,5 @@ species_suggestions:
 species:
 - scientific: Canthigaster rostrata
   role: primary
-  confidence: 0.8682
+  confidence: 0.8006
   identified_by: bioclip+bioclip-2

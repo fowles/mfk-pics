@@ -16,26 +16,26 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1786156747.5477467
     top:
     - scientific: Melichthys niger
-      confidence: 0.2727
+      confidence: 0.2726
     - scientific: Dactylopterus volitans
-      confidence: 0.1922
+      confidence: 0.1921
     - scientific: Pomacanthus paru
       confidence: 0.1062
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1786156747.5477467
     top:
     - scientific: Holacanthus tricolor
-      confidence: 0.0501
+      confidence: 0.05
     - scientific: Epinephelus striatus
       confidence: 0.041
     - scientific: Sepioteuthis sepioidea
-      confidence: 0.0395
+      confidence: 0.0394
 species:
 - scientific: Melichthys niger
   role: primary

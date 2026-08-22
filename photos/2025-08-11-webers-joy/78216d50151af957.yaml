@@ -16,18 +16,18 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1786071915.0205078
     top:
     - scientific: Scarus coelestinus
-      confidence: 0.9101
+      confidence: 0.9098
     - scientific: Aluterus scriptus
       confidence: 0.0617
     - scientific: Melichthys niger
       confidence: 0.0046
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1786071915.0205078
     top:
     - scientific: Acanthostracion polygonius
@@ -39,5 +39,5 @@ species_suggestions:
 species:
 - scientific: Scarus coelestinus
   role: primary
-  confidence: 0.4551
+  confidence: 0.4549
   identified_by: bioclip

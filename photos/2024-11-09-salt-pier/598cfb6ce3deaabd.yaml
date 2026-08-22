@@ -13,7 +13,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1786156576.1033769
     top:
     - scientific: Dactylopterus volitans
@@ -24,15 +24,15 @@ species_suggestions:
       confidence: 0.1194
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1786156576.1033769
     top:
     - scientific: Hypanus americanus
-      confidence: 0.2278
+      confidence: 0.2275
     - scientific: Carcharhinus perezi
-      confidence: 0.1082
+      confidence: 0.1081
     - scientific: Synodus intermedius
-      confidence: 0.085
+      confidence: 0.0849
 species:
 - scientific: Dactylopterus volitans
   role: primary

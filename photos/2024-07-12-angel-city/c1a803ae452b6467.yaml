@@ -16,18 +16,18 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1786158512.127643
     top:
     - scientific: Hypoplectrus indigo
-      confidence: 0.2913
+      confidence: 0.2912
     - scientific: Thalassoma bifasciatum
       confidence: 0.2864
     - scientific: Serranus tortugarum
-      confidence: 0.1065
+      confidence: 0.1064
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1786158512.127643
     top:
     - scientific: Chromis cyanea

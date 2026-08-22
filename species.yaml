@@ -151,7 +151,7 @@
 - {scientific: "Caretta caretta", common: "Loggerhead Sea Turtle", aliases: ["Loggerhead Turtle"], regions: ["Caribbean"]}
 - {scientific: "Tursiops truncatus", common: "Bottlenose Dolphin", regions: ["Caribbean"]}
 - {scientific: "Octopus briareus", common: "Caribbean Reef Octopus", regions: ["Caribbean"]}
-- {scientific: "Octopus vulgaris", common: "Common Octopus", regions: ["Caribbean"]}
+- {scientific: "Octopus insularis", common: "Caribbean Common Octopus", aliases: ["Common Octopus", "Octopus vulgaris"], regions: ["Caribbean"]}
 - {scientific: "Sepioteuthis sepioidea", common: "Caribbean Reef Squid", regions: ["Caribbean"]}
 - {scientific: "Panulirus argus", common: "Caribbean Spiny Lobster", aliases: ["Spiny Lobster"], regions: ["Caribbean"]}
 - {scientific: "Panulirus guttatus", common: "Spotted Spiny Lobster", regions: ["Caribbean"]}

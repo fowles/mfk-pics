@@ -12,18 +12,18 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1786159793.488069
     top:
     - scientific: Octopus briareus
-      confidence: 0.4241
+      confidence: 0.4228
     - scientific: Dactylopterus volitans
-      confidence: 0.2463
+      confidence: 0.2456
     - scientific: Aplysia dactylomela
-      confidence: 0.0422
+      confidence: 0.0421
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1786159793.488069
     top:
     - scientific: Elysia crispata

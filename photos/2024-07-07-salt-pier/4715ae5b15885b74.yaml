@@ -16,7 +16,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1786159970.5738194
     top:
     - scientific: Sphoeroides spengleri
@@ -27,7 +27,7 @@ species_suggestions:
       confidence: 0.0256
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1786159970.5738194
     top:
     - scientific: Gymnothorax miliaris
@@ -38,7 +38,7 @@ species_suggestions:
       confidence: 0.0293
     absorbed_by:
       scientific: Briareum asbestinum
-      confidence: 0.1857
+      confidence: 0.1856
 species:
 - scientific: Sphoeroides spengleri
   role: primary

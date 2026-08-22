@@ -17,26 +17,26 @@ rotation_applied: 270
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1787029097.7183497
     top:
     - scientific: Serranus tigrinus
-      confidence: 0.4765
+      confidence: 0.4764
     - scientific: Thalassoma bifasciatum
-      confidence: 0.1689
+      confidence: 0.1688
     - scientific: Emblemaria pandionis
-      confidence: 0.0412
+      confidence: 0.0411
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1787029097.7183497
     top:
     - scientific: Holacanthus tricolor
-      confidence: 0.1164
+      confidence: 0.1162
     - scientific: Halichoeres garnoti
-      confidence: 0.0894
+      confidence: 0.0892
     - scientific: Thalassoma bifasciatum
-      confidence: 0.0395
+      confidence: 0.0394
 species:
 - scientific: Serranus tigrinus
   role: primary

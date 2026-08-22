@@ -13,18 +13,18 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1786158333.8330696
     top:
     - scientific: Hypoplectrus chlorurus
-      confidence: 0.6224
+      confidence: 0.6197
     - scientific: Holacanthus tricolor
-      confidence: 0.2408
+      confidence: 0.2398
     - scientific: Microspathodon chrysurus
-      confidence: 0.0619
+      confidence: 0.0616
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1786158333.8330696
     top:
     - scientific: Holacanthus tricolor
@@ -36,5 +36,5 @@ species_suggestions:
 species:
 - scientific: Holacanthus tricolor
   role: primary
-  confidence: 0.6183
+  confidence: 0.6179
   identified_by: bioclip+bioclip-2

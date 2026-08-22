@@ -13,18 +13,18 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1786158970.3519814
     top:
     - scientific: Holocentrus adscensionis
-      confidence: 0.3848
+      confidence: 0.383
     - scientific: Gymnothorax funebris
-      confidence: 0.085
+      confidence: 0.0847
     - scientific: Aulostomus maculatus
-      confidence: 0.0829
+      confidence: 0.0825
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1786158970.3519814
     top:
     - scientific: Halichoeres maculipinna
@@ -36,5 +36,5 @@ species_suggestions:
 species:
 - scientific: Holocentrus adscensionis
   role: primary
-  confidence: 0.1924
+  confidence: 0.1915
   identified_by: bioclip

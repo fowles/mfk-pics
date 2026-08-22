@@ -13,18 +13,18 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1786158392.6657188
     top:
     - scientific: Heteropriacanthus cruentatus
-      confidence: 0.8367
+      confidence: 0.6594
+    - scientific: Epinephelus adscensionis
+      confidence: 0.2119
     - scientific: Cephalopholis cruentata
-      confidence: 0.0594
-    - scientific: Myripristis jacobus
-      confidence: 0.0244
+      confidence: 0.0468
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1786158392.6657188
     top:
     - scientific: Pomacanthus arcuatus
@@ -36,5 +36,5 @@ species_suggestions:
 species:
 - scientific: Heteropriacanthus cruentatus
   role: primary
-  confidence: 0.4183
+  confidence: 0.3297
   identified_by: bioclip

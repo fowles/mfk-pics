@@ -12,22 +12,22 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1786159805.9309769
     top:
     - scientific: Melichthys niger
-      confidence: 0.3019
+      confidence: 0.3016
     - scientific: Scarus coelestinus
-      confidence: 0.2989
+      confidence: 0.2987
     - scientific: Sepioteuthis sepioidea
-      confidence: 0.1354
+      confidence: 0.1353
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1786159805.9309769
     top:
     - scientific: Echeneis naucrates
-      confidence: 0.1791
+      confidence: 0.179
     - scientific: Carcharhinus perezi
       confidence: 0.154
     - scientific: Scarus guacamaia
@@ -35,5 +35,5 @@ species_suggestions:
 species:
 - scientific: Melichthys niger
   role: primary
-  confidence: 0.151
+  confidence: 0.1508
   identified_by: bioclip

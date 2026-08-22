@@ -14,28 +14,28 @@ rotation_applied: 180
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1787029343.8652687
     top:
     - scientific: Halichoeres garnoti
-      confidence: 0.4481
+      confidence: 0.448
     - scientific: Gymnothorax funebris
       confidence: 0.4368
     - scientific: Thalassoma bifasciatum
       confidence: 0.035
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1787029343.8652687
     top:
     - scientific: Halichoeres garnoti
-      confidence: 0.3957
+      confidence: 0.3956
     - scientific: Holacanthus tricolor
-      confidence: 0.3026
+      confidence: 0.3025
     - scientific: Thalassoma bifasciatum
       confidence: 0.0551
 species:
 - scientific: Halichoeres garnoti
   role: primary
-  confidence: 0.4219
+  confidence: 0.4218
   identified_by: bioclip+bioclip-2

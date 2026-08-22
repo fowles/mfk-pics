@@ -13,28 +13,28 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1786156577.9914901
     top:
     - scientific: Acanthostracion polygonius
-      confidence: 0.8778
+      confidence: 0.8774
     - scientific: Holothuria mexicana
       confidence: 0.0513
     - scientific: Eretmochelys imbricata
       confidence: 0.0294
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1786156577.9914901
     top:
     - scientific: Acanthostracion polygonius
-      confidence: 0.2687
+      confidence: 0.2685
     - scientific: Cephalopholis cruentata
-      confidence: 0.265
+      confidence: 0.2648
     - scientific: Gymnothorax miliaris
-      confidence: 0.0997
+      confidence: 0.0996
 species:
 - scientific: Acanthostracion polygonius
   role: primary
-  confidence: 0.5733
+  confidence: 0.5729
   identified_by: bioclip+bioclip-2

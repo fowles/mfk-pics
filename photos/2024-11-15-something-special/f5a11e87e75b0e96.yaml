@@ -16,28 +16,28 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1786157216.255835
     top:
     - scientific: Bothus lunatus
-      confidence: 0.2573
+      confidence: 0.2572
     - scientific: Ogcocephalus nasutus
-      confidence: 0.2034
+      confidence: 0.2033
     - scientific: Scorpaena plumieri
-      confidence: 0.1309
+      confidence: 0.1308
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1786157216.255835
     top:
+    - scientific: Octopus insularis
+      confidence: 0.5244
     - scientific: Octopus briareus
-      confidence: 0.4786
+      confidence: 0.234
     - scientific: Panulirus argus
-      confidence: 0.0939
-    - scientific: Myrichthys breviceps
-      confidence: 0.0512
+      confidence: 0.0459
 species:
-- scientific: Octopus briareus
+- scientific: Octopus insularis
   role: primary
-  confidence: 0.2393
+  confidence: 0.2622
   identified_by: bioclip-2

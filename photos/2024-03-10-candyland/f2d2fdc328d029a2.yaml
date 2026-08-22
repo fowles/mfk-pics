@@ -16,28 +16,28 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1786158875.240859
     top:
     - scientific: Thalassoma bifasciatum
-      confidence: 0.1639
+      confidence: 0.1638
     - scientific: Diadema antillarum
       confidence: 0.1486
     - scientific: Gramma loreto
       confidence: 0.0892
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1786158875.240859
     top:
     - scientific: Centropyge argi
-      confidence: 0.3696
+      confidence: 0.3694
     - scientific: Gymnothorax miliaris
-      confidence: 0.1834
+      confidence: 0.1833
     - scientific: Gymnothorax moringa
       confidence: 0.067
 species:
 - scientific: Centropyge argi
   role: primary
-  confidence: 0.1848
+  confidence: 0.1847
   identified_by: bioclip-2

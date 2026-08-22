@@ -13,7 +13,7 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1786156520.2423124
     top:
     - scientific: Heteropriacanthus cruentatus
@@ -24,7 +24,7 @@ species_suggestions:
       confidence: 0.029
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1786156520.2423124
     top:
     - scientific: Heteropriacanthus cruentatus

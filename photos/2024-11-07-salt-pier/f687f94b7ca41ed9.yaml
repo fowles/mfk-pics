@@ -13,28 +13,28 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1786156323.4145284
     top:
     - scientific: Sepioteuthis sepioidea
-      confidence: 0.5052
+      confidence: 0.5043
     - scientific: Mycteroperca venenosa
-      confidence: 0.2707
+      confidence: 0.2702
     - scientific: Aulostomus maculatus
-      confidence: 0.0962
+      confidence: 0.0961
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1786156323.4145284
     top:
     - scientific: Lachnolaimus maximus
-      confidence: 0.2663
+      confidence: 0.2662
     - scientific: Aluterus scriptus
       confidence: 0.1694
     - scientific: Sphyraena barracuda
-      confidence: 0.1477
+      confidence: 0.1476
 species:
 - scientific: Sepioteuthis sepioidea
   role: primary
-  confidence: 0.2526
+  confidence: 0.2521
   identified_by: bioclip

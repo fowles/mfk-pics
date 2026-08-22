@@ -16,18 +16,18 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1786156581.3905973
     top:
     - scientific: Stegastes partitus
-      confidence: 0.3372
+      confidence: 0.3308
     - scientific: Aulostomus maculatus
-      confidence: 0.1354
+      confidence: 0.1328
     - scientific: Halichoeres pictus
-      confidence: 0.1097
+      confidence: 0.1076
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1786156581.3905973
     top:
     - scientific: Monacanthus tuckeri
@@ -37,7 +37,7 @@ species_suggestions:
     - scientific: Aulostomus maculatus
       confidence: 0.1161
 species:
-- scientific: Stegastes partitus
+- scientific: Monacanthus tuckeri
   role: primary
-  confidence: 0.1686
-  identified_by: bioclip
+  confidence: 0.1666
+  identified_by: bioclip-2

@@ -16,26 +16,26 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1786159067.4388123
     top:
     - scientific: Sparisoma viride
-      confidence: 0.2949
+      confidence: 0.2948
     - scientific: Acanthostracion polygonius
-      confidence: 0.2497
+      confidence: 0.2496
     - scientific: Sparisoma aurofrenatum
       confidence: 0.0803
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1786159067.4388123
     top:
     - scientific: Holacanthus tricolor
-      confidence: 0.0851
+      confidence: 0.0839
     - scientific: Bothus lunatus
-      confidence: 0.0404
+      confidence: 0.0398
     - scientific: Eretmochelys imbricata
-      confidence: 0.0387
+      confidence: 0.0382
 species:
 - scientific: Sparisoma viride
   role: primary

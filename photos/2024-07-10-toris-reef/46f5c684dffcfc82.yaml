@@ -16,22 +16,22 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1786160222.582103
     top:
     - scientific: Acanthostracion polygonius
-      confidence: 0.703
+      confidence: 0.7024
     - scientific: Mycteroperca tigris
-      confidence: 0.1624
+      confidence: 0.1623
     - scientific: Epinephelus guttatus
       confidence: 0.0151
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1786160222.582103
     top:
     - scientific: Acanthostracion polygonius
-      confidence: 0.7205
+      confidence: 0.7204
     - scientific: Aluterus scriptus
       confidence: 0.1021
     - scientific: Scorpaena plumieri
@@ -39,5 +39,5 @@ species_suggestions:
 species:
 - scientific: Acanthostracion polygonius
   role: primary
-  confidence: 0.7117
+  confidence: 0.7114
   identified_by: bioclip+bioclip-2

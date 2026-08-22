@@ -16,28 +16,28 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1786156744.449008
     top:
     - scientific: Sepioteuthis sepioidea
-      confidence: 0.4466
+      confidence: 0.4463
     - scientific: Sphyraena barracuda
-      confidence: 0.3761
+      confidence: 0.3759
     - scientific: Aulostomus maculatus
-      confidence: 0.0893
+      confidence: 0.0892
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1786156744.449008
     top:
     - scientific: Carcharhinus perezi
-      confidence: 0.1027
+      confidence: 0.1026
     - scientific: Caranx ruber
-      confidence: 0.086
+      confidence: 0.0859
     - scientific: Chromis cyanea
       confidence: 0.0719
 species:
 - scientific: Sepioteuthis sepioidea
   role: primary
-  confidence: 0.2233
+  confidence: 0.2231
   identified_by: bioclip

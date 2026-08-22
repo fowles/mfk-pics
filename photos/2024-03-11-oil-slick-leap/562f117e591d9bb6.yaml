@@ -16,28 +16,28 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1786158982.0059204
     top:
     - scientific: Aulostomus maculatus
-      confidence: 0.351
+      confidence: 0.3509
     - scientific: Sphoeroides spengleri
       confidence: 0.1075
     - scientific: Sparisoma aurofrenatum
       confidence: 0.0788
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1786158982.0059204
     top:
     - scientific: Hypanus americanus
-      confidence: 0.1218
+      confidence: 0.1217
     - scientific: Acanthostracion polygonius
-      confidence: 0.0569
+      confidence: 0.0568
     - scientific: Aetobatus narinari
       confidence: 0.0523
 species:
 - scientific: Aulostomus maculatus
   role: primary
-  confidence: 0.1755
+  confidence: 0.1754
   identified_by: bioclip

@@ -13,18 +13,18 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1786156979.6101499
     top:
     - scientific: Scarus coelestinus
-      confidence: 0.4392
+      confidence: 0.4384
     - scientific: Thalassoma bifasciatum
-      confidence: 0.2142
+      confidence: 0.2138
     - scientific: Centropyge argi
-      confidence: 0.0858
+      confidence: 0.0856
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1786156979.6101499
     top:
     - scientific: Halichoeres garnoti

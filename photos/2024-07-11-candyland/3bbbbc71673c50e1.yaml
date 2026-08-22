@@ -13,18 +13,18 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1786159274.5800369
     top:
     - scientific: Sphyraena barracuda
-      confidence: 0.5047
+      confidence: 0.5046
     - scientific: Fistularia tabacaria
       confidence: 0.3524
     - scientific: Panulirus argus
       confidence: 0.0515
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1786159274.5800369
     top:
     - scientific: Scomberomorus regalis
@@ -36,5 +36,5 @@ species_suggestions:
 species:
 - scientific: Sphyraena barracuda
   role: primary
-  confidence: 0.3404
+  confidence: 0.3403
   identified_by: bioclip+bioclip-2

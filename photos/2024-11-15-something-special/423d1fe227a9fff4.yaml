@@ -16,22 +16,22 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1786157215.161136
     top:
     - scientific: Serranus tortugarum
-      confidence: 0.2081
+      confidence: 0.2076
     - scientific: Thalassoma bifasciatum
-      confidence: 0.159
+      confidence: 0.1585
     - scientific: Serranus tigrinus
-      confidence: 0.0879
+      confidence: 0.0876
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1786157215.161136
     top:
     - scientific: Bodianus rufus
-      confidence: 0.2684
+      confidence: 0.2683
     - scientific: Scarus vetula
       confidence: 0.156
     - scientific: Sepioteuthis sepioidea
@@ -39,5 +39,5 @@ species_suggestions:
 species:
 - scientific: Bodianus rufus
   role: primary
-  confidence: 0.1342
+  confidence: 0.1341
   identified_by: bioclip-2

@@ -16,28 +16,28 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1786159984.9957423
     top:
     - scientific: Aulostomus maculatus
-      confidence: 0.8365
+      confidence: 0.8364
     - scientific: Enchelycore carychroa
       confidence: 0.0517
     - scientific: Gymnothorax vicinus
       confidence: 0.0332
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1786159984.9957423
     top:
     - scientific: Gymnothorax vicinus
-      confidence: 0.2261
+      confidence: 0.2257
     - scientific: Enchelycore carychroa
-      confidence: 0.1284
+      confidence: 0.1282
     - scientific: Myrichthys breviceps
-      confidence: 0.1038
+      confidence: 0.1036
 species:
 - scientific: Aulostomus maculatus
   role: primary
-  confidence: 0.4183
+  confidence: 0.4182
   identified_by: bioclip

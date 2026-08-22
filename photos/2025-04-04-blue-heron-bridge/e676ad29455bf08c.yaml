@@ -13,22 +13,22 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1786157488.990087
     top:
     - scientific: Dactylopterus volitans
-      confidence: 0.4535
+      confidence: 0.4575
     - scientific: Priacanthus arenatus
-      confidence: 0.2037
+      confidence: 0.2055
     - scientific: Emblemaria pandionis
-      confidence: 0.0531
+      confidence: 0.0535
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1786157488.990087
     top:
     - scientific: Scorpaena plumieri
-      confidence: 0.7231
+      confidence: 0.723
     - scientific: Cephalopholis cruentata
       confidence: 0.0801
     - scientific: Sparisoma aurofrenatum

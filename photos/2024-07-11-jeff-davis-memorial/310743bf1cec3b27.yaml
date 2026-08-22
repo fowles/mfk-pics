@@ -16,31 +16,31 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1786159605.7686105
     top:
     - scientific: Acanthostracion polygonius
-      confidence: 0.2791
+      confidence: 0.2787
     - scientific: Diodon holocanthus
-      confidence: 0.2311
+      confidence: 0.2308
     - scientific: Gymnothorax funebris
-      confidence: 0.0507
+      confidence: 0.0506
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1786159605.7686105
     top:
     - scientific: Scorpaena plumieri
-      confidence: 0.0685
+      confidence: 0.0681
     - scientific: Eretmochelys imbricata
-      confidence: 0.0589
+      confidence: 0.0585
     - scientific: Cephalopholis cruentata
-      confidence: 0.0394
+      confidence: 0.0392
     absorbed_by:
       scientific: Xestospongia muta
-      confidence: 0.0928
+      confidence: 0.0922
 species:
 - scientific: Acanthostracion polygonius
   role: primary
-  confidence: 0.1396
+  confidence: 0.1394
   identified_by: bioclip

@@ -14,18 +14,18 @@ rotation_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1786158235.2963424
     top:
     - scientific: Myrichthys breviceps
-      confidence: 0.3317
+      confidence: 0.3316
     - scientific: Aulostomus maculatus
-      confidence: 0.2143
+      confidence: 0.2142
     - scientific: Synodus intermedius
       confidence: 0.1059
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1786158235.2963424
     top:
     - scientific: Gymnothorax moringa
@@ -37,5 +37,5 @@ species_suggestions:
 species:
 - scientific: Myrichthys breviceps
   role: primary
-  confidence: 0.3122
+  confidence: 0.3121
   identified_by: bioclip+bioclip-2

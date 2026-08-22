@@ -13,21 +13,21 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1786158854.4169707
     top:
     - scientific: Aulostomus maculatus
-      confidence: 0.2212
+      confidence: 0.221
     - scientific: Chaetodon striatus
-      confidence: 0.037
+      confidence: 0.0369
     - scientific: Elacatinus genie
-      confidence: 0.0336
+      confidence: 0.0335
     absorbed_by:
       scientific: Sabellastarte magnifica
-      confidence: 0.3703
+      confidence: 0.37
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:41:08Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1786158854.4169707
     top:
     - scientific: Holacanthus tricolor
@@ -38,7 +38,7 @@ species_suggestions:
       confidence: 0.008
     absorbed_by:
       scientific: Orbicella faveolata
-      confidence: 0.418
+      confidence: 0.4179
 species:
 - scientific: Thalassoma bifasciatum
   role: secondary

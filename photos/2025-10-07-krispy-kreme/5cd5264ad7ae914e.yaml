@@ -12,28 +12,28 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1786159798.0945635
     top:
     - scientific: Cyphoma gibbosum
-      confidence: 0.4428
+      confidence: 0.4423
     - scientific: Sepioteuthis sepioidea
-      confidence: 0.055
+      confidence: 0.0549
     - scientific: Hypanus americanus
-      confidence: 0.0543
+      confidence: 0.0542
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1786159798.0945635
     top:
     - scientific: Echeneis naucrates
-      confidence: 0.1519
+      confidence: 0.1525
     - scientific: Elacatinus oceanops
-      confidence: 0.1244
+      confidence: 0.1248
     - scientific: Caranx ruber
-      confidence: 0.0494
+      confidence: 0.0496
 species:
 - scientific: Cyphoma gibbosum
   role: primary
-  confidence: 0.2214
+  confidence: 0.2212
   identified_by: bioclip

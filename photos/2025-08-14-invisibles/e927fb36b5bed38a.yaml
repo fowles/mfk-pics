@@ -13,22 +13,22 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1786158225.7246022
     top:
     - scientific: Aetobatus narinari
-      confidence: 0.6135
+      confidence: 0.6055
     - scientific: Aliger gigas
-      confidence: 0.1243
+      confidence: 0.1227
     - scientific: Homo sapiens
-      confidence: 0.0438
+      confidence: 0.0433
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1786158225.7246022
     top:
     - scientific: Homo sapiens
-      confidence: 0.7414
+      confidence: 0.7418
     - scientific: Caretta caretta
       confidence: 0.1715
     - scientific: Galeocerdo cuvier

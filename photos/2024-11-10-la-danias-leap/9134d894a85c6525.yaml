@@ -13,18 +13,18 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1786156690.768519
     top:
     - scientific: Chaetodon striatus
-      confidence: 0.1371
+      confidence: 0.137
     - scientific: Mycteroperca tigris
-      confidence: 0.1333
+      confidence: 0.1332
     - scientific: Lutjanus synagris
       confidence: 0.0439
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1786156690.768519
     top:
     - scientific: Halichoeres garnoti

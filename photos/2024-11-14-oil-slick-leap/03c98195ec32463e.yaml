@@ -16,18 +16,18 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1786156900.5060093
     top:
     - scientific: Gymnothorax funebris
-      confidence: 0.6813
+      confidence: 0.6812
     - scientific: Chaetodon sedentarius
       confidence: 0.0237
     - scientific: Sparisoma viride
       confidence: 0.0142
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1786156900.5060093
     top:
     - scientific: Cephalopholis cruentata
@@ -42,5 +42,5 @@ species_suggestions:
 species:
 - scientific: Gymnothorax funebris
   role: primary
-  confidence: 0.3563
+  confidence: 0.3562
   identified_by: bioclip+bioclip-2

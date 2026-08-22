@@ -16,28 +16,28 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1786157882.9129853
     top:
     - scientific: Sphoeroides spengleri
-      confidence: 0.7063
+      confidence: 0.7061
     - scientific: Sepioteuthis sepioidea
       confidence: 0.0924
     - scientific: Gymnothorax funebris
       confidence: 0.0249
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1786157882.9129853
     top:
     - scientific: Scarus iseri
-      confidence: 0.2023
+      confidence: 0.2022
     - scientific: Sparisoma viride
-      confidence: 0.2003
+      confidence: 0.2002
     - scientific: Cantherhines pullus
-      confidence: 0.1044
+      confidence: 0.1043
 species:
 - scientific: Sphoeroides spengleri
   role: primary
-  confidence: 0.3532
+  confidence: 0.353
   identified_by: bioclip

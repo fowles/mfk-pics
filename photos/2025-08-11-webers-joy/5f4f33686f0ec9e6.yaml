@@ -16,7 +16,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1786071915.6799119
     top:
     - scientific: Aulostomus maculatus
@@ -27,11 +27,11 @@ species_suggestions:
       confidence: 0.0945
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1786071915.6799119
     top:
     - scientific: Holacanthus tricolor
-      confidence: 0.0582
+      confidence: 0.0581
     - scientific: Halichoeres garnoti
       confidence: 0.0478
     - scientific: Sepioteuthis sepioidea

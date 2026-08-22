@@ -13,18 +13,18 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1786157489.5264263
     top:
     - scientific: Sphoeroides spengleri
-      confidence: 0.983
+      confidence: 0.9794
     - scientific: Halichoeres maculipinna
-      confidence: 0.0073
-    - scientific: Serranus tabacarius
-      confidence: 0.0036
+      confidence: 0.0072
+    - scientific: Canthigaster jamestyleri
+      confidence: 0.0037
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1786157489.5264263
     top:
     - scientific: Sphoeroides spengleri
@@ -36,5 +36,5 @@ species_suggestions:
 species:
 - scientific: Sphoeroides spengleri
   role: primary
-  confidence: 0.9903
+  confidence: 0.9885
   identified_by: bioclip+bioclip-2

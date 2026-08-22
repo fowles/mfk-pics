@@ -16,28 +16,28 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1786156359.5092847
     top:
     - scientific: Lactophrys triqueter
-      confidence: 0.8374
+      confidence: 0.8373
     - scientific: Epinephelus guttatus
       confidence: 0.0098
     - scientific: Stenopus hispidus
       confidence: 0.0088
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1786156359.5092847
     top:
     - scientific: Petrochirus diogenes
-      confidence: 0.0921
+      confidence: 0.0916
     - scientific: Lactophrys triqueter
-      confidence: 0.0645
+      confidence: 0.0641
     - scientific: Holacanthus tricolor
-      confidence: 0.0499
+      confidence: 0.0497
 species:
 - scientific: Lactophrys triqueter
   role: primary
-  confidence: 0.451
+  confidence: 0.4507
   identified_by: bioclip+bioclip-2

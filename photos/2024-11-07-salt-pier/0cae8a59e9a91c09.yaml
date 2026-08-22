@@ -14,7 +14,7 @@ rotation_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1786156317.8312886
     top:
     - scientific: Melichthys niger
@@ -25,15 +25,15 @@ species_suggestions:
       confidence: 0.0079
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1786156317.8312886
     top:
     - scientific: Cephalopholis cruentata
-      confidence: 0.3031
+      confidence: 0.3026
     - scientific: Ginglymostoma cirratum
-      confidence: 0.0468
+      confidence: 0.0467
     - scientific: Holacanthus tricolor
-      confidence: 0.0398
+      confidence: 0.0397
 species:
 - scientific: Melichthys niger
   role: primary

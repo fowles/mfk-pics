@@ -13,28 +13,28 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1786159064.0064473
     top:
     - scientific: Serranus tigrinus
-      confidence: 0.2993
+      confidence: 0.2992
     - scientific: Gymnothorax funebris
-      confidence: 0.2409
+      confidence: 0.2408
     - scientific: Epinephelus itajara
       confidence: 0.0969
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1786159064.0064473
     top:
     - scientific: Mycteroperca bonaci
-      confidence: 0.2392
+      confidence: 0.2391
     - scientific: Epinephelus guttatus
-      confidence: 0.1338
+      confidence: 0.1337
     - scientific: Cephalopholis cruentata
-      confidence: 0.1072
+      confidence: 0.1071
 species:
 - scientific: Serranus tigrinus
   role: primary
-  confidence: 0.1497
+  confidence: 0.1496
   identified_by: bioclip

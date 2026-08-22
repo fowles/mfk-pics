@@ -16,22 +16,22 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1786157279.9623692
     top:
     - scientific: Xyrichtys splendens
-      confidence: 0.5948
+      confidence: 0.5946
     - scientific: Xyrichtys martinicensis
-      confidence: 0.3325
+      confidence: 0.3324
     - scientific: Caranx ruber
       confidence: 0.0188
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1786157279.9623692
     top:
     - scientific: Holacanthus tricolor
-      confidence: 0.3163
+      confidence: 0.3162
     - scientific: Bodianus rufus
       confidence: 0.122
     - scientific: Chaetodon ocellatus
@@ -39,5 +39,5 @@ species_suggestions:
 species:
 - scientific: Xyrichtys splendens
   role: primary
-  confidence: 0.2974
+  confidence: 0.2973
   identified_by: bioclip

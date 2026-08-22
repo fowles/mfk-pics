@@ -13,18 +13,18 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1786159955.2359753
     top:
     - scientific: Jenkinsia lamprotaenia
-      confidence: 0.4657
+      confidence: 0.4655
     - scientific: Sphoeroides spengleri
-      confidence: 0.2351
+      confidence: 0.235
     - scientific: Stenorhynchus seticornis
       confidence: 0.0369
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1786159955.2359753
     top:
     - scientific: Haemulon chrysargyreum
@@ -36,5 +36,5 @@ species_suggestions:
 species:
 - scientific: Jenkinsia lamprotaenia
   role: primary
-  confidence: 0.2329
+  confidence: 0.2328
   identified_by: bioclip

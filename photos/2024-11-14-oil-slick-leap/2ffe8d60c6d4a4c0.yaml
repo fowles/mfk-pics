@@ -16,28 +16,28 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1786156901.602562
     top:
     - scientific: Gymnothorax moringa
-      confidence: 0.8431
+      confidence: 0.8417
     - scientific: Gymnothorax miliaris
-      confidence: 0.0984
+      confidence: 0.0982
     - scientific: Serranus tigrinus
       confidence: 0.0208
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1786156901.602562
     top:
     - scientific: Halichoeres maculipinna
-      confidence: 0.1531
+      confidence: 0.1524
     - scientific: Ophioblennius macclurei
-      confidence: 0.1372
+      confidence: 0.1365
     - scientific: Percnon gibbesi
-      confidence: 0.0739
+      confidence: 0.0736
 species:
 - scientific: Gymnothorax moringa
   role: primary
-  confidence: 0.4215
+  confidence: 0.4209
   identified_by: bioclip

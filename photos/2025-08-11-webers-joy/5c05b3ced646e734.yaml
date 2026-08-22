@@ -16,18 +16,18 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1786071914.155744
     top:
     - scientific: Lactophrys triqueter
-      confidence: 0.4547
+      confidence: 0.4538
     - scientific: Bothus lunatus
-      confidence: 0.1354
+      confidence: 0.1352
     - scientific: Antennarius striatus
-      confidence: 0.0685
+      confidence: 0.0684
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1786071914.155744
     top:
     - scientific: Acanthostracion polygonius
@@ -39,5 +39,5 @@ species_suggestions:
 species:
 - scientific: Lactophrys triqueter
   role: primary
-  confidence: 0.3029
+  confidence: 0.3024
   identified_by: bioclip+bioclip-2

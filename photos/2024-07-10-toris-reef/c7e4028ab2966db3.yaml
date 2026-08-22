@@ -16,26 +16,26 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1786160181.911512
     top:
     - scientific: Gymnothorax funebris
-      confidence: 0.6128
+      confidence: 0.6127
     - scientific: Aulostomus maculatus
-      confidence: 0.1332
+      confidence: 0.1331
     - scientific: Serranus tigrinus
       confidence: 0.0485
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1786160181.911512
     top:
     - scientific: Synodus intermedius
-      confidence: 0.1588
+      confidence: 0.1584
     - scientific: Pseudupeneus maculatus
-      confidence: 0.1397
+      confidence: 0.1393
     - scientific: Ginglymostoma cirratum
-      confidence: 0.1261
+      confidence: 0.1258
 species:
 - scientific: Gymnothorax funebris
   role: primary

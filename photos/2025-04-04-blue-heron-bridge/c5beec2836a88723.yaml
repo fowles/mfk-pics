@@ -13,22 +13,22 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1786157491.3930945
     top:
     - scientific: Xyrichtys martinicensis
-      confidence: 0.3931
+      confidence: 0.3929
     - scientific: Xyrichtys splendens
-      confidence: 0.3379
+      confidence: 0.3377
     - scientific: Pseudupeneus maculatus
-      confidence: 0.1103
+      confidence: 0.1102
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1786157491.3930945
     top:
     - scientific: Xyrichtys martinicensis
-      confidence: 0.2204
+      confidence: 0.2203
     - scientific: Pseudupeneus maculatus
       confidence: 0.1838
     - scientific: Canthigaster rostrata
@@ -36,5 +36,5 @@ species_suggestions:
 species:
 - scientific: Xyrichtys martinicensis
   role: primary
-  confidence: 0.3068
+  confidence: 0.3066
   identified_by: bioclip+bioclip-2

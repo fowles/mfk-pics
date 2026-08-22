@@ -16,22 +16,22 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1786160202.1005373
     top:
     - scientific: Gymnothorax funebris
-      confidence: 0.2441
+      confidence: 0.2439
     - scientific: Elacatinus evelynae
-      confidence: 0.2414
+      confidence: 0.2412
     - scientific: Thalassoma bifasciatum
-      confidence: 0.1766
+      confidence: 0.1765
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1786160202.1005373
     top:
     - scientific: Aulostomus maculatus
-      confidence: 0.6079
+      confidence: 0.6077
     - scientific: Fistularia tabacaria
       confidence: 0.1213
     - scientific: Equetus punctatus

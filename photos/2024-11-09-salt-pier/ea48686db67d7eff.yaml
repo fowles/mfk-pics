@@ -16,18 +16,18 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1786156582.8663206
     top:
     - scientific: Diodon hystrix
-      confidence: 0.8107
+      confidence: 0.8106
     - scientific: Cephalopholis fulva
       confidence: 0.1153
     - scientific: Lactophrys bicaudalis
-      confidence: 0.0358
+      confidence: 0.0357
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1786156582.8663206
     top:
     - scientific: Lactophrys bicaudalis

@@ -13,18 +13,18 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1786156870.4736748
     top:
     - scientific: Scarus coelestinus
-      confidence: 0.9372
+      confidence: 0.9331
     - scientific: Gramma loreto
-      confidence: 0.0219
+      confidence: 0.0218
     - scientific: Clepticus parrae
-      confidence: 0.0215
+      confidence: 0.0214
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1786156870.4736748
     top:
     - scientific: Clepticus parrae
@@ -36,5 +36,5 @@ species_suggestions:
 species:
 - scientific: Scarus coelestinus
   role: primary
-  confidence: 0.4686
+  confidence: 0.4666
   identified_by: bioclip

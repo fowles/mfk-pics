@@ -13,7 +13,7 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1786158231.1105824
     top:
     - scientific: Aulostomus maculatus
@@ -24,17 +24,17 @@ species_suggestions:
       confidence: 0.0304
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1786158231.1105824
     top:
     - scientific: Aulostomus maculatus
-      confidence: 0.7149
+      confidence: 0.7125
     - scientific: Fistularia tabacaria
-      confidence: 0.1194
+      confidence: 0.119
     - scientific: Malacanthus plumieri
-      confidence: 0.0378
+      confidence: 0.0377
 species:
 - scientific: Aulostomus maculatus
   role: primary
-  confidence: 0.8056
+  confidence: 0.8044
   identified_by: bioclip+bioclip-2

@@ -13,18 +13,18 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1786159792.1387365
     top:
     - scientific: Aulostomus maculatus
-      confidence: 0.3424
+      confidence: 0.3414
     - scientific: Gymnothorax moringa
-      confidence: 0.148
+      confidence: 0.1475
     - scientific: Opistognathus aurifrons
-      confidence: 0.112
+      confidence: 0.1117
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1786159792.1387365
     top:
     - scientific: Elacatinus genie
@@ -39,5 +39,5 @@ species_suggestions:
 species:
 - scientific: Aulostomus maculatus
   role: primary
-  confidence: 0.1712
+  confidence: 0.1707
   identified_by: bioclip

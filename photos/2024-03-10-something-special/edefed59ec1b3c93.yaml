@@ -13,21 +13,21 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1786159063.1901553
     top:
     - scientific: Elacatinus evelynae
-      confidence: 0.1512
+      confidence: 0.1509
     - scientific: Cephalopholis fulva
-      confidence: 0.0779
+      confidence: 0.0777
     - scientific: Melichthys niger
-      confidence: 0.0406
+      confidence: 0.0405
     absorbed_by:
       scientific: Madracis auretenra
-      confidence: 0.2759
+      confidence: 0.2754
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1786159063.1901553
     top:
     - scientific: Gymnothorax miliaris

@@ -13,28 +13,28 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1786158390.391368
     top:
     - scientific: Hypoplectrus puella
-      confidence: 0.2433
+      confidence: 0.2429
     - scientific: Panulirus guttatus
-      confidence: 0.1719
+      confidence: 0.1717
     - scientific: Equetus lanceolatus
       confidence: 0.0565
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1786158390.391368
     top:
     - scientific: Panulirus argus
-      confidence: 0.2232
+      confidence: 0.2217
     - scientific: Scorpaena plumieri
-      confidence: 0.0902
+      confidence: 0.0897
     - scientific: Urobatis jamaicensis
-      confidence: 0.0533
+      confidence: 0.053
 species:
 - scientific: Hypoplectrus puella
   role: primary
-  confidence: 0.1216
+  confidence: 0.1215
   identified_by: bioclip

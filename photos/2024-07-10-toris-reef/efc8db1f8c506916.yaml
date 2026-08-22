@@ -16,18 +16,18 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1786160171.265213
     top:
     - scientific: Sepioteuthis sepioidea
-      confidence: 0.6516
+      confidence: 0.6513
     - scientific: Elacatinus evelynae
       confidence: 0.0607
     - scientific: Haemulon macrostomum
       confidence: 0.0508
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1786160171.265213
     top:
     - scientific: Epinephelus striatus
@@ -38,9 +38,9 @@ species_suggestions:
       confidence: 0.0264
     absorbed_by:
       scientific: Orbicella faveolata
-      confidence: 0.1167
+      confidence: 0.1166
 species:
 - scientific: Sepioteuthis sepioidea
   role: primary
-  confidence: 0.3258
+  confidence: 0.3256
   identified_by: bioclip

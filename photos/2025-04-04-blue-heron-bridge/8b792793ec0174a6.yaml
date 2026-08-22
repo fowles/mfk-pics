@@ -13,7 +13,7 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1786157486.1390388
     top:
     - scientific: Abudefduf saxatilis
@@ -24,15 +24,15 @@ species_suggestions:
       confidence: 0.0063
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1786157486.1390388
     top:
     - scientific: Anisotremus surinamensis
-      confidence: 0.3152
+      confidence: 0.3153
     - scientific: Abudefduf saxatilis
       confidence: 0.1839
     - scientific: Chaetodipterus faber
-      confidence: 0.1698
+      confidence: 0.1699
 species:
 - scientific: Abudefduf saxatilis
   role: primary

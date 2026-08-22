@@ -13,18 +13,18 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1786159793.0926754
     top:
     - scientific: Malacanthus plumieri
-      confidence: 0.5947
+      confidence: 0.5815
     - scientific: Thalassoma bifasciatum
-      confidence: 0.0894
+      confidence: 0.0874
     - scientific: Microspathodon chrysurus
-      confidence: 0.0685
+      confidence: 0.067
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1786159793.0926754
     top:
     - scientific: Malacanthus plumieri
@@ -39,5 +39,5 @@ species_suggestions:
 species:
 - scientific: Malacanthus plumieri
   role: primary
-  confidence: 0.3242
+  confidence: 0.3176
   identified_by: bioclip+bioclip-2

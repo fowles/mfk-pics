@@ -13,18 +13,18 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1786158868.558627
     top:
     - scientific: Acanthurus coeruleus
-      confidence: 0.7445
+      confidence: 0.7257
     - scientific: Scarus coeruleus
-      confidence: 0.1854
-    - scientific: Caranx crysos
-      confidence: 0.0225
+      confidence: 0.1808
+    - scientific: Chrysiptera parasema
+      confidence: 0.0249
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1786158868.558627
     top:
     - scientific: Chromis cyanea
@@ -36,5 +36,5 @@ species_suggestions:
 species:
 - scientific: Acanthurus coeruleus
   role: primary
-  confidence: 0.5826
+  confidence: 0.5732
   identified_by: bioclip+bioclip-2

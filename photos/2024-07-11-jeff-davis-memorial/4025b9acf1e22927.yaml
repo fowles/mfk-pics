@@ -15,29 +15,29 @@ extra_variants:
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1786159575.5661554
     top:
     - scientific: Aulostomus maculatus
       confidence: 0.4871
     - scientific: Thalassoma bifasciatum
-      confidence: 0.2214
+      confidence: 0.2213
     - scientific: Pareques acuminatus
       confidence: 0.0444
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1786159575.5661554
     top:
     - scientific: Scorpaena plumieri
-      confidence: 0.0252
+      confidence: 0.0251
     - scientific: Gymnothorax moringa
       confidence: 0.0222
     - scientific: Holacanthus ciliaris
-      confidence: 0.0155
+      confidence: 0.0154
     absorbed_by:
       scientific: Millepora alcicornis
-      confidence: 0.3371
+      confidence: 0.3365
 species:
 - scientific: Aulostomus maculatus
   role: primary

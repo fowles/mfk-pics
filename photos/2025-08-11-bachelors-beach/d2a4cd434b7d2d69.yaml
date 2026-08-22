@@ -13,22 +13,22 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1786157880.2354436
     top:
     - scientific: Thalassoma bifasciatum
-      confidence: 0.2613
+      confidence: 0.2612
     - scientific: Sparisoma aurofrenatum
       confidence: 0.2082
     - scientific: Aulostomus maculatus
       confidence: 0.0679
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1786157880.2354436
     top:
     - scientific: Scorpaena plumieri
-      confidence: 0.9899
+      confidence: 0.9892
     - scientific: Ogcocephalus nasutus
       confidence: 0.0027
     - scientific: Ogcocephalus radiatus
@@ -36,5 +36,5 @@ species_suggestions:
 species:
 - scientific: Scorpaena plumieri
   role: primary
-  confidence: 0.495
+  confidence: 0.4946
   identified_by: bioclip-2

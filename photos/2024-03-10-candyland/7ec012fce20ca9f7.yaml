@@ -13,18 +13,18 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1786158850.923951
     top:
     - scientific: Haemulon macrostomum
-      confidence: 0.7446
+      confidence: 0.7428
     - scientific: Amblycirrhitus pinos
-      confidence: 0.057
+      confidence: 0.0569
     - scientific: Haemulon chrysargyreum
-      confidence: 0.0384
+      confidence: 0.0383
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:41:08Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1786158850.923951
     top:
     - scientific: Aulostomus maculatus

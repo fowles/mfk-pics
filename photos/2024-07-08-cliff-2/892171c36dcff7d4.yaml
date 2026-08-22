@@ -13,18 +13,18 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1786159375.372889
     top:
     - scientific: Myrichthys ocellatus
-      confidence: 0.5868
+      confidence: 0.585
     - scientific: Gymnothorax vicinus
-      confidence: 0.1028
+      confidence: 0.1025
     - scientific: Gymnothorax funebris
-      confidence: 0.0615
+      confidence: 0.0613
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1786159375.372889
     top:
     - scientific: Cephalopholis fulva
@@ -36,5 +36,5 @@ species_suggestions:
 species:
 - scientific: Myrichthys ocellatus
   role: primary
-  confidence: 0.2934
+  confidence: 0.2925
   identified_by: bioclip

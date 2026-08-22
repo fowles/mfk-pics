@@ -16,28 +16,28 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1786157214.692983
     top:
     - scientific: Acanthostracion polygonius
-      confidence: 0.5544
+      confidence: 0.554
     - scientific: Mycteroperca tigris
-      confidence: 0.1436
+      confidence: 0.1435
     - scientific: Gymnothorax moringa
-      confidence: 0.1256
+      confidence: 0.1255
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1786157214.692983
     top:
     - scientific: Acanthostracion polygonius
-      confidence: 0.4336
+      confidence: 0.4334
     - scientific: Gymnothorax moringa
-      confidence: 0.1093
+      confidence: 0.1092
     - scientific: Serranus tigrinus
       confidence: 0.0433
 species:
 - scientific: Acanthostracion polygonius
   role: primary
-  confidence: 0.494
+  confidence: 0.4937
   identified_by: bioclip+bioclip-2

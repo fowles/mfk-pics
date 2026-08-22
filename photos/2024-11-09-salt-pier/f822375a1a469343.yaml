@@ -16,18 +16,18 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1786156583.8002245
     top:
     - scientific: Serranus tigrinus
-      confidence: 0.5905
+      confidence: 0.5892
     - scientific: Sepioteuthis sepioidea
-      confidence: 0.0705
+      confidence: 0.0703
     - scientific: Scarus coelestinus
-      confidence: 0.0565
+      confidence: 0.0564
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1786156583.8002245
     top:
     - scientific: Calamus calamus
@@ -39,5 +39,5 @@ species_suggestions:
 species:
 - scientific: Serranus tigrinus
   role: primary
-  confidence: 0.2953
+  confidence: 0.2946
   identified_by: bioclip

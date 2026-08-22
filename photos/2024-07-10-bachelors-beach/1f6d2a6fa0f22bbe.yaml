@@ -13,28 +13,28 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1786158722.5802798
     top:
     - scientific: Acanthostracion polygonius
-      confidence: 0.2453
+      confidence: 0.2298
     - scientific: Pareques acuminatus
-      confidence: 0.1541
+      confidence: 0.1444
     - scientific: Scorpaena plumieri
-      confidence: 0.1031
+      confidence: 0.0966
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1786158722.5802798
     top:
     - scientific: Thalassoma bifasciatum
-      confidence: 0.1
+      confidence: 0.0998
     - scientific: Scorpaena plumieri
-      confidence: 0.0964
+      confidence: 0.0962
     - scientific: Stegastes partitus
-      confidence: 0.0793
+      confidence: 0.0792
 species:
 - scientific: Acanthostracion polygonius
   role: primary
-  confidence: 0.1226
+  confidence: 0.1149
   identified_by: bioclip

@@ -16,18 +16,18 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1786156746.5401342
     top:
     - scientific: Haemulon macrostomum
-      confidence: 0.413
+      confidence: 0.4129
     - scientific: Haemulon carbonarium
       confidence: 0.0935
     - scientific: Melichthys niger
       confidence: 0.0559
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1786156746.5401342
     top:
     - scientific: Anisotremus surinamensis
@@ -39,5 +39,5 @@ species_suggestions:
 species:
 - scientific: Haemulon macrostomum
   role: primary
-  confidence: 0.2065
+  confidence: 0.2064
   identified_by: bioclip

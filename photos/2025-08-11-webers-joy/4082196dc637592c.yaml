@@ -16,18 +16,18 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1786071915.0737257
     top:
     - scientific: Serranus tigrinus
-      confidence: 0.3626
+      confidence: 0.3624
     - scientific: Scarus coelestinus
-      confidence: 0.3019
+      confidence: 0.3017
     - scientific: Lutjanus jocu
-      confidence: 0.0894
+      confidence: 0.0893
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1786071915.0737257
     top:
     - scientific: Canthidermis sufflamen
@@ -39,5 +39,5 @@ species_suggestions:
 species:
 - scientific: Serranus tigrinus
   role: primary
-  confidence: 0.1813
+  confidence: 0.1812
   identified_by: bioclip

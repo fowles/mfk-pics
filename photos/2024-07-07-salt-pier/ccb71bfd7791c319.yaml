@@ -16,31 +16,31 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1786159975.4853964
     top:
     - scientific: Serranus tigrinus
-      confidence: 0.4146
+      confidence: 0.4106
     - scientific: Acanthostracion quadricornis
-      confidence: 0.0662
+      confidence: 0.0656
     - scientific: Elacatinus evelynae
-      confidence: 0.0369
+      confidence: 0.0366
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1786159975.4853964
     top:
     - scientific: Percnon gibbesi
-      confidence: 0.0567
+      confidence: 0.0566
     - scientific: Bothus lunatus
-      confidence: 0.0383
+      confidence: 0.0382
     - scientific: Scorpaena plumieri
       confidence: 0.0303
     absorbed_by:
       scientific: Sabellastarte magnifica
-      confidence: 0.1867
+      confidence: 0.1865
 species:
 - scientific: Serranus tigrinus
   role: primary
-  confidence: 0.2073
+  confidence: 0.2053
   identified_by: bioclip

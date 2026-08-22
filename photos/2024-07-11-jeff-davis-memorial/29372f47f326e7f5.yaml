@@ -16,28 +16,28 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1786159604.5760074
     top:
     - scientific: Hippocampus erectus
-      confidence: 0.9544
+      confidence: 0.955
     - scientific: Diodon hystrix
       confidence: 0.0105
     - scientific: Antennarius striatus
       confidence: 0.0084
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1786159604.5760074
     top:
     - scientific: Pterois volitans
-      confidence: 0.3785
+      confidence: 0.378
     - scientific: Equetus punctatus
-      confidence: 0.2149
+      confidence: 0.2146
     - scientific: Pareques acuminatus
-      confidence: 0.1933
+      confidence: 0.1931
 species:
 - scientific: Hippocampus erectus
   role: primary
-  confidence: 0.4772
+  confidence: 0.4775
   identified_by: bioclip

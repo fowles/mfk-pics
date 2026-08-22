@@ -12,7 +12,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1786159797.2605734
     top:
     - scientific: Scorpaena plumieri
@@ -23,17 +23,17 @@ species_suggestions:
       confidence: 0.0276
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1786159797.2605734
     top:
     - scientific: Scorpaena plumieri
-      confidence: 0.9432
+      confidence: 0.9422
     - scientific: Antennarius multiocellatus
-      confidence: 0.0366
+      confidence: 0.0365
     - scientific: Petrochirus diogenes
       confidence: 0.0019
 species:
 - scientific: Scorpaena plumieri
   role: primary
-  confidence: 0.9108
+  confidence: 0.9103
   identified_by: bioclip+bioclip-2

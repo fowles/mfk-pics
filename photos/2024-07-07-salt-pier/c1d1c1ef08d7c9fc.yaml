@@ -17,28 +17,28 @@ rotation_applied: 90
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1787029535.5169334
     top:
     - scientific: Bothus lunatus
-      confidence: 0.2844
+      confidence: 0.2444
     - scientific: Acanthostracion polygonius
-      confidence: 0.2453
-    - scientific: Octopus briareus
-      confidence: 0.1329
+      confidence: 0.2108
+    - scientific: Octopus insularis
+      confidence: 0.1404
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1787029535.5169334
     top:
     - scientific: Octopus briareus
-      confidence: 0.8997
+      confidence: 0.8816
+    - scientific: Octopus insularis
+      confidence: 0.0201
     - scientific: Ophiothrix suensonii
-      confidence: 0.0083
-    - scientific: Hypoplectrus puella
-      confidence: 0.0022
+      confidence: 0.0081
 species:
 - scientific: Octopus briareus
   role: primary
-  confidence: 0.5163
-  identified_by: bioclip+bioclip-2
+  confidence: 0.4408
+  identified_by: bioclip-2

@@ -14,22 +14,22 @@ rotation_applied: 90
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1787173776.6129427
     top:
     - scientific: Pareques acuminatus
-      confidence: 0.7512
+      confidence: 0.751
     - scientific: Eucidaris tribuloides
       confidence: 0.0585
     - scientific: Amblycirrhitus pinos
       confidence: 0.0524
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1787173776.6129427
     top:
     - scientific: Pterois volitans
-      confidence: 0.9284
+      confidence: 0.9283
     - scientific: Stegastes partitus
       confidence: 0.0119
     - scientific: Diadema antillarum

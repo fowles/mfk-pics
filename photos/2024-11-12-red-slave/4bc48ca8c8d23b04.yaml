@@ -22,27 +22,27 @@ species:
   - Matthew Kulukundis
 - scientific: Sepioteuthis sepioidea
   role: primary
-  confidence: 0.3261
+  confidence: 0.326
   identified_by: bioclip-2
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1786156804.943392
     top:
     - scientific: Canthidermis sufflamen
-      confidence: 0.591
+      confidence: 0.5909
     - scientific: Lactophrys triqueter
-      confidence: 0.1094
+      confidence: 0.1093
     - scientific: Opistognathus aurifrons
-      confidence: 0.0826
+      confidence: 0.0825
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1786156804.943392
     top:
     - scientific: Sepioteuthis sepioidea
-      confidence: 0.6522
+      confidence: 0.652
     - scientific: Carcharhinus perezi
       confidence: 0.0857
     - scientific: Sphyrna mokarran

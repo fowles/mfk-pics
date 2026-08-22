@@ -13,18 +13,18 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1786158862.4593077
     top:
     - scientific: Melichthys niger
-      confidence: 0.2021
+      confidence: 0.1924
     - scientific: Acanthurus chirurgus
-      confidence: 0.1095
+      confidence: 0.1042
     - scientific: Diodon holocanthus
-      confidence: 0.1065
+      confidence: 0.1014
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1786158862.4593077
     top:
     - scientific: Melichthys niger
@@ -36,5 +36,5 @@ species_suggestions:
 species:
 - scientific: Melichthys niger
   role: primary
-  confidence: 0.5745
+  confidence: 0.5696
   identified_by: bioclip+bioclip-2

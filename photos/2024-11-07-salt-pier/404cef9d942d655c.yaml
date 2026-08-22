@@ -13,18 +13,18 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1786156340.3154771
     top:
     - scientific: Synodus intermedius
-      confidence: 0.5413
+      confidence: 0.5398
     - scientific: Aulostomus maculatus
-      confidence: 0.182
+      confidence: 0.1815
     - scientific: Mycteroperca venenosa
-      confidence: 0.0798
+      confidence: 0.0796
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1786156340.3154771
     top:
     - scientific: Synodus intermedius
@@ -36,5 +36,5 @@ species_suggestions:
 species:
 - scientific: Synodus intermedius
   role: primary
-  confidence: 0.7674
+  confidence: 0.7667
   identified_by: bioclip+bioclip-2

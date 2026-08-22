@@ -11,7 +11,7 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 species:
-- scientific: Octopus vulgaris
+- scientific: Octopus insularis
   role: primary
   identified_by: human
   reviewed_by: matt

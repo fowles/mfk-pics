@@ -13,7 +13,7 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1786159563.777805
     top:
     - scientific: Haemulon carbonarium
@@ -27,7 +27,7 @@ species_suggestions:
       confidence: 0.4
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1786159563.777805
     top:
     - scientific: Chaetodon capistratus
@@ -38,4 +38,4 @@ species_suggestions:
       confidence: 0.0367
     absorbed_by:
       scientific: Orbicella faveolata
-      confidence: 0.1156
+      confidence: 0.1155

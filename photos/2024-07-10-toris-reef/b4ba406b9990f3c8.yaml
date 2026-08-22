@@ -16,28 +16,28 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1786160205.4775734
     top:
     - scientific: Holothuria mexicana
-      confidence: 0.6921
+      confidence: 0.692
     - scientific: Holocentrus adscensionis
       confidence: 0.047
     - scientific: Diadema antillarum
       confidence: 0.0206
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1786160205.4775734
     top:
     - scientific: Gymnothorax funebris
-      confidence: 0.308
+      confidence: 0.3078
     - scientific: Gymnothorax miliaris
       confidence: 0.0855
     - scientific: Pomacanthus arcuatus
-      confidence: 0.0726
+      confidence: 0.0725
 species:
 - scientific: Holothuria mexicana
   role: primary
-  confidence: 0.3461
+  confidence: 0.346
   identified_by: bioclip

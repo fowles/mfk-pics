@@ -16,24 +16,24 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1786159997.297527
     top:
     - scientific: Heteroconger longissimus
-      confidence: 0.2307
+      confidence: 0.2282
     - scientific: Diodon hystrix
-      confidence: 0.1689
+      confidence: 0.1671
     - scientific: Gymnothorax funebris
-      confidence: 0.1391
+      confidence: 0.1376
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1786159997.297527
     top:
     - scientific: Chelonia mydas
-      confidence: 0.5954
+      confidence: 0.5953
     - scientific: Eretmochelys imbricata
-      confidence: 0.2115
+      confidence: 0.2114
     - scientific: Caretta caretta
       confidence: 0.1863
 species:

@@ -12,18 +12,18 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-20T03:59:54Z'
+    created: '2026-08-22T13:40:14Z'
     src_mtime: 1786159809.6131756
     top:
     - scientific: Sepioteuthis sepioidea
-      confidence: 0.9803
+      confidence: 0.98
     - scientific: Lactophrys triqueter
       confidence: 0.003
     - scientific: Sphyraena barracuda
       confidence: 0.0023
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T06:26:48Z'
+    created: '2026-08-22T13:37:37Z'
     src_mtime: 1786159809.6131756
     top:
     - scientific: Caranx crysos
@@ -35,5 +35,5 @@ species_suggestions:
 species:
 - scientific: Sepioteuthis sepioidea
   role: primary
-  confidence: 0.4901
+  confidence: 0.49
   identified_by: bioclip
