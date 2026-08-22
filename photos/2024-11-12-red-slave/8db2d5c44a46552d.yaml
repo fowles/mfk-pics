@@ -10,7 +10,6 @@ lon: -68.2513754
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
-best: hue-shift-clarity
 rotation_applied: 180
 species_suggestions:
   bioclip:
