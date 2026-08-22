@@ -11,19 +11,30 @@ gps_source: dive_site
 date_reviewed: true
 rotation_applied: 90
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1787174253.5177135
-  top:
-  - scientific: Acanthurus coeruleus
-    confidence: 0.5009
-  - scientific: Scarus coeruleus
-    confidence: 0.3293
-  - scientific: Hypanus americanus
-    confidence: 0.0618
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1787174253.5177135
+    top:
+    - scientific: Acanthurus coeruleus
+      confidence: 0.5009
+    - scientific: Scarus coeruleus
+      confidence: 0.3293
+    - scientific: Hypanus americanus
+      confidence: 0.0618
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1787174253.5177135
+    top:
+    - scientific: Balistes vetula
+      confidence: 0.9993
+    - scientific: Canthidermis sufflamen
+      confidence: 0.0003
+    - scientific: Sparisoma viride
+      confidence: 0.0001
 species:
-- scientific: Acanthurus coeruleus
+- scientific: Balistes vetula
   role: primary
-  confidence: 0.5009
-  identified_by: bioclip
+  confidence: 0.4996
+  identified_by: bioclip-2

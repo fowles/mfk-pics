@@ -14,19 +14,30 @@ variants:
   import_original_name: 0fe6446c20bc4cb2.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786157214.9089475
-  top:
-  - scientific: Hypanus americanus
-    confidence: 0.397
-  - scientific: Opistognathus aurifrons
-    confidence: 0.2035
-  - scientific: Diodon holocanthus
-    confidence: 0.0782
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786157214.9089475
+    top:
+    - scientific: Hypanus americanus
+      confidence: 0.397
+    - scientific: Opistognathus aurifrons
+      confidence: 0.2035
+    - scientific: Diodon holocanthus
+      confidence: 0.0782
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786157214.9089475
+    top:
+    - scientific: Bothus lunatus
+      confidence: 0.1763
+    - scientific: Chaetodon striatus
+      confidence: 0.1651
+    - scientific: Diodon holocanthus
+      confidence: 0.0773
 species:
 - scientific: Hypanus americanus
   role: primary
-  confidence: 0.397
+  confidence: 0.1985
   identified_by: bioclip

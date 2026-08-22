@@ -11,19 +11,33 @@ variants:
   import_original_name: 5b9eca741725261d.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786156740.8696675
-  top:
-  - scientific: Lactophrys triqueter
-    confidence: 0.2042
-  - scientific: Epinephelus itajara
-    confidence: 0.1608
-  - scientific: Synodus intermedius
-    confidence: 0.1196
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786156740.8696675
+    top:
+    - scientific: Lactophrys triqueter
+      confidence: 0.2042
+    - scientific: Epinephelus itajara
+      confidence: 0.1608
+    - scientific: Synodus intermedius
+      confidence: 0.1196
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786156740.8696675
+    top:
+    - scientific: Trachinotus falcatus
+      confidence: 0.0684
+    - scientific: Sphyraena barracuda
+      confidence: 0.0598
+    - scientific: Elacatinus genie
+      confidence: 0.0362
+    absorbed_by:
+      scientific: Thalassia testudinum
+      confidence: 0.0701
 species:
 - scientific: Lactophrys triqueter
   role: primary
-  confidence: 0.2042
+  confidence: 0.1021
   identified_by: bioclip

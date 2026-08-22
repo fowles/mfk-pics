@@ -11,19 +11,30 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786157579.726705
-  top:
-  - scientific: Gymnothorax miliaris
-    confidence: 0.6901
-  - scientific: Emblemaria pandionis
-    confidence: 0.1788
-  - scientific: Gymnothorax funebris
-    confidence: 0.0847
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786157579.726705
+    top:
+    - scientific: Gymnothorax miliaris
+      confidence: 0.6901
+    - scientific: Emblemaria pandionis
+      confidence: 0.1788
+    - scientific: Gymnothorax funebris
+      confidence: 0.0847
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786157579.726705
+    top:
+    - scientific: Octopus briareus
+      confidence: 0.9427
+    - scientific: Octopus vulgaris
+      confidence: 0.0444
+    - scientific: Enchelycore carychroa
+      confidence: 0.0041
 species:
-- scientific: Gymnothorax miliaris
+- scientific: Octopus briareus
   role: primary
-  confidence: 0.6901
-  identified_by: bioclip
+  confidence: 0.4713
+  identified_by: bioclip-2

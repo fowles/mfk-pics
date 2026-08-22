@@ -14,19 +14,30 @@ variants:
   import_original_name: 41a3a75f7bf6817a.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786156981.9611762
-  top:
-  - scientific: Heteroconger longissimus
-    confidence: 0.9469
-  - scientific: Abudefduf saxatilis
-    confidence: 0.0102
-  - scientific: Dactylopterus volitans
-    confidence: 0.0085
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786156981.9611762
+    top:
+    - scientific: Heteroconger longissimus
+      confidence: 0.9469
+    - scientific: Abudefduf saxatilis
+      confidence: 0.0102
+    - scientific: Dactylopterus volitans
+      confidence: 0.0085
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786156981.9611762
+    top:
+    - scientific: Heteroconger longissimus
+      confidence: 0.7458
+    - scientific: Myrichthys breviceps
+      confidence: 0.0337
+    - scientific: Carcharhinus perezi
+      confidence: 0.025
 species:
 - scientific: Heteroconger longissimus
   role: primary
-  confidence: 0.9469
-  identified_by: bioclip
+  confidence: 0.8463
+  identified_by: bioclip+bioclip-2

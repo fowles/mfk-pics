@@ -14,20 +14,34 @@ variants:
   import_original_name: e84882417faefafd.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786158873.3725247
-  top:
-  - scientific: Ginglymostoma cirratum
-    confidence: 0.0409
-  - scientific: Aulostomus maculatus
-    confidence: 0.032
-  - scientific: Sparisoma viride
-    confidence: 0.0283
-  absorbed_by:
-    scientific: Agaricia agaricites
-    confidence: 0.3007
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786158873.3725247
+    top:
+    - scientific: Ginglymostoma cirratum
+      confidence: 0.0409
+    - scientific: Aulostomus maculatus
+      confidence: 0.032
+    - scientific: Sparisoma viride
+      confidence: 0.0283
+    absorbed_by:
+      scientific: Agaricia agaricites
+      confidence: 0.3007
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:41:08Z'
+    src_mtime: 1786158873.3725247
+    top:
+    - scientific: Apogon maculatus
+      confidence: 0.0155
+    - scientific: Stenopus hispidus
+      confidence: 0.0088
+    - scientific: Enchelycore carychroa
+      confidence: 0.0087
+    absorbed_by:
+      scientific: Orbicella annularis
+      confidence: 0.5185
 species:
 - scientific: Diodon hystrix
   role: primary

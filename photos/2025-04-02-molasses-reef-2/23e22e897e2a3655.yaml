@@ -14,19 +14,33 @@ lon: -80.3785098
 gps_source: manual
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786157280.0154586
-  top:
-  - scientific: Acanthostracion polygonius
-    confidence: 0.3969
-  - scientific: Dactylopterus volitans
-    confidence: 0.3463
-  - scientific: Pterois volitans
-    confidence: 0.0259
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786157280.0154586
+    top:
+    - scientific: Acanthostracion polygonius
+      confidence: 0.3969
+    - scientific: Dactylopterus volitans
+      confidence: 0.3463
+    - scientific: Pterois volitans
+      confidence: 0.0259
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786157280.0154586
+    top:
+    - scientific: Holocentrus rufus
+      confidence: 0.0617
+    - scientific: Epinephelus striatus
+      confidence: 0.0546
+    - scientific: Holocentrus adscensionis
+      confidence: 0.0417
+    absorbed_by:
+      scientific: Sabellastarte magnifica
+      confidence: 0.1773
 species:
 - scientific: Acanthostracion polygonius
   role: primary
-  confidence: 0.3969
+  confidence: 0.1984
   identified_by: bioclip

@@ -11,19 +11,30 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786158710.886257
-  top:
-  - scientific: Pomacanthus paru
-    confidence: 0.4582
-  - scientific: Melichthys niger
-    confidence: 0.1452
-  - scientific: Stegastes partitus
-    confidence: 0.1102
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786158710.886257
+    top:
+    - scientific: Pomacanthus paru
+      confidence: 0.4582
+    - scientific: Melichthys niger
+      confidence: 0.1452
+    - scientific: Stegastes partitus
+      confidence: 0.1102
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786158710.886257
+    top:
+    - scientific: Equetus punctatus
+      confidence: 0.1901
+    - scientific: Hypoplectrus indigo
+      confidence: 0.1424
+    - scientific: Hypoplectrus puella
+      confidence: 0.1357
 species:
 - scientific: Pomacanthus paru
   role: primary
-  confidence: 0.4582
+  confidence: 0.2291
   identified_by: bioclip

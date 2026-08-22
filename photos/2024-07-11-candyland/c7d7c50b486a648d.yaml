@@ -11,17 +11,31 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786159272.9764178
-  top:
-  - scientific: Sepioteuthis sepioidea
-    confidence: 0.1024
-  - scientific: Chromis multilineata
-    confidence: 0.075
-  - scientific: Haemulon chrysargyreum
-    confidence: 0.0453
-  absorbed_by:
-    scientific: Sabellastarte magnifica
-    confidence: 0.4126
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786159272.9764178
+    top:
+    - scientific: Sepioteuthis sepioidea
+      confidence: 0.1024
+    - scientific: Chromis multilineata
+      confidence: 0.075
+    - scientific: Haemulon chrysargyreum
+      confidence: 0.0453
+    absorbed_by:
+      scientific: Sabellastarte magnifica
+      confidence: 0.4126
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786159272.9764178
+    top:
+    - scientific: Chromis cyanea
+      confidence: 0.144
+    - scientific: Chromis multilineata
+      confidence: 0.0558
+    - scientific: Stegastes planifrons
+      confidence: 0.0365
+    absorbed_by:
+      scientific: Orbicella annularis
+      confidence: 0.2215

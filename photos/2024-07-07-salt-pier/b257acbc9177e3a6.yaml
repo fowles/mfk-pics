@@ -14,19 +14,33 @@ variants:
   import_original_name: 9c628398a83c1001.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786159977.3664463
-  top:
-  - scientific: Myrichthys breviceps
-    confidence: 0.4127
-  - scientific: Acanthostracion polygonius
-    confidence: 0.3881
-  - scientific: Heteroconger longissimus
-    confidence: 0.0488
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786159977.3664463
+    top:
+    - scientific: Myrichthys breviceps
+      confidence: 0.4127
+    - scientific: Acanthostracion polygonius
+      confidence: 0.3881
+    - scientific: Heteroconger longissimus
+      confidence: 0.0488
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786159977.3664463
+    top:
+    - scientific: Aulostomus maculatus
+      confidence: 0.058
+    - scientific: Fistularia tabacaria
+      confidence: 0.0077
+    - scientific: Diadema antillarum
+      confidence: 0.0044
+    absorbed_by:
+      scientific: Acropora cervicornis
+      confidence: 0.1754
 species:
 - scientific: Myrichthys breviceps
   role: primary
-  confidence: 0.4127
+  confidence: 0.2064
   identified_by: bioclip

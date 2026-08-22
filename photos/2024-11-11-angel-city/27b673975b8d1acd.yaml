@@ -14,19 +14,30 @@ variants:
   import_original_name: 644bfa0cd4d0270a.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786156746.791846
-  top:
-  - scientific: Epinephelus itajara
-    confidence: 0.8075
-  - scientific: Sepioteuthis sepioidea
-    confidence: 0.1517
-  - scientific: Epinephelus striatus
-    confidence: 0.017
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786156746.791846
+    top:
+    - scientific: Epinephelus itajara
+      confidence: 0.8075
+    - scientific: Sepioteuthis sepioidea
+      confidence: 0.1517
+    - scientific: Epinephelus striatus
+      confidence: 0.017
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786156746.791846
+    top:
+    - scientific: Sphyraena barracuda
+      confidence: 0.641
+    - scientific: Sepioteuthis sepioidea
+      confidence: 0.1245
+    - scientific: Aulostomus maculatus
+      confidence: 0.0519
 species:
 - scientific: Epinephelus itajara
   role: primary
-  confidence: 0.8075
+  confidence: 0.4037
   identified_by: bioclip

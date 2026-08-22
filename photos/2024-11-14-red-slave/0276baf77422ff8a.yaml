@@ -11,19 +11,30 @@ variants:
   import_original_name: cf408e404add287d.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786156979.4642572
-  top:
-  - scientific: Gymnothorax funebris
-    confidence: 0.4148
-  - scientific: Enchelycore carychroa
-    confidence: 0.0527
-  - scientific: Diodon holocanthus
-    confidence: 0.0115
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786156979.4642572
+    top:
+    - scientific: Gymnothorax funebris
+      confidence: 0.4148
+    - scientific: Enchelycore carychroa
+      confidence: 0.0527
+    - scientific: Diodon holocanthus
+      confidence: 0.0115
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786156979.4642572
+    top:
+    - scientific: Gymnothorax funebris
+      confidence: 0.1893
+    - scientific: Enchelycore carychroa
+      confidence: 0.1295
+    - scientific: Rypticus saponaceus
+      confidence: 0.1197
 species:
 - scientific: Gymnothorax funebris
   role: primary
-  confidence: 0.4148
-  identified_by: bioclip
+  confidence: 0.302
+  identified_by: bioclip+bioclip-2

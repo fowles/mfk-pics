@@ -14,19 +14,30 @@ variants:
   import_original_name: 1a0c5b86792da5a8.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786160214.8512151
-  top:
-  - scientific: Dactylopterus volitans
-    confidence: 0.8249
-  - scientific: Xyrichtys martinicensis
-    confidence: 0.119
-  - scientific: Malacanthus plumieri
-    confidence: 0.0177
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786160214.8512151
+    top:
+    - scientific: Dactylopterus volitans
+      confidence: 0.8249
+    - scientific: Xyrichtys martinicensis
+      confidence: 0.119
+    - scientific: Malacanthus plumieri
+      confidence: 0.0177
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786160214.8512151
+    top:
+    - scientific: Malacanthus plumieri
+      confidence: 0.6234
+    - scientific: Xyrichtys martinicensis
+      confidence: 0.2234
+    - scientific: Opistognathus aurifrons
+      confidence: 0.0837
 species:
 - scientific: Dactylopterus volitans
   role: primary
-  confidence: 0.8249
+  confidence: 0.4124
   identified_by: bioclip

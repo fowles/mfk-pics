@@ -14,17 +14,28 @@ variants:
   import_original_name: a9e1ec436a5d1c61.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786157214.8683121
-  top:
-  - scientific: Hypoplectrus indigo
-    confidence: 0.1935
-  - scientific: Epinephelus striatus
-    confidence: 0.1243
-  - scientific: Thalassoma bifasciatum
-    confidence: 0.054
-  absorbed_by:
-    scientific: Gorgonia ventalina
-    confidence: 0.2747
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786157214.8683121
+    top:
+    - scientific: Hypoplectrus indigo
+      confidence: 0.1935
+    - scientific: Epinephelus striatus
+      confidence: 0.1243
+    - scientific: Thalassoma bifasciatum
+      confidence: 0.054
+    absorbed_by:
+      scientific: Gorgonia ventalina
+      confidence: 0.2747
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786157214.8683121
+    top:
+    - scientific: Bodianus rufus
+      confidence: 0.1557
+    - scientific: Bodianus pulchellus
+      confidence: 0.0783
+    - scientific: Holocentrus adscensionis
+      confidence: 0.042

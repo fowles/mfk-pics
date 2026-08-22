@@ -11,19 +11,30 @@ variants:
   import_original_name: bf76d98d2499851c.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786156741.2499816
-  top:
-  - scientific: Hypoplectrus indigo
-    confidence: 0.5654
-  - scientific: Melichthys niger
-    confidence: 0.2327
-  - scientific: Epinephelus itajara
-    confidence: 0.0301
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786156741.2499816
+    top:
+    - scientific: Hypoplectrus indigo
+      confidence: 0.5654
+    - scientific: Melichthys niger
+      confidence: 0.2327
+    - scientific: Epinephelus itajara
+      confidence: 0.0301
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786156741.2499816
+    top:
+    - scientific: Diodon holocanthus
+      confidence: 0.1431
+    - scientific: Sepioteuthis sepioidea
+      confidence: 0.1274
+    - scientific: Lactophrys triqueter
+      confidence: 0.1159
 species:
 - scientific: Hypoplectrus indigo
   role: primary
-  confidence: 0.5654
+  confidence: 0.2827
   identified_by: bioclip

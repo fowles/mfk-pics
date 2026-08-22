@@ -14,19 +14,30 @@ variants:
   import_original_name: 5c34fb705d76fa04.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786158189.2745416
-  top:
-  - scientific: Myrichthys ocellatus
-    confidence: 0.1451
-  - scientific: Xyrichtys martinicensis
-    confidence: 0.094
-  - scientific: Pareques acuminatus
-    confidence: 0.0914
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786158189.2745416
+    top:
+    - scientific: Myrichthys ocellatus
+      confidence: 0.1451
+    - scientific: Xyrichtys martinicensis
+      confidence: 0.094
+    - scientific: Pareques acuminatus
+      confidence: 0.0914
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786158189.2745416
+    top:
+    - scientific: Bothus lunatus
+      confidence: 0.1805
+    - scientific: Acanthostracion polygonius
+      confidence: 0.0913
+    - scientific: Urobatis jamaicensis
+      confidence: 0.0727
 species:
-- scientific: Myrichthys ocellatus
+- scientific: Bothus lunatus
   role: primary
-  confidence: 0.1451
-  identified_by: bioclip
+  confidence: 0.0902
+  identified_by: bioclip-2

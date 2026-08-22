@@ -14,19 +14,30 @@ variants:
   import_original_name: c19aed9406cee5de.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786156744.0161352
-  top:
-  - scientific: Hypoplectrus puella
-    confidence: 0.6471
-  - scientific: Chaetodon striatus
-    confidence: 0.17
-  - scientific: Hypoplectrus chlorurus
-    confidence: 0.0721
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786156744.0161352
+    top:
+    - scientific: Hypoplectrus puella
+      confidence: 0.6471
+    - scientific: Chaetodon striatus
+      confidence: 0.17
+    - scientific: Hypoplectrus chlorurus
+      confidence: 0.0721
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786156744.0161352
+    top:
+    - scientific: Holacanthus tricolor
+      confidence: 0.0882
+    - scientific: Chaetodon capistratus
+      confidence: 0.0839
+    - scientific: Prognathodes aculeatus
+      confidence: 0.0771
 species:
 - scientific: Hypoplectrus puella
   role: primary
-  confidence: 0.6471
+  confidence: 0.3236
   identified_by: bioclip

@@ -14,19 +14,30 @@ variants:
   import_original_name: b113aab5ae2ca2cd.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786157882.8589563
-  top:
-  - scientific: Holothuria mexicana
-    confidence: 0.6331
-  - scientific: Sphoeroides spengleri
-    confidence: 0.1154
-  - scientific: Pareques acuminatus
-    confidence: 0.0472
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786157882.8589563
+    top:
+    - scientific: Holothuria mexicana
+      confidence: 0.6331
+    - scientific: Sphoeroides spengleri
+      confidence: 0.1154
+    - scientific: Pareques acuminatus
+      confidence: 0.0472
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786157882.8589563
+    top:
+    - scientific: Chaetodon striatus
+      confidence: 0.1317
+    - scientific: Holacanthus tricolor
+      confidence: 0.0687
+    - scientific: Lachnolaimus maximus
+      confidence: 0.0439
 species:
 - scientific: Holothuria mexicana
   role: primary
-  confidence: 0.6331
+  confidence: 0.3165
   identified_by: bioclip

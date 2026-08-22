@@ -14,19 +14,30 @@ variants:
   import_original_name: 17c053ede0849216.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786159067.7722106
-  top:
-  - scientific: Aulostomus maculatus
-    confidence: 0.434
-  - scientific: Jenkinsia lamprotaenia
-    confidence: 0.1018
-  - scientific: Heteroconger longissimus
-    confidence: 0.0548
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786159067.7722106
+    top:
+    - scientific: Aulostomus maculatus
+      confidence: 0.434
+    - scientific: Jenkinsia lamprotaenia
+      confidence: 0.1018
+    - scientific: Heteroconger longissimus
+      confidence: 0.0548
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786159067.7722106
+    top:
+    - scientific: Anisotremus virginicus
+      confidence: 0.1876
+    - scientific: Dactylopterus volitans
+      confidence: 0.1673
+    - scientific: Sepioteuthis sepioidea
+      confidence: 0.1289
 species:
 - scientific: Aulostomus maculatus
   role: primary
-  confidence: 0.434
+  confidence: 0.217
   identified_by: bioclip

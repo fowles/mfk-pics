@@ -14,19 +14,30 @@ variants:
   import_original_name: 19bb33be20df8c4a.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786156745.020134
-  top:
-  - scientific: Holocentrus adscensionis
-    confidence: 0.8034
-  - scientific: Kyphosus sectatrix
-    confidence: 0.0324
-  - scientific: Serranus tortugarum
-    confidence: 0.031
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786156745.020134
+    top:
+    - scientific: Holocentrus adscensionis
+      confidence: 0.8034
+    - scientific: Kyphosus sectatrix
+      confidence: 0.0324
+    - scientific: Serranus tortugarum
+      confidence: 0.031
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786156745.020134
+    top:
+    - scientific: Pseudupeneus maculatus
+      confidence: 0.7241
+    - scientific: Epinephelus striatus
+      confidence: 0.0362
+    - scientific: Holocentrus adscensionis
+      confidence: 0.0226
 species:
 - scientific: Holocentrus adscensionis
   role: primary
-  confidence: 0.8034
-  identified_by: bioclip
+  confidence: 0.413
+  identified_by: bioclip+bioclip-2

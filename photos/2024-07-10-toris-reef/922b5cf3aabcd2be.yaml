@@ -14,19 +14,30 @@ variants:
   import_original_name: 4657c7b09da25d45.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786160206.8387396
-  top:
-  - scientific: Lactophrys triqueter
-    confidence: 0.5037
-  - scientific: Bothus lunatus
-    confidence: 0.3121
-  - scientific: Canthidermis sufflamen
-    confidence: 0.0896
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786160206.8387396
+    top:
+    - scientific: Lactophrys triqueter
+      confidence: 0.5037
+    - scientific: Bothus lunatus
+      confidence: 0.3121
+    - scientific: Canthidermis sufflamen
+      confidence: 0.0896
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786160206.8387396
+    top:
+    - scientific: Lactophrys triqueter
+      confidence: 0.7492
+    - scientific: Lactophrys bicaudalis
+      confidence: 0.0477
+    - scientific: Trachinotus falcatus
+      confidence: 0.0387
 species:
 - scientific: Lactophrys triqueter
   role: primary
-  confidence: 0.5037
-  identified_by: bioclip
+  confidence: 0.6264
+  identified_by: bioclip+bioclip-2

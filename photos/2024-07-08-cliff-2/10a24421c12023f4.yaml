@@ -11,19 +11,33 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786159373.947357
-  top:
-  - scientific: Microspathodon chrysurus
-    confidence: 0.59
-  - scientific: Melichthys niger
-    confidence: 0.159
-  - scientific: Hypoplectrus nigricans
-    confidence: 0.0637
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786159373.947357
+    top:
+    - scientific: Microspathodon chrysurus
+      confidence: 0.59
+    - scientific: Melichthys niger
+      confidence: 0.159
+    - scientific: Hypoplectrus nigricans
+      confidence: 0.0637
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786159373.947357
+    top:
+    - scientific: Hypoplectrus unicolor
+      confidence: 0.082
+    - scientific: Chromis cyanea
+      confidence: 0.0724
+    - scientific: Chromis multilineata
+      confidence: 0.0605
+    absorbed_by:
+      scientific: Acropora cervicornis
+      confidence: 0.2159
 species:
 - scientific: Microspathodon chrysurus
   role: primary
-  confidence: 0.59
+  confidence: 0.295
   identified_by: bioclip

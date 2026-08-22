@@ -11,19 +11,30 @@ variants:
   import_original_name: b722fe7d32810f7a.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786159172.047696
-  top:
-  - scientific: Gymnothorax funebris
-    confidence: 0.9272
-  - scientific: Gymnothorax vicinus
-    confidence: 0.037
-  - scientific: Gymnothorax miliaris
-    confidence: 0.013
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786159172.047696
+    top:
+    - scientific: Gymnothorax funebris
+      confidence: 0.9272
+    - scientific: Gymnothorax vicinus
+      confidence: 0.037
+    - scientific: Gymnothorax miliaris
+      confidence: 0.013
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786159172.047696
+    top:
+    - scientific: Aulostomus maculatus
+      confidence: 0.1637
+    - scientific: Cephalopholis cruentata
+      confidence: 0.1545
+    - scientific: Bodianus rufus
+      confidence: 0.1009
 species:
 - scientific: Gymnothorax funebris
   role: primary
-  confidence: 0.9272
+  confidence: 0.4636
   identified_by: bioclip

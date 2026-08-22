@@ -11,19 +11,30 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786159778.25134
-  top:
-  - scientific: Haemulon carbonarium
-    confidence: 0.243
-  - scientific: Carcharhinus perezi
-    confidence: 0.1781
-  - scientific: Lutjanus mahogoni
-    confidence: 0.1648
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786159778.25134
+    top:
+    - scientific: Haemulon carbonarium
+      confidence: 0.243
+    - scientific: Carcharhinus perezi
+      confidence: 0.1781
+    - scientific: Lutjanus mahogoni
+      confidence: 0.1648
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786159778.25134
+    top:
+    - scientific: Megalops atlanticus
+      confidence: 0.2534
+    - scientific: Lutjanus griseus
+      confidence: 0.1585
+    - scientific: Caranx ruber
+      confidence: 0.0742
 species:
-- scientific: Haemulon carbonarium
+- scientific: Megalops atlanticus
   role: primary
-  confidence: 0.243
-  identified_by: bioclip
+  confidence: 0.1267
+  identified_by: bioclip-2

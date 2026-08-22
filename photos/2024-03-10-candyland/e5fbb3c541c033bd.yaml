@@ -11,17 +11,28 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786158852.6411731
-  top:
-  - scientific: Sepioteuthis sepioidea
-    confidence: 0.2779
-  - scientific: Haemulon macrostomum
-    confidence: 0.2016
-  - scientific: Hypoplectrus nigricans
-    confidence: 0.1078
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786158852.6411731
+    top:
+    - scientific: Sepioteuthis sepioidea
+      confidence: 0.2779
+    - scientific: Haemulon macrostomum
+      confidence: 0.2016
+    - scientific: Hypoplectrus nigricans
+      confidence: 0.1078
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:41:08Z'
+    src_mtime: 1786158852.6411731
+    top:
+    - scientific: Chromis cyanea
+      confidence: 0.248
+    - scientific: Chromis multilineata
+      confidence: 0.2449
+    - scientific: Thalassoma bifasciatum
+      confidence: 0.0571
 species: []
 species_reviewed:
 - primary

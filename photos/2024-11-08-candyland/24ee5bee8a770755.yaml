@@ -11,19 +11,30 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786156489.134876
-  top:
-  - scientific: Lactophrys bicaudalis
-    confidence: 0.2422
-  - scientific: Gymnothorax moringa
-    confidence: 0.1953
-  - scientific: Lactophrys triqueter
-    confidence: 0.0742
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786156489.134876
+    top:
+    - scientific: Lactophrys bicaudalis
+      confidence: 0.2422
+    - scientific: Gymnothorax moringa
+      confidence: 0.1953
+    - scientific: Lactophrys triqueter
+      confidence: 0.0742
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786156489.134876
+    top:
+    - scientific: Lactophrys bicaudalis
+      confidence: 0.4471
+    - scientific: Diodon hystrix
+      confidence: 0.2247
+    - scientific: Acanthostracion polygonius
+      confidence: 0.0701
 species:
 - scientific: Lactophrys bicaudalis
   role: primary
-  confidence: 0.2422
-  identified_by: bioclip
+  confidence: 0.3447
+  identified_by: bioclip+bioclip-2

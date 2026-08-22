@@ -11,17 +11,31 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786156688.4148107
-  top:
-  - scientific: Aulostomus maculatus
-    confidence: 0.1433
-  - scientific: Thalassoma bifasciatum
-    confidence: 0.0536
-  - scientific: Amblycirrhitus pinos
-    confidence: 0.0041
-  absorbed_by:
-    scientific: Madracis auretenra
-    confidence: 0.5022
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786156688.4148107
+    top:
+    - scientific: Aulostomus maculatus
+      confidence: 0.1433
+    - scientific: Thalassoma bifasciatum
+      confidence: 0.0536
+    - scientific: Amblycirrhitus pinos
+      confidence: 0.0041
+    absorbed_by:
+      scientific: Madracis auretenra
+      confidence: 0.5022
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786156688.4148107
+    top:
+    - scientific: Stegastes partitus
+      confidence: 0.0014
+    - scientific: Chromis cyanea
+      confidence: 0.0013
+    - scientific: Holocentrus rufus
+      confidence: 0.0009
+    absorbed_by:
+      scientific: Madracis auretenra
+      confidence: 0.6103

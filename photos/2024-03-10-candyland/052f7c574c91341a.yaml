@@ -14,17 +14,31 @@ variants:
   import_original_name: 85604d269504088d.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786158874.1481335
-  top:
-  - scientific: Megalops atlanticus
-    confidence: 0.0603
-  - scientific: Panulirus argus
-    confidence: 0.0252
-  - scientific: Aulostomus maculatus
-    confidence: 0.0166
-  absorbed_by:
-    scientific: Montastraea cavernosa
-    confidence: 0.7445
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786158874.1481335
+    top:
+    - scientific: Megalops atlanticus
+      confidence: 0.0603
+    - scientific: Panulirus argus
+      confidence: 0.0252
+    - scientific: Aulostomus maculatus
+      confidence: 0.0166
+    absorbed_by:
+      scientific: Montastraea cavernosa
+      confidence: 0.7445
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786158874.1481335
+    top:
+    - scientific: Holacanthus tricolor
+      confidence: 0.0322
+    - scientific: Ophiothrix suensonii
+      confidence: 0.0107
+    - scientific: Sparisoma viride
+      confidence: 0.0064
+    absorbed_by:
+      scientific: Agelas clathrodes
+      confidence: 0.178

@@ -14,19 +14,30 @@ variants:
   import_original_name: cc5311ed6dd07b66.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786156584.8657994
-  top:
-  - scientific: Acanthostracion polygonius
-    confidence: 0.9996
-  - scientific: Sphoeroides spengleri
-    confidence: 0.0001
-  - scientific: Mycteroperca venenosa
-    confidence: 0.0001
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786156584.8657994
+    top:
+    - scientific: Acanthostracion polygonius
+      confidence: 0.9996
+    - scientific: Sphoeroides spengleri
+      confidence: 0.0001
+    - scientific: Mycteroperca venenosa
+      confidence: 0.0001
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786156584.8657994
+    top:
+    - scientific: Acanthostracion polygonius
+      confidence: 0.9862
+    - scientific: Aluterus scriptus
+      confidence: 0.0086
+    - scientific: Acanthostracion quadricornis
+      confidence: 0.0029
 species:
 - scientific: Acanthostracion polygonius
   role: primary
-  confidence: 0.9996
-  identified_by: bioclip
+  confidence: 0.9929
+  identified_by: bioclip+bioclip-2

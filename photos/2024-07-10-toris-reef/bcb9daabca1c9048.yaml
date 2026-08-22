@@ -14,19 +14,33 @@ lon: -68.2806703
 gps_source: manual
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786160191.0649235
-  top:
-  - scientific: Aulostomus maculatus
-    confidence: 0.416
-  - scientific: Thalassoma bifasciatum
-    confidence: 0.1167
-  - scientific: Serranus tigrinus
-    confidence: 0.0979
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786160191.0649235
+    top:
+    - scientific: Aulostomus maculatus
+      confidence: 0.416
+    - scientific: Thalassoma bifasciatum
+      confidence: 0.1167
+    - scientific: Serranus tigrinus
+      confidence: 0.0979
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786160191.0649235
+    top:
+    - scientific: Diodon holocanthus
+      confidence: 0.0998
+    - scientific: Chilomycterus antillarum
+      confidence: 0.0888
+    - scientific: Pseudupeneus maculatus
+      confidence: 0.0695
+    absorbed_by:
+      scientific: Montastraea cavernosa
+      confidence: 0.1079
 species:
 - scientific: Aulostomus maculatus
   role: primary
-  confidence: 0.416
+  confidence: 0.208
   identified_by: bioclip

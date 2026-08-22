@@ -14,17 +14,28 @@ variants:
   import_original_name: 39cbc574b36d1991.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786158511.9838803
-  top:
-  - scientific: Acanthostracion polygonius
-    confidence: 0.0624
-  - scientific: Diodon holocanthus
-    confidence: 0.0263
-  - scientific: Sparisoma viride
-    confidence: 0.0149
-  absorbed_by:
-    scientific: Meandrina meandrites
-    confidence: 0.5556
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786158511.9838803
+    top:
+    - scientific: Acanthostracion polygonius
+      confidence: 0.0624
+    - scientific: Diodon holocanthus
+      confidence: 0.0263
+    - scientific: Sparisoma viride
+      confidence: 0.0149
+    absorbed_by:
+      scientific: Meandrina meandrites
+      confidence: 0.5556
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786158511.9838803
+    top:
+    - scientific: Hypoplectrus puella
+      confidence: 0.1557
+    - scientific: Lactophrys triqueter
+      confidence: 0.0482
+    - scientific: Lactophrys bicaudalis
+      confidence: 0.0374

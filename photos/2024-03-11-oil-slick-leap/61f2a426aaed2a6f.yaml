@@ -11,19 +11,30 @@ variants:
   import_original_name: 27c235632a22ff54.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786158966.5198877
-  top:
-  - scientific: Scarus taeniopterus
-    confidence: 0.8895
-  - scientific: Malacanthus plumieri
-    confidence: 0.0194
-  - scientific: Scarus vetula
-    confidence: 0.0192
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786158966.5198877
+    top:
+    - scientific: Scarus taeniopterus
+      confidence: 0.8895
+    - scientific: Malacanthus plumieri
+      confidence: 0.0194
+    - scientific: Scarus vetula
+      confidence: 0.0192
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786158966.5198877
+    top:
+    - scientific: Scarus vetula
+      confidence: 0.2139
+    - scientific: Halichoeres garnoti
+      confidence: 0.1445
+    - scientific: Serranus tabacarius
+      confidence: 0.0601
 species:
 - scientific: Scarus taeniopterus
   role: primary
-  confidence: 0.8895
+  confidence: 0.4447
   identified_by: bioclip

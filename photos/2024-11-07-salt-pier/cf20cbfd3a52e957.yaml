@@ -11,19 +11,30 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786156316.8697162
-  top:
-  - scientific: Melichthys niger
-    confidence: 0.6429
-  - scientific: Sepioteuthis sepioidea
-    confidence: 0.1965
-  - scientific: Enchelycore carychroa
-    confidence: 0.026
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786156316.8697162
+    top:
+    - scientific: Melichthys niger
+      confidence: 0.6429
+    - scientific: Sepioteuthis sepioidea
+      confidence: 0.1965
+    - scientific: Enchelycore carychroa
+      confidence: 0.026
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786156316.8697162
+    top:
+    - scientific: Ginglymostoma cirratum
+      confidence: 0.9325
+    - scientific: Enchelycore carychroa
+      confidence: 0.0153
+    - scientific: Heteroconger longissimus
+      confidence: 0.0034
 species:
-- scientific: Melichthys niger
+- scientific: Ginglymostoma cirratum
   role: primary
-  confidence: 0.6429
-  identified_by: bioclip
+  confidence: 0.4662
+  identified_by: bioclip-2

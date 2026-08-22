@@ -14,19 +14,33 @@ variants:
   import_original_name: f196a3954430e5c1.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786158190.1198032
-  top:
-  - scientific: Aulostomus maculatus
-    confidence: 0.5279
-  - scientific: Sphoeroides spengleri
-    confidence: 0.1997
-  - scientific: Pareques acuminatus
-    confidence: 0.1445
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786158190.1198032
+    top:
+    - scientific: Aulostomus maculatus
+      confidence: 0.5279
+    - scientific: Sphoeroides spengleri
+      confidence: 0.1997
+    - scientific: Pareques acuminatus
+      confidence: 0.1445
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786158190.1198032
+    top:
+    - scientific: Monacanthus tuckeri
+      confidence: 0.1143
+    - scientific: Holocentrus rufus
+      confidence: 0.1119
+    - scientific: Aulostomus maculatus
+      confidence: 0.0439
+    absorbed_by:
+      scientific: Acropora cervicornis
+      confidence: 0.2363
 species:
 - scientific: Aulostomus maculatus
   role: primary
-  confidence: 0.5279
-  identified_by: bioclip
+  confidence: 0.2859
+  identified_by: bioclip+bioclip-2

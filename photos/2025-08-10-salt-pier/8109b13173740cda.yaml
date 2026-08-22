@@ -11,19 +11,30 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786157573.6863267
-  top:
-  - scientific: Equetus punctatus
-    confidence: 0.9997
-  - scientific: Pomacanthus paru
-    confidence: 0.0001
-  - scientific: Equetus lanceolatus
-    confidence: 0.0001
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786157573.6863267
+    top:
+    - scientific: Equetus punctatus
+      confidence: 0.9997
+    - scientific: Pomacanthus paru
+      confidence: 0.0001
+    - scientific: Equetus lanceolatus
+      confidence: 0.0001
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786157573.6863267
+    top:
+    - scientific: Equetus punctatus
+      confidence: 0.9971
+    - scientific: Mycteroperca bonaci
+      confidence: 0.0006
+    - scientific: Pomacanthus paru
+      confidence: 0.0004
 species:
 - scientific: Equetus punctatus
   role: primary
-  confidence: 0.9997
-  identified_by: bioclip
+  confidence: 0.9984
+  identified_by: bioclip+bioclip-2

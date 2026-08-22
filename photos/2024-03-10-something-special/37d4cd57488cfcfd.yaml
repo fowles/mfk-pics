@@ -14,19 +14,30 @@ variants:
   import_original_name: 011b3e85649dde03.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786159065.5214212
-  top:
-  - scientific: Gymnothorax funebris
-    confidence: 0.1787
-  - scientific: Pareques acuminatus
-    confidence: 0.1162
-  - scientific: Balistes vetula
-    confidence: 0.1044
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786159065.5214212
+    top:
+    - scientific: Gymnothorax funebris
+      confidence: 0.1787
+    - scientific: Pareques acuminatus
+      confidence: 0.1162
+    - scientific: Balistes vetula
+      confidence: 0.1044
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786159065.5214212
+    top:
+    - scientific: Pomacanthus arcuatus
+      confidence: 0.435
+    - scientific: Canthidermis sufflamen
+      confidence: 0.1643
+    - scientific: Lachnolaimus maximus
+      confidence: 0.0726
 species:
-- scientific: Gymnothorax funebris
+- scientific: Pomacanthus arcuatus
   role: primary
-  confidence: 0.1787
-  identified_by: bioclip
+  confidence: 0.2175
+  identified_by: bioclip-2

@@ -11,19 +11,30 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786158235.158023
-  top:
-  - scientific: Equetus punctatus
-    confidence: 0.9998
-  - scientific: Equetus lanceolatus
-    confidence: 0.0001
-  - scientific: Halichoeres maculipinna
-    confidence: 0.0
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786158235.158023
+    top:
+    - scientific: Equetus punctatus
+      confidence: 0.9998
+    - scientific: Equetus lanceolatus
+      confidence: 0.0001
+    - scientific: Halichoeres maculipinna
+      confidence: 0.0
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786158235.158023
+    top:
+    - scientific: Equetus punctatus
+      confidence: 0.9867
+    - scientific: Equetus lanceolatus
+      confidence: 0.0091
+    - scientific: Pareques acuminatus
+      confidence: 0.0015
 species:
 - scientific: Equetus punctatus
   role: primary
-  confidence: 0.9998
-  identified_by: bioclip
+  confidence: 0.9932
+  identified_by: bioclip+bioclip-2

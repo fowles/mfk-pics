@@ -14,19 +14,33 @@ variants:
   import_original_name: 5118dd2db898af23.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786159066.3729746
-  top:
-  - scientific: Epinephelus itajara
-    confidence: 0.3475
-  - scientific: Gymnothorax funebris
-    confidence: 0.3154
-  - scientific: Gymnothorax miliaris
-    confidence: 0.1682
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786159066.3729746
+    top:
+    - scientific: Epinephelus itajara
+      confidence: 0.3475
+    - scientific: Gymnothorax funebris
+      confidence: 0.3154
+    - scientific: Gymnothorax miliaris
+      confidence: 0.1682
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786159066.3729746
+    top:
+    - scientific: Holacanthus tricolor
+      confidence: 0.0567
+    - scientific: Gymnothorax miliaris
+      confidence: 0.0486
+    - scientific: Holacanthus ciliaris
+      confidence: 0.0429
+    absorbed_by:
+      scientific: Orbicella annularis
+      confidence: 0.2971
 species:
 - scientific: Epinephelus itajara
   role: primary
-  confidence: 0.3475
+  confidence: 0.1737
   identified_by: bioclip

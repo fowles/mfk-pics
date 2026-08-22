@@ -11,19 +11,30 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786159784.1075397
-  top:
-  - scientific: Mycteroperca bonaci
-    confidence: 0.3557
-  - scientific: Lutjanus griseus
-    confidence: 0.2436
-  - scientific: Scarus guacamaia
-    confidence: 0.2095
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786159784.1075397
+    top:
+    - scientific: Mycteroperca bonaci
+      confidence: 0.3557
+    - scientific: Lutjanus griseus
+      confidence: 0.2436
+    - scientific: Scarus guacamaia
+      confidence: 0.2095
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786159784.1075397
+    top:
+    - scientific: Epinephelus itajara
+      confidence: 0.4687
+    - scientific: Mycteroperca bonaci
+      confidence: 0.4397
+    - scientific: Mycteroperca tigris
+      confidence: 0.0573
 species:
 - scientific: Mycteroperca bonaci
   role: primary
-  confidence: 0.3557
-  identified_by: bioclip
+  confidence: 0.3977
+  identified_by: bioclip+bioclip-2

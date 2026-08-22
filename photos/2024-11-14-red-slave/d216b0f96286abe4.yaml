@@ -12,19 +12,30 @@ variants:
 date_reviewed: true
 rotation_applied: 90
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1787028630.4828255
-  top:
-  - scientific: Gymnothorax funebris
-    confidence: 0.5918
-  - scientific: Pomacanthus paru
-    confidence: 0.0773
-  - scientific: Thalassoma bifasciatum
-    confidence: 0.0689
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1787028630.4828255
+    top:
+    - scientific: Gymnothorax funebris
+      confidence: 0.5918
+    - scientific: Pomacanthus paru
+      confidence: 0.0773
+    - scientific: Thalassoma bifasciatum
+      confidence: 0.0689
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1787028630.4828255
+    top:
+    - scientific: Bodianus rufus
+      confidence: 0.164
+    - scientific: Ocyurus chrysurus
+      confidence: 0.0857
+    - scientific: Gymnothorax funebris
+      confidence: 0.0808
 species:
 - scientific: Gymnothorax funebris
   role: primary
-  confidence: 0.5918
-  identified_by: bioclip
+  confidence: 0.3363
+  identified_by: bioclip+bioclip-2

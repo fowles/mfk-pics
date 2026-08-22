@@ -11,20 +11,31 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786157488.1575735
-  top:
-  - scientific: Diodon holocanthus
-    confidence: 0.4274
-  - scientific: Sphoeroides spengleri
-    confidence: 0.3192
-  - scientific: Lactophrys triqueter
-    confidence: 0.0756
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786157488.1575735
+    top:
+    - scientific: Diodon holocanthus
+      confidence: 0.4274
+    - scientific: Sphoeroides spengleri
+      confidence: 0.3192
+    - scientific: Lactophrys triqueter
+      confidence: 0.0756
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1787325253.4344647
+    top:
+    - scientific: Sphoeroides spengleri
+      confidence: 0.99
+    - scientific: Sphoeroides testudineus
+      confidence: 0.0096
+    - scientific: Canthigaster jamestyleri
+      confidence: 0.0001
 species:
-- scientific: Diodon holocanthus
+- scientific: Sphoeroides spengleri
   role: primary
-  confidence: 0.4274
-  identified_by: bioclip
+  confidence: 0.99
+  identified_by: bioclip-2
 rotation_applied: 90

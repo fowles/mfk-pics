@@ -14,19 +14,30 @@ variants:
   import_original_name: e7888a19876c649e.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786157283.1403303
-  top:
-  - scientific: Hypanus americanus
-    confidence: 0.9668
-  - scientific: Aetobatus narinari
-    confidence: 0.0163
-  - scientific: Fistularia tabacaria
-    confidence: 0.0054
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786157283.1403303
+    top:
+    - scientific: Hypanus americanus
+      confidence: 0.9668
+    - scientific: Aetobatus narinari
+      confidence: 0.0163
+    - scientific: Fistularia tabacaria
+      confidence: 0.0054
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786157283.1403303
+    top:
+    - scientific: Hypanus americanus
+      confidence: 0.9869
+    - scientific: Panulirus argus
+      confidence: 0.0106
+    - scientific: Fistularia tabacaria
+      confidence: 0.0008
 species:
 - scientific: Hypanus americanus
   role: primary
-  confidence: 0.9668
-  identified_by: bioclip
+  confidence: 0.9768
+  identified_by: bioclip+bioclip-2

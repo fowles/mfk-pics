@@ -11,19 +11,30 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786159273.0751226
-  top:
-  - scientific: Chromis multilineata
-    confidence: 0.9922
-  - scientific: Melichthys niger
-    confidence: 0.0009
-  - scientific: Chaetodon capistratus
-    confidence: 0.0008
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786159273.0751226
+    top:
+    - scientific: Chromis multilineata
+      confidence: 0.9922
+    - scientific: Melichthys niger
+      confidence: 0.0009
+    - scientific: Chaetodon capistratus
+      confidence: 0.0008
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786159273.0751226
+    top:
+    - scientific: Chromis multilineata
+      confidence: 0.6828
+    - scientific: Chromis cyanea
+      confidence: 0.2486
+    - scientific: Stegastes partitus
+      confidence: 0.0091
 species:
 - scientific: Chromis multilineata
   role: primary
-  confidence: 0.9922
-  identified_by: bioclip
+  confidence: 0.8375
+  identified_by: bioclip+bioclip-2

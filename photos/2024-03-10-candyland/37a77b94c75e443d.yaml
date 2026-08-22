@@ -11,19 +11,30 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786158857.9367402
-  top:
-  - scientific: Melichthys niger
-    confidence: 0.7144
-  - scientific: Microspathodon chrysurus
-    confidence: 0.1058
-  - scientific: Scarus coelestinus
-    confidence: 0.0651
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786158857.9367402
+    top:
+    - scientific: Melichthys niger
+      confidence: 0.7144
+    - scientific: Microspathodon chrysurus
+      confidence: 0.1058
+    - scientific: Scarus coelestinus
+      confidence: 0.0651
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786158857.9367402
+    top:
+    - scientific: Melichthys niger
+      confidence: 0.3122
+    - scientific: Gramma loreto
+      confidence: 0.1464
+    - scientific: Centropyge argi
+      confidence: 0.1236
 species:
 - scientific: Melichthys niger
   role: primary
-  confidence: 0.7144
-  identified_by: bioclip
+  confidence: 0.5133
+  identified_by: bioclip+bioclip-2

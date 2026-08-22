@@ -11,19 +11,30 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786156966.00958
-  top:
-  - scientific: Hypanus americanus
-    confidence: 0.6044
-  - scientific: Aetobatus narinari
-    confidence: 0.2505
-  - scientific: Ginglymostoma cirratum
-    confidence: 0.0483
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786156966.00958
+    top:
+    - scientific: Hypanus americanus
+      confidence: 0.6044
+    - scientific: Aetobatus narinari
+      confidence: 0.2505
+    - scientific: Ginglymostoma cirratum
+      confidence: 0.0483
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786156966.00958
+    top:
+    - scientific: Myrichthys breviceps
+      confidence: 0.1969
+    - scientific: Malacanthus plumieri
+      confidence: 0.1412
+    - scientific: Ocyurus chrysurus
+      confidence: 0.1006
 species:
 - scientific: Hypanus americanus
   role: primary
-  confidence: 0.6044
+  confidence: 0.3022
   identified_by: bioclip

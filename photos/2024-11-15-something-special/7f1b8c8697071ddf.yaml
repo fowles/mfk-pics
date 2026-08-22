@@ -14,19 +14,30 @@ variants:
   import_original_name: 7cd2c66dbf86e825.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786157215.5299897
-  top:
-  - scientific: Serranus tortugarum
-    confidence: 0.9546
-  - scientific: Epinephelus striatus
-    confidence: 0.0155
-  - scientific: Serranus tigrinus
-    confidence: 0.0142
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786157215.5299897
+    top:
+    - scientific: Serranus tortugarum
+      confidence: 0.9546
+    - scientific: Epinephelus striatus
+      confidence: 0.0155
+    - scientific: Serranus tigrinus
+      confidence: 0.0142
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786157215.5299897
+    top:
+    - scientific: Aulostomus maculatus
+      confidence: 0.7011
+    - scientific: Holocentrus adscensionis
+      confidence: 0.0703
+    - scientific: Sepioteuthis sepioidea
+      confidence: 0.0377
 species:
 - scientific: Serranus tortugarum
   role: primary
-  confidence: 0.9546
+  confidence: 0.4773
   identified_by: bioclip

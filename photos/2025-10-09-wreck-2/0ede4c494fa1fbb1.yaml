@@ -11,19 +11,30 @@ gps_source: dive_site
 date_reviewed: true
 rotation_applied: 270
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1787029181.4912775
-  top:
-  - scientific: Aulostomus maculatus
-    confidence: 0.5757
-  - scientific: Octopus vulgaris
-    confidence: 0.1555
-  - scientific: Hippocampus erectus
-    confidence: 0.0749
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1787029181.4912775
+    top:
+    - scientific: Aulostomus maculatus
+      confidence: 0.5757
+    - scientific: Octopus vulgaris
+      confidence: 0.1555
+    - scientific: Hippocampus erectus
+      confidence: 0.0749
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1787029181.4912775
+    top:
+    - scientific: Echeneis naucrates
+      confidence: 0.5279
+    - scientific: Holacanthus tricolor
+      confidence: 0.032
+    - scientific: Aluterus scriptus
+      confidence: 0.0216
 species:
 - scientific: Aulostomus maculatus
   role: primary
-  confidence: 0.5757
+  confidence: 0.2878
   identified_by: bioclip

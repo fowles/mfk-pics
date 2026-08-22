@@ -11,19 +11,30 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786071954.2422857
-  top:
-  - scientific: Stenopus hispidus
-    confidence: 0.9475
-  - scientific: Stenorhynchus seticornis
-    confidence: 0.0217
-  - scientific: Ancylomenes pedersoni
-    confidence: 0.0161
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786071954.2422857
+    top:
+    - scientific: Stenopus hispidus
+      confidence: 0.9475
+    - scientific: Stenorhynchus seticornis
+      confidence: 0.0217
+    - scientific: Ancylomenes pedersoni
+      confidence: 0.0161
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786071954.2422857
+    top:
+    - scientific: Stenopus hispidus
+      confidence: 0.871
+    - scientific: Periclimenes yucatanicus
+      confidence: 0.0768
+    - scientific: Panulirus argus
+      confidence: 0.0189
 species:
 - scientific: Stenopus hispidus
   role: primary
-  confidence: 0.9475
-  identified_by: bioclip
+  confidence: 0.9093
+  identified_by: bioclip+bioclip-2

@@ -14,17 +14,31 @@ variants:
   import_original_name: cf7d6bd2e1cb2f42.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786156586.4731596
-  top:
-  - scientific: Aulostomus maculatus
-    confidence: 0.0707
-  - scientific: Haemulon macrostomum
-    confidence: 0.0503
-  - scientific: Pomacanthus paru
-    confidence: 0.0191
-  absorbed_by:
-    scientific: Antillogorgia americana
-    confidence: 0.7753
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786156586.4731596
+    top:
+    - scientific: Aulostomus maculatus
+      confidence: 0.0707
+    - scientific: Haemulon macrostomum
+      confidence: 0.0503
+    - scientific: Pomacanthus paru
+      confidence: 0.0191
+    absorbed_by:
+      scientific: Antillogorgia americana
+      confidence: 0.7753
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786156586.4731596
+    top:
+    - scientific: Haemulon sciurus
+      confidence: 0.049
+    - scientific: Halichoeres radiatus
+      confidence: 0.0444
+    - scientific: Chaetodon striatus
+      confidence: 0.0291
+    absorbed_by:
+      scientific: Antillogorgia americana
+      confidence: 0.2802

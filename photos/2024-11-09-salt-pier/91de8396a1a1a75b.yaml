@@ -14,19 +14,30 @@ variants:
   import_original_name: c06a7570071962ca.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786156579.9807868
-  top:
-  - scientific: Gymnothorax funebris
-    confidence: 0.6199
-  - scientific: Gymnothorax miliaris
-    confidence: 0.3714
-  - scientific: Myrichthys breviceps
-    confidence: 0.0065
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786156579.9807868
+    top:
+    - scientific: Gymnothorax funebris
+      confidence: 0.6199
+    - scientific: Gymnothorax miliaris
+      confidence: 0.3714
+    - scientific: Myrichthys breviceps
+      confidence: 0.0065
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786156579.9807868
+    top:
+    - scientific: Gymnothorax funebris
+      confidence: 0.8617
+    - scientific: Enchelycore carychroa
+      confidence: 0.0629
+    - scientific: Ginglymostoma cirratum
+      confidence: 0.0427
 species:
 - scientific: Gymnothorax funebris
   role: primary
-  confidence: 0.6199
-  identified_by: bioclip
+  confidence: 0.7408
+  identified_by: bioclip+bioclip-2

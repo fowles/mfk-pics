@@ -11,19 +11,30 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786158335.8192723
-  top:
-  - scientific: Diodon hystrix
-    confidence: 0.2365
-  - scientific: Ginglymostoma cirratum
-    confidence: 0.1484
-  - scientific: Gymnothorax funebris
-    confidence: 0.1472
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786158335.8192723
+    top:
+    - scientific: Diodon hystrix
+      confidence: 0.2365
+    - scientific: Ginglymostoma cirratum
+      confidence: 0.1484
+    - scientific: Gymnothorax funebris
+      confidence: 0.1472
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786158335.8192723
+    top:
+    - scientific: Cephalopholis fulva
+      confidence: 0.7439
+    - scientific: Haemulon plumierii
+      confidence: 0.1466
+    - scientific: Cephalopholis cruentata
+      confidence: 0.0715
 species:
-- scientific: Diodon hystrix
+- scientific: Cephalopholis fulva
   role: primary
-  confidence: 0.2365
-  identified_by: bioclip
+  confidence: 0.372
+  identified_by: bioclip-2

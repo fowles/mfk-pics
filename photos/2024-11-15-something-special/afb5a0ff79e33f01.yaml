@@ -14,17 +14,28 @@ variants:
   import_original_name: 20b56465f71ed57d.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786157214.6305234
-  top:
-  - scientific: Mycteroperca tigris
-    confidence: 0.1218
-  - scientific: Acanthostracion polygonius
-    confidence: 0.1005
-  - scientific: Diodon hystrix
-    confidence: 0.0793
-  absorbed_by:
-    scientific: Xestospongia muta
-    confidence: 0.4013
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786157214.6305234
+    top:
+    - scientific: Mycteroperca tigris
+      confidence: 0.1218
+    - scientific: Acanthostracion polygonius
+      confidence: 0.1005
+    - scientific: Diodon hystrix
+      confidence: 0.0793
+    absorbed_by:
+      scientific: Xestospongia muta
+      confidence: 0.4013
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786157214.6305234
+    top:
+    - scientific: Echidna catenata
+      confidence: 0.1163
+    - scientific: Myrichthys breviceps
+      confidence: 0.1092
+    - scientific: Cephalopholis cruentata
+      confidence: 0.1054

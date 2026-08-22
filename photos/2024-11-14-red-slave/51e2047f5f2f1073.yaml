@@ -11,19 +11,30 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786156894.7864192
-  top:
-  - scientific: Gerres cinereus
-    confidence: 0.9877
-  - scientific: Trachinotus goodei
-    confidence: 0.0051
-  - scientific: Megalops atlanticus
-    confidence: 0.0033
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786156894.7864192
+    top:
+    - scientific: Gerres cinereus
+      confidence: 0.9877
+    - scientific: Trachinotus goodei
+      confidence: 0.0051
+    - scientific: Megalops atlanticus
+      confidence: 0.0033
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786156894.7864192
+    top:
+    - scientific: Gerres cinereus
+      confidence: 0.9963
+    - scientific: Trachinotus goodei
+      confidence: 0.0015
+    - scientific: Caranx crysos
+      confidence: 0.0006
 species:
 - scientific: Gerres cinereus
   role: primary
-  confidence: 0.9877
-  identified_by: bioclip
+  confidence: 0.992
+  identified_by: bioclip+bioclip-2

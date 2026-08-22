@@ -11,19 +11,30 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786158485.3620033
-  top:
-  - scientific: Scarus taeniopterus
-    confidence: 0.8654
-  - scientific: Halichoeres pictus
-    confidence: 0.0595
-  - scientific: Halichoeres garnoti
-    confidence: 0.0319
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786158485.3620033
+    top:
+    - scientific: Scarus taeniopterus
+      confidence: 0.8654
+    - scientific: Halichoeres pictus
+      confidence: 0.0595
+    - scientific: Halichoeres garnoti
+      confidence: 0.0319
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786158485.3620033
+    top:
+    - scientific: Scarus iseri
+      confidence: 0.7233
+    - scientific: Scarus taeniopterus
+      confidence: 0.1638
+    - scientific: Halichoeres garnoti
+      confidence: 0.0691
 species:
 - scientific: Scarus taeniopterus
   role: primary
-  confidence: 0.8654
-  identified_by: bioclip
+  confidence: 0.5146
+  identified_by: bioclip+bioclip-2

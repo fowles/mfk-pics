@@ -14,19 +14,30 @@ variants:
   import_original_name: 1cfb180ab5bf1e9f.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786157055.0477486
-  top:
-  - scientific: Ginglymostoma cirratum
-    confidence: 0.4113
-  - scientific: Sphyraena barracuda
-    confidence: 0.1687
-  - scientific: Aulostomus maculatus
-    confidence: 0.1484
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786157055.0477486
+    top:
+    - scientific: Ginglymostoma cirratum
+      confidence: 0.4113
+    - scientific: Sphyraena barracuda
+      confidence: 0.1687
+    - scientific: Aulostomus maculatus
+      confidence: 0.1484
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786157055.0477486
+    top:
+    - scientific: Gymnothorax funebris
+      confidence: 0.8948
+    - scientific: Lutjanus analis
+      confidence: 0.0288
+    - scientific: Ginglymostoma cirratum
+      confidence: 0.0242
 species:
-- scientific: Ginglymostoma cirratum
+- scientific: Gymnothorax funebris
   role: primary
-  confidence: 0.4113
-  identified_by: bioclip
+  confidence: 0.4474
+  identified_by: bioclip-2

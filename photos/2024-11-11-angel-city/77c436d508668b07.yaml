@@ -11,19 +11,30 @@ variants:
   import_original_name: 52af7116e5b5e74b.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786156741.264424
-  top:
-  - scientific: Serranus tigrinus
-    confidence: 0.3937
-  - scientific: Serranus tabacarius
-    confidence: 0.2308
-  - scientific: Acanthostracion polygonius
-    confidence: 0.1085
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786156741.264424
+    top:
+    - scientific: Serranus tigrinus
+      confidence: 0.3937
+    - scientific: Serranus tabacarius
+      confidence: 0.2308
+    - scientific: Acanthostracion polygonius
+      confidence: 0.1085
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786156741.264424
+    top:
+    - scientific: Lactophrys triqueter
+      confidence: 0.302
+    - scientific: Lactophrys bicaudalis
+      confidence: 0.2425
+    - scientific: Diodon holocanthus
+      confidence: 0.0941
 species:
 - scientific: Serranus tigrinus
   role: primary
-  confidence: 0.3937
+  confidence: 0.1968
   identified_by: bioclip

@@ -11,17 +11,31 @@ variants:
   import_original_name: 3e8a316a29d55738.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786157212.6536021
-  top:
-  - scientific: Diodon holocanthus
-    confidence: 0.0608
-  - scientific: Gymnothorax miliaris
-    confidence: 0.0375
-  - scientific: Stenopus hispidus
-    confidence: 0.0155
-  absorbed_by:
-    scientific: Xestospongia muta
-    confidence: 0.679
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786157212.6536021
+    top:
+    - scientific: Diodon holocanthus
+      confidence: 0.0608
+    - scientific: Gymnothorax miliaris
+      confidence: 0.0375
+    - scientific: Stenopus hispidus
+      confidence: 0.0155
+    absorbed_by:
+      scientific: Xestospongia muta
+      confidence: 0.679
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786157212.6536021
+    top:
+    - scientific: Elacatinus genie
+      confidence: 0.1527
+    - scientific: Acanthemblemaria maria
+      confidence: 0.0977
+    - scientific: Acanthemblemaria spinosa
+      confidence: 0.0431
+    absorbed_by:
+      scientific: Aplysina archeri
+      confidence: 0.3874

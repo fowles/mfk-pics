@@ -14,19 +14,30 @@ variants:
   import_original_name: 2651f88175948382.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786160217.9587927
-  top:
-  - scientific: Heteroconger longissimus
-    confidence: 0.4368
-  - scientific: Bothus lunatus
-    confidence: 0.0671
-  - scientific: Jenkinsia lamprotaenia
-    confidence: 0.0596
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786160217.9587927
+    top:
+    - scientific: Heteroconger longissimus
+      confidence: 0.4368
+    - scientific: Bothus lunatus
+      confidence: 0.0671
+    - scientific: Jenkinsia lamprotaenia
+      confidence: 0.0596
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786160217.9587927
+    top:
+    - scientific: Heteroconger longissimus
+      confidence: 0.6353
+    - scientific: Opistognathus aurifrons
+      confidence: 0.0773
+    - scientific: Synodus intermedius
+      confidence: 0.0362
 species:
 - scientific: Heteroconger longissimus
   role: primary
-  confidence: 0.4368
-  identified_by: bioclip
+  confidence: 0.5361
+  identified_by: bioclip+bioclip-2

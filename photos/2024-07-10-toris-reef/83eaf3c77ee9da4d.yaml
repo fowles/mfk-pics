@@ -14,19 +14,30 @@ variants:
   import_original_name: cbfa48fd9a84c6e3.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786160221.6893446
-  top:
-  - scientific: Thalassoma bifasciatum
-    confidence: 0.8522
-  - scientific: Elacatinus evelynae
-    confidence: 0.0239
-  - scientific: Acanthostracion polygonius
-    confidence: 0.0129
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786160221.6893446
+    top:
+    - scientific: Thalassoma bifasciatum
+      confidence: 0.8522
+    - scientific: Elacatinus evelynae
+      confidence: 0.0239
+    - scientific: Acanthostracion polygonius
+      confidence: 0.0129
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786160221.6893446
+    top:
+    - scientific: Sparisoma viride
+      confidence: 0.1662
+    - scientific: Chaetodon capistratus
+      confidence: 0.1271
+    - scientific: Halichoeres radiatus
+      confidence: 0.1209
 species:
 - scientific: Thalassoma bifasciatum
   role: primary
-  confidence: 0.8522
+  confidence: 0.4261
   identified_by: bioclip

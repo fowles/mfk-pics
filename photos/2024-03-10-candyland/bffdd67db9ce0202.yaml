@@ -11,17 +11,28 @@ variants:
   import_original_name: ec48b62d1763c1ef.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786158872.6060054
-  top:
-  - scientific: Diodon hystrix
-    confidence: 0.5086
-  - scientific: Sphyraena barracuda
-    confidence: 0.1272
-  - scientific: Diodon holocanthus
-    confidence: 0.109
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786158872.6060054
+    top:
+    - scientific: Diodon hystrix
+      confidence: 0.5086
+    - scientific: Sphyraena barracuda
+      confidence: 0.1272
+    - scientific: Diodon holocanthus
+      confidence: 0.109
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:41:08Z'
+    src_mtime: 1786158872.6060054
+    top:
+    - scientific: Aluterus scriptus
+      confidence: 0.6408
+    - scientific: Acanthostracion polygonius
+      confidence: 0.071
+    - scientific: Mycteroperca bonaci
+      confidence: 0.0465
 species:
 - scientific: Aluterus scriptus
   role: primary

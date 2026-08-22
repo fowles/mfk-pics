@@ -11,19 +11,30 @@ variants:
   import_original_name: d94356b8805fc4d1.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786158972.2827017
-  top:
-  - scientific: Serranus tigrinus
-    confidence: 0.4142
-  - scientific: Thalassoma bifasciatum
-    confidence: 0.1003
-  - scientific: Diodon holocanthus
-    confidence: 0.0785
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786158972.2827017
+    top:
+    - scientific: Serranus tigrinus
+      confidence: 0.4142
+    - scientific: Thalassoma bifasciatum
+      confidence: 0.1003
+    - scientific: Diodon holocanthus
+      confidence: 0.0785
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786158972.2827017
+    top:
+    - scientific: Holacanthus tricolor
+      confidence: 0.1283
+    - scientific: Holacanthus ciliaris
+      confidence: 0.0875
+    - scientific: Halichoeres garnoti
+      confidence: 0.0774
 species:
 - scientific: Serranus tigrinus
   role: primary
-  confidence: 0.4142
+  confidence: 0.2071
   identified_by: bioclip

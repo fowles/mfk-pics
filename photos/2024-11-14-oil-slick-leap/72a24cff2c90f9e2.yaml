@@ -14,19 +14,30 @@ variants:
   import_original_name: 2bf6e696a55a2e12.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786156901.2583566
-  top:
-  - scientific: Sepioteuthis sepioidea
-    confidence: 0.5268
-  - scientific: Holocentrus rufus
-    confidence: 0.1512
-  - scientific: Epinephelus guttatus
-    confidence: 0.0865
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786156901.2583566
+    top:
+    - scientific: Sepioteuthis sepioidea
+      confidence: 0.5268
+    - scientific: Holocentrus rufus
+      confidence: 0.1512
+    - scientific: Epinephelus guttatus
+      confidence: 0.0865
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786156901.2583566
+    top:
+    - scientific: Halichoeres radiatus
+      confidence: 0.9366
+    - scientific: Xyrichtys splendens
+      confidence: 0.0158
+    - scientific: Serranus tigrinus
+      confidence: 0.0069
 species:
-- scientific: Sepioteuthis sepioidea
+- scientific: Halichoeres radiatus
   role: primary
-  confidence: 0.5268
-  identified_by: bioclip
+  confidence: 0.4683
+  identified_by: bioclip-2

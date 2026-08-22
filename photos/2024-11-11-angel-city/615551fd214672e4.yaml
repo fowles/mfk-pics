@@ -11,19 +11,30 @@ variants:
   import_original_name: 81761d9fa6e341f3.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786156742.1905768
-  top:
-  - scientific: Malacoctenus triangulatus
-    confidence: 0.4144
-  - scientific: Serranus tabacarius
-    confidence: 0.1791
-  - scientific: Synodus intermedius
-    confidence: 0.1764
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786156742.1905768
+    top:
+    - scientific: Malacoctenus triangulatus
+      confidence: 0.4144
+    - scientific: Serranus tabacarius
+      confidence: 0.1791
+    - scientific: Synodus intermedius
+      confidence: 0.1764
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786156742.1905768
+    top:
+    - scientific: Synodus intermedius
+      confidence: 0.982
+    - scientific: Pseudupeneus maculatus
+      confidence: 0.0089
+    - scientific: Serranus tigrinus
+      confidence: 0.0025
 species:
-- scientific: Malacoctenus triangulatus
+- scientific: Synodus intermedius
   role: primary
-  confidence: 0.4144
-  identified_by: bioclip
+  confidence: 0.5792
+  identified_by: bioclip+bioclip-2

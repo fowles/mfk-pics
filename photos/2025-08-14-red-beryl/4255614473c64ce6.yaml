@@ -12,19 +12,30 @@ date_reviewed: true
 dive_window_reviewed: true
 rotation_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786158330.2847464
-  top:
-  - scientific: Hypanus americanus
-    confidence: 0.8855
-  - scientific: Echeneis naucrates
-    confidence: 0.0906
-  - scientific: Elacatinus genie
-    confidence: 0.007
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786158330.2847464
+    top:
+    - scientific: Hypanus americanus
+      confidence: 0.8855
+    - scientific: Echeneis naucrates
+      confidence: 0.0906
+    - scientific: Elacatinus genie
+      confidence: 0.007
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786158330.2847464
+    top:
+    - scientific: Hypanus americanus
+      confidence: 0.9752
+    - scientific: Caranx ruber
+      confidence: 0.0123
+    - scientific: Trachinotus goodei
+      confidence: 0.0059
 species:
 - scientific: Hypanus americanus
   role: primary
-  confidence: 0.8855
-  identified_by: bioclip
+  confidence: 0.9304
+  identified_by: bioclip+bioclip-2

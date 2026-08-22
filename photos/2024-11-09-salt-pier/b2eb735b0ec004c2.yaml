@@ -7,19 +7,30 @@ import_album: 2024-11-09, Bonaire, Salt Pier
 import_original_name: PXL_20241109_172837496.jpg
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786156575.2843282
-  top:
-  - scientific: Homo sapiens
-    confidence: 0.4692
-  - scientific: Gymnothorax moringa
-    confidence: 0.2398
-  - scientific: Fistularia tabacaria
-    confidence: 0.0655
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786156575.2843282
+    top:
+    - scientific: Homo sapiens
+      confidence: 0.4692
+    - scientific: Gymnothorax moringa
+      confidence: 0.2398
+    - scientific: Fistularia tabacaria
+      confidence: 0.0655
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786156575.2843282
+    top:
+    - scientific: Echeneis naucrates
+      confidence: 0.1973
+    - scientific: Chelonia mydas
+      confidence: 0.1112
+    - scientific: Caranx ruber
+      confidence: 0.0569
 species:
 - scientific: Homo sapiens
   role: primary
-  confidence: 0.4692
+  confidence: 0.2346
   identified_by: bioclip

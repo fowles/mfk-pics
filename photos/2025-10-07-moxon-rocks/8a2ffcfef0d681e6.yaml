@@ -10,19 +10,30 @@ lon: -79.27083
 gps_source: dive_site
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786159802.5257137
-  top:
-  - scientific: Halichoeres maculipinna
-    confidence: 0.791
-  - scientific: Thalassoma bifasciatum
-    confidence: 0.1556
-  - scientific: Halichoeres radiatus
-    confidence: 0.0368
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786159802.5257137
+    top:
+    - scientific: Halichoeres maculipinna
+      confidence: 0.791
+    - scientific: Thalassoma bifasciatum
+      confidence: 0.1556
+    - scientific: Halichoeres radiatus
+      confidence: 0.0368
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786159802.5257137
+    top:
+    - scientific: Thalassoma bifasciatum
+      confidence: 0.9724
+    - scientific: Serranus tabacarius
+      confidence: 0.0141
+    - scientific: Halichoeres pictus
+      confidence: 0.0088
 species:
-- scientific: Halichoeres maculipinna
+- scientific: Thalassoma bifasciatum
   role: primary
-  confidence: 0.791
-  identified_by: bioclip
+  confidence: 0.564
+  identified_by: bioclip+bioclip-2

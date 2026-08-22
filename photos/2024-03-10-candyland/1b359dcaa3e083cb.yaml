@@ -11,17 +11,28 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786158852.5954628
-  top:
-  - scientific: Gramma loreto
-    confidence: 0.8717
-  - scientific: Stegastes leucostictus
-    confidence: 0.068
-  - scientific: Elacatinus evelynae
-    confidence: 0.0301
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786158852.5954628
+    top:
+    - scientific: Gramma loreto
+      confidence: 0.8717
+    - scientific: Stegastes leucostictus
+      confidence: 0.068
+    - scientific: Elacatinus evelynae
+      confidence: 0.0301
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:41:08Z'
+    src_mtime: 1786158852.5954628
+    top:
+    - scientific: Gramma loreto
+      confidence: 0.956
+    - scientific: Holacanthus ciliaris
+      confidence: 0.0209
+    - scientific: Centropyge argi
+      confidence: 0.0173
 species:
 - scientific: Gramma loreto
   role: primary

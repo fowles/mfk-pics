@@ -11,19 +11,30 @@ variants:
   import_original_name: 93a399645a68fb41.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786157282.0663764
-  top:
-  - scientific: Ginglymostoma cirratum
-    confidence: 1.0
-  - scientific: Aetobatus narinari
-    confidence: 0.0
-  - scientific: Carcharhinus perezi
-    confidence: 0.0
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786157282.0663764
+    top:
+    - scientific: Ginglymostoma cirratum
+      confidence: 1.0
+    - scientific: Aetobatus narinari
+      confidence: 0.0
+    - scientific: Carcharhinus perezi
+      confidence: 0.0
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786157282.0663764
+    top:
+    - scientific: Ginglymostoma cirratum
+      confidence: 0.9953
+    - scientific: Gymnothorax funebris
+      confidence: 0.0009
+    - scientific: Mycteroperca tigris
+      confidence: 0.0008
 species:
 - scientific: Ginglymostoma cirratum
   role: primary
-  confidence: 1.0
-  identified_by: bioclip
+  confidence: 0.9976
+  identified_by: bioclip+bioclip-2

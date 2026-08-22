@@ -14,19 +14,30 @@ variants:
   import_original_name: baec96bc0954320e.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786156377.2987776
-  top:
-  - scientific: Haemulon chrysargyreum
-    confidence: 0.9541
-  - scientific: Haemulon flavolineatum
-    confidence: 0.0203
-  - scientific: Anisotremus virginicus
-    confidence: 0.0124
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786156377.2987776
+    top:
+    - scientific: Haemulon chrysargyreum
+      confidence: 0.9541
+    - scientific: Haemulon flavolineatum
+      confidence: 0.0203
+    - scientific: Anisotremus virginicus
+      confidence: 0.0124
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786156377.2987776
+    top:
+    - scientific: Mulloidichthys martinicus
+      confidence: 0.4339
+    - scientific: Haemulon chrysargyreum
+      confidence: 0.4016
+    - scientific: Haemulon flavolineatum
+      confidence: 0.0325
 species:
 - scientific: Haemulon chrysargyreum
   role: primary
-  confidence: 0.9541
-  identified_by: bioclip
+  confidence: 0.6778
+  identified_by: bioclip+bioclip-2

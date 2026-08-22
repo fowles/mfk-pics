@@ -11,19 +11,30 @@ variants:
   import_original_name: c2695f61ba38c0e1.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786158336.7504966
-  top:
-  - scientific: Aetobatus narinari
-    confidence: 0.5161
-  - scientific: Hypanus americanus
-    confidence: 0.4756
-  - scientific: Ogcocephalus nasutus
-    confidence: 0.0023
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786158336.7504966
+    top:
+    - scientific: Aetobatus narinari
+      confidence: 0.5161
+    - scientific: Hypanus americanus
+      confidence: 0.4756
+    - scientific: Ogcocephalus nasutus
+      confidence: 0.0023
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786158336.7504966
+    top:
+    - scientific: Hypanus americanus
+      confidence: 0.6763
+    - scientific: Aetobatus narinari
+      confidence: 0.2501
+    - scientific: Trachinotus goodei
+      confidence: 0.0244
 species:
-- scientific: Aetobatus narinari
+- scientific: Hypanus americanus
   role: primary
-  confidence: 0.5161
-  identified_by: bioclip
+  confidence: 0.5759
+  identified_by: bioclip+bioclip-2

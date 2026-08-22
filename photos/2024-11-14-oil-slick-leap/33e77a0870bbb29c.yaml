@@ -14,17 +14,28 @@ variants:
   import_original_name: d976407d0e947f4b.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786156899.4957368
-  top:
-  - scientific: Hypoplectrus puella
-    confidence: 0.2529
-  - scientific: Thalassoma bifasciatum
-    confidence: 0.0593
-  - scientific: Chaetodon striatus
-    confidence: 0.0439
-  absorbed_by:
-    scientific: Millepora complanata
-    confidence: 0.4289
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786156899.4957368
+    top:
+    - scientific: Hypoplectrus puella
+      confidence: 0.2529
+    - scientific: Thalassoma bifasciatum
+      confidence: 0.0593
+    - scientific: Chaetodon striatus
+      confidence: 0.0439
+    absorbed_by:
+      scientific: Millepora complanata
+      confidence: 0.4289
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786156899.4957368
+    top:
+    - scientific: Holacanthus tricolor
+      confidence: 0.1446
+    - scientific: Aulostomus maculatus
+      confidence: 0.1241
+    - scientific: Thalassoma bifasciatum
+      confidence: 0.0401

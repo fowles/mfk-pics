@@ -11,19 +11,30 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786157490.1705987
-  top:
-  - scientific: Pomacanthus arcuatus
-    confidence: 0.4983
-  - scientific: Pomacanthus paru
-    confidence: 0.475
-  - scientific: Melichthys niger
-    confidence: 0.0172
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786157490.1705987
+    top:
+    - scientific: Pomacanthus arcuatus
+      confidence: 0.4983
+    - scientific: Pomacanthus paru
+      confidence: 0.475
+    - scientific: Melichthys niger
+      confidence: 0.0172
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786157490.1705987
+    top:
+    - scientific: Pomacanthus arcuatus
+      confidence: 0.9496
+    - scientific: Pomacanthus paru
+      confidence: 0.0501
+    - scientific: Holacanthus ciliaris
+      confidence: 0.0001
 species:
 - scientific: Pomacanthus arcuatus
   role: primary
-  confidence: 0.4983
-  identified_by: bioclip
+  confidence: 0.7239
+  identified_by: bioclip+bioclip-2

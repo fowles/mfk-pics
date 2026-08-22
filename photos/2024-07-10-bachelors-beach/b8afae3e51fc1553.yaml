@@ -14,17 +14,31 @@ variants:
   import_original_name: 2ac2a0f3cb663afb.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786158733.3617053
-  top:
-  - scientific: Tripneustes ventricosus
-    confidence: 0.0945
-  - scientific: Ogcocephalus radiatus
-    confidence: 0.0334
-  - scientific: Diodon hystrix
-    confidence: 0.0305
-  absorbed_by:
-    scientific: Montastraea cavernosa
-    confidence: 0.5562
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786158733.3617053
+    top:
+    - scientific: Tripneustes ventricosus
+      confidence: 0.0945
+    - scientific: Ogcocephalus radiatus
+      confidence: 0.0334
+    - scientific: Diodon hystrix
+      confidence: 0.0305
+    absorbed_by:
+      scientific: Montastraea cavernosa
+      confidence: 0.5562
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786158733.3617053
+    top:
+    - scientific: Cephalopholis cruentata
+      confidence: 0.1659
+    - scientific: Stegastes partitus
+      confidence: 0.0454
+    - scientific: Chromis multilineata
+      confidence: 0.0236
+    absorbed_by:
+      scientific: Xestospongia muta
+      confidence: 0.4336

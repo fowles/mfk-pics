@@ -12,19 +12,30 @@ date_reviewed: true
 dive_window_reviewed: true
 rotation_applied: 180
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1787176167.6824443
-  top:
-  - scientific: Acanthostracion polygonius
-    confidence: 0.9505
-  - scientific: Diodon holocanthus
-    confidence: 0.0125
-  - scientific: Diodon hystrix
-    confidence: 0.0095
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1787176167.6824443
+    top:
+    - scientific: Acanthostracion polygonius
+      confidence: 0.9505
+    - scientific: Diodon holocanthus
+      confidence: 0.0125
+    - scientific: Diodon hystrix
+      confidence: 0.0095
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1787176167.6824443
+    top:
+    - scientific: Acanthostracion polygonius
+      confidence: 0.8772
+    - scientific: Aluterus scriptus
+      confidence: 0.0789
+    - scientific: Urobatis jamaicensis
+      confidence: 0.0237
 species:
 - scientific: Acanthostracion polygonius
   role: primary
-  confidence: 0.9505
-  identified_by: bioclip
+  confidence: 0.9139
+  identified_by: bioclip+bioclip-2

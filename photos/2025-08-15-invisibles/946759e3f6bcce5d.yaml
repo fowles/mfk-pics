@@ -11,19 +11,30 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786071943.0760436
-  top:
-  - scientific: Aetobatus narinari
-    confidence: 0.3863
-  - scientific: Tursiops truncatus
-    confidence: 0.2037
-  - scientific: Pempheris schomburgkii
-    confidence: 0.0625
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786071943.0760436
+    top:
+    - scientific: Aetobatus narinari
+      confidence: 0.3863
+    - scientific: Tursiops truncatus
+      confidence: 0.2037
+    - scientific: Pempheris schomburgkii
+      confidence: 0.0625
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786071943.0760436
+    top:
+    - scientific: Sphyrna mokarran
+      confidence: 0.2021
+    - scientific: Caretta caretta
+      confidence: 0.1026
+    - scientific: Galeocerdo cuvier
+      confidence: 0.089
 species:
 - scientific: Aetobatus narinari
   role: primary
-  confidence: 0.3863
+  confidence: 0.1931
   identified_by: bioclip

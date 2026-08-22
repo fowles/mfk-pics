@@ -14,17 +14,31 @@ variants:
   import_original_name: cab0332625b7ff25.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786158732.7145364
-  top:
-  - scientific: Aulostomus maculatus
-    confidence: 0.0015
-  - scientific: Sepioteuthis sepioidea
-    confidence: 0.0013
-  - scientific: Holothuria mexicana
-    confidence: 0.0005
-  absorbed_by:
-    scientific: Cirrhipathes leutkeni
-    confidence: 0.759
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786158732.7145364
+    top:
+    - scientific: Aulostomus maculatus
+      confidence: 0.0015
+    - scientific: Sepioteuthis sepioidea
+      confidence: 0.0013
+    - scientific: Holothuria mexicana
+      confidence: 0.0005
+    absorbed_by:
+      scientific: Cirrhipathes leutkeni
+      confidence: 0.759
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786158732.7145364
+    top:
+    - scientific: Aulostomus maculatus
+      confidence: 0.0297
+    - scientific: Monacanthus tuckeri
+      confidence: 0.0273
+    - scientific: Cyphoma gibbosum
+      confidence: 0.0212
+    absorbed_by:
+      scientific: Antillogorgia americana
+      confidence: 0.6757

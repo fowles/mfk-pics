@@ -12,17 +12,28 @@ date_reviewed: true
 dive_window_reviewed: true
 rotation_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786160157.4852486
-  top:
-  - scientific: Cyphoma gibbosum
-    confidence: 0.0902
-  - scientific: Aulostomus maculatus
-    confidence: 0.0776
-  - scientific: Cantherhines macrocerus
-    confidence: 0.0177
-  absorbed_by:
-    scientific: Antillogorgia americana
-    confidence: 0.6093
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786160157.4852486
+    top:
+    - scientific: Cyphoma gibbosum
+      confidence: 0.0902
+    - scientific: Aulostomus maculatus
+      confidence: 0.0776
+    - scientific: Cantherhines macrocerus
+      confidence: 0.0177
+    absorbed_by:
+      scientific: Antillogorgia americana
+      confidence: 0.6093
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786160157.4852486
+    top:
+    - scientific: Aulostomus maculatus
+      confidence: 0.0643
+    - scientific: Haemulon sciurus
+      confidence: 0.0487
+    - scientific: Chaetodon capistratus
+      confidence: 0.0478

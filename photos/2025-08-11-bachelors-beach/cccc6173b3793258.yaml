@@ -12,19 +12,30 @@ variants:
 date_reviewed: true
 rotation_applied: 90
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1787029890.8190398
-  top:
-  - scientific: Aulostomus maculatus
-    confidence: 0.4149
-  - scientific: Holocentrus rufus
-    confidence: 0.1596
-  - scientific: Hypanus americanus
-    confidence: 0.0833
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1787029890.8190398
+    top:
+    - scientific: Aulostomus maculatus
+      confidence: 0.4149
+    - scientific: Holocentrus rufus
+      confidence: 0.1596
+    - scientific: Hypanus americanus
+      confidence: 0.0833
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1787029890.8190398
+    top:
+    - scientific: Scorpaena plumieri
+      confidence: 0.8154
+    - scientific: Cephalopholis cruentata
+      confidence: 0.0444
+    - scientific: Bothus lunatus
+      confidence: 0.0093
 species:
-- scientific: Aulostomus maculatus
+- scientific: Scorpaena plumieri
   role: primary
-  confidence: 0.4149
-  identified_by: bioclip
+  confidence: 0.4077
+  identified_by: bioclip-2

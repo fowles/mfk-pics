@@ -14,19 +14,30 @@ variants:
   import_original_name: 038581d1bebfb91b.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786159967.8199117
-  top:
-  - scientific: Serranus tigrinus
-    confidence: 0.519
-  - scientific: Acanthostracion polygonius
-    confidence: 0.1283
-  - scientific: Diodon holocanthus
-    confidence: 0.0664
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786159967.8199117
+    top:
+    - scientific: Serranus tigrinus
+      confidence: 0.519
+    - scientific: Acanthostracion polygonius
+      confidence: 0.1283
+    - scientific: Diodon holocanthus
+      confidence: 0.0664
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786159967.8199117
+    top:
+    - scientific: Myrichthys breviceps
+      confidence: 0.1606
+    - scientific: Serranus tigrinus
+      confidence: 0.0611
+    - scientific: Myrichthys ocellatus
+      confidence: 0.0412
 species:
 - scientific: Serranus tigrinus
   role: primary
-  confidence: 0.519
-  identified_by: bioclip
+  confidence: 0.2901
+  identified_by: bioclip+bioclip-2

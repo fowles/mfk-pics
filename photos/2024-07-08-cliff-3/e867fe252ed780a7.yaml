@@ -11,19 +11,30 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786159382.876392
-  top:
-  - scientific: Aulostomus maculatus
-    confidence: 0.7064
-  - scientific: Astrophyton muricatum
-    confidence: 0.0591
-  - scientific: Gymnothorax funebris
-    confidence: 0.0354
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786159382.876392
+    top:
+    - scientific: Aulostomus maculatus
+      confidence: 0.7064
+    - scientific: Astrophyton muricatum
+      confidence: 0.0591
+    - scientific: Gymnothorax funebris
+      confidence: 0.0354
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786159382.876392
+    top:
+    - scientific: Davidaster rubiginosus
+      confidence: 0.3104
+    - scientific: Hermodice carunculata
+      confidence: 0.1548
+    - scientific: Monacanthus tuckeri
+      confidence: 0.0974
 species:
 - scientific: Aulostomus maculatus
   role: primary
-  confidence: 0.7064
+  confidence: 0.3532
   identified_by: bioclip

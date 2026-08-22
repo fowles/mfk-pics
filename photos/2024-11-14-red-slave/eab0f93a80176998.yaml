@@ -14,17 +14,28 @@ variants:
   import_original_name: 7807b43ca2128157.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786156981.2167199
-  top:
-  - scientific: Pareques acuminatus
-    confidence: 0.1388
-  - scientific: Serranus tigrinus
-    confidence: 0.0585
-  - scientific: Aulostomus maculatus
-    confidence: 0.02
-  absorbed_by:
-    scientific: Gorgonia ventalina
-    confidence: 0.6831
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786156981.2167199
+    top:
+    - scientific: Pareques acuminatus
+      confidence: 0.1388
+    - scientific: Serranus tigrinus
+      confidence: 0.0585
+    - scientific: Aulostomus maculatus
+      confidence: 0.02
+    absorbed_by:
+      scientific: Gorgonia ventalina
+      confidence: 0.6831
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786156981.2167199
+    top:
+    - scientific: Holocentrus adscensionis
+      confidence: 0.2306
+    - scientific: Lachnolaimus maximus
+      confidence: 0.1672
+    - scientific: Balistes vetula
+      confidence: 0.1268

@@ -14,19 +14,30 @@ variants:
   import_original_name: bb0175afa97f8c00.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786156982.9985042
-  top:
-  - scientific: Ginglymostoma cirratum
-    confidence: 0.3439
-  - scientific: Trachinotus goodei
-    confidence: 0.2665
-  - scientific: Canthidermis sufflamen
-    confidence: 0.1638
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786156982.9985042
+    top:
+    - scientific: Ginglymostoma cirratum
+      confidence: 0.3439
+    - scientific: Trachinotus goodei
+      confidence: 0.2665
+    - scientific: Canthidermis sufflamen
+      confidence: 0.1638
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786156982.9985042
+    top:
+    - scientific: Carcharhinus perezi
+      confidence: 0.2116
+    - scientific: Canthidermis sufflamen
+      confidence: 0.1778
+    - scientific: Aetobatus narinari
+      confidence: 0.1093
 species:
 - scientific: Ginglymostoma cirratum
   role: primary
-  confidence: 0.3439
+  confidence: 0.1719
   identified_by: bioclip

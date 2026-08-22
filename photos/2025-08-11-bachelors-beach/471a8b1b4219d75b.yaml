@@ -11,19 +11,30 @@ variants:
   import_original_name: 5cc5a6a63411c11d.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786157880.996438
-  top:
-  - scientific: Gymnothorax funebris
-    confidence: 0.9601
-  - scientific: Gymnothorax vicinus
-    confidence: 0.0206
-  - scientific: Hypanus americanus
-    confidence: 0.0066
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786157880.996438
+    top:
+    - scientific: Gymnothorax funebris
+      confidence: 0.9601
+    - scientific: Gymnothorax vicinus
+      confidence: 0.0206
+    - scientific: Hypanus americanus
+      confidence: 0.0066
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786157880.996438
+    top:
+    - scientific: Gymnothorax funebris
+      confidence: 0.9385
+    - scientific: Scarus vetula
+      confidence: 0.0094
+    - scientific: Chromis multilineata
+      confidence: 0.008
 species:
 - scientific: Gymnothorax funebris
   role: primary
-  confidence: 0.9601
-  identified_by: bioclip
+  confidence: 0.9493
+  identified_by: bioclip+bioclip-2

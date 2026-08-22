@@ -11,19 +11,30 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786158398.2338424
-  top:
-  - scientific: Emblemaria pandionis
-    confidence: 0.4396
-  - scientific: Dactylopterus volitans
-    confidence: 0.288
-  - scientific: Hypoplectrus puella
-    confidence: 0.0995
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786158398.2338424
+    top:
+    - scientific: Emblemaria pandionis
+      confidence: 0.4396
+    - scientific: Dactylopterus volitans
+      confidence: 0.288
+    - scientific: Hypoplectrus puella
+      confidence: 0.0995
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786158398.2338424
+    top:
+    - scientific: Sparisoma aurofrenatum
+      confidence: 0.2509
+    - scientific: Malacoctenus triangulatus
+      confidence: 0.1299
+    - scientific: Scorpaena plumieri
+      confidence: 0.0945
 species:
 - scientific: Emblemaria pandionis
   role: primary
-  confidence: 0.4396
+  confidence: 0.2198
   identified_by: bioclip

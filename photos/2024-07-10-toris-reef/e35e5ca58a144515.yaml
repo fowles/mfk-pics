@@ -14,19 +14,30 @@ variants:
   import_original_name: f6929a403996eb8e.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786160216.187168
-  top:
-  - scientific: Hippocampus erectus
-    confidence: 0.5423
-  - scientific: Lactophrys triqueter
-    confidence: 0.1546
-  - scientific: Dactylopterus volitans
-    confidence: 0.0706
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786160216.187168
+    top:
+    - scientific: Hippocampus erectus
+      confidence: 0.5423
+    - scientific: Lactophrys triqueter
+      confidence: 0.1546
+    - scientific: Dactylopterus volitans
+      confidence: 0.0706
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786160216.187168
+    top:
+    - scientific: Octopus briareus
+      confidence: 0.8647
+    - scientific: Opistognathus aurifrons
+      confidence: 0.0646
+    - scientific: Sepioteuthis sepioidea
+      confidence: 0.0302
 species:
-- scientific: Hippocampus erectus
+- scientific: Octopus briareus
   role: primary
-  confidence: 0.5423
-  identified_by: bioclip
+  confidence: 0.4324
+  identified_by: bioclip-2

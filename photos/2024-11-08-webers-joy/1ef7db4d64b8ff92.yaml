@@ -11,19 +11,33 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786156523.4809365
-  top:
-  - scientific: Sepioteuthis sepioidea
-    confidence: 0.3665
-  - scientific: Hypoplectrus nigricans
-    confidence: 0.2152
-  - scientific: Aulostomus maculatus
-    confidence: 0.0856
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786156523.4809365
+    top:
+    - scientific: Sepioteuthis sepioidea
+      confidence: 0.3665
+    - scientific: Hypoplectrus nigricans
+      confidence: 0.2152
+    - scientific: Aulostomus maculatus
+      confidence: 0.0856
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786156523.4809365
+    top:
+    - scientific: Thalassoma bifasciatum
+      confidence: 0.0512
+    - scientific: Abudefduf saxatilis
+      confidence: 0.0243
+    - scientific: Stegastes partitus
+      confidence: 0.0203
+    absorbed_by:
+      scientific: Xestospongia muta
+      confidence: 0.2669
 species:
 - scientific: Sepioteuthis sepioidea
   role: primary
-  confidence: 0.3665
+  confidence: 0.1832
   identified_by: bioclip

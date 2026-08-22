@@ -14,19 +14,30 @@ variants:
   import_original_name: 44636569e0e26495.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786159997.297527
-  top:
-  - scientific: Heteroconger longissimus
-    confidence: 0.2307
-  - scientific: Diodon hystrix
-    confidence: 0.1689
-  - scientific: Gymnothorax funebris
-    confidence: 0.1391
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786159997.297527
+    top:
+    - scientific: Heteroconger longissimus
+      confidence: 0.2307
+    - scientific: Diodon hystrix
+      confidence: 0.1689
+    - scientific: Gymnothorax funebris
+      confidence: 0.1391
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786159997.297527
+    top:
+    - scientific: Chelonia mydas
+      confidence: 0.5954
+    - scientific: Eretmochelys imbricata
+      confidence: 0.2115
+    - scientific: Caretta caretta
+      confidence: 0.1863
 species:
-- scientific: Heteroconger longissimus
+- scientific: Chelonia mydas
   role: primary
-  confidence: 0.2307
-  identified_by: bioclip
+  confidence: 0.2977
+  identified_by: bioclip-2

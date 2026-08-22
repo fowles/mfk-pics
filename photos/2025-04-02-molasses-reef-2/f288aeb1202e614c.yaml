@@ -14,19 +14,30 @@ lon: -80.3785098
 gps_source: manual
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786157279.9623692
-  top:
-  - scientific: Xyrichtys splendens
-    confidence: 0.5948
-  - scientific: Xyrichtys martinicensis
-    confidence: 0.3325
-  - scientific: Caranx ruber
-    confidence: 0.0188
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786157279.9623692
+    top:
+    - scientific: Xyrichtys splendens
+      confidence: 0.5948
+    - scientific: Xyrichtys martinicensis
+      confidence: 0.3325
+    - scientific: Caranx ruber
+      confidence: 0.0188
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786157279.9623692
+    top:
+    - scientific: Holacanthus tricolor
+      confidence: 0.3163
+    - scientific: Bodianus rufus
+      confidence: 0.122
+    - scientific: Chaetodon ocellatus
+      confidence: 0.0698
 species:
 - scientific: Xyrichtys splendens
   role: primary
-  confidence: 0.5948
+  confidence: 0.2974
   identified_by: bioclip

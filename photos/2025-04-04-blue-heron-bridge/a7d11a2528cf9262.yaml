@@ -14,19 +14,30 @@ variants:
   import_original_name: 0edbb9f209683bfe.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786157494.8074086
-  top:
-  - scientific: Pomacanthus arcuatus
-    confidence: 0.8873
-  - scientific: Pomacanthus paru
-    confidence: 0.1119
-  - scientific: Equetus punctatus
-    confidence: 0.0002
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786157494.8074086
+    top:
+    - scientific: Pomacanthus arcuatus
+      confidence: 0.8873
+    - scientific: Pomacanthus paru
+      confidence: 0.1119
+    - scientific: Equetus punctatus
+      confidence: 0.0002
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786157494.8074086
+    top:
+    - scientific: Pomacanthus arcuatus
+      confidence: 0.9844
+    - scientific: Pomacanthus paru
+      confidence: 0.015
+    - scientific: Holacanthus ciliaris
+      confidence: 0.0003
 species:
 - scientific: Pomacanthus arcuatus
   role: primary
-  confidence: 0.8873
-  identified_by: bioclip
+  confidence: 0.9359
+  identified_by: bioclip+bioclip-2

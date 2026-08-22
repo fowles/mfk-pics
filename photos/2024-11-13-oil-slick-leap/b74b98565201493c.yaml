@@ -11,19 +11,30 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786156869.9142795
-  top:
-  - scientific: Melichthys niger
-    confidence: 0.9867
-  - scientific: Thalassoma bifasciatum
-    confidence: 0.0038
-  - scientific: Halichoeres pictus
-    confidence: 0.0031
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786156869.9142795
+    top:
+    - scientific: Melichthys niger
+      confidence: 0.9867
+    - scientific: Thalassoma bifasciatum
+      confidence: 0.0038
+    - scientific: Halichoeres pictus
+      confidence: 0.0031
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786156869.9142795
+    top:
+    - scientific: Scarus taeniopterus
+      confidence: 0.6445
+    - scientific: Thalassoma bifasciatum
+      confidence: 0.1622
+    - scientific: Scarus coeruleus
+      confidence: 0.0486
 species:
 - scientific: Melichthys niger
   role: primary
-  confidence: 0.9867
+  confidence: 0.4934
   identified_by: bioclip

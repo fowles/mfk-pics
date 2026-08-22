@@ -14,19 +14,30 @@ variants:
   import_original_name: 78a8eebd62e4b876.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786160204.4461577
-  top:
-  - scientific: Periclimenes yucatanicus
-    confidence: 0.4894
-  - scientific: Ancylomenes pedersoni
-    confidence: 0.2812
-  - scientific: Stenopus hispidus
-    confidence: 0.0318
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786160204.4461577
+    top:
+    - scientific: Periclimenes yucatanicus
+      confidence: 0.4894
+    - scientific: Ancylomenes pedersoni
+      confidence: 0.2812
+    - scientific: Stenopus hispidus
+      confidence: 0.0318
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786160204.4461577
+    top:
+    - scientific: Stenorhynchus seticornis
+      confidence: 0.3159
+    - scientific: Panulirus guttatus
+      confidence: 0.2476
+    - scientific: Panulirus argus
+      confidence: 0.1706
 species:
 - scientific: Periclimenes yucatanicus
   role: primary
-  confidence: 0.4894
+  confidence: 0.2447
   identified_by: bioclip

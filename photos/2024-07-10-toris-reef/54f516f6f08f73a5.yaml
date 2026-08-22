@@ -14,19 +14,30 @@ lon: -68.2806703
 gps_source: manual
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786160161.5197015
-  top:
-  - scientific: Scarus coeruleus
-    confidence: 0.2427
-  - scientific: Canthidermis sufflamen
-    confidence: 0.2377
-  - scientific: Trachinotus goodei
-    confidence: 0.1821
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786160161.5197015
+    top:
+    - scientific: Scarus coeruleus
+      confidence: 0.2427
+    - scientific: Canthidermis sufflamen
+      confidence: 0.2377
+    - scientific: Trachinotus goodei
+      confidence: 0.1821
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786160161.5197015
+    top:
+    - scientific: Malacanthus plumieri
+      confidence: 0.2142
+    - scientific: Gerres cinereus
+      confidence: 0.185
+    - scientific: Caranx crysos
+      confidence: 0.1645
 species:
 - scientific: Scarus coeruleus
   role: primary
-  confidence: 0.2427
+  confidence: 0.1213
   identified_by: bioclip

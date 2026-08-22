@@ -12,17 +12,31 @@ date_reviewed: true
 dive_window_reviewed: true
 rotation_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786158853.6924438
-  top:
-  - scientific: Acanthostracion polygonius
-    confidence: 0.3614
-  - scientific: Diodon holocanthus
-    confidence: 0.3038
-  - scientific: Enchelycore carychroa
-    confidence: 0.0404
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786158853.6924438
+    top:
+    - scientific: Acanthostracion polygonius
+      confidence: 0.3614
+    - scientific: Diodon holocanthus
+      confidence: 0.3038
+    - scientific: Enchelycore carychroa
+      confidence: 0.0404
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:41:08Z'
+    src_mtime: 1786158853.6924438
+    top:
+    - scientific: Cephalopholis cruentata
+      confidence: 0.1012
+    - scientific: Holacanthus tricolor
+      confidence: 0.086
+    - scientific: Cephalopholis fulva
+      confidence: 0.031
+    absorbed_by:
+      scientific: Orbicella annularis
+      confidence: 0.1957
 species:
 - scientific: Aulostomus maculatus
   role: primary

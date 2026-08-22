@@ -11,19 +11,30 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786158332.1199126
-  top:
-  - scientific: Prognathodes aculeatus
-    confidence: 0.2407
-  - scientific: Pareques acuminatus
-    confidence: 0.1511
-  - scientific: Sparisoma viride
-    confidence: 0.1381
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786158332.1199126
+    top:
+    - scientific: Prognathodes aculeatus
+      confidence: 0.2407
+    - scientific: Pareques acuminatus
+      confidence: 0.1511
+    - scientific: Sparisoma viride
+      confidence: 0.1381
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786158332.1199126
+    top:
+    - scientific: Thalassoma bifasciatum
+      confidence: 0.4302
+    - scientific: Halichoeres pictus
+      confidence: 0.224
+    - scientific: Halichoeres garnoti
+      confidence: 0.2044
 species:
-- scientific: Prognathodes aculeatus
+- scientific: Thalassoma bifasciatum
   role: primary
-  confidence: 0.2407
-  identified_by: bioclip
+  confidence: 0.2151
+  identified_by: bioclip-2

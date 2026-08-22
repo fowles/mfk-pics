@@ -11,19 +11,30 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786158856.8492684
-  top:
-  - scientific: Chaetodon striatus
-    confidence: 0.4411
-  - scientific: Melichthys niger
-    confidence: 0.2064
-  - scientific: Chromis multilineata
-    confidence: 0.0753
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786158856.8492684
+    top:
+    - scientific: Chaetodon striatus
+      confidence: 0.4411
+    - scientific: Melichthys niger
+      confidence: 0.2064
+    - scientific: Chromis multilineata
+      confidence: 0.0753
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786158856.8492684
+    top:
+    - scientific: Eretmochelys imbricata
+      confidence: 0.246
+    - scientific: Chelonia mydas
+      confidence: 0.0828
+    - scientific: Caretta caretta
+      confidence: 0.0516
 species:
 - scientific: Chaetodon striatus
   role: primary
-  confidence: 0.4411
+  confidence: 0.2205
   identified_by: bioclip

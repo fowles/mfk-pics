@@ -14,19 +14,30 @@ variants:
   import_original_name: a43f90264d5544ff.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786158190.0251448
-  top:
-  - scientific: Dactylopterus volitans
-    confidence: 0.4202
-  - scientific: Sphoeroides spengleri
-    confidence: 0.2868
-  - scientific: Thalassoma bifasciatum
-    confidence: 0.1008
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786158190.0251448
+    top:
+    - scientific: Dactylopterus volitans
+      confidence: 0.4202
+    - scientific: Sphoeroides spengleri
+      confidence: 0.2868
+    - scientific: Thalassoma bifasciatum
+      confidence: 0.1008
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786158190.0251448
+    top:
+    - scientific: Halichoeres radiatus
+      confidence: 0.1345
+    - scientific: Xyrichtys splendens
+      confidence: 0.0801
+    - scientific: Acanthurus chirurgus
+      confidence: 0.0753
 species:
 - scientific: Dactylopterus volitans
   role: primary
-  confidence: 0.4202
+  confidence: 0.2101
   identified_by: bioclip

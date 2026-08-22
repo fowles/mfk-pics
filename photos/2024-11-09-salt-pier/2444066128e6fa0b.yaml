@@ -14,19 +14,30 @@ variants:
   import_original_name: 66d2c18100dac552.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786156583.15672
-  top:
-  - scientific: Diodon hystrix
-    confidence: 0.9985
-  - scientific: Diodon holocanthus
-    confidence: 0.0008
-  - scientific: Lactophrys bicaudalis
-    confidence: 0.0005
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786156583.15672
+    top:
+    - scientific: Diodon hystrix
+      confidence: 0.9985
+    - scientific: Diodon holocanthus
+      confidence: 0.0008
+    - scientific: Lactophrys bicaudalis
+      confidence: 0.0005
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786156583.15672
+    top:
+    - scientific: Diodon hystrix
+      confidence: 0.9771
+    - scientific: Diodon holocanthus
+      confidence: 0.0087
+    - scientific: Ogcocephalus radiatus
+      confidence: 0.0046
 species:
 - scientific: Diodon hystrix
   role: primary
-  confidence: 0.9985
-  identified_by: bioclip
+  confidence: 0.9878
+  identified_by: bioclip+bioclip-2

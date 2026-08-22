@@ -12,19 +12,30 @@ date_reviewed: true
 dive_window_reviewed: true
 rotation_applied: 180
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1787029037.0911365
-  top:
-  - scientific: Scorpaena plumieri
-    confidence: 0.3054
-  - scientific: Mithraculus sculptus
-    confidence: 0.2231
-  - scientific: Panulirus guttatus
-    confidence: 0.0842
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1787029037.0911365
+    top:
+    - scientific: Scorpaena plumieri
+      confidence: 0.3054
+    - scientific: Mithraculus sculptus
+      confidence: 0.2231
+    - scientific: Panulirus guttatus
+      confidence: 0.0842
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1787029037.0911365
+    top:
+    - scientific: Mithrax spinosissimus
+      confidence: 0.4406
+    - scientific: Mithraculus sculptus
+      confidence: 0.2273
+    - scientific: Ogcocephalus radiatus
+      confidence: 0.0554
 species:
-- scientific: Scorpaena plumieri
+- scientific: Mithraculus sculptus
   role: primary
-  confidence: 0.3054
-  identified_by: bioclip
+  confidence: 0.2252
+  identified_by: bioclip+bioclip-2

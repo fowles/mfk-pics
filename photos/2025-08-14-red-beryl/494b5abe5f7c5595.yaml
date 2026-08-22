@@ -11,19 +11,30 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786158335.5717003
-  top:
-  - scientific: Synodus intermedius
-    confidence: 0.5962
-  - scientific: Mycteroperca tigris
-    confidence: 0.2013
-  - scientific: Sphoeroides spengleri
-    confidence: 0.0911
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786158335.5717003
+    top:
+    - scientific: Synodus intermedius
+      confidence: 0.5962
+    - scientific: Mycteroperca tigris
+      confidence: 0.2013
+    - scientific: Sphoeroides spengleri
+      confidence: 0.0911
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786158335.5717003
+    top:
+    - scientific: Serranus tigrinus
+      confidence: 0.6569
+    - scientific: Synodus intermedius
+      confidence: 0.2915
+    - scientific: Synodus foetens
+      confidence: 0.0269
 species:
 - scientific: Synodus intermedius
   role: primary
-  confidence: 0.5962
-  identified_by: bioclip
+  confidence: 0.4438
+  identified_by: bioclip+bioclip-2

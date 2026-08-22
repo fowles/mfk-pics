@@ -14,19 +14,30 @@ variants:
   import_original_name: ba4e3d3f91ef0161.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786158750.2202468
-  top:
-  - scientific: Aulostomus maculatus
-    confidence: 0.3644
-  - scientific: Sepioteuthis sepioidea
-    confidence: 0.1825
-  - scientific: Gymnothorax funebris
-    confidence: 0.0701
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786158750.2202468
+    top:
+    - scientific: Aulostomus maculatus
+      confidence: 0.3644
+    - scientific: Sepioteuthis sepioidea
+      confidence: 0.1825
+    - scientific: Gymnothorax funebris
+      confidence: 0.0701
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786158750.2202468
+    top:
+    - scientific: Holacanthus tricolor
+      confidence: 0.1758
+    - scientific: Epinephelus striatus
+      confidence: 0.041
+    - scientific: Pomacanthus arcuatus
+      confidence: 0.0319
 species:
 - scientific: Aulostomus maculatus
   role: primary
-  confidence: 0.3644
+  confidence: 0.1822
   identified_by: bioclip

@@ -11,17 +11,28 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786071948.0150244
-  top:
-  - scientific: Octopus briareus
-    confidence: 0.9955
-  - scientific: Ginglymostoma cirratum
-    confidence: 0.0026
-  - scientific: Gymnothorax funebris
-    confidence: 0.0008
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786071948.0150244
+    top:
+    - scientific: Octopus briareus
+      confidence: 0.9955
+    - scientific: Ginglymostoma cirratum
+      confidence: 0.0026
+    - scientific: Gymnothorax funebris
+      confidence: 0.0008
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:41:08Z'
+    src_mtime: 1786071948.0150244
+    top:
+    - scientific: Octopus briareus
+      confidence: 0.9233
+    - scientific: Bothus lunatus
+      confidence: 0.0478
+    - scientific: Urobatis jamaicensis
+      confidence: 0.0155
 species:
 - scientific: Octopus vulgaris
   role: primary

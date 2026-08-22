@@ -11,19 +11,30 @@ variants:
   import_original_name: 6dc3aec4aa37d694.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786159177.1499596
-  top:
-  - scientific: Stenopus hispidus
-    confidence: 0.9823
-  - scientific: Periclimenes yucatanicus
-    confidence: 0.0063
-  - scientific: Ancylomenes pedersoni
-    confidence: 0.005
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786159177.1499596
+    top:
+    - scientific: Stenopus hispidus
+      confidence: 0.9823
+    - scientific: Periclimenes yucatanicus
+      confidence: 0.0063
+    - scientific: Ancylomenes pedersoni
+      confidence: 0.005
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786159177.1499596
+    top:
+    - scientific: Stenopus hispidus
+      confidence: 0.684
+    - scientific: Periclimenes yucatanicus
+      confidence: 0.0927
+    - scientific: Lysmata grabhami
+      confidence: 0.0472
 species:
 - scientific: Stenopus hispidus
   role: primary
-  confidence: 0.9823
-  identified_by: bioclip
+  confidence: 0.8332
+  identified_by: bioclip+bioclip-2

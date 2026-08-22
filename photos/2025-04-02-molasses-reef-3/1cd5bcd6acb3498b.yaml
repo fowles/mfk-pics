@@ -11,19 +11,30 @@ variants:
   import_original_name: 2b4560bdbd1a0e71.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786157280.7886236
-  top:
-  - scientific: Heteroconger longissimus
-    confidence: 0.2619
-  - scientific: Bothus lunatus
-    confidence: 0.2533
-  - scientific: Opistognathus aurifrons
-    confidence: 0.126
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786157280.7886236
+    top:
+    - scientific: Heteroconger longissimus
+      confidence: 0.2619
+    - scientific: Bothus lunatus
+      confidence: 0.2533
+    - scientific: Opistognathus aurifrons
+      confidence: 0.126
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786157280.7886236
+    top:
+    - scientific: Canthidermis sufflamen
+      confidence: 0.0977
+    - scientific: Balistes vetula
+      confidence: 0.0915
+    - scientific: Hypanus americanus
+      confidence: 0.0894
 species:
 - scientific: Heteroconger longissimus
   role: primary
-  confidence: 0.2619
+  confidence: 0.131
   identified_by: bioclip

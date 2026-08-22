@@ -14,19 +14,30 @@ variants:
   import_original_name: fa3261164b9eacf5.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786158873.4590328
-  top:
-  - scientific: Scomberomorus regalis
-    confidence: 0.4976
-  - scientific: Sphyraena barracuda
-    confidence: 0.4464
-  - scientific: Megalops atlanticus
-    confidence: 0.055
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786158873.4590328
+    top:
+    - scientific: Scomberomorus regalis
+      confidence: 0.4976
+    - scientific: Sphyraena barracuda
+      confidence: 0.4464
+    - scientific: Megalops atlanticus
+      confidence: 0.055
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786158873.4590328
+    top:
+    - scientific: Megalops atlanticus
+      confidence: 0.9493
+    - scientific: Scomberomorus regalis
+      confidence: 0.0393
+    - scientific: Sphyraena barracuda
+      confidence: 0.0068
 species:
-- scientific: Scomberomorus regalis
+- scientific: Megalops atlanticus
   role: primary
-  confidence: 0.4976
-  identified_by: bioclip
+  confidence: 0.5021
+  identified_by: bioclip+bioclip-2

@@ -10,19 +10,30 @@ lon: -79.2641
 gps_source: dive_site
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786159806.539529
-  top:
-  - scientific: Chaetodon capistratus
-    confidence: 0.757
-  - scientific: Hypoplectrus unicolor
-    confidence: 0.1661
-  - scientific: Chaetodon sedentarius
-    confidence: 0.015
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786159806.539529
+    top:
+    - scientific: Chaetodon capistratus
+      confidence: 0.757
+    - scientific: Hypoplectrus unicolor
+      confidence: 0.1661
+    - scientific: Chaetodon sedentarius
+      confidence: 0.015
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786159806.539529
+    top:
+    - scientific: Hypoplectrus unicolor
+      confidence: 0.9898
+    - scientific: Prognathodes aculeatus
+      confidence: 0.0098
+    - scientific: Lutjanus apodus
+      confidence: 0.0001
 species:
-- scientific: Chaetodon capistratus
+- scientific: Hypoplectrus unicolor
   role: primary
-  confidence: 0.757
-  identified_by: bioclip
+  confidence: 0.5779
+  identified_by: bioclip+bioclip-2

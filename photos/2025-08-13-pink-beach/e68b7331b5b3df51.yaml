@@ -11,19 +11,30 @@ variants:
   import_original_name: a5f5afcfdcad6bba.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786158187.103474
-  top:
-  - scientific: Gymnothorax funebris
-    confidence: 0.3516
-  - scientific: Aulostomus maculatus
-    confidence: 0.2873
-  - scientific: Ginglymostoma cirratum
-    confidence: 0.2576
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786158187.103474
+    top:
+    - scientific: Gymnothorax funebris
+      confidence: 0.3516
+    - scientific: Aulostomus maculatus
+      confidence: 0.2873
+    - scientific: Ginglymostoma cirratum
+      confidence: 0.2576
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786158187.103474
+    top:
+    - scientific: Lutjanus analis
+      confidence: 0.5178
+    - scientific: Mycteroperca tigris
+      confidence: 0.2263
+    - scientific: Lutjanus jocu
+      confidence: 0.1012
 species:
-- scientific: Gymnothorax funebris
+- scientific: Lutjanus analis
   role: primary
-  confidence: 0.3516
-  identified_by: bioclip
+  confidence: 0.2589
+  identified_by: bioclip-2

@@ -14,19 +14,30 @@ variants:
   import_original_name: aa3c8acc3ecb650c.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786157494.5551982
-  top:
-  - scientific: Synodus intermedius
-    confidence: 0.5929
-  - scientific: Sphoeroides spengleri
-    confidence: 0.1556
-  - scientific: Malacoctenus triangulatus
-    confidence: 0.0736
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786157494.5551982
+    top:
+    - scientific: Synodus intermedius
+      confidence: 0.5929
+    - scientific: Sphoeroides spengleri
+      confidence: 0.1556
+    - scientific: Malacoctenus triangulatus
+      confidence: 0.0736
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786157494.5551982
+    top:
+    - scientific: Scorpaena plumieri
+      confidence: 0.8974
+    - scientific: Synodus intermedius
+      confidence: 0.0893
+    - scientific: Dactylopterus volitans
+      confidence: 0.0098
 species:
-- scientific: Synodus intermedius
+- scientific: Scorpaena plumieri
   role: primary
-  confidence: 0.5929
-  identified_by: bioclip
+  confidence: 0.4487
+  identified_by: bioclip-2

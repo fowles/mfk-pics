@@ -14,19 +14,30 @@ variants:
   import_original_name: e3487e9ab82f77aa.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786159964.1515923
-  top:
-  - scientific: Diodon hystrix
-    confidence: 0.6383
-  - scientific: Epinephelus itajara
-    confidence: 0.1291
-  - scientific: Sepioteuthis sepioidea
-    confidence: 0.0916
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786159964.1515923
+    top:
+    - scientific: Diodon hystrix
+      confidence: 0.6383
+    - scientific: Epinephelus itajara
+      confidence: 0.1291
+    - scientific: Sepioteuthis sepioidea
+      confidence: 0.0916
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786159964.1515923
+    top:
+    - scientific: Diodon hystrix
+      confidence: 0.8863
+    - scientific: Diodon holocanthus
+      confidence: 0.098
+    - scientific: Chilomycterus antillarum
+      confidence: 0.0043
 species:
 - scientific: Diodon hystrix
   role: primary
-  confidence: 0.6383
-  identified_by: bioclip
+  confidence: 0.7623
+  identified_by: bioclip+bioclip-2

@@ -11,19 +11,30 @@ variants:
   import_original_name: f45980e0d36deb5d.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786159171.5349462
-  top:
-  - scientific: Gymnothorax funebris
-    confidence: 0.462
-  - scientific: Epinephelus itajara
-    confidence: 0.3418
-  - scientific: Mycteroperca venenosa
-    confidence: 0.0626
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786159171.5349462
+    top:
+    - scientific: Gymnothorax funebris
+      confidence: 0.462
+    - scientific: Epinephelus itajara
+      confidence: 0.3418
+    - scientific: Mycteroperca venenosa
+      confidence: 0.0626
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786159171.5349462
+    top:
+    - scientific: Cephalopholis cruentata
+      confidence: 0.1781
+    - scientific: Gymnothorax funebris
+      confidence: 0.0844
+    - scientific: Holacanthus tricolor
+      confidence: 0.046
 species:
 - scientific: Gymnothorax funebris
   role: primary
-  confidence: 0.462
-  identified_by: bioclip
+  confidence: 0.2732
+  identified_by: bioclip+bioclip-2

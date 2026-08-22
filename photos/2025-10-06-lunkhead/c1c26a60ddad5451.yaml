@@ -11,19 +11,30 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786159791.404499
-  top:
-  - scientific: Malacanthus plumieri
-    confidence: 0.9427
-  - scientific: Xyrichtys martinicensis
-    confidence: 0.0247
-  - scientific: Holocentrus adscensionis
-    confidence: 0.0082
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786159791.404499
+    top:
+    - scientific: Malacanthus plumieri
+      confidence: 0.9427
+    - scientific: Xyrichtys martinicensis
+      confidence: 0.0247
+    - scientific: Holocentrus adscensionis
+      confidence: 0.0082
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786159791.404499
+    top:
+    - scientific: Cephalopholis fulva
+      confidence: 0.4117
+    - scientific: Malacanthus plumieri
+      confidence: 0.1167
+    - scientific: Lachnolaimus maximus
+      confidence: 0.1047
 species:
 - scientific: Malacanthus plumieri
   role: primary
-  confidence: 0.9427
-  identified_by: bioclip
+  confidence: 0.5297
+  identified_by: bioclip+bioclip-2

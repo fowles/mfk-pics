@@ -14,19 +14,30 @@ variants:
   import_original_name: ce9cd0f106078052.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786157493.8014283
-  top:
-  - scientific: Acanthostracion polygonius
-    confidence: 0.272
-  - scientific: Acanthostracion quadricornis
-    confidence: 0.2053
-  - scientific: Cassiopea xamachana
-    confidence: 0.1849
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786157493.8014283
+    top:
+    - scientific: Acanthostracion polygonius
+      confidence: 0.272
+    - scientific: Acanthostracion quadricornis
+      confidence: 0.2053
+    - scientific: Cassiopea xamachana
+      confidence: 0.1849
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786157493.8014283
+    top:
+    - scientific: Acanthostracion quadricornis
+      confidence: 0.2844
+    - scientific: Acanthostracion polygonius
+      confidence: 0.1382
+    - scientific: Diodon holocanthus
+      confidence: 0.0729
 species:
-- scientific: Acanthostracion polygonius
+- scientific: Acanthostracion quadricornis
   role: primary
-  confidence: 0.272
-  identified_by: bioclip
+  confidence: 0.2449
+  identified_by: bioclip+bioclip-2

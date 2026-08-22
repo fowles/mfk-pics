@@ -11,19 +11,30 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786158868.5912488
-  top:
-  - scientific: Scarus coeruleus
-    confidence: 0.7364
-  - scientific: Microspathodon chrysurus
-    confidence: 0.0613
-  - scientific: Serranus tortugarum
-    confidence: 0.0463
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786158868.5912488
+    top:
+    - scientific: Scarus coeruleus
+      confidence: 0.7364
+    - scientific: Microspathodon chrysurus
+      confidence: 0.0613
+    - scientific: Serranus tortugarum
+      confidence: 0.0463
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786158868.5912488
+    top:
+    - scientific: Chromis cyanea
+      confidence: 0.8051
+    - scientific: Acanthurus coeruleus
+      confidence: 0.0848
+    - scientific: Clepticus parrae
+      confidence: 0.0266
 species:
-- scientific: Scarus coeruleus
+- scientific: Chromis cyanea
   role: primary
-  confidence: 0.7364
-  identified_by: bioclip
+  confidence: 0.4026
+  identified_by: bioclip-2

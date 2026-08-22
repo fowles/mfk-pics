@@ -10,19 +10,30 @@ lon: -79.2641
 gps_source: dive_site
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786159807.723348
-  top:
-  - scientific: Chromis multilineata
-    confidence: 0.59
-  - scientific: Haemulon chrysargyreum
-    confidence: 0.2016
-  - scientific: Haemulon macrostomum
-    confidence: 0.0839
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786159807.723348
+    top:
+    - scientific: Chromis multilineata
+      confidence: 0.59
+    - scientific: Haemulon chrysargyreum
+      confidence: 0.2016
+    - scientific: Haemulon macrostomum
+      confidence: 0.0839
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786159807.723348
+    top:
+    - scientific: Haemulon aurolineatum
+      confidence: 0.478
+    - scientific: Chromis multilineata
+      confidence: 0.1994
+    - scientific: Chromis cyanea
+      confidence: 0.1088
 species:
 - scientific: Chromis multilineata
   role: primary
-  confidence: 0.59
-  identified_by: bioclip
+  confidence: 0.3947
+  identified_by: bioclip+bioclip-2

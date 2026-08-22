@@ -11,17 +11,33 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786156487.40143
-  top:
-  - scientific: Pterois volitans
-    confidence: 0.4669
-  - scientific: Diadema antillarum
-    confidence: 0.006
-  - scientific: Pareques acuminatus
-    confidence: 0.0025
-  absorbed_by:
-    scientific: Sabellastarte magnifica
-    confidence: 0.5222
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786156487.40143
+    top:
+    - scientific: Pterois volitans
+      confidence: 0.4669
+    - scientific: Diadema antillarum
+      confidence: 0.006
+    - scientific: Pareques acuminatus
+      confidence: 0.0025
+    absorbed_by:
+      scientific: Sabellastarte magnifica
+      confidence: 0.5222
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786156487.40143
+    top:
+    - scientific: Pterois volitans
+      confidence: 0.9975
+    - scientific: Panulirus argus
+      confidence: 0.0007
+    - scientific: Lachnolaimus maximus
+      confidence: 0.0003
+species:
+- scientific: Pterois volitans
+  role: primary
+  confidence: 0.7322
+  identified_by: bioclip+bioclip-2

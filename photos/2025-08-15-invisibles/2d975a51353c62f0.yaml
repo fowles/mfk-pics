@@ -11,17 +11,33 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786071954.694319
-  top:
-  - scientific: Hypoplectrus puella
-    confidence: 0.196
-  - scientific: Monacanthus tuckeri
-    confidence: 0.1304
-  - scientific: Amblycirrhitus pinos
-    confidence: 0.0486
-  absorbed_by:
-    scientific: Aplysina archeri
-    confidence: 0.4356
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786071954.694319
+    top:
+    - scientific: Hypoplectrus puella
+      confidence: 0.196
+    - scientific: Monacanthus tuckeri
+      confidence: 0.1304
+    - scientific: Amblycirrhitus pinos
+      confidence: 0.0486
+    absorbed_by:
+      scientific: Aplysina archeri
+      confidence: 0.4356
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786071954.694319
+    top:
+    - scientific: Stenopus hispidus
+      confidence: 0.5272
+    - scientific: Panulirus argus
+      confidence: 0.3295
+    - scientific: Panulirus guttatus
+      confidence: 0.0465
+species:
+- scientific: Stenopus hispidus
+  role: primary
+  confidence: 0.2636
+  identified_by: bioclip-2

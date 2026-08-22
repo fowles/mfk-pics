@@ -11,19 +11,30 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786159375.372889
-  top:
-  - scientific: Myrichthys ocellatus
-    confidence: 0.5868
-  - scientific: Gymnothorax vicinus
-    confidence: 0.1028
-  - scientific: Gymnothorax funebris
-    confidence: 0.0615
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786159375.372889
+    top:
+    - scientific: Myrichthys ocellatus
+      confidence: 0.5868
+    - scientific: Gymnothorax vicinus
+      confidence: 0.1028
+    - scientific: Gymnothorax funebris
+      confidence: 0.0615
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786159375.372889
+    top:
+    - scientific: Cephalopholis fulva
+      confidence: 0.2073
+    - scientific: Gymnothorax funebris
+      confidence: 0.1218
+    - scientific: Hypoplectrus nigricans
+      confidence: 0.1028
 species:
 - scientific: Myrichthys ocellatus
   role: primary
-  confidence: 0.5868
+  confidence: 0.2934
   identified_by: bioclip

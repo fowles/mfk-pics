@@ -14,19 +14,30 @@ variants:
   import_original_name: ff48d2314bfec694.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786157055.6685271
-  top:
-  - scientific: Aulostomus maculatus
-    confidence: 0.5615
-  - scientific: Sphyraena barracuda
-    confidence: 0.3754
-  - scientific: Chaetodon striatus
-    confidence: 0.0355
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786157055.6685271
+    top:
+    - scientific: Aulostomus maculatus
+      confidence: 0.5615
+    - scientific: Sphyraena barracuda
+      confidence: 0.3754
+    - scientific: Chaetodon striatus
+      confidence: 0.0355
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786157055.6685271
+    top:
+    - scientific: Scomberomorus regalis
+      confidence: 0.7819
+    - scientific: Sphyraena barracuda
+      confidence: 0.1404
+    - scientific: Aulostomus maculatus
+      confidence: 0.0337
 species:
-- scientific: Aulostomus maculatus
+- scientific: Scomberomorus regalis
   role: primary
-  confidence: 0.5615
-  identified_by: bioclip
+  confidence: 0.391
+  identified_by: bioclip-2

@@ -11,19 +11,30 @@ variants:
   import_original_name: 03d65c5fe9f6d77b.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786159955.2359753
-  top:
-  - scientific: Jenkinsia lamprotaenia
-    confidence: 0.4657
-  - scientific: Sphoeroides spengleri
-    confidence: 0.2351
-  - scientific: Stenorhynchus seticornis
-    confidence: 0.0369
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786159955.2359753
+    top:
+    - scientific: Jenkinsia lamprotaenia
+      confidence: 0.4657
+    - scientific: Sphoeroides spengleri
+      confidence: 0.2351
+    - scientific: Stenorhynchus seticornis
+      confidence: 0.0369
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786159955.2359753
+    top:
+    - scientific: Haemulon chrysargyreum
+      confidence: 0.1543
+    - scientific: Gerres cinereus
+      confidence: 0.1484
+    - scientific: Pseudupeneus maculatus
+      confidence: 0.104
 species:
 - scientific: Jenkinsia lamprotaenia
   role: primary
-  confidence: 0.4657
+  confidence: 0.2329
   identified_by: bioclip

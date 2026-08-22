@@ -14,19 +14,30 @@ lon: -68.2806703
 gps_source: manual
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786160183.5294392
-  top:
-  - scientific: Sphoeroides spengleri
-    confidence: 0.4809
-  - scientific: Ogcocephalus radiatus
-    confidence: 0.1789
-  - scientific: Diodon hystrix
-    confidence: 0.0886
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786160183.5294392
+    top:
+    - scientific: Sphoeroides spengleri
+      confidence: 0.4809
+    - scientific: Ogcocephalus radiatus
+      confidence: 0.1789
+    - scientific: Diodon hystrix
+      confidence: 0.0886
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786160183.5294392
+    top:
+    - scientific: Chilomycterus antillarum
+      confidence: 0.4027
+    - scientific: Diodon holocanthus
+      confidence: 0.3156
+    - scientific: Diodon hystrix
+      confidence: 0.161
 species:
 - scientific: Sphoeroides spengleri
   role: primary
-  confidence: 0.4809
+  confidence: 0.2404
   identified_by: bioclip

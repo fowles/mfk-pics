@@ -14,19 +14,30 @@ variants:
   import_original_name: e2ec512117ebd9ca.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786071915.9156764
-  top:
-  - scientific: Dactylopterus volitans
-    confidence: 0.4009
-  - scientific: Thalassoma bifasciatum
-    confidence: 0.2585
-  - scientific: Elacatinus genie
-    confidence: 0.0555
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786071915.9156764
+    top:
+    - scientific: Dactylopterus volitans
+      confidence: 0.4009
+    - scientific: Thalassoma bifasciatum
+      confidence: 0.2585
+    - scientific: Elacatinus genie
+      confidence: 0.0555
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786071915.9156764
+    top:
+    - scientific: Bothus lunatus
+      confidence: 0.79
+    - scientific: Synodus intermedius
+      confidence: 0.0415
+    - scientific: Halichoeres radiatus
+      confidence: 0.0272
 species:
-- scientific: Dactylopterus volitans
+- scientific: Bothus lunatus
   role: primary
-  confidence: 0.4009
-  identified_by: bioclip
+  confidence: 0.395
+  identified_by: bioclip-2

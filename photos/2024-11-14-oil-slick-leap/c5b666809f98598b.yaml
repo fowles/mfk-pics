@@ -14,19 +14,30 @@ variants:
   import_original_name: 8f0b6efe0a04e6d8.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786156898.8751652
-  top:
-  - scientific: Echeneis naucrates
-    confidence: 0.6035
-  - scientific: Sphyraena barracuda
-    confidence: 0.1714
-  - scientific: Ginglymostoma cirratum
-    confidence: 0.0733
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786156898.8751652
+    top:
+    - scientific: Echeneis naucrates
+      confidence: 0.6035
+    - scientific: Sphyraena barracuda
+      confidence: 0.1714
+    - scientific: Ginglymostoma cirratum
+      confidence: 0.0733
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786156898.8751652
+    top:
+    - scientific: Diodon hystrix
+      confidence: 0.8225
+    - scientific: Diodon holocanthus
+      confidence: 0.1393
+    - scientific: Chilomycterus antillarum
+      confidence: 0.0281
 species:
-- scientific: Echeneis naucrates
+- scientific: Diodon hystrix
   role: primary
-  confidence: 0.6035
-  identified_by: bioclip
+  confidence: 0.4113
+  identified_by: bioclip-2

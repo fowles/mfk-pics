@@ -14,19 +14,30 @@ variants:
   import_original_name: 3617ec01e7c4a225.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786157216.2747855
-  top:
-  - scientific: Periclimenes yucatanicus
-    confidence: 0.4538
-  - scientific: Cephalopholis cruentata
-    confidence: 0.2025
-  - scientific: Cephalopholis fulva
-    confidence: 0.0525
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786157216.2747855
+    top:
+    - scientific: Periclimenes yucatanicus
+      confidence: 0.4538
+    - scientific: Cephalopholis cruentata
+      confidence: 0.2025
+    - scientific: Cephalopholis fulva
+      confidence: 0.0525
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786157216.2747855
+    top:
+    - scientific: Octopus briareus
+      confidence: 0.9296
+    - scientific: Octopus vulgaris
+      confidence: 0.0645
+    - scientific: Elacatinus genie
+      confidence: 0.0015
 species:
-- scientific: Periclimenes yucatanicus
+- scientific: Octopus briareus
   role: primary
-  confidence: 0.4538
-  identified_by: bioclip
+  confidence: 0.4648
+  identified_by: bioclip-2

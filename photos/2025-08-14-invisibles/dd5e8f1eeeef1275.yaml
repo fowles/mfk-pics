@@ -11,19 +11,30 @@ variants:
   import_original_name: e483ca89fd1624c3.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786158237.1172686
-  top:
-  - scientific: Scarus taeniopterus
-    confidence: 0.6999
-  - scientific: Scarus guacamaia
-    confidence: 0.1649
-  - scientific: Scarus iseri
-    confidence: 0.0686
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786158237.1172686
+    top:
+    - scientific: Scarus taeniopterus
+      confidence: 0.6999
+    - scientific: Scarus guacamaia
+      confidence: 0.1649
+    - scientific: Scarus iseri
+      confidence: 0.0686
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786158237.1172686
+    top:
+    - scientific: Scarus taeniopterus
+      confidence: 0.8498
+    - scientific: Halichoeres garnoti
+      confidence: 0.0857
+    - scientific: Scarus vetula
+      confidence: 0.0213
 species:
 - scientific: Scarus taeniopterus
   role: primary
-  confidence: 0.6999
-  identified_by: bioclip
+  confidence: 0.7749
+  identified_by: bioclip+bioclip-2

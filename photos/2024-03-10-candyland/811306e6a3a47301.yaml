@@ -14,19 +14,33 @@ variants:
   import_original_name: 61f0101fdb71f4f5.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786158875.608243
-  top:
-  - scientific: Pareques acuminatus
-    confidence: 0.6682
-  - scientific: Diadema antillarum
-    confidence: 0.0877
-  - scientific: Dactylopterus volitans
-    confidence: 0.0871
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786158875.608243
+    top:
+    - scientific: Pareques acuminatus
+      confidence: 0.6682
+    - scientific: Diadema antillarum
+      confidence: 0.0877
+    - scientific: Dactylopterus volitans
+      confidence: 0.0871
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786158875.608243
+    top:
+    - scientific: Myrichthys breviceps
+      confidence: 0.0679
+    - scientific: Aulostomus maculatus
+      confidence: 0.0652
+    - scientific: Cyphoma gibbosum
+      confidence: 0.0267
+    absorbed_by:
+      scientific: Orbicella annularis
+      confidence: 0.1743
 species:
 - scientific: Pareques acuminatus
   role: primary
-  confidence: 0.6682
+  confidence: 0.3341
   identified_by: bioclip

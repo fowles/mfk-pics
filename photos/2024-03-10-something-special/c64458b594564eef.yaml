@@ -11,19 +11,30 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786159057.0794265
-  top:
-  - scientific: Lutjanus jocu
-    confidence: 0.319
-  - scientific: Caranx latus
-    confidence: 0.1585
-  - scientific: Kyphosus sectatrix
-    confidence: 0.1347
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786159057.0794265
+    top:
+    - scientific: Lutjanus jocu
+      confidence: 0.319
+    - scientific: Caranx latus
+      confidence: 0.1585
+    - scientific: Kyphosus sectatrix
+      confidence: 0.1347
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786159057.0794265
+    top:
+    - scientific: Caranx latus
+      confidence: 0.4715
+    - scientific: Mulloidichthys martinicus
+      confidence: 0.301
+    - scientific: Carangoides bartholomaei
+      confidence: 0.0723
 species:
-- scientific: Lutjanus jocu
+- scientific: Caranx latus
   role: primary
-  confidence: 0.319
-  identified_by: bioclip
+  confidence: 0.315
+  identified_by: bioclip+bioclip-2

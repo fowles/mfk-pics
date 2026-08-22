@@ -14,19 +14,30 @@ variants:
   import_original_name: e68145c8bc84feaa.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786156581.7386823
-  top:
-  - scientific: Mulloidichthys martinicus
-    confidence: 0.4872
-  - scientific: Scomberomorus regalis
-    confidence: 0.2291
-  - scientific: Acanthostracion polygonius
-    confidence: 0.1324
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786156581.7386823
+    top:
+    - scientific: Mulloidichthys martinicus
+      confidence: 0.4872
+    - scientific: Scomberomorus regalis
+      confidence: 0.2291
+    - scientific: Acanthostracion polygonius
+      confidence: 0.1324
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786156581.7386823
+    top:
+    - scientific: Chelonia mydas
+      confidence: 0.2918
+    - scientific: Sepioteuthis sepioidea
+      confidence: 0.2682
+    - scientific: Eretmochelys imbricata
+      confidence: 0.2169
 species:
 - scientific: Mulloidichthys martinicus
   role: primary
-  confidence: 0.4872
+  confidence: 0.2436
   identified_by: bioclip

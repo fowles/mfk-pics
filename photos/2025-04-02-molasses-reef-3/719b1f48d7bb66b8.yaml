@@ -11,19 +11,30 @@ variants:
   import_original_name: 0785b8ddca10e664.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786157281.0354664
-  top:
-  - scientific: Pseudupeneus maculatus
-    confidence: 0.3518
-  - scientific: Lutjanus mahogoni
-    confidence: 0.3024
-  - scientific: Lutjanus analis
-    confidence: 0.17
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786157281.0354664
+    top:
+    - scientific: Pseudupeneus maculatus
+      confidence: 0.3518
+    - scientific: Lutjanus mahogoni
+      confidence: 0.3024
+    - scientific: Lutjanus analis
+      confidence: 0.17
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786157281.0354664
+    top:
+    - scientific: Lachnolaimus maximus
+      confidence: 0.8225
+    - scientific: Lutjanus jocu
+      confidence: 0.1326
+    - scientific: Lutjanus analis
+      confidence: 0.0153
 species:
-- scientific: Pseudupeneus maculatus
+- scientific: Lachnolaimus maximus
   role: primary
-  confidence: 0.3518
-  identified_by: bioclip
+  confidence: 0.4113
+  identified_by: bioclip-2

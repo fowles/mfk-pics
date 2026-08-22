@@ -11,19 +11,30 @@ variants:
   import_original_name: ffacde4f44c26aa4.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786159064.1471372
-  top:
-  - scientific: Acanthostracion quadricornis
-    confidence: 0.6808
-  - scientific: Acanthostracion polygonius
-    confidence: 0.2329
-  - scientific: Aluterus scriptus
-    confidence: 0.0373
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786159064.1471372
+    top:
+    - scientific: Acanthostracion quadricornis
+      confidence: 0.6808
+    - scientific: Acanthostracion polygonius
+      confidence: 0.2329
+    - scientific: Aluterus scriptus
+      confidence: 0.0373
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786159064.1471372
+    top:
+    - scientific: Acanthostracion polygonius
+      confidence: 0.9954
+    - scientific: Aluterus scriptus
+      confidence: 0.0024
+    - scientific: Epinephelus guttatus
+      confidence: 0.0012
 species:
-- scientific: Acanthostracion quadricornis
+- scientific: Acanthostracion polygonius
   role: primary
-  confidence: 0.6808
-  identified_by: bioclip
+  confidence: 0.6141
+  identified_by: bioclip+bioclip-2

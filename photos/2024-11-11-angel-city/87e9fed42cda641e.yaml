@@ -14,19 +14,30 @@ variants:
   import_original_name: e5bc56e2ec752a3e.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786156747.478708
-  top:
-  - scientific: Melichthys niger
-    confidence: 0.3486
-  - scientific: Sepioteuthis sepioidea
-    confidence: 0.2039
-  - scientific: Pomacanthus paru
-    confidence: 0.083
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786156747.478708
+    top:
+    - scientific: Melichthys niger
+      confidence: 0.3486
+    - scientific: Sepioteuthis sepioidea
+      confidence: 0.2039
+    - scientific: Pomacanthus paru
+      confidence: 0.083
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786156747.478708
+    top:
+    - scientific: Holacanthus tricolor
+      confidence: 0.0566
+    - scientific: Astrophyton muricatum
+      confidence: 0.0507
+    - scientific: Mycteroperca bonaci
+      confidence: 0.0488
 species:
 - scientific: Melichthys niger
   role: primary
-  confidence: 0.3486
+  confidence: 0.1743
   identified_by: bioclip

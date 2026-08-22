@@ -10,19 +10,30 @@ lon: -80.3785098
 gps_source: manual
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786157279.784261
-  top:
-  - scientific: Aulostomus maculatus
-    confidence: 0.2074
-  - scientific: Sepioteuthis sepioidea
-    confidence: 0.1169
-  - scientific: Haemulon flavolineatum
-    confidence: 0.1103
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786157279.784261
+    top:
+    - scientific: Aulostomus maculatus
+      confidence: 0.2074
+    - scientific: Sepioteuthis sepioidea
+      confidence: 0.1169
+    - scientific: Haemulon flavolineatum
+      confidence: 0.1103
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786157279.784261
+    top:
+    - scientific: Pterois volitans
+      confidence: 0.1962
+    - scientific: Panulirus argus
+      confidence: 0.061
+    - scientific: Eretmochelys imbricata
+      confidence: 0.0607
 species:
 - scientific: Aulostomus maculatus
   role: primary
-  confidence: 0.2074
+  confidence: 0.1037
   identified_by: bioclip

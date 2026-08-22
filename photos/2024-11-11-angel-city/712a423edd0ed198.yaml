@@ -11,19 +11,30 @@ variants:
   import_original_name: 48c862c695398fef.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786156741.86464
-  top:
-  - scientific: Dactylopterus volitans
-    confidence: 0.5501
-  - scientific: Hypoplectrus puella
-    confidence: 0.1916
-  - scientific: Scorpaena plumieri
-    confidence: 0.0837
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786156741.86464
+    top:
+    - scientific: Dactylopterus volitans
+      confidence: 0.5501
+    - scientific: Hypoplectrus puella
+      confidence: 0.1916
+    - scientific: Scorpaena plumieri
+      confidence: 0.0837
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786156741.86464
+    top:
+    - scientific: Synodus intermedius
+      confidence: 0.6595
+    - scientific: Pseudupeneus maculatus
+      confidence: 0.144
+    - scientific: Serranus tigrinus
+      confidence: 0.0939
 species:
-- scientific: Dactylopterus volitans
+- scientific: Synodus intermedius
   role: primary
-  confidence: 0.5501
-  identified_by: bioclip
+  confidence: 0.3297
+  identified_by: bioclip-2

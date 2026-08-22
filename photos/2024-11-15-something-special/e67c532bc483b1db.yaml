@@ -14,19 +14,30 @@ variants:
   import_original_name: e87e188bbdb0c02d.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786157216.2619472
-  top:
-  - scientific: Octopus briareus
-    confidence: 0.5257
-  - scientific: Cephalopholis cruentata
-    confidence: 0.2367
-  - scientific: Gymnothorax miliaris
-    confidence: 0.1612
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786157216.2619472
+    top:
+    - scientific: Octopus briareus
+      confidence: 0.5257
+    - scientific: Cephalopholis cruentata
+      confidence: 0.2367
+    - scientific: Gymnothorax miliaris
+      confidence: 0.1612
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786157216.2619472
+    top:
+    - scientific: Octopus briareus
+      confidence: 0.9275
+    - scientific: Octopus vulgaris
+      confidence: 0.0677
+    - scientific: Opistognathus aurifrons
+      confidence: 0.001
 species:
 - scientific: Octopus briareus
   role: primary
-  confidence: 0.5257
-  identified_by: bioclip
+  confidence: 0.7266
+  identified_by: bioclip+bioclip-2

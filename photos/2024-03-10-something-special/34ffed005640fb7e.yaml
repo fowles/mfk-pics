@@ -14,19 +14,30 @@ variants:
   import_original_name: e7e3569fc0aa8515.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786159065.999729
-  top:
-  - scientific: Melichthys niger
-    confidence: 0.7632
-  - scientific: Gymnothorax funebris
-    confidence: 0.1043
-  - scientific: Sparisoma rubripinne
-    confidence: 0.0183
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786159065.999729
+    top:
+    - scientific: Melichthys niger
+      confidence: 0.7632
+    - scientific: Gymnothorax funebris
+      confidence: 0.1043
+    - scientific: Sparisoma rubripinne
+      confidence: 0.0183
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786159065.999729
+    top:
+    - scientific: Acanthurus tractus
+      confidence: 0.2316
+    - scientific: Acanthurus chirurgus
+      confidence: 0.1683
+    - scientific: Pomacanthus arcuatus
+      confidence: 0.083
 species:
 - scientific: Melichthys niger
   role: primary
-  confidence: 0.7632
+  confidence: 0.3816
   identified_by: bioclip

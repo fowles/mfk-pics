@@ -11,19 +11,30 @@ variants:
   import_original_name: c5efd46ca69f1875.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786156349.3591156
-  top:
-  - scientific: Lutjanus apodus
-    confidence: 0.5703
-  - scientific: Ocyurus chrysurus
-    confidence: 0.3492
-  - scientific: Haemulon sciurus
-    confidence: 0.0252
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786156349.3591156
+    top:
+    - scientific: Lutjanus apodus
+      confidence: 0.5703
+    - scientific: Ocyurus chrysurus
+      confidence: 0.3492
+    - scientific: Haemulon sciurus
+      confidence: 0.0252
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786156349.3591156
+    top:
+    - scientific: Lutjanus apodus
+      confidence: 0.9683
+    - scientific: Lutjanus jocu
+      confidence: 0.013
+    - scientific: Lutjanus mahogoni
+      confidence: 0.0059
 species:
 - scientific: Lutjanus apodus
   role: primary
-  confidence: 0.5703
-  identified_by: bioclip
+  confidence: 0.7693
+  identified_by: bioclip+bioclip-2

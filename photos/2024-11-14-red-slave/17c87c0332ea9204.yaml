@@ -14,19 +14,30 @@ variants:
   import_original_name: 77c0456d5c6c5a86.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786156983.207239
-  top:
-  - scientific: Trachinotus goodei
-    confidence: 0.9616
-  - scientific: Canthidermis sufflamen
-    confidence: 0.0121
-  - scientific: Heteroconger longissimus
-    confidence: 0.0088
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786156983.207239
+    top:
+    - scientific: Trachinotus goodei
+      confidence: 0.9616
+    - scientific: Canthidermis sufflamen
+      confidence: 0.0121
+    - scientific: Heteroconger longissimus
+      confidence: 0.0088
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786156983.207239
+    top:
+    - scientific: Caretta caretta
+      confidence: 0.3352
+    - scientific: Chelonia mydas
+      confidence: 0.2568
+    - scientific: Aetobatus narinari
+      confidence: 0.1275
 species:
 - scientific: Trachinotus goodei
   role: primary
-  confidence: 0.9616
+  confidence: 0.4808
   identified_by: bioclip

@@ -12,19 +12,30 @@ date_reviewed: true
 dive_window_reviewed: true
 rotation_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786159381.3759573
-  top:
-  - scientific: Aulostomus maculatus
-    confidence: 0.5164
-  - scientific: Diadema antillarum
-    confidence: 0.03
-  - scientific: Jenkinsia lamprotaenia
-    confidence: 0.0255
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786159381.3759573
+    top:
+    - scientific: Aulostomus maculatus
+      confidence: 0.5164
+    - scientific: Diadema antillarum
+      confidence: 0.03
+    - scientific: Jenkinsia lamprotaenia
+      confidence: 0.0255
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786159381.3759573
+    top:
+    - scientific: Aulostomus maculatus
+      confidence: 0.9959
+    - scientific: Fistularia tabacaria
+      confidence: 0.0004
+    - scientific: Davidaster rubiginosus
+      confidence: 0.0002
 species:
 - scientific: Aulostomus maculatus
   role: primary
-  confidence: 0.5164
-  identified_by: bioclip
+  confidence: 0.7561
+  identified_by: bioclip+bioclip-2

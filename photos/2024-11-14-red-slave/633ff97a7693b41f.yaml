@@ -11,19 +11,30 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786156973.2951124
-  top:
-  - scientific: Ocyurus chrysurus
-    confidence: 0.6708
-  - scientific: Haemulon aurolineatum
-    confidence: 0.1295
-  - scientific: Haemulon chrysargyreum
-    confidence: 0.0801
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786156973.2951124
+    top:
+    - scientific: Ocyurus chrysurus
+      confidence: 0.6708
+    - scientific: Haemulon aurolineatum
+      confidence: 0.1295
+    - scientific: Haemulon chrysargyreum
+      confidence: 0.0801
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786156973.2951124
+    top:
+    - scientific: Caranx latus
+      confidence: 0.7562
+    - scientific: Carangoides bartholomaei
+      confidence: 0.0788
+    - scientific: Mulloidichthys martinicus
+      confidence: 0.0307
 species:
-- scientific: Ocyurus chrysurus
+- scientific: Caranx latus
   role: primary
-  confidence: 0.6708
-  identified_by: bioclip
+  confidence: 0.3781
+  identified_by: bioclip-2

@@ -14,19 +14,30 @@ variants:
   import_original_name: fb88577dc04ee100.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786157493.7197163
-  top:
-  - scientific: Diodon holocanthus
-    confidence: 0.4489
-  - scientific: Dactylopterus volitans
-    confidence: 0.1192
-  - scientific: Chilomycterus schoepfii
-    confidence: 0.0841
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786157493.7197163
+    top:
+    - scientific: Diodon holocanthus
+      confidence: 0.4489
+    - scientific: Dactylopterus volitans
+      confidence: 0.1192
+    - scientific: Chilomycterus schoepfii
+      confidence: 0.0841
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786157493.7197163
+    top:
+    - scientific: Cassiopea xamachana
+      confidence: 0.7365
+    - scientific: Felimare bayeri
+      confidence: 0.0246
+    - scientific: Elysia crispata
+      confidence: 0.0169
 species:
-- scientific: Diodon holocanthus
+- scientific: Cassiopea xamachana
   role: primary
-  confidence: 0.4489
-  identified_by: bioclip
+  confidence: 0.3683
+  identified_by: bioclip-2

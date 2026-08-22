@@ -11,19 +11,30 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786071943.347388
-  top:
-  - scientific: Myrichthys ocellatus
-    confidence: 0.27
-  - scientific: Holothuria mexicana
-    confidence: 0.2347
-  - scientific: Elacatinus genie
-    confidence: 0.1371
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786071943.347388
+    top:
+    - scientific: Myrichthys ocellatus
+      confidence: 0.27
+    - scientific: Holothuria mexicana
+      confidence: 0.2347
+    - scientific: Elacatinus genie
+      confidence: 0.1371
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786071943.347388
+    top:
+    - scientific: Petrochirus diogenes
+      confidence: 0.4765
+    - scientific: Lachnolaimus maximus
+      confidence: 0.2249
+    - scientific: Panulirus argus
+      confidence: 0.0402
 species:
-- scientific: Myrichthys ocellatus
+- scientific: Petrochirus diogenes
   role: primary
-  confidence: 0.27
-  identified_by: bioclip
+  confidence: 0.2382
+  identified_by: bioclip-2

@@ -10,19 +10,30 @@ lon: -79.27083
 gps_source: dive_site
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786159800.104866
-  top:
-  - scientific: Stegastes adustus
-    confidence: 0.4886
-  - scientific: Percnon gibbesi
-    confidence: 0.3306
-  - scientific: Stegastes diencaeus
-    confidence: 0.1008
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786159800.104866
+    top:
+    - scientific: Stegastes adustus
+      confidence: 0.4886
+    - scientific: Percnon gibbesi
+      confidence: 0.3306
+    - scientific: Stegastes diencaeus
+      confidence: 0.1008
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786159800.104866
+    top:
+    - scientific: Stegastes diencaeus
+      confidence: 0.4066
+    - scientific: Stegastes adustus
+      confidence: 0.226
+    - scientific: Centropyge argi
+      confidence: 0.0761
 species:
 - scientific: Stegastes adustus
   role: primary
-  confidence: 0.4886
-  identified_by: bioclip
+  confidence: 0.3573
+  identified_by: bioclip+bioclip-2

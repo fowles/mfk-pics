@@ -11,19 +11,30 @@ variants:
   import_original_name: d17888fd2d131704.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786156978.18277
-  top:
-  - scientific: Acanthostracion polygonius
-    confidence: 0.5673
-  - scientific: Lactophrys bicaudalis
-    confidence: 0.1585
-  - scientific: Lactophrys triqueter
-    confidence: 0.1148
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786156978.18277
+    top:
+    - scientific: Acanthostracion polygonius
+      confidence: 0.5673
+    - scientific: Lactophrys bicaudalis
+      confidence: 0.1585
+    - scientific: Lactophrys triqueter
+      confidence: 0.1148
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786156978.18277
+    top:
+    - scientific: Caranx ruber
+      confidence: 0.3641
+    - scientific: Calamus calamus
+      confidence: 0.1975
+    - scientific: Malacanthus plumieri
+      confidence: 0.0926
 species:
 - scientific: Acanthostracion polygonius
   role: primary
-  confidence: 0.5673
+  confidence: 0.2837
   identified_by: bioclip

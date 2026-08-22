@@ -11,19 +11,33 @@ variants:
   import_original_name: 18eb3df342f7ab8b.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786157054.034089
-  top:
-  - scientific: Serranus tigrinus
-    confidence: 0.6378
-  - scientific: Diodon holocanthus
-    confidence: 0.1015
-  - scientific: Thalassoma bifasciatum
-    confidence: 0.0172
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786157054.034089
+    top:
+    - scientific: Serranus tigrinus
+      confidence: 0.6378
+    - scientific: Diodon holocanthus
+      confidence: 0.1015
+    - scientific: Thalassoma bifasciatum
+      confidence: 0.0172
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786157054.034089
+    top:
+    - scientific: Apogon maculatus
+      confidence: 0.0475
+    - scientific: Halichoeres pictus
+      confidence: 0.0376
+    - scientific: Neoniphon marianus
+      confidence: 0.0324
+    absorbed_by:
+      scientific: Orbicella annularis
+      confidence: 0.0602
 species:
 - scientific: Serranus tigrinus
   role: primary
-  confidence: 0.6378
+  confidence: 0.3189
   identified_by: bioclip

@@ -14,19 +14,30 @@ variants:
   import_original_name: f5eee83c57edd094.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786071915.0384848
-  top:
-  - scientific: Epinephelus striatus
-    confidence: 0.4068
-  - scientific: Mycteroperca tigris
-    confidence: 0.2848
-  - scientific: Scarus coelestinus
-    confidence: 0.1215
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786071915.0384848
+    top:
+    - scientific: Epinephelus striatus
+      confidence: 0.4068
+    - scientific: Mycteroperca tigris
+      confidence: 0.2848
+    - scientific: Scarus coelestinus
+      confidence: 0.1215
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786071915.0384848
+    top:
+    - scientific: Mycteroperca bonaci
+      confidence: 0.0867
+    - scientific: Lutjanus analis
+      confidence: 0.0866
+    - scientific: Canthidermis sufflamen
+      confidence: 0.0819
 species:
 - scientific: Epinephelus striatus
   role: primary
-  confidence: 0.4068
+  confidence: 0.2034
   identified_by: bioclip

@@ -14,19 +14,30 @@ variants:
   import_original_name: ad1979da47d2c88a.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786160215.1343944
-  top:
-  - scientific: Heteroconger longissimus
-    confidence: 0.6589
-  - scientific: Lactophrys triqueter
-    confidence: 0.1625
-  - scientific: Bothus lunatus
-    confidence: 0.0837
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786160215.1343944
+    top:
+    - scientific: Heteroconger longissimus
+      confidence: 0.6589
+    - scientific: Lactophrys triqueter
+      confidence: 0.1625
+    - scientific: Bothus lunatus
+      confidence: 0.0837
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786160215.1343944
+    top:
+    - scientific: Sepioteuthis sepioidea
+      confidence: 0.4138
+    - scientific: Dactylopterus volitans
+      confidence: 0.3177
+    - scientific: Urobatis jamaicensis
+      confidence: 0.0451
 species:
 - scientific: Heteroconger longissimus
   role: primary
-  confidence: 0.6589
+  confidence: 0.3295
   identified_by: bioclip

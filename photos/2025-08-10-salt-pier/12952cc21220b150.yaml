@@ -11,19 +11,30 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786157579.0416818
-  top:
-  - scientific: Octopus briareus
-    confidence: 0.5482
-  - scientific: Octopus vulgaris
-    confidence: 0.4464
-  - scientific: Scorpaena plumieri
-    confidence: 0.0013
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786157579.0416818
+    top:
+    - scientific: Octopus briareus
+      confidence: 0.5482
+    - scientific: Octopus vulgaris
+      confidence: 0.4464
+    - scientific: Scorpaena plumieri
+      confidence: 0.0013
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786157579.0416818
+    top:
+    - scientific: Octopus briareus
+      confidence: 0.8382
+    - scientific: Octopus vulgaris
+      confidence: 0.1127
+    - scientific: Enchelycore carychroa
+      confidence: 0.0305
 species:
 - scientific: Octopus briareus
   role: primary
-  confidence: 0.5482
-  identified_by: bioclip
+  confidence: 0.6932
+  identified_by: bioclip+bioclip-2

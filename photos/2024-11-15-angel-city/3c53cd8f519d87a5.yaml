@@ -14,19 +14,30 @@ variants:
   import_original_name: 10d31dd1091c39c0.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786157054.9963048
-  top:
-  - scientific: Gymnothorax funebris
-    confidence: 0.5093
-  - scientific: Aulostomus maculatus
-    confidence: 0.3197
-  - scientific: Haemulon sciurus
-    confidence: 0.101
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786157054.9963048
+    top:
+    - scientific: Gymnothorax funebris
+      confidence: 0.5093
+    - scientific: Aulostomus maculatus
+      confidence: 0.3197
+    - scientific: Haemulon sciurus
+      confidence: 0.101
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786157054.9963048
+    top:
+    - scientific: Gymnothorax funebris
+      confidence: 0.8384
+    - scientific: Aulostomus maculatus
+      confidence: 0.0571
+    - scientific: Sphyraena barracuda
+      confidence: 0.031
 species:
 - scientific: Gymnothorax funebris
   role: primary
-  confidence: 0.5093
-  identified_by: bioclip
+  confidence: 0.6739
+  identified_by: bioclip+bioclip-2

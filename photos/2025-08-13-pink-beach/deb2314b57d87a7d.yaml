@@ -14,19 +14,30 @@ variants:
   import_original_name: cc83a3d6fad9ca2a.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786158188.2075057
-  top:
-  - scientific: Lactophrys triqueter
-    confidence: 0.7483
-  - scientific: Lactophrys bicaudalis
-    confidence: 0.1255
-  - scientific: Gymnothorax moringa
-    confidence: 0.0625
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786158188.2075057
+    top:
+    - scientific: Lactophrys triqueter
+      confidence: 0.7483
+    - scientific: Lactophrys bicaudalis
+      confidence: 0.1255
+    - scientific: Gymnothorax moringa
+      confidence: 0.0625
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786158188.2075057
+    top:
+    - scientific: Acanthostracion polygonius
+      confidence: 0.8699
+    - scientific: Lactophrys bicaudalis
+      confidence: 0.043
+    - scientific: Aluterus scriptus
+      confidence: 0.0316
 species:
-- scientific: Lactophrys triqueter
+- scientific: Acanthostracion polygonius
   role: primary
-  confidence: 0.7483
-  identified_by: bioclip
+  confidence: 0.435
+  identified_by: bioclip-2

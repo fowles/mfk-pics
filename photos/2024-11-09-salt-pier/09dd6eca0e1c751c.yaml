@@ -11,19 +11,30 @@ variants:
   import_original_name: ec1d1f76329e5227.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786156575.9682019
-  top:
-  - scientific: Heteroconger longissimus
-    confidence: 0.6212
-  - scientific: Xyrichtys splendens
-    confidence: 0.1025
-  - scientific: Emblemaria pandionis
-    confidence: 0.0799
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786156575.9682019
+    top:
+    - scientific: Heteroconger longissimus
+      confidence: 0.6212
+    - scientific: Xyrichtys splendens
+      confidence: 0.1025
+    - scientific: Emblemaria pandionis
+      confidence: 0.0799
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786156575.9682019
+    top:
+    - scientific: Malacanthus plumieri
+      confidence: 0.2779
+    - scientific: Carcharhinus perezi
+      confidence: 0.1195
+    - scientific: Scarus vetula
+      confidence: 0.0762
 species:
 - scientific: Heteroconger longissimus
   role: primary
-  confidence: 0.6212
+  confidence: 0.3106
   identified_by: bioclip

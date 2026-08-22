@@ -11,19 +11,30 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786159369.7938182
-  top:
-  - scientific: Abudefduf saxatilis
-    confidence: 0.5759
-  - scientific: Pareques acuminatus
-    confidence: 0.2559
-  - scientific: Haemulon macrostomum
-    confidence: 0.1059
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786159369.7938182
+    top:
+    - scientific: Abudefduf saxatilis
+      confidence: 0.5759
+    - scientific: Pareques acuminatus
+      confidence: 0.2559
+    - scientific: Haemulon macrostomum
+      confidence: 0.1059
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786159369.7938182
+    top:
+    - scientific: Abudefduf saxatilis
+      confidence: 0.9803
+    - scientific: Epinephelus striatus
+      confidence: 0.0034
+    - scientific: Chaetodon capistratus
+      confidence: 0.0021
 species:
 - scientific: Abudefduf saxatilis
   role: primary
-  confidence: 0.5759
-  identified_by: bioclip
+  confidence: 0.7781
+  identified_by: bioclip+bioclip-2

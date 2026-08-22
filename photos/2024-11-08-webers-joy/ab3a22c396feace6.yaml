@@ -11,19 +11,30 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786156520.1428885
-  top:
-  - scientific: Epinephelus striatus
-    confidence: 0.4705
-  - scientific: Holocentrus adscensionis
-    confidence: 0.4205
-  - scientific: Amblycirrhitus pinos
-    confidence: 0.0514
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786156520.1428885
+    top:
+    - scientific: Epinephelus striatus
+      confidence: 0.4705
+    - scientific: Holocentrus adscensionis
+      confidence: 0.4205
+    - scientific: Amblycirrhitus pinos
+      confidence: 0.0514
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786156520.1428885
+    top:
+    - scientific: Aliger gigas
+      confidence: 0.9939
+    - scientific: Petrochirus diogenes
+      confidence: 0.003
+    - scientific: Equetus punctatus
+      confidence: 0.0017
 species:
-- scientific: Epinephelus striatus
+- scientific: Aliger gigas
   role: primary
-  confidence: 0.4705
-  identified_by: bioclip
+  confidence: 0.497
+  identified_by: bioclip-2

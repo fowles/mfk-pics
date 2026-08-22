@@ -14,17 +14,31 @@ variants:
   import_original_name: 292792802a787ed6.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786157213.6895626
-  top:
-  - scientific: Emblemaria pandionis
-    confidence: 0.1074
-  - scientific: Aliger gigas
-    confidence: 0.0182
-  - scientific: Equetus lanceolatus
-    confidence: 0.0063
-  absorbed_by:
-    scientific: Xestospongia muta
-    confidence: 0.8169
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786157213.6895626
+    top:
+    - scientific: Emblemaria pandionis
+      confidence: 0.1074
+    - scientific: Aliger gigas
+      confidence: 0.0182
+    - scientific: Equetus lanceolatus
+      confidence: 0.0063
+    absorbed_by:
+      scientific: Xestospongia muta
+      confidence: 0.8169
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786157213.6895626
+    top:
+    - scientific: Scorpaena plumieri
+      confidence: 0.0119
+    - scientific: Cyphoma gibbosum
+      confidence: 0.009
+    - scientific: Stegastes partitus
+      confidence: 0.0087
+    absorbed_by:
+      scientific: Millepora alcicornis
+      confidence: 0.2161

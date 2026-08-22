@@ -11,19 +11,30 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786158129.5755816
-  top:
-  - scientific: Gymnothorax moringa
-    confidence: 0.9579
-  - scientific: Diodon hystrix
-    confidence: 0.0292
-  - scientific: Lactophrys triqueter
-    confidence: 0.0045
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786158129.5755816
+    top:
+    - scientific: Gymnothorax moringa
+      confidence: 0.9579
+    - scientific: Diodon hystrix
+      confidence: 0.0292
+    - scientific: Lactophrys triqueter
+      confidence: 0.0045
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786158129.5755816
+    top:
+    - scientific: Cephalopholis cruentata
+      confidence: 0.4186
+    - scientific: Epinephelus guttatus
+      confidence: 0.3312
+    - scientific: Epinephelus adscensionis
+      confidence: 0.2392
 species:
 - scientific: Gymnothorax moringa
   role: primary
-  confidence: 0.9579
+  confidence: 0.4789
   identified_by: bioclip

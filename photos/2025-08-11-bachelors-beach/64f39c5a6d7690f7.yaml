@@ -11,19 +11,30 @@ variants:
   import_original_name: 5e0819d7600a5cb6.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786157878.819201
-  top:
-  - scientific: Myrichthys breviceps
-    confidence: 0.2124
-  - scientific: Gymnothorax funebris
-    confidence: 0.1823
-  - scientific: Heteroconger longissimus
-    confidence: 0.166
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786157878.819201
+    top:
+    - scientific: Myrichthys breviceps
+      confidence: 0.2124
+    - scientific: Gymnothorax funebris
+      confidence: 0.1823
+    - scientific: Heteroconger longissimus
+      confidence: 0.166
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786157878.819201
+    top:
+    - scientific: Enchelycore carychroa
+      confidence: 0.5788
+    - scientific: Myrichthys breviceps
+      confidence: 0.1648
+    - scientific: Gymnothorax vicinus
+      confidence: 0.1255
 species:
-- scientific: Myrichthys breviceps
+- scientific: Enchelycore carychroa
   role: primary
-  confidence: 0.2124
-  identified_by: bioclip
+  confidence: 0.2894
+  identified_by: bioclip-2

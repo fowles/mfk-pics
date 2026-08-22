@@ -11,19 +11,30 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786159374.22516
-  top:
-  - scientific: Hypoplectrus nigricans
-    confidence: 0.6283
-  - scientific: Cantherhines macrocerus
-    confidence: 0.0681
-  - scientific: Lactophrys triqueter
-    confidence: 0.0612
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786159374.22516
+    top:
+    - scientific: Hypoplectrus nigricans
+      confidence: 0.6283
+    - scientific: Cantherhines macrocerus
+      confidence: 0.0681
+    - scientific: Lactophrys triqueter
+      confidence: 0.0612
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786159374.22516
+    top:
+    - scientific: Melichthys niger
+      confidence: 0.8617
+    - scientific: Acanthurus coeruleus
+      confidence: 0.0653
+    - scientific: Aluterus scriptus
+      confidence: 0.0358
 species:
-- scientific: Hypoplectrus nigricans
+- scientific: Melichthys niger
   role: primary
-  confidence: 0.6283
-  identified_by: bioclip
+  confidence: 0.4309
+  identified_by: bioclip-2

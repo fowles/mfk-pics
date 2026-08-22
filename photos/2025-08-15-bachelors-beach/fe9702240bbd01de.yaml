@@ -11,19 +11,30 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786158393.9936194
-  top:
-  - scientific: Scarus guacamaia
-    confidence: 0.9923
-  - scientific: Halichoeres radiatus
-    confidence: 0.0046
-  - scientific: Scarus iseri
-    confidence: 0.0012
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786158393.9936194
+    top:
+    - scientific: Scarus guacamaia
+      confidence: 0.9923
+    - scientific: Halichoeres radiatus
+      confidence: 0.0046
+    - scientific: Scarus iseri
+      confidence: 0.0012
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786158393.9936194
+    top:
+    - scientific: Scarus guacamaia
+      confidence: 0.3934
+    - scientific: Sparisoma viride
+      confidence: 0.2574
+    - scientific: Holacanthus ciliaris
+      confidence: 0.0729
 species:
 - scientific: Scarus guacamaia
   role: primary
-  confidence: 0.9923
-  identified_by: bioclip
+  confidence: 0.6928
+  identified_by: bioclip+bioclip-2

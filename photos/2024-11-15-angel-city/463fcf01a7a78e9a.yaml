@@ -14,19 +14,30 @@ variants:
   import_original_name: 3e33256440cab37d.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786157055.1115744
-  top:
-  - scientific: Fistularia tabacaria
-    confidence: 0.4365
-  - scientific: Aulostomus maculatus
-    confidence: 0.16
-  - scientific: Sphoeroides spengleri
-    confidence: 0.0559
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786157055.1115744
+    top:
+    - scientific: Fistularia tabacaria
+      confidence: 0.4365
+    - scientific: Aulostomus maculatus
+      confidence: 0.16
+    - scientific: Sphoeroides spengleri
+      confidence: 0.0559
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786157055.1115744
+    top:
+    - scientific: Malacanthus plumieri
+      confidence: 0.2299
+    - scientific: Pseudupeneus maculatus
+      confidence: 0.0869
+    - scientific: Serranus tabacarius
+      confidence: 0.081
 species:
 - scientific: Fistularia tabacaria
   role: primary
-  confidence: 0.4365
+  confidence: 0.2182
   identified_by: bioclip

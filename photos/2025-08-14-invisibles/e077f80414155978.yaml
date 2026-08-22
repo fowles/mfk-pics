@@ -11,19 +11,30 @@ variants:
   import_original_name: 0bf4ac449f8518a9.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786158236.3805609
-  top:
-  - scientific: Gymnothorax moringa
-    confidence: 0.9542
-  - scientific: Equetus punctatus
-    confidence: 0.0427
-  - scientific: Lactophrys bicaudalis
-    confidence: 0.0
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786158236.3805609
+    top:
+    - scientific: Gymnothorax moringa
+      confidence: 0.9542
+    - scientific: Equetus punctatus
+      confidence: 0.0427
+    - scientific: Lactophrys bicaudalis
+      confidence: 0.0
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786158236.3805609
+    top:
+    - scientific: Gymnothorax moringa
+      confidence: 0.9244
+    - scientific: Gymnothorax miliaris
+      confidence: 0.0521
+    - scientific: Echidna catenata
+      confidence: 0.0163
 species:
 - scientific: Gymnothorax moringa
   role: primary
-  confidence: 0.9542
-  identified_by: bioclip
+  confidence: 0.9393
+  identified_by: bioclip+bioclip-2

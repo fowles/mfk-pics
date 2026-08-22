@@ -14,19 +14,30 @@ variants:
   import_original_name: cea23892f8a2662f.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786159195.474869
-  top:
-  - scientific: Pomacanthus paru
-    confidence: 0.3354
-  - scientific: Lactophrys triqueter
-    confidence: 0.282
-  - scientific: Aulostomus maculatus
-    confidence: 0.0642
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786159195.474869
+    top:
+    - scientific: Pomacanthus paru
+      confidence: 0.3354
+    - scientific: Lactophrys triqueter
+      confidence: 0.282
+    - scientific: Aulostomus maculatus
+      confidence: 0.0642
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786159195.474869
+    top:
+    - scientific: Sphyraena barracuda
+      confidence: 0.2476
+    - scientific: Acanthostracion polygonius
+      confidence: 0.1773
+    - scientific: Gerres cinereus
+      confidence: 0.1023
 species:
 - scientific: Pomacanthus paru
   role: primary
-  confidence: 0.3354
+  confidence: 0.1677
   identified_by: bioclip

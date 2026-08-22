@@ -11,19 +11,33 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786156323.566462
-  top:
-  - scientific: Dactylopterus volitans
-    confidence: 0.4423
-  - scientific: Gymnothorax funebris
-    confidence: 0.1073
-  - scientific: Aurelia aurita
-    confidence: 0.0784
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786156323.566462
+    top:
+    - scientific: Dactylopterus volitans
+      confidence: 0.4423
+    - scientific: Gymnothorax funebris
+      confidence: 0.1073
+    - scientific: Aurelia aurita
+      confidence: 0.0784
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786156323.566462
+    top:
+    - scientific: Aluterus scriptus
+      confidence: 0.0476
+    - scientific: Scarus guacamaia
+      confidence: 0.0349
+    - scientific: Sphyraena barracuda
+      confidence: 0.0212
+    absorbed_by:
+      scientific: Xestospongia muta
+      confidence: 0.2732
 species:
 - scientific: Dactylopterus volitans
   role: primary
-  confidence: 0.4423
+  confidence: 0.2212
   identified_by: bioclip

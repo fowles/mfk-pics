@@ -11,19 +11,30 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786158136.361538
-  top:
-  - scientific: Panulirus guttatus
-    confidence: 0.3358
-  - scientific: Acanthostracion polygonius
-    confidence: 0.3
-  - scientific: Scorpaena plumieri
-    confidence: 0.1535
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786158136.361538
+    top:
+    - scientific: Panulirus guttatus
+      confidence: 0.3358
+    - scientific: Acanthostracion polygonius
+      confidence: 0.3
+    - scientific: Scorpaena plumieri
+      confidence: 0.1535
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786158136.361538
+    top:
+    - scientific: Scorpaena plumieri
+      confidence: 0.9952
+    - scientific: Ogcocephalus radiatus
+      confidence: 0.0014
+    - scientific: Cephalopholis cruentata
+      confidence: 0.0013
 species:
-- scientific: Panulirus guttatus
+- scientific: Scorpaena plumieri
   role: primary
-  confidence: 0.3358
-  identified_by: bioclip
+  confidence: 0.5744
+  identified_by: bioclip+bioclip-2

@@ -11,19 +11,30 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786158858.0872085
-  top:
-  - scientific: Chromis multilineata
-    confidence: 0.8076
-  - scientific: Chaetodipterus faber
-    confidence: 0.0594
-  - scientific: Balistes vetula
-    confidence: 0.037
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786158858.0872085
+    top:
+    - scientific: Chromis multilineata
+      confidence: 0.8076
+    - scientific: Chaetodipterus faber
+      confidence: 0.0594
+    - scientific: Balistes vetula
+      confidence: 0.037
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786158858.0872085
+    top:
+    - scientific: Melichthys niger
+      confidence: 0.8662
+    - scientific: Chromis multilineata
+      confidence: 0.0525
+    - scientific: Clepticus parrae
+      confidence: 0.026
 species:
-- scientific: Chromis multilineata
+- scientific: Melichthys niger
   role: primary
-  confidence: 0.8076
-  identified_by: bioclip
+  confidence: 0.4331
+  identified_by: bioclip-2

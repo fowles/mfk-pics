@@ -11,19 +11,30 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786159775.3569806
-  top:
-  - scientific: Melichthys niger
-    confidence: 0.9393
-  - scientific: Aetobatus narinari
-    confidence: 0.015
-  - scientific: Pomacanthus paru
-    confidence: 0.0085
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786159775.3569806
+    top:
+    - scientific: Melichthys niger
+      confidence: 0.9393
+    - scientific: Aetobatus narinari
+      confidence: 0.015
+    - scientific: Pomacanthus paru
+      confidence: 0.0085
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786159775.3569806
+    top:
+    - scientific: Aetobatus narinari
+      confidence: 0.2161
+    - scientific: Pomacanthus arcuatus
+      confidence: 0.1373
+    - scientific: Hypanus americanus
+      confidence: 0.036
 species:
 - scientific: Melichthys niger
   role: primary
-  confidence: 0.9393
+  confidence: 0.4697
   identified_by: bioclip

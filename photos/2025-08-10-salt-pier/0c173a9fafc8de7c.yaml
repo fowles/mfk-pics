@@ -12,19 +12,30 @@ date_reviewed: true
 dive_window_reviewed: true
 rotation_applied: 90
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1787176645.4693522
-  top:
-  - scientific: Heteroconger longissimus
-    confidence: 0.8546
-  - scientific: Enchelycore carychroa
-    confidence: 0.0829
-  - scientific: Pareques acuminatus
-    confidence: 0.0096
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1787176645.4693522
+    top:
+    - scientific: Heteroconger longissimus
+      confidence: 0.8546
+    - scientific: Enchelycore carychroa
+      confidence: 0.0829
+    - scientific: Pareques acuminatus
+      confidence: 0.0096
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1787176645.4693522
+    top:
+    - scientific: Stegastes partitus
+      confidence: 0.6727
+    - scientific: Ophioblennius macclurei
+      confidence: 0.1147
+    - scientific: Cephalopholis fulva
+      confidence: 0.0181
 species:
 - scientific: Heteroconger longissimus
   role: primary
-  confidence: 0.8546
+  confidence: 0.4273
   identified_by: bioclip

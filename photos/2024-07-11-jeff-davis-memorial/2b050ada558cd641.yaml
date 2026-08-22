@@ -12,19 +12,29 @@ date_reviewed: true
 dive_window_reviewed: true
 rotation_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786159557.5561872
-  top:
-  - scientific: Aulostomus maculatus
-    confidence: 0.1324
-  - scientific: Epinephelus itajara
-    confidence: 0.1117
-  - scientific: Mycteroperca tigris
-    confidence: 0.1084
-species:
-- scientific: Aulostomus maculatus
-  role: primary
-  confidence: 0.1324
-  identified_by: bioclip
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786159557.5561872
+    top:
+    - scientific: Aulostomus maculatus
+      confidence: 0.1324
+    - scientific: Epinephelus itajara
+      confidence: 0.1117
+    - scientific: Mycteroperca tigris
+      confidence: 0.1084
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786159557.5561872
+    top:
+    - scientific: Cephalopholis cruentata
+      confidence: 0.0509
+    - scientific: Elacatinus genie
+      confidence: 0.0298
+    - scientific: Epinephelus striatus
+      confidence: 0.0262
+    absorbed_by:
+      scientific: Sabellastarte magnifica
+      confidence: 0.1916
+species: []

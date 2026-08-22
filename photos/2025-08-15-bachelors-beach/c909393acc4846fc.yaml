@@ -11,19 +11,30 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786158399.0081255
-  top:
-  - scientific: Holocentrus adscensionis
-    confidence: 0.3473
-  - scientific: Sepioteuthis sepioidea
-    confidence: 0.1753
-  - scientific: Hypoplectrus indigo
-    confidence: 0.1328
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786158399.0081255
+    top:
+    - scientific: Holocentrus adscensionis
+      confidence: 0.3473
+    - scientific: Sepioteuthis sepioidea
+      confidence: 0.1753
+    - scientific: Hypoplectrus indigo
+      confidence: 0.1328
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786158399.0081255
+    top:
+    - scientific: Anisotremus surinamensis
+      confidence: 0.9568
+    - scientific: Haemulon plumierii
+      confidence: 0.0121
+    - scientific: Holocentrus adscensionis
+      confidence: 0.0078
 species:
-- scientific: Holocentrus adscensionis
+- scientific: Anisotremus surinamensis
   role: primary
-  confidence: 0.3473
-  identified_by: bioclip
+  confidence: 0.4784
+  identified_by: bioclip-2

@@ -11,20 +11,31 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786158129.150403
-  top:
-  - scientific: Aulostomus maculatus
-    confidence: 0.6518
-  - scientific: Sphyraena barracuda
-    confidence: 0.271
-  - scientific: Fistularia tabacaria
-    confidence: 0.0735
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786158129.150403
+    top:
+    - scientific: Aulostomus maculatus
+      confidence: 0.6518
+    - scientific: Sphyraena barracuda
+      confidence: 0.271
+    - scientific: Fistularia tabacaria
+      confidence: 0.0735
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1787325311.1407425
+    top:
+    - scientific: Sphyraena barracuda
+      confidence: 0.9858
+    - scientific: Fistularia tabacaria
+      confidence: 0.0072
+    - scientific: Echeneis naucrates
+      confidence: 0.0022
 species:
-- scientific: Aulostomus maculatus
+- scientific: Sphyraena barracuda
   role: primary
-  confidence: 0.6518
-  identified_by: bioclip
+  confidence: 0.9858
+  identified_by: bioclip-2
 rotation_applied: 180

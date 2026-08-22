@@ -14,19 +14,30 @@ variants:
   import_original_name: 1c0bb733bf221a0e.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786156982.678375
-  top:
-  - scientific: Caretta caretta
-    confidence: 0.3275
-  - scientific: Megalops atlanticus
-    confidence: 0.2242
-  - scientific: Chelonia mydas
-    confidence: 0.1137
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786156982.678375
+    top:
+    - scientific: Caretta caretta
+      confidence: 0.3275
+    - scientific: Megalops atlanticus
+      confidence: 0.2242
+    - scientific: Chelonia mydas
+      confidence: 0.1137
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786156982.678375
+    top:
+    - scientific: Caretta caretta
+      confidence: 0.368
+    - scientific: Chelonia mydas
+      confidence: 0.2818
+    - scientific: Eretmochelys imbricata
+      confidence: 0.1917
 species:
 - scientific: Caretta caretta
   role: primary
-  confidence: 0.3275
-  identified_by: bioclip
+  confidence: 0.3478
+  identified_by: bioclip+bioclip-2

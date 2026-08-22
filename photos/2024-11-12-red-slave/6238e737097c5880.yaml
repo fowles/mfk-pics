@@ -12,19 +12,30 @@ date_reviewed: true
 dive_window_reviewed: true
 rotation_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786156808.7416832
-  top:
-  - scientific: Scarus coelestinus
-    confidence: 0.8105
-  - scientific: Hypoplectrus nigricans
-    confidence: 0.0634
-  - scientific: Hypoplectrus chlorurus
-    confidence: 0.0105
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786156808.7416832
+    top:
+    - scientific: Scarus coelestinus
+      confidence: 0.8105
+    - scientific: Hypoplectrus nigricans
+      confidence: 0.0634
+    - scientific: Hypoplectrus chlorurus
+      confidence: 0.0105
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786156808.7416832
+    top:
+    - scientific: Clepticus parrae
+      confidence: 0.2615
+    - scientific: Chromis multilineata
+      confidence: 0.1833
+    - scientific: Melichthys niger
+      confidence: 0.1423
 species:
 - scientific: Scarus coelestinus
   role: primary
-  confidence: 0.8105
+  confidence: 0.4052
   identified_by: bioclip

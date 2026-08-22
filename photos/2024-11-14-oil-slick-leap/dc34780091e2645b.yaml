@@ -14,19 +14,30 @@ variants:
   import_original_name: 13c56c344a734a97.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786156899.0222993
-  top:
-  - scientific: Diodon hystrix
-    confidence: 0.3401
-  - scientific: Ginglymostoma cirratum
-    confidence: 0.1591
-  - scientific: Epinephelus striatus
-    confidence: 0.144
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786156899.0222993
+    top:
+    - scientific: Diodon hystrix
+      confidence: 0.3401
+    - scientific: Ginglymostoma cirratum
+      confidence: 0.1591
+    - scientific: Epinephelus striatus
+      confidence: 0.144
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786156899.0222993
+    top:
+    - scientific: Canthidermis sufflamen
+      confidence: 0.4486
+    - scientific: Ginglymostoma cirratum
+      confidence: 0.0434
+    - scientific: Pseudupeneus maculatus
+      confidence: 0.0415
 species:
-- scientific: Diodon hystrix
+- scientific: Canthidermis sufflamen
   role: primary
-  confidence: 0.3401
-  identified_by: bioclip
+  confidence: 0.2243
+  identified_by: bioclip-2

@@ -14,19 +14,30 @@ variants:
   import_original_name: 71e38285a24d38bf.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786156982.6410758
-  top:
-  - scientific: Hypanus americanus
-    confidence: 0.4684
-  - scientific: Heteroconger longissimus
-    confidence: 0.1253
-  - scientific: Bothus lunatus
-    confidence: 0.0819
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786156982.6410758
+    top:
+    - scientific: Hypanus americanus
+      confidence: 0.4684
+    - scientific: Heteroconger longissimus
+      confidence: 0.1253
+    - scientific: Bothus lunatus
+      confidence: 0.0819
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786156982.6410758
+    top:
+    - scientific: Sepioteuthis sepioidea
+      confidence: 0.4468
+    - scientific: Heteroconger longissimus
+      confidence: 0.3705
+    - scientific: Dactylopterus volitans
+      confidence: 0.0262
 species:
-- scientific: Hypanus americanus
+- scientific: Heteroconger longissimus
   role: primary
-  confidence: 0.4684
-  identified_by: bioclip
+  confidence: 0.2479
+  identified_by: bioclip+bioclip-2

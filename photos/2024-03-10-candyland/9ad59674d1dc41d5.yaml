@@ -11,19 +11,30 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786158860.7917047
-  top:
-  - scientific: Equetus punctatus
-    confidence: 0.9862
-  - scientific: Amblycirrhitus pinos
-    confidence: 0.0055
-  - scientific: Pareques acuminatus
-    confidence: 0.0052
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786158860.7917047
+    top:
+    - scientific: Equetus punctatus
+      confidence: 0.9862
+    - scientific: Amblycirrhitus pinos
+      confidence: 0.0055
+    - scientific: Pareques acuminatus
+      confidence: 0.0052
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786158860.7917047
+    top:
+    - scientific: Equetus punctatus
+      confidence: 0.9753
+    - scientific: Pomacanthus arcuatus
+      confidence: 0.0042
+    - scientific: Hypoplectrus indigo
+      confidence: 0.0038
 species:
 - scientific: Equetus punctatus
   role: primary
-  confidence: 0.9862
-  identified_by: bioclip
+  confidence: 0.9808
+  identified_by: bioclip+bioclip-2

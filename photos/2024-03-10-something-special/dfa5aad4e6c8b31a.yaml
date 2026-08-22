@@ -14,19 +14,33 @@ variants:
   import_original_name: 593b9bb634de44bf.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786159067.61197
-  top:
-  - scientific: Cephalopholis fulva
-    confidence: 0.2954
-  - scientific: Gymnothorax miliaris
-    confidence: 0.1554
-  - scientific: Haemulon chrysargyreum
-    confidence: 0.1551
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786159067.61197
+    top:
+    - scientific: Cephalopholis fulva
+      confidence: 0.2954
+    - scientific: Gymnothorax miliaris
+      confidence: 0.1554
+    - scientific: Haemulon chrysargyreum
+      confidence: 0.1551
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786159067.61197
+    top:
+    - scientific: Gymnothorax miliaris
+      confidence: 0.0872
+    - scientific: Cephalopholis fulva
+      confidence: 0.0795
+    - scientific: Stegastes planifrons
+      confidence: 0.0662
+    absorbed_by:
+      scientific: Orbicella annularis
+      confidence: 0.2055
 species:
 - scientific: Cephalopholis fulva
   role: primary
-  confidence: 0.2954
-  identified_by: bioclip
+  confidence: 0.1875
+  identified_by: bioclip+bioclip-2

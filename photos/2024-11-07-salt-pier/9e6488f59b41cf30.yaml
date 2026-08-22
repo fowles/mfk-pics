@@ -11,19 +11,30 @@ variants:
   import_original_name: b836a9a09218c59e.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786156339.092657
-  top:
-  - scientific: Mycteroperca venenosa
-    confidence: 0.3192
-  - scientific: Synodus intermedius
-    confidence: 0.302
-  - scientific: Sphoeroides spengleri
-    confidence: 0.1359
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786156339.092657
+    top:
+    - scientific: Mycteroperca venenosa
+      confidence: 0.3192
+    - scientific: Synodus intermedius
+      confidence: 0.302
+    - scientific: Sphoeroides spengleri
+      confidence: 0.1359
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786156339.092657
+    top:
+    - scientific: Synodus intermedius
+      confidence: 0.9922
+    - scientific: Dactylopterus volitans
+      confidence: 0.0028
+    - scientific: Serranus tigrinus
+      confidence: 0.001
 species:
-- scientific: Mycteroperca venenosa
+- scientific: Synodus intermedius
   role: primary
-  confidence: 0.3192
-  identified_by: bioclip
+  confidence: 0.6471
+  identified_by: bioclip+bioclip-2

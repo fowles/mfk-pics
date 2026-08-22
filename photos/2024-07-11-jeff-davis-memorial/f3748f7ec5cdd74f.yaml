@@ -11,17 +11,31 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786159559.6629755
-  top:
-  - scientific: Chaetodon striatus
-    confidence: 0.0992
-  - scientific: Aulostomus maculatus
-    confidence: 0.0448
-  - scientific: Sepioteuthis sepioidea
-    confidence: 0.0305
-  absorbed_by:
-    scientific: Briareum asbestinum
-    confidence: 0.5758
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786159559.6629755
+    top:
+    - scientific: Chaetodon striatus
+      confidence: 0.0992
+    - scientific: Aulostomus maculatus
+      confidence: 0.0448
+    - scientific: Sepioteuthis sepioidea
+      confidence: 0.0305
+    absorbed_by:
+      scientific: Briareum asbestinum
+      confidence: 0.5758
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786159559.6629755
+    top:
+    - scientific: Cyphoma gibbosum
+      confidence: 0.0162
+    - scientific: Aulostomus maculatus
+      confidence: 0.0137
+    - scientific: Chromis cyanea
+      confidence: 0.0077
+    absorbed_by:
+      scientific: Briareum asbestinum
+      confidence: 0.42

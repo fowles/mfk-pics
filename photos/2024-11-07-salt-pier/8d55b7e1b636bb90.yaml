@@ -11,19 +11,30 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786156324.4321532
-  top:
-  - scientific: Malacanthus plumieri
-    confidence: 0.9549
-  - scientific: Cephalopholis fulva
-    confidence: 0.0103
-  - scientific: Diodon hystrix
-    confidence: 0.005
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786156324.4321532
+    top:
+    - scientific: Malacanthus plumieri
+      confidence: 0.9549
+    - scientific: Cephalopholis fulva
+      confidence: 0.0103
+    - scientific: Diodon hystrix
+      confidence: 0.005
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786156324.4321532
+    top:
+    - scientific: Cephalopholis fulva
+      confidence: 0.3198
+    - scientific: Rypticus saponaceus
+      confidence: 0.2514
+    - scientific: Cephalopholis cruentata
+      confidence: 0.0943
 species:
 - scientific: Malacanthus plumieri
   role: primary
-  confidence: 0.9549
+  confidence: 0.4774
   identified_by: bioclip

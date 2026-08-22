@@ -12,19 +12,30 @@ variants:
 date_reviewed: true
 rotation_applied: 270
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1787029560.7762904
-  top:
-  - scientific: Amblycirrhitus pinos
-    confidence: 0.605
-  - scientific: Serranus tigrinus
-    confidence: 0.1168
-  - scientific: Canthigaster rostrata
-    confidence: 0.0362
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1787029560.7762904
+    top:
+    - scientific: Amblycirrhitus pinos
+      confidence: 0.605
+    - scientific: Serranus tigrinus
+      confidence: 0.1168
+    - scientific: Canthigaster rostrata
+      confidence: 0.0362
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1787029560.7762904
+    top:
+    - scientific: Sepioteuthis sepioidea
+      confidence: 0.1745
+    - scientific: Cephalopholis cruentata
+      confidence: 0.0794
+    - scientific: Cephalopholis fulva
+      confidence: 0.0744
 species:
 - scientific: Amblycirrhitus pinos
   role: primary
-  confidence: 0.605
+  confidence: 0.3025
   identified_by: bioclip

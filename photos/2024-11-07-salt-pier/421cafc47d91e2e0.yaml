@@ -7,19 +7,30 @@ import_album: 2024-11-07, Bonaire, Salt Pier
 import_original_name: PXL_20241107_134712156.NIGHT.jpg
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786156333.6700673
-  top:
-  - scientific: Lactophrys triqueter
-    confidence: 0.9118
-  - scientific: Sparisoma viride
-    confidence: 0.0332
-  - scientific: Gymnothorax moringa
-    confidence: 0.0114
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786156333.6700673
+    top:
+    - scientific: Lactophrys triqueter
+      confidence: 0.9118
+    - scientific: Sparisoma viride
+      confidence: 0.0332
+    - scientific: Gymnothorax moringa
+      confidence: 0.0114
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786156333.6700673
+    top:
+    - scientific: Aluterus scriptus
+      confidence: 0.3005
+    - scientific: Caranx crysos
+      confidence: 0.0692
+    - scientific: Caranx ruber
+      confidence: 0.0501
 species:
 - scientific: Lactophrys triqueter
   role: primary
-  confidence: 0.9118
+  confidence: 0.4559
   identified_by: bioclip

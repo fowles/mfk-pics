@@ -11,19 +11,30 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786158396.8375695
-  top:
-  - scientific: Haemulon macrostomum
-    confidence: 0.4091
-  - scientific: Haemulon sciurus
-    confidence: 0.1451
-  - scientific: Cantherhines pullus
-    confidence: 0.1081
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786158396.8375695
+    top:
+    - scientific: Haemulon macrostomum
+      confidence: 0.4091
+    - scientific: Haemulon sciurus
+      confidence: 0.1451
+    - scientific: Cantherhines pullus
+      confidence: 0.1081
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786158396.8375695
+    top:
+    - scientific: Cantherhines pullus
+      confidence: 0.5589
+    - scientific: Bodianus rufus
+      confidence: 0.2308
+    - scientific: Haemulon macrostomum
+      confidence: 0.1095
 species:
-- scientific: Haemulon macrostomum
+- scientific: Cantherhines pullus
   role: primary
-  confidence: 0.4091
-  identified_by: bioclip
+  confidence: 0.3335
+  identified_by: bioclip+bioclip-2

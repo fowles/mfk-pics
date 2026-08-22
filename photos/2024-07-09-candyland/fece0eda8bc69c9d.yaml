@@ -11,19 +11,33 @@ variants:
   import_original_name: 4283c4a062c45a7b.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786159179.9914293
-  top:
-  - scientific: Gymnothorax funebris
-    confidence: 0.488
-  - scientific: Serranus tigrinus
-    confidence: 0.0942
-  - scientific: Hypoplectrus puella
-    confidence: 0.0941
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786159179.9914293
+    top:
+    - scientific: Gymnothorax funebris
+      confidence: 0.488
+    - scientific: Serranus tigrinus
+      confidence: 0.0942
+    - scientific: Hypoplectrus puella
+      confidence: 0.0941
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786159179.9914293
+    top:
+    - scientific: Sparisoma viride
+      confidence: 0.0112
+    - scientific: Thalassoma bifasciatum
+      confidence: 0.0091
+    - scientific: Cephalopholis cruentata
+      confidence: 0.0074
+    absorbed_by:
+      scientific: Orbicella annularis
+      confidence: 0.3223
 species:
 - scientific: Gymnothorax funebris
   role: primary
-  confidence: 0.488
+  confidence: 0.244
   identified_by: bioclip

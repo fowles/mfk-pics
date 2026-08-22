@@ -14,19 +14,30 @@ variants:
   import_original_name: 67b2ea6708a50b9f.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786156585.703695
-  top:
-  - scientific: Hypanus americanus
-    confidence: 0.6587
-  - scientific: Fistularia tabacaria
-    confidence: 0.1839
-  - scientific: Bothus lunatus
-    confidence: 0.0849
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786156585.703695
+    top:
+    - scientific: Hypanus americanus
+      confidence: 0.6587
+    - scientific: Fistularia tabacaria
+      confidence: 0.1839
+    - scientific: Bothus lunatus
+      confidence: 0.0849
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786156585.703695
+    top:
+    - scientific: Chaetodon striatus
+      confidence: 0.1412
+    - scientific: Urobatis jamaicensis
+      confidence: 0.0855
+    - scientific: Lactophrys bicaudalis
+      confidence: 0.0762
 species:
 - scientific: Hypanus americanus
   role: primary
-  confidence: 0.6587
+  confidence: 0.3293
   identified_by: bioclip

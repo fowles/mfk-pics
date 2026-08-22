@@ -11,19 +11,30 @@ variants:
   import_original_name: 52d3c6e9685a5f86.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786156577.1512842
-  top:
-  - scientific: Megalops atlanticus
-    confidence: 0.7198
-  - scientific: Scomberomorus regalis
-    confidence: 0.1487
-  - scientific: Malacanthus plumieri
-    confidence: 0.1172
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786156577.1512842
+    top:
+    - scientific: Megalops atlanticus
+      confidence: 0.7198
+    - scientific: Scomberomorus regalis
+      confidence: 0.1487
+    - scientific: Malacanthus plumieri
+      confidence: 0.1172
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786156577.1512842
+    top:
+    - scientific: Megalops atlanticus
+      confidence: 0.9988
+    - scientific: Trachinotus goodei
+      confidence: 0.0007
+    - scientific: Sphyrna mokarran
+      confidence: 0.0002
 species:
 - scientific: Megalops atlanticus
   role: primary
-  confidence: 0.7198
-  identified_by: bioclip
+  confidence: 0.8593
+  identified_by: bioclip+bioclip-2

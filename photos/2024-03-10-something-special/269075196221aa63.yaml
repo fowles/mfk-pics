@@ -11,19 +11,33 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786159060.9162514
-  top:
-  - scientific: Thalassoma bifasciatum
-    confidence: 0.12
-  - scientific: Sparisoma viride
-    confidence: 0.1136
-  - scientific: Epinephelus itajara
-    confidence: 0.1074
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786159060.9162514
+    top:
+    - scientific: Thalassoma bifasciatum
+      confidence: 0.12
+    - scientific: Sparisoma viride
+      confidence: 0.1136
+    - scientific: Epinephelus itajara
+      confidence: 0.1074
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786159060.9162514
+    top:
+    - scientific: Pterois volitans
+      confidence: 0.0395
+    - scientific: Holacanthus tricolor
+      confidence: 0.0318
+    - scientific: Heteropriacanthus cruentatus
+      confidence: 0.0284
+    absorbed_by:
+      scientific: Porites astreoides
+      confidence: 0.0509
 species:
 - scientific: Thalassoma bifasciatum
   role: primary
-  confidence: 0.12
+  confidence: 0.06
   identified_by: bioclip

@@ -11,19 +11,30 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786158857.5810802
-  top:
-  - scientific: Megalops atlanticus
-    confidence: 0.7028
-  - scientific: Kyphosus sectatrix
-    confidence: 0.2924
-  - scientific: Caranx latus
-    confidence: 0.0014
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786158857.5810802
+    top:
+    - scientific: Megalops atlanticus
+      confidence: 0.7028
+    - scientific: Kyphosus sectatrix
+      confidence: 0.2924
+    - scientific: Caranx latus
+      confidence: 0.0014
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786158857.5810802
+    top:
+    - scientific: Megalops atlanticus
+      confidence: 0.5834
+    - scientific: Scomberomorus regalis
+      confidence: 0.4022
+    - scientific: Sphyraena barracuda
+      confidence: 0.0078
 species:
 - scientific: Megalops atlanticus
   role: primary
-  confidence: 0.7028
-  identified_by: bioclip
+  confidence: 0.6431
+  identified_by: bioclip+bioclip-2

@@ -12,19 +12,30 @@ date_reviewed: true
 dive_window_reviewed: true
 rotation_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786158228.1670105
-  top:
-  - scientific: Aulostomus maculatus
-    confidence: 0.7035
-  - scientific: Equetus punctatus
-    confidence: 0.1023
-  - scientific: Echeneis naucrates
-    confidence: 0.075
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786158228.1670105
+    top:
+    - scientific: Aulostomus maculatus
+      confidence: 0.7035
+    - scientific: Equetus punctatus
+      confidence: 0.1023
+    - scientific: Echeneis naucrates
+      confidence: 0.075
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786158228.1670105
+    top:
+    - scientific: Aulostomus maculatus
+      confidence: 0.9913
+    - scientific: Equetus punctatus
+      confidence: 0.0051
+    - scientific: Echeneis naucrates
+      confidence: 0.0012
 species:
 - scientific: Aulostomus maculatus
   role: primary
-  confidence: 0.7035
-  identified_by: bioclip
+  confidence: 0.8474
+  identified_by: bioclip+bioclip-2

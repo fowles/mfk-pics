@@ -11,19 +11,30 @@ variants:
   import_original_name: 00e5e31e811fbbe5.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786156898.2897885
-  top:
-  - scientific: Aluterus scriptus
-    confidence: 0.6207
-  - scientific: Sparisoma viride
-    confidence: 0.259
-  - scientific: Acanthostracion quadricornis
-    confidence: 0.1029
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786156898.2897885
+    top:
+    - scientific: Aluterus scriptus
+      confidence: 0.6207
+    - scientific: Sparisoma viride
+      confidence: 0.259
+    - scientific: Acanthostracion quadricornis
+      confidence: 0.1029
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786156898.2897885
+    top:
+    - scientific: Aluterus scriptus
+      confidence: 0.8713
+    - scientific: Acanthostracion polygonius
+      confidence: 0.0645
+    - scientific: Acanthostracion quadricornis
+      confidence: 0.0523
 species:
 - scientific: Aluterus scriptus
   role: primary
-  confidence: 0.6207
-  identified_by: bioclip
+  confidence: 0.746
+  identified_by: bioclip+bioclip-2

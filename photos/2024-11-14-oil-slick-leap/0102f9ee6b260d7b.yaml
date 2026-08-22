@@ -14,19 +14,30 @@ variants:
   import_original_name: 96ffe9833f95928c.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786156902.234426
-  top:
-  - scientific: Lactophrys triqueter
-    confidence: 0.5928
-  - scientific: Melichthys niger
-    confidence: 0.2613
-  - scientific: Megalops atlanticus
-    confidence: 0.0593
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786156902.234426
+    top:
+    - scientific: Lactophrys triqueter
+      confidence: 0.5928
+    - scientific: Melichthys niger
+      confidence: 0.2613
+    - scientific: Megalops atlanticus
+      confidence: 0.0593
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786156902.234426
+    top:
+    - scientific: Apogon maculatus
+      confidence: 0.0922
+    - scientific: Heteroconger longissimus
+      confidence: 0.0365
+    - scientific: Caranx ruber
+      confidence: 0.0349
 species:
 - scientific: Lactophrys triqueter
   role: primary
-  confidence: 0.5928
+  confidence: 0.2964
   identified_by: bioclip

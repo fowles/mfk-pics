@@ -14,19 +14,30 @@ variants:
   import_original_name: 1ca4a4afbd035af3.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786156585.7056994
-  top:
-  - scientific: Acanthostracion polygonius
-    confidence: 0.2021
-  - scientific: Ginglymostoma cirratum
-    confidence: 0.121
-  - scientific: Aulostomus maculatus
-    confidence: 0.1141
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786156585.7056994
+    top:
+    - scientific: Acanthostracion polygonius
+      confidence: 0.2021
+    - scientific: Ginglymostoma cirratum
+      confidence: 0.121
+    - scientific: Aulostomus maculatus
+      confidence: 0.1141
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786156585.7056994
+    top:
+    - scientific: Serranus tigrinus
+      confidence: 0.7827
+    - scientific: Sparisoma viride
+      confidence: 0.0734
+    - scientific: Mycteroperca tigris
+      confidence: 0.0367
 species:
-- scientific: Acanthostracion polygonius
+- scientific: Serranus tigrinus
   role: primary
-  confidence: 0.2021
-  identified_by: bioclip
+  confidence: 0.3913
+  identified_by: bioclip-2

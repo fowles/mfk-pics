@@ -11,19 +11,30 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786156309.8177476
-  top:
-  - scientific: Fistularia tabacaria
-    confidence: 0.6277
-  - scientific: Selar crumenophthalmus
-    confidence: 0.1288
-  - scientific: Aulostomus maculatus
-    confidence: 0.0821
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786156309.8177476
+    top:
+    - scientific: Fistularia tabacaria
+      confidence: 0.6277
+    - scientific: Selar crumenophthalmus
+      confidence: 0.1288
+    - scientific: Aulostomus maculatus
+      confidence: 0.0821
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786156309.8177476
+    top:
+    - scientific: Fistularia tabacaria
+      confidence: 0.9046
+    - scientific: Sphyraena barracuda
+      confidence: 0.0422
+    - scientific: Aulostomus maculatus
+      confidence: 0.0248
 species:
 - scientific: Fistularia tabacaria
   role: primary
-  confidence: 0.6277
-  identified_by: bioclip
+  confidence: 0.7661
+  identified_by: bioclip+bioclip-2

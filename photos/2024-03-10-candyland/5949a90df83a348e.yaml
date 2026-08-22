@@ -14,19 +14,30 @@ variants:
   import_original_name: d55a12e874d71213.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786158873.1693547
-  top:
-  - scientific: Melichthys niger
-    confidence: 0.445
-  - scientific: Mycteroperca venenosa
-    confidence: 0.3331
-  - scientific: Chaetodipterus faber
-    confidence: 0.0909
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786158873.1693547
+    top:
+    - scientific: Melichthys niger
+      confidence: 0.445
+    - scientific: Mycteroperca venenosa
+      confidence: 0.3331
+    - scientific: Chaetodipterus faber
+      confidence: 0.0909
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786158873.1693547
+    top:
+    - scientific: Kyphosus sectatrix
+      confidence: 0.5172
+    - scientific: Canthidermis sufflamen
+      confidence: 0.1294
+    - scientific: Anisotremus surinamensis
+      confidence: 0.0699
 species:
-- scientific: Melichthys niger
+- scientific: Kyphosus sectatrix
   role: primary
-  confidence: 0.445
-  identified_by: bioclip
+  confidence: 0.2586
+  identified_by: bioclip-2

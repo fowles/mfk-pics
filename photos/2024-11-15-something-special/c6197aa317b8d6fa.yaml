@@ -14,19 +14,30 @@ variants:
   import_original_name: ae8fa42f71335252.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786157214.529723
-  top:
-  - scientific: Aulostomus maculatus
-    confidence: 0.3495
-  - scientific: Gymnothorax funebris
-    confidence: 0.2926
-  - scientific: Diodon holocanthus
-    confidence: 0.0467
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786157214.529723
+    top:
+    - scientific: Aulostomus maculatus
+      confidence: 0.3495
+    - scientific: Gymnothorax funebris
+      confidence: 0.2926
+    - scientific: Diodon holocanthus
+      confidence: 0.0467
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786157214.529723
+    top:
+    - scientific: Myrichthys breviceps
+      confidence: 0.395
+    - scientific: Myrichthys ocellatus
+      confidence: 0.0516
+    - scientific: Enchelycore carychroa
+      confidence: 0.0346
 species:
-- scientific: Aulostomus maculatus
+- scientific: Myrichthys breviceps
   role: primary
-  confidence: 0.3495
-  identified_by: bioclip
+  confidence: 0.1975
+  identified_by: bioclip-2

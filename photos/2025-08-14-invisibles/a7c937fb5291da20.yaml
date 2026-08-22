@@ -11,19 +11,30 @@ variants:
   import_original_name: 9be40f8104e59c1f.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786158236.3771837
-  top:
-  - scientific: Gymnothorax moringa
-    confidence: 0.9113
-  - scientific: Lactophrys triqueter
-    confidence: 0.0559
-  - scientific: Diadema antillarum
-    confidence: 0.0045
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786158236.3771837
+    top:
+    - scientific: Gymnothorax moringa
+      confidence: 0.9113
+    - scientific: Lactophrys triqueter
+      confidence: 0.0559
+    - scientific: Diadema antillarum
+      confidence: 0.0045
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786158236.3771837
+    top:
+    - scientific: Gymnothorax moringa
+      confidence: 0.9091
+    - scientific: Echidna catenata
+      confidence: 0.0687
+    - scientific: Cephalopholis cruentata
+      confidence: 0.002
 species:
 - scientific: Gymnothorax moringa
   role: primary
-  confidence: 0.9113
-  identified_by: bioclip
+  confidence: 0.9102
+  identified_by: bioclip+bioclip-2

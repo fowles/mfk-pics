@@ -14,19 +14,30 @@ variants:
   import_original_name: 1c6de87a6ccd4ff4.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786157280.4297132
-  top:
-  - scientific: Gymnothorax funebris
-    confidence: 0.2229
-  - scientific: Gymnothorax miliaris
-    confidence: 0.2132
-  - scientific: Heteroconger longissimus
-    confidence: 0.1373
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786157280.4297132
+    top:
+    - scientific: Gymnothorax funebris
+      confidence: 0.2229
+    - scientific: Gymnothorax miliaris
+      confidence: 0.2132
+    - scientific: Heteroconger longissimus
+      confidence: 0.1373
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786157280.4297132
+    top:
+    - scientific: Holacanthus tricolor
+      confidence: 0.3763
+    - scientific: Hypoplectrus chlorurus
+      confidence: 0.2594
+    - scientific: Microspathodon chrysurus
+      confidence: 0.2463
 species:
-- scientific: Gymnothorax funebris
+- scientific: Holacanthus tricolor
   role: primary
-  confidence: 0.2229
-  identified_by: bioclip
+  confidence: 0.1882
+  identified_by: bioclip-2

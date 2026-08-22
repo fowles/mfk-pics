@@ -11,19 +11,30 @@ variants:
   import_original_name: f150e879e1ff31e7.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786157879.8214376
-  top:
-  - scientific: Gymnothorax moringa
-    confidence: 0.7615
-  - scientific: Gymnothorax miliaris
-    confidence: 0.1062
-  - scientific: Synodus intermedius
-    confidence: 0.046
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786157879.8214376
+    top:
+    - scientific: Gymnothorax moringa
+      confidence: 0.7615
+    - scientific: Gymnothorax miliaris
+      confidence: 0.1062
+    - scientific: Synodus intermedius
+      confidence: 0.046
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786157879.8214376
+    top:
+    - scientific: Gymnothorax moringa
+      confidence: 0.8937
+    - scientific: Gymnothorax miliaris
+      confidence: 0.0643
+    - scientific: Equetus punctatus
+      confidence: 0.0108
 species:
 - scientific: Gymnothorax moringa
   role: primary
-  confidence: 0.7615
-  identified_by: bioclip
+  confidence: 0.8276
+  identified_by: bioclip+bioclip-2

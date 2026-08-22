@@ -14,17 +14,28 @@ variants:
   import_original_name: 4f8ac63313e64100.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786156899.6415906
-  top:
-  - scientific: Canthidermis sufflamen
-    confidence: 0.2081
-  - scientific: Melichthys niger
-    confidence: 0.1676
-  - scientific: Acanthurus chirurgus
-    confidence: 0.1389
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786156899.6415906
+    top:
+    - scientific: Canthidermis sufflamen
+      confidence: 0.2081
+    - scientific: Melichthys niger
+      confidence: 0.1676
+    - scientific: Acanthurus chirurgus
+      confidence: 0.1389
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:41:08Z'
+    src_mtime: 1786156899.6415906
+    top:
+    - scientific: Kyphosus sectatrix
+      confidence: 0.1686
+    - scientific: Scarus vetula
+      confidence: 0.1577
+    - scientific: Balistes vetula
+      confidence: 0.0884
 species:
 - scientific: Acanthostracion polygonius
   role: primary

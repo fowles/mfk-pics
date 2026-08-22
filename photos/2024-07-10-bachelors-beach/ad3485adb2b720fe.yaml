@@ -14,17 +14,33 @@ variants:
   import_original_name: e3cfe71468fc617d.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786158742.2029808
-  top:
-  - scientific: Monacanthus tuckeri
-    confidence: 0.0618
-  - scientific: Stegastes partitus
-    confidence: 0.0225
-  - scientific: Hippocampus erectus
-    confidence: 0.015
-  absorbed_by:
-    scientific: Cirrhipathes leutkeni
-    confidence: 0.8843
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786158742.2029808
+    top:
+    - scientific: Monacanthus tuckeri
+      confidence: 0.0618
+    - scientific: Stegastes partitus
+      confidence: 0.0225
+    - scientific: Hippocampus erectus
+      confidence: 0.015
+    absorbed_by:
+      scientific: Cirrhipathes leutkeni
+      confidence: 0.8843
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786158742.2029808
+    top:
+    - scientific: Hippocampus reidi
+      confidence: 0.9458
+    - scientific: Hippocampus erectus
+      confidence: 0.0495
+    - scientific: Aulostomus maculatus
+      confidence: 0.0009
+species:
+- scientific: Hippocampus reidi
+  role: primary
+  confidence: 0.4729
+  identified_by: bioclip-2

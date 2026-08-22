@@ -11,19 +11,30 @@ variants:
   import_original_name: acf6474d0a22c9fb.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786158186.273769
-  top:
-  - scientific: Carcharhinus perezi
-    confidence: 0.6869
-  - scientific: Aetobatus narinari
-    confidence: 0.2819
-  - scientific: Ginglymostoma cirratum
-    confidence: 0.0149
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786158186.273769
+    top:
+    - scientific: Carcharhinus perezi
+      confidence: 0.6869
+    - scientific: Aetobatus narinari
+      confidence: 0.2819
+    - scientific: Ginglymostoma cirratum
+      confidence: 0.0149
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786158186.273769
+    top:
+    - scientific: Sphyrna mokarran
+      confidence: 0.893
+    - scientific: Galeocerdo cuvier
+      confidence: 0.0306
+    - scientific: Carcharhinus perezi
+      confidence: 0.0304
 species:
-- scientific: Carcharhinus perezi
+- scientific: Sphyrna mokarran
   role: primary
-  confidence: 0.6869
-  identified_by: bioclip
+  confidence: 0.4465
+  identified_by: bioclip-2

@@ -11,19 +11,30 @@ variants:
   import_original_name: af363c2313914490.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786158336.4534593
-  top:
-  - scientific: Trachinotus goodei
-    confidence: 0.8497
-  - scientific: Hypanus americanus
-    confidence: 0.0867
-  - scientific: Aetobatus narinari
-    confidence: 0.056
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786158336.4534593
+    top:
+    - scientific: Trachinotus goodei
+      confidence: 0.8497
+    - scientific: Hypanus americanus
+      confidence: 0.0867
+    - scientific: Aetobatus narinari
+      confidence: 0.056
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786158336.4534593
+    top:
+    - scientific: Hypanus americanus
+      confidence: 0.968
+    - scientific: Trachinotus goodei
+      confidence: 0.0171
+    - scientific: Caranx ruber
+      confidence: 0.0083
 species:
-- scientific: Trachinotus goodei
+- scientific: Hypanus americanus
   role: primary
-  confidence: 0.8497
-  identified_by: bioclip
+  confidence: 0.5273
+  identified_by: bioclip+bioclip-2

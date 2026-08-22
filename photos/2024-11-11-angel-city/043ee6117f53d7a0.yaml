@@ -14,19 +14,30 @@ variants:
   import_original_name: 88c28baad3f7151d.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786156747.7072387
-  top:
-  - scientific: Pomacanthus paru
-    confidence: 0.3793
-  - scientific: Elacatinus evelynae
-    confidence: 0.204
-  - scientific: Elacatinus genie
-    confidence: 0.186
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786156747.7072387
+    top:
+    - scientific: Pomacanthus paru
+      confidence: 0.3793
+    - scientific: Elacatinus evelynae
+      confidence: 0.204
+    - scientific: Elacatinus genie
+      confidence: 0.186
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786156747.7072387
+    top:
+    - scientific: Holacanthus tricolor
+      confidence: 0.2236
+    - scientific: Microspathodon chrysurus
+      confidence: 0.1405
+    - scientific: Haemulon macrostomum
+      confidence: 0.0929
 species:
 - scientific: Pomacanthus paru
   role: primary
-  confidence: 0.3793
+  confidence: 0.1897
   identified_by: bioclip

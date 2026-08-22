@@ -11,19 +11,30 @@ variants:
   import_original_name: 00ff5c2b0900117b.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786156978.3208697
-  top:
-  - scientific: Urobatis jamaicensis
-    confidence: 0.3077
-  - scientific: Hypanus americanus
-    confidence: 0.2155
-  - scientific: Acanthostracion polygonius
-    confidence: 0.1945
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786156978.3208697
+    top:
+    - scientific: Urobatis jamaicensis
+      confidence: 0.3077
+    - scientific: Hypanus americanus
+      confidence: 0.2155
+    - scientific: Acanthostracion polygonius
+      confidence: 0.1945
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786156978.3208697
+    top:
+    - scientific: Myrichthys breviceps
+      confidence: 0.6505
+    - scientific: Gymnothorax moringa
+      confidence: 0.1385
+    - scientific: Myrichthys ocellatus
+      confidence: 0.0827
 species:
-- scientific: Urobatis jamaicensis
+- scientific: Myrichthys breviceps
   role: primary
-  confidence: 0.3077
-  identified_by: bioclip
+  confidence: 0.3252
+  identified_by: bioclip-2

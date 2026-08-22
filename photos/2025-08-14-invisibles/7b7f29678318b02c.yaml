@@ -11,20 +11,31 @@ variants:
   import_original_name: ce42cc62c5a2010f.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786158236.183979
-  top:
-  - scientific: Gymnothorax funebris
-    confidence: 0.5129
-  - scientific: Enchelycore carychroa
-    confidence: 0.1464
-  - scientific: Diodon holocanthus
-    confidence: 0.0496
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786158236.183979
+    top:
+    - scientific: Gymnothorax funebris
+      confidence: 0.5129
+    - scientific: Enchelycore carychroa
+      confidence: 0.1464
+    - scientific: Diodon holocanthus
+      confidence: 0.0496
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1787325219.569603
+    top:
+    - scientific: Gymnothorax moringa
+      confidence: 0.2299
+    - scientific: Gymnothorax miliaris
+      confidence: 0.2002
+    - scientific: Enchelycore carychroa
+      confidence: 0.0979
 species:
-- scientific: Gymnothorax funebris
+- scientific: Gymnothorax moringa
   role: primary
-  confidence: 0.5129
-  identified_by: bioclip
+  confidence: 0.2299
+  identified_by: bioclip-2
 rotation_applied: 90

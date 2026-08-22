@@ -14,19 +14,30 @@ variants:
   import_original_name: 0e11e89a3d9b8f34.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786157493.7284126
-  top:
-  - scientific: Acanthostracion polygonius
-    confidence: 0.8212
-  - scientific: Bothus lunatus
-    confidence: 0.1039
-  - scientific: Chilomycterus schoepfii
-    confidence: 0.0411
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786157493.7284126
+    top:
+    - scientific: Acanthostracion polygonius
+      confidence: 0.8212
+    - scientific: Bothus lunatus
+      confidence: 0.1039
+    - scientific: Chilomycterus schoepfii
+      confidence: 0.0411
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786157493.7284126
+    top:
+    - scientific: Diodon holocanthus
+      confidence: 0.2879
+    - scientific: Chilomycterus antillarum
+      confidence: 0.1936
+    - scientific: Chilomycterus schoepfii
+      confidence: 0.102
 species:
 - scientific: Acanthostracion polygonius
   role: primary
-  confidence: 0.8212
+  confidence: 0.4106
   identified_by: bioclip

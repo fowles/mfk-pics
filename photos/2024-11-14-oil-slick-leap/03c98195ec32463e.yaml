@@ -14,19 +14,33 @@ variants:
   import_original_name: f824740a29fedbfe.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786156900.5060093
-  top:
-  - scientific: Gymnothorax funebris
-    confidence: 0.6813
-  - scientific: Chaetodon sedentarius
-    confidence: 0.0237
-  - scientific: Sparisoma viride
-    confidence: 0.0142
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786156900.5060093
+    top:
+    - scientific: Gymnothorax funebris
+      confidence: 0.6813
+    - scientific: Chaetodon sedentarius
+      confidence: 0.0237
+    - scientific: Sparisoma viride
+      confidence: 0.0142
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786156900.5060093
+    top:
+    - scientific: Cephalopholis cruentata
+      confidence: 0.0957
+    - scientific: Gymnothorax funebris
+      confidence: 0.0312
+    - scientific: Holacanthus tricolor
+      confidence: 0.0282
+    absorbed_by:
+      scientific: Orbicella annularis
+      confidence: 0.1336
 species:
 - scientific: Gymnothorax funebris
   role: primary
-  confidence: 0.6813
-  identified_by: bioclip
+  confidence: 0.3563
+  identified_by: bioclip+bioclip-2

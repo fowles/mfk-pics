@@ -14,19 +14,30 @@ variants:
   import_original_name: 71f710218b137d17.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786157214.917391
-  top:
-  - scientific: Opistognathus aurifrons
-    confidence: 0.7628
-  - scientific: Thalassoma bifasciatum
-    confidence: 0.1266
-  - scientific: Chaetodon sedentarius
-    confidence: 0.0595
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786157214.917391
+    top:
+    - scientific: Opistognathus aurifrons
+      confidence: 0.7628
+    - scientific: Thalassoma bifasciatum
+      confidence: 0.1266
+    - scientific: Chaetodon sedentarius
+      confidence: 0.0595
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786157214.917391
+    top:
+    - scientific: Chaetodon capistratus
+      confidence: 0.1117
+    - scientific: Hypoplectrus unicolor
+      confidence: 0.1009
+    - scientific: Pseudupeneus maculatus
+      confidence: 0.0721
 species:
 - scientific: Opistognathus aurifrons
   role: primary
-  confidence: 0.7628
+  confidence: 0.3814
   identified_by: bioclip

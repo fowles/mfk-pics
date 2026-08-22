@@ -14,19 +14,33 @@ variants:
   import_original_name: 5265f4a52693c40f.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786158189.227651
-  top:
-  - scientific: Aulostomus maculatus
-    confidence: 0.2883
-  - scientific: Chaetodon capistratus
-    confidence: 0.2187
-  - scientific: Holothuria mexicana
-    confidence: 0.0712
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786158189.227651
+    top:
+    - scientific: Aulostomus maculatus
+      confidence: 0.2883
+    - scientific: Chaetodon capistratus
+      confidence: 0.2187
+    - scientific: Holothuria mexicana
+      confidence: 0.0712
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786158189.227651
+    top:
+    - scientific: Holocentrus adscensionis
+      confidence: 0.0354
+    - scientific: Serranus tigrinus
+      confidence: 0.0353
+    - scientific: Holacanthus tricolor
+      confidence: 0.0338
+    absorbed_by:
+      scientific: Orbicella annularis
+      confidence: 0.1266
 species:
 - scientific: Aulostomus maculatus
   role: primary
-  confidence: 0.2883
+  confidence: 0.1442
   identified_by: bioclip

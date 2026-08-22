@@ -12,17 +12,31 @@ date_reviewed: true
 dive_window_reviewed: true
 rotation_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786159791.9777513
-  top:
-  - scientific: Acanthostracion quadricornis
-    confidence: 0.201
-  - scientific: Sphoeroides spengleri
-    confidence: 0.0267
-  - scientific: Selar crumenophthalmus
-    confidence: 0.0206
-  absorbed_by:
-    scientific: Meandrina meandrites
-    confidence: 0.4176
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786159791.9777513
+    top:
+    - scientific: Acanthostracion quadricornis
+      confidence: 0.201
+    - scientific: Sphoeroides spengleri
+      confidence: 0.0267
+    - scientific: Selar crumenophthalmus
+      confidence: 0.0206
+    absorbed_by:
+      scientific: Meandrina meandrites
+      confidence: 0.4176
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786159791.9777513
+    top:
+    - scientific: Holacanthus tricolor
+      confidence: 0.0283
+    - scientific: Ophiothrix suensonii
+      confidence: 0.0232
+    - scientific: Cephalopholis cruentata
+      confidence: 0.0218
+    absorbed_by:
+      scientific: Xestospongia muta
+      confidence: 0.2351

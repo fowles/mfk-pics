@@ -14,19 +14,30 @@ variants:
   import_original_name: 3420e8427747ddd9.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786159184.0303183
-  top:
-  - scientific: Aetobatus narinari
-    confidence: 0.9999
-  - scientific: Echeneis naucrates
-    confidence: 0.0001
-  - scientific: Ogcocephalus radiatus
-    confidence: 0.0
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786159184.0303183
+    top:
+    - scientific: Aetobatus narinari
+      confidence: 0.9999
+    - scientific: Echeneis naucrates
+      confidence: 0.0001
+    - scientific: Ogcocephalus radiatus
+      confidence: 0.0
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786159184.0303183
+    top:
+    - scientific: Aetobatus narinari
+      confidence: 0.989
+    - scientific: Echeneis naucrates
+      confidence: 0.0052
+    - scientific: Dactylopterus volitans
+      confidence: 0.0021
 species:
 - scientific: Aetobatus narinari
   role: primary
-  confidence: 0.9999
-  identified_by: bioclip
+  confidence: 0.9945
+  identified_by: bioclip+bioclip-2

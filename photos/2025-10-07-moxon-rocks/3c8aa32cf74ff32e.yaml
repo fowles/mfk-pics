@@ -10,19 +10,30 @@ lon: -79.27083
 gps_source: dive_site
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786159803.4464562
-  top:
-  - scientific: Acanthurus coeruleus
-    confidence: 0.6119
-  - scientific: Scarus coeruleus
-    confidence: 0.3763
-  - scientific: Acanthurus chirurgus
-    confidence: 0.0088
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786159803.4464562
+    top:
+    - scientific: Acanthurus coeruleus
+      confidence: 0.6119
+    - scientific: Scarus coeruleus
+      confidence: 0.3763
+    - scientific: Acanthurus chirurgus
+      confidence: 0.0088
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786159803.4464562
+    top:
+    - scientific: Balistes vetula
+      confidence: 0.9456
+    - scientific: Canthidermis sufflamen
+      confidence: 0.0099
+    - scientific: Acanthurus chirurgus
+      confidence: 0.0076
 species:
-- scientific: Acanthurus coeruleus
+- scientific: Balistes vetula
   role: primary
-  confidence: 0.6119
-  identified_by: bioclip
+  confidence: 0.4728
+  identified_by: bioclip-2

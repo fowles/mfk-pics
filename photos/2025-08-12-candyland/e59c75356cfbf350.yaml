@@ -11,19 +11,30 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786158135.6711824
-  top:
-  - scientific: Melichthys niger
-    confidence: 0.9816
-  - scientific: Microspathodon chrysurus
-    confidence: 0.0055
-  - scientific: Canthidermis sufflamen
-    confidence: 0.0047
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786158135.6711824
+    top:
+    - scientific: Melichthys niger
+      confidence: 0.9816
+    - scientific: Microspathodon chrysurus
+      confidence: 0.0055
+    - scientific: Canthidermis sufflamen
+      confidence: 0.0047
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786158135.6711824
+    top:
+    - scientific: Melichthys niger
+      confidence: 0.8494
+    - scientific: Hypoplectrus nigricans
+      confidence: 0.0947
+    - scientific: Acanthurus coeruleus
+      confidence: 0.0164
 species:
 - scientific: Melichthys niger
   role: primary
-  confidence: 0.9816
-  identified_by: bioclip
+  confidence: 0.9155
+  identified_by: bioclip+bioclip-2

@@ -13,19 +13,30 @@ dive_window_reviewed: true
 extra_variants:
 - dicam
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786159379.9077342
-  top:
-  - scientific: Myrichthys breviceps
-    confidence: 0.9986
-  - scientific: Synodus intermedius
-    confidence: 0.001
-  - scientific: Myrichthys ocellatus
-    confidence: 0.0003
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786159379.9077342
+    top:
+    - scientific: Myrichthys breviceps
+      confidence: 0.9986
+    - scientific: Synodus intermedius
+      confidence: 0.001
+    - scientific: Myrichthys ocellatus
+      confidence: 0.0003
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786159379.9077342
+    top:
+    - scientific: Myrichthys breviceps
+      confidence: 0.9979
+    - scientific: Myrichthys ocellatus
+      confidence: 0.0013
+    - scientific: Gymnothorax moringa
+      confidence: 0.0005
 species:
 - scientific: Myrichthys breviceps
   role: primary
-  confidence: 0.9986
-  identified_by: bioclip
+  confidence: 0.9983
+  identified_by: bioclip+bioclip-2

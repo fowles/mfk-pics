@@ -12,19 +12,30 @@ date_reviewed: true
 dive_window_reviewed: true
 rotation_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786158128.606723
-  top:
-  - scientific: Thalassoma bifasciatum
-    confidence: 0.4835
-  - scientific: Acanthurus coeruleus
-    confidence: 0.3199
-  - scientific: Gramma loreto
-    confidence: 0.0705
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786158128.606723
+    top:
+    - scientific: Thalassoma bifasciatum
+      confidence: 0.4835
+    - scientific: Acanthurus coeruleus
+      confidence: 0.3199
+    - scientific: Gramma loreto
+      confidence: 0.0705
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786158128.606723
+    top:
+    - scientific: Chromis cyanea
+      confidence: 0.6493
+    - scientific: Acanthurus coeruleus
+      confidence: 0.312
+    - scientific: Scarus coeruleus
+      confidence: 0.0074
 species:
-- scientific: Thalassoma bifasciatum
+- scientific: Chromis cyanea
   role: primary
-  confidence: 0.4835
-  identified_by: bioclip
+  confidence: 0.3246
+  identified_by: bioclip-2

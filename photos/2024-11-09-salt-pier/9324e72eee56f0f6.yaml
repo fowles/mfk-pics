@@ -14,17 +14,31 @@ variants:
   import_original_name: 7e52c9dad6c927c7.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786156585.4734619
-  top:
-  - scientific: Gramma loreto
-    confidence: 0.0062
-  - scientific: Astrophyton muricatum
-    confidence: 0.0026
-  - scientific: Elysia crispata
-    confidence: 0.0005
-  absorbed_by:
-    scientific: Xestospongia muta
-    confidence: 0.4293
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786156585.4734619
+    top:
+    - scientific: Gramma loreto
+      confidence: 0.0062
+    - scientific: Astrophyton muricatum
+      confidence: 0.0026
+    - scientific: Elysia crispata
+      confidence: 0.0005
+    absorbed_by:
+      scientific: Xestospongia muta
+      confidence: 0.4293
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786156585.4734619
+    top:
+    - scientific: Aliger gigas
+      confidence: 0.0005
+    - scientific: Prognathodes aculeatus
+      confidence: 0.0004
+    - scientific: Holacanthus tricolor
+      confidence: 0.0002
+    absorbed_by:
+      scientific: Millepora complanata
+      confidence: 0.8932

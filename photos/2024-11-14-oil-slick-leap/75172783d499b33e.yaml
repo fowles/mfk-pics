@@ -14,19 +14,30 @@ variants:
   import_original_name: b1202edd645a3ebf.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786156900.565636
-  top:
-  - scientific: Diodon holocanthus
-    confidence: 0.2876
-  - scientific: Acanthostracion quadricornis
-    confidence: 0.1405
-  - scientific: Acanthostracion polygonius
-    confidence: 0.0985
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786156900.565636
+    top:
+    - scientific: Diodon holocanthus
+      confidence: 0.2876
+    - scientific: Acanthostracion quadricornis
+      confidence: 0.1405
+    - scientific: Acanthostracion polygonius
+      confidence: 0.0985
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786156900.565636
+    top:
+    - scientific: Serranus tigrinus
+      confidence: 0.2321
+    - scientific: Cephalopholis cruentata
+      confidence: 0.0397
+    - scientific: Stenopus hispidus
+      confidence: 0.0183
 species:
 - scientific: Diodon holocanthus
   role: primary
-  confidence: 0.2876
+  confidence: 0.1438
   identified_by: bioclip

@@ -11,19 +11,30 @@ gps_source: dive_site
 date_reviewed: true
 rotation_applied: 180
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1787028940.6925907
-  top:
-  - scientific: Lutjanus griseus
-    confidence: 0.9972
-  - scientific: Lutjanus analis
-    confidence: 0.0011
-  - scientific: Haemulon sciurus
-    confidence: 0.0009
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1787028940.6925907
+    top:
+    - scientific: Lutjanus griseus
+      confidence: 0.9972
+    - scientific: Lutjanus analis
+      confidence: 0.0011
+    - scientific: Haemulon sciurus
+      confidence: 0.0009
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1787028940.6925907
+    top:
+    - scientific: Lutjanus griseus
+      confidence: 0.5872
+    - scientific: Lutjanus mahogoni
+      confidence: 0.3316
+    - scientific: Lutjanus jocu
+      confidence: 0.038
 species:
 - scientific: Lutjanus griseus
   role: primary
-  confidence: 0.9972
-  identified_by: bioclip
+  confidence: 0.7922
+  identified_by: bioclip+bioclip-2

@@ -14,19 +14,30 @@ variants:
   import_original_name: 691bdaed470499f8.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786156745.0158231
-  top:
-  - scientific: Hypoplectrus indigo
-    confidence: 0.7042
-  - scientific: Serranus tortugarum
-    confidence: 0.0406
-  - scientific: Scarus vetula
-    confidence: 0.0367
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786156745.0158231
+    top:
+    - scientific: Hypoplectrus indigo
+      confidence: 0.7042
+    - scientific: Serranus tortugarum
+      confidence: 0.0406
+    - scientific: Scarus vetula
+      confidence: 0.0367
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786156745.0158231
+    top:
+    - scientific: Pseudupeneus maculatus
+      confidence: 0.3383
+    - scientific: Lachnolaimus maximus
+      confidence: 0.1196
+    - scientific: Canthidermis sufflamen
+      confidence: 0.1118
 species:
 - scientific: Hypoplectrus indigo
   role: primary
-  confidence: 0.7042
+  confidence: 0.3521
   identified_by: bioclip

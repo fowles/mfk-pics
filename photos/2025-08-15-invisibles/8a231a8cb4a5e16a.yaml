@@ -12,19 +12,29 @@ date_reviewed: true
 dive_window_reviewed: true
 rotation_applied: 90
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1787175773.842568
-  top:
-  - scientific: Sparisoma rubripinne
-    confidence: 0.2955
-  - scientific: Ginglymostoma cirratum
-    confidence: 0.1415
-  - scientific: Sparisoma aurofrenatum
-    confidence: 0.0843
-species:
-- scientific: Sparisoma rubripinne
-  role: primary
-  confidence: 0.2955
-  identified_by: bioclip
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1787175773.842568
+    top:
+    - scientific: Sparisoma rubripinne
+      confidence: 0.2955
+    - scientific: Ginglymostoma cirratum
+      confidence: 0.1415
+    - scientific: Sparisoma aurofrenatum
+      confidence: 0.0843
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1787175773.842568
+    top:
+    - scientific: Holacanthus tricolor
+      confidence: 0.0045
+    - scientific: Stegastes planifrons
+      confidence: 0.0015
+    - scientific: Stenopus hispidus
+      confidence: 0.0012
+    absorbed_by:
+      scientific: Orbicella annularis
+      confidence: 0.897
+species: []

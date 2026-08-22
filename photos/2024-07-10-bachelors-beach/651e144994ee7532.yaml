@@ -12,19 +12,30 @@ date_reviewed: true
 dive_window_reviewed: true
 rotation_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786158713.317359
-  top:
-  - scientific: Hippocampus erectus
-    confidence: 0.4407
-  - scientific: Monacanthus tuckeri
-    confidence: 0.2069
-  - scientific: Acanthemblemaria maria
-    confidence: 0.0012
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786158713.317359
+    top:
+    - scientific: Hippocampus erectus
+      confidence: 0.4407
+    - scientific: Monacanthus tuckeri
+      confidence: 0.2069
+    - scientific: Acanthemblemaria maria
+      confidence: 0.0012
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786158713.317359
+    top:
+    - scientific: Hippocampus reidi
+      confidence: 0.9836
+    - scientific: Hippocampus erectus
+      confidence: 0.0161
+    - scientific: Monacanthus tuckeri
+      confidence: 0.0002
 species:
-- scientific: Hippocampus erectus
+- scientific: Hippocampus reidi
   role: primary
-  confidence: 0.4407
-  identified_by: bioclip
+  confidence: 0.4918
+  identified_by: bioclip-2

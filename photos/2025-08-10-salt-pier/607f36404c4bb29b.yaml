@@ -11,17 +11,28 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786157578.2868924
-  top:
-  - scientific: Octopus vulgaris
-    confidence: 0.9657
-  - scientific: Octopus briareus
-    confidence: 0.0266
-  - scientific: Emblemaria pandionis
-    confidence: 0.0041
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786157578.2868924
+    top:
+    - scientific: Octopus vulgaris
+      confidence: 0.9657
+    - scientific: Octopus briareus
+      confidence: 0.0266
+    - scientific: Emblemaria pandionis
+      confidence: 0.0041
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:41:08Z'
+    src_mtime: 1786157578.2868924
+    top:
+    - scientific: Octopus briareus
+      confidence: 0.4959
+    - scientific: Octopus vulgaris
+      confidence: 0.4843
+    - scientific: Enchelycore carychroa
+      confidence: 0.0098
 species:
 - scientific: Octopus vulgaris
   role: primary

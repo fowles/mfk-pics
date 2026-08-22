@@ -11,19 +11,30 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786158135.7814445
-  top:
-  - scientific: Thalassoma bifasciatum
-    confidence: 0.82
-  - scientific: Chaetodon striatus
-    confidence: 0.1008
-  - scientific: Aulostomus maculatus
-    confidence: 0.0165
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786158135.7814445
+    top:
+    - scientific: Thalassoma bifasciatum
+      confidence: 0.82
+    - scientific: Chaetodon striatus
+      confidence: 0.1008
+    - scientific: Aulostomus maculatus
+      confidence: 0.0165
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786158135.7814445
+    top:
+    - scientific: Thalassoma bifasciatum
+      confidence: 0.4209
+    - scientific: Chromis cyanea
+      confidence: 0.1939
+    - scientific: Halichoeres garnoti
+      confidence: 0.0861
 species:
 - scientific: Thalassoma bifasciatum
   role: primary
-  confidence: 0.82
-  identified_by: bioclip
+  confidence: 0.6204
+  identified_by: bioclip+bioclip-2

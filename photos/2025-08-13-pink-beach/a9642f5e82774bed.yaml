@@ -14,19 +14,30 @@ variants:
   import_original_name: ea346ebb406a7c9d.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786158187.751513
-  top:
-  - scientific: Aulostomus maculatus
-    confidence: 0.2629
-  - scientific: Monacanthus tuckeri
-    confidence: 0.1829
-  - scientific: Mycteroperca venenosa
-    confidence: 0.0629
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786158187.751513
+    top:
+    - scientific: Aulostomus maculatus
+      confidence: 0.2629
+    - scientific: Monacanthus tuckeri
+      confidence: 0.1829
+    - scientific: Mycteroperca venenosa
+      confidence: 0.0629
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786158187.751513
+    top:
+    - scientific: Cephalopholis cruentata
+      confidence: 0.3439
+    - scientific: Acanthostracion polygonius
+      confidence: 0.1968
+    - scientific: Epinephelus guttatus
+      confidence: 0.1113
 species:
-- scientific: Aulostomus maculatus
+- scientific: Cephalopholis cruentata
   role: primary
-  confidence: 0.2629
-  identified_by: bioclip
+  confidence: 0.1719
+  identified_by: bioclip-2

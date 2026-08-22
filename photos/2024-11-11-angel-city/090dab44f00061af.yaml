@@ -14,19 +14,30 @@ variants:
   import_original_name: ca9d2c75b8dd72e8.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786156743.704285
-  top:
-  - scientific: Gymnothorax funebris
-    confidence: 0.2198
-  - scientific: Lactophrys triqueter
-    confidence: 0.1699
-  - scientific: Melichthys niger
-    confidence: 0.1537
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786156743.704285
+    top:
+    - scientific: Gymnothorax funebris
+      confidence: 0.2198
+    - scientific: Lactophrys triqueter
+      confidence: 0.1699
+    - scientific: Melichthys niger
+      confidence: 0.1537
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786156743.704285
+    top:
+    - scientific: Melichthys niger
+      confidence: 0.1517
+    - scientific: Acanthurus coeruleus
+      confidence: 0.1434
+    - scientific: Scarus vetula
+      confidence: 0.1256
 species:
-- scientific: Gymnothorax funebris
+- scientific: Melichthys niger
   role: primary
-  confidence: 0.2198
-  identified_by: bioclip
+  confidence: 0.1527
+  identified_by: bioclip+bioclip-2

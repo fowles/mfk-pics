@@ -14,19 +14,30 @@ variants:
   import_original_name: 7b054e7746bda46a.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786159067.1547039
-  top:
-  - scientific: Mycteroperca venenosa
-    confidence: 0.632
-  - scientific: Mycteroperca tigris
-    confidence: 0.2769
-  - scientific: Aluterus scriptus
-    confidence: 0.0491
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786159067.1547039
+    top:
+    - scientific: Mycteroperca venenosa
+      confidence: 0.632
+    - scientific: Mycteroperca tigris
+      confidence: 0.2769
+    - scientific: Aluterus scriptus
+      confidence: 0.0491
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786159067.1547039
+    top:
+    - scientific: Mycteroperca bonaci
+      confidence: 0.3647
+    - scientific: Mycteroperca venenosa
+      confidence: 0.344
+    - scientific: Epinephelus guttatus
+      confidence: 0.0989
 species:
 - scientific: Mycteroperca venenosa
   role: primary
-  confidence: 0.632
-  identified_by: bioclip
+  confidence: 0.488
+  identified_by: bioclip+bioclip-2

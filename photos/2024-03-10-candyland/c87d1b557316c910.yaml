@@ -12,19 +12,30 @@ date_reviewed: true
 dive_window_reviewed: true
 rotation_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786158864.494533
-  top:
-  - scientific: Aluterus scriptus
-    confidence: 0.8812
-  - scientific: Aulostomus maculatus
-    confidence: 0.0666
-  - scientific: Fistularia tabacaria
-    confidence: 0.027
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786158864.494533
+    top:
+    - scientific: Aluterus scriptus
+      confidence: 0.8812
+    - scientific: Aulostomus maculatus
+      confidence: 0.0666
+    - scientific: Fistularia tabacaria
+      confidence: 0.027
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786158864.494533
+    top:
+    - scientific: Aluterus scriptus
+      confidence: 0.9875
+    - scientific: Acanthostracion quadricornis
+      confidence: 0.0059
+    - scientific: Acanthostracion polygonius
+      confidence: 0.0017
 species:
 - scientific: Aluterus scriptus
   role: primary
-  confidence: 0.8812
-  identified_by: bioclip
+  confidence: 0.9344
+  identified_by: bioclip+bioclip-2

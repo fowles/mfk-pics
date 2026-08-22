@@ -14,19 +14,30 @@ variants:
   import_original_name: cf91e8ccdd272dc4.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786157883.1834438
-  top:
-  - scientific: Dactylopterus volitans
-    confidence: 0.3004
-  - scientific: Xyrichtys splendens
-    confidence: 0.1355
-  - scientific: Synodus intermedius
-    confidence: 0.11
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786157883.1834438
+    top:
+    - scientific: Dactylopterus volitans
+      confidence: 0.3004
+    - scientific: Xyrichtys splendens
+      confidence: 0.1355
+    - scientific: Synodus intermedius
+      confidence: 0.11
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786157883.1834438
+    top:
+    - scientific: Pseudupeneus maculatus
+      confidence: 0.4632
+    - scientific: Opistognathus aurifrons
+      confidence: 0.1603
+    - scientific: Halichoeres radiatus
+      confidence: 0.062
 species:
-- scientific: Dactylopterus volitans
+- scientific: Pseudupeneus maculatus
   role: primary
-  confidence: 0.3004
-  identified_by: bioclip
+  confidence: 0.2316
+  identified_by: bioclip-2

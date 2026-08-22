@@ -14,19 +14,30 @@ variants:
   import_original_name: 20934d716308d018.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786157056.943999
-  top:
-  - scientific: Tripneustes ventricosus
-    confidence: 0.9993
-  - scientific: Diodon hystrix
-    confidence: 0.0003
-  - scientific: Pareques acuminatus
-    confidence: 0.0002
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786157056.943999
+    top:
+    - scientific: Tripneustes ventricosus
+      confidence: 0.9993
+    - scientific: Diodon hystrix
+      confidence: 0.0003
+    - scientific: Pareques acuminatus
+      confidence: 0.0002
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786157056.943999
+    top:
+    - scientific: Tripneustes ventricosus
+      confidence: 0.9983
+    - scientific: Diadema antillarum
+      confidence: 0.0
+    - scientific: Hypoplectrus indigo
+      confidence: 0.0
 species:
 - scientific: Tripneustes ventricosus
   role: primary
-  confidence: 0.9993
-  identified_by: bioclip
+  confidence: 0.9988
+  identified_by: bioclip+bioclip-2

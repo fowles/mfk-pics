@@ -11,19 +11,30 @@ gps_source: dive_site
 date_reviewed: true
 rotation_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786159793.9712543
-  top:
-  - scientific: Gerres cinereus
-    confidence: 0.51
-  - scientific: Haemulon macrostomum
-    confidence: 0.2281
-  - scientific: Lutjanus griseus
-    confidence: 0.1025
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786159793.9712543
+    top:
+    - scientific: Gerres cinereus
+      confidence: 0.51
+    - scientific: Haemulon macrostomum
+      confidence: 0.2281
+    - scientific: Lutjanus griseus
+      confidence: 0.1025
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786159793.9712543
+    top:
+    - scientific: Holocentrus adscensionis
+      confidence: 0.3787
+    - scientific: Lutjanus mahogoni
+      confidence: 0.078
+    - scientific: Haemulon carbonarium
+      confidence: 0.0467
 species:
 - scientific: Gerres cinereus
   role: primary
-  confidence: 0.51
+  confidence: 0.255
   identified_by: bioclip

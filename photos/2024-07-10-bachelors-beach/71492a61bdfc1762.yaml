@@ -12,17 +12,33 @@ date_reviewed: true
 dive_window_reviewed: true
 rotation_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786158712.9764922
-  top:
-  - scientific: Hippocampus erectus
-    confidence: 0.3398
-  - scientific: Monacanthus tuckeri
-    confidence: 0.1575
-  - scientific: Stegastes partitus
-    confidence: 0.0018
-  absorbed_by:
-    scientific: Aplysina archeri
-    confidence: 0.4929
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786158712.9764922
+    top:
+    - scientific: Hippocampus erectus
+      confidence: 0.3398
+    - scientific: Monacanthus tuckeri
+      confidence: 0.1575
+    - scientific: Stegastes partitus
+      confidence: 0.0018
+    absorbed_by:
+      scientific: Aplysina archeri
+      confidence: 0.4929
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786158712.9764922
+    top:
+    - scientific: Hippocampus reidi
+      confidence: 0.9637
+    - scientific: Hippocampus erectus
+      confidence: 0.0344
+    - scientific: Monacanthus tuckeri
+      confidence: 0.0014
+species:
+- scientific: Hippocampus reidi
+  role: primary
+  confidence: 0.4819
+  identified_by: bioclip-2

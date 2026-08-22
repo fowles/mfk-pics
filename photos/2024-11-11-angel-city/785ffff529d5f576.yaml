@@ -15,17 +15,33 @@ variants:
 date_reviewed: true
 rotation_applied: 90
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1787028892.335436
-  top:
-  - scientific: Aulostomus maculatus
-    confidence: 0.1652
-  - scientific: Diadema antillarum
-    confidence: 0.0036
-  - scientific: Sparisoma viride
-    confidence: 0.0007
-  absorbed_by:
-    scientific: Antillogorgia americana
-    confidence: 0.8207
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1787028892.335436
+    top:
+    - scientific: Aulostomus maculatus
+      confidence: 0.1652
+    - scientific: Diadema antillarum
+      confidence: 0.0036
+    - scientific: Sparisoma viride
+      confidence: 0.0007
+    absorbed_by:
+      scientific: Antillogorgia americana
+      confidence: 0.8207
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1787028892.335436
+    top:
+    - scientific: Aulostomus maculatus
+      confidence: 0.6854
+    - scientific: Aluterus scriptus
+      confidence: 0.0585
+    - scientific: Monacanthus tuckeri
+      confidence: 0.0381
+species:
+- scientific: Aulostomus maculatus
+  role: primary
+  confidence: 0.4253
+  identified_by: bioclip+bioclip-2

@@ -12,19 +12,30 @@ date_reviewed: true
 dive_window_reviewed: true
 rotation_applied: 90
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1787175636.474792
-  top:
-  - scientific: Stenopus hispidus
-    confidence: 0.9945
-  - scientific: Lysmata grabhami
-    confidence: 0.0026
-  - scientific: Ancylomenes pedersoni
-    confidence: 0.0021
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1787175636.474792
+    top:
+    - scientific: Stenopus hispidus
+      confidence: 0.9945
+    - scientific: Lysmata grabhami
+      confidence: 0.0026
+    - scientific: Ancylomenes pedersoni
+      confidence: 0.0021
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1787175636.474792
+    top:
+    - scientific: Stenopus hispidus
+      confidence: 0.9152
+    - scientific: Lysmata grabhami
+      confidence: 0.0495
+    - scientific: Ancylomenes pedersoni
+      confidence: 0.0322
 species:
 - scientific: Stenopus hispidus
   role: primary
-  confidence: 0.9945
-  identified_by: bioclip
+  confidence: 0.9548
+  identified_by: bioclip+bioclip-2

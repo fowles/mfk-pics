@@ -14,19 +14,30 @@ variants:
   import_original_name: f8a92b1eefbae704.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786156901.575016
-  top:
-  - scientific: Gymnothorax moringa
-    confidence: 0.3587
-  - scientific: Serranus tigrinus
-    confidence: 0.2852
-  - scientific: Stenopus hispidus
-    confidence: 0.1277
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786156901.575016
+    top:
+    - scientific: Gymnothorax moringa
+      confidence: 0.3587
+    - scientific: Serranus tigrinus
+      confidence: 0.2852
+    - scientific: Stenopus hispidus
+      confidence: 0.1277
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786156901.575016
+    top:
+    - scientific: Lactophrys bicaudalis
+      confidence: 0.924
+    - scientific: Epinephelus adscensionis
+      confidence: 0.0205
+    - scientific: Diodon hystrix
+      confidence: 0.0083
 species:
-- scientific: Gymnothorax moringa
+- scientific: Lactophrys bicaudalis
   role: primary
-  confidence: 0.3587
-  identified_by: bioclip
+  confidence: 0.462
+  identified_by: bioclip-2

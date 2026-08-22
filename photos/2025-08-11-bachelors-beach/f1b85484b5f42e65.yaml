@@ -11,19 +11,33 @@ variants:
   import_original_name: 2751d20f51b597bc.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786157879.797796
-  top:
-  - scientific: Thalassoma bifasciatum
-    confidence: 0.3158
-  - scientific: Gymnothorax funebris
-    confidence: 0.2592
-  - scientific: Sparisoma rubripinne
-    confidence: 0.1915
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786157879.797796
+    top:
+    - scientific: Thalassoma bifasciatum
+      confidence: 0.3158
+    - scientific: Gymnothorax funebris
+      confidence: 0.2592
+    - scientific: Sparisoma rubripinne
+      confidence: 0.1915
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786157879.797796
+    top:
+    - scientific: Cephalopholis cruentata
+      confidence: 0.073
+    - scientific: Heteropriacanthus cruentatus
+      confidence: 0.0558
+    - scientific: Sparisoma viride
+      confidence: 0.0387
+    absorbed_by:
+      scientific: Orbicella annularis
+      confidence: 0.1543
 species:
 - scientific: Thalassoma bifasciatum
   role: primary
-  confidence: 0.3158
+  confidence: 0.1579
   identified_by: bioclip

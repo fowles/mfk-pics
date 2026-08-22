@@ -11,19 +11,30 @@ gps_source: dive_site
 date_reviewed: true
 rotation_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786159808.031247
-  top:
-  - scientific: Caranx crysos
-    confidence: 0.3048
-  - scientific: Megalops atlanticus
-    confidence: 0.2901
-  - scientific: Scomberomorus regalis
-    confidence: 0.0822
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786159808.031247
+    top:
+    - scientific: Caranx crysos
+      confidence: 0.3048
+    - scientific: Megalops atlanticus
+      confidence: 0.2901
+    - scientific: Scomberomorus regalis
+      confidence: 0.0822
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786159808.031247
+    top:
+    - scientific: Caranx crysos
+      confidence: 0.8036
+    - scientific: Caranx ruber
+      confidence: 0.186
+    - scientific: Carangoides bartholomaei
+      confidence: 0.0058
 species:
 - scientific: Caranx crysos
   role: primary
-  confidence: 0.3048
-  identified_by: bioclip
+  confidence: 0.5542
+  identified_by: bioclip+bioclip-2

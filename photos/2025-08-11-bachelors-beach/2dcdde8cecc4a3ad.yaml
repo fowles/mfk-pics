@@ -14,19 +14,30 @@ variants:
   import_original_name: 2cb610c41ad1db1e.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786157882.0435262
-  top:
-  - scientific: Aulostomus maculatus
-    confidence: 0.1952
-  - scientific: Chaetodon capistratus
-    confidence: 0.1895
-  - scientific: Chaetodon sedentarius
-    confidence: 0.1493
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786157882.0435262
+    top:
+    - scientific: Aulostomus maculatus
+      confidence: 0.1952
+    - scientific: Chaetodon capistratus
+      confidence: 0.1895
+    - scientific: Chaetodon sedentarius
+      confidence: 0.1493
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786157882.0435262
+    top:
+    - scientific: Holacanthus tricolor
+      confidence: 0.3594
+    - scientific: Pomacanthus arcuatus
+      confidence: 0.0481
+    - scientific: Holocentrus adscensionis
+      confidence: 0.033
 species:
-- scientific: Aulostomus maculatus
+- scientific: Holacanthus tricolor
   role: primary
-  confidence: 0.1952
-  identified_by: bioclip
+  confidence: 0.1797
+  identified_by: bioclip-2

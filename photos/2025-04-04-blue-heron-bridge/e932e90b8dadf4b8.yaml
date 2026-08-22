@@ -11,19 +11,30 @@ variants:
   import_original_name: 8e17cec570976b96.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786157490.997026
-  top:
-  - scientific: Pomacanthus paru
-    confidence: 0.8083
-  - scientific: Melichthys niger
-    confidence: 0.0961
-  - scientific: Equetus punctatus
-    confidence: 0.0408
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786157490.997026
+    top:
+    - scientific: Pomacanthus paru
+      confidence: 0.8083
+    - scientific: Melichthys niger
+      confidence: 0.0961
+    - scientific: Equetus punctatus
+      confidence: 0.0408
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786157490.997026
+    top:
+    - scientific: Pomacanthus paru
+      confidence: 0.8531
+    - scientific: Pomacanthus arcuatus
+      confidence: 0.1224
+    - scientific: Abudefduf saxatilis
+      confidence: 0.0065
 species:
 - scientific: Pomacanthus paru
   role: primary
-  confidence: 0.8083
-  identified_by: bioclip
+  confidence: 0.8307
+  identified_by: bioclip+bioclip-2

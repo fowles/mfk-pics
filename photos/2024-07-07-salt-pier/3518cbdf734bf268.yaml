@@ -14,19 +14,30 @@ variants:
   import_original_name: f4263ab637a0be75.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786159971.320628
-  top:
-  - scientific: Opistognathus aurifrons
-    confidence: 0.5767
-  - scientific: Emblemaria pandionis
-    confidence: 0.1065
-  - scientific: Chelonia mydas
-    confidence: 0.0817
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786159971.320628
+    top:
+    - scientific: Opistognathus aurifrons
+      confidence: 0.5767
+    - scientific: Emblemaria pandionis
+      confidence: 0.1065
+    - scientific: Chelonia mydas
+      confidence: 0.0817
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786159971.320628
+    top:
+    - scientific: Bothus lunatus
+      confidence: 0.7207
+    - scientific: Aluterus scriptus
+      confidence: 0.0522
+    - scientific: Hypoplectrus unicolor
+      confidence: 0.0238
 species:
-- scientific: Opistognathus aurifrons
+- scientific: Bothus lunatus
   role: primary
-  confidence: 0.5767
-  identified_by: bioclip
+  confidence: 0.3604
+  identified_by: bioclip-2

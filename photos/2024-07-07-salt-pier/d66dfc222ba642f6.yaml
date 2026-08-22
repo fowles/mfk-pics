@@ -14,19 +14,33 @@ variants:
   import_original_name: 119ed9fe835263f3.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786159987.0720336
-  top:
-  - scientific: Haemulon macrostomum
-    confidence: 0.871
-  - scientific: Sparisoma viride
-    confidence: 0.0272
-  - scientific: Aulostomus maculatus
-    confidence: 0.0226
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786159987.0720336
+    top:
+    - scientific: Haemulon macrostomum
+      confidence: 0.871
+    - scientific: Sparisoma viride
+      confidence: 0.0272
+    - scientific: Aulostomus maculatus
+      confidence: 0.0226
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786159987.0720336
+    top:
+    - scientific: Sparisoma viride
+      confidence: 0.0545
+    - scientific: Abudefduf saxatilis
+      confidence: 0.0498
+    - scientific: Cephalopholis cruentata
+      confidence: 0.0351
+    absorbed_by:
+      scientific: Orbicella faveolata
+      confidence: 0.0552
 species:
 - scientific: Haemulon macrostomum
   role: primary
-  confidence: 0.871
+  confidence: 0.4355
   identified_by: bioclip

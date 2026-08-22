@@ -14,19 +14,30 @@ variants:
   import_original_name: b4ca342ffefa596c.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786159066.535686
-  top:
-  - scientific: Epinephelus itajara
-    confidence: 0.4291
-  - scientific: Mycteroperca tigris
-    confidence: 0.2534
-  - scientific: Mycteroperca venenosa
-    confidence: 0.1484
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786159066.535686
+    top:
+    - scientific: Epinephelus itajara
+      confidence: 0.4291
+    - scientific: Mycteroperca tigris
+      confidence: 0.2534
+    - scientific: Mycteroperca venenosa
+      confidence: 0.1484
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786159066.535686
+    top:
+    - scientific: Mycteroperca venenosa
+      confidence: 0.3572
+    - scientific: Mycteroperca bonaci
+      confidence: 0.2998
+    - scientific: Epinephelus guttatus
+      confidence: 0.0779
 species:
-- scientific: Epinephelus itajara
+- scientific: Mycteroperca venenosa
   role: primary
-  confidence: 0.4291
-  identified_by: bioclip
+  confidence: 0.2528
+  identified_by: bioclip+bioclip-2

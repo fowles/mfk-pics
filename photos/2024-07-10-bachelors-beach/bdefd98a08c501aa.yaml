@@ -11,19 +11,30 @@ variants:
   import_original_name: 0d648a27ff718e37.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786158723.8130527
-  top:
-  - scientific: Equetus punctatus
-    confidence: 0.5518
-  - scientific: Pareques acuminatus
-    confidence: 0.3068
-  - scientific: Periclimenes yucatanicus
-    confidence: 0.03
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786158723.8130527
+    top:
+    - scientific: Equetus punctatus
+      confidence: 0.5518
+    - scientific: Pareques acuminatus
+      confidence: 0.3068
+    - scientific: Periclimenes yucatanicus
+      confidence: 0.03
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786158723.8130527
+    top:
+    - scientific: Equetus punctatus
+      confidence: 0.8756
+    - scientific: Stegastes partitus
+      confidence: 0.0388
+    - scientific: Holacanthus tricolor
+      confidence: 0.0193
 species:
 - scientific: Equetus punctatus
   role: primary
-  confidence: 0.5518
-  identified_by: bioclip
+  confidence: 0.7137
+  identified_by: bioclip+bioclip-2

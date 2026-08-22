@@ -14,19 +14,30 @@ variants:
   import_original_name: c0e6f185c7b619bb.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786157055.357947
-  top:
-  - scientific: Aulostomus maculatus
-    confidence: 0.5583
-  - scientific: Synodus intermedius
-    confidence: 0.1889
-  - scientific: Fistularia tabacaria
-    confidence: 0.1552
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786157055.357947
+    top:
+    - scientific: Aulostomus maculatus
+      confidence: 0.5583
+    - scientific: Synodus intermedius
+      confidence: 0.1889
+    - scientific: Fistularia tabacaria
+      confidence: 0.1552
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786157055.357947
+    top:
+    - scientific: Sphyraena barracuda
+      confidence: 0.9115
+    - scientific: Aulostomus maculatus
+      confidence: 0.0342
+    - scientific: Synodus intermedius
+      confidence: 0.0113
 species:
-- scientific: Aulostomus maculatus
+- scientific: Sphyraena barracuda
   role: primary
-  confidence: 0.5583
-  identified_by: bioclip
+  confidence: 0.4557
+  identified_by: bioclip-2

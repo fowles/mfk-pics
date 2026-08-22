@@ -14,17 +14,31 @@ variants:
   import_original_name: cd578020dfb9827e.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786158190.0622387
-  top:
-  - scientific: Holocentrus rufus
-    confidence: 0.2352
-  - scientific: Pareques acuminatus
-    confidence: 0.1475
-  - scientific: Holothuria mexicana
-    confidence: 0.0231
-  absorbed_by:
-    scientific: Antillogorgia americana
-    confidence: 0.493
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786158190.0622387
+    top:
+    - scientific: Holocentrus rufus
+      confidence: 0.2352
+    - scientific: Pareques acuminatus
+      confidence: 0.1475
+    - scientific: Holothuria mexicana
+      confidence: 0.0231
+    absorbed_by:
+      scientific: Antillogorgia americana
+      confidence: 0.493
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786158190.0622387
+    top:
+    - scientific: Haemulon sciurus
+      confidence: 0.066
+    - scientific: Pomacanthus arcuatus
+      confidence: 0.0385
+    - scientific: Panulirus argus
+      confidence: 0.0259
+    absorbed_by:
+      scientific: Antillogorgia americana
+      confidence: 0.3423

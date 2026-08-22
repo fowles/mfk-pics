@@ -12,17 +12,31 @@ date_reviewed: true
 dive_window_reviewed: true
 rotation_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786156319.1548762
-  top:
-  - scientific: Ginglymostoma cirratum
-    confidence: 0.0485
-  - scientific: Diodon hystrix
-    confidence: 0.0245
-  - scientific: Diodon holocanthus
-    confidence: 0.0118
-  absorbed_by:
-    scientific: Montastraea cavernosa
-    confidence: 0.5437
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786156319.1548762
+    top:
+    - scientific: Ginglymostoma cirratum
+      confidence: 0.0485
+    - scientific: Diodon hystrix
+      confidence: 0.0245
+    - scientific: Diodon holocanthus
+      confidence: 0.0118
+    absorbed_by:
+      scientific: Montastraea cavernosa
+      confidence: 0.5437
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786156319.1548762
+    top:
+    - scientific: Stegastes partitus
+      confidence: 0.0994
+    - scientific: Thalassoma bifasciatum
+      confidence: 0.0122
+    - scientific: Chromis cyanea
+      confidence: 0.0065
+    absorbed_by:
+      scientific: Palythoa caribaeorum
+      confidence: 0.2036

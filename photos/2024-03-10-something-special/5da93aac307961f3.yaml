@@ -14,19 +14,33 @@ variants:
   import_original_name: 0434e29dd0a2ab96.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786159068.0840807
-  top:
-  - scientific: Aulostomus maculatus
-    confidence: 0.3293
-  - scientific: Hypanus americanus
-    confidence: 0.2869
-  - scientific: Dactylopterus volitans
-    confidence: 0.0477
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786159068.0840807
+    top:
+    - scientific: Aulostomus maculatus
+      confidence: 0.3293
+    - scientific: Hypanus americanus
+      confidence: 0.2869
+    - scientific: Dactylopterus volitans
+      confidence: 0.0477
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786159068.0840807
+    top:
+    - scientific: Bothus lunatus
+      confidence: 0.0554
+    - scientific: Serranus tigrinus
+      confidence: 0.0326
+    - scientific: Acanthostracion polygonius
+      confidence: 0.03
+    absorbed_by:
+      scientific: Siderastrea siderea
+      confidence: 0.1048
 species:
 - scientific: Aulostomus maculatus
   role: primary
-  confidence: 0.3293
+  confidence: 0.1646
   identified_by: bioclip

@@ -14,19 +14,30 @@ variants:
   import_original_name: 184694002713d954.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786157492.1587362
-  top:
-  - scientific: Stenopus hispidus
-    confidence: 0.2654
-  - scientific: Diodon hystrix
-    confidence: 0.2144
-  - scientific: Canthidermis sufflamen
-    confidence: 0.1554
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786157492.1587362
+    top:
+    - scientific: Stenopus hispidus
+      confidence: 0.2654
+    - scientific: Diodon hystrix
+      confidence: 0.2144
+    - scientific: Canthidermis sufflamen
+      confidence: 0.1554
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786157492.1587362
+    top:
+    - scientific: Diodon holocanthus
+      confidence: 0.6424
+    - scientific: Diodon hystrix
+      confidence: 0.3158
+    - scientific: Calamus calamus
+      confidence: 0.0176
 species:
-- scientific: Stenopus hispidus
+- scientific: Diodon holocanthus
   role: primary
-  confidence: 0.2654
-  identified_by: bioclip
+  confidence: 0.3212
+  identified_by: bioclip-2

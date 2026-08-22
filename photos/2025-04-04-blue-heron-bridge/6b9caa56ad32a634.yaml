@@ -11,19 +11,30 @@ variants:
   import_original_name: 710f5cafce00208f.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786157490.8784463
-  top:
-  - scientific: Stenopus hispidus
-    confidence: 0.9662
-  - scientific: Mithraculus sculptus
-    confidence: 0.0177
-  - scientific: Periclimenes yucatanicus
-    confidence: 0.004
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786157490.8784463
+    top:
+    - scientific: Stenopus hispidus
+      confidence: 0.9662
+    - scientific: Mithraculus sculptus
+      confidence: 0.0177
+    - scientific: Periclimenes yucatanicus
+      confidence: 0.004
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786157490.8784463
+    top:
+    - scientific: Petrochirus diogenes
+      confidence: 0.9936
+    - scientific: Paguristes cadenati
+      confidence: 0.0035
+    - scientific: Aliger gigas
+      confidence: 0.0017
 species:
-- scientific: Stenopus hispidus
+- scientific: Petrochirus diogenes
   role: primary
-  confidence: 0.9662
-  identified_by: bioclip
+  confidence: 0.4968
+  identified_by: bioclip-2

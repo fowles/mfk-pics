@@ -11,19 +11,30 @@ variants:
   import_original_name: a2020ac20a4ba341.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786156977.3478553
-  top:
-  - scientific: Canthidermis sufflamen
-    confidence: 0.9997
-  - scientific: Balistes vetula
-    confidence: 0.0003
-  - scientific: Scarus coeruleus
-    confidence: 0.0
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786156977.3478553
+    top:
+    - scientific: Canthidermis sufflamen
+      confidence: 0.9997
+    - scientific: Balistes vetula
+      confidence: 0.0003
+    - scientific: Scarus coeruleus
+      confidence: 0.0
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786156977.3478553
+    top:
+    - scientific: Canthidermis sufflamen
+      confidence: 0.792
+    - scientific: Kyphosus sectatrix
+      confidence: 0.084
+    - scientific: Anisotremus surinamensis
+      confidence: 0.0525
 species:
 - scientific: Canthidermis sufflamen
   role: primary
-  confidence: 0.9997
-  identified_by: bioclip
+  confidence: 0.8959
+  identified_by: bioclip+bioclip-2

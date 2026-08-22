@@ -14,19 +14,30 @@ variants:
   import_original_name: 83ef907716ba7e53.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786159066.0978398
-  top:
-  - scientific: Gymnothorax funebris
-    confidence: 0.5296
-  - scientific: Melichthys niger
-    confidence: 0.1065
-  - scientific: Sepioteuthis sepioidea
-    confidence: 0.0395
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786159066.0978398
+    top:
+    - scientific: Gymnothorax funebris
+      confidence: 0.5296
+    - scientific: Melichthys niger
+      confidence: 0.1065
+    - scientific: Sepioteuthis sepioidea
+      confidence: 0.0395
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786159066.0978398
+    top:
+    - scientific: Pomacanthus arcuatus
+      confidence: 0.8005
+    - scientific: Microspathodon chrysurus
+      confidence: 0.0411
+    - scientific: Anisotremus surinamensis
+      confidence: 0.032
 species:
-- scientific: Gymnothorax funebris
+- scientific: Pomacanthus arcuatus
   role: primary
-  confidence: 0.5296
-  identified_by: bioclip
+  confidence: 0.4002
+  identified_by: bioclip-2

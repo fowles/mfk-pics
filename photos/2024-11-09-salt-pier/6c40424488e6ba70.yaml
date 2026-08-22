@@ -14,19 +14,30 @@ variants:
   import_original_name: f46246ba4627b026.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786156579.5166905
-  top:
-  - scientific: Gramma loreto
-    confidence: 0.6959
-  - scientific: Microspathodon chrysurus
-    confidence: 0.2604
-  - scientific: Opistognathus aurifrons
-    confidence: 0.0117
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786156579.5166905
+    top:
+    - scientific: Gramma loreto
+      confidence: 0.6959
+    - scientific: Microspathodon chrysurus
+      confidence: 0.2604
+    - scientific: Opistognathus aurifrons
+      confidence: 0.0117
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786156579.5166905
+    top:
+    - scientific: Holacanthus ciliaris
+      confidence: 0.9014
+    - scientific: Acanthurus coeruleus
+      confidence: 0.0337
+    - scientific: Scarus coeruleus
+      confidence: 0.0136
 species:
-- scientific: Gramma loreto
+- scientific: Holacanthus ciliaris
   role: primary
-  confidence: 0.6959
-  identified_by: bioclip
+  confidence: 0.4507
+  identified_by: bioclip-2

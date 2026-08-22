@@ -14,19 +14,30 @@ variants:
   import_original_name: ab9c96fb9968ca79.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786157493.4511547
-  top:
-  - scientific: Sphoeroides spengleri
-    confidence: 0.2203
-  - scientific: Sphoeroides testudineus
-    confidence: 0.2034
-  - scientific: Acanthostracion polygonius
-    confidence: 0.1792
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786157493.4511547
+    top:
+    - scientific: Sphoeroides spengleri
+      confidence: 0.2203
+    - scientific: Sphoeroides testudineus
+      confidence: 0.2034
+    - scientific: Acanthostracion polygonius
+      confidence: 0.1792
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786157493.4511547
+    top:
+    - scientific: Panulirus argus
+      confidence: 0.2657
+    - scientific: Acanthostracion quadricornis
+      confidence: 0.1963
+    - scientific: Dactylopterus volitans
+      confidence: 0.1117
 species:
-- scientific: Sphoeroides spengleri
+- scientific: Panulirus argus
   role: primary
-  confidence: 0.2203
-  identified_by: bioclip
+  confidence: 0.1328
+  identified_by: bioclip-2

@@ -7,17 +7,28 @@ import_album: 2025-08-11 - Bonaire, Weber's Joy
 import_original_name: PXL_20250811_173128960.MP.jpg
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786071912.5663204
-  top:
-  - scientific: Homo sapiens
-    confidence: 0.9994
-  - scientific: Diodon hystrix
-    confidence: 0.0001
-  - scientific: Megalops atlanticus
-    confidence: 0.0001
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786071912.5663204
+    top:
+    - scientific: Homo sapiens
+      confidence: 0.9994
+    - scientific: Diodon hystrix
+      confidence: 0.0001
+    - scientific: Megalops atlanticus
+      confidence: 0.0001
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:41:08Z'
+    src_mtime: 1786071912.5663204
+    top:
+    - scientific: Homo sapiens
+      confidence: 0.0902
+    - scientific: Caranx ruber
+      confidence: 0.0829
+    - scientific: Megalops atlanticus
+      confidence: 0.0534
 species:
 - scientific: Homo sapiens
   role: primary

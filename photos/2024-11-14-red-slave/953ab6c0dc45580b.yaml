@@ -14,19 +14,30 @@ variants:
   import_original_name: ece33e86a7b1a6f6.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786156982.0222719
-  top:
-  - scientific: Hippocampus erectus
-    confidence: 0.6354
-  - scientific: Aulostomus maculatus
-    confidence: 0.164
-  - scientific: Synodus intermedius
-    confidence: 0.0407
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786156982.0222719
+    top:
+    - scientific: Hippocampus erectus
+      confidence: 0.6354
+    - scientific: Aulostomus maculatus
+      confidence: 0.164
+    - scientific: Synodus intermedius
+      confidence: 0.0407
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786156982.0222719
+    top:
+    - scientific: Synodus intermedius
+      confidence: 0.6583
+    - scientific: Mycteroperca tigris
+      confidence: 0.1957
+    - scientific: Serranus tigrinus
+      confidence: 0.0407
 species:
-- scientific: Hippocampus erectus
+- scientific: Synodus intermedius
   role: primary
-  confidence: 0.6354
-  identified_by: bioclip
+  confidence: 0.3495
+  identified_by: bioclip+bioclip-2

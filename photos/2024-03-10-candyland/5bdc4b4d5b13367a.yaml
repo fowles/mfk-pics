@@ -14,17 +14,28 @@ variants:
   import_original_name: 54047974468b099e.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786158873.1934094
-  top:
-  - scientific: Gramma loreto
-    confidence: 0.3687
-  - scientific: Thalassoma bifasciatum
-    confidence: 0.2972
-  - scientific: Centropyge argi
-    confidence: 0.0937
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786158873.1934094
+    top:
+    - scientific: Gramma loreto
+      confidence: 0.3687
+    - scientific: Thalassoma bifasciatum
+      confidence: 0.2972
+    - scientific: Centropyge argi
+      confidence: 0.0937
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:41:08Z'
+    src_mtime: 1787325597.5342443
+    top:
+    - scientific: Holacanthus ciliaris
+      confidence: 0.81
+    - scientific: Chaetodon ocellatus
+      confidence: 0.0545
+    - scientific: Sparisoma viride
+      confidence: 0.0148
 species:
 - scientific: Holacanthus ciliaris
   role: primary

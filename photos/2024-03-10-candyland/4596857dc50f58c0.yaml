@@ -11,19 +11,30 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786158855.2769961
-  top:
-  - scientific: Gramma loreto
-    confidence: 0.4974
-  - scientific: Lutjanus apodus
-    confidence: 0.0486
-  - scientific: Cyphoma gibbosum
-    confidence: 0.0294
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786158855.2769961
+    top:
+    - scientific: Gramma loreto
+      confidence: 0.4974
+    - scientific: Lutjanus apodus
+      confidence: 0.0486
+    - scientific: Cyphoma gibbosum
+      confidence: 0.0294
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786158855.2769961
+    top:
+    - scientific: Chromis cyanea
+      confidence: 0.357
+    - scientific: Thalassoma bifasciatum
+      confidence: 0.2107
+    - scientific: Gramma loreto
+      confidence: 0.1218
 species:
 - scientific: Gramma loreto
   role: primary
-  confidence: 0.4974
-  identified_by: bioclip
+  confidence: 0.3096
+  identified_by: bioclip+bioclip-2

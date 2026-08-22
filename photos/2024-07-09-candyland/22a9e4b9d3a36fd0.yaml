@@ -14,19 +14,30 @@ variants:
   import_original_name: 267a18e4019da054.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786159182.9231029
-  top:
-  - scientific: Serranus tigrinus
-    confidence: 0.3733
-  - scientific: Scarus coelestinus
-    confidence: 0.316
-  - scientific: Aulostomus maculatus
-    confidence: 0.0337
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786159182.9231029
+    top:
+    - scientific: Serranus tigrinus
+      confidence: 0.3733
+    - scientific: Scarus coelestinus
+      confidence: 0.316
+    - scientific: Aulostomus maculatus
+      confidence: 0.0337
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786159182.9231029
+    top:
+    - scientific: Chromis cyanea
+      confidence: 0.4872
+    - scientific: Centropyge argi
+      confidence: 0.1121
+    - scientific: Scarus taeniopterus
+      confidence: 0.068
 species:
-- scientific: Serranus tigrinus
+- scientific: Chromis cyanea
   role: primary
-  confidence: 0.3733
-  identified_by: bioclip
+  confidence: 0.2436
+  identified_by: bioclip-2

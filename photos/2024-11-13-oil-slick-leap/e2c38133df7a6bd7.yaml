@@ -12,19 +12,30 @@ date_reviewed: true
 dive_window_reviewed: true
 rotation_applied: 90
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1787178379.4226215
-  top:
-  - scientific: Astrophyton muricatum
-    confidence: 0.6332
-  - scientific: Stenorhynchus seticornis
-    confidence: 0.1768
-  - scientific: Stenopus hispidus
-    confidence: 0.0062
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1787178379.4226215
+    top:
+    - scientific: Astrophyton muricatum
+      confidence: 0.6332
+    - scientific: Stenorhynchus seticornis
+      confidence: 0.1768
+    - scientific: Stenopus hispidus
+      confidence: 0.0062
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1787178379.4226215
+    top:
+    - scientific: Astrophyton muricatum
+      confidence: 0.8004
+    - scientific: Acanthemblemaria spinosa
+      confidence: 0.0201
+    - scientific: Acanthemblemaria maria
+      confidence: 0.0192
 species:
 - scientific: Astrophyton muricatum
   role: primary
-  confidence: 0.6332
-  identified_by: bioclip
+  confidence: 0.7168
+  identified_by: bioclip+bioclip-2

@@ -11,19 +11,33 @@ variants:
   import_original_name: 384c5171d5f1a133.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786156577.5617254
-  top:
-  - scientific: Aulostomus maculatus
-    confidence: 0.3252
-  - scientific: Melichthys niger
-    confidence: 0.2476
-  - scientific: Hypoplectrus indigo
-    confidence: 0.0781
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786156577.5617254
+    top:
+    - scientific: Aulostomus maculatus
+      confidence: 0.3252
+    - scientific: Melichthys niger
+      confidence: 0.2476
+    - scientific: Hypoplectrus indigo
+      confidence: 0.0781
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786156577.5617254
+    top:
+    - scientific: Acanthostracion polygonius
+      confidence: 0.0473
+    - scientific: Myrichthys breviceps
+      confidence: 0.0459
+    - scientific: Aulostomus maculatus
+      confidence: 0.0458
+    absorbed_by:
+      scientific: Aplysina archeri
+      confidence: 0.1235
 species:
 - scientific: Aulostomus maculatus
   role: primary
-  confidence: 0.3252
-  identified_by: bioclip
+  confidence: 0.1855
+  identified_by: bioclip+bioclip-2

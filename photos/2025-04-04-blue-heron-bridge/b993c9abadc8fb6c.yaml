@@ -11,19 +11,30 @@ variants:
   import_original_name: ee2718151d3eeec1.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786157490.1799405
-  top:
-  - scientific: Lysmata grabhami
-    confidence: 0.5022
-  - scientific: Ancylomenes pedersoni
-    confidence: 0.2014
-  - scientific: Stenopus hispidus
-    confidence: 0.1733
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786157490.1799405
+    top:
+    - scientific: Lysmata grabhami
+      confidence: 0.5022
+    - scientific: Ancylomenes pedersoni
+      confidence: 0.2014
+    - scientific: Stenopus hispidus
+      confidence: 0.1733
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786157490.1799405
+    top:
+    - scientific: Stenopus hispidus
+      confidence: 0.8592
+    - scientific: Ophiothrix suensonii
+      confidence: 0.0438
+    - scientific: Panulirus guttatus
+      confidence: 0.0138
 species:
-- scientific: Lysmata grabhami
+- scientific: Stenopus hispidus
   role: primary
-  confidence: 0.5022
-  identified_by: bioclip
+  confidence: 0.5162
+  identified_by: bioclip+bioclip-2

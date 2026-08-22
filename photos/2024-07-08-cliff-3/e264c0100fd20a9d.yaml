@@ -11,17 +11,33 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786159381.052378
-  top:
-  - scientific: Aulostomus maculatus
-    confidence: 0.1875
-  - scientific: Diadema antillarum
-    confidence: 0.025
-  - scientific: Monacanthus tuckeri
-    confidence: 0.0214
-  absorbed_by:
-    scientific: Aplysina fistularis
-    confidence: 0.3336
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786159381.052378
+    top:
+    - scientific: Aulostomus maculatus
+      confidence: 0.1875
+    - scientific: Diadema antillarum
+      confidence: 0.025
+    - scientific: Monacanthus tuckeri
+      confidence: 0.0214
+    absorbed_by:
+      scientific: Aplysina fistularis
+      confidence: 0.3336
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786159381.052378
+    top:
+    - scientific: Aulostomus maculatus
+      confidence: 0.9409
+    - scientific: Fistularia tabacaria
+      confidence: 0.0093
+    - scientific: Elacatinus genie
+      confidence: 0.008
+species:
+- scientific: Aulostomus maculatus
+  role: primary
+  confidence: 0.5642
+  identified_by: bioclip+bioclip-2

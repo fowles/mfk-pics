@@ -11,19 +11,30 @@ variants:
   import_original_name: e8bf3632ce392164.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786156898.3926322
-  top:
-  - scientific: Scarus coelestinus
-    confidence: 0.3532
-  - scientific: Epinephelus itajara
-    confidence: 0.3113
-  - scientific: Acanthostracion polygonius
-    confidence: 0.0898
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786156898.3926322
+    top:
+    - scientific: Scarus coelestinus
+      confidence: 0.3532
+    - scientific: Epinephelus itajara
+      confidence: 0.3113
+    - scientific: Acanthostracion polygonius
+      confidence: 0.0898
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786156898.3926322
+    top:
+    - scientific: Pterois volitans
+      confidence: 0.0574
+    - scientific: Chromis cyanea
+      confidence: 0.0515
+    - scientific: Sepioteuthis sepioidea
+      confidence: 0.045
 species:
 - scientific: Scarus coelestinus
   role: primary
-  confidence: 0.3532
+  confidence: 0.1766
   identified_by: bioclip

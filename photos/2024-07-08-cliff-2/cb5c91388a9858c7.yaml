@@ -11,19 +11,30 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786159376.5949533
-  top:
-  - scientific: Sparisoma aurofrenatum
-    confidence: 0.6751
-  - scientific: Scarus guacamaia
-    confidence: 0.2731
-  - scientific: Sparisoma viride
-    confidence: 0.0325
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786159376.5949533
+    top:
+    - scientific: Sparisoma aurofrenatum
+      confidence: 0.6751
+    - scientific: Scarus guacamaia
+      confidence: 0.2731
+    - scientific: Sparisoma viride
+      confidence: 0.0325
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786159376.5949533
+    top:
+    - scientific: Sparisoma aurofrenatum
+      confidence: 0.8257
+    - scientific: Sparisoma viride
+      confidence: 0.1261
+    - scientific: Scarus guacamaia
+      confidence: 0.013
 species:
 - scientific: Sparisoma aurofrenatum
   role: primary
-  confidence: 0.6751
-  identified_by: bioclip
+  confidence: 0.7504
+  identified_by: bioclip+bioclip-2

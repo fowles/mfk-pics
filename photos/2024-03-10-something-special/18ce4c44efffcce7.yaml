@@ -12,19 +12,30 @@ variants:
 date_reviewed: true
 rotation_applied: 90
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1787028852.780011
-  top:
-  - scientific: Lactophrys triqueter
-    confidence: 0.8737
-  - scientific: Sparisoma viride
-    confidence: 0.0317
-  - scientific: Scarus coelestinus
-    confidence: 0.0154
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1787028852.780011
+    top:
+    - scientific: Lactophrys triqueter
+      confidence: 0.8737
+    - scientific: Sparisoma viride
+      confidence: 0.0317
+    - scientific: Scarus coelestinus
+      confidence: 0.0154
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1787028852.780011
+    top:
+    - scientific: Acanthostracion polygonius
+      confidence: 0.8055
+    - scientific: Lactophrys bicaudalis
+      confidence: 0.0344
+    - scientific: Lactophrys triqueter
+      confidence: 0.0317
 species:
 - scientific: Lactophrys triqueter
   role: primary
-  confidence: 0.8737
-  identified_by: bioclip
+  confidence: 0.4527
+  identified_by: bioclip+bioclip-2

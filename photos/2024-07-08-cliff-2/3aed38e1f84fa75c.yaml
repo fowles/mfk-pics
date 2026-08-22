@@ -11,19 +11,30 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786159373.6968522
-  top:
-  - scientific: Abudefduf saxatilis
-    confidence: 0.9828
-  - scientific: Chaetodon striatus
-    confidence: 0.0139
-  - scientific: Lutjanus apodus
-    confidence: 0.0011
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786159373.6968522
+    top:
+    - scientific: Abudefduf saxatilis
+      confidence: 0.9828
+    - scientific: Chaetodon striatus
+      confidence: 0.0139
+    - scientific: Lutjanus apodus
+      confidence: 0.0011
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786159373.6968522
+    top:
+    - scientific: Abudefduf saxatilis
+      confidence: 0.9453
+    - scientific: Caranx ruber
+      confidence: 0.017
+    - scientific: Acanthurus coeruleus
+      confidence: 0.0047
 species:
 - scientific: Abudefduf saxatilis
   role: primary
-  confidence: 0.9828
-  identified_by: bioclip
+  confidence: 0.9641
+  identified_by: bioclip+bioclip-2

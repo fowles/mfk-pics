@@ -14,19 +14,30 @@ variants:
   import_original_name: 60a77a6f83f48145.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786158875.240859
-  top:
-  - scientific: Thalassoma bifasciatum
-    confidence: 0.1639
-  - scientific: Diadema antillarum
-    confidence: 0.1486
-  - scientific: Gramma loreto
-    confidence: 0.0892
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786158875.240859
+    top:
+    - scientific: Thalassoma bifasciatum
+      confidence: 0.1639
+    - scientific: Diadema antillarum
+      confidence: 0.1486
+    - scientific: Gramma loreto
+      confidence: 0.0892
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786158875.240859
+    top:
+    - scientific: Centropyge argi
+      confidence: 0.3696
+    - scientific: Gymnothorax miliaris
+      confidence: 0.1834
+    - scientific: Gymnothorax moringa
+      confidence: 0.067
 species:
-- scientific: Thalassoma bifasciatum
+- scientific: Centropyge argi
   role: primary
-  confidence: 0.1639
-  identified_by: bioclip
+  confidence: 0.1848
+  identified_by: bioclip-2

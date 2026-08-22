@@ -11,19 +11,30 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786158330.7922757
-  top:
-  - scientific: Sparisoma viride
-    confidence: 0.6185
-  - scientific: Scarus guacamaia
-    confidence: 0.2893
-  - scientific: Mycteroperca tigris
-    confidence: 0.0379
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786158330.7922757
+    top:
+    - scientific: Sparisoma viride
+      confidence: 0.6185
+    - scientific: Scarus guacamaia
+      confidence: 0.2893
+    - scientific: Mycteroperca tigris
+      confidence: 0.0379
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786158330.7922757
+    top:
+    - scientific: Equetus punctatus
+      confidence: 0.1768
+    - scientific: Monacanthus tuckeri
+      confidence: 0.1397
+    - scientific: Aluterus scriptus
+      confidence: 0.1022
 species:
 - scientific: Sparisoma viride
   role: primary
-  confidence: 0.6185
+  confidence: 0.3093
   identified_by: bioclip

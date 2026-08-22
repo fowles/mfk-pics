@@ -14,19 +14,30 @@ variants:
   import_original_name: 4c92af8cb2738348.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786158338.5556035
-  top:
-  - scientific: Gymnothorax funebris
-    confidence: 0.9075
-  - scientific: Gymnothorax miliaris
-    confidence: 0.058
-  - scientific: Aulostomus maculatus
-    confidence: 0.016
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786158338.5556035
+    top:
+    - scientific: Gymnothorax funebris
+      confidence: 0.9075
+    - scientific: Gymnothorax miliaris
+      confidence: 0.058
+    - scientific: Aulostomus maculatus
+      confidence: 0.016
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786158338.5556035
+    top:
+    - scientific: Gymnothorax funebris
+      confidence: 0.971
+    - scientific: Enchelycore carychroa
+      confidence: 0.0088
+    - scientific: Gymnothorax vicinus
+      confidence: 0.0061
 species:
 - scientific: Gymnothorax funebris
   role: primary
-  confidence: 0.9075
-  identified_by: bioclip
+  confidence: 0.9392
+  identified_by: bioclip+bioclip-2

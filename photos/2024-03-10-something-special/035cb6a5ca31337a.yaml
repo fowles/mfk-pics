@@ -11,19 +11,30 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786159054.7298381
-  top:
-  - scientific: Haemulon chrysargyreum
-    confidence: 0.962
-  - scientific: Haemulon sciurus
-    confidence: 0.0127
-  - scientific: Haemulon carbonarium
-    confidence: 0.0108
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786159054.7298381
+    top:
+    - scientific: Haemulon chrysargyreum
+      confidence: 0.962
+    - scientific: Haemulon sciurus
+      confidence: 0.0127
+    - scientific: Haemulon carbonarium
+      confidence: 0.0108
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786159054.7298381
+    top:
+    - scientific: Lutjanus mahogoni
+      confidence: 0.3296
+    - scientific: Haemulon chrysargyreum
+      confidence: 0.2764
+    - scientific: Haemulon aurolineatum
+      confidence: 0.2228
 species:
 - scientific: Haemulon chrysargyreum
   role: primary
-  confidence: 0.962
-  identified_by: bioclip
+  confidence: 0.6192
+  identified_by: bioclip+bioclip-2

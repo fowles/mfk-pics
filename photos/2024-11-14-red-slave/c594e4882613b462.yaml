@@ -11,19 +11,30 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786156966.1837966
-  top:
-  - scientific: Mycteroperca bonaci
-    confidence: 0.9265
-  - scientific: Scarus coelestinus
-    confidence: 0.0205
-  - scientific: Kyphosus sectatrix
-    confidence: 0.0201
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786156966.1837966
+    top:
+    - scientific: Mycteroperca bonaci
+      confidence: 0.9265
+    - scientific: Scarus coelestinus
+      confidence: 0.0205
+    - scientific: Kyphosus sectatrix
+      confidence: 0.0201
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786156966.1837966
+    top:
+    - scientific: Mycteroperca bonaci
+      confidence: 0.8741
+    - scientific: Mycteroperca venenosa
+      confidence: 0.0524
+    - scientific: Mycteroperca tigris
+      confidence: 0.0521
 species:
 - scientific: Mycteroperca bonaci
   role: primary
-  confidence: 0.9265
-  identified_by: bioclip
+  confidence: 0.9003
+  identified_by: bioclip+bioclip-2

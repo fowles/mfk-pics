@@ -14,19 +14,30 @@ variants:
   import_original_name: a49e12d73f67b0ce.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786158874.5890782
-  top:
-  - scientific: Epinephelus itajara
-    confidence: 0.2169
-  - scientific: Epinephelus striatus
-    confidence: 0.1578
-  - scientific: Cantherhines pullus
-    confidence: 0.1117
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786158874.5890782
+    top:
+    - scientific: Epinephelus itajara
+      confidence: 0.2169
+    - scientific: Epinephelus striatus
+      confidence: 0.1578
+    - scientific: Cantherhines pullus
+      confidence: 0.1117
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786158874.5890782
+    top:
+    - scientific: Sparisoma viride
+      confidence: 0.1377
+    - scientific: Gymnothorax funebris
+      confidence: 0.0531
+    - scientific: Haemulon sciurus
+      confidence: 0.0481
 species:
 - scientific: Epinephelus itajara
   role: primary
-  confidence: 0.2169
+  confidence: 0.1085
   identified_by: bioclip

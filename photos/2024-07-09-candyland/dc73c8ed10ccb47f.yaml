@@ -14,19 +14,30 @@ variants:
   import_original_name: 2b3995e588e08b79.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786159188.79305
-  top:
-  - scientific: Melichthys niger
-    confidence: 0.9975
-  - scientific: Scarus coelestinus
-    confidence: 0.0023
-  - scientific: Pomacanthus paru
-    confidence: 0.0
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786159188.79305
+    top:
+    - scientific: Melichthys niger
+      confidence: 0.9975
+    - scientific: Scarus coelestinus
+      confidence: 0.0023
+    - scientific: Pomacanthus paru
+      confidence: 0.0
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786159188.79305
+    top:
+    - scientific: Melichthys niger
+      confidence: 0.8659
+    - scientific: Acanthurus coeruleus
+      confidence: 0.05
+    - scientific: Hypoplectrus nigricans
+      confidence: 0.044
 species:
 - scientific: Melichthys niger
   role: primary
-  confidence: 0.9975
-  identified_by: bioclip
+  confidence: 0.9317
+  identified_by: bioclip+bioclip-2

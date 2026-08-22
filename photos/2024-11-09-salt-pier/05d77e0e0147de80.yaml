@@ -14,19 +14,30 @@ variants:
   import_original_name: 509ec428b4c9640b.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786156580.0186057
-  top:
-  - scientific: Emblemaria pandionis
-    confidence: 0.4051
-  - scientific: Eretmochelys imbricata
-    confidence: 0.3231
-  - scientific: Diodon holocanthus
-    confidence: 0.1
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786156580.0186057
+    top:
+    - scientific: Emblemaria pandionis
+      confidence: 0.4051
+    - scientific: Eretmochelys imbricata
+      confidence: 0.3231
+    - scientific: Diodon holocanthus
+      confidence: 0.1
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:26:48Z'
+    src_mtime: 1786156580.0186057
+    top:
+    - scientific: Enchelycore carychroa
+      confidence: 0.108
+    - scientific: Rypticus saponaceus
+      confidence: 0.0746
+    - scientific: Ginglymostoma cirratum
+      confidence: 0.0592
 species:
 - scientific: Emblemaria pandionis
   role: primary
-  confidence: 0.4051
+  confidence: 0.2026
   identified_by: bioclip

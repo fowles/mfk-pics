@@ -11,17 +11,31 @@ variants:
   import_original_name: 50e7628b8dbc5cbb.webp
 date_reviewed: true
 species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786158872.1076155
-  top:
-  - scientific: Mycteroperca tigris
-    confidence: 0.1814
-  - scientific: Pempheris schomburgkii
-    confidence: 0.0701
-  - scientific: Gymnothorax funebris
-    confidence: 0.0684
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-20T03:59:54Z'
+    src_mtime: 1786158872.1076155
+    top:
+    - scientific: Mycteroperca tigris
+      confidence: 0.1814
+    - scientific: Pempheris schomburgkii
+      confidence: 0.0701
+    - scientific: Gymnothorax funebris
+      confidence: 0.0684
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-22T06:41:08Z'
+    src_mtime: 1786158872.1076155
+    top:
+    - scientific: Holacanthus tricolor
+      confidence: 0.0725
+    - scientific: Stegastes partitus
+      confidence: 0.0564
+    - scientific: Halichoeres maculipinna
+      confidence: 0.0178
+    absorbed_by:
+      scientific: Orbicella faveolata
+      confidence: 0.1638
 species:
 - scientific: Lactophrys triqueter
   role: primary
