@@ -14,10 +14,8 @@ species:
 - scientific: Homo sapiens
   role: secondary
   identified_by: human
-- scientific: Sepioteuthis sepioidea
-  role: primary
-  confidence: 0.4932
-  identified_by: bioclip
+  person:
+  - Matthew Kulukundis
 species_suggestions:
   engine: bioclip
   model: hf-hub:imageomics/bioclip

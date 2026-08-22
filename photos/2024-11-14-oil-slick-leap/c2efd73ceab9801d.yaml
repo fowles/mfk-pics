@@ -26,7 +26,10 @@ species_suggestions:
   - scientific: Acanthurus chirurgus
     confidence: 0.1389
 species:
-- scientific: Canthidermis sufflamen
+- scientific: Acanthostracion polygonius
   role: primary
-  confidence: 0.2081
-  identified_by: bioclip
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

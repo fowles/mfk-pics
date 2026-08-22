@@ -26,7 +26,14 @@ species_suggestions:
   - scientific: Microspathodon chrysurus
     confidence: 0.0666
 species:
-- scientific: Scarus coelestinus
+- scientific: Acanthostracion polygonius
   role: primary
-  confidence: 0.6514
-  identified_by: bioclip
+  identified_by: human
+  reviewed_by: matt
+- scientific: Pomacanthus paru
+  role: secondary
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

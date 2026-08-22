@@ -13,6 +13,8 @@ species:
 - scientific: Homo sapiens
   role: primary
   identified_by: human
+  person:
+  - Matthew Kulukundis
 species_suggestions:
   engine: bioclip
   model: hf-hub:imageomics/bioclip
@@ -25,3 +27,6 @@ species_suggestions:
     confidence: 0.0645
   - scientific: Ginglymostoma cirratum
     confidence: 0.0479
+species_reviewed:
+- primary
+- secondary

@@ -23,7 +23,10 @@ species_suggestions:
   - scientific: Aulostomus maculatus
     confidence: 0.0739
 species:
-- scientific: Acanthostracion polygonius
+- scientific: Epinephelus adscensionis
   role: primary
-  confidence: 0.4381
-  identified_by: bioclip
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

@@ -23,7 +23,10 @@ species_suggestions:
   - scientific: Acanthostracion polygonius
     confidence: 0.107
 species:
-- scientific: Diodon hystrix
+- scientific: Epinephelus adscensionis
   role: primary
-  confidence: 0.268
-  identified_by: bioclip
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

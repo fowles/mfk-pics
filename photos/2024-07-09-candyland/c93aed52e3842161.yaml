@@ -18,8 +18,7 @@ species_suggestions:
     confidence: 0.0246
   - scientific: Sphoeroides testudineus
     confidence: 0.0008
-species:
-- scientific: Homo sapiens
-  role: primary
-  confidence: 0.9732
-  identified_by: bioclip
+species: []
+species_reviewed:
+- primary
+- secondary

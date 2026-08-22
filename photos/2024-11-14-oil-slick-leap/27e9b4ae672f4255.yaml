@@ -23,7 +23,11 @@ species_suggestions:
   - scientific: Diodon holocanthus
     confidence: 0.0351
 species:
-- scientific: Lactophrys triqueter
+- scientific: Acanthostracion polygonius
   role: primary
-  confidence: 0.8649
-  identified_by: bioclip
+  identified_by: human
+  confirmed_from: bioclip
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

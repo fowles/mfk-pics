@@ -26,7 +26,10 @@ species_suggestions:
   - scientific: Sparisoma viride
     confidence: 0.0742
 species:
-- scientific: Aluterus scriptus
+- scientific: Acanthostracion polygonius
   role: primary
-  confidence: 0.5376
-  identified_by: bioclip
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

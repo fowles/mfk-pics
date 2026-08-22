@@ -23,7 +23,9 @@ species_suggestions:
   - scientific: Sepioteuthis sepioidea
     confidence: 0.0013
 species:
-- scientific: Tursiops truncatus
+- scientific: Homo sapiens
   role: primary
-  confidence: 0.9889
-  identified_by: bioclip
+  identified_by: human
+  reviewed_by: matt
+  person:
+  - Matthew Kulukundis

@@ -30,6 +30,8 @@ species:
   role: primary
   identified_by: human
   reviewed_by: matt
+  person:
+  - Delia Kulukundis
 species_reviewed:
 - primary
 - secondary

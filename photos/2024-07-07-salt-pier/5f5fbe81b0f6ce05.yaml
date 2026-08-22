@@ -21,5 +21,11 @@ species_suggestions:
 species:
 - scientific: Homo sapiens
   role: primary
-  confidence: 0.9636
-  identified_by: bioclip
+  identified_by: human
+  confirmed_from: bioclip
+  reviewed_by: matt
+  person:
+  - Delia Kulukundis
+species_reviewed:
+- primary
+- secondary

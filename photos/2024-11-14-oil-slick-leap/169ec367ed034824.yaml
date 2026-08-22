@@ -25,5 +25,10 @@ species_suggestions:
 species:
 - scientific: Acanthostracion polygonius
   role: primary
-  confidence: 0.9627
-  identified_by: bioclip
+  identified_by: human
+  confirmed_from: bioclip
+  reviewed_by: matt
+  cover: true
+species_reviewed:
+- primary
+- secondary

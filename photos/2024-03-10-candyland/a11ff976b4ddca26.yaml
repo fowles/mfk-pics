@@ -32,6 +32,8 @@ species:
   role: secondary
   identified_by: human
   reviewed_by: matt
+  person:
+  - Matthew Kulukundis
 species_reviewed:
 - primary
 - secondary

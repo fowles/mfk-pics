@@ -25,5 +25,13 @@ species_suggestions:
 species:
 - scientific: Acanthostracion polygonius
   role: primary
-  confidence: 0.9327
-  identified_by: bioclip
+  identified_by: human
+  confirmed_from: bioclip
+  reviewed_by: matt
+- scientific: Pomacanthus paru
+  role: secondary
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

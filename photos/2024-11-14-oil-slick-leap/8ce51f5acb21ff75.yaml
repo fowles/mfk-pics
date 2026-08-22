@@ -25,8 +25,4 @@ species_suggestions:
     confidence: 0.1651
   - scientific: Sparisoma aurofrenatum
     confidence: 0.1209
-species:
-- scientific: Sphoeroides spengleri
-  role: primary
-  confidence: 0.3282
-  identified_by: bioclip
+species: []
