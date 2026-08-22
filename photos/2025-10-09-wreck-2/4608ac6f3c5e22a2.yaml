@@ -49,4 +49,11 @@ species_suggestions:
     absorbed_by:
       scientific: Millepora alcicornis
       confidence: 0.324
-species: []
+species:
+- scientific: Lutjanus griseus
+  role: primary
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

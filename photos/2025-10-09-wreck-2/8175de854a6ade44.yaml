@@ -45,7 +45,19 @@ species_suggestions:
     - scientific: Lutjanus griseus
       confidence: 0.2341
 species:
-- scientific: Lutjanus jocu
+- scientific: Anisotremus virginicus
+  role: secondary
+  identified_by: human
+  reviewed_by: matt
+- scientific: Pomacanthus arcuatus
+  role: secondary
+  identified_by: human
+  confirmed_from: bioclip-2.5
+  reviewed_by: matt
+- scientific: Haemulon album
   role: primary
-  confidence: 0.3642
-  identified_by: bioclip-2+bioclip-2.5
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

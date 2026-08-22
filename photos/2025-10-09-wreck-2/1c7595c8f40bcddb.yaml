@@ -45,7 +45,19 @@ species_suggestions:
     - scientific: Lutjanus mahogoni
       confidence: 0.0158
 species:
+- scientific: Anisotremus virginicus
+  role: secondary
+  identified_by: human
+  reviewed_by: matt
+- scientific: Haemulon album
+  role: secondary
+  identified_by: human
+  reviewed_by: matt
 - scientific: Lutjanus griseus
   role: primary
-  confidence: 0.7758
-  identified_by: bioclip+bioclip-2+bioclip-2.5
+  identified_by: human
+  confirmed_from: bioclip+bioclip-2+bioclip-2.5
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

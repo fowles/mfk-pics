@@ -44,7 +44,21 @@ species_suggestions:
     - scientific: Caranx ruber
       confidence: 0.013
 species:
+- scientific: Homo sapiens
+  role: secondary
+  identified_by: human
+  reviewed_by: matt
+  person:
+  - Matthew Kulukundis
+- scientific: Abudefduf saxatilis
+  role: secondary
+  identified_by: human
+  reviewed_by: matt
 - scientific: Kyphosus sectatrix
   role: primary
-  confidence: 0.6537
-  identified_by: bioclip+bioclip-2+bioclip-2.5
+  identified_by: human
+  confirmed_from: bioclip+bioclip-2+bioclip-2.5
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

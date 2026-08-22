@@ -44,7 +44,10 @@ species_suggestions:
     - scientific: Ginglymostoma cirratum
       confidence: 0.1184
 species:
-- scientific: Lachnolaimus maximus
+- scientific: Lutjanus griseus
   role: primary
-  confidence: 0.1517
-  identified_by: bioclip-2
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

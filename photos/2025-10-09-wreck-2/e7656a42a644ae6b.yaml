@@ -44,7 +44,23 @@ species_suggestions:
     - scientific: Haemulon carbonarium
       confidence: 0.0004
 species:
-- scientific: Anisotremus virginicus
+- scientific: Pomacanthus arcuatus
   role: primary
-  confidence: 0.854
-  identified_by: bioclip+bioclip-2+bioclip-2.5
+  identified_by: human
+  reviewed_by: matt
+- scientific: Haemulon album
+  role: secondary
+  identified_by: human
+  reviewed_by: matt
+- scientific: Anisotremus virginicus
+  role: secondary
+  identified_by: human
+  confirmed_from: bioclip+bioclip-2+bioclip-2.5
+  reviewed_by: matt
+- scientific: Haemulon aurolineatum
+  role: secondary
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

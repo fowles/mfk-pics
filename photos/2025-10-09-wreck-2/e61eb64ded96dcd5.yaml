@@ -47,7 +47,16 @@ species_suggestions:
     - scientific: Sphyrna mokarran
       confidence: 0.1052
 species:
-- scientific: Aetobatus narinari
+- scientific: Homo sapiens
   role: primary
-  confidence: 0.2725
-  identified_by: bioclip-2.5
+  identified_by: human
+  reviewed_by: matt
+  person:
+  - David Bean Rinaldi
+- scientific: Carcharhinus perezi
+  role: secondary
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

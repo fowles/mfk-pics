@@ -47,6 +47,6 @@ species_suggestions:
       confidence: 0.1242
 species:
 - scientific: Lutjanus apodus
-  role: primary
+  role: secondary
   confidence: 0.2231
   identified_by: bioclip-2

@@ -44,7 +44,17 @@ species_suggestions:
     - scientific: Ginglymostoma cirratum
       confidence: 0.0227
 species:
-- scientific: Scarus coeruleus
+- scientific: Acanthurus coeruleus
   role: primary
-  confidence: 0.4963
-  identified_by: bioclip+bioclip-2+bioclip-2.5
+  identified_by: human
+  confirmed_from: bioclip-2
+  reviewed_by: matt
+- scientific: Haemulon aurolineatum
+  role: secondary
+  identified_by: human
+  confirmed_from: bioclip-2+bioclip-2.5
+  reviewed_by: matt
+rotation_applied: 180
+species_reviewed:
+- primary
+- secondary

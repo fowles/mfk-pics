@@ -44,7 +44,11 @@ species_suggestions:
     - scientific: Anisotremus surinamensis
       confidence: 0.0393
 species:
-- scientific: Lutjanus mahogoni
+- scientific: Lutjanus griseus
   role: primary
-  confidence: 0.3966
-  identified_by: bioclip-2+bioclip-2.5
+  identified_by: human
+  confirmed_from: bioclip+bioclip-2+bioclip-2.5
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

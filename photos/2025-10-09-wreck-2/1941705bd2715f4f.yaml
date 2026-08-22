@@ -46,5 +46,17 @@ species_suggestions:
 species:
 - scientific: Anisotremus virginicus
   role: primary
-  confidence: 0.5205
-  identified_by: bioclip+bioclip-2+bioclip-2.5
+  identified_by: human
+  confirmed_from: bioclip+bioclip-2+bioclip-2.5
+  reviewed_by: matt
+- scientific: Haemulon album
+  role: secondary
+  identified_by: human
+  reviewed_by: matt
+- scientific: Haemulon aurolineatum
+  role: secondary
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary
