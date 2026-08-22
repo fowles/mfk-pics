@@ -1,7 +1,8 @@
 # SPDX-License-Identifier: MIT
 # Species registry: scientific name is the identity key; common name is display.
 # aliases fold other common names to the entry (verbatim, never fuzzy);
-# regions is free text (used by the identify engine's candidate filter, later).
+# regions: biogeographic provinces (Caribbean | Indo-Pacific | Eastern Pacific | Mediterranean);
+# identify offers an entry only on dives in a listed province; untagged = every dive.
 - {scientific: "Pterois volitans", common: "Red Lionfish", aliases: ["Lionfish"], regions: ["Caribbean"]}
 - {scientific: "Sparisoma viride", common: "Stoplight Parrotfish", regions: ["Caribbean"]}
 - {scientific: "Scarus vetula", common: "Queen Parrotfish", regions: ["Caribbean"]}
@@ -173,8 +174,8 @@
 - {scientific: "Cyphoma gibbosum", common: "Flamingo Tongue", regions: ["Caribbean"]}
 - {scientific: "Cassiopea xamachana", common: "Upside-down Jellyfish", regions: ["Caribbean"]}
 - {scientific: "Aurelia aurita", common: "Moon Jellyfish", regions: ["Caribbean"]}
-- {scientific: "Megalops atlanticus", common: "Tarpon", regions: ["Caribbean", "Florida"]}
-- {scientific: "Chaetodipterus faber", common: "Atlantic Spadefish", regions: ["Caribbean", "Florida"]}
+- {scientific: "Megalops atlanticus", common: "Tarpon", regions: ["Caribbean"]}
+- {scientific: "Chaetodipterus faber", common: "Atlantic Spadefish", regions: ["Caribbean"]}
 - {scientific: "Echeneis naucrates", common: "Sharksucker", aliases: ["Remora"], regions: ["Caribbean"]}
 - {scientific: "Malacanthus plumieri", common: "Sand Tilefish", regions: ["Caribbean"]}
 - {scientific: "Serranus tortugarum", common: "Chalk Bass", regions: ["Caribbean"]}
@@ -185,28 +186,28 @@
 - {scientific: "Bodianus pulchellus", common: "Spotfin Hogfish", regions: ["Caribbean"]}
 - {scientific: "Halichoeres pictus", common: "Rainbow Wrasse", regions: ["Caribbean"]}
 - {scientific: "Coryphopterus lipernes", common: "Peppermint Goby", regions: ["Caribbean"]}
-- {scientific: "Elacatinus genie", common: "Cleaning Goby", regions: ["Bahamas"]}
+- {scientific: "Elacatinus genie", common: "Cleaning Goby", regions: ["Caribbean"]}
 - {scientific: "Labrisomus nuchipinnis", common: "Hairy Blenny", regions: ["Caribbean"]}
-- {scientific: "Parablennius marmoreus", common: "Seaweed Blenny", regions: ["Caribbean", "Florida"]}
-- {scientific: "Scartella cristata", common: "Molly Miller", regions: ["Caribbean", "Florida"]}
+- {scientific: "Parablennius marmoreus", common: "Seaweed Blenny", regions: ["Caribbean"]}
+- {scientific: "Scartella cristata", common: "Molly Miller", regions: ["Caribbean"]}
 - {scientific: "Gymnothorax vicinus", common: "Purplemouth Moray", regions: ["Caribbean"]}
-- {scientific: "Aluterus schoepfii", common: "Orange Filefish", regions: ["Caribbean", "Florida"]}
-- {scientific: "Chilomycterus schoepfii", common: "Striped Burrfish", regions: ["Florida"]}
-- {scientific: "Sphoeroides testudineus", common: "Checkered Puffer", regions: ["Florida", "Caribbean"]}
-- {scientific: "Synodus foetens", common: "Inshore Lizardfish", regions: ["Florida"]}
-- {scientific: "Haemulon aurolineatum", common: "Tomtate", regions: ["Caribbean", "Florida"]}
+- {scientific: "Aluterus schoepfii", common: "Orange Filefish", regions: ["Caribbean"]}
+- {scientific: "Chilomycterus schoepfii", common: "Striped Burrfish", regions: ["Caribbean"]}
+- {scientific: "Sphoeroides testudineus", common: "Checkered Puffer", regions: ["Caribbean"]}
+- {scientific: "Synodus foetens", common: "Inshore Lizardfish", regions: ["Caribbean"]}
+- {scientific: "Haemulon aurolineatum", common: "Tomtate", regions: ["Caribbean"]}
 - {scientific: "Haemulon macrostomum", common: "Spanish Grunt", regions: ["Caribbean"]}
-- {scientific: "Lutjanus synagris", common: "Lane Snapper", regions: ["Caribbean", "Florida"]}
+- {scientific: "Lutjanus synagris", common: "Lane Snapper", regions: ["Caribbean"]}
 - {scientific: "Atherinomorus stipes", common: "Hardhead Silverside", regions: ["Caribbean"]}
 - {scientific: "Jenkinsia lamprotaenia", common: "Dwarf Herring", regions: ["Caribbean"]}
-- {scientific: "Antennarius striatus", common: "Striated Frogfish", regions: ["Florida"]}
-- {scientific: "Ogcocephalus radiatus", common: "Polka-dot Batfish", regions: ["Florida"]}
+- {scientific: "Antennarius striatus", common: "Striated Frogfish", regions: ["Caribbean"]}
+- {scientific: "Ogcocephalus radiatus", common: "Polka-dot Batfish", regions: ["Caribbean"]}
 - {scientific: "Sparisoma atomarium", common: "Greenblotch Parrotfish", regions: ["Caribbean"]}
 - {scientific: "Priacanthus arenatus", common: "Bigeye", regions: ["Caribbean"]}
 - {scientific: "Stegastes diencaeus", common: "Longfin Damselfish", regions: ["Caribbean"]}
 - {scientific: "Carangoides bartholomaei", common: "Yellow Jack", regions: ["Caribbean"]}
 - {scientific: "Scomberomorus regalis", common: "Cero", regions: ["Caribbean"]}
-- {scientific: "Aliger gigas", common: "Queen Conch", regions: ["Caribbean", "Bahamas"]}
+- {scientific: "Aliger gigas", common: "Queen Conch", regions: ["Caribbean"]}
 - {scientific: "Aplysia dactylomela", common: "Spotted Sea Hare", regions: ["Caribbean"]}
 - {scientific: "Felimare bayeri", common: "Bayer's Nudibranch", regions: ["Caribbean"]}
 - {scientific: "Lysmata grabhami", common: "Scarlet-striped Cleaner Shrimp", regions: ["Caribbean"]}
@@ -271,8 +272,8 @@
 - {scientific: "Thalassia testudinum", common: "Turtle Grass", regions: ["Caribbean"], distractor: true}
 - {scientific: "Halimeda opuntia", common: "Watercress Alga", regions: ["Caribbean"], distractor: true}
 - {scientific: Chrysiptera parasema, common: Yellowtail Blue Damsel}
-- {scientific: Canthigaster jamestyleri, common: Goldface Toby}
-- {scientific: Sparisoma amplum, common: Reef Parrotfish}
-- {scientific: Epinephelus adscensionis, common: Rock Hind}
-- {scientific: Osachila antillensis, common: Box Crab}
-- {scientific: Haemulon album, common: White Margate}
+- {scientific: Canthigaster jamestyleri, common: Goldface Toby, regions: [Caribbean]}
+- {scientific: Sparisoma amplum, common: Reef Parrotfish, regions: [Caribbean]}
+- {scientific: Epinephelus adscensionis, common: Rock Hind, regions: [Caribbean]}
+- {scientific: Osachila antillensis, common: Box Crab, regions: [Caribbean]}
+- {scientific: Haemulon album, common: White Margate, regions: [Caribbean]}
