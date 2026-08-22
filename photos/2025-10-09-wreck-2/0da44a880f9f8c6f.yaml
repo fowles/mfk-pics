@@ -14,7 +14,7 @@ rotation_applied: 180
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786847362.93747
     top:
     - scientific: Panulirus argus
@@ -34,8 +34,19 @@ species_suggestions:
       confidence: 0.1354
     - scientific: Lutjanus griseus
       confidence: 0.0448
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786847362.93747
+    top:
+    - scientific: Haemulon chrysargyreum
+      confidence: 0.4255
+    - scientific: Haemulon macrostomum
+      confidence: 0.1602
+    - scientific: Haemulon sciurus
+      confidence: 0.1242
 species:
 - scientific: Lutjanus apodus
   role: primary
-  confidence: 0.4463
+  confidence: 0.2231
   identified_by: bioclip-2

@@ -13,7 +13,7 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786158859.3631063
     top:
     - scientific: Sepioteuthis sepioidea
@@ -33,8 +33,19 @@ species_suggestions:
       confidence: 0.0899
     - scientific: Acanthurus coeruleus
       confidence: 0.0676
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786158859.3631063
+    top:
+    - scientific: Melichthys niger
+      confidence: 0.9572
+    - scientific: Canthidermis sufflamen
+      confidence: 0.0354
+    - scientific: Balistes vetula
+      confidence: 0.004
 species:
-- scientific: Holacanthus tricolor
+- scientific: Melichthys niger
   role: primary
-  confidence: 0.1075
-  identified_by: bioclip-2
+  confidence: 0.5236
+  identified_by: bioclip-2+bioclip-2.5

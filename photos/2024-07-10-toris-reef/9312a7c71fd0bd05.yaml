@@ -16,7 +16,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786160207.80837
     top:
     - scientific: Lactophrys triqueter
@@ -36,8 +36,19 @@ species_suggestions:
       confidence: 0.1765
     - scientific: Ogcocephalus nasutus
       confidence: 0.1627
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786160207.80837
+    top:
+    - scientific: Lactophrys triqueter
+      confidence: 0.9993
+    - scientific: Canthidermis sufflamen
+      confidence: 0.0003
+    - scientific: Lactophrys bicaudalis
+      confidence: 0.0003
 species:
-- scientific: Canthidermis sufflamen
+- scientific: Lactophrys triqueter
   role: primary
-  confidence: 0.2483
-  identified_by: bioclip-2
+  confidence: 0.4996
+  identified_by: bioclip+bioclip-2.5

@@ -13,7 +13,7 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786158861.0820475
     top:
     - scientific: Ocyurus chrysurus
@@ -33,8 +33,19 @@ species_suggestions:
       confidence: 0.2938
     - scientific: Haemulon chrysargyreum
       confidence: 0.0243
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786158861.0820475
+    top:
+    - scientific: Ocyurus chrysurus
+      confidence: 0.5471
+    - scientific: Mulloidichthys martinicus
+      confidence: 0.4484
+    - scientific: Sparisoma rubripinne
+      confidence: 0.0027
 species:
 - scientific: Ocyurus chrysurus
   role: primary
-  confidence: 0.5815
-  identified_by: bioclip+bioclip-2
+  confidence: 0.5643
+  identified_by: bioclip+bioclip-2+bioclip-2.5

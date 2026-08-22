@@ -33,6 +33,17 @@ species_suggestions:
       confidence: 0.2449
     - scientific: Thalassoma bifasciatum
       confidence: 0.0571
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786158852.6411731
+    top:
+    - scientific: Scarus iseri
+      confidence: 0.3631
+    - scientific: Abudefduf saxatilis
+      confidence: 0.1333
+    - scientific: Sparisoma viride
+      confidence: 0.1065
 species: []
 species_reviewed:
 - primary

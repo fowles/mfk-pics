@@ -16,7 +16,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786156367.7584488
     top:
     - scientific: Thalassoma bifasciatum
@@ -36,8 +36,19 @@ species_suggestions:
       confidence: 0.0674
     - scientific: Lactophrys triqueter
       confidence: 0.0431
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786156367.7584488
+    top:
+    - scientific: Haemulon carbonarium
+      confidence: 0.1215
+    - scientific: Hypoplectrus unicolor
+      confidence: 0.114
+    - scientific: Stegastes diencaeus
+      confidence: 0.0873
 species:
-- scientific: Serranus tigrinus
+- scientific: Haemulon carbonarium
   role: primary
-  confidence: 0.075
-  identified_by: bioclip-2
+  confidence: 0.0607
+  identified_by: bioclip-2.5

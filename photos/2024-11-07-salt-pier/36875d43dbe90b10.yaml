@@ -13,7 +13,7 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786156319.3235552
     top:
     - scientific: Chaetodon striatus
@@ -33,8 +33,18 @@ species_suggestions:
       confidence: 0.095
     - scientific: Epinephelus striatus
       confidence: 0.0834
-species:
-- scientific: Lutjanus apodus
-  role: primary
-  confidence: 0.2778
-  identified_by: bioclip-2
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786156319.3235552
+    top:
+    - scientific: Haemulon macrostomum
+      confidence: 0.402
+    - scientific: Anisotremus virginicus
+      confidence: 0.0262
+    - scientific: Haemulon chrysargyreum
+      confidence: 0.022
+    absorbed_by:
+      scientific: Aplysina fistularis
+      confidence: 0.4612
+species: []

@@ -13,7 +13,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786159575.6445944
     top:
     - scientific: Elacatinus evelynae
@@ -39,3 +39,19 @@ species_suggestions:
     absorbed_by:
       scientific: Millepora alcicornis
       confidence: 0.1409
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786159575.6445944
+    top:
+    - scientific: Haemulon macrostomum
+      confidence: 0.2911
+    - scientific: Serranus tigrinus
+      confidence: 0.1177
+    - scientific: Monacanthus tuckeri
+      confidence: 0.0717
+species:
+- scientific: Haemulon macrostomum
+  role: primary
+  confidence: 0.1456
+  identified_by: bioclip-2.5

@@ -33,6 +33,17 @@ species_suggestions:
       confidence: 0.346
     - scientific: Cantherhines pullus
       confidence: 0.0258
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786158872.3422575
+    top:
+    - scientific: Rypticus saponaceus
+      confidence: 0.3218
+    - scientific: Acanthostracion polygonius
+      confidence: 0.111
+    - scientific: Gymnothorax moringa
+      confidence: 0.1052
 species:
 - scientific: Aluterus scriptus
   role: primary

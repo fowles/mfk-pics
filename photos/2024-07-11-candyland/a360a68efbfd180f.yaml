@@ -33,6 +33,17 @@ species_suggestions:
       confidence: 0.0021
     - scientific: Holocentrus rufus
       confidence: 0.0014
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786159270.5028548
+    top:
+    - scientific: Pterois volitans
+      confidence: 0.9975
+    - scientific: Tripneustes ventricosus
+      confidence: 0.0
+    - scientific: Diadema antillarum
+      confidence: 0.0
 species:
 - scientific: Pterois volitans
   role: primary

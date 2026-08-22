@@ -13,7 +13,7 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786158487.1493003
     top:
     - scientific: Stenorhynchus seticornis
@@ -36,4 +36,18 @@ species_suggestions:
     absorbed_by:
       scientific: Antillogorgia americana
       confidence: 0.1626
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786158487.1493003
+    top:
+    - scientific: Aulostomus maculatus
+      confidence: 0.0036
+    - scientific: Abudefduf saxatilis
+      confidence: 0.0016
+    - scientific: Cyphoma gibbosum
+      confidence: 0.0014
+    absorbed_by:
+      scientific: Briareum asbestinum
+      confidence: 0.8552
 species: []

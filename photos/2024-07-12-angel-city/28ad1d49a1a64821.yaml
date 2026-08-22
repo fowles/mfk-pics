@@ -16,7 +16,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786158512.6761658
     top:
     - scientific: Sparisoma viride
@@ -36,8 +36,19 @@ species_suggestions:
       confidence: 0.1361
     - scientific: Bodianus rufus
       confidence: 0.0518
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786158512.6761658
+    top:
+    - scientific: Halichoeres radiatus
+      confidence: 0.6166
+    - scientific: Pseudupeneus maculatus
+      confidence: 0.308
+    - scientific: Sparisoma amplum
+      confidence: 0.0158
 species:
-- scientific: Aulostomus maculatus
+- scientific: Halichoeres radiatus
   role: primary
-  confidence: 0.1857
-  identified_by: bioclip-2
+  confidence: 0.3083
+  identified_by: bioclip-2.5

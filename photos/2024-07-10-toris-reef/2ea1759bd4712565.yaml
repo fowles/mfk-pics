@@ -16,7 +16,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786160162.145287
     top:
     - scientific: Melichthys niger
@@ -36,8 +36,19 @@ species_suggestions:
       confidence: 0.2546
     - scientific: Mycteroperca bonaci
       confidence: 0.1928
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786160162.145287
+    top:
+    - scientific: Canthidermis sufflamen
+      confidence: 0.3045
+    - scientific: Diodon hystrix
+      confidence: 0.2347
+    - scientific: Lutjanus analis
+      confidence: 0.1404
 species:
 - scientific: Sphyraena barracuda
   role: primary
-  confidence: 0.3783
+  confidence: 0.1892
   identified_by: bioclip-2

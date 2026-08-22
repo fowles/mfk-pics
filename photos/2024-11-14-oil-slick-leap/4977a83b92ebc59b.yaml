@@ -13,7 +13,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786156897.4885662
     top:
     - scientific: Sepioteuthis sepioidea
@@ -33,8 +33,19 @@ species_suggestions:
       confidence: 0.1194
     - scientific: Lutjanus analis
       confidence: 0.0754
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786156897.4885662
+    top:
+    - scientific: Sparisoma aurofrenatum
+      confidence: 0.3569
+    - scientific: Aluterus scriptus
+      confidence: 0.2168
+    - scientific: Sparisoma viride
+      confidence: 0.1194
 species:
-- scientific: Aulostomus maculatus
+- scientific: Sparisoma aurofrenatum
   role: primary
-  confidence: 0.1728
-  identified_by: bioclip-2
+  confidence: 0.1784
+  identified_by: bioclip-2.5

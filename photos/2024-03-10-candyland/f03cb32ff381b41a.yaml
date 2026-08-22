@@ -33,6 +33,17 @@ species_suggestions:
       confidence: 0.0487
     - scientific: Haemulon macrostomum
       confidence: 0.0048
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786158852.9948812
+    top:
+    - scientific: Haemulon sciurus
+      confidence: 0.9929
+    - scientific: Haemulon flavolineatum
+      confidence: 0.0046
+    - scientific: Haemulon carbonarium
+      confidence: 0.0022
 species:
 - scientific: Haemulon sciurus
   role: primary

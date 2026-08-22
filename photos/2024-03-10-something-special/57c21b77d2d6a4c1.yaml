@@ -16,7 +16,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786159066.3851607
     top:
     - scientific: Gymnothorax moringa
@@ -39,8 +39,19 @@ species_suggestions:
       confidence: 0.0996
     - scientific: Gymnothorax moringa
       confidence: 0.0812
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786159066.3851607
+    top:
+    - scientific: Cephalopholis cruentata
+      confidence: 0.5628
+    - scientific: Mycteroperca tigris
+      confidence: 0.2929
+    - scientific: Epinephelus adscensionis
+      confidence: 0.0812
 species:
 - scientific: Cephalopholis cruentata
   role: primary
-  confidence: 0.6761
-  identified_by: bioclip-2
+  confidence: 0.6195
+  identified_by: bioclip-2+bioclip-2.5

@@ -33,6 +33,17 @@ species_suggestions:
       confidence: 0.126
     - scientific: Thalassoma bifasciatum
       confidence: 0.1179
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1787325444.59477
+    top:
+    - scientific: Chromis cyanea
+      confidence: 0.6326
+    - scientific: Clepticus parrae
+      confidence: 0.3042
+    - scientific: Chromis multilineata
+      confidence: 0.0205
 species:
 - scientific: Clepticus parrae
   role: primary

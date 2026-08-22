@@ -16,7 +16,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786158982.0059204
     top:
     - scientific: Aulostomus maculatus
@@ -36,8 +36,19 @@ species_suggestions:
       confidence: 0.0568
     - scientific: Aetobatus narinari
       confidence: 0.0523
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786158982.0059204
+    top:
+    - scientific: Urobatis jamaicensis
+      confidence: 0.306
+    - scientific: Lachnolaimus maximus
+      confidence: 0.2279
+    - scientific: Hypanus americanus
+      confidence: 0.1118
 species:
-- scientific: Hypanus americanus
+- scientific: Urobatis jamaicensis
   role: primary
-  confidence: 0.1217
-  identified_by: bioclip-2
+  confidence: 0.153
+  identified_by: bioclip-2.5

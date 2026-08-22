@@ -14,7 +14,7 @@ rotation_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786159060.2939627
     top:
     - scientific: Abudefduf saxatilis
@@ -34,8 +34,19 @@ species_suggestions:
       confidence: 0.0019
     - scientific: Haemulon carbonarium
       confidence: 0.0014
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786159060.2939627
+    top:
+    - scientific: Abudefduf saxatilis
+      confidence: 1.0
+    - scientific: Haemulon macrostomum
+      confidence: 0.0
+    - scientific: Kyphosus sectatrix
+      confidence: 0.0
 species:
 - scientific: Abudefduf saxatilis
   role: primary
-  confidence: 0.9847
-  identified_by: bioclip+bioclip-2
+  confidence: 0.9924
+  identified_by: bioclip+bioclip-2+bioclip-2.5

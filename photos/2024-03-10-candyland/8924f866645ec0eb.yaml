@@ -36,6 +36,17 @@ species_suggestions:
       confidence: 0.0743
     - scientific: Holacanthus tricolor
       confidence: 0.0532
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786158853.8693376
+    top:
+    - scientific: Abudefduf saxatilis
+      confidence: 0.2272
+    - scientific: Thalassoma bifasciatum
+      confidence: 0.2145
+    - scientific: Halichoeres garnoti
+      confidence: 0.0631
 species_reviewed:
 - primary
 - secondary

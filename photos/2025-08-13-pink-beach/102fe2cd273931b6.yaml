@@ -16,7 +16,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786158189.5047765
     top:
     - scientific: Pomacanthus paru
@@ -36,8 +36,19 @@ species_suggestions:
       confidence: 0.4918
     - scientific: Holacanthus ciliaris
       confidence: 0.0004
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786158189.5047765
+    top:
+    - scientific: Pomacanthus paru
+      confidence: 0.9992
+    - scientific: Pomacanthus arcuatus
+      confidence: 0.0008
+    - scientific: Chaetodipterus faber
+      confidence: 0.0
 species:
-- scientific: Pomacanthus arcuatus
+- scientific: Pomacanthus paru
   role: primary
-  confidence: 0.507
-  identified_by: bioclip-2
+  confidence: 0.7455
+  identified_by: bioclip+bioclip-2+bioclip-2.5

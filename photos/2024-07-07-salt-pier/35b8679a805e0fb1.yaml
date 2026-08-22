@@ -18,7 +18,7 @@ extra_variants:
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786159982.583125
     top:
     - scientific: Gymnothorax funebris
@@ -38,8 +38,19 @@ species_suggestions:
       confidence: 0.1425
     - scientific: Gymnothorax miliaris
       confidence: 0.0715
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786159982.583125
+    top:
+    - scientific: Myrichthys breviceps
+      confidence: 0.3605
+    - scientific: Gymnothorax moringa
+      confidence: 0.2514
+    - scientific: Myrichthys ocellatus
+      confidence: 0.1822
 species:
 - scientific: Myrichthys breviceps
   role: primary
-  confidence: 0.394
-  identified_by: bioclip-2
+  confidence: 0.3772
+  identified_by: bioclip-2+bioclip-2.5

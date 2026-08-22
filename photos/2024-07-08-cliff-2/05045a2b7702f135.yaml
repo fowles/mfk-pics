@@ -13,7 +13,7 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786159375.1915498
     top:
     - scientific: Prognathodes aculeatus
@@ -39,3 +39,17 @@ species_suggestions:
     absorbed_by:
       scientific: Millepora complanata
       confidence: 0.8918
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786159375.1915498
+    top:
+    - scientific: Hypoplectrus indigo
+      confidence: 0.0013
+    - scientific: Thalassoma bifasciatum
+      confidence: 0.0004
+    - scientific: Microspathodon chrysurus
+      confidence: 0.0002
+    absorbed_by:
+      scientific: Millepora complanata
+      confidence: 0.993

@@ -16,7 +16,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786159970.5738194
     top:
     - scientific: Sphoeroides spengleri
@@ -39,4 +39,19 @@ species_suggestions:
     absorbed_by:
       scientific: Briareum asbestinum
       confidence: 0.1856
-species: []
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786159970.5738194
+    top:
+    - scientific: Rypticus saponaceus
+      confidence: 0.2292
+    - scientific: Gymnothorax miliaris
+      confidence: 0.1173
+    - scientific: Haemulon plumierii
+      confidence: 0.1146
+species:
+- scientific: Gymnothorax miliaris
+  role: primary
+  confidence: 0.1394
+  identified_by: bioclip-2+bioclip-2.5

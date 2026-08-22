@@ -13,7 +13,7 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786158711.064393
     top:
     - scientific: Hypoplectrus nigricans
@@ -33,8 +33,19 @@ species_suggestions:
       confidence: 0.0833
     - scientific: Cyphoma gibbosum
       confidence: 0.0548
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786158711.064393
+    top:
+    - scientific: Monacanthus tuckeri
+      confidence: 0.4328
+    - scientific: Haemulon macrostomum
+      confidence: 0.0878
+    - scientific: Sparisoma viride
+      confidence: 0.0613
 species:
-- scientific: Lactophrys bicaudalis
+- scientific: Monacanthus tuckeri
   role: primary
-  confidence: 0.2101
-  identified_by: bioclip-2
+  confidence: 0.2164
+  identified_by: bioclip-2.5

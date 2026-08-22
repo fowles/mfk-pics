@@ -16,7 +16,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786156744.3168163
     top:
     - scientific: Lutjanus jocu
@@ -36,8 +36,19 @@ species_suggestions:
       confidence: 0.0804
     - scientific: Lutjanus analis
       confidence: 0.0368
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786156744.3168163
+    top:
+    - scientific: Haemulon carbonarium
+      confidence: 0.8449
+    - scientific: Lutjanus mahogoni
+      confidence: 0.0461
+    - scientific: Mycteroperca tigris
+      confidence: 0.0366
 species:
-- scientific: Canthidermis sufflamen
+- scientific: Haemulon carbonarium
   role: primary
-  confidence: 0.7314
-  identified_by: bioclip-2
+  confidence: 0.4224
+  identified_by: bioclip-2.5

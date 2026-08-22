@@ -13,7 +13,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786071913.2176938
     top:
     - scientific: Haemulon macrostomum
@@ -39,3 +39,19 @@ species_suggestions:
     absorbed_by:
       scientific: Acropora cervicornis
       confidence: 0.3645
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786071913.2176938
+    top:
+    - scientific: Sparisoma amplum
+      confidence: 0.5351
+    - scientific: Scomberomorus regalis
+      confidence: 0.0774
+    - scientific: Scarus vetula
+      confidence: 0.0653
+species:
+- scientific: Sparisoma amplum
+  role: primary
+  confidence: 0.2676
+  identified_by: bioclip-2.5

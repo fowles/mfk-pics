@@ -13,7 +13,7 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786156317.9974113
     top:
     - scientific: Opistognathus aurifrons
@@ -33,8 +33,18 @@ species_suggestions:
       confidence: 0.1114
     - scientific: Cephalopholis cruentata
       confidence: 0.0638
-species:
-- scientific: Holacanthus tricolor
-  role: primary
-  confidence: 0.1143
-  identified_by: bioclip-2
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786156317.9974113
+    top:
+    - scientific: Serranus tigrinus
+      confidence: 0.0137
+    - scientific: Halichoeres garnoti
+      confidence: 0.0108
+    - scientific: Chaetodon capistratus
+      confidence: 0.0083
+    absorbed_by:
+      scientific: Briareum asbestinum
+      confidence: 0.2221
+species: []

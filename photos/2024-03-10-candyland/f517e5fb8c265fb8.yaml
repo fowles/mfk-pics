@@ -33,6 +33,17 @@ species_suggestions:
       confidence: 0.2359
     - scientific: Cantherhines pullus
       confidence: 0.0391
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786158870.9625485
+    top:
+    - scientific: Melichthys niger
+      confidence: 0.8261
+    - scientific: Balistes vetula
+      confidence: 0.0947
+    - scientific: Pomacanthus arcuatus
+      confidence: 0.0568
 species:
 - scientific: Melichthys niger
   role: primary

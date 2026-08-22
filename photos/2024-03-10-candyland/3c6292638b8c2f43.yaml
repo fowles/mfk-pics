@@ -33,6 +33,17 @@ species_suggestions:
       confidence: 0.1654
     - scientific: Haemulon macrostomum
       confidence: 0.0935
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786158851.5643494
+    top:
+    - scientific: Scarus iseri
+      confidence: 0.9001
+    - scientific: Haemulon chrysargyreum
+      confidence: 0.0271
+    - scientific: Haemulon aurolineatum
+      confidence: 0.0181
 species:
 - scientific: Scarus taeniopterus
   role: primary

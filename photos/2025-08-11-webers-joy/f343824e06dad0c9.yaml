@@ -16,7 +16,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786071914.2722626
     top:
     - scientific: Emblemaria pandionis
@@ -36,8 +36,19 @@ species_suggestions:
       confidence: 0.1275
     - scientific: Melichthys niger
       confidence: 0.0737
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786071914.2722626
+    top:
+    - scientific: Diodon hystrix
+      confidence: 0.7888
+    - scientific: Melichthys niger
+      confidence: 0.0712
+    - scientific: Acanthurus tractus
+      confidence: 0.0495
 species:
-- scientific: Anisotremus surinamensis
+- scientific: Diodon hystrix
   role: primary
-  confidence: 0.1416
-  identified_by: bioclip-2
+  confidence: 0.3944
+  identified_by: bioclip-2.5

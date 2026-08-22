@@ -42,6 +42,17 @@ species_suggestions:
     absorbed_by:
       scientific: Orbicella annularis
       confidence: 0.5182
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786158873.3725247
+    top:
+    - scientific: Diodon hystrix
+      confidence: 0.9363
+    - scientific: Mycteroperca tigris
+      confidence: 0.0104
+    - scientific: Diodon holocanthus
+      confidence: 0.0088
 species:
 - scientific: Diodon hystrix
   role: primary

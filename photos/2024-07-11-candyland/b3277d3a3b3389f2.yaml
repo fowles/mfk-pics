@@ -16,7 +16,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786159294.4279697
     top:
     - scientific: Acanthostracion polygonius
@@ -39,4 +39,19 @@ species_suggestions:
     absorbed_by:
       scientific: Xestospongia muta
       confidence: 0.0571
-species: []
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786159294.4279697
+    top:
+    - scientific: Pomacanthus arcuatus
+      confidence: 0.2853
+    - scientific: Rypticus saponaceus
+      confidence: 0.1732
+    - scientific: Canthidermis sufflamen
+      confidence: 0.1543
+species:
+- scientific: Pomacanthus arcuatus
+  role: primary
+  confidence: 0.1426
+  identified_by: bioclip-2.5

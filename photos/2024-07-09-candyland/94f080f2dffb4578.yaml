@@ -33,6 +33,17 @@ species_suggestions:
       confidence: 0.0187
     - scientific: Periclimenes yucatanicus
       confidence: 0.0167
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1787412064.4928882
+    top:
+    - scientific: Stenopus hispidus
+      confidence: 0.9694
+    - scientific: Lysmata grabhami
+      confidence: 0.0261
+    - scientific: Periclimenes yucatanicus
+      confidence: 0.0031
 species:
 - scientific: Stenopus hispidus
   role: primary

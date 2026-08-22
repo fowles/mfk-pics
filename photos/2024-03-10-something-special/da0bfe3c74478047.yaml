@@ -13,7 +13,7 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786159060.4308643
     top:
     - scientific: Mycteroperca tigris
@@ -33,8 +33,19 @@ species_suggestions:
       confidence: 0.3465
     - scientific: Mycteroperca tigris
       confidence: 0.1339
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786159060.4308643
+    top:
+    - scientific: Mycteroperca venenosa
+      confidence: 0.5093
+    - scientific: Mycteroperca bonaci
+      confidence: 0.2697
+    - scientific: Mycteroperca tigris
+      confidence: 0.1812
 species:
-- scientific: Mycteroperca bonaci
+- scientific: Mycteroperca venenosa
   role: primary
-  confidence: 0.3767
-  identified_by: bioclip-2
+  confidence: 0.4279
+  identified_by: bioclip-2+bioclip-2.5

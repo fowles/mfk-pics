@@ -13,7 +13,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786157491.1521077
     top:
     - scientific: Haemulon flavolineatum
@@ -33,8 +33,19 @@ species_suggestions:
       confidence: 0.2542
     - scientific: Anisotremus virginicus
       confidence: 0.1307
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786157491.1521077
+    top:
+    - scientific: Haemulon flavolineatum
+      confidence: 0.8591
+    - scientific: Haemulon carbonarium
+      confidence: 0.0913
+    - scientific: Haemulon macrostomum
+      confidence: 0.0195
 species:
 - scientific: Haemulon flavolineatum
   role: primary
-  confidence: 0.2991
-  identified_by: bioclip+bioclip-2
+  confidence: 0.5791
+  identified_by: bioclip+bioclip-2+bioclip-2.5

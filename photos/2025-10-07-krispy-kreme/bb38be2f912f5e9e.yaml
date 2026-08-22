@@ -41,6 +41,20 @@ species_suggestions:
       confidence: 0.1229
     - scientific: Megalops atlanticus
       confidence: 0.0915
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786159792.6743703
+    top:
+    - scientific: Opistognathus aurifrons
+      confidence: 0.1626
+    - scientific: Caranx crysos
+      confidence: 0.1454
+    - scientific: Aulostomus maculatus
+      confidence: 0.0129
+    absorbed_by:
+      scientific: Cirrhipathes leutkeni
+      confidence: 0.5287
 species_reviewed:
 - primary
 - secondary

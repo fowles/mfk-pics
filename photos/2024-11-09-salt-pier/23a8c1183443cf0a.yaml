@@ -16,7 +16,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786156579.3406165
     top:
     - scientific: Gramma loreto
@@ -36,8 +36,19 @@ species_suggestions:
       confidence: 0.1075
     - scientific: Scarus iseri
       confidence: 0.0389
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786156579.3406165
+    top:
+    - scientific: Haemulon chrysargyreum
+      confidence: 0.4301
+    - scientific: Haemulon macrostomum
+      confidence: 0.216
+    - scientific: Holacanthus ciliaris
+      confidence: 0.1543
 species:
 - scientific: Haemulon chrysargyreum
   role: primary
-  confidence: 0.6927
-  identified_by: bioclip-2
+  confidence: 0.5614
+  identified_by: bioclip-2+bioclip-2.5

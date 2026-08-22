@@ -36,6 +36,20 @@ species_suggestions:
     absorbed_by:
       scientific: Acropora palmata
       confidence: 0.1864
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1787326220.7599537
+    top:
+    - scientific: Halichoeres garnoti
+      confidence: 0.1072
+    - scientific: Sparisoma viride
+      confidence: 0.0444
+    - scientific: Abudefduf saxatilis
+      confidence: 0.0223
+    absorbed_by:
+      scientific: Acropora palmata
+      confidence: 0.461
 species:
 - scientific: Sparisoma amplum
   role: primary

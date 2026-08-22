@@ -13,7 +13,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786157055.0837953
     top:
     - scientific: Aulostomus maculatus
@@ -33,8 +33,19 @@ species_suggestions:
       confidence: 0.0774
     - scientific: Caranx crysos
       confidence: 0.0743
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786157055.0837953
+    top:
+    - scientific: Mulloidichthys martinicus
+      confidence: 0.8281
+    - scientific: Caranx latus
+      confidence: 0.104
+    - scientific: Haemulon chrysargyreum
+      confidence: 0.0365
 species:
 - scientific: Mulloidichthys martinicus
   role: primary
-  confidence: 0.4395
-  identified_by: bioclip-2
+  confidence: 0.6338
+  identified_by: bioclip-2+bioclip-2.5

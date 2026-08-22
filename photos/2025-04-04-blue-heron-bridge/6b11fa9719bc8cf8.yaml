@@ -16,7 +16,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786157492.2512093
     top:
     - scientific: Lutjanus analis
@@ -36,8 +36,19 @@ species_suggestions:
       confidence: 0.0533
     - scientific: Diodon hystrix
       confidence: 0.0422
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786157492.2512093
+    top:
+    - scientific: Diodon holocanthus
+      confidence: 0.558
+    - scientific: Calamus calamus
+      confidence: 0.3367
+    - scientific: Lutjanus analis
+      confidence: 0.0417
 species:
 - scientific: Calamus calamus
   role: primary
-  confidence: 0.8029
-  identified_by: bioclip-2
+  confidence: 0.5698
+  identified_by: bioclip-2+bioclip-2.5

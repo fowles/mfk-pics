@@ -16,7 +16,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786156899.4813175
     top:
     - scientific: Scarus coeruleus
@@ -36,8 +36,19 @@ species_suggestions:
       confidence: 0.1385
     - scientific: Scarus coeruleus
       confidence: 0.1309
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786156899.4813175
+    top:
+    - scientific: Scarus coelestinus
+      confidence: 0.9264
+    - scientific: Rypticus saponaceus
+      confidence: 0.0245
+    - scientific: Serranus tortugarum
+      confidence: 0.0143
 species:
-- scientific: Acanthurus coeruleus
+- scientific: Scarus coelestinus
   role: primary
-  confidence: 0.1781
-  identified_by: bioclip+bioclip-2
+  confidence: 0.4632
+  identified_by: bioclip+bioclip-2.5

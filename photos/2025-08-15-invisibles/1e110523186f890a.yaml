@@ -33,6 +33,17 @@ species_suggestions:
       confidence: 0.0109
     - scientific: Octopus briareus
       confidence: 0.0048
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786071949.3990524
+    top:
+    - scientific: Scorpaena plumieri
+      confidence: 0.8416
+    - scientific: Octopus insularis
+      confidence: 0.1136
+    - scientific: Octopus briareus
+      confidence: 0.0391
 species:
 - scientific: Octopus insularis
   role: primary

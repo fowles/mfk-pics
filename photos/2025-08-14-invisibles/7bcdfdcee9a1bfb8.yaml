@@ -13,7 +13,7 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786158226.6638606
     top:
     - scientific: Ginglymostoma cirratum
@@ -33,8 +33,19 @@ species_suggestions:
       confidence: 0.1276
     - scientific: Scarus vetula
       confidence: 0.049
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786158226.6638606
+    top:
+    - scientific: Canthidermis sufflamen
+      confidence: 0.9193
+    - scientific: Balistes vetula
+      confidence: 0.0747
+    - scientific: Ginglymostoma cirratum
+      confidence: 0.0033
 species:
 - scientific: Canthidermis sufflamen
   role: primary
-  confidence: 0.6472
-  identified_by: bioclip-2
+  confidence: 0.7833
+  identified_by: bioclip-2+bioclip-2.5

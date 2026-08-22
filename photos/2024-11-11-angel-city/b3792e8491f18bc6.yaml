@@ -16,7 +16,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786156742.4766192
     top:
     - scientific: Scarus coelestinus
@@ -36,8 +36,19 @@ species_suggestions:
       confidence: 0.0133
     - scientific: Hypoplectrus nigricans
       confidence: 0.0055
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786156742.4766192
+    top:
+    - scientific: Melichthys niger
+      confidence: 0.9994
+    - scientific: Hypoplectrus nigricans
+      confidence: 0.0002
+    - scientific: Canthidermis sufflamen
+      confidence: 0.0002
 species:
 - scientific: Melichthys niger
   role: primary
-  confidence: 0.9632
-  identified_by: bioclip+bioclip-2
+  confidence: 0.9813
+  identified_by: bioclip+bioclip-2+bioclip-2.5

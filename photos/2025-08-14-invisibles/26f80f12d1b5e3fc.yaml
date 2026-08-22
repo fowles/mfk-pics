@@ -13,7 +13,7 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786158229.7325177
     top:
     - scientific: Diodon holocanthus
@@ -33,8 +33,19 @@ species_suggestions:
       confidence: 0.0879
     - scientific: Scarus coelestinus
       confidence: 0.0854
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786158229.7325177
+    top:
+    - scientific: Aulostomus maculatus
+      confidence: 0.9542
+    - scientific: Scarus taeniopterus
+      confidence: 0.012
+    - scientific: Scarus iseri
+      confidence: 0.0117
 species:
-- scientific: Scarus taeniopterus
+- scientific: Aulostomus maculatus
   role: primary
-  confidence: 0.1083
-  identified_by: bioclip-2
+  confidence: 0.4771
+  identified_by: bioclip-2.5

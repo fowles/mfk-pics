@@ -13,7 +13,7 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786158390.0829132
     top:
     - scientific: Stenorhynchus seticornis
@@ -33,8 +33,19 @@ species_suggestions:
       confidence: 0.0075
     - scientific: Davidaster rubiginosus
       confidence: 0.0047
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786158390.0829132
+    top:
+    - scientific: Stenorhynchus seticornis
+      confidence: 0.9781
+    - scientific: Ophiothrix suensonii
+      confidence: 0.0136
+    - scientific: Davidaster rubiginosus
+      confidence: 0.0015
 species:
 - scientific: Stenorhynchus seticornis
   role: primary
-  confidence: 0.9668
-  identified_by: bioclip+bioclip-2
+  confidence: 0.9725
+  identified_by: bioclip+bioclip-2+bioclip-2.5

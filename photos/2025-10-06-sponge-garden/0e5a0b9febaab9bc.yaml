@@ -13,7 +13,7 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786159776.81467
     top:
     - scientific: Caranx ruber
@@ -33,8 +33,19 @@ species_suggestions:
       confidence: 0.3142
     - scientific: Caranx ruber
       confidence: 0.1525
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786159776.81467
+    top:
+    - scientific: Caranx crysos
+      confidence: 0.9501
+    - scientific: Caranx ruber
+      confidence: 0.046
+    - scientific: Carangoides bartholomaei
+      confidence: 0.0037
 species:
-- scientific: Scomberomorus regalis
+- scientific: Caranx crysos
   role: primary
-  confidence: 0.5104
-  identified_by: bioclip-2
+  confidence: 0.6321
+  identified_by: bioclip+bioclip-2+bioclip-2.5

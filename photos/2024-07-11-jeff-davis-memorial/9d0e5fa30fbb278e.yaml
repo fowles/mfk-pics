@@ -13,7 +13,7 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786159563.777805
     top:
     - scientific: Haemulon carbonarium
@@ -39,3 +39,17 @@ species_suggestions:
     absorbed_by:
       scientific: Orbicella faveolata
       confidence: 0.1155
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786159563.777805
+    top:
+    - scientific: Elacatinus evelynae
+      confidence: 0.0109
+    - scientific: Serranus tigrinus
+      confidence: 0.0027
+    - scientific: Halichoeres garnoti
+      confidence: 0.0026
+    absorbed_by:
+      scientific: Colpophyllia natans
+      confidence: 0.62

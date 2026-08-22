@@ -14,7 +14,7 @@ rotation_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786157571.0495656
     top:
     - scientific: Hypoplectrus nigricans
@@ -40,3 +40,17 @@ species_suggestions:
     absorbed_by:
       scientific: Dendrogyra cylindrus
       confidence: 0.2202
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786157571.0495656
+    top:
+    - scientific: Aulostomus maculatus
+      confidence: 0.0218
+    - scientific: Davidaster rubiginosus
+      confidence: 0.0207
+    - scientific: Abudefduf saxatilis
+      confidence: 0.0013
+    absorbed_by:
+      scientific: Cirrhipathes leutkeni
+      confidence: 0.8425

@@ -16,7 +16,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786158739.1947308
     top:
     - scientific: Hippocampus erectus
@@ -36,8 +36,19 @@ species_suggestions:
       confidence: 0.1951
     - scientific: Pempheris schomburgkii
       confidence: 0.1051
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786158739.1947308
+    top:
+    - scientific: Sepioteuthis sepioidea
+      confidence: 0.5122
+    - scientific: Xyrichtys martinicensis
+      confidence: 0.1065
+    - scientific: Coryphopterus personatus
+      confidence: 0.0914
 species:
-- scientific: Clepticus parrae
+- scientific: Sepioteuthis sepioidea
   role: primary
-  confidence: 0.2172
-  identified_by: bioclip-2
+  confidence: 0.2561
+  identified_by: bioclip-2.5

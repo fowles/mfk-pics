@@ -12,7 +12,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786159819.1571834
     top:
     - scientific: Aulostomus maculatus
@@ -35,4 +35,18 @@ species_suggestions:
     absorbed_by:
       scientific: Clavelina picta
       confidence: 0.2453
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786159819.1571834
+    top:
+    - scientific: Holothuria mexicana
+      confidence: 0.0008
+    - scientific: Sparisoma viride
+      confidence: 0.0003
+    - scientific: Thalassoma bifasciatum
+      confidence: 0.0002
+    absorbed_by:
+      scientific: Cirrhipathes leutkeni
+      confidence: 0.9867
 species: []

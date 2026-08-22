@@ -33,6 +33,17 @@ species_suggestions:
       confidence: 0.0045
     - scientific: Aluterus scriptus
       confidence: 0.0012
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786156895.0161057
+    top:
+    - scientific: Acanthostracion polygonius
+      confidence: 0.9994
+    - scientific: Acanthostracion quadricornis
+      confidence: 0.0005
+    - scientific: Lactophrys bicaudalis
+      confidence: 0.0
 species:
 - scientific: Acanthostracion polygonius
   role: primary

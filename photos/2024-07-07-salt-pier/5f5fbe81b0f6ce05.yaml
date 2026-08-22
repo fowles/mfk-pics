@@ -29,6 +29,17 @@ species_suggestions:
       confidence: 0.1064
     - scientific: Chelonia mydas
       confidence: 0.0687
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786159953.8478203
+    top:
+    - scientific: Cassiopea xamachana
+      confidence: 0.203
+    - scientific: Galeocerdo cuvier
+      confidence: 0.1435
+    - scientific: Homo sapiens
+      confidence: 0.089
 species:
 - scientific: Homo sapiens
   role: primary

@@ -13,7 +13,7 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786156807.541753
     top:
     - scientific: Scarus coeruleus
@@ -33,8 +33,19 @@ species_suggestions:
       confidence: 0.0364
     - scientific: Scarus coelestinus
       confidence: 0.0185
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786156807.541753
+    top:
+    - scientific: Scarus coeruleus
+      confidence: 0.6959
+    - scientific: Scarus vetula
+      confidence: 0.2843
+    - scientific: Scarus coelestinus
+      confidence: 0.0192
 species:
 - scientific: Scarus coeruleus
   role: primary
-  confidence: 0.9335
-  identified_by: bioclip+bioclip-2
+  confidence: 0.8147
+  identified_by: bioclip+bioclip-2+bioclip-2.5

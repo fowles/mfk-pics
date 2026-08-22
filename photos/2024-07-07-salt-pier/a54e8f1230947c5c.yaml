@@ -16,7 +16,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786159989.3990338
     top:
     - scientific: Bothus lunatus
@@ -36,8 +36,19 @@ species_suggestions:
       confidence: 0.2653
     - scientific: Caretta caretta
       confidence: 0.1602
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786159989.3990338
+    top:
+    - scientific: Chelonia mydas
+      confidence: 0.6584
+    - scientific: Caretta caretta
+      confidence: 0.1788
+    - scientific: Eretmochelys imbricata
+      confidence: 0.1625
 species:
-- scientific: Eretmochelys imbricata
+- scientific: Chelonia mydas
   role: primary
-  confidence: 0.3276
-  identified_by: bioclip-2
+  confidence: 0.4618
+  identified_by: bioclip-2+bioclip-2.5

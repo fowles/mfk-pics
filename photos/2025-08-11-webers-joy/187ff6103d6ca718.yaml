@@ -16,7 +16,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786071914.0654643
     top:
     - scientific: Scorpaena plumieri
@@ -42,3 +42,17 @@ species_suggestions:
     absorbed_by:
       scientific: Agaricia agaricites
       confidence: 0.3024
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786071914.0654643
+    top:
+    - scientific: Periclimenes yucatanicus
+      confidence: 0.2072
+    - scientific: Mithrax spinosissimus
+      confidence: 0.1819
+    - scientific: Octopus briareus
+      confidence: 0.0011
+    absorbed_by:
+      scientific: Bartholomea annulata
+      confidence: 0.5331

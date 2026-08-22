@@ -16,7 +16,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786160204.4461577
     top:
     - scientific: Periclimenes yucatanicus
@@ -36,8 +36,19 @@ species_suggestions:
       confidence: 0.2476
     - scientific: Panulirus argus
       confidence: 0.1706
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786160204.4461577
+    top:
+    - scientific: Stenorhynchus seticornis
+      confidence: 0.9458
+    - scientific: Panulirus guttatus
+      confidence: 0.0484
+    - scientific: Ancylomenes pedersoni
+      confidence: 0.0039
 species:
 - scientific: Stenorhynchus seticornis
   role: primary
-  confidence: 0.3159
-  identified_by: bioclip-2
+  confidence: 0.6309
+  identified_by: bioclip-2+bioclip-2.5

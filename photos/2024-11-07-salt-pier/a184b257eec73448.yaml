@@ -13,7 +13,7 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786156322.196702
     top:
     - scientific: Aulostomus maculatus
@@ -33,8 +33,19 @@ species_suggestions:
       confidence: 0.1294
     - scientific: Pomacanthus arcuatus
       confidence: 0.0842
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786156322.196702
+    top:
+    - scientific: Gymnothorax moringa
+      confidence: 0.6968
+    - scientific: Acanthostracion polygonius
+      confidence: 0.1291
+    - scientific: Aulostomus maculatus
+      confidence: 0.0455
 species:
-- scientific: Scarus vetula
+- scientific: Gymnothorax moringa
   role: primary
-  confidence: 0.1563
-  identified_by: bioclip-2
+  confidence: 0.3484
+  identified_by: bioclip-2.5

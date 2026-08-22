@@ -13,7 +13,7 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786156971.7926266
     top:
     - scientific: Scomberomorus regalis
@@ -33,8 +33,19 @@ species_suggestions:
       confidence: 0.1938
     - scientific: Caranx ruber
       confidence: 0.1728
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786156971.7926266
+    top:
+    - scientific: Caranx crysos
+      confidence: 0.553
+    - scientific: Selar crumenophthalmus
+      confidence: 0.2883
+    - scientific: Chromis multilineata
+      confidence: 0.0712
 species:
 - scientific: Selar crumenophthalmus
   role: primary
-  confidence: 0.3963
-  identified_by: bioclip+bioclip-2
+  confidence: 0.3423
+  identified_by: bioclip+bioclip-2+bioclip-2.5

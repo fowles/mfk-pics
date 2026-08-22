@@ -13,7 +13,7 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786159791.9772725
     top:
     - scientific: Chaetodon sedentarius
@@ -33,8 +33,19 @@ species_suggestions:
       confidence: 0.0299
     - scientific: Lachnolaimus maximus
       confidence: 0.0239
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786159791.9772725
+    top:
+    - scientific: Hypoplectrus unicolor
+      confidence: 0.9992
+    - scientific: Prognathodes aculeatus
+      confidence: 0.0004
+    - scientific: Chaetodon capistratus
+      confidence: 0.0003
 species:
 - scientific: Hypoplectrus unicolor
   role: primary
-  confidence: 0.8492
-  identified_by: bioclip-2
+  confidence: 0.9242
+  identified_by: bioclip-2+bioclip-2.5

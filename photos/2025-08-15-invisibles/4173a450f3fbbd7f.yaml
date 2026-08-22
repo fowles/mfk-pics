@@ -13,7 +13,7 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786071946.9972792
     top:
     - scientific: Lutjanus apodus
@@ -33,8 +33,19 @@ species_suggestions:
       confidence: 0.0326
     - scientific: Lutjanus analis
       confidence: 0.0008
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786071946.9972792
+    top:
+    - scientific: Lutjanus apodus
+      confidence: 0.9985
+    - scientific: Lutjanus jocu
+      confidence: 0.0015
+    - scientific: Lutjanus mahogoni
+      confidence: 0.0
 species:
 - scientific: Lutjanus apodus
   role: primary
-  confidence: 0.9644
-  identified_by: bioclip+bioclip-2
+  confidence: 0.9815
+  identified_by: bioclip+bioclip-2+bioclip-2.5

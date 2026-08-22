@@ -16,7 +16,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786158980.6424031
     top:
     - scientific: Haemulon carbonarium
@@ -36,8 +36,19 @@ species_suggestions:
       confidence: 0.0456
     - scientific: Pomacanthus arcuatus
       confidence: 0.0318
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786158980.6424031
+    top:
+    - scientific: Halichoeres garnoti
+      confidence: 0.6756
+    - scientific: Sparisoma viride
+      confidence: 0.064
+    - scientific: Halichoeres pictus
+      confidence: 0.0313
 species:
-- scientific: Holacanthus tricolor
+- scientific: Halichoeres garnoti
   role: primary
-  confidence: 0.1315
-  identified_by: bioclip-2
+  confidence: 0.3606
+  identified_by: bioclip-2+bioclip-2.5

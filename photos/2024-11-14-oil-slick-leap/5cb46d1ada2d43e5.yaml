@@ -36,6 +36,17 @@ species_suggestions:
       confidence: 0.0194
     - scientific: Acanthostracion quadricornis
       confidence: 0.0038
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786156899.8126814
+    top:
+    - scientific: Acanthostracion polygonius
+      confidence: 0.9982
+    - scientific: Acanthostracion quadricornis
+      confidence: 0.0014
+    - scientific: Lactophrys bicaudalis
+      confidence: 0.0002
 species:
 - scientific: Acanthostracion polygonius
   role: primary

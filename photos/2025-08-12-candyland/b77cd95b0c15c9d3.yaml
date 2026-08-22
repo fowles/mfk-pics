@@ -14,7 +14,7 @@ rotation_applied: 180
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1787178460.6123047
     top:
     - scientific: Gymnothorax funebris
@@ -34,8 +34,19 @@ species_suggestions:
       confidence: 0.0011
     - scientific: Gymnothorax miliaris
       confidence: 0.0006
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1787178460.6123047
+    top:
+    - scientific: Gymnothorax funebris
+      confidence: 1.0
+    - scientific: Gymnothorax miliaris
+      confidence: 0.0
+    - scientific: Enchelycore carychroa
+      confidence: 0.0
 species:
 - scientific: Gymnothorax funebris
   role: primary
-  confidence: 0.9976
-  identified_by: bioclip+bioclip-2
+  confidence: 0.9988
+  identified_by: bioclip+bioclip-2+bioclip-2.5

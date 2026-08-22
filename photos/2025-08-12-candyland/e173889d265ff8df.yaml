@@ -13,7 +13,7 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786158131.1949496
     top:
     - scientific: Scarus coeruleus
@@ -33,8 +33,19 @@ species_suggestions:
       confidence: 0.1109
     - scientific: Centropyge argi
       confidence: 0.1034
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786158131.1949496
+    top:
+    - scientific: Clepticus parrae
+      confidence: 0.9999
+    - scientific: Halichoeres pictus
+      confidence: 0.0
+    - scientific: Sparisoma amplum
+      confidence: 0.0
 species:
 - scientific: Clepticus parrae
   role: primary
-  confidence: 0.2808
-  identified_by: bioclip-2
+  confidence: 0.6403
+  identified_by: bioclip-2+bioclip-2.5

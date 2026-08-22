@@ -13,7 +13,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786158967.9959445
     top:
     - scientific: Haemulon carbonarium
@@ -33,8 +33,19 @@ species_suggestions:
       confidence: 0.0559
     - scientific: Lutjanus analis
       confidence: 0.0511
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786158967.9959445
+    top:
+    - scientific: Lutjanus mahogoni
+      confidence: 0.8936
+    - scientific: Haemulon carbonarium
+      confidence: 0.0294
+    - scientific: Caranx ruber
+      confidence: 0.0227
 species:
-- scientific: Haemulon aurolineatum
+- scientific: Lutjanus mahogoni
   role: primary
-  confidence: 0.1127
-  identified_by: bioclip-2
+  confidence: 0.4468
+  identified_by: bioclip-2.5

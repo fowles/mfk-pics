@@ -13,7 +13,7 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786156317.3910549
     top:
     - scientific: Cassiopea xamachana
@@ -39,3 +39,17 @@ species_suggestions:
     absorbed_by:
       scientific: Condylactis gigantea
       confidence: 0.989
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786156317.3910549
+    top:
+    - scientific: Stenorhynchus seticornis
+      confidence: 0.0
+    - scientific: Periclimenes yucatanicus
+      confidence: 0.0
+    - scientific: Octopus briareus
+      confidence: 0.0
+    absorbed_by:
+      scientific: Condylactis gigantea
+      confidence: 0.9997

@@ -34,6 +34,17 @@ species_suggestions:
       confidence: 0.0405
     - scientific: Elacatinus genie
       confidence: 0.0376
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1787178323.3421223
+    top:
+    - scientific: Panulirus argus
+      confidence: 0.3058
+    - scientific: Myrichthys breviceps
+      confidence: 0.157
+    - scientific: Halichoeres garnoti
+      confidence: 0.0168
 species:
 - scientific: Chrysiptera parasema
   role: primary

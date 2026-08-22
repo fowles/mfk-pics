@@ -32,6 +32,17 @@ species_suggestions:
       confidence: 0.069
     - scientific: Mycteroperca tigris
       confidence: 0.0165
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786159806.0054984
+    top:
+    - scientific: Chaetodipterus faber
+      confidence: 1.0
+    - scientific: Pomacanthus arcuatus
+      confidence: 0.0
+    - scientific: Pomacanthus paru
+      confidence: 0.0
 species:
 - scientific: Chaetodipterus faber
   role: primary

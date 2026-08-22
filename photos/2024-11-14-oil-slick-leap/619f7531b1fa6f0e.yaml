@@ -13,7 +13,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786156897.8240907
     top:
     - scientific: Acanthostracion polygonius
@@ -33,8 +33,19 @@ species_suggestions:
       confidence: 0.1642
     - scientific: Dactylopterus volitans
       confidence: 0.0367
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786156897.8240907
+    top:
+    - scientific: Aluterus scriptus
+      confidence: 0.6461
+    - scientific: Urobatis jamaicensis
+      confidence: 0.2054
+    - scientific: Bothus lunatus
+      confidence: 0.0726
 species:
 - scientific: Synodus intermedius
   role: primary
-  confidence: 0.6589
+  confidence: 0.3295
   identified_by: bioclip-2

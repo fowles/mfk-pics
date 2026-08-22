@@ -16,7 +16,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786158187.2640219
     top:
     - scientific: Hypoplectrus indigo
@@ -39,8 +39,19 @@ species_suggestions:
       confidence: 0.0757
     - scientific: Holocentrus adscensionis
       confidence: 0.0531
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786158187.2640219
+    top:
+    - scientific: Haemulon macrostomum
+      confidence: 0.1297
+    - scientific: Gymnothorax funebris
+      confidence: 0.1087
+    - scientific: Aulostomus maculatus
+      confidence: 0.0638
 species:
-- scientific: Aulostomus maculatus
+- scientific: Gymnothorax funebris
   role: primary
-  confidence: 0.0927
-  identified_by: bioclip-2
+  confidence: 0.0922
+  identified_by: bioclip-2+bioclip-2.5

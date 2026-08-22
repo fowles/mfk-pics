@@ -16,7 +16,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786156745.8995223
     top:
     - scientific: Haemulon macrostomum
@@ -36,8 +36,18 @@ species_suggestions:
       confidence: 0.1269
     - scientific: Anisotremus surinamensis
       confidence: 0.0916
-species:
-- scientific: Canthidermis sufflamen
-  role: primary
-  confidence: 0.1999
-  identified_by: bioclip-2
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786156745.8995223
+    top:
+    - scientific: Clepticus parrae
+      confidence: 0.1012
+    - scientific: Carcharhinus perezi
+      confidence: 0.0538
+    - scientific: Chromis multilineata
+      confidence: 0.0269
+    absorbed_by:
+      scientific: Orbicella faveolata
+      confidence: 0.3747
+species: []

@@ -13,7 +13,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786158972.814503
     top:
     - scientific: Aulostomus maculatus
@@ -33,8 +33,19 @@ species_suggestions:
       confidence: 0.1302
     - scientific: Caranx ruber
       confidence: 0.0896
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786158972.814503
+    top:
+    - scientific: Scarus taeniopterus
+      confidence: 0.4526
+    - scientific: Equetus punctatus
+      confidence: 0.1461
+    - scientific: Scarus vetula
+      confidence: 0.1102
 species:
-- scientific: Elacatinus oceanops
+- scientific: Scarus taeniopterus
   role: primary
-  confidence: 0.188
-  identified_by: bioclip-2
+  confidence: 0.2263
+  identified_by: bioclip-2.5

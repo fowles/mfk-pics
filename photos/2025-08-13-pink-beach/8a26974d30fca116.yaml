@@ -13,7 +13,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786158187.031215
     top:
     - scientific: Gymnothorax funebris
@@ -33,8 +33,19 @@ species_suggestions:
       confidence: 0.1353
     - scientific: Cantherhines macrocerus
       confidence: 0.1104
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786158187.031215
+    top:
+    - scientific: Bodianus pulchellus
+      confidence: 0.5968
+    - scientific: Cantherhines macrocerus
+      confidence: 0.1171
+    - scientific: Bodianus rufus
+      confidence: 0.0949
 species:
-- scientific: Haemulon flavolineatum
+- scientific: Bodianus pulchellus
   role: primary
-  confidence: 0.2448
-  identified_by: bioclip-2
+  confidence: 0.2984
+  identified_by: bioclip-2.5

@@ -16,7 +16,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786157055.3932834
     top:
     - scientific: Emblemaria pandionis
@@ -36,8 +36,19 @@ species_suggestions:
       confidence: 0.2091
     - scientific: Gymnothorax miliaris
       confidence: 0.0813
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786157055.3932834
+    top:
+    - scientific: Periclimenes yucatanicus
+      confidence: 0.7784
+    - scientific: Panulirus guttatus
+      confidence: 0.1416
+    - scientific: Scorpaena plumieri
+      confidence: 0.0196
 species:
-- scientific: Gymnothorax moringa
+- scientific: Periclimenes yucatanicus
   role: primary
-  confidence: 0.3758
-  identified_by: bioclip-2
+  confidence: 0.3892
+  identified_by: bioclip-2.5

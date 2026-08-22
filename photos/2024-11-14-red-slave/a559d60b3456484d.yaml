@@ -13,7 +13,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786156979.1133196
     top:
     - scientific: Sphyraena barracuda
@@ -33,8 +33,19 @@ species_suggestions:
       confidence: 0.0661
     - scientific: Malacanthus plumieri
       confidence: 0.059
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786156979.1133196
+    top:
+    - scientific: Sphyraena barracuda
+      confidence: 0.9868
+    - scientific: Scomberomorus regalis
+      confidence: 0.0104
+    - scientific: Aulostomus maculatus
+      confidence: 0.0017
 species:
 - scientific: Sphyraena barracuda
   role: primary
-  confidence: 0.3864
-  identified_by: bioclip+bioclip-2
+  confidence: 0.6866
+  identified_by: bioclip+bioclip-2+bioclip-2.5

@@ -16,7 +16,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786157882.9210339
     top:
     - scientific: Hypoplectrus puella
@@ -36,8 +36,19 @@ species_suggestions:
       confidence: 0.0741
     - scientific: Hypoplectrus nigricans
       confidence: 0.0206
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786157882.9210339
+    top:
+    - scientific: Hypoplectrus puella
+      confidence: 0.9643
+    - scientific: Hypoplectrus indigo
+      confidence: 0.0357
+    - scientific: Serranus tortugarum
+      confidence: 0.0
 species:
 - scientific: Hypoplectrus puella
   role: primary
-  confidence: 0.7981
-  identified_by: bioclip+bioclip-2
+  confidence: 0.8812
+  identified_by: bioclip+bioclip-2+bioclip-2.5

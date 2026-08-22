@@ -13,7 +13,7 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786156977.0050561
     top:
     - scientific: Thalassoma bifasciatum
@@ -33,8 +33,19 @@ species_suggestions:
       confidence: 0.0855
     - scientific: Sphyraena barracuda
       confidence: 0.0519
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786156977.0050561
+    top:
+    - scientific: Jenkinsia lamprotaenia
+      confidence: 0.718
+    - scientific: Sphyraena barracuda
+      confidence: 0.0876
+    - scientific: Atherinomorus stipes
+      confidence: 0.0843
 species:
 - scientific: Jenkinsia lamprotaenia
   role: primary
-  confidence: 0.6034
-  identified_by: bioclip-2
+  confidence: 0.6607
+  identified_by: bioclip-2+bioclip-2.5

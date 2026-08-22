@@ -13,7 +13,7 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786156524.5356123
     top:
     - scientific: Chromis multilineata
@@ -33,8 +33,19 @@ species_suggestions:
       confidence: 0.1632
     - scientific: Stegastes partitus
       confidence: 0.0047
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786156524.5356123
+    top:
+    - scientific: Chromis multilineata
+      confidence: 0.9983
+    - scientific: Chromis cyanea
+      confidence: 0.0004
+    - scientific: Abudefduf saxatilis
+      confidence: 0.0001
 species:
 - scientific: Chromis multilineata
   role: primary
-  confidence: 0.8102
-  identified_by: bioclip+bioclip-2
+  confidence: 0.9042
+  identified_by: bioclip+bioclip-2+bioclip-2.5

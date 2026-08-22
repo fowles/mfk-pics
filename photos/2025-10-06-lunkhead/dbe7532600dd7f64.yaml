@@ -13,7 +13,7 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786159785.3576698
     top:
     - scientific: Diodon hystrix
@@ -33,8 +33,19 @@ species_suggestions:
       confidence: 0.2795
     - scientific: Mycteroperca tigris
       confidence: 0.1031
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786159785.3576698
+    top:
+    - scientific: Epinephelus itajara
+      confidence: 0.9122
+    - scientific: Mycteroperca tigris
+      confidence: 0.0745
+    - scientific: Mycteroperca bonaci
+      confidence: 0.0084
 species:
 - scientific: Epinephelus itajara
   role: primary
-  confidence: 0.6006
-  identified_by: bioclip+bioclip-2
+  confidence: 0.7564
+  identified_by: bioclip+bioclip-2+bioclip-2.5

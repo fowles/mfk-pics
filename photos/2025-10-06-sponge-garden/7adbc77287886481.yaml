@@ -13,7 +13,7 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786159779.4032478
     top:
     - scientific: Haemulon chrysargyreum
@@ -33,8 +33,19 @@ species_suggestions:
       confidence: 0.1127
     - scientific: Haemulon macrostomum
       confidence: 0.0914
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786159779.4032478
+    top:
+    - scientific: Haemulon chrysargyreum
+      confidence: 0.3496
+    - scientific: Haemulon macrostomum
+      confidence: 0.2627
+    - scientific: Sparisoma viride
+      confidence: 0.0984
 species:
-- scientific: Lutjanus apodus
+- scientific: Haemulon macrostomum
   role: primary
-  confidence: 0.1189
-  identified_by: bioclip-2
+  confidence: 0.177
+  identified_by: bioclip-2+bioclip-2.5

@@ -16,7 +16,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786156581.2268436
     top:
     - scientific: Stegastes partitus
@@ -42,3 +42,17 @@ species_suggestions:
     absorbed_by:
       scientific: Aplysina archeri
       confidence: 0.5287
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786156581.2268436
+    top:
+    - scientific: Cyphoma gibbosum
+      confidence: 0.0244
+    - scientific: Monacanthus tuckeri
+      confidence: 0.0102
+    - scientific: Gymnothorax miliaris
+      confidence: 0.0064
+    absorbed_by:
+      scientific: Briareum asbestinum
+      confidence: 0.7597

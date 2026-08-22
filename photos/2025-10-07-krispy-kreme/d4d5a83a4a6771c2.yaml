@@ -18,7 +18,7 @@ species:
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786159795.3803344
     top:
     - scientific: Pomacanthus paru
@@ -41,3 +41,17 @@ species_suggestions:
     absorbed_by:
       scientific: Xestospongia muta
       confidence: 0.3841
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786159795.3803344
+    top:
+    - scientific: Thalassoma bifasciatum
+      confidence: 0.0006
+    - scientific: Astrophyton muricatum
+      confidence: 0.0005
+    - scientific: Chromis cyanea
+      confidence: 0.0004
+    absorbed_by:
+      scientific: Cirrhipathes leutkeni
+      confidence: 0.9507

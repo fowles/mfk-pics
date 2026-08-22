@@ -16,7 +16,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786156744.1451778
     top:
     - scientific: Melichthys niger
@@ -36,8 +36,19 @@ species_suggestions:
       confidence: 0.0061
     - scientific: Scarus vetula
       confidence: 0.0036
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786156744.1451778
+    top:
+    - scientific: Scarus vetula
+      confidence: 0.6703
+    - scientific: Melichthys niger
+      confidence: 0.3254
+    - scientific: Scarus coelestinus
+      confidence: 0.0019
 species:
 - scientific: Melichthys niger
   role: primary
-  confidence: 0.9769
-  identified_by: bioclip+bioclip-2
+  confidence: 0.6512
+  identified_by: bioclip+bioclip-2+bioclip-2.5

@@ -13,7 +13,7 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786156312.1216536
     top:
     - scientific: Ginglymostoma cirratum
@@ -33,8 +33,19 @@ species_suggestions:
       confidence: 0.1168
     - scientific: Halichoeres pictus
       confidence: 0.0389
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786156312.1216536
+    top:
+    - scientific: Halichoeres garnoti
+      confidence: 0.2015
+    - scientific: Scarus coeruleus
+      confidence: 0.0505
+    - scientific: Ginglymostoma cirratum
+      confidence: 0.0447
 species:
-- scientific: Caranx ruber
+- scientific: Halichoeres garnoti
   role: primary
-  confidence: 0.1822
-  identified_by: bioclip-2
+  confidence: 0.1008
+  identified_by: bioclip-2.5

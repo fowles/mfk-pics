@@ -12,7 +12,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786159805.282283
     top:
     - scientific: Ginglymostoma cirratum
@@ -32,8 +32,19 @@ species_suggestions:
       confidence: 0.0446
     - scientific: Galeocerdo cuvier
       confidence: 0.0171
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786159805.282283
+    top:
+    - scientific: Ginglymostoma cirratum
+      confidence: 0.5848
+    - scientific: Negaprion brevirostris
+      confidence: 0.4012
+    - scientific: Galeocerdo cuvier
+      confidence: 0.014
 species:
 - scientific: Ginglymostoma cirratum
   role: primary
-  confidence: 0.9323
-  identified_by: bioclip+bioclip-2
+  confidence: 0.7586
+  identified_by: bioclip+bioclip-2+bioclip-2.5

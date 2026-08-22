@@ -13,7 +13,7 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786158855.855312
     top:
     - scientific: Melichthys niger
@@ -33,8 +33,19 @@ species_suggestions:
       confidence: 0.001
     - scientific: Canthidermis sufflamen
       confidence: 0.0007
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786158855.855312
+    top:
+    - scientific: Melichthys niger
+      confidence: 0.9868
+    - scientific: Scarus coelestinus
+      confidence: 0.0065
+    - scientific: Kyphosus sectatrix
+      confidence: 0.0032
 species:
 - scientific: Melichthys niger
   role: primary
-  confidence: 0.996
-  identified_by: bioclip+bioclip-2
+  confidence: 0.9914
+  identified_by: bioclip+bioclip-2+bioclip-2.5

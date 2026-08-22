@@ -13,7 +13,7 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786158493.7887104
     top:
     - scientific: Holocentrus adscensionis
@@ -33,8 +33,19 @@ species_suggestions:
       confidence: 0.2012
     - scientific: Sparisoma viride
       confidence: 0.1618
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786158493.7887104
+    top:
+    - scientific: Sparisoma rubripinne
+      confidence: 0.7744
+    - scientific: Sparisoma viride
+      confidence: 0.1765
+    - scientific: Sparisoma amplum
+      confidence: 0.0159
 species:
-- scientific: Scarus coelestinus
+- scientific: Sparisoma rubripinne
   role: primary
-  confidence: 0.2211
-  identified_by: bioclip-2
+  confidence: 0.3872
+  identified_by: bioclip-2.5

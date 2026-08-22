@@ -12,7 +12,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786159804.5244737
     top:
     - scientific: Echeneis naucrates
@@ -32,8 +32,19 @@ species_suggestions:
       confidence: 0.2556
     - scientific: Pomacanthus paru
       confidence: 0.1153
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786159804.5244737
+    top:
+    - scientific: Pomacanthus arcuatus
+      confidence: 0.6951
+    - scientific: Pomacanthus paru
+      confidence: 0.2783
+    - scientific: Cantherhines pullus
+      confidence: 0.0217
 species:
-- scientific: Equetus punctatus
+- scientific: Pomacanthus arcuatus
   role: primary
-  confidence: 0.5897
-  identified_by: bioclip+bioclip-2
+  confidence: 0.4754
+  identified_by: bioclip-2+bioclip-2.5

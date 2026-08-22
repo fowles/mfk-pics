@@ -13,7 +13,7 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786159375.4517744
     top:
     - scientific: Microspathodon chrysurus
@@ -36,8 +36,18 @@ species_suggestions:
       confidence: 0.1477
     - scientific: Cephalopholis fulva
       confidence: 0.1375
-species:
-- scientific: Cephalopholis cruentata
-  role: primary
-  confidence: 0.2119
-  identified_by: bioclip-2
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786159375.4517744
+    top:
+    - scientific: Rypticus saponaceus
+      confidence: 0.1168
+    - scientific: Microspathodon chrysurus
+      confidence: 0.0425
+    - scientific: Cephalopholis fulva
+      confidence: 0.0347
+    absorbed_by:
+      scientific: Millepora complanata
+      confidence: 0.6885
+species: []

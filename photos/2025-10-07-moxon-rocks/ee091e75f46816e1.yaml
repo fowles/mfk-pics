@@ -12,7 +12,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786159799.1399221
     top:
     - scientific: Chaetodon sedentarius
@@ -35,4 +35,18 @@ species_suggestions:
     absorbed_by:
       scientific: Dendrogyra cylindrus
       confidence: 0.9682
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786159799.1399221
+    top:
+    - scientific: Amblycirrhitus pinos
+      confidence: 0.0
+    - scientific: Pomacanthus arcuatus
+      confidence: 0.0
+    - scientific: Stegastes partitus
+      confidence: 0.0
+    absorbed_by:
+      scientific: Dendrogyra cylindrus
+      confidence: 0.9647
 species: []

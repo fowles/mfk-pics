@@ -16,7 +16,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786156580.3779356
     top:
     - scientific: Aulostomus maculatus
@@ -36,8 +36,19 @@ species_suggestions:
       confidence: 0.3012
     - scientific: Lachnolaimus maximus
       confidence: 0.0725
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786156580.3779356
+    top:
+    - scientific: Epinephelus striatus
+      confidence: 0.8566
+    - scientific: Equetus punctatus
+      confidence: 0.0735
+    - scientific: Mycteroperca tigris
+      confidence: 0.0566
 species:
 - scientific: Epinephelus striatus
   role: primary
-  confidence: 0.431
-  identified_by: bioclip-2
+  confidence: 0.6438
+  identified_by: bioclip-2+bioclip-2.5

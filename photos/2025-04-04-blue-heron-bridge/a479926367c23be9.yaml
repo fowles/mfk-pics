@@ -13,7 +13,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786157490.6396086
     top:
     - scientific: Mithraculus sculptus
@@ -33,8 +33,19 @@ species_suggestions:
       confidence: 0.0085
     - scientific: Aliger gigas
       confidence: 0.0013
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786157490.6396086
+    top:
+    - scientific: Petrochirus diogenes
+      confidence: 0.9984
+    - scientific: Antennarius striatus
+      confidence: 0.0006
+    - scientific: Paguristes cadenati
+      confidence: 0.0005
 species:
 - scientific: Petrochirus diogenes
   role: primary
-  confidence: 0.9881
-  identified_by: bioclip-2
+  confidence: 0.9932
+  identified_by: bioclip-2+bioclip-2.5

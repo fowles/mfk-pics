@@ -13,7 +13,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786159064.0064473
     top:
     - scientific: Serranus tigrinus
@@ -33,8 +33,19 @@ species_suggestions:
       confidence: 0.1337
     - scientific: Cephalopholis cruentata
       confidence: 0.1071
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786159064.0064473
+    top:
+    - scientific: Serranus tigrinus
+      confidence: 0.3981
+    - scientific: Mycteroperca tigris
+      confidence: 0.1293
+    - scientific: Mycteroperca bonaci
+      confidence: 0.1224
 species:
-- scientific: Mycteroperca bonaci
+- scientific: Serranus tigrinus
   role: primary
-  confidence: 0.2391
-  identified_by: bioclip-2
+  confidence: 0.1991
+  identified_by: bioclip+bioclip-2.5

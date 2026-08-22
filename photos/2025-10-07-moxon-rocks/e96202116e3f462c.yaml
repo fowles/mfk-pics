@@ -13,7 +13,7 @@ rotation_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786159804.3512936
     top:
     - scientific: Cephalopholis cruentata
@@ -39,3 +39,17 @@ species_suggestions:
     absorbed_by:
       scientific: Dendrogyra cylindrus
       confidence: 0.9473
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786159804.3512936
+    top:
+    - scientific: Elacatinus evelynae
+      confidence: 0.0
+    - scientific: Cyphoma gibbosum
+      confidence: 0.0
+    - scientific: Halichoeres pictus
+      confidence: 0.0
+    absorbed_by:
+      scientific: Dendrogyra cylindrus
+      confidence: 0.9971

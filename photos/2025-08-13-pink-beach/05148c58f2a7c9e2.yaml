@@ -16,7 +16,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786158189.1055906
     top:
     - scientific: Gymnothorax miliaris
@@ -39,4 +39,18 @@ species_suggestions:
     absorbed_by:
       scientific: Stichodactyla helianthus
       confidence: 0.2529
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786158189.1055906
+    top:
+    - scientific: Rypticus saponaceus
+      confidence: 0.0193
+    - scientific: Gymnothorax miliaris
+      confidence: 0.0048
+    - scientific: Davidaster rubiginosus
+      confidence: 0.0036
+    absorbed_by:
+      scientific: Lebrunia neglecta
+      confidence: 0.7065
 species: []

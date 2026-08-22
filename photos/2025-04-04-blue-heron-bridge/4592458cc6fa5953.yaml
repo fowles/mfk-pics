@@ -16,7 +16,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786157492.4157293
     top:
     - scientific: Synodus intermedius
@@ -36,8 +36,19 @@ species_suggestions:
       confidence: 0.1642
     - scientific: Synodus intermedius
       confidence: 0.1102
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786157492.4157293
+    top:
+    - scientific: Aliger gigas
+      confidence: 0.9462
+    - scientific: Petrochirus diogenes
+      confidence: 0.0506
+    - scientific: Ogcocephalus nasutus
+      confidence: 0.0017
 species:
-- scientific: Bothus lunatus
+- scientific: Aliger gigas
   role: primary
-  confidence: 0.2899
-  identified_by: bioclip-2
+  confidence: 0.5552
+  identified_by: bioclip-2+bioclip-2.5

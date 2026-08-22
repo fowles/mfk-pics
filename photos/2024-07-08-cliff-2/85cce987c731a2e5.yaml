@@ -13,7 +13,7 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786159375.454485
     top:
     - scientific: Haemulon chrysargyreum
@@ -33,8 +33,19 @@ species_suggestions:
       confidence: 0.0352
     - scientific: Gymnothorax funebris
       confidence: 0.0138
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786159375.454485
+    top:
+    - scientific: Haemulon carbonarium
+      confidence: 0.5413
+    - scientific: Diodon hystrix
+      confidence: 0.3024
+    - scientific: Haemulon flavolineatum
+      confidence: 0.1346
 species:
 - scientific: Haemulon flavolineatum
   role: primary
-  confidence: 0.8955
-  identified_by: bioclip+bioclip-2
+  confidence: 0.5151
+  identified_by: bioclip+bioclip-2+bioclip-2.5

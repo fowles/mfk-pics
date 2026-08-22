@@ -33,6 +33,17 @@ species_suggestions:
       confidence: 0.0009
     - scientific: Chromis cyanea
       confidence: 0.0002
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786158484.3215911
+    top:
+    - scientific: Caranx ruber
+      confidence: 1.0
+    - scientific: Carangoides bartholomaei
+      confidence: 0.0
+    - scientific: Caranx crysos
+      confidence: 0.0
 species:
 - scientific: Caranx ruber
   role: primary

@@ -16,7 +16,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786071913.33714
     top:
     - scientific: Aulostomus maculatus
@@ -39,8 +39,18 @@ species_suggestions:
       confidence: 0.0279
     - scientific: Cyphoma gibbosum
       confidence: 0.0268
-species:
-- scientific: Aulostomus maculatus
-  role: primary
-  confidence: 0.0964
-  identified_by: bioclip+bioclip-2
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786071913.33714
+    top:
+    - scientific: Davidaster rubiginosus
+      confidence: 0.1297
+    - scientific: Halichoeres pictus
+      confidence: 0.0783
+    - scientific: Astrophyton muricatum
+      confidence: 0.0101
+    absorbed_by:
+      scientific: Acropora cervicornis
+      confidence: 0.4865
+species: []

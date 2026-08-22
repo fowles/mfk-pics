@@ -12,7 +12,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786159816.9951947
     top:
     - scientific: Melichthys niger
@@ -32,8 +32,19 @@ species_suggestions:
       confidence: 0.0471
     - scientific: Canthidermis sufflamen
       confidence: 0.0285
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786159816.9951947
+    top:
+    - scientific: Balistes vetula
+      confidence: 0.9994
+    - scientific: Acanthurus tractus
+      confidence: 0.0005
+    - scientific: Acanthurus coeruleus
+      confidence: 0.0
 species:
 - scientific: Balistes vetula
   role: primary
-  confidence: 0.8604
-  identified_by: bioclip-2
+  confidence: 0.9299
+  identified_by: bioclip-2+bioclip-2.5

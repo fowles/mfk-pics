@@ -39,6 +39,20 @@ species_suggestions:
     absorbed_by:
       scientific: Orbicella faveolata
       confidence: 0.5185
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786158872.1093404
+    top:
+    - scientific: Davidaster rubiginosus
+      confidence: 0.0193
+    - scientific: Mycteroperca tigris
+      confidence: 0.0004
+    - scientific: Cephalopholis cruentata
+      confidence: 0.0003
+    absorbed_by:
+      scientific: Antillogorgia americana
+      confidence: 0.9782
 species:
 - scientific: Lactophrys triqueter
   role: primary

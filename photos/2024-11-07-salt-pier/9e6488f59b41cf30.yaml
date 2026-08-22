@@ -13,7 +13,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786156339.092657
     top:
     - scientific: Mycteroperca venenosa
@@ -33,8 +33,19 @@ species_suggestions:
       confidence: 0.0028
     - scientific: Serranus tigrinus
       confidence: 0.001
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786156339.092657
+    top:
+    - scientific: Synodus intermedius
+      confidence: 1.0
+    - scientific: Mycteroperca bonaci
+      confidence: 0.0
+    - scientific: Epinephelus adscensionis
+      confidence: 0.0
 species:
 - scientific: Synodus intermedius
   role: primary
-  confidence: 0.9922
-  identified_by: bioclip+bioclip-2
+  confidence: 0.9961
+  identified_by: bioclip+bioclip-2+bioclip-2.5

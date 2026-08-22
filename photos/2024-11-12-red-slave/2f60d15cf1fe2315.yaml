@@ -13,7 +13,7 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786156807.2406976
     top:
     - scientific: Xyrichtys martinicensis
@@ -33,8 +33,19 @@ species_suggestions:
       confidence: 0.1168
     - scientific: Opistognathus aurifrons
       confidence: 0.0659
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786156807.2406976
+    top:
+    - scientific: Malacanthus plumieri
+      confidence: 0.6726
+    - scientific: Xyrichtys martinicensis
+      confidence: 0.3086
+    - scientific: Halichoeres garnoti
+      confidence: 0.0132
 species:
 - scientific: Malacanthus plumieri
   role: primary
-  confidence: 0.7747
-  identified_by: bioclip+bioclip-2
+  confidence: 0.7237
+  identified_by: bioclip+bioclip-2+bioclip-2.5

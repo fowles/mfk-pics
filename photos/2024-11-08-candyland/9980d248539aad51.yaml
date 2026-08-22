@@ -13,7 +13,7 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786156490.2549884
     top:
     - scientific: Chromis multilineata
@@ -33,8 +33,19 @@ species_suggestions:
       confidence: 0.4019
     - scientific: Melichthys niger
       confidence: 0.0308
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786156490.2549884
+    top:
+    - scientific: Melichthys niger
+      confidence: 0.7924
+    - scientific: Chromis cyanea
+      confidence: 0.1315
+    - scientific: Sepioteuthis sepioidea
+      confidence: 0.0376
 species:
-- scientific: Chromis multilineata
+- scientific: Melichthys niger
   role: primary
-  confidence: 0.464
-  identified_by: bioclip+bioclip-2
+  confidence: 0.4116
+  identified_by: bioclip+bioclip-2+bioclip-2.5

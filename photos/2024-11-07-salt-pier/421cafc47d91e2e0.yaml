@@ -9,7 +9,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786156333.6700673
     top:
     - scientific: Lactophrys triqueter
@@ -29,8 +29,19 @@ species_suggestions:
       confidence: 0.0692
     - scientific: Caranx ruber
       confidence: 0.0501
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786156333.6700673
+    top:
+    - scientific: Aetobatus narinari
+      confidence: 0.1448
+    - scientific: Lactophrys triqueter
+      confidence: 0.1262
+    - scientific: Eretmochelys imbricata
+      confidence: 0.1177
 species:
 - scientific: Aluterus scriptus
   role: primary
-  confidence: 0.3005
+  confidence: 0.1502
   identified_by: bioclip-2

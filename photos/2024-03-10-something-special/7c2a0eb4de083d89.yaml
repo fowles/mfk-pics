@@ -13,7 +13,7 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786159057.022947
     top:
     - scientific: Mycteroperca venenosa
@@ -33,8 +33,19 @@ species_suggestions:
       confidence: 0.1075
     - scientific: Canthidermis sufflamen
       confidence: 0.0942
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786159057.022947
+    top:
+    - scientific: Carangoides bartholomaei
+      confidence: 0.6954
+    - scientific: Caranx ruber
+      confidence: 0.2729
+    - scientific: Caranx latus
+      confidence: 0.0224
 species:
-- scientific: Caranx latus
+- scientific: Carangoides bartholomaei
   role: primary
-  confidence: 0.1146
-  identified_by: bioclip-2
+  confidence: 0.4015
+  identified_by: bioclip-2+bioclip-2.5

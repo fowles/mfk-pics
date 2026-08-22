@@ -16,7 +16,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786159067.4388123
     top:
     - scientific: Sparisoma viride
@@ -36,8 +36,19 @@ species_suggestions:
       confidence: 0.0398
     - scientific: Eretmochelys imbricata
       confidence: 0.0382
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786159067.4388123
+    top:
+    - scientific: Halichoeres garnoti
+      confidence: 0.1724
+    - scientific: Equetus punctatus
+      confidence: 0.0991
+    - scientific: Serranus tigrinus
+      confidence: 0.0548
 species:
-- scientific: Holacanthus tricolor
+- scientific: Halichoeres garnoti
   role: primary
-  confidence: 0.0839
-  identified_by: bioclip-2
+  confidence: 0.0862
+  identified_by: bioclip-2.5

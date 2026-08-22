@@ -16,7 +16,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786156585.4804904
     top:
     - scientific: Aulostomus maculatus
@@ -36,8 +36,18 @@ species_suggestions:
       confidence: 0.3763
     - scientific: Bodianus rufus
       confidence: 0.0277
-species:
-- scientific: Aulostomus maculatus
-  role: primary
-  confidence: 0.3888
-  identified_by: bioclip+bioclip-2
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786156585.4804904
+    top:
+    - scientific: Anisotremus virginicus
+      confidence: 0.0277
+    - scientific: Sepioteuthis sepioidea
+      confidence: 0.0137
+    - scientific: Sparisoma viride
+      confidence: 0.0072
+    absorbed_by:
+      scientific: Antillogorgia americana
+      confidence: 0.8697
+species: []

@@ -33,6 +33,17 @@ species_suggestions:
       confidence: 0.0421
     - scientific: Aulostomus maculatus
       confidence: 0.0114
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786158871.2600884
+    top:
+    - scientific: Monacanthus tuckeri
+      confidence: 0.9256
+    - scientific: Cyphoma gibbosum
+      confidence: 0.0003
+    - scientific: Equetus punctatus
+      confidence: 0.0002
 species:
 - scientific: Canthigaster jamestyleri
   role: primary

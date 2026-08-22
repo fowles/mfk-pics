@@ -14,7 +14,7 @@ rotation_applied: 180
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1787176012.6690738
     top:
     - scientific: Gymnothorax funebris
@@ -34,8 +34,19 @@ species_suggestions:
       confidence: 0.1148
     - scientific: Lachnolaimus maximus
       confidence: 0.0546
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1787176012.6690738
+    top:
+    - scientific: Urobatis jamaicensis
+      confidence: 0.3494
+    - scientific: Gymnothorax vicinus
+      confidence: 0.182
+    - scientific: Octopus insularis
+      confidence: 0.0928
 species:
-- scientific: Gymnothorax funebris
+- scientific: Urobatis jamaicensis
   role: primary
-  confidence: 0.1452
-  identified_by: bioclip+bioclip-2
+  confidence: 0.1747
+  identified_by: bioclip-2.5

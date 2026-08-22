@@ -39,6 +39,17 @@ species_suggestions:
       confidence: 0.1319
     - scientific: Cephalopholis cruentata
       confidence: 0.0875
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786158873.4912071
+    top:
+    - scientific: Aluterus scriptus
+      confidence: 0.4936
+    - scientific: Diodon hystrix
+      confidence: 0.3729
+    - scientific: Sparisoma amplum
+      confidence: 0.0441
 species:
 - scientific: Diodon hystrix
   role: primary

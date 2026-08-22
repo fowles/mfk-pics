@@ -9,7 +9,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786157053.4917367
     top:
     - scientific: Chelonia mydas
@@ -29,8 +29,19 @@ species_suggestions:
       confidence: 0.0718
     - scientific: Sphyraena barracuda
       confidence: 0.0621
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786157053.4917367
+    top:
+    - scientific: Sepioteuthis sepioidea
+      confidence: 0.2057
+    - scientific: Octopus insularis
+      confidence: 0.1195
+    - scientific: Sphyrna mokarran
+      confidence: 0.1141
 species:
 - scientific: Sphyrna mokarran
   role: primary
-  confidence: 0.2979
-  identified_by: bioclip-2
+  confidence: 0.206
+  identified_by: bioclip-2+bioclip-2.5

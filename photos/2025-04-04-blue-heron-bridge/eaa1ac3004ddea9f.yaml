@@ -33,6 +33,17 @@ species_suggestions:
       confidence: 0.0013
     - scientific: Canthigaster jamestyleri
       confidence: 0.0003
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786157489.5264263
+    top:
+    - scientific: Sphoeroides spengleri
+      confidence: 0.9998
+    - scientific: Monacanthus tuckeri
+      confidence: 0.0002
+    - scientific: Canthigaster rostrata
+      confidence: 0.0
 species:
 - scientific: Sphoeroides spengleri
   role: primary

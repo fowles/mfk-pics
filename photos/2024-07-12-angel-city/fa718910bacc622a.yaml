@@ -13,7 +13,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786158501.250471
     top:
     - scientific: Selar crumenophthalmus
@@ -33,8 +33,19 @@ species_suggestions:
       confidence: 0.1498
     - scientific: Lutjanus synagris
       confidence: 0.1433
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786158501.250471
+    top:
+    - scientific: Lutjanus mahogoni
+      confidence: 0.955
+    - scientific: Lutjanus synagris
+      confidence: 0.0161
+    - scientific: Haemulon carbonarium
+      confidence: 0.0123
 species:
 - scientific: Lutjanus mahogoni
   role: primary
-  confidence: 0.489
-  identified_by: bioclip-2
+  confidence: 0.722
+  identified_by: bioclip-2+bioclip-2.5

@@ -14,7 +14,7 @@ rotation_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786157574.019656
     top:
     - scientific: Opistognathus aurifrons
@@ -34,8 +34,19 @@ species_suggestions:
       confidence: 0.0733
     - scientific: Octopus insularis
       confidence: 0.064
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786157574.019656
+    top:
+    - scientific: Octopus insularis
+      confidence: 0.4862
+    - scientific: Octopus briareus
+      confidence: 0.0543
+    - scientific: Antennarius multiocellatus
+      confidence: 0.0151
 species:
-- scientific: Octopus briareus
+- scientific: Octopus insularis
   role: primary
-  confidence: 0.1641
-  identified_by: bioclip-2
+  confidence: 0.2751
+  identified_by: bioclip-2+bioclip-2.5

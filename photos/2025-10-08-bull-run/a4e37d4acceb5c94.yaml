@@ -12,7 +12,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786159809.4681568
     top:
     - scientific: Tursiops truncatus
@@ -32,9 +32,20 @@ species_suggestions:
       confidence: 0.037
     - scientific: Megalops atlanticus
       confidence: 0.0106
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786159809.4681568
+    top:
+    - scientific: Megalops atlanticus
+      confidence: 0.473
+    - scientific: Galeocerdo cuvier
+      confidence: 0.3331
+    - scientific: Sphyrna mokarran
+      confidence: 0.1922
 species:
 - scientific: Galeocerdo cuvier
   role: primary
-  confidence: 0.9403
-  identified_by: bioclip-2
+  confidence: 0.6367
+  identified_by: bioclip-2+bioclip-2.5
 rotation_reviewed: true

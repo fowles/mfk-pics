@@ -12,7 +12,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786159810.514961
     top:
     - scientific: Cassiopea xamachana
@@ -35,8 +35,19 @@ species_suggestions:
       confidence: 0.1644
     - scientific: Ancylomenes pedersoni
       confidence: 0.0361
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786159810.514961
+    top:
+    - scientific: Aetobatus narinari
+      confidence: 0.545
+    - scientific: Galeocerdo cuvier
+      confidence: 0.217
+    - scientific: Sphyrna mokarran
+      confidence: 0.1052
 species:
-- scientific: Heteroconger longissimus
+- scientific: Aetobatus narinari
   role: primary
-  confidence: 0.4183
-  identified_by: bioclip-2
+  confidence: 0.2725
+  identified_by: bioclip-2.5

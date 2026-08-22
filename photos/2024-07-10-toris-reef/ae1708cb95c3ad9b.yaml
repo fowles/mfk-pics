@@ -14,7 +14,7 @@ rotation_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786160157.4305015
     top:
     - scientific: Aulostomus maculatus
@@ -40,3 +40,14 @@ species_suggestions:
     absorbed_by:
       scientific: Acropora cervicornis
       confidence: 0.6103
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786160157.4305015
+    top:
+    - scientific: Ogcocephalus nasutus
+      confidence: 0.4119
+    - scientific: Urobatis jamaicensis
+      confidence: 0.4054
+    - scientific: Ogcocephalus radiatus
+      confidence: 0.0624

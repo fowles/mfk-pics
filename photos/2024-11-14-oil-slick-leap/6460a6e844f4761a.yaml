@@ -13,7 +13,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786156898.4857306
     top:
     - scientific: Melichthys niger
@@ -33,8 +33,18 @@ species_suggestions:
       confidence: 0.0646
     - scientific: Myrichthys breviceps
       confidence: 0.0502
-species:
-- scientific: Rypticus saponaceus
-  role: primary
-  confidence: 0.1241
-  identified_by: bioclip-2
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786156898.4857306
+    top:
+    - scientific: Mycteroperca venenosa
+      confidence: 0.1959
+    - scientific: Scomberomorus regalis
+      confidence: 0.0806
+    - scientific: Gymnothorax moringa
+      confidence: 0.037
+    absorbed_by:
+      scientific: Callyspongia plicifera
+      confidence: 0.447
+species: []

@@ -13,7 +13,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786071913.3164039
     top:
     - scientific: Thalassoma bifasciatum
@@ -33,8 +33,19 @@ species_suggestions:
       confidence: 0.076
     - scientific: Sepioteuthis sepioidea
       confidence: 0.0618
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786071913.3164039
+    top:
+    - scientific: Sparisoma amplum
+      confidence: 0.2061
+    - scientific: Sparisoma atomarium
+      confidence: 0.1938
+    - scientific: Acanthostracion polygonius
+      confidence: 0.0974
 species:
 - scientific: Pseudupeneus maculatus
   role: primary
-  confidence: 0.3858
+  confidence: 0.1929
   identified_by: bioclip-2

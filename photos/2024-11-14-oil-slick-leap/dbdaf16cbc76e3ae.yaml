@@ -16,7 +16,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786156899.6129405
     top:
     - scientific: Gymnothorax funebris
@@ -39,4 +39,19 @@ species_suggestions:
     absorbed_by:
       scientific: Orbicella annularis
       confidence: 0.2033
-species: []
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786156899.6129405
+    top:
+    - scientific: Halichoeres garnoti
+      confidence: 0.3339
+    - scientific: Halichoeres pictus
+      confidence: 0.3049
+    - scientific: Serranus tigrinus
+      confidence: 0.069
+species:
+- scientific: Halichoeres garnoti
+  role: primary
+  confidence: 0.1669
+  identified_by: bioclip-2.5

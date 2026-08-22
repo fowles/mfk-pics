@@ -13,7 +13,7 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786158400.4208333
     top:
     - scientific: Percnon gibbesi
@@ -33,8 +33,19 @@ species_suggestions:
       confidence: 0.1059
     - scientific: Gymnothorax miliaris
       confidence: 0.0988
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786158400.4208333
+    top:
+    - scientific: Malacoctenus triangulatus
+      confidence: 0.356
+    - scientific: Paguristes cadenati
+      confidence: 0.1613
+    - scientific: Octopus insularis
+      confidence: 0.1489
 species:
-- scientific: Holocentrus rufus
+- scientific: Malacoctenus triangulatus
   role: primary
-  confidence: 0.1371
-  identified_by: bioclip-2
+  confidence: 0.178
+  identified_by: bioclip-2.5

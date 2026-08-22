@@ -13,7 +13,7 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786159370.732338
     top:
     - scientific: Caranx latus
@@ -33,8 +33,19 @@ species_suggestions:
       confidence: 0.1712
     - scientific: Caranx latus
       confidence: 0.1386
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786159370.732338
+    top:
+    - scientific: Caranx latus
+      confidence: 0.6027
+    - scientific: Caranx ruber
+      confidence: 0.2588
+    - scientific: Echeneis naucrates
+      confidence: 0.0527
 species:
-- scientific: Trachinotus falcatus
+- scientific: Caranx latus
   role: primary
-  confidence: 0.4672
-  identified_by: bioclip-2
+  confidence: 0.3707
+  identified_by: bioclip+bioclip-2+bioclip-2.5

@@ -16,7 +16,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786157492.126238
     top:
     - scientific: Canthidermis sufflamen
@@ -36,8 +36,19 @@ species_suggestions:
       confidence: 0.1851
     - scientific: Malacanthus plumieri
       confidence: 0.0689
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786157492.126238
+    top:
+    - scientific: Sphyraena barracuda
+      confidence: 0.2949
+    - scientific: Lutjanus mahogoni
+      confidence: 0.2849
+    - scientific: Gerres cinereus
+      confidence: 0.1171
 species:
-- scientific: Gerres cinereus
+- scientific: Sphyraena barracuda
   role: primary
-  confidence: 0.359
-  identified_by: bioclip-2
+  confidence: 0.24
+  identified_by: bioclip-2+bioclip-2.5

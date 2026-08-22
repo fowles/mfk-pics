@@ -14,7 +14,7 @@ rotation_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786156691.4427297
     top:
     - scientific: Amblycirrhitus pinos
@@ -37,4 +37,15 @@ species_suggestions:
     absorbed_by:
       scientific: Orbicella annularis
       confidence: 0.2955
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786156691.4427297
+    top:
+    - scientific: Scorpaena plumieri
+      confidence: 0.1234
+    - scientific: Epinephelus adscensionis
+      confidence: 0.0917
+    - scientific: Monacanthus tuckeri
+      confidence: 0.066
 species: []

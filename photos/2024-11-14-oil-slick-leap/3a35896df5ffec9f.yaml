@@ -9,7 +9,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786156896.1608386
     top:
     - scientific: Ginglymostoma cirratum
@@ -29,8 +29,18 @@ species_suggestions:
       confidence: 0.0497
     - scientific: Thalassoma bifasciatum
       confidence: 0.0481
-species:
-- scientific: Scarus guacamaia
-  role: primary
-  confidence: 0.0866
-  identified_by: bioclip-2
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786156896.1608386
+    top:
+    - scientific: Diadema antillarum
+      confidence: 0.0617
+    - scientific: Tripneustes ventricosus
+      confidence: 0.0452
+    - scientific: Sparisoma viride
+      confidence: 0.0318
+    absorbed_by:
+      scientific: Acropora palmata
+      confidence: 0.3837
+species: []

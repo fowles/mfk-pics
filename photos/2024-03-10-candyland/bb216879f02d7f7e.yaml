@@ -36,6 +36,20 @@ species_suggestions:
       confidence: 0.0485
     - scientific: Pterois volitans
       confidence: 0.0472
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786158872.9458675
+    top:
+    - scientific: Mycteroperca tigris
+      confidence: 0.0491
+    - scientific: Aluterus scriptus
+      confidence: 0.0351
+    - scientific: Acanthurus tractus
+      confidence: 0.0251
+    absorbed_by:
+      scientific: Cirrhipathes leutkeni
+      confidence: 0.8771
 species:
 - scientific: Homo sapiens
   role: primary

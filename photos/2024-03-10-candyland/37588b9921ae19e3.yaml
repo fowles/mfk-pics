@@ -36,6 +36,20 @@ species_suggestions:
     absorbed_by:
       scientific: Dendrogyra cylindrus
       confidence: 0.1285
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786158854.1649399
+    top:
+    - scientific: Abudefduf saxatilis
+      confidence: 0.0021
+    - scientific: Thalassoma bifasciatum
+      confidence: 0.0008
+    - scientific: Epinephelus striatus
+      confidence: 0.0001
+    absorbed_by:
+      scientific: Antillogorgia americana
+      confidence: 0.9651
 species:
 - scientific: Chaetodon striatus
   role: primary

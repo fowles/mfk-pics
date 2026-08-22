@@ -13,7 +13,7 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786159556.57257
     top:
     - scientific: Aulostomus maculatus
@@ -36,8 +36,19 @@ species_suggestions:
       confidence: 0.1769
     - scientific: Holacanthus tricolor
       confidence: 0.1021
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786159556.57257
+    top:
+    - scientific: Hypoplectrus indigo
+      confidence: 0.1589
+    - scientific: Pomacanthus paru
+      confidence: 0.1499
+    - scientific: Holacanthus tricolor
+      confidence: 0.1296
 species:
 - scientific: Centropyge argi
   role: primary
-  confidence: 0.2755
+  confidence: 0.1378
   identified_by: bioclip-2

@@ -12,7 +12,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786159798.4176574
     top:
     - scientific: Sargocentron coruscum
@@ -32,8 +32,19 @@ species_suggestions:
       confidence: 0.1728
     - scientific: Monacanthus tuckeri
       confidence: 0.0618
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786159798.4176574
+    top:
+    - scientific: Malacoctenus triangulatus
+      confidence: 0.2462
+    - scientific: Lactophrys triqueter
+      confidence: 0.1722
+    - scientific: Gymnothorax moringa
+      confidence: 0.1598
 species:
-- scientific: Serranus tigrinus
+- scientific: Malacoctenus triangulatus
   role: primary
-  confidence: 0.2001
-  identified_by: bioclip+bioclip-2
+  confidence: 0.1231
+  identified_by: bioclip-2.5

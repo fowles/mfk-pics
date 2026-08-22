@@ -37,6 +37,20 @@ species_suggestions:
     absorbed_by:
       scientific: Orbicella annularis
       confidence: 0.1957
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786158853.6924438
+    top:
+    - scientific: Halichoeres garnoti
+      confidence: 0.0523
+    - scientific: Sparisoma viride
+      confidence: 0.0399
+    - scientific: Serranus tigrinus
+      confidence: 0.0062
+    absorbed_by:
+      scientific: Montastraea cavernosa
+      confidence: 0.8093
 species:
 - scientific: Aulostomus maculatus
   role: primary

@@ -14,7 +14,7 @@ rotation_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786158713.6495097
     top:
     - scientific: Hippocampus erectus
@@ -37,8 +37,19 @@ species_suggestions:
       confidence: 0.0289
     - scientific: Monacanthus tuckeri
       confidence: 0.0
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786158713.6495097
+    top:
+    - scientific: Hippocampus reidi
+      confidence: 0.9884
+    - scientific: Hippocampus erectus
+      confidence: 0.0116
+    - scientific: Monacanthus tuckeri
+      confidence: 0.0
 species:
 - scientific: Hippocampus reidi
   role: primary
-  confidence: 0.971
-  identified_by: bioclip-2
+  confidence: 0.9797
+  identified_by: bioclip-2+bioclip-2.5

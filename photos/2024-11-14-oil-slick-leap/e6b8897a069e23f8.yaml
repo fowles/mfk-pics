@@ -16,7 +16,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786156901.1050107
     top:
     - scientific: Gymnothorax miliaris
@@ -36,8 +36,19 @@ species_suggestions:
       confidence: 0.1186
     - scientific: Ginglymostoma cirratum
       confidence: 0.0812
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786156901.1050107
+    top:
+    - scientific: Serranus tigrinus
+      confidence: 0.7997
+    - scientific: Halichoeres garnoti
+      confidence: 0.1126
+    - scientific: Halichoeres pictus
+      confidence: 0.0164
 species:
-- scientific: Malacanthus plumieri
+- scientific: Serranus tigrinus
   role: primary
-  confidence: 0.1622
-  identified_by: bioclip-2
+  confidence: 0.3998
+  identified_by: bioclip-2.5

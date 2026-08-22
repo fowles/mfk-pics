@@ -16,7 +16,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786156581.8551538
     top:
     - scientific: Acanthostracion polygonius
@@ -36,8 +36,19 @@ species_suggestions:
       confidence: 0.1263
     - scientific: Calamus calamus
       confidence: 0.1235
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786156581.8551538
+    top:
+    - scientific: Aluterus scriptus
+      confidence: 0.7403
+    - scientific: Eretmochelys imbricata
+      confidence: 0.1507
+    - scientific: Chelonia mydas
+      confidence: 0.0882
 species:
-- scientific: Canthidermis sufflamen
+- scientific: Aluterus scriptus
   role: primary
-  confidence: 0.2289
-  identified_by: bioclip+bioclip-2
+  confidence: 0.3701
+  identified_by: bioclip-2.5

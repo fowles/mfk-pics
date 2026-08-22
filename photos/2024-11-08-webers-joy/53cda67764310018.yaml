@@ -13,7 +13,7 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786156521.8210046
     top:
     - scientific: Cantherhines macrocerus
@@ -36,8 +36,19 @@ species_suggestions:
       confidence: 0.1558
     - scientific: Lutjanus apodus
       confidence: 0.1336
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786156521.8210046
+    top:
+    - scientific: Lutjanus apodus
+      confidence: 0.6042
+    - scientific: Ocyurus chrysurus
+      confidence: 0.2706
+    - scientific: Lutjanus jocu
+      confidence: 0.0906
 species:
-- scientific: Bodianus rufus
+- scientific: Lutjanus apodus
   role: primary
-  confidence: 0.2047
-  identified_by: bioclip-2
+  confidence: 0.3689
+  identified_by: bioclip-2+bioclip-2.5

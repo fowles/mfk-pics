@@ -14,7 +14,7 @@ rotation_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786156523.2619293
     top:
     - scientific: Acanthurus coeruleus
@@ -34,8 +34,19 @@ species_suggestions:
       confidence: 0.0115
     - scientific: Hypoplectrus chlorurus
       confidence: 0.0114
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786156523.2619293
+    top:
+    - scientific: Acanthurus coeruleus
+      confidence: 0.9992
+    - scientific: Acanthurus chirurgus
+      confidence: 0.0007
+    - scientific: Microspathodon chrysurus
+      confidence: 0.0001
 species:
 - scientific: Acanthurus coeruleus
   role: primary
-  confidence: 0.9636
-  identified_by: bioclip+bioclip-2
+  confidence: 0.9814
+  identified_by: bioclip+bioclip-2+bioclip-2.5

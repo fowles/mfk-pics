@@ -13,7 +13,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786158971.7390924
     top:
     - scientific: Scarus coelestinus
@@ -36,8 +36,19 @@ species_suggestions:
       confidence: 0.0822
     - scientific: Hypoplectrus chlorurus
       confidence: 0.0811
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786158971.7390924
+    top:
+    - scientific: Lutjanus jocu
+      confidence: 0.2617
+    - scientific: Anisotremus surinamensis
+      confidence: 0.2411
+    - scientific: Canthidermis sufflamen
+      confidence: 0.186
 species:
-- scientific: Holacanthus tricolor
+- scientific: Lutjanus jocu
   role: primary
-  confidence: 0.0839
-  identified_by: bioclip-2
+  confidence: 0.1308
+  identified_by: bioclip-2.5

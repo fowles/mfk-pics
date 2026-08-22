@@ -13,7 +13,7 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786159372.7215118
     top:
     - scientific: Pomacanthus paru
@@ -33,8 +33,19 @@ species_suggestions:
       confidence: 0.048
     - scientific: Holacanthus tricolor
       confidence: 0.0044
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786159372.7215118
+    top:
+    - scientific: Pomacanthus paru
+      confidence: 0.9709
+    - scientific: Pomacanthus arcuatus
+      confidence: 0.0291
+    - scientific: Melichthys niger
+      confidence: 0.0
 species:
-- scientific: Pomacanthus arcuatus
+- scientific: Pomacanthus paru
   role: primary
-  confidence: 0.9452
-  identified_by: bioclip+bioclip-2
+  confidence: 0.5094
+  identified_by: bioclip+bioclip-2+bioclip-2.5

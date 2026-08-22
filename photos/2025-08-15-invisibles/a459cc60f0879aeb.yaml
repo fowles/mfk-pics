@@ -13,7 +13,7 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786071943.247335
     top:
     - scientific: Chromis multilineata
@@ -33,8 +33,19 @@ species_suggestions:
       confidence: 0.2279
     - scientific: Trachinotus goodei
       confidence: 0.0572
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786071943.247335
+    top:
+    - scientific: Carangoides bartholomaei
+      confidence: 0.6977
+    - scientific: Caranx ruber
+      confidence: 0.226
+    - scientific: Trachinotus goodei
+      confidence: 0.0456
 species:
-- scientific: Gerres cinereus
+- scientific: Carangoides bartholomaei
   role: primary
-  confidence: 0.3164
-  identified_by: bioclip+bioclip-2
+  confidence: 0.3488
+  identified_by: bioclip-2.5

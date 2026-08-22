@@ -16,7 +16,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786156980.9327748
     top:
     - scientific: Malacanthus plumieri
@@ -36,8 +36,19 @@ species_suggestions:
       confidence: 0.3058
     - scientific: Ocyurus chrysurus
       confidence: 0.1187
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786156980.9327748
+    top:
+    - scientific: Caranx latus
+      confidence: 0.9801
+    - scientific: Ocyurus chrysurus
+      confidence: 0.0051
+    - scientific: Caranx crysos
+      confidence: 0.0043
 species:
 - scientific: Caranx latus
   role: primary
-  confidence: 0.5047
-  identified_by: bioclip-2
+  confidence: 0.7424
+  identified_by: bioclip-2+bioclip-2.5

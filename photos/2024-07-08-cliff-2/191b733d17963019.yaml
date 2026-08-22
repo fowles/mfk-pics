@@ -13,7 +13,7 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786159371.2216606
     top:
     - scientific: Cyphoma gibbosum
@@ -36,8 +36,18 @@ species_suggestions:
       confidence: 0.0737
     - scientific: Chromis multilineata
       confidence: 0.031
-species:
-- scientific: Chromis cyanea
-  role: primary
-  confidence: 0.3656
-  identified_by: bioclip-2
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786159371.2216606
+    top:
+    - scientific: Abudefduf saxatilis
+      confidence: 0.178
+    - scientific: Aulostomus maculatus
+      confidence: 0.0664
+    - scientific: Elacatinus genie
+      confidence: 0.0149
+    absorbed_by:
+      scientific: Cirrhipathes leutkeni
+      confidence: 0.6053
+species: []

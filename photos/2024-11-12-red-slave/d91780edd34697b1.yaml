@@ -14,7 +14,7 @@ rotation_applied: 270
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1787174975.381908
     top:
     - scientific: Epinephelus striatus
@@ -34,8 +34,19 @@ species_suggestions:
       confidence: 0.147
     - scientific: Lutjanus griseus
       confidence: 0.0916
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1787174975.381908
+    top:
+    - scientific: Mycteroperca tigris
+      confidence: 0.9855
+    - scientific: Cephalopholis cruentata
+      confidence: 0.0061
+    - scientific: Epinephelus guttatus
+      confidence: 0.0026
 species:
-- scientific: Lutjanus analis
+- scientific: Mycteroperca tigris
   role: primary
-  confidence: 0.5957
-  identified_by: bioclip-2
+  confidence: 0.5663
+  identified_by: bioclip-2+bioclip-2.5

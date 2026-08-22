@@ -34,6 +34,17 @@ species_suggestions:
       confidence: 0.0126
     - scientific: Equetus lanceolatus
       confidence: 0.0107
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786159782.9181852
+    top:
+    - scientific: Chaetodipterus faber
+      confidence: 0.851
+    - scientific: Trachinotus goodei
+      confidence: 0.1031
+    - scientific: Trachinotus falcatus
+      confidence: 0.0252
 species:
 - scientific: Chaetodipterus faber
   role: primary

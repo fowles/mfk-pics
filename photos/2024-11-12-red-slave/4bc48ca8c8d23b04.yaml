@@ -22,12 +22,12 @@ species:
   - Matthew Kulukundis
 - scientific: Sepioteuthis sepioidea
   role: primary
-  confidence: 0.652
-  identified_by: bioclip-2
+  confidence: 0.715
+  identified_by: bioclip-2+bioclip-2.5
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786156804.943392
     top:
     - scientific: Canthidermis sufflamen
@@ -47,3 +47,14 @@ species_suggestions:
       confidence: 0.0857
     - scientific: Sphyrna mokarran
       confidence: 0.0411
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786156804.943392
+    top:
+    - scientific: Sepioteuthis sepioidea
+      confidence: 0.7781
+    - scientific: Chelonia mydas
+      confidence: 0.0647
+    - scientific: Aetobatus narinari
+      confidence: 0.0449

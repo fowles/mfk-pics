@@ -13,7 +13,7 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786159375.1199284
     top:
     - scientific: Sphoeroides spengleri
@@ -33,8 +33,19 @@ species_suggestions:
       confidence: 0.0974
     - scientific: Lutjanus apodus
       confidence: 0.0503
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786159375.1199284
+    top:
+    - scientific: Haemulon sciurus
+      confidence: 0.479
+    - scientific: Diodon hystrix
+      confidence: 0.2833
+    - scientific: Haemulon plumierii
+      confidence: 0.039
 species:
-- scientific: Gymnothorax funebris
+- scientific: Haemulon sciurus
   role: primary
-  confidence: 0.3971
-  identified_by: bioclip-2
+  confidence: 0.2395
+  identified_by: bioclip-2.5

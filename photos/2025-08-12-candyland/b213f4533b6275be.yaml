@@ -13,7 +13,7 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786158128.3503985
     top:
     - scientific: Thalassoma bifasciatum
@@ -33,8 +33,19 @@ species_suggestions:
       confidence: 0.1016
     - scientific: Chromis cyanea
       confidence: 0.0719
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786158128.3503985
+    top:
+    - scientific: Chromis multilineata
+      confidence: 0.9481
+    - scientific: Scarus iseri
+      confidence: 0.0135
+    - scientific: Chromis cyanea
+      confidence: 0.0071
 species:
 - scientific: Chromis multilineata
   role: primary
-  confidence: 0.1023
-  identified_by: bioclip-2
+  confidence: 0.5252
+  identified_by: bioclip-2+bioclip-2.5

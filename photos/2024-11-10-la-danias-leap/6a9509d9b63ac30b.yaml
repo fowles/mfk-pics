@@ -14,7 +14,7 @@ rotation_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786156691.034072
     top:
     - scientific: Pareques acuminatus
@@ -34,8 +34,19 @@ species_suggestions:
       confidence: 0.1453
     - scientific: Lachnolaimus maximus
       confidence: 0.0837
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786156691.034072
+    top:
+    - scientific: Abudefduf saxatilis
+      confidence: 0.2978
+    - scientific: Chromis multilineata
+      confidence: 0.1251
+    - scientific: Sparisoma viride
+      confidence: 0.0637
 species:
-- scientific: Holocentrus adscensionis
+- scientific: Abudefduf saxatilis
   role: primary
-  confidence: 0.274
-  identified_by: bioclip-2
+  confidence: 0.1489
+  identified_by: bioclip-2.5

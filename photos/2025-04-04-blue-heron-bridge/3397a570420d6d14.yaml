@@ -16,7 +16,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786157492.901085
     top:
     - scientific: Aliger gigas
@@ -36,8 +36,19 @@ species_suggestions:
       confidence: 0.0005
     - scientific: Aliger gigas
       confidence: 0.0002
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786157492.901085
+    top:
+    - scientific: Petrochirus diogenes
+      confidence: 1.0
+    - scientific: Aliger gigas
+      confidence: 0.0
+    - scientific: Paguristes cadenati
+      confidence: 0.0
 species:
 - scientific: Petrochirus diogenes
   role: primary
-  confidence: 0.9992
-  identified_by: bioclip-2
+  confidence: 0.9996
+  identified_by: bioclip-2+bioclip-2.5

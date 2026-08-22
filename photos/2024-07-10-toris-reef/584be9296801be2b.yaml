@@ -16,7 +16,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786160209.6602054
     top:
     - scientific: Scarus coelestinus
@@ -36,8 +36,19 @@ species_suggestions:
       confidence: 0.1183
     - scientific: Balistes vetula
       confidence: 0.0691
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786160209.6602054
+    top:
+    - scientific: Balistes vetula
+      confidence: 0.9182
+    - scientific: Pomacanthus paru
+      confidence: 0.0649
+    - scientific: Holacanthus ciliaris
+      confidence: 0.0147
 species:
-- scientific: Holacanthus ciliaris
+- scientific: Balistes vetula
   role: primary
-  confidence: 0.6369
-  identified_by: bioclip-2
+  confidence: 0.4937
+  identified_by: bioclip-2+bioclip-2.5

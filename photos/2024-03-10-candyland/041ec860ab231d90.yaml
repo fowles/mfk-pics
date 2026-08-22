@@ -16,7 +16,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786158875.3590262
     top:
     - scientific: Pareques acuminatus
@@ -36,8 +36,19 @@ species_suggestions:
       confidence: 0.1107
     - scientific: Malacoctenus triangulatus
       confidence: 0.0719
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786158875.3590262
+    top:
+    - scientific: Hypoplectrus puella
+      confidence: 0.2622
+    - scientific: Amblycirrhitus pinos
+      confidence: 0.1591
+    - scientific: Serranus tigrinus
+      confidence: 0.1109
 species:
-- scientific: Gymnothorax moringa
+- scientific: Hypoplectrus puella
   role: primary
-  confidence: 0.1467
-  identified_by: bioclip-2
+  confidence: 0.1311
+  identified_by: bioclip-2.5

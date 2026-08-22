@@ -13,7 +13,7 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786159786.9642348
     top:
     - scientific: Carcharhinus perezi
@@ -33,8 +33,19 @@ species_suggestions:
       confidence: 0.1159
     - scientific: Ginglymostoma cirratum
       confidence: 0.0064
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786159786.9642348
+    top:
+    - scientific: Carcharhinus perezi
+      confidence: 0.9643
+    - scientific: Sphyrna mokarran
+      confidence: 0.0215
+    - scientific: Negaprion brevirostris
+      confidence: 0.0083
 species:
 - scientific: Carcharhinus perezi
   role: primary
-  confidence: 0.8728
-  identified_by: bioclip+bioclip-2
+  confidence: 0.9185
+  identified_by: bioclip+bioclip-2+bioclip-2.5

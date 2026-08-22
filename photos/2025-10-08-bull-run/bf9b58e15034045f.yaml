@@ -12,7 +12,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786159807.9003747
     top:
     - scientific: Haemulon macrostomum
@@ -32,8 +32,19 @@ species_suggestions:
       confidence: 0.104
     - scientific: Chromis multilineata
       confidence: 0.0796
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786159807.9003747
+    top:
+    - scientific: Chromis cyanea
+      confidence: 0.7226
+    - scientific: Clepticus parrae
+      confidence: 0.2446
+    - scientific: Chromis multilineata
+      confidence: 0.0164
 species:
 - scientific: Chromis cyanea
   role: primary
-  confidence: 0.4426
-  identified_by: bioclip-2
+  confidence: 0.5826
+  identified_by: bioclip-2+bioclip-2.5

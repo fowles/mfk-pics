@@ -13,7 +13,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
+    created: '2026-08-22T18:40:50Z'
     src_mtime: 1786159063.2170277
     top:
     - scientific: Gymnothorax funebris
@@ -36,8 +36,18 @@ species_suggestions:
       confidence: 0.1
     - scientific: Microspathodon chrysurus
       confidence: 0.0841
-species:
-- scientific: Stegastes planifrons
-  role: primary
-  confidence: 0.1417
-  identified_by: bioclip-2
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-22T18:24:25Z'
+    src_mtime: 1786159063.2170277
+    top:
+    - scientific: Gymnothorax miliaris
+      confidence: 0.0361
+    - scientific: Stegastes planifrons
+      confidence: 0.0017
+    - scientific: Antennarius multiocellatus
+      confidence: 0.0006
+    absorbed_by:
+      scientific: Aplysina fistularis
+      confidence: 0.9536
+species: []
