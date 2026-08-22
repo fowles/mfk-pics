@@ -6,6 +6,7 @@ output_dir: "output"
 site_url: "https://mfk.pics"
 species:
   publish: true
+  publish_min_confidence: 0.8
 photographers:
   Google Pixel 8 Pro: Matthew Kulukundis
   '838056001033': Delia Kulukundis
