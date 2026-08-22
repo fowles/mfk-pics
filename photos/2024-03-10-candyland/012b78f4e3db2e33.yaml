@@ -36,5 +36,13 @@ species_suggestions:
 species:
 - scientific: Melichthys niger
   role: primary
-  confidence: 0.9953
-  identified_by: bioclip+bioclip-2
+  identified_by: human
+  confirmed_from: bioclip+bioclip-2
+  reviewed_by: matt
+- scientific: Chromis multilineata
+  role: secondary
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

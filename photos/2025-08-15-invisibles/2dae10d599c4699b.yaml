@@ -36,5 +36,10 @@ species_suggestions:
 species:
 - scientific: Stenopus hispidus
   role: primary
-  confidence: 0.871
-  identified_by: bioclip+bioclip-2
+  identified_by: human
+  confirmed_from: bioclip+bioclip-2
+  reviewed_by: matt
+rotation_applied: 90
+species_reviewed:
+- primary
+- secondary

@@ -36,5 +36,17 @@ species_suggestions:
 species:
 - scientific: Caranx ruber
   role: primary
-  confidence: 0.9988
-  identified_by: bioclip+bioclip-2
+  identified_by: human
+  confirmed_from: bioclip+bioclip-2
+  reviewed_by: matt
+- scientific: Abudefduf saxatilis
+  role: secondary
+  identified_by: human
+  reviewed_by: matt
+- scientific: Homo sapiens
+  role: secondary
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

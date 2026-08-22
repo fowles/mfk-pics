@@ -40,3 +40,6 @@ species:
   confirmed_from: bioclip+bioclip-2
   reviewed_by: matt
 rotation_applied: 90
+species_reviewed:
+- primary
+- secondary

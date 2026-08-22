@@ -36,5 +36,9 @@ species_suggestions:
 species:
 - scientific: Kyphosus sectatrix
   role: primary
-  confidence: 0.9946
-  identified_by: bioclip+bioclip-2
+  identified_by: human
+  confirmed_from: bioclip+bioclip-2
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

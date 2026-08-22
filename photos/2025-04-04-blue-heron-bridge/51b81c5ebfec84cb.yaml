@@ -36,6 +36,10 @@ species_suggestions:
 species:
 - scientific: Sphoeroides spengleri
   role: primary
-  confidence: 0.99
-  identified_by: bioclip+bioclip-2
+  identified_by: human
+  confirmed_from: bioclip+bioclip-2
+  reviewed_by: matt
 rotation_applied: 90
+species_reviewed:
+- primary
+- secondary
