@@ -14,7 +14,7 @@ rotation_applied: 270
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T18:40:50Z'
+    created: '2026-08-22T21:06:19Z'
     src_mtime: 1787176134.6921947
     top:
     - scientific: Lactophrys triqueter
@@ -25,18 +25,18 @@ species_suggestions:
       confidence: 0.0457
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T13:37:37Z'
+    created: '2026-08-22T21:08:04Z'
     src_mtime: 1787176134.6921947
     top:
     - scientific: Lactophrys triqueter
-      confidence: 0.5189
+      confidence: 0.5187
     - scientific: Lactophrys bicaudalis
-      confidence: 0.3607
+      confidence: 0.3606
     - scientific: Canthigaster rostrata
       confidence: 0.0627
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T18:24:25Z'
+    created: '2026-08-22T21:10:58Z'
     src_mtime: 1787176134.6921947
     top:
     - scientific: Lactophrys triqueter
@@ -48,5 +48,5 @@ species_suggestions:
 species:
 - scientific: Lactophrys triqueter
   role: primary
-  confidence: 0.7591
+  confidence: 0.759
   identified_by: bioclip+bioclip-2+bioclip-2.5

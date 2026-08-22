@@ -13,7 +13,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T18:40:50Z'
+    created: '2026-08-22T21:06:19Z'
     src_mtime: 1786158336.0130172
     top:
     - scientific: Trachinotus goodei
@@ -24,18 +24,18 @@ species_suggestions:
       confidence: 0.0301
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T13:37:37Z'
+    created: '2026-08-22T21:08:04Z'
     src_mtime: 1786158336.0130172
     top:
     - scientific: Trachinotus goodei
-      confidence: 0.3067
+      confidence: 0.3044
     - scientific: Canthidermis sufflamen
-      confidence: 0.2107
+      confidence: 0.2091
     - scientific: Trachinotus falcatus
-      confidence: 0.1038
+      confidence: 0.103
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T18:24:25Z'
+    created: '2026-08-22T21:10:58Z'
     src_mtime: 1786158336.0130172
     top:
     - scientific: Hypanus americanus

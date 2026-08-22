@@ -16,39 +16,39 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T18:40:50Z'
+    created: '2026-08-22T21:06:19Z'
     src_mtime: 1786156745.9905665
     top:
     - scientific: Aulostomus maculatus
       confidence: 0.2821
     - scientific: Diadema antillarum
-      confidence: 0.1355
+      confidence: 0.1354
     - scientific: Chaetodon capistratus
       confidence: 0.0424
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T13:37:37Z'
+    created: '2026-08-22T21:08:04Z'
     src_mtime: 1786156745.9905665
     top:
     - scientific: Holacanthus tricolor
-      confidence: 0.1405
+      confidence: 0.1399
     - scientific: Thalassoma bifasciatum
-      confidence: 0.0892
+      confidence: 0.0888
     - scientific: Pomacanthus arcuatus
-      confidence: 0.0507
+      confidence: 0.0505
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T18:24:25Z'
+    created: '2026-08-22T21:10:58Z'
     src_mtime: 1786156745.9905665
     top:
     - scientific: Equetus punctatus
-      confidence: 0.6932
+      confidence: 0.6928
     - scientific: Mycteroperca tigris
-      confidence: 0.0543
+      confidence: 0.0542
     - scientific: Scarus coelestinus
       confidence: 0.0296
 species:
 - scientific: Equetus punctatus
   role: primary
-  confidence: 0.3466
+  confidence: 0.3464
   identified_by: bioclip-2.5

@@ -13,7 +13,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T18:40:50Z'
+    created: '2026-08-22T21:06:19Z'
     src_mtime: 1786158336.6449556
     top:
     - scientific: Hypanus americanus
@@ -24,28 +24,28 @@ species_suggestions:
       confidence: 0.0005
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T13:37:37Z'
+    created: '2026-08-22T21:08:04Z'
     src_mtime: 1786158336.6449556
     top:
     - scientific: Hypanus americanus
-      confidence: 0.9535
+      confidence: 0.9532
     - scientific: Trachinotus goodei
       confidence: 0.0142
     - scientific: Aetobatus narinari
       confidence: 0.0087
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T18:24:25Z'
+    created: '2026-08-22T21:10:58Z'
     src_mtime: 1786158336.6449556
     top:
     - scientific: Hypanus americanus
-      confidence: 0.6888
+      confidence: 0.6887
     - scientific: Caranx ruber
-      confidence: 0.1518
+      confidence: 0.1517
     - scientific: Echeneis naucrates
       confidence: 0.1212
 species:
 - scientific: Hypanus americanus
   role: primary
-  confidence: 0.8212
+  confidence: 0.821
   identified_by: bioclip+bioclip-2+bioclip-2.5

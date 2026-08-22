@@ -13,7 +13,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T18:40:50Z'
+    created: '2026-08-22T21:06:19Z'
     src_mtime: 1786158973.0064325
     top:
     - scientific: Trachinotus goodei
@@ -27,22 +27,22 @@ species_suggestions:
       confidence: 0.2433
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T13:37:37Z'
+    created: '2026-08-22T21:08:04Z'
     src_mtime: 1786158973.0064325
     top:
     - scientific: Canthidermis sufflamen
-      confidence: 0.4418
+      confidence: 0.4404
     - scientific: Carcharhinus perezi
-      confidence: 0.1052
+      confidence: 0.1049
     - scientific: Caranx ruber
-      confidence: 0.0795
+      confidence: 0.0793
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T18:24:25Z'
+    created: '2026-08-22T21:10:58Z'
     src_mtime: 1786158973.0064325
     top:
     - scientific: Chromis multilineata
-      confidence: 0.6983
+      confidence: 0.6982
     - scientific: Abudefduf saxatilis
       confidence: 0.1642
     - scientific: Ocyurus chrysurus
@@ -50,5 +50,5 @@ species_suggestions:
 species:
 - scientific: Chromis multilineata
   role: primary
-  confidence: 0.3492
+  confidence: 0.3491
   identified_by: bioclip-2.5

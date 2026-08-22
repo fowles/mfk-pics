@@ -13,7 +13,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T21:06:19Z'
     src_mtime: 1786158872.0336044
     top:
     - scientific: Scarus coelestinus
@@ -24,7 +24,7 @@ species_suggestions:
       confidence: 0.1025
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T13:37:37Z'
+    created: '2026-08-22T21:08:04Z'
     src_mtime: 1786158872.0336044
     top:
     - scientific: Chromis cyanea
@@ -35,18 +35,18 @@ species_suggestions:
       confidence: 0.068
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T18:24:25Z'
+    created: '2026-08-22T21:10:58Z'
     src_mtime: 1786158872.0336044
     top:
     - scientific: Chromis cyanea
-      confidence: 0.2366
+      confidence: 0.2362
     - scientific: Balistes vetula
-      confidence: 0.092
+      confidence: 0.0919
     - scientific: Acanthurus coeruleus
       confidence: 0.0275
     absorbed_by:
       scientific: Niphates digitalis
-      confidence: 0.3959
+      confidence: 0.3953
 species:
 - scientific: Clepticus parrae
   role: secondary

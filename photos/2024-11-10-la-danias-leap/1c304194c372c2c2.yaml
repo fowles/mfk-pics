@@ -13,7 +13,7 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T18:40:50Z'
+    created: '2026-08-22T21:06:19Z'
     src_mtime: 1786156688.0436122
     top:
     - scientific: Sparisoma aurofrenatum
@@ -24,18 +24,18 @@ species_suggestions:
       confidence: 0.2054
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T13:37:37Z'
+    created: '2026-08-22T21:08:04Z'
     src_mtime: 1786156688.0436122
     top:
     - scientific: Sparisoma viride
-      confidence: 0.9452
+      confidence: 0.9451
     - scientific: Sparisoma aurofrenatum
       confidence: 0.0315
     - scientific: Sparisoma amplum
       confidence: 0.0104
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T18:24:25Z'
+    created: '2026-08-22T21:10:58Z'
     src_mtime: 1786156688.0436122
     top:
     - scientific: Sparisoma viride
@@ -47,5 +47,5 @@ species_suggestions:
 species:
 - scientific: Sparisoma viride
   role: primary
-  confidence: 0.9726
+  confidence: 0.9725
   identified_by: bioclip+bioclip-2+bioclip-2.5

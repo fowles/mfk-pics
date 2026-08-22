@@ -13,7 +13,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T18:40:50Z'
+    created: '2026-08-22T21:06:19Z'
     src_mtime: 1786156575.4028108
     top:
     - scientific: Elacatinus genie
@@ -24,31 +24,31 @@ species_suggestions:
       confidence: 0.0853
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T13:37:37Z'
+    created: '2026-08-22T21:08:04Z'
     src_mtime: 1786156575.4028108
     top:
     - scientific: Serranus tigrinus
-      confidence: 0.0409
+      confidence: 0.0401
     - scientific: Epinephelus striatus
-      confidence: 0.0373
+      confidence: 0.0365
     - scientific: Lachnolaimus maximus
-      confidence: 0.0348
+      confidence: 0.0341
     absorbed_by:
       scientific: Orbicella annularis
-      confidence: 0.0429
+      confidence: 0.0421
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T18:24:25Z'
+    created: '2026-08-22T21:10:58Z'
     src_mtime: 1786156575.4028108
     top:
     - scientific: Halichoeres garnoti
-      confidence: 0.3392
+      confidence: 0.3284
     - scientific: Urobatis jamaicensis
-      confidence: 0.1114
+      confidence: 0.1079
     - scientific: Lachnolaimus maximus
-      confidence: 0.0599
+      confidence: 0.058
 species:
 - scientific: Halichoeres garnoti
   role: primary
-  confidence: 0.1696
+  confidence: 0.1642
   identified_by: bioclip-2.5

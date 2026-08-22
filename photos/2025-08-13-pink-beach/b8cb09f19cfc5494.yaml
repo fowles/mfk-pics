@@ -13,7 +13,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T18:40:50Z'
+    created: '2026-08-22T21:06:19Z'
     src_mtime: 1786158186.7233298
     top:
     - scientific: Serranus tigrinus
@@ -24,18 +24,18 @@ species_suggestions:
       confidence: 0.023
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T13:37:37Z'
+    created: '2026-08-22T21:08:04Z'
     src_mtime: 1786158186.7233298
     top:
     - scientific: Diodon hystrix
-      confidence: 0.7585
+      confidence: 0.7582
     - scientific: Diodon holocanthus
-      confidence: 0.0465
+      confidence: 0.0464
     - scientific: Thalassoma bifasciatum
       confidence: 0.0317
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T18:24:25Z'
+    created: '2026-08-22T21:10:58Z'
     src_mtime: 1786158186.7233298
     top:
     - scientific: Diodon hystrix
@@ -47,5 +47,5 @@ species_suggestions:
 species:
 - scientific: Diodon hystrix
   role: primary
-  confidence: 0.8534
+  confidence: 0.8532
   identified_by: bioclip-2+bioclip-2.5

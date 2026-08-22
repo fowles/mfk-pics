@@ -13,7 +13,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T18:40:50Z'
+    created: '2026-08-22T21:06:19Z'
     src_mtime: 1786158186.9802802
     top:
     - scientific: Hypanus americanus
@@ -24,22 +24,22 @@ species_suggestions:
       confidence: 0.1264
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T13:37:37Z'
+    created: '2026-08-22T21:08:04Z'
     src_mtime: 1786158186.9802802
     top:
     - scientific: Mycteroperca tigris
-      confidence: 0.2567
+      confidence: 0.256
     - scientific: Epinephelus striatus
-      confidence: 0.1476
+      confidence: 0.1473
     - scientific: Lutjanus analis
-      confidence: 0.1344
+      confidence: 0.1341
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T18:24:25Z'
+    created: '2026-08-22T21:10:58Z'
     src_mtime: 1786158186.9802802
     top:
     - scientific: Mycteroperca tigris
-      confidence: 0.9303
+      confidence: 0.9302
     - scientific: Lutjanus analis
       confidence: 0.0363
     - scientific: Epinephelus striatus
@@ -47,5 +47,5 @@ species_suggestions:
 species:
 - scientific: Mycteroperca tigris
   role: primary
-  confidence: 0.5935
+  confidence: 0.5931
   identified_by: bioclip-2+bioclip-2.5

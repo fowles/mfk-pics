@@ -14,32 +14,32 @@ rotation_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T21:06:19Z'
     src_mtime: 1786158853.6924438
     top:
     - scientific: Acanthostracion polygonius
-      confidence: 0.361
+      confidence: 0.3609
     - scientific: Diodon holocanthus
       confidence: 0.3034
     - scientific: Enchelycore carychroa
       confidence: 0.0404
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T13:37:37Z'
+    created: '2026-08-22T21:08:04Z'
     src_mtime: 1786158853.6924438
     top:
     - scientific: Cephalopholis cruentata
-      confidence: 0.1012
+      confidence: 0.1011
     - scientific: Holacanthus tricolor
-      confidence: 0.086
+      confidence: 0.0859
     - scientific: Cephalopholis fulva
       confidence: 0.031
     absorbed_by:
       scientific: Orbicella annularis
-      confidence: 0.1957
+      confidence: 0.1955
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T18:24:25Z'
+    created: '2026-08-22T21:10:58Z'
     src_mtime: 1786158853.6924438
     top:
     - scientific: Halichoeres garnoti
@@ -50,7 +50,7 @@ species_suggestions:
       confidence: 0.0062
     absorbed_by:
       scientific: Montastraea cavernosa
-      confidence: 0.8093
+      confidence: 0.8092
 species:
 - scientific: Aulostomus maculatus
   role: primary

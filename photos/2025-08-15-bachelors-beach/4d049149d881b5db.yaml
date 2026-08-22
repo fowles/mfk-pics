@@ -14,7 +14,7 @@ rotation_applied: 270
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T18:40:50Z'
+    created: '2026-08-22T21:06:19Z'
     src_mtime: 1787178246.3121367
     top:
     - scientific: Echidna catenata
@@ -25,18 +25,18 @@ species_suggestions:
       confidence: 0.1491
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T13:37:37Z'
+    created: '2026-08-22T21:08:04Z'
     src_mtime: 1787178246.3121367
     top:
     - scientific: Ginglymostoma cirratum
-      confidence: 0.2427
+      confidence: 0.2421
     - scientific: Lachnolaimus maximus
-      confidence: 0.1513
+      confidence: 0.1509
     - scientific: Hypanus americanus
-      confidence: 0.0806
+      confidence: 0.0804
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T18:24:25Z'
+    created: '2026-08-22T21:10:58Z'
     src_mtime: 1787178246.3121367
     top:
     - scientific: Panulirus argus
@@ -48,5 +48,5 @@ species_suggestions:
 species:
 - scientific: Ginglymostoma cirratum
   role: primary
-  confidence: 0.1213
+  confidence: 0.1211
   identified_by: bioclip-2

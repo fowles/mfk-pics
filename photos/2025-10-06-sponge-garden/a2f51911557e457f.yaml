@@ -13,7 +13,7 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T18:40:50Z'
+    created: '2026-08-22T21:06:19Z'
     src_mtime: 1786159780.1804042
     top:
     - scientific: Lutjanus griseus
@@ -24,22 +24,22 @@ species_suggestions:
       confidence: 0.1322
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T13:37:37Z'
+    created: '2026-08-22T21:08:04Z'
     src_mtime: 1786159780.1804042
     top:
     - scientific: Caretta caretta
-      confidence: 0.4686
+      confidence: 0.4681
     - scientific: Eretmochelys imbricata
-      confidence: 0.0727
+      confidence: 0.0726
     - scientific: Chelonia mydas
       confidence: 0.0494
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T18:24:25Z'
+    created: '2026-08-22T21:10:58Z'
     src_mtime: 1786159780.1804042
     top:
     - scientific: Sphyrna mokarran
-      confidence: 0.5115
+      confidence: 0.5114
     - scientific: Tursiops truncatus
       confidence: 0.2638
     - scientific: Caretta caretta
@@ -47,5 +47,5 @@ species_suggestions:
 species:
 - scientific: Caretta caretta
   role: primary
-  confidence: 0.2612
+  confidence: 0.261
   identified_by: bioclip-2+bioclip-2.5

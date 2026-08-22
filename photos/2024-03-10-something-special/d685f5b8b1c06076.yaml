@@ -13,7 +13,7 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T18:40:50Z'
+    created: '2026-08-22T21:06:19Z'
     src_mtime: 1786159053.7773132
     top:
     - scientific: Haemulon chrysargyreum
@@ -24,28 +24,28 @@ species_suggestions:
       confidence: 0.1553
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T13:37:37Z'
+    created: '2026-08-22T21:08:04Z'
     src_mtime: 1786159053.7773132
     top:
     - scientific: Anisotremus surinamensis
-      confidence: 0.178
+      confidence: 0.1754
     - scientific: Haemulon chrysargyreum
-      confidence: 0.1096
+      confidence: 0.108
     - scientific: Chromis cyanea
-      confidence: 0.0756
+      confidence: 0.0745
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T18:24:25Z'
+    created: '2026-08-22T21:10:58Z'
     src_mtime: 1786159053.7773132
     top:
     - scientific: Lutjanus mahogoni
-      confidence: 0.7582
+      confidence: 0.7411
     - scientific: Haemulon carbonarium
-      confidence: 0.1662
+      confidence: 0.1624
     - scientific: Anisotremus surinamensis
-      confidence: 0.0497
+      confidence: 0.0486
 species:
 - scientific: Lutjanus mahogoni
   role: primary
-  confidence: 0.3791
+  confidence: 0.3705
   identified_by: bioclip-2.5

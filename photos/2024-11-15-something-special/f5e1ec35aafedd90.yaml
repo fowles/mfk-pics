@@ -16,7 +16,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T21:06:19Z'
     src_mtime: 1786157213.7871113
     top:
     - scientific: Diodon holocanthus
@@ -27,18 +27,18 @@ species_suggestions:
       confidence: 0.025
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T13:37:37Z'
+    created: '2026-08-22T21:08:04Z'
     src_mtime: 1786157213.7871113
     top:
     - scientific: Prognathodes aculeatus
-      confidence: 0.1186
+      confidence: 0.1184
     - scientific: Heteropriacanthus cruentatus
-      confidence: 0.0741
+      confidence: 0.074
     - scientific: Chaetodon sedentarius
-      confidence: 0.0596
+      confidence: 0.0595
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T18:24:25Z'
+    created: '2026-08-22T21:10:58Z'
     src_mtime: 1786157213.7871113
     top:
     - scientific: Prognathodes aculeatus

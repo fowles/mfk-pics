@@ -16,7 +16,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T18:40:50Z'
+    created: '2026-08-22T21:06:19Z'
     src_mtime: 1786158743.30033
     top:
     - scientific: Pareques acuminatus
@@ -30,29 +30,29 @@ species_suggestions:
       confidence: 0.602
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T13:37:37Z'
+    created: '2026-08-22T21:08:04Z'
     src_mtime: 1786158743.30033
     top:
     - scientific: Aulostomus maculatus
-      confidence: 0.0764
+      confidence: 0.0763
     - scientific: Monacanthus tuckeri
       confidence: 0.0477
     - scientific: Cyphoma gibbosum
-      confidence: 0.042
+      confidence: 0.0419
     absorbed_by:
       scientific: Briareum asbestinum
-      confidence: 0.1868
+      confidence: 0.1867
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T18:24:25Z'
+    created: '2026-08-22T21:10:58Z'
     src_mtime: 1786158743.30033
     top:
     - scientific: Monacanthus tuckeri
-      confidence: 0.2877
+      confidence: 0.2876
     - scientific: Hypoplectrus puella
       confidence: 0.0563
     - scientific: Aulostomus maculatus
       confidence: 0.0334
     absorbed_by:
       scientific: Antillogorgia americana
-      confidence: 0.4167
+      confidence: 0.4166

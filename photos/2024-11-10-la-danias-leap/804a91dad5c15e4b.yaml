@@ -13,7 +13,7 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T18:40:50Z'
+    created: '2026-08-22T21:06:19Z'
     src_mtime: 1786156689.4543605
     top:
     - scientific: Holocentrus adscensionis
@@ -24,18 +24,18 @@ species_suggestions:
       confidence: 0.009
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T13:37:37Z'
+    created: '2026-08-22T21:08:04Z'
     src_mtime: 1786156689.4543605
     top:
     - scientific: Canthidermis sufflamen
-      confidence: 0.2779
+      confidence: 0.2772
     - scientific: Diodon hystrix
-      confidence: 0.2565
+      confidence: 0.2558
     - scientific: Diodon holocanthus
-      confidence: 0.1086
+      confidence: 0.1083
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T18:24:25Z'
+    created: '2026-08-22T21:10:58Z'
     src_mtime: 1786156689.4543605
     top:
     - scientific: Diodon hystrix
@@ -47,5 +47,5 @@ species_suggestions:
 species:
 - scientific: Diodon hystrix
   role: primary
-  confidence: 0.6281
+  confidence: 0.6278
   identified_by: bioclip-2+bioclip-2.5

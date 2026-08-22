@@ -13,39 +13,39 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T18:40:50Z'
+    created: '2026-08-22T21:06:19Z'
     src_mtime: 1786159369.7659087
     top:
     - scientific: Lutjanus griseus
-      confidence: 0.6363
+      confidence: 0.6362
     - scientific: Pareques acuminatus
-      confidence: 0.1559
+      confidence: 0.1558
     - scientific: Mycteroperca venenosa
       confidence: 0.0475
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T13:37:37Z'
+    created: '2026-08-22T21:08:04Z'
     src_mtime: 1786159369.7659087
     top:
     - scientific: Lutjanus mahogoni
-      confidence: 0.4143
+      confidence: 0.4136
     - scientific: Mycteroperca bonaci
-      confidence: 0.2103
+      confidence: 0.21
     - scientific: Lutjanus analis
-      confidence: 0.1107
+      confidence: 0.1105
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T18:24:25Z'
+    created: '2026-08-22T21:10:58Z'
     src_mtime: 1786159369.7659087
     top:
     - scientific: Kyphosus sectatrix
-      confidence: 0.7084
+      confidence: 0.7075
     - scientific: Anisotremus surinamensis
-      confidence: 0.1416
+      confidence: 0.1415
     - scientific: Lutjanus jocu
       confidence: 0.0421
 species:
 - scientific: Kyphosus sectatrix
   role: primary
-  confidence: 0.3542
+  confidence: 0.3538
   identified_by: bioclip-2.5

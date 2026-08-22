@@ -14,29 +14,29 @@ rotation_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T18:40:50Z'
+    created: '2026-08-22T21:06:19Z'
     src_mtime: 1786156808.6662133
     top:
     - scientific: Trachinotus goodei
-      confidence: 0.7004
+      confidence: 0.6995
     - scientific: Pareques acuminatus
-      confidence: 0.1253
+      confidence: 0.1252
     - scientific: Abudefduf saxatilis
-      confidence: 0.0983
+      confidence: 0.0982
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T13:37:37Z'
+    created: '2026-08-22T21:08:04Z'
     src_mtime: 1786156808.6662133
     top:
     - scientific: Abudefduf saxatilis
-      confidence: 0.9711
+      confidence: 0.971
     - scientific: Chaetodipterus faber
       confidence: 0.0088
     - scientific: Chaetodon striatus
       confidence: 0.0063
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T18:24:25Z'
+    created: '2026-08-22T21:10:58Z'
     src_mtime: 1786156808.6662133
     top:
     - scientific: Abudefduf saxatilis

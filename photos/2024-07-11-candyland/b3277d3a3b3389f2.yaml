@@ -16,7 +16,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T18:40:50Z'
+    created: '2026-08-22T21:06:19Z'
     src_mtime: 1786159294.4279697
     top:
     - scientific: Acanthostracion polygonius
@@ -27,21 +27,21 @@ species_suggestions:
       confidence: 0.0321
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T13:37:37Z'
+    created: '2026-08-22T21:08:04Z'
     src_mtime: 1786159294.4279697
     top:
     - scientific: Eretmochelys imbricata
-      confidence: 0.0467
+      confidence: 0.0466
     - scientific: Gymnothorax funebris
       confidence: 0.0354
     - scientific: Sepioteuthis sepioidea
-      confidence: 0.0276
+      confidence: 0.0275
     absorbed_by:
       scientific: Xestospongia muta
       confidence: 0.0571
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T18:24:25Z'
+    created: '2026-08-22T21:10:58Z'
     src_mtime: 1786159294.4279697
     top:
     - scientific: Pomacanthus arcuatus

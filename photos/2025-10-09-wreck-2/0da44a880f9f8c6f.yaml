@@ -14,39 +14,39 @@ rotation_applied: 180
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T18:40:50Z'
+    created: '2026-08-22T21:06:19Z'
     src_mtime: 1786847362.93747
     top:
     - scientific: Panulirus argus
       confidence: 0.2205
     - scientific: Chaetodon capistratus
-      confidence: 0.1361
+      confidence: 0.136
     - scientific: Gerres cinereus
       confidence: 0.1043
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T13:37:37Z'
+    created: '2026-08-22T21:08:04Z'
     src_mtime: 1786847362.93747
     top:
     - scientific: Lutjanus apodus
-      confidence: 0.4463
+      confidence: 0.4411
     - scientific: Haemulon sciurus
-      confidence: 0.1354
+      confidence: 0.1338
     - scientific: Lutjanus griseus
-      confidence: 0.0448
+      confidence: 0.0443
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T18:24:25Z'
+    created: '2026-08-22T21:10:58Z'
     src_mtime: 1786847362.93747
     top:
     - scientific: Haemulon chrysargyreum
-      confidence: 0.4255
+      confidence: 0.4254
     - scientific: Haemulon macrostomum
-      confidence: 0.1602
+      confidence: 0.1601
     - scientific: Haemulon sciurus
       confidence: 0.1242
 species:
 - scientific: Lutjanus apodus
-  role: secondary
-  confidence: 0.2231
+  role: primary
+  confidence: 0.2205
   identified_by: bioclip-2

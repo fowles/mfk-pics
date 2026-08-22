@@ -12,7 +12,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T18:40:50Z'
+    created: '2026-08-22T21:06:19Z'
     src_mtime: 1786159803.6837852
     top:
     - scientific: Sepioteuthis sepioidea
@@ -23,28 +23,28 @@ species_suggestions:
       confidence: 0.0217
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T13:37:37Z'
+    created: '2026-08-22T21:08:04Z'
     src_mtime: 1786159803.6837852
     top:
     - scientific: Sepioteuthis sepioidea
-      confidence: 0.1159
+      confidence: 0.1145
     - scientific: Opistognathus aurifrons
-      confidence: 0.0379
+      confidence: 0.0375
     - scientific: Echeneis naucrates
-      confidence: 0.0329
+      confidence: 0.0325
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T18:24:25Z'
+    created: '2026-08-22T21:10:58Z'
     src_mtime: 1786159803.6837852
     top:
     - scientific: Xyrichtys martinicensis
       confidence: 0.212
     - scientific: Canthidermis sufflamen
-      confidence: 0.1052
+      confidence: 0.1051
     - scientific: Sepioteuthis sepioidea
       confidence: 0.1014
 species:
 - scientific: Sepioteuthis sepioidea
   role: primary
-  confidence: 0.1086
+  confidence: 0.108
   identified_by: bioclip+bioclip-2+bioclip-2.5

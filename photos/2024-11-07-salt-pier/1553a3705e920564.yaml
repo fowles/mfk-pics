@@ -16,7 +16,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T18:40:50Z'
+    created: '2026-08-22T21:06:19Z'
     src_mtime: 1786156378.575831
     top:
     - scientific: Heteroconger longissimus
@@ -27,28 +27,28 @@ species_suggestions:
       confidence: 0.0723
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T13:37:37Z'
+    created: '2026-08-22T21:08:04Z'
     src_mtime: 1786156378.575831
     top:
     - scientific: Halichoeres garnoti
-      confidence: 0.058
+      confidence: 0.0577
     - scientific: Holacanthus tricolor
-      confidence: 0.0514
+      confidence: 0.0511
     - scientific: Serranus tigrinus
-      confidence: 0.0371
+      confidence: 0.0369
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T18:24:25Z'
+    created: '2026-08-22T21:10:58Z'
     src_mtime: 1786156378.575831
     top:
     - scientific: Urobatis jamaicensis
-      confidence: 0.2208
+      confidence: 0.2205
     - scientific: Mycteroperca bonaci
-      confidence: 0.2041
+      confidence: 0.2037
     - scientific: Lachnolaimus maximus
-      confidence: 0.125
+      confidence: 0.1248
 species:
 - scientific: Urobatis jamaicensis
   role: primary
-  confidence: 0.1104
+  confidence: 0.1103
   identified_by: bioclip-2.5

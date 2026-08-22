@@ -13,7 +13,7 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T18:40:50Z'
+    created: '2026-08-22T21:06:19Z'
     src_mtime: 1786159557.2594488
     top:
     - scientific: Hypoplectrus indigo
@@ -24,18 +24,18 @@ species_suggestions:
       confidence: 0.0167
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T13:37:37Z'
+    created: '2026-08-22T21:08:04Z'
     src_mtime: 1786159557.2594488
     top:
     - scientific: Abudefduf saxatilis
-      confidence: 0.7581
+      confidence: 0.7579
     - scientific: Chromis cyanea
-      confidence: 0.1094
+      confidence: 0.1093
     - scientific: Thalassoma bifasciatum
       confidence: 0.025
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T18:24:25Z'
+    created: '2026-08-22T21:10:58Z'
     src_mtime: 1786159557.2594488
     top:
     - scientific: Abudefduf saxatilis
@@ -47,5 +47,5 @@ species_suggestions:
 species:
 - scientific: Abudefduf saxatilis
   role: primary
-  confidence: 0.8746
+  confidence: 0.8745
   identified_by: bioclip-2+bioclip-2.5

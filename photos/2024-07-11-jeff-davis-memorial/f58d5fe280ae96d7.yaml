@@ -16,29 +16,29 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T18:40:50Z'
+    created: '2026-08-22T21:06:19Z'
     src_mtime: 1786159606.3513925
     top:
     - scientific: Malacanthus plumieri
-      confidence: 0.4866
+      confidence: 0.4865
     - scientific: Aulostomus maculatus
       confidence: 0.1318
     - scientific: Haemulon sciurus
       confidence: 0.0649
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T13:37:37Z'
+    created: '2026-08-22T21:08:04Z'
     src_mtime: 1786159606.3513925
     top:
     - scientific: Scarus vetula
-      confidence: 0.709
+      confidence: 0.7075
     - scientific: Halichoeres garnoti
-      confidence: 0.1057
+      confidence: 0.1055
     - scientific: Scarus iseri
-      confidence: 0.0358
+      confidence: 0.0357
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T18:24:25Z'
+    created: '2026-08-22T21:10:58Z'
     src_mtime: 1786159606.3513925
     top:
     - scientific: Scarus vetula
@@ -50,5 +50,5 @@ species_suggestions:
 species:
 - scientific: Scarus vetula
   role: primary
-  confidence: 0.7693
+  confidence: 0.7686
   identified_by: bioclip-2+bioclip-2.5

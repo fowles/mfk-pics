@@ -13,7 +13,7 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T18:40:50Z'
+    created: '2026-08-22T21:06:19Z'
     src_mtime: 1786157486.094354
     top:
     - scientific: Abudefduf saxatilis
@@ -24,28 +24,28 @@ species_suggestions:
       confidence: 0.0075
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T13:37:37Z'
+    created: '2026-08-22T21:08:04Z'
     src_mtime: 1786157486.094354
     top:
     - scientific: Abudefduf saxatilis
-      confidence: 0.4478
+      confidence: 0.4161
     - scientific: Epinephelus striatus
-      confidence: 0.2456
-    - scientific: Chaetodipterus faber
-      confidence: 0.064
+      confidence: 0.2283
+    - scientific: Haemulon album
+      confidence: 0.0705
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T18:24:25Z'
+    created: '2026-08-22T21:10:58Z'
     src_mtime: 1786157486.094354
     top:
     - scientific: Chaetodipterus faber
-      confidence: 0.4241
+      confidence: 0.4236
     - scientific: Abudefduf saxatilis
-      confidence: 0.3278
+      confidence: 0.3275
     - scientific: Calamus calamus
-      confidence: 0.2338
+      confidence: 0.2336
 species:
 - scientific: Abudefduf saxatilis
   role: primary
-  confidence: 0.3878
+  confidence: 0.3718
   identified_by: bioclip+bioclip-2+bioclip-2.5

@@ -13,33 +13,33 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T18:40:50Z'
+    created: '2026-08-22T21:06:19Z'
     src_mtime: 1786159780.72008
     top:
     - scientific: Sphyraena barracuda
       confidence: 0.3893
     - scientific: Megalops atlanticus
-      confidence: 0.3294
+      confidence: 0.3293
     - scientific: Lutjanus mahogoni
       confidence: 0.055
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T13:37:37Z'
+    created: '2026-08-22T21:08:04Z'
     src_mtime: 1786159780.72008
     top:
     - scientific: Caranx latus
-      confidence: 0.2269
+      confidence: 0.2268
     - scientific: Caranx crysos
-      confidence: 0.2052
+      confidence: 0.2051
     - scientific: Caranx ruber
-      confidence: 0.201
+      confidence: 0.2009
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T18:24:25Z'
+    created: '2026-08-22T21:10:58Z'
     src_mtime: 1786159780.72008
     top:
     - scientific: Kyphosus sectatrix
-      confidence: 0.7474
+      confidence: 0.7473
     - scientific: Melichthys niger
       confidence: 0.2221
     - scientific: Canthidermis sufflamen
@@ -47,5 +47,5 @@ species_suggestions:
 species:
 - scientific: Kyphosus sectatrix
   role: primary
-  confidence: 0.3737
+  confidence: 0.3736
   identified_by: bioclip-2.5

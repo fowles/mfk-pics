@@ -13,7 +13,7 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T18:40:50Z'
+    created: '2026-08-22T21:06:19Z'
     src_mtime: 1786156974.596961
     top:
     - scientific: Chromis multilineata
@@ -24,22 +24,22 @@ species_suggestions:
       confidence: 0.058
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T13:37:37Z'
+    created: '2026-08-22T21:08:04Z'
     src_mtime: 1786156974.596961
     top:
     - scientific: Trachinotus goodei
-      confidence: 0.9423
+      confidence: 0.942
     - scientific: Trachinotus falcatus
-      confidence: 0.0336
+      confidence: 0.0335
     - scientific: Chromis cyanea
       confidence: 0.0167
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T18:24:25Z'
+    created: '2026-08-22T21:10:58Z'
     src_mtime: 1786156974.596961
     top:
     - scientific: Trachinotus goodei
-      confidence: 0.7795
+      confidence: 0.7794
     - scientific: Caranx ruber
       confidence: 0.0685
     - scientific: Trachinotus falcatus
@@ -47,5 +47,5 @@ species_suggestions:
 species:
 - scientific: Trachinotus goodei
   role: primary
-  confidence: 0.8609
+  confidence: 0.8607
   identified_by: bioclip+bioclip-2+bioclip-2.5

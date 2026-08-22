@@ -13,7 +13,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T18:40:50Z'
+    created: '2026-08-22T21:06:19Z'
     src_mtime: 1786158732.9226286
     top:
     - scientific: Equetus punctatus
@@ -24,22 +24,22 @@ species_suggestions:
       confidence: 0.115
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T13:37:37Z'
+    created: '2026-08-22T21:08:04Z'
     src_mtime: 1786158732.9226286
     top:
     - scientific: Equetus punctatus
-      confidence: 0.5757
+      confidence: 0.5755
     - scientific: Pomacanthus arcuatus
       confidence: 0.1337
     - scientific: Ophioblennius macclurei
       confidence: 0.0443
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T18:24:25Z'
+    created: '2026-08-22T21:10:58Z'
     src_mtime: 1786158732.9226286
     top:
     - scientific: Elacatinus evelynae
-      confidence: 0.465
+      confidence: 0.4649
     - scientific: Equetus punctatus
       confidence: 0.3795
     - scientific: Elacatinus genie
@@ -47,5 +47,5 @@ species_suggestions:
 species:
 - scientific: Equetus punctatus
   role: primary
-  confidence: 0.4776
+  confidence: 0.4775
   identified_by: bioclip+bioclip-2+bioclip-2.5

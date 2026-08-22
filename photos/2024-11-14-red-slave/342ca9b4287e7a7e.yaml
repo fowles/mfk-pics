@@ -16,7 +16,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T18:40:50Z'
+    created: '2026-08-22T21:06:19Z'
     src_mtime: 1786156982.3596566
     top:
     - scientific: Heteroconger longissimus
@@ -27,18 +27,18 @@ species_suggestions:
       confidence: 0.0
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T13:37:37Z'
+    created: '2026-08-22T21:08:04Z'
     src_mtime: 1786156982.3596566
     top:
     - scientific: Heteroconger longissimus
-      confidence: 0.8764
+      confidence: 0.8747
     - scientific: Trachinotus goodei
-      confidence: 0.0482
+      confidence: 0.0481
     - scientific: Caranx ruber
       confidence: 0.0187
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T18:24:25Z'
+    created: '2026-08-22T21:10:58Z'
     src_mtime: 1786156982.3596566
     top:
     - scientific: Heteroconger longissimus
@@ -50,5 +50,5 @@ species_suggestions:
 species:
 - scientific: Heteroconger longissimus
   role: primary
-  confidence: 0.9351
+  confidence: 0.9343
   identified_by: bioclip+bioclip-2+bioclip-2.5

@@ -16,7 +16,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T18:40:50Z'
+    created: '2026-08-22T21:06:19Z'
     src_mtime: 1786160171.0988255
     top:
     - scientific: Hypoplectrus unicolor
@@ -30,28 +30,28 @@ species_suggestions:
       confidence: 0.6684
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T13:37:37Z'
+    created: '2026-08-22T21:08:04Z'
     src_mtime: 1786160171.0988255
     top:
     - scientific: Aulostomus maculatus
-      confidence: 0.3085
+      confidence: 0.3084
     - scientific: Cyphoma gibbosum
       confidence: 0.0241
     - scientific: Monacanthus tuckeri
       confidence: 0.021
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T18:24:25Z'
+    created: '2026-08-22T21:10:58Z'
     src_mtime: 1786160171.0988255
     top:
     - scientific: Monacanthus tuckeri
-      confidence: 0.5778
+      confidence: 0.5775
     - scientific: Aulostomus maculatus
-      confidence: 0.2423
+      confidence: 0.2421
     - scientific: Equetus punctatus
       confidence: 0.017
 species:
 - scientific: Monacanthus tuckeri
   role: primary
-  confidence: 0.2994
+  confidence: 0.2993
   identified_by: bioclip-2+bioclip-2.5

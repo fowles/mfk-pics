@@ -13,29 +13,29 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
-    src_mtime: 1786071953.73031
+    created: '2026-08-22T21:06:19Z'
+    src_mtime: 1787412102.933405
     top:
     - scientific: Stenopus hispidus
-      confidence: 0.978
-    - scientific: Equetus punctatus
-      confidence: 0.0182
+      confidence: 0.9972
     - scientific: Ancylomenes pedersoni
-      confidence: 0.0017
+      confidence: 0.0013
+    - scientific: Lysmata grabhami
+      confidence: 0.0011
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T13:37:37Z'
-    src_mtime: 1786071953.73031
+    created: '2026-08-22T21:08:04Z'
+    src_mtime: 1787412102.933405
     top:
     - scientific: Stenopus hispidus
-      confidence: 0.9113
+      confidence: 0.9866
     - scientific: Lysmata grabhami
-      confidence: 0.0767
+      confidence: 0.0115
     - scientific: Periclimenes yucatanicus
-      confidence: 0.0073
+      confidence: 0.0006
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T18:24:25Z'
+    created: '2026-08-22T21:10:58Z'
     src_mtime: 1787412102.933405
     top:
     - scientific: Stenopus hispidus

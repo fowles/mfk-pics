@@ -13,29 +13,29 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T18:40:50Z'
+    created: '2026-08-22T21:06:19Z'
     src_mtime: 1786156976.0267334
     top:
     - scientific: Calamus calamus
-      confidence: 0.4837
+      confidence: 0.4836
     - scientific: Caranx ruber
       confidence: 0.4069
     - scientific: Gerres cinereus
       confidence: 0.0669
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T13:37:37Z'
+    created: '2026-08-22T21:08:04Z'
     src_mtime: 1786156976.0267334
     top:
     - scientific: Gerres cinereus
-      confidence: 0.9222
+      confidence: 0.9221
     - scientific: Calamus calamus
       confidence: 0.0592
     - scientific: Trachinotus goodei
       confidence: 0.0028
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T18:24:25Z'
+    created: '2026-08-22T21:10:58Z'
     src_mtime: 1786156976.0267334
     top:
     - scientific: Gerres cinereus
@@ -47,5 +47,5 @@ species_suggestions:
 species:
 - scientific: Gerres cinereus
   role: primary
-  confidence: 0.9611
+  confidence: 0.961
   identified_by: bioclip+bioclip-2+bioclip-2.5

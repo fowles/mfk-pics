@@ -16,7 +16,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T18:40:50Z'
+    created: '2026-08-22T21:06:19Z'
     src_mtime: 1786156745.7558937
     top:
     - scientific: Hypoplectrus indigo
@@ -30,28 +30,28 @@ species_suggestions:
       confidence: 0.9937
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T13:37:37Z'
+    created: '2026-08-22T21:08:04Z'
     src_mtime: 1786156745.7558937
     top:
     - scientific: Lachnolaimus maximus
-      confidence: 0.662
+      confidence: 0.6597
     - scientific: Calamus calamus
-      confidence: 0.0463
+      confidence: 0.0461
     - scientific: Balistes vetula
-      confidence: 0.038
+      confidence: 0.0379
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T18:24:25Z'
+    created: '2026-08-22T21:10:58Z'
     src_mtime: 1786156745.7558937
     top:
     - scientific: Lachnolaimus maximus
       confidence: 0.7086
     - scientific: Pomacanthus arcuatus
-      confidence: 0.1692
+      confidence: 0.1691
     - scientific: Diodon hystrix
       confidence: 0.0364
 species:
 - scientific: Lachnolaimus maximus
   role: primary
-  confidence: 0.6853
+  confidence: 0.6842
   identified_by: bioclip-2+bioclip-2.5

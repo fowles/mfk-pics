@@ -13,18 +13,18 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T18:40:50Z'
+    created: '2026-08-22T21:06:19Z'
     src_mtime: 1786158492.9902349
     top:
     - scientific: Aulostomus maculatus
-      confidence: 0.7178
+      confidence: 0.7176
     - scientific: Sepioteuthis sepioidea
-      confidence: 0.0342
+      confidence: 0.0341
     - scientific: Aetobatus narinari
       confidence: 0.0329
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T13:37:37Z'
+    created: '2026-08-22T21:08:04Z'
     src_mtime: 1786158492.9902349
     top:
     - scientific: Fistularia tabacaria
@@ -32,10 +32,10 @@ species_suggestions:
     - scientific: Aluterus scriptus
       confidence: 0.173
     - scientific: Panulirus argus
-      confidence: 0.0429
+      confidence: 0.0428
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T18:24:25Z'
+    created: '2026-08-22T21:10:58Z'
     src_mtime: 1786158492.9902349
     top:
     - scientific: Davidaster rubiginosus

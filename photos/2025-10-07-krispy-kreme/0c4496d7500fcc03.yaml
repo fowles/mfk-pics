@@ -12,29 +12,29 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T18:40:50Z'
+    created: '2026-08-22T21:06:19Z'
     src_mtime: 1786159796.467255
     top:
     - scientific: Caranx latus
-      confidence: 0.9967
+      confidence: 0.9966
     - scientific: Caranx ruber
       confidence: 0.0016
     - scientific: Selar crumenophthalmus
       confidence: 0.0003
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T13:37:37Z'
+    created: '2026-08-22T21:08:04Z'
     src_mtime: 1786159796.467255
     top:
     - scientific: Caranx latus
-      confidence: 0.8097
+      confidence: 0.8036
     - scientific: Calamus calamus
-      confidence: 0.0647
+      confidence: 0.0642
     - scientific: Caranx ruber
-      confidence: 0.0415
+      confidence: 0.0412
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T18:24:25Z'
+    created: '2026-08-22T21:10:58Z'
     src_mtime: 1786159796.467255
     top:
     - scientific: Caranx latus
@@ -46,5 +46,5 @@ species_suggestions:
 species:
 - scientific: Caranx latus
   role: primary
-  confidence: 0.9045
+  confidence: 0.9014
   identified_by: bioclip+bioclip-2+bioclip-2.5

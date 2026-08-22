@@ -13,33 +13,33 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T18:40:50Z'
+    created: '2026-08-22T21:06:19Z'
     src_mtime: 1786159270.2340734
     top:
     - scientific: Haemulon chrysargyreum
-      confidence: 0.3964
+      confidence: 0.3962
     - scientific: Chromis multilineata
-      confidence: 0.2407
+      confidence: 0.2405
     - scientific: Haemulon carbonarium
-      confidence: 0.15
+      confidence: 0.1499
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T13:37:37Z'
+    created: '2026-08-22T21:08:04Z'
     src_mtime: 1786159270.2340734
     top:
     - scientific: Chromis multilineata
-      confidence: 0.6671
+      confidence: 0.6655
     - scientific: Chromis cyanea
-      confidence: 0.0958
+      confidence: 0.0956
     - scientific: Lutjanus mahogoni
       confidence: 0.019
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T18:24:25Z'
+    created: '2026-08-22T21:10:58Z'
     src_mtime: 1786159270.2340734
     top:
     - scientific: Chromis multilineata
-      confidence: 0.907
+      confidence: 0.9069
     - scientific: Ocyurus chrysurus
       confidence: 0.0365
     - scientific: Neoniphon marianus
@@ -47,5 +47,5 @@ species_suggestions:
 species:
 - scientific: Chromis multilineata
   role: primary
-  confidence: 0.7871
+  confidence: 0.7862
   identified_by: bioclip+bioclip-2+bioclip-2.5

@@ -13,29 +13,29 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T14:59:00Z'
-    src_mtime: 1786159178.565314
+    created: '2026-08-22T21:06:19Z'
+    src_mtime: 1787412064.4928882
     top:
     - scientific: Stenopus hispidus
-      confidence: 0.9555
+      confidence: 0.6248
     - scientific: Lysmata grabhami
-      confidence: 0.0245
+      confidence: 0.3593
     - scientific: Stenorhynchus seticornis
-      confidence: 0.0178
+      confidence: 0.0135
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T13:37:37Z'
-    src_mtime: 1786159178.565314
+    created: '2026-08-22T21:08:04Z'
+    src_mtime: 1787412064.4928882
     top:
     - scientific: Stenopus hispidus
-      confidence: 0.9542
-    - scientific: Lysmata grabhami
-      confidence: 0.0187
+      confidence: 0.9478
     - scientific: Periclimenes yucatanicus
-      confidence: 0.0167
+      confidence: 0.0385
+    - scientific: Lysmata grabhami
+      confidence: 0.0077
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T18:24:25Z'
+    created: '2026-08-22T21:10:58Z'
     src_mtime: 1787412064.4928882
     top:
     - scientific: Stenopus hispidus

@@ -13,29 +13,29 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T18:40:50Z'
+    created: '2026-08-22T21:06:19Z'
     src_mtime: 1786158185.8054376
     top:
     - scientific: Sphyraena barracuda
-      confidence: 0.5868
+      confidence: 0.5865
     - scientific: Haemulon macrostomum
-      confidence: 0.1924
+      confidence: 0.1923
     - scientific: Aulostomus maculatus
-      confidence: 0.1407
+      confidence: 0.1406
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T13:37:37Z'
+    created: '2026-08-22T21:08:04Z'
     src_mtime: 1786158185.8054376
     top:
     - scientific: Carcharhinus perezi
-      confidence: 0.2877
+      confidence: 0.2875
     - scientific: Megalops atlanticus
-      confidence: 0.2057
+      confidence: 0.2056
     - scientific: Sphyraena barracuda
-      confidence: 0.1656
+      confidence: 0.1655
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T18:24:25Z'
+    created: '2026-08-22T21:10:58Z'
     src_mtime: 1786158185.8054376
     top:
     - scientific: Aetobatus narinari

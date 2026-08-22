@@ -16,7 +16,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T18:40:50Z'
+    created: '2026-08-22T21:06:19Z'
     src_mtime: 1786156743.3233225
     top:
     - scientific: Aulostomus maculatus
@@ -27,28 +27,28 @@ species_suggestions:
       confidence: 0.0205
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T13:37:37Z'
+    created: '2026-08-22T21:08:04Z'
     src_mtime: 1786156743.3233225
     top:
     - scientific: Lachnolaimus maximus
-      confidence: 0.2001
+      confidence: 0.1984
     - scientific: Lutjanus mahogoni
-      confidence: 0.1177
+      confidence: 0.1167
     - scientific: Lutjanus jocu
-      confidence: 0.1132
+      confidence: 0.1123
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T18:24:25Z'
+    created: '2026-08-22T21:10:58Z'
     src_mtime: 1786156743.3233225
     top:
     - scientific: Lutjanus jocu
-      confidence: 0.2951
+      confidence: 0.2947
     - scientific: Lachnolaimus maximus
-      confidence: 0.2862
+      confidence: 0.2859
     - scientific: Lutjanus analis
-      confidence: 0.2162
+      confidence: 0.216
 species:
 - scientific: Lachnolaimus maximus
   role: primary
-  confidence: 0.2432
+  confidence: 0.2421
   identified_by: bioclip-2+bioclip-2.5

@@ -9,7 +9,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T18:40:50Z'
+    created: '2026-08-22T21:06:19Z'
     src_mtime: 1786156575.2147415
     top:
     - scientific: Homo sapiens
@@ -20,28 +20,28 @@ species_suggestions:
       confidence: 0.0307
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T13:37:37Z'
+    created: '2026-08-22T21:08:04Z'
     src_mtime: 1786156575.2147415
     top:
     - scientific: Echeneis naucrates
-      confidence: 0.1554
+      confidence: 0.155
     - scientific: Gerres cinereus
-      confidence: 0.1362
+      confidence: 0.1359
     - scientific: Chelonia mydas
-      confidence: 0.0757
+      confidence: 0.0755
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T18:24:25Z'
+    created: '2026-08-22T21:10:58Z'
     src_mtime: 1786156575.2147415
     top:
     - scientific: Sphyrna mokarran
-      confidence: 0.48
+      confidence: 0.4799
     - scientific: Myrichthys ocellatus
       confidence: 0.1233
     - scientific: Panulirus guttatus
-      confidence: 0.0822
+      confidence: 0.0821
 species:
 - scientific: Sphyrna mokarran
   role: primary
-  confidence: 0.24
+  confidence: 0.2399
   identified_by: bioclip-2.5

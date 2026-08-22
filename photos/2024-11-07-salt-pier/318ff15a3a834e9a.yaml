@@ -13,7 +13,7 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T18:40:50Z'
+    created: '2026-08-22T21:06:19Z'
     src_mtime: 1786156324.3766143
     top:
     - scientific: Sepioteuthis sepioidea
@@ -24,18 +24,18 @@ species_suggestions:
       confidence: 0.0321
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T13:37:37Z'
+    created: '2026-08-22T21:08:04Z'
     src_mtime: 1786156324.3766143
     top:
     - scientific: Gymnothorax moringa
-      confidence: 0.5479
+      confidence: 0.5474
     - scientific: Cephalopholis cruentata
       confidence: 0.078
     - scientific: Gymnothorax funebris
       confidence: 0.0624
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T18:24:25Z'
+    created: '2026-08-22T21:10:58Z'
     src_mtime: 1786156324.3766143
     top:
     - scientific: Gymnothorax moringa
@@ -47,5 +47,5 @@ species_suggestions:
 species:
 - scientific: Gymnothorax moringa
   role: primary
-  confidence: 0.7667
+  confidence: 0.7664
   identified_by: bioclip+bioclip-2+bioclip-2.5

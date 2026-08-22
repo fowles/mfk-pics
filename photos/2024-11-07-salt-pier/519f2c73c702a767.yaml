@@ -13,7 +13,7 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T18:40:50Z'
+    created: '2026-08-22T21:06:19Z'
     src_mtime: 1786156312.4312544
     top:
     - scientific: Kyphosus sectatrix
@@ -24,18 +24,18 @@ species_suggestions:
       confidence: 0.098
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T13:37:37Z'
+    created: '2026-08-22T21:08:04Z'
     src_mtime: 1786156312.4312544
     top:
     - scientific: Scarus coelestinus
-      confidence: 0.1848
+      confidence: 0.1845
     - scientific: Pomacanthus arcuatus
-      confidence: 0.1839
+      confidence: 0.1837
     - scientific: Chaetodipterus faber
-      confidence: 0.1638
+      confidence: 0.1635
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T18:24:25Z'
+    created: '2026-08-22T21:10:58Z'
     src_mtime: 1786156312.4312544
     top:
     - scientific: Pomacanthus arcuatus
@@ -47,5 +47,5 @@ species_suggestions:
 species:
 - scientific: Pomacanthus arcuatus
   role: primary
-  confidence: 0.5667
+  confidence: 0.5666
   identified_by: bioclip-2+bioclip-2.5

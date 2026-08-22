@@ -13,39 +13,39 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T18:40:50Z'
+    created: '2026-08-22T21:06:19Z'
     src_mtime: 1786156576.522784
     top:
     - scientific: Haemulon carbonarium
-      confidence: 0.5031
+      confidence: 0.5026
     - scientific: Kyphosus sectatrix
-      confidence: 0.1907
+      confidence: 0.1905
     - scientific: Lutjanus apodus
-      confidence: 0.0939
+      confidence: 0.0938
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T13:37:37Z'
+    created: '2026-08-22T21:08:04Z'
     src_mtime: 1786156576.522784
     top:
     - scientific: Lutjanus mahogoni
-      confidence: 0.4449
+      confidence: 0.4331
     - scientific: Haemulon aurolineatum
-      confidence: 0.3099
+      confidence: 0.3017
     - scientific: Ocyurus chrysurus
-      confidence: 0.0827
+      confidence: 0.0806
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T18:24:25Z'
+    created: '2026-08-22T21:10:58Z'
     src_mtime: 1786156576.522784
     top:
     - scientific: Lutjanus mahogoni
-      confidence: 0.5019
+      confidence: 0.4511
     - scientific: Haemulon aurolineatum
-      confidence: 0.4339
-    - scientific: Calamus calamus
-      confidence: 0.0218
+      confidence: 0.3901
+    - scientific: Haemulon album
+      confidence: 0.1011
 species:
 - scientific: Lutjanus mahogoni
   role: primary
-  confidence: 0.4734
+  confidence: 0.4421
   identified_by: bioclip-2+bioclip-2.5

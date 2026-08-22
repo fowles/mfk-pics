@@ -13,7 +13,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T18:40:50Z'
+    created: '2026-08-22T21:06:19Z'
     src_mtime: 1786157490.030476
     top:
     - scientific: Petrochirus diogenes
@@ -24,28 +24,28 @@ species_suggestions:
       confidence: 0.1177
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T13:37:37Z'
+    created: '2026-08-22T21:08:04Z'
     src_mtime: 1786157490.030476
     top:
     - scientific: Petrochirus diogenes
-      confidence: 0.9629
+      confidence: 0.9628
     - scientific: Panulirus argus
       confidence: 0.0103
     - scientific: Mithrax spinosissimus
       confidence: 0.0094
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T18:24:25Z'
+    created: '2026-08-22T21:10:58Z'
     src_mtime: 1786157490.030476
     top:
     - scientific: Petrochirus diogenes
-      confidence: 0.8643
+      confidence: 0.8616
     - scientific: Aliger gigas
-      confidence: 0.1044
+      confidence: 0.1041
     - scientific: Canthigaster rostrata
       confidence: 0.0136
 species:
 - scientific: Petrochirus diogenes
   role: primary
-  confidence: 0.9136
+  confidence: 0.9122
   identified_by: bioclip+bioclip-2+bioclip-2.5

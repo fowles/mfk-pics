@@ -13,7 +13,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T18:40:50Z'
+    created: '2026-08-22T21:06:19Z'
     src_mtime: 1786156337.255022
     top:
     - scientific: Heteroconger longissimus
@@ -24,22 +24,22 @@ species_suggestions:
       confidence: 0.1387
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T13:37:37Z'
+    created: '2026-08-22T21:08:04Z'
     src_mtime: 1786156337.255022
     top:
     - scientific: Ocyurus chrysurus
-      confidence: 0.1677
+      confidence: 0.1671
     - scientific: Mulloidichthys martinicus
-      confidence: 0.1471
+      confidence: 0.1466
     - scientific: Aulostomus maculatus
-      confidence: 0.1028
+      confidence: 0.1025
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T18:24:25Z'
+    created: '2026-08-22T21:10:58Z'
     src_mtime: 1786156337.255022
     top:
     - scientific: Aulostomus maculatus
-      confidence: 0.9865
+      confidence: 0.9862
     - scientific: Equetus punctatus
       confidence: 0.0034
     - scientific: Caranx ruber
@@ -47,5 +47,5 @@ species_suggestions:
 species:
 - scientific: Aulostomus maculatus
   role: primary
-  confidence: 0.5447
+  confidence: 0.5444
   identified_by: bioclip+bioclip-2+bioclip-2.5

@@ -14,7 +14,7 @@ rotation_applied: 270
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T18:40:50Z'
+    created: '2026-08-22T21:06:19Z'
     src_mtime: 1787029416.9994981
     top:
     - scientific: Aulostomus maculatus
@@ -28,29 +28,29 @@ species_suggestions:
       confidence: 0.8783
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T13:37:37Z'
+    created: '2026-08-22T21:08:04Z'
     src_mtime: 1787029416.9994981
     top:
     - scientific: Myrichthys breviceps
-      confidence: 0.1675
+      confidence: 0.1673
     - scientific: Cyphoma gibbosum
       confidence: 0.057
     - scientific: Ophiothrix suensonii
       confidence: 0.0517
     absorbed_by:
       scientific: Aplysina archeri
-      confidence: 0.2297
+      confidence: 0.2295
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T18:24:25Z'
+    created: '2026-08-22T21:10:58Z'
     src_mtime: 1787029416.9994981
     top:
     - scientific: Scarus iseri
-      confidence: 0.1895
+      confidence: 0.1894
     - scientific: Serranus tigrinus
       confidence: 0.0382
     - scientific: Halichoeres garnoti
       confidence: 0.0362
     absorbed_by:
       scientific: Niphates digitalis
-      confidence: 0.3229
+      confidence: 0.3226

@@ -13,29 +13,29 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T18:40:50Z'
+    created: '2026-08-22T21:06:19Z'
     src_mtime: 1786156495.8747675
     top:
     - scientific: Lutjanus mahogoni
-      confidence: 0.5179
+      confidence: 0.5177
     - scientific: Lutjanus griseus
-      confidence: 0.2799
+      confidence: 0.2798
     - scientific: Lutjanus jocu
       confidence: 0.1021
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T13:37:37Z'
+    created: '2026-08-22T21:08:04Z'
     src_mtime: 1786156495.8747675
     top:
     - scientific: Mycteroperca bonaci
-      confidence: 0.3854
+      confidence: 0.382
     - scientific: Lutjanus jocu
-      confidence: 0.2375
+      confidence: 0.2354
     - scientific: Lutjanus analis
-      confidence: 0.1852
+      confidence: 0.1836
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T18:24:25Z'
+    created: '2026-08-22T21:10:58Z'
     src_mtime: 1786156495.8747675
     top:
     - scientific: Lutjanus jocu
@@ -47,5 +47,5 @@ species_suggestions:
 species:
 - scientific: Lutjanus jocu
   role: primary
-  confidence: 0.6041
+  confidence: 0.603
   identified_by: bioclip+bioclip-2+bioclip-2.5

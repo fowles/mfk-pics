@@ -16,7 +16,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T18:40:50Z'
+    created: '2026-08-22T21:06:19Z'
     src_mtime: 1786157214.917391
     top:
     - scientific: Opistognathus aurifrons
@@ -27,18 +27,18 @@ species_suggestions:
       confidence: 0.0595
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T13:37:37Z'
+    created: '2026-08-22T21:08:04Z'
     src_mtime: 1786157214.917391
     top:
     - scientific: Chaetodon capistratus
-      confidence: 0.1116
+      confidence: 0.1098
     - scientific: Hypoplectrus unicolor
-      confidence: 0.1008
+      confidence: 0.0992
     - scientific: Pseudupeneus maculatus
-      confidence: 0.0721
+      confidence: 0.0709
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T18:24:25Z'
+    created: '2026-08-22T21:10:58Z'
     src_mtime: 1786157214.917391
     top:
     - scientific: Lactophrys triqueter

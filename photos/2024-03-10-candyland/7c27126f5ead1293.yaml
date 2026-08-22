@@ -13,7 +13,7 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T21:06:19Z'
     src_mtime: 1786158852.8005168
     top:
     - scientific: Haemulon sciurus
@@ -24,18 +24,18 @@ species_suggestions:
       confidence: 0.0025
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T13:37:37Z'
+    created: '2026-08-22T21:08:04Z'
     src_mtime: 1786158852.8005168
     top:
     - scientific: Haemulon sciurus
-      confidence: 0.9206
+      confidence: 0.9205
     - scientific: Haemulon carbonarium
       confidence: 0.0648
     - scientific: Haemulon flavolineatum
       confidence: 0.0051
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T18:24:25Z'
+    created: '2026-08-22T21:10:58Z'
     src_mtime: 1786158852.8005168
     top:
     - scientific: Haemulon sciurus

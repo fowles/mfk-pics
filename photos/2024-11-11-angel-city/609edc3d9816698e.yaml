@@ -16,7 +16,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T18:40:50Z'
+    created: '2026-08-22T21:06:19Z'
     src_mtime: 1786156746.827861
     top:
     - scientific: Epinephelus itajara
@@ -27,22 +27,22 @@ species_suggestions:
       confidence: 0.0104
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T13:37:37Z'
+    created: '2026-08-22T21:08:04Z'
     src_mtime: 1786156746.827861
     top:
     - scientific: Sphyraena barracuda
-      confidence: 0.6588
+      confidence: 0.6569
     - scientific: Pseudupeneus maculatus
-      confidence: 0.1733
+      confidence: 0.1728
     - scientific: Anisotremus surinamensis
-      confidence: 0.0158
+      confidence: 0.0157
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T18:24:25Z'
+    created: '2026-08-22T21:10:58Z'
     src_mtime: 1786156746.827861
     top:
     - scientific: Diodon hystrix
-      confidence: 0.9556
+      confidence: 0.9554
     - scientific: Anisotremus surinamensis
       confidence: 0.024
     - scientific: Mycteroperca bonaci
@@ -50,5 +50,5 @@ species_suggestions:
 species:
 - scientific: Diodon hystrix
   role: primary
-  confidence: 0.4778
+  confidence: 0.4777
   identified_by: bioclip-2.5

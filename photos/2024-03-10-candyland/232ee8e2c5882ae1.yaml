@@ -13,7 +13,7 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T21:06:19Z'
     src_mtime: 1786158850.4482949
     top:
     - scientific: Lutjanus griseus
@@ -24,21 +24,21 @@ species_suggestions:
       confidence: 0.0509
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T13:37:37Z'
+    created: '2026-08-22T21:08:04Z'
     src_mtime: 1786158850.4482949
     top:
     - scientific: Halichoeres radiatus
-      confidence: 0.0534
+      confidence: 0.0532
     - scientific: Sphyraena barracuda
-      confidence: 0.046
+      confidence: 0.0459
     - scientific: Abudefduf saxatilis
-      confidence: 0.0442
+      confidence: 0.044
     absorbed_by:
       scientific: Gorgonia ventalina
-      confidence: 0.0943
+      confidence: 0.0939
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T18:24:25Z'
+    created: '2026-08-22T21:10:58Z'
     src_mtime: 1786158850.4482949
     top:
     - scientific: Chelonia mydas

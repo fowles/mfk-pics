@@ -17,7 +17,7 @@ rotation_applied: 270
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T18:40:50Z'
+    created: '2026-08-22T21:06:19Z'
     src_mtime: 1787030515.0486608
     top:
     - scientific: Aulostomus maculatus
@@ -31,25 +31,25 @@ species_suggestions:
       confidence: 0.6331
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T13:37:37Z'
+    created: '2026-08-22T21:08:04Z'
     src_mtime: 1787030515.0486608
     top:
     - scientific: Cyphoma gibbosum
-      confidence: 0.2446
+      confidence: 0.2443
     - scientific: Myrichthys breviceps
-      confidence: 0.0473
+      confidence: 0.0472
     - scientific: Aulostomus maculatus
       confidence: 0.0397
     absorbed_by:
       scientific: Briareum asbestinum
-      confidence: 0.3096
+      confidence: 0.3091
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T18:24:25Z'
+    created: '2026-08-22T21:10:58Z'
     src_mtime: 1787030515.0486608
     top:
     - scientific: Thalassoma bifasciatum
-      confidence: 0.0967
+      confidence: 0.0966
     - scientific: Myrichthys breviceps
       confidence: 0.0457
     - scientific: Sparisoma viride

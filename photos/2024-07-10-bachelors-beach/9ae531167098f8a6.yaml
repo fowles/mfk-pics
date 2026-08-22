@@ -16,7 +16,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T18:40:50Z'
+    created: '2026-08-22T21:06:19Z'
     src_mtime: 1786158751.7743044
     top:
     - scientific: Hippocampus erectus
@@ -27,7 +27,7 @@ species_suggestions:
       confidence: 0.1745
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T13:37:37Z'
+    created: '2026-08-22T21:08:04Z'
     src_mtime: 1786158751.7743044
     top:
     - scientific: Aulostomus maculatus
@@ -35,13 +35,13 @@ species_suggestions:
     - scientific: Hippocampus reidi
       confidence: 0.039
     - scientific: Serranus tigrinus
-      confidence: 0.0345
+      confidence: 0.0344
     absorbed_by:
       scientific: Antillogorgia americana
       confidence: 0.0806
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T18:24:25Z'
+    created: '2026-08-22T21:10:58Z'
     src_mtime: 1786158751.7743044
     top:
     - scientific: Hypoplectrus puella

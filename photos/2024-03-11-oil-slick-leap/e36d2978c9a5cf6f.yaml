@@ -16,7 +16,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T18:40:50Z'
+    created: '2026-08-22T21:06:19Z'
     src_mtime: 1786158973.9858375
     top:
     - scientific: Acanthurus chirurgus
@@ -27,28 +27,28 @@ species_suggestions:
       confidence: 0.096
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T13:37:37Z'
+    created: '2026-08-22T21:08:04Z'
     src_mtime: 1786158973.9858375
     top:
     - scientific: Halichoeres garnoti
-      confidence: 0.0678
+      confidence: 0.067
     - scientific: Hypanus americanus
-      confidence: 0.0612
+      confidence: 0.0605
     - scientific: Holacanthus tricolor
-      confidence: 0.0406
+      confidence: 0.0402
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T18:24:25Z'
+    created: '2026-08-22T21:10:58Z'
     src_mtime: 1786158973.9858375
     top:
     - scientific: Chaetodon striatus
-      confidence: 0.4181
+      confidence: 0.4172
     - scientific: Halichoeres garnoti
-      confidence: 0.0534
+      confidence: 0.0533
     - scientific: Anisotremus virginicus
-      confidence: 0.0475
+      confidence: 0.0474
 species:
 - scientific: Chaetodon striatus
   role: primary
-  confidence: 0.2091
+  confidence: 0.2086
   identified_by: bioclip-2.5

@@ -13,7 +13,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T18:40:50Z'
+    created: '2026-08-22T21:06:19Z'
     src_mtime: 1786157491.045961
     top:
     - scientific: Thalassoma bifasciatum
@@ -24,28 +24,28 @@ species_suggestions:
       confidence: 0.028
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T13:37:37Z'
+    created: '2026-08-22T21:08:04Z'
     src_mtime: 1786157491.045961
     top:
     - scientific: Pomacanthus paru
-      confidence: 0.4779
+      confidence: 0.4707
     - scientific: Pomacanthus arcuatus
-      confidence: 0.2664
+      confidence: 0.2624
     - scientific: Chaetodon striatus
-      confidence: 0.0273
+      confidence: 0.0269
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T18:24:25Z'
+    created: '2026-08-22T21:10:58Z'
     src_mtime: 1786157491.045961
     top:
     - scientific: Haemulon macrostomum
-      confidence: 0.454
+      confidence: 0.4539
     - scientific: Pomacanthus paru
-      confidence: 0.3295
+      confidence: 0.3294
     - scientific: Haemulon flavolineatum
       confidence: 0.1161
 species:
 - scientific: Pomacanthus paru
   role: primary
-  confidence: 0.4037
+  confidence: 0.4001
   identified_by: bioclip+bioclip-2+bioclip-2.5

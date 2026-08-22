@@ -13,39 +13,39 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T18:40:50Z'
+    created: '2026-08-22T21:06:19Z'
     src_mtime: 1786159268.747867
     top:
     - scientific: Melichthys niger
-      confidence: 0.3554
+      confidence: 0.3479
     - scientific: Sepioteuthis sepioidea
-      confidence: 0.247
+      confidence: 0.2418
     - scientific: Thalassoma bifasciatum
-      confidence: 0.0784
+      confidence: 0.0768
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T13:37:37Z'
+    created: '2026-08-22T21:08:04Z'
     src_mtime: 1786159268.747867
     top:
     - scientific: Caranx latus
-      confidence: 0.3396
+      confidence: 0.3343
     - scientific: Caranx ruber
-      confidence: 0.1479
+      confidence: 0.1456
     - scientific: Chromis multilineata
-      confidence: 0.1243
+      confidence: 0.1223
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T18:24:25Z'
+    created: '2026-08-22T21:10:58Z'
     src_mtime: 1786159268.747867
     top:
     - scientific: Abudefduf saxatilis
-      confidence: 0.4001
+      confidence: 0.3996
     - scientific: Chromis multilineata
-      confidence: 0.2816
+      confidence: 0.2813
     - scientific: Chromis cyanea
-      confidence: 0.1376
+      confidence: 0.1374
 species:
 - scientific: Chromis multilineata
   role: primary
-  confidence: 0.203
+  confidence: 0.2018
   identified_by: bioclip-2+bioclip-2.5

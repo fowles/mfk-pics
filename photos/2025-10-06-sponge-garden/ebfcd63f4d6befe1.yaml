@@ -13,7 +13,7 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T18:40:50Z'
+    created: '2026-08-22T21:06:19Z'
     src_mtime: 1786159775.2125144
     top:
     - scientific: Gymnothorax funebris
@@ -24,27 +24,27 @@ species_suggestions:
       confidence: 0.0678
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T13:37:37Z'
+    created: '2026-08-22T21:08:04Z'
     src_mtime: 1786159775.2125144
     top:
     - scientific: Elacatinus oceanops
-      confidence: 0.1625
+      confidence: 0.1602
     - scientific: Caranx ruber
-      confidence: 0.0678
+      confidence: 0.0668
     - scientific: Thalassoma bifasciatum
-      confidence: 0.041
+      confidence: 0.0405
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T18:24:25Z'
+    created: '2026-08-22T21:10:58Z'
     src_mtime: 1786159775.2125144
     top:
     - scientific: Halichoeres pictus
       confidence: 0.0912
     - scientific: Thalassoma bifasciatum
-      confidence: 0.048
+      confidence: 0.0479
     - scientific: Halichoeres garnoti
       confidence: 0.0417
     absorbed_by:
       scientific: Millepora alcicornis
-      confidence: 0.1779
+      confidence: 0.1778
 species: []

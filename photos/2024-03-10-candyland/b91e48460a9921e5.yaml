@@ -13,7 +13,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T13:40:14Z'
+    created: '2026-08-22T21:06:19Z'
     src_mtime: 1786158872.3422575
     top:
     - scientific: Aulostomus maculatus
@@ -24,7 +24,7 @@ species_suggestions:
       confidence: 0.1385
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T13:37:37Z'
+    created: '2026-08-22T21:08:04Z'
     src_mtime: 1786158872.3422575
     top:
     - scientific: Aulostomus maculatus
@@ -35,7 +35,7 @@ species_suggestions:
       confidence: 0.0258
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T18:24:25Z'
+    created: '2026-08-22T21:10:58Z'
     src_mtime: 1786158872.3422575
     top:
     - scientific: Rypticus saponaceus
@@ -43,7 +43,7 @@ species_suggestions:
     - scientific: Acanthostracion polygonius
       confidence: 0.111
     - scientific: Gymnothorax moringa
-      confidence: 0.1052
+      confidence: 0.1051
 species:
 - scientific: Aluterus scriptus
   role: primary

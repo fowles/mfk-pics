@@ -13,29 +13,29 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T18:40:50Z'
+    created: '2026-08-22T21:06:19Z'
     src_mtime: 1786158870.8930006
     top:
     - scientific: Chaetodon capistratus
-      confidence: 0.1601
+      confidence: 0.16
     - scientific: Abudefduf saxatilis
       confidence: 0.1359
     - scientific: Dactylopterus volitans
-      confidence: 0.1242
+      confidence: 0.1241
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T13:37:37Z'
+    created: '2026-08-22T21:08:04Z'
     src_mtime: 1786158870.8930006
     top:
     - scientific: Chromis multilineata
-      confidence: 0.4253
+      confidence: 0.4252
     - scientific: Melichthys niger
-      confidence: 0.2809
+      confidence: 0.2808
     - scientific: Caranx latus
       confidence: 0.063
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T18:24:25Z'
+    created: '2026-08-22T21:10:58Z'
     src_mtime: 1786158870.8930006
     top:
     - scientific: Melichthys niger
@@ -47,5 +47,5 @@ species_suggestions:
 species:
 - scientific: Melichthys niger
   role: primary
-  confidence: 0.637
+  confidence: 0.6369
   identified_by: bioclip-2+bioclip-2.5

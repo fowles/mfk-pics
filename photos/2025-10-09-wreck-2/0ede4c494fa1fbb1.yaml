@@ -13,7 +13,7 @@ rotation_applied: 270
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T18:40:50Z'
+    created: '2026-08-22T21:06:19Z'
     src_mtime: 1787029181.4912775
     top:
     - scientific: Aulostomus maculatus
@@ -24,31 +24,31 @@ species_suggestions:
       confidence: 0.0376
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T13:37:37Z'
+    created: '2026-08-22T21:08:04Z'
     src_mtime: 1787029181.4912775
     top:
     - scientific: Echeneis naucrates
-      confidence: 0.5278
+      confidence: 0.5277
     - scientific: Holacanthus tricolor
       confidence: 0.032
     - scientific: Aluterus scriptus
       confidence: 0.0216
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T18:24:25Z'
+    created: '2026-08-22T21:10:58Z'
     src_mtime: 1787029181.4912775
     top:
     - scientific: Carcharhinus perezi
-      confidence: 0.1297
+      confidence: 0.1296
     - scientific: Cassiopea xamachana
       confidence: 0.0452
     - scientific: Octopus briareus
       confidence: 0.0391
     absorbed_by:
       scientific: Cirrhipathes leutkeni
-      confidence: 0.4071
+      confidence: 0.407
 species:
 - scientific: Echeneis naucrates
   role: primary
-  confidence: 0.2639
+  confidence: 0.2638
   identified_by: bioclip-2

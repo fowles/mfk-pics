@@ -16,7 +16,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T18:40:50Z'
+    created: '2026-08-22T21:06:19Z'
     src_mtime: 1786159595.7075388
     top:
     - scientific: Thalassoma bifasciatum
@@ -27,7 +27,7 @@ species_suggestions:
       confidence: 0.0122
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T13:37:37Z'
+    created: '2026-08-22T21:08:04Z'
     src_mtime: 1786159595.7075388
     top:
     - scientific: Thalassoma bifasciatum
@@ -38,20 +38,20 @@ species_suggestions:
       confidence: 0.0263
     absorbed_by:
       scientific: Orbicella annularis
-      confidence: 0.1963
+      confidence: 0.1962
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T18:24:25Z'
+    created: '2026-08-22T21:10:58Z'
     src_mtime: 1786159595.7075388
     top:
     - scientific: Canthigaster rostrata
-      confidence: 0.4259
+      confidence: 0.4249
     - scientific: Ophioblennius macclurei
-      confidence: 0.1098
+      confidence: 0.1096
     - scientific: Serranus tigrinus
-      confidence: 0.0904
+      confidence: 0.0902
 species:
 - scientific: Canthigaster rostrata
   role: primary
-  confidence: 0.213
+  confidence: 0.2124
   identified_by: bioclip-2.5

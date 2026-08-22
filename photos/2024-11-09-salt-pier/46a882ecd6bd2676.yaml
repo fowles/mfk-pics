@@ -16,39 +16,39 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T18:40:50Z'
+    created: '2026-08-22T21:06:19Z'
     src_mtime: 1786156583.7062972
     top:
     - scientific: Serranus tigrinus
-      confidence: 0.3694
+      confidence: 0.3693
     - scientific: Sepioteuthis sepioidea
-      confidence: 0.1506
+      confidence: 0.1505
     - scientific: Holocentrus adscensionis
       confidence: 0.0949
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T13:37:37Z'
+    created: '2026-08-22T21:08:04Z'
     src_mtime: 1786156583.7062972
     top:
     - scientific: Holocentrus adscensionis
-      confidence: 0.1537
+      confidence: 0.1498
     - scientific: Ocyurus chrysurus
-      confidence: 0.1386
+      confidence: 0.1351
     - scientific: Lutjanus mahogoni
-      confidence: 0.1249
+      confidence: 0.1218
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T18:24:25Z'
+    created: '2026-08-22T21:10:58Z'
     src_mtime: 1786156583.7062972
     top:
     - scientific: Lutjanus mahogoni
-      confidence: 0.8129
+      confidence: 0.7074
+    - scientific: Haemulon album
+      confidence: 0.1298
     - scientific: Canthidermis sufflamen
-      confidence: 0.0611
-    - scientific: Lutjanus analis
-      confidence: 0.0438
+      confidence: 0.0531
 species:
 - scientific: Lutjanus mahogoni
   role: primary
-  confidence: 0.4689
+  confidence: 0.4146
   identified_by: bioclip-2+bioclip-2.5

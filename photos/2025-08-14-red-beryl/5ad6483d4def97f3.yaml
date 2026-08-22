@@ -13,7 +13,7 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T18:40:50Z'
+    created: '2026-08-22T21:06:19Z'
     src_mtime: 1786158335.8192723
     top:
     - scientific: Diodon hystrix
@@ -24,28 +24,28 @@ species_suggestions:
       confidence: 0.1472
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T13:37:37Z'
+    created: '2026-08-22T21:08:04Z'
     src_mtime: 1786158335.8192723
     top:
     - scientific: Cephalopholis fulva
-      confidence: 0.7439
+      confidence: 0.7437
     - scientific: Haemulon plumierii
-      confidence: 0.1466
+      confidence: 0.1465
     - scientific: Cephalopholis cruentata
       confidence: 0.0715
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T18:24:25Z'
+    created: '2026-08-22T21:10:58Z'
     src_mtime: 1786158335.8192723
     top:
     - scientific: Haemulon plumierii
-      confidence: 0.4238
+      confidence: 0.4237
     - scientific: Cephalopholis fulva
-      confidence: 0.4052
+      confidence: 0.4051
     - scientific: Epinephelus guttatus
       confidence: 0.154
 species:
 - scientific: Cephalopholis fulva
   role: primary
-  confidence: 0.5746
+  confidence: 0.5744
   identified_by: bioclip-2+bioclip-2.5

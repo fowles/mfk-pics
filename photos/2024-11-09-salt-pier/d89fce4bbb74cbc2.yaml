@@ -13,7 +13,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T18:40:50Z'
+    created: '2026-08-22T21:06:19Z'
     src_mtime: 1786156575.96972
     top:
     - scientific: Heteroconger longissimus
@@ -24,28 +24,28 @@ species_suggestions:
       confidence: 0.072
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T13:37:37Z'
+    created: '2026-08-22T21:08:04Z'
     src_mtime: 1786156575.96972
     top:
     - scientific: Halichoeres garnoti
-      confidence: 0.1186
+      confidence: 0.1169
     - scientific: Caranx ruber
-      confidence: 0.0924
+      confidence: 0.091
     - scientific: Halichoeres radiatus
-      confidence: 0.0506
+      confidence: 0.0498
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T18:24:25Z'
+    created: '2026-08-22T21:10:58Z'
     src_mtime: 1786156575.96972
     top:
     - scientific: Malacanthus plumieri
-      confidence: 0.4494
+      confidence: 0.4339
     - scientific: Lutjanus analis
-      confidence: 0.1496
+      confidence: 0.1444
     - scientific: Lutjanus mahogoni
-      confidence: 0.095
+      confidence: 0.0917
 species:
 - scientific: Malacanthus plumieri
   role: primary
-  confidence: 0.2247
+  confidence: 0.217
   identified_by: bioclip-2.5

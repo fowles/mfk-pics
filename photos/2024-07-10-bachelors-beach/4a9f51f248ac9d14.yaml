@@ -14,7 +14,7 @@ rotation_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T18:40:50Z'
+    created: '2026-08-22T21:06:19Z'
     src_mtime: 1786158713.9460049
     top:
     - scientific: Aulostomus maculatus
@@ -28,28 +28,28 @@ species_suggestions:
       confidence: 0.8308
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T13:37:37Z'
+    created: '2026-08-22T21:08:04Z'
     src_mtime: 1786158713.9460049
     top:
     - scientific: Stegastes partitus
-      confidence: 0.1561
+      confidence: 0.156
     - scientific: Serranus tabacarius
       confidence: 0.0752
     - scientific: Xyrichtys splendens
-      confidence: 0.0658
+      confidence: 0.0657
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T18:24:25Z'
+    created: '2026-08-22T21:10:58Z'
     src_mtime: 1786158713.9460049
     top:
     - scientific: Equetus punctatus
-      confidence: 0.7731
+      confidence: 0.7729
     - scientific: Anisotremus surinamensis
       confidence: 0.0308
     - scientific: Hypoplectrus puella
-      confidence: 0.0304
+      confidence: 0.0303
 species:
 - scientific: Equetus punctatus
   role: primary
-  confidence: 0.3866
+  confidence: 0.3865
   identified_by: bioclip-2.5

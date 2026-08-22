@@ -13,7 +13,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T18:40:50Z'
+    created: '2026-08-22T21:06:19Z'
     src_mtime: 1786159955.2359753
     top:
     - scientific: Jenkinsia lamprotaenia
@@ -24,22 +24,22 @@ species_suggestions:
       confidence: 0.0369
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T13:37:37Z'
+    created: '2026-08-22T21:08:04Z'
     src_mtime: 1786159955.2359753
     top:
     - scientific: Haemulon chrysargyreum
-      confidence: 0.1543
+      confidence: 0.1523
     - scientific: Gerres cinereus
-      confidence: 0.1484
+      confidence: 0.1466
     - scientific: Pseudupeneus maculatus
-      confidence: 0.104
+      confidence: 0.1026
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T18:24:25Z'
+    created: '2026-08-22T21:10:58Z'
     src_mtime: 1786159955.2359753
     top:
     - scientific: Lutjanus mahogoni
-      confidence: 0.84
+      confidence: 0.8397
     - scientific: Lutjanus analis
       confidence: 0.04
     - scientific: Caranx latus
@@ -47,5 +47,5 @@ species_suggestions:
 species:
 - scientific: Lutjanus mahogoni
   role: primary
-  confidence: 0.42
+  confidence: 0.4199
   identified_by: bioclip-2.5

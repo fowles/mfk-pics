@@ -12,7 +12,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T18:40:50Z'
+    created: '2026-08-22T21:06:19Z'
     src_mtime: 1786159819.7202168
     top:
     - scientific: Sepioteuthis sepioidea
@@ -23,21 +23,21 @@ species_suggestions:
       confidence: 0.0726
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T13:37:37Z'
+    created: '2026-08-22T21:08:04Z'
     src_mtime: 1786159819.7202168
     top:
     - scientific: Galeocerdo cuvier
-      confidence: 0.1326
+      confidence: 0.1325
     - scientific: Scarus coeruleus
       confidence: 0.0931
     - scientific: Echeneis naucrates
-      confidence: 0.0721
+      confidence: 0.072
     absorbed_by:
       scientific: Cirrhipathes leutkeni
-      confidence: 0.2069
+      confidence: 0.2067
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T18:24:25Z'
+    created: '2026-08-22T21:10:58Z'
     src_mtime: 1786159819.7202168
     top:
     - scientific: Aetobatus narinari

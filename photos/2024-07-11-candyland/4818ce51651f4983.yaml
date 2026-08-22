@@ -13,7 +13,7 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T18:40:50Z'
+    created: '2026-08-22T21:06:19Z'
     src_mtime: 1786159271.668518
     top:
     - scientific: Kyphosus sectatrix
@@ -24,28 +24,28 @@ species_suggestions:
       confidence: 0.0399
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T13:37:37Z'
+    created: '2026-08-22T21:08:04Z'
     src_mtime: 1786159271.668518
     top:
     - scientific: Canthidermis sufflamen
-      confidence: 0.3594
+      confidence: 0.3582
     - scientific: Kyphosus sectatrix
-      confidence: 0.2462
+      confidence: 0.2453
     - scientific: Anisotremus surinamensis
-      confidence: 0.0921
+      confidence: 0.0918
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T18:24:25Z'
+    created: '2026-08-22T21:10:58Z'
     src_mtime: 1786159271.668518
     top:
     - scientific: Kyphosus sectatrix
-      confidence: 0.9271
+      confidence: 0.9236
     - scientific: Canthidermis sufflamen
-      confidence: 0.0298
+      confidence: 0.0296
     - scientific: Abudefduf saxatilis
-      confidence: 0.0137
+      confidence: 0.0136
 species:
 - scientific: Kyphosus sectatrix
   role: primary
-  confidence: 0.5867
+  confidence: 0.5845
   identified_by: bioclip+bioclip-2+bioclip-2.5

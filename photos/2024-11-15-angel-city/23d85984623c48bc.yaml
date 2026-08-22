@@ -13,39 +13,39 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T18:40:50Z'
+    created: '2026-08-22T21:06:19Z'
     src_mtime: 1786157054.11501
     top:
     - scientific: Chaetodon striatus
-      confidence: 0.3141
+      confidence: 0.314
     - scientific: Thalassoma bifasciatum
       confidence: 0.2545
     - scientific: Hypoplectrus nigricans
       confidence: 0.0591
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T13:37:37Z'
+    created: '2026-08-22T21:08:04Z'
     src_mtime: 1786157054.11501
     top:
     - scientific: Pomacanthus arcuatus
-      confidence: 0.3591
+      confidence: 0.3558
     - scientific: Canthidermis sufflamen
-      confidence: 0.2353
+      confidence: 0.2332
     - scientific: Anisotremus surinamensis
-      confidence: 0.223
+      confidence: 0.221
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T18:24:25Z'
+    created: '2026-08-22T21:10:58Z'
     src_mtime: 1786157054.11501
     top:
     - scientific: Mycteroperca tigris
-      confidence: 0.3541
+      confidence: 0.3532
     - scientific: Canthidermis sufflamen
-      confidence: 0.2537
+      confidence: 0.253
     - scientific: Diodon hystrix
-      confidence: 0.0923
+      confidence: 0.0921
 species:
 - scientific: Canthidermis sufflamen
   role: primary
-  confidence: 0.2445
+  confidence: 0.2431
   identified_by: bioclip-2+bioclip-2.5

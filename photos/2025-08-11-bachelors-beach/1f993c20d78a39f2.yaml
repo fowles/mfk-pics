@@ -16,7 +16,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T18:40:50Z'
+    created: '2026-08-22T21:06:19Z'
     src_mtime: 1786157882.1110415
     top:
     - scientific: Sepioteuthis sepioidea
@@ -27,18 +27,18 @@ species_suggestions:
       confidence: 0.0359
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T13:37:37Z'
+    created: '2026-08-22T21:08:04Z'
     src_mtime: 1786157882.1110415
     top:
     - scientific: Anisotremus surinamensis
-      confidence: 0.1462
+      confidence: 0.1377
     - scientific: Acanthostracion polygonius
-      confidence: 0.1379
+      confidence: 0.1299
     - scientific: Lutjanus mahogoni
-      confidence: 0.1184
+      confidence: 0.1116
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T18:24:25Z'
+    created: '2026-08-22T21:10:58Z'
     src_mtime: 1786157882.1110415
     top:
     - scientific: Acanthostracion polygonius
@@ -50,5 +50,5 @@ species_suggestions:
 species:
 - scientific: Acanthostracion polygonius
   role: primary
-  confidence: 0.4073
+  confidence: 0.4033
   identified_by: bioclip-2+bioclip-2.5

@@ -12,7 +12,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T18:40:50Z'
+    created: '2026-08-22T21:06:19Z'
     src_mtime: 1786159184.9602394
     top:
     - scientific: Aetobatus narinari
@@ -23,18 +23,18 @@ species_suggestions:
       confidence: 0.0
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T13:37:37Z'
+    created: '2026-08-22T21:08:04Z'
     src_mtime: 1786159184.9602394
     top:
     - scientific: Aetobatus narinari
-      confidence: 0.9919
+      confidence: 0.9918
     - scientific: Dactylopterus volitans
       confidence: 0.0024
     - scientific: Echeneis naucrates
       confidence: 0.0019
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T18:24:25Z'
+    created: '2026-08-22T21:10:58Z'
     src_mtime: 1786159184.9602394
     top:
     - scientific: Aetobatus narinari
@@ -46,5 +46,5 @@ species_suggestions:
 species:
 - scientific: Aetobatus narinari
   role: primary
-  confidence: 0.996
+  confidence: 0.9959
   identified_by: bioclip+bioclip-2+bioclip-2.5

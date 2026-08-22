@@ -16,7 +16,7 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T18:40:50Z'
+    created: '2026-08-22T21:06:19Z'
     src_mtime: 1786156742.9773493
     top:
     - scientific: Opistognathus aurifrons
@@ -27,18 +27,18 @@ species_suggestions:
       confidence: 0.1341
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T13:37:37Z'
+    created: '2026-08-22T21:08:04Z'
     src_mtime: 1786156742.9773493
     top:
     - scientific: Cantherhines macrocerus
-      confidence: 0.1018
+      confidence: 0.1016
     - scientific: Epinephelus striatus
-      confidence: 0.0493
+      confidence: 0.0492
     - scientific: Acanthostracion polygonius
       confidence: 0.0437
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T18:24:25Z'
+    created: '2026-08-22T21:10:58Z'
     src_mtime: 1786156742.9773493
     top:
     - scientific: Aluterus scriptus
