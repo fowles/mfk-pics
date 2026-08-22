@@ -50,5 +50,15 @@ species_suggestions:
 species:
 - scientific: Caranx ruber
   role: primary
-  confidence: 0.9452
-  identified_by: bioclip-2+bioclip-2.5
+  identified_by: human
+  confirmed_from: bioclip-2+bioclip-2.5
+  reviewed_by: matt
+- scientific: Homo sapiens
+  role: secondary
+  identified_by: human
+  reviewed_by: matt
+  person:
+  - Delia Kulukundis
+species_reviewed:
+- primary
+- secondary

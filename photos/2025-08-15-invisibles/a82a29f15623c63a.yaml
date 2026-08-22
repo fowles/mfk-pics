@@ -45,7 +45,14 @@ species_suggestions:
     - scientific: Pareques acuminatus
       confidence: 0.0823
 species:
-- scientific: Anisotremus surinamensis
+- scientific: Osachila antillensis
   role: primary
-  confidence: 0.3115
-  identified_by: bioclip-2+bioclip-2.5
+  identified_by: human
+  reviewed_by: matt
+- scientific: Caranx ruber
+  role: secondary
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

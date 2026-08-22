@@ -49,7 +49,16 @@ species_suggestions:
     - scientific: Thalassoma bifasciatum
       confidence: 0.0584
 species:
-- scientific: Octopus briareus
+- scientific: Octopus insularis
   role: primary
-  confidence: 0.8024
-  identified_by: bioclip-2+bioclip-2.5
+  identified_by: human
+  confirmed_from: bioclip+bioclip-2+bioclip-2.5
+  reviewed_by: matt
+- scientific: Thalassoma bifasciatum
+  role: secondary
+  identified_by: human
+  confirmed_from: bioclip-2.5
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

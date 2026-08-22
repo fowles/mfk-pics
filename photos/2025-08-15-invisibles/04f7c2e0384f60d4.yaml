@@ -45,7 +45,14 @@ species_suggestions:
     - scientific: Xyrichtys martinicensis
       confidence: 0.138
 species:
-- scientific: Petrochirus diogenes
+- scientific: Osachila antillensis
   role: primary
-  confidence: 0.364
-  identified_by: bioclip-2+bioclip-2.5
+  identified_by: human
+  reviewed_by: matt
+- scientific: Caranx ruber
+  role: secondary
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

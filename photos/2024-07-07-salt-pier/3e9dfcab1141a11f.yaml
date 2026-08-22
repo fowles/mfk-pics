@@ -49,7 +49,23 @@ species_suggestions:
     - scientific: Sepioteuthis sepioidea
       confidence: 0.0372
 species:
-- scientific: Octopus briareus
+- scientific: Octopus insularis
   role: primary
-  confidence: 0.8793
-  identified_by: bioclip-2+bioclip-2.5
+  identified_by: human
+  confirmed_from: bioclip+bioclip-2+bioclip-2.5
+  reviewed_by: matt
+- scientific: Thalassoma bifasciatum
+  role: secondary
+  identified_by: human
+  reviewed_by: matt
+- scientific: Serranus tigrinus
+  role: secondary
+  identified_by: human
+  reviewed_by: matt
+- scientific: Stegastes partitus
+  role: secondary
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

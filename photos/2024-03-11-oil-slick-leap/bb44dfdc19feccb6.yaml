@@ -50,5 +50,9 @@ species_suggestions:
 species:
 - scientific: Caranx ruber
   role: primary
-  confidence: 0.998
-  identified_by: bioclip+bioclip-2+bioclip-2.5
+  identified_by: human
+  confirmed_from: bioclip+bioclip-2+bioclip-2.5
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary
