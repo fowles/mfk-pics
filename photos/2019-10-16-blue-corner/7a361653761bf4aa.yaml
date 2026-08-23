@@ -13,15 +13,40 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T04:16:33Z'
     src_mtime: 1787436656.666253
+    vocab: 1496b1231bc5
     top:
     - scientific: Acanthurus olivaceus
-      confidence: 0.2257
+      confidence: 0.2256
     - scientific: Sufflamen chrysopterum
       confidence: 0.1561
     - scientific: Thalassoma lunare
       confidence: 0.1301
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-23T04:17:00Z'
+    src_mtime: 1787436656.666253
+    vocab: 1496b1231bc5
+    top:
+    - scientific: Xanthichthys caeruleolineatus
+      confidence: 0.4919
+    - scientific: Pseudobalistes flavimarginatus
+      confidence: 0.3662
+    - scientific: Sufflamen fraenatum
+      confidence: 0.0405
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-23T04:17:36Z'
+    src_mtime: 1787436656.666253
+    vocab: 1496b1231bc5
+    top:
+    - scientific: Balistoides viridescens
+      confidence: 0.369
+    - scientific: Xanthichthys mento
+      confidence: 0.2939
+    - scientific: Sufflamen fraenatum
+      confidence: 0.0908
 species:
 - scientific: Balistoides viridescens
   role: primary

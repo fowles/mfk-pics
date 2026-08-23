@@ -13,33 +13,36 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T04:16:33Z'
     src_mtime: 1786158853.8693376
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Chromis multilineata
-      confidence: 0.1374
+      confidence: 0.1361
     - scientific: Sepioteuthis sepioidea
-      confidence: 0.062
+      confidence: 0.0615
     - scientific: Chaetodon striatus
-      confidence: 0.058
+      confidence: 0.0575
     absorbed_by:
       scientific: Sabellastarte magnifica
-      confidence: 0.4453
+      confidence: 0.4414
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T04:17:00Z'
     src_mtime: 1786158853.8693376
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Thalassoma bifasciatum
-      confidence: 0.1241
+      confidence: 0.124
     - scientific: Chromis multilineata
       confidence: 0.0742
     - scientific: Holacanthus tricolor
       confidence: 0.0532
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T04:17:36Z'
     src_mtime: 1786158853.8693376
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Abudefduf saxatilis
       confidence: 0.2272

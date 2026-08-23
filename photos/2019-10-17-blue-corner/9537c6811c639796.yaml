@@ -13,8 +13,9 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T04:16:33Z'
     src_mtime: 1787436660.203911
+    vocab: 1496b1231bc5
     top:
     - scientific: Rhincodon typus
       confidence: 0.6564
@@ -22,6 +23,30 @@ species_suggestions:
       confidence: 0.0797
     - scientific: Mobula birostris
       confidence: 0.0546
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-23T04:17:00Z'
+    src_mtime: 1787436660.203911
+    vocab: 1496b1231bc5
+    top:
+    - scientific: Ptereleotris evides
+      confidence: 0.0836
+    - scientific: Odonus niger
+      confidence: 0.0784
+    - scientific: Chromis weberi
+      confidence: 0.0771
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-23T04:17:36Z'
+    src_mtime: 1787436660.203911
+    vocab: 1496b1231bc5
+    top:
+    - scientific: Chromis weberi
+      confidence: 0.3271
+    - scientific: Chromis ternatensis
+      confidence: 0.2028
+    - scientific: Odonus niger
+      confidence: 0.1673
 species:
 - scientific: Homo sapiens
   role: primary

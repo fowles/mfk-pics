@@ -13,15 +13,40 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T04:16:33Z'
     src_mtime: 1787441088.1922424
+    vocab: 1496b1231bc5
     top:
     - scientific: Sepioteuthis lessoniana
-      confidence: 0.2772
+      confidence: 0.2771
     - scientific: Sufflamen fraenatum
-      confidence: 0.0658
+      confidence: 0.0657
     - scientific: Triaenodon obesus
       confidence: 0.0403
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-23T04:17:00Z'
+    src_mtime: 1787441088.1922424
+    vocab: 1496b1231bc5
+    top:
+    - scientific: Sepioteuthis lessoniana
+      confidence: 0.0704
+    - scientific: Dascyllus albisella
+      confidence: 0.0295
+    - scientific: Chrysiptera glauca
+      confidence: 0.0267
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-23T04:17:36Z'
+    src_mtime: 1787441088.1922424
+    vocab: 1496b1231bc5
+    top:
+    - scientific: Stegostoma tigrinum
+      confidence: 0.2402
+    - scientific: Rhynchobatus australiae
+      confidence: 0.1734
+    - scientific: Chiloscyllium punctatum
+      confidence: 0.0852
 species:
 - scientific: Homo sapiens
   role: primary

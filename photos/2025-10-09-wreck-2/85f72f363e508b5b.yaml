@@ -12,30 +12,33 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T04:16:33Z'
     src_mtime: 1786159810.18565
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Acanthurus coeruleus
-      confidence: 0.3825
+      confidence: 0.3818
     - scientific: Scarus coeruleus
-      confidence: 0.3079
+      confidence: 0.3074
     - scientific: Melichthys niger
-      confidence: 0.2658
+      confidence: 0.2654
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T04:17:00Z'
     src_mtime: 1786159810.18565
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Balistes vetula
-      confidence: 0.9957
+      confidence: 0.9956
     - scientific: Melichthys niger
       confidence: 0.0009
     - scientific: Acanthurus chirurgus
       confidence: 0.0007
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T04:17:36Z'
     src_mtime: 1786159810.18565
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Balistes vetula
       confidence: 1.0

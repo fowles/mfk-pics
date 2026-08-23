@@ -13,15 +13,40 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T04:16:33Z'
     src_mtime: 1787436656.6884673
+    vocab: 1496b1231bc5
+    top:
+    - scientific: Dascyllus albisella
+      confidence: 0.5005
+    - scientific: Sepioteuthis lessoniana
+      confidence: 0.2178
+    - scientific: Pseudobalistes fuscus
+      confidence: 0.0409
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-23T04:17:00Z'
+    src_mtime: 1787436656.6884673
+    vocab: 1496b1231bc5
+    top:
+    - scientific: Carcharhinus albimarginatus
+      confidence: 0.0902
+    - scientific: Carcharhinus amblyrhynchos
+      confidence: 0.0413
+    - scientific: Abudefduf sexfasciatus
+      confidence: 0.0377
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-23T04:17:36Z'
+    src_mtime: 1787436656.6884673
+    vocab: 1496b1231bc5
     top:
     - scientific: Sepioteuthis lessoniana
-      confidence: 0.4361
-    - scientific: Pseudobalistes fuscus
-      confidence: 0.0819
-    - scientific: Rhincodon typus
-      confidence: 0.0789
+      confidence: 0.301
+    - scientific: Rhinomuraena quaesita
+      confidence: 0.1499
+    - scientific: Bryaninops natans
+      confidence: 0.0705
 species:
 - scientific: Homo sapiens
   role: primary

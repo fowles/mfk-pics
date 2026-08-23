@@ -13,15 +13,40 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T04:16:33Z'
     src_mtime: 1787441078.5108874
+    vocab: 1496b1231bc5
     top:
     - scientific: Carcharhinus longimanus
       confidence: 0.1391
     - scientific: Triaenodon obesus
-      confidence: 0.0975
+      confidence: 0.0974
     - scientific: Pseudobalistes fuscus
       confidence: 0.0885
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-23T04:17:00Z'
+    src_mtime: 1787441078.5108874
+    vocab: 1496b1231bc5
+    top:
+    - scientific: Chelonia mydas
+      confidence: 0.414
+    - scientific: Eretmochelys imbricata
+      confidence: 0.4074
+    - scientific: Caretta caretta
+      confidence: 0.0232
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-23T04:17:36Z'
+    src_mtime: 1787441078.5108874
+    vocab: 1496b1231bc5
+    top:
+    - scientific: Chelonia mydas
+      confidence: 0.9921
+    - scientific: Eretmochelys imbricata
+      confidence: 0.0078
+    - scientific: Abudefduf vaigiensis
+      confidence: 0.0
 species:
 - scientific: Chelonia mydas
   role: primary

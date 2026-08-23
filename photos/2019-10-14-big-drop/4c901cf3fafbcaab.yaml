@@ -13,15 +13,43 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T04:16:33Z'
     src_mtime: 1787436653.1590376
+    vocab: 1496b1231bc5
     top:
     - scientific: Melichthys niger
-      confidence: 0.1826
+      confidence: 0.1802
     - scientific: Scarus niger
-      confidence: 0.0972
+      confidence: 0.096
     - scientific: Myripristis adusta
-      confidence: 0.0845
+      confidence: 0.0834
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-23T04:17:00Z'
+    src_mtime: 1787436653.1590376
+    vocab: 1496b1231bc5
+    top:
+    - scientific: Chromis iomelas
+      confidence: 0.0627
+    - scientific: Pseudanthias squamipinnis
+      confidence: 0.0414
+    - scientific: Cephalopholis miniata
+      confidence: 0.0375
+    absorbed_by:
+      scientific: Tubastraea micranthus
+      confidence: 0.0831
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-23T04:17:36Z'
+    src_mtime: 1787436653.1590376
+    vocab: 1496b1231bc5
+    top:
+    - scientific: Acanthaster planci
+      confidence: 0.2312
+    - scientific: Platax pinnatus
+      confidence: 0.2263
+    - scientific: Acanthochromis polyacanthus
+      confidence: 0.0237
 species:
 - scientific: Homo sapiens
   role: primary

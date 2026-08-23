@@ -13,8 +13,9 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T04:16:33Z'
     src_mtime: 1787441076.8621547
+    vocab: 1496b1231bc5
     top:
     - scientific: Mobula birostris
       confidence: 0.5389
@@ -22,6 +23,30 @@ species_suggestions:
       confidence: 0.3389
     - scientific: Mobula thurstoni
       confidence: 0.0361
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-23T04:17:00Z'
+    src_mtime: 1787441076.8621547
+    vocab: 1496b1231bc5
+    top:
+    - scientific: Lepidochelys olivacea
+      confidence: 0.5623
+    - scientific: Caretta caretta
+      confidence: 0.1965
+    - scientific: Chelonia mydas
+      confidence: 0.1694
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-23T04:17:36Z'
+    src_mtime: 1787441076.8621547
+    vocab: 1496b1231bc5
+    top:
+    - scientific: Chelonia mydas
+      confidence: 0.6277
+    - scientific: Lepidochelys olivacea
+      confidence: 0.3401
+    - scientific: Eretmochelys imbricata
+      confidence: 0.0207
 species:
 - scientific: Chelonia mydas
   role: primary

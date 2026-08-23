@@ -13,8 +13,9 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T04:16:33Z'
     src_mtime: 1787441087.6492832
+    vocab: 1496b1231bc5
     top:
     - scientific: Triaenodon obesus
       confidence: 0.9403
@@ -22,6 +23,30 @@ species_suggestions:
       confidence: 0.0119
     - scientific: Gymnothorax javanicus
       confidence: 0.0108
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-23T04:17:00Z'
+    src_mtime: 1787441087.6492832
+    vocab: 1496b1231bc5
+    top:
+    - scientific: Triaenodon obesus
+      confidence: 0.7906
+    - scientific: Nebrius ferrugineus
+      confidence: 0.1958
+    - scientific: Negaprion acutidens
+      confidence: 0.0024
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-23T04:17:36Z'
+    src_mtime: 1787441087.6492832
+    vocab: 1496b1231bc5
+    top:
+    - scientific: Triaenodon obesus
+      confidence: 0.9983
+    - scientific: Nebrius ferrugineus
+      confidence: 0.0008
+    - scientific: Chiloscyllium punctatum
+      confidence: 0.0008
 species:
 - scientific: Triaenodon obesus
   role: primary

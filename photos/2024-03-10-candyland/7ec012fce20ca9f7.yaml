@@ -13,36 +13,39 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T04:16:33Z'
     src_mtime: 1786158850.923951
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Haemulon macrostomum
-      confidence: 0.7428
+      confidence: 0.7254
     - scientific: Amblycirrhitus pinos
-      confidence: 0.0569
+      confidence: 0.0555
     - scientific: Haemulon chrysargyreum
-      confidence: 0.0383
+      confidence: 0.0374
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T04:17:00Z'
     src_mtime: 1786158850.923951
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Aulostomus maculatus
-      confidence: 0.085
+      confidence: 0.0849
     - scientific: Thalassoma bifasciatum
       confidence: 0.0727
     - scientific: Holacanthus tricolor
       confidence: 0.0702
     absorbed_by:
       scientific: Orbicella annularis
-      confidence: 0.0937
+      confidence: 0.0936
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T04:17:36Z'
     src_mtime: 1786158850.923951
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Aulostomus maculatus
-      confidence: 0.5383
+      confidence: 0.5382
     - scientific: Sparisoma viride
       confidence: 0.0403
     - scientific: Halichoeres garnoti

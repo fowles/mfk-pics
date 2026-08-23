@@ -13,8 +13,9 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T04:16:33Z'
     src_mtime: 1787441088.2645662
+    vocab: 1496b1231bc5
     top:
     - scientific: Corythoichthys schultzi
       confidence: 0.3167
@@ -22,6 +23,30 @@ species_suggestions:
       confidence: 0.1869
     - scientific: Hippocampus kuda
       confidence: 0.1029
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-23T04:17:00Z'
+    src_mtime: 1787441088.2645662
+    vocab: 1496b1231bc5
+    top:
+    - scientific: Aulostomus chinensis
+      confidence: 0.1547
+    - scientific: Centropyge loriculus
+      confidence: 0.0989
+    - scientific: Pseudanthias squamipinnis
+      confidence: 0.0476
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-23T04:17:36Z'
+    src_mtime: 1787441088.2645662
+    vocab: 1496b1231bc5
+    top:
+    - scientific: Paragobiodon xanthosoma
+      confidence: 0.3077
+    - scientific: Pearsonothuria graeffei
+      confidence: 0.1496
+    - scientific: Bohadschia argus
+      confidence: 0.1088
 species: []
 species_reviewed:
 - primary

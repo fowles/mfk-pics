@@ -18,19 +18,21 @@ species:
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T04:16:33Z'
     src_mtime: 1786159794.9904213
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Sepioteuthis sepioidea
-      confidence: 0.9038
+      confidence: 0.8916
     - scientific: Aulostomus maculatus
-      confidence: 0.0219
-    - scientific: Sparisoma viride
-      confidence: 0.0076
+      confidence: 0.0216
+    - scientific: Rhincodon typus
+      confidence: 0.0111
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T04:17:00Z'
     src_mtime: 1786159794.9904213
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Cephalopholis cruentata
       confidence: 0.0245
@@ -40,11 +42,12 @@ species_suggestions:
       confidence: 0.0064
     absorbed_by:
       scientific: Xestospongia muta
-      confidence: 0.315
+      confidence: 0.3149
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T04:17:36Z'
     src_mtime: 1786159794.9904213
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Cephalopholis cruentata
       confidence: 0.0

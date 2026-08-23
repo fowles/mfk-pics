@@ -13,15 +13,40 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
-    src_mtime: 1787441082.2115996
+    created: '2026-08-23T04:16:33Z'
+    src_mtime: 1787452403.8888485
+    vocab: 1496b1231bc5
     top:
     - scientific: Abudefduf vaigiensis
-      confidence: 0.5513
+      confidence: 0.6982
+    - scientific: Abudefduf abdominalis
+      confidence: 0.1118
     - scientific: Abudefduf sexfasciatus
-      confidence: 0.1936
-    - scientific: Gymnocranius grandoculis
-      confidence: 0.0552
+      confidence: 0.0808
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-23T04:17:00Z'
+    src_mtime: 1787452403.8888485
+    vocab: 1496b1231bc5
+    top:
+    - scientific: Abudefduf sexfasciatus
+      confidence: 0.4235
+    - scientific: Abudefduf abdominalis
+      confidence: 0.2926
+    - scientific: Abudefduf vaigiensis
+      confidence: 0.0783
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-23T04:17:36Z'
+    src_mtime: 1787452403.8888485
+    vocab: 1496b1231bc5
+    top:
+    - scientific: Abudefduf sexfasciatus
+      confidence: 0.333
+    - scientific: Abudefduf vaigiensis
+      confidence: 0.3106
+    - scientific: Abudefduf abdominalis
+      confidence: 0.2492
 species:
 - scientific: Abudefduf abdominalis
   role: primary

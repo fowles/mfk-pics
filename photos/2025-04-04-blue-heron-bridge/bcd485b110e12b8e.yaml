@@ -13,30 +13,33 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T04:16:33Z'
     src_mtime: 1787277825.4018915
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Sphoeroides spengleri
-      confidence: 0.6145
+      confidence: 0.5988
     - scientific: Sepioteuthis sepioidea
-      confidence: 0.2134
+      confidence: 0.2079
     - scientific: Lactophrys triqueter
-      confidence: 0.0721
+      confidence: 0.0702
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T04:17:00Z'
     src_mtime: 1787277825.4018915
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Sphoeroides spengleri
-      confidence: 0.993
+      confidence: 0.9929
     - scientific: Sphoeroides testudineus
       confidence: 0.0065
     - scientific: Canthigaster jamestyleri
       confidence: 0.0003
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T04:17:36Z'
     src_mtime: 1787277825.4018915
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Sphoeroides spengleri
       confidence: 1.0

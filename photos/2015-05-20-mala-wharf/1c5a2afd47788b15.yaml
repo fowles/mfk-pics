@@ -13,8 +13,9 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T04:16:33Z'
     src_mtime: 1787441079.9979086
+    vocab: 1496b1231bc5
     top:
     - scientific: Chelonia mydas
       confidence: 0.9892
@@ -22,6 +23,30 @@ species_suggestions:
       confidence: 0.0067
     - scientific: Lepidochelys olivacea
       confidence: 0.0027
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-23T04:17:00Z'
+    src_mtime: 1787441079.9979086
+    vocab: 1496b1231bc5
+    top:
+    - scientific: Chelonia mydas
+      confidence: 0.5593
+    - scientific: Eretmochelys imbricata
+      confidence: 0.2015
+    - scientific: Caretta caretta
+      confidence: 0.1811
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-23T04:17:36Z'
+    src_mtime: 1787441079.9979086
+    vocab: 1496b1231bc5
+    top:
+    - scientific: Chelonia mydas
+      confidence: 0.9515
+    - scientific: Eretmochelys imbricata
+      confidence: 0.0483
+    - scientific: Acanthurus triostegus
+      confidence: 0.0001
 species:
 - scientific: Chelonia mydas
   role: primary

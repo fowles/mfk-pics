@@ -13,15 +13,49 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
-    src_mtime: 1787441079.2236705
+    created: '2026-08-23T04:16:33Z'
+    src_mtime: 1787451321.523432
+    vocab: 1496b1231bc5
     top:
-    - scientific: Sepia latimanus
-      confidence: 0.2776
-    - scientific: Echidna nebulosa
-      confidence: 0.1273
-    - scientific: Epinephelus merra
-      confidence: 0.0775
+    - scientific: Tridacna derasa
+      confidence: 0.1291
+    - scientific: Pseudobalistes fuscus
+      confidence: 0.0709
+    - scientific: Acanthurus triostegus
+      confidence: 0.042
+    absorbed_by:
+      scientific: Acropora millepora
+      confidence: 0.1846
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-23T04:17:00Z'
+    src_mtime: 1787451321.523432
+    vocab: 1496b1231bc5
+    top:
+    - scientific: Dascyllus albisella
+      confidence: 0.07
+    - scientific: Chromis vanderbilti
+      confidence: 0.0562
+    - scientific: Aulostomus chinensis
+      confidence: 0.0355
+    absorbed_by:
+      scientific: Pocillopora meandrina
+      confidence: 0.0718
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-23T04:17:36Z'
+    src_mtime: 1787451321.523432
+    vocab: 1496b1231bc5
+    top:
+    - scientific: Aulostomus chinensis
+      confidence: 0.1556
+    - scientific: Chromis vanderbilti
+      confidence: 0.1001
+    - scientific: Paracirrhites arcatus
+      confidence: 0.0246
+    absorbed_by:
+      scientific: Pocillopora meandrina
+      confidence: 0.5477
 species: []
 rotation_applied: 270
 species_reviewed:

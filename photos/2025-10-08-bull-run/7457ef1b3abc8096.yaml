@@ -12,36 +12,39 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T04:16:33Z'
     src_mtime: 1786159806.1166687
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Equetus lanceolatus
-      confidence: 0.3698
+      confidence: 0.369
     - scientific: Pareques acuminatus
-      confidence: 0.3267
+      confidence: 0.326
     - scientific: Chaetodipterus faber
-      confidence: 0.2685
+      confidence: 0.2679
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T04:17:00Z'
     src_mtime: 1786159806.1166687
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Chaetodipterus faber
-      confidence: 0.9955
+      confidence: 0.994
     - scientific: Pareques acuminatus
       confidence: 0.0018
     - scientific: Pomacanthus arcuatus
       confidence: 0.0011
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T04:17:36Z'
     src_mtime: 1786159806.1166687
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Chaetodipterus faber
       confidence: 1.0
     - scientific: Pareques acuminatus
       confidence: 0.0
-    - scientific: Equetus lanceolatus
+    - scientific: Mobula birostris
       confidence: 0.0
 species:
 - scientific: Chaetodipterus faber

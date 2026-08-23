@@ -16,19 +16,21 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T04:16:33Z'
     src_mtime: 1787325597.5342443
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Thalassoma bifasciatum
-      confidence: 0.2047
+      confidence: 0.2022
     - scientific: Pomacanthus paru
-      confidence: 0.1985
+      confidence: 0.1962
     - scientific: Serranus tigrinus
-      confidence: 0.0995
+      confidence: 0.0983
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T04:17:00Z'
     src_mtime: 1787325597.5342443
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Holacanthus ciliaris
       confidence: 0.8099
@@ -38,8 +40,9 @@ species_suggestions:
       confidence: 0.0148
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T04:17:36Z'
     src_mtime: 1787325597.5342443
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Holacanthus ciliaris
       confidence: 0.9994

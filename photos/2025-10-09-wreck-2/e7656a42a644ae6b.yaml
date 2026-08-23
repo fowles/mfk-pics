@@ -12,8 +12,9 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T04:16:33Z'
     src_mtime: 1786159811.0227585
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Anisotremus virginicus
       confidence: 0.9728
@@ -23,19 +24,21 @@ species_suggestions:
       confidence: 0.0091
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T04:17:00Z'
     src_mtime: 1786159811.0227585
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Anisotremus virginicus
-      confidence: 0.7002
+      confidence: 0.6989
     - scientific: Anisotremus surinamensis
-      confidence: 0.1017
+      confidence: 0.1015
     - scientific: Haemulon carbonarium
       confidence: 0.0341
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T04:17:36Z'
     src_mtime: 1786159811.0227585
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Anisotremus virginicus
       confidence: 0.995

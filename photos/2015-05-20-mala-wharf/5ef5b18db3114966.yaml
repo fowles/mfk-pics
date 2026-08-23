@@ -13,15 +13,40 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T04:16:33Z'
     src_mtime: 1787441085.6384175
+    vocab: 1496b1231bc5
     top:
     - scientific: Pterocaesio chrysozona
-      confidence: 0.557
+      confidence: 0.5569
     - scientific: Pterocaesio trilineata
       confidence: 0.1933
     - scientific: Pterocaesio tile
-      confidence: 0.1214
+      confidence: 0.1213
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-23T04:17:00Z'
+    src_mtime: 1787441085.6384175
+    vocab: 1496b1231bc5
+    top:
+    - scientific: Hemiramphus far
+      confidence: 0.1495
+    - scientific: Chelonia mydas
+      confidence: 0.1022
+    - scientific: Decapterus macarellus
+      confidence: 0.1005
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-23T04:17:36Z'
+    src_mtime: 1787441085.6384175
+    vocab: 1496b1231bc5
+    top:
+    - scientific: Mobula thurstoni
+      confidence: 0.5357
+    - scientific: Carcharhinus amblyrhynchos
+      confidence: 0.108
+    - scientific: Mobula tarapacana
+      confidence: 0.0653
 species:
 - scientific: Chelonia mydas
   role: primary

@@ -13,8 +13,9 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T04:16:33Z'
     src_mtime: 1787441081.0305383
+    vocab: 1496b1231bc5
     top:
     - scientific: Balistapus undulatus
       confidence: 0.0933
@@ -22,6 +23,30 @@ species_suggestions:
       confidence: 0.079
     - scientific: Mespilia globulus
       confidence: 0.0501
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-23T04:17:00Z'
+    src_mtime: 1787441081.0305383
+    vocab: 1496b1231bc5
+    top:
+    - scientific: Chaetodon lunulatus
+      confidence: 0.96
+    - scientific: Chaetodon trifascialis
+      confidence: 0.0163
+    - scientific: Chaetodon reticulatus
+      confidence: 0.0055
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-23T04:17:36Z'
+    src_mtime: 1787441081.0305383
+    vocab: 1496b1231bc5
+    top:
+    - scientific: Chaetodon lunulatus
+      confidence: 0.993
+    - scientific: Chaetodon ornatissimus
+      confidence: 0.0063
+    - scientific: Chaetodon citrinellus
+      confidence: 0.0002
 species:
 - scientific: Chaetodon lunulatus
   role: primary

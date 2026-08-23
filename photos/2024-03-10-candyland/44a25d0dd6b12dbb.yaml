@@ -14,35 +14,38 @@ rotation_applied: 270
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T04:16:33Z'
     src_mtime: 1787178323.3421223
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Epinephelus itajara
-      confidence: 0.6228
+      confidence: 0.4586
+    - scientific: Pseudorca crassidens
+      confidence: 0.2596
     - scientific: Gymnothorax funebris
-      confidence: 0.2711
-    - scientific: Aulostomus maculatus
-      confidence: 0.0337
+      confidence: 0.1996
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T04:17:00Z'
     src_mtime: 1787178323.3421223
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Myrichthys breviceps
-      confidence: 0.0479
+      confidence: 0.0472
     - scientific: Stenopus hispidus
-      confidence: 0.0405
+      confidence: 0.04
     - scientific: Elacatinus genie
-      confidence: 0.0376
+      confidence: 0.0371
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T04:17:36Z'
     src_mtime: 1787178323.3421223
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Panulirus argus
-      confidence: 0.3058
+      confidence: 0.3056
     - scientific: Myrichthys breviceps
-      confidence: 0.157
+      confidence: 0.1569
     - scientific: Halichoeres garnoti
       confidence: 0.0168
 species:

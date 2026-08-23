@@ -13,8 +13,9 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T04:16:33Z'
     src_mtime: 1787441085.0402634
+    vocab: 1496b1231bc5
     top:
     - scientific: Sphyraena flavicauda
       confidence: 0.7788
@@ -22,6 +23,30 @@ species_suggestions:
       confidence: 0.0791
     - scientific: Sphyraena jello
       confidence: 0.0481
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-23T04:17:00Z'
+    src_mtime: 1787441085.0402634
+    vocab: 1496b1231bc5
+    top:
+    - scientific: Mulloidichthys vanicolensis
+      confidence: 0.3074
+    - scientific: Pterocaesio chrysozona
+      confidence: 0.2475
+    - scientific: Upeneus vittatus
+      confidence: 0.1626
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-23T04:17:36Z'
+    src_mtime: 1787441085.0402634
+    vocab: 1496b1231bc5
+    top:
+    - scientific: Pterocaesio chrysozona
+      confidence: 0.8198
+    - scientific: Mulloidichthys flavolineatus
+      confidence: 0.101
+    - scientific: Pterocaesio tessellata
+      confidence: 0.0276
 species:
 - scientific: Mulloidichthys vanicolensis
   role: primary

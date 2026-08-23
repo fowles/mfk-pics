@@ -13,15 +13,40 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T04:16:33Z'
     src_mtime: 1787441079.5202281
+    vocab: 1496b1231bc5
     top:
     - scientific: Cephalopholis argus
-      confidence: 0.156
+      confidence: 0.1554
     - scientific: Cromileptes altivelis
-      confidence: 0.1535
+      confidence: 0.1529
     - scientific: Nebrius ferrugineus
-      confidence: 0.0892
+      confidence: 0.0888
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-23T04:17:00Z'
+    src_mtime: 1787441079.5202281
+    vocab: 1496b1231bc5
+    top:
+    - scientific: Chelonia mydas
+      confidence: 0.5856
+    - scientific: Eretmochelys imbricata
+      confidence: 0.1646
+    - scientific: Caretta caretta
+      confidence: 0.0909
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-23T04:17:36Z'
+    src_mtime: 1787441079.5202281
+    vocab: 1496b1231bc5
+    top:
+    - scientific: Chelonia mydas
+      confidence: 0.9747
+    - scientific: Eretmochelys imbricata
+      confidence: 0.0252
+    - scientific: Aetobatus ocellatus
+      confidence: 0.0
 species:
 - scientific: Chelonia mydas
   role: primary

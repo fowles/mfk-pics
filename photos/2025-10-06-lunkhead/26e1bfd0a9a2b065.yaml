@@ -13,8 +13,9 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T04:16:33Z'
     src_mtime: 1786159782.3210719
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Chaetodipterus faber
       confidence: 0.9973
@@ -24,19 +25,21 @@ species_suggestions:
       confidence: 0.0002
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T04:17:00Z'
     src_mtime: 1786159782.3210719
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Chaetodipterus faber
-      confidence: 0.9984
+      confidence: 0.9976
     - scientific: Pareques acuminatus
       confidence: 0.001
-    - scientific: Pomacanthus arcuatus
-      confidence: 0.0003
+    - scientific: Alectis ciliaris
+      confidence: 0.0008
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T04:17:36Z'
     src_mtime: 1786159782.3210719
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Chaetodipterus faber
       confidence: 1.0

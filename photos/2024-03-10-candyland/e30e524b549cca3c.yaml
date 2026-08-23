@@ -13,30 +13,33 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T04:16:33Z'
     src_mtime: 1786158872.4566944
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Scarus coelestinus
-      confidence: 0.7045
+      confidence: 0.7042
     - scientific: Melichthys niger
-      confidence: 0.2539
+      confidence: 0.2538
     - scientific: Centropyge argi
       confidence: 0.0076
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T04:17:00Z'
     src_mtime: 1786158872.4566944
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Cantherhines pullus
-      confidence: 0.4658
+      confidence: 0.4652
     - scientific: Aulostomus maculatus
-      confidence: 0.0916
+      confidence: 0.0914
     - scientific: Sparisoma viride
-      confidence: 0.0915
+      confidence: 0.0914
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T04:17:36Z'
     src_mtime: 1786158872.4566944
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Rypticus saponaceus
       confidence: 0.6168

@@ -13,30 +13,33 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T04:16:33Z'
     src_mtime: 1786071951.1386988
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Gymnothorax funebris
-      confidence: 0.6466
+      confidence: 0.63
     - scientific: Aluterus scriptus
-      confidence: 0.1473
+      confidence: 0.1435
     - scientific: Cantherhines pullus
-      confidence: 0.054
+      confidence: 0.0526
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T04:17:00Z'
     src_mtime: 1786071951.1386988
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Cephalopholis cruentata
-      confidence: 0.2288
+      confidence: 0.2281
     - scientific: Mycteroperca bonaci
-      confidence: 0.1315
+      confidence: 0.1311
     - scientific: Monacanthus tuckeri
-      confidence: 0.0735
+      confidence: 0.0733
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T04:17:36Z'
     src_mtime: 1786071951.1386988
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Mycteroperca venenosa
       confidence: 0.5383

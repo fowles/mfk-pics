@@ -13,37 +13,40 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T04:16:33Z'
     src_mtime: 1786158850.165909
+    vocab: 9eb53da9d7d6
     top:
+    - scientific: Stenella longirostris
+      confidence: 0.4865
     - scientific: Trachinotus falcatus
-      confidence: 0.4176
+      confidence: 0.2109
     - scientific: Caretta caretta
-      confidence: 0.1645
-    - scientific: Canthidermis sufflamen
-      confidence: 0.1517
+      confidence: 0.0831
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T04:17:00Z'
     src_mtime: 1786158850.165909
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Caracara plancus
-      confidence: 0.3781
+      confidence: 0.3137
     - scientific: Homo sapiens
-      confidence: 0.3653
-    - scientific: Caretta caretta
-      confidence: 0.0913
+      confidence: 0.3031
+    - scientific: Canis lupus
+      confidence: 0.0809
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T04:17:36Z'
     src_mtime: 1786158850.165909
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Chelonia mydas
-      confidence: 0.7575
+      confidence: 0.7471
     - scientific: Eretmochelys imbricata
-      confidence: 0.18
+      confidence: 0.1776
     - scientific: Aliger gigas
-      confidence: 0.0126
+      confidence: 0.0125
 species:
 - scientific: Homo sapiens
   role: primary

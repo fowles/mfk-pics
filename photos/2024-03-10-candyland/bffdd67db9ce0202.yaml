@@ -13,30 +13,33 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T04:16:33Z'
     src_mtime: 1786158872.6060054
+    vocab: 9eb53da9d7d6
     top:
+    - scientific: Rhincodon typus
+      confidence: 0.7957
     - scientific: Diodon hystrix
-      confidence: 0.5071
+      confidence: 0.1035
     - scientific: Sphyraena barracuda
-      confidence: 0.1268
-    - scientific: Diodon holocanthus
-      confidence: 0.1087
+      confidence: 0.0259
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T04:17:00Z'
     src_mtime: 1786158872.6060054
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Aluterus scriptus
-      confidence: 0.6408
+      confidence: 0.6391
     - scientific: Acanthostracion polygonius
-      confidence: 0.0709
+      confidence: 0.0708
     - scientific: Mycteroperca bonaci
-      confidence: 0.0465
+      confidence: 0.0464
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T04:17:36Z'
     src_mtime: 1786158872.6060054
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Aluterus scriptus
       confidence: 0.6068

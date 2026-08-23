@@ -12,30 +12,33 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T04:16:33Z'
     src_mtime: 1786159810.7893164
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Lutjanus griseus
-      confidence: 0.8043
+      confidence: 0.8032
     - scientific: Haemulon album
-      confidence: 0.1223
+      confidence: 0.1222
     - scientific: Lutjanus mahogoni
       confidence: 0.0541
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T04:17:00Z'
     src_mtime: 1786159810.7893164
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Haemulon album
-      confidence: 0.4622
+      confidence: 0.4585
     - scientific: Anisotremus surinamensis
-      confidence: 0.3844
+      confidence: 0.3813
     - scientific: Anisotremus virginicus
-      confidence: 0.0445
+      confidence: 0.0442
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T04:17:36Z'
     src_mtime: 1786159810.7893164
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Haemulon album
       confidence: 0.7467

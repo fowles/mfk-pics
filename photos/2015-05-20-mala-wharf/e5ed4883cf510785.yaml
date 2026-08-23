@@ -13,8 +13,9 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T04:16:33Z'
     src_mtime: 1787441080.2919579
+    vocab: 1496b1231bc5
     top:
     - scientific: Triaenodon obesus
       confidence: 0.3939
@@ -22,6 +23,30 @@ species_suggestions:
       confidence: 0.3099
     - scientific: Fistularia commersonii
       confidence: 0.1494
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-23T04:17:00Z'
+    src_mtime: 1787441080.2919579
+    vocab: 1496b1231bc5
+    top:
+    - scientific: Eretmochelys imbricata
+      confidence: 0.3116
+    - scientific: Chelonia mydas
+      confidence: 0.22
+    - scientific: Scuticaria tigrina
+      confidence: 0.1018
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-23T04:17:36Z'
+    src_mtime: 1787441080.2919579
+    vocab: 1496b1231bc5
+    top:
+    - scientific: Aulostomus chinensis
+      confidence: 0.5905
+    - scientific: Fistularia commersonii
+      confidence: 0.3786
+    - scientific: Triaenodon obesus
+      confidence: 0.0202
 species:
 - scientific: Chelonia mydas
   role: primary
