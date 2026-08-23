@@ -13,9 +13,9 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T03:53:43Z'
+    created: '2026-08-23T17:28:05Z'
     src_mtime: 1787441077.569309
-    vocab: 1496b1231bc5
+    vocab: e269cc0058c6
     top:
     - scientific: Dascyllus albisella
       confidence: 0.9786
@@ -25,9 +25,9 @@ species_suggestions:
       confidence: 0.0026
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-23T03:55:24Z'
+    created: '2026-08-23T17:30:46Z'
     src_mtime: 1787441077.569309
-    vocab: 1496b1231bc5
+    vocab: e269cc0058c6
     top:
     - scientific: Dascyllus albisella
       confidence: 0.7685
@@ -37,14 +37,14 @@ species_suggestions:
       confidence: 0.04
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-23T03:58:12Z'
+    created: '2026-08-23T17:36:20Z'
     src_mtime: 1787441077.569309
-    vocab: 1496b1231bc5
+    vocab: e269cc0058c6
     top:
     - scientific: Dascyllus albisella
       confidence: 0.6427
     - scientific: Dascyllus trimaculatus
-      confidence: 0.3528
+      confidence: 0.3529
     - scientific: Macolor niger
       confidence: 0.0021
 species:

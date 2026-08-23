@@ -15,7 +15,7 @@ variants:
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T03:53:43Z'
+    created: '2026-08-23T18:20:51Z'
     src_mtime: 1787445730.0553956
     vocab: d07e6f895399
     top:
@@ -24,22 +24,22 @@ species_suggestions:
     - scientific: Bodianus diplotaenia
       confidence: 0.1478
     - scientific: Haemulon sexfasciatum
-      confidence: 0.0805
+      confidence: 0.0806
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-23T03:55:24Z'
+    created: '2026-08-23T18:22:34Z'
     src_mtime: 1787445730.0553956
     vocab: d07e6f895399
     top:
     - scientific: Lutjanus argentiventris
       confidence: 0.4843
     - scientific: Mulloidichthys dentatus
-      confidence: 0.3126
+      confidence: 0.3125
     - scientific: Haemulon steindachneri
       confidence: 0.0893
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-23T03:58:12Z'
+    created: '2026-08-23T18:25:36Z'
     src_mtime: 1787445730.0553956
     vocab: d07e6f895399
     top:

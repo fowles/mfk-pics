@@ -13,7 +13,7 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T03:53:43Z'
+    created: '2026-08-23T18:20:51Z'
     src_mtime: 1786159792.2320423
     vocab: 9eb53da9d7d6
     top:
@@ -25,7 +25,7 @@ species_suggestions:
       confidence: 0.0068
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-23T03:55:24Z'
+    created: '2026-08-23T18:22:34Z'
     src_mtime: 1786159792.2320423
     vocab: 9eb53da9d7d6
     top:
@@ -37,7 +37,7 @@ species_suggestions:
       confidence: 0.0635
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-23T03:58:12Z'
+    created: '2026-08-23T18:25:36Z'
     src_mtime: 1786159792.2320423
     vocab: 9eb53da9d7d6
     top:

@@ -8,7 +8,7 @@ import_original_name: PXL_20230406_153030800.jpg
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T03:53:43Z'
+    created: '2026-08-23T18:20:51Z'
     src_mtime: 1787445732.102776
     vocab: d07e6f895399
     top:
@@ -20,7 +20,7 @@ species_suggestions:
       confidence: 0.0241
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-23T03:55:24Z'
+    created: '2026-08-23T18:22:34Z'
     src_mtime: 1787445732.102776
     vocab: d07e6f895399
     top:
@@ -32,7 +32,7 @@ species_suggestions:
       confidence: 0.0792
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-23T03:58:12Z'
+    created: '2026-08-23T18:25:36Z'
     src_mtime: 1787445732.102776
     vocab: d07e6f895399
     top:

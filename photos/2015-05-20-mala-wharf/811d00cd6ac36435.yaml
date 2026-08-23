@@ -13,26 +13,26 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T04:16:33Z'
+    created: '2026-08-23T17:28:05Z'
     src_mtime: 1787441081.2026646
-    vocab: 1496b1231bc5
+    vocab: e269cc0058c6
     top:
     - scientific: Scolopsis bilineata
       confidence: 0.351
     - scientific: Aulostomus chinensis
       confidence: 0.0875
     - scientific: Hemitaurichthys polylepis
-      confidence: 0.0573
+      confidence: 0.0572
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-23T04:17:00Z'
+    created: '2026-08-23T17:30:46Z'
     src_mtime: 1787441081.2026646
-    vocab: 1496b1231bc5
+    vocab: e269cc0058c6
     top:
     - scientific: Nemateleotris magnifica
       confidence: 0.0527
     - scientific: Cephalopholis urodeta
-      confidence: 0.0442
+      confidence: 0.0441
     - scientific: Chromis vanderbilti
       confidence: 0.0279
     absorbed_by:
@@ -40,9 +40,9 @@ species_suggestions:
       confidence: 0.0749
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-23T04:17:36Z'
+    created: '2026-08-23T17:36:20Z'
     src_mtime: 1787441081.2026646
-    vocab: 1496b1231bc5
+    vocab: e269cc0058c6
     top:
     - scientific: Carcharhinus amblyrhynchos
       confidence: 0.3692
