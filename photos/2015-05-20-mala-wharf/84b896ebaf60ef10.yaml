@@ -23,7 +23,10 @@ species_suggestions:
     - scientific: Eretmochelys imbricata
       confidence: 0.0892
 species:
-- scientific: Arothron meleagris
+- scientific: Triaenodon obesus
   role: primary
-  confidence: 0.2095
-  identified_by: bioclip
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

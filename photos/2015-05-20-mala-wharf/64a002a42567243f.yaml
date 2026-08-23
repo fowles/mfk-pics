@@ -23,7 +23,13 @@ species_suggestions:
     - scientific: Comaster nobilis
       confidence: 0.0618
 species:
-- scientific: Sepia latimanus
+- scientific: Homo sapiens
   role: primary
-  confidence: 0.5779
-  identified_by: bioclip
+  identified_by: human
+  reviewed_by: matt
+  person:
+  - Matthew Kulukundis
+  - Delia Kulukundis
+species_reviewed:
+- primary
+- secondary

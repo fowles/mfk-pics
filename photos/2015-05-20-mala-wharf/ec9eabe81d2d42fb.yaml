@@ -22,8 +22,7 @@ species_suggestions:
       confidence: 0.1869
     - scientific: Hippocampus kuda
       confidence: 0.1029
-species:
-- scientific: Corythoichthys schultzi
-  role: primary
-  confidence: 0.3167
-  identified_by: bioclip
+species: []
+species_reviewed:
+- primary
+- secondary

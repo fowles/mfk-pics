@@ -22,8 +22,7 @@ species_suggestions:
       confidence: 0.1157
     - scientific: Fistularia commersonii
       confidence: 0.1076
-species:
-- scientific: Aulostomus chinensis
-  role: primary
-  confidence: 0.1933
-  identified_by: bioclip
+species: []
+species_reviewed:
+- primary
+- secondary

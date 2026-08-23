@@ -22,8 +22,8 @@ species_suggestions:
       confidence: 0.1273
     - scientific: Epinephelus merra
       confidence: 0.0775
-species:
-- scientific: Sepia latimanus
-  role: primary
-  confidence: 0.2776
-  identified_by: bioclip
+species: []
+rotation_applied: 270
+species_reviewed:
+- primary
+- secondary

@@ -23,7 +23,10 @@ species_suggestions:
     - scientific: Pterocaesio tile
       confidence: 0.1214
 species:
-- scientific: Pterocaesio chrysozona
+- scientific: Chelonia mydas
   role: primary
-  confidence: 0.557
-  identified_by: bioclip
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

@@ -23,7 +23,10 @@ species_suggestions:
     - scientific: Holothuria coluber
       confidence: 0.1229
 species:
-- scientific: Tylosurus crocodilus
+- scientific: Triaenodon obesus
   role: primary
-  confidence: 0.3502
-  identified_by: bioclip
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

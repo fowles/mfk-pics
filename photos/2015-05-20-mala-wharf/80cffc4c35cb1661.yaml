@@ -25,3 +25,6 @@ species_suggestions:
     absorbed_by:
       scientific: Porites lutea
       confidence: 0.5998
+species_reviewed:
+- primary
+- secondary

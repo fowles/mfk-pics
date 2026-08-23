@@ -24,6 +24,14 @@ species_suggestions:
       confidence: 0.0156
 species:
 - scientific: Fistularia commersonii
+  role: secondary
+  identified_by: human
+  confirmed_from: bioclip
+  reviewed_by: matt
+- scientific: Chelonia mydas
   role: primary
-  confidence: 0.8778
-  identified_by: bioclip
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

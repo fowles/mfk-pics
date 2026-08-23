@@ -23,7 +23,14 @@ species_suggestions:
     - scientific: Platybelone argalus
       confidence: 0.0202
 species:
-- scientific: Fistularia commersonii
+- scientific: Chelonia mydas
   role: primary
-  confidence: 0.8099
-  identified_by: bioclip
+  identified_by: human
+  reviewed_by: matt
+- scientific: Homo sapiens
+  role: secondary
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

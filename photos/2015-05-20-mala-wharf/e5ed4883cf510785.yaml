@@ -23,7 +23,10 @@ species_suggestions:
     - scientific: Fistularia commersonii
       confidence: 0.1494
 species:
-- scientific: Triaenodon obesus
+- scientific: Chelonia mydas
   role: primary
-  confidence: 0.3939
-  identified_by: bioclip
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

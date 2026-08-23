@@ -23,7 +23,16 @@ species_suggestions:
     - scientific: Lethrinus olivaceus
       confidence: 0.0585
 species:
-- scientific: Fistularia commersonii
+- scientific: Homo sapiens
+  role: secondary
+  identified_by: human
+  reviewed_by: matt
+  person:
+  - Matthew Kulukundis
+- scientific: Carcharhinus amblyrhynchos
   role: primary
-  confidence: 0.5313
-  identified_by: bioclip
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

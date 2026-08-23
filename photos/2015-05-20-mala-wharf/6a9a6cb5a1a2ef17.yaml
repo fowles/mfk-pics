@@ -23,7 +23,10 @@ species_suggestions:
     - scientific: Stenopus hispidus
       confidence: 0.0935
 species:
-- scientific: Panulirus penicillatus
+- scientific: Chelonia mydas
   role: primary
-  confidence: 0.2562
-  identified_by: bioclip
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

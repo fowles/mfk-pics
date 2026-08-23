@@ -10,3 +10,8 @@ lon: -156.68646
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species:
+- scientific: Mulloidichthys flavolineatus
+  role: primary
+  identified_by: human
+  reviewed_by: matt

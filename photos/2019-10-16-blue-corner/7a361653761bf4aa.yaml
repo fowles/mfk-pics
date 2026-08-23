@@ -23,7 +23,14 @@ species_suggestions:
     - scientific: Thalassoma lunare
       confidence: 0.1301
 species:
-- scientific: Acanthurus olivaceus
+- scientific: Balistoides viridescens
   role: primary
-  confidence: 0.2257
-  identified_by: bioclip
+  identified_by: human
+  reviewed_by: matt
+- scientific: Homo sapiens
+  role: secondary
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

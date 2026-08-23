@@ -23,7 +23,11 @@ species_suggestions:
     - scientific: Echeneis naucrates
       confidence: 0.0424
 species:
-- scientific: Stenella longirostris
+- scientific: Triaenodon obesus
   role: primary
-  confidence: 0.4167
-  identified_by: bioclip
+  identified_by: human
+  confirmed_from: bioclip
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

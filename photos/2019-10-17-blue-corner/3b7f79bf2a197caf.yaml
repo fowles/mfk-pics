@@ -23,7 +23,19 @@ species_suggestions:
     - scientific: Odonus niger
       confidence: 0.0669
 species:
-- scientific: Rhincodon typus
+- scientific: Homo sapiens
+  role: secondary
+  identified_by: human
+  reviewed_by: matt
+- scientific: Odonus niger
+  role: secondary
+  identified_by: human
+  confirmed_from: bioclip
+  reviewed_by: matt
+- scientific: Carcharhinus amblyrhynchos
   role: primary
-  confidence: 0.4052
-  identified_by: bioclip
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

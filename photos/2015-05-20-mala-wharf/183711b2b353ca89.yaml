@@ -20,7 +20,10 @@ species_suggestions:
     - scientific: Tursiops truncatus
       confidence: 0.0023
 species:
-- scientific: Stenella attenuata
+- scientific: Canis lupus
   role: primary
-  confidence: 0.9758
-  identified_by: bioclip
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

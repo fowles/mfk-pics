@@ -25,3 +25,12 @@ species_suggestions:
     absorbed_by:
       scientific: Distichopora violacea
       confidence: 0.5169
+species:
+- scientific: Linckia laevigata
+  role: primary
+  identified_by: human
+  confirmed_from: bioclip
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

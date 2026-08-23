@@ -23,7 +23,10 @@ species_suggestions:
     - scientific: Abudefduf vaigiensis
       confidence: 0.0571
 species:
-- scientific: Nembrotha purpureolineata
+- scientific: Abudefduf abdominalis
   role: primary
-  confidence: 0.4495
-  identified_by: bioclip
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

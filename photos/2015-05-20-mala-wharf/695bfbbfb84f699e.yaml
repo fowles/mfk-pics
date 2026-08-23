@@ -23,7 +23,11 @@ species_suggestions:
     - scientific: Naso brevirostris
       confidence: 0.1195
 species:
-- scientific: Rhinecanthus aculeatus
+- scientific: Cantherhines dumerilii
   role: primary
-  confidence: 0.2002
-  identified_by: bioclip
+  identified_by: human
+  reviewed_by: matt
+rotation_applied: 90
+species_reviewed:
+- primary
+- secondary

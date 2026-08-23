@@ -22,8 +22,7 @@ species_suggestions:
       confidence: 0.0855
     - scientific: Ostorhinchus cookii
       confidence: 0.0515
-species:
-- scientific: Myripristis adusta
-  role: primary
-  confidence: 0.2992
-  identified_by: bioclip
+species: []
+species_reviewed:
+- primary
+- secondary

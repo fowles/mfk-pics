@@ -23,7 +23,14 @@ species_suggestions:
     - scientific: Aulostomus chinensis
       confidence: 0.0559
 species:
-- scientific: Tursiops aduncus
+- scientific: Chelonia mydas
   role: primary
-  confidence: 0.5156
-  identified_by: bioclip
+  identified_by: human
+  reviewed_by: matt
+- scientific: Fistularia commersonii
+  role: secondary
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

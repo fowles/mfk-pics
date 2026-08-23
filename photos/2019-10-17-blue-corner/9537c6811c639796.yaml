@@ -23,7 +23,14 @@ species_suggestions:
     - scientific: Mobula birostris
       confidence: 0.0546
 species:
-- scientific: Rhincodon typus
+- scientific: Homo sapiens
   role: primary
-  confidence: 0.6564
-  identified_by: bioclip
+  identified_by: human
+  reviewed_by: matt
+- scientific: Odonus niger
+  role: secondary
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

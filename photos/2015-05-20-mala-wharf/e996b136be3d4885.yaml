@@ -23,7 +23,10 @@ species_suggestions:
     - scientific: Nebrius ferrugineus
       confidence: 0.0892
 species:
-- scientific: Cephalopholis argus
+- scientific: Chelonia mydas
   role: primary
-  confidence: 0.156
-  identified_by: bioclip
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

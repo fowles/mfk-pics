@@ -23,7 +23,11 @@ species_suggestions:
     - scientific: Mulloidichthys vanicolensis
       confidence: 0.1375
 species:
-- scientific: Sphyraena flavicauda
+- scientific: Mulloidichthys vanicolensis
   role: primary
-  confidence: 0.5202
-  identified_by: bioclip
+  identified_by: human
+  confirmed_from: bioclip
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

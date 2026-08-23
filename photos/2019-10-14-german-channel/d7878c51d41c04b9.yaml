@@ -23,7 +23,12 @@ species_suggestions:
     - scientific: Iniistius pavo
       confidence: 0.1175
 species:
-- scientific: Mobula alfredi
+- scientific: Homo sapiens
   role: primary
-  confidence: 0.3284
-  identified_by: bioclip
+  identified_by: human
+  reviewed_by: matt
+  person:
+  - Matthew Kulukundis
+species_reviewed:
+- primary
+- secondary

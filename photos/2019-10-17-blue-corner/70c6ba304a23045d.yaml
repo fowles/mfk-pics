@@ -23,7 +23,14 @@ species_suggestions:
     - scientific: Melichthys niger
       confidence: 0.0886
 species:
-- scientific: Macolor niger
+- scientific: Cheilinus undulatus
   role: primary
-  confidence: 0.4065
-  identified_by: bioclip
+  identified_by: human
+  reviewed_by: matt
+- scientific: Homo sapiens
+  role: secondary
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

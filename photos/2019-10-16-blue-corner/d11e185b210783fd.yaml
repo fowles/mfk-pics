@@ -23,7 +23,12 @@ species_suggestions:
     - scientific: Rhincodon typus
       confidence: 0.0566
 species:
-- scientific: Dascyllus trimaculatus
+- scientific: Homo sapiens
   role: primary
-  confidence: 0.2884
-  identified_by: bioclip
+  identified_by: human
+  reviewed_by: matt
+  person:
+  - Delia Kulukundis
+species_reviewed:
+- primary
+- secondary

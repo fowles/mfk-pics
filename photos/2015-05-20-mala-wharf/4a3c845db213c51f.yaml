@@ -23,7 +23,18 @@ species_suggestions:
     - scientific: Triaenodon obesus
       confidence: 0.0317
 species:
-- scientific: Aulostomus chinensis
+- scientific: Chelonia mydas
   role: primary
-  confidence: 0.7372
-  identified_by: bioclip
+  identified_by: human
+  reviewed_by: matt
+- scientific: Lutjanus kasmira
+  role: secondary
+  identified_by: human
+  reviewed_by: matt
+- scientific: Mulloidichthys flavolineatus
+  role: secondary
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

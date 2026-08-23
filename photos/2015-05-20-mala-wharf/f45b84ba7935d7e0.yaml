@@ -23,7 +23,11 @@ species_suggestions:
     - scientific: Pastinachus ater
       confidence: 0.03
 species:
-- scientific: Nebrius ferrugineus
+- scientific: Triaenodon obesus
   role: primary
-  confidence: 0.546
-  identified_by: bioclip
+  identified_by: human
+  confirmed_from: bioclip
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

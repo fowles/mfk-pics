@@ -22,8 +22,20 @@ species_suggestions:
       confidence: 0.1531
     - scientific: Sphyraena forsteri
       confidence: 0.1303
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-23T03:43:18Z'
+    src_mtime: 1787441083.0925872
+    vocab: 1496b1231bc5
+    top:
+    - scientific: Lutjanus gibbus
+      confidence: 0.0845
+    - scientific: Macolor niger
+      confidence: 0.05
+    - scientific: Lutjanus fulvus
+      confidence: 0.022
 species:
-- scientific: Sepia latimanus
+- scientific: Lutjanus gibbus
   role: primary
-  confidence: 0.363
-  identified_by: bioclip
+  confidence: 0.0845
+  identified_by: bioclip-2

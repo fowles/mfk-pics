@@ -22,8 +22,7 @@ species_suggestions:
       confidence: 0.1065
     - scientific: Myripristis pralinia
       confidence: 0.0963
-species:
-- scientific: Paracirrhites arcatus
-  role: primary
-  confidence: 0.2895
-  identified_by: bioclip
+species: []
+species_reviewed:
+- primary
+- secondary

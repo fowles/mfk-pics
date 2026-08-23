@@ -23,7 +23,10 @@ species_suggestions:
     - scientific: Hemitaurichthys polylepis
       confidence: 0.0575
 species:
-- scientific: Scolopsis bilineata
+- scientific: Zanclus cornutus
   role: primary
-  confidence: 0.3523
-  identified_by: bioclip
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

@@ -23,7 +23,14 @@ species_suggestions:
     - scientific: Sphyraena flavicauda
       confidence: 0.0273
 species:
-- scientific: Fistularia commersonii
+- scientific: Homo sapiens
+  role: secondary
+  identified_by: human
+  reviewed_by: matt
+- scientific: Carcharhinus amblyrhynchos
   role: primary
-  confidence: 0.6461
-  identified_by: bioclip
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

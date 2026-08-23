@@ -23,7 +23,10 @@ species_suggestions:
     - scientific: Megaptera novaeangliae
       confidence: 0.0835
 species:
-- scientific: Caretta caretta
+- scientific: Chelonia mydas
   role: primary
-  confidence: 0.3164
-  identified_by: bioclip
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

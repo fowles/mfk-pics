@@ -23,7 +23,10 @@ species_suggestions:
     - scientific: Neopomacentrus cyanomos
       confidence: 0.0181
 species:
-- scientific: Neopomacentrus violascens
+- scientific: Priacanthus meeki
   role: primary
-  confidence: 0.9068
-  identified_by: bioclip
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

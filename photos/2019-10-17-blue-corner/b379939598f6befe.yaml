@@ -23,7 +23,16 @@ species_suggestions:
     - scientific: Balistoides conspicillum
       confidence: 0.1126
 species:
-- scientific: Tursiops aduncus
+- scientific: Homo sapiens
+  role: secondary
+  identified_by: human
+  reviewed_by: matt
+  person:
+  - Matthew Kulukundis
+- scientific: Cheilinus undulatus
   role: primary
-  confidence: 0.3015
-  identified_by: bioclip
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

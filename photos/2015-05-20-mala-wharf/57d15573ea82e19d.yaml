@@ -23,7 +23,13 @@ species_suggestions:
     - scientific: Triaenodon obesus
       confidence: 0.0403
 species:
-- scientific: Sepioteuthis lessoniana
+- scientific: Homo sapiens
   role: primary
-  confidence: 0.2772
-  identified_by: bioclip
+  identified_by: human
+  reviewed_by: matt
+  person:
+  - Matthew Kulukundis
+  - Delia Kulukundis
+species_reviewed:
+- primary
+- secondary

@@ -23,7 +23,10 @@ species_suggestions:
     - scientific: Rhincodon typus
       confidence: 0.0572
 species:
-- scientific: Melichthys niger
+- scientific: Homo sapiens
   role: primary
-  confidence: 0.1912
-  identified_by: bioclip
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

@@ -272,11 +272,11 @@
 - {scientific: "Thalassia testudinum", common: "Turtle Grass", regions: ["Caribbean"], distractor: true}
 - {scientific: "Halimeda opuntia", common: "Watercress Alga", regions: ["Caribbean", "Eastern Pacific", "Indo-Pacific"], distractor: true}
 - {scientific: "Chrysiptera parasema", common: "Yellowtail Blue Damsel", regions: ["Indo-Pacific"]}
-- {scientific: Canthigaster jamestyleri, common: Goldface Toby, regions: [Caribbean]}
-- {scientific: Sparisoma amplum, common: Reef Parrotfish, regions: [Caribbean]}
-- {scientific: Epinephelus adscensionis, common: Rock Hind, regions: [Caribbean]}
-- {scientific: Osachila antillensis, common: Box Crab, regions: [Caribbean]}
-- {scientific: Haemulon album, common: White Margate, regions: [Caribbean]}
+- {scientific: "Canthigaster jamestyleri", common: "Goldface Toby", regions: ["Caribbean"]}
+- {scientific: "Sparisoma amplum", common: "Reef Parrotfish", regions: ["Caribbean"]}
+- {scientific: "Epinephelus adscensionis", common: "Rock Hind", regions: ["Caribbean"]}
+- {scientific: "Osachila antillensis", common: "Box Crab", regions: ["Caribbean"]}
+- {scientific: "Haemulon album", common: "White Margate", regions: ["Caribbean"]}
 
 # --- Eastern Pacific (Sea of Cortez: Cabo Pulmo, Los Cabos, La Paz) ---------
 # Seeded 2026-08-22 from the regional reef-fish and invertebrate faunas; the
@@ -1885,3 +1885,7 @@
 - {scientific: "Halophila ovalis", common: "Paddle Weed", aliases: ["Spoon Grass"], regions: ["Indo-Pacific"], distractor: true}
 - {scientific: "Rhizophora apiculata", common: "Tall-stilt Mangrove", regions: ["Indo-Pacific"], distractor: true}
 - {scientific: "Sonneratia alba", common: "Mangrove Apple", regions: ["Indo-Pacific"], distractor: true}
+- {scientific: "Abudefduf abdominalis", common: "Hawaiian sergeant major", regions: ["Indo-Pacific"]}
+- {scientific: "Priacanthus meeki", common: "Hawaiian bigeye", regions: ["Indo-Pacific"]}
+- {scientific: "Dascyllus albisella", common: "Hawaiian dascyllus", regions: ["Indo-Pacific"]}
+- {scientific: "Canis lupus", common: "Dog", unlisted: true}

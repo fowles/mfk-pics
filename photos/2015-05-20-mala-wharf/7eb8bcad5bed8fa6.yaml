@@ -23,7 +23,10 @@ species_suggestions:
     - scientific: Stethojulis trilineata
       confidence: 0.0715
 species:
-- scientific: Acanthurus triostegus
+- scientific: Chelonia mydas
   role: primary
-  confidence: 0.288
-  identified_by: bioclip
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

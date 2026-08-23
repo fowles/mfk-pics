@@ -23,7 +23,10 @@ species_suggestions:
     - scientific: Sphyraena flavicauda
       confidence: 0.1084
 species:
-- scientific: Pterocaesio trilineata
+- scientific: Mulloidichthys vanicolensis
   role: primary
-  confidence: 0.3987
-  identified_by: bioclip
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

@@ -23,7 +23,10 @@ species_suggestions:
     - scientific: Sphyraena jello
       confidence: 0.0481
 species:
-- scientific: Sphyraena flavicauda
+- scientific: Mulloidichthys vanicolensis
   role: primary
-  confidence: 0.7788
-  identified_by: bioclip
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

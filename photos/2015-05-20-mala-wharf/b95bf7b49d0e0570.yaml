@@ -23,7 +23,11 @@ species_suggestions:
     - scientific: Caranx ignobilis
       confidence: 0.1309
 species:
-- scientific: Caretta caretta
+- scientific: Chelonia mydas
   role: primary
-  confidence: 0.328
-  identified_by: bioclip
+  identified_by: human
+  confirmed_from: bioclip
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

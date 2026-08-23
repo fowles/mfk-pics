@@ -23,7 +23,14 @@ species_suggestions:
     - scientific: Sphyraena forsteri
       confidence: 0.0434
 species:
-- scientific: Sphyraena barracuda
+- scientific: Homo sapiens
+  role: secondary
+  identified_by: human
+  reviewed_by: matt
+- scientific: Carcharhinus amblyrhynchos
   role: primary
-  confidence: 0.7741
-  identified_by: bioclip
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

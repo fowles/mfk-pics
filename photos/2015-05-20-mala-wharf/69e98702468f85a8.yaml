@@ -23,7 +23,11 @@ species_suggestions:
     - scientific: Chelonia mydas
       confidence: 0.1233
 species:
-- scientific: Hipposcarus longiceps
+- scientific: Chelonia mydas
   role: primary
-  confidence: 0.4406
-  identified_by: bioclip
+  identified_by: human
+  confirmed_from: bioclip
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

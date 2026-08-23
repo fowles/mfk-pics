@@ -23,7 +23,8 @@ species_suggestions:
     - scientific: Pterocaesio chrysozona
       confidence: 0.1145
 species:
-- scientific: Upeneus moluccensis
+- scientific: Mulloidichthys vanicolensis
   role: primary
-  confidence: 0.3272
-  identified_by: bioclip
+  identified_by: human
+  confirmed_from: bioclip
+  reviewed_by: matt

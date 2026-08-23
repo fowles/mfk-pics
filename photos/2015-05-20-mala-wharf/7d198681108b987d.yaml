@@ -23,7 +23,10 @@ species_suggestions:
     - scientific: Sphyraena forsteri
       confidence: 0.0869
 species:
-- scientific: Sphyraena jello
+- scientific: Mulloidichthys vanicolensis
   role: primary
-  confidence: 0.3285
-  identified_by: bioclip
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

@@ -23,7 +23,14 @@ species_suggestions:
     - scientific: Nebrius ferrugineus
       confidence: 0.0373
 species:
-- scientific: Tursiops truncatus
+- scientific: Chelonia mydas
   role: primary
-  confidence: 0.6196
-  identified_by: bioclip
+  identified_by: human
+  reviewed_by: matt
+- scientific: Homo sapiens
+  role: secondary
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

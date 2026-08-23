@@ -22,8 +22,8 @@ species_suggestions:
       confidence: 0.0865
     - scientific: Sepia latimanus
       confidence: 0.0812
-species:
-- scientific: Macolor macularis
-  role: primary
-  confidence: 0.234
-  identified_by: bioclip
+species: []
+culled: true
+species_reviewed:
+- primary
+- secondary

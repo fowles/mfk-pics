@@ -23,7 +23,10 @@ species_suggestions:
     - scientific: Mespilia globulus
       confidence: 0.0501
 species:
-- scientific: Balistapus undulatus
+- scientific: Chaetodon lunulatus
   role: primary
-  confidence: 0.0933
-  identified_by: bioclip
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

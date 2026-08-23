@@ -22,8 +22,7 @@ species_suggestions:
       confidence: 0.1891
     - scientific: Syngnathoides biaculeatus
       confidence: 0.0842
-species:
-- scientific: Aulostomus chinensis
-  role: primary
-  confidence: 0.6994
-  identified_by: bioclip
+species: []
+species_reviewed:
+- primary
+- secondary

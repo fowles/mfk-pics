@@ -23,7 +23,10 @@ species_suggestions:
     - scientific: Rhincodon typus
       confidence: 0.0789
 species:
-- scientific: Sepioteuthis lessoniana
+- scientific: Homo sapiens
   role: primary
-  confidence: 0.4361
-  identified_by: bioclip
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

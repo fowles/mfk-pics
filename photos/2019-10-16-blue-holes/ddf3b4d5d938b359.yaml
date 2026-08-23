@@ -23,7 +23,12 @@ species_suggestions:
     - scientific: Carcharhinus melanopterus
       confidence: 0.1369
 species:
-- scientific: Triaenodon obesus
+- scientific: Carcharhinus melanopterus
   role: primary
-  confidence: 0.3482
-  identified_by: bioclip
+  identified_by: human
+  confirmed_from: bioclip
+  reviewed_by: matt
+  cover: true
+species_reviewed:
+- primary
+- secondary

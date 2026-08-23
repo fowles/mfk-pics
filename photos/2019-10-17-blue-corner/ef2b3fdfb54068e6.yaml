@@ -23,7 +23,15 @@ species_suggestions:
     - scientific: Rhynchobatus australiae
       confidence: 0.0792
 species:
-- scientific: Pseudobalistes fuscus
+- scientific: Cheilinus undulatus
   role: primary
-  confidence: 0.5766
-  identified_by: bioclip
+  identified_by: human
+  reviewed_by: matt
+  cover: true
+- scientific: Homo sapiens
+  role: secondary
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

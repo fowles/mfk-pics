@@ -22,8 +22,8 @@ species_suggestions:
       confidence: 0.1319
     - scientific: Pseudobalistes fuscus
       confidence: 0.0804
-species:
-- scientific: Triaenodon obesus
-  role: primary
-  confidence: 0.5428
-  identified_by: bioclip
+species: []
+culled: true
+species_reviewed:
+- primary
+- secondary

@@ -23,7 +23,10 @@ species_suggestions:
     - scientific: Sepia latimanus
       confidence: 0.1554
 species:
-- scientific: Syngnathoides biaculeatus
+- scientific: Ostracion meleagris
   role: primary
-  confidence: 0.2156
-  identified_by: bioclip
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

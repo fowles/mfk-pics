@@ -23,7 +23,16 @@ species_suggestions:
     - scientific: Carcharhinus longimanus
       confidence: 0.073
 species:
-- scientific: Triaenodon obesus
+- scientific: Carcharhinus amblyrhynchos
   role: primary
-  confidence: 0.424
-  identified_by: bioclip
+  identified_by: human
+  reviewed_by: matt
+- scientific: Homo sapiens
+  role: secondary
+  identified_by: human
+  reviewed_by: matt
+  person:
+  - Matthew Kulukundis
+species_reviewed:
+- primary
+- secondary

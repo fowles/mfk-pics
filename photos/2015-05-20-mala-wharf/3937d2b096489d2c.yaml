@@ -23,7 +23,10 @@ species_suggestions:
     - scientific: Pterocaesio tessellata
       confidence: 0.1273
 species:
-- scientific: Sphyraena forsteri
+- scientific: Mulloidichthys vanicolensis
   role: primary
-  confidence: 0.4053
-  identified_by: bioclip
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

@@ -23,7 +23,19 @@ species_suggestions:
     - scientific: Forcipiger longirostris
       confidence: 0.0957
 species:
-- scientific: Aulostomus chinensis
+- scientific: Forcipiger longirostris
   role: primary
-  confidence: 0.2651
-  identified_by: bioclip
+  identified_by: human
+  confirmed_from: bioclip
+  reviewed_by: matt
+- scientific: Homo sapiens
+  role: secondary
+  identified_by: human
+  reviewed_by: matt
+- scientific: Zanclus cornutus
+  role: secondary
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

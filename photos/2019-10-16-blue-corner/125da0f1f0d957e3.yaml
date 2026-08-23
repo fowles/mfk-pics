@@ -23,7 +23,16 @@ species_suggestions:
     - scientific: Forcipiger longirostris
       confidence: 0.1205
 species:
-- scientific: Forcipiger flavissimus
+- scientific: Homo sapiens
+  role: secondary
+  identified_by: human
+  reviewed_by: matt
+  person:
+  - Matthew Kulukundis
+- scientific: Cheilinus undulatus
   role: primary
-  confidence: 0.3025
-  identified_by: bioclip
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

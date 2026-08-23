@@ -23,7 +23,14 @@ species_suggestions:
     - scientific: Dascyllus aruanus
       confidence: 0.0119
 species:
-- scientific: Abudefduf vaigiensis
+- scientific: Abudefduf abdominalis
   role: primary
-  confidence: 0.9414
-  identified_by: bioclip
+  identified_by: human
+  reviewed_by: matt
+- scientific: Abudefduf sordidus
+  role: secondary
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

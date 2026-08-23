@@ -25,5 +25,15 @@ species_suggestions:
 species:
 - scientific: Triaenodon obesus
   role: primary
-  confidence: 0.7709
-  identified_by: bioclip
+  identified_by: human
+  confirmed_from: bioclip
+  reviewed_by: matt
+- scientific: Homo sapiens
+  role: secondary
+  identified_by: human
+  reviewed_by: matt
+  person:
+  - Matthew Kulukundis
+species_reviewed:
+- primary
+- secondary

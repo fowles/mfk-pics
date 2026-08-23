@@ -23,7 +23,10 @@ species_suggestions:
     - scientific: Megaptera novaeangliae
       confidence: 0.1233
 species:
-- scientific: Diodon hystrix
+- scientific: Chelonia mydas
   role: primary
-  confidence: 0.3868
-  identified_by: bioclip
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

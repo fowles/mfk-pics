@@ -23,7 +23,14 @@ species_suggestions:
     - scientific: Lutjanus kasmira
       confidence: 0.1207
 species:
-- scientific: Pterocaesio trilineata
+- scientific: Chelonia mydas
   role: primary
-  confidence: 0.4078
-  identified_by: bioclip
+  identified_by: human
+  reviewed_by: matt
+- scientific: Fistularia commersonii
+  role: secondary
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

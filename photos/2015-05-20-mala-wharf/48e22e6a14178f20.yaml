@@ -23,7 +23,10 @@ species_suggestions:
     - scientific: Triaenodon obesus
       confidence: 0.1432
 species:
-- scientific: Mobula thurstoni
+- scientific: Chelonia mydas
   role: primary
-  confidence: 0.2215
-  identified_by: bioclip
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

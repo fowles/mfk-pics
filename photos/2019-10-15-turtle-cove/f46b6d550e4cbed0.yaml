@@ -23,7 +23,12 @@ species_suggestions:
     - scientific: Sepioteuthis lessoniana
       confidence: 0.1013
 species:
-- scientific: Aulostomus chinensis
+- scientific: Homo sapiens
   role: primary
-  confidence: 0.2645
-  identified_by: bioclip
+  identified_by: human
+  reviewed_by: matt
+  person:
+  - Matthew Kulukundis
+species_reviewed:
+- primary
+- secondary

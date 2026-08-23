@@ -23,7 +23,10 @@ species_suggestions:
     - scientific: Mobula thurstoni
       confidence: 0.0361
 species:
-- scientific: Mobula birostris
+- scientific: Chelonia mydas
   role: primary
-  confidence: 0.5389
-  identified_by: bioclip
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

@@ -23,7 +23,10 @@ species_suggestions:
     - scientific: Naso lituratus
       confidence: 0.067
 species:
-- scientific: Chaetodon baronessa
+- scientific: Chaetodon lunulatus
   role: primary
-  confidence: 0.5502
-  identified_by: bioclip
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

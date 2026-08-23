@@ -23,7 +23,8 @@ species_suggestions:
     - scientific: Triaenodon obesus
       confidence: 0.0492
 species:
-- scientific: Fistularia commersonii
+- scientific: Triaenodon obesus
   role: primary
-  confidence: 0.4992
-  identified_by: bioclip
+  identified_by: human
+  confirmed_from: bioclip
+  reviewed_by: matt

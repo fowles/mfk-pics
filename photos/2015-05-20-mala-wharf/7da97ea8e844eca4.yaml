@@ -23,7 +23,10 @@ species_suggestions:
     - scientific: Dascyllus reticulatus
       confidence: 0.12
 species:
-- scientific: Dascyllus trimaculatus
+- scientific: Dascyllus albisella
   role: primary
-  confidence: 0.5113
-  identified_by: bioclip
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary
