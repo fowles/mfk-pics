@@ -14,7 +14,7 @@ species:
   role: primary
   identified_by: human
   person:
-  - David Bean Rinaldi
+  - David Bede Rinaldi
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
