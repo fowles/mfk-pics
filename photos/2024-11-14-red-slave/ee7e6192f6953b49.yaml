@@ -18,8 +18,9 @@ extra_variants:
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1786156982.0434117
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Dactylopterus volitans
       confidence: 0.1476
@@ -29,28 +30,30 @@ species_suggestions:
       confidence: 0.1292
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T03:55:24Z'
     src_mtime: 1786156982.0434117
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Chelonia mydas
-      confidence: 0.8131
+      confidence: 0.7623
     - scientific: Eretmochelys imbricata
-      confidence: 0.0828
+      confidence: 0.0776
     - scientific: Caretta caretta
-      confidence: 0.0273
+      confidence: 0.0256
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T03:58:12Z'
     src_mtime: 1786156982.0434117
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Chelonia mydas
-      confidence: 0.7523
+      confidence: 0.7519
     - scientific: Eretmochelys imbricata
-      confidence: 0.2062
+      confidence: 0.2061
     - scientific: Canthidermis sufflamen
       confidence: 0.0411
 species:
 - scientific: Chelonia mydas
   role: primary
-  confidence: 0.7827
+  confidence: 0.7571
   identified_by: bioclip-2+bioclip-2.5

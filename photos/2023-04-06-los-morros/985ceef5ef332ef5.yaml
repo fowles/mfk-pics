@@ -15,8 +15,9 @@ variants:
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1787445729.5668855
+    vocab: d07e6f895399
     top:
     - scientific: Pseudobatos productus
       confidence: 0.6732
@@ -24,8 +25,32 @@ species_suggestions:
       confidence: 0.146
     - scientific: Arothron hispidus
       confidence: 0.0598
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-23T03:55:24Z'
+    src_mtime: 1787445729.5668855
+    vocab: d07e6f895399
+    top:
+    - scientific: Hypanus dipterurus
+      confidence: 0.5745
+    - scientific: Urobatis concentricus
+      confidence: 0.2231
+    - scientific: Urobatis maculatus
+      confidence: 0.1682
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-23T03:58:12Z'
+    src_mtime: 1787445729.5668855
+    vocab: d07e6f895399
+    top:
+    - scientific: Hypanus dipterurus
+      confidence: 0.9954
+    - scientific: Taeniurops meyeni
+      confidence: 0.0024
+    - scientific: Hypanus longus
+      confidence: 0.0006
 species:
-- scientific: Pseudobatos productus
+- scientific: Hypanus dipterurus
   role: primary
-  confidence: 0.6732
-  identified_by: bioclip
+  confidence: 0.785
+  identified_by: bioclip-2+bioclip-2.5

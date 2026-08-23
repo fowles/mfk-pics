@@ -16,8 +16,9 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1786156980.862842
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Serranus tigrinus
       confidence: 0.8228
@@ -27,19 +28,21 @@ species_suggestions:
       confidence: 0.0316
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T03:55:24Z'
     src_mtime: 1786156980.862842
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Diodon hystrix
-      confidence: 0.1598
+      confidence: 0.1597
     - scientific: Chaetodon capistratus
-      confidence: 0.1089
+      confidence: 0.1088
     - scientific: Holocentrus rufus
-      confidence: 0.0711
+      confidence: 0.071
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T03:58:12Z'
     src_mtime: 1786156980.862842
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Diodon hystrix
       confidence: 0.8912
@@ -50,5 +53,5 @@ species_suggestions:
 species:
 - scientific: Diodon hystrix
   role: primary
-  confidence: 0.5255
+  confidence: 0.5254
   identified_by: bioclip-2+bioclip-2.5

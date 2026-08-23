@@ -15,8 +15,9 @@ variants:
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1787445728.0166185
+    vocab: d07e6f895399
     top:
     - scientific: Haemulon maculicauda
       confidence: 0.7005
@@ -24,8 +25,32 @@ species_suggestions:
       confidence: 0.1593
     - scientific: Haemulon flaviguttatum
       confidence: 0.0874
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-23T03:55:24Z'
+    src_mtime: 1787445728.0166185
+    vocab: d07e6f895399
+    top:
+    - scientific: Paranthias colonus
+      confidence: 0.7882
+    - scientific: Elagatis bipinnulata
+      confidence: 0.1523
+    - scientific: Microlepidotus inornatus
+      confidence: 0.0221
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-23T03:58:12Z'
+    src_mtime: 1787445728.0166185
+    vocab: d07e6f895399
+    top:
+    - scientific: Paranthias colonus
+      confidence: 0.9942
+    - scientific: Kyphosus elegans
+      confidence: 0.0039
+    - scientific: Elagatis bipinnulata
+      confidence: 0.0007
 species:
-- scientific: Haemulon maculicauda
+- scientific: Paranthias colonus
   role: primary
-  confidence: 0.7005
-  identified_by: bioclip
+  confidence: 0.8912
+  identified_by: bioclip-2+bioclip-2.5

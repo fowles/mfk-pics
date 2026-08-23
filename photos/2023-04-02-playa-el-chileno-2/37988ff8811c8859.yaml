@@ -17,8 +17,9 @@ correction_standalone: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1787438626.598933
+    vocab: d07e6f895399
     top:
     - scientific: Mobula thurstoni
       confidence: 0.1323
@@ -29,3 +30,32 @@ species_suggestions:
     absorbed_by:
       scientific: Antipathes galapagensis
       confidence: 0.2703
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-23T03:55:24Z'
+    src_mtime: 1787438626.598933
+    vocab: d07e6f895399
+    top:
+    - scientific: Triaenodon obesus
+      confidence: 0.0615
+    - scientific: Carcharhinus albimarginatus
+      confidence: 0.0429
+    - scientific: Scuticaria tigrina
+      confidence: 0.0415
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-23T03:58:12Z'
+    src_mtime: 1787438626.598933
+    vocab: d07e6f895399
+    top:
+    - scientific: Antennarius commerson
+      confidence: 0.1698
+    - scientific: Acanthaster planci
+      confidence: 0.0633
+    - scientific: Gymnomuraena zebra
+      confidence: 0.0377
+species:
+- scientific: Antennarius commerson
+  role: primary
+  confidence: 0.0849
+  identified_by: bioclip-2.5

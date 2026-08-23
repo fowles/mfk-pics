@@ -13,8 +13,9 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1786159057.0794265
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Seriola rivoliana
       confidence: 0.3133
@@ -24,28 +25,30 @@ species_suggestions:
       confidence: 0.1144
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T03:55:24Z'
     src_mtime: 1786159057.0794265
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Caranx latus
-      confidence: 0.4705
+      confidence: 0.3739
     - scientific: Mulloidichthys martinicus
-      confidence: 0.3004
-    - scientific: Carangoides bartholomaei
-      confidence: 0.0721
+      confidence: 0.2387
+    - scientific: Thunnus albacares
+      confidence: 0.1979
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T03:58:12Z'
     src_mtime: 1786159057.0794265
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Caranx latus
-      confidence: 0.439
+      confidence: 0.4318
     - scientific: Trachinotus falcatus
-      confidence: 0.2413
+      confidence: 0.2373
     - scientific: Caranx ruber
-      confidence: 0.123
+      confidence: 0.121
 species:
 - scientific: Caranx latus
   role: primary
-  confidence: 0.4547
+  confidence: 0.4029
   identified_by: bioclip-2+bioclip-2.5

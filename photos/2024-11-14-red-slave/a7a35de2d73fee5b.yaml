@@ -13,8 +13,9 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1786156891.6007543
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Megalops atlanticus
       confidence: 0.7008
@@ -24,28 +25,30 @@ species_suggestions:
       confidence: 0.0712
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T03:55:24Z'
     src_mtime: 1786156891.6007543
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Caranx latus
-      confidence: 0.3788
+      confidence: 0.3221
     - scientific: Caranx crysos
-      confidence: 0.1807
+      confidence: 0.1537
     - scientific: Selar crumenophthalmus
-      confidence: 0.1215
+      confidence: 0.1033
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T03:58:12Z'
     src_mtime: 1786156891.6007543
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Caranx crysos
-      confidence: 0.8278
+      confidence: 0.8134
     - scientific: Caranx latus
-      confidence: 0.0953
+      confidence: 0.0937
     - scientific: Selar crumenophthalmus
-      confidence: 0.0616
+      confidence: 0.0605
 species:
 - scientific: Caranx crysos
   role: primary
-  confidence: 0.5042
+  confidence: 0.4836
   identified_by: bioclip-2+bioclip-2.5

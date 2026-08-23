@@ -14,8 +14,9 @@ rotation_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1786160157.4852486
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Cyphoma gibbosum
       confidence: 0.0898
@@ -28,24 +29,26 @@ species_suggestions:
       confidence: 0.6064
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T03:55:24Z'
     src_mtime: 1786160157.4852486
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Aulostomus maculatus
-      confidence: 0.064
+      confidence: 0.0639
     - scientific: Haemulon sciurus
-      confidence: 0.0485
+      confidence: 0.0484
     - scientific: Chaetodon capistratus
-      confidence: 0.0476
+      confidence: 0.0475
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T03:58:12Z'
     src_mtime: 1786160157.4852486
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Urobatis jamaicensis
       confidence: 0.3277
     - scientific: Diodon hystrix
-      confidence: 0.1787
+      confidence: 0.1786
     - scientific: Aluterus scriptus
       confidence: 0.1297
 species:

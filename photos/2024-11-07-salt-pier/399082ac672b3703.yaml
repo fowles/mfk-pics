@@ -13,8 +13,9 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1786156317.9317825
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Megalops atlanticus
       confidence: 0.9972
@@ -24,19 +25,21 @@ species_suggestions:
       confidence: 0.0003
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T03:55:24Z'
     src_mtime: 1786156317.9317825
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Megalops atlanticus
-      confidence: 0.9974
+      confidence: 0.9951
+    - scientific: Sphyrna lewini
+      confidence: 0.0017
     - scientific: Sphyraena barracuda
       confidence: 0.0015
-    - scientific: Sphyrna mokarran
-      confidence: 0.0005
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T03:58:12Z'
     src_mtime: 1786156317.9317825
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Megalops atlanticus
       confidence: 1.0
@@ -47,5 +50,5 @@ species_suggestions:
 species:
 - scientific: Megalops atlanticus
   role: primary
-  confidence: 0.9987
+  confidence: 0.9975
   identified_by: bioclip+bioclip-2+bioclip-2.5

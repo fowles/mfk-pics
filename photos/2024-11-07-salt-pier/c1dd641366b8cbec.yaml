@@ -17,8 +17,9 @@ rotation_applied: 180
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1787029236.2418387
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Pareques acuminatus
       confidence: 0.0934
@@ -31,19 +32,21 @@ species_suggestions:
       confidence: 0.5529
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T03:55:24Z'
     src_mtime: 1787029236.2418387
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Myrichthys breviceps
-      confidence: 0.2107
+      confidence: 0.2106
     - scientific: Ophiothrix suensonii
-      confidence: 0.1874
+      confidence: 0.1873
     - scientific: Cyphoma gibbosum
-      confidence: 0.1339
+      confidence: 0.1338
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T03:58:12Z'
     src_mtime: 1787029236.2418387
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Ophiothrix suensonii
       confidence: 0.0105
@@ -53,5 +56,5 @@ species_suggestions:
       confidence: 0.0004
     absorbed_by:
       scientific: Briareum asbestinum
-      confidence: 0.5513
+      confidence: 0.5512
 species: []

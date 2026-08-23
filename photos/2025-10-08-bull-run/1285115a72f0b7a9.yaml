@@ -12,8 +12,9 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1786159809.3358996
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Elagatis bipinnulata
       confidence: 0.538
@@ -23,28 +24,30 @@ species_suggestions:
       confidence: 0.1727
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T03:55:24Z'
     src_mtime: 1786159809.3358996
+    vocab: 9eb53da9d7d6
     top:
-    - scientific: Scomberomorus regalis
-      confidence: 0.7069
-    - scientific: Caranx ruber
-      confidence: 0.1107
-    - scientific: Caranx crysos
-      confidence: 0.0812
+    - scientific: Decapterus macarellus
+      confidence: 0.8603
+    - scientific: Katsuwonus pelamis
+      confidence: 0.0451
+    - scientific: Elagatis bipinnulata
+      confidence: 0.0371
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T03:58:12Z'
     src_mtime: 1786159809.3358996
+    vocab: 9eb53da9d7d6
     top:
-    - scientific: Scomberomorus regalis
-      confidence: 0.6955
-    - scientific: Megalops atlanticus
-      confidence: 0.2131
-    - scientific: Sphyraena barracuda
-      confidence: 0.0554
+    - scientific: Ablennes hians
+      confidence: 0.35
+    - scientific: Elagatis bipinnulata
+      confidence: 0.2655
+    - scientific: Tylosurus crocodilus
+      confidence: 0.1514
 species:
-- scientific: Scomberomorus regalis
+- scientific: Decapterus macarellus
   role: primary
-  confidence: 0.7012
-  identified_by: bioclip-2+bioclip-2.5
+  confidence: 0.4301
+  identified_by: bioclip+bioclip-2

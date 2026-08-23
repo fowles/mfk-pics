@@ -16,8 +16,9 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1786158237.6173785
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Aulostomus maculatus
       confidence: 0.3012
@@ -27,8 +28,9 @@ species_suggestions:
       confidence: 0.1104
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T03:55:24Z'
     src_mtime: 1786158237.6173785
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Cephalopholis cruentata
       confidence: 0.0478
@@ -41,15 +43,16 @@ species_suggestions:
       confidence: 0.1924
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T03:58:12Z'
     src_mtime: 1786158237.6173785
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Mycteroperca tigris
-      confidence: 0.2032
+      confidence: 0.2031
     - scientific: Panulirus argus
-      confidence: 0.1659
+      confidence: 0.1658
     - scientific: Panulirus guttatus
-      confidence: 0.1128
+      confidence: 0.1127
 species:
 - scientific: Mycteroperca tigris
   role: primary

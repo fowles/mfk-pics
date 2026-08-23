@@ -16,8 +16,9 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1786156586.3480706
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Trachinotus goodei
       confidence: 0.4131
@@ -27,28 +28,30 @@ species_suggestions:
       confidence: 0.1231
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T03:55:24Z'
     src_mtime: 1786156586.3480706
+    vocab: 9eb53da9d7d6
     top:
+    - scientific: Decapterus macarellus
+      confidence: 0.1479
     - scientific: Carcharhinus perezi
-      confidence: 0.3118
-    - scientific: Dactylopterus volitans
-      confidence: 0.2736
-    - scientific: Selar crumenophthalmus
-      confidence: 0.1532
+      confidence: 0.1312
+    - scientific: Ablennes hians
+      confidence: 0.1157
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T03:58:12Z'
     src_mtime: 1786156586.3480706
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Echeneis naucrates
-      confidence: 0.637
-    - scientific: Caranx latus
-      confidence: 0.2225
-    - scientific: Caranx ruber
-      confidence: 0.0409
+      confidence: 0.2773
+    - scientific: Decapterus macarellus
+      confidence: 0.1762
+    - scientific: Tylosurus crocodilus
+      confidence: 0.1296
 species:
-- scientific: Echeneis naucrates
+- scientific: Decapterus macarellus
   role: primary
-  confidence: 0.3185
-  identified_by: bioclip-2.5
+  confidence: 0.162
+  identified_by: bioclip-2+bioclip-2.5

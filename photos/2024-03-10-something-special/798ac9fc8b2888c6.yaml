@@ -13,8 +13,9 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1786159056.1539946
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Haemulon sciurus
       confidence: 0.2934
@@ -24,28 +25,30 @@ species_suggestions:
       confidence: 0.137
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T03:55:24Z'
     src_mtime: 1786159056.1539946
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Chromis multilineata
-      confidence: 0.1884
+      confidence: 0.1881
     - scientific: Haemulon carbonarium
-      confidence: 0.0585
+      confidence: 0.0584
     - scientific: Myripristis jacobus
-      confidence: 0.0573
+      confidence: 0.0572
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T03:58:12Z'
     src_mtime: 1786159056.1539946
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Eretmochelys imbricata
-      confidence: 0.9276
+      confidence: 0.8525
+    - scientific: Carcharhinus limbatus
+      confidence: 0.0513
     - scientific: Chelonia mydas
-      confidence: 0.0231
-    - scientific: Echeneis naucrates
-      confidence: 0.0197
+      confidence: 0.0212
 species:
 - scientific: Eretmochelys imbricata
   role: primary
-  confidence: 0.4638
+  confidence: 0.4263
   identified_by: bioclip-2.5

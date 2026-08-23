@@ -16,8 +16,9 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1786156581.1907387
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Aulostomus maculatus
       confidence: 0.0368
@@ -30,22 +31,24 @@ species_suggestions:
       confidence: 0.8032
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T03:55:24Z'
     src_mtime: 1786156581.1907387
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Aulostomus maculatus
-      confidence: 0.2216
+      confidence: 0.2215
     - scientific: Cyphoma gibbosum
       confidence: 0.0288
     - scientific: Caranx ruber
       confidence: 0.0148
     absorbed_by:
       scientific: Briareum asbestinum
-      confidence: 0.2953
+      confidence: 0.2952
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T03:58:12Z'
     src_mtime: 1786156581.1907387
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Aulostomus maculatus
       confidence: 0.299
@@ -56,5 +59,5 @@ species_suggestions:
 species:
 - scientific: Aulostomus maculatus
   role: primary
-  confidence: 0.2603
+  confidence: 0.2602
   identified_by: bioclip+bioclip-2+bioclip-2.5

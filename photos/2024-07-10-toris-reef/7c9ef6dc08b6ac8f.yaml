@@ -16,8 +16,9 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1786160215.1343944
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Heteroconger longissimus
       confidence: 0.658
@@ -27,28 +28,30 @@ species_suggestions:
       confidence: 0.0836
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T03:55:24Z'
     src_mtime: 1786160215.1343944
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Sepioteuthis sepioidea
-      confidence: 0.4071
+      confidence: 0.4056
     - scientific: Dactylopterus volitans
-      confidence: 0.3126
+      confidence: 0.3114
     - scientific: Urobatis jamaicensis
-      confidence: 0.0444
+      confidence: 0.0442
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T03:58:12Z'
     src_mtime: 1786160215.1343944
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Sepioteuthis sepioidea
-      confidence: 0.6403
+      confidence: 0.6402
     - scientific: Dactylopterus volitans
-      confidence: 0.1433
+      confidence: 0.1432
     - scientific: Heteroconger longissimus
       confidence: 0.0712
 species:
 - scientific: Sepioteuthis sepioidea
   role: primary
-  confidence: 0.5237
+  confidence: 0.5229
   identified_by: bioclip-2+bioclip-2.5

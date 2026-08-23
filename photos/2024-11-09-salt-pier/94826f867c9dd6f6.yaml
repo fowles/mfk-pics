@@ -16,8 +16,9 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1786156581.8999112
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Acanthostracion polygonius
       confidence: 0.7372
@@ -27,28 +28,30 @@ species_suggestions:
       confidence: 0.0244
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T03:55:24Z'
     src_mtime: 1786156581.8999112
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Diodon hystrix
-      confidence: 0.4899
+      confidence: 0.4897
     - scientific: Diodon holocanthus
-      confidence: 0.405
+      confidence: 0.4048
     - scientific: Epinephelus itajara
-      confidence: 0.0473
+      confidence: 0.0472
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T03:58:12Z'
     src_mtime: 1786156581.8999112
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Diodon hystrix
-      confidence: 0.7241
+      confidence: 0.7238
     - scientific: Chelonia mydas
-      confidence: 0.2315
+      confidence: 0.2314
     - scientific: Eretmochelys imbricata
-      confidence: 0.0228
+      confidence: 0.0227
 species:
 - scientific: Diodon hystrix
   role: primary
-  confidence: 0.607
+  confidence: 0.6068
   identified_by: bioclip-2+bioclip-2.5

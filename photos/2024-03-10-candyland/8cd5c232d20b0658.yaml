@@ -13,8 +13,9 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1786158870.3805091
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Chromis multilineata
       confidence: 0.3457
@@ -24,22 +25,24 @@ species_suggestions:
       confidence: 0.1862
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T03:55:24Z'
     src_mtime: 1786158870.3805091
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Chromis multilineata
-      confidence: 0.6988
+      confidence: 0.649
     - scientific: Caranx crysos
-      confidence: 0.0924
-    - scientific: Melichthys niger
-      confidence: 0.0492
+      confidence: 0.0858
+    - scientific: Decapterus macarellus
+      confidence: 0.0663
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T03:58:12Z'
     src_mtime: 1786158870.3805091
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Melichthys niger
-      confidence: 0.9645
+      confidence: 0.9636
     - scientific: Acanthurus tractus
       confidence: 0.0295
     - scientific: Chromis multilineata
@@ -47,5 +50,5 @@ species_suggestions:
 species:
 - scientific: Melichthys niger
   role: primary
-  confidence: 0.5069
-  identified_by: bioclip-2+bioclip-2.5
+  confidence: 0.4818
+  identified_by: bioclip-2.5

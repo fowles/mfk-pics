@@ -17,8 +17,9 @@ correction_standalone: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1787438629.5058086
+    vocab: d07e6f895399
     top:
     - scientific: Microspathodon dorsalis
       confidence: 0.9789
@@ -26,8 +27,32 @@ species_suggestions:
       confidence: 0.0141
     - scientific: Cirrhitus rivulatus
       confidence: 0.0024
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-23T03:55:24Z'
+    src_mtime: 1787438629.5058086
+    vocab: d07e6f895399
+    top:
+    - scientific: Microspathodon dorsalis
+      confidence: 0.2318
+    - scientific: Sufflamen verres
+      confidence: 0.1919
+    - scientific: Balistes polylepis
+      confidence: 0.1065
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-23T03:58:12Z'
+    src_mtime: 1787438629.5058086
+    vocab: d07e6f895399
+    top:
+    - scientific: Microspathodon dorsalis
+      confidence: 0.8974
+    - scientific: Pseudobalistes naufragium
+      confidence: 0.0483
+    - scientific: Microspathodon bairdii
+      confidence: 0.0338
 species:
 - scientific: Microspathodon dorsalis
   role: primary
-  confidence: 0.9789
-  identified_by: bioclip
+  confidence: 0.5646
+  identified_by: bioclip+bioclip-2+bioclip-2.5

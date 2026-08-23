@@ -16,8 +16,9 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1786156743.674496
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Decapterus macarellus
       confidence: 0.9196
@@ -27,28 +28,30 @@ species_suggestions:
       confidence: 0.0177
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T03:55:24Z'
     src_mtime: 1786156743.674496
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Caranx crysos
-      confidence: 0.6659
+      confidence: 0.3915
+    - scientific: Decapterus macarellus
+      confidence: 0.2637
     - scientific: Caranx ruber
-      confidence: 0.1489
-    - scientific: Selar crumenophthalmus
-      confidence: 0.0647
+      confidence: 0.0875
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T03:58:12Z'
     src_mtime: 1786156743.674496
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Caranx crysos
-      confidence: 0.9481
+      confidence: 0.8821
+    - scientific: Decapterus macarellus
+      confidence: 0.0649
     - scientific: Caranx latus
-      confidence: 0.0435
-    - scientific: Caranx ruber
-      confidence: 0.0063
+      confidence: 0.0405
 species:
 - scientific: Caranx crysos
   role: primary
-  confidence: 0.807
+  confidence: 0.6368
   identified_by: bioclip-2+bioclip-2.5

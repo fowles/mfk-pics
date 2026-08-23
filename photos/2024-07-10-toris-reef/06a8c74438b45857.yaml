@@ -14,8 +14,9 @@ rotation_applied: 180
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1787028636.5504074
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Aulostomus maculatus
       confidence: 0.0789
@@ -28,27 +29,29 @@ species_suggestions:
       confidence: 0.3463
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T03:55:24Z'
     src_mtime: 1787028636.5504074
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Acanthostracion polygonius
-      confidence: 0.0838
+      confidence: 0.0835
     - scientific: Astrophyton muricatum
-      confidence: 0.0597
+      confidence: 0.0594
     - scientific: Equetus punctatus
-      confidence: 0.0581
+      confidence: 0.0578
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T03:58:12Z'
     src_mtime: 1787028636.5504074
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Gymnothorax moringa
       confidence: 0.0272
     - scientific: Mycteroperca tigris
-      confidence: 0.0144
+      confidence: 0.0143
     - scientific: Serranus tigrinus
       confidence: 0.0132
     absorbed_by:
       scientific: Antillogorgia americana
-      confidence: 0.7813
+      confidence: 0.7808
 species: []

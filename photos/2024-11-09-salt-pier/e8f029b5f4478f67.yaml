@@ -14,8 +14,9 @@ rotation_applied: 270
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1786933527.7213058
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Acanthostracion polygonius
       confidence: 0.3219
@@ -25,19 +26,21 @@ species_suggestions:
       confidence: 0.1888
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T03:55:24Z'
     src_mtime: 1786933527.7213058
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Acanthostracion polygonius
-      confidence: 0.9777
+      confidence: 0.9776
     - scientific: Aluterus scriptus
       confidence: 0.0115
     - scientific: Acanthostracion quadricornis
       confidence: 0.0095
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T03:58:12Z'
     src_mtime: 1786933527.7213058
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Acanthostracion polygonius
       confidence: 1.0
@@ -48,5 +51,5 @@ species_suggestions:
 species:
 - scientific: Acanthostracion polygonius
   role: primary
-  confidence: 0.9889
+  confidence: 0.9888
   identified_by: bioclip+bioclip-2+bioclip-2.5

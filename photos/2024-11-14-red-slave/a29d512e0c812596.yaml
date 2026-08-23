@@ -14,8 +14,9 @@ rotation_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1786156967.501372
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Rhincodon typus
       confidence: 0.5385
@@ -25,28 +26,30 @@ species_suggestions:
       confidence: 0.0434
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T03:55:24Z'
     src_mtime: 1786156967.501372
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Chelonia mydas
-      confidence: 0.439
+      confidence: 0.3604
     - scientific: Eretmochelys imbricata
-      confidence: 0.1718
+      confidence: 0.1411
     - scientific: Caretta caretta
-      confidence: 0.157
+      confidence: 0.1289
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T03:58:12Z'
     src_mtime: 1786156967.501372
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Chromis multilineata
-      confidence: 0.9276
-    - scientific: Clepticus parrae
-      confidence: 0.0289
-    - scientific: Chromis cyanea
-      confidence: 0.0153
+      confidence: 0.753
+    - scientific: Elagatis bipinnulata
+      confidence: 0.1035
+    - scientific: Decapterus macarellus
+      confidence: 0.0807
 species:
 - scientific: Chromis multilineata
   role: primary
-  confidence: 0.4638
+  confidence: 0.3765
   identified_by: bioclip-2.5

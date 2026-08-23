@@ -12,8 +12,9 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1786159797.7628918
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Hypanus americanus
       confidence: 0.9234
@@ -23,28 +24,30 @@ species_suggestions:
       confidence: 0.0151
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T03:55:24Z'
     src_mtime: 1786159797.7628918
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Aulostomus maculatus
-      confidence: 0.5372
+      confidence: 0.4883
     - scientific: Echeneis naucrates
-      confidence: 0.1113
-    - scientific: Fistularia tabacaria
-      confidence: 0.0668
+      confidence: 0.1011
+    - scientific: Pristis pristis
+      confidence: 0.0687
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T03:58:12Z'
     src_mtime: 1786159797.7628918
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Aulostomus maculatus
-      confidence: 0.8022
+      confidence: 0.7664
     - scientific: Echeneis naucrates
-      confidence: 0.1491
-    - scientific: Sphyraena barracuda
-      confidence: 0.0174
+      confidence: 0.1424
+    - scientific: Pristis pristis
+      confidence: 0.0216
 species:
 - scientific: Aulostomus maculatus
   role: primary
-  confidence: 0.6697
+  confidence: 0.6273
   identified_by: bioclip+bioclip-2+bioclip-2.5

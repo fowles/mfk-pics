@@ -12,8 +12,9 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1786159817.227241
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Opistognathus aurifrons
       confidence: 0.6051
@@ -23,19 +24,21 @@ species_suggestions:
       confidence: 0.0612
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T03:55:24Z'
     src_mtime: 1786159817.227241
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Opistognathus aurifrons
-      confidence: 0.6068
+      confidence: 0.6066
     - scientific: Serranus tortugarum
-      confidence: 0.0635
+      confidence: 0.0634
     - scientific: Malacanthus plumieri
       confidence: 0.0556
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T03:58:12Z'
     src_mtime: 1786159817.227241
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Malacanthus plumieri
       confidence: 0.5537
@@ -46,5 +49,5 @@ species_suggestions:
 species:
 - scientific: Opistognathus aurifrons
   role: primary
-  confidence: 0.4747
+  confidence: 0.4746
   identified_by: bioclip+bioclip-2+bioclip-2.5

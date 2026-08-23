@@ -17,8 +17,9 @@ correction_standalone: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1787438607.685036
+    vocab: d07e6f895399
     top:
     - scientific: Stegastes flavilatus
       confidence: 0.8677
@@ -26,8 +27,32 @@ species_suggestions:
       confidence: 0.0478
     - scientific: Microspathodon dorsalis
       confidence: 0.0376
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-23T03:55:24Z'
+    src_mtime: 1787438607.685036
+    vocab: d07e6f895399
+    top:
+    - scientific: Holacanthus passer
+      confidence: 0.7489
+    - scientific: Chromis atrilobata
+      confidence: 0.0611
+    - scientific: Bodianus diplotaenia
+      confidence: 0.0484
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-23T03:58:12Z'
+    src_mtime: 1787438607.685036
+    vocab: d07e6f895399
+    top:
+    - scientific: Acanthurus nigricans
+      confidence: 0.9131
+    - scientific: Holacanthus passer
+      confidence: 0.0436
+    - scientific: Chromis atrilobata
+      confidence: 0.0262
 species:
-- scientific: Stegastes flavilatus
+- scientific: Acanthurus nigricans
   role: primary
-  confidence: 0.8677
-  identified_by: bioclip
+  confidence: 0.4566
+  identified_by: bioclip-2.5

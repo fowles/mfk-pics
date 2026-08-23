@@ -14,8 +14,9 @@ rotation_applied: 270
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1787029702.8605607
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Thalassoma bifasciatum
       confidence: 0.7668
@@ -25,28 +26,30 @@ species_suggestions:
       confidence: 0.0294
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T03:55:24Z'
     src_mtime: 1787029702.8605607
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Scorpaena plumieri
-      confidence: 0.777
+      confidence: 0.7737
     - scientific: Cephalopholis cruentata
-      confidence: 0.0577
+      confidence: 0.0574
     - scientific: Octopus insularis
-      confidence: 0.0459
+      confidence: 0.0457
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T03:58:12Z'
     src_mtime: 1787029702.8605607
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Scorpaena plumieri
-      confidence: 0.2965
+      confidence: 0.2971
     - scientific: Epinephelus adscensionis
-      confidence: 0.1113
+      confidence: 0.1116
     - scientific: Mycteroperca venenosa
-      confidence: 0.0757
+      confidence: 0.0758
 species:
 - scientific: Scorpaena plumieri
   role: primary
-  confidence: 0.5368
+  confidence: 0.5354
   identified_by: bioclip-2+bioclip-2.5

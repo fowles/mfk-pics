@@ -13,8 +13,9 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1786159057.8578386
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Kyphosus sectatrix
       confidence: 0.8176
@@ -24,22 +25,24 @@ species_suggestions:
       confidence: 0.0416
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T03:55:24Z'
     src_mtime: 1786159057.8578386
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Caranx ruber
-      confidence: 0.316
+      confidence: 0.2773
     - scientific: Scomberomorus regalis
-      confidence: 0.2918
+      confidence: 0.2561
     - scientific: Carcharhinus perezi
-      confidence: 0.2286
+      confidence: 0.2006
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T03:58:12Z'
     src_mtime: 1786159057.8578386
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Caranx ruber
-      confidence: 0.9649
+      confidence: 0.964
     - scientific: Gerres cinereus
       confidence: 0.018
     - scientific: Scomberomorus regalis
@@ -47,5 +50,5 @@ species_suggestions:
 species:
 - scientific: Caranx ruber
   role: primary
-  confidence: 0.6404
+  confidence: 0.6206
   identified_by: bioclip-2+bioclip-2.5

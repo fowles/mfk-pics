@@ -16,8 +16,9 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1786158339.1363013
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Aulostomus maculatus
       confidence: 0.7706
@@ -27,28 +28,30 @@ species_suggestions:
       confidence: 0.0766
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T03:55:24Z'
     src_mtime: 1786158339.1363013
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Malacanthus plumieri
-      confidence: 0.2662
+      confidence: 0.2616
     - scientific: Caranx ruber
-      confidence: 0.1868
+      confidence: 0.1836
     - scientific: Carcharhinus perezi
-      confidence: 0.1501
+      confidence: 0.1475
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T03:58:12Z'
     src_mtime: 1786158339.1363013
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Aulostomus maculatus
-      confidence: 0.7844
+      confidence: 0.7835
     - scientific: Sphyraena barracuda
-      confidence: 0.0944
+      confidence: 0.0943
     - scientific: Scomberomorus regalis
       confidence: 0.0569
 species:
 - scientific: Aulostomus maculatus
   role: primary
-  confidence: 0.3922
+  confidence: 0.3917
   identified_by: bioclip+bioclip-2.5

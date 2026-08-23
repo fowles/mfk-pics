@@ -15,8 +15,9 @@ extra_variants:
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1786158392.43929
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Scorpaena plumieri
       confidence: 1.0
@@ -26,28 +27,30 @@ species_suggestions:
       confidence: 0.0
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T03:55:24Z'
     src_mtime: 1786158392.43929
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Scorpaena plumieri
-      confidence: 0.9965
+      confidence: 0.9962
     - scientific: Dactylopterus volitans
       confidence: 0.0019
     - scientific: Pterois volitans
       confidence: 0.0014
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T03:58:12Z'
     src_mtime: 1786158392.43929
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Scorpaena plumieri
       confidence: 1.0
-    - scientific: Octopus insularis
+    - scientific: Parribacus antarcticus
       confidence: 0.0
-    - scientific: Ogcocephalus nasutus
+    - scientific: Octopus insularis
       confidence: 0.0
 species:
 - scientific: Scorpaena plumieri
   role: primary
-  confidence: 0.9983
+  confidence: 0.9981
   identified_by: bioclip+bioclip-2+bioclip-2.5

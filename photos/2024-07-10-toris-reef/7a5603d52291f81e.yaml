@@ -16,8 +16,9 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1786160162.6002262
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Megalops atlanticus
       confidence: 0.2297
@@ -27,22 +28,24 @@ species_suggestions:
       confidence: 0.1105
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T03:55:24Z'
     src_mtime: 1786160162.6002262
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Urobatis jamaicensis
-      confidence: 0.1569
+      confidence: 0.1542
     - scientific: Myrichthys ocellatus
-      confidence: 0.1511
+      confidence: 0.1484
     - scientific: Myrichthys breviceps
-      confidence: 0.1059
+      confidence: 0.1041
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T03:58:12Z'
     src_mtime: 1786160162.6002262
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Bothus lunatus
-      confidence: 0.7294
+      confidence: 0.7293
     - scientific: Cassiopea xamachana
       confidence: 0.1103
     - scientific: Ogcocephalus nasutus
@@ -50,5 +53,5 @@ species_suggestions:
 species:
 - scientific: Bothus lunatus
   role: primary
-  confidence: 0.3647
+  confidence: 0.3646
   identified_by: bioclip-2.5

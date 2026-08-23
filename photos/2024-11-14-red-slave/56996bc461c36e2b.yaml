@@ -16,8 +16,9 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1786156983.073816
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Trachinotus goodei
       confidence: 0.5397
@@ -27,22 +28,24 @@ species_suggestions:
       confidence: 0.1759
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T03:55:24Z'
     src_mtime: 1786156983.073816
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Carcharhinus perezi
-      confidence: 0.2469
+      confidence: 0.2162
     - scientific: Trachinotus goodei
-      confidence: 0.238
+      confidence: 0.2084
     - scientific: Aetobatus narinari
-      confidence: 0.1916
+      confidence: 0.1677
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T03:58:12Z'
     src_mtime: 1786156983.073816
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Aetobatus narinari
-      confidence: 0.9518
+      confidence: 0.9515
     - scientific: Dactylopterus volitans
       confidence: 0.0253
     - scientific: Canthidermis sufflamen
@@ -50,5 +53,5 @@ species_suggestions:
 species:
 - scientific: Aetobatus narinari
   role: primary
-  confidence: 0.5717
+  confidence: 0.5596
   identified_by: bioclip-2+bioclip-2.5

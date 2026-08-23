@@ -14,8 +14,9 @@ rotation_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1786159791.9777513
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Acanthostracion quadricornis
       confidence: 0.1878
@@ -28,22 +29,24 @@ species_suggestions:
       confidence: 0.3901
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T03:55:24Z'
     src_mtime: 1786159791.9777513
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Holacanthus tricolor
       confidence: 0.0283
     - scientific: Ophiothrix suensonii
       confidence: 0.0231
     - scientific: Cephalopholis cruentata
-      confidence: 0.0218
+      confidence: 0.0217
     absorbed_by:
       scientific: Xestospongia muta
-      confidence: 0.235
+      confidence: 0.2348
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T03:58:12Z'
     src_mtime: 1786159791.9777513
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Equetus punctatus
       confidence: 0.0154

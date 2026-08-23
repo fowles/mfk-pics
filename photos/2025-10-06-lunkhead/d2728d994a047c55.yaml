@@ -13,8 +13,9 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1786159792.633648
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Megaptera novaeangliae
       confidence: 0.6342
@@ -24,28 +25,30 @@ species_suggestions:
       confidence: 0.0056
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T03:55:24Z'
     src_mtime: 1786159792.633648
+    vocab: 9eb53da9d7d6
     top:
-    - scientific: Galeocerdo cuvier
-      confidence: 0.2745
-    - scientific: Carcharhinus perezi
-      confidence: 0.1105
-    - scientific: Sphyrna mokarran
-      confidence: 0.0345
+    - scientific: Rhincodon typus
+      confidence: 0.2503
+    - scientific: Mobula birostris
+      confidence: 0.1896
+    - scientific: Carcharhinus longimanus
+      confidence: 0.138
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T03:58:12Z'
     src_mtime: 1786159792.633648
+    vocab: 9eb53da9d7d6
     top:
-    - scientific: Sphyrna mokarran
-      confidence: 0.2652
-    - scientific: Aetobatus narinari
-      confidence: 0.2337
-    - scientific: Carcharhinus perezi
-      confidence: 0.2212
+    - scientific: Mobula birostris
+      confidence: 0.5428
+    - scientific: Rhincodon typus
+      confidence: 0.3354
+    - scientific: Sphyrna lewini
+      confidence: 0.0328
 species:
-- scientific: Carcharhinus perezi
+- scientific: Mobula birostris
   role: primary
-  confidence: 0.1658
+  confidence: 0.3662
   identified_by: bioclip-2+bioclip-2.5

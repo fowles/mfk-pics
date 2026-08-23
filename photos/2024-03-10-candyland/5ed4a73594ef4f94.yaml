@@ -13,8 +13,9 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1786158862.1460178
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Melichthys niger
       confidence: 0.026
@@ -27,31 +28,33 @@ species_suggestions:
       confidence: 0.9119
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T03:55:24Z'
     src_mtime: 1786158862.1460178
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Thalassoma bifasciatum
-      confidence: 0.0678
+      confidence: 0.0668
     - scientific: Stenopus hispidus
-      confidence: 0.0512
+      confidence: 0.0504
     - scientific: Apogon maculatus
-      confidence: 0.046
+      confidence: 0.0454
     absorbed_by:
       scientific: Orbicella annularis
-      confidence: 0.0731
+      confidence: 0.072
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T03:58:12Z'
     src_mtime: 1786158862.1460178
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Acanthurus tractus
-      confidence: 0.2844
+      confidence: 0.2847
     - scientific: Equetus punctatus
-      confidence: 0.1621
+      confidence: 0.1623
     - scientific: Bodianus pulchellus
-      confidence: 0.1245
+      confidence: 0.1247
 species:
 - scientific: Acanthurus tractus
   role: primary
-  confidence: 0.1422
+  confidence: 0.1424
   identified_by: bioclip-2.5

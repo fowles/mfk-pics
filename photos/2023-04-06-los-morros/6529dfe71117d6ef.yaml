@@ -15,8 +15,9 @@ variants:
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1787445731.2866504
+    vocab: d07e6f895399
     top:
     - scientific: Abudefduf troschelii
       confidence: 0.9828
@@ -24,8 +25,32 @@ species_suggestions:
       confidence: 0.0082
     - scientific: Arothron meleagris
       confidence: 0.0027
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-23T03:55:24Z'
+    src_mtime: 1787445731.2866504
+    vocab: d07e6f895399
+    top:
+    - scientific: Alectis ciliaris
+      confidence: 0.2191
+    - scientific: Pseudupeneus grandisquamis
+      confidence: 0.0958
+    - scientific: Balistes polylepis
+      confidence: 0.0792
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-23T03:58:12Z'
+    src_mtime: 1787445731.2866504
+    vocab: d07e6f895399
+    top:
+    - scientific: Pseudobalistes naufragium
+      confidence: 0.9654
+    - scientific: Canthidermis maculata
+      confidence: 0.0121
+    - scientific: Triaenodon obesus
+      confidence: 0.0098
 species:
-- scientific: Abudefduf troschelii
+- scientific: Pseudobalistes naufragium
   role: primary
-  confidence: 0.9828
-  identified_by: bioclip
+  confidence: 0.4827
+  identified_by: bioclip-2.5

@@ -12,8 +12,9 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1786159795.2654984
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Sepioteuthis sepioidea
       confidence: 0.6017
@@ -23,30 +24,32 @@ species_suggestions:
       confidence: 0.0272
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T03:55:24Z'
     src_mtime: 1786159795.2654984
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Holacanthus tricolor
-      confidence: 0.0664
+      confidence: 0.0662
     - scientific: Cephalopholis cruentata
-      confidence: 0.0427
+      confidence: 0.0426
     - scientific: Stegastes partitus
-      confidence: 0.0258
+      confidence: 0.0257
     absorbed_by:
       scientific: Xestospongia muta
-      confidence: 0.2187
+      confidence: 0.2181
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T03:58:12Z'
     src_mtime: 1786159795.2654984
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Sparisoma amplum
-      confidence: 0.0106
+      confidence: 0.0105
+    - scientific: Rhincodon typus
+      confidence: 0.0086
     - scientific: Mycteroperca tigris
       confidence: 0.0054
-    - scientific: Eretmochelys imbricata
-      confidence: 0.0029
     absorbed_by:
       scientific: Cirrhipathes leutkeni
-      confidence: 0.3521
+      confidence: 0.349
 species: []

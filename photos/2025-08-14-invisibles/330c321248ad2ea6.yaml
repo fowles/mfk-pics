@@ -13,8 +13,9 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1786158231.110223
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Pseudorca crassidens
       confidence: 0.7017
@@ -24,28 +25,30 @@ species_suggestions:
       confidence: 0.1056
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T03:55:24Z'
     src_mtime: 1786158231.110223
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Echeneis naucrates
-      confidence: 0.3406
+      confidence: 0.3153
     - scientific: Sepioteuthis sepioidea
-      confidence: 0.0796
+      confidence: 0.0737
     - scientific: Carcharhinus perezi
-      confidence: 0.0581
+      confidence: 0.0537
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T03:58:12Z'
     src_mtime: 1786158231.110223
+    vocab: 9eb53da9d7d6
     top:
+    - scientific: Seriola rivoliana
+      confidence: 0.6102
     - scientific: Caranx ruber
-      confidence: 0.9751
+      confidence: 0.3757
     - scientific: Caranx crysos
-      confidence: 0.0152
-    - scientific: Carangoides bartholomaei
-      confidence: 0.0095
+      confidence: 0.0059
 species:
-- scientific: Caranx ruber
+- scientific: Seriola rivoliana
   role: primary
-  confidence: 0.4875
+  confidence: 0.3051
   identified_by: bioclip-2.5

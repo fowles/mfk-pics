@@ -17,8 +17,9 @@ correction_standalone: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1787438631.0108483
+    vocab: d07e6f895399
     top:
     - scientific: Sufflamen verres
       confidence: 0.228
@@ -26,8 +27,35 @@ species_suggestions:
       confidence: 0.2162
     - scientific: Melichthys niger
       confidence: 0.1694
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-23T03:55:24Z'
+    src_mtime: 1787438631.0108483
+    vocab: d07e6f895399
+    top:
+    - scientific: Microspathodon dorsalis
+      confidence: 0.2112
+    - scientific: Paranthias colonus
+      confidence: 0.0877
+    - scientific: Cephalopholis panamensis
+      confidence: 0.0854
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-23T03:58:12Z'
+    src_mtime: 1787438631.0108483
+    vocab: d07e6f895399
+    top:
+    - scientific: Narcine entemedor
+      confidence: 0.0741
+    - scientific: Eretmochelys imbricata
+      confidence: 0.0551
+    - scientific: Carcharhinus albimarginatus
+      confidence: 0.0325
+    absorbed_by:
+      scientific: Pocillopora elegans
+      confidence: 0.1817
 species:
-- scientific: Sufflamen verres
+- scientific: Microspathodon dorsalis
   role: primary
-  confidence: 0.228
-  identified_by: bioclip
+  confidence: 0.1056
+  identified_by: bioclip-2

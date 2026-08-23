@@ -17,8 +17,9 @@ correction_standalone: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1787438620.0873857
+    vocab: d07e6f895399
     top:
     - scientific: Stegastes rectifraenum
       confidence: 0.9058
@@ -26,8 +27,32 @@ species_suggestions:
       confidence: 0.0355
     - scientific: Microspathodon bairdii
       confidence: 0.031
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-23T03:55:24Z'
+    src_mtime: 1787438620.0873857
+    vocab: d07e6f895399
+    top:
+    - scientific: Pseudobalistes naufragium
+      confidence: 0.3386
+    - scientific: Canthidermis maculata
+      confidence: 0.2163
+    - scientific: Melichthys niger
+      confidence: 0.1513
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-23T03:58:12Z'
+    src_mtime: 1787438620.0873857
+    vocab: d07e6f895399
+    top:
+    - scientific: Arothron meleagris
+      confidence: 0.6113
+    - scientific: Microspathodon dorsalis
+      confidence: 0.2904
+    - scientific: Pseudobalistes naufragium
+      confidence: 0.0589
 species:
-- scientific: Stegastes rectifraenum
+- scientific: Arothron meleagris
   role: primary
-  confidence: 0.9058
-  identified_by: bioclip
+  confidence: 0.3056
+  identified_by: bioclip-2.5

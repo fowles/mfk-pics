@@ -13,8 +13,9 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1786159057.4230382
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Acanthurus coeruleus
       confidence: 0.5659
@@ -24,28 +25,30 @@ species_suggestions:
       confidence: 0.1221
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T03:55:24Z'
     src_mtime: 1786159057.4230382
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Chromis cyanea
-      confidence: 0.7245
+      confidence: 0.7235
     - scientific: Clepticus parrae
-      confidence: 0.0921
+      confidence: 0.092
     - scientific: Acanthurus coeruleus
-      confidence: 0.0531
+      confidence: 0.053
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T03:58:12Z'
     src_mtime: 1786159057.4230382
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Clepticus parrae
-      confidence: 0.8783
+      confidence: 0.8738
     - scientific: Chromis cyanea
-      confidence: 0.1189
-    - scientific: Chrysiptera parasema
-      confidence: 0.0013
+      confidence: 0.1183
+    - scientific: Decapterus macarellus
+      confidence: 0.0061
 species:
 - scientific: Clepticus parrae
   role: primary
-  confidence: 0.4852
+  confidence: 0.4829
   identified_by: bioclip-2+bioclip-2.5

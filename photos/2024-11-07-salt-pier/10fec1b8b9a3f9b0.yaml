@@ -14,8 +14,9 @@ rotation_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1786156324.5636628
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Sphyraena barracuda
       confidence: 0.4021
@@ -25,28 +26,30 @@ species_suggestions:
       confidence: 0.0697
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T03:55:24Z'
     src_mtime: 1786156324.5636628
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Chromis multilineata
-      confidence: 0.2132
+      confidence: 0.1982
     - scientific: Caranx latus
-      confidence: 0.1319
+      confidence: 0.1227
     - scientific: Caranx ruber
-      confidence: 0.1094
+      confidence: 0.1017
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T03:58:12Z'
     src_mtime: 1786156324.5636628
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Chromis cyanea
-      confidence: 0.2201
+      confidence: 0.2198
     - scientific: Chromis multilineata
-      confidence: 0.2196
+      confidence: 0.2193
     - scientific: Abudefduf saxatilis
-      confidence: 0.1469
+      confidence: 0.1466
 species:
 - scientific: Chromis multilineata
   role: primary
-  confidence: 0.2164
+  confidence: 0.2087
   identified_by: bioclip-2+bioclip-2.5

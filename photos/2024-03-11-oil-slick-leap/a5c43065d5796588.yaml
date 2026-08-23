@@ -13,8 +13,9 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1786158972.2827017
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Serranus tigrinus
       confidence: 0.4031
@@ -24,19 +25,21 @@ species_suggestions:
       confidence: 0.0763
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T03:55:24Z'
     src_mtime: 1786158972.2827017
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Holacanthus tricolor
-      confidence: 0.1281
+      confidence: 0.1277
     - scientific: Holacanthus ciliaris
-      confidence: 0.0874
+      confidence: 0.0871
     - scientific: Halichoeres garnoti
-      confidence: 0.0774
+      confidence: 0.0771
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T03:58:12Z'
     src_mtime: 1786158972.2827017
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Chromis cyanea
       confidence: 0.0947
@@ -47,5 +50,5 @@ species_suggestions:
 species:
 - scientific: Holacanthus tricolor
   role: primary
-  confidence: 0.064
+  confidence: 0.0639
   identified_by: bioclip-2

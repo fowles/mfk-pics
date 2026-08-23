@@ -16,8 +16,9 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1786157494.942889
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Heteropriacanthus cruentatus
       confidence: 0.6956
@@ -27,28 +28,30 @@ species_suggestions:
       confidence: 0.1116
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T03:55:24Z'
     src_mtime: 1786157494.942889
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Abudefduf saxatilis
-      confidence: 0.304
+      confidence: 0.3028
     - scientific: Pterois volitans
-      confidence: 0.085
+      confidence: 0.0847
     - scientific: Holocentrus adscensionis
-      confidence: 0.0723
+      confidence: 0.072
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T03:58:12Z'
     src_mtime: 1786157494.942889
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Stegastes adustus
-      confidence: 0.8642
+      confidence: 0.8586
     - scientific: Periclimenes yucatanicus
-      confidence: 0.0199
+      confidence: 0.0198
     - scientific: Ophiothrix suensonii
-      confidence: 0.0123
+      confidence: 0.0122
 species:
 - scientific: Stegastes adustus
   role: primary
-  confidence: 0.4321
+  confidence: 0.4293
   identified_by: bioclip-2.5

@@ -17,8 +17,9 @@ correction_standalone: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1787438633.5034568
+    vocab: d07e6f895399
     top:
     - scientific: Epinephelus analogus
       confidence: 0.497
@@ -26,8 +27,32 @@ species_suggestions:
       confidence: 0.1286
     - scientific: Cirrhitus rivulatus
       confidence: 0.1203
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-23T03:55:24Z'
+    src_mtime: 1787438633.5034568
+    vocab: d07e6f895399
+    top:
+    - scientific: Chilomycterus reticulatus
+      confidence: 0.4022
+    - scientific: Urobatis maculatus
+      confidence: 0.1898
+    - scientific: Urobatis concentricus
+      confidence: 0.0773
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-23T03:58:12Z'
+    src_mtime: 1787438633.5034568
+    vocab: d07e6f895399
+    top:
+    - scientific: Pseudobalistes naufragium
+      confidence: 0.5653
+    - scientific: Urobatis concentricus
+      confidence: 0.2308
+    - scientific: Narcine entemedor
+      confidence: 0.0522
 species:
-- scientific: Epinephelus analogus
+- scientific: Pseudobalistes naufragium
   role: primary
-  confidence: 0.497
-  identified_by: bioclip
+  confidence: 0.2827
+  identified_by: bioclip-2.5

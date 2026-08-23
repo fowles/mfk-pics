@@ -13,8 +13,9 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1786158186.273769
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Carcharhinus perezi
       confidence: 0.581
@@ -24,28 +25,30 @@ species_suggestions:
       confidence: 0.1301
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T03:55:24Z'
     src_mtime: 1786158186.273769
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Sphyrna mokarran
-      confidence: 0.893
-    - scientific: Galeocerdo cuvier
-      confidence: 0.0306
-    - scientific: Carcharhinus perezi
-      confidence: 0.0304
+      confidence: 0.5014
+    - scientific: Sphyrna lewini
+      confidence: 0.2571
+    - scientific: Carcharhinus longimanus
+      confidence: 0.1272
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T03:58:12Z'
     src_mtime: 1786158186.273769
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Sphyrna mokarran
-      confidence: 0.9836
-    - scientific: Galeocerdo cuvier
-      confidence: 0.0097
-    - scientific: Negaprion brevirostris
-      confidence: 0.0041
+      confidence: 0.5948
+    - scientific: Sphyrna lewini
+      confidence: 0.1977
+    - scientific: Carcharhinus leucas
+      confidence: 0.1938
 species:
 - scientific: Sphyrna mokarran
   role: primary
-  confidence: 0.9383
+  confidence: 0.5481
   identified_by: bioclip-2+bioclip-2.5

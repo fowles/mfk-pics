@@ -17,8 +17,9 @@ correction_standalone: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1787438633.7103872
+    vocab: d07e6f895399
     top:
     - scientific: Zapteryx exasperata
       confidence: 0.5404
@@ -26,8 +27,32 @@ species_suggestions:
       confidence: 0.3083
     - scientific: Urobatis maculatus
       confidence: 0.097
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-23T03:55:24Z'
+    src_mtime: 1787438633.7103872
+    vocab: d07e6f895399
+    top:
+    - scientific: Urobatis maculatus
+      confidence: 0.3174
+    - scientific: Urobatis concentricus
+      confidence: 0.2088
+    - scientific: Urobatis halleri
+      confidence: 0.2014
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-23T03:58:12Z'
+    src_mtime: 1787438633.7103872
+    vocab: d07e6f895399
+    top:
+    - scientific: Urobatis concentricus
+      confidence: 0.8742
+    - scientific: Urobatis maculatus
+      confidence: 0.119
+    - scientific: Urobatis halleri
+      confidence: 0.0035
 species:
-- scientific: Zapteryx exasperata
+- scientific: Urobatis concentricus
   role: primary
-  confidence: 0.5404
-  identified_by: bioclip
+  confidence: 0.5415
+  identified_by: bioclip+bioclip-2+bioclip-2.5

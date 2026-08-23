@@ -16,8 +16,9 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1786156901.735104
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Sepioteuthis sepioidea
       confidence: 0.4075
@@ -27,27 +28,29 @@ species_suggestions:
       confidence: 0.141
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T03:55:24Z'
     src_mtime: 1786156901.735104
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Bodianus rufus
-      confidence: 0.2702
+      confidence: 0.2564
     - scientific: Bodianus pulchellus
-      confidence: 0.1229
+      confidence: 0.1166
     - scientific: Holacanthus tricolor
-      confidence: 0.1155
+      confidence: 0.1096
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T03:58:12Z'
     src_mtime: 1786156901.735104
+    vocab: 9eb53da9d7d6
     top:
+    - scientific: Rhincodon typus
+      confidence: 0.2957
+    - scientific: Decapterus macarellus
+      confidence: 0.0242
     - scientific: Mycteroperca tigris
-      confidence: 0.0343
-    - scientific: Sparisoma amplum
-      confidence: 0.0146
-    - scientific: Eretmochelys imbricata
-      confidence: 0.0129
+      confidence: 0.0213
     absorbed_by:
       scientific: Cirrhipathes leutkeni
-      confidence: 0.7503
+      confidence: 0.4655
 species: []

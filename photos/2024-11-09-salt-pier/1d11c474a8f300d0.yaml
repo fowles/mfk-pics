@@ -13,8 +13,9 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1786156576.2548268
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Myrichthys breviceps
       confidence: 0.4379
@@ -24,19 +25,21 @@ species_suggestions:
       confidence: 0.0533
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T03:55:24Z'
     src_mtime: 1786156576.2548268
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Malacanthus plumieri
-      confidence: 0.3666
+      confidence: 0.361
     - scientific: Hypanus americanus
-      confidence: 0.0654
+      confidence: 0.0644
     - scientific: Caranx ruber
-      confidence: 0.0573
+      confidence: 0.0564
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T03:58:12Z'
     src_mtime: 1786156576.2548268
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Malacanthus plumieri
       confidence: 0.9897
@@ -47,5 +50,5 @@ species_suggestions:
 species:
 - scientific: Malacanthus plumieri
   role: primary
-  confidence: 0.6782
+  confidence: 0.6754
   identified_by: bioclip-2+bioclip-2.5

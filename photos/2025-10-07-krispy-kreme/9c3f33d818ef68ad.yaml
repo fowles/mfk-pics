@@ -12,8 +12,9 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1786159796.528034
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Serranus tigrinus
       confidence: 0.4583
@@ -23,31 +24,33 @@ species_suggestions:
       confidence: 0.0596
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T03:55:24Z'
     src_mtime: 1786159796.528034
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Acanthostracion polygonius
-      confidence: 0.4742
+      confidence: 0.4731
     - scientific: Lactophrys triqueter
-      confidence: 0.057
+      confidence: 0.0569
     - scientific: Serranus tigrinus
-      confidence: 0.0438
+      confidence: 0.0437
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T03:58:12Z'
     src_mtime: 1786159796.528034
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Haemulon chrysargyreum
-      confidence: 0.1271
+      confidence: 0.1269
     - scientific: Serranus tigrinus
-      confidence: 0.1152
+      confidence: 0.115
     - scientific: Haemulon macrostomum
-      confidence: 0.0647
+      confidence: 0.0646
     absorbed_by:
       scientific: Antillogorgia americana
-      confidence: 0.2578
+      confidence: 0.2574
 species:
 - scientific: Acanthostracion polygonius
   role: primary
-  confidence: 0.2371
+  confidence: 0.2366
   identified_by: bioclip-2

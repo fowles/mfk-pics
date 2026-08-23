@@ -16,8 +16,9 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1786156367.7584488
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Thalassoma bifasciatum
       confidence: 0.5672
@@ -27,22 +28,24 @@ species_suggestions:
       confidence: 0.0588
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T03:55:24Z'
     src_mtime: 1786156367.7584488
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Serranus tigrinus
-      confidence: 0.0749
+      confidence: 0.0742
     - scientific: Opistognathus aurifrons
-      confidence: 0.0674
+      confidence: 0.0667
     - scientific: Lactophrys triqueter
-      confidence: 0.0431
+      confidence: 0.0426
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T03:58:12Z'
     src_mtime: 1786156367.7584488
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Haemulon carbonarium
-      confidence: 0.1214
+      confidence: 0.1213
     - scientific: Hypoplectrus unicolor
       confidence: 0.1139
     - scientific: Stegastes diencaeus

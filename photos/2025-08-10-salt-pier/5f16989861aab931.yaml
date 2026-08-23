@@ -14,8 +14,9 @@ rotation_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1786157574.019656
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Opistognathus aurifrons
       confidence: 0.0779
@@ -28,28 +29,33 @@ species_suggestions:
       confidence: 0.7801
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T03:55:24Z'
     src_mtime: 1786157574.019656
+    vocab: 9eb53da9d7d6
     top:
+    - scientific: Micromelo undatus
+      confidence: 0.174
     - scientific: Octopus briareus
-      confidence: 0.1524
+      confidence: 0.0942
     - scientific: Osachila antillensis
-      confidence: 0.0709
-    - scientific: Cyphoma gibbosum
-      confidence: 0.068
+      confidence: 0.0438
+    absorbed_by:
+      scientific: Valonia ventricosa
+      confidence: 0.1751
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T03:58:12Z'
     src_mtime: 1786157574.019656
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Octopus insularis
-      confidence: 0.4862
+      confidence: 0.4858
     - scientific: Octopus briareus
-      confidence: 0.0543
+      confidence: 0.0542
     - scientific: Antennarius multiocellatus
       confidence: 0.0151
 species:
 - scientific: Octopus insularis
   role: primary
-  confidence: 0.2431
+  confidence: 0.2429
   identified_by: bioclip-2.5

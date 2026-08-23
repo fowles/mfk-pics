@@ -13,8 +13,9 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1786158128.222517
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Haemulon macrostomum
       confidence: 0.6902
@@ -24,19 +25,21 @@ species_suggestions:
       confidence: 0.062
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T03:55:24Z'
     src_mtime: 1786158128.222517
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Chromis multilineata
-      confidence: 0.2816
+      confidence: 0.2813
     - scientific: Halichoeres garnoti
-      confidence: 0.1614
+      confidence: 0.1612
     - scientific: Halichoeres pictus
-      confidence: 0.1127
+      confidence: 0.1126
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T03:58:12Z'
     src_mtime: 1786158128.222517
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Chromis multilineata
       confidence: 0.9818
@@ -47,5 +50,5 @@ species_suggestions:
 species:
 - scientific: Chromis multilineata
   role: primary
-  confidence: 0.6317
+  confidence: 0.6316
   identified_by: bioclip-2+bioclip-2.5

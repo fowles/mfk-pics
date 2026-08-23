@@ -13,8 +13,9 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1786157054.892186
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Thalassoma bifasciatum
       confidence: 0.1599
@@ -24,19 +25,21 @@ species_suggestions:
       confidence: 0.0782
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T03:55:24Z'
     src_mtime: 1786157054.892186
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Canthidermis sufflamen
-      confidence: 0.2336
+      confidence: 0.2332
     - scientific: Scarus vetula
-      confidence: 0.2184
+      confidence: 0.218
     - scientific: Chromis cyanea
-      confidence: 0.0828
+      confidence: 0.0827
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T03:58:12Z'
     src_mtime: 1786157054.892186
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Balistes vetula
       confidence: 0.2887

@@ -12,8 +12,9 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1786159809.681532
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Ginglymostoma cirratum
       confidence: 0.4425
@@ -23,28 +24,30 @@ species_suggestions:
       confidence: 0.142
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T03:55:24Z'
     src_mtime: 1786159809.681532
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Carcharhinus perezi
-      confidence: 0.968
-    - scientific: Galeocerdo cuvier
-      confidence: 0.0305
-    - scientific: Echeneis naucrates
-      confidence: 0.0006
+      confidence: 0.7144
+    - scientific: Carcharhinus longimanus
+      confidence: 0.201
+    - scientific: Carcharhinus falciformis
+      confidence: 0.0355
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T03:58:12Z'
     src_mtime: 1786159809.681532
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Carcharhinus perezi
-      confidence: 0.9999
-    - scientific: Canthidermis sufflamen
-      confidence: 0.0001
-    - scientific: Galeocerdo cuvier
-      confidence: 0.0001
+      confidence: 0.8889
+    - scientific: Carcharhinus longimanus
+      confidence: 0.0623
+    - scientific: Carcharhinus falciformis
+      confidence: 0.0309
 species:
 - scientific: Carcharhinus perezi
   role: primary
-  confidence: 0.9839
+  confidence: 0.8016
   identified_by: bioclip+bioclip-2+bioclip-2.5

@@ -17,8 +17,9 @@ rotation_applied: 90
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1787028892.335436
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Aulostomus maculatus
       confidence: 0.1651
@@ -31,19 +32,21 @@ species_suggestions:
       confidence: 0.8203
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T03:55:24Z'
     src_mtime: 1787028892.335436
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Aulostomus maculatus
-      confidence: 0.6851
+      confidence: 0.6849
     - scientific: Aluterus scriptus
       confidence: 0.0584
     - scientific: Monacanthus tuckeri
       confidence: 0.0381
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T03:58:12Z'
     src_mtime: 1787028892.335436
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Acanthostracion polygonius
       confidence: 0.5795
@@ -54,5 +57,5 @@ species_suggestions:
 species:
 - scientific: Aulostomus maculatus
   role: primary
-  confidence: 0.3426
+  confidence: 0.3424
   identified_by: bioclip+bioclip-2

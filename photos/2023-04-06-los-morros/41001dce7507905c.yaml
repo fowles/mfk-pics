@@ -11,17 +11,41 @@ gps_source: dive_site
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1787445727.137579
+    vocab: d07e6f895399
     top:
     - scientific: Homo sapiens
-      confidence: 0.1592
+      confidence: 0.1581
     - scientific: Carcharhinus albimarginatus
-      confidence: 0.1153
+      confidence: 0.1145
     - scientific: Sphoeroides annulatus
-      confidence: 0.0946
-species:
-- scientific: Homo sapiens
-  role: primary
-  confidence: 0.1592
-  identified_by: bioclip
+      confidence: 0.094
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-23T03:55:24Z'
+    src_mtime: 1787445727.137579
+    vocab: d07e6f895399
+    top:
+    - scientific: Grapsus grapsus
+      confidence: 0.1353
+    - scientific: Homo sapiens
+      confidence: 0.1336
+    - scientific: Caretta caretta
+      confidence: 0.0786
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-23T03:58:12Z'
+    src_mtime: 1787445727.137579
+    vocab: d07e6f895399
+    top:
+    - scientific: Microspathodon dorsalis
+      confidence: 0.3981
+    - scientific: Eucidaris thouarsii
+      confidence: 0.0159
+    - scientific: Nidorellia armata
+      confidence: 0.0098
+    absorbed_by:
+      scientific: Spirobranchus incrassatus
+      confidence: 0.5019
+species: []

@@ -13,8 +13,9 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1786156311.0731587
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Platybelone argalus
       confidence: 0.7803
@@ -24,28 +25,30 @@ species_suggestions:
       confidence: 0.0726
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T03:55:24Z'
     src_mtime: 1786156311.0731587
+    vocab: 9eb53da9d7d6
     top:
-    - scientific: Fistularia tabacaria
-      confidence: 0.8863
-    - scientific: Scomberomorus regalis
-      confidence: 0.0568
-    - scientific: Sphyraena barracuda
-      confidence: 0.0228
+    - scientific: Platybelone argalus
+      confidence: 0.6195
+    - scientific: Tylosurus crocodilus
+      confidence: 0.2306
+    - scientific: Ablennes hians
+      confidence: 0.1354
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T03:58:12Z'
     src_mtime: 1786156311.0731587
+    vocab: 9eb53da9d7d6
     top:
-    - scientific: Fistularia tabacaria
-      confidence: 0.9284
-    - scientific: Scomberomorus regalis
-      confidence: 0.026
-    - scientific: Sphyraena barracuda
-      confidence: 0.0211
+    - scientific: Ablennes hians
+      confidence: 0.422
+    - scientific: Platybelone argalus
+      confidence: 0.3967
+    - scientific: Tylosurus crocodilus
+      confidence: 0.1812
 species:
-- scientific: Fistularia tabacaria
+- scientific: Platybelone argalus
   role: primary
-  confidence: 0.9073
+  confidence: 0.5081
   identified_by: bioclip+bioclip-2+bioclip-2.5

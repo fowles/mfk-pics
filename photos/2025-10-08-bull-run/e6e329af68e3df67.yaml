@@ -12,8 +12,9 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1786159808.641658
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Physalia physalis
       confidence: 0.8063
@@ -23,28 +24,30 @@ species_suggestions:
       confidence: 0.0421
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T03:55:24Z'
     src_mtime: 1786159808.641658
+    vocab: 9eb53da9d7d6
     top:
-    - scientific: Galeocerdo cuvier
-      confidence: 0.3887
-    - scientific: Scomberomorus regalis
-      confidence: 0.1983
-    - scientific: Caranx crysos
-      confidence: 0.146
+    - scientific: Decapterus macarellus
+      confidence: 0.308
+    - scientific: Pseudorca crassidens
+      confidence: 0.2421
+    - scientific: Rhincodon typus
+      confidence: 0.0787
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T03:58:12Z'
     src_mtime: 1786159808.641658
+    vocab: 9eb53da9d7d6
     top:
-    - scientific: Megalops atlanticus
-      confidence: 0.4906
-    - scientific: Melichthys niger
-      confidence: 0.1984
-    - scientific: Scomberomorus regalis
-      confidence: 0.1921
+    - scientific: Decapterus macarellus
+      confidence: 0.6028
+    - scientific: Rhincodon typus
+      confidence: 0.2539
+    - scientific: Katsuwonus pelamis
+      confidence: 0.0963
 species:
-- scientific: Megalops atlanticus
+- scientific: Decapterus macarellus
   role: primary
-  confidence: 0.2453
-  identified_by: bioclip-2.5
+  confidence: 0.4554
+  identified_by: bioclip-2+bioclip-2.5

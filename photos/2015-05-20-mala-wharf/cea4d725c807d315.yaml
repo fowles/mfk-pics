@@ -13,17 +13,42 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1787441077.569309
+    vocab: 1496b1231bc5
     top:
+    - scientific: Dascyllus albisella
+      confidence: 0.9786
     - scientific: Dascyllus trimaculatus
-      confidence: 0.7537
+      confidence: 0.0161
     - scientific: Arothron meleagris
-      confidence: 0.1201
-    - scientific: Diodon hystrix
-      confidence: 0.0213
+      confidence: 0.0026
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-23T03:55:24Z'
+    src_mtime: 1787441077.569309
+    vocab: 1496b1231bc5
+    top:
+    - scientific: Dascyllus albisella
+      confidence: 0.7685
+    - scientific: Dascyllus trimaculatus
+      confidence: 0.1344
+    - scientific: Dascyllus reticulatus
+      confidence: 0.04
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-23T03:58:12Z'
+    src_mtime: 1787441077.569309
+    vocab: 1496b1231bc5
+    top:
+    - scientific: Dascyllus albisella
+      confidence: 0.6427
+    - scientific: Dascyllus trimaculatus
+      confidence: 0.3528
+    - scientific: Macolor niger
+      confidence: 0.0021
 species:
-- scientific: Dascyllus trimaculatus
+- scientific: Dascyllus albisella
   role: primary
-  confidence: 0.7537
-  identified_by: bioclip
+  confidence: 0.7056
+  identified_by: bioclip+bioclip-2+bioclip-2.5

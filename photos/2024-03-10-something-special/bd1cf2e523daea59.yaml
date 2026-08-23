@@ -13,8 +13,9 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1786159058.7744203
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Acanthurus coeruleus
       confidence: 0.773
@@ -24,8 +25,9 @@ species_suggestions:
       confidence: 0.0386
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T03:55:24Z'
     src_mtime: 1786159058.7744203
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Chromis cyanea
       confidence: 0.8509
@@ -35,11 +37,12 @@ species_suggestions:
       confidence: 0.0395
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T03:58:12Z'
     src_mtime: 1786159058.7744203
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Clepticus parrae
-      confidence: 0.988
+      confidence: 0.9881
     - scientific: Chromis cyanea
       confidence: 0.0081
     - scientific: Scarus coeruleus

@@ -17,8 +17,9 @@ correction_standalone: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1787438621.7858956
+    vocab: d07e6f895399
     top:
     - scientific: Dermatolepis dermatolepis
       confidence: 0.4097
@@ -26,8 +27,32 @@ species_suggestions:
       confidence: 0.2587
     - scientific: Bodianus diplotaenia
       confidence: 0.1126
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-23T03:55:24Z'
+    src_mtime: 1787438621.7858956
+    vocab: d07e6f895399
+    top:
+    - scientific: Arothron meleagris
+      confidence: 0.8233
+    - scientific: Dermatolepis dermatolepis
+      confidence: 0.0475
+    - scientific: Arothron hispidus
+      confidence: 0.0462
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-23T03:58:12Z'
+    src_mtime: 1787438621.7858956
+    vocab: d07e6f895399
+    top:
+    - scientific: Arothron meleagris
+      confidence: 1.0
+    - scientific: Canthidermis maculata
+      confidence: 0.0
+    - scientific: Arothron hispidus
+      confidence: 0.0
 species:
-- scientific: Dermatolepis dermatolepis
+- scientific: Arothron meleagris
   role: primary
-  confidence: 0.4097
-  identified_by: bioclip
+  confidence: 0.9117
+  identified_by: bioclip-2+bioclip-2.5

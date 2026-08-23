@@ -13,8 +13,9 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1786157576.903917
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Tripneustes ventricosus
       confidence: 0.0179
@@ -27,28 +28,30 @@ species_suggestions:
       confidence: 0.9214
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T03:55:24Z'
     src_mtime: 1786157576.903917
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Astrophyton muricatum
-      confidence: 0.2672
+      confidence: 0.2668
     - scientific: Ophiothrix suensonii
-      confidence: 0.1541
+      confidence: 0.1539
     - scientific: Stenorhynchus seticornis
       confidence: 0.0047
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T03:58:12Z'
     src_mtime: 1786157576.903917
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Astrophyton muricatum
-      confidence: 0.977
+      confidence: 0.9764
     - scientific: Ophiothrix suensonii
-      confidence: 0.0043
+      confidence: 0.0042
     - scientific: Anisotremus surinamensis
       confidence: 0.0004
 species:
 - scientific: Astrophyton muricatum
   role: primary
-  confidence: 0.6221
+  confidence: 0.6216
   identified_by: bioclip-2+bioclip-2.5

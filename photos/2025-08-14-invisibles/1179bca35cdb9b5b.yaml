@@ -13,8 +13,9 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1786158237.2942376
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Gymnothorax miliaris
       confidence: 0.3439
@@ -24,28 +25,30 @@ species_suggestions:
       confidence: 0.1132
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T03:55:24Z'
     src_mtime: 1786158237.2942376
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Epinephelus adscensionis
-      confidence: 0.555
+      confidence: 0.5456
     - scientific: Rypticus saponaceus
-      confidence: 0.1694
+      confidence: 0.1666
     - scientific: Myrichthys breviceps
-      confidence: 0.0277
+      confidence: 0.0272
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T03:58:12Z'
     src_mtime: 1786158237.2942376
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Rypticus saponaceus
       confidence: 0.3587
     - scientific: Cephalopholis cruentata
-      confidence: 0.3366
+      confidence: 0.3365
     - scientific: Mycteroperca venenosa
       confidence: 0.1022
 species:
 - scientific: Epinephelus adscensionis
   role: primary
-  confidence: 0.2775
+  confidence: 0.2728
   identified_by: bioclip-2

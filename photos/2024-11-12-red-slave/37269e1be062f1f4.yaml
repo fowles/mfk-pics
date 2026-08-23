@@ -17,8 +17,9 @@ species:
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1786156803.5329614
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Aetobatus narinari
       confidence: 0.9993
@@ -28,23 +29,25 @@ species_suggestions:
       confidence: 0.0002
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T03:55:24Z'
     src_mtime: 1786156803.5329614
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Aetobatus narinari
-      confidence: 0.9964
+      confidence: 0.9917
+    - scientific: Mobula birostris
+      confidence: 0.0039
     - scientific: Echeneis naucrates
       confidence: 0.0014
-    - scientific: Scarus coelestinus
-      confidence: 0.0004
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T03:58:12Z'
     src_mtime: 1786156803.5329614
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Aetobatus narinari
       confidence: 1.0
-    - scientific: Canthidermis sufflamen
+    - scientific: Mobula birostris
       confidence: 0.0
-    - scientific: Hypanus americanus
+    - scientific: Canthidermis sufflamen
       confidence: 0.0

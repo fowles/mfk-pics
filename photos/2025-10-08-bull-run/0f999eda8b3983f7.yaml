@@ -12,8 +12,9 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1786159808.9983118
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Megalops atlanticus
       confidence: 0.2972
@@ -23,28 +24,30 @@ species_suggestions:
       confidence: 0.1597
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T03:55:24Z'
     src_mtime: 1786159808.9983118
+    vocab: 9eb53da9d7d6
     top:
-    - scientific: Galeocerdo cuvier
-      confidence: 0.4384
-    - scientific: Echeneis naucrates
-      confidence: 0.3018
-    - scientific: Megalops atlanticus
-      confidence: 0.1334
+    - scientific: Mobula birostris
+      confidence: 0.5449
+    - scientific: Rhincodon typus
+      confidence: 0.2614
+    - scientific: Megaptera novaeangliae
+      confidence: 0.0723
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T03:58:12Z'
     src_mtime: 1786159808.9983118
+    vocab: 9eb53da9d7d6
     top:
+    - scientific: Decapterus macarellus
+      confidence: 0.8269
+    - scientific: Katsuwonus pelamis
+      confidence: 0.0793
     - scientific: Megalops atlanticus
-      confidence: 0.6127
-    - scientific: Scomberomorus regalis
-      confidence: 0.1936
-    - scientific: Caranx ruber
-      confidence: 0.1588
+      confidence: 0.0261
 species:
-- scientific: Megalops atlanticus
+- scientific: Decapterus macarellus
   role: primary
-  confidence: 0.373
-  identified_by: bioclip+bioclip-2+bioclip-2.5
+  confidence: 0.4134
+  identified_by: bioclip-2.5

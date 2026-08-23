@@ -13,8 +13,9 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1786157212.9871564
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Canthidermis sufflamen
       confidence: 0.3262
@@ -24,28 +25,30 @@ species_suggestions:
       confidence: 0.1581
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T03:55:24Z'
     src_mtime: 1786157212.9871564
+    vocab: 9eb53da9d7d6
     top:
+    - scientific: Alectis ciliaris
+      confidence: 0.1992
     - scientific: Balistes vetula
-      confidence: 0.166
+      confidence: 0.1302
     - scientific: Caranx ruber
-      confidence: 0.1316
-    - scientific: Aluterus scriptus
-      confidence: 0.1203
+      confidence: 0.1032
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T03:58:12Z'
     src_mtime: 1786157212.9871564
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Acanthostracion polygonius
-      confidence: 0.5904
+      confidence: 0.5873
     - scientific: Acanthostracion quadricornis
-      confidence: 0.3834
+      confidence: 0.3814
     - scientific: Aluterus scriptus
-      confidence: 0.0142
+      confidence: 0.0141
 species:
 - scientific: Acanthostracion polygonius
   role: primary
-  confidence: 0.2952
+  confidence: 0.2937
   identified_by: bioclip-2.5

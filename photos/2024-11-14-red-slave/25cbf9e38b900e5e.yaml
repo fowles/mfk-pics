@@ -16,8 +16,9 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1786156980.6234736
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Astrophyton muricatum
       confidence: 0.7105
@@ -27,22 +28,24 @@ species_suggestions:
       confidence: 0.0311
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T03:55:24Z'
     src_mtime: 1786156980.6234736
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Astrophyton muricatum
-      confidence: 0.394
+      confidence: 0.3931
     - scientific: Monacanthus tuckeri
-      confidence: 0.0215
+      confidence: 0.0214
     - scientific: Cyphoma gibbosum
       confidence: 0.0171
     absorbed_by:
       scientific: Antillogorgia americana
-      confidence: 0.4873
+      confidence: 0.486
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T03:58:12Z'
     src_mtime: 1786156980.6234736
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Monacanthus tuckeri
       confidence: 0.9395
@@ -53,5 +56,5 @@ species_suggestions:
 species:
 - scientific: Monacanthus tuckeri
   role: primary
-  confidence: 0.4805
+  confidence: 0.4804
   identified_by: bioclip+bioclip-2+bioclip-2.5

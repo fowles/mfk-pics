@@ -12,8 +12,9 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1786159797.9307232
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Ogcocephalus nasutus
       confidence: 0.2822
@@ -23,27 +24,30 @@ species_suggestions:
       confidence: 0.1094
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T03:55:24Z'
     src_mtime: 1786159797.9307232
+    vocab: 9eb53da9d7d6
     top:
+    - scientific: Carcharhinus falciformis
+      confidence: 0.0962
     - scientific: Galeocerdo cuvier
-      confidence: 0.1165
+      confidence: 0.0898
     - scientific: Echeneis naucrates
-      confidence: 0.1074
-    - scientific: Scarus coeruleus
-      confidence: 0.0848
+      confidence: 0.0827
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T03:58:12Z'
     src_mtime: 1786159797.9307232
+    vocab: 9eb53da9d7d6
     top:
+    - scientific: Sphyrna lewini
+      confidence: 0.2801
+    - scientific: Physalia physalis
+      confidence: 0.1479
     - scientific: Sphyrna mokarran
-      confidence: 0.0919
-    - scientific: Chelonia mydas
-      confidence: 0.0797
-    - scientific: Stenopus hispidus
-      confidence: 0.0707
-    absorbed_by:
-      scientific: Cirrhipathes leutkeni
-      confidence: 0.152
-species: []
+      confidence: 0.04
+species:
+- scientific: Sphyrna lewini
+  role: primary
+  confidence: 0.1401
+  identified_by: bioclip-2.5

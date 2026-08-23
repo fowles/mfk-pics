@@ -16,8 +16,9 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1786156744.9964876
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Epinephelus striatus
       confidence: 0.5108
@@ -27,19 +28,21 @@ species_suggestions:
       confidence: 0.1103
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T03:55:24Z'
     src_mtime: 1786156744.9964876
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Pseudupeneus maculatus
-      confidence: 0.6866
+      confidence: 0.6864
     - scientific: Sepioteuthis sepioidea
       confidence: 0.0476
     - scientific: Lachnolaimus maximus
-      confidence: 0.0372
+      confidence: 0.0371
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T03:58:12Z'
     src_mtime: 1786156744.9964876
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Pseudupeneus maculatus
       confidence: 0.7018
@@ -50,5 +53,5 @@ species_suggestions:
 species:
 - scientific: Pseudupeneus maculatus
   role: primary
-  confidence: 0.6942
+  confidence: 0.6941
   identified_by: bioclip-2+bioclip-2.5

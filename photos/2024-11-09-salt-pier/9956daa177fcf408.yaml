@@ -16,8 +16,9 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1786156581.8551538
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Acanthostracion polygonius
       confidence: 0.7821
@@ -27,28 +28,30 @@ species_suggestions:
       confidence: 0.0455
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T03:55:24Z'
     src_mtime: 1786156581.8551538
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Canthidermis sufflamen
-      confidence: 0.2287
+      confidence: 0.2268
     - scientific: Diodon hystrix
-      confidence: 0.1262
+      confidence: 0.1251
     - scientific: Calamus calamus
-      confidence: 0.1234
+      confidence: 0.1224
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T03:58:12Z'
     src_mtime: 1786156581.8551538
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Aluterus scriptus
-      confidence: 0.7403
+      confidence: 0.7401
     - scientific: Eretmochelys imbricata
-      confidence: 0.1507
+      confidence: 0.1506
     - scientific: Chelonia mydas
-      confidence: 0.0882
+      confidence: 0.0881
 species:
 - scientific: Aluterus scriptus
   role: primary
-  confidence: 0.3701
+  confidence: 0.37
   identified_by: bioclip-2.5

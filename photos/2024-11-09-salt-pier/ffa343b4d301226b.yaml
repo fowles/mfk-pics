@@ -16,8 +16,9 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1786156586.6640887
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Thalassoma bifasciatum
       confidence: 0.5502
@@ -27,22 +28,24 @@ species_suggestions:
       confidence: 0.0773
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T03:55:24Z'
     src_mtime: 1786156586.6640887
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Lactophrys triqueter
       confidence: 0.0809
     - scientific: Holacanthus tricolor
       confidence: 0.058
     - scientific: Halichoeres maculipinna
-      confidence: 0.0449
+      confidence: 0.0448
     absorbed_by:
       scientific: Orbicella annularis
-      confidence: 0.147
+      confidence: 0.1469
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T03:58:12Z'
     src_mtime: 1786156586.6640887
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Amblycirrhitus pinos
       confidence: 0.226

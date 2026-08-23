@@ -17,8 +17,9 @@ correction_standalone: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1787438637.36511
+    vocab: d07e6f895399
     top:
     - scientific: Stegastes acapulcoensis
       confidence: 0.5427
@@ -26,8 +27,32 @@ species_suggestions:
       confidence: 0.2664
     - scientific: Abudefduf concolor
       confidence: 0.0519
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-23T03:55:24Z'
+    src_mtime: 1787438637.36511
+    vocab: d07e6f895399
+    top:
+    - scientific: Pomacanthus zonipectus
+      confidence: 0.4144
+    - scientific: Dermatolepis dermatolepis
+      confidence: 0.2064
+    - scientific: Hoplopagrus guentherii
+      confidence: 0.1328
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-23T03:58:12Z'
+    src_mtime: 1787438637.36511
+    vocab: d07e6f895399
+    top:
+    - scientific: Prionurus punctatus
+      confidence: 0.5782
+    - scientific: Pomacanthus zonipectus
+      confidence: 0.176
+    - scientific: Holacanthus passer
+      confidence: 0.1371
 species:
-- scientific: Stegastes acapulcoensis
+- scientific: Pomacanthus zonipectus
   role: primary
-  confidence: 0.5427
-  identified_by: bioclip
+  confidence: 0.2952
+  identified_by: bioclip-2+bioclip-2.5

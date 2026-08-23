@@ -16,8 +16,9 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1786156901.4213858
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Aulostomus maculatus
       confidence: 0.3718
@@ -27,19 +28,21 @@ species_suggestions:
       confidence: 0.1112
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T03:55:24Z'
     src_mtime: 1786156901.4213858
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Holocentrus rufus
-      confidence: 0.1411
+      confidence: 0.141
     - scientific: Davidaster rubiginosus
       confidence: 0.0894
     - scientific: Aulostomus maculatus
       confidence: 0.0547
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T03:58:12Z'
     src_mtime: 1786156901.4213858
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Sparisoma viride
       confidence: 0.0173

@@ -16,8 +16,9 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1786159990.1457078
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Acanthostracion polygonius
       confidence: 0.902
@@ -27,25 +28,27 @@ species_suggestions:
       confidence: 0.0135
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T03:55:24Z'
     src_mtime: 1786159990.1457078
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Chilomycterus antillarum
-      confidence: 0.1062
+      confidence: 0.106
     - scientific: Astrophyton muricatum
-      confidence: 0.1001
+      confidence: 0.0999
     - scientific: Cyphoma gibbosum
-      confidence: 0.0763
+      confidence: 0.0762
     absorbed_by:
       scientific: Millepora alcicornis
-      confidence: 0.2677
+      confidence: 0.2672
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T03:58:12Z'
     src_mtime: 1786159990.1457078
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Epinephelus adscensionis
-      confidence: 0.5346
+      confidence: 0.5345
     - scientific: Scorpaena plumieri
       confidence: 0.1285
     - scientific: Cephalopholis cruentata
@@ -53,5 +56,5 @@ species_suggestions:
 species:
 - scientific: Epinephelus adscensionis
   role: primary
-  confidence: 0.2673
+  confidence: 0.2672
   identified_by: bioclip-2.5

@@ -14,8 +14,9 @@ rotation_applied: 270
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1787030532.7496526
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Sepioteuthis sepioidea
       confidence: 0.9061
@@ -25,22 +26,24 @@ species_suggestions:
       confidence: 0.0036
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T03:55:24Z'
     src_mtime: 1787030532.7496526
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Octopus briareus
-      confidence: 0.0394
+      confidence: 0.0392
     - scientific: Thalassoma bifasciatum
-      confidence: 0.0312
+      confidence: 0.031
     - scientific: Clepticus parrae
-      confidence: 0.0209
+      confidence: 0.0208
     absorbed_by:
       scientific: Briareum asbestinum
-      confidence: 0.1255
+      confidence: 0.1248
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T03:58:12Z'
     src_mtime: 1787030532.7496526
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Halichoeres pictus
       confidence: 0.039

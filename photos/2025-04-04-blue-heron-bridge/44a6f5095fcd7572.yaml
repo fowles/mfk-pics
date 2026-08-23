@@ -13,8 +13,9 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1786157491.592458
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Diodon holocanthus
       confidence: 0.3553
@@ -24,28 +25,30 @@ species_suggestions:
       confidence: 0.0531
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T03:55:24Z'
     src_mtime: 1786157491.592458
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Cassiopea xamachana
-      confidence: 0.5681
+      confidence: 0.5602
     - scientific: Chilomycterus schoepfii
-      confidence: 0.1634
+      confidence: 0.1611
     - scientific: Oreaster reticulatus
-      confidence: 0.0417
+      confidence: 0.0411
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T03:58:12Z'
     src_mtime: 1786157491.592458
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Chilomycterus antillarum
-      confidence: 0.3708
+      confidence: 0.3661
     - scientific: Chilomycterus schoepfii
-      confidence: 0.1665
+      confidence: 0.1644
     - scientific: Osachila antillensis
-      confidence: 0.088
+      confidence: 0.0869
 species:
 - scientific: Cassiopea xamachana
   role: primary
-  confidence: 0.2841
+  confidence: 0.2801
   identified_by: bioclip-2

@@ -13,8 +13,9 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1786156575.19335
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Thalassoma bifasciatum
       confidence: 0.2663
@@ -24,28 +25,30 @@ species_suggestions:
       confidence: 0.0886
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T03:55:24Z'
     src_mtime: 1786156575.19335
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Sepioteuthis sepioidea
-      confidence: 0.1553
+      confidence: 0.1228
     - scientific: Carcharhinus perezi
-      confidence: 0.0743
+      confidence: 0.0588
     - scientific: Caranx ruber
-      confidence: 0.0626
+      confidence: 0.0495
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T03:58:12Z'
     src_mtime: 1786156575.19335
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Scarus coelestinus
-      confidence: 0.886
+      confidence: 0.8836
     - scientific: Melichthys niger
-      confidence: 0.0625
+      confidence: 0.0623
     - scientific: Canthidermis sufflamen
-      confidence: 0.0232
+      confidence: 0.0231
 species:
 - scientific: Scarus coelestinus
   role: primary
-  confidence: 0.443
+  confidence: 0.4418
   identified_by: bioclip-2.5

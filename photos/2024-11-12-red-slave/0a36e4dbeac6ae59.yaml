@@ -13,8 +13,9 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1786156816.4462602
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Cantherhines macrocerus
       confidence: 0.9975
@@ -24,19 +25,21 @@ species_suggestions:
       confidence: 0.0007
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T03:55:24Z'
     src_mtime: 1786156816.4462602
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Cantherhines macrocerus
-      confidence: 0.9955
+      confidence: 0.9953
     - scientific: Aluterus schoepfii
       confidence: 0.0023
     - scientific: Aluterus scriptus
       confidence: 0.0011
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T03:58:12Z'
     src_mtime: 1786156816.4462602
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Cantherhines macrocerus
       confidence: 1.0
@@ -47,5 +50,5 @@ species_suggestions:
 species:
 - scientific: Cantherhines macrocerus
   role: primary
-  confidence: 0.9978
+  confidence: 0.9976
   identified_by: bioclip+bioclip-2+bioclip-2.5

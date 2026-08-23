@@ -13,8 +13,9 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1786158710.886257
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Pomacanthus paru
       confidence: 0.4557
@@ -24,28 +25,30 @@ species_suggestions:
       confidence: 0.1096
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T03:55:24Z'
     src_mtime: 1786158710.886257
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Equetus punctatus
-      confidence: 0.19
+      confidence: 0.1899
     - scientific: Hypoplectrus indigo
       confidence: 0.1423
     - scientific: Hypoplectrus puella
-      confidence: 0.1357
+      confidence: 0.1356
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T03:58:12Z'
     src_mtime: 1786158710.886257
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Equetus punctatus
-      confidence: 0.29
+      confidence: 0.3421
     - scientific: Hypoplectrus nigricans
-      confidence: 0.2394
-    - scientific: Chrysiptera parasema
-      confidence: 0.1522
+      confidence: 0.2824
+    - scientific: Microspathodon chrysurus
+      confidence: 0.094
 species:
 - scientific: Equetus punctatus
   role: primary
-  confidence: 0.24
+  confidence: 0.266
   identified_by: bioclip-2+bioclip-2.5

@@ -16,8 +16,9 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1786156743.115474
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Chromis multilineata
       confidence: 0.6367
@@ -27,28 +28,30 @@ species_suggestions:
       confidence: 0.0705
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T03:55:24Z'
     src_mtime: 1786156743.115474
+    vocab: 9eb53da9d7d6
     top:
+    - scientific: Decapterus macarellus
+      confidence: 0.3449
     - scientific: Chromis multilineata
-      confidence: 0.5483
+      confidence: 0.2851
     - scientific: Clepticus parrae
-      confidence: 0.2023
-    - scientific: Halichoeres pictus
-      confidence: 0.0536
+      confidence: 0.1052
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T03:58:12Z'
     src_mtime: 1786156743.115474
+    vocab: 9eb53da9d7d6
     top:
+    - scientific: Decapterus macarellus
+      confidence: 0.8053
     - scientific: Chromis multilineata
-      confidence: 0.8394
+      confidence: 0.1549
     - scientific: Chromis cyanea
-      confidence: 0.0799
-    - scientific: Clepticus parrae
-      confidence: 0.0483
+      confidence: 0.0148
 species:
-- scientific: Chromis multilineata
+- scientific: Decapterus macarellus
   role: primary
-  confidence: 0.6939
-  identified_by: bioclip+bioclip-2+bioclip-2.5
+  confidence: 0.5751
+  identified_by: bioclip-2+bioclip-2.5

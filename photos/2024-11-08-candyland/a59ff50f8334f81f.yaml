@@ -13,8 +13,9 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1786156487.4990015
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Stenorhynchus seticornis
       confidence: 0.6685
@@ -24,25 +25,27 @@ species_suggestions:
       confidence: 0.0308
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T03:55:24Z'
     src_mtime: 1786156487.4990015
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Davidaster rubiginosus
       confidence: 0.0607
     - scientific: Aulostomus maculatus
       confidence: 0.04
     - scientific: Holacanthus tricolor
-      confidence: 0.0259
+      confidence: 0.0258
     absorbed_by:
       scientific: Orbicella annularis
-      confidence: 0.1763
+      confidence: 0.1761
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T03:58:12Z'
     src_mtime: 1786156487.4990015
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Davidaster rubiginosus
-      confidence: 0.0264
+      confidence: 0.0263
     - scientific: Abudefduf saxatilis
       confidence: 0.012
     - scientific: Aulostomus maculatus

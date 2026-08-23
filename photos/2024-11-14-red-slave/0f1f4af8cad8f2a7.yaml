@@ -9,8 +9,9 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1786156977.3201034
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Lactophrys triqueter
       confidence: 0.6479
@@ -20,27 +21,29 @@ species_suggestions:
       confidence: 0.0174
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T03:55:24Z'
     src_mtime: 1786156977.3201034
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Sepioteuthis sepioidea
-      confidence: 0.2013
+      confidence: 0.1893
     - scientific: Eretmochelys imbricata
-      confidence: 0.0962
+      confidence: 0.0905
     - scientific: Caretta caretta
-      confidence: 0.0959
+      confidence: 0.0902
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T03:58:12Z'
     src_mtime: 1786156977.3201034
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Lactophrys triqueter
-      confidence: 0.2389
+      confidence: 0.2366
     - scientific: Myrichthys breviceps
-      confidence: 0.1403
+      confidence: 0.1389
     - scientific: Caranx ruber
-      confidence: 0.045
+      confidence: 0.0446
     absorbed_by:
       scientific: Gorgonia ventalina
-      confidence: 0.3153
+      confidence: 0.3124
 species: []

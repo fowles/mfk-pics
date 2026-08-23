@@ -13,8 +13,9 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1786160146.5795596
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Mycteroperca venenosa
       confidence: 0.5743
@@ -24,19 +25,21 @@ species_suggestions:
       confidence: 0.0684
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T03:55:24Z'
     src_mtime: 1786160146.5795596
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Mycteroperca bonaci
-      confidence: 0.4295
+      confidence: 0.4294
     - scientific: Mycteroperca tigris
       confidence: 0.207
     - scientific: Sphyraena barracuda
       confidence: 0.1419
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T03:58:12Z'
     src_mtime: 1786160146.5795596
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Mycteroperca bonaci
       confidence: 0.5757

@@ -13,8 +13,9 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1786159282.779868
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Astrophyton muricatum
       confidence: 0.2548
@@ -24,31 +25,33 @@ species_suggestions:
       confidence: 0.0778
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T03:55:24Z'
     src_mtime: 1786159282.779868
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Davidaster rubiginosus
-      confidence: 0.3145
+      confidence: 0.3139
     - scientific: Pterois volitans
-      confidence: 0.153
+      confidence: 0.1527
     - scientific: Astrophyton muricatum
-      confidence: 0.0927
+      confidence: 0.0926
     absorbed_by:
       scientific: Antillogorgia americana
-      confidence: 0.3588
+      confidence: 0.3582
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T03:58:12Z'
     src_mtime: 1786159282.779868
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Davidaster rubiginosus
       confidence: 0.753
     - scientific: Astrophyton muricatum
-      confidence: 0.2265
+      confidence: 0.2264
     - scientific: Pterois volitans
       confidence: 0.0125
 species:
 - scientific: Davidaster rubiginosus
   role: primary
-  confidence: 0.5337
+  confidence: 0.5334
   identified_by: bioclip-2+bioclip-2.5

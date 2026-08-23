@@ -16,8 +16,9 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1786158982.0059204
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Aulostomus maculatus
       confidence: 0.3505
@@ -27,19 +28,21 @@ species_suggestions:
       confidence: 0.0787
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T03:55:24Z'
     src_mtime: 1786158982.0059204
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Hypanus americanus
-      confidence: 0.1203
+      confidence: 0.1199
     - scientific: Acanthostracion polygonius
-      confidence: 0.0562
+      confidence: 0.056
     - scientific: Aetobatus narinari
-      confidence: 0.0517
+      confidence: 0.0515
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T03:58:12Z'
     src_mtime: 1786158982.0059204
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Urobatis jamaicensis
       confidence: 0.3046

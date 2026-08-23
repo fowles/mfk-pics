@@ -13,8 +13,9 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1786158710.1259158
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Cantherhines macrocerus
       confidence: 0.3665
@@ -24,25 +25,27 @@ species_suggestions:
       confidence: 0.0715
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T03:55:24Z'
     src_mtime: 1786158710.1259158
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Sparisoma viride
       confidence: 0.0636
     - scientific: Cyphoma gibbosum
-      confidence: 0.0624
+      confidence: 0.0623
     - scientific: Holacanthus ciliaris
       confidence: 0.049
     absorbed_by:
       scientific: Millepora alcicornis
-      confidence: 0.1539
+      confidence: 0.1538
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T03:58:12Z'
     src_mtime: 1786158710.1259158
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Sparisoma viride
-      confidence: 0.334
+      confidence: 0.3339
     - scientific: Monacanthus tuckeri
       confidence: 0.0691
     - scientific: Cyphoma gibbosum
@@ -50,5 +53,5 @@ species_suggestions:
 species:
 - scientific: Sparisoma viride
   role: primary
-  confidence: 0.1988
+  confidence: 0.1987
   identified_by: bioclip-2+bioclip-2.5

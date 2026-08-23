@@ -13,8 +13,9 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1786159792.1387365
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Aulostomus maculatus
       confidence: 0.3232
@@ -24,22 +25,24 @@ species_suggestions:
       confidence: 0.1057
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T03:55:24Z'
     src_mtime: 1786159792.1387365
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Elacatinus genie
-      confidence: 0.0256
+      confidence: 0.0253
     - scientific: Ophiothrix suensonii
-      confidence: 0.0227
+      confidence: 0.0225
     - scientific: Pterois volitans
-      confidence: 0.0192
+      confidence: 0.019
     absorbed_by:
       scientific: Callyspongia plicifera
-      confidence: 0.177
+      confidence: 0.175
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T03:58:12Z'
     src_mtime: 1786159792.1387365
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Astrophyton muricatum
       confidence: 0.0136
@@ -49,5 +52,5 @@ species_suggestions:
       confidence: 0.0026
     absorbed_by:
       scientific: Callyspongia plicifera
-      confidence: 0.2258
+      confidence: 0.2257
 species: []

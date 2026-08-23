@@ -17,8 +17,9 @@ correction_standalone: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1787438624.8061998
+    vocab: d07e6f895399
     top:
     - scientific: Pseudorca crassidens
       confidence: 0.7571
@@ -26,8 +27,32 @@ species_suggestions:
       confidence: 0.1633
     - scientific: Acanthurus triostegus
       confidence: 0.0167
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-23T03:55:24Z'
+    src_mtime: 1787438624.8061998
+    vocab: d07e6f895399
+    top:
+    - scientific: Lythrypnus dalli
+      confidence: 0.2159
+    - scientific: Scuticaria tigrina
+      confidence: 0.0555
+    - scientific: Paranthias colonus
+      confidence: 0.0414
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-23T03:58:12Z'
+    src_mtime: 1787438624.8061998
+    vocab: d07e6f895399
+    top:
+    - scientific: Narcine entemedor
+      confidence: 0.2417
+    - scientific: Octopus hubbsorum
+      confidence: 0.1248
+    - scientific: Dermatolepis dermatolepis
+      confidence: 0.0915
 species:
-- scientific: Pseudorca crassidens
+- scientific: Narcine entemedor
   role: primary
-  confidence: 0.7571
-  identified_by: bioclip
+  confidence: 0.1208
+  identified_by: bioclip-2.5

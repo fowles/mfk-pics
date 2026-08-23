@@ -13,8 +13,9 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1786158861.6067164
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Platybelone argalus
       confidence: 0.6403
@@ -24,28 +25,30 @@ species_suggestions:
       confidence: 0.0636
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T03:55:24Z'
     src_mtime: 1786158861.6067164
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Ocyurus chrysurus
-      confidence: 0.8119
+      confidence: 0.7973
     - scientific: Carangoides bartholomaei
-      confidence: 0.0438
+      confidence: 0.043
     - scientific: Mulloidichthys martinicus
-      confidence: 0.0397
+      confidence: 0.039
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T03:58:12Z'
     src_mtime: 1786158861.6067164
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Ocyurus chrysurus
-      confidence: 0.8071
+      confidence: 0.4913
+    - scientific: Decapterus macarellus
+      confidence: 0.317
     - scientific: Mulloidichthys martinicus
-      confidence: 0.186
-    - scientific: Caranx ruber
-      confidence: 0.0023
+      confidence: 0.1132
 species:
 - scientific: Ocyurus chrysurus
   role: primary
-  confidence: 0.8095
+  confidence: 0.6443
   identified_by: bioclip-2+bioclip-2.5

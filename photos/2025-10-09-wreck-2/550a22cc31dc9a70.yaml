@@ -12,8 +12,9 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1786159813.5126588
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Carcharhinus limbatus
       confidence: 0.7813
@@ -23,28 +24,30 @@ species_suggestions:
       confidence: 0.0077
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T03:55:24Z'
     src_mtime: 1786159813.5126588
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Carcharhinus perezi
-      confidence: 0.9869
-    - scientific: Negaprion brevirostris
-      confidence: 0.0059
-    - scientific: Sphyrna mokarran
-      confidence: 0.0041
+      confidence: 0.8659
+    - scientific: Carcharhinus longimanus
+      confidence: 0.047
+    - scientific: Carcharhinus limbatus
+      confidence: 0.0355
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T03:58:12Z'
     src_mtime: 1786159813.5126588
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Carcharhinus perezi
-      confidence: 0.9955
+      confidence: 0.9917
     - scientific: Negaprion brevirostris
       confidence: 0.0043
-    - scientific: Sphyrna mokarran
-      confidence: 0.0001
+    - scientific: Carcharhinus falciformis
+      confidence: 0.0014
 species:
 - scientific: Carcharhinus perezi
   role: primary
-  confidence: 0.9912
+  confidence: 0.9288
   identified_by: bioclip+bioclip-2+bioclip-2.5

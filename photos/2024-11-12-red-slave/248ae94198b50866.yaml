@@ -13,8 +13,9 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1786156805.1811485
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Rhincodon typus
       confidence: 0.4026
@@ -24,28 +25,30 @@ species_suggestions:
       confidence: 0.1383
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T03:55:24Z'
     src_mtime: 1786156805.1811485
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Caretta caretta
-      confidence: 0.5457
+      confidence: 0.5448
     - scientific: Chelonia mydas
-      confidence: 0.2971
+      confidence: 0.2967
     - scientific: Eretmochelys imbricata
-      confidence: 0.1527
+      confidence: 0.1525
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T03:58:12Z'
     src_mtime: 1786156805.1811485
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Eretmochelys imbricata
-      confidence: 0.5584
+      confidence: 0.5583
     - scientific: Chelonia mydas
-      confidence: 0.4037
+      confidence: 0.4036
     - scientific: Caretta caretta
       confidence: 0.0379
 species:
 - scientific: Eretmochelys imbricata
   role: primary
-  confidence: 0.3556
+  confidence: 0.3554
   identified_by: bioclip-2+bioclip-2.5

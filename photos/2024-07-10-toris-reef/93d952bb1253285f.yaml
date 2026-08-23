@@ -16,8 +16,9 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1786160205.887802
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Hypanus americanus
       confidence: 0.438
@@ -27,28 +28,30 @@ species_suggestions:
       confidence: 0.107
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T03:55:24Z'
     src_mtime: 1786160205.887802
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Trachinotus goodei
-      confidence: 0.5329
+      confidence: 0.5311
     - scientific: Lactophrys triqueter
-      confidence: 0.1531
+      confidence: 0.1526
     - scientific: Gerres cinereus
-      confidence: 0.0522
+      confidence: 0.052
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T03:58:12Z'
     src_mtime: 1786160205.887802
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Caranx latus
-      confidence: 0.3381
+      confidence: 0.3368
     - scientific: Xyrichtys martinicensis
-      confidence: 0.2822
+      confidence: 0.2811
     - scientific: Lactophrys triqueter
-      confidence: 0.2743
+      confidence: 0.2733
 species:
 - scientific: Trachinotus goodei
   role: primary
-  confidence: 0.2665
+  confidence: 0.2656
   identified_by: bioclip-2

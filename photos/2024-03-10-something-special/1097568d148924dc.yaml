@@ -13,8 +13,9 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1786159064.4084814
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Pareques acuminatus
       confidence: 0.0108
@@ -27,22 +28,24 @@ species_suggestions:
       confidence: 0.3633
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T03:55:24Z'
     src_mtime: 1786159064.4084814
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Elysia crispata
-      confidence: 0.1844
+      confidence: 0.1682
     - scientific: Periclimenes yucatanicus
-      confidence: 0.0972
+      confidence: 0.0886
     - scientific: Myrichthys ocellatus
-      confidence: 0.0684
+      confidence: 0.0624
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T03:58:12Z'
     src_mtime: 1786159064.4084814
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Gnatholepis thompsoni
-      confidence: 0.6116
+      confidence: 0.6115
     - scientific: Coryphopterus glaucofraenum
       confidence: 0.1909
     - scientific: Sphoeroides spengleri

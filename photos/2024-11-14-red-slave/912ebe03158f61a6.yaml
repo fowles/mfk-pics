@@ -16,8 +16,9 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1786156981.60335
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Pseudorca crassidens
       confidence: 0.0703
@@ -30,22 +31,24 @@ species_suggestions:
       confidence: 0.5836
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T03:55:24Z'
     src_mtime: 1786156981.60335
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Aulostomus maculatus
-      confidence: 0.0926
+      confidence: 0.0922
     - scientific: Cyphoma gibbosum
-      confidence: 0.0506
+      confidence: 0.0504
     - scientific: Equetus punctatus
-      confidence: 0.0394
+      confidence: 0.0392
     absorbed_by:
       scientific: Agaricia agaricites
-      confidence: 0.1508
+      confidence: 0.1501
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T03:58:12Z'
     src_mtime: 1786156981.60335
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Bothus lunatus
       confidence: 0.0103
@@ -55,4 +58,4 @@ species_suggestions:
       confidence: 0.0064
     absorbed_by:
       scientific: Agaricia agaricites
-      confidence: 0.9281
+      confidence: 0.928

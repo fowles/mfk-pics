@@ -13,8 +13,9 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1786158963.7725718
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Gymnothorax funebris
       confidence: 0.3871
@@ -24,8 +25,9 @@ species_suggestions:
       confidence: 0.1611
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T03:55:24Z'
     src_mtime: 1786158963.7725718
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Sparisoma viride
       confidence: 0.0492
@@ -35,11 +37,12 @@ species_suggestions:
       confidence: 0.0334
     absorbed_by:
       scientific: Orbicella faveolata
-      confidence: 0.1659
+      confidence: 0.1658
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T03:58:12Z'
     src_mtime: 1786158963.7725718
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Synodus intermedius
       confidence: 0.3052

@@ -13,8 +13,9 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1786156309.8177476
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Platybelone argalus
       confidence: 0.9109
@@ -24,28 +25,30 @@ species_suggestions:
       confidence: 0.0218
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T03:55:24Z'
     src_mtime: 1786156309.8177476
+    vocab: 9eb53da9d7d6
     top:
-    - scientific: Fistularia tabacaria
-      confidence: 0.9045
-    - scientific: Sphyraena barracuda
-      confidence: 0.0422
-    - scientific: Aulostomus maculatus
-      confidence: 0.0248
+    - scientific: Platybelone argalus
+      confidence: 0.5566
+    - scientific: Tylosurus crocodilus
+      confidence: 0.3801
+    - scientific: Ablennes hians
+      confidence: 0.0553
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T03:58:12Z'
     src_mtime: 1786156309.8177476
+    vocab: 9eb53da9d7d6
     top:
-    - scientific: Fistularia tabacaria
-      confidence: 0.8553
-    - scientific: Aulostomus maculatus
-      confidence: 0.1062
-    - scientific: Sphyraena barracuda
-      confidence: 0.025
+    - scientific: Platybelone argalus
+      confidence: 0.4703
+    - scientific: Tylosurus crocodilus
+      confidence: 0.4286
+    - scientific: Ablennes hians
+      confidence: 0.1011
 species:
-- scientific: Fistularia tabacaria
+- scientific: Platybelone argalus
   role: primary
-  confidence: 0.8799
-  identified_by: bioclip-2+bioclip-2.5
+  confidence: 0.5134
+  identified_by: bioclip+bioclip-2+bioclip-2.5

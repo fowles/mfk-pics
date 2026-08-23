@@ -16,8 +16,9 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1786156898.416649
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Gymnothorax funebris
       confidence: 0.1142
@@ -27,8 +28,9 @@ species_suggestions:
       confidence: 0.0926
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T03:55:24Z'
     src_mtime: 1786156898.416649
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Holacanthus tricolor
       confidence: 0.0821
@@ -38,17 +40,18 @@ species_suggestions:
       confidence: 0.042
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T03:58:12Z'
     src_mtime: 1786156898.416649
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Halichoeres pictus
-      confidence: 0.1854
+      confidence: 0.1852
     - scientific: Halichoeres garnoti
-      confidence: 0.1133
+      confidence: 0.1132
     - scientific: Acanthostracion polygonius
       confidence: 0.0438
 species:
 - scientific: Halichoeres pictus
   role: primary
-  confidence: 0.0927
+  confidence: 0.0926
   identified_by: bioclip-2.5

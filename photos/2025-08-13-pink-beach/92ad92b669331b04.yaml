@@ -16,8 +16,9 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1786158189.171818
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Scorpaena plumieri
       confidence: 0.1005
@@ -30,22 +31,24 @@ species_suggestions:
       confidence: 0.6517
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T03:55:24Z'
     src_mtime: 1786158189.171818
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Davidaster rubiginosus
       confidence: 0.0021
     - scientific: Epinephelus striatus
       confidence: 0.002
     - scientific: Tripneustes ventricosus
-      confidence: 0.0016
+      confidence: 0.0015
     absorbed_by:
       scientific: Lebrunia neglecta
-      confidence: 0.4038
+      confidence: 0.4037
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T03:58:12Z'
     src_mtime: 1786158189.171818
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Tripneustes ventricosus
       confidence: 0.0018
@@ -55,4 +58,4 @@ species_suggestions:
       confidence: 0.0005
     absorbed_by:
       scientific: Clavelina picta
-      confidence: 0.2926
+      confidence: 0.2923

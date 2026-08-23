@@ -16,8 +16,9 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1786158874.6342342
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Loimia medusa
       confidence: 0.0896
@@ -30,8 +31,9 @@ species_suggestions:
       confidence: 0.1837
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T03:55:24Z'
     src_mtime: 1786158874.6342342
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Holacanthus tricolor
       confidence: 0.0524
@@ -44,8 +46,9 @@ species_suggestions:
       confidence: 0.3387
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T03:58:12Z'
     src_mtime: 1786158874.6342342
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Pomacanthus arcuatus
       confidence: 0.4677

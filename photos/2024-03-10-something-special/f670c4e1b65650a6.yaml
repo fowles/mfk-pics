@@ -13,8 +13,9 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1786159062.2250535
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Gymnothorax funebris
       confidence: 0.2452
@@ -27,27 +28,29 @@ species_suggestions:
       confidence: 0.4555
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T03:55:24Z'
     src_mtime: 1786159062.2250535
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Apogon maculatus
-      confidence: 0.0514
+      confidence: 0.0513
     - scientific: Holacanthus tricolor
-      confidence: 0.0467
+      confidence: 0.0466
     - scientific: Thalassoma bifasciatum
       confidence: 0.0229
     absorbed_by:
       scientific: Orbicella annularis
-      confidence: 0.2226
+      confidence: 0.2222
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T03:58:12Z'
     src_mtime: 1786159062.2250535
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Haemulon macrostomum
       confidence: 0.6282
     - scientific: Haemulon chrysargyreum
-      confidence: 0.1011
+      confidence: 0.101
     - scientific: Haemulon flavolineatum
       confidence: 0.0994
 species:

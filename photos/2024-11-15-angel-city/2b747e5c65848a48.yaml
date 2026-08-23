@@ -16,8 +16,9 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1786157055.7880733
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Aulostomus maculatus
       confidence: 0.9482
@@ -27,28 +28,30 @@ species_suggestions:
       confidence: 0.013
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T03:55:24Z'
     src_mtime: 1786157055.7880733
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Scomberomorus regalis
-      confidence: 0.4599
+      confidence: 0.3998
     - scientific: Sphyraena barracuda
-      confidence: 0.3471
+      confidence: 0.3017
     - scientific: Aulostomus maculatus
-      confidence: 0.0877
+      confidence: 0.0763
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T03:58:12Z'
     src_mtime: 1786157055.7880733
+    vocab: 9eb53da9d7d6
     top:
+    - scientific: Tylosurus crocodilus
+      confidence: 0.8393
+    - scientific: Ablennes hians
+      confidence: 0.1151
     - scientific: Sphyraena barracuda
-      confidence: 0.8708
-    - scientific: Scomberomorus regalis
-      confidence: 0.1153
-    - scientific: Aulostomus maculatus
-      confidence: 0.0089
+      confidence: 0.0392
 species:
-- scientific: Sphyraena barracuda
+- scientific: Tylosurus crocodilus
   role: primary
-  confidence: 0.6089
-  identified_by: bioclip-2+bioclip-2.5
+  confidence: 0.4197
+  identified_by: bioclip-2.5

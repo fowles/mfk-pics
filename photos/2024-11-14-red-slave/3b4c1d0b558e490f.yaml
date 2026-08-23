@@ -13,8 +13,9 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1786156964.6783254
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Aulostomus maculatus
       confidence: 0.0959
@@ -27,19 +28,21 @@ species_suggestions:
       confidence: 0.7495
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T03:55:24Z'
     src_mtime: 1786156964.6783254
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Myrichthys breviceps
-      confidence: 0.8465
+      confidence: 0.8461
     - scientific: Malacanthus plumieri
       confidence: 0.0487
     - scientific: Gymnothorax moringa
       confidence: 0.0167
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T03:58:12Z'
     src_mtime: 1786156964.6783254
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Myrichthys breviceps
       confidence: 0.9985
@@ -50,5 +53,5 @@ species_suggestions:
 species:
 - scientific: Myrichthys breviceps
   role: primary
-  confidence: 0.9225
+  confidence: 0.9223
   identified_by: bioclip-2+bioclip-2.5

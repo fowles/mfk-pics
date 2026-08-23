@@ -13,8 +13,9 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1786159560.4145355
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Opistognathus aurifrons
       confidence: 0.2536
@@ -27,22 +28,24 @@ species_suggestions:
       confidence: 0.3866
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T03:55:24Z'
     src_mtime: 1786159560.4145355
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Holacanthus tricolor
-      confidence: 0.039
+      confidence: 0.0379
     - scientific: Elacatinus genie
-      confidence: 0.0331
+      confidence: 0.0323
     - scientific: Prognathodes aculeatus
-      confidence: 0.0328
+      confidence: 0.0319
     absorbed_by:
       scientific: Agelas clathrodes
-      confidence: 0.1821
+      confidence: 0.1773
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T03:58:12Z'
     src_mtime: 1786159560.4145355
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Elacatinus genie
       confidence: 0.0019
@@ -52,4 +55,4 @@ species_suggestions:
       confidence: 0.0009
     absorbed_by:
       scientific: Cirrhipathes leutkeni
-      confidence: 0.6997
+      confidence: 0.6996

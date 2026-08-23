@@ -13,8 +13,9 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1786157280.4367144
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Diodon hystrix
       confidence: 0.9945
@@ -24,19 +25,21 @@ species_suggestions:
       confidence: 0.0005
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T03:55:24Z'
     src_mtime: 1786157280.4367144
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Diodon hystrix
-      confidence: 0.9406
+      confidence: 0.9404
     - scientific: Diodon holocanthus
       confidence: 0.0305
     - scientific: Ogcocephalus radiatus
       confidence: 0.0066
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T03:58:12Z'
     src_mtime: 1786157280.4367144
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Diodon hystrix
       confidence: 1.0
@@ -47,5 +50,5 @@ species_suggestions:
 species:
 - scientific: Diodon hystrix
   role: primary
-  confidence: 0.9703
+  confidence: 0.9702
   identified_by: bioclip+bioclip-2+bioclip-2.5

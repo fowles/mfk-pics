@@ -16,8 +16,9 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1786157493.7284126
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Acanthostracion polygonius
       confidence: 0.8212
@@ -27,19 +28,21 @@ species_suggestions:
       confidence: 0.0411
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T03:55:24Z'
     src_mtime: 1786157493.7284126
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Osachila antillensis
-      confidence: 0.8884
+      confidence: 0.885
     - scientific: Diodon holocanthus
-      confidence: 0.0321
+      confidence: 0.032
     - scientific: Chilomycterus antillarum
-      confidence: 0.0216
+      confidence: 0.0215
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T03:58:12Z'
     src_mtime: 1786157493.7284126
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Chilomycterus antillarum
       confidence: 0.5244
@@ -50,5 +53,5 @@ species_suggestions:
 species:
 - scientific: Osachila antillensis
   role: primary
-  confidence: 0.4442
+  confidence: 0.4425
   identified_by: bioclip-2

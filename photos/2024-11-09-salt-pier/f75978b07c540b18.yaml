@@ -17,8 +17,9 @@ rotation_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1786156586.2714536
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Sepioteuthis sepioidea
       confidence: 0.6293
@@ -28,28 +29,30 @@ species_suggestions:
       confidence: 0.0445
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T03:55:24Z'
     src_mtime: 1786156586.2714536
+    vocab: 9eb53da9d7d6
     top:
+    - scientific: Platybelone argalus
+      confidence: 0.574
     - scientific: Sepioteuthis sepioidea
-      confidence: 0.5408
+      confidence: 0.1691
     - scientific: Dactylopterus volitans
-      confidence: 0.2851
-    - scientific: Carcharhinus perezi
-      confidence: 0.0258
+      confidence: 0.0891
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T03:58:12Z'
     src_mtime: 1786156586.2714536
+    vocab: 9eb53da9d7d6
     top:
+    - scientific: Ablennes hians
+      confidence: 0.2808
     - scientific: Sepioteuthis sepioidea
-      confidence: 0.4692
+      confidence: 0.2027
     - scientific: Ocyurus chrysurus
-      confidence: 0.3542
-    - scientific: Caranx ruber
-      confidence: 0.0746
+      confidence: 0.153
 species:
-- scientific: Sepioteuthis sepioidea
+- scientific: Platybelone argalus
   role: primary
-  confidence: 0.505
-  identified_by: bioclip+bioclip-2+bioclip-2.5
+  confidence: 0.287
+  identified_by: bioclip+bioclip-2

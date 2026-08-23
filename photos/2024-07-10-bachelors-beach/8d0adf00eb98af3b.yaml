@@ -16,8 +16,9 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1786158732.8644695
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Aulostomus maculatus
       confidence: 0.0047
@@ -30,8 +31,9 @@ species_suggestions:
       confidence: 0.8679
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T03:55:24Z'
     src_mtime: 1786158732.8644695
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Cyphoma gibbosum
       confidence: 0.1086
@@ -41,11 +43,12 @@ species_suggestions:
       confidence: 0.0128
     absorbed_by:
       scientific: Briareum asbestinum
-      confidence: 0.4711
+      confidence: 0.471
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T03:58:12Z'
     src_mtime: 1786158732.8644695
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Monacanthus tuckeri
       confidence: 0.1658
@@ -55,4 +58,4 @@ species_suggestions:
       confidence: 0.0004
     absorbed_by:
       scientific: Antillogorgia americana
-      confidence: 0.4615
+      confidence: 0.4614

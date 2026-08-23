@@ -17,8 +17,9 @@ correction_standalone: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1787438627.790046
+    vocab: d07e6f895399
     top:
     - scientific: Aulostomus chinensis
       confidence: 0.7356
@@ -26,8 +27,32 @@ species_suggestions:
       confidence: 0.1946
     - scientific: Triaenodon obesus
       confidence: 0.051
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-23T03:55:24Z'
+    src_mtime: 1787438627.790046
+    vocab: d07e6f895399
+    top:
+    - scientific: Bodianus diplotaenia
+      confidence: 0.3661
+    - scientific: Sufflamen verres
+      confidence: 0.3552
+    - scientific: Thalassoma lucasanum
+      confidence: 0.0421
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-23T03:58:12Z'
+    src_mtime: 1787438627.790046
+    vocab: d07e6f895399
+    top:
+    - scientific: Microspathodon dorsalis
+      confidence: 0.8772
+    - scientific: Bodianus diplotaenia
+      confidence: 0.0664
+    - scientific: Microspathodon bairdii
+      confidence: 0.0131
 species:
-- scientific: Aulostomus chinensis
+- scientific: Microspathodon dorsalis
   role: primary
-  confidence: 0.7356
-  identified_by: bioclip
+  confidence: 0.4386
+  identified_by: bioclip-2.5

@@ -16,8 +16,9 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1786157212.818129
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Megalops atlanticus
       confidence: 0.7003
@@ -27,28 +28,30 @@ species_suggestions:
       confidence: 0.0513
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T03:55:24Z'
     src_mtime: 1786157212.818129
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Canthidermis sufflamen
-      confidence: 0.7946
+      confidence: 0.7729
     - scientific: Mycteroperca bonaci
-      confidence: 0.0823
+      confidence: 0.0801
     - scientific: Mycteroperca venenosa
-      confidence: 0.0438
+      confidence: 0.0426
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T03:58:12Z'
     src_mtime: 1786157212.818129
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Canthidermis sufflamen
-      confidence: 1.0
+      confidence: 0.9999
     - scientific: Melichthys niger
       confidence: 0.0
-    - scientific: Balistes vetula
+    - scientific: Seriola rivoliana
       confidence: 0.0
 species:
 - scientific: Canthidermis sufflamen
   role: primary
-  confidence: 0.8973
+  confidence: 0.8864
   identified_by: bioclip-2+bioclip-2.5

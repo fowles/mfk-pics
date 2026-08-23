@@ -15,8 +15,9 @@ variants:
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1787445731.1209512
+    vocab: d07e6f895399
     top:
     - scientific: Lutjanus argentiventris
       confidence: 0.5078
@@ -24,8 +25,32 @@ species_suggestions:
       confidence: 0.3328
     - scientific: Haemulon flaviguttatum
       confidence: 0.1531
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-23T03:55:24Z'
+    src_mtime: 1787445731.1209512
+    vocab: d07e6f895399
+    top:
+    - scientific: Lutjanus argentiventris
+      confidence: 0.9897
+    - scientific: Haemulon flaviguttatum
+      confidence: 0.0032
+    - scientific: Lutjanus novemfasciatus
+      confidence: 0.0028
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-23T03:58:12Z'
+    src_mtime: 1787445731.1209512
+    vocab: d07e6f895399
+    top:
+    - scientific: Lutjanus argentiventris
+      confidence: 0.9754
+    - scientific: Lutjanus viridis
+      confidence: 0.0236
+    - scientific: Haemulon flaviguttatum
+      confidence: 0.0004
 species:
 - scientific: Lutjanus argentiventris
   role: primary
-  confidence: 0.5078
-  identified_by: bioclip
+  confidence: 0.9826
+  identified_by: bioclip+bioclip-2+bioclip-2.5

@@ -13,8 +13,9 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1786071955.2875893
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Thalassoma bifasciatum
       confidence: 0.8656
@@ -24,22 +25,24 @@ species_suggestions:
       confidence: 0.0438
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T03:55:24Z'
     src_mtime: 1786071955.2875893
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Halichoeres garnoti
-      confidence: 0.5553
+      confidence: 0.552
     - scientific: Thalassoma bifasciatum
-      confidence: 0.3455
+      confidence: 0.3434
     - scientific: Halichoeres pictus
-      confidence: 0.0723
+      confidence: 0.0719
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T03:58:12Z'
     src_mtime: 1786071955.2875893
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Halichoeres garnoti
-      confidence: 0.8141
+      confidence: 0.8139
     - scientific: Thalassoma bifasciatum
       confidence: 0.1734
     - scientific: Halichoeres pictus
@@ -47,5 +50,5 @@ species_suggestions:
 species:
 - scientific: Halichoeres garnoti
   role: primary
-  confidence: 0.6847
+  confidence: 0.6829
   identified_by: bioclip-2+bioclip-2.5

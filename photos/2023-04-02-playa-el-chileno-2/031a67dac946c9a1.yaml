@@ -17,8 +17,9 @@ correction_standalone: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1787438612.2327795
+    vocab: d07e6f895399
     top:
     - scientific: Canthidermis maculata
       confidence: 0.4397
@@ -26,8 +27,32 @@ species_suggestions:
       confidence: 0.3435
     - scientific: Scarus compressus
       confidence: 0.054
+  bioclip-2:
+    model: hf-hub:imageomics/bioclip-2
+    created: '2026-08-23T03:55:24Z'
+    src_mtime: 1787438612.2327795
+    vocab: d07e6f895399
+    top:
+    - scientific: Triaenodon obesus
+      confidence: 0.6651
+    - scientific: Carcharhinus galapagensis
+      confidence: 0.1118
+    - scientific: Pseudobalistes naufragium
+      confidence: 0.0273
+  bioclip-2.5:
+    model: hf-hub:imageomics/bioclip-2.5-vith14
+    created: '2026-08-23T03:58:12Z'
+    src_mtime: 1787438612.2327795
+    vocab: d07e6f895399
+    top:
+    - scientific: Triaenodon obesus
+      confidence: 0.9972
+    - scientific: Ginglymostoma unami
+      confidence: 0.0008
+    - scientific: Microspathodon dorsalis
+      confidence: 0.0005
 species:
-- scientific: Canthidermis maculata
+- scientific: Triaenodon obesus
   role: primary
-  confidence: 0.4397
-  identified_by: bioclip
+  confidence: 0.8312
+  identified_by: bioclip-2+bioclip-2.5

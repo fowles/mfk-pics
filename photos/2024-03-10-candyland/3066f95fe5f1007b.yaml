@@ -13,8 +13,9 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1786158869.8495364
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Chromis multilineata
       confidence: 0.5317
@@ -24,28 +25,30 @@ species_suggestions:
       confidence: 0.0296
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T03:55:24Z'
     src_mtime: 1786158869.8495364
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Chromis multilineata
-      confidence: 0.3405
+      confidence: 0.313
     - scientific: Halichoeres pictus
-      confidence: 0.086
+      confidence: 0.0791
     - scientific: Chromis cyanea
-      confidence: 0.0797
+      confidence: 0.0733
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T03:58:12Z'
     src_mtime: 1786158869.8495364
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Abudefduf saxatilis
-      confidence: 0.5841
+      confidence: 0.5839
     - scientific: Chromis multilineata
-      confidence: 0.2346
+      confidence: 0.2345
     - scientific: Chromis cyanea
       confidence: 0.1693
 species:
 - scientific: Abudefduf saxatilis
   role: primary
-  confidence: 0.292
+  confidence: 0.2919
   identified_by: bioclip-2.5

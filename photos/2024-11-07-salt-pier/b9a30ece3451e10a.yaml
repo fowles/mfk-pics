@@ -13,8 +13,9 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
+    created: '2026-08-23T03:53:43Z'
     src_mtime: 1786156324.8749545
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Thalassoma bifasciatum
       confidence: 0.5879
@@ -24,27 +25,29 @@ species_suggestions:
       confidence: 0.04
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-22T21:08:04Z'
+    created: '2026-08-23T03:55:24Z'
     src_mtime: 1786156324.8749545
+    vocab: 9eb53da9d7d6
     top:
+    - scientific: Parribacus antarcticus
+      confidence: 0.0594
     - scientific: Bothus lunatus
-      confidence: 0.0551
+      confidence: 0.0402
     - scientific: Octopus insularis
-      confidence: 0.0443
-    - scientific: Petrochirus diogenes
-      confidence: 0.0361
+      confidence: 0.0322
     absorbed_by:
       scientific: Aplysina archeri
-      confidence: 0.3348
+      confidence: 0.2439
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-22T21:10:58Z'
+    created: '2026-08-23T03:58:12Z'
     src_mtime: 1786156324.8749545
+    vocab: 9eb53da9d7d6
     top:
     - scientific: Gnatholepis thompsoni
-      confidence: 0.2356
+      confidence: 0.2037
     - scientific: Aplysia dactylomela
-      confidence: 0.0759
+      confidence: 0.0656
     - scientific: Myrichthys ocellatus
-      confidence: 0.0748
+      confidence: 0.0647
 species: []
