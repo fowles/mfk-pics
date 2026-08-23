@@ -13,3 +13,13 @@ variants:
   file: 1ac85eb725676c68.dive-plus.mp4
   import_original_name: 3622d6a777ee0c9d.mp4
 date_reviewed: true
+species:
+- scientific: Homo sapiens
+  role: primary
+  identified_by: human
+  reviewed_by: matt
+  person:
+  - David Bede Rinaldi
+species_reviewed:
+- primary
+- secondary

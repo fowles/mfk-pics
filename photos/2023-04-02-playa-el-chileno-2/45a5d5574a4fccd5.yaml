@@ -51,8 +51,8 @@ species_suggestions:
       confidence: 0.0002
     - scientific: Ginglymostoma unami
       confidence: 0.0001
-species:
-- scientific: Triaenodon obesus
-  role: primary
-  confidence: 0.8824
-  identified_by: bioclip-2+bioclip-2.5
+species: []
+culled: true
+species_reviewed:
+- primary
+- secondary

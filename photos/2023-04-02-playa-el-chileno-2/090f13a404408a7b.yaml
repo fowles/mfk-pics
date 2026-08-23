@@ -48,7 +48,12 @@ species_suggestions:
     - scientific: Nicholsina denticulata
       confidence: 0.0782
 species:
-- scientific: Narcine entemedor
+- scientific: Homo sapiens
   role: primary
-  confidence: 0.0932
-  identified_by: bioclip-2.5
+  identified_by: human
+  reviewed_by: matt
+  person:
+  - David Bede Rinaldi
+species_reviewed:
+- primary
+- secondary

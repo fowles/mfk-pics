@@ -48,7 +48,12 @@ species_suggestions:
     - scientific: Megaptera novaeangliae
       confidence: 0.0665
 species:
-- scientific: Rhincodon typus
+- scientific: Homo sapiens
   role: primary
-  confidence: 0.11
-  identified_by: bioclip-2.5
+  identified_by: human
+  reviewed_by: matt
+  person:
+  - Joanna McKenzie
+species_reviewed:
+- primary
+- secondary

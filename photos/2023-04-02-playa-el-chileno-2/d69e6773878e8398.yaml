@@ -55,7 +55,12 @@ species_suggestions:
       scientific: Pocillopora elegans
       confidence: 0.1817
 species:
-- scientific: Microspathodon dorsalis
+- scientific: Homo sapiens
   role: primary
-  confidence: 0.1056
-  identified_by: bioclip-2
+  identified_by: human
+  reviewed_by: matt
+  person:
+  - David Bede Rinaldi
+species_reviewed:
+- primary
+- secondary

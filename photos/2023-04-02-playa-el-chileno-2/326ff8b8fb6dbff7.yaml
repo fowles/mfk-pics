@@ -51,8 +51,8 @@ species_suggestions:
       confidence: 0.2759
     - scientific: Thalassoma grammaticum
       confidence: 0.0519
-species:
-- scientific: Isostichopus fuscus
-  role: primary
-  confidence: 0.2137
-  identified_by: bioclip-2.5
+species: []
+culled: true
+species_reviewed:
+- primary
+- secondary

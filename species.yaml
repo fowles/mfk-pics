@@ -1889,3 +1889,4 @@
 - {scientific: "Priacanthus meeki", common: "Hawaiian bigeye", regions: ["Indo-Pacific"]}
 - {scientific: "Dascyllus albisella", common: "Hawaiian dascyllus", regions: ["Indo-Pacific"]}
 - {scientific: "Canis lupus", common: "Dog", unlisted: true}
+- {scientific: "Kuhlia xenura", common: "Hawaiian flagtail", regions: ["Indo-Pacific"]}

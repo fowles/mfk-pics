@@ -54,4 +54,13 @@ species_suggestions:
     absorbed_by:
       scientific: Leptogorgia rigida
       confidence: 0.5331
-species: []
+species:
+- scientific: Homo sapiens
+  role: primary
+  identified_by: human
+  reviewed_by: matt
+  person:
+  - David Bede Rinaldi
+species_reviewed:
+- primary
+- secondary

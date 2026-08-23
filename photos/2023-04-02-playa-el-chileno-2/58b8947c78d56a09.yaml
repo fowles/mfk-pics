@@ -51,8 +51,8 @@ species_suggestions:
       confidence: 0.0762
     - scientific: Epinephelus labriformis
       confidence: 0.0691
-species:
-- scientific: Halichoeres chierchiae
-  role: primary
-  confidence: 0.2404
-  identified_by: bioclip-2.5
+species: []
+culled: true
+species_reviewed:
+- primary
+- secondary

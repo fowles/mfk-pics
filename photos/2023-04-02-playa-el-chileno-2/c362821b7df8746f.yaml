@@ -52,7 +52,15 @@ species_suggestions:
     - scientific: Narcine entemedor
       confidence: 0.0522
 species:
-- scientific: Pseudobalistes naufragium
+- scientific: Zanclus cornutus
+  role: secondary
+  identified_by: human
+  reviewed_by: matt
+- scientific: Urobatis concentricus
   role: primary
-  confidence: 0.2827
-  identified_by: bioclip-2.5
+  identified_by: human
+  confirmed_from: bioclip-2+bioclip-2.5
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

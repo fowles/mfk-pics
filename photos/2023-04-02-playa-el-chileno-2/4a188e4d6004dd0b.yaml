@@ -51,8 +51,8 @@ species_suggestions:
       confidence: 0.025
     - scientific: Carcharhinus longimanus
       confidence: 0.023
-species:
-- scientific: Triaenodon obesus
-  role: primary
-  confidence: 0.6609
-  identified_by: bioclip-2+bioclip-2.5
+species: []
+culled: true
+species_reviewed:
+- primary
+- secondary

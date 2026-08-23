@@ -51,8 +51,8 @@ species_suggestions:
       confidence: 0.1553
     - scientific: Haemulon maculicauda
       confidence: 0.1389
-species:
-- scientific: Haemulon scudderii
-  role: primary
-  confidence: 0.0847
-  identified_by: bioclip-2.5
+species: []
+culled: true
+species_reviewed:
+- primary
+- secondary

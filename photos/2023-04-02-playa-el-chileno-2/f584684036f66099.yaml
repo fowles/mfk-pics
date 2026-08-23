@@ -52,7 +52,11 @@ species_suggestions:
     - scientific: Arothron meleagris
       confidence: 0.0558
 species:
-- scientific: Cirrhitus rivulatus
+- scientific: Arothron meleagris
   role: primary
-  confidence: 0.3185
-  identified_by: bioclip+bioclip-2.5
+  identified_by: human
+  confirmed_from: bioclip-2.5
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

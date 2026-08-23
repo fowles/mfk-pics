@@ -9,3 +9,13 @@ lat: 22.94523
 lon: -109.80243
 gps_source: dive_site
 date_reviewed: true
+species:
+- scientific: Homo sapiens
+  role: primary
+  identified_by: human
+  reviewed_by: matt
+  person:
+  - David Bede Rinaldi
+species_reviewed:
+- primary
+- secondary

@@ -52,7 +52,12 @@ species_suggestions:
     - scientific: Carcharhinus albimarginatus
       confidence: 0.0895
 species:
-- scientific: Triaenodon obesus
+- scientific: Homo sapiens
   role: primary
-  confidence: 0.2947
-  identified_by: bioclip-2.5
+  identified_by: human
+  reviewed_by: matt
+  person:
+  - David Bede Rinaldi
+species_reviewed:
+- primary
+- secondary

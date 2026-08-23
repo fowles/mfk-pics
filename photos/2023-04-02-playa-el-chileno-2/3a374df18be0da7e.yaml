@@ -55,7 +55,12 @@ species_suggestions:
     - scientific: Johnrandallia nigrirostris
       confidence: 0.0649
 species:
-- scientific: Triaenodon obesus
+- scientific: Homo sapiens
   role: primary
-  confidence: 0.1333
-  identified_by: bioclip-2.5
+  identified_by: human
+  reviewed_by: matt
+  person:
+  - David Bede Rinaldi
+species_reviewed:
+- primary
+- secondary

@@ -15,3 +15,6 @@ species:
   role: primary
   identified_by: human
   reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

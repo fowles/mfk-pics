@@ -48,7 +48,12 @@ species_suggestions:
     - scientific: Muraena argus
       confidence: 0.095
 species:
-- scientific: Decapterus macarellus
+- scientific: Homo sapiens
   role: primary
-  confidence: 0.104
-  identified_by: bioclip-2.5
+  identified_by: human
+  reviewed_by: matt
+  person:
+  - Joanna McKenzie
+species_reviewed:
+- primary
+- secondary

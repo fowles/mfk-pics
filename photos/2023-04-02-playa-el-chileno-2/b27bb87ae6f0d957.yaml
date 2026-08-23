@@ -52,7 +52,15 @@ species_suggestions:
     - scientific: Arothron meleagris
       confidence: 0.0697
 species:
-- scientific: Zanclus cornutus
+- scientific: Urobatis concentricus
   role: primary
-  confidence: 0.3781
-  identified_by: bioclip-2+bioclip-2.5
+  identified_by: human
+  reviewed_by: matt
+- scientific: Zanclus cornutus
+  role: secondary
+  identified_by: human
+  confirmed_from: bioclip-2+bioclip-2.5
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

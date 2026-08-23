@@ -48,7 +48,10 @@ species_suggestions:
     - scientific: Lutjanus gibbus
       confidence: 0.0597
 species:
-- scientific: Lutjanus gibbus
+- scientific: Kuhlia xenura
   role: primary
-  confidence: 0.0721
-  identified_by: bioclip-2+bioclip-2.5
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

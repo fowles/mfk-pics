@@ -52,7 +52,16 @@ species_suggestions:
     - scientific: Microspathodon bairdii
       confidence: 0.06
 species:
-- scientific: Microspathodon dorsalis
+- scientific: Arothron meleagris
   role: primary
-  confidence: 0.322
-  identified_by: bioclip+bioclip-2+bioclip-2.5
+  identified_by: human
+  confirmed_from: bioclip-2.5
+  reviewed_by: matt
+- scientific: Bodianus diplotaenia
+  role: secondary
+  identified_by: human
+  confirmed_from: bioclip-2
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

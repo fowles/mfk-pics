@@ -55,7 +55,12 @@ species_suggestions:
     - scientific: Gymnomuraena zebra
       confidence: 0.0377
 species:
-- scientific: Antennarius commerson
+- scientific: Homo sapiens
   role: primary
-  confidence: 0.0849
-  identified_by: bioclip-2.5
+  identified_by: human
+  reviewed_by: matt
+  person:
+  - David Bede Rinaldi
+species_reviewed:
+- primary
+- secondary

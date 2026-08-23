@@ -52,7 +52,13 @@ species_suggestions:
     - scientific: Heterodontus francisci
       confidence: 0.1149
 species:
-- scientific: Sphyrna lewini
+- scientific: Homo sapiens
   role: primary
-  confidence: 0.1815
-  identified_by: bioclip-2.5
+  identified_by: human
+  reviewed_by: matt
+  person:
+  - David Bede Rinaldi
+species_reviewed:
+- primary
+- secondary
+culled: true

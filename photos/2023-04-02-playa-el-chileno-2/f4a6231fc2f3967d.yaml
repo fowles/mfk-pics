@@ -52,7 +52,12 @@ species_suggestions:
     - scientific: Dermatolepis dermatolepis
       confidence: 0.0915
 species:
-- scientific: Narcine entemedor
+- scientific: Homo sapiens
   role: primary
-  confidence: 0.1208
-  identified_by: bioclip-2.5
+  identified_by: human
+  reviewed_by: matt
+  person:
+  - David Bede Rinaldi
+species_reviewed:
+- primary
+- secondary
