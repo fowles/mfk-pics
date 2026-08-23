@@ -49,16 +49,16 @@ species_suggestions:
     - scientific: Halichoeres garnoti
       confidence: 0.0168
 species:
-- scientific: Chrysiptera parasema
-  role: primary
-  identified_by: human
-  reviewed_by: matt
 - scientific: Homo sapiens
   role: secondary
   identified_by: human
   reviewed_by: matt
   person:
   - Delia Kulukundis
+- scientific: Microspathodon chrysurus
+  role: primary
+  identified_by: human
+  reviewed_by: matt
 species_reviewed:
 - primary
 - secondary
