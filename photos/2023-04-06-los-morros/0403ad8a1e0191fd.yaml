@@ -43,7 +43,10 @@ species_suggestions:
     - scientific: Rhincodon typus
       confidence: 0.0059
 species:
-- scientific: Megaptera novaeangliae
+- scientific: Canis lupus
   role: primary
-  confidence: 0.4933
-  identified_by: bioclip+bioclip-2.5
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

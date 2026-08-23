@@ -46,7 +46,13 @@ species_suggestions:
     - scientific: Ginglymostoma unami
       confidence: 0.0565
 species:
-- scientific: Narcine entemedor
+- scientific: Homo sapiens
   role: primary
-  confidence: 0.1948
-  identified_by: bioclip-2.5
+  identified_by: human
+  reviewed_by: matt
+  person:
+  - David Bede Rinaldi
+  - Delia Kulukundis
+species_reviewed:
+- primary
+- secondary

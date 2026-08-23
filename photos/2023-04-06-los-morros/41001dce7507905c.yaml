@@ -49,3 +49,7 @@ species_suggestions:
       scientific: Spirobranchus incrassatus
       confidence: 0.5019
 species: []
+culled: true
+species_reviewed:
+- primary
+- secondary

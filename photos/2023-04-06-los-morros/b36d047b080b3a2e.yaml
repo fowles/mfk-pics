@@ -43,7 +43,10 @@ species_suggestions:
     - scientific: Globicephala macrorhynchus
       confidence: 0.0594
 species:
-- scientific: Carcharhinus longimanus
+- scientific: Canis lupus
   role: primary
-  confidence: 0.2013
-  identified_by: bioclip-2.5
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary
