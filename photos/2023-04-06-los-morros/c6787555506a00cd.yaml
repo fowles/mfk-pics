@@ -51,6 +51,14 @@ species_suggestions:
       confidence: 0.0025
 species:
 - scientific: Lutjanus argentiventris
+  role: secondary
+  identified_by: human
+  confirmed_from: bioclip+bioclip-2+bioclip-2.5
+  reviewed_by: matt
+- scientific: Anisotremus taeniatus
   role: primary
-  confidence: 0.8326
-  identified_by: bioclip+bioclip-2+bioclip-2.5
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

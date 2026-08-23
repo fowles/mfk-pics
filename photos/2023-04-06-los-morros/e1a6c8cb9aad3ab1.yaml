@@ -50,7 +50,11 @@ species_suggestions:
     - scientific: Mycteroperca rosacea
       confidence: 0.0445
 species:
-- scientific: Mycteroperca jordani
+- scientific: Mycteroperca xenarcha
   role: primary
-  confidence: 0.4771
-  identified_by: bioclip-2+bioclip-2.5
+  identified_by: human
+  confirmed_from: bioclip-2+bioclip-2.5
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

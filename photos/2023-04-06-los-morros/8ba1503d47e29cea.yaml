@@ -50,7 +50,17 @@ species_suggestions:
     - scientific: Ginglymostoma unami
       confidence: 0.0466
 species:
-- scientific: Sphyrna lewini
+- scientific: Homo sapiens
+  role: secondary
+  identified_by: human
+  reviewed_by: matt
+  person:
+  - Delia Kulukundis
+- scientific: Paranthias colonus
   role: primary
-  confidence: 0.3385
-  identified_by: bioclip-2.5
+  identified_by: human
+  confirmed_from: bioclip-2
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

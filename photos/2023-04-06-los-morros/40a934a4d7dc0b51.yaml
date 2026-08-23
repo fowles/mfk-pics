@@ -12,3 +12,15 @@ variants:
 - method: dive-plus
   file: 40a934a4d7dc0b51.dive-plus.mp4
   import_original_name: 0b8c918f9ff8b499.mp4
+species:
+- scientific: Chilomycterus reticulatus
+  role: primary
+  identified_by: human
+  reviewed_by: matt
+- scientific: Chromis atrilobata
+  role: secondary
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

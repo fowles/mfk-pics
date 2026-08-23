@@ -50,7 +50,11 @@ species_suggestions:
     - scientific: Echeneis naucrates
       confidence: 0.1104
 species:
-- scientific: Mycteroperca jordani
+- scientific: Mycteroperca xenarcha
   role: primary
-  confidence: 0.4529
-  identified_by: bioclip-2+bioclip-2.5
+  identified_by: human
+  confirmed_from: bioclip-2
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

@@ -52,5 +52,13 @@ species_suggestions:
 species:
 - scientific: Lutjanus argentiventris
   role: primary
-  confidence: 0.7653
-  identified_by: bioclip+bioclip-2+bioclip-2.5
+  identified_by: human
+  confirmed_from: bioclip+bioclip-2+bioclip-2.5
+  reviewed_by: matt
+- scientific: Mycteroperca rosacea
+  role: secondary
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

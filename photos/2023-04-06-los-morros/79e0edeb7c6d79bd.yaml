@@ -50,7 +50,12 @@ species_suggestions:
     - scientific: Carcharhinus limbatus
       confidence: 0.0993
 species:
-- scientific: Caranx melampygus
+- scientific: Homo sapiens
   role: primary
-  confidence: 0.1581
-  identified_by: bioclip-2.5
+  identified_by: human
+  reviewed_by: matt
+  person:
+  - David Bede Rinaldi
+species_reviewed:
+- primary
+- secondary

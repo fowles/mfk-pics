@@ -50,7 +50,11 @@ species_suggestions:
     - scientific: Girella simplicidens
       confidence: 0.0707
 species:
-- scientific: Echeneis naucrates
+- scientific: Mycteroperca xenarcha
   role: primary
-  confidence: 0.3044
-  identified_by: bioclip-2.5
+  identified_by: human
+  confirmed_from: bioclip-2
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

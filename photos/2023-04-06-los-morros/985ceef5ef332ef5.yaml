@@ -49,8 +49,8 @@ species_suggestions:
       confidence: 0.0024
     - scientific: Hypanus longus
       confidence: 0.0006
-species:
-- scientific: Hypanus dipterurus
-  role: primary
-  confidence: 0.785
-  identified_by: bioclip-2+bioclip-2.5
+species: []
+culled: true
+species_reviewed:
+- primary
+- secondary

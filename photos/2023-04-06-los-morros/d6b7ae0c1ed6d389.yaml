@@ -46,7 +46,14 @@ species_suggestions:
     - scientific: Echeneis naucrates
       confidence: 0.11
 species:
-- scientific: Echeneis naucrates
+- scientific: Homo sapiens
   role: primary
-  confidence: 0.2492
-  identified_by: bioclip-2+bioclip-2.5
+  identified_by: human
+  reviewed_by: matt
+  person:
+  - David Bede Rinaldi
+  - Delia Kulukundis
+rotation_applied: 90
+species_reviewed:
+- primary
+- secondary

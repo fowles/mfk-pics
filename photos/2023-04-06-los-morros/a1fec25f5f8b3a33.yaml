@@ -50,7 +50,11 @@ species_suggestions:
     - scientific: Epinephelus labriformis
       confidence: 0.1176
 species:
-- scientific: Arothron hispidus
+- scientific: Diodon holocanthus
   role: primary
-  confidence: 0.1226
-  identified_by: bioclip-2.5
+  identified_by: human
+  confirmed_from: bioclip-2
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

@@ -49,8 +49,8 @@ species_suggestions:
       confidence: 0.3555
     - scientific: Diodon hystrix
       confidence: 0.0025
-species:
-- scientific: Hypanus dipterurus
-  role: primary
-  confidence: 0.5269
-  identified_by: bioclip+bioclip-2+bioclip-2.5
+species: []
+culled: true
+species_reviewed:
+- primary
+- secondary

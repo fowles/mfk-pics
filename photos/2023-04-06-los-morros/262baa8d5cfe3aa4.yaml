@@ -50,7 +50,11 @@ species_suggestions:
     - scientific: Mycteroperca prionura
       confidence: 0.0181
 species:
-- scientific: Mycteroperca jordani
+- scientific: Mycteroperca xenarcha
   role: primary
-  confidence: 0.7417
-  identified_by: bioclip+bioclip-2+bioclip-2.5
+  identified_by: human
+  confirmed_from: bioclip+bioclip-2+bioclip-2.5
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

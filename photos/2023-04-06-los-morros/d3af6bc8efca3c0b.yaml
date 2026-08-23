@@ -49,8 +49,7 @@ species_suggestions:
       confidence: 0.0102
     - scientific: Mulloidichthys dentatus
       confidence: 0.0003
-species:
-- scientific: Paranthias colonus
-  role: primary
-  confidence: 0.8481
-  identified_by: bioclip+bioclip-2+bioclip-2.5
+species: []
+species_reviewed:
+- primary
+- secondary

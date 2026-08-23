@@ -50,7 +50,24 @@ species_suggestions:
     - scientific: Lutjanus argentiventris
       confidence: 0.0346
 species:
-- scientific: Johnrandallia nigrirostris
+- scientific: Paranthias colonus
+  role: secondary
+  identified_by: human
+  confirmed_from: bioclip-2
+  reviewed_by: matt
+- scientific: Mycteroperca rosacea
   role: primary
-  confidence: 0.4425
-  identified_by: bioclip-2+bioclip-2.5
+  identified_by: human
+  reviewed_by: matt
+- scientific: Bodianus diplotaenia
+  role: secondary
+  identified_by: human
+  confirmed_from: bioclip-2.5
+  reviewed_by: matt
+- scientific: Homo sapiens
+  role: secondary
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

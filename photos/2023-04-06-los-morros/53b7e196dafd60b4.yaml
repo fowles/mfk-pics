@@ -50,7 +50,12 @@ species_suggestions:
     - scientific: Johnrandallia nigrirostris
       confidence: 0.0824
 species:
-- scientific: Paranthias colonus
+- scientific: Homo sapiens
   role: primary
-  confidence: 0.3438
-  identified_by: bioclip-2
+  identified_by: human
+  reviewed_by: matt
+  person:
+  - Delia Kulukundis
+species_reviewed:
+- primary
+- secondary

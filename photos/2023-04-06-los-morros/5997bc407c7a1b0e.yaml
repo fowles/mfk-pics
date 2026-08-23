@@ -12,3 +12,12 @@ variants:
 - method: dive-plus
   file: 5997bc407c7a1b0e.dive-plus.mp4
   import_original_name: 6d118b596e2cce82.mp4
+species:
+- scientific: Lutjanus argentiventris
+  role: primary
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary
+culled: true

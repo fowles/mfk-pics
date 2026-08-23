@@ -49,8 +49,8 @@ species_suggestions:
       confidence: 0.0134
     - scientific: Acanthurus xanthopterus
       confidence: 0.007
-species:
-- scientific: Taeniurops meyeni
-  role: primary
-  confidence: 0.4853
-  identified_by: bioclip-2.5
+species: []
+culled: true
+species_reviewed:
+- primary
+- secondary

@@ -50,7 +50,19 @@ species_suggestions:
     - scientific: Echeneis naucrates
       confidence: 0.0404
 species:
-- scientific: Dermatolepis dermatolepis
+- scientific: Homo sapiens
+  role: secondary
+  identified_by: human
+  reviewed_by: matt
+- scientific: Paranthias colonus
+  role: secondary
+  identified_by: human
+  reviewed_by: matt
+- scientific: Mycteroperca jordani
   role: primary
-  confidence: 0.3421
-  identified_by: bioclip-2.5
+  identified_by: human
+  confirmed_from: bioclip-2
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

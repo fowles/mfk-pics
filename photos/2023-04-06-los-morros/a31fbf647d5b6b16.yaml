@@ -49,8 +49,8 @@ species_suggestions:
       confidence: 0.015
     - scientific: Echeneis naucrates
       confidence: 0.003
-species:
-- scientific: Hypanus dipterurus
-  role: primary
-  confidence: 0.9347
-  identified_by: bioclip+bioclip-2+bioclip-2.5
+species: []
+culled: true
+species_reviewed:
+- primary
+- secondary

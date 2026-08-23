@@ -50,7 +50,15 @@ species_suggestions:
     - scientific: Mycteroperca rosacea
       confidence: 0.1926
 species:
-- scientific: Sufflamen verres
+- scientific: Prionurus punctatus
   role: primary
-  confidence: 0.1396
-  identified_by: bioclip-2
+  identified_by: human
+  confirmed_from: bioclip-2.5
+  reviewed_by: matt
+- scientific: Homo sapiens
+  role: secondary
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary
