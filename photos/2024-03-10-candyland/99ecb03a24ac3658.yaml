@@ -13,11 +13,11 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786158856.808142
     top:
     - scientific: Melichthys niger
-      confidence: 0.646
+      confidence: 0.6456
     - scientific: Pareques acuminatus
       confidence: 0.0795
     - scientific: Hypoplectrus nigricans

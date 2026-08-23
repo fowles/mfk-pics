@@ -13,13 +13,13 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786156496.142702
     top:
     - scientific: Holothuria mexicana
-      confidence: 0.5286
+      confidence: 0.5285
     - scientific: Ogcocephalus radiatus
-      confidence: 0.4253
+      confidence: 0.4252
     - scientific: Trachinotus goodei
       confidence: 0.01
   bioclip-2:

@@ -12,3 +12,20 @@ variants:
 - method: dive-plus
   file: d3af6bc8efca3c0b.dive-plus.webp
   import_original_name: fc698fe01582ebc1.webp
+species_suggestions:
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-23T01:04:39Z'
+    src_mtime: 1787445727.7087202
+    top:
+    - scientific: Bodianus pulcher
+      confidence: 0.3922
+    - scientific: Kyphosus elegans
+      confidence: 0.3291
+    - scientific: Paranthias colonus
+      confidence: 0.1328
+species:
+- scientific: Bodianus pulcher
+  role: primary
+  confidence: 0.3922
+  identified_by: bioclip

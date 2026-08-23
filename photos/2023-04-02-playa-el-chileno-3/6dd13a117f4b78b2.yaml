@@ -14,3 +14,20 @@ variants:
   import_original_name: 45938f046b70c079.webp
 date_reviewed: true
 correction_standalone: true
+species_suggestions:
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-23T01:04:39Z'
+    src_mtime: 1787438639.5156991
+    top:
+    - scientific: Bodianus diplotaenia
+      confidence: 0.533
+    - scientific: Chaetodon humeralis
+      confidence: 0.2982
+    - scientific: Pomacanthus zonipectus
+      confidence: 0.0635
+species:
+- scientific: Bodianus diplotaenia
+  role: primary
+  confidence: 0.533
+  identified_by: bioclip

@@ -13,13 +13,13 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786156316.6712081
     top:
     - scientific: Synodus intermedius
-      confidence: 0.9001
+      confidence: 0.8997
     - scientific: Dactylopterus volitans
-      confidence: 0.057
+      confidence: 0.0569
     - scientific: Sphoeroides spengleri
       confidence: 0.0282
   bioclip-2:

@@ -14,3 +14,20 @@ variants:
   import_original_name: d35247baf82efbd8.webp
 date_reviewed: true
 correction_standalone: true
+species_suggestions:
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-23T01:04:39Z'
+    src_mtime: 1787438607.498501
+    top:
+    - scientific: Stegastes flavilatus
+      confidence: 0.563
+    - scientific: Abudefduf concolor
+      confidence: 0.1001
+    - scientific: Elacatinus puncticulatus
+      confidence: 0.0967
+species:
+- scientific: Stegastes flavilatus
+  role: primary
+  confidence: 0.563
+  identified_by: bioclip

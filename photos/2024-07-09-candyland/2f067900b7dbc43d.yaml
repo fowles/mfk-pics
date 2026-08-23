@@ -16,15 +16,15 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786159178.6906216
     top:
     - scientific: Melichthys niger
-      confidence: 0.3656
+      confidence: 0.3611
     - scientific: Hypoplectrus indigo
-      confidence: 0.3406
+      confidence: 0.3364
     - scientific: Chromis cyanea
-      confidence: 0.0846
+      confidence: 0.0836
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
     created: '2026-08-22T21:08:04Z'

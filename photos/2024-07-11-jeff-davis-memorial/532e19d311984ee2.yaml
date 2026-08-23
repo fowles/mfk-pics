@@ -13,15 +13,15 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786159575.767262
     top:
     - scientific: Epinephelus itajara
-      confidence: 0.6267
+      confidence: 0.494
+    - scientific: Pseudorca crassidens
+      confidence: 0.1455
     - scientific: Hypoplectrus indigo
-      confidence: 0.0695
-    - scientific: Melichthys niger
-      confidence: 0.0581
+      confidence: 0.0548
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
     created: '2026-08-22T21:08:04Z'

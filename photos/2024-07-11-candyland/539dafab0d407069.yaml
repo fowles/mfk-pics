@@ -13,13 +13,13 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786159271.5121293
     top:
     - scientific: Holocentrus adscensionis
-      confidence: 0.5174
+      confidence: 0.5171
     - scientific: Sepioteuthis sepioidea
-      confidence: 0.1286
+      confidence: 0.1285
     - scientific: Myripristis jacobus
       confidence: 0.0523
   bioclip-2:

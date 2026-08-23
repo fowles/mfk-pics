@@ -12,3 +12,20 @@ variants:
 - method: dive-plus
   file: 985ceef5ef332ef5.dive-plus.webp
   import_original_name: 519b064ca6d0ce5d.webp
+species_suggestions:
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-23T01:04:39Z'
+    src_mtime: 1787445729.5668855
+    top:
+    - scientific: Pseudobatos productus
+      confidence: 0.6732
+    - scientific: Urobatis halleri
+      confidence: 0.146
+    - scientific: Arothron hispidus
+      confidence: 0.0598
+species:
+- scientific: Pseudobatos productus
+  role: primary
+  confidence: 0.6732
+  identified_by: bioclip

@@ -13,13 +13,13 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786158712.268849
     top:
     - scientific: Lutjanus mahogoni
-      confidence: 0.3444
+      confidence: 0.3443
     - scientific: Kyphosus sectatrix
-      confidence: 0.2791
+      confidence: 0.279
     - scientific: Holocentrus adscensionis
       confidence: 0.1171
   bioclip-2:

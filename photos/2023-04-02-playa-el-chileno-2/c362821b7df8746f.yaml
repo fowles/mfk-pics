@@ -14,3 +14,20 @@ variants:
   import_original_name: aa4d33f0ecb40682.webp
 date_reviewed: true
 correction_standalone: true
+species_suggestions:
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-23T01:04:39Z'
+    src_mtime: 1787438633.5034568
+    top:
+    - scientific: Epinephelus analogus
+      confidence: 0.497
+    - scientific: Abudefduf concolor
+      confidence: 0.1286
+    - scientific: Cirrhitus rivulatus
+      confidence: 0.1203
+species:
+- scientific: Epinephelus analogus
+  role: primary
+  confidence: 0.497
+  identified_by: bioclip

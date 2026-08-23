@@ -13,15 +13,15 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786157054.11501
     top:
     - scientific: Chaetodon striatus
-      confidence: 0.314
+      confidence: 0.3122
     - scientific: Thalassoma bifasciatum
-      confidence: 0.2545
+      confidence: 0.2531
     - scientific: Hypoplectrus nigricans
-      confidence: 0.0591
+      confidence: 0.0587
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
     created: '2026-08-22T21:08:04Z'

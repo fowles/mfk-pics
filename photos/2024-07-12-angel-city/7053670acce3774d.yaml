@@ -17,15 +17,15 @@ rotation_applied: 90
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1787029255.3954487
     top:
     - scientific: Thalassoma bifasciatum
-      confidence: 0.7057
+      confidence: 0.7051
     - scientific: Haemulon macrostomum
-      confidence: 0.1473
+      confidence: 0.1472
     - scientific: Aulostomus maculatus
-      confidence: 0.0521
+      confidence: 0.052
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
     created: '2026-08-22T21:08:04Z'

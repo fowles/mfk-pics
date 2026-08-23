@@ -10,3 +10,20 @@ lon: -156.68646
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-23T01:04:39Z'
+    src_mtime: 1787441077.7248943
+    top:
+    - scientific: Chelonia mydas
+      confidence: 0.395
+    - scientific: Ostracion cubicum
+      confidence: 0.1507
+    - scientific: Caretta caretta
+      confidence: 0.1062
+species:
+- scientific: Chelonia mydas
+  role: primary
+  confidence: 0.395
+  identified_by: bioclip

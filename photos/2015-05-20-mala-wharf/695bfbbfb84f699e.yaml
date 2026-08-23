@@ -10,3 +10,20 @@ lon: -156.68646
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-23T01:04:39Z'
+    src_mtime: 1787441078.7473106
+    top:
+    - scientific: Rhinecanthus aculeatus
+      confidence: 0.2002
+    - scientific: Naso vlamingii
+      confidence: 0.1248
+    - scientific: Naso brevirostris
+      confidence: 0.1195
+species:
+- scientific: Rhinecanthus aculeatus
+  role: primary
+  confidence: 0.2002
+  identified_by: bioclip

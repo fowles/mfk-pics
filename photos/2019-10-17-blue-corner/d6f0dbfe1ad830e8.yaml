@@ -10,3 +10,20 @@ lon: 134.2213
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-23T01:04:39Z'
+    src_mtime: 1787436659.8857486
+    top:
+    - scientific: Macolor macularis
+      confidence: 0.9056
+    - scientific: Platax pinnatus
+      confidence: 0.0295
+    - scientific: Melichthys niger
+      confidence: 0.0186
+species:
+- scientific: Macolor macularis
+  role: primary
+  confidence: 0.9056
+  identified_by: bioclip

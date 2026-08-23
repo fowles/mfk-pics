@@ -14,3 +14,20 @@ variants:
   import_original_name: 3765397e7d5ecd7f.webp
 date_reviewed: true
 correction_standalone: true
+species_suggestions:
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-23T01:04:39Z'
+    src_mtime: 1787438609.0129602
+    top:
+    - scientific: Haemulon sexfasciatum
+      confidence: 0.3312
+    - scientific: Microspathodon dorsalis
+      confidence: 0.1381
+    - scientific: Microspathodon bairdii
+      confidence: 0.0947
+species:
+- scientific: Haemulon sexfasciatum
+  role: primary
+  confidence: 0.3312
+  identified_by: bioclip

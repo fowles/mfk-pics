@@ -17,15 +17,15 @@ rotation_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786156357.8472896
     top:
+    - scientific: Rhincodon typus
+      confidence: 0.8602
     - scientific: Aetobatus narinari
-      confidence: 0.3887
+      confidence: 0.0542
     - scientific: Diodon hystrix
-      confidence: 0.3817
-    - scientific: Equetus punctatus
-      confidence: 0.077
+      confidence: 0.0532
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
     created: '2026-08-22T21:08:04Z'

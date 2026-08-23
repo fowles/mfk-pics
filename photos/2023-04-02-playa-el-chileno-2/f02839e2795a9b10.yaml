@@ -14,3 +14,20 @@ variants:
   import_original_name: 84c4a562ab97eb0f.webp
 date_reviewed: true
 correction_standalone: true
+species_suggestions:
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-23T01:04:39Z'
+    src_mtime: 1787438615.1054604
+    top:
+    - scientific: Triaenodon obesus
+      confidence: 0.7075
+    - scientific: Ginglymostoma unami
+      confidence: 0.1105
+    - scientific: Heterodontus francisci
+      confidence: 0.1075
+species:
+- scientific: Triaenodon obesus
+  role: primary
+  confidence: 0.7075
+  identified_by: bioclip

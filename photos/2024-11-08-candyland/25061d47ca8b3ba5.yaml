@@ -13,18 +13,18 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786156493.27304
     top:
     - scientific: Scarus coelestinus
       confidence: 0.0011
-    - scientific: Holothuria mexicana
-      confidence: 0.0003
-    - scientific: Pterois volitans
-      confidence: 0.0002
+    - scientific: Parribacus antarcticus
+      confidence: 0.0008
+    - scientific: Rhincodon typus
+      confidence: 0.0004
     absorbed_by:
       scientific: Niphates digitalis
-      confidence: 0.5555
+      confidence: 0.5546
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
     created: '2026-08-22T21:08:04Z'

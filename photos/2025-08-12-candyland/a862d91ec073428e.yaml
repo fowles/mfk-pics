@@ -13,11 +13,11 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786158137.932015
     top:
     - scientific: Kyphosus sectatrix
-      confidence: 0.9875
+      confidence: 0.9874
     - scientific: Aluterus scriptus
       confidence: 0.0028
     - scientific: Diodon hystrix

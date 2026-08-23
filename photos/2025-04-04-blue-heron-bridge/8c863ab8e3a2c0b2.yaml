@@ -16,15 +16,15 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786157494.188079
     top:
     - scientific: Haemulon chrysargyreum
-      confidence: 0.2132
+      confidence: 0.212
     - scientific: Ginglymostoma cirratum
-      confidence: 0.1425
+      confidence: 0.1418
     - scientific: Sepioteuthis sepioidea
-      confidence: 0.1356
+      confidence: 0.1348
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
     created: '2026-08-22T21:08:04Z'

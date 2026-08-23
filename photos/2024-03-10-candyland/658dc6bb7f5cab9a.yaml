@@ -16,15 +16,18 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786158875.2047653
     top:
     - scientific: Mycteroperca tigris
-      confidence: 0.1499
+      confidence: 0.1177
     - scientific: Gymnothorax funebris
-      confidence: 0.1022
+      confidence: 0.0803
     - scientific: Gramma loreto
-      confidence: 0.0929
+      confidence: 0.0729
+    absorbed_by:
+      scientific: Caulerpa racemosa
+      confidence: 0.2145
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
     created: '2026-08-22T21:08:04Z'

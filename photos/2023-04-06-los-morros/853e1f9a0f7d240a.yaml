@@ -12,3 +12,20 @@ variants:
 - method: dive-plus
   file: 853e1f9a0f7d240a.dive-plus.webp
   import_original_name: 60f8c8a20a864d44.webp
+species_suggestions:
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-23T01:04:39Z'
+    src_mtime: 1787445731.4535012
+    top:
+    - scientific: Abudefduf troschelii
+      confidence: 0.8115
+    - scientific: Arothron meleagris
+      confidence: 0.1017
+    - scientific: Diodon hystrix
+      confidence: 0.0236
+species:
+- scientific: Abudefduf troschelii
+  role: primary
+  confidence: 0.8115
+  identified_by: bioclip

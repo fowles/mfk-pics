@@ -12,15 +12,15 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786159817.6453233
     top:
     - scientific: Scarus coelestinus
-      confidence: 0.4813
+      confidence: 0.4808
     - scientific: Melichthys niger
-      confidence: 0.2107
+      confidence: 0.2105
     - scientific: Scarus coeruleus
-      confidence: 0.0965
+      confidence: 0.0964
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
     created: '2026-08-22T21:08:04Z'

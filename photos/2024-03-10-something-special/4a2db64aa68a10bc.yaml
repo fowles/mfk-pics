@@ -13,13 +13,13 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786159052.2824976
     top:
     - scientific: Scarus iseri
-      confidence: 0.5042
+      confidence: 0.504
     - scientific: Elacatinus oceanops
-      confidence: 0.1917
+      confidence: 0.1916
     - scientific: Gymnothorax funebris
       confidence: 0.105
   bioclip-2:

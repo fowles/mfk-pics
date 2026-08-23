@@ -10,3 +10,20 @@ lon: -156.68646
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-23T01:04:39Z'
+    src_mtime: 1787441079.5202281
+    top:
+    - scientific: Cephalopholis argus
+      confidence: 0.156
+    - scientific: Cromileptes altivelis
+      confidence: 0.1535
+    - scientific: Nebrius ferrugineus
+      confidence: 0.0892
+species:
+- scientific: Cephalopholis argus
+  role: primary
+  confidence: 0.156
+  identified_by: bioclip

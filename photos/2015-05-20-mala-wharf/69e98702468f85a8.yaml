@@ -10,3 +10,20 @@ lon: -156.68646
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-23T01:04:39Z'
+    src_mtime: 1787441085.686738
+    top:
+    - scientific: Hipposcarus longiceps
+      confidence: 0.4406
+    - scientific: Echeneis naucrates
+      confidence: 0.2236
+    - scientific: Chelonia mydas
+      confidence: 0.1233
+species:
+- scientific: Hipposcarus longiceps
+  role: primary
+  confidence: 0.4406
+  identified_by: bioclip

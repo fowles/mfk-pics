@@ -16,11 +16,11 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786159195.1509275
     top:
     - scientific: Aetobatus narinari
-      confidence: 0.9819
+      confidence: 0.9813
     - scientific: Kyphosus sectatrix
       confidence: 0.0107
     - scientific: Lactophrys triqueter

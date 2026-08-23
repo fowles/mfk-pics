@@ -10,3 +10,20 @@ lon: -156.68646
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-23T01:04:39Z'
+    src_mtime: 1787441076.7209709
+    top:
+    - scientific: Nebrius ferrugineus
+      confidence: 0.546
+    - scientific: Triaenodon obesus
+      confidence: 0.3954
+    - scientific: Pastinachus ater
+      confidence: 0.03
+species:
+- scientific: Nebrius ferrugineus
+  role: primary
+  confidence: 0.546
+  identified_by: bioclip

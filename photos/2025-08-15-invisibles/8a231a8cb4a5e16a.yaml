@@ -14,15 +14,15 @@ rotation_applied: 90
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1787175773.842568
     top:
     - scientific: Sparisoma rubripinne
-      confidence: 0.2955
+      confidence: 0.2576
     - scientific: Ginglymostoma cirratum
-      confidence: 0.1415
+      confidence: 0.1234
     - scientific: Sparisoma aurofrenatum
-      confidence: 0.0843
+      confidence: 0.0735
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
     created: '2026-08-22T21:08:04Z'

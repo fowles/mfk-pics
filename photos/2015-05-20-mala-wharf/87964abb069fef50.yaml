@@ -10,3 +10,20 @@ lon: -156.68646
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-23T01:04:39Z'
+    src_mtime: 1787441087.913668
+    top:
+    - scientific: Platybelone argalus
+      confidence: 0.4525
+    - scientific: Labroides dimidiatus
+      confidence: 0.3043
+    - scientific: Tylosurus crocodilus
+      confidence: 0.0302
+species:
+- scientific: Platybelone argalus
+  role: primary
+  confidence: 0.4525
+  identified_by: bioclip

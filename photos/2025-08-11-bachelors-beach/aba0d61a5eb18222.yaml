@@ -13,11 +13,11 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786157879.2548974
     top:
     - scientific: Gymnothorax moringa
-      confidence: 0.9794
+      confidence: 0.9791
     - scientific: Gymnothorax miliaris
       confidence: 0.0112
     - scientific: Gymnothorax funebris

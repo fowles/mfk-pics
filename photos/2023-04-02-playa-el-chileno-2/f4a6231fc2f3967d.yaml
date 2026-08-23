@@ -14,3 +14,20 @@ variants:
   import_original_name: c358de3dba4e1447.webp
 date_reviewed: true
 correction_standalone: true
+species_suggestions:
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-23T01:04:39Z'
+    src_mtime: 1787438624.8061998
+    top:
+    - scientific: Pseudorca crassidens
+      confidence: 0.7571
+    - scientific: Diodon holocanthus
+      confidence: 0.1633
+    - scientific: Acanthurus triostegus
+      confidence: 0.0167
+species:
+- scientific: Pseudorca crassidens
+  role: primary
+  confidence: 0.7571
+  identified_by: bioclip

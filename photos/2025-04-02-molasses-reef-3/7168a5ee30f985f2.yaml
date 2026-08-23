@@ -13,14 +13,14 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786157282.1381044
     top:
     - scientific: Ginglymostoma cirratum
-      confidence: 1.0
-    - scientific: Carcharhinus perezi
+      confidence: 0.9999
+    - scientific: Carcharhinus leucas
       confidence: 0.0
-    - scientific: Sphyrna mokarran
+    - scientific: Carcharhinus perezi
       confidence: 0.0
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2

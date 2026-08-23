@@ -13,18 +13,18 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786159052.824718
     top:
     - scientific: Thalassoma bifasciatum
-      confidence: 0.1804
+      confidence: 0.1779
     - scientific: Haemulon flavolineatum
-      confidence: 0.0181
+      confidence: 0.0178
     - scientific: Haemulon chrysargyreum
-      confidence: 0.0161
+      confidence: 0.0159
     absorbed_by:
       scientific: Tubastraea coccinea
-      confidence: 0.7108
+      confidence: 0.701
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
     created: '2026-08-22T21:08:04Z'

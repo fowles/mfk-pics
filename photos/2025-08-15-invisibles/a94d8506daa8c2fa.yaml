@@ -13,15 +13,15 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786071955.5676455
     top:
     - scientific: Canthidermis sufflamen
-      confidence: 0.6905
+      confidence: 0.6576
     - scientific: Aetobatus narinari
-      confidence: 0.1646
+      confidence: 0.1567
     - scientific: Trachinotus goodei
-      confidence: 0.0564
+      confidence: 0.0537
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
     created: '2026-08-22T21:08:04Z'

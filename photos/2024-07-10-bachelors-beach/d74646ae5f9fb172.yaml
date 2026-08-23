@@ -13,11 +13,11 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786158711.6517353
     top:
     - scientific: Stegastes planifrons
-      confidence: 0.3121
+      confidence: 0.312
     - scientific: Hypoplectrus nigricans
       confidence: 0.3116
     - scientific: Hypoplectrus puella

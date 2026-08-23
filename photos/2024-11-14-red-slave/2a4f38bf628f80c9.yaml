@@ -13,11 +13,11 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786156978.0574372
     top:
     - scientific: Holothuria mexicana
-      confidence: 0.393
+      confidence: 0.3929
     - scientific: Gymnothorax vicinus
       confidence: 0.2284
     - scientific: Hippocampus erectus

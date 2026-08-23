@@ -12,3 +12,20 @@ variants:
 - method: dive-plus
   file: e76265ed6b8eedee.dive-plus.webp
   import_original_name: 102da4318e001bbc.webp
+species_suggestions:
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-23T01:04:39Z'
+    src_mtime: 1787445728.934283
+    top:
+    - scientific: Melichthys niger
+      confidence: 0.9357
+    - scientific: Xanthichthys mento
+      confidence: 0.0189
+    - scientific: Acanthurus xanthopterus
+      confidence: 0.0122
+species:
+- scientific: Melichthys niger
+  role: primary
+  confidence: 0.9357
+  identified_by: bioclip

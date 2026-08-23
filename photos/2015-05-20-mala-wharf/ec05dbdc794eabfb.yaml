@@ -10,3 +10,20 @@ lon: -156.68646
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-23T01:04:39Z'
+    src_mtime: 1787441082.59919
+    top:
+    - scientific: Triaenodon obesus
+      confidence: 0.7709
+    - scientific: Carcharhinus melanopterus
+      confidence: 0.1214
+    - scientific: Sphyraena barracuda
+      confidence: 0.0728
+species:
+- scientific: Triaenodon obesus
+  role: primary
+  confidence: 0.7709
+  identified_by: bioclip

@@ -16,11 +16,11 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786160221.6893446
     top:
     - scientific: Thalassoma bifasciatum
-      confidence: 0.8521
+      confidence: 0.8518
     - scientific: Elacatinus evelynae
       confidence: 0.0239
     - scientific: Acanthostracion polygonius

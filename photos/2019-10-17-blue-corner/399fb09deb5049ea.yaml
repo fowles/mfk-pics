@@ -10,3 +10,20 @@ lon: 134.2213
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-23T01:04:39Z'
+    src_mtime: 1787436660.2156374
+    top:
+    - scientific: Fistularia commersonii
+      confidence: 0.5313
+    - scientific: Platybelone argalus
+      confidence: 0.155
+    - scientific: Lethrinus olivaceus
+      confidence: 0.0585
+species:
+- scientific: Fistularia commersonii
+  role: primary
+  confidence: 0.5313
+  identified_by: bioclip

@@ -13,13 +13,13 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786157281.0354664
     top:
     - scientific: Pseudupeneus maculatus
-      confidence: 0.3518
+      confidence: 0.3517
     - scientific: Lutjanus mahogoni
-      confidence: 0.3024
+      confidence: 0.3023
     - scientific: Lutjanus analis
       confidence: 0.17
   bioclip-2:

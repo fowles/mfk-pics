@@ -13,13 +13,13 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786158391.7977057
     top:
     - scientific: Gymnothorax funebris
-      confidence: 0.8625
+      confidence: 0.8616
     - scientific: Rypticus saponaceus
-      confidence: 0.0252
+      confidence: 0.0251
     - scientific: Ginglymostoma cirratum
       confidence: 0.0228
   bioclip-2:

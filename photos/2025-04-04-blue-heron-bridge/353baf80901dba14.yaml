@@ -16,11 +16,11 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786157493.4511547
     top:
     - scientific: Sphoeroides spengleri
-      confidence: 0.2203
+      confidence: 0.2202
     - scientific: Sphoeroides testudineus
       confidence: 0.2034
     - scientific: Acanthostracion polygonius

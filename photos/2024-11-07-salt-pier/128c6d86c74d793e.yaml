@@ -13,15 +13,15 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786156323.566462
     top:
     - scientific: Dactylopterus volitans
-      confidence: 0.4424
+      confidence: 0.286
+    - scientific: Megaptera novaeangliae
+      confidence: 0.0733
     - scientific: Gymnothorax funebris
-      confidence: 0.1073
-    - scientific: Aurelia aurita
-      confidence: 0.0785
+      confidence: 0.0694
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
     created: '2026-08-22T21:08:04Z'

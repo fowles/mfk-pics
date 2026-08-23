@@ -16,15 +16,15 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786071914.0266626
     top:
     - scientific: Gramma loreto
-      confidence: 0.5872
+      confidence: 0.5865
     - scientific: Equetus punctatus
       confidence: 0.0199
     - scientific: Hypoplectrus puella
-      confidence: 0.0184
+      confidence: 0.0183
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
     created: '2026-08-22T21:08:04Z'

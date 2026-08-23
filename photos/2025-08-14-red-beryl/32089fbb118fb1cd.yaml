@@ -14,15 +14,15 @@ rotation_applied: 180
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1787176367.7896903
     top:
     - scientific: Gymnothorax funebris
-      confidence: 0.6248
+      confidence: 0.5957
     - scientific: Mycteroperca venenosa
-      confidence: 0.1849
-    - scientific: Cephalopholis cruentata
-      confidence: 0.0237
+      confidence: 0.1763
+    - scientific: Aluterus monoceros
+      confidence: 0.0268
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
     created: '2026-08-22T21:08:04Z'
@@ -49,4 +49,4 @@ species:
 - scientific: Cephalopholis cruentata
   role: primary
   confidence: 0.9664
-  identified_by: bioclip+bioclip-2+bioclip-2.5
+  identified_by: bioclip-2+bioclip-2.5

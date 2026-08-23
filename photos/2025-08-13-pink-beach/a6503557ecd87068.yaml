@@ -16,15 +16,15 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786158187.4182932
     top:
     - scientific: Aulostomus maculatus
-      confidence: 0.6705
+      confidence: 0.6202
     - scientific: Gymnothorax funebris
-      confidence: 0.0165
-    - scientific: Monacanthus tuckeri
-      confidence: 0.0124
+      confidence: 0.0153
+    - scientific: Loimia medusa
+      confidence: 0.012
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
     created: '2026-08-22T21:08:04Z'

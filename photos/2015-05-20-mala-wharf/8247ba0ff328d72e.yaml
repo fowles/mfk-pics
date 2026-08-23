@@ -10,3 +10,20 @@ lon: -156.68646
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-23T01:04:39Z'
+    src_mtime: 1787441079.148931
+    top:
+    - scientific: Pterocaesio trilineata
+      confidence: 0.4078
+    - scientific: Lutjanus fulvus
+      confidence: 0.2081
+    - scientific: Lutjanus kasmira
+      confidence: 0.1207
+species:
+- scientific: Pterocaesio trilineata
+  role: primary
+  confidence: 0.4078
+  identified_by: bioclip

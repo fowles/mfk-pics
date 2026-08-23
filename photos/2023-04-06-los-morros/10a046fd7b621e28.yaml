@@ -12,3 +12,20 @@ variants:
 - method: dive-plus
   file: 10a046fd7b621e28.dive-plus.webp
   import_original_name: 7d1c6f18f478cba4.webp
+species_suggestions:
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-23T01:04:39Z'
+    src_mtime: 1787445731.085807
+    top:
+    - scientific: Lutjanus viridis
+      confidence: 0.5919
+    - scientific: Lutjanus argentiventris
+      confidence: 0.1585
+    - scientific: Anisotremus interruptus
+      confidence: 0.0748
+species:
+- scientific: Lutjanus viridis
+  role: primary
+  confidence: 0.5919
+  identified_by: bioclip

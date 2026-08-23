@@ -13,11 +13,11 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786160155.4339557
     top:
     - scientific: Gymnothorax moringa
-      confidence: 0.9276
+      confidence: 0.9274
     - scientific: Lactophrys triqueter
       confidence: 0.0237
     - scientific: Diodon hystrix

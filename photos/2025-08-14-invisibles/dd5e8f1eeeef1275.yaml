@@ -13,13 +13,13 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786158237.1172686
     top:
     - scientific: Scarus taeniopterus
-      confidence: 0.6994
+      confidence: 0.699
     - scientific: Scarus guacamaia
-      confidence: 0.1647
+      confidence: 0.1646
     - scientific: Scarus iseri
       confidence: 0.0685
   bioclip-2:

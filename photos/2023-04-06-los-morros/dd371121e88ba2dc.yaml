@@ -8,3 +8,20 @@ import_original_name: original_9b2bd905-7171-437d-826d-63d0295ef3ef_168081102970
 lat: 23.4627
 lon: -109.405
 gps_source: dive_site
+species_suggestions:
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-23T01:04:39Z'
+    src_mtime: 1787445731.9523995
+    top:
+    - scientific: Pseudorca crassidens
+      confidence: 0.2238
+    - scientific: Rhincodon typus
+      confidence: 0.2062
+    - scientific: Zalophus californianus
+      confidence: 0.1629
+species:
+- scientific: Pseudorca crassidens
+  role: primary
+  confidence: 0.2238
+  identified_by: bioclip

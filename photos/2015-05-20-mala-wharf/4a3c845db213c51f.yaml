@@ -10,3 +10,20 @@ lon: -156.68646
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-23T01:04:39Z'
+    src_mtime: 1787441082.182664
+    top:
+    - scientific: Aulostomus chinensis
+      confidence: 0.7372
+    - scientific: Fistularia commersonii
+      confidence: 0.0996
+    - scientific: Triaenodon obesus
+      confidence: 0.0317
+species:
+- scientific: Aulostomus chinensis
+  role: primary
+  confidence: 0.7372
+  identified_by: bioclip

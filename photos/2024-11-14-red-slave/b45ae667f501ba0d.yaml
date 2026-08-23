@@ -16,15 +16,15 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786156982.7116737
     top:
+    - scientific: Stenella longirostris
+      confidence: 0.6651
     - scientific: Trachinotus goodei
-      confidence: 0.3944
+      confidence: 0.1298
     - scientific: Hypanus americanus
-      confidence: 0.3109
-    - scientific: Trachinotus falcatus
-      confidence: 0.0761
+      confidence: 0.1023
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
     created: '2026-08-22T21:08:04Z'

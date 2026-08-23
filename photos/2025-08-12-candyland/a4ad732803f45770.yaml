@@ -13,13 +13,13 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786158134.4793882
     top:
     - scientific: Halichoeres pictus
-      confidence: 0.4726
+      confidence: 0.4724
     - scientific: Sepioteuthis sepioidea
-      confidence: 0.4177
+      confidence: 0.4175
     - scientific: Halichoeres bivittatus
       confidence: 0.0432
   bioclip-2:

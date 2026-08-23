@@ -12,3 +12,20 @@ variants:
 - method: dive-plus
   file: 754c226110b04b64.dive-plus.webp
   import_original_name: 8a4b426dd1c552ff.webp
+species_suggestions:
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-23T01:04:39Z'
+    src_mtime: 1787445731.9705966
+    top:
+    - scientific: Mulloidichthys dentatus
+      confidence: 0.5293
+    - scientific: Bodianus diplotaenia
+      confidence: 0.1025
+    - scientific: Heterodontus francisci
+      confidence: 0.0627
+species:
+- scientific: Mulloidichthys dentatus
+  role: primary
+  confidence: 0.5293
+  identified_by: bioclip

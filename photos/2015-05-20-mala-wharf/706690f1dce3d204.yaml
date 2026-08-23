@@ -10,3 +10,20 @@ lon: -156.68646
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-23T01:04:39Z'
+    src_mtime: 1787441081.3893397
+    top:
+    - scientific: Thalassoma hardwicke
+      confidence: 0.9117
+    - scientific: Abudefduf vaigiensis
+      confidence: 0.0367
+    - scientific: Gymnocranius grandoculis
+      confidence: 0.0222
+species:
+- scientific: Thalassoma hardwicke
+  role: primary
+  confidence: 0.9117
+  identified_by: bioclip

@@ -13,18 +13,18 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786156487.40143
     top:
     - scientific: Pterois volitans
-      confidence: 0.4669
+      confidence: 0.4667
     - scientific: Diadema antillarum
       confidence: 0.006
     - scientific: Pareques acuminatus
       confidence: 0.0025
     absorbed_by:
       scientific: Sabellastarte magnifica
-      confidence: 0.5222
+      confidence: 0.5221
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
     created: '2026-08-22T21:08:04Z'

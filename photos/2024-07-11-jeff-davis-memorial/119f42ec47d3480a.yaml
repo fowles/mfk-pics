@@ -13,13 +13,13 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786159574.4324298
     top:
     - scientific: Aulostomus maculatus
-      confidence: 0.7121
+      confidence: 0.7114
     - scientific: Sphyraena barracuda
-      confidence: 0.2383
+      confidence: 0.2381
     - scientific: Fistularia tabacaria
       confidence: 0.012
   bioclip-2:

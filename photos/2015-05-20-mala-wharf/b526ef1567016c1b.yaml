@@ -10,3 +10,20 @@ lon: -156.68646
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-23T01:04:39Z'
+    src_mtime: 1787441081.9600203
+    top:
+    - scientific: Abudefduf vaigiensis
+      confidence: 0.9414
+    - scientific: Thalassoma hardwicke
+      confidence: 0.0226
+    - scientific: Dascyllus aruanus
+      confidence: 0.0119
+species:
+- scientific: Abudefduf vaigiensis
+  role: primary
+  confidence: 0.9414
+  identified_by: bioclip

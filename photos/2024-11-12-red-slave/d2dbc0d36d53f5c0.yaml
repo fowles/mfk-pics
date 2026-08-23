@@ -13,15 +13,15 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786156817.7947319
     top:
     - scientific: Aulostomus maculatus
-      confidence: 0.4676
+      confidence: 0.4632
     - scientific: Sphyraena barracuda
-      confidence: 0.4666
+      confidence: 0.4623
     - scientific: Trachinotus goodei
-      confidence: 0.0404
+      confidence: 0.0401
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
     created: '2026-08-22T21:08:04Z'

@@ -13,13 +13,13 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786156519.985596
     top:
     - scientific: Elacatinus genie
-      confidence: 0.401
+      confidence: 0.4008
     - scientific: Thalassoma bifasciatum
-      confidence: 0.379
+      confidence: 0.3788
     - scientific: Stegastes partitus
       confidence: 0.0534
   bioclip-2:

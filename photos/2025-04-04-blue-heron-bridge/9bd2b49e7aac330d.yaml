@@ -13,18 +13,18 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786157489.8085775
     top:
     - scientific: Hippocampus erectus
-      confidence: 0.0821
+      confidence: 0.03
     - scientific: Hypoplectrus nigricans
-      confidence: 0.081
+      confidence: 0.0296
     - scientific: Elacatinus genie
-      confidence: 0.0718
+      confidence: 0.0262
     absorbed_by:
-      scientific: Sabellastarte magnifica
-      confidence: 0.414
+      scientific: Pennaria disticha
+      confidence: 0.5889
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
     created: '2026-08-22T21:08:04Z'

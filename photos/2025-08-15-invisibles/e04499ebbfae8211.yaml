@@ -13,15 +13,15 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786071943.3470674
     top:
     - scientific: Lactophrys triqueter
-      confidence: 0.7905
+      confidence: 0.7844
     - scientific: Myrichthys ocellatus
-      confidence: 0.0406
+      confidence: 0.0403
     - scientific: Xyrichtys martinicensis
-      confidence: 0.0392
+      confidence: 0.0389
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
     created: '2026-08-22T21:08:04Z'

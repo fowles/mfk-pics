@@ -16,15 +16,15 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786158521.1437454
     top:
     - scientific: Thalassoma bifasciatum
-      confidence: 0.1615
+      confidence: 0.1611
     - scientific: Elacatinus genie
-      confidence: 0.0997
+      confidence: 0.0995
     - scientific: Hippocampus erectus
-      confidence: 0.0994
+      confidence: 0.0992
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
     created: '2026-08-22T21:08:04Z'

@@ -13,15 +13,15 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786158711.2446303
     top:
     - scientific: Equetus punctatus
-      confidence: 0.4946
+      confidence: 0.4768
     - scientific: Thalassoma bifasciatum
-      confidence: 0.1469
+      confidence: 0.1416
     - scientific: Equetus lanceolatus
-      confidence: 0.1437
+      confidence: 0.1385
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
     created: '2026-08-22T21:08:04Z'

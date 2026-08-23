@@ -10,3 +10,20 @@ lon: 134.2447
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-23T01:04:39Z'
+    src_mtime: 1787436663.6338396
+    top:
+    - scientific: Melichthys niger
+      confidence: 0.1912
+    - scientific: Naso vlamingii
+      confidence: 0.0874
+    - scientific: Rhincodon typus
+      confidence: 0.0572
+species:
+- scientific: Melichthys niger
+  role: primary
+  confidence: 0.1912
+  identified_by: bioclip

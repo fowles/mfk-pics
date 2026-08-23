@@ -16,15 +16,15 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786158874.5890782
     top:
     - scientific: Epinephelus itajara
-      confidence: 0.2169
+      confidence: 0.2103
     - scientific: Epinephelus striatus
-      confidence: 0.1578
+      confidence: 0.153
     - scientific: Cantherhines pullus
-      confidence: 0.1117
+      confidence: 0.1083
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
     created: '2026-08-22T21:08:04Z'

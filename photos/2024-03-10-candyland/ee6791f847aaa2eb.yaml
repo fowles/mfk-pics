@@ -13,13 +13,13 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786158862.4473217
     top:
     - scientific: Scarus guacamaia
-      confidence: 0.7015
+      confidence: 0.7014
     - scientific: Melichthys niger
-      confidence: 0.252
+      confidence: 0.2519
     - scientific: Thalassoma bifasciatum
       confidence: 0.0097
   bioclip-2:

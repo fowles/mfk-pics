@@ -12,3 +12,20 @@ variants:
 - method: dive-plus
   file: 53b7e196dafd60b4.dive-plus.webp
   import_original_name: 40e0e469388b13d2.webp
+species_suggestions:
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-23T01:04:39Z'
+    src_mtime: 1787445730.8401902
+    top:
+    - scientific: Tursiops truncatus
+      confidence: 0.7436
+    - scientific: Melichthys niger
+      confidence: 0.1402
+    - scientific: Mobula birostris
+      confidence: 0.0494
+species:
+- scientific: Tursiops truncatus
+  role: primary
+  confidence: 0.7436
+  identified_by: bioclip

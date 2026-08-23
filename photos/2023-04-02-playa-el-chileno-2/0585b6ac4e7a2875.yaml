@@ -14,3 +14,20 @@ variants:
   import_original_name: e72ad9867b397b0d.webp
 date_reviewed: true
 correction_standalone: true
+species_suggestions:
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-23T01:04:39Z'
+    src_mtime: 1787438622.188238
+    top:
+    - scientific: Dermatolepis dermatolepis
+      confidence: 0.3126
+    - scientific: Halichoeres nicholsi
+      confidence: 0.2741
+    - scientific: Mycteroperca xenarcha
+      confidence: 0.1416
+species:
+- scientific: Dermatolepis dermatolepis
+  role: primary
+  confidence: 0.3126
+  identified_by: bioclip

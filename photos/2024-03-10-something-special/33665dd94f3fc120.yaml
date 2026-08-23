@@ -13,11 +13,11 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786159052.445685
     top:
     - scientific: Halichoeres bivittatus
-      confidence: 0.8731
+      confidence: 0.873
     - scientific: Serranus tigrinus
       confidence: 0.0456
     - scientific: Myrichthys breviceps

@@ -12,3 +12,20 @@ variants:
 - method: dive-plus
   file: 3c8974108457abae.dive-plus.webp
   import_original_name: 14e29b85e4c5ecfe.webp
+species_suggestions:
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-23T01:04:39Z'
+    src_mtime: 1787445729.848862
+    top:
+    - scientific: Abudefduf troschelii
+      confidence: 0.5481
+    - scientific: Hydrophis platurus
+      confidence: 0.1435
+    - scientific: Zanclus cornutus
+      confidence: 0.0795
+species:
+- scientific: Abudefduf troschelii
+  role: primary
+  confidence: 0.5481
+  identified_by: bioclip

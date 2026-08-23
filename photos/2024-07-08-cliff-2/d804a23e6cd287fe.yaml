@@ -13,13 +13,13 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786159369.6897979
     top:
     - scientific: Mycteroperca venenosa
-      confidence: 0.8558
+      confidence: 0.854
     - scientific: Aulostomus maculatus
-      confidence: 0.101
+      confidence: 0.1008
     - scientific: Mycteroperca tigris
       confidence: 0.0117
   bioclip-2:

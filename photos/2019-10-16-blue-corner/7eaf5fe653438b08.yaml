@@ -10,3 +10,20 @@ lon: 134.2213
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-23T01:04:39Z'
+    src_mtime: 1787436656.6884673
+    top:
+    - scientific: Sepioteuthis lessoniana
+      confidence: 0.4361
+    - scientific: Pseudobalistes fuscus
+      confidence: 0.0819
+    - scientific: Rhincodon typus
+      confidence: 0.0789
+species:
+- scientific: Sepioteuthis lessoniana
+  role: primary
+  confidence: 0.4361
+  identified_by: bioclip

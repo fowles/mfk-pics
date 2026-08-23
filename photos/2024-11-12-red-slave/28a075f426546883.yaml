@@ -13,11 +13,11 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786156807.1168888
     top:
     - scientific: Kyphosus sectatrix
-      confidence: 0.9783
+      confidence: 0.9782
     - scientific: Lutjanus griseus
       confidence: 0.0142
     - scientific: Mycteroperca bonaci

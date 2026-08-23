@@ -12,3 +12,20 @@ variants:
 - method: dive-plus
   file: 91c22de3f2bb5ea1.dive-plus.webp
   import_original_name: c795c57b39e6a6ac.webp
+species_suggestions:
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-23T01:04:39Z'
+    src_mtime: 1787445729.38099
+    top:
+    - scientific: Gymnothorax castaneus
+      confidence: 0.8807
+    - scientific: Sufflamen verres
+      confidence: 0.0222
+    - scientific: Aulostomus chinensis
+      confidence: 0.0147
+species:
+- scientific: Gymnothorax castaneus
+  role: primary
+  confidence: 0.8807
+  identified_by: bioclip

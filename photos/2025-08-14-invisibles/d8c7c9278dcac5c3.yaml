@@ -13,11 +13,11 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786158235.3612592
     top:
     - scientific: Sphoeroides testudineus
-      confidence: 0.4737
+      confidence: 0.4736
     - scientific: Myrichthys ocellatus
       confidence: 0.1243
     - scientific: Holothuria mexicana

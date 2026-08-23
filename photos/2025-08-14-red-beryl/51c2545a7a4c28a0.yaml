@@ -13,13 +13,13 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786158336.7202547
     top:
     - scientific: Sphoeroides spengleri
-      confidence: 0.5329
+      confidence: 0.5324
     - scientific: Sphyraena barracuda
-      confidence: 0.3441
+      confidence: 0.3437
     - scientific: Aulostomus maculatus
       confidence: 0.0361
   bioclip-2:

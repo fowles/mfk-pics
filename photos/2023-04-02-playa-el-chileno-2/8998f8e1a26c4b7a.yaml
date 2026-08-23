@@ -14,3 +14,20 @@ variants:
   import_original_name: d3f8057bd58cbd1b.webp
 date_reviewed: true
 correction_standalone: true
+species_suggestions:
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-23T01:04:39Z'
+    src_mtime: 1787438607.685036
+    top:
+    - scientific: Stegastes flavilatus
+      confidence: 0.8677
+    - scientific: Scarus compressus
+      confidence: 0.0478
+    - scientific: Microspathodon dorsalis
+      confidence: 0.0376
+species:
+- scientific: Stegastes flavilatus
+  role: primary
+  confidence: 0.8677
+  identified_by: bioclip

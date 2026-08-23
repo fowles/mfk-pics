@@ -13,13 +13,13 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786156319.300475
     top:
     - scientific: Gramma loreto
       confidence: 0.4082
     - scientific: Anisotremus virginicus
-      confidence: 0.3771
+      confidence: 0.377
     - scientific: Myripristis jacobus
       confidence: 0.0325
   bioclip-2:

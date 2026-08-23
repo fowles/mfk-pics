@@ -12,3 +12,20 @@ variants:
 - method: dive-plus
   file: 262baa8d5cfe3aa4.dive-plus.webp
   import_original_name: e5d30909acaaed92.webp
+species_suggestions:
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-23T01:04:39Z'
+    src_mtime: 1787445730.818508
+    top:
+    - scientific: Mycteroperca rosacea
+      confidence: 0.5156
+    - scientific: Mycteroperca jordani
+      confidence: 0.2803
+    - scientific: Mycteroperca xenarcha
+      confidence: 0.1679
+species:
+- scientific: Mycteroperca rosacea
+  role: primary
+  confidence: 0.5156
+  identified_by: bioclip

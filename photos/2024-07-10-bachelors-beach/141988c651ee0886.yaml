@@ -16,18 +16,18 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786158733.3960114
     top:
     - scientific: Hypoplectrus puella
-      confidence: 0.0731
+      confidence: 0.0689
     - scientific: Hypoplectrus nigricans
-      confidence: 0.0573
+      confidence: 0.054
     - scientific: Hypoplectrus unicolor
-      confidence: 0.0342
+      confidence: 0.0322
     absorbed_by:
       scientific: Colpophyllia natans
-      confidence: 0.2698
+      confidence: 0.2542
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
     created: '2026-08-22T21:08:04Z'

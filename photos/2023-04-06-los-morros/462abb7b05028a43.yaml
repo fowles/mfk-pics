@@ -12,3 +12,20 @@ variants:
 - method: dive-plus
   file: 462abb7b05028a43.dive-plus.webp
   import_original_name: 0b3567e62a531dca.webp
+species_suggestions:
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-23T01:04:39Z'
+    src_mtime: 1787445731.470848
+    top:
+    - scientific: Bodianus pulcher
+      confidence: 0.9549
+    - scientific: Diodon hystrix
+      confidence: 0.0376
+    - scientific: Rhincodon typus
+      confidence: 0.0025
+species:
+- scientific: Bodianus pulcher
+  role: primary
+  confidence: 0.9549
+  identified_by: bioclip

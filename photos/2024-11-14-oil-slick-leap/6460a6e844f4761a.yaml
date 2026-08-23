@@ -13,15 +13,15 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786156898.4857306
     top:
+    - scientific: Pseudorca crassidens
+      confidence: 0.933
     - scientific: Melichthys niger
-      confidence: 0.1779
-    - scientific: Sparisoma viride
-      confidence: 0.0898
-    - scientific: Opistognathus aurifrons
-      confidence: 0.0811
+      confidence: 0.0098
+    - scientific: Physalia physalis
+      confidence: 0.006
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
     created: '2026-08-22T21:08:04Z'

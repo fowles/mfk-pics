@@ -13,13 +13,13 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786158869.655291
     top:
     - scientific: Ocyurus chrysurus
-      confidence: 0.462
+      confidence: 0.4619
     - scientific: Anisotremus virginicus
-      confidence: 0.3711
+      confidence: 0.371
     - scientific: Halichoeres garnoti
       confidence: 0.1273
   bioclip-2:

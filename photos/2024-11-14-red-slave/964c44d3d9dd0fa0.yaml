@@ -13,11 +13,11 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786156967.244471
     top:
     - scientific: Hypoplectrus nigricans
-      confidence: 0.775
+      confidence: 0.7749
     - scientific: Hypoplectrus chlorurus
       confidence: 0.0714
     - scientific: Aulostomus maculatus

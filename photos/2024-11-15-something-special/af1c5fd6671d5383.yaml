@@ -16,13 +16,13 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786157215.469506
     top:
     - scientific: Sphyraena barracuda
-      confidence: 0.8572
+      confidence: 0.8557
     - scientific: Megalops atlanticus
-      confidence: 0.1399
+      confidence: 0.1396
     - scientific: Scomberomorus regalis
       confidence: 0.0015
   bioclip-2:

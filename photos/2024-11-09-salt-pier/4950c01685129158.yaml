@@ -13,15 +13,15 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786156577.9914901
     top:
     - scientific: Acanthostracion polygonius
-      confidence: 0.8774
+      confidence: 0.8625
     - scientific: Holothuria mexicana
-      confidence: 0.0513
+      confidence: 0.0504
     - scientific: Eretmochelys imbricata
-      confidence: 0.0294
+      confidence: 0.0289
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
     created: '2026-08-22T21:08:04Z'

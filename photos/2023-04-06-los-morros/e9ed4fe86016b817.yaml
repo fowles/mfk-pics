@@ -12,3 +12,20 @@ variants:
 - method: dive-plus
   file: e9ed4fe86016b817.dive-plus.webp
   import_original_name: 64bf1ffe1de184e6.webp
+species_suggestions:
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-23T01:04:39Z'
+    src_mtime: 1787445731.2649913
+    top:
+    - scientific: Microspathodon bairdii
+      confidence: 0.735
+    - scientific: Arothron meleagris
+      confidence: 0.1176
+    - scientific: Diodon hystrix
+      confidence: 0.0682
+species:
+- scientific: Microspathodon bairdii
+  role: primary
+  confidence: 0.735
+  identified_by: bioclip

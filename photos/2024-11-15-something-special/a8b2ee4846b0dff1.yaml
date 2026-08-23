@@ -16,11 +16,11 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786157213.5581257
     top:
     - scientific: Equetus punctatus
-      confidence: 0.4624
+      confidence: 0.4623
     - scientific: Gymnothorax moringa
       confidence: 0.3816
     - scientific: Lactophrys triqueter

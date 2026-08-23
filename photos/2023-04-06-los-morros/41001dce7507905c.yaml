@@ -8,3 +8,20 @@ import_original_name: 638163678347900460.jpg
 lat: 23.4627
 lon: -109.405
 gps_source: dive_site
+species_suggestions:
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-23T01:04:39Z'
+    src_mtime: 1787445727.137579
+    top:
+    - scientific: Homo sapiens
+      confidence: 0.1592
+    - scientific: Carcharhinus albimarginatus
+      confidence: 0.1153
+    - scientific: Sphoeroides annulatus
+      confidence: 0.0946
+species:
+- scientific: Homo sapiens
+  role: primary
+  confidence: 0.1592
+  identified_by: bioclip

@@ -16,15 +16,15 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786158237.1555357
     top:
     - scientific: Melichthys niger
-      confidence: 0.9747
-    - scientific: Caranx ruber
-      confidence: 0.0097
-    - scientific: Acanthurus coeruleus
-      confidence: 0.0047
+      confidence: 0.4523
+    - scientific: Katsuwonus pelamis
+      confidence: 0.4166
+    - scientific: Thunnus albacares
+      confidence: 0.0809
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
     created: '2026-08-22T21:08:04Z'

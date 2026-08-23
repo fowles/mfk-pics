@@ -7,3 +7,20 @@ import_album: 2015-05-20, USA, Hawaii, Maui, Mala Wharf
 import_original_name: DSC_1840.JPG
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-23T01:04:39Z'
+    src_mtime: 1787441088.677611
+    top:
+    - scientific: Stenella attenuata
+      confidence: 0.9758
+    - scientific: Homo sapiens
+      confidence: 0.0063
+    - scientific: Tursiops truncatus
+      confidence: 0.0023
+species:
+- scientific: Stenella attenuata
+  role: primary
+  confidence: 0.9758
+  identified_by: bioclip

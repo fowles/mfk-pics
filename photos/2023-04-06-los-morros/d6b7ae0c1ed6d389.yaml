@@ -8,3 +8,20 @@ import_original_name: 638163730581821250.jpg
 lat: 23.4627
 lon: -109.405
 gps_source: dive_site
+species_suggestions:
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-23T01:04:39Z'
+    src_mtime: 1787445729.0906396
+    top:
+    - scientific: Rhincodon typus
+      confidence: 0.9594
+    - scientific: Megaptera novaeangliae
+      confidence: 0.0344
+    - scientific: Tursiops truncatus
+      confidence: 0.0018
+species:
+- scientific: Rhincodon typus
+  role: primary
+  confidence: 0.9594
+  identified_by: bioclip

@@ -12,3 +12,20 @@ variants:
 - method: dive-plus
   file: a1fec25f5f8b3a33.dive-plus.webp
   import_original_name: 38b085a80128e1a3.webp
+species_suggestions:
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-23T01:04:39Z'
+    src_mtime: 1787445730.5332406
+    top:
+    - scientific: Epinephelus labriformis
+      confidence: 0.8614
+    - scientific: Epinephelus analogus
+      confidence: 0.0522
+    - scientific: Nicholsina denticulata
+      confidence: 0.0418
+species:
+- scientific: Epinephelus labriformis
+  role: primary
+  confidence: 0.8614
+  identified_by: bioclip

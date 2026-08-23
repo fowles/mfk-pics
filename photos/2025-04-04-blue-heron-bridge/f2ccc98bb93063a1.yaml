@@ -13,11 +13,11 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786157490.492096
     top:
     - scientific: Pomacanthus arcuatus
-      confidence: 0.7084
+      confidence: 0.7083
     - scientific: Pomacanthus paru
       confidence: 0.2377
     - scientific: Melichthys niger

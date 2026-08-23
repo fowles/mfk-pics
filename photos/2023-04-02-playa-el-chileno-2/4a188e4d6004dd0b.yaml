@@ -14,3 +14,20 @@ variants:
   import_original_name: 83636bc11416d121.webp
 date_reviewed: true
 correction_standalone: true
+species_suggestions:
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-23T01:04:39Z'
+    src_mtime: 1787438615.467506
+    top:
+    - scientific: Microspathodon dorsalis
+      confidence: 0.3788
+    - scientific: Bodianus pulcher
+      confidence: 0.3158
+    - scientific: Bodianus diplotaenia
+      confidence: 0.1595
+species:
+- scientific: Microspathodon dorsalis
+  role: primary
+  confidence: 0.3788
+  identified_by: bioclip

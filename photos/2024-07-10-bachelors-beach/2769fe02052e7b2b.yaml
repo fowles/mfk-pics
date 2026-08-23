@@ -16,13 +16,13 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786158750.897035
     top:
     - scientific: Stenorhynchus seticornis
-      confidence: 0.8323
+      confidence: 0.8258
     - scientific: Aulostomus maculatus
-      confidence: 0.1371
+      confidence: 0.1361
     - scientific: Eretmochelys imbricata
       confidence: 0.0043
   bioclip-2:

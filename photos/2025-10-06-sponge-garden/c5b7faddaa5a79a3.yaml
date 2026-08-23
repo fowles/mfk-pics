@@ -13,15 +13,15 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786159774.9054158
     top:
     - scientific: Sepioteuthis sepioidea
-      confidence: 0.7104
+      confidence: 0.7087
     - scientific: Aulostomus maculatus
-      confidence: 0.0558
+      confidence: 0.0557
     - scientific: Chaetodon capistratus
-      confidence: 0.036
+      confidence: 0.0359
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
     created: '2026-08-22T21:08:04Z'

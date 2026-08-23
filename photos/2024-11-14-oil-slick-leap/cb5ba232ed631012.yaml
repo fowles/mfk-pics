@@ -16,15 +16,15 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786156899.3059106
     top:
     - scientific: Diodon hystrix
-      confidence: 0.4701
+      confidence: 0.469
     - scientific: Acanthostracion polygonius
-      confidence: 0.22
+      confidence: 0.2194
     - scientific: Aetobatus narinari
-      confidence: 0.0927
+      confidence: 0.0925
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
     created: '2026-08-22T21:08:04Z'

@@ -13,13 +13,13 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786158711.8434286
     top:
     - scientific: Lutjanus jocu
-      confidence: 0.2324
+      confidence: 0.2323
     - scientific: Canthidermis sufflamen
-      confidence: 0.1778
+      confidence: 0.1777
     - scientific: Holothuria mexicana
       confidence: 0.1455
   bioclip-2:

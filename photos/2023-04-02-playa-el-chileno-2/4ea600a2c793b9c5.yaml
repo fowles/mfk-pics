@@ -14,3 +14,20 @@ variants:
   import_original_name: b37af4c10cc92b82.webp
 date_reviewed: true
 correction_standalone: true
+species_suggestions:
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-23T01:04:39Z'
+    src_mtime: 1787438635.907258
+    top:
+    - scientific: Mulloidichthys dentatus
+      confidence: 0.4198
+    - scientific: Anisotremus taeniatus
+      confidence: 0.2463
+    - scientific: Bodianus diplotaenia
+      confidence: 0.1623
+species:
+- scientific: Mulloidichthys dentatus
+  role: primary
+  confidence: 0.4198
+  identified_by: bioclip

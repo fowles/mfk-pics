@@ -16,18 +16,18 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786160173.5936253
     top:
     - scientific: Aulostomus maculatus
-      confidence: 0.1057
+      confidence: 0.1055
     - scientific: Monacanthus tuckeri
-      confidence: 0.054
+      confidence: 0.0539
     - scientific: Sparisoma viride
-      confidence: 0.0293
+      confidence: 0.0292
     absorbed_by:
       scientific: Antillogorgia americana
-      confidence: 0.6712
+      confidence: 0.6696
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
     created: '2026-08-22T21:08:04Z'

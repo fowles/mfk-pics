@@ -13,15 +13,15 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786159560.490666
     top:
     - scientific: Melichthys niger
-      confidence: 0.9407
+      confidence: 0.7716
+    - scientific: Thunnus albacares
+      confidence: 0.1637
     - scientific: Aulostomus maculatus
-      confidence: 0.0141
-    - scientific: Thalassoma bifasciatum
-      confidence: 0.0129
+      confidence: 0.0116
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
     created: '2026-08-22T21:08:04Z'

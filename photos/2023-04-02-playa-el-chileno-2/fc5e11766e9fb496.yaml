@@ -14,3 +14,20 @@ variants:
   import_original_name: 59d515feaebbc78a.webp
 date_reviewed: true
 correction_standalone: true
+species_suggestions:
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-23T01:04:39Z'
+    src_mtime: 1787438614.1402855
+    top:
+    - scientific: Melichthys niger
+      confidence: 0.3857
+    - scientific: Aulostomus chinensis
+      confidence: 0.1061
+    - scientific: Rhincodon typus
+      confidence: 0.0854
+species:
+- scientific: Melichthys niger
+  role: primary
+  confidence: 0.3857
+  identified_by: bioclip

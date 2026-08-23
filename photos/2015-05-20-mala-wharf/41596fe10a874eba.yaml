@@ -10,3 +10,20 @@ lon: -156.68646
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-23T01:04:39Z'
+    src_mtime: 1787441076.529918
+    top:
+    - scientific: Diodon hystrix
+      confidence: 0.3868
+    - scientific: Rhincodon typus
+      confidence: 0.193
+    - scientific: Megaptera novaeangliae
+      confidence: 0.1233
+species:
+- scientific: Diodon hystrix
+  role: primary
+  confidence: 0.3868
+  identified_by: bioclip

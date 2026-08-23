@@ -10,3 +10,20 @@ lon: -156.68646
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-23T01:04:39Z'
+    src_mtime: 1787441083.1943145
+    top:
+    - scientific: Sargocentron spiniferum
+      confidence: 0.6225
+    - scientific: Myripristis kuntee
+      confidence: 0.1568
+    - scientific: Myripristis vittata
+      confidence: 0.0571
+species:
+- scientific: Sargocentron spiniferum
+  role: primary
+  confidence: 0.6225
+  identified_by: bioclip

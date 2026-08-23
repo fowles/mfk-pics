@@ -16,15 +16,15 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786159988.1750126
     top:
     - scientific: Scarus coeruleus
-      confidence: 0.7426
+      confidence: 0.7352
     - scientific: Opistognathus aurifrons
-      confidence: 0.0969
+      confidence: 0.0959
     - scientific: Xyrichtys martinicensis
-      confidence: 0.0584
+      confidence: 0.0579
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
     created: '2026-08-22T21:08:04Z'

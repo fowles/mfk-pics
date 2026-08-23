@@ -16,15 +16,15 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786160161.3745666
     top:
     - scientific: Abudefduf saxatilis
-      confidence: 0.3634
+      confidence: 0.2724
+    - scientific: Rhincodon typus
+      confidence: 0.1571
     - scientific: Melichthys niger
-      confidence: 0.1802
-    - scientific: Trachinotus goodei
-      confidence: 0.0802
+      confidence: 0.1351
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
     created: '2026-08-22T21:08:04Z'

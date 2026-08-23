@@ -13,15 +13,15 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786156578.358515
     top:
     - scientific: Acanthostracion polygonius
-      confidence: 0.3194
+      confidence: 0.3192
     - scientific: Diodon hystrix
-      confidence: 0.2423
+      confidence: 0.2421
     - scientific: Gymnothorax moringa
-      confidence: 0.1449
+      confidence: 0.1448
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
     created: '2026-08-22T21:08:04Z'

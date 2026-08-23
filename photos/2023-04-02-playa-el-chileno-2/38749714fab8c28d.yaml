@@ -14,3 +14,20 @@ variants:
   import_original_name: 3e2f61dbf34ea1ef.webp
 date_reviewed: true
 correction_standalone: true
+species_suggestions:
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-23T01:04:39Z'
+    src_mtime: 1787438628.2711363
+    top:
+    - scientific: Stegastes rectifraenum
+      confidence: 0.511
+    - scientific: Microspathodon dorsalis
+      confidence: 0.2624
+    - scientific: Ophioblennius steindachneri
+      confidence: 0.0844
+species:
+- scientific: Stegastes rectifraenum
+  role: primary
+  confidence: 0.511
+  identified_by: bioclip

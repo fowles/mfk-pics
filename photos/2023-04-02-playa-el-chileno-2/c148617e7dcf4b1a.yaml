@@ -14,3 +14,20 @@ variants:
   import_original_name: d2a319bfa31661af.webp
 date_reviewed: true
 correction_standalone: true
+species_suggestions:
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-23T01:04:39Z'
+    src_mtime: 1787438633.6422458
+    top:
+    - scientific: Rhincodon typus
+      confidence: 0.9425
+    - scientific: Mobula birostris
+      confidence: 0.0441
+    - scientific: Mobula thurstoni
+      confidence: 0.0052
+species:
+- scientific: Rhincodon typus
+  role: primary
+  confidence: 0.9425
+  identified_by: bioclip

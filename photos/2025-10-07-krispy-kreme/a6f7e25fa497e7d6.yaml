@@ -12,13 +12,13 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786159796.1571941
     top:
     - scientific: Caranx latus
-      confidence: 0.9352
+      confidence: 0.9326
     - scientific: Scomberomorus regalis
-      confidence: 0.0265
+      confidence: 0.0264
     - scientific: Opistognathus aurifrons
       confidence: 0.0144
   bioclip-2:

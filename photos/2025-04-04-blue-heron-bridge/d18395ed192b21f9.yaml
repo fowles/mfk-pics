@@ -16,15 +16,15 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786157492.1587362
     top:
     - scientific: Stenopus hispidus
-      confidence: 0.2654
+      confidence: 0.2647
     - scientific: Diodon hystrix
-      confidence: 0.2144
+      confidence: 0.2139
     - scientific: Canthidermis sufflamen
-      confidence: 0.1554
+      confidence: 0.155
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
     created: '2026-08-22T21:08:04Z'

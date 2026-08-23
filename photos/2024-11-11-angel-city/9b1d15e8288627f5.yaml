@@ -13,13 +13,13 @@ rotation_applied: 90
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1787029450.4817002
     top:
     - scientific: Acanthostracion polygonius
-      confidence: 0.7975
+      confidence: 0.7971
     - scientific: Acanthostracion quadricornis
-      confidence: 0.0736
+      confidence: 0.0735
     - scientific: Diodon hystrix
       confidence: 0.0371
   bioclip-2:

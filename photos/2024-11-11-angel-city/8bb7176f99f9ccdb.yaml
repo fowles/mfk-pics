@@ -16,11 +16,11 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786156742.5923073
     top:
     - scientific: Scarus coelestinus
-      confidence: 0.7937
+      confidence: 0.7934
     - scientific: Melichthys niger
       confidence: 0.1236
     - scientific: Microspathodon chrysurus

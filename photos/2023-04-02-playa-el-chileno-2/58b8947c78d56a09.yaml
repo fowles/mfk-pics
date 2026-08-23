@@ -14,3 +14,20 @@ variants:
   import_original_name: 033d4e1f11067fd1.webp
 date_reviewed: true
 correction_standalone: true
+species_suggestions:
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-23T01:04:39Z'
+    src_mtime: 1787438630.7888713
+    top:
+    - scientific: Bodianus diplotaenia
+      confidence: 0.275
+    - scientific: Epinephelus analogus
+      confidence: 0.2196
+    - scientific: Cephalopholis panamensis
+      confidence: 0.1434
+species:
+- scientific: Bodianus diplotaenia
+  role: primary
+  confidence: 0.275
+  identified_by: bioclip

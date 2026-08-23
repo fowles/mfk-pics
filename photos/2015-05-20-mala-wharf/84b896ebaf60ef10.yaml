@@ -10,3 +10,20 @@ lon: -156.68646
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-23T01:04:39Z'
+    src_mtime: 1787441082.274241
+    top:
+    - scientific: Arothron meleagris
+      confidence: 0.2095
+    - scientific: Taeniura lymma
+      confidence: 0.2067
+    - scientific: Eretmochelys imbricata
+      confidence: 0.0892
+species:
+- scientific: Arothron meleagris
+  role: primary
+  confidence: 0.2095
+  identified_by: bioclip

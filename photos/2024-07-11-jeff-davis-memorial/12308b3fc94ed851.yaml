@@ -13,13 +13,13 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786159558.2836056
     top:
     - scientific: Eretmochelys imbricata
-      confidence: 0.5041
+      confidence: 0.504
     - scientific: Chelonia mydas
-      confidence: 0.4743
+      confidence: 0.4742
     - scientific: Caretta caretta
       confidence: 0.0206
   bioclip-2:

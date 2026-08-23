@@ -10,3 +10,20 @@ lon: 134.2395
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-23T01:04:39Z'
+    src_mtime: 1787436661.5026479
+    top:
+    - scientific: Triaenodon obesus
+      confidence: 0.424
+    - scientific: Carcharhinus limbatus
+      confidence: 0.3542
+    - scientific: Carcharhinus longimanus
+      confidence: 0.073
+species:
+- scientific: Triaenodon obesus
+  role: primary
+  confidence: 0.424
+  identified_by: bioclip

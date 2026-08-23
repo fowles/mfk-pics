@@ -12,3 +12,20 @@ variants:
 - method: dive-plus
   file: 2a8f1586895b47d8.dive-plus.webp
   import_original_name: e2813eca5c0746c4.webp
+species_suggestions:
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-23T01:04:39Z'
+    src_mtime: 1787445728.2228177
+    top:
+    - scientific: Heterodontus francisci
+      confidence: 0.4258
+    - scientific: Bodianus pulcher
+      confidence: 0.1374
+    - scientific: Physalia physalis
+      confidence: 0.0903
+species:
+- scientific: Heterodontus francisci
+  role: primary
+  confidence: 0.4258
+  identified_by: bioclip

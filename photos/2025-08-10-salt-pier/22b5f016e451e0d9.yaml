@@ -13,15 +13,15 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786157578.4681458
     top:
     - scientific: Sepioteuthis sepioidea
-      confidence: 0.466
+      confidence: 0.3733
+    - scientific: Carcharhinus longimanus
+      confidence: 0.1895
     - scientific: Ginglymostoma cirratum
-      confidence: 0.2142
-    - scientific: Pareques acuminatus
-      confidence: 0.185
+      confidence: 0.1716
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
     created: '2026-08-22T21:08:04Z'

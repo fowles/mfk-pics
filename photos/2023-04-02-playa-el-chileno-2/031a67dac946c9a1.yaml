@@ -14,3 +14,20 @@ variants:
   import_original_name: fadd27b9278f591a.webp
 date_reviewed: true
 correction_standalone: true
+species_suggestions:
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-23T01:04:39Z'
+    src_mtime: 1787438612.2327795
+    top:
+    - scientific: Canthidermis maculata
+      confidence: 0.4397
+    - scientific: Microspathodon bairdii
+      confidence: 0.3435
+    - scientific: Scarus compressus
+      confidence: 0.054
+species:
+- scientific: Canthidermis maculata
+  role: primary
+  confidence: 0.4397
+  identified_by: bioclip

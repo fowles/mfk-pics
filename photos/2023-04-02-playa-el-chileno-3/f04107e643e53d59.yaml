@@ -14,3 +14,20 @@ variants:
   import_original_name: bbaa831b4d7b813b.webp
 date_reviewed: true
 correction_standalone: true
+species_suggestions:
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-23T01:04:39Z'
+    src_mtime: 1787438638.0208223
+    top:
+    - scientific: Scarus ghobban
+      confidence: 0.1619
+    - scientific: Bodianus pulcher
+      confidence: 0.1031
+    - scientific: Gymnothorax dovii
+      confidence: 0.1013
+species:
+- scientific: Scarus ghobban
+  role: primary
+  confidence: 0.1619
+  identified_by: bioclip

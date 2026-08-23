@@ -12,3 +12,20 @@ variants:
 - method: dive-plus
   file: 6529dfe71117d6ef.dive-plus.webp
   import_original_name: 01334e983c1d80c8.webp
+species_suggestions:
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-23T01:04:39Z'
+    src_mtime: 1787445731.2866504
+    top:
+    - scientific: Abudefduf troschelii
+      confidence: 0.9828
+    - scientific: Bodianus diplotaenia
+      confidence: 0.0082
+    - scientific: Arothron meleagris
+      confidence: 0.0027
+species:
+- scientific: Abudefduf troschelii
+  role: primary
+  confidence: 0.9828
+  identified_by: bioclip

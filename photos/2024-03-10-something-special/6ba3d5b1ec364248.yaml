@@ -13,15 +13,15 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786159060.3569984
     top:
     - scientific: Scarus coelestinus
-      confidence: 0.3797
+      confidence: 0.3796
     - scientific: Serranus tigrinus
-      confidence: 0.2423
+      confidence: 0.2422
     - scientific: Scarus iseri
-      confidence: 0.1693
+      confidence: 0.1692
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
     created: '2026-08-22T21:08:04Z'

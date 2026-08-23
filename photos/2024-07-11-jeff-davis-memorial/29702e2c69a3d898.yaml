@@ -13,11 +13,11 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786159575.7167091
     top:
     - scientific: Scarus vetula
-      confidence: 0.4882
+      confidence: 0.4881
     - scientific: Scarus coelestinus
       confidence: 0.2287
     - scientific: Thalassoma bifasciatum

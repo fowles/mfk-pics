@@ -13,13 +13,13 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786158711.0690506
     top:
     - scientific: Equetus punctatus
-      confidence: 0.9729
+      confidence: 0.9723
     - scientific: Pareques acuminatus
-      confidence: 0.0158
+      confidence: 0.0157
     - scientific: Equetus lanceolatus
       confidence: 0.0095
   bioclip-2:

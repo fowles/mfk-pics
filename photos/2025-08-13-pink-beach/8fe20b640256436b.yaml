@@ -13,13 +13,13 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786158187.136481
     top:
     - scientific: Haemulon macrostomum
-      confidence: 0.8625
+      confidence: 0.8618
     - scientific: Haemulon carbonarium
-      confidence: 0.0577
+      confidence: 0.0576
     - scientific: Chaetodon striatus
       confidence: 0.009
   bioclip-2:

@@ -14,3 +14,20 @@ variants:
   import_original_name: 5a903e898f9f6310.webp
 date_reviewed: true
 correction_standalone: true
+species_suggestions:
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-23T01:04:39Z'
+    src_mtime: 1787438632.1022813
+    top:
+    - scientific: Cephalopholis panamensis
+      confidence: 0.8207
+    - scientific: Epinephelus analogus
+      confidence: 0.0579
+    - scientific: Ophioblennius steindachneri
+      confidence: 0.0245
+species:
+- scientific: Cephalopholis panamensis
+  role: primary
+  confidence: 0.8207
+  identified_by: bioclip

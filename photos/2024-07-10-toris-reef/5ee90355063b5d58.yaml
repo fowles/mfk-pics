@@ -16,11 +16,11 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786160182.1561725
     top:
     - scientific: Acanthostracion polygonius
-      confidence: 0.8985
+      confidence: 0.8983
     - scientific: Dactylopterus volitans
       confidence: 0.0823
     - scientific: Diodon hystrix

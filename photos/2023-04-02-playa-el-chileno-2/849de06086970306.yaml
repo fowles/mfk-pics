@@ -14,3 +14,20 @@ variants:
   import_original_name: 7cfa5dca87dca403.webp
 date_reviewed: true
 correction_standalone: true
+species_suggestions:
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-23T01:04:39Z'
+    src_mtime: 1787438629.5058086
+    top:
+    - scientific: Microspathodon dorsalis
+      confidence: 0.9789
+    - scientific: Bodianus diplotaenia
+      confidence: 0.0141
+    - scientific: Cirrhitus rivulatus
+      confidence: 0.0024
+species:
+- scientific: Microspathodon dorsalis
+  role: primary
+  confidence: 0.9789
+  identified_by: bioclip

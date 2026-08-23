@@ -16,15 +16,15 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786158874.1083994
     top:
     - scientific: Stenopus hispidus
-      confidence: 0.7139
-    - scientific: Lysmata grabhami
-      confidence: 0.0514
-    - scientific: Astrophyton muricatum
-      confidence: 0.0111
+      confidence: 0.4827
+    - scientific: Loimia medusa
+      confidence: 0.2219
+    - scientific: Pseudorca crassidens
+      confidence: 0.049
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
     created: '2026-08-22T21:08:04Z'

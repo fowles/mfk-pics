@@ -13,13 +13,13 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786159060.4308643
     top:
     - scientific: Mycteroperca tigris
-      confidence: 0.4737
+      confidence: 0.4736
     - scientific: Epinephelus adscensionis
-      confidence: 0.2002
+      confidence: 0.2001
     - scientific: Scarus coelestinus
       confidence: 0.1586
   bioclip-2:

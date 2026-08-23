@@ -13,11 +13,11 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786156969.1203544
     top:
     - scientific: Gymnothorax funebris
-      confidence: 0.9821
+      confidence: 0.9817
     - scientific: Aulostomus maculatus
       confidence: 0.0069
     - scientific: Sphyraena barracuda

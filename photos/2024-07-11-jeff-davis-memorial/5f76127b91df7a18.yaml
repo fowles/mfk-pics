@@ -13,13 +13,13 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786159565.6444342
     top:
     - scientific: Microspathodon chrysurus
-      confidence: 0.9925
+      confidence: 0.9934
     - scientific: Stegastes leucostictus
-      confidence: 0.004
+      confidence: 0.0041
     - scientific: Pomacanthus paru
       confidence: 0.0009
   bioclip-2:

@@ -12,3 +12,20 @@ variants:
 - method: dive-plus
   file: 0372df34a3222a59.dive-plus.webp
   import_original_name: 453d49101ad145d0.webp
+species_suggestions:
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-23T01:04:39Z'
+    src_mtime: 1787445730.1624792
+    top:
+    - scientific: Mulloidichthys dentatus
+      confidence: 0.4331
+    - scientific: Gnathanodon speciosus
+      confidence: 0.1688
+    - scientific: Seriola lalandi
+      confidence: 0.1276
+species:
+- scientific: Mulloidichthys dentatus
+  role: primary
+  confidence: 0.4331
+  identified_by: bioclip

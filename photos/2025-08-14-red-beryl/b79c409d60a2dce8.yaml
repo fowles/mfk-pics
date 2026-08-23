@@ -16,15 +16,15 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786158338.873204
     top:
     - scientific: Holocentrus adscensionis
-      confidence: 0.3323
+      confidence: 0.3315
     - scientific: Gymnothorax funebris
-      confidence: 0.1223
+      confidence: 0.122
     - scientific: Scarus coelestinus
-      confidence: 0.0947
+      confidence: 0.0944
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
     created: '2026-08-22T21:08:04Z'

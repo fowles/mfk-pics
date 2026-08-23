@@ -16,18 +16,18 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786158743.30033
     top:
     - scientific: Pareques acuminatus
-      confidence: 0.0452
+      confidence: 0.0429
     - scientific: Aulostomus maculatus
-      confidence: 0.0207
-    - scientific: Astrophyton muricatum
       confidence: 0.0196
+    - scientific: Astrophyton muricatum
+      confidence: 0.0186
     absorbed_by:
       scientific: Antillogorgia americana
-      confidence: 0.602
+      confidence: 0.5708
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
     created: '2026-08-22T21:08:04Z'

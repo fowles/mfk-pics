@@ -14,3 +14,20 @@ variants:
   import_original_name: 1c65cb6762d0e3d8.webp
 date_reviewed: true
 correction_standalone: true
+species_suggestions:
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-23T01:04:39Z'
+    src_mtime: 1787438622.4611497
+    top:
+    - scientific: Halichoeres nicholsi
+      confidence: 0.6191
+    - scientific: Bodianus diplotaenia
+      confidence: 0.0907
+    - scientific: Halichoeres dispilus
+      confidence: 0.065
+species:
+- scientific: Halichoeres nicholsi
+  role: primary
+  confidence: 0.6191
+  identified_by: bioclip

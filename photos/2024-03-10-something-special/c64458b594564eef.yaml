@@ -13,15 +13,15 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786159057.0794265
     top:
+    - scientific: Seriola rivoliana
+      confidence: 0.3133
     - scientific: Lutjanus jocu
-      confidence: 0.3189
-    - scientific: Caranx latus
-      confidence: 0.1585
-    - scientific: Kyphosus sectatrix
-      confidence: 0.1347
+      confidence: 0.1824
+    - scientific: Thunnus albacares
+      confidence: 0.1144
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
     created: '2026-08-22T21:08:04Z'
@@ -48,4 +48,4 @@ species:
 - scientific: Caranx latus
   role: primary
   confidence: 0.4547
-  identified_by: bioclip+bioclip-2+bioclip-2.5
+  identified_by: bioclip-2+bioclip-2.5

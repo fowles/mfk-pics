@@ -13,15 +13,15 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786156345.7731519
     top:
     - scientific: Serranus tigrinus
-      confidence: 0.897
+      confidence: 0.8958
     - scientific: Diodon holocanthus
       confidence: 0.0336
     - scientific: Hippocampus erectus
-      confidence: 0.0203
+      confidence: 0.0202
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
     created: '2026-08-22T21:08:04Z'

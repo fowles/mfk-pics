@@ -13,13 +13,13 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786158870.1065025
     top:
     - scientific: Chromis multilineata
       confidence: 0.4585
     - scientific: Stegastes adustus
-      confidence: 0.1647
+      confidence: 0.1646
     - scientific: Microspathodon chrysurus
       confidence: 0.0666
   bioclip-2:

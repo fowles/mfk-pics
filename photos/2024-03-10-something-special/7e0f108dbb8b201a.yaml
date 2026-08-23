@@ -14,14 +14,14 @@ rotation_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786159060.2939627
     top:
     - scientific: Abudefduf saxatilis
-      confidence: 0.999
+      confidence: 0.9989
     - scientific: Amblycirrhitus pinos
       confidence: 0.0002
-    - scientific: Pomacanthus paru
+    - scientific: Carcharhinus leucas
       confidence: 0.0001
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2

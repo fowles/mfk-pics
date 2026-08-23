@@ -13,15 +13,15 @@ rotation_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786159808.031247
     top:
+    - scientific: Decapterus macarellus
+      confidence: 0.5745
     - scientific: Caranx crysos
-      confidence: 0.3047
+      confidence: 0.0888
     - scientific: Megalops atlanticus
-      confidence: 0.29
-    - scientific: Scomberomorus regalis
-      confidence: 0.0822
+      confidence: 0.0845
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
     created: '2026-08-22T21:08:04Z'

@@ -12,3 +12,20 @@ variants:
 - method: dive-plus
   file: 79e0edeb7c6d79bd.dive-plus.webp
   import_original_name: 9c5796a61edc81a2.webp
+species_suggestions:
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-23T01:04:39Z'
+    src_mtime: 1787445728.9223607
+    top:
+    - scientific: Bodianus pulcher
+      confidence: 0.9859
+    - scientific: Pseudobatos productus
+      confidence: 0.0106
+    - scientific: Heterodontus francisci
+      confidence: 0.0013
+species:
+- scientific: Bodianus pulcher
+  role: primary
+  confidence: 0.9859
+  identified_by: bioclip

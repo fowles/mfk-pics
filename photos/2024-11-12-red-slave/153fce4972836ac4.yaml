@@ -13,13 +13,13 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786156816.2978961
     top:
     - scientific: Anisotremus virginicus
-      confidence: 0.4453
+      confidence: 0.4452
     - scientific: Holacanthus ciliaris
-      confidence: 0.1839
+      confidence: 0.1838
     - scientific: Cantherhines macrocerus
       confidence: 0.1483
   bioclip-2:

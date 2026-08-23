@@ -14,3 +14,20 @@ variants:
   import_original_name: 506ed3a06b047364.webp
 date_reviewed: true
 correction_standalone: true
+species_suggestions:
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-23T01:04:39Z'
+    src_mtime: 1787438636.2654514
+    top:
+    - scientific: Anisotremus taeniatus
+      confidence: 0.6478
+    - scientific: Stegastes flavilatus
+      confidence: 0.2721
+    - scientific: Pomacanthus zonipectus
+      confidence: 0.0476
+species:
+- scientific: Anisotremus taeniatus
+  role: primary
+  confidence: 0.6478
+  identified_by: bioclip

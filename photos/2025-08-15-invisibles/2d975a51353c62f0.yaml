@@ -13,18 +13,18 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786071954.694319
     top:
     - scientific: Hypoplectrus puella
-      confidence: 0.1959
+      confidence: 0.1955
     - scientific: Monacanthus tuckeri
-      confidence: 0.1304
+      confidence: 0.1301
     - scientific: Amblycirrhitus pinos
-      confidence: 0.0486
+      confidence: 0.0485
     absorbed_by:
       scientific: Aplysina archeri
-      confidence: 0.4355
+      confidence: 0.4346
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
     created: '2026-08-22T21:08:04Z'

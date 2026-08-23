@@ -17,15 +17,15 @@ rotation_applied: 270
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1787028974.2192643
     top:
     - scientific: Acanthostracion polygonius
-      confidence: 0.442
+      confidence: 0.349
+    - scientific: Pristis pristis
+      confidence: 0.1182
     - scientific: Chaetodon striatus
-      confidence: 0.1036
-    - scientific: Sphoeroides spengleri
-      confidence: 0.0719
+      confidence: 0.0818
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
     created: '2026-08-22T21:08:04Z'

@@ -14,13 +14,13 @@ rotation_applied: 270
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1787175685.0607328
     top:
     - scientific: Scorpaena plumieri
-      confidence: 0.8582
+      confidence: 0.8576
     - scientific: Ogcocephalus nasutus
-      confidence: 0.094
+      confidence: 0.0939
     - scientific: Ogcocephalus radiatus
       confidence: 0.0351
   bioclip-2:

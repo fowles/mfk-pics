@@ -14,3 +14,18 @@ variants:
   import_original_name: 4c7d200c32afef06.webp
 date_reviewed: true
 correction_standalone: true
+species_suggestions:
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-23T01:04:39Z'
+    src_mtime: 1787438632.3621216
+    top:
+    - scientific: Melichthys niger
+      confidence: 0.1372
+    - scientific: Aulostomus chinensis
+      confidence: 0.0651
+    - scientific: Xanthichthys mento
+      confidence: 0.0366
+    absorbed_by:
+      scientific: Antipathes galapagensis
+      confidence: 0.4734

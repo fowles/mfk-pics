@@ -12,3 +12,20 @@ variants:
 - method: dive-plus
   file: 8ba1503d47e29cea.dive-plus.webp
   import_original_name: b6296b487b7ae8ee.webp
+species_suggestions:
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-23T01:04:39Z'
+    src_mtime: 1787445727.803725
+    top:
+    - scientific: Rhincodon typus
+      confidence: 0.4921
+    - scientific: Melichthys niger
+      confidence: 0.1508
+    - scientific: Echeneis naucrates
+      confidence: 0.0368
+species:
+- scientific: Rhincodon typus
+  role: primary
+  confidence: 0.4921
+  identified_by: bioclip

@@ -13,15 +13,15 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786159058.6734226
     top:
     - scientific: Acanthurus coeruleus
-      confidence: 0.8311
+      confidence: 0.8195
     - scientific: Thalassoma bifasciatum
-      confidence: 0.1018
+      confidence: 0.1004
     - scientific: Chromis cyanea
-      confidence: 0.0311
+      confidence: 0.0307
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
     created: '2026-08-22T21:08:04Z'

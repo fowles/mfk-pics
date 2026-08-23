@@ -12,3 +12,20 @@ variants:
 - method: dive-plus
   file: f9c418faafc8bb6c.dive-plus.webp
   import_original_name: 815a9f36cf6adbe0.webp
+species_suggestions:
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-23T01:04:39Z'
+    src_mtime: 1787445731.1673517
+    top:
+    - scientific: Bodianus pulcher
+      confidence: 0.7082
+    - scientific: Epinephelus analogus
+      confidence: 0.1485
+    - scientific: Epinephelus labriformis
+      confidence: 0.0292
+species:
+- scientific: Bodianus pulcher
+  role: primary
+  confidence: 0.7082
+  identified_by: bioclip

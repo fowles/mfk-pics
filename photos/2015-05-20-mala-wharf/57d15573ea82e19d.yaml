@@ -10,3 +10,20 @@ lon: -156.68646
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-23T01:04:39Z'
+    src_mtime: 1787441088.1922424
+    top:
+    - scientific: Sepioteuthis lessoniana
+      confidence: 0.2772
+    - scientific: Sufflamen fraenatum
+      confidence: 0.0658
+    - scientific: Triaenodon obesus
+      confidence: 0.0403
+species:
+- scientific: Sepioteuthis lessoniana
+  role: primary
+  confidence: 0.2772
+  identified_by: bioclip

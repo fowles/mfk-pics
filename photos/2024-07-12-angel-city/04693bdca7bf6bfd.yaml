@@ -13,13 +13,13 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786158487.2001417
     top:
     - scientific: Monacanthus tuckeri
-      confidence: 0.6035
+      confidence: 0.6034
     - scientific: Aulostomus maculatus
-      confidence: 0.1795
+      confidence: 0.1794
     - scientific: Hypoplectrus puella
       confidence: 0.0581
   bioclip-2:

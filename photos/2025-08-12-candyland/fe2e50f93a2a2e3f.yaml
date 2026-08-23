@@ -14,15 +14,15 @@ rotation_applied: 90
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1787173598.8626065
     top:
     - scientific: Melichthys niger
-      confidence: 0.2814
+      confidence: 0.2811
     - scientific: Hypoplectrus chlorurus
-      confidence: 0.1704
+      confidence: 0.1703
     - scientific: Sepioteuthis sepioidea
-      confidence: 0.091
+      confidence: 0.0909
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
     created: '2026-08-22T21:08:04Z'

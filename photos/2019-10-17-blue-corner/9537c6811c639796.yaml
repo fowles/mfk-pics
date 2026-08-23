@@ -10,3 +10,20 @@ lon: 134.2213
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-23T01:04:39Z'
+    src_mtime: 1787436660.203911
+    top:
+    - scientific: Rhincodon typus
+      confidence: 0.6564
+    - scientific: Caranx ignobilis
+      confidence: 0.0797
+    - scientific: Mobula birostris
+      confidence: 0.0546
+species:
+- scientific: Rhincodon typus
+  role: primary
+  confidence: 0.6564
+  identified_by: bioclip

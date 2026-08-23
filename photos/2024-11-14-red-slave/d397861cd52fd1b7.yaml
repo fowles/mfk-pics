@@ -13,13 +13,13 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786156970.9886231
     top:
     - scientific: Aluterus scriptus
-      confidence: 0.4153
+      confidence: 0.4152
     - scientific: Diodon hystrix
-      confidence: 0.3341
+      confidence: 0.334
     - scientific: Acanthostracion polygonius
       confidence: 0.1213
   bioclip-2:

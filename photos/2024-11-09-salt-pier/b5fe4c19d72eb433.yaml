@@ -16,18 +16,18 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786156581.1989553
     top:
     - scientific: Aulostomus maculatus
-      confidence: 0.23
+      confidence: 0.2293
     - scientific: Stenorhynchus seticornis
-      confidence: 0.0674
+      confidence: 0.0672
     - scientific: Chaetodon capistratus
-      confidence: 0.0381
+      confidence: 0.038
     absorbed_by:
       scientific: Aplysina archeri
-      confidence: 0.3534
+      confidence: 0.3524
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
     created: '2026-08-22T21:08:04Z'

@@ -13,13 +13,13 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786158234.8692396
     top:
     - scientific: Aulostomus maculatus
-      confidence: 0.5439
+      confidence: 0.5437
     - scientific: Synodus intermedius
-      confidence: 0.0139
+      confidence: 0.0138
     - scientific: Hippocampus erectus
       confidence: 0.001
   bioclip-2:

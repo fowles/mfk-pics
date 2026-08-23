@@ -10,3 +10,20 @@ lon: -156.68646
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-23T01:04:39Z'
+    src_mtime: 1787441079.2236705
+    top:
+    - scientific: Sepia latimanus
+      confidence: 0.2776
+    - scientific: Echidna nebulosa
+      confidence: 0.1273
+    - scientific: Epinephelus merra
+      confidence: 0.0775
+species:
+- scientific: Sepia latimanus
+  role: primary
+  confidence: 0.2776
+  identified_by: bioclip

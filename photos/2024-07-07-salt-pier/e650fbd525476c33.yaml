@@ -13,11 +13,11 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786159965.4292114
     top:
     - scientific: Scorpaena plumieri
-      confidence: 0.9976
+      confidence: 0.9974
     - scientific: Acanthostracion polygonius
       confidence: 0.0018
     - scientific: Bothus lunatus

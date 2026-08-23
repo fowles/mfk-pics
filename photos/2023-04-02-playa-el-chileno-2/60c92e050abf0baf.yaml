@@ -14,3 +14,20 @@ variants:
   import_original_name: 7ca789c1a9f2f605.webp
 date_reviewed: true
 correction_standalone: true
+species_suggestions:
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-23T01:04:39Z'
+    src_mtime: 1787438616.8598576
+    top:
+    - scientific: Stegastes rectifraenum
+      confidence: 0.7396
+    - scientific: Bodianus diplotaenia
+      confidence: 0.0649
+    - scientific: Microspathodon bairdii
+      confidence: 0.0336
+species:
+- scientific: Stegastes rectifraenum
+  role: primary
+  confidence: 0.7396
+  identified_by: bioclip

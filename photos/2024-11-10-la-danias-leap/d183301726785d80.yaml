@@ -13,18 +13,18 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786156686.8830173
     top:
     - scientific: Holocentrus rufus
-      confidence: 0.1204
+      confidence: 0.117
+    - scientific: Loimia medusa
+      confidence: 0.0283
     - scientific: Holocentrus adscensionis
-      confidence: 0.028
-    - scientific: Sepioteuthis sepioidea
-      confidence: 0.0113
+      confidence: 0.0272
     absorbed_by:
       scientific: Sabellastarte magnifica
-      confidence: 0.6399
+      confidence: 0.6215
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
     created: '2026-08-22T21:08:04Z'

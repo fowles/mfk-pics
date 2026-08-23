@@ -16,13 +16,13 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786159191.3184338
     top:
     - scientific: Scarus vetula
-      confidence: 0.5907
+      confidence: 0.5905
     - scientific: Scarus coelestinus
-      confidence: 0.2829
+      confidence: 0.2828
     - scientific: Kyphosus sectatrix
       confidence: 0.0369
   bioclip-2:

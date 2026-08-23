@@ -10,3 +10,20 @@ lon: -156.68646
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-23T01:04:39Z'
+    src_mtime: 1787441082.2296183
+    top:
+    - scientific: Nembrotha purpureolineata
+      confidence: 0.4495
+    - scientific: Nembrotha lineolata
+      confidence: 0.0992
+    - scientific: Abudefduf vaigiensis
+      confidence: 0.0571
+species:
+- scientific: Nembrotha purpureolineata
+  role: primary
+  confidence: 0.4495
+  identified_by: bioclip

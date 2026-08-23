@@ -14,3 +14,20 @@ variants:
   import_original_name: 2d93e610b208b9cb.webp
 date_reviewed: true
 correction_standalone: true
+species_suggestions:
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-23T01:04:39Z'
+    src_mtime: 1787438622.414699
+    top:
+    - scientific: Microspathodon dorsalis
+      confidence: 0.4831
+    - scientific: Arothron meleagris
+      confidence: 0.1451
+    - scientific: Bodianus diplotaenia
+      confidence: 0.1349
+species:
+- scientific: Microspathodon dorsalis
+  role: primary
+  confidence: 0.4831
+  identified_by: bioclip

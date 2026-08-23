@@ -16,15 +16,15 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786157493.9704454
     top:
     - scientific: Cassiopea xamachana
-      confidence: 0.7333
+      confidence: 0.726
     - scientific: Acanthostracion polygonius
-      confidence: 0.1114
+      confidence: 0.1103
     - scientific: Acanthostracion quadricornis
-      confidence: 0.0411
+      confidence: 0.0407
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
     created: '2026-08-22T21:08:04Z'

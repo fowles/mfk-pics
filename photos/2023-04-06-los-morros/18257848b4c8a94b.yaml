@@ -12,3 +12,20 @@ variants:
 - method: dive-plus
   file: 18257848b4c8a94b.dive-plus.webp
   import_original_name: 8f7182f1458347a4.webp
+species_suggestions:
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-23T01:04:39Z'
+    src_mtime: 1787445727.9691172
+    top:
+    - scientific: Triaenodon obesus
+      confidence: 0.3261
+    - scientific: Seriola lalandi
+      confidence: 0.2264
+    - scientific: Rhincodon typus
+      confidence: 0.1961
+species:
+- scientific: Triaenodon obesus
+  role: primary
+  confidence: 0.3261
+  identified_by: bioclip

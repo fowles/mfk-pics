@@ -14,3 +14,20 @@ variants:
   import_original_name: 8573a83a89b6b028.webp
 date_reviewed: true
 correction_standalone: true
+species_suggestions:
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-23T01:04:39Z'
+    src_mtime: 1787438621.7858956
+    top:
+    - scientific: Dermatolepis dermatolepis
+      confidence: 0.4097
+    - scientific: Stegastes rectifraenum
+      confidence: 0.2587
+    - scientific: Bodianus diplotaenia
+      confidence: 0.1126
+species:
+- scientific: Dermatolepis dermatolepis
+  role: primary
+  confidence: 0.4097
+  identified_by: bioclip

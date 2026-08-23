@@ -10,3 +10,20 @@ lon: -109.80243
 gps_source: dive_site
 date_reviewed: true
 correction_standalone: true
+species_suggestions:
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-23T01:04:39Z'
+    src_mtime: 1787438602.0009952
+    top:
+    - scientific: Thunnus albacares
+      confidence: 0.3395
+    - scientific: Zalophus californianus
+      confidence: 0.1324
+    - scientific: Carcharhinus galapagensis
+      confidence: 0.0995
+species:
+- scientific: Thunnus albacares
+  role: primary
+  confidence: 0.3395
+  identified_by: bioclip

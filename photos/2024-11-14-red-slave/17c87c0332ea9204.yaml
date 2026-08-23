@@ -16,13 +16,13 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786156983.207239
     top:
     - scientific: Trachinotus goodei
-      confidence: 0.9616
+      confidence: 0.9595
     - scientific: Canthidermis sufflamen
-      confidence: 0.0121
+      confidence: 0.012
     - scientific: Heteroconger longissimus
       confidence: 0.0088
   bioclip-2:

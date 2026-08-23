@@ -16,15 +16,15 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786159605.9590697
     top:
     - scientific: Pterois volitans
-      confidence: 0.4412
+      confidence: 0.4405
     - scientific: Mycteroperca tigris
-      confidence: 0.1076
+      confidence: 0.1074
     - scientific: Neoniphon marianus
-      confidence: 0.0383
+      confidence: 0.0382
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
     created: '2026-08-22T21:08:04Z'

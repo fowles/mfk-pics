@@ -12,3 +12,20 @@ variants:
 - method: dive-plus
   file: 3773950511f25f8f.dive-plus.webp
   import_original_name: 17305ac35431dcb8.webp
+species_suggestions:
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-23T01:04:39Z'
+    src_mtime: 1787445730.44986
+    top:
+    - scientific: Echeneis naucrates
+      confidence: 0.3751
+    - scientific: Rhincodon typus
+      confidence: 0.3508
+    - scientific: Seriola lalandi
+      confidence: 0.0523
+species:
+- scientific: Echeneis naucrates
+  role: primary
+  confidence: 0.3751
+  identified_by: bioclip

@@ -13,15 +13,15 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786159182.1400073
     top:
     - scientific: Serranus tigrinus
-      confidence: 0.5297
+      confidence: 0.5288
     - scientific: Eretmochelys imbricata
-      confidence: 0.1581
+      confidence: 0.1578
     - scientific: Lactophrys triqueter
-      confidence: 0.0774
+      confidence: 0.0773
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
     created: '2026-08-22T21:08:04Z'

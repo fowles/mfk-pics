@@ -16,15 +16,15 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786158338.5778627
     top:
+    - scientific: Loimia medusa
+      confidence: 0.2381
     - scientific: Epinephelus itajara
-      confidence: 0.2614
+      confidence: 0.1983
     - scientific: Serranus tigrinus
-      confidence: 0.0879
-    - scientific: Sparisoma viride
-      confidence: 0.079
+      confidence: 0.0667
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
     created: '2026-08-22T21:08:04Z'

@@ -12,3 +12,20 @@ variants:
 - method: dive-plus
   file: 7ddfd0e8fc6f3c98.dive-plus.webp
   import_original_name: 06cd5e16d5514ede.webp
+species_suggestions:
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-23T01:04:39Z'
+    src_mtime: 1787445731.1795452
+    top:
+    - scientific: Stegastes acapulcoensis
+      confidence: 0.2677
+    - scientific: Stegastes rectifraenum
+      confidence: 0.2483
+    - scientific: Ostracion meleagris
+      confidence: 0.2155
+species:
+- scientific: Stegastes acapulcoensis
+  role: primary
+  confidence: 0.2677
+  identified_by: bioclip

@@ -14,3 +14,20 @@ variants:
   import_original_name: f108252e79f516fa.webp
 date_reviewed: true
 correction_standalone: true
+species_suggestions:
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-23T01:04:39Z'
+    src_mtime: 1787438622.5921555
+    top:
+    - scientific: Microspathodon dorsalis
+      confidence: 0.6304
+    - scientific: Arothron meleagris
+      confidence: 0.1765
+    - scientific: Dermatolepis dermatolepis
+      confidence: 0.0891
+species:
+- scientific: Microspathodon dorsalis
+  role: primary
+  confidence: 0.6304
+  identified_by: bioclip

@@ -12,3 +12,20 @@ variants:
 - method: dive-plus
   file: c4449a1561799ec9.dive-plus.webp
   import_original_name: c0380f197fc0a37c.webp
+species_suggestions:
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-23T01:04:39Z'
+    src_mtime: 1787445729.2204523
+    top:
+    - scientific: Arothron meleagris
+      confidence: 0.3356
+    - scientific: Kyphosus vaigiensis
+      confidence: 0.1939
+    - scientific: Melichthys niger
+      confidence: 0.1014
+species:
+- scientific: Arothron meleagris
+  role: primary
+  confidence: 0.3356
+  identified_by: bioclip

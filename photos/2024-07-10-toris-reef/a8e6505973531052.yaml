@@ -16,15 +16,15 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786160194.543086
     top:
     - scientific: Melichthys niger
-      confidence: 0.329
+      confidence: 0.3034
     - scientific: Thalassoma bifasciatum
-      confidence: 0.1632
+      confidence: 0.1505
     - scientific: Opistognathus aurifrons
-      confidence: 0.0978
+      confidence: 0.0902
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
     created: '2026-08-22T21:08:04Z'

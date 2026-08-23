@@ -10,3 +10,20 @@ lon: 134.2213
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-23T01:04:39Z'
+    src_mtime: 1787436656.8453603
+    top:
+    - scientific: Forcipiger flavissimus
+      confidence: 0.3025
+    - scientific: Pterocaesio tile
+      confidence: 0.1216
+    - scientific: Forcipiger longirostris
+      confidence: 0.1205
+species:
+- scientific: Forcipiger flavissimus
+  role: primary
+  confidence: 0.3025
+  identified_by: bioclip

@@ -13,13 +13,13 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786156966.1704938
     top:
     - scientific: Hypoplectrus nigricans
-      confidence: 0.5854
+      confidence: 0.5853
     - scientific: Mycteroperca bonaci
-      confidence: 0.2685
+      confidence: 0.2684
     - scientific: Pomacanthus paru
       confidence: 0.0614
   bioclip-2:

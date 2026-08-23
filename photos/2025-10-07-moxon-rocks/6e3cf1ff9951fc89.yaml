@@ -12,18 +12,18 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786159799.429305
     top:
     - scientific: Amblycirrhitus pinos
-      confidence: 0.0482
+      confidence: 0.0451
     - scientific: Hypoplectrus nigricans
-      confidence: 0.0095
+      confidence: 0.0089
     - scientific: Microspathodon chrysurus
-      confidence: 0.0083
+      confidence: 0.0078
     absorbed_by:
       scientific: Porites porites
-      confidence: 0.3281
+      confidence: 0.3074
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
     created: '2026-08-22T21:08:04Z'

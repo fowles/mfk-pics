@@ -14,3 +14,18 @@ variants:
   import_original_name: f0d260f3dc1629ea.webp
 date_reviewed: true
 correction_standalone: true
+species_suggestions:
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-23T01:04:39Z'
+    src_mtime: 1787438626.598933
+    top:
+    - scientific: Mobula thurstoni
+      confidence: 0.1323
+    - scientific: Triaenodon obesus
+      confidence: 0.0839
+    - scientific: Gymnothorax dovii
+      confidence: 0.057
+    absorbed_by:
+      scientific: Antipathes galapagensis
+      confidence: 0.2703

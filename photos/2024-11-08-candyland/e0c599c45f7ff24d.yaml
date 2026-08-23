@@ -13,13 +13,13 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786156487.3504872
     top:
     - scientific: Melichthys niger
-      confidence: 0.5359
+      confidence: 0.5356
     - scientific: Scarus guacamaia
-      confidence: 0.3888
+      confidence: 0.3885
     - scientific: Aluterus scriptus
       confidence: 0.0261
   bioclip-2:

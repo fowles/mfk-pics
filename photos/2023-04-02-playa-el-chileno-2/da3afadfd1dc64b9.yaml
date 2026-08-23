@@ -14,3 +14,20 @@ variants:
   import_original_name: 2dc96419800c6719.webp
 date_reviewed: true
 correction_standalone: true
+species_suggestions:
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-23T01:04:39Z'
+    src_mtime: 1787438633.7103872
+    top:
+    - scientific: Zapteryx exasperata
+      confidence: 0.5404
+    - scientific: Urobatis concentricus
+      confidence: 0.3083
+    - scientific: Urobatis maculatus
+      confidence: 0.097
+species:
+- scientific: Zapteryx exasperata
+  role: primary
+  confidence: 0.5404
+  identified_by: bioclip

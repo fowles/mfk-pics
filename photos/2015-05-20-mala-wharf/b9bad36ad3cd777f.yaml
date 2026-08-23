@@ -10,3 +10,20 @@ lon: -156.68646
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-23T01:04:39Z'
+    src_mtime: 1787441084.0341873
+    top:
+    - scientific: Upeneus moluccensis
+      confidence: 0.7716
+    - scientific: Selar crumenophthalmus
+      confidence: 0.0991
+    - scientific: Sphyraena forsteri
+      confidence: 0.0317
+species:
+- scientific: Upeneus moluccensis
+  role: primary
+  confidence: 0.7716
+  identified_by: bioclip

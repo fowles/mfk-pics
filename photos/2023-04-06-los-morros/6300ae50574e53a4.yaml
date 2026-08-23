@@ -12,3 +12,20 @@ variants:
 - method: dive-plus
   file: 6300ae50574e53a4.dive-plus.webp
   import_original_name: 2dd9ba609d0fbeda.webp
+species_suggestions:
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-23T01:04:39Z'
+    src_mtime: 1787445729.3952324
+    top:
+    - scientific: Arothron hispidus
+      confidence: 0.3096
+    - scientific: Urobatis halleri
+      confidence: 0.3027
+    - scientific: Hypanus dipterurus
+      confidence: 0.1646
+species:
+- scientific: Arothron hispidus
+  role: primary
+  confidence: 0.3096
+  identified_by: bioclip

@@ -16,15 +16,15 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786156901.735104
     top:
     - scientific: Sepioteuthis sepioidea
-      confidence: 0.4307
+      confidence: 0.4075
     - scientific: Pomacanthus paru
-      confidence: 0.2061
+      confidence: 0.195
     - scientific: Opistognathus aurifrons
-      confidence: 0.149
+      confidence: 0.141
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
     created: '2026-08-22T21:08:04Z'

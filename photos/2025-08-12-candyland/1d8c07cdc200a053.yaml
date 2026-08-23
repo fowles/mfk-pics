@@ -14,11 +14,11 @@ rotation_applied: 90
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1787176497.593159
     top:
     - scientific: Diodon hystrix
-      confidence: 0.9803
+      confidence: 0.98
     - scientific: Kyphosus sectatrix
       confidence: 0.0053
     - scientific: Pomacanthus paru

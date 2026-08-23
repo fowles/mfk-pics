@@ -16,15 +16,15 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786156902.1418853
     top:
     - scientific: Haemulon chrysargyreum
-      confidence: 0.2777
+      confidence: 0.2681
     - scientific: Pempheris schomburgkii
-      confidence: 0.1722
+      confidence: 0.1663
     - scientific: Megalops atlanticus
-      confidence: 0.1465
+      confidence: 0.1415
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
     created: '2026-08-22T21:08:04Z'

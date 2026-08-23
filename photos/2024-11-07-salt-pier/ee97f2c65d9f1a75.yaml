@@ -16,15 +16,15 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786156350.0616982
     top:
     - scientific: Aulostomus maculatus
-      confidence: 0.525
+      confidence: 0.521
     - scientific: Enchelycore carychroa
-      confidence: 0.2154
+      confidence: 0.2138
     - scientific: Gymnothorax miliaris
-      confidence: 0.1341
+      confidence: 0.1331
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
     created: '2026-08-22T21:08:04Z'

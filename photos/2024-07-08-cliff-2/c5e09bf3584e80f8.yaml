@@ -15,15 +15,18 @@ extra_variants:
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786159371.3983595
     top:
     - scientific: Monacanthus tuckeri
-      confidence: 0.9107
+      confidence: 0.1397
     - scientific: Aulostomus maculatus
-      confidence: 0.0168
+      confidence: 0.0026
     - scientific: Heteropriacanthus cruentatus
-      confidence: 0.0149
+      confidence: 0.0023
+    absorbed_by:
+      scientific: Caulerpa racemosa
+      confidence: 0.8462
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
     created: '2026-08-22T21:08:04Z'

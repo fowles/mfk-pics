@@ -12,3 +12,20 @@ variants:
 - method: dive-plus
   file: 83b7bfe2c72b7b7a.dive-plus.webp
   import_original_name: 76285e50ca5fbf14.webp
+species_suggestions:
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-23T01:04:39Z'
+    src_mtime: 1787445730.9593935
+    top:
+    - scientific: Carcharhinus galapagensis
+      confidence: 0.4247
+    - scientific: Triaenodon obesus
+      confidence: 0.1617
+    - scientific: Carcharhinus leucas
+      confidence: 0.1296
+species:
+- scientific: Carcharhinus galapagensis
+  role: primary
+  confidence: 0.4247
+  identified_by: bioclip

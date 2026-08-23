@@ -16,15 +16,15 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786156579.5166905
     top:
     - scientific: Gramma loreto
-      confidence: 0.6882
+      confidence: 0.6959
     - scientific: Microspathodon chrysurus
-      confidence: 0.2575
+      confidence: 0.2604
     - scientific: Opistognathus aurifrons
-      confidence: 0.0116
+      confidence: 0.0117
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
     created: '2026-08-22T21:08:04Z'

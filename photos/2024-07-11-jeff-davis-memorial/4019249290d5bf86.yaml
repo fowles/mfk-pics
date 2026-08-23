@@ -13,13 +13,13 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786159557.1510568
     top:
     - scientific: Cyphoma gibbosum
-      confidence: 0.7956
+      confidence: 0.793
     - scientific: Pareques acuminatus
-      confidence: 0.0901
+      confidence: 0.0898
     - scientific: Haemulon carbonarium
       confidence: 0.0137
   bioclip-2:

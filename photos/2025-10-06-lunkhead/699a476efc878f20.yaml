@@ -16,15 +16,15 @@ rotation_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786159792.219546
     top:
     - scientific: Sepioteuthis sepioidea
-      confidence: 0.7687
+      confidence: 0.7612
     - scientific: Kyphosus sectatrix
-      confidence: 0.1604
+      confidence: 0.1588
     - scientific: Aulostomus maculatus
-      confidence: 0.0588
+      confidence: 0.0582
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
     created: '2026-08-22T21:08:04Z'

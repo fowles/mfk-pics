@@ -10,3 +10,20 @@ lon: -156.68646
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-23T01:04:39Z'
+    src_mtime: 1787441076.7025447
+    top:
+    - scientific: Tylosurus crocodilus
+      confidence: 0.3502
+    - scientific: Platybelone argalus
+      confidence: 0.2462
+    - scientific: Holothuria coluber
+      confidence: 0.1229
+species:
+- scientific: Tylosurus crocodilus
+  role: primary
+  confidence: 0.3502
+  identified_by: bioclip

@@ -14,3 +14,20 @@ variants:
   import_original_name: 8b8046c5bfcc700b.webp
 date_reviewed: true
 correction_standalone: true
+species_suggestions:
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-23T01:04:39Z'
+    src_mtime: 1787438637.2511082
+    top:
+    - scientific: Bodianus pulcher
+      confidence: 0.8821
+    - scientific: Halichoeres semicinctus
+      confidence: 0.0579
+    - scientific: Cephalopholis panamensis
+      confidence: 0.024
+species:
+- scientific: Bodianus pulcher
+  role: primary
+  confidence: 0.8821
+  identified_by: bioclip

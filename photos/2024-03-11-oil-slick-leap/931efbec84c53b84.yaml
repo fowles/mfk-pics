@@ -13,15 +13,15 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786158972.440058
     top:
     - scientific: Serranus tigrinus
-      confidence: 0.6179
+      confidence: 0.6129
     - scientific: Sphoeroides spengleri
-      confidence: 0.1012
+      confidence: 0.1004
     - scientific: Synodus intermedius
-      confidence: 0.0626
+      confidence: 0.0621
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
     created: '2026-08-22T21:08:04Z'

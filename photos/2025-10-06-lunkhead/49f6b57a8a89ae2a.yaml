@@ -13,15 +13,15 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786159788.184653
     top:
     - scientific: Carcharhinus perezi
-      confidence: 0.9051
+      confidence: 0.8664
     - scientific: Megalops atlanticus
-      confidence: 0.0896
-    - scientific: Trachinotus goodei
-      confidence: 0.0039
+      confidence: 0.0858
+    - scientific: Carcharhinus leucas
+      confidence: 0.0291
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
     created: '2026-08-22T21:08:04Z'

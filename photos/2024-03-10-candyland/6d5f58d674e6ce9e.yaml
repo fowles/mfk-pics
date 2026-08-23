@@ -13,13 +13,13 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786158859.0256288
     top:
     - scientific: Melichthys niger
-      confidence: 0.8785
+      confidence: 0.8813
     - scientific: Thalassoma bifasciatum
-      confidence: 0.0563
+      confidence: 0.0565
     - scientific: Scarus coelestinus
       confidence: 0.0088
   bioclip-2:

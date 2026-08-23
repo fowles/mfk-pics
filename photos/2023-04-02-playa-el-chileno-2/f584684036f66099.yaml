@@ -14,3 +14,20 @@ variants:
   import_original_name: 22e5e841c265e1fa.webp
 date_reviewed: true
 correction_standalone: true
+species_suggestions:
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-23T01:04:39Z'
+    src_mtime: 1787438621.254914
+    top:
+    - scientific: Microspathodon dorsalis
+      confidence: 0.966
+    - scientific: Cirrhitus rivulatus
+      confidence: 0.0194
+    - scientific: Ophioblennius steindachneri
+      confidence: 0.0054
+species:
+- scientific: Microspathodon dorsalis
+  role: primary
+  confidence: 0.966
+  identified_by: bioclip

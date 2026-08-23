@@ -13,18 +13,18 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786158870.9447553
     top:
     - scientific: Elacatinus evelynae
-      confidence: 0.0795
+      confidence: 0.0793
     - scientific: Gymnothorax moringa
-      confidence: 0.0707
+      confidence: 0.0705
     - scientific: Elacatinus genie
-      confidence: 0.0531
+      confidence: 0.0529
     absorbed_by:
       scientific: Porites astreoides
-      confidence: 0.357
+      confidence: 0.3559
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
     created: '2026-08-22T21:08:04Z'

@@ -10,3 +10,20 @@ lon: -156.68646
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-23T01:04:39Z'
+    src_mtime: 1787441077.4890523
+    top:
+    - scientific: Caretta caretta
+      confidence: 0.3164
+    - scientific: Lepidochelys olivacea
+      confidence: 0.1786
+    - scientific: Megaptera novaeangliae
+      confidence: 0.0835
+species:
+- scientific: Caretta caretta
+  role: primary
+  confidence: 0.3164
+  identified_by: bioclip

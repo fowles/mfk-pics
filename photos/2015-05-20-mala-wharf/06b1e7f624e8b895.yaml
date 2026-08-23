@@ -10,3 +10,20 @@ lon: -156.68646
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-23T01:04:39Z'
+    src_mtime: 1787441078.5511181
+    top:
+    - scientific: Eretmochelys imbricata
+      confidence: 0.8077
+    - scientific: Chelonia mydas
+      confidence: 0.1637
+    - scientific: Caretta caretta
+      confidence: 0.0272
+species:
+- scientific: Eretmochelys imbricata
+  role: primary
+  confidence: 0.8077
+  identified_by: bioclip

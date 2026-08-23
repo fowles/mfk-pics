@@ -13,15 +13,15 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786159056.1692197
     top:
+    - scientific: Rhincodon typus
+      confidence: 0.1818
     - scientific: Sphyraena barracuda
-      confidence: 0.2164
-    - scientific: Thalassoma bifasciatum
-      confidence: 0.1623
-    - scientific: Aulostomus maculatus
-      confidence: 0.1059
+      confidence: 0.142
+    - scientific: Platybelone argalus
+      confidence: 0.1213
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
     created: '2026-08-22T21:08:04Z'

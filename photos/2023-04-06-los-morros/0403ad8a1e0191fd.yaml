@@ -5,3 +5,20 @@ dive_site: Los Morros
 credit: Matthew Kulukundis
 import_album: 2023-04-06, Mexico, Baja California Sur, Cabo Pulmo, Los Morros
 import_original_name: PXL_20230406_153030800.jpg
+species_suggestions:
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-23T01:04:39Z'
+    src_mtime: 1787445732.102776
+    top:
+    - scientific: Orcinus orca
+      confidence: 0.8772
+    - scientific: Rhincodon typus
+      confidence: 0.0494
+    - scientific: Megaptera novaeangliae
+      confidence: 0.0241
+species:
+- scientific: Orcinus orca
+  role: primary
+  confidence: 0.8772
+  identified_by: bioclip

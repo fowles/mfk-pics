@@ -10,3 +10,20 @@ lon: 134.2857
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-23T01:04:39Z'
+    src_mtime: 1787436654.2772663
+    top:
+    - scientific: Mobula alfredi
+      confidence: 0.3284
+    - scientific: Sepioteuthis lessoniana
+      confidence: 0.1843
+    - scientific: Iniistius pavo
+      confidence: 0.1175
+species:
+- scientific: Mobula alfredi
+  role: primary
+  confidence: 0.3284
+  identified_by: bioclip

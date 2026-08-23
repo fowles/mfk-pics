@@ -14,18 +14,18 @@ rotation_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786156525.6082802
     top:
     - scientific: Sepioteuthis sepioidea
-      confidence: 0.2346
+      confidence: 0.2345
     - scientific: Sparisoma viride
-      confidence: 0.0281
+      confidence: 0.028
     - scientific: Synodus intermedius
-      confidence: 0.0169
+      confidence: 0.0168
     absorbed_by:
       scientific: Madracis auretenra
-      confidence: 0.242
+      confidence: 0.2418
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
     created: '2026-08-22T21:08:04Z'

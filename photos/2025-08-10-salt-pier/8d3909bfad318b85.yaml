@@ -13,13 +13,13 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786157578.90783
     top:
     - scientific: Octopus insularis
-      confidence: 0.7124
+      confidence: 0.7116
     - scientific: Octopus briareus
-      confidence: 0.2567
+      confidence: 0.2564
     - scientific: Gymnothorax funebris
       confidence: 0.0101
   bioclip-2:

@@ -13,18 +13,18 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786156323.6701295
     top:
     - scientific: Equetus punctatus
-      confidence: 0.1605
+      confidence: 0.1581
     - scientific: Diodon hystrix
-      confidence: 0.1485
+      confidence: 0.1463
     - scientific: Gymnothorax moringa
-      confidence: 0.0714
+      confidence: 0.0704
     absorbed_by:
       scientific: Gorgonia ventalina
-      confidence: 0.5199
+      confidence: 0.5122
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
     created: '2026-08-22T21:08:04Z'

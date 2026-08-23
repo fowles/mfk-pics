@@ -13,18 +13,18 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786156493.5110505
     top:
+    - scientific: Loimia medusa
+      confidence: 0.0328
     - scientific: Pareques acuminatus
-      confidence: 0.0216
+      confidence: 0.0209
     - scientific: Aulostomus maculatus
-      confidence: 0.0203
-    - scientific: Stenorhynchus seticornis
-      confidence: 0.0146
+      confidence: 0.0196
     absorbed_by:
       scientific: Antillogorgia americana
-      confidence: 0.631
+      confidence: 0.61
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
     created: '2026-08-22T21:08:04Z'

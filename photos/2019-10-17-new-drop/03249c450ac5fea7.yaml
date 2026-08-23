@@ -10,3 +10,20 @@ lon: 134.2395
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-23T01:04:39Z'
+    src_mtime: 1787436661.9343781
+    top:
+    - scientific: Sphyraena barracuda
+      confidence: 0.7741
+    - scientific: Sphyraena flavicauda
+      confidence: 0.058
+    - scientific: Sphyraena forsteri
+      confidence: 0.0434
+species:
+- scientific: Sphyraena barracuda
+  role: primary
+  confidence: 0.7741
+  identified_by: bioclip

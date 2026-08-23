@@ -13,11 +13,11 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786159276.882446
     top:
     - scientific: Melichthys niger
-      confidence: 0.9645
+      confidence: 0.9642
     - scientific: Scarus coelestinus
       confidence: 0.0183
     - scientific: Mycteroperca bonaci

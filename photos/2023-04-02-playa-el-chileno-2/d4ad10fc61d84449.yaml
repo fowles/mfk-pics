@@ -14,3 +14,20 @@ variants:
   import_original_name: 7b3dbfeca41d9e58.webp
 date_reviewed: true
 correction_standalone: true
+species_suggestions:
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-23T01:04:39Z'
+    src_mtime: 1787438628.1055598
+    top:
+    - scientific: Cirrhitus rivulatus
+      confidence: 0.3717
+    - scientific: Epinephelus analogus
+      confidence: 0.1487
+    - scientific: Cephalopholis panamensis
+      confidence: 0.1444
+species:
+- scientific: Cirrhitus rivulatus
+  role: primary
+  confidence: 0.3717
+  identified_by: bioclip

@@ -16,18 +16,18 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786158520.9068298
     top:
     - scientific: Elacatinus genie
-      confidence: 0.1397
+      confidence: 0.138
     - scientific: Hippocampus erectus
-      confidence: 0.1288
+      confidence: 0.1273
     - scientific: Bothus lunatus
-      confidence: 0.0831
+      confidence: 0.0821
     absorbed_by:
       scientific: Palythoa caribaeorum
-      confidence: 0.2482
+      confidence: 0.2453
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
     created: '2026-08-22T21:08:04Z'

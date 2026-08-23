@@ -13,13 +13,13 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786159274.560067
     top:
     - scientific: Pareques acuminatus
-      confidence: 0.5287
+      confidence: 0.5278
     - scientific: Diadema antillarum
-      confidence: 0.0288
+      confidence: 0.0287
     - scientific: Pomacanthus arcuatus
       confidence: 0.0024
   bioclip-2:

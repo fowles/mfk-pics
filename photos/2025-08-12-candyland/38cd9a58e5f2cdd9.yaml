@@ -14,15 +14,15 @@ rotation_applied: 90
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1787178290.930067
     top:
     - scientific: Gymnothorax funebris
-      confidence: 0.9783
+      confidence: 0.9681
+    - scientific: Loimia medusa
+      confidence: 0.0093
     - scientific: Gymnothorax miliaris
-      confidence: 0.009
-    - scientific: Stegastes planifrons
-      confidence: 0.0036
+      confidence: 0.0089
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
     created: '2026-08-22T21:08:04Z'

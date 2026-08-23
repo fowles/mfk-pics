@@ -14,3 +14,20 @@ variants:
   import_original_name: 90a62b3378e1b46d.webp
 date_reviewed: true
 correction_standalone: true
+species_suggestions:
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-23T01:04:39Z'
+    src_mtime: 1787438605.7426317
+    top:
+    - scientific: Pomacanthus zonipectus
+      confidence: 0.7803
+    - scientific: Stegastes rectifraenum
+      confidence: 0.092
+    - scientific: Microspathodon bairdii
+      confidence: 0.0456
+species:
+- scientific: Pomacanthus zonipectus
+  role: primary
+  confidence: 0.7803
+  identified_by: bioclip

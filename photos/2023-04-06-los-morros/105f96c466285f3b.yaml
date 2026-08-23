@@ -12,3 +12,20 @@ variants:
 - method: dive-plus
   file: 105f96c466285f3b.dive-plus.webp
   import_original_name: 2174a7eec629cfda.webp
+species_suggestions:
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-23T01:04:39Z'
+    src_mtime: 1787445730.2149813
+    top:
+    - scientific: Bodianus pulcher
+      confidence: 0.4279
+    - scientific: Rhinoptera steindachneri
+      confidence: 0.1903
+    - scientific: Triaenodon obesus
+      confidence: 0.1386
+species:
+- scientific: Bodianus pulcher
+  role: primary
+  confidence: 0.4279
+  identified_by: bioclip

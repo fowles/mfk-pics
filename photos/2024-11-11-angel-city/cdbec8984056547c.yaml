@@ -16,13 +16,13 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786156745.1076825
     top:
     - scientific: Epinephelus striatus
-      confidence: 0.5697
+      confidence: 0.5688
     - scientific: Lutjanus mahogoni
-      confidence: 0.1657
+      confidence: 0.1655
     - scientific: Aluterus scriptus
       confidence: 0.0478
   bioclip-2:

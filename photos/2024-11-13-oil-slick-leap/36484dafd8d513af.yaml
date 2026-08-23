@@ -13,15 +13,15 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786156870.4736748
     top:
     - scientific: Scarus coelestinus
-      confidence: 0.9331
+      confidence: 0.9372
     - scientific: Gramma loreto
-      confidence: 0.0218
+      confidence: 0.0219
     - scientific: Clepticus parrae
-      confidence: 0.0214
+      confidence: 0.0215
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
     created: '2026-08-22T21:08:04Z'

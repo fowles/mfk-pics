@@ -10,3 +10,20 @@ lon: -156.68646
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-23T01:04:39Z'
+    src_mtime: 1787441087.6492832
+    top:
+    - scientific: Triaenodon obesus
+      confidence: 0.9403
+    - scientific: Nebrius ferrugineus
+      confidence: 0.0119
+    - scientific: Gymnothorax javanicus
+      confidence: 0.0108
+species:
+- scientific: Triaenodon obesus
+  role: primary
+  confidence: 0.9403
+  identified_by: bioclip

@@ -13,15 +13,15 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786157879.8902419
     top:
     - scientific: Acanthostracion polygonius
-      confidence: 0.2716
+      confidence: 0.2672
     - scientific: Dactylopterus volitans
-      confidence: 0.2495
+      confidence: 0.2454
     - scientific: Serranus tigrinus
-      confidence: 0.1223
+      confidence: 0.1203
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
     created: '2026-08-22T21:08:04Z'

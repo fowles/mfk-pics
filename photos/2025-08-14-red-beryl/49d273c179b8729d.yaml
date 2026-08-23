@@ -13,11 +13,11 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786158334.863319
     top:
     - scientific: Sparisoma viride
-      confidence: 0.7567
+      confidence: 0.7566
     - scientific: Serranus tigrinus
       confidence: 0.1394
     - scientific: Sparisoma rubripinne

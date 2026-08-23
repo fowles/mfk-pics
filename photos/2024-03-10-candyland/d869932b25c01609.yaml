@@ -13,13 +13,13 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786158867.6961095
     top:
     - scientific: Scarus iseri
-      confidence: 0.6891
+      confidence: 0.6898
     - scientific: Thalassoma bifasciatum
-      confidence: 0.2027
+      confidence: 0.2029
     - scientific: Microspathodon chrysurus
       confidence: 0.017
   bioclip-2:

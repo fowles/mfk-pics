@@ -13,18 +13,18 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786158233.2599425
     top:
     - scientific: Synodus intermedius
-      confidence: 0.0863
+      confidence: 0.0823
+    - scientific: Parribacus antarcticus
+      confidence: 0.0292
     - scientific: Mycteroperca tigris
-      confidence: 0.0065
-    - scientific: Aulostomus maculatus
-      confidence: 0.0038
+      confidence: 0.0062
     absorbed_by:
       scientific: Xestospongia muta
-      confidence: 0.8558
+      confidence: 0.8164
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
     created: '2026-08-22T21:08:04Z'

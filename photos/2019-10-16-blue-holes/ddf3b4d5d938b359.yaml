@@ -10,3 +10,20 @@ lon: 134.2226
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-23T01:04:39Z'
+    src_mtime: 1787436658.6858408
+    top:
+    - scientific: Triaenodon obesus
+      confidence: 0.3482
+    - scientific: Carcharhinus galapagensis
+      confidence: 0.3071
+    - scientific: Carcharhinus melanopterus
+      confidence: 0.1369
+species:
+- scientific: Triaenodon obesus
+  role: primary
+  confidence: 0.3482
+  identified_by: bioclip

@@ -10,3 +10,20 @@ lon: -156.68646
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-23T01:04:39Z'
+    src_mtime: 1787441079.4895675
+    top:
+    - scientific: Triaenodon obesus
+      confidence: 0.2337
+    - scientific: Rhincodon typus
+      confidence: 0.1808
+    - scientific: Sphyraena barracuda
+      confidence: 0.1254
+species:
+- scientific: Triaenodon obesus
+  role: primary
+  confidence: 0.2337
+  identified_by: bioclip

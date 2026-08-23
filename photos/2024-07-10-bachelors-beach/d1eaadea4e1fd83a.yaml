@@ -16,15 +16,15 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786158750.0412223
     top:
     - scientific: Aulostomus maculatus
-      confidence: 0.6372
+      confidence: 0.5394
     - scientific: Jenkinsia lamprotaenia
-      confidence: 0.2811
-    - scientific: Panulirus argus
-      confidence: 0.0349
+      confidence: 0.238
+    - scientific: Platybelone argalus
+      confidence: 0.1011
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
     created: '2026-08-22T21:08:04Z'

@@ -14,3 +14,20 @@ variants:
   import_original_name: 80c47d34c8d118db.webp
 date_reviewed: true
 correction_standalone: true
+species_suggestions:
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-23T01:04:39Z'
+    src_mtime: 1787438614.760434
+    top:
+    - scientific: Gymnothorax dovii
+      confidence: 0.5005
+    - scientific: Ginglymostoma unami
+      confidence: 0.2889
+    - scientific: Triaenodon obesus
+      confidence: 0.1612
+species:
+- scientific: Gymnothorax dovii
+  role: primary
+  confidence: 0.5005
+  identified_by: bioclip

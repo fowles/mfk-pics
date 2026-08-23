@@ -14,3 +14,20 @@ variants:
   import_original_name: 6bec809107932d13.webp
 date_reviewed: true
 correction_standalone: true
+species_suggestions:
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-23T01:04:39Z'
+    src_mtime: 1787438631.0108483
+    top:
+    - scientific: Sufflamen verres
+      confidence: 0.228
+    - scientific: Rhincodon typus
+      confidence: 0.2162
+    - scientific: Melichthys niger
+      confidence: 0.1694
+species:
+- scientific: Sufflamen verres
+  role: primary
+  confidence: 0.228
+  identified_by: bioclip

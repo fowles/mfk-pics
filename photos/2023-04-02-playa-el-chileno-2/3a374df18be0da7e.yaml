@@ -14,3 +14,18 @@ variants:
   import_original_name: ed1a7f04364d9ea5.webp
 date_reviewed: true
 correction_standalone: true
+species_suggestions:
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-23T01:04:39Z'
+    src_mtime: 1787438604.3650045
+    top:
+    - scientific: Diodon holocanthus
+      confidence: 0.0636
+    - scientific: Aurelia aurita
+      confidence: 0.0596
+    - scientific: Physalia physalis
+      confidence: 0.0466
+    absorbed_by:
+      scientific: Antipathes galapagensis
+      confidence: 0.7481

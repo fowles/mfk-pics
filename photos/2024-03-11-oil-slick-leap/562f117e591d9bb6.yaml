@@ -16,15 +16,15 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786158982.0059204
     top:
     - scientific: Aulostomus maculatus
-      confidence: 0.3509
+      confidence: 0.3505
     - scientific: Sphoeroides spengleri
-      confidence: 0.1075
+      confidence: 0.1074
     - scientific: Sparisoma aurofrenatum
-      confidence: 0.0788
+      confidence: 0.0787
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
     created: '2026-08-22T21:08:04Z'

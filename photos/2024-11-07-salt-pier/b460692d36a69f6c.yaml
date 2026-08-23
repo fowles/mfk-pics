@@ -16,15 +16,15 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786156359.4546425
     top:
     - scientific: Gymnothorax moringa
-      confidence: 0.7455
+      confidence: 0.7265
     - scientific: Bothus lunatus
-      confidence: 0.115
+      confidence: 0.1121
     - scientific: Gymnothorax miliaris
-      confidence: 0.0447
+      confidence: 0.0436
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
     created: '2026-08-22T21:08:04Z'

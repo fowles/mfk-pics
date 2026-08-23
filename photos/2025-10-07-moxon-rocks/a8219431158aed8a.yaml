@@ -12,11 +12,11 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786159805.282283
     top:
     - scientific: Ginglymostoma cirratum
-      confidence: 0.9965
+      confidence: 0.9964
     - scientific: Aetobatus narinari
       confidence: 0.0012
     - scientific: Lutjanus griseus

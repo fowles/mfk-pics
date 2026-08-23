@@ -13,15 +13,15 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786159171.5349462
     top:
     - scientific: Gymnothorax funebris
-      confidence: 0.462
+      confidence: 0.4487
     - scientific: Epinephelus itajara
-      confidence: 0.3418
+      confidence: 0.332
     - scientific: Mycteroperca venenosa
-      confidence: 0.0626
+      confidence: 0.0608
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
     created: '2026-08-22T21:08:04Z'

@@ -13,11 +13,11 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786157490.1799405
     top:
     - scientific: Lysmata grabhami
-      confidence: 0.5022
+      confidence: 0.502
     - scientific: Ancylomenes pedersoni
       confidence: 0.2014
     - scientific: Stenopus hispidus

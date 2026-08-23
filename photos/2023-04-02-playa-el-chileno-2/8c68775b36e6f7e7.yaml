@@ -14,3 +14,20 @@ variants:
   import_original_name: 3063931131efcdbc.webp
 date_reviewed: true
 correction_standalone: true
+species_suggestions:
+  bioclip:
+    model: hf-hub:imageomics/bioclip
+    created: '2026-08-23T01:04:39Z'
+    src_mtime: 1787438621.5350342
+    top:
+    - scientific: Microspathodon dorsalis
+      confidence: 0.9163
+    - scientific: Cirrhitus rivulatus
+      confidence: 0.0392
+    - scientific: Abudefduf concolor
+      confidence: 0.0371
+species:
+- scientific: Microspathodon dorsalis
+  role: primary
+  confidence: 0.9163
+  identified_by: bioclip

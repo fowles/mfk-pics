@@ -16,15 +16,15 @@ date_reviewed: true
 species_suggestions:
   bioclip:
     model: hf-hub:imageomics/bioclip
-    created: '2026-08-22T21:06:19Z'
+    created: '2026-08-23T01:04:39Z'
     src_mtime: 1786157280.0816717
     top:
     - scientific: Selar crumenophthalmus
-      confidence: 0.4119
+      confidence: 0.4082
     - scientific: Ocyurus chrysurus
-      confidence: 0.2963
+      confidence: 0.2936
     - scientific: Mulloidichthys martinicus
-      confidence: 0.1778
+      confidence: 0.1762
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
     created: '2026-08-22T21:08:04Z'
