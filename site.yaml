@@ -5,7 +5,7 @@ photo_dir: photos
 output_dir: output
 site_url: https://mfk.pics
 feedback:
-  repo: "mfk/mfk-pics"
+  repo: "fowles/mfk-pics"
   template: "photo-report.yml"
 species:
   publish: true
