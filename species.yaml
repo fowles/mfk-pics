@@ -1890,3 +1890,4 @@
 - {scientific: "Dascyllus albisella", common: "Hawaiian dascyllus", regions: ["Indo-Pacific"]}
 - {scientific: "Canis lupus", common: "Dog", unlisted: true}
 - {scientific: "Kuhlia xenura", common: "Hawaiian flagtail", regions: ["Indo-Pacific"]}
+- {scientific: "Holothuria thomasi", common: "Tiger tail sea cucumber", regions: ["Caribbean"]}

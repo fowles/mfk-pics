@@ -47,8 +47,8 @@ species_suggestions:
       confidence: 0.0232
     - scientific: Abudefduf saxatilis
       confidence: 0.0161
-species:
-- scientific: Chromis multilineata
-  role: primary
-  confidence: 0.7366
-  identified_by: bioclip-2+bioclip-2.5
+species: []
+culled: true
+species_reviewed:
+- primary
+- secondary

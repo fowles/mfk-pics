@@ -51,7 +51,10 @@ species_suggestions:
     - scientific: Holothuria impatiens
       confidence: 0.1389
 species:
-- scientific: Holothuria mexicana
+- scientific: Holothuria thomasi
   role: primary
-  confidence: 0.6495
-  identified_by: bioclip-2+bioclip-2.5
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary
