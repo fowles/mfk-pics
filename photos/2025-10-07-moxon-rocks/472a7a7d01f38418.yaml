@@ -48,6 +48,15 @@ species_suggestions:
       confidence: 0.003
 species:
 - scientific: Stegastes adustus
+  role: secondary
+  identified_by: human
+  confirmed_from: bioclip+bioclip-2+bioclip-2.5
+  reviewed_by: matt
+- scientific: Microspathodon chrysurus
   role: primary
-  confidence: 0.6051
-  identified_by: bioclip+bioclip-2+bioclip-2.5
+  identified_by: human
+  confirmed_from: bioclip-2.5
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

@@ -50,5 +50,7 @@ species_suggestions:
 species:
 - scientific: Carcharhinus perezi
   role: primary
-  confidence: 0.7485
-  identified_by: bioclip+bioclip-2+bioclip-2.5
+  identified_by: human
+  confirmed_from: bioclip+bioclip-2+bioclip-2.5
+  reviewed_by: matt
+culled: true

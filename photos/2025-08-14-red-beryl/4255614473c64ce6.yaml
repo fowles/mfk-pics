@@ -49,7 +49,16 @@ species_suggestions:
     - scientific: Echeneis naucrates
       confidence: 0.009
 species:
+- scientific: Caranx ruber
+  role: secondary
+  identified_by: human
+  confirmed_from: bioclip-2+bioclip-2.5
+  reviewed_by: matt
 - scientific: Hypanus americanus
   role: primary
-  confidence: 0.6474
-  identified_by: bioclip+bioclip-2+bioclip-2.5
+  identified_by: human
+  confirmed_from: bioclip+bioclip-2+bioclip-2.5
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

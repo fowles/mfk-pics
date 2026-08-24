@@ -49,5 +49,10 @@ species_suggestions:
 species:
 - scientific: Opistognathus aurifrons
   role: primary
-  confidence: 0.5201
-  identified_by: bioclip+bioclip-2+bioclip-2.5
+  identified_by: human
+  confirmed_from: bioclip+bioclip-2+bioclip-2.5
+  reviewed_by: matt
+  cover: true
+species_reviewed:
+- primary
+- secondary

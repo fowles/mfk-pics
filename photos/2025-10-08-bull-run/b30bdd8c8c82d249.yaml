@@ -47,7 +47,14 @@ species_suggestions:
     - scientific: Pseudorca crassidens
       confidence: 0.0009
 species:
-- scientific: Rhincodon typus
+- scientific: Sphyraena barracuda
   role: primary
-  confidence: 0.7042
-  identified_by: bioclip+bioclip-2+bioclip-2.5
+  identified_by: human
+  reviewed_by: matt
+- scientific: Caranx ruber
+  role: secondary
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

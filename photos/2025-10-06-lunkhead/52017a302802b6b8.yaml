@@ -47,8 +47,8 @@ species_suggestions:
       confidence: 0.4359
     - scientific: Carcharhinus falciformis
       confidence: 0.0373
-species:
-- scientific: Carcharhinus perezi
-  role: primary
-  confidence: 0.6831
-  identified_by: bioclip+bioclip-2+bioclip-2.5
+species: []
+culled: true
+species_reviewed:
+- primary
+- secondary

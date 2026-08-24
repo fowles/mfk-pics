@@ -49,7 +49,11 @@ species_suggestions:
     - scientific: Xyrichtys martinicensis
       confidence: 0.0505
 species:
-- scientific: Malacanthus plumieri
+- scientific: Opistognathus aurifrons
   role: primary
-  confidence: 0.5
-  identified_by: bioclip+bioclip-2+bioclip-2.5
+  identified_by: human
+  confirmed_from: bioclip+bioclip-2+bioclip-2.5
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

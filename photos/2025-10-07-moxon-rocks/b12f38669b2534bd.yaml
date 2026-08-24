@@ -55,3 +55,12 @@ species_suggestions:
     absorbed_by:
       scientific: Dendrogyra cylindrus
       confidence: 0.9472
+species:
+- scientific: Abudefduf saxatilis
+  role: primary
+  identified_by: human
+  confirmed_from: bioclip-2.5
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

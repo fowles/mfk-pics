@@ -47,7 +47,14 @@ species_suggestions:
     - scientific: Haemulon macrostomum
       confidence: 0.0148
 species:
-- scientific: Haemulon chrysargyreum
+- scientific: Mulloidichthys martinicus
   role: primary
-  confidence: 0.6862
-  identified_by: bioclip-2+bioclip-2.5
+  identified_by: human
+  reviewed_by: matt
+- scientific: Haemulon aurolineatum
+  role: secondary
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

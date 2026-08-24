@@ -50,5 +50,13 @@ species_suggestions:
 species:
 - scientific: Carcharhinus perezi
   role: primary
-  confidence: 0.625
-  identified_by: bioclip+bioclip-2+bioclip-2.5
+  identified_by: human
+  confirmed_from: bioclip+bioclip-2+bioclip-2.5
+  reviewed_by: matt
+- scientific: Decapterus macarellus
+  role: secondary
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

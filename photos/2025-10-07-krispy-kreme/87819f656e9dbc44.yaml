@@ -47,7 +47,16 @@ species_suggestions:
     - scientific: Holocentrus adscensionis
       confidence: 0.0002
 species:
+- scientific: Aulostomus maculatus
+  role: secondary
+  identified_by: human
+  confirmed_from: bioclip-2.5
+  reviewed_by: matt
 - scientific: Lachnolaimus maximus
   role: primary
-  confidence: 0.8939
-  identified_by: bioclip-2+bioclip-2.5
+  identified_by: human
+  confirmed_from: bioclip-2+bioclip-2.5
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

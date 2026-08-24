@@ -49,6 +49,14 @@ species_suggestions:
       confidence: 0.1109
 species:
 - scientific: Cephalopholis cruentata
+  role: secondary
+  identified_by: human
+  confirmed_from: bioclip-2+bioclip-2.5
+  reviewed_by: matt
+- scientific: Octopus insularis
   role: primary
-  confidence: 0.7298
-  identified_by: bioclip-2+bioclip-2.5
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

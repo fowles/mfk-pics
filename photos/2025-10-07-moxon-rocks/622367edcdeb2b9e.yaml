@@ -47,7 +47,11 @@ species_suggestions:
     - scientific: Kyphosus sectatrix
       confidence: 0.0047
 species:
-- scientific: Caranx ruber
+- scientific: Balistes vetula
   role: primary
-  confidence: 0.4672
-  identified_by: bioclip-2.5
+  identified_by: human
+  confirmed_from: bioclip-2
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

@@ -53,5 +53,15 @@ species_suggestions:
 species:
 - scientific: Gymnothorax funebris
   role: primary
-  confidence: 0.6231
-  identified_by: bioclip+bioclip-2+bioclip-2.5
+  identified_by: human
+  confirmed_from: bioclip+bioclip-2+bioclip-2.5
+  reviewed_by: matt
+- scientific: Homo sapiens
+  role: secondary
+  identified_by: human
+  reviewed_by: matt
+  person:
+  - Delia Kulukundis
+species_reviewed:
+- primary
+- secondary

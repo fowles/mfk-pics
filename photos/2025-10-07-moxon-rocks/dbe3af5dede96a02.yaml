@@ -47,7 +47,11 @@ species_suggestions:
     - scientific: Stegastes planifrons
       confidence: 0.0032
 species:
-- scientific: Stegastes diencaeus
+- scientific: Stegastes leucostictus
   role: primary
-  confidence: 0.4959
-  identified_by: bioclip+bioclip-2+bioclip-2.5
+  identified_by: human
+  confirmed_from: bioclip+bioclip-2+bioclip-2.5
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

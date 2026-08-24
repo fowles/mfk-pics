@@ -48,7 +48,15 @@ species_suggestions:
     - scientific: Sparisoma rubripinne
       confidence: 0.0063
 species:
-- scientific: Ocyurus chrysurus
+- scientific: Carcharhinus perezi
   role: primary
-  confidence: 0.7628
-  identified_by: bioclip-2+bioclip-2.5
+  identified_by: human
+  reviewed_by: matt
+- scientific: Ocyurus chrysurus
+  role: secondary
+  identified_by: human
+  confirmed_from: bioclip-2+bioclip-2.5
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

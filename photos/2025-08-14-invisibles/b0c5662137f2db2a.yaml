@@ -48,7 +48,11 @@ species_suggestions:
     - scientific: Trachinotus falcatus
       confidence: 0.102
 species:
-- scientific: Xyrichtys martinicensis
+- scientific: Bothus lunatus
   role: primary
-  confidence: 0.2092
-  identified_by: bioclip+bioclip-2.5
+  identified_by: human
+  confirmed_from: bioclip-2
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

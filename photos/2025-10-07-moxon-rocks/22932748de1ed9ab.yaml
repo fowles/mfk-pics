@@ -55,3 +55,6 @@ species_suggestions:
     absorbed_by:
       scientific: Dendrogyra cylindrus
       confidence: 0.9799
+species_reviewed:
+- primary
+- secondary

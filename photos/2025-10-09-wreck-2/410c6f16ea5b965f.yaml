@@ -50,7 +50,18 @@ species_suggestions:
     - scientific: Caranx latus
       confidence: 0.2683
 species:
-- scientific: Selar crumenophthalmus
+- scientific: Homo sapiens
+  role: secondary
+  identified_by: human
+  reviewed_by: matt
+  person:
+  - David Bede Rinaldi
+  - Matthew Kulukundis
+- scientific: Caranx ruber
   role: primary
-  confidence: 0.298
-  identified_by: bioclip-2
+  identified_by: human
+  confirmed_from: bioclip-2+bioclip-2.5
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

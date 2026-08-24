@@ -47,7 +47,17 @@ species_suggestions:
     - scientific: Sphyrna lewini
       confidence: 0.0484
 species:
-- scientific: Negaprion brevirostris
+- scientific: Homo sapiens
+  role: secondary
+  identified_by: human
+  reviewed_by: matt
+  person:
+  - David Bede Rinaldi
+- scientific: Carcharhinus perezi
   role: primary
-  confidence: 0.3886
-  identified_by: bioclip-2.5
+  identified_by: human
+  confirmed_from: bioclip+bioclip-2
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

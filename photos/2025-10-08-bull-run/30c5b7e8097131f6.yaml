@@ -47,7 +47,16 @@ species_suggestions:
     - scientific: Clepticus parrae
       confidence: 0.024
 species:
-- scientific: Chromis cyanea
+- scientific: Clepticus parrae
   role: primary
-  confidence: 0.6539
-  identified_by: bioclip-2+bioclip-2.5
+  identified_by: human
+  confirmed_from: bioclip-2+bioclip-2.5
+  reviewed_by: matt
+- scientific: Chromis cyanea
+  role: secondary
+  identified_by: human
+  confirmed_from: bioclip-2+bioclip-2.5
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

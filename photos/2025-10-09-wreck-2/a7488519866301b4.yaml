@@ -47,7 +47,15 @@ species_suggestions:
     - scientific: Carcharhinus leucas
       confidence: 0.0082
 species:
-- scientific: Ginglymostoma cirratum
+- scientific: Carcharhinus perezi
   role: primary
-  confidence: 0.56
-  identified_by: bioclip+bioclip-2+bioclip-2.5
+  identified_by: human
+  confirmed_from: bioclip-2
+  reviewed_by: matt
+- scientific: Haemulon aurolineatum
+  role: secondary
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

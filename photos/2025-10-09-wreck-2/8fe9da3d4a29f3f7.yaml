@@ -50,7 +50,17 @@ species_suggestions:
     - scientific: Rhincodon typus
       confidence: 0.0494
 species:
-- scientific: Aetobatus narinari
+- scientific: Homo sapiens
   role: primary
-  confidence: 0.2758
-  identified_by: bioclip-2.5
+  identified_by: human
+  reviewed_by: matt
+  person:
+  - David Bede Rinaldi
+  - Matthew Kulukundis
+- scientific: Pterois volitans
+  role: secondary
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

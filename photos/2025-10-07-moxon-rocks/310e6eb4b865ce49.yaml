@@ -49,4 +49,12 @@ species_suggestions:
       confidence: 0.0
     - scientific: Anisotremus surinamensis
       confidence: 0.0
-species: []
+species:
+- scientific: Abudefduf saxatilis
+  role: primary
+  identified_by: human
+  confirmed_from: bioclip+bioclip-2+bioclip-2.5
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

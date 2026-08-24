@@ -51,7 +51,11 @@ species_suggestions:
     - scientific: Holocentrus adscensionis
       confidence: 0.0542
 species:
-- scientific: Neoniphon marianus
+- scientific: Holocentrus rufus
   role: primary
-  confidence: 0.4675
-  identified_by: bioclip-2+bioclip-2.5
+  identified_by: human
+  confirmed_from: bioclip-2
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

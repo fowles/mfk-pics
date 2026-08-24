@@ -51,3 +51,4 @@ species_suggestions:
       scientific: Orbicella annularis
       confidence: 0.3454
 species: []
+culled: true

@@ -53,3 +53,6 @@ species_suggestions:
       scientific: Dendrogyra cylindrus
       confidence: 0.9647
 species: []
+species_reviewed:
+- primary
+- secondary

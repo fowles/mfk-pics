@@ -47,7 +47,16 @@ species_suggestions:
     - scientific: Decapterus macarellus
       confidence: 0.0197
 species:
-- scientific: Elagatis bipinnulata
+- scientific: Homo sapiens
+  role: secondary
+  identified_by: human
+  reviewed_by: matt
+  person:
+  - David Bede Rinaldi
+- scientific: Ocyurus chrysurus
   role: primary
-  confidence: 0.4764
-  identified_by: bioclip-2.5
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

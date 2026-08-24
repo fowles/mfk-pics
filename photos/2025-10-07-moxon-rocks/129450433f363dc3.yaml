@@ -47,7 +47,16 @@ species_suggestions:
     - scientific: Halichoeres pictus
       confidence: 0.1733
 species:
-- scientific: Halichoeres garnoti
+- scientific: Microspathodon chrysurus
   role: primary
-  confidence: 0.2569
-  identified_by: bioclip+bioclip-2.5
+  identified_by: human
+  confirmed_from: bioclip-2
+  reviewed_by: matt
+- scientific: Thalassoma bifasciatum
+  role: secondary
+  identified_by: human
+  confirmed_from: bioclip+bioclip-2.5
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

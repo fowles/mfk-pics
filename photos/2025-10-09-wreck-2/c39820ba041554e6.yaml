@@ -47,7 +47,18 @@ species_suggestions:
     - scientific: Caranx crysos
       confidence: 0.0077
 species:
-- scientific: Decapterus macarellus
+- scientific: Caranx ruber
   role: primary
-  confidence: 0.4392
-  identified_by: bioclip-2+bioclip-2.5
+  identified_by: human
+  confirmed_from: bioclip-2+bioclip-2.5
+  reviewed_by: matt
+- scientific: Homo sapiens
+  role: secondary
+  identified_by: human
+  reviewed_by: matt
+  person:
+  - David Bede Rinaldi
+  - Matthew Kulukundis
+species_reviewed:
+- primary
+- secondary

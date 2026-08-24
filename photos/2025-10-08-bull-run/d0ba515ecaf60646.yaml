@@ -47,7 +47,11 @@ species_suggestions:
     - scientific: Carcharhinus perezi
       confidence: 0.023
 species:
-- scientific: Negaprion brevirostris
+- scientific: Carcharhinus perezi
   role: primary
-  confidence: 0.4455
-  identified_by: bioclip-2+bioclip-2.5
+  identified_by: human
+  confirmed_from: bioclip-2+bioclip-2.5
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

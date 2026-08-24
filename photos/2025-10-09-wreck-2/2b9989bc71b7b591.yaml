@@ -48,7 +48,17 @@ species_suggestions:
     - scientific: Caranx ruber
       confidence: 0.1208
 species:
-- scientific: Decapterus macarellus
+- scientific: Homo sapiens
   role: primary
-  confidence: 0.2949
-  identified_by: bioclip-2.5
+  identified_by: human
+  reviewed_by: matt
+  person:
+  - David Bede Rinaldi
+  - Matthew Kulukundis
+- scientific: Pterois volitans
+  role: secondary
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

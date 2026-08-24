@@ -47,8 +47,8 @@ species_suggestions:
       confidence: 0.0
     - scientific: Lachnolaimus maximus
       confidence: 0.0
-species:
-- scientific: Canthidermis sufflamen
-  role: primary
-  confidence: 0.9572
-  identified_by: bioclip+bioclip-2+bioclip-2.5
+species: []
+culled: true
+species_reviewed:
+- primary
+- secondary

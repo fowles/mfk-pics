@@ -49,5 +49,13 @@ species_suggestions:
 species:
 - scientific: Carcharhinus perezi
   role: primary
-  confidence: 0.4358
-  identified_by: bioclip+bioclip-2
+  identified_by: human
+  confirmed_from: bioclip+bioclip-2
+  reviewed_by: matt
+- scientific: Haemulon aurolineatum
+  role: secondary
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

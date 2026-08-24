@@ -50,5 +50,6 @@ species_suggestions:
 species:
 - scientific: Octopus insularis
   role: primary
-  confidence: 0.2411
-  identified_by: bioclip-2
+  identified_by: human
+  confirmed_from: bioclip-2
+  reviewed_by: matt

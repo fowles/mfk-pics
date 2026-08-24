@@ -49,5 +49,9 @@ species_suggestions:
 species:
 - scientific: Microspathodon chrysurus
   role: primary
-  confidence: 0.9906
-  identified_by: bioclip+bioclip-2+bioclip-2.5
+  identified_by: human
+  confirmed_from: bioclip+bioclip-2+bioclip-2.5
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

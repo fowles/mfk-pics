@@ -50,7 +50,13 @@ species_suggestions:
     - scientific: Carcharhinus limbatus
       confidence: 0.0227
 species:
-- scientific: Hermodice carunculata
+- scientific: Homo sapiens
   role: primary
-  confidence: 0.1673
-  identified_by: bioclip-2.5
+  identified_by: human
+  reviewed_by: matt
+  person:
+  - David Bede Rinaldi
+  - Matthew Kulukundis
+species_reviewed:
+- primary
+- secondary

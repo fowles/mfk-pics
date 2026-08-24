@@ -51,7 +51,13 @@ species_suggestions:
       scientific: Cirrhipathes leutkeni
       confidence: 0.3914
 species:
-- scientific: Echeneis naucrates
+- scientific: Homo sapiens
   role: primary
-  confidence: 0.249
-  identified_by: bioclip-2
+  identified_by: human
+  reviewed_by: matt
+  person:
+  - David Bede Rinaldi
+  - Matthew Kulukundis
+species_reviewed:
+- primary
+- secondary

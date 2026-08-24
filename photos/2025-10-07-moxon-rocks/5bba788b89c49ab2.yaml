@@ -52,3 +52,6 @@ species:
   identified_by: human
   confirmed_from: bioclip
   reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

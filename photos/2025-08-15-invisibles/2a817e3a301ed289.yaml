@@ -48,7 +48,10 @@ species_suggestions:
     - scientific: Gymnothorax miliaris
       confidence: 0.0237
 species:
-- scientific: Gymnothorax vicinus
+- scientific: Octopus insularis
   role: primary
-  confidence: 0.4419
-  identified_by: bioclip-2.5
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary
