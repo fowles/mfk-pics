@@ -1891,3 +1891,4 @@
 - {scientific: "Canis lupus", common: "Dog", unlisted: true, taxonomy: "Animalia Chordata Mammalia Carnivora Canidae"}
 - {scientific: "Kuhlia xenura", common: "Hawaiian flagtail", regions: ["Indo-Pacific"], taxonomy: "Animalia Chordata Teleostei Perciformes Kuhliidae"}
 - {scientific: "Holothuria thomasi", common: "Tiger tail sea cucumber", regions: ["Caribbean"], taxonomy: "Animalia Echinodermata Holothuroidea Holothuriida Holothuriidae"}
+- {scientific: "Paranthias furcifer", common: "Atlantic Creolefish", regions: ["Caribbean"], taxonomy: "Animalia Chordata Teleostei Perciformes Serranidae"}
