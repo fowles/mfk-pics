@@ -38,8 +38,8 @@ species_suggestions:
       confidence: 0.0241
     - scientific: Malacanthus plumieri
       confidence: 0.0194
-species:
-- scientific: Heteroconger longissimus
-  role: primary
-  confidence: 0.8493
-  identified_by: bioclip-2+bioclip-2.5
+species: []
+culled: true
+species_reviewed:
+- primary
+- secondary

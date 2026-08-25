@@ -36,7 +36,10 @@ species_suggestions:
     - scientific: Hypoplectrus chlorurus
       confidence: 0.0128
 species:
-- scientific: Pomacanthus arcuatus
+- scientific: Mycteroperca bonaci
   role: primary
-  confidence: 0.6716
-  identified_by: bioclip-2+bioclip-2.5
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

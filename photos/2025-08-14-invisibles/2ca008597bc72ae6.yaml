@@ -41,5 +41,9 @@ species_suggestions:
 species:
 - scientific: Heteroconger longissimus
   role: primary
-  confidence: 0.9486
-  identified_by: bioclip-2+bioclip-2.5
+  identified_by: human
+  confirmed_from: bioclip-2+bioclip-2.5
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

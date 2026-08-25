@@ -36,7 +36,15 @@ species_suggestions:
     - scientific: Cephalopholis fulva
       confidence: 0.0244
 species:
-- scientific: Hypoplectrus nigricans
+- scientific: Mycteroperca bonaci
   role: primary
-  confidence: 0.7484
-  identified_by: bioclip-2+bioclip-2.5
+  identified_by: human
+  confirmed_from: bioclip-2
+  reviewed_by: matt
+- scientific: Lutjanus apodus
+  role: secondary
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

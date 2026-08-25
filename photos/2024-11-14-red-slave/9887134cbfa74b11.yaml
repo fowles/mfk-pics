@@ -38,8 +38,8 @@ species_suggestions:
       confidence: 0.0162
     - scientific: Caranx ruber
       confidence: 0.0033
-species:
-- scientific: Heteroconger longissimus
-  role: primary
-  confidence: 0.9567
-  identified_by: bioclip-2+bioclip-2.5
+species: []
+culled: true
+species_reviewed:
+- primary
+- secondary

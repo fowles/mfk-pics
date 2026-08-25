@@ -36,7 +36,16 @@ species_suggestions:
     - scientific: Haemulon flavolineatum
       confidence: 0.0002
 species:
+- scientific: Haemulon flavolineatum
+  role: secondary
+  identified_by: human
+  confirmed_from: bioclip-2.5
+  reviewed_by: matt
 - scientific: Myripristis jacobus
   role: primary
-  confidence: 0.9897
-  identified_by: bioclip-2+bioclip-2.5
+  identified_by: human
+  confirmed_from: bioclip-2+bioclip-2.5
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

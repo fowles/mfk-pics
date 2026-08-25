@@ -36,7 +36,11 @@ species_suggestions:
     - scientific: Mycteroperca tigris
       confidence: 0.0061
 species:
-- scientific: Hypoplectrus nigricans
+- scientific: Mycteroperca bonaci
   role: primary
-  confidence: 0.4874
-  identified_by: bioclip-2.5
+  identified_by: human
+  confirmed_from: bioclip-2
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

@@ -38,5 +38,6 @@ species_suggestions:
 species:
 - scientific: Stegastes partitus
   role: primary
-  confidence: 0.8709
-  identified_by: bioclip-2+bioclip-2.5
+  identified_by: human
+  confirmed_from: bioclip-2+bioclip-2.5
+  reviewed_by: matt
