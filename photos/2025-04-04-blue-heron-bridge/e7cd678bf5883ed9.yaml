@@ -11,35 +11,23 @@ variants:
   import_original_name: d09c8f59232d8ba2.webp
 date_reviewed: true
 species_suggestions:
-  bioclip:
-    model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T18:20:51Z'
-    src_mtime: 1786157491.1521077
-    vocab: 9eb53da9d7d6
-    top:
-    - scientific: Haemulon flavolineatum
-      confidence: 0.926
-    - scientific: Haemulon chrysargyreum
-      confidence: 0.0538
-    - scientific: Anisotremus virginicus
-      confidence: 0.0101
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-23T18:22:34Z'
+    created: '2026-08-25T03:36:41Z'
     src_mtime: 1786157491.1521077
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Haemulon flavolineatum
       confidence: 0.2984
     - scientific: Haemulon sciurus
       confidence: 0.2536
     - scientific: Anisotremus virginicus
-      confidence: 0.1305
+      confidence: 0.1304
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-23T18:25:36Z'
+    created: '2026-08-25T03:38:37Z'
     src_mtime: 1786157491.1521077
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Haemulon flavolineatum
       confidence: 0.8591
@@ -51,4 +39,4 @@ species:
 - scientific: Haemulon flavolineatum
   role: primary
   confidence: 0.5787
-  identified_by: bioclip+bioclip-2+bioclip-2.5
+  identified_by: bioclip-2+bioclip-2.5

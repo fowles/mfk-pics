@@ -11,23 +11,11 @@ variants:
   import_original_name: e3275e2ffe828911.webp
 date_reviewed: true
 species_suggestions:
-  bioclip:
-    model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T18:20:51Z'
-    src_mtime: 1786156334.856104
-    vocab: 9eb53da9d7d6
-    top:
-    - scientific: Sepioteuthis sepioidea
-      confidence: 0.8775
-    - scientific: Epinephelus itajara
-      confidence: 0.0401
-    - scientific: Rhincodon typus
-      confidence: 0.0268
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-23T18:22:34Z'
+    created: '2026-08-25T03:36:41Z'
     src_mtime: 1786156334.856104
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Holacanthus tricolor
       confidence: 0.0829
@@ -40,17 +28,17 @@ species_suggestions:
       confidence: 0.091
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-23T18:25:36Z'
+    created: '2026-08-25T03:38:37Z'
     src_mtime: 1786156334.856104
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Mycteroperca bonaci
-      confidence: 0.0641
+      confidence: 0.064
     - scientific: Halichoeres garnoti
-      confidence: 0.0501
+      confidence: 0.05
     - scientific: Epinephelus striatus
-      confidence: 0.0462
+      confidence: 0.0461
     absorbed_by:
       scientific: Antillogorgia americana
-      confidence: 0.4544
+      confidence: 0.4538
 species: []

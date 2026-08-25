@@ -10,21 +10,6 @@ lon: -79.27083
 gps_source: dive_site
 date_reviewed: true
 species_suggestions:
-  bioclip:
-    model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T18:20:51Z'
-    src_mtime: 1786159799.6436777
-    vocab: 9eb53da9d7d6
-    top:
-    - scientific: Holothuria impatiens
-      confidence: 0.0001
-    - scientific: Astrophyton muricatum
-      confidence: 0.0001
-    - scientific: Mycteroperca tigris
-      confidence: 0.0
-    absorbed_by:
-      scientific: Palythoa caribaeorum
-      confidence: 0.9645
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
     created: '2026-08-23T18:22:34Z'

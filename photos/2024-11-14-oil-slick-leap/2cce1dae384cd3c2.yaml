@@ -11,23 +11,11 @@ variants:
   import_original_name: dad44445d811709d.webp
 date_reviewed: true
 species_suggestions:
-  bioclip:
-    model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T18:20:51Z'
-    src_mtime: 1786156898.5016012
-    vocab: 9eb53da9d7d6
-    top:
-    - scientific: Sparisoma viride
-      confidence: 0.2342
-    - scientific: Gymnothorax funebris
-      confidence: 0.1802
-    - scientific: Epinephelus striatus
-      confidence: 0.1491
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-23T18:22:34Z'
+    created: '2026-08-25T03:36:41Z'
     src_mtime: 1786156898.5016012
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Chaetodon striatus
       confidence: 0.0659
@@ -37,18 +25,18 @@ species_suggestions:
       confidence: 0.0528
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-23T18:25:36Z'
+    created: '2026-08-25T03:38:37Z'
     src_mtime: 1786156898.5016012
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Haemulon macrostomum
-      confidence: 0.1383
+      confidence: 0.1382
     - scientific: Equetus punctatus
-      confidence: 0.1151
+      confidence: 0.115
     - scientific: Rypticus saponaceus
-      confidence: 0.0776
+      confidence: 0.0775
 species:
 - scientific: Haemulon macrostomum
   role: primary
-  confidence: 0.0692
+  confidence: 0.0691
   identified_by: bioclip-2.5

@@ -7,23 +7,11 @@ import_album: 2024-11-09, Bonaire, Salt Pier
 import_original_name: PXL_20241109_172835890.jpg
 date_reviewed: true
 species_suggestions:
-  bioclip:
-    model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T18:20:51Z'
-    src_mtime: 1786156575.2147415
-    vocab: 9eb53da9d7d6
-    top:
-    - scientific: Homo sapiens
-      confidence: 0.5023
-    - scientific: Physalia physalis
-      confidence: 0.1781
-    - scientific: Rhincodon typus
-      confidence: 0.0982
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-23T18:22:34Z'
+    created: '2026-08-25T03:36:41Z'
     src_mtime: 1786156575.2147415
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Echeneis naucrates
       confidence: 0.1434
@@ -33,12 +21,12 @@ species_suggestions:
       confidence: 0.0698
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-23T18:25:36Z'
+    created: '2026-08-25T03:38:37Z'
     src_mtime: 1786156575.2147415
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Rhincodon typus
-      confidence: 0.5938
+      confidence: 0.5937
     - scientific: Sphyrna lewini
       confidence: 0.0843
     - scientific: Sphyrna mokarran
@@ -47,4 +35,4 @@ species:
 - scientific: Rhincodon typus
   role: primary
   confidence: 0.2969
-  identified_by: bioclip+bioclip-2.5
+  identified_by: bioclip-2.5

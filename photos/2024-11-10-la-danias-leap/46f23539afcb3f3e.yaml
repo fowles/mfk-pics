@@ -11,23 +11,11 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
-  bioclip:
-    model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T18:20:51Z'
-    src_mtime: 1786156686.541365
-    vocab: 9eb53da9d7d6
-    top:
-    - scientific: Hermodice carunculata
-      confidence: 0.3971
-    - scientific: Aliger gigas
-      confidence: 0.3058
-    - scientific: Lactophrys triqueter
-      confidence: 0.106
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-23T18:22:34Z'
+    created: '2026-08-25T03:36:41Z'
     src_mtime: 1786156686.541365
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Grapsus grapsus
       confidence: 0.1171
@@ -37,12 +25,12 @@ species_suggestions:
       confidence: 0.024
     absorbed_by:
       scientific: Millepora alcicornis
-      confidence: 0.1351
+      confidence: 0.135
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-23T18:25:36Z'
+    created: '2026-08-25T03:38:37Z'
     src_mtime: 1786156686.541365
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Octopus insularis
       confidence: 0.0915
@@ -52,5 +40,5 @@ species_suggestions:
       confidence: 0.0179
     absorbed_by:
       scientific: Acropora palmata
-      confidence: 0.3555
+      confidence: 0.3554
 species: []

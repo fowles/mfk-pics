@@ -7,38 +7,26 @@ import_album: 2024-11-15, Bonaire, Angel City
 import_original_name: PXL_20241115_171221433.jpg
 date_reviewed: true
 species_suggestions:
-  bioclip:
-    model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T18:20:51Z'
-    src_mtime: 1786157053.5034006
-    vocab: 9eb53da9d7d6
-    top:
-    - scientific: Sepioteuthis sepioidea
-      confidence: 0.5728
-    - scientific: Stenella longirostris
-      confidence: 0.2207
-    - scientific: Pseudorca crassidens
-      confidence: 0.0523
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-23T18:22:34Z'
+    created: '2026-08-25T03:36:41Z'
     src_mtime: 1786157053.5034006
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Chelonia mydas
-      confidence: 0.1884
+      confidence: 0.1882
     - scientific: Eretmochelys imbricata
       confidence: 0.0775
     - scientific: Aliger gigas
-      confidence: 0.0579
+      confidence: 0.0578
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-23T18:25:36Z'
+    created: '2026-08-25T03:38:37Z'
     src_mtime: 1786157053.5034006
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Chelonia mydas
-      confidence: 0.3134
+      confidence: 0.3133
     - scientific: Stenella longirostris
       confidence: 0.2089
     - scientific: Caranx ruber
@@ -46,5 +34,5 @@ species_suggestions:
 species:
 - scientific: Chelonia mydas
   role: primary
-  confidence: 0.2509
+  confidence: 0.2508
   identified_by: bioclip-2+bioclip-2.5

@@ -11,23 +11,11 @@ variants:
   import_original_name: dde4818aa6e3c141.webp
 date_reviewed: true
 species_suggestions:
-  bioclip:
-    model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T18:20:51Z'
-    src_mtime: 1786157880.2358346
-    vocab: 9eb53da9d7d6
-    top:
-    - scientific: Sparisoma aurofrenatum
-      confidence: 0.2781
-    - scientific: Scorpaena plumieri
-      confidence: 0.2323
-    - scientific: Octopus insularis
-      confidence: 0.2172
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-23T18:22:34Z'
+    created: '2026-08-25T03:36:41Z'
     src_mtime: 1786157880.2358346
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Scorpaena plumieri
       confidence: 0.9974
@@ -37,9 +25,9 @@ species_suggestions:
       confidence: 0.0002
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-23T18:25:36Z'
+    created: '2026-08-25T03:38:37Z'
     src_mtime: 1786157880.2358346
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Scorpaena plumieri
       confidence: 1.0
@@ -51,4 +39,4 @@ species:
 - scientific: Scorpaena plumieri
   role: primary
   confidence: 0.9987
-  identified_by: bioclip+bioclip-2+bioclip-2.5
+  identified_by: bioclip-2+bioclip-2.5

@@ -11,44 +11,32 @@ variants:
   import_original_name: 91f12cf70a0f4e50.webp
 date_reviewed: true
 species_suggestions:
-  bioclip:
-    model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T18:20:51Z'
-    src_mtime: 1786157212.787293
-    vocab: 9eb53da9d7d6
-    top:
-    - scientific: Aulostomus maculatus
-      confidence: 0.4025
-    - scientific: Opistognathus aurifrons
-      confidence: 0.1068
-    - scientific: Parribacus antarcticus
-      confidence: 0.1009
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-23T18:22:34Z'
+    created: '2026-08-25T03:36:41Z'
     src_mtime: 1786157212.787293
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Myrichthys breviceps
-      confidence: 0.3664
+      confidence: 0.3657
     - scientific: Opistognathus aurifrons
       confidence: 0.0453
     - scientific: Myrichthys ocellatus
-      confidence: 0.0453
+      confidence: 0.0452
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-23T18:25:36Z'
+    created: '2026-08-25T03:38:37Z'
     src_mtime: 1786157212.787293
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Diodon hystrix
-      confidence: 0.6197
+      confidence: 0.6191
     - scientific: Carpilius corallinus
-      confidence: 0.0548
+      confidence: 0.0547
     - scientific: Mycteroperca tigris
       confidence: 0.0495
 species:
 - scientific: Diodon hystrix
   role: primary
-  confidence: 0.3099
+  confidence: 0.3095
   identified_by: bioclip-2.5

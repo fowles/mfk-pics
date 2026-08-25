@@ -13,18 +13,6 @@ variants:
   file: aeff5cb5d44a0ab3.dive-plus.webp
   import_original_name: c35260d1e2750d8e.webp
 species_suggestions:
-  bioclip:
-    model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T18:20:51Z'
-    src_mtime: 1787445731.3128533
-    vocab: d07e6f895399
-    top:
-    - scientific: Lutjanus viridis
-      confidence: 0.8193
-    - scientific: Seriola lalandi
-      confidence: 0.1049
-    - scientific: Lutjanus argentiventris
-      confidence: 0.0558
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
     created: '2026-08-23T18:22:34Z'

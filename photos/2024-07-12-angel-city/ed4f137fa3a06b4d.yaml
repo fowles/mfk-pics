@@ -11,23 +11,11 @@ variants:
   import_original_name: 6c0711c408d559b1.webp
 date_reviewed: true
 species_suggestions:
-  bioclip:
-    model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T18:20:51Z'
-    src_mtime: 1786158502.1092348
-    vocab: 9eb53da9d7d6
-    top:
-    - scientific: Mycteroperca tigris
-      confidence: 0.5066
-    - scientific: Epinephelus striatus
-      confidence: 0.3154
-    - scientific: Amblycirrhitus pinos
-      confidence: 0.0585
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-23T18:22:34Z'
+    created: '2026-08-25T03:36:41Z'
     src_mtime: 1786158502.1092348
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Mycteroperca tigris
       confidence: 0.7548
@@ -37,9 +25,9 @@ species_suggestions:
       confidence: 0.0335
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-23T18:25:36Z'
+    created: '2026-08-25T03:38:37Z'
     src_mtime: 1786158502.1092348
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Mycteroperca tigris
       confidence: 0.9999
@@ -51,4 +39,4 @@ species:
 - scientific: Mycteroperca tigris
   role: primary
   confidence: 0.8774
-  identified_by: bioclip+bioclip-2+bioclip-2.5
+  identified_by: bioclip-2+bioclip-2.5

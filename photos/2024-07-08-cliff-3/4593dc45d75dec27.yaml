@@ -11,44 +11,32 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
-  bioclip:
-    model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T18:20:51Z'
-    src_mtime: 1786159383.4301417
-    vocab: 9eb53da9d7d6
-    top:
-    - scientific: Synodus intermedius
-      confidence: 0.8831
-    - scientific: Myrichthys breviceps
-      confidence: 0.0735
-    - scientific: Echidna catenata
-      confidence: 0.0266
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-23T18:22:34Z'
+    created: '2026-08-25T03:36:41Z'
     src_mtime: 1786159383.4301417
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Echidna catenata
-      confidence: 0.8027
+      confidence: 0.8013
     - scientific: Gymnothorax moringa
-      confidence: 0.1699
+      confidence: 0.1696
     - scientific: Enchelycore carychroa
-      confidence: 0.0104
+      confidence: 0.0103
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-23T18:25:36Z'
+    created: '2026-08-25T03:38:37Z'
     src_mtime: 1786159383.4301417
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Echidna catenata
-      confidence: 0.9016
+      confidence: 0.8204
+    - scientific: Holothuria thomasi
+      confidence: 0.0901
     - scientific: Gymnothorax moringa
-      confidence: 0.0476
-    - scientific: Myrichthys ocellatus
-      confidence: 0.0402
+      confidence: 0.0433
 species:
 - scientific: Echidna catenata
   role: primary
-  confidence: 0.8521
-  identified_by: bioclip+bioclip-2+bioclip-2.5
+  confidence: 0.8109
+  identified_by: bioclip-2+bioclip-2.5

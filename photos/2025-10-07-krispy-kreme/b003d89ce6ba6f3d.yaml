@@ -10,35 +10,23 @@ lon: -79.2886
 gps_source: dive_site
 date_reviewed: true
 species_suggestions:
-  bioclip:
-    model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T18:20:51Z'
-    src_mtime: 1786159797.2605734
-    vocab: 9eb53da9d7d6
-    top:
-    - scientific: Scorpaena plumieri
-      confidence: 0.8703
-    - scientific: Acanthostracion polygonius
-      confidence: 0.0279
-    - scientific: Dactylopterus volitans
-      confidence: 0.0274
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-23T18:22:34Z'
+    created: '2026-08-25T03:36:41Z'
     src_mtime: 1786159797.2605734
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Scorpaena plumieri
-      confidence: 0.9402
+      confidence: 0.9398
     - scientific: Antennarius multiocellatus
       confidence: 0.0364
     - scientific: Petrochirus diogenes
       confidence: 0.0019
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-23T18:25:36Z'
+    created: '2026-08-25T03:38:37Z'
     src_mtime: 1786159797.2605734
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Scorpaena plumieri
       confidence: 1.0
@@ -49,5 +37,5 @@ species_suggestions:
 species:
 - scientific: Scorpaena plumieri
   role: primary
-  confidence: 0.9701
-  identified_by: bioclip+bioclip-2+bioclip-2.5
+  confidence: 0.9699
+  identified_by: bioclip-2+bioclip-2.5

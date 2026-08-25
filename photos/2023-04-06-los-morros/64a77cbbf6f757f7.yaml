@@ -13,18 +13,6 @@ variants:
   file: 64a77cbbf6f757f7.dive-plus.webp
   import_original_name: 439611e4b415e32e.webp
 species_suggestions:
-  bioclip:
-    model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T18:20:51Z'
-    src_mtime: 1787445728.0166185
-    vocab: d07e6f895399
-    top:
-    - scientific: Haemulon maculicauda
-      confidence: 0.7005
-    - scientific: Kyphosus elegans
-      confidence: 0.1593
-    - scientific: Haemulon flaviguttatum
-      confidence: 0.0874
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
     created: '2026-08-23T18:22:34Z'

@@ -10,18 +10,6 @@ lon: -68.40111449999999
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
-species_suggestions:
-  engine: bioclip
-  model: hf-hub:imageomics/bioclip
-  created: '2026-08-20T03:59:54Z'
-  src_mtime: 1786158850.615505
-  top:
-  - scientific: Gymnothorax miliaris
-    confidence: 0.5907
-  - scientific: Ginglymostoma cirratum
-    confidence: 0.1176
-  - scientific: Gymnothorax funebris
-    confidence: 0.0991
 species: []
 culled: true
 species_reviewed:

@@ -14,23 +14,11 @@ variants:
   import_original_name: 82891bd8e0cced9e.webp
 date_reviewed: true
 species_suggestions:
-  bioclip:
-    model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T18:20:51Z'
-    src_mtime: 1786156743.674496
-    vocab: 9eb53da9d7d6
-    top:
-    - scientific: Decapterus macarellus
-      confidence: 0.9196
-    - scientific: Sphyraena barracuda
-      confidence: 0.0225
-    - scientific: Selar crumenophthalmus
-      confidence: 0.0177
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-23T18:22:34Z'
+    created: '2026-08-25T03:36:41Z'
     src_mtime: 1786156743.674496
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Caranx crysos
       confidence: 0.3915
@@ -40,9 +28,9 @@ species_suggestions:
       confidence: 0.0875
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-23T18:25:36Z'
+    created: '2026-08-25T03:38:37Z'
     src_mtime: 1786156743.674496
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Caranx crysos
       confidence: 0.8821

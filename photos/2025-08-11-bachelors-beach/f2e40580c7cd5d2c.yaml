@@ -12,35 +12,23 @@ variants:
 date_reviewed: true
 rotation_applied: 270
 species_suggestions:
-  bioclip:
-    model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T18:20:51Z'
-    src_mtime: 1787028754.4364552
-    vocab: 9eb53da9d7d6
-    top:
-    - scientific: Gymnothorax funebris
-      confidence: 0.4632
-    - scientific: Melichthys niger
-      confidence: 0.1341
-    - scientific: Hypoplectrus nigricans
-      confidence: 0.0762
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-23T18:22:34Z'
+    created: '2026-08-25T03:36:41Z'
     src_mtime: 1787028754.4364552
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Gymnothorax funebris
-      confidence: 0.5283
+      confidence: 0.5282
     - scientific: Pomacanthus paru
-      confidence: 0.1836
+      confidence: 0.1835
     - scientific: Enchelycore carychroa
       confidence: 0.0808
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-23T18:25:36Z'
+    created: '2026-08-25T03:38:37Z'
     src_mtime: 1787028754.4364552
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Gymnothorax funebris
       confidence: 0.9708
@@ -52,4 +40,4 @@ species:
 - scientific: Gymnothorax funebris
   role: primary
   confidence: 0.7495
-  identified_by: bioclip+bioclip-2+bioclip-2.5
+  identified_by: bioclip-2+bioclip-2.5

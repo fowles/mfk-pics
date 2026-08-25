@@ -15,43 +15,31 @@ variants:
 date_reviewed: true
 rotation_applied: 90
 species_suggestions:
-  bioclip:
-    model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T18:20:51Z'
-    src_mtime: 1787031047.2241158
-    vocab: 9eb53da9d7d6
-    top:
-    - scientific: Synodus intermedius
-      confidence: 0.2384
-    - scientific: Opistognathus aurifrons
-      confidence: 0.0941
-    - scientific: Hippocampus erectus
-      confidence: 0.0388
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-23T18:22:34Z'
+    created: '2026-08-25T03:36:41Z'
     src_mtime: 1787031047.2241158
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Neoniphon marianus
-      confidence: 0.1087
+      confidence: 0.1085
     - scientific: Holacanthus tricolor
-      confidence: 0.053
+      confidence: 0.0529
     - scientific: Bodianus rufus
       confidence: 0.0417
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-23T18:25:36Z'
+    created: '2026-08-25T03:38:37Z'
     src_mtime: 1787031047.2241158
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Epinephelus striatus
-      confidence: 0.1972
+      confidence: 0.1968
     - scientific: Gymnothorax miliaris
-      confidence: 0.106
+      confidence: 0.1058
     - scientific: Parribacus antarcticus
-      confidence: 0.1044
+      confidence: 0.1042
     absorbed_by:
       scientific: Sabellastarte magnifica
-      confidence: 0.2353
+      confidence: 0.2348
 species: []

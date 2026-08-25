@@ -12,44 +12,32 @@ variants:
 date_reviewed: true
 rotation_applied: 270
 species_suggestions:
-  bioclip:
-    model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T18:20:51Z'
-    src_mtime: 1787029577.323152
-    vocab: 9eb53da9d7d6
-    top:
-    - scientific: Gymnothorax funebris
-      confidence: 0.1987
-    - scientific: Diodon holocanthus
-      confidence: 0.1597
-    - scientific: Thalassoma bifasciatum
-      confidence: 0.1247
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-23T18:22:34Z'
+    created: '2026-08-25T03:36:41Z'
     src_mtime: 1787029577.323152
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Serranus tigrinus
-      confidence: 0.0664
+      confidence: 0.0663
     - scientific: Bothus lunatus
       confidence: 0.0397
     - scientific: Cyphoma gibbosum
       confidence: 0.0336
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-23T18:25:36Z'
+    created: '2026-08-25T03:38:37Z'
     src_mtime: 1787029577.323152
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Serranus tigrinus
-      confidence: 0.1795
+      confidence: 0.1794
     - scientific: Myrichthys breviceps
-      confidence: 0.1694
+      confidence: 0.1693
     - scientific: Gymnothorax moringa
       confidence: 0.0879
 species:
 - scientific: Serranus tigrinus
   role: primary
-  confidence: 0.123
+  confidence: 0.1229
   identified_by: bioclip-2+bioclip-2.5

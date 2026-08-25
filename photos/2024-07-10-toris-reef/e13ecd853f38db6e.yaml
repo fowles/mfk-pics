@@ -14,23 +14,11 @@ variants:
   import_original_name: 49d4e99174520acf.webp
 date_reviewed: true
 species_suggestions:
-  bioclip:
-    model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T18:20:51Z'
-    src_mtime: 1786160209.658466
-    vocab: 9eb53da9d7d6
-    top:
-    - scientific: Hypoplectrus chlorurus
-      confidence: 0.2246
-    - scientific: Hypoplectrus puella
-      confidence: 0.1664
-    - scientific: Chaetodon striatus
-      confidence: 0.1139
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-23T18:22:34Z'
+    created: '2026-08-25T03:36:41Z'
     src_mtime: 1786160209.658466
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Aulostomus maculatus
       confidence: 0.0626
@@ -43,9 +31,9 @@ species_suggestions:
       confidence: 0.1493
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-23T18:25:36Z'
+    created: '2026-08-25T03:38:37Z'
     src_mtime: 1786160209.658466
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Sparisoma amplum
       confidence: 0.0041
@@ -55,5 +43,5 @@ species_suggestions:
       confidence: 0.0012
     absorbed_by:
       scientific: Aplysina archeri
-      confidence: 0.6676
+      confidence: 0.6675
 species: []

@@ -13,18 +13,6 @@ variants:
   file: 3ae02b100e0a2e9c.dive-plus.webp
   import_original_name: 79bba1557f378a3f.webp
 species_suggestions:
-  bioclip:
-    model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T18:20:51Z'
-    src_mtime: 1787445728.7954202
-    vocab: d07e6f895399
-    top:
-    - scientific: Scarus ghobban
-      confidence: 0.2049
-    - scientific: Microspathodon bairdii
-      confidence: 0.188
-    - scientific: Microspathodon dorsalis
-      confidence: 0.1627
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
     created: '2026-08-23T18:22:34Z'

@@ -16,23 +16,11 @@ date_reviewed: true
 extra_variants:
 - hue-shift
 species_suggestions:
-  bioclip:
-    model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T18:20:51Z'
-    src_mtime: 1786156743.297475
-    vocab: 9eb53da9d7d6
-    top:
-    - scientific: Chromis multilineata
-      confidence: 0.4101
-    - scientific: Thalassoma bifasciatum
-      confidence: 0.3242
-    - scientific: Decapterus macarellus
-      confidence: 0.0692
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-23T18:22:34Z'
+    created: '2026-08-25T03:36:41Z'
     src_mtime: 1786156743.297475
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Chromis multilineata
       confidence: 0.4163
@@ -42,9 +30,9 @@ species_suggestions:
       confidence: 0.1478
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-23T18:25:36Z'
+    created: '2026-08-25T03:38:37Z'
     src_mtime: 1786156743.297475
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Chromis multilineata
       confidence: 0.5451
@@ -56,4 +44,4 @@ species:
 - scientific: Chromis multilineata
   role: primary
   confidence: 0.4807
-  identified_by: bioclip+bioclip-2+bioclip-2.5
+  identified_by: bioclip-2+bioclip-2.5

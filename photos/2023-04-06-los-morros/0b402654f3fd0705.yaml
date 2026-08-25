@@ -13,18 +13,6 @@ variants:
   file: 0b402654f3fd0705.dive-plus.webp
   import_original_name: 55282322dbf9e832.webp
 species_suggestions:
-  bioclip:
-    model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T18:20:51Z'
-    src_mtime: 1787445728.6755404
-    vocab: d07e6f895399
-    top:
-    - scientific: Haemulon scudderii
-      confidence: 0.3149
-    - scientific: Haemulon sexfasciatum
-      confidence: 0.2889
-    - scientific: Canthidermis maculata
-      confidence: 0.121
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
     created: '2026-08-23T18:22:34Z'

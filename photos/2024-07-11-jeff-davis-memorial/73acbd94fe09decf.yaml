@@ -14,35 +14,23 @@ variants:
   import_original_name: 75d9201fd77e5e53.webp
 date_reviewed: true
 species_suggestions:
-  bioclip:
-    model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T18:20:51Z'
-    src_mtime: 1786159585.860415
-    vocab: 9eb53da9d7d6
-    top:
-    - scientific: Chelonia mydas
-      confidence: 0.7079
-    - scientific: Eretmochelys imbricata
-      confidence: 0.2094
-    - scientific: Caretta caretta
-      confidence: 0.081
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-23T18:22:34Z'
+    created: '2026-08-25T03:36:41Z'
     src_mtime: 1786159585.860415
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Eretmochelys imbricata
-      confidence: 0.8592
+      confidence: 0.8591
     - scientific: Caretta caretta
       confidence: 0.1017
     - scientific: Chelonia mydas
       confidence: 0.0286
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-23T18:25:36Z'
+    created: '2026-08-25T03:38:37Z'
     src_mtime: 1786159585.860415
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Eretmochelys imbricata
       confidence: 1.0
@@ -53,5 +41,5 @@ species_suggestions:
 species:
 - scientific: Eretmochelys imbricata
   role: primary
-  confidence: 0.9296
-  identified_by: bioclip+bioclip-2+bioclip-2.5
+  confidence: 0.9295
+  identified_by: bioclip-2+bioclip-2.5

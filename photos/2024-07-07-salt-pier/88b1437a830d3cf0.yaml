@@ -14,35 +14,23 @@ variants:
   import_original_name: e46bc198a1a6a838.webp
 date_reviewed: true
 species_suggestions:
-  bioclip:
-    model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T18:20:51Z'
-    src_mtime: 1786159985.7303338
-    vocab: 9eb53da9d7d6
-    top:
-    - scientific: Sparisoma aurofrenatum
-      confidence: 0.223
-    - scientific: Gymnothorax funebris
-      confidence: 0.1158
-    - scientific: Aulostomus maculatus
-      confidence: 0.0838
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-23T18:22:34Z'
+    created: '2026-08-25T03:36:41Z'
     src_mtime: 1786159985.7303338
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Ginglymostoma cirratum
-      confidence: 0.0978
+      confidence: 0.0974
     - scientific: Pseudupeneus maculatus
-      confidence: 0.0707
+      confidence: 0.0705
     - scientific: Halichoeres garnoti
-      confidence: 0.051
+      confidence: 0.0508
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-23T18:25:36Z'
+    created: '2026-08-25T03:38:37Z'
     src_mtime: 1786159985.7303338
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Rypticus saponaceus
       confidence: 0.512

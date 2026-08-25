@@ -11,41 +11,26 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
-  bioclip:
-    model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T18:20:51Z'
-    src_mtime: 1786159778.891655
-    vocab: 9eb53da9d7d6
-    top:
-    - scientific: Holothuria mexicana
-      confidence: 0.1318
-    - scientific: Acanthemblemaria maria
-      confidence: 0.0037
-    - scientific: Stegastes planifrons
-      confidence: 0.0025
-    absorbed_by:
-      scientific: Aplysina fistularis
-      confidence: 0.6648
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-23T18:22:34Z'
+    created: '2026-08-25T03:36:41Z'
     src_mtime: 1786159778.891655
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Amblycirrhitus pinos
-      confidence: 0.0094
+      confidence: 0.0093
     - scientific: Chromis multilineata
       confidence: 0.0044
     - scientific: Ophioblennius macclurei
       confidence: 0.0034
     absorbed_by:
       scientific: Xestospongia muta
-      confidence: 0.6911
+      confidence: 0.6892
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-23T18:25:36Z'
+    created: '2026-08-25T03:38:37Z'
     src_mtime: 1786159778.891655
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Ophiothrix suensonii
       confidence: 0.0734

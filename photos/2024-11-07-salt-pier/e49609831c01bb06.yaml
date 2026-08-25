@@ -11,44 +11,32 @@ variants:
   import_original_name: 0c997b99ba9050da.webp
 date_reviewed: true
 species_suggestions:
-  bioclip:
-    model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T18:20:51Z'
-    src_mtime: 1786156346.0282762
-    vocab: 9eb53da9d7d6
-    top:
-    - scientific: Thalassoma bifasciatum
-      confidence: 0.7431
-    - scientific: Serranus tigrinus
-      confidence: 0.24
-    - scientific: Halichoeres bivittatus
-      confidence: 0.0062
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-23T18:22:34Z'
+    created: '2026-08-25T03:36:41Z'
     src_mtime: 1786156346.0282762
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Myrichthys breviceps
-      confidence: 0.1901
+      confidence: 0.1896
     - scientific: Heteroconger longissimus
-      confidence: 0.0965
+      confidence: 0.0963
     - scientific: Myrichthys ocellatus
-      confidence: 0.0729
+      confidence: 0.0727
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-23T18:25:36Z'
+    created: '2026-08-25T03:38:37Z'
     src_mtime: 1786156346.0282762
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Prognathodes aculeatus
-      confidence: 0.2485
+      confidence: 0.248
     - scientific: Eretmochelys imbricata
-      confidence: 0.1114
+      confidence: 0.1112
     - scientific: Diodon holocanthus
-      confidence: 0.0814
+      confidence: 0.0813
 species:
 - scientific: Prognathodes aculeatus
   role: primary
-  confidence: 0.1242
+  confidence: 0.124
   identified_by: bioclip-2.5

@@ -7,18 +7,6 @@ import_album: Candyland, Bonaire, 7-9-2024
 import_original_name: PXL_20240709_163400778.jpg
 date_reviewed: true
 species_suggestions:
-  bioclip:
-    model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T18:20:51Z'
-    src_mtime: 1786159166.6788113
-    vocab: 9eb53da9d7d6
-    top:
-    - scientific: Homo sapiens
-      confidence: 0.9725
-    - scientific: Pempheris schomburgkii
-      confidence: 0.0245
-    - scientific: Sphoeroides testudineus
-      confidence: 0.0008
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
     created: '2026-08-23T18:22:34Z'

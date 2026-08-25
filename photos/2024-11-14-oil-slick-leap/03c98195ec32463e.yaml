@@ -14,50 +14,35 @@ variants:
   import_original_name: f824740a29fedbfe.webp
 date_reviewed: true
 species_suggestions:
-  bioclip:
-    model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T18:20:51Z'
-    src_mtime: 1786156900.5060093
-    vocab: 9eb53da9d7d6
-    top:
-    - scientific: Gymnothorax funebris
-      confidence: 0.2828
-    - scientific: Chaetodon sedentarius
-      confidence: 0.0098
-    - scientific: Sparisoma viride
-      confidence: 0.0059
-    absorbed_by:
-      scientific: Caulerpa racemosa
-      confidence: 0.5816
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-23T18:22:34Z'
+    created: '2026-08-25T03:36:41Z'
     src_mtime: 1786156900.5060093
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Cephalopholis cruentata
-      confidence: 0.0956
+      confidence: 0.0955
     - scientific: Gymnothorax funebris
       confidence: 0.0311
     - scientific: Holacanthus tricolor
       confidence: 0.0282
     absorbed_by:
       scientific: Orbicella annularis
-      confidence: 0.1335
+      confidence: 0.1333
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-23T18:25:36Z'
+    created: '2026-08-25T03:38:37Z'
     src_mtime: 1786156900.5060093
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Haemulon macrostomum
-      confidence: 0.193
+      confidence: 0.192
     - scientific: Gymnothorax funebris
-      confidence: 0.0922
+      confidence: 0.0917
     - scientific: Serranus tigrinus
-      confidence: 0.0408
+      confidence: 0.0406
 species:
 - scientific: Haemulon macrostomum
   role: primary
-  confidence: 0.0965
+  confidence: 0.096
   identified_by: bioclip-2.5

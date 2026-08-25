@@ -11,23 +11,11 @@ variants:
   import_original_name: 8fc9bc102dd6a4ff.webp
 date_reviewed: true
 species_suggestions:
-  bioclip:
-    model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T18:20:51Z'
-    src_mtime: 1786156978.0401127
-    vocab: 9eb53da9d7d6
-    top:
-    - scientific: Haemulon macrostomum
-      confidence: 0.7465
-    - scientific: Aulostomus maculatus
-      confidence: 0.122
-    - scientific: Pomacanthus paru
-      confidence: 0.0324
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-23T18:22:34Z'
+    created: '2026-08-25T03:36:41Z'
     src_mtime: 1786156978.0401127
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Aulostomus maculatus
       confidence: 0.5278
@@ -37,9 +25,9 @@ species_suggestions:
       confidence: 0.0489
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-23T18:25:36Z'
+    created: '2026-08-25T03:38:37Z'
     src_mtime: 1786156978.0401127
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Scarus iseri
       confidence: 0.6263

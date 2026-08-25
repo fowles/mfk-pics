@@ -12,18 +12,6 @@ date_reviewed: true
 dive_window_reviewed: true
 rotation_reviewed: true
 species_suggestions:
-  bioclip:
-    model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T18:20:51Z'
-    src_mtime: 1786159782.9181852
-    vocab: 9eb53da9d7d6
-    top:
-    - scientific: Chaetodipterus faber
-      confidence: 0.9659
-    - scientific: Pareques acuminatus
-      confidence: 0.0129
-    - scientific: Echeneis naucrates
-      confidence: 0.0123
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
     created: '2026-08-23T18:22:34Z'

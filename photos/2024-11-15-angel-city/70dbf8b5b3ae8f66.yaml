@@ -15,35 +15,23 @@ variants:
 date_reviewed: true
 rotation_applied: 270
 species_suggestions:
-  bioclip:
-    model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T18:20:51Z'
-    src_mtime: 1787178313.6237645
-    vocab: 9eb53da9d7d6
-    top:
-    - scientific: Ogcocephalus radiatus
-      confidence: 0.393
-    - scientific: Bothus lunatus
-      confidence: 0.2573
-    - scientific: Ogcocephalus nasutus
-      confidence: 0.23
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-23T18:22:34Z'
+    created: '2026-08-25T03:36:41Z'
     src_mtime: 1787178313.6237645
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Bothus lunatus
-      confidence: 0.4661
+      confidence: 0.466
     - scientific: Synodus intermedius
       confidence: 0.4379
     - scientific: Ogcocephalus nasutus
       confidence: 0.0283
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-23T18:25:36Z'
+    created: '2026-08-25T03:38:37Z'
     src_mtime: 1787178313.6237645
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Bothus lunatus
       confidence: 1.0
@@ -55,4 +43,4 @@ species:
 - scientific: Bothus lunatus
   role: primary
   confidence: 0.733
-  identified_by: bioclip+bioclip-2+bioclip-2.5
+  identified_by: bioclip-2+bioclip-2.5

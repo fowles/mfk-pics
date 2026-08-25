@@ -11,23 +11,11 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
-  bioclip:
-    model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T18:20:51Z'
-    src_mtime: 1786157485.6289718
-    vocab: 9eb53da9d7d6
-    top:
-    - scientific: Aliger gigas
-      confidence: 0.9829
-    - scientific: Petrochirus diogenes
-      confidence: 0.0044
-    - scientific: Anisotremus virginicus
-      confidence: 0.0027
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-23T18:22:34Z'
+    created: '2026-08-25T03:36:41Z'
     src_mtime: 1786157485.6289718
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Petrochirus diogenes
       confidence: 0.9771
@@ -37,9 +25,9 @@ species_suggestions:
       confidence: 0.0014
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-23T18:25:36Z'
+    created: '2026-08-25T03:38:37Z'
     src_mtime: 1786157485.6289718
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Petrochirus diogenes
       confidence: 0.9894
@@ -51,4 +39,4 @@ species:
 - scientific: Petrochirus diogenes
   role: primary
   confidence: 0.9832
-  identified_by: bioclip+bioclip-2+bioclip-2.5
+  identified_by: bioclip-2+bioclip-2.5

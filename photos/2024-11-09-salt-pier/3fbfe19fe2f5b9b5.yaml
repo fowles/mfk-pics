@@ -11,46 +11,34 @@ variants:
   import_original_name: 384c5171d5f1a133.webp
 date_reviewed: true
 species_suggestions:
-  bioclip:
-    model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T18:20:51Z'
-    src_mtime: 1786156577.5617254
-    vocab: 9eb53da9d7d6
-    top:
-    - scientific: Aulostomus maculatus
-      confidence: 0.3037
-    - scientific: Melichthys niger
-      confidence: 0.2312
-    - scientific: Hypoplectrus indigo
-      confidence: 0.0729
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-23T18:22:34Z'
+    created: '2026-08-25T03:36:41Z'
     src_mtime: 1786156577.5617254
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Acanthostracion polygonius
-      confidence: 0.0471
+      confidence: 0.0469
     - scientific: Myrichthys breviceps
-      confidence: 0.0457
+      confidence: 0.0455
     - scientific: Aulostomus maculatus
-      confidence: 0.0456
+      confidence: 0.0454
     absorbed_by:
       scientific: Aplysina archeri
-      confidence: 0.1231
+      confidence: 0.1225
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-23T18:25:36Z'
+    created: '2026-08-25T03:38:37Z'
     src_mtime: 1786156577.5617254
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Halichoeres garnoti
       confidence: 0.0983
     - scientific: Abudefduf saxatilis
-      confidence: 0.0428
+      confidence: 0.0427
     - scientific: Halichoeres pictus
-      confidence: 0.0415
+      confidence: 0.0414
     absorbed_by:
       scientific: Orbicella annularis
-      confidence: 0.2092
+      confidence: 0.2091
 species: []

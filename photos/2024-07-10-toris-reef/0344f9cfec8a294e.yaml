@@ -14,35 +14,23 @@ lon: -68.2806703
 gps_source: manual
 date_reviewed: true
 species_suggestions:
-  bioclip:
-    model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T18:20:51Z'
-    src_mtime: 1786160192.5158095
-    vocab: 9eb53da9d7d6
-    top:
-    - scientific: Gymnothorax funebris
-      confidence: 0.4138
-    - scientific: Gymnothorax vicinus
-      confidence: 0.1675
-    - scientific: Diadema antillarum
-      confidence: 0.0843
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-23T18:22:34Z'
+    created: '2026-08-25T03:36:41Z'
     src_mtime: 1786160192.5158095
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Diodon holocanthus
-      confidence: 0.2776
+      confidence: 0.2774
     - scientific: Diodon hystrix
-      confidence: 0.0955
+      confidence: 0.0954
     - scientific: Canthidermis sufflamen
-      confidence: 0.058
+      confidence: 0.0579
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-23T18:25:36Z'
+    created: '2026-08-25T03:38:37Z'
     src_mtime: 1786160192.5158095
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Diodon hystrix
       confidence: 0.9999
@@ -53,5 +41,5 @@ species_suggestions:
 species:
 - scientific: Diodon hystrix
   role: primary
-  confidence: 0.5477
+  confidence: 0.5476
   identified_by: bioclip-2+bioclip-2.5

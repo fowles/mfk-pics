@@ -14,23 +14,11 @@ variants:
   import_original_name: c0fae3a412e1ba60.webp
 date_reviewed: true
 species_suggestions:
-  bioclip:
-    model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T18:20:51Z'
-    src_mtime: 1786157213.7951179
-    vocab: 9eb53da9d7d6
-    top:
-    - scientific: Gymnothorax moringa
-      confidence: 0.9984
-    - scientific: Diodon hystrix
-      confidence: 0.0009
-    - scientific: Equetus punctatus
-      confidence: 0.0003
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-23T18:22:34Z'
+    created: '2026-08-25T03:36:41Z'
     src_mtime: 1786157213.7951179
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Gymnothorax moringa
       confidence: 0.9907
@@ -40,9 +28,9 @@ species_suggestions:
       confidence: 0.0018
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-23T18:25:36Z'
+    created: '2026-08-25T03:38:37Z'
     src_mtime: 1786157213.7951179
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Gymnothorax moringa
       confidence: 0.9999
@@ -54,4 +42,4 @@ species:
 - scientific: Gymnothorax moringa
   role: primary
   confidence: 0.9953
-  identified_by: bioclip+bioclip-2+bioclip-2.5
+  identified_by: bioclip-2+bioclip-2.5

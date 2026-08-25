@@ -11,44 +11,32 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
-  bioclip:
-    model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T18:20:51Z'
-    src_mtime: 1786159383.7538035
-    vocab: 9eb53da9d7d6
-    top:
-    - scientific: Synodus intermedius
-      confidence: 0.9793
-    - scientific: Parribacus antarcticus
-      confidence: 0.0151
-    - scientific: Echidna catenata
-      confidence: 0.0024
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-23T18:22:34Z'
+    created: '2026-08-25T03:36:41Z'
     src_mtime: 1786159383.7538035
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
+    - scientific: Holothuria thomasi
+      confidence: 0.3867
     - scientific: Echidna catenata
-      confidence: 0.4731
+      confidence: 0.2901
     - scientific: Gymnothorax moringa
-      confidence: 0.2135
-    - scientific: Holothuria mexicana
-      confidence: 0.168
+      confidence: 0.1309
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-23T18:25:36Z'
+    created: '2026-08-25T03:38:37Z'
     src_mtime: 1786159383.7538035
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
+    - scientific: Holothuria thomasi
+      confidence: 0.9715
     - scientific: Echidna catenata
-      confidence: 0.9708
+      confidence: 0.0277
     - scientific: Holothuria mexicana
-      confidence: 0.02
-    - scientific: Hermodice carunculata
-      confidence: 0.0072
+      confidence: 0.0006
 species:
-- scientific: Echidna catenata
+- scientific: Holothuria thomasi
   role: primary
-  confidence: 0.7219
-  identified_by: bioclip+bioclip-2+bioclip-2.5
+  confidence: 0.6791
+  identified_by: bioclip-2+bioclip-2.5

@@ -11,23 +11,11 @@ variants:
   import_original_name: 154e8b137ae3dcf9.webp
 date_reviewed: true
 species_suggestions:
-  bioclip:
-    model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T18:20:51Z'
-    src_mtime: 1786158963.7725718
-    vocab: 9eb53da9d7d6
-    top:
-    - scientific: Gymnothorax funebris
-      confidence: 0.3871
-    - scientific: Gymnothorax miliaris
-      confidence: 0.2027
-    - scientific: Myrichthys breviceps
-      confidence: 0.1611
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-23T18:22:34Z'
+    created: '2026-08-25T03:36:41Z'
     src_mtime: 1786158963.7725718
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Sparisoma viride
       confidence: 0.0492
@@ -40,9 +28,9 @@ species_suggestions:
       confidence: 0.1658
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-23T18:25:36Z'
+    created: '2026-08-25T03:38:37Z'
     src_mtime: 1786158963.7725718
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Synodus intermedius
       confidence: 0.3052

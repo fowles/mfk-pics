@@ -11,38 +11,26 @@ variants:
   import_original_name: 308d1772e4fbae9c.webp
 date_reviewed: true
 species_suggestions:
-  bioclip:
-    model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T18:20:51Z'
-    src_mtime: 1786156348.3413694
-    vocab: 9eb53da9d7d6
-    top:
-    - scientific: Dactylopterus volitans
-      confidence: 0.2662
-    - scientific: Diodon holocanthus
-      confidence: 0.2218
-    - scientific: Sepioteuthis sepioidea
-      confidence: 0.0373
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-23T18:22:34Z'
+    created: '2026-08-25T03:36:41Z'
     src_mtime: 1786156348.3413694
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Astrophyton muricatum
-      confidence: 0.1184
+      confidence: 0.1181
     - scientific: Alectis ciliaris
       confidence: 0.0238
     - scientific: Ophiothrix suensonii
-      confidence: 0.0238
+      confidence: 0.0237
     absorbed_by:
       scientific: Callyspongia plicifera
-      confidence: 0.2106
+      confidence: 0.21
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-23T18:25:36Z'
+    created: '2026-08-25T03:38:37Z'
     src_mtime: 1786156348.3413694
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Halichoeres garnoti
       confidence: 0.1021

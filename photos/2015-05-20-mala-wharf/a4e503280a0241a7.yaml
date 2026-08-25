@@ -11,21 +11,6 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
-  bioclip:
-    model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T17:28:05Z'
-    src_mtime: 1787451321.523432
-    vocab: e269cc0058c6
-    top:
-    - scientific: Tridacna derasa
-      confidence: 0.1291
-    - scientific: Pseudobalistes fuscus
-      confidence: 0.0709
-    - scientific: Acanthurus triostegus
-      confidence: 0.042
-    absorbed_by:
-      scientific: Acropora millepora
-      confidence: 0.1846
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
     created: '2026-08-23T17:30:46Z'

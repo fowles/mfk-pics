@@ -11,23 +11,11 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
-  bioclip:
-    model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T18:20:51Z'
-    src_mtime: 1786159270.3777573
-    vocab: 9eb53da9d7d6
-    top:
-    - scientific: Diadema antillarum
-      confidence: 0.9438
-    - scientific: Pterois volitans
-      confidence: 0.0328
-    - scientific: Aulostomus maculatus
-      confidence: 0.0146
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-23T18:22:34Z'
+    created: '2026-08-25T03:36:41Z'
     src_mtime: 1786159270.3777573
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Pterois volitans
       confidence: 0.9515
@@ -37,9 +25,9 @@ species_suggestions:
       confidence: 0.0049
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-23T18:25:36Z'
+    created: '2026-08-25T03:38:37Z'
     src_mtime: 1786159270.3777573
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Pterois volitans
       confidence: 0.9997
@@ -51,4 +39,4 @@ species:
 - scientific: Pterois volitans
   role: primary
   confidence: 0.9756
-  identified_by: bioclip+bioclip-2+bioclip-2.5
+  identified_by: bioclip-2+bioclip-2.5

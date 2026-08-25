@@ -11,35 +11,23 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
-  bioclip:
-    model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T18:20:51Z'
-    src_mtime: 1786158234.0400653
-    vocab: 9eb53da9d7d6
-    top:
-    - scientific: Sphyraena barracuda
-      confidence: 0.3376
-    - scientific: Echeneis naucrates
-      confidence: 0.2016
-    - scientific: Lutjanus mahogoni
-      confidence: 0.0985
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-23T18:22:34Z'
+    created: '2026-08-25T03:36:41Z'
     src_mtime: 1786158234.0400653
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Aulostomus maculatus
-      confidence: 0.202
+      confidence: 0.2018
     - scientific: Sphyraena barracuda
-      confidence: 0.0945
+      confidence: 0.0944
     - scientific: Synodus intermedius
-      confidence: 0.0605
+      confidence: 0.0604
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-23T18:25:36Z'
+    created: '2026-08-25T03:38:37Z'
     src_mtime: 1786158234.0400653
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Aluterus scriptus
       confidence: 0.8458

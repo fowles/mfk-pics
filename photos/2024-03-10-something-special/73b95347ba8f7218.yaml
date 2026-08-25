@@ -14,49 +14,34 @@ variants:
   import_original_name: 6686429864a596e5.webp
 date_reviewed: true
 species_suggestions:
-  bioclip:
-    model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T18:20:51Z'
-    src_mtime: 1786159066.5644236
-    vocab: 9eb53da9d7d6
-    top:
-    - scientific: Cephalopholis fulva
-      confidence: 0.0338
-    - scientific: Acanthostracion polygonius
-      confidence: 0.0089
-    - scientific: Epinephelus itajara
-      confidence: 0.0031
-    absorbed_by:
-      scientific: Diploria labyrinthiformis
-      confidence: 0.3476
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-23T18:22:34Z'
+    created: '2026-08-25T03:36:41Z'
     src_mtime: 1786159066.5644236
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Bodianus rufus
       confidence: 0.052
     - scientific: Halichoeres radiatus
       confidence: 0.0422
     - scientific: Epinephelus striatus
-      confidence: 0.034
+      confidence: 0.0339
     absorbed_by:
       scientific: Orbicella annularis
       confidence: 0.1997
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-23T18:25:36Z'
+    created: '2026-08-25T03:38:37Z'
     src_mtime: 1786159066.5644236
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Halichoeres radiatus
-      confidence: 0.1307
+      confidence: 0.1259
     - scientific: Mycteroperca bonaci
-      confidence: 0.0856
+      confidence: 0.0825
     - scientific: Serranus tigrinus
-      confidence: 0.041
+      confidence: 0.0395
     absorbed_by:
       scientific: Agelas clathrodes
-      confidence: 0.2742
+      confidence: 0.2641
 species: []

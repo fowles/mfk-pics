@@ -14,38 +14,26 @@ variants:
   import_original_name: e2e7926037c3a0b9.webp
 date_reviewed: true
 species_suggestions:
-  bioclip:
-    model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T18:20:51Z'
-    src_mtime: 1786159295.5965304
-    vocab: 9eb53da9d7d6
-    top:
-    - scientific: Gymnothorax funebris
-      confidence: 0.1848
-    - scientific: Pomacanthus paru
-      confidence: 0.0712
-    - scientific: Sparisoma viride
-      confidence: 0.0685
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-23T18:22:34Z'
+    created: '2026-08-25T03:36:41Z'
     src_mtime: 1786159295.5965304
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Acanthostracion polygonius
-      confidence: 0.1342
+      confidence: 0.1341
     - scientific: Caretta caretta
-      confidence: 0.0413
+      confidence: 0.0412
     - scientific: Eretmochelys imbricata
       confidence: 0.0386
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-23T18:25:36Z'
+    created: '2026-08-25T03:38:37Z'
     src_mtime: 1786159295.5965304
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Hypoplectrus puella
-      confidence: 0.2095
+      confidence: 0.2094
     - scientific: Mycteroperca tigris
       confidence: 0.1411
     - scientific: Cantherhines macrocerus

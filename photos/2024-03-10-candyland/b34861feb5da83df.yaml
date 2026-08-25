@@ -14,23 +14,11 @@ variants:
   import_original_name: 681d267a22a2dfec.webp
 date_reviewed: true
 species_suggestions:
-  bioclip:
-    model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T18:20:51Z'
-    src_mtime: 1786158873.9053817
-    vocab: 9eb53da9d7d6
-    top:
-    - scientific: Thalassoma bifasciatum
-      confidence: 0.1995
-    - scientific: Sepioteuthis sepioidea
-      confidence: 0.1836
-    - scientific: Elacatinus evelynae
-      confidence: 0.0746
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-23T18:22:34Z'
+    created: '2026-08-25T03:36:41Z'
     src_mtime: 1786158873.9053817
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Chromis cyanea
       confidence: 0.2641
@@ -40,9 +28,9 @@ species_suggestions:
       confidence: 0.0506
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-23T18:25:36Z'
+    created: '2026-08-25T03:38:37Z'
     src_mtime: 1786158873.9053817
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Clepticus parrae
       confidence: 0.6152

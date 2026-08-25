@@ -11,18 +11,6 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
-  bioclip:
-    model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T18:20:51Z'
-    src_mtime: 1786157489.7281365
-    vocab: 9eb53da9d7d6
-    top:
-    - scientific: Serranus tabacarius
-      confidence: 0.8987
-    - scientific: Halichoeres maculipinna
-      confidence: 0.0329
-    - scientific: Monacanthus tuckeri
-      confidence: 0.024
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
     created: '2026-08-23T18:22:34Z'

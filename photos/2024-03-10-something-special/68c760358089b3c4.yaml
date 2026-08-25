@@ -14,38 +14,23 @@ variants:
   import_original_name: 36e6d7052f3a5118.webp
 date_reviewed: true
 species_suggestions:
-  bioclip:
-    model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T18:20:51Z'
-    src_mtime: 1786159066.3283775
-    vocab: 9eb53da9d7d6
-    top:
-    - scientific: Gymnothorax moringa
-      confidence: 0.134
-    - scientific: Mycteroperca tigris
-      confidence: 0.1242
-    - scientific: Parribacus antarcticus
-      confidence: 0.1019
-    absorbed_by:
-      scientific: Montastraea cavernosa
-      confidence: 0.1804
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-23T18:22:34Z'
+    created: '2026-08-25T03:36:41Z'
     src_mtime: 1786159066.3283775
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Cephalopholis cruentata
-      confidence: 0.706
+      confidence: 0.7059
     - scientific: Gymnothorax moringa
       confidence: 0.0505
     - scientific: Cephalopholis fulva
       confidence: 0.048
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-23T18:25:36Z'
+    created: '2026-08-25T03:38:37Z'
     src_mtime: 1786159066.3283775
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Cephalopholis cruentata
       confidence: 0.771

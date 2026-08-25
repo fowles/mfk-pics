@@ -11,44 +11,32 @@ variants:
   import_original_name: 5c22b0e0189140c4.webp
 date_reviewed: true
 species_suggestions:
-  bioclip:
-    model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T18:20:51Z'
-    src_mtime: 1786156979.5970588
-    vocab: 9eb53da9d7d6
-    top:
-    - scientific: Scarus coelestinus
-      confidence: 0.3904
-    - scientific: Aulostomus maculatus
-      confidence: 0.1231
-    - scientific: Thalassoma bifasciatum
-      confidence: 0.0491
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-23T18:22:34Z'
+    created: '2026-08-25T03:36:41Z'
     src_mtime: 1786156979.5970588
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Aulostomus maculatus
-      confidence: 0.1177
+      confidence: 0.1176
     - scientific: Myrichthys breviceps
       confidence: 0.0663
     - scientific: Serranus tigrinus
       confidence: 0.0505
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-23T18:25:36Z'
+    created: '2026-08-25T03:38:37Z'
     src_mtime: 1786156979.5970588
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Sparisoma viride
-      confidence: 0.3188
+      confidence: 0.3185
     - scientific: Scarus iseri
-      confidence: 0.1252
+      confidence: 0.1251
     - scientific: Sparisoma aurofrenatum
-      confidence: 0.1215
+      confidence: 0.1214
 species:
 - scientific: Sparisoma viride
   role: primary
-  confidence: 0.1594
+  confidence: 0.1593
   identified_by: bioclip-2.5

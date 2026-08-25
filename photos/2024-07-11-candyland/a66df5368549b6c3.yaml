@@ -11,35 +11,23 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
-  bioclip:
-    model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T18:20:51Z'
-    src_mtime: 1786159267.4344928
-    vocab: 9eb53da9d7d6
-    top:
-    - scientific: Thalassoma bifasciatum
-      confidence: 0.2876
-    - scientific: Synodus foetens
-      confidence: 0.1866
-    - scientific: Lutjanus griseus
-      confidence: 0.1184
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-23T18:22:34Z'
+    created: '2026-08-25T03:36:41Z'
     src_mtime: 1786159267.4344928
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Eretmochelys imbricata
-      confidence: 0.2819
+      confidence: 0.2818
     - scientific: Chelonia mydas
       confidence: 0.2498
     - scientific: Caretta caretta
       confidence: 0.2196
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-23T18:25:36Z'
+    created: '2026-08-25T03:38:37Z'
     src_mtime: 1786159267.4344928
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Megaptera novaeangliae
       confidence: 0.5594

@@ -13,18 +13,6 @@ variants:
   file: 6300ae50574e53a4.dive-plus.webp
   import_original_name: 2dd9ba609d0fbeda.webp
 species_suggestions:
-  bioclip:
-    model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T18:20:51Z'
-    src_mtime: 1787445729.3952324
-    vocab: d07e6f895399
-    top:
-    - scientific: Arothron hispidus
-      confidence: 0.3096
-    - scientific: Urobatis halleri
-      confidence: 0.3027
-    - scientific: Hypanus dipterurus
-      confidence: 0.1646
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
     created: '2026-08-23T18:22:34Z'

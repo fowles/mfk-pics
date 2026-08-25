@@ -14,38 +14,26 @@ variants:
   import_original_name: a6e9a843d60025b8.webp
 date_reviewed: true
 species_suggestions:
-  bioclip:
-    model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T18:20:51Z'
-    src_mtime: 1786156584.2192752
-    vocab: 9eb53da9d7d6
-    top:
-    - scientific: Heteroconger longissimus
-      confidence: 0.8297
-    - scientific: Emblemaria pandionis
-      confidence: 0.0938
-    - scientific: Thalassoma bifasciatum
-      confidence: 0.0359
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-23T18:22:34Z'
+    created: '2026-08-25T03:36:41Z'
     src_mtime: 1786156584.2192752
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Apogon maculatus
-      confidence: 0.1137
+      confidence: 0.1135
     - scientific: Heteroconger longissimus
-      confidence: 0.0873
+      confidence: 0.0871
     - scientific: Myrichthys breviceps
-      confidence: 0.0511
+      confidence: 0.051
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-23T18:25:36Z'
+    created: '2026-08-25T03:38:37Z'
     src_mtime: 1786156584.2192752
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Equetus punctatus
-      confidence: 0.9142
+      confidence: 0.9141
     - scientific: Haemulon macrostomum
       confidence: 0.0574
     - scientific: Epinephelus striatus

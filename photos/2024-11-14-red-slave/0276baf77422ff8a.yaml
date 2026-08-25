@@ -11,35 +11,23 @@ variants:
   import_original_name: cf408e404add287d.webp
 date_reviewed: true
 species_suggestions:
-  bioclip:
-    model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T18:20:51Z'
-    src_mtime: 1786156979.4642572
-    vocab: 9eb53da9d7d6
-    top:
-    - scientific: Gymnothorax funebris
-      confidence: 0.2498
-    - scientific: Pseudorca crassidens
-      confidence: 0.2485
-    - scientific: Parribacus antarcticus
-      confidence: 0.076
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-23T18:22:34Z'
+    created: '2026-08-25T03:36:41Z'
     src_mtime: 1786156979.4642572
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Gymnothorax funebris
-      confidence: 0.1844
+      confidence: 0.1843
     - scientific: Enchelycore carychroa
       confidence: 0.1261
     - scientific: Rypticus saponaceus
       confidence: 0.1166
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-23T18:25:36Z'
+    created: '2026-08-25T03:38:37Z'
     src_mtime: 1786156979.4642572
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Gymnothorax funebris
       confidence: 0.9659
@@ -50,5 +38,5 @@ species_suggestions:
 species:
 - scientific: Gymnothorax funebris
   role: primary
-  confidence: 0.5752
-  identified_by: bioclip+bioclip-2+bioclip-2.5
+  confidence: 0.5751
+  identified_by: bioclip-2+bioclip-2.5

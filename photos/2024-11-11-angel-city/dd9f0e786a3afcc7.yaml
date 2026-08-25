@@ -14,23 +14,11 @@ variants:
   import_original_name: be8043c8541a8fc9.webp
 date_reviewed: true
 species_suggestions:
-  bioclip:
-    model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T18:20:51Z'
-    src_mtime: 1786156744.0082254
-    vocab: 9eb53da9d7d6
-    top:
-    - scientific: Hypoplectrus puella
-      confidence: 0.218
-    - scientific: Chaetodon striatus
-      confidence: 0.2088
-    - scientific: Prognathodes aculeatus
-      confidence: 0.1688
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-23T18:22:34Z'
+    created: '2026-08-25T03:36:41Z'
     src_mtime: 1786156744.0082254
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Chaetodon ocellatus
       confidence: 0.1135
@@ -40,9 +28,9 @@ species_suggestions:
       confidence: 0.0806
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-23T18:25:36Z'
+    created: '2026-08-25T03:38:37Z'
     src_mtime: 1786156744.0082254
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Sepioteuthis sepioidea
       confidence: 0.4385

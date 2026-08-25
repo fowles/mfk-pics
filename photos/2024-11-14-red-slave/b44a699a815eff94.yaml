@@ -14,23 +14,11 @@ variants:
   import_original_name: 9cb78bd7c4fd42bf.webp
 date_reviewed: true
 species_suggestions:
-  bioclip:
-    model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T18:20:51Z'
-    src_mtime: 1786156980.62978
-    vocab: 9eb53da9d7d6
-    top:
-    - scientific: Halichoeres garnoti
-      confidence: 0.9581
-    - scientific: Canthigaster rostrata
-      confidence: 0.0084
-    - scientific: Bodianus rufus
-      confidence: 0.006
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-23T18:22:34Z'
+    created: '2026-08-25T03:36:41Z'
     src_mtime: 1786156980.62978
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Holacanthus ciliaris
       confidence: 0.3606
@@ -40,9 +28,9 @@ species_suggestions:
       confidence: 0.1204
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-23T18:25:36Z'
+    created: '2026-08-25T03:38:37Z'
     src_mtime: 1786156980.62978
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Cantherhines macrocerus
       confidence: 0.992

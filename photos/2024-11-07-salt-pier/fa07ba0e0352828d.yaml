@@ -11,38 +11,26 @@ variants:
   import_original_name: f13b345cd946da20.webp
 date_reviewed: true
 species_suggestions:
-  bioclip:
-    model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T18:20:51Z'
-    src_mtime: 1786156346.851864
-    vocab: 9eb53da9d7d6
-    top:
-    - scientific: Scorpaena plumieri
-      confidence: 0.5046
-    - scientific: Diodon holocanthus
-      confidence: 0.234
-    - scientific: Acanthostracion polygonius
-      confidence: 0.1464
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-23T18:22:34Z'
+    created: '2026-08-25T03:36:41Z'
     src_mtime: 1786156346.851864
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Bothus lunatus
-      confidence: 0.1613
+      confidence: 0.1601
     - scientific: Petrochirus diogenes
-      confidence: 0.0672
+      confidence: 0.0668
     - scientific: Serranus tigrinus
-      confidence: 0.0598
+      confidence: 0.0593
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-23T18:25:36Z'
+    created: '2026-08-25T03:38:37Z'
     src_mtime: 1786156346.851864
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Scorpaena plumieri
-      confidence: 0.6112
+      confidence: 0.6111
     - scientific: Antennarius striatus
       confidence: 0.0655
     - scientific: Equetus punctatus
@@ -50,5 +38,5 @@ species_suggestions:
 species:
 - scientific: Scorpaena plumieri
   role: primary
-  confidence: 0.3056
-  identified_by: bioclip+bioclip-2.5
+  confidence: 0.3055
+  identified_by: bioclip-2.5

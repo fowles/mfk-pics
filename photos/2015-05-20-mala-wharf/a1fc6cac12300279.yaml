@@ -10,18 +10,6 @@ lon: -156.68646
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
-species_suggestions:
-  bioclip:
-    model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
-    src_mtime: 1787441079.2503037
-    top:
-    - scientific: Fistularia commersonii
-      confidence: 0.5932
-    - scientific: Sphyraena flavicauda
-      confidence: 0.1823
-    - scientific: Platybelone argalus
-      confidence: 0.0752
 species: []
 culled: true
 species_reviewed:

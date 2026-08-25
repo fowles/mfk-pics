@@ -12,43 +12,31 @@ date_reviewed: true
 dive_window_reviewed: true
 rotation_applied: 270
 species_suggestions:
-  bioclip:
-    model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T18:20:51Z'
-    src_mtime: 1787029655.1186395
-    vocab: 9eb53da9d7d6
-    top:
-    - scientific: Sepioteuthis sepioidea
-      confidence: 0.5796
-    - scientific: Pempheris schomburgkii
-      confidence: 0.1634
-    - scientific: Epinephelus striatus
-      confidence: 0.0569
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-23T18:22:34Z'
+    created: '2026-08-25T03:36:41Z'
     src_mtime: 1787029655.1186395
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Clepticus parrae
-      confidence: 0.1213
+      confidence: 0.1211
     - scientific: Halichoeres pictus
       confidence: 0.041
     - scientific: Thalassoma bifasciatum
       confidence: 0.0261
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-23T18:25:36Z'
+    created: '2026-08-25T03:38:37Z'
     src_mtime: 1787029655.1186395
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Halichoeres garnoti
-      confidence: 0.0146
+      confidence: 0.0144
     - scientific: Mycteroperca tigris
-      confidence: 0.0134
+      confidence: 0.0133
     - scientific: Aulostomus maculatus
-      confidence: 0.0131
+      confidence: 0.013
     absorbed_by:
       scientific: Aplysina archeri
-      confidence: 0.3703
+      confidence: 0.3657
 species: []

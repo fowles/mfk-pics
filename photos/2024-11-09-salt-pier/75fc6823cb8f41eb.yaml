@@ -14,35 +14,23 @@ variants:
   import_original_name: 7124771d34c831b9.webp
 date_reviewed: true
 species_suggestions:
-  bioclip:
-    model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T18:20:51Z'
-    src_mtime: 1786156580.644698
-    vocab: 9eb53da9d7d6
-    top:
-    - scientific: Gymnothorax funebris
-      confidence: 0.2573
-    - scientific: Enchelycore carychroa
-      confidence: 0.1777
-    - scientific: Thalassoma bifasciatum
-      confidence: 0.1511
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-23T18:22:34Z'
+    created: '2026-08-25T03:36:41Z'
     src_mtime: 1786156580.644698
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Gymnothorax miliaris
       confidence: 0.2104
     - scientific: Acanthurus chirurgus
       confidence: 0.1788
     - scientific: Cephalopholis fulva
-      confidence: 0.1672
+      confidence: 0.1671
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-23T18:25:36Z'
+    created: '2026-08-25T03:38:37Z'
     src_mtime: 1786156580.644698
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Gymnothorax miliaris
       confidence: 0.9172

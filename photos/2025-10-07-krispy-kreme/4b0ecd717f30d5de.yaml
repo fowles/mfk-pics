@@ -10,18 +10,6 @@ lon: -79.2886
 gps_source: dive_site
 date_reviewed: true
 species_suggestions:
-  bioclip:
-    model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T18:20:51Z'
-    src_mtime: 1786159796.994242
-    vocab: 9eb53da9d7d6
-    top:
-    - scientific: Caranx latus
-      confidence: 0.9998
-    - scientific: Thunnus albacares
-      confidence: 0.0002
-    - scientific: Seriola rivoliana
-      confidence: 0.0
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
     created: '2026-08-23T18:22:34Z'

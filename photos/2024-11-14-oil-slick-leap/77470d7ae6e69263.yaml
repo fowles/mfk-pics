@@ -14,44 +14,32 @@ variants:
   import_original_name: 99051f8e13dbea43.webp
 date_reviewed: true
 species_suggestions:
-  bioclip:
-    model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T18:20:51Z'
-    src_mtime: 1786156900.3539102
-    vocab: 9eb53da9d7d6
-    top:
-    - scientific: Serranus tigrinus
-      confidence: 0.3158
-    - scientific: Lactophrys triqueter
-      confidence: 0.2587
-    - scientific: Epinephelus striatus
-      confidence: 0.0997
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-23T18:22:34Z'
+    created: '2026-08-25T03:36:41Z'
     src_mtime: 1786156900.3539102
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Chaetodon striatus
       confidence: 0.1326
     - scientific: Stegastes partitus
-      confidence: 0.0805
+      confidence: 0.0804
     - scientific: Myrichthys breviceps
       confidence: 0.0583
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-23T18:25:36Z'
+    created: '2026-08-25T03:38:37Z'
     src_mtime: 1786156900.3539102
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Myrichthys ocellatus
-      confidence: 0.4613
+      confidence: 0.4599
     - scientific: Scorpaena plumieri
-      confidence: 0.1005
+      confidence: 0.1003
     - scientific: Hypoplectrus puella
-      confidence: 0.0876
+      confidence: 0.0873
 species:
 - scientific: Myrichthys ocellatus
   role: primary
-  confidence: 0.2306
+  confidence: 0.2299
   identified_by: bioclip-2.5

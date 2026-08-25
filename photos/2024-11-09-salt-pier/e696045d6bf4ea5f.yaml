@@ -12,41 +12,26 @@ variants:
 date_reviewed: true
 rotation_applied: 270
 species_suggestions:
-  bioclip:
-    model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T18:20:51Z'
-    src_mtime: 1787029416.9994981
-    vocab: 9eb53da9d7d6
-    top:
-    - scientific: Aulostomus maculatus
-      confidence: 0.0283
-    - scientific: Stenorhynchus seticornis
-      confidence: 0.0106
-    - scientific: Hypoplectrus indigo
-      confidence: 0.0039
-    absorbed_by:
-      scientific: Cirrhipathes leutkeni
-      confidence: 0.869
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-23T18:22:34Z'
+    created: '2026-08-25T03:36:41Z'
     src_mtime: 1787029416.9994981
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Myrichthys breviceps
-      confidence: 0.1672
+      confidence: 0.1671
     - scientific: Cyphoma gibbosum
       confidence: 0.0569
     - scientific: Ophiothrix suensonii
       confidence: 0.0516
     absorbed_by:
       scientific: Aplysina archeri
-      confidence: 0.2294
+      confidence: 0.2292
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-23T18:25:36Z'
+    created: '2026-08-25T03:38:37Z'
     src_mtime: 1787029416.9994981
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Scarus iseri
       confidence: 0.1893

@@ -14,50 +14,35 @@ lon: -68.2806703
 gps_source: manual
 date_reviewed: true
 species_suggestions:
-  bioclip:
-    model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T18:20:51Z'
-    src_mtime: 1786160172.5460305
-    vocab: 9eb53da9d7d6
-    top:
-    - scientific: Loimia medusa
-      confidence: 0.0466
-    - scientific: Mycteroperca venenosa
-      confidence: 0.0153
-    - scientific: Aulostomus maculatus
-      confidence: 0.0106
-    absorbed_by:
-      scientific: Aplysina fistularis
-      confidence: 0.6147
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-23T18:22:34Z'
+    created: '2026-08-25T03:36:41Z'
     src_mtime: 1786160172.5460305
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Panulirus argus
-      confidence: 0.0357
+      confidence: 0.0356
     - scientific: Chromis cyanea
       confidence: 0.0297
     - scientific: Aulostomus maculatus
-      confidence: 0.0295
+      confidence: 0.0294
     absorbed_by:
       scientific: Antillogorgia americana
-      confidence: 0.0743
+      confidence: 0.0741
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-23T18:25:36Z'
+    created: '2026-08-25T03:38:37Z'
     src_mtime: 1786160172.5460305
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Mycteroperca tigris
-      confidence: 0.4743
+      confidence: 0.4738
     - scientific: Halichoeres garnoti
-      confidence: 0.0476
+      confidence: 0.0475
     - scientific: Octopus insularis
-      confidence: 0.0208
+      confidence: 0.0207
 species:
 - scientific: Mycteroperca tigris
   role: primary
-  confidence: 0.2371
+  confidence: 0.2369
   identified_by: bioclip-2.5

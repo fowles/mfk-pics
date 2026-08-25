@@ -12,38 +12,26 @@ date_reviewed: true
 dive_window_reviewed: true
 rotation_reviewed: true
 species_suggestions:
-  bioclip:
-    model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T18:20:51Z'
-    src_mtime: 1786157580.8226793
-    vocab: 9eb53da9d7d6
-    top:
-    - scientific: Chromis multilineata
-      confidence: 0.4341
-    - scientific: Sepioteuthis sepioidea
-      confidence: 0.3642
-    - scientific: Sparisoma viride
-      confidence: 0.019
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-23T18:22:34Z'
+    created: '2026-08-25T03:36:41Z'
     src_mtime: 1786157580.8226793
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Cephalopholis cruentata
-      confidence: 0.0345
+      confidence: 0.0344
     - scientific: Chromis cyanea
-      confidence: 0.0167
+      confidence: 0.0166
     - scientific: Holacanthus tricolor
       confidence: 0.0141
     absorbed_by:
       scientific: Briareum asbestinum
-      confidence: 0.2895
+      confidence: 0.2886
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-23T18:25:36Z'
+    created: '2026-08-25T03:38:37Z'
     src_mtime: 1786157580.8226793
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Scorpaena plumieri
       confidence: 0.0004

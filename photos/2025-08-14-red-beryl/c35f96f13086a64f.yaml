@@ -14,43 +14,31 @@ variants:
   import_original_name: 45b0a6386b0632d1.webp
 date_reviewed: true
 species_suggestions:
-  bioclip:
-    model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T18:20:51Z'
-    src_mtime: 1786158337.5437622
-    vocab: 9eb53da9d7d6
-    top:
-    - scientific: Aulostomus maculatus
-      confidence: 0.7033
-    - scientific: Gymnothorax funebris
-      confidence: 0.0899
-    - scientific: Loimia medusa
-      confidence: 0.0479
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-23T18:22:34Z'
+    created: '2026-08-25T03:36:41Z'
     src_mtime: 1786158337.5437622
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Aulostomus maculatus
-      confidence: 0.1266
+      confidence: 0.1265
     - scientific: Holacanthus tricolor
       confidence: 0.0707
     - scientific: Bodianus rufus
       confidence: 0.0686
     absorbed_by:
       scientific: Millepora alcicornis
-      confidence: 0.2754
+      confidence: 0.2753
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-23T18:25:36Z'
+    created: '2026-08-25T03:38:37Z'
     src_mtime: 1786158337.5437622
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Anisotremus virginicus
       confidence: 0.2523
     - scientific: Equetus punctatus
-      confidence: 0.103
+      confidence: 0.1029
     - scientific: Scorpaena plumieri
-      confidence: 0.0823
+      confidence: 0.0822
 species: []

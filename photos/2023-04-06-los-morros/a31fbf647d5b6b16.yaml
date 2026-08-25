@@ -13,18 +13,6 @@ variants:
   file: a31fbf647d5b6b16.dive-plus.webp
   import_original_name: 928e58fc921062dd.webp
 species_suggestions:
-  bioclip:
-    model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T18:20:51Z'
-    src_mtime: 1787445728.9702718
-    vocab: d07e6f895399
-    top:
-    - scientific: Urobatis halleri
-      confidence: 0.4716
-    - scientific: Balistes polylepis
-      confidence: 0.212
-    - scientific: Hypanus dipterurus
-      confidence: 0.0926
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
     created: '2026-08-23T18:22:34Z'

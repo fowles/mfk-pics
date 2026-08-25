@@ -11,35 +11,23 @@ variants:
   import_original_name: d47f667d1787a6d9.webp
 date_reviewed: true
 species_suggestions:
-  bioclip:
-    model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T18:20:51Z'
-    src_mtime: 1786156578.131421
-    vocab: 9eb53da9d7d6
-    top:
-    - scientific: Acanthostracion polygonius
-      confidence: 0.4636
-    - scientific: Serranus tigrinus
-      confidence: 0.1893
-    - scientific: Diodon holocanthus
-      confidence: 0.0932
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-23T18:22:34Z'
+    created: '2026-08-25T03:36:41Z'
     src_mtime: 1786156578.131421
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Acanthostracion polygonius
-      confidence: 0.6059
+      confidence: 0.6058
     - scientific: Sepioteuthis sepioidea
       confidence: 0.042
     - scientific: Acanthostracion quadricornis
       confidence: 0.0388
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-23T18:25:36Z'
+    created: '2026-08-25T03:38:37Z'
     src_mtime: 1786156578.131421
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Acanthostracion polygonius
       confidence: 0.9488
@@ -51,4 +39,4 @@ species:
 - scientific: Acanthostracion polygonius
   role: primary
   confidence: 0.7773
-  identified_by: bioclip+bioclip-2+bioclip-2.5
+  identified_by: bioclip-2+bioclip-2.5

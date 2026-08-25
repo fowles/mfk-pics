@@ -14,41 +14,26 @@ variants:
   import_original_name: 2cb0f88c301dc49c.webp
 date_reviewed: true
 species_suggestions:
-  bioclip:
-    model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T18:20:51Z'
-    src_mtime: 1786159596.4111211
-    vocab: 9eb53da9d7d6
-    top:
-    - scientific: Scorpaena plumieri
-      confidence: 0.1857
-    - scientific: Hippocampus erectus
-      confidence: 0.1239
-    - scientific: Acanthostracion polygonius
-      confidence: 0.1004
-    absorbed_by:
-      scientific: Meandrina meandrites
-      confidence: 0.2121
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-23T18:22:34Z'
+    created: '2026-08-25T03:36:41Z'
     src_mtime: 1786159596.4111211
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Gymnothorax miliaris
       confidence: 0.0714
     - scientific: Stegastes partitus
-      confidence: 0.0481
+      confidence: 0.048
     - scientific: Serranus tigrinus
       confidence: 0.0455
     absorbed_by:
       scientific: Millepora complanata
-      confidence: 0.3035
+      confidence: 0.3033
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-23T18:25:36Z'
+    created: '2026-08-25T03:38:37Z'
     src_mtime: 1786159596.4111211
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Scorpaena plumieri
       confidence: 0.5697
@@ -60,4 +45,4 @@ species:
 - scientific: Scorpaena plumieri
   role: primary
   confidence: 0.2848
-  identified_by: bioclip+bioclip-2.5
+  identified_by: bioclip-2.5

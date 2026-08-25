@@ -11,18 +11,6 @@ gps_source: dive_site
 date_reviewed: true
 correction_standalone: true
 species_suggestions:
-  bioclip:
-    model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T18:20:51Z'
-    src_mtime: 1787438602.4929307
-    vocab: d07e6f895399
-    top:
-    - scientific: Hypanus longus
-      confidence: 0.4747
-    - scientific: Thunnus albacares
-      confidence: 0.2129
-    - scientific: Carcharhinus galapagensis
-      confidence: 0.1455
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
     created: '2026-08-23T18:22:34Z'

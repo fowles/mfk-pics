@@ -11,47 +11,32 @@ variants:
   import_original_name: 9c3239673251db84.webp
 date_reviewed: true
 species_suggestions:
-  bioclip:
-    model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T18:20:51Z'
-    src_mtime: 1786159182.713139
-    vocab: 9eb53da9d7d6
-    top:
-    - scientific: Aulostomus maculatus
-      confidence: 0.1056
-    - scientific: Gymnothorax funebris
-      confidence: 0.0978
-    - scientific: Epinephelus itajara
-      confidence: 0.0859
-    absorbed_by:
-      scientific: Meandrina meandrites
-      confidence: 0.2869
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-23T18:22:34Z'
+    created: '2026-08-25T03:36:41Z'
     src_mtime: 1786159182.713139
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Holacanthus tricolor
-      confidence: 0.3804
+      confidence: 0.3797
     - scientific: Aulostomus maculatus
-      confidence: 0.0257
+      confidence: 0.0256
     - scientific: Panulirus argus
-      confidence: 0.0228
+      confidence: 0.0227
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-23T18:25:36Z'
+    created: '2026-08-25T03:38:37Z'
     src_mtime: 1786159182.713139
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Holacanthus tricolor
-      confidence: 0.2993
+      confidence: 0.2987
     - scientific: Halichoeres garnoti
-      confidence: 0.2773
+      confidence: 0.2767
     - scientific: Gymnothorax funebris
-      confidence: 0.0953
+      confidence: 0.0951
 species:
 - scientific: Holacanthus tricolor
   role: primary
-  confidence: 0.3398
+  confidence: 0.3392
   identified_by: bioclip-2+bioclip-2.5

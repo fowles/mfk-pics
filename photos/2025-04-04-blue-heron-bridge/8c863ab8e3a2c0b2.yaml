@@ -14,42 +14,30 @@ variants:
   import_original_name: 713b753030a73e74.webp
 date_reviewed: true
 species_suggestions:
-  bioclip:
-    model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T18:20:51Z'
-    src_mtime: 1786157494.188079
-    vocab: 9eb53da9d7d6
-    top:
-    - scientific: Haemulon chrysargyreum
-      confidence: 0.212
-    - scientific: Ginglymostoma cirratum
-      confidence: 0.1418
-    - scientific: Sepioteuthis sepioidea
-      confidence: 0.1348
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-23T18:22:34Z'
+    created: '2026-08-25T03:36:41Z'
     src_mtime: 1786157494.188079
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Heteroconger longissimus
-      confidence: 0.0797
+      confidence: 0.0794
     - scientific: Apogon maculatus
-      confidence: 0.0549
+      confidence: 0.0547
     - scientific: Pempheris schomburgkii
-      confidence: 0.0461
+      confidence: 0.0459
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-23T18:25:36Z'
+    created: '2026-08-25T03:38:37Z'
     src_mtime: 1786157494.188079
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Ogcocephalus nasutus
       confidence: 0.3528
     - scientific: Diodon hystrix
       confidence: 0.1515
     - scientific: Balistes vetula
-      confidence: 0.1266
+      confidence: 0.1265
 species:
 - scientific: Ogcocephalus nasutus
   role: primary

@@ -11,44 +11,32 @@ variants:
   import_original_name: acf46c136cfe1f5f.webp
 date_reviewed: true
 species_suggestions:
-  bioclip:
-    model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T18:20:51Z'
-    src_mtime: 1786159965.4164357
-    vocab: 9eb53da9d7d6
-    top:
-    - scientific: Thalassoma bifasciatum
-      confidence: 0.5286
-    - scientific: Serranus tigrinus
-      confidence: 0.1983
-    - scientific: Aulostomus maculatus
-      confidence: 0.1183
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-23T18:22:34Z'
+    created: '2026-08-25T03:36:41Z'
     src_mtime: 1786159965.4164357
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Enchelycore carychroa
       confidence: 0.2166
     - scientific: Ginglymostoma cirratum
-      confidence: 0.08
+      confidence: 0.0799
     - scientific: Scarus vetula
       confidence: 0.0638
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-23T18:25:36Z'
+    created: '2026-08-25T03:38:37Z'
     src_mtime: 1786159965.4164357
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Serranus tigrinus
-      confidence: 0.3479
+      confidence: 0.3445
     - scientific: Myrichthys breviceps
-      confidence: 0.2821
+      confidence: 0.2794
     - scientific: Synodus intermedius
-      confidence: 0.1017
+      confidence: 0.1007
 species:
 - scientific: Serranus tigrinus
   role: primary
-  confidence: 0.1739
-  identified_by: bioclip+bioclip-2.5
+  confidence: 0.1722
+  identified_by: bioclip-2.5

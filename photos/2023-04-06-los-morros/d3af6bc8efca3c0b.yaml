@@ -13,18 +13,6 @@ variants:
   file: d3af6bc8efca3c0b.dive-plus.webp
   import_original_name: fc698fe01582ebc1.webp
 species_suggestions:
-  bioclip:
-    model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T18:20:51Z'
-    src_mtime: 1787445727.7087202
-    vocab: d07e6f895399
-    top:
-    - scientific: Bodianus pulcher
-      confidence: 0.3922
-    - scientific: Kyphosus elegans
-      confidence: 0.3291
-    - scientific: Paranthias colonus
-      confidence: 0.1328
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
     created: '2026-08-23T18:22:34Z'

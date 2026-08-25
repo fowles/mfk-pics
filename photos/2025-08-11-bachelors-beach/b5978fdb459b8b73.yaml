@@ -14,23 +14,11 @@ variants:
   import_original_name: 5cae6a0ff0c28d3c.webp
 date_reviewed: true
 species_suggestions:
-  bioclip:
-    model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T18:20:51Z'
-    src_mtime: 1786157883.1251242
-    vocab: 9eb53da9d7d6
-    top:
-    - scientific: Elacatinus evelynae
-      confidence: 0.3288
-    - scientific: Thalassoma bifasciatum
-      confidence: 0.3065
-    - scientific: Halichoeres garnoti
-      confidence: 0.1608
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-23T18:22:34Z'
+    created: '2026-08-25T03:36:41Z'
     src_mtime: 1786157883.1251242
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Halichoeres radiatus
       confidence: 0.3767
@@ -40,9 +28,9 @@ species_suggestions:
       confidence: 0.0628
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-23T18:25:36Z'
+    created: '2026-08-25T03:38:37Z'
     src_mtime: 1786157883.1251242
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Halichoeres radiatus
       confidence: 0.9964

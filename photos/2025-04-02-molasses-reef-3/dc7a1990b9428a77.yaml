@@ -11,23 +11,11 @@ variants:
   import_original_name: 4c2c312107180e16.webp
 date_reviewed: true
 species_suggestions:
-  bioclip:
-    model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T18:20:51Z'
-    src_mtime: 1786157281.288456
-    vocab: 9eb53da9d7d6
-    top:
-    - scientific: Hypanus americanus
-      confidence: 0.8651
-    - scientific: Dactylopterus volitans
-      confidence: 0.0863
-    - scientific: Echeneis naucrates
-      confidence: 0.0113
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-23T18:22:34Z'
+    created: '2026-08-25T03:36:41Z'
     src_mtime: 1786157281.288456
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Hypanus americanus
       confidence: 0.9932
@@ -37,9 +25,9 @@ species_suggestions:
       confidence: 0.0015
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-23T18:25:36Z'
+    created: '2026-08-25T03:38:37Z'
     src_mtime: 1786157281.288456
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Hypanus americanus
       confidence: 1.0
@@ -51,4 +39,4 @@ species:
 - scientific: Hypanus americanus
   role: primary
   confidence: 0.9966
-  identified_by: bioclip+bioclip-2+bioclip-2.5
+  identified_by: bioclip-2+bioclip-2.5

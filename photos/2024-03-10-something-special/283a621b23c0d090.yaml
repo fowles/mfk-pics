@@ -12,23 +12,11 @@ date_reviewed: true
 dive_window_reviewed: true
 rotation_applied: 90
 species_suggestions:
-  bioclip:
-    model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T18:20:51Z'
-    src_mtime: 1787176451.826124
-    vocab: 9eb53da9d7d6
-    top:
-    - scientific: Mycteroperca venenosa
-      confidence: 0.4718
-    - scientific: Gymnothorax moringa
-      confidence: 0.1602
-    - scientific: Diodon hystrix
-      confidence: 0.1213
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-23T18:22:34Z'
+    created: '2026-08-25T03:36:41Z'
     src_mtime: 1787176451.826124
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Epinephelus guttatus
       confidence: 0.522
@@ -38,9 +26,9 @@ species_suggestions:
       confidence: 0.1541
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-23T18:25:36Z'
+    created: '2026-08-25T03:38:37Z'
     src_mtime: 1787176451.826124
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Mycteroperca venenosa
       confidence: 0.9653
@@ -52,4 +40,4 @@ species:
 - scientific: Mycteroperca venenosa
   role: primary
   confidence: 0.4827
-  identified_by: bioclip+bioclip-2.5
+  identified_by: bioclip-2.5

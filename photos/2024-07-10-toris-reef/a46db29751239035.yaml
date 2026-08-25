@@ -14,35 +14,23 @@ lon: -68.2806703
 gps_source: manual
 date_reviewed: true
 species_suggestions:
-  bioclip:
-    model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T18:20:51Z'
-    src_mtime: 1786160192.5405338
-    vocab: 9eb53da9d7d6
-    top:
-    - scientific: Aulostomus maculatus
-      confidence: 0.5871
-    - scientific: Ginglymostoma cirratum
-      confidence: 0.1138
-    - scientific: Gymnothorax miliaris
-      confidence: 0.0624
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-23T18:22:34Z'
+    created: '2026-08-25T03:36:41Z'
     src_mtime: 1786160192.5405338
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Diodon holocanthus
-      confidence: 0.5704
+      confidence: 0.5699
     - scientific: Diodon hystrix
-      confidence: 0.1167
+      confidence: 0.1166
     - scientific: Chilomycterus antillarum
       confidence: 0.0485
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-23T18:25:36Z'
+    created: '2026-08-25T03:38:37Z'
     src_mtime: 1786160192.5405338
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Diodon hystrix
       confidence: 0.9939

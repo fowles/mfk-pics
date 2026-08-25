@@ -11,26 +11,11 @@ variants:
   import_original_name: 297238ed373ceadc.webp
 date_reviewed: true
 species_suggestions:
-  bioclip:
-    model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T18:20:51Z'
-    src_mtime: 1786158723.3811955
-    vocab: 9eb53da9d7d6
-    top:
-    - scientific: Aulostomus maculatus
-      confidence: 0.0013
-    - scientific: Astrophyton muricatum
-      confidence: 0.001
-    - scientific: Pareques acuminatus
-      confidence: 0.0
-    absorbed_by:
-      scientific: Cirrhipathes leutkeni
-      confidence: 0.8513
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-23T18:22:34Z'
+    created: '2026-08-25T03:36:41Z'
     src_mtime: 1786158723.3811955
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Davidaster rubiginosus
       confidence: 0.0131
@@ -43,9 +28,9 @@ species_suggestions:
       confidence: 0.9703
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-23T18:25:36Z'
+    created: '2026-08-25T03:38:37Z'
     src_mtime: 1786158723.3811955
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Astrophyton muricatum
       confidence: 0.0096

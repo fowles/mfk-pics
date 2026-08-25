@@ -14,23 +14,11 @@ variants:
   import_original_name: 6aa637c021d5dd6a.webp
 date_reviewed: true
 species_suggestions:
-  bioclip:
-    model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T18:20:51Z'
-    src_mtime: 1786156580.6700673
-    vocab: 9eb53da9d7d6
-    top:
-    - scientific: Gymnothorax funebris
-      confidence: 0.5829
-    - scientific: Gymnothorax moringa
-      confidence: 0.2078
-    - scientific: Mycteroperca tigris
-      confidence: 0.07
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-23T18:22:34Z'
+    created: '2026-08-25T03:36:41Z'
     src_mtime: 1786156580.6700673
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Gymnothorax funebris
       confidence: 0.4886
@@ -40,9 +28,9 @@ species_suggestions:
       confidence: 0.0587
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-23T18:25:36Z'
+    created: '2026-08-25T03:38:37Z'
     src_mtime: 1786156580.6700673
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Gymnothorax miliaris
       confidence: 0.9904

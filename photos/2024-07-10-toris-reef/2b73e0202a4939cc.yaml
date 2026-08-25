@@ -14,23 +14,11 @@ lon: -68.2806703
 gps_source: manual
 date_reviewed: true
 species_suggestions:
-  bioclip:
-    model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T18:20:51Z'
-    src_mtime: 1786160192.5519433
-    vocab: 9eb53da9d7d6
-    top:
-    - scientific: Aulostomus maculatus
-      confidence: 0.6203
-    - scientific: Acanthostracion polygonius
-      confidence: 0.1594
-    - scientific: Epinephelus striatus
-      confidence: 0.0404
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-23T18:22:34Z'
+    created: '2026-08-25T03:36:41Z'
     src_mtime: 1786160192.5519433
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Epinephelus striatus
       confidence: 0.1974
@@ -40,12 +28,12 @@ species_suggestions:
       confidence: 0.1269
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-23T18:25:36Z'
+    created: '2026-08-25T03:38:37Z'
     src_mtime: 1786160192.5519433
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Diodon hystrix
-      confidence: 0.5122
+      confidence: 0.512
     - scientific: Mycteroperca bonaci
       confidence: 0.22
     - scientific: Epinephelus striatus
@@ -53,5 +41,5 @@ species_suggestions:
 species:
 - scientific: Diodon hystrix
   role: primary
-  confidence: 0.2561
+  confidence: 0.256
   identified_by: bioclip-2.5

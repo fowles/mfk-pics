@@ -11,18 +11,6 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
-  bioclip:
-    model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T17:28:05Z'
-    src_mtime: 1787436659.9994428
-    vocab: e269cc0058c6
-    top:
-    - scientific: Macolor niger
-      confidence: 0.4065
-    - scientific: Macolor macularis
-      confidence: 0.1904
-    - scientific: Melichthys niger
-      confidence: 0.0886
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
     created: '2026-08-23T17:30:46Z'

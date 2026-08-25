@@ -12,44 +12,32 @@ date_reviewed: true
 dive_window_reviewed: true
 rotation_applied: 270
 species_suggestions:
-  bioclip:
-    model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T18:20:51Z'
-    src_mtime: 1787178442.442586
-    vocab: 9eb53da9d7d6
-    top:
-    - scientific: Pseudorca crassidens
-      confidence: 0.887
-    - scientific: Sepioteuthis sepioidea
-      confidence: 0.0394
-    - scientific: Gymnothorax funebris
-      confidence: 0.0173
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-23T18:22:34Z'
+    created: '2026-08-25T03:36:41Z'
     src_mtime: 1787178442.442586
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Ginglymostoma cirratum
-      confidence: 0.5663
+      confidence: 0.5655
     - scientific: Urobatis jamaicensis
-      confidence: 0.0379
+      confidence: 0.0378
     - scientific: Aliger gigas
-      confidence: 0.0309
+      confidence: 0.0308
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-23T18:25:36Z'
+    created: '2026-08-25T03:38:37Z'
     src_mtime: 1787178442.442586
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Diodon hystrix
-      confidence: 0.6491
+      confidence: 0.6489
     - scientific: Parribacus antarcticus
-      confidence: 0.1746
+      confidence: 0.1745
     - scientific: Eretmochelys imbricata
       confidence: 0.0363
 species:
 - scientific: Diodon hystrix
   role: primary
-  confidence: 0.3246
+  confidence: 0.3245
   identified_by: bioclip-2.5

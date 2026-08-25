@@ -14,35 +14,23 @@ variants:
   import_original_name: cbea8c7e3f9be5b3.webp
 date_reviewed: true
 species_suggestions:
-  bioclip:
-    model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T18:20:51Z'
-    src_mtime: 1786156579.1561465
-    vocab: 9eb53da9d7d6
-    top:
-    - scientific: Thalassoma bifasciatum
-      confidence: 0.268
-    - scientific: Gymnothorax miliaris
-      confidence: 0.1075
-    - scientific: Gymnothorax funebris
-      confidence: 0.0902
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-23T18:22:34Z'
+    created: '2026-08-25T03:36:41Z'
     src_mtime: 1786156579.1561465
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Enchelycore carychroa
-      confidence: 0.4777
+      confidence: 0.4774
     - scientific: Myrichthys breviceps
-      confidence: 0.1841
+      confidence: 0.184
     - scientific: Octopus insularis
-      confidence: 0.0745
+      confidence: 0.0744
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-23T18:25:36Z'
+    created: '2026-08-25T03:38:37Z'
     src_mtime: 1786156579.1561465
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Gymnothorax vicinus
       confidence: 0.2871
@@ -53,5 +41,5 @@ species_suggestions:
 species:
 - scientific: Enchelycore carychroa
   role: primary
-  confidence: 0.2389
+  confidence: 0.2387
   identified_by: bioclip-2

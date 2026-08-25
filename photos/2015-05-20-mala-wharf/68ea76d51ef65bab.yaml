@@ -10,18 +10,6 @@ lon: -156.68646
 gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
-species_suggestions:
-  bioclip:
-    model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T01:04:39Z'
-    src_mtime: 1787441085.9113476
-    top:
-    - scientific: Macolor macularis
-      confidence: 0.234
-    - scientific: Macolor niger
-      confidence: 0.0865
-    - scientific: Sepia latimanus
-      confidence: 0.0812
 species: []
 culled: true
 species_reviewed:

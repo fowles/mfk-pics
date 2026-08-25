@@ -14,47 +14,35 @@ variants:
   import_original_name: edace3da8bdbc1d5.webp
 date_reviewed: true
 species_suggestions:
-  bioclip:
-    model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T18:20:51Z'
-    src_mtime: 1786071914.246912
-    vocab: 9eb53da9d7d6
-    top:
-    - scientific: Thalassoma bifasciatum
-      confidence: 0.235
-    - scientific: Gymnothorax funebris
-      confidence: 0.1213
-    - scientific: Aulostomus maculatus
-      confidence: 0.0644
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-23T18:22:34Z'
+    created: '2026-08-25T03:36:41Z'
     src_mtime: 1786071914.246912
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Cephalopholis cruentata
       confidence: 0.0517
     - scientific: Gymnothorax funebris
-      confidence: 0.0457
+      confidence: 0.0456
     - scientific: Holacanthus tricolor
-      confidence: 0.0446
+      confidence: 0.0445
     absorbed_by:
       scientific: Xestospongia muta
       confidence: 0.0634
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-23T18:25:36Z'
+    created: '2026-08-25T03:38:37Z'
     src_mtime: 1786071914.246912
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Sparisoma amplum
-      confidence: 0.1652
+      confidence: 0.1651
     - scientific: Mycteroperca tigris
-      confidence: 0.1436
+      confidence: 0.1435
     - scientific: Enchelycore carychroa
-      confidence: 0.0896
+      confidence: 0.0895
 species:
 - scientific: Sparisoma amplum
   role: primary
-  confidence: 0.0826
+  confidence: 0.0825
   identified_by: bioclip-2.5

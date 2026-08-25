@@ -14,38 +14,26 @@ variants:
   import_original_name: e56356c4c18d7c6c.webp
 date_reviewed: true
 species_suggestions:
-  bioclip:
-    model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T18:20:51Z'
-    src_mtime: 1786158750.6832337
-    vocab: 9eb53da9d7d6
-    top:
-    - scientific: Sparisoma viride
-      confidence: 0.159
-    - scientific: Scarus coelestinus
-      confidence: 0.1571
-    - scientific: Aulostomus maculatus
-      confidence: 0.1493
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-23T18:22:34Z'
+    created: '2026-08-25T03:36:41Z'
     src_mtime: 1786158750.6832337
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Holacanthus tricolor
-      confidence: 0.0542
+      confidence: 0.0541
     - scientific: Halichoeres garnoti
       confidence: 0.036
     - scientific: Halichoeres pictus
-      confidence: 0.0286
+      confidence: 0.0285
     absorbed_by:
       scientific: Orbicella annularis
-      confidence: 0.0861
+      confidence: 0.086
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-23T18:25:36Z'
+    created: '2026-08-25T03:38:37Z'
     src_mtime: 1786158750.6832337
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Mycteroperca tigris
       confidence: 0.3855

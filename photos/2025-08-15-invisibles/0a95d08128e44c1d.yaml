@@ -11,47 +11,32 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
-  bioclip:
-    model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T18:20:51Z'
-    src_mtime: 1786071955.242256
-    vocab: 9eb53da9d7d6
-    top:
-    - scientific: Octopus briareus
-      confidence: 0.2704
-    - scientific: Ogcocephalus nasutus
-      confidence: 0.1141
-    - scientific: Holothuria mexicana
-      confidence: 0.0303
-    absorbed_by:
-      scientific: Xestospongia muta
-      confidence: 0.5146
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-23T18:22:34Z'
+    created: '2026-08-25T03:36:41Z'
     src_mtime: 1786071955.242256
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Holothuria mexicana
-      confidence: 0.2376
+      confidence: 0.202
+    - scientific: Holothuria thomasi
+      confidence: 0.1497
     - scientific: Antennarius multiocellatus
-      confidence: 0.1156
-    - scientific: Bothus lunatus
-      confidence: 0.041
+      confidence: 0.0983
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-23T18:25:36Z'
+    created: '2026-08-25T03:38:37Z'
     src_mtime: 1786071955.242256
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Antennarius multiocellatus
-      confidence: 0.2945
+      confidence: 0.2943
     - scientific: Octopus briareus
-      confidence: 0.1388
+      confidence: 0.1387
     - scientific: Octopus insularis
       confidence: 0.0552
 species:
 - scientific: Antennarius multiocellatus
   role: primary
-  confidence: 0.205
+  confidence: 0.1963
   identified_by: bioclip-2+bioclip-2.5

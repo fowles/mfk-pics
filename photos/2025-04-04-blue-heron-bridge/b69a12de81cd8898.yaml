@@ -14,35 +14,23 @@ variants:
   import_original_name: a9347ed20c2c0873.webp
 date_reviewed: true
 species_suggestions:
-  bioclip:
-    model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T18:20:51Z'
-    src_mtime: 1786157494.958841
-    vocab: 9eb53da9d7d6
-    top:
-    - scientific: Ogcocephalus nasutus
-      confidence: 0.8211
-    - scientific: Dactylopterus volitans
-      confidence: 0.0933
-    - scientific: Trachinotus goodei
-      confidence: 0.0235
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-23T18:22:34Z'
+    created: '2026-08-25T03:36:41Z'
     src_mtime: 1786157494.958841
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Bothus lunatus
-      confidence: 0.7143
+      confidence: 0.7142
     - scientific: Hypanus americanus
       confidence: 0.0973
     - scientific: Urobatis jamaicensis
       confidence: 0.0742
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-23T18:25:36Z'
+    created: '2026-08-25T03:38:37Z'
     src_mtime: 1786157494.958841
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Bothus lunatus
       confidence: 0.4034
@@ -53,5 +41,5 @@ species_suggestions:
 species:
 - scientific: Bothus lunatus
   role: primary
-  confidence: 0.5589
+  confidence: 0.5588
   identified_by: bioclip-2+bioclip-2.5

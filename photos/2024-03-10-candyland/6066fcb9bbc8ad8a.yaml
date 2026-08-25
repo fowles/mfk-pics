@@ -15,35 +15,23 @@ variants:
 date_reviewed: true
 rotation_reviewed: true
 species_suggestions:
-  bioclip:
-    model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T18:20:51Z'
-    src_mtime: 1786158874.2642846
-    vocab: 9eb53da9d7d6
-    top:
-    - scientific: Stenorhynchus seticornis
-      confidence: 0.7588
-    - scientific: Stenopus hispidus
-      confidence: 0.0719
-    - scientific: Panulirus argus
-      confidence: 0.0683
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-23T18:22:34Z'
+    created: '2026-08-25T03:36:41Z'
     src_mtime: 1786158874.2642846
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Stenopus hispidus
-      confidence: 0.2181
+      confidence: 0.218
     - scientific: Panulirus argus
-      confidence: 0.0994
+      confidence: 0.0993
     - scientific: Serranus tigrinus
       confidence: 0.0268
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-23T18:25:36Z'
+    created: '2026-08-25T03:38:37Z'
     src_mtime: 1786158874.2642846
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Stenopus hispidus
       confidence: 0.8245
@@ -54,5 +42,5 @@ species_suggestions:
 species:
 - scientific: Stenopus hispidus
   role: primary
-  confidence: 0.5213
-  identified_by: bioclip+bioclip-2+bioclip-2.5
+  confidence: 0.5212
+  identified_by: bioclip-2+bioclip-2.5

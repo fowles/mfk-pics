@@ -13,18 +13,6 @@ variants:
   file: a1fec25f5f8b3a33.dive-plus.webp
   import_original_name: 38b085a80128e1a3.webp
 species_suggestions:
-  bioclip:
-    model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T18:20:51Z'
-    src_mtime: 1787445730.5332406
-    vocab: d07e6f895399
-    top:
-    - scientific: Epinephelus labriformis
-      confidence: 0.8614
-    - scientific: Epinephelus analogus
-      confidence: 0.0522
-    - scientific: Nicholsina denticulata
-      confidence: 0.0418
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
     created: '2026-08-23T18:22:34Z'

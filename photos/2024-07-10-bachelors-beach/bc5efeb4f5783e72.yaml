@@ -14,41 +14,29 @@ variants:
   import_original_name: 1467a0146f215a82.webp
 date_reviewed: true
 species_suggestions:
-  bioclip:
-    model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T18:20:51Z'
-    src_mtime: 1786158742.3844
-    vocab: 9eb53da9d7d6
-    top:
-    - scientific: Aulostomus maculatus
-      confidence: 0.4355
-    - scientific: Astrophyton muricatum
-      confidence: 0.3047
-    - scientific: Gymnothorax funebris
-      confidence: 0.0175
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-23T18:22:34Z'
+    created: '2026-08-25T03:36:41Z'
     src_mtime: 1786158742.3844
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Epinephelus guttatus
-      confidence: 0.0526
+      confidence: 0.0525
     - scientific: Panulirus argus
       confidence: 0.0388
     - scientific: Cephalopholis cruentata
-      confidence: 0.0344
+      confidence: 0.0343
     absorbed_by:
       scientific: Acropora cervicornis
-      confidence: 0.058
+      confidence: 0.0579
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-23T18:25:36Z'
+    created: '2026-08-25T03:38:37Z'
     src_mtime: 1786158742.3844
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Stegastes partitus
-      confidence: 0.4116
+      confidence: 0.4115
     - scientific: Monacanthus tuckeri
       confidence: 0.0545
     - scientific: Davidaster rubiginosus
@@ -56,5 +44,5 @@ species_suggestions:
 species:
 - scientific: Stegastes partitus
   role: primary
-  confidence: 0.2058
+  confidence: 0.2057
   identified_by: bioclip-2.5

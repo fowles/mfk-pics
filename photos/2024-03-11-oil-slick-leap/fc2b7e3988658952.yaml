@@ -14,18 +14,6 @@ variants:
   import_original_name: 6f8996ec7bf1ac4f.webp
 date_reviewed: true
 species_suggestions:
-  bioclip:
-    model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T18:20:51Z'
-    src_mtime: 1786158973.5150542
-    vocab: 9eb53da9d7d6
-    top:
-    - scientific: Elagatis bipinnulata
-      confidence: 0.9319
-    - scientific: Caranx ruber
-      confidence: 0.0413
-    - scientific: Katsuwonus pelamis
-      confidence: 0.0216
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
     created: '2026-08-23T18:22:34Z'

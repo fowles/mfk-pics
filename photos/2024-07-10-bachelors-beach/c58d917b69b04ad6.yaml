@@ -14,23 +14,11 @@ variants:
   import_original_name: 71f98f033e27be85.webp
 date_reviewed: true
 species_suggestions:
-  bioclip:
-    model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T18:20:51Z'
-    src_mtime: 1786158743.4959939
-    vocab: 9eb53da9d7d6
-    top:
-    - scientific: Rhincodon typus
-      confidence: 0.8981
-    - scientific: Megaptera novaeangliae
-      confidence: 0.0422
-    - scientific: Hippocampus erectus
-      confidence: 0.0137
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-23T18:22:34Z'
+    created: '2026-08-25T03:36:41Z'
     src_mtime: 1786158743.4959939
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Monacanthus tuckeri
       confidence: 0.0659
@@ -40,12 +28,12 @@ species_suggestions:
       confidence: 0.0311
     absorbed_by:
       scientific: Cirrhipathes leutkeni
-      confidence: 0.5543
+      confidence: 0.5542
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-23T18:25:36Z'
+    created: '2026-08-25T03:38:37Z'
     src_mtime: 1786158743.4959939
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Monacanthus tuckeri
       confidence: 0.0428

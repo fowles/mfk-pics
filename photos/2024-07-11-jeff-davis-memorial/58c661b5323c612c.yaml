@@ -11,38 +11,26 @@ gps_source: dive_site
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
-  bioclip:
-    model: hf-hub:imageomics/bioclip
-    created: '2026-08-23T18:20:51Z'
-    src_mtime: 1786159556.6784701
-    vocab: 9eb53da9d7d6
-    top:
-    - scientific: Epinephelus striatus
-      confidence: 0.68
-    - scientific: Amblycirrhitus pinos
-      confidence: 0.2259
-    - scientific: Hypoplectrus indigo
-      confidence: 0.0422
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-23T18:22:34Z'
+    created: '2026-08-25T03:36:41Z'
     src_mtime: 1786159556.6784701
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Abudefduf saxatilis
-      confidence: 0.321
+      confidence: 0.3209
     - scientific: Epinephelus striatus
       confidence: 0.2121
     - scientific: Equetus punctatus
       confidence: 0.0689
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-23T18:25:36Z'
+    created: '2026-08-25T03:38:37Z'
     src_mtime: 1786159556.6784701
-    vocab: 9eb53da9d7d6
+    vocab: 14ddcc7dceff
     top:
     - scientific: Abudefduf saxatilis
-      confidence: 0.9033
+      confidence: 0.903
     - scientific: Chaetodipterus faber
       confidence: 0.0484
     - scientific: Mycteroperca tigris
@@ -50,5 +38,5 @@ species_suggestions:
 species:
 - scientific: Abudefduf saxatilis
   role: primary
-  confidence: 0.6121
+  confidence: 0.6119
   identified_by: bioclip-2+bioclip-2.5
