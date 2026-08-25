@@ -38,5 +38,30 @@ species_suggestions:
 species:
 - scientific: Acanthurus coeruleus
   role: primary
-  confidence: 0.3738
-  identified_by: bioclip-2+bioclip-2.5
+  identified_by: human
+  confirmed_from: bioclip-2+bioclip-2.5
+  reviewed_by: matt
+- scientific: Scarus vetula
+  role: secondary
+  identified_by: human
+  reviewed_by: matt
+- scientific: Melichthys niger
+  role: secondary
+  identified_by: human
+  reviewed_by: matt
+- scientific: Acanthurus tractus
+  role: secondary
+  identified_by: human
+  reviewed_by: matt
+- scientific: Mulloidichthys martinicus
+  role: secondary
+  identified_by: human
+  reviewed_by: matt
+- scientific: Acanthurus chirurgus
+  role: secondary
+  identified_by: human
+  confirmed_from: bioclip-2+bioclip-2.5
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary
