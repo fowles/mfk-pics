@@ -13,30 +13,30 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-25T03:36:41Z'
+    created: '2026-08-25T05:43:58Z'
     src_mtime: 1786157491.592458
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Cassiopea xamachana
-      confidence: 0.5592
+      confidence: 0.7755
     - scientific: Chilomycterus schoepfii
-      confidence: 0.1609
-    - scientific: Oreaster reticulatus
-      confidence: 0.041
+      confidence: 0.0641
+    - scientific: Osachila antillensis
+      confidence: 0.0342
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-25T03:38:37Z'
+    created: '2026-08-25T05:46:15Z'
     src_mtime: 1786157491.592458
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Chilomycterus antillarum
-      confidence: 0.3658
+      confidence: 0.3019
     - scientific: Chilomycterus schoepfii
-      confidence: 0.1642
-    - scientific: Osachila antillensis
-      confidence: 0.0868
+      confidence: 0.1517
+    - scientific: Petrochirus diogenes
+      confidence: 0.1031
 species:
 - scientific: Cassiopea xamachana
   role: primary
-  confidence: 0.2796
+  confidence: 0.3877
   identified_by: bioclip-2

@@ -13,28 +13,28 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-23T17:30:46Z'
+    created: '2026-08-25T05:43:58Z'
     src_mtime: 1787441088.7614462
-    vocab: e269cc0058c6
+    vocab: 43f646ed780c
     top:
-    - scientific: Aulostomus chinensis
-      confidence: 0.0409
     - scientific: Cheilio inermis
-      confidence: 0.0299
-    - scientific: Xanthichthys caeruleolineatus
-      confidence: 0.0268
+      confidence: 0.0515
+    - scientific: Coris aygula
+      confidence: 0.0449
+    - scientific: Aulostomus chinensis
+      confidence: 0.0402
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-23T17:36:20Z'
+    created: '2026-08-25T05:46:15Z'
     src_mtime: 1787441088.7614462
-    vocab: e269cc0058c6
+    vocab: 43f646ed780c
     top:
     - scientific: Bohadschia argus
-      confidence: 0.1456
+      confidence: 0.1789
+    - scientific: Thelenota ananas
+      confidence: 0.086
     - scientific: Sepia pharaonis
-      confidence: 0.0955
-    - scientific: Bothus mancus
-      confidence: 0.0878
+      confidence: 0.0763
 species:
 - scientific: Ostracion meleagris
   role: primary

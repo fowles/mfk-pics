@@ -16,32 +16,32 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-25T03:36:41Z'
+    created: '2026-08-25T05:43:58Z'
     src_mtime: 1786156362.0286326
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Holothuria thomasi
-      confidence: 0.1941
+      confidence: 0.1929
     - scientific: Gymnothorax miliaris
-      confidence: 0.1054
-    - scientific: Holothuria mexicana
-      confidence: 0.0357
+      confidence: 0.0528
+    - scientific: Hermodice carunculata
+      confidence: 0.0367
     absorbed_by:
-      scientific: Palythoa caribaeorum
-      confidence: 0.2999
+      scientific: Porites porites
+      confidence: 0.2525
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-25T03:38:37Z'
+    created: '2026-08-25T05:46:15Z'
     src_mtime: 1786156362.0286326
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Gymnothorax miliaris
-      confidence: 0.0082
-    - scientific: Gymnothorax moringa
-      confidence: 0.0067
+      confidence: 0.0045
     - scientific: Holothuria mexicana
-      confidence: 0.0066
+      confidence: 0.0032
+    - scientific: Gymnothorax moringa
+      confidence: 0.0028
     absorbed_by:
       scientific: Orbicella annularis
-      confidence: 0.5447
+      confidence: 0.5596
 species: []

@@ -13,30 +13,30 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-25T03:36:41Z'
+    created: '2026-08-25T05:43:58Z'
     src_mtime: 1786159786.9642348
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Carcharhinus perezi
-      confidence: 0.8161
+      confidence: 0.8025
     - scientific: Negaprion brevirostris
-      confidence: 0.1084
+      confidence: 0.1001
     - scientific: Carcharhinus leucas
-      confidence: 0.0252
+      confidence: 0.0479
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-25T03:38:37Z'
+    created: '2026-08-25T05:46:15Z'
     src_mtime: 1786159786.9642348
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Carcharhinus perezi
-      confidence: 0.8987
+      confidence: 0.6839
     - scientific: Sphyrna lewini
-      confidence: 0.0261
+      confidence: 0.1297
     - scientific: Sphyrna mokarran
-      confidence: 0.02
+      confidence: 0.0781
 species:
 - scientific: Carcharhinus perezi
   role: primary
-  confidence: 0.8574
+  confidence: 0.7432
   identified_by: bioclip-2+bioclip-2.5

@@ -15,28 +15,28 @@ variants:
 species_suggestions:
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-23T18:22:34Z'
+    created: '2026-08-25T05:43:58Z'
     src_mtime: 1787445730.44986
-    vocab: d07e6f895399
+    vocab: 2184a73cc476
     top:
-    - scientific: Mycteroperca jordani
-      confidence: 0.414
-    - scientific: Mycteroperca xenarcha
-      confidence: 0.2774
     - scientific: Mycteroperca rosacea
-      confidence: 0.2351
+      confidence: 0.2628
+    - scientific: Echeneis naucrates
+      confidence: 0.2481
+    - scientific: Mycteroperca xenarcha
+      confidence: 0.2458
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-23T18:25:36Z'
+    created: '2026-08-25T05:46:15Z'
     src_mtime: 1787445730.44986
-    vocab: d07e6f895399
+    vocab: 2184a73cc476
     top:
-    - scientific: Mycteroperca jordani
-      confidence: 0.4918
-    - scientific: Mycteroperca prionura
-      confidence: 0.24
     - scientific: Echeneis naucrates
-      confidence: 0.1104
+      confidence: 0.783
+    - scientific: Mycteroperca jordani
+      confidence: 0.1009
+    - scientific: Mycteroperca prionura
+      confidence: 0.0315
 species:
 - scientific: Mycteroperca xenarcha
   role: primary

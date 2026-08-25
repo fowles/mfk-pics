@@ -16,30 +16,30 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-25T03:36:41Z'
+    created: '2026-08-25T05:43:58Z'
     src_mtime: 1786156579.5166905
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Holacanthus ciliaris
-      confidence: 0.9014
+      confidence: 0.9313
     - scientific: Acanthurus coeruleus
-      confidence: 0.0337
+      confidence: 0.0174
     - scientific: Scarus coeruleus
-      confidence: 0.0136
+      confidence: 0.0064
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-25T03:38:37Z'
+    created: '2026-08-25T05:46:15Z'
     src_mtime: 1786156579.5166905
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Holacanthus ciliaris
-      confidence: 0.9996
+      confidence: 0.9995
     - scientific: Acanthurus coeruleus
-      confidence: 0.0001
-    - scientific: Acanthurus chirurgus
+      confidence: 0.0003
+    - scientific: Microspathodon chrysurus
       confidence: 0.0001
 species:
 - scientific: Holacanthus ciliaris
   role: primary
-  confidence: 0.9505
+  confidence: 0.9654
   identified_by: bioclip-2+bioclip-2.5

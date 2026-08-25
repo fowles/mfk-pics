@@ -13,30 +13,30 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-25T03:36:41Z'
+    created: '2026-08-25T05:43:58Z'
     src_mtime: 1786159786.8123724
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Carcharhinus perezi
-      confidence: 0.9611
-    - scientific: Carcharhinus longimanus
-      confidence: 0.0121
+      confidence: 0.9453
     - scientific: Carcharhinus falciformis
-      confidence: 0.0091
+      confidence: 0.0204
+    - scientific: Carcharhinus longimanus
+      confidence: 0.0133
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-25T03:38:37Z'
+    created: '2026-08-25T05:46:15Z'
     src_mtime: 1786159786.8123724
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
-    - scientific: Carcharhinus perezi
-      confidence: 0.7649
     - scientific: Carcharhinus falciformis
-      confidence: 0.2175
+      confidence: 0.5037
+    - scientific: Carcharhinus perezi
+      confidence: 0.4607
     - scientific: Carcharhinus limbatus
-      confidence: 0.016
+      confidence: 0.0318
 species:
 - scientific: Carcharhinus perezi
   role: primary
-  confidence: 0.863
+  confidence: 0.703
   identified_by: bioclip-2+bioclip-2.5

@@ -14,30 +14,30 @@ rotation_reviewed: true
 species_suggestions:
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-25T03:36:41Z'
+    created: '2026-08-25T05:43:58Z'
     src_mtime: 1786156688.273555
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Eretmochelys imbricata
-      confidence: 0.4919
+      confidence: 0.445
     - scientific: Chelonia mydas
-      confidence: 0.3833
-    - scientific: Caretta caretta
-      confidence: 0.0383
+      confidence: 0.4425
+    - scientific: Echeneis naucrates
+      confidence: 0.0311
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-25T03:38:37Z'
+    created: '2026-08-25T05:46:15Z'
     src_mtime: 1786156688.273555
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Eretmochelys imbricata
-      confidence: 0.5759
+      confidence: 0.52
     - scientific: Chelonia mydas
-      confidence: 0.4241
+      confidence: 0.48
     - scientific: Caretta caretta
       confidence: 0.0
 species:
 - scientific: Eretmochelys imbricata
   role: primary
-  confidence: 0.5339
+  confidence: 0.4825
   identified_by: bioclip-2+bioclip-2.5

@@ -16,30 +16,30 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-25T03:36:41Z'
+    created: '2026-08-25T05:43:58Z'
     src_mtime: 1786156578.6311758
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
-    - scientific: Periclimenes yucatanicus
-      confidence: 0.4769
     - scientific: Ancylomenes pedersoni
-      confidence: 0.2696
+      confidence: 0.4285
+    - scientific: Periclimenes yucatanicus
+      confidence: 0.2396
     - scientific: Stenopus hispidus
-      confidence: 0.0351
+      confidence: 0.0576
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-25T03:38:37Z'
+    created: '2026-08-25T05:46:15Z'
     src_mtime: 1786156578.6311758
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Ancylomenes pedersoni
-      confidence: 0.9888
+      confidence: 0.9949
     - scientific: Periclimenes yucatanicus
-      confidence: 0.0068
+      confidence: 0.0022
     - scientific: Canthigaster rostrata
-      confidence: 0.0004
+      confidence: 0.0005
 species:
 - scientific: Ancylomenes pedersoni
   role: primary
-  confidence: 0.6292
+  confidence: 0.7117
   identified_by: bioclip-2+bioclip-2.5

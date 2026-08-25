@@ -16,30 +16,30 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-25T03:36:41Z'
+    created: '2026-08-25T05:43:58Z'
     src_mtime: 1786156586.0824335
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Cantherhines pullus
-      confidence: 0.8107
+      confidence: 0.9089
     - scientific: Aluterus scriptus
-      confidence: 0.0913
-    - scientific: Acanthostracion polygonius
-      confidence: 0.0137
+      confidence: 0.0362
+    - scientific: Haemulon sciurus
+      confidence: 0.0093
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-25T03:38:37Z'
+    created: '2026-08-25T05:46:15Z'
     src_mtime: 1786156586.0824335
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Cantherhines pullus
-      confidence: 0.9803
-    - scientific: Acanthostracion polygonius
-      confidence: 0.0018
-    - scientific: Octopus insularis
-      confidence: 0.0018
+      confidence: 0.9891
+    - scientific: Monacanthus tuckeri
+      confidence: 0.0027
+    - scientific: Cantherhines macrocerus
+      confidence: 0.0014
 species:
 - scientific: Cantherhines pullus
   role: primary
-  confidence: 0.8955
+  confidence: 0.949
   identified_by: bioclip-2+bioclip-2.5

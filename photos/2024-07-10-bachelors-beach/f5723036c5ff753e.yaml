@@ -13,33 +13,33 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-25T03:36:41Z'
+    created: '2026-08-25T05:43:58Z'
     src_mtime: 1786158723.7715354
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Gymnothorax funebris
-      confidence: 0.0884
-    - scientific: Cephalopholis cruentata
-      confidence: 0.049
-    - scientific: Aulostomus maculatus
+      confidence: 0.192
+    - scientific: Myrichthys breviceps
       confidence: 0.0472
+    - scientific: Acanthostracion polygonius
+      confidence: 0.0329
     absorbed_by:
       scientific: Antillogorgia americana
-      confidence: 0.1633
+      confidence: 0.2
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-25T03:38:37Z'
+    created: '2026-08-25T05:46:15Z'
     src_mtime: 1786158723.7715354
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Mycteroperca tigris
-      confidence: 0.3671
-    - scientific: Gymnothorax funebris
-      confidence: 0.3481
+      confidence: 0.5283
     - scientific: Epinephelus striatus
-      confidence: 0.1161
+      confidence: 0.1616
+    - scientific: Gymnothorax funebris
+      confidence: 0.1111
 species:
-- scientific: Gymnothorax funebris
+- scientific: Mycteroperca tigris
   role: primary
-  confidence: 0.2182
-  identified_by: bioclip-2+bioclip-2.5
+  confidence: 0.2641
+  identified_by: bioclip-2.5

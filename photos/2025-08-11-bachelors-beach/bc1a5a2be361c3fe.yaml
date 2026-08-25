@@ -13,30 +13,30 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-25T03:36:41Z'
+    created: '2026-08-25T05:43:58Z'
     src_mtime: 1786157878.8157535
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Enchelycore carychroa
-      confidence: 0.5839
+      confidence: 0.6124
     - scientific: Gymnothorax vicinus
-      confidence: 0.1779
+      confidence: 0.1693
     - scientific: Myrichthys breviceps
-      confidence: 0.1242
+      confidence: 0.1112
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-25T03:38:37Z'
+    created: '2026-08-25T05:46:15Z'
     src_mtime: 1786157878.8157535
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Gymnothorax moringa
-      confidence: 0.785
+      confidence: 0.8052
     - scientific: Enchelycore carychroa
-      confidence: 0.2122
-    - scientific: Gymnothorax miliaris
-      confidence: 0.0017
+      confidence: 0.1875
+    - scientific: Hermodice carunculata
+      confidence: 0.0042
 species:
-- scientific: Enchelycore carychroa
+- scientific: Gymnothorax moringa
   role: primary
-  confidence: 0.3981
-  identified_by: bioclip-2+bioclip-2.5
+  confidence: 0.4026
+  identified_by: bioclip-2.5

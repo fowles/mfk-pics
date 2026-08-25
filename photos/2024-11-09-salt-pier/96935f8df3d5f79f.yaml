@@ -16,30 +16,30 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-25T03:36:41Z'
+    created: '2026-08-25T05:43:58Z'
     src_mtime: 1786156582.8895175
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
-    - scientific: Diodon hystrix
-      confidence: 0.7152
     - scientific: Epinephelus guttatus
-      confidence: 0.1439
-    - scientific: Ogcocephalus radiatus
-      confidence: 0.0512
+      confidence: 0.6207
+    - scientific: Epinephelus adscensionis
+      confidence: 0.128
+    - scientific: Lactophrys bicaudalis
+      confidence: 0.1214
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-25T03:38:37Z'
+    created: '2026-08-25T05:46:15Z'
     src_mtime: 1786156582.8895175
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Diodon hystrix
-      confidence: 0.9996
+      confidence: 0.9998
     - scientific: Lactophrys bicaudalis
-      confidence: 0.0002
-    - scientific: Epinephelus guttatus
       confidence: 0.0001
+    - scientific: Diodon holocanthus
+      confidence: 0.0
 species:
 - scientific: Diodon hystrix
   role: primary
-  confidence: 0.8574
-  identified_by: bioclip-2+bioclip-2.5
+  confidence: 0.4999
+  identified_by: bioclip-2.5

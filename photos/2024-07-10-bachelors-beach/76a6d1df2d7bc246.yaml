@@ -13,30 +13,30 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-25T03:36:41Z'
+    created: '2026-08-25T05:43:58Z'
     src_mtime: 1786158724.3323846
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Equetus punctatus
-      confidence: 0.9034
+      confidence: 0.9721
     - scientific: Pareques acuminatus
-      confidence: 0.0899
+      confidence: 0.0205
     - scientific: Pomacanthus arcuatus
-      confidence: 0.0044
+      confidence: 0.0056
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-25T03:38:37Z'
+    created: '2026-08-25T05:46:15Z'
     src_mtime: 1786158724.3323846
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Equetus punctatus
-      confidence: 0.991
+      confidence: 0.9979
     - scientific: Pareques acuminatus
-      confidence: 0.0089
+      confidence: 0.0021
     - scientific: Equetus lanceolatus
-      confidence: 0.0001
+      confidence: 0.0
 species:
 - scientific: Equetus punctatus
   role: primary
-  confidence: 0.9472
+  confidence: 0.985
   identified_by: bioclip-2+bioclip-2.5

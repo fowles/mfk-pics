@@ -15,28 +15,28 @@ variants:
 species_suggestions:
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-23T18:22:34Z'
+    created: '2026-08-25T05:43:58Z'
     src_mtime: 1787445730.2149813
-    vocab: d07e6f895399
+    vocab: 2184a73cc476
     top:
-    - scientific: Mycteroperca xenarcha
-      confidence: 0.2761
     - scientific: Lutjanus novemfasciatus
-      confidence: 0.2426
+      confidence: 0.7374
+    - scientific: Mycteroperca xenarcha
+      confidence: 0.0512
     - scientific: Mycteroperca jordani
-      confidence: 0.2371
+      confidence: 0.0394
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-23T18:25:36Z'
+    created: '2026-08-25T05:46:15Z'
     src_mtime: 1787445730.2149813
-    vocab: d07e6f895399
+    vocab: 2184a73cc476
     top:
     - scientific: Echeneis naucrates
-      confidence: 0.6088
-    - scientific: Kyphosus vaigiensis
-      confidence: 0.1903
+      confidence: 0.861
     - scientific: Girella simplicidens
-      confidence: 0.0707
+      confidence: 0.0738
+    - scientific: Seriola rivoliana
+      confidence: 0.0193
 species:
 - scientific: Mycteroperca xenarcha
   role: primary

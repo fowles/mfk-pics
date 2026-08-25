@@ -12,28 +12,28 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-23T18:22:34Z'
+    created: '2026-08-25T05:43:58Z'
     src_mtime: 1786159807.9003747
-    vocab: 9eb53da9d7d6
+    vocab: f5caf25a4194
     top:
     - scientific: Chromis cyanea
-      confidence: 0.4253
-    - scientific: Caranx ruber
-      confidence: 0.0999
+      confidence: 0.3224
     - scientific: Chromis multilineata
-      confidence: 0.0765
+      confidence: 0.1834
+    - scientific: Caranx ruber
+      confidence: 0.1421
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-23T18:25:36Z'
+    created: '2026-08-25T05:46:15Z'
     src_mtime: 1786159807.9003747
-    vocab: 9eb53da9d7d6
+    vocab: f5caf25a4194
     top:
-    - scientific: Chromis cyanea
-      confidence: 0.7221
     - scientific: Clepticus parrae
-      confidence: 0.2445
+      confidence: 0.6447
+    - scientific: Chromis cyanea
+      confidence: 0.326
     - scientific: Chromis multilineata
-      confidence: 0.0164
+      confidence: 0.0198
 species:
 - scientific: Clepticus parrae
   role: primary

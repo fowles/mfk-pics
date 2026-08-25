@@ -13,30 +13,29 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-25T03:36:41Z'
+    created: '2026-08-25T05:43:58Z'
     src_mtime: 1786159775.3092415
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
-    - scientific: Clepticus parrae
-      confidence: 0.0743
-    - scientific: Holacanthus tricolor
-      confidence: 0.0594
     - scientific: Pterois volitans
-      confidence: 0.0379
+      confidence: 0.1207
+    - scientific: Halichoeres pictus
+      confidence: 0.0495
+    - scientific: Thalassoma bifasciatum
+      confidence: 0.0434
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-25T03:38:37Z'
+    created: '2026-08-25T05:46:15Z'
     src_mtime: 1786159775.3092415
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Halichoeres garnoti
-      confidence: 0.1976
+      confidence: 0.1917
     - scientific: Thalassoma bifasciatum
-      confidence: 0.0556
+      confidence: 0.0671
     - scientific: Scarus taeniopterus
-      confidence: 0.0306
-species:
-- scientific: Halichoeres garnoti
-  role: primary
-  confidence: 0.0988
-  identified_by: bioclip-2.5
+      confidence: 0.0115
+    absorbed_by:
+      scientific: Aplysina archeri
+      confidence: 0.3169
+species: []

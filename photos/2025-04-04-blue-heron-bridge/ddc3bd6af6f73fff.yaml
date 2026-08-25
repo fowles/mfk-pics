@@ -13,30 +13,30 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-25T03:36:41Z'
+    created: '2026-08-25T05:43:58Z'
     src_mtime: 1786157491.3555253
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Serranus tortugarum
-      confidence: 0.2569
-    - scientific: Lutjanus synagris
-      confidence: 0.1449
-    - scientific: Holocentrus adscensionis
-      confidence: 0.0851
+      confidence: 0.1545
+    - scientific: Halichoeres maculipinna
+      confidence: 0.1127
+    - scientific: Haemulon plumierii
+      confidence: 0.1077
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-25T03:38:37Z'
+    created: '2026-08-25T05:46:15Z'
     src_mtime: 1786157491.3555253
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
-    - scientific: Scarus iseri
-      confidence: 0.2882
     - scientific: Serranus tabacarius
-      confidence: 0.2546
-    - scientific: Sphoeroides spengleri
-      confidence: 0.114
+      confidence: 0.3859
+    - scientific: Canthigaster rostrata
+      confidence: 0.2142
+    - scientific: Scarus iseri
+      confidence: 0.0828
 species:
-- scientific: Scarus iseri
+- scientific: Serranus tabacarius
   role: primary
-  confidence: 0.1441
+  confidence: 0.193
   identified_by: bioclip-2.5

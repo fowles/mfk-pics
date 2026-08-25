@@ -12,28 +12,28 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-23T18:22:34Z'
+    created: '2026-08-25T05:43:58Z'
     src_mtime: 1786159807.9583063
-    vocab: 9eb53da9d7d6
+    vocab: f5caf25a4194
     top:
-    - scientific: Chromis cyanea
-      confidence: 0.3751
     - scientific: Chromis multilineata
-      confidence: 0.2781
-    - scientific: Clepticus parrae
-      confidence: 0.1731
+      confidence: 0.5602
+    - scientific: Chromis cyanea
+      confidence: 0.2607
+    - scientific: Haemulon aurolineatum
+      confidence: 0.0537
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-23T18:25:36Z'
+    created: '2026-08-25T05:46:15Z'
     src_mtime: 1786159807.9583063
-    vocab: 9eb53da9d7d6
+    vocab: f5caf25a4194
     top:
     - scientific: Chromis cyanea
-      confidence: 0.9327
-    - scientific: Chromis multilineata
-      confidence: 0.0419
+      confidence: 0.5495
     - scientific: Clepticus parrae
-      confidence: 0.024
+      confidence: 0.3795
+    - scientific: Chromis multilineata
+      confidence: 0.0696
 species:
 - scientific: Clepticus parrae
   role: primary

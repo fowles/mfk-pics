@@ -16,26 +16,26 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-23T18:22:34Z'
+    created: '2026-08-25T05:43:58Z'
     src_mtime: 1786158875.8386874
-    vocab: 9eb53da9d7d6
+    vocab: f5caf25a4194
     top:
     - scientific: Equetus punctatus
-      confidence: 0.8911
+      confidence: 0.7291
     - scientific: Chaetodon striatus
-      confidence: 0.0922
+      confidence: 0.2512
     - scientific: Equetus lanceolatus
-      confidence: 0.0058
+      confidence: 0.0072
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-23T18:25:36Z'
+    created: '2026-08-25T05:46:15Z'
     src_mtime: 1786158875.8386874
-    vocab: 9eb53da9d7d6
+    vocab: f5caf25a4194
     top:
     - scientific: Equetus punctatus
-      confidence: 0.9946
+      confidence: 0.9928
     - scientific: Equetus lanceolatus
-      confidence: 0.0053
+      confidence: 0.007
     - scientific: Pomacanthus paru
       confidence: 0.0001
 species:

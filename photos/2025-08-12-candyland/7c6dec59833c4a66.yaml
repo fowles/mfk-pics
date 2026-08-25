@@ -14,30 +14,30 @@ rotation_reviewed: true
 species_suggestions:
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-25T03:36:41Z'
+    created: '2026-08-25T05:43:58Z'
     src_mtime: 1786158136.7454534
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Elysia crispata
-      confidence: 0.8308
+      confidence: 0.9756
     - scientific: Hermodice carunculata
-      confidence: 0.0343
+      confidence: 0.0083
     - scientific: Cyphoma gibbosum
-      confidence: 0.014
+      confidence: 0.0015
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-25T03:38:37Z'
+    created: '2026-08-25T05:46:15Z'
     src_mtime: 1786158136.7454534
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Elysia crispata
       confidence: 0.9999
     - scientific: Hermodice carunculata
-      confidence: 0.0001
-    - scientific: Lactophrys triqueter
+      confidence: 0.0
+    - scientific: Scorpaena plumieri
       confidence: 0.0
 species:
 - scientific: Elysia crispata
   role: primary
-  confidence: 0.9153
+  confidence: 0.9878
   identified_by: bioclip-2+bioclip-2.5

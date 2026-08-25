@@ -13,30 +13,30 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-25T03:36:41Z'
+    created: '2026-08-25T05:43:58Z'
     src_mtime: 1786156811.9694598
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
-    - scientific: Lutjanus jocu
-      confidence: 0.5376
     - scientific: Lutjanus apodus
-      confidence: 0.4338
+      confidence: 0.4936
+    - scientific: Lutjanus jocu
+      confidence: 0.4775
     - scientific: Lutjanus analis
-      confidence: 0.0098
+      confidence: 0.0123
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-25T03:38:37Z'
+    created: '2026-08-25T05:46:15Z'
     src_mtime: 1786156811.9694598
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Lutjanus apodus
-      confidence: 0.8797
+      confidence: 0.9746
     - scientific: Lutjanus jocu
-      confidence: 0.1203
-    - scientific: Haemulon plumierii
+      confidence: 0.0254
+    - scientific: Lutjanus analis
       confidence: 0.0
 species:
 - scientific: Lutjanus apodus
   role: primary
-  confidence: 0.6568
+  confidence: 0.7341
   identified_by: bioclip-2+bioclip-2.5

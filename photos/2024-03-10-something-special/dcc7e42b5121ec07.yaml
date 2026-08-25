@@ -13,31 +13,31 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-25T03:36:41Z'
+    created: '2026-08-25T05:43:58Z'
     src_mtime: 1787278469.2865431
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Serranus tigrinus
-      confidence: 0.9888
-    - scientific: Serranus tortugarum
-      confidence: 0.0067
+      confidence: 0.8939
     - scientific: Amblycirrhitus pinos
-      confidence: 0.0008
+      confidence: 0.0183
+    - scientific: Mycteroperca tigris
+      confidence: 0.0152
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-25T03:38:37Z'
+    created: '2026-08-25T05:46:15Z'
     src_mtime: 1787278469.2865431
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Serranus tigrinus
-      confidence: 0.9806
+      confidence: 0.9756
     - scientific: Serranus tortugarum
-      confidence: 0.0175
-    - scientific: Halichoeres radiatus
-      confidence: 0.0009
+      confidence: 0.0144
+    - scientific: Mycteroperca tigris
+      confidence: 0.0043
 species:
 - scientific: Serranus tigrinus
   role: primary
-  confidence: 0.9847
+  confidence: 0.9347
   identified_by: bioclip-2+bioclip-2.5
 rotation_applied: 90

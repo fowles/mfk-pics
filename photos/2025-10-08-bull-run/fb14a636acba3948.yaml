@@ -12,31 +12,31 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-25T03:36:41Z'
+    created: '2026-08-25T05:43:58Z'
     src_mtime: 1786159806.745376
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
+    - scientific: Pterois volitans
+      confidence: 0.002
     - scientific: Holocentrus adscensionis
-      confidence: 0.0067
-    - scientific: Petrochirus diogenes
-      confidence: 0.0018
-    - scientific: Acanthemblemaria spinosa
       confidence: 0.0012
+    - scientific: Stenorhynchus seticornis
+      confidence: 0.001
     absorbed_by:
       scientific: Xestospongia muta
-      confidence: 0.8845
+      confidence: 0.8086
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-25T03:38:37Z'
+    created: '2026-08-25T05:46:15Z'
     src_mtime: 1786159806.745376
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Stegastes partitus
       confidence: 0.0
     - scientific: Rypticus saponaceus
       confidence: 0.0
-    - scientific: Astrophyton muricatum
+    - scientific: Thalassoma bifasciatum
       confidence: 0.0
     absorbed_by:
       scientific: Xestospongia muta
-      confidence: 0.999
+      confidence: 0.9994

@@ -13,30 +13,30 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-25T03:36:41Z'
+    created: '2026-08-25T05:43:58Z'
     src_mtime: 1786159781.6556997
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Pterois volitans
-      confidence: 0.999
+      confidence: 0.9994
     - scientific: Panulirus argus
-      confidence: 0.0003
+      confidence: 0.0002
     - scientific: Dactylopterus volitans
-      confidence: 0.0001
+      confidence: 0.0
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-25T03:38:37Z'
+    created: '2026-08-25T05:46:15Z'
     src_mtime: 1786159781.6556997
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Pterois volitans
       confidence: 1.0
-    - scientific: Tripneustes ventricosus
+    - scientific: Diadema antillarum
       confidence: 0.0
-    - scientific: Panulirus argus
+    - scientific: Tripneustes ventricosus
       confidence: 0.0
 species:
 - scientific: Pterois volitans
   role: primary
-  confidence: 0.9995
+  confidence: 0.9997
   identified_by: bioclip-2+bioclip-2.5

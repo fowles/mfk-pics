@@ -13,31 +13,31 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-25T03:36:41Z'
+    created: '2026-08-25T05:43:58Z'
     src_mtime: 1786158331.7526755
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Chromis cyanea
-      confidence: 0.0003
-    - scientific: Acanthostracion polygonius
-      confidence: 0.0001
+      confidence: 0.0005
     - scientific: Stegastes partitus
       confidence: 0.0001
+    - scientific: Thalassoma bifasciatum
+      confidence: 0.0001
     absorbed_by:
       scientific: Callyspongia plicifera
-      confidence: 0.6415
+      confidence: 0.618
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-25T03:38:37Z'
+    created: '2026-08-25T05:46:15Z'
     src_mtime: 1786158331.7526755
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
-    - scientific: Elacatinus evelynae
+    - scientific: Thalassoma bifasciatum
       confidence: 0.0
     - scientific: Acanthostracion polygonius
       confidence: 0.0
-    - scientific: Thalassoma bifasciatum
+    - scientific: Elacatinus evelynae
       confidence: 0.0
     absorbed_by:
       scientific: Callyspongia plicifera
-      confidence: 0.5699
+      confidence: 0.6498

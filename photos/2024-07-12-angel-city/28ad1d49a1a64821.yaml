@@ -16,30 +16,30 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-25T03:36:41Z'
+    created: '2026-08-25T05:43:58Z'
     src_mtime: 1786158512.6761658
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
-    - scientific: Aulostomus maculatus
-      confidence: 0.1856
     - scientific: Pseudupeneus maculatus
-      confidence: 0.136
-    - scientific: Bodianus rufus
-      confidence: 0.0518
+      confidence: 0.162
+    - scientific: Aulostomus maculatus
+      confidence: 0.1546
+    - scientific: Halichoeres garnoti
+      confidence: 0.0695
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-25T03:38:37Z'
+    created: '2026-08-25T05:46:15Z'
     src_mtime: 1786158512.6761658
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
-    - scientific: Halichoeres radiatus
-      confidence: 0.6165
     - scientific: Pseudupeneus maculatus
-      confidence: 0.308
+      confidence: 0.3173
+    - scientific: Halichoeres radiatus
+      confidence: 0.2894
     - scientific: Sparisoma amplum
-      confidence: 0.0158
+      confidence: 0.2618
 species:
-- scientific: Halichoeres radiatus
+- scientific: Pseudupeneus maculatus
   role: primary
-  confidence: 0.3083
-  identified_by: bioclip-2.5
+  confidence: 0.2397
+  identified_by: bioclip-2+bioclip-2.5

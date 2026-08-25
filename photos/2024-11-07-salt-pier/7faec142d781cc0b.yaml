@@ -13,30 +13,30 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-25T03:36:41Z'
+    created: '2026-08-25T05:43:58Z'
     src_mtime: 1786156328.54319
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
-    - scientific: Melichthys niger
-      confidence: 0.385
-    - scientific: Canthidermis sufflamen
-      confidence: 0.1628
     - scientific: Holacanthus tricolor
-      confidence: 0.1173
+      confidence: 0.4299
+    - scientific: Melichthys niger
+      confidence: 0.2294
+    - scientific: Canthidermis sufflamen
+      confidence: 0.1164
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-25T03:38:37Z'
+    created: '2026-08-25T05:46:15Z'
     src_mtime: 1786156328.54319
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Sepioteuthis sepioidea
-      confidence: 0.4513
+      confidence: 0.4331
     - scientific: Holacanthus tricolor
-      confidence: 0.1177
+      confidence: 0.1442
     - scientific: Cassiopea xamachana
-      confidence: 0.0962
+      confidence: 0.0576
 species:
-- scientific: Sepioteuthis sepioidea
+- scientific: Holacanthus tricolor
   role: primary
-  confidence: 0.2256
-  identified_by: bioclip-2.5
+  confidence: 0.2871
+  identified_by: bioclip-2+bioclip-2.5

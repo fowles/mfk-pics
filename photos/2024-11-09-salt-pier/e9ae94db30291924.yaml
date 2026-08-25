@@ -17,30 +17,30 @@ rotation_applied: 90
 species_suggestions:
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-25T03:36:41Z'
+    created: '2026-08-25T05:43:58Z'
     src_mtime: 1787029041.0502942
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
-    - scientific: Chaetodon capistratus
-      confidence: 0.1984
     - scientific: Chaetodon striatus
-      confidence: 0.0906
-    - scientific: Chaetodon ocellatus
-      confidence: 0.0587
+      confidence: 0.1788
+    - scientific: Chaetodon capistratus
+      confidence: 0.1169
+    - scientific: Stegastes planifrons
+      confidence: 0.0599
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-25T03:38:37Z'
+    created: '2026-08-25T05:46:15Z'
     src_mtime: 1787029041.0502942
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Halichoeres garnoti
-      confidence: 0.3421
+      confidence: 0.3469
     - scientific: Sparisoma viride
-      confidence: 0.1048
-    - scientific: Hypoplectrus chlorurus
-      confidence: 0.093
+      confidence: 0.1724
+    - scientific: Microspathodon chrysurus
+      confidence: 0.1622
 species:
 - scientific: Halichoeres garnoti
   role: primary
-  confidence: 0.1711
+  confidence: 0.1734
   identified_by: bioclip-2.5

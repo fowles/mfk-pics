@@ -13,21 +13,21 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-25T03:36:41Z'
+    created: '2026-08-25T05:43:58Z'
     src_mtime: 1786157489.0055223
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Haemulon plumierii
-      confidence: 0.5358
+      confidence: 0.4676
     - scientific: Haemulon flavolineatum
-      confidence: 0.3333
-    - scientific: Lutjanus jocu
-      confidence: 0.061
+      confidence: 0.4404
+    - scientific: Lutjanus apodus
+      confidence: 0.0387
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-25T03:38:37Z'
+    created: '2026-08-25T05:46:15Z'
     src_mtime: 1786157489.0055223
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Haemulon flavolineatum
       confidence: 0.9999
@@ -38,5 +38,5 @@ species_suggestions:
 species:
 - scientific: Haemulon flavolineatum
   role: primary
-  confidence: 0.6666
+  confidence: 0.7202
   identified_by: bioclip-2+bioclip-2.5

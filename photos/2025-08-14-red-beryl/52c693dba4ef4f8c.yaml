@@ -13,30 +13,30 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-25T03:36:41Z'
+    created: '2026-08-25T05:43:58Z'
     src_mtime: 1786158336.648977
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Carcharhinus perezi
-      confidence: 0.186
-    - scientific: Eretmochelys imbricata
-      confidence: 0.1228
+      confidence: 0.1665
+    - scientific: Decapterus macarellus
+      confidence: 0.1177
     - scientific: Sphyrna lewini
-      confidence: 0.0694
+      confidence: 0.1153
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-25T03:38:37Z'
+    created: '2026-08-25T05:46:15Z'
     src_mtime: 1786158336.648977
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Scomberomorus regalis
-      confidence: 0.4368
+      confidence: 0.9385
     - scientific: Echeneis naucrates
-      confidence: 0.108
-    - scientific: Elagatis bipinnulata
-      confidence: 0.081
+      confidence: 0.0147
+    - scientific: Aluterus scriptus
+      confidence: 0.0124
 species:
 - scientific: Scomberomorus regalis
   role: primary
-  confidence: 0.2184
+  confidence: 0.4693
   identified_by: bioclip-2.5

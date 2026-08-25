@@ -13,30 +13,30 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-25T03:36:41Z'
+    created: '2026-08-25T05:43:58Z'
     src_mtime: 1786156978.3662133
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Caranx ruber
-      confidence: 0.4638
+      confidence: 0.6058
     - scientific: Hypanus americanus
-      confidence: 0.2143
+      confidence: 0.1212
     - scientific: Malacanthus plumieri
-      confidence: 0.0577
+      confidence: 0.0725
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-25T03:38:37Z'
+    created: '2026-08-25T05:46:15Z'
     src_mtime: 1786156978.3662133
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Caranx ruber
-      confidence: 0.6407
+      confidence: 0.679
     - scientific: Myrichthys breviceps
-      confidence: 0.2063
+      confidence: 0.2875
     - scientific: Carangoides bartholomaei
-      confidence: 0.1355
+      confidence: 0.0263
 species:
 - scientific: Caranx ruber
   role: primary
-  confidence: 0.5523
+  confidence: 0.6424
   identified_by: bioclip-2+bioclip-2.5

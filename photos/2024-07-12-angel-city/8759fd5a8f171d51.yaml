@@ -13,30 +13,30 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-25T03:36:41Z'
+    created: '2026-08-25T05:43:58Z'
     src_mtime: 1786158493.7887104
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
-    - scientific: Scarus coelestinus
-      confidence: 0.2177
     - scientific: Pseudupeneus maculatus
-      confidence: 0.1981
+      confidence: 0.179
+    - scientific: Sparisoma aurofrenatum
+      confidence: 0.1457
     - scientific: Sparisoma viride
-      confidence: 0.1594
+      confidence: 0.1126
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-25T03:38:37Z'
+    created: '2026-08-25T05:46:15Z'
     src_mtime: 1786158493.7887104
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Sparisoma rubripinne
-      confidence: 0.7743
+      confidence: 0.4035
     - scientific: Sparisoma viride
-      confidence: 0.1765
+      confidence: 0.3403
     - scientific: Sparisoma amplum
-      confidence: 0.0159
+      confidence: 0.1736
 species:
-- scientific: Sparisoma rubripinne
+- scientific: Sparisoma viride
   role: primary
-  confidence: 0.3871
-  identified_by: bioclip-2.5
+  confidence: 0.2264
+  identified_by: bioclip-2+bioclip-2.5

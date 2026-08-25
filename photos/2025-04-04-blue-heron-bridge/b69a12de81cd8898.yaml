@@ -16,30 +16,30 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-25T03:36:41Z'
+    created: '2026-08-25T05:43:58Z'
     src_mtime: 1786157494.958841
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Bothus lunatus
-      confidence: 0.7142
-    - scientific: Hypanus americanus
-      confidence: 0.0973
+      confidence: 0.8545
     - scientific: Urobatis jamaicensis
-      confidence: 0.0742
+      confidence: 0.0565
+    - scientific: Hypanus americanus
+      confidence: 0.0458
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-25T03:38:37Z'
+    created: '2026-08-25T05:46:15Z'
     src_mtime: 1786157494.958841
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Bothus lunatus
-      confidence: 0.4034
+      confidence: 0.4639
     - scientific: Urobatis jamaicensis
-      confidence: 0.2397
+      confidence: 0.222
     - scientific: Heteroconger longissimus
-      confidence: 0.1226
+      confidence: 0.1104
 species:
 - scientific: Bothus lunatus
   role: primary
-  confidence: 0.5588
+  confidence: 0.6592
   identified_by: bioclip-2+bioclip-2.5

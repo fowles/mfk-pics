@@ -13,28 +13,28 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-25T03:36:41Z'
+    created: '2026-08-25T05:43:58Z'
     src_mtime: 1786071952.481906
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Octopus insularis
-      confidence: 0.4513
-    - scientific: Elacatinus genie
-      confidence: 0.1256
+      confidence: 0.6356
     - scientific: Myrichthys breviceps
-      confidence: 0.1207
+      confidence: 0.0975
+    - scientific: Holothuria thomasi
+      confidence: 0.0401
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-25T03:38:37Z'
+    created: '2026-08-25T05:46:15Z'
     src_mtime: 1786071952.481906
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Holothuria thomasi
-      confidence: 0.8362
+      confidence: 0.8614
+    - scientific: Holothuria mexicana
+      confidence: 0.0563
     - scientific: Gymnothorax moringa
-      confidence: 0.0437
-    - scientific: Echidna catenata
-      confidence: 0.0395
+      confidence: 0.0362
 species:
 - scientific: Octopus insularis
   role: primary

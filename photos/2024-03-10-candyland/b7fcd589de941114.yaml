@@ -13,30 +13,30 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-25T03:36:41Z'
+    created: '2026-08-25T05:43:58Z'
     src_mtime: 1786158861.0820475
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Ocyurus chrysurus
-      confidence: 0.5806
+      confidence: 0.6157
     - scientific: Mulloidichthys martinicus
-      confidence: 0.2934
+      confidence: 0.2421
     - scientific: Haemulon chrysargyreum
-      confidence: 0.0243
+      confidence: 0.0316
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-25T03:38:37Z'
+    created: '2026-08-25T05:46:15Z'
     src_mtime: 1786158861.0820475
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
-    - scientific: Ocyurus chrysurus
-      confidence: 0.5362
     - scientific: Mulloidichthys martinicus
-      confidence: 0.4394
+      confidence: 0.5856
+    - scientific: Ocyurus chrysurus
+      confidence: 0.4089
     - scientific: Elagatis bipinnulata
-      confidence: 0.0174
+      confidence: 0.0042
 species:
 - scientific: Ocyurus chrysurus
   role: primary
-  confidence: 0.5584
+  confidence: 0.5123
   identified_by: bioclip-2+bioclip-2.5

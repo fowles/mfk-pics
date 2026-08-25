@@ -15,30 +15,30 @@ extra_variants:
 species_suggestions:
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-25T03:36:41Z'
+    created: '2026-08-25T05:43:58Z'
     src_mtime: 1786158732.8725863
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Elacatinus oceanops
-      confidence: 0.402
+      confidence: 0.5071
+    - scientific: Halichoeres pictus
+      confidence: 0.0747
     - scientific: Thalassoma bifasciatum
-      confidence: 0.0783
-    - scientific: Holacanthus tricolor
-      confidence: 0.0573
+      confidence: 0.0617
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-25T03:38:37Z'
+    created: '2026-08-25T05:46:15Z'
     src_mtime: 1786158732.8725863
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
+    - scientific: Thalassoma bifasciatum
+      confidence: 0.3661
     - scientific: Elacatinus evelynae
-      confidence: 0.3689
-    - scientific: Elacatinus genie
-      confidence: 0.2014
+      confidence: 0.3411
     - scientific: Elacatinus oceanops
-      confidence: 0.1839
+      confidence: 0.1606
 species:
 - scientific: Elacatinus oceanops
   role: primary
-  confidence: 0.293
+  confidence: 0.3338
   identified_by: bioclip-2+bioclip-2.5

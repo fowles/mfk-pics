@@ -13,33 +13,33 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-25T03:36:41Z'
+    created: '2026-08-25T05:43:58Z'
     src_mtime: 1786157581.438095
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Cephalopholis cruentata
-      confidence: 0.0946
+      confidence: 0.1803
     - scientific: Gymnothorax miliaris
-      confidence: 0.0358
-    - scientific: Holothuria thomasi
-      confidence: 0.0082
+      confidence: 0.0277
+    - scientific: Myrichthys breviceps
+      confidence: 0.0146
     absorbed_by:
       scientific: Aplysina archeri
-      confidence: 0.5629
+      confidence: 0.4892
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-25T03:38:37Z'
+    created: '2026-08-25T05:46:15Z'
     src_mtime: 1786157581.438095
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Octopus insularis
-      confidence: 0.7191
+      confidence: 0.5128
     - scientific: Scorpaena plumieri
-      confidence: 0.0659
+      confidence: 0.0649
     - scientific: Cephalopholis cruentata
-      confidence: 0.0511
+      confidence: 0.0299
 species:
 - scientific: Octopus insularis
   role: primary
-  confidence: 0.3595
+  confidence: 0.2564
   identified_by: bioclip-2.5

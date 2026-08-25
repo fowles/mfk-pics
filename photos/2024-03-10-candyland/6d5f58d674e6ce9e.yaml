@@ -13,30 +13,30 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-25T03:36:41Z'
+    created: '2026-08-25T05:43:58Z'
     src_mtime: 1786158859.0256288
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Chromis cyanea
-      confidence: 0.3057
+      confidence: 0.5179
     - scientific: Centropyge argi
-      confidence: 0.1803
+      confidence: 0.1235
     - scientific: Gramma loreto
-      confidence: 0.0821
+      confidence: 0.0451
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-25T03:38:37Z'
+    created: '2026-08-25T05:46:15Z'
     src_mtime: 1786158859.0256288
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Melichthys niger
-      confidence: 0.773
+      confidence: 0.8686
     - scientific: Clepticus parrae
-      confidence: 0.143
-    - scientific: Acanthurus tractus
-      confidence: 0.0497
+      confidence: 0.0762
+    - scientific: Scarus coelestinus
+      confidence: 0.0208
 species:
 - scientific: Melichthys niger
   role: primary
-  confidence: 0.3865
+  confidence: 0.4343
   identified_by: bioclip-2.5

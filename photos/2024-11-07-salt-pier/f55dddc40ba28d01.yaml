@@ -14,30 +14,30 @@ rotation_reviewed: true
 species_suggestions:
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-25T03:36:41Z'
+    created: '2026-08-25T05:43:58Z'
     src_mtime: 1786156319.8329391
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Microspathodon chrysurus
-      confidence: 0.4843
-    - scientific: Hypoplectrus chlorurus
-      confidence: 0.1506
+      confidence: 0.5514
     - scientific: Holacanthus tricolor
-      confidence: 0.1433
+      confidence: 0.2172
+    - scientific: Hypoplectrus chlorurus
+      confidence: 0.0957
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-25T03:38:37Z'
+    created: '2026-08-25T05:46:15Z'
     src_mtime: 1786156319.8329391
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
-    - scientific: Haemulon chrysargyreum
-      confidence: 0.5158
-    - scientific: Hypoplectrus chlorurus
-      confidence: 0.2437
     - scientific: Microspathodon chrysurus
-      confidence: 0.2162
+      confidence: 0.8329
+    - scientific: Hypoplectrus chlorurus
+      confidence: 0.0891
+    - scientific: Haemulon chrysargyreum
+      confidence: 0.0623
 species:
 - scientific: Microspathodon chrysurus
   role: primary
-  confidence: 0.3503
+  confidence: 0.6922
   identified_by: bioclip-2+bioclip-2.5

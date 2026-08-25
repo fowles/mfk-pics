@@ -13,30 +13,30 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-25T03:36:41Z'
+    created: '2026-08-25T05:43:58Z'
     src_mtime: 1786157054.11501
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Pomacanthus arcuatus
-      confidence: 0.3551
-    - scientific: Canthidermis sufflamen
-      confidence: 0.2327
+      confidence: 0.3329
     - scientific: Anisotremus surinamensis
-      confidence: 0.2205
+      confidence: 0.3209
+    - scientific: Canthidermis sufflamen
+      confidence: 0.1467
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-25T03:38:37Z'
+    created: '2026-08-25T05:46:15Z'
     src_mtime: 1786157054.11501
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
-    - scientific: Mycteroperca tigris
-      confidence: 0.3532
     - scientific: Canthidermis sufflamen
-      confidence: 0.253
+      confidence: 0.3543
     - scientific: Diodon hystrix
-      confidence: 0.0921
+      confidence: 0.2804
+    - scientific: Mycteroperca bonaci
+      confidence: 0.0751
 species:
 - scientific: Canthidermis sufflamen
   role: primary
-  confidence: 0.2429
+  confidence: 0.2505
   identified_by: bioclip-2+bioclip-2.5

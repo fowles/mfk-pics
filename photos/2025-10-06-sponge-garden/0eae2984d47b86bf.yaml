@@ -13,32 +13,32 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-25T03:36:41Z'
+    created: '2026-08-25T05:43:58Z'
     src_mtime: 1786159777.5210516
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Pterois volitans
-      confidence: 0.0006
+      confidence: 0.0015
+    - scientific: Stegastes partitus
+      confidence: 0.0004
     - scientific: Rypticus saponaceus
       confidence: 0.0004
-    - scientific: Acanthostracion polygonius
-      confidence: 0.0002
     absorbed_by:
       scientific: Xestospongia muta
-      confidence: 0.9599
+      confidence: 0.959
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-25T03:38:37Z'
+    created: '2026-08-25T05:46:15Z'
     src_mtime: 1786159777.5210516
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
-    - scientific: Rypticus saponaceus
+    - scientific: Stegastes planifrons
       confidence: 0.0
-    - scientific: Chaetodon sedentarius
+    - scientific: Thalassoma bifasciatum
       confidence: 0.0
     - scientific: Holocentrus adscensionis
       confidence: 0.0
     absorbed_by:
       scientific: Xestospongia muta
-      confidence: 0.9991
+      confidence: 0.9994
 species: []

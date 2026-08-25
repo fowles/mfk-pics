@@ -16,31 +16,34 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-25T03:36:41Z'
+    created: '2026-08-25T05:43:58Z'
     src_mtime: 1786157883.2760623
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
-    - scientific: Lactophrys bicaudalis
-      confidence: 0.1102
     - scientific: Cyphoma gibbosum
-      confidence: 0.0824
-    - scientific: Chilomycterus antillarum
-      confidence: 0.0566
+      confidence: 0.0862
+    - scientific: Lactophrys bicaudalis
+      confidence: 0.0853
+    - scientific: Holothuria mexicana
+      confidence: 0.0693
+    absorbed_by:
+      scientific: Meandrina meandrites
+      confidence: 0.1259
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-25T03:38:37Z'
+    created: '2026-08-25T05:46:15Z'
     src_mtime: 1786157883.2760623
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
-    - scientific: Acanthostracion polygonius
-      confidence: 0.2505
     - scientific: Sparisoma aurofrenatum
-      confidence: 0.1296
+      confidence: 0.216
+    - scientific: Acanthostracion polygonius
+      confidence: 0.1917
     - scientific: Sparisoma viride
-      confidence: 0.0379
+      confidence: 0.1216
 species:
-- scientific: Acanthostracion polygonius
+- scientific: Sparisoma aurofrenatum
   role: primary
-  confidence: 0.1253
+  confidence: 0.108
   identified_by: bioclip-2.5
 rotation_reviewed: true

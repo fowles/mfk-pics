@@ -16,29 +16,29 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-25T03:36:41Z'
+    created: '2026-08-25T05:43:58Z'
     src_mtime: 1786071913.33714
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Aulostomus maculatus
-      confidence: 0.0962
+      confidence: 0.0865
+    - scientific: Halichoeres pictus
+      confidence: 0.0453
     - scientific: Halichoeres garnoti
-      confidence: 0.0278
-    - scientific: Cyphoma gibbosum
-      confidence: 0.0267
+      confidence: 0.0414
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-25T03:38:37Z'
+    created: '2026-08-25T05:46:15Z'
     src_mtime: 1786071913.33714
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
-    - scientific: Linckia guildingi
-      confidence: 0.1303
     - scientific: Davidaster rubiginosus
-      confidence: 0.1128
+      confidence: 0.1955
     - scientific: Halichoeres pictus
-      confidence: 0.0681
+      confidence: 0.0387
+    - scientific: Astrophyton muricatum
+      confidence: 0.0152
     absorbed_by:
       scientific: Acropora cervicornis
-      confidence: 0.423
+      confidence: 0.6207
 species: []

@@ -13,30 +13,30 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-25T03:36:41Z'
+    created: '2026-08-25T05:43:58Z'
     src_mtime: 1786159372.1676311
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Monacanthus tuckeri
-      confidence: 0.8522
-    - scientific: Cyphoma gibbosum
-      confidence: 0.06
+      confidence: 0.5519
     - scientific: Hippocampus reidi
-      confidence: 0.0546
+      confidence: 0.2681
+    - scientific: Cyphoma gibbosum
+      confidence: 0.1001
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-25T03:38:37Z'
+    created: '2026-08-25T05:46:15Z'
     src_mtime: 1786159372.1676311
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Monacanthus tuckeri
-      confidence: 0.9798
+      confidence: 0.9905
     - scientific: Cantherhines macrocerus
-      confidence: 0.0106
+      confidence: 0.0045
     - scientific: Cantherhines pullus
-      confidence: 0.006
+      confidence: 0.0035
 species:
 - scientific: Monacanthus tuckeri
   role: primary
-  confidence: 0.916
+  confidence: 0.7712
   identified_by: bioclip-2+bioclip-2.5

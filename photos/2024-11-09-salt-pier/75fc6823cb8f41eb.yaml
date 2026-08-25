@@ -16,30 +16,30 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-25T03:36:41Z'
+    created: '2026-08-25T05:43:58Z'
     src_mtime: 1786156580.644698
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Gymnothorax miliaris
-      confidence: 0.2104
+      confidence: 0.3422
     - scientific: Acanthurus chirurgus
-      confidence: 0.1788
+      confidence: 0.1011
     - scientific: Cephalopholis fulva
-      confidence: 0.1671
+      confidence: 0.0792
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-25T03:38:37Z'
+    created: '2026-08-25T05:46:15Z'
     src_mtime: 1786156580.644698
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Gymnothorax miliaris
-      confidence: 0.9172
+      confidence: 0.9436
     - scientific: Gymnothorax funebris
-      confidence: 0.0515
+      confidence: 0.0321
     - scientific: Gymnothorax vicinus
-      confidence: 0.0158
+      confidence: 0.0166
 species:
 - scientific: Gymnothorax miliaris
   role: primary
-  confidence: 0.5638
+  confidence: 0.6429
   identified_by: bioclip-2+bioclip-2.5

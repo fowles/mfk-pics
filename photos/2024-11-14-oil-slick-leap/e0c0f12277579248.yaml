@@ -16,29 +16,29 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-25T03:36:41Z'
+    created: '2026-08-25T05:43:58Z'
     src_mtime: 1786156901.735104
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Bodianus rufus
-      confidence: 0.2564
-    - scientific: Bodianus pulchellus
-      confidence: 0.1166
+      confidence: 0.1662
     - scientific: Holacanthus tricolor
-      confidence: 0.1096
+      confidence: 0.1612
+    - scientific: Ocyurus chrysurus
+      confidence: 0.0687
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-25T03:38:37Z'
+    created: '2026-08-25T05:46:15Z'
     src_mtime: 1786156901.735104
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Rhincodon typus
-      confidence: 0.2952
-    - scientific: Decapterus macarellus
-      confidence: 0.0241
-    - scientific: Mycteroperca tigris
-      confidence: 0.0212
+      confidence: 0.2972
+    - scientific: Aluterus scriptus
+      confidence: 0.038
+    - scientific: Sphyrna lewini
+      confidence: 0.0268
     absorbed_by:
       scientific: Cirrhipathes leutkeni
-      confidence: 0.4647
+      confidence: 0.3826
 species: []

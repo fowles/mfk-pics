@@ -14,30 +14,30 @@ rotation_applied: 180
 species_suggestions:
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-25T03:36:41Z'
+    created: '2026-08-25T05:43:58Z'
     src_mtime: 1787176167.6824443
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Acanthostracion polygonius
-      confidence: 0.8767
+      confidence: 0.9119
     - scientific: Aluterus scriptus
-      confidence: 0.0788
-    - scientific: Urobatis jamaicensis
-      confidence: 0.0236
+      confidence: 0.0559
+    - scientific: Lactophrys bicaudalis
+      confidence: 0.0116
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-25T03:38:37Z'
+    created: '2026-08-25T05:46:15Z'
     src_mtime: 1787176167.6824443
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Acanthostracion polygonius
-      confidence: 0.9969
+      confidence: 0.9989
     - scientific: Aluterus scriptus
-      confidence: 0.0029
+      confidence: 0.0008
     - scientific: Mycteroperca venenosa
-      confidence: 0.0001
+      confidence: 0.0003
 species:
 - scientific: Acanthostracion polygonius
   role: primary
-  confidence: 0.9368
+  confidence: 0.9554
   identified_by: bioclip-2+bioclip-2.5

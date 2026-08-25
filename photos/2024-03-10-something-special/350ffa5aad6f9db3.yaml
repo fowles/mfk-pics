@@ -13,30 +13,30 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-25T03:36:41Z'
+    created: '2026-08-25T05:43:58Z'
     src_mtime: 1786159064.0064473
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Mycteroperca bonaci
-      confidence: 0.2388
-    - scientific: Epinephelus guttatus
-      confidence: 0.1336
+      confidence: 0.1571
+    - scientific: Epinephelus adscensionis
+      confidence: 0.1526
     - scientific: Cephalopholis cruentata
-      confidence: 0.107
+      confidence: 0.1165
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-25T03:38:37Z'
+    created: '2026-08-25T05:46:15Z'
     src_mtime: 1786159064.0064473
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
-    - scientific: Serranus tigrinus
-      confidence: 0.3976
     - scientific: Mycteroperca tigris
-      confidence: 0.1291
+      confidence: 0.5799
     - scientific: Mycteroperca bonaci
-      confidence: 0.1223
+      confidence: 0.2038
+    - scientific: Sparisoma viride
+      confidence: 0.0773
 species:
-- scientific: Serranus tigrinus
+- scientific: Mycteroperca tigris
   role: primary
-  confidence: 0.1988
+  confidence: 0.2899
   identified_by: bioclip-2.5

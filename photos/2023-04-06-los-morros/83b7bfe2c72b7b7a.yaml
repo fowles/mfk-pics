@@ -15,28 +15,28 @@ variants:
 species_suggestions:
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-23T18:22:34Z'
+    created: '2026-08-25T05:43:58Z'
     src_mtime: 1787445730.9593935
-    vocab: d07e6f895399
+    vocab: 2184a73cc476
     top:
     - scientific: Johnrandallia nigrirostris
-      confidence: 0.185
+      confidence: 0.4218
+    - scientific: Lutjanus argentiventris
+      confidence: 0.0948
     - scientific: Sufflamen verres
-      confidence: 0.1396
-    - scientific: Paranthias colonus
-      confidence: 0.1346
+      confidence: 0.0472
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-23T18:25:36Z'
+    created: '2026-08-25T05:46:15Z'
     src_mtime: 1787445730.9593935
-    vocab: d07e6f895399
+    vocab: 2184a73cc476
     top:
     - scientific: Johnrandallia nigrirostris
-      confidence: 0.6999
+      confidence: 0.5618
     - scientific: Bodianus diplotaenia
-      confidence: 0.0538
+      confidence: 0.1065
     - scientific: Lutjanus argentiventris
-      confidence: 0.0346
+      confidence: 0.0771
 species:
 - scientific: Paranthias colonus
   role: secondary

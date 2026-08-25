@@ -13,30 +13,30 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-25T03:36:41Z'
+    created: '2026-08-25T05:43:58Z'
     src_mtime: 1786159052.8990662
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Ocyurus chrysurus
-      confidence: 0.903
+      confidence: 0.9293
     - scientific: Mulloidichthys martinicus
-      confidence: 0.0347
+      confidence: 0.0386
     - scientific: Bodianus rufus
-      confidence: 0.0303
+      confidence: 0.0098
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-25T03:38:37Z'
+    created: '2026-08-25T05:46:15Z'
     src_mtime: 1786159052.8990662
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Ocyurus chrysurus
-      confidence: 0.9945
+      confidence: 0.995
     - scientific: Mulloidichthys martinicus
-      confidence: 0.0035
+      confidence: 0.0037
     - scientific: Elagatis bipinnulata
-      confidence: 0.0013
+      confidence: 0.0007
 species:
 - scientific: Ocyurus chrysurus
   role: primary
-  confidence: 0.9487
+  confidence: 0.9622
   identified_by: bioclip-2+bioclip-2.5

@@ -12,31 +12,31 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-23T18:22:34Z'
+    created: '2026-08-25T05:43:58Z'
     src_mtime: 1786159819.3374698
-    vocab: 9eb53da9d7d6
+    vocab: f5caf25a4194
     top:
+    - scientific: Abudefduf saxatilis
+      confidence: 0.056
     - scientific: Caranx ruber
-      confidence: 0.0448
-    - scientific: Rhincodon typus
-      confidence: 0.0427
-    - scientific: Elacatinus oceanops
-      confidence: 0.0422
+      confidence: 0.0525
+    - scientific: Carcharhinus leucas
+      confidence: 0.0397
     absorbed_by:
       scientific: Aplysina archeri
-      confidence: 0.0791
+      confidence: 0.115
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-23T18:25:36Z'
+    created: '2026-08-25T05:46:15Z'
     src_mtime: 1786159819.3374698
-    vocab: 9eb53da9d7d6
+    vocab: f5caf25a4194
     top:
     - scientific: Hermodice carunculata
-      confidence: 0.3347
+      confidence: 0.4724
     - scientific: Cyphoma gibbosum
-      confidence: 0.0261
+      confidence: 0.0862
     - scientific: Carcharhinus limbatus
-      confidence: 0.0227
+      confidence: 0.0122
 species:
 - scientific: Homo sapiens
   role: primary

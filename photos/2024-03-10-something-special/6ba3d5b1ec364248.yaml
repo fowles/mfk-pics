@@ -13,30 +13,30 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-25T03:36:41Z'
+    created: '2026-08-25T05:43:58Z'
     src_mtime: 1786159060.3569984
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Mycteroperca venenosa
-      confidence: 0.6596
+      confidence: 0.5882
     - scientific: Aluterus scriptus
-      confidence: 0.097
+      confidence: 0.1176
     - scientific: Mycteroperca bonaci
-      confidence: 0.0512
+      confidence: 0.0636
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-25T03:38:37Z'
+    created: '2026-08-25T05:46:15Z'
     src_mtime: 1786159060.3569984
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
-    - scientific: Mycteroperca venenosa
-      confidence: 0.2606
-    - scientific: Sparisoma viride
-      confidence: 0.1873
+    - scientific: Mycteroperca tigris
+      confidence: 0.313
     - scientific: Sparisoma rubripinne
-      confidence: 0.1565
+      confidence: 0.248
+    - scientific: Mycteroperca bonaci
+      confidence: 0.1382
 species:
 - scientific: Mycteroperca venenosa
   role: primary
-  confidence: 0.4601
-  identified_by: bioclip-2+bioclip-2.5
+  confidence: 0.2941
+  identified_by: bioclip-2

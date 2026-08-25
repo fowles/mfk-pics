@@ -16,30 +16,30 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-25T03:36:41Z'
+    created: '2026-08-25T05:43:58Z'
     src_mtime: 1786158980.6424031
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Holacanthus tricolor
-      confidence: 0.1302
-    - scientific: Halichoeres garnoti
-      confidence: 0.0451
+      confidence: 0.1229
     - scientific: Pomacanthus arcuatus
-      confidence: 0.0315
+      confidence: 0.0422
+    - scientific: Halichoeres garnoti
+      confidence: 0.0397
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-25T03:38:37Z'
+    created: '2026-08-25T05:46:15Z'
     src_mtime: 1786158980.6424031
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Halichoeres garnoti
-      confidence: 0.6754
+      confidence: 0.7445
     - scientific: Sparisoma viride
-      confidence: 0.064
-    - scientific: Halichoeres pictus
-      confidence: 0.0313
+      confidence: 0.0526
+    - scientific: Caranx ruber
+      confidence: 0.0164
 species:
 - scientific: Halichoeres garnoti
   role: primary
-  confidence: 0.3603
+  confidence: 0.3921
   identified_by: bioclip-2+bioclip-2.5

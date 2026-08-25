@@ -16,21 +16,21 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-25T03:36:41Z'
+    created: '2026-08-25T05:43:58Z'
     src_mtime: 1786156578.9217975
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Ancylomenes pedersoni
-      confidence: 0.7401
+      confidence: 0.9238
     - scientific: Periclimenes yucatanicus
-      confidence: 0.136
+      confidence: 0.02
     - scientific: Panulirus argus
-      confidence: 0.0393
+      confidence: 0.0133
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-25T03:38:37Z'
+    created: '2026-08-25T05:46:15Z'
     src_mtime: 1786156578.9217975
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Ancylomenes pedersoni
       confidence: 1.0
@@ -41,5 +41,5 @@ species_suggestions:
 species:
 - scientific: Ancylomenes pedersoni
   role: primary
-  confidence: 0.87
+  confidence: 0.9619
   identified_by: bioclip-2+bioclip-2.5

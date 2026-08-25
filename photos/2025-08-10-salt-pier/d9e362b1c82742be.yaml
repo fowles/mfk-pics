@@ -13,30 +13,30 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-25T03:36:41Z'
+    created: '2026-08-25T05:43:58Z'
     src_mtime: 1786157580.5450857
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Octopus insularis
-      confidence: 0.7123
-    - scientific: Octopus briareus
-      confidence: 0.1223
+      confidence: 0.6836
     - scientific: Cephalopholis cruentata
-      confidence: 0.0358
+      confidence: 0.0628
+    - scientific: Parribacus antarcticus
+      confidence: 0.043
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-25T03:38:37Z'
+    created: '2026-08-25T05:46:15Z'
     src_mtime: 1786157580.5450857
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Octopus insularis
-      confidence: 0.9807
-    - scientific: Octopus briareus
-      confidence: 0.0051
+      confidence: 0.9788
     - scientific: Gymnothorax miliaris
-      confidence: 0.0036
+      confidence: 0.0037
+    - scientific: Elacatinus evelynae
+      confidence: 0.0023
 species:
 - scientific: Octopus insularis
   role: primary
-  confidence: 0.8465
+  confidence: 0.8312
   identified_by: bioclip-2+bioclip-2.5

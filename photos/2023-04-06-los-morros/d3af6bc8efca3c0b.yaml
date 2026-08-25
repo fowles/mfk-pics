@@ -15,28 +15,28 @@ variants:
 species_suggestions:
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-23T18:22:34Z'
+    created: '2026-08-25T05:43:58Z'
     src_mtime: 1787445727.7087202
-    vocab: d07e6f895399
+    vocab: 2184a73cc476
     top:
     - scientific: Paranthias colonus
-      confidence: 0.7081
+      confidence: 0.4024
     - scientific: Heteroconger canabus
-      confidence: 0.1159
+      confidence: 0.148
     - scientific: Mulloidichthys dentatus
-      confidence: 0.0508
+      confidence: 0.0471
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-23T18:25:36Z'
+    created: '2026-08-25T05:46:15Z'
     src_mtime: 1787445727.7087202
-    vocab: d07e6f895399
+    vocab: 2184a73cc476
     top:
     - scientific: Paranthias colonus
-      confidence: 0.9882
+      confidence: 0.916
     - scientific: Kyphosus elegans
-      confidence: 0.0102
-    - scientific: Mulloidichthys dentatus
-      confidence: 0.0003
+      confidence: 0.0791
+    - scientific: Microspathodon dorsalis
+      confidence: 0.0011
 species: []
 species_reviewed:
 - primary

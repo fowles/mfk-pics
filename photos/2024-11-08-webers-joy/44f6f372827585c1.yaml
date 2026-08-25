@@ -13,31 +13,31 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-25T03:36:41Z'
+    created: '2026-08-25T05:43:58Z'
     src_mtime: 1786156524.2555358
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Abudefduf saxatilis
-      confidence: 0.0215
-    - scientific: Halichoeres maculipinna
-      confidence: 0.0126
+      confidence: 0.032
+    - scientific: Stegastes partitus
+      confidence: 0.0171
     - scientific: Thalassoma bifasciatum
-      confidence: 0.0096
+      confidence: 0.0114
     absorbed_by:
       scientific: Orbicella faveolata
-      confidence: 0.2892
+      confidence: 0.4078
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-25T03:38:37Z'
+    created: '2026-08-25T05:46:15Z'
     src_mtime: 1786156524.2555358
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
-    - scientific: Haemulon chrysargyreum
-      confidence: 0.0673
     - scientific: Chromis multilineata
-      confidence: 0.0408
+      confidence: 0.0195
+    - scientific: Haemulon chrysargyreum
+      confidence: 0.003
     - scientific: Abudefduf saxatilis
-      confidence: 0.0021
+      confidence: 0.0009
     absorbed_by:
       scientific: Orbicella faveolata
-      confidence: 0.5505
+      confidence: 0.5984

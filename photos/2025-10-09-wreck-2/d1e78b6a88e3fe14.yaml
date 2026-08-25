@@ -12,30 +12,30 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-25T03:36:41Z'
+    created: '2026-08-25T05:43:58Z'
     src_mtime: 1786159817.1298616
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Balistes vetula
-      confidence: 0.8992
+      confidence: 0.8248
     - scientific: Hypoplectrus puella
-      confidence: 0.0261
-    - scientific: Scarus taeniopterus
-      confidence: 0.0178
+      confidence: 0.0616
+    - scientific: Halichoeres garnoti
+      confidence: 0.0325
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-25T03:38:37Z'
+    created: '2026-08-25T05:46:15Z'
     src_mtime: 1786159817.1298616
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
-    - scientific: Balistes vetula
-      confidence: 0.8812
     - scientific: Scarus taeniopterus
-      confidence: 0.0892
+      confidence: 0.6304
+    - scientific: Balistes vetula
+      confidence: 0.297
     - scientific: Scarus coelestinus
-      confidence: 0.0101
+      confidence: 0.0264
 species:
 - scientific: Balistes vetula
   role: primary
-  confidence: 0.8902
+  confidence: 0.5609
   identified_by: bioclip-2+bioclip-2.5

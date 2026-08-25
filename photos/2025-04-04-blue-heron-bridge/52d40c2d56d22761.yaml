@@ -16,30 +16,30 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-25T03:36:41Z'
+    created: '2026-08-25T05:43:58Z'
     src_mtime: 1786157492.15104
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Calamus calamus
-      confidence: 0.4032
+      confidence: 0.5577
     - scientific: Dactylopterus volitans
-      confidence: 0.1535
-    - scientific: Synodus intermedius
-      confidence: 0.0739
+      confidence: 0.0834
+    - scientific: Diodon holocanthus
+      confidence: 0.0538
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-25T03:38:37Z'
+    created: '2026-08-25T05:46:15Z'
     src_mtime: 1786157492.15104
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Aluterus monoceros
-      confidence: 0.6604
+      confidence: 0.4331
     - scientific: Diodon holocanthus
-      confidence: 0.0958
+      confidence: 0.222
     - scientific: Calamus calamus
-      confidence: 0.084
+      confidence: 0.2107
 species:
-- scientific: Aluterus monoceros
+- scientific: Calamus calamus
   role: primary
-  confidence: 0.3302
-  identified_by: bioclip-2.5
+  confidence: 0.3842
+  identified_by: bioclip-2+bioclip-2.5

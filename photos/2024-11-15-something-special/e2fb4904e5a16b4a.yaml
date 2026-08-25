@@ -16,30 +16,30 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-25T03:36:41Z'
+    created: '2026-08-25T05:43:58Z'
     src_mtime: 1786157214.5646641
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Acanthostracion polygonius
-      confidence: 0.3775
+      confidence: 0.3259
     - scientific: Lactophrys bicaudalis
-      confidence: 0.2704
+      confidence: 0.3182
     - scientific: Serranus tigrinus
-      confidence: 0.0811
+      confidence: 0.0813
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-25T03:38:37Z'
+    created: '2026-08-25T05:46:15Z'
     src_mtime: 1786157214.5646641
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
-    - scientific: Mycteroperca venenosa
-      confidence: 0.5175
-    - scientific: Gymnothorax moringa
-      confidence: 0.2974
     - scientific: Mycteroperca bonaci
-      confidence: 0.1401
+      confidence: 0.5248
+    - scientific: Gymnothorax moringa
+      confidence: 0.317
+    - scientific: Mycteroperca venenosa
+      confidence: 0.0865
 species:
-- scientific: Mycteroperca venenosa
+- scientific: Mycteroperca bonaci
   role: primary
-  confidence: 0.2587
+  confidence: 0.2624
   identified_by: bioclip-2.5

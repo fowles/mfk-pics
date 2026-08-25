@@ -16,30 +16,30 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-25T03:36:41Z'
+    created: '2026-08-25T05:43:58Z'
     src_mtime: 1786156901.8755217
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
-    - scientific: Acanthostracion polygonius
-      confidence: 0.2232
-    - scientific: Acanthurus chirurgus
-      confidence: 0.1792
     - scientific: Cantherhines pullus
-      confidence: 0.0994
+      confidence: 0.2907
+    - scientific: Acanthostracion polygonius
+      confidence: 0.2114
+    - scientific: Acanthurus chirurgus
+      confidence: 0.1271
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-25T03:38:37Z'
+    created: '2026-08-25T05:46:15Z'
     src_mtime: 1786156901.8755217
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Acanthurus coeruleus
-      confidence: 0.6301
+      confidence: 0.7475
     - scientific: Acanthurus chirurgus
-      confidence: 0.2289
-    - scientific: Hypoplectrus chlorurus
-      confidence: 0.0587
+      confidence: 0.1342
+    - scientific: Balistes vetula
+      confidence: 0.0456
 species:
 - scientific: Acanthurus coeruleus
   role: primary
-  confidence: 0.315
+  confidence: 0.3738
   identified_by: bioclip-2.5

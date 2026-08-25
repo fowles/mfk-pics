@@ -14,30 +14,30 @@ rotation_applied: 90
 species_suggestions:
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-25T03:36:41Z'
+    created: '2026-08-25T05:43:58Z'
     src_mtime: 1787028749.9467156
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Acanthostracion polygonius
-      confidence: 0.7712
+      confidence: 0.4976
     - scientific: Aluterus scriptus
-      confidence: 0.0448
-    - scientific: Cantherhines macrocerus
-      confidence: 0.0277
+      confidence: 0.2882
+    - scientific: Lactophrys bicaudalis
+      confidence: 0.0414
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-25T03:38:37Z'
+    created: '2026-08-25T05:46:15Z'
     src_mtime: 1787028749.9467156
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Acanthostracion polygonius
-      confidence: 0.9405
+      confidence: 0.926
     - scientific: Mycteroperca tigris
-      confidence: 0.0364
-    - scientific: Gymnothorax moringa
-      confidence: 0.0089
+      confidence: 0.0528
+    - scientific: Lactophrys triqueter
+      confidence: 0.0053
 species:
 - scientific: Acanthostracion polygonius
   role: primary
-  confidence: 0.8558
+  confidence: 0.7118
   identified_by: bioclip-2+bioclip-2.5

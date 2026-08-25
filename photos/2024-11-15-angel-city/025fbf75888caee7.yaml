@@ -16,30 +16,30 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-25T03:36:41Z'
+    created: '2026-08-25T05:43:58Z'
     src_mtime: 1786157055.7996953
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Bothus lunatus
-      confidence: 0.3897
+      confidence: 0.5966
     - scientific: Apogon maculatus
-      confidence: 0.0443
-    - scientific: Scorpaena plumieri
-      confidence: 0.0357
+      confidence: 0.0302
+    - scientific: Stenopus hispidus
+      confidence: 0.0104
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-25T03:38:37Z'
+    created: '2026-08-25T05:46:15Z'
     src_mtime: 1786157055.7996953
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Bothus lunatus
-      confidence: 0.9961
+      confidence: 0.9815
     - scientific: Urobatis jamaicensis
-      confidence: 0.0026
+      confidence: 0.0095
     - scientific: Ogcocephalus nasutus
-      confidence: 0.0005
+      confidence: 0.004
 species:
 - scientific: Bothus lunatus
   role: primary
-  confidence: 0.6929
+  confidence: 0.7891
   identified_by: bioclip-2+bioclip-2.5

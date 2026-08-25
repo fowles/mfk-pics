@@ -16,30 +16,30 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-25T03:36:41Z'
+    created: '2026-08-25T05:43:58Z'
     src_mtime: 1786156579.1561465
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Enchelycore carychroa
-      confidence: 0.4774
-    - scientific: Myrichthys breviceps
-      confidence: 0.184
+      confidence: 0.4109
     - scientific: Octopus insularis
-      confidence: 0.0744
+      confidence: 0.1261
+    - scientific: Linckia guildingi
+      confidence: 0.1094
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-25T03:38:37Z'
+    created: '2026-08-25T05:46:15Z'
     src_mtime: 1786156579.1561465
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Gymnothorax vicinus
-      confidence: 0.2871
+      confidence: 0.3248
     - scientific: Linckia guildingi
-      confidence: 0.1077
-    - scientific: Eurythoe complanata
-      confidence: 0.0548
+      confidence: 0.2438
+    - scientific: Davidaster rubiginosus
+      confidence: 0.0533
 species:
 - scientific: Enchelycore carychroa
   role: primary
-  confidence: 0.2387
+  confidence: 0.2054
   identified_by: bioclip-2

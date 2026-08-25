@@ -16,30 +16,30 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-25T03:36:41Z'
+    created: '2026-08-25T05:43:58Z'
     src_mtime: 1786160162.6002262
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Urobatis jamaicensis
-      confidence: 0.1542
+      confidence: 0.1939
+    - scientific: Heteroconger longissimus
+      confidence: 0.1291
     - scientific: Myrichthys ocellatus
-      confidence: 0.1484
-    - scientific: Myrichthys breviceps
-      confidence: 0.1041
+      confidence: 0.1028
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-25T03:38:37Z'
+    created: '2026-08-25T05:46:15Z'
     src_mtime: 1786160162.6002262
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Bothus lunatus
-      confidence: 0.7293
-    - scientific: Cassiopea xamachana
-      confidence: 0.1103
+      confidence: 0.9443
     - scientific: Ogcocephalus nasutus
-      confidence: 0.1056
+      confidence: 0.0318
+    - scientific: Cassiopea xamachana
+      confidence: 0.0115
 species:
 - scientific: Bothus lunatus
   role: primary
-  confidence: 0.3646
+  confidence: 0.4722
   identified_by: bioclip-2.5

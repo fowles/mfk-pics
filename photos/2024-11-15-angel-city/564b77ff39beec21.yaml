@@ -16,30 +16,30 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-25T03:36:41Z'
+    created: '2026-08-25T05:43:58Z'
     src_mtime: 1786157056.724789
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
-    - scientific: Scorpaena plumieri
-      confidence: 0.2484
     - scientific: Octopus insularis
-      confidence: 0.1934
+      confidence: 0.2354
+    - scientific: Scorpaena plumieri
+      confidence: 0.1679
     - scientific: Panulirus argus
-      confidence: 0.094
+      confidence: 0.0695
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-25T03:38:37Z'
+    created: '2026-08-25T05:46:15Z'
     src_mtime: 1786157056.724789
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Scorpaena plumieri
-      confidence: 0.9618
+      confidence: 0.9834
     - scientific: Parribacus antarcticus
-      confidence: 0.0139
-    - scientific: Epinephelus adscensionis
-      confidence: 0.0136
+      confidence: 0.0072
+    - scientific: Octopus insularis
+      confidence: 0.006
 species:
 - scientific: Scorpaena plumieri
   role: primary
-  confidence: 0.6051
+  confidence: 0.5756
   identified_by: bioclip-2+bioclip-2.5

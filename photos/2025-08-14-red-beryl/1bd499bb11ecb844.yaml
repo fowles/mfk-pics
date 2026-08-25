@@ -16,30 +16,30 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-25T03:36:41Z'
+    created: '2026-08-25T05:43:58Z'
     src_mtime: 1786158338.0751412
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Gymnothorax funebris
-      confidence: 0.9496
+      confidence: 0.9568
     - scientific: Gymnothorax miliaris
-      confidence: 0.0273
+      confidence: 0.0276
     - scientific: Enchelycore carychroa
-      confidence: 0.0165
+      confidence: 0.0117
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-25T03:38:37Z'
+    created: '2026-08-25T05:46:15Z'
     src_mtime: 1786158338.0751412
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Gymnothorax funebris
-      confidence: 0.9537
+      confidence: 0.8921
     - scientific: Gymnothorax miliaris
-      confidence: 0.0462
-    - scientific: Enchelycore carychroa
+      confidence: 0.1079
+    - scientific: Gymnothorax vicinus
       confidence: 0.0
 species:
 - scientific: Gymnothorax funebris
   role: primary
-  confidence: 0.9516
+  confidence: 0.9244
   identified_by: bioclip-2+bioclip-2.5

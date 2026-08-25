@@ -13,30 +13,30 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-25T03:36:41Z'
+    created: '2026-08-25T05:43:58Z'
     src_mtime: 1786158972.810539
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Mycteroperca tigris
-      confidence: 0.5909
-    - scientific: Lachnolaimus maximus
-      confidence: 0.2207
+      confidence: 0.6596
     - scientific: Epinephelus striatus
-      confidence: 0.0602
+      confidence: 0.0972
+    - scientific: Lachnolaimus maximus
+      confidence: 0.0858
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-25T03:38:37Z'
+    created: '2026-08-25T05:46:15Z'
     src_mtime: 1786158972.810539
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
-    - scientific: Haemulon macrostomum
-      confidence: 0.8954
     - scientific: Mycteroperca tigris
-      confidence: 0.0329
+      confidence: 0.4095
+    - scientific: Haemulon macrostomum
+      confidence: 0.3168
     - scientific: Serranus tigrinus
-      confidence: 0.0104
+      confidence: 0.0229
 species:
-- scientific: Haemulon macrostomum
+- scientific: Mycteroperca tigris
   role: primary
-  confidence: 0.4477
-  identified_by: bioclip-2.5
+  confidence: 0.5345
+  identified_by: bioclip-2+bioclip-2.5

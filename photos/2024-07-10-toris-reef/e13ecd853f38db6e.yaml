@@ -16,32 +16,32 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-25T03:36:41Z'
+    created: '2026-08-25T05:43:58Z'
     src_mtime: 1786160209.658466
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Aulostomus maculatus
-      confidence: 0.0626
+      confidence: 0.054
     - scientific: Bodianus rufus
-      confidence: 0.0362
+      confidence: 0.0361
     - scientific: Holacanthus tricolor
-      confidence: 0.0293
+      confidence: 0.021
     absorbed_by:
       scientific: Orbicella annularis
-      confidence: 0.1493
+      confidence: 0.1957
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-25T03:38:37Z'
+    created: '2026-08-25T05:46:15Z'
     src_mtime: 1786160209.658466
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
-    - scientific: Sparisoma amplum
-      confidence: 0.0041
+    - scientific: Davidaster rubiginosus
+      confidence: 0.005
     - scientific: Sparisoma viride
-      confidence: 0.0032
+      confidence: 0.0008
     - scientific: Mycteroperca tigris
-      confidence: 0.0012
+      confidence: 0.0003
     absorbed_by:
       scientific: Aplysina archeri
-      confidence: 0.6675
+      confidence: 0.7607
 species: []

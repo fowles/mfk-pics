@@ -16,30 +16,30 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-25T03:36:41Z'
+    created: '2026-08-25T05:43:58Z'
     src_mtime: 1786156981.4035976
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
-    - scientific: Diodon hystrix
-      confidence: 0.9058
     - scientific: Diodon holocanthus
-      confidence: 0.0576
-    - scientific: Epinephelus itajara
-      confidence: 0.0062
+      confidence: 0.5144
+    - scientific: Chilomycterus antillarum
+      confidence: 0.2281
+    - scientific: Diodon hystrix
+      confidence: 0.0779
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-25T03:38:37Z'
+    created: '2026-08-25T05:46:15Z'
     src_mtime: 1786156981.4035976
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Diodon hystrix
-      confidence: 0.999
+      confidence: 0.9987
     - scientific: Diodon holocanthus
-      confidence: 0.001
-    - scientific: Chilomycterus antillarum
+      confidence: 0.0013
+    - scientific: Chelonia mydas
       confidence: 0.0
 species:
 - scientific: Diodon hystrix
   role: primary
-  confidence: 0.9524
+  confidence: 0.5383
   identified_by: bioclip-2+bioclip-2.5

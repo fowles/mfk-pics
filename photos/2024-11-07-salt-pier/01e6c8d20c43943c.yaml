@@ -16,32 +16,32 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-25T03:36:41Z'
+    created: '2026-08-25T05:43:58Z'
     src_mtime: 1786156367.7429142
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
-    - scientific: Aulostomus maculatus
-      confidence: 0.1132
+    - scientific: Myrichthys breviceps
+      confidence: 0.0873
     - scientific: Panulirus argus
-      confidence: 0.0676
-    - scientific: Fistularia tabacaria
-      confidence: 0.0585
+      confidence: 0.0686
+    - scientific: Aulostomus maculatus
+      confidence: 0.0606
     absorbed_by:
       scientific: Antillogorgia americana
-      confidence: 0.123
+      confidence: 0.0958
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-25T03:38:37Z'
+    created: '2026-08-25T05:46:15Z'
     src_mtime: 1786156367.7429142
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Holothuria thomasi
-      confidence: 0.125
-    - scientific: Ogcocephalus nasutus
-      confidence: 0.0767
+      confidence: 0.1676
     - scientific: Scorpaena plumieri
-      confidence: 0.0728
+      confidence: 0.0732
+    - scientific: Ogcocephalus nasutus
+      confidence: 0.0362
     absorbed_by:
       scientific: Cirrhipathes leutkeni
-      confidence: 0.6481
+      confidence: 0.6393
 species: []

@@ -13,30 +13,30 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-25T03:36:41Z'
+    created: '2026-08-25T05:43:58Z'
     src_mtime: 1786156979.977266
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
-    - scientific: Cantherhines macrocerus
-      confidence: 0.3804
     - scientific: Aluterus scriptus
-      confidence: 0.1465
+      confidence: 0.1899
+    - scientific: Hypoplectrus chlorurus
+      confidence: 0.1773
     - scientific: Melichthys niger
-      confidence: 0.1184
+      confidence: 0.1761
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-25T03:38:37Z'
+    created: '2026-08-25T05:46:15Z'
     src_mtime: 1786156979.977266
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Aluterus scriptus
-      confidence: 0.8244
+      confidence: 0.8453
     - scientific: Mycteroperca bonaci
-      confidence: 0.0959
-    - scientific: Mycteroperca venenosa
-      confidence: 0.0259
+      confidence: 0.0973
+    - scientific: Cantherhines macrocerus
+      confidence: 0.0126
 species:
 - scientific: Aluterus scriptus
   role: primary
-  confidence: 0.4854
+  confidence: 0.5176
   identified_by: bioclip-2+bioclip-2.5

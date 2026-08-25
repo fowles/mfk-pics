@@ -13,30 +13,30 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-25T03:36:41Z'
+    created: '2026-08-25T05:43:58Z'
     src_mtime: 1786158710.6362398
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Equetus punctatus
-      confidence: 0.9782
-    - scientific: Pareques acuminatus
-      confidence: 0.003
+      confidence: 0.9602
+    - scientific: Elacatinus oceanops
+      confidence: 0.0115
     - scientific: Elacatinus genie
-      confidence: 0.0026
+      confidence: 0.0053
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-25T03:38:37Z'
+    created: '2026-08-25T05:46:15Z'
     src_mtime: 1786158710.6362398
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Equetus punctatus
-      confidence: 0.9753
+      confidence: 0.9546
     - scientific: Elacatinus genie
-      confidence: 0.0129
+      confidence: 0.0283
     - scientific: Elacatinus evelynae
-      confidence: 0.0099
+      confidence: 0.0154
 species:
 - scientific: Equetus punctatus
   role: primary
-  confidence: 0.9768
+  confidence: 0.9574
   identified_by: bioclip-2+bioclip-2.5

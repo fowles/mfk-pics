@@ -13,30 +13,30 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-25T03:36:41Z'
+    created: '2026-08-25T05:43:58Z'
     src_mtime: 1786156971.6347337
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Caranx latus
-      confidence: 0.5756
+      confidence: 0.7906
     - scientific: Lutjanus mahogoni
-      confidence: 0.1603
+      confidence: 0.0953
     - scientific: Lutjanus apodus
-      confidence: 0.1072
+      confidence: 0.0424
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-25T03:38:37Z'
+    created: '2026-08-25T05:46:15Z'
     src_mtime: 1786156971.6347337
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Caranx latus
-      confidence: 0.999
+      confidence: 0.9993
     - scientific: Haemulon chrysargyreum
-      confidence: 0.001
+      confidence: 0.0005
     - scientific: Lutjanus mahogoni
-      confidence: 0.0
+      confidence: 0.0001
 species:
 - scientific: Caranx latus
   role: primary
-  confidence: 0.7873
+  confidence: 0.8949
   identified_by: bioclip-2+bioclip-2.5

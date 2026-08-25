@@ -16,33 +16,29 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-25T03:36:41Z'
+    created: '2026-08-25T05:43:58Z'
     src_mtime: 1786160212.8604343
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
-    - scientific: Holacanthus tricolor
-      confidence: 0.0472
-    - scientific: Cephalopholis cruentata
-      confidence: 0.0389
     - scientific: Gymnothorax funebris
-      confidence: 0.0252
+      confidence: 0.0763
+    - scientific: Holacanthus tricolor
+      confidence: 0.0244
+    - scientific: Cephalopholis cruentata
+      confidence: 0.0234
     absorbed_by:
       scientific: Xestospongia muta
-      confidence: 0.1794
+      confidence: 0.1695
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-25T03:38:37Z'
+    created: '2026-08-25T05:46:15Z'
     src_mtime: 1786160212.8604343
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
-    - scientific: Mycteroperca bonaci
-      confidence: 0.1885
-    - scientific: Epinephelus striatus
-      confidence: 0.124
     - scientific: Sparisoma viride
-      confidence: 0.106
-species:
-- scientific: Mycteroperca bonaci
-  role: primary
-  confidence: 0.0943
-  identified_by: bioclip-2.5
+      confidence: 0.1686
+    - scientific: Epinephelus striatus
+      confidence: 0.1495
+    - scientific: Mycteroperca bonaci
+      confidence: 0.1297
+species: []

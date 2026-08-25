@@ -13,30 +13,30 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-25T03:36:41Z'
+    created: '2026-08-25T05:43:58Z'
     src_mtime: 1786158865.5918956
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Aluterus scriptus
-      confidence: 0.8095
+      confidence: 0.9537
     - scientific: Acanthostracion quadricornis
-      confidence: 0.0781
+      confidence: 0.0214
     - scientific: Acanthostracion polygonius
-      confidence: 0.0729
+      confidence: 0.0089
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-25T03:38:37Z'
+    created: '2026-08-25T05:46:15Z'
     src_mtime: 1786158865.5918956
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
-    - scientific: Acanthostracion quadricornis
-      confidence: 0.6027
     - scientific: Aluterus scriptus
-      confidence: 0.3446
+      confidence: 0.5358
+    - scientific: Acanthostracion quadricornis
+      confidence: 0.3994
     - scientific: Acanthostracion polygonius
-      confidence: 0.0479
+      confidence: 0.0611
 species:
 - scientific: Aluterus scriptus
   role: primary
-  confidence: 0.5771
+  confidence: 0.7448
   identified_by: bioclip-2+bioclip-2.5

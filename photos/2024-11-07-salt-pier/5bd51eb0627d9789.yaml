@@ -13,32 +13,32 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-25T03:36:41Z'
+    created: '2026-08-25T05:43:58Z'
     src_mtime: 1786156318.0014586
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Thalassoma bifasciatum
-      confidence: 0.1137
-    - scientific: Bodianus pulchellus
-      confidence: 0.0328
-    - scientific: Halichoeres garnoti
-      confidence: 0.0281
+      confidence: 0.2043
+    - scientific: Davidaster rubiginosus
+      confidence: 0.1527
+    - scientific: Elacatinus evelynae
+      confidence: 0.0427
     absorbed_by:
       scientific: Condylactis gigantea
-      confidence: 0.696
+      confidence: 0.4612
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-25T03:38:37Z'
+    created: '2026-08-25T05:46:15Z'
     src_mtime: 1786156318.0014586
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Thalassoma bifasciatum
-      confidence: 0.0114
+      confidence: 0.0055
     - scientific: Halichoeres pictus
-      confidence: 0.0021
-    - scientific: Halichoeres maculipinna
       confidence: 0.0001
+    - scientific: Halichoeres maculipinna
+      confidence: 0.0
     absorbed_by:
       scientific: Condylactis gigantea
-      confidence: 0.9853
+      confidence: 0.9941
 species: []

@@ -13,30 +13,30 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-25T03:36:41Z'
+    created: '2026-08-25T05:43:58Z'
     src_mtime: 1786156898.3926322
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Pterois volitans
-      confidence: 0.0546
-    - scientific: Chromis cyanea
-      confidence: 0.049
-    - scientific: Sepioteuthis sepioidea
-      confidence: 0.0429
+      confidence: 0.2301
+    - scientific: Aluterus scriptus
+      confidence: 0.0503
+    - scientific: Halichoeres pictus
+      confidence: 0.0416
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-25T03:38:37Z'
+    created: '2026-08-25T05:46:15Z'
     src_mtime: 1786156898.3926322
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Mycteroperca tigris
-      confidence: 0.5944
-    - scientific: Pterois volitans
-      confidence: 0.0461
+      confidence: 0.587
     - scientific: Monacanthus tuckeri
-      confidence: 0.0413
+      confidence: 0.0571
+    - scientific: Heteropriacanthus cruentatus
+      confidence: 0.0338
 species:
 - scientific: Mycteroperca tigris
   role: primary
-  confidence: 0.2972
+  confidence: 0.2935
   identified_by: bioclip-2.5

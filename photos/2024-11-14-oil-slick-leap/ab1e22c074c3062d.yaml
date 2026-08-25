@@ -16,30 +16,30 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-25T03:36:41Z'
+    created: '2026-08-25T05:43:58Z'
     src_mtime: 1786156899.4813175
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
-    - scientific: Acanthurus coeruleus
-      confidence: 0.1779
-    - scientific: Chromis cyanea
-      confidence: 0.1384
     - scientific: Scarus coeruleus
-      confidence: 0.1308
+      confidence: 0.2464
+    - scientific: Chromis cyanea
+      confidence: 0.162
+    - scientific: Acanthurus coeruleus
+      confidence: 0.1606
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-25T03:38:37Z'
+    created: '2026-08-25T05:46:15Z'
     src_mtime: 1786156899.4813175
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Scarus coelestinus
-      confidence: 0.926
-    - scientific: Rypticus saponaceus
-      confidence: 0.0245
-    - scientific: Serranus tortugarum
-      confidence: 0.0143
+      confidence: 0.9761
+    - scientific: Hypoplectrus indigo
+      confidence: 0.0103
+    - scientific: Clepticus parrae
+      confidence: 0.0071
 species:
 - scientific: Scarus coelestinus
   role: primary
-  confidence: 0.463
+  confidence: 0.488
   identified_by: bioclip-2.5

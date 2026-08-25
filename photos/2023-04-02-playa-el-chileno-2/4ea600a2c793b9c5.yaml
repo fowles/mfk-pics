@@ -17,21 +17,21 @@ correction_standalone: true
 species_suggestions:
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-23T18:22:34Z'
+    created: '2026-08-25T05:43:58Z'
     src_mtime: 1787438635.907258
-    vocab: d07e6f895399
+    vocab: 2184a73cc476
     top:
     - scientific: Anisotremus taeniatus
-      confidence: 0.9556
+      confidence: 0.9893
     - scientific: Lutjanus viridis
-      confidence: 0.0311
-    - scientific: Orthopristis reddingi
-      confidence: 0.0065
+      confidence: 0.0086
+    - scientific: Haemulon steindachneri
+      confidence: 0.0008
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-23T18:25:36Z'
+    created: '2026-08-25T05:46:15Z'
     src_mtime: 1787438635.907258
-    vocab: d07e6f895399
+    vocab: 2184a73cc476
     top:
     - scientific: Anisotremus taeniatus
       confidence: 1.0

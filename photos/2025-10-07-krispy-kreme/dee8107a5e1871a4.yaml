@@ -13,30 +13,30 @@ rotation_applied: 90
 species_suggestions:
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-25T03:36:41Z'
+    created: '2026-08-25T05:43:58Z'
     src_mtime: 1787174939.2857625
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Mycteroperca bonaci
-      confidence: 0.9614
-    - scientific: Mycteroperca tigris
-      confidence: 0.0204
+      confidence: 0.8895
     - scientific: Mycteroperca venenosa
-      confidence: 0.0108
+      confidence: 0.0613
+    - scientific: Mycteroperca tigris
+      confidence: 0.0369
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-25T03:38:37Z'
+    created: '2026-08-25T05:46:15Z'
     src_mtime: 1787174939.2857625
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Mycteroperca bonaci
-      confidence: 0.9874
-    - scientific: Mycteroperca venenosa
-      confidence: 0.0084
+      confidence: 0.9934
     - scientific: Mycteroperca tigris
-      confidence: 0.0042
+      confidence: 0.0046
+    - scientific: Mycteroperca venenosa
+      confidence: 0.0019
 species:
 - scientific: Mycteroperca bonaci
   role: primary
-  confidence: 0.9744
+  confidence: 0.9414
   identified_by: bioclip-2+bioclip-2.5

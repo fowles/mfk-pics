@@ -16,33 +16,33 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-25T03:36:41Z'
+    created: '2026-08-25T05:43:58Z'
     src_mtime: 1786157883.1053538
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
-    - scientific: Serranus tigrinus
-      confidence: 0.0295
     - scientific: Haemulon flavolineatum
-      confidence: 0.0217
-    - scientific: Thalassoma bifasciatum
-      confidence: 0.0173
+      confidence: 0.0399
+    - scientific: Davidaster rubiginosus
+      confidence: 0.0305
+    - scientific: Halichoeres garnoti
+      confidence: 0.0284
     absorbed_by:
-      scientific: Porites astreoides
-      confidence: 0.2184
+      scientific: Orbicella annularis
+      confidence: 0.165
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-25T03:38:37Z'
+    created: '2026-08-25T05:46:15Z'
     src_mtime: 1786157883.1053538
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Acanthostracion polygonius
-      confidence: 0.4004
-    - scientific: Serranus tigrinus
-      confidence: 0.2034
+      confidence: 0.4942
     - scientific: Scarus iseri
-      confidence: 0.191
+      confidence: 0.1455
+    - scientific: Serranus tigrinus
+      confidence: 0.1081
 species:
 - scientific: Acanthostracion polygonius
   role: primary
-  confidence: 0.2002
+  confidence: 0.2471
   identified_by: bioclip-2.5

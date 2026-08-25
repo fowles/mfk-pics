@@ -13,28 +13,28 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-23T18:22:34Z'
+    created: '2026-08-25T05:43:58Z'
     src_mtime: 1786071951.0826168
-    vocab: 9eb53da9d7d6
+    vocab: f5caf25a4194
     top:
     - scientific: Octopus insularis
-      confidence: 0.9019
-    - scientific: Octopus briareus
-      confidence: 0.0348
+      confidence: 0.7571
     - scientific: Urobatis jamaicensis
-      confidence: 0.0225
+      confidence: 0.1337
+    - scientific: Octopus briareus
+      confidence: 0.0304
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-23T18:25:36Z'
+    created: '2026-08-25T05:46:15Z'
     src_mtime: 1786071951.0826168
-    vocab: 9eb53da9d7d6
+    vocab: f5caf25a4194
     top:
     - scientific: Octopus insularis
-      confidence: 0.9856
+      confidence: 0.9863
     - scientific: Urobatis jamaicensis
-      confidence: 0.0109
+      confidence: 0.0117
     - scientific: Octopus briareus
-      confidence: 0.0024
+      confidence: 0.0008
 species:
 - scientific: Octopus insularis
   role: primary

@@ -13,28 +13,28 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-23T18:22:34Z'
+    created: '2026-08-25T05:43:58Z'
     src_mtime: 1786071943.175535
-    vocab: 9eb53da9d7d6
+    vocab: f5caf25a4194
     top:
     - scientific: Caranx ruber
-      confidence: 0.4117
-    - scientific: Trachinotus falcatus
-      confidence: 0.1228
-    - scientific: Trachinotus goodei
-      confidence: 0.1093
+      confidence: 0.4549
+    - scientific: Carangoides bartholomaei
+      confidence: 0.1327
+    - scientific: Caranx crysos
+      confidence: 0.119
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-23T18:25:36Z'
+    created: '2026-08-25T05:46:15Z'
     src_mtime: 1786071943.175535
-    vocab: 9eb53da9d7d6
+    vocab: f5caf25a4194
     top:
-    - scientific: Caranx crysos
-      confidence: 0.2989
-    - scientific: Seriola rivoliana
-      confidence: 0.2988
     - scientific: Caranx ruber
-      confidence: 0.278
+      confidence: 0.3787
+    - scientific: Caranx crysos
+      confidence: 0.2992
+    - scientific: Seriola rivoliana
+      confidence: 0.2943
 species:
 - scientific: Osachila antillensis
   role: primary

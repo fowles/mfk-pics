@@ -13,30 +13,30 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-25T03:36:41Z'
+    created: '2026-08-25T05:43:58Z'
     src_mtime: 1786159053.5840297
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Sparisoma rubripinne
-      confidence: 0.5925
+      confidence: 0.8189
     - scientific: Scarus coeruleus
-      confidence: 0.2191
+      confidence: 0.0676
     - scientific: Scarus vetula
-      confidence: 0.1079
+      confidence: 0.0376
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-25T03:38:37Z'
+    created: '2026-08-25T05:46:15Z'
     src_mtime: 1786159053.5840297
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Sparisoma rubripinne
-      confidence: 0.9928
+      confidence: 0.9905
     - scientific: Sparisoma viride
-      confidence: 0.0039
+      confidence: 0.005
     - scientific: Acanthurus coeruleus
-      confidence: 0.0011
+      confidence: 0.0021
 species:
 - scientific: Sparisoma rubripinne
   role: primary
-  confidence: 0.7927
+  confidence: 0.9047
   identified_by: bioclip-2+bioclip-2.5

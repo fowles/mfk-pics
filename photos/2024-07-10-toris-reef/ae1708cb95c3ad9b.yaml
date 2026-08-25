@@ -14,29 +14,33 @@ rotation_reviewed: true
 species_suggestions:
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-25T03:36:41Z'
+    created: '2026-08-25T05:43:58Z'
     src_mtime: 1786160157.4305015
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Aulostomus maculatus
-      confidence: 0.0455
+      confidence: 0.0768
     - scientific: Urobatis jamaicensis
-      confidence: 0.0333
-    - scientific: Haemulon sciurus
-      confidence: 0.0118
+      confidence: 0.0227
+    - scientific: Chilomycterus antillarum
+      confidence: 0.0193
     absorbed_by:
       scientific: Acropora cervicornis
-      confidence: 0.6097
+      confidence: 0.3922
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-25T03:38:37Z'
+    created: '2026-08-25T05:46:15Z'
     src_mtime: 1786160157.4305015
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
-    - scientific: Ogcocephalus nasutus
-      confidence: 0.4119
     - scientific: Urobatis jamaicensis
-      confidence: 0.4054
-    - scientific: Ogcocephalus radiatus
-      confidence: 0.0624
-species: []
+      confidence: 0.4099
+    - scientific: Ogcocephalus nasutus
+      confidence: 0.2295
+    - scientific: Aluterus scriptus
+      confidence: 0.0926
+species:
+- scientific: Urobatis jamaicensis
+  role: primary
+  confidence: 0.2163
+  identified_by: bioclip-2+bioclip-2.5

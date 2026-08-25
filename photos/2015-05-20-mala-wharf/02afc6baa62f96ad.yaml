@@ -13,28 +13,28 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-23T17:30:46Z'
+    created: '2026-08-25T05:43:58Z'
     src_mtime: 1787441083.0925872
-    vocab: e269cc0058c6
+    vocab: 43f646ed780c
     top:
     - scientific: Lutjanus gibbus
-      confidence: 0.0845
-    - scientific: Macolor niger
-      confidence: 0.05
-    - scientific: Lutjanus fulvus
-      confidence: 0.022
+      confidence: 0.1019
+    - scientific: Caranx melampygus
+      confidence: 0.0259
+    - scientific: Pterocaesio pisang
+      confidence: 0.0201
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-23T17:36:20Z'
+    created: '2026-08-25T05:46:15Z'
     src_mtime: 1787441083.0925872
-    vocab: e269cc0058c6
+    vocab: 43f646ed780c
     top:
     - scientific: Sepioteuthis lessoniana
-      confidence: 0.0809
-    - scientific: Pterocaesio pisang
-      confidence: 0.0671
-    - scientific: Lutjanus gibbus
-      confidence: 0.0597
+      confidence: 0.3244
+    - scientific: Triaenodon obesus
+      confidence: 0.0732
+    - scientific: Cetoscarus ocellatus
+      confidence: 0.0636
 species:
 - scientific: Kuhlia xenura
   role: primary

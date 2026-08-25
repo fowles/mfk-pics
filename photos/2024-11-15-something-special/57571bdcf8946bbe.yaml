@@ -13,29 +13,29 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-25T03:36:41Z'
+    created: '2026-08-25T05:43:58Z'
     src_mtime: 1786157212.074267
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
+    - scientific: Aliger gigas
+      confidence: 0.1595
     - scientific: Sphyraena barracuda
-      confidence: 0.1338
-    - scientific: Carangoides bartholomaei
-      confidence: 0.1172
-    - scientific: Tripneustes ventricosus
-      confidence: 0.0913
+      confidence: 0.1541
+    - scientific: Scarus guacamaia
+      confidence: 0.091
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-25T03:38:37Z'
+    created: '2026-08-25T05:46:15Z'
     src_mtime: 1786157212.074267
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Sepioteuthis sepioidea
-      confidence: 0.1345
+      confidence: 0.1249
+    - scientific: Acanthurus coeruleus
+      confidence: 0.0321
     - scientific: Oreaster reticulatus
-      confidence: 0.0543
-    - scientific: Ginglymostoma cirratum
-      confidence: 0.0357
+      confidence: 0.0285
     absorbed_by:
-      scientific: Spirobranchus giganteus
-      confidence: 0.1582
+      scientific: Gorgonia ventalina
+      confidence: 0.2059
 species: []

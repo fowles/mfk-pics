@@ -14,30 +14,30 @@ rotation_applied: 270
 species_suggestions:
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-25T03:36:41Z'
+    created: '2026-08-25T05:43:58Z'
     src_mtime: 1787029560.7762904
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
     - scientific: Sepioteuthis sepioidea
-      confidence: 0.1743
-    - scientific: Cephalopholis cruentata
-      confidence: 0.0793
-    - scientific: Cephalopholis fulva
-      confidence: 0.0743
+      confidence: 0.2329
+    - scientific: Cantherhines pullus
+      confidence: 0.0879
+    - scientific: Halichoeres garnoti
+      confidence: 0.0848
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-25T03:38:37Z'
+    created: '2026-08-25T05:46:15Z'
     src_mtime: 1787029560.7762904
-    vocab: 14ddcc7dceff
+    vocab: f5caf25a4194
     top:
-    - scientific: Rypticus saponaceus
-      confidence: 0.5631
-    - scientific: Cantherhines pullus
-      confidence: 0.16
     - scientific: Cantherhines macrocerus
-      confidence: 0.15
+      confidence: 0.2517
+    - scientific: Cantherhines pullus
+      confidence: 0.2197
+    - scientific: Monacanthus tuckeri
+      confidence: 0.1243
 species:
-- scientific: Rypticus saponaceus
+- scientific: Cantherhines pullus
   role: primary
-  confidence: 0.2816
-  identified_by: bioclip-2.5
+  confidence: 0.1538
+  identified_by: bioclip-2+bioclip-2.5
