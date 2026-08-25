@@ -170,7 +170,7 @@
 - {scientific: "Holothuria mexicana", common: "Donkey Dung Sea Cucumber", regions: ["Caribbean"], taxonomy: "Animalia Echinodermata Holothuroidea Holothuriida Holothuriidae"}
 - {scientific: "Davidaster rubiginosus", common: "Golden Crinoid", regions: ["Caribbean"], taxonomy: "Animalia Echinodermata Crinoidea Comatulida Comatulidae"}
 - {scientific: "Hermodice carunculata", common: "Bearded Fireworm", regions: ["Caribbean"], taxonomy: "Animalia Annelida Polychaeta Amphinomida Amphinomidae"}
-- {scientific: "Elysia crispata", common: "Lettuce Sea Slug", regions: ["Caribbean"], taxonomy: "Animalia Mollusca Gastropoda Plakobranchidae"}
+- {scientific: "Elysia crispata", common: "Lettuce Sea Slug", regions: ["Caribbean"], taxonomy: "Animalia Mollusca Gastropoda Plakobranchidae", taxonomy_details: {missing: [order]}}
 - {scientific: "Cyphoma gibbosum", common: "Flamingo Tongue", regions: ["Caribbean"], taxonomy: "Animalia Mollusca Gastropoda Littorinimorpha Ovulidae"}
 - {scientific: "Cassiopea xamachana", common: "Upside-down Jellyfish", regions: ["Caribbean"], taxonomy: "Animalia Cnidaria Scyphozoa Rhizostomeae Cassiopeidae"}
 - {scientific: "Aurelia aurita", common: "Moon Jellyfish", regions: ["Caribbean", "Eastern Pacific", "Indo-Pacific"], taxonomy: "Animalia Cnidaria Scyphozoa Semaeostomeae Ulmaridae"}
@@ -1305,7 +1305,7 @@
 - {scientific: "Pristis pristis", common: "Largetooth Sawfish", regions: ["Caribbean", "Eastern Pacific", "Indo-Pacific"], taxonomy: "Animalia Chordata Elasmobranchii Rhinopristiformes Pristidae"}
 - {scientific: "Laticauda colubrina", common: "Yellow-lipped Sea Krait", aliases: ["Banded Sea Krait"], regions: ["Indo-Pacific"], taxonomy: "Animalia Chordata Squamata Squamata Elapidae"}
 - {scientific: "Laticauda laticaudata", common: "Blue-lipped Sea Krait", regions: ["Indo-Pacific"], taxonomy: "Animalia Chordata Squamata Squamata Elapidae"}
-- {scientific: "Crocodylus porosus", common: "Saltwater Crocodile", aliases: ["Estuarine Crocodile"], regions: ["Indo-Pacific"], taxonomy: "Animalia Chordata Crocodylia Crocodylidae"}
+- {scientific: "Crocodylus porosus", common: "Saltwater Crocodile", aliases: ["Estuarine Crocodile"], regions: ["Indo-Pacific"], taxonomy: "Animalia Chordata Crocodylia Crocodylidae", taxonomy_details: {missing: [order]}}
 - {scientific: "Dugong dugon", common: "Dugong", regions: ["Indo-Pacific"], taxonomy: "Animalia Chordata Mammalia Sirenia Dugongidae"}
 - {scientific: "Tursiops aduncus", common: "Indo-Pacific Bottlenose Dolphin", regions: ["Indo-Pacific"], taxonomy: "Animalia Chordata Mammalia Cetacea Delphinidae"}
 - {scientific: "Stenella longirostris", common: "Spinner Dolphin", regions: ["Caribbean", "Eastern Pacific", "Indo-Pacific"], taxonomy: "Animalia Chordata Mammalia Cetacea Delphinidae"}
@@ -1642,16 +1642,16 @@
 - {scientific: "Janolus savinkini", common: "Savinkin's Janolus", regions: ["Indo-Pacific"], taxonomy: "Animalia Mollusca Gastropoda Nudibranchia Janolidae"}
 - {scientific: "Thecacera pacifica", common: "Pikachu Nudibranch", aliases: ["Pacific Thecacera"], regions: ["Indo-Pacific"], taxonomy: "Animalia Mollusca Gastropoda Nudibranchia Polyceridae"}
 - {scientific: "Thecacera picta", common: "Painted Thecacera", regions: ["Indo-Pacific"], taxonomy: "Animalia Mollusca Gastropoda Nudibranchia Polyceridae"}
-- {scientific: "Elysia ornata", common: "Ornate Elysia", regions: ["Indo-Pacific"], taxonomy: "Animalia Mollusca Gastropoda Plakobranchidae"}
-- {scientific: "Elysia marginata", common: "Margined Elysia", regions: ["Indo-Pacific"], taxonomy: "Animalia Mollusca Gastropoda Plakobranchidae"}
-- {scientific: "Thuridilla lineolata", common: "Lined Thuridilla", regions: ["Indo-Pacific"], taxonomy: "Animalia Mollusca Gastropoda Plakobranchidae"}
-- {scientific: "Thuridilla gracilis", common: "Graceful Thuridilla", regions: ["Indo-Pacific"], taxonomy: "Animalia Mollusca Gastropoda Plakobranchidae"}
-- {scientific: "Thuridilla splendens", common: "Splendid Thuridilla", regions: ["Indo-Pacific"], taxonomy: "Animalia Mollusca Gastropoda Plakobranchidae"}
-- {scientific: "Cyerce nigricans", common: "Blackish Cyerce", regions: ["Indo-Pacific"], taxonomy: "Animalia Mollusca Gastropoda Hermaeidae"}
-- {scientific: "Cyerce elegans", common: "Elegant Cyerce", regions: ["Indo-Pacific"], taxonomy: "Animalia Mollusca Gastropoda Hermaeidae"}
-- {scientific: "Plakobranchus ocellatus", common: "Ocellated Plakobranchus", regions: ["Indo-Pacific"], taxonomy: "Animalia Mollusca Gastropoda Plakobranchidae"}
-- {scientific: "Costasiella kuroshimae", common: "Leaf Sheep", aliases: ["Shaun the Sheep Slug"], regions: ["Indo-Pacific"], taxonomy: "Animalia Mollusca Gastropoda Costasiellidae"}
-- {scientific: "Costasiella usagi", common: "Usagi Costasiella", regions: ["Indo-Pacific"], taxonomy: "Animalia Mollusca Gastropoda Costasiellidae"}
+- {scientific: "Elysia ornata", common: "Ornate Elysia", regions: ["Indo-Pacific"], taxonomy: "Animalia Mollusca Gastropoda Plakobranchidae", taxonomy_details: {missing: [order]}}
+- {scientific: "Elysia marginata", common: "Margined Elysia", regions: ["Indo-Pacific"], taxonomy: "Animalia Mollusca Gastropoda Plakobranchidae", taxonomy_details: {missing: [order]}}
+- {scientific: "Thuridilla lineolata", common: "Lined Thuridilla", regions: ["Indo-Pacific"], taxonomy: "Animalia Mollusca Gastropoda Plakobranchidae", taxonomy_details: {missing: [order]}}
+- {scientific: "Thuridilla gracilis", common: "Graceful Thuridilla", regions: ["Indo-Pacific"], taxonomy: "Animalia Mollusca Gastropoda Plakobranchidae", taxonomy_details: {missing: [order]}}
+- {scientific: "Thuridilla splendens", common: "Splendid Thuridilla", regions: ["Indo-Pacific"], taxonomy: "Animalia Mollusca Gastropoda Plakobranchidae", taxonomy_details: {missing: [order]}}
+- {scientific: "Cyerce nigricans", common: "Blackish Cyerce", regions: ["Indo-Pacific"], taxonomy: "Animalia Mollusca Gastropoda Hermaeidae", taxonomy_details: {missing: [order]}}
+- {scientific: "Cyerce elegans", common: "Elegant Cyerce", regions: ["Indo-Pacific"], taxonomy: "Animalia Mollusca Gastropoda Hermaeidae", taxonomy_details: {missing: [order]}}
+- {scientific: "Plakobranchus ocellatus", common: "Ocellated Plakobranchus", regions: ["Indo-Pacific"], taxonomy: "Animalia Mollusca Gastropoda Plakobranchidae", taxonomy_details: {missing: [order]}}
+- {scientific: "Costasiella kuroshimae", common: "Leaf Sheep", aliases: ["Shaun the Sheep Slug"], regions: ["Indo-Pacific"], taxonomy: "Animalia Mollusca Gastropoda Costasiellidae", taxonomy_details: {missing: [order]}}
+- {scientific: "Costasiella usagi", common: "Usagi Costasiella", regions: ["Indo-Pacific"], taxonomy: "Animalia Mollusca Gastropoda Costasiellidae", taxonomy_details: {missing: [order]}}
 - {scientific: "Chelidonura varians", common: "Blue Velvet Headshield Slug", regions: ["Indo-Pacific"], taxonomy: "Animalia Mollusca Gastropoda Cephalaspidea Aglajidae"}
 - {scientific: "Chelidonura amoena", common: "Lovely Headshield Slug", regions: ["Indo-Pacific"], taxonomy: "Animalia Mollusca Gastropoda Cephalaspidea Aglajidae"}
 - {scientific: "Chelidonura hirundinina", common: "Swallowtail Headshield Slug", regions: ["Caribbean", "Indo-Pacific"], taxonomy: "Animalia Mollusca Gastropoda Cephalaspidea Aglajidae"}
@@ -1687,7 +1687,7 @@
 - {scientific: "Pseudoceros imitatus", common: "Imitating Flatworm", regions: ["Indo-Pacific"], taxonomy: "Animalia Platyhelminthes Turbellaria Polycladida Pseudocerotidae"}
 - {scientific: "Pseudoceros goslineri", common: "Gosliner's Flatworm", regions: ["Indo-Pacific"], taxonomy: "Animalia Platyhelminthes Turbellaria Polycladida Pseudocerotidae"}
 - {scientific: "Thysanozoon nigropapillosum", common: "Yellow-spotted Flatworm", aliases: ["Gold-dotted Flatworm"], regions: ["Indo-Pacific"], taxonomy: "Animalia Platyhelminthes Turbellaria Polycladida Pseudocerotidae"}
-- {scientific: "Cycloporus venetus", common: "Venetian Flatworm", regions: ["Indo-Pacific"], taxonomy: "Animalia Platyhelminthes Polycladida Stylostomidae"}
+- {scientific: "Cycloporus venetus", common: "Venetian Flatworm", regions: ["Indo-Pacific"], taxonomy: "Animalia Platyhelminthes Polycladida Stylostomidae", taxonomy_details: {missing: [class]}}
 - {scientific: "Eunice aphroditois", common: "Bobbit Worm", regions: ["Indo-Pacific"], taxonomy: "Animalia Annelida Polychaeta Eunicida Eunicidae"}
 - {scientific: "Chloeia flava", common: "Golden Fireworm", regions: ["Indo-Pacific"], taxonomy: "Animalia Annelida Polychaeta Amphinomida Amphinomidae"}
 - {scientific: "Chloeia incerta", common: "Small Fireworm", aliases: ["Chloeia parva"], regions: ["Indo-Pacific"], taxonomy: "Animalia Annelida Polychaeta Amphinomida Amphinomidae"}
