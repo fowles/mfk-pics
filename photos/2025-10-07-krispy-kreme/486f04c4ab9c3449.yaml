@@ -38,7 +38,11 @@ species_suggestions:
     - scientific: Labrisomus nuchipinnis
       confidence: 0.0369
 species:
-- scientific: Malacoctenus triangulatus
+- scientific: Elysia crispata
   role: primary
-  confidence: 0.3871
-  identified_by: bioclip-2.5
+  identified_by: human
+  confirmed_from: bioclip-2
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

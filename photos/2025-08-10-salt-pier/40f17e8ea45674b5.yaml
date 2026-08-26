@@ -38,4 +38,12 @@ species_suggestions:
     absorbed_by:
       scientific: Tubastraea coccinea
       confidence: 0.7444
-species: []
+species:
+- scientific: Lactophrys triqueter
+  role: primary
+  identified_by: human
+  confirmed_from: bioclip-2
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

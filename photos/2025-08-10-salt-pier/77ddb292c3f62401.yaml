@@ -40,3 +40,6 @@ species_suggestions:
       scientific: Cirrhipathes leutkeni
       confidence: 0.7659
 species: []
+species_reviewed:
+- primary
+- secondary
