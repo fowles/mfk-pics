@@ -36,7 +36,10 @@ species_suggestions:
     - scientific: Monacanthus tuckeri
       confidence: 0.0566
 species:
-- scientific: Sphoeroides spengleri
+- scientific: Parablennius marmoreus
   role: primary
-  confidence: 0.2381
-  identified_by: bioclip-2.5
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

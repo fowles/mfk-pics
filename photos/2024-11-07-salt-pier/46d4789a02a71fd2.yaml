@@ -36,7 +36,12 @@ species_suggestions:
     - scientific: Tylosurus crocodilus
       confidence: 0.0085
 species:
-- scientific: Platybelone argalus
+- scientific: Tylosurus crocodilus
   role: primary
-  confidence: 0.9351
-  identified_by: bioclip-2+bioclip-2.5
+  identified_by: human
+  confirmed_from: bioclip-2+bioclip-2.5
+  reviewed_by: matt
+culled: true
+species_reviewed:
+- primary
+- secondary

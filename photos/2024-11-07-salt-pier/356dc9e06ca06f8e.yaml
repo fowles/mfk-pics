@@ -41,4 +41,13 @@ species_suggestions:
     absorbed_by:
       scientific: Antillogorgia americana
       confidence: 0.3886
-species: []
+species:
+- scientific: Homo sapiens
+  role: primary
+  identified_by: human
+  reviewed_by: matt
+  person:
+  - Jane Bulnes-Fowles
+species_reviewed:
+- primary
+- secondary

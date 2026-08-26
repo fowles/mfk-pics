@@ -41,4 +41,15 @@ species_suggestions:
     absorbed_by:
       scientific: Orbicella annularis
       confidence: 0.9619
-species: []
+species:
+- scientific: Halichoeres radiatus
+  role: primary
+  identified_by: human
+  reviewed_by: matt
+- scientific: Mulloidichthys martinicus
+  role: secondary
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

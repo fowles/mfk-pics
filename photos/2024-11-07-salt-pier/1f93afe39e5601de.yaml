@@ -37,6 +37,12 @@ species_suggestions:
       confidence: 0.0645
 species:
 - scientific: Cassiopea xamachana
-  role: primary
+  role: secondary
   confidence: 0.1043
   identified_by: bioclip-2.5
+- scientific: Homo sapiens
+  role: primary
+  identified_by: human
+  reviewed_by: matt
+  person:
+  - Matthew Kulukundis

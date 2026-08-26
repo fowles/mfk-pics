@@ -36,7 +36,11 @@ species_suggestions:
     - scientific: Epinephelus adscensionis
       confidence: 0.0571
 species:
-- scientific: Monacanthus tuckeri
+- scientific: Sphoeroides spengleri
   role: primary
-  confidence: 0.3746
-  identified_by: bioclip-2.5
+  identified_by: human
+  confirmed_from: bioclip-2
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

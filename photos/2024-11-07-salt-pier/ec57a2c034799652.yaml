@@ -36,7 +36,12 @@ species_suggestions:
     - scientific: Aetobatus narinari
       confidence: 0.0374
 species:
-- scientific: Sepioteuthis sepioidea
+- scientific: Homo sapiens
   role: primary
-  confidence: 0.1801
-  identified_by: bioclip-2.5
+  identified_by: human
+  reviewed_by: matt
+  person:
+  - Delia Kulukundis
+species_reviewed:
+- primary
+- secondary

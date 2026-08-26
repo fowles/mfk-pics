@@ -36,7 +36,10 @@ species_suggestions:
     - scientific: Hypanus americanus
       confidence: 0.0084
 species:
-- scientific: Aetobatus narinari
+- scientific: Tursiops truncatus
   role: primary
-  confidence: 0.4207
-  identified_by: bioclip-2.5
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

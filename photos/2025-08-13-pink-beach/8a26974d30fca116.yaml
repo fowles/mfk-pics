@@ -36,7 +36,15 @@ species_suggestions:
     - scientific: Bodianus rufus
       confidence: 0.1277
 species:
-- scientific: Bodianus pulchellus
+- scientific: Caranx ruber
+  role: secondary
+  identified_by: human
+  reviewed_by: matt
+- scientific: Bodianus rufus
   role: primary
-  confidence: 0.3185
-  identified_by: bioclip-2.5
+  identified_by: human
+  confirmed_from: bioclip-2.5
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

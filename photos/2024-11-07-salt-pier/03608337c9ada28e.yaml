@@ -40,6 +40,12 @@ species_suggestions:
       confidence: 0.1175
 species:
 - scientific: Caranx ruber
-  role: primary
+  role: secondary
   confidence: 0.1351
   identified_by: bioclip-2
+- scientific: Homo sapiens
+  role: primary
+  identified_by: human
+  reviewed_by: matt
+  person:
+  - Matthew Kulukundis
