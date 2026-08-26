@@ -1892,3 +1892,4 @@
 - {scientific: "Kuhlia xenura", common: "Hawaiian flagtail", regions: ["Indo-Pacific"], taxonomy: "Animalia Chordata Teleostei Perciformes Kuhliidae"}
 - {scientific: "Holothuria thomasi", common: "Tiger tail sea cucumber", regions: ["Caribbean"], taxonomy: "Animalia Echinodermata Holothuroidea Holothuriida Holothuriidae"}
 - {scientific: "Paranthias furcifer", common: "Atlantic Creolefish", regions: ["Caribbean"], taxonomy: "Animalia Chordata Teleostei Perciformes Serranidae"}
+- {scientific: "Nemaster grandis", common: "Black and white crinoid", regions: ["Caribbean"], taxonomy: "Animalia Echinodermata Crinoidea Comatulida Comatulidae"}
