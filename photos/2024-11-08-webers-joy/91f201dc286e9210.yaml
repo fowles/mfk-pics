@@ -13,21 +13,21 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-25T05:43:58Z'
+    created: '2026-08-26T21:40:45Z'
     src_mtime: 1786156523.072274
-    vocab: f5caf25a4194
+    vocab: 8d0a807ec25f
     top:
     - scientific: Anisotremus surinamensis
-      confidence: 0.9024
+      confidence: 0.9023
     - scientific: Haemulon album
       confidence: 0.0866
     - scientific: Epinephelus guttatus
       confidence: 0.0043
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-25T05:46:15Z'
+    created: '2026-08-26T21:42:54Z'
     src_mtime: 1786156523.072274
-    vocab: f5caf25a4194
+    vocab: 8d0a807ec25f
     top:
     - scientific: Anisotremus surinamensis
       confidence: 1.0

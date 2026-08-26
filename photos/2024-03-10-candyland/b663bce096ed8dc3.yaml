@@ -13,9 +13,9 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T06:58:27Z'
+    created: '2026-08-26T21:40:45Z'
     src_mtime: 1786158856.6357894
-    vocab: dad8da7a8f91
+    vocab: 8d0a807ec25f
     top:
     - scientific: Melichthys niger
       confidence: 0.9934
@@ -25,9 +25,9 @@ species_suggestions:
       confidence: 0.0015
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T07:00:20Z'
+    created: '2026-08-26T21:42:54Z'
     src_mtime: 1786158856.6357894
-    vocab: dad8da7a8f91
+    vocab: 8d0a807ec25f
     top:
     - scientific: Melichthys niger
       confidence: 0.9798

@@ -9,24 +9,24 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-25T05:43:58Z'
+    created: '2026-08-26T21:40:45Z'
     src_mtime: 1786159953.8478203
-    vocab: f5caf25a4194
+    vocab: 8d0a807ec25f
     top:
     - scientific: Homo sapiens
       confidence: 0.1158
     - scientific: Eretmochelys imbricata
-      confidence: 0.103
+      confidence: 0.1029
     - scientific: Gerres cinereus
       confidence: 0.091
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-25T05:46:15Z'
+    created: '2026-08-26T21:42:54Z'
     src_mtime: 1786159953.8478203
-    vocab: f5caf25a4194
+    vocab: 8d0a807ec25f
     top:
     - scientific: Homo sapiens
-      confidence: 0.3356
+      confidence: 0.3355
     - scientific: Stenella longirostris
       confidence: 0.2779
     - scientific: Galeocerdo cuvier
