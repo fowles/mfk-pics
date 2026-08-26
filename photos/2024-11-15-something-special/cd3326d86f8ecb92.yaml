@@ -36,7 +36,13 @@ species_suggestions:
     - scientific: Caranx ruber
       confidence: 0.0815
 species:
-- scientific: Sepioteuthis sepioidea
+- scientific: Homo sapiens
   role: primary
-  confidence: 0.2387
-  identified_by: bioclip-2.5
+  identified_by: human
+  confirmed_from: bioclip-2
+  reviewed_by: matt
+  person:
+  - Jinnet Fowles
+species_reviewed:
+- primary
+- secondary

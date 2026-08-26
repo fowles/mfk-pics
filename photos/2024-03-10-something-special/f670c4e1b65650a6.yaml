@@ -39,7 +39,16 @@ species_suggestions:
     - scientific: Haemulon flavolineatum
       confidence: 0.0624
 species:
-- scientific: Haemulon macrostomum
+- scientific: Homo sapiens
+  role: secondary
+  identified_by: human
+  reviewed_by: matt
+  person:
+  - Matthew Kulukundis
+- scientific: Paranthias furcifer
   role: primary
-  confidence: 0.3885
-  identified_by: bioclip-2.5
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

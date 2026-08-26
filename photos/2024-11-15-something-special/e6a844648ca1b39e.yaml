@@ -36,7 +36,10 @@ species_suggestions:
     - scientific: Urobatis jamaicensis
       confidence: 0.1077
 species:
-- scientific: Bothus lunatus
+- scientific: Acanthostracion polygonius
   role: primary
-  confidence: 0.2757
-  identified_by: bioclip-2.5
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

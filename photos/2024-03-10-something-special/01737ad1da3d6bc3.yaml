@@ -39,7 +39,10 @@ species_suggestions:
     - scientific: Octopus briareus
       confidence: 0.0075
 species:
-- scientific: Octopus insularis
+- scientific: Sparisoma aurofrenatum
   role: primary
-  confidence: 0.3968
-  identified_by: bioclip-2+bioclip-2.5
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

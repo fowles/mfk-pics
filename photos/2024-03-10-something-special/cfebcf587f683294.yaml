@@ -38,8 +38,7 @@ species_suggestions:
       confidence: 0.2412
     - scientific: Carcharhinus longimanus
       confidence: 0.0266
-species:
-- scientific: Decapterus macarellus
-  role: primary
-  confidence: 0.2479
-  identified_by: bioclip-2+bioclip-2.5
+species: []
+species_reviewed:
+- primary
+- secondary

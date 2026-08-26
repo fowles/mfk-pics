@@ -35,8 +35,7 @@ species_suggestions:
       confidence: 0.0085
     - scientific: Histrio histrio
       confidence: 0.004
-species:
-- scientific: Hippocampus reidi
-  role: primary
-  confidence: 0.4785
-  identified_by: bioclip-2.5
+species: []
+species_reviewed:
+- primary
+- secondary

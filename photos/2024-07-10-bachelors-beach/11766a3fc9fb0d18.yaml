@@ -41,5 +41,10 @@ species_suggestions:
 species:
 - scientific: Hippocampus reidi
   role: primary
-  confidence: 0.937
-  identified_by: bioclip-2+bioclip-2.5
+  identified_by: human
+  confirmed_from: bioclip-2+bioclip-2.5
+  reviewed_by: matt
+culled: true
+species_reviewed:
+- primary
+- secondary

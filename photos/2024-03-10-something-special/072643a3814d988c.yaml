@@ -35,8 +35,7 @@ species_suggestions:
       confidence: 0.0212
     - scientific: Anisotremus virginicus
       confidence: 0.0131
-species:
-- scientific: Sepioteuthis sepioidea
-  role: primary
-  confidence: 0.683
-  identified_by: bioclip-2+bioclip-2.5
+species: []
+species_reviewed:
+- primary
+- secondary

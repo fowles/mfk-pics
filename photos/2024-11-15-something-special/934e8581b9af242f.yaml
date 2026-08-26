@@ -36,7 +36,10 @@ species_suggestions:
     - scientific: Bothus lunatus
       confidence: 0.0097
 species:
-- scientific: Scarus coeruleus
+- scientific: Acanthostracion polygonius
   role: primary
-  confidence: 0.4365
-  identified_by: bioclip-2.5
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

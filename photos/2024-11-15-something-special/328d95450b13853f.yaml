@@ -45,3 +45,7 @@ species_suggestions:
       scientific: Lebrunia neglecta
       confidence: 0.9517
 species: []
+culled: true
+species_reviewed:
+- primary
+- secondary

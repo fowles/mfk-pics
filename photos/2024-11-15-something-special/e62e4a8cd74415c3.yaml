@@ -44,4 +44,11 @@ species_suggestions:
     absorbed_by:
       scientific: Bartholomea annulata
       confidence: 0.9632
-species: []
+species:
+- scientific: Bartholomea annulata
+  role: primary
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

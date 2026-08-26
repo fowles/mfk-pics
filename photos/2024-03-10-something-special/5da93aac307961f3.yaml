@@ -44,4 +44,11 @@ species_suggestions:
     absorbed_by:
       scientific: Siderastrea siderea
       confidence: 0.5939
-species: []
+species:
+- scientific: Sparisoma aurofrenatum
+  role: primary
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

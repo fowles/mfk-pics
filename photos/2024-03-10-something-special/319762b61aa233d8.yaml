@@ -35,8 +35,7 @@ species_suggestions:
       confidence: 0.1553
     - scientific: Sphyrna lewini
       confidence: 0.1042
-species:
-- scientific: Sepioteuthis sepioidea
-  role: primary
-  confidence: 0.2237
-  identified_by: bioclip-2
+species: []
+species_reviewed:
+- primary
+- secondary

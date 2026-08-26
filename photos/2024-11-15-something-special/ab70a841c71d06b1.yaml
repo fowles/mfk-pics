@@ -39,7 +39,12 @@ species_suggestions:
       scientific: Thalassia testudinum
       confidence: 0.3277
 species:
-- scientific: Sphyraena barracuda
+- scientific: Homo sapiens
   role: primary
-  confidence: 0.1776
-  identified_by: bioclip-2
+  identified_by: human
+  reviewed_by: matt
+  person:
+  - Alice Shapiro
+species_reviewed:
+- primary
+- secondary

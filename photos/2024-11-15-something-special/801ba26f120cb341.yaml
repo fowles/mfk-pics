@@ -36,7 +36,11 @@ species_suggestions:
     - scientific: Acanthostracion polygonius
       confidence: 0.0697
 species:
-- scientific: Aluterus scriptus
+- scientific: Acanthostracion polygonius
   role: primary
-  confidence: 0.3164
-  identified_by: bioclip-2.5
+  identified_by: human
+  confirmed_from: bioclip-2.5
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

@@ -38,8 +38,7 @@ species_suggestions:
       confidence: 0.0043
     - scientific: Caranx latus
       confidence: 0.0032
-species:
-- scientific: Sepioteuthis sepioidea
-  role: primary
-  confidence: 0.5387
-  identified_by: bioclip-2+bioclip-2.5
+species: []
+species_reviewed:
+- primary
+- secondary
