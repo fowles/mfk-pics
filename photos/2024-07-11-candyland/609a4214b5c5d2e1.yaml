@@ -36,7 +36,10 @@ species_suggestions:
     - scientific: Haemulon macrostomum
       confidence: 0.0422
 species:
-- scientific: Prognathodes aculeatus
+- scientific: Lactophrys triqueter
   role: primary
-  confidence: 0.1727
-  identified_by: bioclip-2.5
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

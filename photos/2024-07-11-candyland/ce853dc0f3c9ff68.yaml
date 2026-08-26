@@ -36,7 +36,10 @@ species_suggestions:
     - scientific: Pterois volitans
       confidence: 0.0033
 species:
-- scientific: Davidaster rubiginosus
+- scientific: Nemaster grandis
   role: primary
-  confidence: 0.8658
-  identified_by: bioclip-2+bioclip-2.5
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

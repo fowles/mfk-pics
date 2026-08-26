@@ -35,8 +35,5 @@ species_suggestions:
       confidence: 0.3609
     - scientific: Chromis multilineata
       confidence: 0.0807
-species:
-- scientific: Eretmochelys imbricata
-  role: primary
-  confidence: 0.2298
-  identified_by: bioclip-2.5
+species: []
+culled: true

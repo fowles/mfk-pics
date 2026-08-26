@@ -41,4 +41,11 @@ species_suggestions:
     absorbed_by:
       scientific: Orbicella annularis
       confidence: 0.8767
-species: []
+species:
+- scientific: Pterois volitans
+  role: primary
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary

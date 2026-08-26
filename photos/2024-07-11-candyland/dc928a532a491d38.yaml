@@ -36,7 +36,10 @@ species_suggestions:
     - scientific: Mycteroperca tigris
       confidence: 0.1101
 species:
-- scientific: Diodon hystrix
+- scientific: Lactophrys triqueter
   role: primary
-  confidence: 0.1045
-  identified_by: bioclip-2.5
+  identified_by: human
+  reviewed_by: matt
+species_reviewed:
+- primary
+- secondary
