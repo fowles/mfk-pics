@@ -13,24 +13,24 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-25T05:43:58Z'
+    created: '2026-08-26T06:58:27Z'
     src_mtime: 1786159575.6445944
-    vocab: f5caf25a4194
+    vocab: dad8da7a8f91
     top:
     - scientific: Aulostomus maculatus
-      confidence: 0.0519
+      confidence: 0.0517
     - scientific: Cephalopholis cruentata
-      confidence: 0.0389
+      confidence: 0.0388
     - scientific: Monacanthus tuckeri
-      confidence: 0.0245
+      confidence: 0.0244
     absorbed_by:
       scientific: Millepora alcicornis
-      confidence: 0.1793
+      confidence: 0.1788
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-25T05:46:15Z'
+    created: '2026-08-26T07:00:20Z'
     src_mtime: 1786159575.6445944
-    vocab: f5caf25a4194
+    vocab: dad8da7a8f91
     top:
     - scientific: Haemulon macrostomum
       confidence: 0.183

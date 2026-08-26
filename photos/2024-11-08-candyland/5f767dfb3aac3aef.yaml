@@ -13,21 +13,21 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-25T05:43:58Z'
+    created: '2026-08-26T06:58:27Z'
     src_mtime: 1786156487.5811791
-    vocab: f5caf25a4194
+    vocab: dad8da7a8f91
     top:
     - scientific: Chromis multilineata
-      confidence: 0.142
+      confidence: 0.1413
     - scientific: Ophioblennius macclurei
-      confidence: 0.0944
+      confidence: 0.0939
     - scientific: Thalassoma bifasciatum
-      confidence: 0.0595
+      confidence: 0.0592
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-25T05:46:15Z'
+    created: '2026-08-26T07:00:20Z'
     src_mtime: 1786156487.5811791
-    vocab: f5caf25a4194
+    vocab: dad8da7a8f91
     top:
     - scientific: Abudefduf saxatilis
       confidence: 0.3098

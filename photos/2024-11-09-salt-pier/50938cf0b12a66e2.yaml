@@ -16,24 +16,24 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-25T05:43:58Z'
+    created: '2026-08-26T06:58:27Z'
     src_mtime: 1786156579.1561465
-    vocab: f5caf25a4194
+    vocab: dad8da7a8f91
     top:
     - scientific: Enchelycore carychroa
-      confidence: 0.4109
+      confidence: 0.4107
     - scientific: Octopus insularis
       confidence: 0.1261
     - scientific: Linckia guildingi
-      confidence: 0.1094
+      confidence: 0.1093
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-25T05:46:15Z'
+    created: '2026-08-26T07:00:20Z'
     src_mtime: 1786156579.1561465
-    vocab: f5caf25a4194
+    vocab: dad8da7a8f91
     top:
     - scientific: Gymnothorax vicinus
-      confidence: 0.3248
+      confidence: 0.3247
     - scientific: Linckia guildingi
       confidence: 0.2438
     - scientific: Davidaster rubiginosus

@@ -13,30 +13,30 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-25T05:43:58Z'
+    created: '2026-08-26T06:58:27Z'
     src_mtime: 1786159270.240882
-    vocab: f5caf25a4194
+    vocab: dad8da7a8f91
     top:
     - scientific: Chromis cyanea
-      confidence: 0.4191
+      confidence: 0.4187
     - scientific: Bodianus rufus
-      confidence: 0.1245
+      confidence: 0.1244
     - scientific: Chromis multilineata
       confidence: 0.0687
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-25T05:46:15Z'
+    created: '2026-08-26T07:00:20Z'
     src_mtime: 1786159270.240882
-    vocab: f5caf25a4194
+    vocab: dad8da7a8f91
     top:
     - scientific: Acanthurus tractus
       confidence: 0.5018
     - scientific: Chromis cyanea
-      confidence: 0.1754
+      confidence: 0.1753
     - scientific: Bodianus pulchellus
       confidence: 0.0508
 species:
 - scientific: Chromis cyanea
   role: primary
-  confidence: 0.2973
+  confidence: 0.297
   identified_by: bioclip-2+bioclip-2.5

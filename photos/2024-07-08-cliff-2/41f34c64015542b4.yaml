@@ -13,9 +13,9 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-25T05:43:58Z'
+    created: '2026-08-26T06:58:27Z'
     src_mtime: 1786159370.9624202
-    vocab: f5caf25a4194
+    vocab: dad8da7a8f91
     top:
     - scientific: Scarus taeniopterus
       confidence: 0.7117
@@ -25,9 +25,9 @@ species_suggestions:
       confidence: 0.0183
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-25T05:46:15Z'
+    created: '2026-08-26T07:00:20Z'
     src_mtime: 1786159370.9624202
-    vocab: f5caf25a4194
+    vocab: dad8da7a8f91
     top:
     - scientific: Scarus taeniopterus
       confidence: 0.9966

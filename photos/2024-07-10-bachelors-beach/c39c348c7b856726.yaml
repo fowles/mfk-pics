@@ -16,21 +16,21 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-25T05:43:58Z'
+    created: '2026-08-26T06:58:27Z'
     src_mtime: 1786158750.2202468
-    vocab: f5caf25a4194
+    vocab: dad8da7a8f91
     top:
     - scientific: Holacanthus tricolor
-      confidence: 0.1258
+      confidence: 0.1255
     - scientific: Pomacanthus arcuatus
-      confidence: 0.0443
+      confidence: 0.0442
     - scientific: Epinephelus striatus
-      confidence: 0.0353
+      confidence: 0.0352
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-25T05:46:15Z'
+    created: '2026-08-26T07:00:20Z'
     src_mtime: 1786158750.2202468
-    vocab: f5caf25a4194
+    vocab: dad8da7a8f91
     top:
     - scientific: Chaetodon striatus
       confidence: 0.1311
@@ -40,5 +40,5 @@ species_suggestions:
       confidence: 0.1135
     absorbed_by:
       scientific: Antillogorgia americana
-      confidence: 0.2164
+      confidence: 0.2163
 species: []

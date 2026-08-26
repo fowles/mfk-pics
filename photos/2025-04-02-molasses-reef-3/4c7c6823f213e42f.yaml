@@ -13,21 +13,21 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-25T05:43:58Z'
+    created: '2026-08-26T06:58:27Z'
     src_mtime: 1786157280.8200336
-    vocab: f5caf25a4194
+    vocab: dad8da7a8f91
     top:
     - scientific: Heteroconger longissimus
-      confidence: 0.3485
+      confidence: 0.3481
     - scientific: Caranx ruber
-      confidence: 0.049
+      confidence: 0.0489
     - scientific: Halichoeres pictus
       confidence: 0.0432
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-25T05:46:15Z'
+    created: '2026-08-26T07:00:20Z'
     src_mtime: 1786157280.8200336
-    vocab: f5caf25a4194
+    vocab: dad8da7a8f91
     top:
     - scientific: Diodon hystrix
       confidence: 0.7469

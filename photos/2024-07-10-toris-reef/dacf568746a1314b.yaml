@@ -16,30 +16,30 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-25T05:43:58Z'
+    created: '2026-08-26T06:58:27Z'
     src_mtime: 1786160202.1005373
-    vocab: f5caf25a4194
+    vocab: dad8da7a8f91
     top:
     - scientific: Aulostomus maculatus
-      confidence: 0.7048
+      confidence: 0.7039
     - scientific: Enchelycore carychroa
-      confidence: 0.0423
+      confidence: 0.0422
     - scientific: Heteroconger longissimus
-      confidence: 0.0377
+      confidence: 0.0376
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-25T05:46:15Z'
+    created: '2026-08-26T07:00:20Z'
     src_mtime: 1786160202.1005373
-    vocab: f5caf25a4194
+    vocab: dad8da7a8f91
     top:
     - scientific: Equetus punctatus
-      confidence: 0.3775
+      confidence: 0.3647
     - scientific: Aulostomus maculatus
-      confidence: 0.071
+      confidence: 0.0686
     - scientific: Gymnothorax miliaris
-      confidence: 0.0469
+      confidence: 0.0453
 species:
 - scientific: Aulostomus maculatus
   role: primary
-  confidence: 0.3879
+  confidence: 0.3862
   identified_by: bioclip-2+bioclip-2.5

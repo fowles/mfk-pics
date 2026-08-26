@@ -22,26 +22,26 @@ species:
   - Matthew Kulukundis
 - scientific: Sepioteuthis sepioidea
   role: primary
-  confidence: 0.6495
+  confidence: 0.6494
   identified_by: bioclip-2+bioclip-2.5
 species_suggestions:
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-25T05:43:58Z'
+    created: '2026-08-26T06:58:27Z'
     src_mtime: 1786156804.943392
-    vocab: f5caf25a4194
+    vocab: dad8da7a8f91
     top:
     - scientific: Sepioteuthis sepioidea
-      confidence: 0.7506
+      confidence: 0.7505
     - scientific: Carcharhinus perezi
       confidence: 0.0336
     - scientific: Alectis ciliaris
       confidence: 0.0257
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-25T05:46:15Z'
+    created: '2026-08-26T07:00:20Z'
     src_mtime: 1786156804.943392
-    vocab: f5caf25a4194
+    vocab: dad8da7a8f91
     top:
     - scientific: Sepioteuthis sepioidea
       confidence: 0.5484

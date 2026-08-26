@@ -13,21 +13,21 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-25T05:43:58Z'
+    created: '2026-08-26T06:58:27Z'
     src_mtime: 1786156967.244471
-    vocab: f5caf25a4194
+    vocab: dad8da7a8f91
     top:
     - scientific: Anisotremus surinamensis
-      confidence: 0.7219
+      confidence: 0.7215
     - scientific: Haemulon album
-      confidence: 0.072
+      confidence: 0.0719
     - scientific: Seriola rivoliana
       confidence: 0.0341
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-25T05:46:15Z'
+    created: '2026-08-26T07:00:20Z'
     src_mtime: 1786156967.244471
-    vocab: f5caf25a4194
+    vocab: dad8da7a8f91
     top:
     - scientific: Anisotremus surinamensis
       confidence: 0.792
@@ -38,5 +38,5 @@ species_suggestions:
 species:
 - scientific: Anisotremus surinamensis
   role: primary
-  confidence: 0.757
+  confidence: 0.7568
   identified_by: bioclip-2+bioclip-2.5

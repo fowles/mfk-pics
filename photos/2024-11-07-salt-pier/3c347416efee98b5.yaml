@@ -13,12 +13,12 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-25T05:43:58Z'
+    created: '2026-08-26T06:58:27Z'
     src_mtime: 1786156324.6756427
-    vocab: f5caf25a4194
+    vocab: dad8da7a8f91
     top:
     - scientific: Rhincodon typus
-      confidence: 0.2321
+      confidence: 0.232
     - scientific: Mobula birostris
       confidence: 0.0673
     - scientific: Diodon holocanthus
@@ -28,18 +28,18 @@ species_suggestions:
       confidence: 0.2847
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-25T05:46:15Z'
+    created: '2026-08-26T07:00:20Z'
     src_mtime: 1786156324.6756427
-    vocab: f5caf25a4194
+    vocab: dad8da7a8f91
     top:
     - scientific: Astrophyton muricatum
-      confidence: 0.0552
+      confidence: 0.0551
     - scientific: Chromis cyanea
-      confidence: 0.0443
+      confidence: 0.0442
     - scientific: Mycteroperca bonaci
-      confidence: 0.0352
+      confidence: 0.0351
     absorbed_by:
       scientific: Montastraea cavernosa
-      confidence: 0.1387
+      confidence: 0.1385
 rotation_reviewed: true
 species: []

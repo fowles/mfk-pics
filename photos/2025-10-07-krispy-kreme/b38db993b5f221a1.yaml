@@ -12,30 +12,30 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-25T05:43:58Z'
+    created: '2026-08-26T06:58:27Z'
     src_mtime: 1786159793.5863838
-    vocab: f5caf25a4194
+    vocab: dad8da7a8f91
     top:
     - scientific: Haemulon album
-      confidence: 0.2593
+      confidence: 0.2528
     - scientific: Mycteroperca tigris
-      confidence: 0.0853
+      confidence: 0.0831
     - scientific: Kyphosus sectatrix
-      confidence: 0.0673
+      confidence: 0.0656
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-25T05:46:15Z'
+    created: '2026-08-26T07:00:20Z'
     src_mtime: 1786159793.5863838
-    vocab: f5caf25a4194
+    vocab: dad8da7a8f91
     top:
     - scientific: Kyphosus sectatrix
-      confidence: 0.4272
+      confidence: 0.4246
     - scientific: Haemulon album
-      confidence: 0.273
+      confidence: 0.2714
     - scientific: Scarus vetula
-      confidence: 0.0328
+      confidence: 0.0326
 species:
 - scientific: Haemulon album
   role: primary
-  confidence: 0.2661
+  confidence: 0.2621
   identified_by: bioclip-2+bioclip-2.5

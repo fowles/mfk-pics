@@ -14,21 +14,21 @@ rotation_reviewed: true
 species_suggestions:
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-25T05:43:58Z'
+    created: '2026-08-26T06:58:27Z'
     src_mtime: 1786156809.5453656
-    vocab: f5caf25a4194
+    vocab: dad8da7a8f91
     top:
     - scientific: Chilomycterus antillarum
-      confidence: 0.4526
+      confidence: 0.4523
     - scientific: Diodon holocanthus
-      confidence: 0.2392
+      confidence: 0.239
     - scientific: Lactophrys bicaudalis
       confidence: 0.0286
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-25T05:46:15Z'
+    created: '2026-08-26T07:00:20Z'
     src_mtime: 1786156809.5453656
-    vocab: f5caf25a4194
+    vocab: dad8da7a8f91
     top:
     - scientific: Diodon hystrix
       confidence: 1.0

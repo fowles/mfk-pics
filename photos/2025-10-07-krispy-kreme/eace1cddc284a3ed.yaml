@@ -12,30 +12,30 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-25T05:43:58Z'
+    created: '2026-08-26T06:58:27Z'
     src_mtime: 1786159795.475344
-    vocab: f5caf25a4194
+    vocab: dad8da7a8f91
     top:
     - scientific: Stenopus hispidus
-      confidence: 0.39
+      confidence: 0.3899
     - scientific: Pterois volitans
       confidence: 0.1852
     - scientific: Periclimenes yucatanicus
       confidence: 0.1709
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-25T05:46:15Z'
+    created: '2026-08-26T07:00:20Z'
     src_mtime: 1786159795.475344
-    vocab: f5caf25a4194
+    vocab: dad8da7a8f91
     top:
     - scientific: Stenopus hispidus
-      confidence: 0.5157
+      confidence: 0.5154
     - scientific: Lysmata grabhami
-      confidence: 0.1525
+      confidence: 0.1524
     - scientific: Panulirus guttatus
-      confidence: 0.1183
+      confidence: 0.1182
 species:
 - scientific: Stenopus hispidus
   role: primary
-  confidence: 0.4529
+  confidence: 0.4526
   identified_by: bioclip-2+bioclip-2.5

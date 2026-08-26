@@ -13,21 +13,21 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-25T05:43:58Z'
+    created: '2026-08-26T06:58:27Z'
     src_mtime: 1786159274.560067
-    vocab: f5caf25a4194
+    vocab: dad8da7a8f91
     top:
     - scientific: Chromis cyanea
-      confidence: 0.317
+      confidence: 0.3168
     - scientific: Gramma loreto
-      confidence: 0.2041
+      confidence: 0.204
     - scientific: Bodianus rufus
       confidence: 0.0315
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-25T05:46:15Z'
+    created: '2026-08-26T07:00:20Z'
     src_mtime: 1786159274.560067
-    vocab: f5caf25a4194
+    vocab: dad8da7a8f91
     top:
     - scientific: Chromis cyanea
       confidence: 0.9142
@@ -38,5 +38,5 @@ species_suggestions:
 species:
 - scientific: Chromis cyanea
   role: primary
-  confidence: 0.6156
+  confidence: 0.6155
   identified_by: bioclip-2+bioclip-2.5

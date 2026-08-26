@@ -13,21 +13,21 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-25T05:43:58Z'
+    created: '2026-08-26T06:58:27Z'
     src_mtime: 1786158964.778146
-    vocab: f5caf25a4194
+    vocab: dad8da7a8f91
     top:
     - scientific: Synodus intermedius
-      confidence: 0.4311
+      confidence: 0.4309
     - scientific: Epinephelus adscensionis
-      confidence: 0.2028
+      confidence: 0.2027
     - scientific: Dactylopterus volitans
-      confidence: 0.0779
+      confidence: 0.0778
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-25T05:46:15Z'
+    created: '2026-08-26T07:00:20Z'
     src_mtime: 1786158964.778146
-    vocab: f5caf25a4194
+    vocab: dad8da7a8f91
     top:
     - scientific: Synodus intermedius
       confidence: 0.7773
@@ -38,5 +38,5 @@ species_suggestions:
 species:
 - scientific: Synodus intermedius
   role: primary
-  confidence: 0.6042
+  confidence: 0.6041
   identified_by: bioclip-2+bioclip-2.5

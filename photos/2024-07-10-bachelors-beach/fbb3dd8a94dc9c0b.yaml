@@ -16,24 +16,24 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-25T05:43:58Z'
+    created: '2026-08-26T06:58:27Z'
     src_mtime: 1786158743.30033
-    vocab: f5caf25a4194
+    vocab: dad8da7a8f91
     top:
     - scientific: Cyphoma gibbosum
-      confidence: 0.0596
+      confidence: 0.0594
     - scientific: Xyrichtys splendens
-      confidence: 0.0518
+      confidence: 0.0515
     - scientific: Aulostomus maculatus
-      confidence: 0.0446
+      confidence: 0.0444
     absorbed_by:
       scientific: Antillogorgia americana
-      confidence: 0.1355
+      confidence: 0.1348
   bioclip-2.5:
     model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-25T05:46:15Z'
+    created: '2026-08-26T07:00:20Z'
     src_mtime: 1786158743.30033
-    vocab: f5caf25a4194
+    vocab: dad8da7a8f91
     top:
     - scientific: Monacanthus tuckeri
       confidence: 0.1345
