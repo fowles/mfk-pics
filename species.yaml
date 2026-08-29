@@ -237,7 +237,7 @@
 - {scientific: "Callyspongia plicifera", common: "Azure Vase Sponge", regions: ["Caribbean"], distractor: true, taxonomy: "Animalia Porifera Demospongiae Haplosclerida Callyspongiidae"}
 - {scientific: "Niphates digitalis", common: "Pink Vase Sponge", regions: ["Caribbean"], distractor: true, taxonomy: "Animalia Porifera Demospongiae Haplosclerida Niphatidae"}
 - {scientific: "Agelas clathrodes", common: "Orange Elephant Ear Sponge", regions: ["Caribbean"], distractor: true, taxonomy: "Animalia Porifera Demospongiae Agelasida Agelasidae"}
-- {scientific: "Acropora palmata", common: "Elkhorn Coral", regions: ["Caribbean"], distractor: true, taxonomy: "Animalia Cnidaria Anthozoa Scleractinia Acroporidae"}
+- {scientific: "Acropora palmata", common: "Elkhorn Coral", regions: ["Caribbean"], taxonomy: "Animalia Cnidaria Anthozoa Scleractinia Acroporidae"}
 - {scientific: "Acropora cervicornis", common: "Staghorn Coral", regions: ["Caribbean"], distractor: true, taxonomy: "Animalia Cnidaria Anthozoa Scleractinia Acroporidae"}
 - {scientific: "Orbicella annularis", common: "Lobed Star Coral", regions: ["Caribbean"], distractor: true, taxonomy: "Animalia Cnidaria Anthozoa Scleractinia Merulinidae"}
 - {scientific: "Orbicella faveolata", common: "Mountainous Star Coral", regions: ["Caribbean"], distractor: true, taxonomy: "Animalia Cnidaria Anthozoa Scleractinia Merulinidae"}
