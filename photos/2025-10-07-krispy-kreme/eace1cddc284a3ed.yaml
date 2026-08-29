@@ -1,41 +1,41 @@
-date: '2025-10-07 10:57:57'
-location: Bahamas
-location_source: dive_site
-dive_site: Krispy Kreme
-credit: Delia Kulukundis
-import_album: Juliet Bahamas 2025 Underwater (all)
-import_original_name: IMG_6177.JPG
+date: "2025-10-07 10:57:57"
+location: "Bahamas"
+location_source: "dive_site"
+dive_site: "Krispy Kreme"
+credit: "Delia Kulukundis"
+import_album: "Juliet Bahamas 2025 Underwater (all)"
+import_original_name: "IMG_6177.JPG"
 lat: 25.5543
 lon: -79.2886
-gps_source: dive_site
+gps_source: "dive_site"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786159795.475344
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Stenopus hispidus
+    - scientific: "Stenopus hispidus"
       confidence: 0.3899
-    - scientific: Pterois volitans
+    - scientific: "Pterois volitans"
       confidence: 0.1852
-    - scientific: Periclimenes yucatanicus
+    - scientific: "Periclimenes yucatanicus"
       confidence: 0.1709
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786159795.475344
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Stenopus hispidus
+    - scientific: "Stenopus hispidus"
       confidence: 0.5154
-    - scientific: Lysmata grabhami
+    - scientific: "Lysmata grabhami"
       confidence: 0.1524
-    - scientific: Panulirus guttatus
+    - scientific: "Panulirus guttatus"
       confidence: 0.1182
 species:
-- scientific: Stenopus hispidus
-  role: primary
+- scientific: "Stenopus hispidus"
+  role: "primary"
   confidence: 0.4526
-  identified_by: bioclip-2+bioclip-2.5
+  identified_by: "bioclip-2+bioclip-2.5"

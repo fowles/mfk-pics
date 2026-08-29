@@ -1,42 +1,42 @@
-date: '2024-11-09 13:45:59'
-location: Bonaire
-location_source: dive_site
-dive_site: Salt Pier
-credit: Matthew Kulukundis
-import_album: 2024-11-09, Bonaire, Salt Pier
-import_original_name: PXL_20241109_174559944.MP.jpg
+date: "2024-11-09 13:45:59"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Salt Pier"
+credit: "Matthew Kulukundis"
+import_album: "2024-11-09, Bonaire, Salt Pier"
+import_original_name: "PXL_20241109_174559944.MP.jpg"
 variants:
-- method: dive-plus
-  file: bb86e8c4802409ca.dive-plus.webp
-  import_original_name: c2f8fbfc82c390ef.webp
+- method: "dive-plus"
+  file: "bb86e8c4802409ca.dive-plus.webp"
+  import_original_name: "c2f8fbfc82c390ef.webp"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786156576.80686
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Haemulon aurolineatum
+    - scientific: "Haemulon aurolineatum"
       confidence: 0.6601
-    - scientific: Lutjanus mahogoni
+    - scientific: "Lutjanus mahogoni"
       confidence: 0.2633
-    - scientific: Haemulon album
+    - scientific: "Haemulon album"
       confidence: 0.0354
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786156576.80686
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Lutjanus mahogoni
+    - scientific: "Lutjanus mahogoni"
       confidence: 0.8164
-    - scientific: Haemulon aurolineatum
+    - scientific: "Haemulon aurolineatum"
       confidence: 0.0682
-    - scientific: Haemulon album
+    - scientific: "Haemulon album"
       confidence: 0.0623
 species:
-- scientific: Lutjanus mahogoni
-  role: primary
+- scientific: "Lutjanus mahogoni"
+  role: "primary"
   confidence: 0.5398
-  identified_by: bioclip-2+bioclip-2.5
+  identified_by: "bioclip-2+bioclip-2.5"

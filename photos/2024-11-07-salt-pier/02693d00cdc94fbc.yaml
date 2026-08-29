@@ -1,42 +1,42 @@
-date: '2024-11-07 10:16:12'
-location: Bonaire
-location_source: dive_site
-dive_site: Salt Pier
-credit: Matthew Kulukundis
-import_album: 2024-11-07, Bonaire, Salt Pier
-import_original_name: PXL_20241107_141612239.jpg
+date: "2024-11-07 10:16:12"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Salt Pier"
+credit: "Matthew Kulukundis"
+import_album: "2024-11-07, Bonaire, Salt Pier"
+import_original_name: "PXL_20241107_141612239.jpg"
 variants:
-- method: dive-plus
-  file: 02693d00cdc94fbc.dive-plus.webp
-  import_original_name: c5efd46ca69f1875.webp
+- method: "dive-plus"
+  file: "02693d00cdc94fbc.dive-plus.webp"
+  import_original_name: "c5efd46ca69f1875.webp"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786156349.3591156
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Lutjanus apodus
+    - scientific: "Lutjanus apodus"
       confidence: 0.9673
-    - scientific: Lutjanus jocu
+    - scientific: "Lutjanus jocu"
       confidence: 0.011
-    - scientific: Lutjanus mahogoni
+    - scientific: "Lutjanus mahogoni"
       confidence: 0.0068
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786156349.3591156
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Lutjanus apodus
+    - scientific: "Lutjanus apodus"
       confidence: 0.9993
-    - scientific: Lutjanus jocu
+    - scientific: "Lutjanus jocu"
       confidence: 0.0003
-    - scientific: Ocyurus chrysurus
+    - scientific: "Ocyurus chrysurus"
       confidence: 0.0003
 species:
-- scientific: Lutjanus apodus
-  role: primary
+- scientific: "Lutjanus apodus"
+  role: "primary"
   confidence: 0.9833
-  identified_by: bioclip-2+bioclip-2.5
+  identified_by: "bioclip-2+bioclip-2.5"

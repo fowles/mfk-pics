@@ -1,49 +1,49 @@
-date: '2024-07-12 15:49:46'
-location: Bonaire
-location_source: dive_site
-dive_site: Angel City
-credit: Matthew Kulukundis
-import_album: Angel City, Bonaire, 7-12-2024
-import_original_name: PXL_20240712_194946629.jpg
+date: "2024-07-12 15:49:46"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Angel City"
+credit: "Matthew Kulukundis"
+import_album: "Angel City, Bonaire, 7-12-2024"
+import_original_name: "PXL_20240712_194946629.jpg"
 lat: 12.103454
 lon: -68.2872912
-gps_source: dive_site
+gps_source: "dive_site"
 variants:
-- method: dive-plus
-  file: 28ad1d49a1a64821.dive-plus.webp
-  import_original_name: 96d6fd51e6cf4930.webp
+- method: "dive-plus"
+  file: "28ad1d49a1a64821.dive-plus.webp"
+  import_original_name: "96d6fd51e6cf4930.webp"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786158512.6761658
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Pseudupeneus maculatus
+    - scientific: "Pseudupeneus maculatus"
       confidence: 0.162
-    - scientific: Aulostomus maculatus
+    - scientific: "Aulostomus maculatus"
       confidence: 0.1546
-    - scientific: Halichoeres garnoti
+    - scientific: "Halichoeres garnoti"
       confidence: 0.0695
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786158512.6761658
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Pseudupeneus maculatus
+    - scientific: "Pseudupeneus maculatus"
       confidence: 0.3173
-    - scientific: Halichoeres radiatus
+    - scientific: "Halichoeres radiatus"
       confidence: 0.2894
-    - scientific: Sparisoma amplum
+    - scientific: "Sparisoma amplum"
       confidence: 0.2618
 species:
-- scientific: Halichoeres radiatus
-  role: primary
-  identified_by: human
-  confirmed_from: bioclip-2.5
-  reviewed_by: matt
+- scientific: "Halichoeres radiatus"
+  role: "primary"
+  identified_by: "human"
+  confirmed_from: "bioclip-2.5"
+  reviewed_by: "matt"
 species_reviewed:
-- primary
-- secondary
+- "primary"
+- "secondary"

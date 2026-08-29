@@ -1,45 +1,45 @@
-date: '2024-07-08 13:08:19'
-location: Bonaire
-location_source: dive_site
-dive_site: Cliff
-credit: Delia Kulukundis
-import_album: Cliff, Bonaire 7-8-24
-import_original_name: IMG_4207.JPG
+date: "2024-07-08 13:08:19"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Cliff"
+credit: "Delia Kulukundis"
+import_album: "Cliff, Bonaire 7-8-24"
+import_original_name: "IMG_4207.JPG"
 lat: 12.1743341
 lon: -68.2903018
-gps_source: dive_site
+gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786159375.4856353
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Gymnothorax miliaris
+    - scientific: "Gymnothorax miliaris"
       confidence: 0.1611
-    - scientific: Stegastes planifrons
+    - scientific: "Stegastes planifrons"
       confidence: 0.123
-    - scientific: Gymnothorax funebris
+    - scientific: "Gymnothorax funebris"
       confidence: 0.0873
     absorbed_by:
-      scientific: Millepora complanata
+      scientific: "Millepora complanata"
       confidence: 0.1838
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786159375.4856353
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Enchelycore carychroa
+    - scientific: "Enchelycore carychroa"
       confidence: 0.4456
-    - scientific: Gymnothorax miliaris
+    - scientific: "Gymnothorax miliaris"
       confidence: 0.2653
-    - scientific: Gymnothorax moringa
+    - scientific: "Gymnothorax moringa"
       confidence: 0.0857
 species:
-- scientific: Enchelycore carychroa
-  role: primary
+- scientific: "Enchelycore carychroa"
+  role: "primary"
   confidence: 0.2228
-  identified_by: bioclip-2.5
+  identified_by: "bioclip-2.5"

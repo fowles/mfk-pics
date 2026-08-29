@@ -1,42 +1,42 @@
-date: '2025-08-14 14:04:41'
-location: Bonaire
-location_source: dive_site
-dive_site: Invisibles
-credit: Delia Kulukundis
-import_album: 2025-08-14 - Bonaire, Invisibles
-import_original_name: IMG_5731.JPG
+date: "2025-08-14 14:04:41"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Invisibles"
+credit: "Delia Kulukundis"
+import_album: "2025-08-14 - Bonaire, Invisibles"
+import_original_name: "IMG_5731.JPG"
 lat: 12.0776183
 lon: -68.28015169999999
-gps_source: dive_site
+gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786158235.4682422
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Urobatis jamaicensis
+    - scientific: "Urobatis jamaicensis"
       confidence: 0.1779
-    - scientific: Hypanus americanus
+    - scientific: "Hypanus americanus"
       confidence: 0.1438
-    - scientific: Lutjanus analis
+    - scientific: "Lutjanus analis"
       confidence: 0.071
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786158235.4682422
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Bothus lunatus
+    - scientific: "Bothus lunatus"
       confidence: 0.977
-    - scientific: Urobatis jamaicensis
+    - scientific: "Urobatis jamaicensis"
       confidence: 0.011
-    - scientific: Gerres cinereus
+    - scientific: "Gerres cinereus"
       confidence: 0.0026
 species:
-- scientific: Bothus lunatus
-  role: primary
+- scientific: "Bothus lunatus"
+  role: "primary"
   confidence: 0.4885
-  identified_by: bioclip-2.5
+  identified_by: "bioclip-2.5"

@@ -1,43 +1,43 @@
-date: '2024-11-14 14:17:23'
-location: Bonaire
-location_source: dive_site
-dive_site: Red Slave
-credit: Matthew Kulukundis
-import_album: 2024-11-14, Bonaire, Red Slave
-import_original_name: PXL_20241114_181723060.jpg
+date: "2024-11-14 14:17:23"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Red Slave"
+credit: "Matthew Kulukundis"
+import_album: "2024-11-14, Bonaire, Red Slave"
+import_original_name: "PXL_20241114_181723060.jpg"
 variants:
-- method: dive-plus
-  file: d387c77072ca9e7e.dive-plus.webp
-  import_original_name: 1eb302ef4f8569cd.webp
+- method: "dive-plus"
+  file: "d387c77072ca9e7e.dive-plus.webp"
+  import_original_name: "1eb302ef4f8569cd.webp"
 date_reviewed: true
 rotation_applied: 180
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1787029641.753393
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Cantherhines macrocerus
+    - scientific: "Cantherhines macrocerus"
       confidence: 0.5802
-    - scientific: Cantherhines pullus
+    - scientific: "Cantherhines pullus"
       confidence: 0.0868
-    - scientific: Lactophrys triqueter
+    - scientific: "Lactophrys triqueter"
       confidence: 0.0399
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1787029641.753393
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Cantherhines macrocerus
+    - scientific: "Cantherhines macrocerus"
       confidence: 0.6786
-    - scientific: Gymnothorax miliaris
+    - scientific: "Gymnothorax miliaris"
       confidence: 0.2437
-    - scientific: Gymnothorax funebris
+    - scientific: "Gymnothorax funebris"
       confidence: 0.0421
 species:
-- scientific: Cantherhines macrocerus
-  role: primary
+- scientific: "Cantherhines macrocerus"
+  role: "primary"
   confidence: 0.6294
-  identified_by: bioclip-2+bioclip-2.5
+  identified_by: "bioclip-2+bioclip-2.5"

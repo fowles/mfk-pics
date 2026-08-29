@@ -1,45 +1,45 @@
-date: '2024-11-09 14:28:17'
-location: Bonaire
-location_source: dive_site
-dive_site: Salt Pier
-credit: Matthew Kulukundis
-import_album: 2024-11-09, Bonaire, Salt Pier
-import_original_name: PXL_20241109_182817028.jpg
+date: "2024-11-09 14:28:17"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Salt Pier"
+credit: "Matthew Kulukundis"
+import_album: "2024-11-09, Bonaire, Salt Pier"
+import_original_name: "PXL_20241109_182817028.jpg"
 lat: 12.082963699999999
 lon: -68.28180019999999
-gps_source: dive_site
+gps_source: "dive_site"
 variants:
-- method: dive-plus
-  file: 97ade74f2d4c2c90.dive-plus.webp
-  import_original_name: 921b926fbd275a8b.webp
+- method: "dive-plus"
+  file: "97ade74f2d4c2c90.dive-plus.webp"
+  import_original_name: "921b926fbd275a8b.webp"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786156581.5666463
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Decapterus macarellus
+    - scientific: "Decapterus macarellus"
       confidence: 0.6117
-    - scientific: Elagatis bipinnulata
+    - scientific: "Elagatis bipinnulata"
       confidence: 0.0815
-    - scientific: Scomberomorus regalis
+    - scientific: "Scomberomorus regalis"
       confidence: 0.0458
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786156581.5666463
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Eretmochelys imbricata
+    - scientific: "Eretmochelys imbricata"
       confidence: 0.2054
-    - scientific: Chelonia mydas
+    - scientific: "Chelonia mydas"
       confidence: 0.1739
-    - scientific: Scomberomorus regalis
+    - scientific: "Scomberomorus regalis"
       confidence: 0.1606
 species:
-- scientific: Decapterus macarellus
-  role: primary
+- scientific: "Decapterus macarellus"
+  role: "primary"
   confidence: 0.3059
-  identified_by: bioclip-2
+  identified_by: "bioclip-2"

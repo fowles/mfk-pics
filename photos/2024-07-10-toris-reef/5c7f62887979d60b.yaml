@@ -1,45 +1,45 @@
-date: '2024-07-10 12:55:31'
-location: Bonaire
-location_source: dive_site
-dive_site: Tori's Reef
-credit: Matthew Kulukundis
-import_album: Tori's Reef, Bonaire, 7-10-2024
-import_original_name: PXL_20240710_165531060.jpg
+date: "2024-07-10 12:55:31"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Tori's Reef"
+credit: "Matthew Kulukundis"
+import_album: "Tori's Reef, Bonaire, 7-10-2024"
+import_original_name: "PXL_20240710_165531060.jpg"
 variants:
-- method: dive-plus
-  file: 5c7f62887979d60b.dive-plus.webp
-  import_original_name: a788831cc9129334.webp
+- method: "dive-plus"
+  file: "5c7f62887979d60b.dive-plus.webp"
+  import_original_name: "a788831cc9129334.webp"
 lat: 12.070475199999999
 lon: -68.2806703
-gps_source: manual
+gps_source: "manual"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786160161.319514
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Sepioteuthis sepioidea
+    - scientific: "Sepioteuthis sepioidea"
       confidence: 0.2617
-    - scientific: Caranx ruber
+    - scientific: "Caranx ruber"
       confidence: 0.1195
-    - scientific: Heteroconger longissimus
+    - scientific: "Heteroconger longissimus"
       confidence: 0.0794
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786160161.319514
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Canthidermis sufflamen
+    - scientific: "Canthidermis sufflamen"
       confidence: 0.5539
-    - scientific: Anisotremus surinamensis
+    - scientific: "Anisotremus surinamensis"
       confidence: 0.1657
-    - scientific: Chaetodipterus faber
+    - scientific: "Chaetodipterus faber"
       confidence: 0.1421
 species:
-- scientific: Canthidermis sufflamen
-  role: primary
+- scientific: "Canthidermis sufflamen"
+  role: "primary"
   confidence: 0.2769
-  identified_by: bioclip-2.5
+  identified_by: "bioclip-2.5"

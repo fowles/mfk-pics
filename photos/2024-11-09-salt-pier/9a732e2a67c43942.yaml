@@ -1,42 +1,42 @@
-date: '2024-11-09 13:45:56'
-location: Bonaire
-location_source: dive_site
-dive_site: Salt Pier
-credit: Matthew Kulukundis
-import_album: 2024-11-09, Bonaire, Salt Pier
-import_original_name: PXL_20241109_174556964.MP.jpg
+date: "2024-11-09 13:45:56"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Salt Pier"
+credit: "Matthew Kulukundis"
+import_album: "2024-11-09, Bonaire, Salt Pier"
+import_original_name: "PXL_20241109_174556964.MP.jpg"
 variants:
-- method: dive-plus
-  file: 9a732e2a67c43942.dive-plus.webp
-  import_original_name: 6bed941fb0faecc1.webp
+- method: "dive-plus"
+  file: "9a732e2a67c43942.dive-plus.webp"
+  import_original_name: "6bed941fb0faecc1.webp"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786156576.522784
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Haemulon aurolineatum
+    - scientific: "Haemulon aurolineatum"
       confidence: 0.3629
-    - scientific: Lutjanus mahogoni
+    - scientific: "Lutjanus mahogoni"
       confidence: 0.2636
-    - scientific: Caranx latus
+    - scientific: "Caranx latus"
       confidence: 0.152
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786156576.522784
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Haemulon aurolineatum
+    - scientific: "Haemulon aurolineatum"
       confidence: 0.5618
-    - scientific: Lutjanus mahogoni
+    - scientific: "Lutjanus mahogoni"
       confidence: 0.2426
-    - scientific: Haemulon album
+    - scientific: "Haemulon album"
       confidence: 0.1677
 species:
-- scientific: Haemulon aurolineatum
-  role: primary
+- scientific: "Haemulon aurolineatum"
+  role: "primary"
   confidence: 0.4623
-  identified_by: bioclip-2+bioclip-2.5
+  identified_by: "bioclip-2+bioclip-2.5"

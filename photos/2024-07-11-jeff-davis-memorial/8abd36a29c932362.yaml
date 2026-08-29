@@ -1,44 +1,44 @@
-date: '2024-07-11 13:40:55'
-location: Bonaire
-location_source: dive_site
-dive_site: Jeff Davis Memorial
-credit: Matthew Kulukundis
-import_album: Jeff Davis Memorial, Bonaire, 7-11-2024
-import_original_name: PXL_20240711_174055351.jpg
+date: "2024-07-11 13:40:55"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Jeff Davis Memorial"
+credit: "Matthew Kulukundis"
+import_album: "Jeff Davis Memorial, Bonaire, 7-11-2024"
+import_original_name: "PXL_20240711_174055351.jpg"
 lat: 12.2050008
 lon: -68.3139741
-gps_source: dive_site
+gps_source: "dive_site"
 variants:
-- method: dive-plus
-  file: 8abd36a29c932362.dive-plus.webp
-  import_original_name: f889addd9958298f.webp
+- method: "dive-plus"
+  file: "8abd36a29c932362.dive-plus.webp"
+  import_original_name: "f889addd9958298f.webp"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786159613.3440418
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Gymnothorax funebris
+    - scientific: "Gymnothorax funebris"
       confidence: 0.6762
-    - scientific: Pomacanthus arcuatus
+    - scientific: "Pomacanthus arcuatus"
       confidence: 0.0444
-    - scientific: Cephalopholis cruentata
+    - scientific: "Cephalopholis cruentata"
       confidence: 0.0417
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786159613.3440418
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Pomacanthus arcuatus
+    - scientific: "Pomacanthus arcuatus"
       confidence: 0.0023
-    - scientific: Rypticus saponaceus
+    - scientific: "Rypticus saponaceus"
       confidence: 0.0018
-    - scientific: Gymnothorax funebris
+    - scientific: "Gymnothorax funebris"
       confidence: 0.0008
     absorbed_by:
-      scientific: Antillogorgia americana
+      scientific: "Antillogorgia americana"
       confidence: 0.9924
 species: []

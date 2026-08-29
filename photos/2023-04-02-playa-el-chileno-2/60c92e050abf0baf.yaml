@@ -1,50 +1,50 @@
-date: '2023-04-02 09:34:27'
-location: Los Cabos, Baja California Sur, Mexico
-location_source: dive_site
-dive_site: Playa el Chileno
-credit: Matthew Kulukundis
-import_album: 2023-04-02, Mexico, Baja California Sur, Los Cabos, Playa el Chileno
-import_original_name: IMG_638160248675987800.jpg
+date: "2023-04-02 09:34:27"
+location: "Los Cabos, Baja California Sur, Mexico"
+location_source: "dive_site"
+dive_site: "Playa el Chileno"
+credit: "Matthew Kulukundis"
+import_album: "2023-04-02, Mexico, Baja California Sur, Los Cabos, Playa el Chileno"
+import_original_name: "IMG_638160248675987800.jpg"
 lat: 22.94523
 lon: -109.80243
-gps_source: dive_site
+gps_source: "dive_site"
 variants:
-- method: dive-plus
-  file: 60c92e050abf0baf.dive-plus.webp
-  import_original_name: 7ca789c1a9f2f605.webp
+- method: "dive-plus"
+  file: "60c92e050abf0baf.dive-plus.webp"
+  import_original_name: "7ca789c1a9f2f605.webp"
 date_reviewed: true
 correction_standalone: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-25T05:43:58Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1787438616.8598576
-    vocab: 2184a73cc476
+    vocab: "d7c53541e79e"
     top:
-    - scientific: Microspathodon dorsalis
+    - scientific: "Microspathodon dorsalis"
       confidence: 0.4397
-    - scientific: Microspathodon bairdii
+    - scientific: "Microspathodon bairdii"
       confidence: 0.1614
-    - scientific: Stegastes rectifraenum
+    - scientific: "Stegastes rectifraenum"
       confidence: 0.1569
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-25T05:46:15Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1787438616.8598576
-    vocab: 2184a73cc476
+    vocab: "d7c53541e79e"
     top:
-    - scientific: Microspathodon dorsalis
+    - scientific: "Microspathodon dorsalis"
       confidence: 0.9091
-    - scientific: Stegastes acapulcoensis
+    - scientific: "Stegastes acapulcoensis"
       confidence: 0.0414
-    - scientific: Arothron meleagris
+    - scientific: "Arothron meleagris"
       confidence: 0.0261
 species:
-- scientific: Arothron meleagris
-  role: primary
-  identified_by: human
-  confirmed_from: bioclip-2.5
-  reviewed_by: matt
+- scientific: "Arothron meleagris"
+  role: "primary"
+  identified_by: "human"
+  confirmed_from: "bioclip-2.5"
+  reviewed_by: "matt"
 species_reviewed:
-- primary
-- secondary
+- "primary"
+- "secondary"

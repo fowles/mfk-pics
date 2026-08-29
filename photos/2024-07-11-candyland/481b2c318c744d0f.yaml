@@ -1,46 +1,46 @@
-date: '2024-07-11 15:46:48'
-location: Bonaire
-location_source: dive_site
-dive_site: Candyland
-credit: Matthew Kulukundis
-import_album: Candyland, Bonaire, 7-11-2024
-import_original_name: PXL_20240711_194648584.jpg
+date: "2024-07-11 15:46:48"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Candyland"
+credit: "Matthew Kulukundis"
+import_album: "Candyland, Bonaire, 7-11-2024"
+import_original_name: "PXL_20240711_194648584.jpg"
 variants:
-- method: dive-plus
-  file: 481b2c318c744d0f.dive-plus.webp
-  import_original_name: 7af923e115af5f5f.webp
+- method: "dive-plus"
+  file: "481b2c318c744d0f.dive-plus.webp"
+  import_original_name: "7af923e115af5f5f.webp"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786159286.6021187
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Pterois volitans
+    - scientific: "Pterois volitans"
       confidence: 0.7821
-    - scientific: Chromis cyanea
+    - scientific: "Chromis cyanea"
       confidence: 0.0081
-    - scientific: Stegastes partitus
+    - scientific: "Stegastes partitus"
       confidence: 0.0069
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786159286.6021187
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Pterois volitans
+    - scientific: "Pterois volitans"
       confidence: 0.9163
-    - scientific: Scorpaena plumieri
+    - scientific: "Scorpaena plumieri"
       confidence: 0.0001
-    - scientific: Tripneustes ventricosus
+    - scientific: "Tripneustes ventricosus"
       confidence: 0.0001
 species:
-- scientific: Pterois volitans
-  role: primary
-  identified_by: human
-  confirmed_from: bioclip-2+bioclip-2.5
-  reviewed_by: matt
+- scientific: "Pterois volitans"
+  role: "primary"
+  identified_by: "human"
+  confirmed_from: "bioclip-2+bioclip-2.5"
+  reviewed_by: "matt"
 species_reviewed:
-- primary
-- secondary
+- "primary"
+- "secondary"

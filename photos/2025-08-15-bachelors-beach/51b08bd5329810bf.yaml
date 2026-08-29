@@ -1,43 +1,43 @@
-date: '2025-08-15 07:07:04'
-location: Bonaire
-location_source: dive_site
-dive_site: Bachelor's Beach
-credit: Delia Kulukundis
-import_album: 2025-08-15 - Bonaire, Bachelor's Beach (dawn)
-import_original_name: IMG_5874.JPG
+date: "2025-08-15 07:07:04"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Bachelor's Beach"
+credit: "Delia Kulukundis"
+import_album: "2025-08-15 - Bonaire, Bachelor's Beach (dawn)"
+import_original_name: "IMG_5874.JPG"
 lat: 12.125370400000001
 lon: -68.2874429
-gps_source: dive_site
+gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786158399.7471657
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Sepioteuthis sepioidea
+    - scientific: "Sepioteuthis sepioidea"
       confidence: 0.064
-    - scientific: Carangoides bartholomaei
+    - scientific: "Carangoides bartholomaei"
       confidence: 0.0627
-    - scientific: Sphyraena barracuda
+    - scientific: "Sphyraena barracuda"
       confidence: 0.0384
     absorbed_by:
-      scientific: Millepora alcicornis
+      scientific: "Millepora alcicornis"
       confidence: 0.0748
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786158399.7471657
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Davidaster rubiginosus
+    - scientific: "Davidaster rubiginosus"
       confidence: 0.0015
-    - scientific: Sepioteuthis sepioidea
+    - scientific: "Sepioteuthis sepioidea"
       confidence: 0.0008
-    - scientific: Monacanthus tuckeri
+    - scientific: "Monacanthus tuckeri"
       confidence: 0.0001
     absorbed_by:
-      scientific: Millepora alcicornis
+      scientific: "Millepora alcicornis"
       confidence: 0.536

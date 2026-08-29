@@ -1,50 +1,50 @@
-date: '2023-04-02 09:35:34'
-location: Los Cabos, Baja California Sur, Mexico
-location_source: dive_site
-dive_site: Playa el Chileno
-credit: Matthew Kulukundis
-import_album: 2023-04-02, Mexico, Baja California Sur, Los Cabos, Playa el Chileno
-import_original_name: IMG_638160249342887690.jpg
+date: "2023-04-02 09:35:34"
+location: "Los Cabos, Baja California Sur, Mexico"
+location_source: "dive_site"
+dive_site: "Playa el Chileno"
+credit: "Matthew Kulukundis"
+import_album: "2023-04-02, Mexico, Baja California Sur, Los Cabos, Playa el Chileno"
+import_original_name: "IMG_638160249342887690.jpg"
 lat: 22.94523
 lon: -109.80243
-gps_source: dive_site
+gps_source: "dive_site"
 variants:
-- method: dive-plus
-  file: 0856fc593509f1aa.dive-plus.webp
-  import_original_name: f108252e79f516fa.webp
+- method: "dive-plus"
+  file: "0856fc593509f1aa.dive-plus.webp"
+  import_original_name: "f108252e79f516fa.webp"
 date_reviewed: true
 correction_standalone: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-25T05:43:58Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1787438622.5921555
-    vocab: 2184a73cc476
+    vocab: "d7c53541e79e"
     top:
-    - scientific: Arothron meleagris
+    - scientific: "Arothron meleagris"
       confidence: 0.9511
-    - scientific: Dermatolepis dermatolepis
+    - scientific: "Dermatolepis dermatolepis"
       confidence: 0.0112
-    - scientific: Cirrhitus rivulatus
+    - scientific: "Cirrhitus rivulatus"
       confidence: 0.0084
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-25T05:46:15Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1787438622.5921555
-    vocab: 2184a73cc476
+    vocab: "d7c53541e79e"
     top:
-    - scientific: Arothron meleagris
+    - scientific: "Arothron meleagris"
       confidence: 0.9998
-    - scientific: Ostracion meleagris
+    - scientific: "Ostracion meleagris"
       confidence: 0.0001
-    - scientific: Dermatolepis dermatolepis
+    - scientific: "Dermatolepis dermatolepis"
       confidence: 0.0
 species:
-- scientific: Arothron meleagris
-  role: primary
-  identified_by: human
-  confirmed_from: bioclip+bioclip-2+bioclip-2.5
-  reviewed_by: matt
+- scientific: "Arothron meleagris"
+  role: "primary"
+  identified_by: "human"
+  confirmed_from: "bioclip+bioclip-2+bioclip-2.5"
+  reviewed_by: "matt"
 species_reviewed:
-- primary
-- secondary
+- "primary"
+- "secondary"

@@ -1,42 +1,42 @@
-date: '2024-11-13 16:19:26'
-location: Bonaire
-location_source: dive_site
-dive_site: Oil Slick Leap
-credit: Delia Kulukundis
-import_album: 2024-11-13, Bonaire, Oil Slick Leap
-import_original_name: IMG_5211.JPG
+date: "2024-11-13 16:19:26"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Oil Slick Leap"
+credit: "Delia Kulukundis"
+import_album: "2024-11-13, Bonaire, Oil Slick Leap"
+import_original_name: "IMG_5211.JPG"
 lat: 12.2001484
 lon: -68.3086211
-gps_source: dive_site
+gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786156869.9193544
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Acanthostracion polygonius
+    - scientific: "Acanthostracion polygonius"
       confidence: 0.9738
-    - scientific: Acanthostracion quadricornis
+    - scientific: "Acanthostracion quadricornis"
       confidence: 0.0214
-    - scientific: Aluterus scriptus
+    - scientific: "Aluterus scriptus"
       confidence: 0.004
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786156869.9193544
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Acanthostracion polygonius
+    - scientific: "Acanthostracion polygonius"
       confidence: 0.9813
-    - scientific: Acanthostracion quadricornis
+    - scientific: "Acanthostracion quadricornis"
       confidence: 0.0187
-    - scientific: Aluterus scriptus
+    - scientific: "Aluterus scriptus"
       confidence: 0.0
 species:
-- scientific: Acanthostracion polygonius
-  role: primary
+- scientific: "Acanthostracion polygonius"
+  role: "primary"
   confidence: 0.9775
-  identified_by: bioclip-2+bioclip-2.5
+  identified_by: "bioclip-2+bioclip-2.5"

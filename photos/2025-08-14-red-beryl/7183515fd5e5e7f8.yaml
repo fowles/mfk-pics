@@ -1,45 +1,45 @@
-date: '2025-08-14 16:32:31'
-location: Bonaire
-location_source: dive_site
-dive_site: Red Beryl
-credit: Delia Kulukundis
-import_album: 2025-08-14 - Bonaire, Red Beryl
-import_original_name: IMG_5793.JPG
+date: "2025-08-14 16:32:31"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Red Beryl"
+credit: "Delia Kulukundis"
+import_album: "2025-08-14 - Bonaire, Red Beryl"
+import_original_name: "IMG_5793.JPG"
 lat: 12.0464185
 lon: -68.2678076
-gps_source: dive_site
+gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786158336.267144
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Acanthostracion polygonius
+    - scientific: "Acanthostracion polygonius"
       confidence: 0.0278
-    - scientific: Haemulon sciurus
+    - scientific: "Haemulon sciurus"
       confidence: 0.006
-    - scientific: Acanthurus coeruleus
+    - scientific: "Acanthurus coeruleus"
       confidence: 0.0057
     absorbed_by:
-      scientific: Orbicella annularis
+      scientific: "Orbicella annularis"
       confidence: 0.666
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786158336.267144
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Acanthostracion polygonius
+    - scientific: "Acanthostracion polygonius"
       confidence: 0.9676
-    - scientific: Acanthostracion quadricornis
+    - scientific: "Acanthostracion quadricornis"
       confidence: 0.0319
-    - scientific: Lactophrys bicaudalis
+    - scientific: "Lactophrys bicaudalis"
       confidence: 0.0003
 species:
-- scientific: Acanthostracion polygonius
-  role: primary
+- scientific: "Acanthostracion polygonius"
+  role: "primary"
   confidence: 0.4977
-  identified_by: bioclip-2+bioclip-2.5
+  identified_by: "bioclip-2+bioclip-2.5"

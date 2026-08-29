@@ -1,45 +1,45 @@
-date: '2024-11-15 13:41:21'
-location: Bonaire
-location_source: dive_site
-dive_site: Angel City
-credit: Matthew Kulukundis
-import_album: 2024-11-15, Bonaire, Angel City
-import_original_name: PXL_20241115_174856453.jpg
+date: "2024-11-15 13:41:21"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Angel City"
+credit: "Matthew Kulukundis"
+import_album: "2024-11-15, Bonaire, Angel City"
+import_original_name: "PXL_20241115_174856453.jpg"
 lat: 12.103454
 lon: -68.2872912
-gps_source: dive_site
+gps_source: "dive_site"
 variants:
-- method: dive-plus
-  file: 3c53cd8f519d87a5.dive-plus.webp
-  import_original_name: 10d31dd1091c39c0.webp
+- method: "dive-plus"
+  file: "3c53cd8f519d87a5.dive-plus.webp"
+  import_original_name: "10d31dd1091c39c0.webp"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786157054.9963048
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Gymnothorax funebris
+    - scientific: "Gymnothorax funebris"
       confidence: 0.8615
-    - scientific: Aulostomus maculatus
+    - scientific: "Aulostomus maculatus"
       confidence: 0.0581
-    - scientific: Sphyraena barracuda
+    - scientific: "Sphyraena barracuda"
       confidence: 0.0257
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786157054.9963048
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Gymnothorax funebris
+    - scientific: "Gymnothorax funebris"
       confidence: 0.9656
-    - scientific: Aulostomus maculatus
+    - scientific: "Aulostomus maculatus"
       confidence: 0.0331
-    - scientific: Aluterus scriptus
+    - scientific: "Aluterus scriptus"
       confidence: 0.0005
 species:
-- scientific: Gymnothorax funebris
-  role: primary
+- scientific: "Gymnothorax funebris"
+  role: "primary"
   confidence: 0.9136
-  identified_by: bioclip-2+bioclip-2.5
+  identified_by: "bioclip-2+bioclip-2.5"

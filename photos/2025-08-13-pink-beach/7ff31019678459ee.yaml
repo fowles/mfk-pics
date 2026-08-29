@@ -1,45 +1,45 @@
-date: '2025-08-13 14:45:21'
-location: Bonaire
-location_source: dive_site
-dive_site: Pink Beach
-credit: Matthew Kulukundis
-import_album: 2025-08-13 - Bonaire, Pink Beach
-import_original_name: PXL_20250813_184521206.jpg
+date: "2025-08-13 14:45:21"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Pink Beach"
+credit: "Matthew Kulukundis"
+import_album: "2025-08-13 - Bonaire, Pink Beach"
+import_original_name: "PXL_20250813_184521206.jpg"
 lat: 12.0662114
 lon: -68.2814167
-gps_source: dive_site
+gps_source: "dive_site"
 variants:
-- method: dive-plus
-  file: 7ff31019678459ee.dive-plus.webp
-  import_original_name: 46101b0a2dc7877e.webp
+- method: "dive-plus"
+  file: "7ff31019678459ee.dive-plus.webp"
+  import_original_name: "46101b0a2dc7877e.webp"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786158190.0718925
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Pareques acuminatus
+    - scientific: "Pareques acuminatus"
       confidence: 0.7141
-    - scientific: Cantherhines pullus
+    - scientific: "Cantherhines pullus"
       confidence: 0.0657
-    - scientific: Equetus punctatus
+    - scientific: "Equetus punctatus"
       confidence: 0.0649
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786158190.0718925
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Pomacanthus paru
+    - scientific: "Pomacanthus paru"
       confidence: 0.2847
-    - scientific: Pomacanthus arcuatus
+    - scientific: "Pomacanthus arcuatus"
       confidence: 0.2813
-    - scientific: Pareques acuminatus
+    - scientific: "Pareques acuminatus"
       confidence: 0.1898
 species:
-- scientific: Pareques acuminatus
-  role: primary
+- scientific: "Pareques acuminatus"
+  role: "primary"
   confidence: 0.4519
-  identified_by: bioclip-2+bioclip-2.5
+  identified_by: "bioclip-2+bioclip-2.5"

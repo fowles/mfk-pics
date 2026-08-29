@@ -1,45 +1,45 @@
-date: '2024-11-09 14:19:12'
-location: Bonaire
-location_source: dive_site
-dive_site: Salt Pier
-credit: Matthew Kulukundis
-import_album: 2024-11-09, Bonaire, Salt Pier
-import_original_name: PXL_20241109_181912442.jpg
+date: "2024-11-09 14:19:12"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Salt Pier"
+credit: "Matthew Kulukundis"
+import_album: "2024-11-09, Bonaire, Salt Pier"
+import_original_name: "PXL_20241109_181912442.jpg"
 lat: 12.082963699999999
 lon: -68.28180019999999
-gps_source: dive_site
+gps_source: "dive_site"
 variants:
-- method: dive-plus
-  file: c4e7e42944827a51.dive-plus.webp
-  import_original_name: 7f1d7aa71dd58f80.webp
+- method: "dive-plus"
+  file: "c4e7e42944827a51.dive-plus.webp"
+  import_original_name: "7f1d7aa71dd58f80.webp"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786156580.486336
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Haemulon flavolineatum
+    - scientific: "Haemulon flavolineatum"
       confidence: 0.0949
-    - scientific: Mulloidichthys martinicus
+    - scientific: "Mulloidichthys martinicus"
       confidence: 0.0791
-    - scientific: Sparisoma aurofrenatum
+    - scientific: "Sparisoma aurofrenatum"
       confidence: 0.0606
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786156580.486336
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Haemulon macrostomum
+    - scientific: "Haemulon macrostomum"
       confidence: 0.4879
-    - scientific: Halichoeres pictus
+    - scientific: "Halichoeres pictus"
       confidence: 0.0918
-    - scientific: Epinephelus guttatus
+    - scientific: "Epinephelus guttatus"
       confidence: 0.083
 species:
-- scientific: Haemulon macrostomum
-  role: primary
+- scientific: "Haemulon macrostomum"
+  role: "primary"
   confidence: 0.244
-  identified_by: bioclip-2.5
+  identified_by: "bioclip-2.5"

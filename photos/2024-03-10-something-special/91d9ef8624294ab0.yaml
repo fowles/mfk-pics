@@ -1,42 +1,42 @@
-date: '2024-03-10 15:11:39'
-location: Bonaire
-location_source: dive_site
-dive_site: Something Special
-credit: Matthew Kulukundis
-import_album: Bonaire, Something Special, 2024-03-10
-import_original_name: PXL_20240310_191139630.jpg
+date: "2024-03-10 15:11:39"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Something Special"
+credit: "Matthew Kulukundis"
+import_album: "Bonaire, Something Special, 2024-03-10"
+import_original_name: "PXL_20240310_191139630.jpg"
 variants:
-- method: dive-plus
-  file: 91d9ef8624294ab0.dive-plus.webp
-  import_original_name: 47933b3985899725.webp
+- method: "dive-plus"
+  file: "91d9ef8624294ab0.dive-plus.webp"
+  import_original_name: "47933b3985899725.webp"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786159065.2633917
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Serranus tigrinus
+    - scientific: "Serranus tigrinus"
       confidence: 0.0804
-    - scientific: Pterois volitans
+    - scientific: "Pterois volitans"
       confidence: 0.0483
-    - scientific: Halichoeres pictus
+    - scientific: "Halichoeres pictus"
       confidence: 0.0369
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786159065.2633917
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Mycteroperca tigris
+    - scientific: "Mycteroperca tigris"
       confidence: 0.3151
-    - scientific: Cephalopholis cruentata
+    - scientific: "Cephalopholis cruentata"
       confidence: 0.2752
-    - scientific: Acanthostracion polygonius
+    - scientific: "Acanthostracion polygonius"
       confidence: 0.1268
 species:
-- scientific: Mycteroperca tigris
-  role: primary
+- scientific: "Mycteroperca tigris"
+  role: "primary"
   confidence: 0.1575
-  identified_by: bioclip-2.5
+  identified_by: "bioclip-2.5"

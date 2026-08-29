@@ -1,49 +1,49 @@
-date: '2024-07-07 17:31:34'
-location: Bonaire
-location_source: dive_site
-dive_site: Salt Pier
-credit: Matthew Kulukundis
-import_album: Salt Pier, Bonaire, 7-7-2024
-import_original_name: PXL_20240707_213134511.jpg
+date: "2024-07-07 17:31:34"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Salt Pier"
+credit: "Matthew Kulukundis"
+import_album: "Salt Pier, Bonaire, 7-7-2024"
+import_original_name: "PXL_20240707_213134511.jpg"
 lat: 12.082963699999999
 lon: -68.28180019999999
-gps_source: dive_site
+gps_source: "dive_site"
 variants:
-- method: dive-plus
-  file: 99538d9d9aa858fc.dive-plus.webp
-  import_original_name: 0e13fa666cceae65.webp
+- method: "dive-plus"
+  file: "99538d9d9aa858fc.dive-plus.webp"
+  import_original_name: "0e13fa666cceae65.webp"
 date_reviewed: true
 rotation_applied: 90
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1787030550.2860103
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Octopus briareus
+    - scientific: "Octopus briareus"
       confidence: 0.7051
-    - scientific: Octopus insularis
+    - scientific: "Octopus insularis"
       confidence: 0.0522
-    - scientific: Elacatinus oceanops
+    - scientific: "Elacatinus oceanops"
       confidence: 0.0203
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1787030550.2860103
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Hypoplectrus indigo
+    - scientific: "Hypoplectrus indigo"
       confidence: 0.0463
-    - scientific: Thalassoma bifasciatum
+    - scientific: "Thalassoma bifasciatum"
       confidence: 0.0387
-    - scientific: Scarus coeruleus
+    - scientific: "Scarus coeruleus"
       confidence: 0.0074
     absorbed_by:
-      scientific: Stichodactyla helianthus
+      scientific: "Stichodactyla helianthus"
       confidence: 0.656
 species:
-- scientific: Octopus briareus
-  role: primary
+- scientific: "Octopus briareus"
+  role: "primary"
   confidence: 0.3525
-  identified_by: bioclip-2
+  identified_by: "bioclip-2"

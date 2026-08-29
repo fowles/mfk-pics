@@ -1,44 +1,44 @@
-date: '2024-07-11 13:14:42'
-location: Bonaire
-location_source: dive_site
-dive_site: Jeff Davis Memorial
-credit: Matthew Kulukundis
-import_album: Jeff Davis Memorial, Bonaire, 7-11-2024
-import_original_name: PXL_20240711_171442217.jpg
+date: "2024-07-11 13:14:42"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Jeff Davis Memorial"
+credit: "Matthew Kulukundis"
+import_album: "Jeff Davis Memorial, Bonaire, 7-11-2024"
+import_original_name: "PXL_20240711_171442217.jpg"
 variants:
-- method: dive-plus
-  file: 78cf6b44492cd3f8.dive-plus.webp
-  import_original_name: f207d12d80c1844f.webp
+- method: "dive-plus"
+  file: "78cf6b44492cd3f8.dive-plus.webp"
+  import_original_name: "f207d12d80c1844f.webp"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786159574.7743657
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Epinephelus striatus
+    - scientific: "Epinephelus striatus"
       confidence: 0.0493
-    - scientific: Mycteroperca bonaci
+    - scientific: "Mycteroperca bonaci"
       confidence: 0.0254
-    - scientific: Holacanthus tricolor
+    - scientific: "Holacanthus tricolor"
       confidence: 0.0243
     absorbed_by:
-      scientific: Orbicella faveolata
+      scientific: "Orbicella faveolata"
       confidence: 0.0976
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786159574.7743657
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Halichoeres garnoti
+    - scientific: "Halichoeres garnoti"
       confidence: 0.0613
-    - scientific: Mycteroperca tigris
+    - scientific: "Mycteroperca tigris"
       confidence: 0.0177
-    - scientific: Epinephelus striatus
+    - scientific: "Epinephelus striatus"
       confidence: 0.0158
     absorbed_by:
-      scientific: Antillogorgia americana
+      scientific: "Antillogorgia americana"
       confidence: 0.7544
 species: []

@@ -1,42 +1,42 @@
-date: '2024-07-09 12:50:21'
-location: Bonaire
-location_source: dive_site
-dive_site: Candyland
-credit: Matthew Kulukundis
-import_album: Candyland, Bonaire, 7-9-2024
-import_original_name: PXL_20240709_165021627.jpg
+date: "2024-07-09 12:50:21"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Candyland"
+credit: "Matthew Kulukundis"
+import_album: "Candyland, Bonaire, 7-9-2024"
+import_original_name: "PXL_20240709_165021627.jpg"
 variants:
-- method: dive-plus
-  file: 21fd512f56f3ce6b.dive-plus.webp
-  import_original_name: eb336fe00c3df3d9.webp
+- method: "dive-plus"
+  file: "21fd512f56f3ce6b.dive-plus.webp"
+  import_original_name: "eb336fe00c3df3d9.webp"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786159176.5793417
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Melichthys niger
+    - scientific: "Melichthys niger"
       confidence: 0.9526
-    - scientific: Pomacanthus arcuatus
+    - scientific: "Pomacanthus arcuatus"
       confidence: 0.0131
-    - scientific: Cantherhines pullus
+    - scientific: "Cantherhines pullus"
       confidence: 0.0074
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786159176.5793417
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Melichthys niger
+    - scientific: "Melichthys niger"
       confidence: 0.9978
-    - scientific: Scarus coelestinus
+    - scientific: "Scarus coelestinus"
       confidence: 0.002
-    - scientific: Scarus vetula
+    - scientific: "Scarus vetula"
       confidence: 0.0001
 species:
-- scientific: Melichthys niger
-  role: primary
+- scientific: "Melichthys niger"
+  role: "primary"
   confidence: 0.9752
-  identified_by: bioclip-2+bioclip-2.5
+  identified_by: "bioclip-2+bioclip-2.5"

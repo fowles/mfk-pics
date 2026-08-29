@@ -1,45 +1,45 @@
-date: '2025-04-04 14:32:38'
-location: West Palm Beach, FL, USA
-location_source: dive_site
-dive_site: Blue Heron Bridge
-credit: Matthew Kulukundis
-import_album: 2025-04-04, Blue Heron Bridge, West Palm Beach, FL
-import_original_name: PXL_20250404_183238395.jpg
+date: "2025-04-04 14:32:38"
+location: "West Palm Beach, FL, USA"
+location_source: "dive_site"
+dive_site: "Blue Heron Bridge"
+credit: "Matthew Kulukundis"
+import_album: "2025-04-04, Blue Heron Bridge, West Palm Beach, FL"
+import_original_name: "PXL_20250404_183238395.jpg"
 lat: 26.7838864
 lon: -80.044118
-gps_source: dive_site
+gps_source: "dive_site"
 variants:
-- method: dive-plus
-  file: 0deb17ffb1ffe16d.dive-plus.webp
-  import_original_name: 4ed3895410e43c49.webp
+- method: "dive-plus"
+  file: "0deb17ffb1ffe16d.dive-plus.webp"
+  import_original_name: "4ed3895410e43c49.webp"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786157492.6343884
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Petrochirus diogenes
+    - scientific: "Petrochirus diogenes"
       confidence: 0.9711
-    - scientific: Panulirus argus
+    - scientific: "Panulirus argus"
       confidence: 0.0112
-    - scientific: Paguristes cadenati
+    - scientific: "Paguristes cadenati"
       confidence: 0.0065
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786157492.6343884
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Petrochirus diogenes
+    - scientific: "Petrochirus diogenes"
       confidence: 0.9938
-    - scientific: Aliger gigas
+    - scientific: "Aliger gigas"
       confidence: 0.0055
-    - scientific: Panulirus argus
+    - scientific: "Panulirus argus"
       confidence: 0.0006
 species:
-- scientific: Petrochirus diogenes
-  role: primary
+- scientific: "Petrochirus diogenes"
+  role: "primary"
   confidence: 0.9825
-  identified_by: bioclip-2+bioclip-2.5
+  identified_by: "bioclip-2+bioclip-2.5"

@@ -1,42 +1,42 @@
-date: '2024-03-10 15:11:42'
-location: Bonaire
-location_source: dive_site
-dive_site: Something Special
-credit: Matthew Kulukundis
-import_album: Bonaire, Something Special, 2024-03-10
-import_original_name: PXL_20240310_191142810.jpg
+date: "2024-03-10 15:11:42"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Something Special"
+credit: "Matthew Kulukundis"
+import_album: "Bonaire, Something Special, 2024-03-10"
+import_original_name: "PXL_20240310_191142810.jpg"
 variants:
-- method: dive-plus
-  file: 92854238100a3956.dive-plus.webp
-  import_original_name: c8061884b87f6846.webp
+- method: "dive-plus"
+  file: "92854238100a3956.dive-plus.webp"
+  import_original_name: "c8061884b87f6846.webp"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786159065.2146423
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Lactophrys triqueter
+    - scientific: "Lactophrys triqueter"
       confidence: 0.9756
-    - scientific: Lactophrys bicaudalis
+    - scientific: "Lactophrys bicaudalis"
       confidence: 0.0208
-    - scientific: Acanthostracion polygonius
+    - scientific: "Acanthostracion polygonius"
       confidence: 0.0029
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786159065.2146423
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Lactophrys triqueter
+    - scientific: "Lactophrys triqueter"
       confidence: 0.989
-    - scientific: Lactophrys bicaudalis
+    - scientific: "Lactophrys bicaudalis"
       confidence: 0.0107
-    - scientific: Acanthostracion polygonius
+    - scientific: "Acanthostracion polygonius"
       confidence: 0.0003
 species:
-- scientific: Lactophrys triqueter
-  role: primary
+- scientific: "Lactophrys triqueter"
+  role: "primary"
   confidence: 0.9823
-  identified_by: bioclip-2+bioclip-2.5
+  identified_by: "bioclip-2+bioclip-2.5"

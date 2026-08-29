@@ -1,45 +1,45 @@
-date: '2025-08-14 13:27:10'
-location: Bonaire
-location_source: dive_site
-dive_site: Invisibles
-credit: Matthew Kulukundis
-import_album: 2025-08-14 - Bonaire, Invisibles
-import_original_name: PXL_20250814_172710941.jpg
+date: "2025-08-14 13:27:10"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Invisibles"
+credit: "Matthew Kulukundis"
+import_album: "2025-08-14 - Bonaire, Invisibles"
+import_original_name: "PXL_20250814_172710941.jpg"
 lat: 12.0776183
 lon: -68.28015169999999
-gps_source: dive_site
+gps_source: "dive_site"
 variants:
-- method: dive-plus
-  file: 5d05cfe0d2ec5e9f.dive-plus.webp
-  import_original_name: 4373523387cdd586.webp
+- method: "dive-plus"
+  file: "5d05cfe0d2ec5e9f.dive-plus.webp"
+  import_original_name: "4373523387cdd586.webp"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786158237.5735846
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Holacanthus tricolor
+    - scientific: "Holacanthus tricolor"
       confidence: 0.2564
-    - scientific: Bodianus rufus
+    - scientific: "Bodianus rufus"
       confidence: 0.0776
-    - scientific: Aulostomus maculatus
+    - scientific: "Aulostomus maculatus"
       confidence: 0.0636
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786158237.5735846
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Holacanthus tricolor
+    - scientific: "Holacanthus tricolor"
       confidence: 0.2325
-    - scientific: Halichoeres garnoti
+    - scientific: "Halichoeres garnoti"
       confidence: 0.1271
-    - scientific: Hypoplectrus puella
+    - scientific: "Hypoplectrus puella"
       confidence: 0.1007
 species:
-- scientific: Holacanthus tricolor
-  role: primary
+- scientific: "Holacanthus tricolor"
+  role: "primary"
   confidence: 0.2445
-  identified_by: bioclip-2+bioclip-2.5
+  identified_by: "bioclip-2+bioclip-2.5"

@@ -1,47 +1,47 @@
-date: '2025-08-13 14:00:24'
-location: Bonaire
-location_source: dive_site
-dive_site: Pink Beach
-credit: Matthew Kulukundis
-import_album: 2025-08-13 - Bonaire, Pink Beach
-import_original_name: PXL_20250813_180024726.MP.jpg
+date: "2025-08-13 14:00:24"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Pink Beach"
+credit: "Matthew Kulukundis"
+import_album: "2025-08-13 - Bonaire, Pink Beach"
+import_original_name: "PXL_20250813_180024726.MP.jpg"
 lat: 12.0662114
 lon: -68.2814167
-gps_source: dive_site
+gps_source: "dive_site"
 variants:
-- method: dive-plus
-  file: a6503557ecd87068.dive-plus.webp
-  import_original_name: b2d1887f9f12c600.webp
+- method: "dive-plus"
+  file: "a6503557ecd87068.dive-plus.webp"
+  import_original_name: "b2d1887f9f12c600.webp"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786158187.4182932
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Aulostomus maculatus
+    - scientific: "Aulostomus maculatus"
       confidence: 0.0707
-    - scientific: Cephalopholis cruentata
+    - scientific: "Cephalopholis cruentata"
       confidence: 0.0684
-    - scientific: Stegastes planifrons
+    - scientific: "Stegastes planifrons"
       confidence: 0.027
     absorbed_by:
-      scientific: Orbicella annularis
+      scientific: "Orbicella annularis"
       confidence: 0.1163
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786158187.4182932
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Gymnothorax miliaris
+    - scientific: "Gymnothorax miliaris"
       confidence: 0.1546
-    - scientific: Davidaster rubiginosus
+    - scientific: "Davidaster rubiginosus"
       confidence: 0.104
-    - scientific: Cephalopholis cruentata
+    - scientific: "Cephalopholis cruentata"
       confidence: 0.0707
     absorbed_by:
-      scientific: Aplysina archeri
+      scientific: "Aplysina archeri"
       confidence: 0.2044
 species: []

@@ -1,49 +1,49 @@
-date: '2025-10-07 16:33:48'
-location: Bahamas
-location_source: dive_site
-dive_site: Moxon Rocks
-credit: Delia Kulukundis
-import_album: Juliet Bahamas 2025 Underwater (all)
-import_original_name: IMG_6226.JPG
+date: "2025-10-07 16:33:48"
+location: "Bahamas"
+location_source: "dive_site"
+dive_site: "Moxon Rocks"
+credit: "Delia Kulukundis"
+import_album: "Juliet Bahamas 2025 Underwater (all)"
+import_original_name: "IMG_6226.JPG"
 lat: 25.54167
 lon: -79.27083
-gps_source: dive_site
+gps_source: "dive_site"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786159801.0965579
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Microspathodon chrysurus
+    - scientific: "Microspathodon chrysurus"
       confidence: 0.9956
-    - scientific: Holacanthus tricolor
+    - scientific: "Holacanthus tricolor"
       confidence: 0.0011
-    - scientific: Hypoplectrus nigricans
+    - scientific: "Hypoplectrus nigricans"
       confidence: 0.0006
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786159801.0965579
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Microspathodon chrysurus
+    - scientific: "Microspathodon chrysurus"
       confidence: 0.9997
-    - scientific: Hypoplectrus indigo
+    - scientific: "Hypoplectrus indigo"
       confidence: 0.0001
-    - scientific: Scarus coelestinus
+    - scientific: "Scarus coelestinus"
       confidence: 0.0001
 species:
-- scientific: Thalassoma bifasciatum
-  role: secondary
-  identified_by: human
-  reviewed_by: matt
-- scientific: Microspathodon chrysurus
-  role: primary
-  identified_by: human
-  confirmed_from: bioclip+bioclip-2+bioclip-2.5
-  reviewed_by: matt
+- scientific: "Thalassoma bifasciatum"
+  role: "secondary"
+  identified_by: "human"
+  reviewed_by: "matt"
+- scientific: "Microspathodon chrysurus"
+  role: "primary"
+  identified_by: "human"
+  confirmed_from: "bioclip+bioclip-2+bioclip-2.5"
+  reviewed_by: "matt"
 species_reviewed:
-- primary
-- secondary
+- "primary"
+- "secondary"

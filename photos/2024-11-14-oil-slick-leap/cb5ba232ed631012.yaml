@@ -1,45 +1,45 @@
-date: '2024-11-14 16:59:05'
-location: Bonaire
-location_source: dive_site
-dive_site: Oil Slick Leap
-credit: Matthew Kulukundis
-import_album: 2024-11-14, Bonaire, Oil Slick Leap
-import_original_name: PXL_20241114_205905389.jpg
+date: "2024-11-14 16:59:05"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Oil Slick Leap"
+credit: "Matthew Kulukundis"
+import_album: "2024-11-14, Bonaire, Oil Slick Leap"
+import_original_name: "PXL_20241114_205905389.jpg"
 lat: 12.2001484
 lon: -68.3086211
-gps_source: dive_site
+gps_source: "dive_site"
 variants:
-- method: dive-plus
-  file: cb5ba232ed631012.dive-plus.webp
-  import_original_name: 0b24172c76526bae.webp
+- method: "dive-plus"
+  file: "cb5ba232ed631012.dive-plus.webp"
+  import_original_name: "0b24172c76526bae.webp"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786156899.3059106
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Chilomycterus antillarum
+    - scientific: "Chilomycterus antillarum"
       confidence: 0.4604
-    - scientific: Rypticus saponaceus
+    - scientific: "Rypticus saponaceus"
       confidence: 0.0956
-    - scientific: Epinephelus guttatus
+    - scientific: "Epinephelus guttatus"
       confidence: 0.0934
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786156899.3059106
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Diodon hystrix
+    - scientific: "Diodon hystrix"
       confidence: 1.0
-    - scientific: Diodon holocanthus
+    - scientific: "Diodon holocanthus"
       confidence: 0.0
-    - scientific: Rhincodon typus
+    - scientific: "Rhincodon typus"
       confidence: 0.0
 species:
-- scientific: Diodon hystrix
-  role: primary
+- scientific: "Diodon hystrix"
+  role: "primary"
   confidence: 0.5
-  identified_by: bioclip-2.5
+  identified_by: "bioclip-2.5"

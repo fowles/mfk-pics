@@ -1,42 +1,42 @@
-date: '2024-07-10 15:49:32'
-location: Bonaire
-location_source: dive_site
-dive_site: Bachelor's Beach
-credit: Matthew Kulukundis
-import_album: Bachelor's Beach, Bonaire 7-10-2024
-import_original_name: PXL_20240710_194932773.jpg
+date: "2024-07-10 15:49:32"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Bachelor's Beach"
+credit: "Matthew Kulukundis"
+import_album: "Bachelor's Beach, Bonaire 7-10-2024"
+import_original_name: "PXL_20240710_194932773.jpg"
 variants:
-- method: dive-plus
-  file: 82673daf4cb9d191.dive-plus.webp
-  import_original_name: 54da9724a84a25c5.webp
+- method: "dive-plus"
+  file: "82673daf4cb9d191.dive-plus.webp"
+  import_original_name: "54da9724a84a25c5.webp"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786158732.9226286
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Equetus punctatus
+    - scientific: "Equetus punctatus"
       confidence: 0.6228
-    - scientific: Pomacanthus arcuatus
+    - scientific: "Pomacanthus arcuatus"
       confidence: 0.1241
-    - scientific: Elacatinus evelynae
+    - scientific: "Elacatinus evelynae"
       confidence: 0.0659
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786158732.9226286
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Equetus punctatus
+    - scientific: "Equetus punctatus"
       confidence: 0.5132
-    - scientific: Elacatinus evelynae
+    - scientific: "Elacatinus evelynae"
       confidence: 0.2552
-    - scientific: Elacatinus oceanops
+    - scientific: "Elacatinus oceanops"
       confidence: 0.1051
 species:
-- scientific: Equetus punctatus
-  role: primary
+- scientific: "Equetus punctatus"
+  role: "primary"
   confidence: 0.568
-  identified_by: bioclip-2+bioclip-2.5
+  identified_by: "bioclip-2+bioclip-2.5"

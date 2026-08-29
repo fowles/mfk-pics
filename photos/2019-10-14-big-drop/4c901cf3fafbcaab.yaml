@@ -1,51 +1,51 @@
-date: '2019-10-14 14:32:07'
-location: Palau
-location_source: dive_site
-dive_site: Big Drop
-credit: Delia Kulukundis
-import_album: 2019-10-14 - Palau, Big Drop
-import_original_name: IMG_0472.JPG
+date: "2019-10-14 14:32:07"
+location: "Palau"
+location_source: "dive_site"
+dive_site: "Big Drop"
+credit: "Delia Kulukundis"
+import_album: "2019-10-14 - Palau, Big Drop"
+import_original_name: "IMG_0472.JPG"
 lat: 7.1014
 lon: 134.2497
-gps_source: dive_site
+gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-25T05:43:58Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1787436653.1590376
-    vocab: 43f646ed780c
+    vocab: "23e0d65f5ba2"
     top:
-    - scientific: Cephalopholis miniata
+    - scientific: "Cephalopholis miniata"
       confidence: 0.0516
-    - scientific: Abudefduf sexfasciatus
+    - scientific: "Abudefduf sexfasciatus"
       confidence: 0.0315
-    - scientific: Pseudanthias squamipinnis
+    - scientific: "Pseudanthias squamipinnis"
       confidence: 0.0292
     absorbed_by:
-      scientific: Annella mollis
+      scientific: "Annella mollis"
       confidence: 0.0638
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-25T05:46:15Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1787436653.1590376
-    vocab: 43f646ed780c
+    vocab: "23e0d65f5ba2"
     top:
-    - scientific: Platax pinnatus
+    - scientific: "Platax pinnatus"
       confidence: 0.0867
-    - scientific: Acanthaster planci
+    - scientific: "Acanthaster planci"
       confidence: 0.0503
-    - scientific: Odonus niger
+    - scientific: "Odonus niger"
       confidence: 0.0452
     absorbed_by:
-      scientific: Millepora dichotoma
+      scientific: "Millepora dichotoma"
       confidence: 0.2075
 species:
-- scientific: Homo sapiens
-  role: primary
-  identified_by: human
-  reviewed_by: matt
+- scientific: "Homo sapiens"
+  role: "primary"
+  identified_by: "human"
+  reviewed_by: "matt"
 species_reviewed:
-- primary
-- secondary
+- "primary"
+- "secondary"

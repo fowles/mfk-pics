@@ -1,42 +1,42 @@
-date: '2024-07-10 15:33:28'
-location: Bonaire
-location_source: dive_site
-dive_site: Bachelor's Beach
-credit: Delia Kulukundis
-import_album: Bachelor's Beach, Bonaire 7-10-2024
-import_original_name: IMG_4367.JPG
+date: "2024-07-10 15:33:28"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Bachelor's Beach"
+credit: "Delia Kulukundis"
+import_album: "Bachelor's Beach, Bonaire 7-10-2024"
+import_original_name: "IMG_4367.JPG"
 lat: 12.125370400000001
 lon: -68.2874429
-gps_source: dive_site
+gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786158709.3363419
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Acanthostracion polygonius
+    - scientific: "Acanthostracion polygonius"
       confidence: 0.9929
-    - scientific: Acanthostracion quadricornis
+    - scientific: "Acanthostracion quadricornis"
       confidence: 0.0047
-    - scientific: Lactophrys bicaudalis
+    - scientific: "Lactophrys bicaudalis"
       confidence: 0.0022
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786158709.3363419
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Acanthostracion polygonius
+    - scientific: "Acanthostracion polygonius"
       confidence: 0.9999
-    - scientific: Acanthostracion quadricornis
+    - scientific: "Acanthostracion quadricornis"
       confidence: 0.0001
-    - scientific: Lactophrys bicaudalis
+    - scientific: "Lactophrys bicaudalis"
       confidence: 0.0
 species:
-- scientific: Acanthostracion polygonius
-  role: primary
+- scientific: "Acanthostracion polygonius"
+  role: "primary"
   confidence: 0.9964
-  identified_by: bioclip-2+bioclip-2.5
+  identified_by: "bioclip-2+bioclip-2.5"

@@ -1,44 +1,44 @@
-date: '2025-08-13 14:37:19'
-location: Bonaire
-location_source: dive_site
-dive_site: Pink Beach
-credit: Matthew Kulukundis
-import_album: 2025-08-13 - Bonaire, Pink Beach
-import_original_name: PXL_20250813_183719032.jpg
+date: "2025-08-13 14:37:19"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Pink Beach"
+credit: "Matthew Kulukundis"
+import_album: "2025-08-13 - Bonaire, Pink Beach"
+import_original_name: "PXL_20250813_183719032.jpg"
 lat: 12.0662114
 lon: -68.2814167
-gps_source: dive_site
+gps_source: "dive_site"
 variants:
-- method: dive-plus
-  file: 2c06c6c281d7bff1.dive-plus.webp
-  import_original_name: 67ee40084569e3f4.webp
+- method: "dive-plus"
+  file: "2c06c6c281d7bff1.dive-plus.webp"
+  import_original_name: "67ee40084569e3f4.webp"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786158190.0232532
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Serranus tigrinus
+    - scientific: "Serranus tigrinus"
       confidence: 0.1364
-    - scientific: Sparisoma aurofrenatum
+    - scientific: "Sparisoma aurofrenatum"
       confidence: 0.118
-    - scientific: Panulirus argus
+    - scientific: "Panulirus argus"
       confidence: 0.0547
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786158190.0232532
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Sparisoma viride
+    - scientific: "Sparisoma viride"
       confidence: 0.1044
-    - scientific: Sparisoma aurofrenatum
+    - scientific: "Sparisoma aurofrenatum"
       confidence: 0.0028
-    - scientific: Sparisoma amplum
+    - scientific: "Sparisoma amplum"
       confidence: 0.0025
     absorbed_by:
-      scientific: Antillogorgia americana
+      scientific: "Antillogorgia americana"
       confidence: 0.8852
 species: []

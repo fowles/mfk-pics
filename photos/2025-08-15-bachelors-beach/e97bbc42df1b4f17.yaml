@@ -1,42 +1,42 @@
-date: '2025-08-15 06:55:24'
-location: Bonaire
-location_source: dive_site
-dive_site: Bachelor's Beach
-credit: Delia Kulukundis
-import_album: 2025-08-15 - Bonaire, Bachelor's Beach (dawn)
-import_original_name: IMG_5859.JPG
+date: "2025-08-15 06:55:24"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Bachelor's Beach"
+credit: "Delia Kulukundis"
+import_album: "2025-08-15 - Bonaire, Bachelor's Beach (dawn)"
+import_original_name: "IMG_5859.JPG"
 lat: 12.125370400000001
 lon: -68.2874429
-gps_source: dive_site
+gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786158399.084433
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Hippocampus reidi
+    - scientific: "Hippocampus reidi"
       confidence: 0.6232
-    - scientific: Sparisoma aurofrenatum
+    - scientific: "Sparisoma aurofrenatum"
       confidence: 0.1333
-    - scientific: Holothuria mexicana
+    - scientific: "Holothuria mexicana"
       confidence: 0.0458
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786158399.084433
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Malacoctenus triangulatus
+    - scientific: "Malacoctenus triangulatus"
       confidence: 0.93
-    - scientific: Sparisoma aurofrenatum
+    - scientific: "Sparisoma aurofrenatum"
       confidence: 0.0337
-    - scientific: Pseudosquilla ciliata
+    - scientific: "Pseudosquilla ciliata"
       confidence: 0.0291
 species:
-- scientific: Malacoctenus triangulatus
-  role: primary
+- scientific: "Malacoctenus triangulatus"
+  role: "primary"
   confidence: 0.465
-  identified_by: bioclip-2.5
+  identified_by: "bioclip-2.5"

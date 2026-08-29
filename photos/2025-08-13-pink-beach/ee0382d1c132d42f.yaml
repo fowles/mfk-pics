@@ -1,46 +1,46 @@
-date: '2025-08-13 13:49:43'
-location: Bonaire
-location_source: dive_site
-dive_site: Pink Beach
-credit: Matthew Kulukundis
-import_album: 2025-08-13 - Bonaire, Pink Beach
-import_original_name: PXL_20250813_174943547.jpg
+date: "2025-08-13 13:49:43"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Pink Beach"
+credit: "Matthew Kulukundis"
+import_album: "2025-08-13 - Bonaire, Pink Beach"
+import_original_name: "PXL_20250813_174943547.jpg"
 variants:
-- method: dive-plus
-  file: ee0382d1c132d42f.dive-plus.webp
-  import_original_name: 76855d5c3e947d38.webp
+- method: "dive-plus"
+  file: "ee0382d1c132d42f.dive-plus.webp"
+  import_original_name: "76855d5c3e947d38.webp"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786158186.2127037
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Tursiops truncatus
+    - scientific: "Tursiops truncatus"
       confidence: 0.7276
-    - scientific: Stenella longirostris
+    - scientific: "Stenella longirostris"
       confidence: 0.0975
-    - scientific: Pseudorca crassidens
+    - scientific: "Pseudorca crassidens"
       confidence: 0.0868
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786158186.2127037
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Tursiops truncatus
+    - scientific: "Tursiops truncatus"
       confidence: 0.9444
-    - scientific: Carcharhinus leucas
+    - scientific: "Carcharhinus leucas"
       confidence: 0.0273
-    - scientific: Sphyrna mokarran
+    - scientific: "Sphyrna mokarran"
       confidence: 0.0112
 species:
-- scientific: Tursiops truncatus
-  role: primary
-  identified_by: human
-  confirmed_from: bioclip
-  reviewed_by: matt
+- scientific: "Tursiops truncatus"
+  role: "primary"
+  identified_by: "human"
+  confirmed_from: "bioclip"
+  reviewed_by: "matt"
 species_reviewed:
-- primary
-- secondary
+- "primary"
+- "secondary"

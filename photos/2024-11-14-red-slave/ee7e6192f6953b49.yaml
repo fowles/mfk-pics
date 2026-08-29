@@ -1,47 +1,47 @@
-date: '2024-11-14 14:57:12'
-location: Bonaire
-location_source: dive_site
-dive_site: Red Slave
-credit: Matthew Kulukundis
-import_album: 2024-11-14, Bonaire, Red Slave
-import_original_name: PXL_20241114_185712052.jpg
+date: "2024-11-14 14:57:12"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Red Slave"
+credit: "Matthew Kulukundis"
+import_album: "2024-11-14, Bonaire, Red Slave"
+import_original_name: "PXL_20241114_185712052.jpg"
 lat: 12.026556999999999
 lon: -68.2513754
-gps_source: dive_site
+gps_source: "dive_site"
 variants:
-- method: dive-plus
-  file: ee7e6192f6953b49.dive-plus.webp
-  import_original_name: bd9ad8388090db93.webp
+- method: "dive-plus"
+  file: "ee7e6192f6953b49.dive-plus.webp"
+  import_original_name: "bd9ad8388090db93.webp"
 date_reviewed: true
 extra_variants:
-- channel-stretch
+- "channel-stretch"
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786156982.0434117
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Chelonia mydas
+    - scientific: "Chelonia mydas"
       confidence: 0.788
-    - scientific: Eretmochelys imbricata
+    - scientific: "Eretmochelys imbricata"
       confidence: 0.0847
-    - scientific: Decapterus macarellus
+    - scientific: "Decapterus macarellus"
       confidence: 0.0293
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786156982.0434117
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Chelonia mydas
+    - scientific: "Chelonia mydas"
       confidence: 0.8589
-    - scientific: Eretmochelys imbricata
+    - scientific: "Eretmochelys imbricata"
       confidence: 0.0973
-    - scientific: Canthidermis sufflamen
+    - scientific: "Canthidermis sufflamen"
       confidence: 0.0425
 species:
-- scientific: Chelonia mydas
-  role: primary
+- scientific: "Chelonia mydas"
+  role: "primary"
   confidence: 0.8235
-  identified_by: bioclip-2+bioclip-2.5
+  identified_by: "bioclip-2+bioclip-2.5"

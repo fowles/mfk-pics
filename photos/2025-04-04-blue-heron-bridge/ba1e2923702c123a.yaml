@@ -1,47 +1,47 @@
-date: '2025-04-04 14:26:24'
-location: West Palm Beach, FL, USA
-location_source: dive_site
-dive_site: Blue Heron Bridge
-credit: Delia Kulukundis
-import_album: 2025-04-04, Blue Heron Bridge, West Palm Beach, FL
-import_original_name: IMG_5410.JPG
+date: "2025-04-04 14:26:24"
+location: "West Palm Beach, FL, USA"
+location_source: "dive_site"
+dive_site: "Blue Heron Bridge"
+credit: "Delia Kulukundis"
+import_album: "2025-04-04, Blue Heron Bridge, West Palm Beach, FL"
+import_original_name: "IMG_5410.JPG"
 lat: 26.7838864
 lon: -80.044118
-gps_source: dive_site
+gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
 rotation_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786157487.9879
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Sphoeroides spengleri
+    - scientific: "Sphoeroides spengleri"
       confidence: 0.9851
-    - scientific: Canthigaster jamestyleri
+    - scientific: "Canthigaster jamestyleri"
       confidence: 0.0055
-    - scientific: Sphoeroides testudineus
+    - scientific: "Sphoeroides testudineus"
       confidence: 0.0041
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786157487.9879
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Sphoeroides spengleri
+    - scientific: "Sphoeroides spengleri"
       confidence: 1.0
-    - scientific: Canthigaster rostrata
+    - scientific: "Canthigaster rostrata"
       confidence: 0.0
-    - scientific: Monacanthus tuckeri
+    - scientific: "Monacanthus tuckeri"
       confidence: 0.0
 species:
-- scientific: Sphoeroides spengleri
-  role: primary
-  identified_by: human
-  confirmed_from: bioclip+bioclip-2+bioclip-2.5
-  reviewed_by: matt
+- scientific: "Sphoeroides spengleri"
+  role: "primary"
+  identified_by: "human"
+  confirmed_from: "bioclip+bioclip-2+bioclip-2.5"
+  reviewed_by: "matt"
 species_reviewed:
-- primary
-- secondary
+- "primary"
+- "secondary"

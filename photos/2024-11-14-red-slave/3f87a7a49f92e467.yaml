@@ -1,42 +1,42 @@
-date: '2024-11-14 14:29:54'
-location: Bonaire
-location_source: dive_site
-dive_site: Red Slave
-credit: Delia Kulukundis
-import_album: 2024-11-14, Bonaire, Red Slave
-import_original_name: IMG_5299.JPG
+date: "2024-11-14 14:29:54"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Red Slave"
+credit: "Delia Kulukundis"
+import_album: "2024-11-14, Bonaire, Red Slave"
+import_original_name: "IMG_5299.JPG"
 lat: 12.026556999999999
 lon: -68.2513754
-gps_source: dive_site
+gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786156971.7926266
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Caranx latus
+    - scientific: "Caranx latus"
       confidence: 0.3856
-    - scientific: Selar crumenophthalmus
+    - scientific: "Selar crumenophthalmus"
       confidence: 0.377
-    - scientific: Caranx crysos
+    - scientific: "Caranx crysos"
       confidence: 0.0805
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786156971.7926266
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Decapterus macarellus
+    - scientific: "Decapterus macarellus"
       confidence: 0.6578
-    - scientific: Caranx crysos
+    - scientific: "Caranx crysos"
       confidence: 0.206
-    - scientific: Chromis multilineata
+    - scientific: "Chromis multilineata"
       confidence: 0.0979
 species:
-- scientific: Decapterus macarellus
-  role: primary
+- scientific: "Decapterus macarellus"
+  role: "primary"
   confidence: 0.3289
-  identified_by: bioclip-2.5
+  identified_by: "bioclip-2.5"

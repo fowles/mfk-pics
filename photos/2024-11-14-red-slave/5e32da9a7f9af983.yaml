@@ -1,42 +1,42 @@
-date: '2024-11-14 14:03:51'
-location: Bonaire
-location_source: dive_site
-dive_site: Red Slave
-credit: Matthew Kulukundis
-import_album: 2024-11-14, Bonaire, Red Slave
-import_original_name: PXL_20241114_180351133.jpg
+date: "2024-11-14 14:03:51"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Red Slave"
+credit: "Matthew Kulukundis"
+import_album: "2024-11-14, Bonaire, Red Slave"
+import_original_name: "PXL_20241114_180351133.jpg"
 variants:
-- method: dive-plus
-  file: 5e32da9a7f9af983.dive-plus.webp
-  import_original_name: d17888fd2d131704.webp
+- method: "dive-plus"
+  file: "5e32da9a7f9af983.dive-plus.webp"
+  import_original_name: "d17888fd2d131704.webp"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786156978.18277
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Caranx ruber
+    - scientific: "Caranx ruber"
       confidence: 0.2801
-    - scientific: Scarus vetula
+    - scientific: "Scarus vetula"
       confidence: 0.1416
-    - scientific: Calamus calamus
+    - scientific: "Calamus calamus"
       confidence: 0.1371
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786156978.18277
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Caranx ruber
+    - scientific: "Caranx ruber"
       confidence: 0.8262
-    - scientific: Mycteroperca venenosa
+    - scientific: "Mycteroperca venenosa"
       confidence: 0.0883
-    - scientific: Acanthostracion polygonius
+    - scientific: "Acanthostracion polygonius"
       confidence: 0.0237
 species:
-- scientific: Caranx ruber
-  role: primary
+- scientific: "Caranx ruber"
+  role: "primary"
   confidence: 0.5532
-  identified_by: bioclip-2+bioclip-2.5
+  identified_by: "bioclip-2+bioclip-2.5"

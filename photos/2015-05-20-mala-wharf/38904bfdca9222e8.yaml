@@ -1,55 +1,55 @@
-date: '2015-05-20 14:54:04'
-location: Maui, Hawaii, USA
-location_source: dive_site
-dive_site: Mala Wharf
-credit: Delia Kulukundis
-import_album: 2015-05-20, USA, Hawaii, Maui, Mala Wharf
-import_original_name: DSC_1811.JPG
+date: "2015-05-20 14:54:04"
+location: "Maui, Hawaii, USA"
+location_source: "dive_site"
+dive_site: "Mala Wharf"
+credit: "Delia Kulukundis"
+import_album: "2015-05-20, USA, Hawaii, Maui, Mala Wharf"
+import_original_name: "DSC_1811.JPG"
 lat: 20.88461
 lon: -156.68646
-gps_source: dive_site
+gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-25T05:43:58Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1787441085.1284072
-    vocab: 43f646ed780c
+    vocab: "23e0d65f5ba2"
     top:
-    - scientific: Mulloidichthys flavolineatus
+    - scientific: "Mulloidichthys flavolineatus"
       confidence: 0.4181
-    - scientific: Mulloidichthys vanicolensis
+    - scientific: "Mulloidichthys vanicolensis"
       confidence: 0.2109
-    - scientific: Upeneus moluccensis
+    - scientific: "Upeneus moluccensis"
       confidence: 0.0794
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-25T05:46:15Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1787441085.1284072
-    vocab: 43f646ed780c
+    vocab: "23e0d65f5ba2"
     top:
-    - scientific: Mulloidichthys flavolineatus
+    - scientific: "Mulloidichthys flavolineatus"
       confidence: 0.7152
-    - scientific: Mulloidichthys vanicolensis
+    - scientific: "Mulloidichthys vanicolensis"
       confidence: 0.2842
-    - scientific: Caesio xanthonota
+    - scientific: "Caesio xanthonota"
       confidence: 0.0003
 species:
-- scientific: Mulloidichthys vanicolensis
-  role: primary
-  identified_by: human
-  confirmed_from: bioclip
-  reviewed_by: matt
-- scientific: Upeneus vittatus
-  role: secondary
-  identified_by: human
-  confirmed_from: bioclip-2+bioclip-2.5
-  reviewed_by: matt
-- scientific: Kuhlia xenura
-  role: secondary
-  identified_by: human
-  reviewed_by: matt
+- scientific: "Mulloidichthys vanicolensis"
+  role: "primary"
+  identified_by: "human"
+  confirmed_from: "bioclip"
+  reviewed_by: "matt"
+- scientific: "Upeneus vittatus"
+  role: "secondary"
+  identified_by: "human"
+  confirmed_from: "bioclip-2+bioclip-2.5"
+  reviewed_by: "matt"
+- scientific: "Kuhlia xenura"
+  role: "secondary"
+  identified_by: "human"
+  reviewed_by: "matt"
 species_reviewed:
-- primary
-- secondary
+- "primary"
+- "secondary"

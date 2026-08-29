@@ -1,45 +1,45 @@
-date: '2025-08-13 14:33:28'
-location: Bonaire
-location_source: dive_site
-dive_site: Pink Beach
-credit: Matthew Kulukundis
-import_album: 2025-08-13 - Bonaire, Pink Beach
-import_original_name: PXL_20250813_183328281.MP.jpg
+date: "2025-08-13 14:33:28"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Pink Beach"
+credit: "Matthew Kulukundis"
+import_album: "2025-08-13 - Bonaire, Pink Beach"
+import_original_name: "PXL_20250813_183328281.MP.jpg"
 lat: 12.0662114
 lon: -68.2814167
-gps_source: dive_site
+gps_source: "dive_site"
 variants:
-- method: dive-plus
-  file: c1b08c013a23799c.dive-plus.webp
-  import_original_name: 75776f735038f28e.webp
+- method: "dive-plus"
+  file: "c1b08c013a23799c.dive-plus.webp"
+  import_original_name: "75776f735038f28e.webp"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786158189.52936
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Pomacanthus paru
+    - scientific: "Pomacanthus paru"
       confidence: 0.6262
-    - scientific: Pomacanthus arcuatus
+    - scientific: "Pomacanthus arcuatus"
       confidence: 0.3391
-    - scientific: Holacanthus tricolor
+    - scientific: "Holacanthus tricolor"
       confidence: 0.0212
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786158189.52936
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Pomacanthus paru
+    - scientific: "Pomacanthus paru"
       confidence: 0.9983
-    - scientific: Pomacanthus arcuatus
+    - scientific: "Pomacanthus arcuatus"
       confidence: 0.0017
-    - scientific: Acanthurus tractus
+    - scientific: "Acanthurus tractus"
       confidence: 0.0
 species:
-- scientific: Pomacanthus paru
-  role: primary
+- scientific: "Pomacanthus paru"
+  role: "primary"
   confidence: 0.8122
-  identified_by: bioclip-2+bioclip-2.5
+  identified_by: "bioclip-2+bioclip-2.5"

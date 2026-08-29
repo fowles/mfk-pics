@@ -1,45 +1,45 @@
-date: '2024-11-14 14:32:33'
-location: Bonaire
-location_source: dive_site
-dive_site: Red Slave
-credit: Matthew Kulukundis
-import_album: 2024-11-14, Bonaire, Red Slave
-import_original_name: PXL_20241114_183233141.jpg
+date: "2024-11-14 14:32:33"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Red Slave"
+credit: "Matthew Kulukundis"
+import_album: "2024-11-14, Bonaire, Red Slave"
+import_original_name: "PXL_20241114_183233141.jpg"
 lat: 12.026556999999999
 lon: -68.2513754
-gps_source: dive_site
+gps_source: "dive_site"
 variants:
-- method: dive-plus
-  file: 74ce9ed43bcfefbd.dive-plus.webp
-  import_original_name: 3ce9a7961431869b.webp
+- method: "dive-plus"
+  file: "74ce9ed43bcfefbd.dive-plus.webp"
+  import_original_name: "3ce9a7961431869b.webp"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786156980.5589046
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Aluterus scriptus
+    - scientific: "Aluterus scriptus"
       confidence: 0.2967
-    - scientific: Chilomycterus antillarum
+    - scientific: "Chilomycterus antillarum"
       confidence: 0.1461
-    - scientific: Acanthostracion polygonius
+    - scientific: "Acanthostracion polygonius"
       confidence: 0.1344
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786156980.5589046
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Acanthostracion quadricornis
+    - scientific: "Acanthostracion quadricornis"
       confidence: 0.3136
-    - scientific: Acanthostracion polygonius
+    - scientific: "Acanthostracion polygonius"
       confidence: 0.1302
-    - scientific: Cyphoma gibbosum
+    - scientific: "Cyphoma gibbosum"
       confidence: 0.0451
 species:
-- scientific: Acanthostracion quadricornis
-  role: primary
+- scientific: "Acanthostracion quadricornis"
+  role: "primary"
   confidence: 0.1568
-  identified_by: bioclip-2.5
+  identified_by: "bioclip-2.5"

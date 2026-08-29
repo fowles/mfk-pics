@@ -1,43 +1,43 @@
-date: '2024-11-07 10:18:43'
-location: Bonaire
-location_source: dive_site
-dive_site: Salt Pier
-credit: Delia Kulukundis
-import_album: 2024-11-07, Bonaire, Salt Pier
-import_original_name: IMG_4678.JPG
+date: "2024-11-07 10:18:43"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Salt Pier"
+credit: "Delia Kulukundis"
+import_album: "2024-11-07, Bonaire, Salt Pier"
+import_original_name: "IMG_4678.JPG"
 lat: 12.082963699999999
 lon: -68.28180019999999
-gps_source: dive_site
+gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
 rotation_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786156319.8329391
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Microspathodon chrysurus
+    - scientific: "Microspathodon chrysurus"
       confidence: 0.5514
-    - scientific: Holacanthus tricolor
+    - scientific: "Holacanthus tricolor"
       confidence: 0.2172
-    - scientific: Hypoplectrus chlorurus
+    - scientific: "Hypoplectrus chlorurus"
       confidence: 0.0957
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786156319.8329391
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Microspathodon chrysurus
+    - scientific: "Microspathodon chrysurus"
       confidence: 0.8329
-    - scientific: Hypoplectrus chlorurus
+    - scientific: "Hypoplectrus chlorurus"
       confidence: 0.0891
-    - scientific: Haemulon chrysargyreum
+    - scientific: "Haemulon chrysargyreum"
       confidence: 0.0623
 species:
-- scientific: Microspathodon chrysurus
-  role: primary
+- scientific: "Microspathodon chrysurus"
+  role: "primary"
   confidence: 0.6922
-  identified_by: bioclip-2+bioclip-2.5
+  identified_by: "bioclip-2+bioclip-2.5"

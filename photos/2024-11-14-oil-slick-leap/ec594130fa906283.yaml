@@ -1,52 +1,52 @@
-date: '2024-11-14 17:03:34'
-location: Bonaire
-location_source: dive_site
-dive_site: Oil Slick Leap
-credit: Matthew Kulukundis
-import_album: 2024-11-14, Bonaire, Oil Slick Leap
-import_original_name: PXL_20241114_210334502.jpg
+date: "2024-11-14 17:03:34"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Oil Slick Leap"
+credit: "Matthew Kulukundis"
+import_album: "2024-11-14, Bonaire, Oil Slick Leap"
+import_original_name: "PXL_20241114_210334502.jpg"
 lat: 12.2001484
 lon: -68.3086211
-gps_source: dive_site
+gps_source: "dive_site"
 variants:
-- method: dive-plus
-  file: ec594130fa906283.dive-plus.webp
-  import_original_name: 06aaf481c23ae67a.webp
+- method: "dive-plus"
+  file: "ec594130fa906283.dive-plus.webp"
+  import_original_name: "06aaf481c23ae67a.webp"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786156899.7054312
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Scarus vetula
+    - scientific: "Scarus vetula"
       confidence: 0.3234
-    - scientific: Scarus coeruleus
+    - scientific: "Scarus coeruleus"
       confidence: 0.142
-    - scientific: Sparisoma viride
+    - scientific: "Sparisoma viride"
       confidence: 0.0927
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786156899.7054312
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Balistes vetula
+    - scientific: "Balistes vetula"
       confidence: 0.4815
-    - scientific: Scarus coelestinus
+    - scientific: "Scarus coelestinus"
       confidence: 0.2371
-    - scientific: Acanthurus coeruleus
+    - scientific: "Acanthurus coeruleus"
       confidence: 0.0964
 species:
-- scientific: Acanthostracion polygonius
-  role: primary
-  identified_by: human
-  reviewed_by: matt
-- scientific: Pomacanthus paru
-  role: secondary
-  identified_by: human
-  reviewed_by: matt
+- scientific: "Acanthostracion polygonius"
+  role: "primary"
+  identified_by: "human"
+  reviewed_by: "matt"
+- scientific: "Pomacanthus paru"
+  role: "secondary"
+  identified_by: "human"
+  reviewed_by: "matt"
 species_reviewed:
-- primary
-- secondary
+- "primary"
+- "secondary"

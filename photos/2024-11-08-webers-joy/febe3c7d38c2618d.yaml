@@ -1,43 +1,43 @@
-date: '2024-11-08 10:27:19'
-location: Bonaire
-location_source: dive_site
-dive_site: Weber's Joy
-credit: Delia Kulukundis
-import_album: 2024-11-08, Bonaire, Weber's Joy
-import_original_name: IMG_4744.JPG
+date: "2024-11-08 10:27:19"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Weber's Joy"
+credit: "Delia Kulukundis"
+import_album: "2024-11-08, Bonaire, Weber's Joy"
+import_original_name: "IMG_4744.JPG"
 lat: 12.2065506
 lon: -68.3164123
-gps_source: dive_site
+gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786156521.4945982
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Stegastes partitus
+    - scientific: "Stegastes partitus"
       confidence: 0.1211
-    - scientific: Cephalopholis cruentata
+    - scientific: "Cephalopholis cruentata"
       confidence: 0.0164
-    - scientific: Acanthemblemaria spinosa
+    - scientific: "Acanthemblemaria spinosa"
       confidence: 0.0126
     absorbed_by:
-      scientific: Agaricia agaricites
+      scientific: "Agaricia agaricites"
       confidence: 0.3329
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786156521.4945982
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Gymnothorax miliaris
+    - scientific: "Gymnothorax miliaris"
       confidence: 0.0
-    - scientific: Thalassoma bifasciatum
+    - scientific: "Thalassoma bifasciatum"
       confidence: 0.0
-    - scientific: Cephalopholis cruentata
+    - scientific: "Cephalopholis cruentata"
       confidence: 0.0
     absorbed_by:
-      scientific: Dendrogyra cylindrus
+      scientific: "Dendrogyra cylindrus"
       confidence: 0.9543

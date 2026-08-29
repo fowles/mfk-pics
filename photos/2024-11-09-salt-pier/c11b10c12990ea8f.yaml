@@ -1,44 +1,44 @@
-date: '2024-11-09 13:54:03'
-location: Bonaire
-location_source: dive_site
-dive_site: Salt Pier
-credit: Matthew Kulukundis
-import_album: 2024-11-09, Bonaire, Salt Pier
-import_original_name: PXL_20241109_175403706.jpg
+date: "2024-11-09 13:54:03"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Salt Pier"
+credit: "Matthew Kulukundis"
+import_album: "2024-11-09, Bonaire, Salt Pier"
+import_original_name: "PXL_20241109_175403706.jpg"
 variants:
-- method: dive-plus
-  file: c11b10c12990ea8f.dive-plus.webp
-  import_original_name: e3d6ed84d171bf9a.webp
+- method: "dive-plus"
+  file: "c11b10c12990ea8f.dive-plus.webp"
+  import_original_name: "e3d6ed84d171bf9a.webp"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786156577.9697516
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Myrichthys breviceps
+    - scientific: "Myrichthys breviceps"
       confidence: 0.1124
-    - scientific: Cephalopholis cruentata
+    - scientific: "Cephalopholis cruentata"
       confidence: 0.0662
-    - scientific: Cyphoma gibbosum
+    - scientific: "Cyphoma gibbosum"
       confidence: 0.0552
     absorbed_by:
-      scientific: Aplysina archeri
+      scientific: "Aplysina archeri"
       confidence: 0.1155
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786156577.9697516
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Gymnothorax miliaris
+    - scientific: "Gymnothorax miliaris"
       confidence: 0.1022
-    - scientific: Gymnothorax moringa
+    - scientific: "Gymnothorax moringa"
       confidence: 0.0943
-    - scientific: Aulostomus maculatus
+    - scientific: "Aulostomus maculatus"
       confidence: 0.0445
     absorbed_by:
-      scientific: Aplysina archeri
+      scientific: "Aplysina archeri"
       confidence: 0.282
 species: []

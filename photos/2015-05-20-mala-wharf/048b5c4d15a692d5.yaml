@@ -1,46 +1,46 @@
-date: '2015-05-20 14:55:56'
-location: Maui, Hawaii, USA
-location_source: dive_site
-dive_site: Mala Wharf
-credit: Delia Kulukundis
-import_album: 2015-05-20, USA, Hawaii, Maui, Mala Wharf
-import_original_name: DSC_1816.JPG
+date: "2015-05-20 14:55:56"
+location: "Maui, Hawaii, USA"
+location_source: "dive_site"
+dive_site: "Mala Wharf"
+credit: "Delia Kulukundis"
+import_album: "2015-05-20, USA, Hawaii, Maui, Mala Wharf"
+import_original_name: "DSC_1816.JPG"
 lat: 20.88461
 lon: -156.68646
-gps_source: dive_site
+gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-25T05:43:58Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1787441085.7409816
-    vocab: 43f646ed780c
+    vocab: "23e0d65f5ba2"
     top:
-    - scientific: Linckia laevigata
+    - scientific: "Linckia laevigata"
       confidence: 0.8894
-    - scientific: Linckia guildingi
+    - scientific: "Linckia guildingi"
       confidence: 0.0425
-    - scientific: Cenometra bella
+    - scientific: "Cenometra bella"
       confidence: 0.0215
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-25T05:46:15Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1787441085.7409816
-    vocab: 43f646ed780c
+    vocab: "23e0d65f5ba2"
     top:
-    - scientific: Linckia laevigata
+    - scientific: "Linckia laevigata"
       confidence: 0.9613
-    - scientific: Linckia guildingi
+    - scientific: "Linckia guildingi"
       confidence: 0.0347
-    - scientific: Linckia multifora
+    - scientific: "Linckia multifora"
       confidence: 0.0026
 species:
-- scientific: Linckia laevigata
-  role: primary
-  identified_by: human
-  confirmed_from: bioclip
-  reviewed_by: matt
+- scientific: "Linckia laevigata"
+  role: "primary"
+  identified_by: "human"
+  confirmed_from: "bioclip"
+  reviewed_by: "matt"
 species_reviewed:
-- primary
-- secondary
+- "primary"
+- "secondary"

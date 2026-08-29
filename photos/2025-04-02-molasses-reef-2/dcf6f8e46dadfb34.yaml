@@ -1,41 +1,41 @@
-date: '2025-04-02 13:40:25'
-location: Key West, FL, USA
-location_source: dive_site
-dive_site: Molasses Reef
-credit: Matthew Kulukundis
-import_album: 2025-04-02, USA, FL, Key West, Molasses Reef
-import_original_name: PXL_20250402_174025160.jpg
+date: "2025-04-02 13:40:25"
+location: "Key West, FL, USA"
+location_source: "dive_site"
+dive_site: "Molasses Reef"
+credit: "Matthew Kulukundis"
+import_album: "2025-04-02, USA, FL, Key West, Molasses Reef"
+import_original_name: "PXL_20250402_174025160.jpg"
 lat: 25.0151854
 lon: -80.3785098
-gps_source: manual
+gps_source: "manual"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786157279.784261
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Pterois volitans
+    - scientific: "Pterois volitans"
       confidence: 0.2669
-    - scientific: Panulirus argus
+    - scientific: "Panulirus argus"
       confidence: 0.0731
-    - scientific: Nemaster grandis
+    - scientific: "Nemaster grandis"
       confidence: 0.0687
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786157279.784261
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Panulirus argus
+    - scientific: "Panulirus argus"
       confidence: 0.6611
-    - scientific: Pterois volitans
+    - scientific: "Pterois volitans"
       confidence: 0.0397
-    - scientific: Stenopus hispidus
+    - scientific: "Stenopus hispidus"
       confidence: 0.0122
 species:
-- scientific: Panulirus argus
-  role: primary
+- scientific: "Panulirus argus"
+  role: "primary"
   confidence: 0.3671
-  identified_by: bioclip-2+bioclip-2.5
+  identified_by: "bioclip-2+bioclip-2.5"

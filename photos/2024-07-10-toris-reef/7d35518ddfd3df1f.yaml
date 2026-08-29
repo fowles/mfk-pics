@@ -1,42 +1,42 @@
-date: '2024-07-10 13:53:17'
-location: Bonaire
-location_source: dive_site
-dive_site: Tori's Reef
-credit: Delia Kulukundis
-import_album: Tori's Reef, Bonaire, 7-10-2024
-import_original_name: IMG_4353.JPG
+date: "2024-07-10 13:53:17"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Tori's Reef"
+credit: "Delia Kulukundis"
+import_album: "Tori's Reef, Bonaire, 7-10-2024"
+import_original_name: "IMG_4353.JPG"
 lat: 12.070475199999999
 lon: -68.2806703
-gps_source: dive_site
+gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786160159.9522011
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Aluterus scriptus
+    - scientific: "Aluterus scriptus"
       confidence: 0.9358
-    - scientific: Acanthostracion polygonius
+    - scientific: "Acanthostracion polygonius"
       confidence: 0.0414
-    - scientific: Aluterus monoceros
+    - scientific: "Aluterus monoceros"
       confidence: 0.0084
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786160159.9522011
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Aluterus scriptus
+    - scientific: "Aluterus scriptus"
       confidence: 0.9984
-    - scientific: Acanthostracion polygonius
+    - scientific: "Acanthostracion polygonius"
       confidence: 0.0008
-    - scientific: Monacanthus tuckeri
+    - scientific: "Monacanthus tuckeri"
       confidence: 0.0004
 species:
-- scientific: Aluterus scriptus
-  role: primary
+- scientific: "Aluterus scriptus"
+  role: "primary"
   confidence: 0.9671
-  identified_by: bioclip-2+bioclip-2.5
+  identified_by: "bioclip-2+bioclip-2.5"

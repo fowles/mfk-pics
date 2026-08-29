@@ -1,44 +1,44 @@
-date: '2024-11-07 10:14:51'
-location: Bonaire
-location_source: dive_site
-dive_site: Salt Pier
-credit: Delia Kulukundis
-import_album: 2024-11-07, Bonaire, Salt Pier
-import_original_name: IMG_4666.JPG
+date: "2024-11-07 10:14:51"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Salt Pier"
+credit: "Delia Kulukundis"
+import_album: "2024-11-07, Bonaire, Salt Pier"
+import_original_name: "IMG_4666.JPG"
 lat: 12.082963699999999
 lon: -68.28180019999999
-gps_source: dive_site
+gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786156319.9653986
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Bothus lunatus
+    - scientific: "Bothus lunatus"
       confidence: 0.0043
-    - scientific: Thalassoma bifasciatum
+    - scientific: "Thalassoma bifasciatum"
       confidence: 0.004
-    - scientific: Elacatinus evelynae
+    - scientific: "Elacatinus evelynae"
       confidence: 0.0027
     absorbed_by:
-      scientific: Porites astreoides
+      scientific: "Porites astreoides"
       confidence: 0.2248
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786156319.9653986
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Coryphopterus lipernes
+    - scientific: "Coryphopterus lipernes"
       confidence: 0.0009
-    - scientific: Thalassoma bifasciatum
+    - scientific: "Thalassoma bifasciatum"
       confidence: 0.0008
-    - scientific: Halichoeres pictus
+    - scientific: "Halichoeres pictus"
       confidence: 0.0006
     absorbed_by:
-      scientific: Pseudodiploria strigosa
+      scientific: "Pseudodiploria strigosa"
       confidence: 0.3335
 species: []

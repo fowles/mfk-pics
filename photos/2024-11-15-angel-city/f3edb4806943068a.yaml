@@ -1,42 +1,42 @@
-date: '2024-11-15 13:31:23'
-location: Bonaire
-location_source: dive_site
-dive_site: Angel City
-credit: Matthew Kulukundis
-import_album: 2024-11-15, Bonaire, Angel City
-import_original_name: PXL_20241115_173858808.jpg
+date: "2024-11-15 13:31:23"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Angel City"
+credit: "Matthew Kulukundis"
+import_album: "2024-11-15, Bonaire, Angel City"
+import_original_name: "PXL_20241115_173858808.jpg"
 variants:
-- method: dive-plus
-  file: f3edb4806943068a.dive-plus.webp
-  import_original_name: eb01d3a8b56b3fd8.webp
+- method: "dive-plus"
+  file: "f3edb4806943068a.dive-plus.webp"
+  import_original_name: "eb01d3a8b56b3fd8.webp"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786157054.4692745
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Haemulon aurolineatum
+    - scientific: "Haemulon aurolineatum"
       confidence: 0.1862
-    - scientific: Holocentrus adscensionis
+    - scientific: "Holocentrus adscensionis"
       confidence: 0.088
-    - scientific: Carcharhinus perezi
+    - scientific: "Carcharhinus perezi"
       confidence: 0.0564
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786157054.4692745
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Lutjanus mahogoni
+    - scientific: "Lutjanus mahogoni"
       confidence: 0.7003
-    - scientific: Haemulon carbonarium
+    - scientific: "Haemulon carbonarium"
       confidence: 0.2498
-    - scientific: Lutjanus griseus
+    - scientific: "Lutjanus griseus"
       confidence: 0.0124
 species:
-- scientific: Lutjanus mahogoni
-  role: primary
+- scientific: "Lutjanus mahogoni"
+  role: "primary"
   confidence: 0.3502
-  identified_by: bioclip-2.5
+  identified_by: "bioclip-2.5"

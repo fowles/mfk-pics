@@ -1,45 +1,45 @@
-date: '2024-11-14 14:58:49'
-location: Bonaire
-location_source: dive_site
-dive_site: Red Slave
-credit: Matthew Kulukundis
-import_album: 2024-11-14, Bonaire, Red Slave
-import_original_name: PXL_20241114_185849640.MP.jpg
+date: "2024-11-14 14:58:49"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Red Slave"
+credit: "Matthew Kulukundis"
+import_album: "2024-11-14, Bonaire, Red Slave"
+import_original_name: "PXL_20241114_185849640.MP.jpg"
 lat: 12.026556999999999
 lon: -68.2513754
-gps_source: dive_site
+gps_source: "dive_site"
 variants:
-- method: dive-plus
-  file: 17c87c0332ea9204.dive-plus.webp
-  import_original_name: 77c0456d5c6c5a86.webp
+- method: "dive-plus"
+  file: "17c87c0332ea9204.dive-plus.webp"
+  import_original_name: "77c0456d5c6c5a86.webp"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786156983.207239
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Chelonia mydas
+    - scientific: "Chelonia mydas"
       confidence: 0.3863
-    - scientific: Caretta caretta
+    - scientific: "Caretta caretta"
       confidence: 0.254
-    - scientific: Aetobatus narinari
+    - scientific: "Aetobatus narinari"
       confidence: 0.0936
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786156983.207239
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Aetobatus narinari
+    - scientific: "Aetobatus narinari"
       confidence: 0.9994
-    - scientific: Hypanus americanus
+    - scientific: "Hypanus americanus"
       confidence: 0.0004
-    - scientific: Canthidermis sufflamen
+    - scientific: "Canthidermis sufflamen"
       confidence: 0.0001
 species:
-- scientific: Aetobatus narinari
-  role: primary
+- scientific: "Aetobatus narinari"
+  role: "primary"
   confidence: 0.5465
-  identified_by: bioclip-2+bioclip-2.5
+  identified_by: "bioclip-2+bioclip-2.5"

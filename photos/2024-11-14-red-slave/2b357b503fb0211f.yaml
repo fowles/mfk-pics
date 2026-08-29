@@ -1,46 +1,46 @@
-date: '2024-11-14 14:59:54'
-location: Bonaire
-location_source: dive_site
-dive_site: Red Slave
-credit: Matthew Kulukundis
-import_album: 2024-11-14, Bonaire, Red Slave
-import_original_name: PXL_20241114_185954632.jpg
+date: "2024-11-14 14:59:54"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Red Slave"
+credit: "Matthew Kulukundis"
+import_album: "2024-11-14, Bonaire, Red Slave"
+import_original_name: "PXL_20241114_185954632.jpg"
 lat: 12.026556999999999
 lon: -68.2513754
-gps_source: dive_site
+gps_source: "dive_site"
 variants:
-- method: dive-plus
-  file: 2b357b503fb0211f.dive-plus.webp
-  import_original_name: d1b5e1b1228ebae8.webp
+- method: "dive-plus"
+  file: "2b357b503fb0211f.dive-plus.webp"
+  import_original_name: "d1b5e1b1228ebae8.webp"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786156983.644232
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Periclimenes yucatanicus
+    - scientific: "Periclimenes yucatanicus"
       confidence: 0.002
-    - scientific: Stenorhynchus seticornis
+    - scientific: "Stenorhynchus seticornis"
       confidence: 0.0006
-    - scientific: Bartholomea annulata
+    - scientific: "Bartholomea annulata"
       confidence: 0.0002
     absorbed_by:
-      scientific: Condylactis gigantea
+      scientific: "Condylactis gigantea"
       confidence: 0.9956
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786156983.644232
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Periclimenes yucatanicus
+    - scientific: "Periclimenes yucatanicus"
       confidence: 0.0
-    - scientific: Bartholomea annulata
+    - scientific: "Bartholomea annulata"
       confidence: 0.0
-    - scientific: Halichoeres maculipinna
+    - scientific: "Halichoeres maculipinna"
       confidence: 0.0
     absorbed_by:
-      scientific: Condylactis gigantea
+      scientific: "Condylactis gigantea"
       confidence: 1.0

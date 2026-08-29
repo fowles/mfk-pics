@@ -1,47 +1,47 @@
-date: '2025-10-09 10:53:18'
-location: Bahamas
-location_source: dive_site
-dive_site: 'Wreck #2'
-credit: Delia Kulukundis
-import_album: Juliet Bahamas 2025 Underwater (all)
-import_original_name: IMG_6366.JPG
+date: "2025-10-09 10:53:18"
+location: "Bahamas"
+location_source: "dive_site"
+dive_site: "Wreck #2"
+credit: "Delia Kulukundis"
+import_album: "Juliet Bahamas 2025 Underwater (all)"
+import_original_name: "IMG_6366.JPG"
 lat: 25.7183
 lon: -79.3154
-gps_source: dive_site
+gps_source: "dive_site"
 date_reviewed: true
 extra_variants:
-- channel-stretch
+- "channel-stretch"
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786159815.3958397
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Malacanthus plumieri
+    - scientific: "Malacanthus plumieri"
       confidence: 0.8008
-    - scientific: Opistognathus aurifrons
+    - scientific: "Opistognathus aurifrons"
       confidence: 0.1719
-    - scientific: Heteroconger longissimus
+    - scientific: "Heteroconger longissimus"
       confidence: 0.0203
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786159815.3958397
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Malacanthus plumieri
+    - scientific: "Malacanthus plumieri"
       confidence: 0.6074
-    - scientific: Opistognathus aurifrons
+    - scientific: "Opistognathus aurifrons"
       confidence: 0.3361
-    - scientific: Xyrichtys martinicensis
+    - scientific: "Xyrichtys martinicensis"
       confidence: 0.0557
 species:
-- scientific: Opistognathus aurifrons
-  role: primary
-  identified_by: human
-  confirmed_from: bioclip+bioclip-2+bioclip-2.5
-  reviewed_by: matt
+- scientific: "Opistognathus aurifrons"
+  role: "primary"
+  identified_by: "human"
+  confirmed_from: "bioclip+bioclip-2+bioclip-2.5"
+  reviewed_by: "matt"
 species_reviewed:
-- primary
-- secondary
+- "primary"
+- "secondary"

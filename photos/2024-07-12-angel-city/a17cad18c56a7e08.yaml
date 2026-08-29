@@ -1,45 +1,45 @@
-date: '2024-07-12 15:36:43'
-location: Bonaire
-location_source: dive_site
-dive_site: Angel City
-credit: Matthew Kulukundis
-import_album: Angel City, Bonaire, 7-12-2024
-import_original_name: PXL_20240712_193643939.jpg
+date: "2024-07-12 15:36:43"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Angel City"
+credit: "Matthew Kulukundis"
+import_album: "Angel City, Bonaire, 7-12-2024"
+import_original_name: "PXL_20240712_193643939.jpg"
 lat: 12.103454
 lon: -68.2872912
-gps_source: dive_site
+gps_source: "dive_site"
 variants:
-- method: dive-plus
-  file: a17cad18c56a7e08.dive-plus.webp
-  import_original_name: 5a6ebbf197f6c04d.webp
+- method: "dive-plus"
+  file: "a17cad18c56a7e08.dive-plus.webp"
+  import_original_name: "5a6ebbf197f6c04d.webp"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786158512.6792314
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Pomacanthus paru
+    - scientific: "Pomacanthus paru"
       confidence: 0.4904
-    - scientific: Acanthurus chirurgus
+    - scientific: "Acanthurus chirurgus"
       confidence: 0.0721
-    - scientific: Haemulon carbonarium
+    - scientific: "Haemulon carbonarium"
       confidence: 0.0435
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786158512.6792314
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Pomacanthus paru
+    - scientific: "Pomacanthus paru"
       confidence: 0.9731
-    - scientific: Acanthostracion polygonius
+    - scientific: "Acanthostracion polygonius"
       confidence: 0.0199
-    - scientific: Gymnothorax funebris
+    - scientific: "Gymnothorax funebris"
       confidence: 0.0012
 species:
-- scientific: Pomacanthus paru
-  role: primary
+- scientific: "Pomacanthus paru"
+  role: "primary"
   confidence: 0.7318
-  identified_by: bioclip-2+bioclip-2.5
+  identified_by: "bioclip-2+bioclip-2.5"

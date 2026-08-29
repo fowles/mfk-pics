@@ -1,48 +1,48 @@
-date: '2024-07-11 13:19:09'
-location: Bonaire
-location_source: dive_site
-dive_site: Jeff Davis Memorial
-credit: Matthew Kulukundis
-import_album: Jeff Davis Memorial, Bonaire, 7-11-2024
-import_original_name: PXL_20240711_171909939.jpg
+date: "2024-07-11 13:19:09"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Jeff Davis Memorial"
+credit: "Matthew Kulukundis"
+import_album: "Jeff Davis Memorial, Bonaire, 7-11-2024"
+import_original_name: "PXL_20240711_171909939.jpg"
 lat: 12.2050008
 lon: -68.3139741
-gps_source: dive_site
+gps_source: "dive_site"
 variants:
-- method: dive-plus
-  file: c4402cc0a4acfcc7.dive-plus.webp
-  import_original_name: c86f65028de2d7a7.webp
+- method: "dive-plus"
+  file: "c4402cc0a4acfcc7.dive-plus.webp"
+  import_original_name: "c86f65028de2d7a7.webp"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786159595.7075388
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Thalassoma bifasciatum
+    - scientific: "Thalassoma bifasciatum"
       confidence: 0.036
-    - scientific: Serranus tigrinus
+    - scientific: "Serranus tigrinus"
       confidence: 0.0211
-    - scientific: Sparisoma viride
+    - scientific: "Sparisoma viride"
       confidence: 0.019
     absorbed_by:
-      scientific: Orbicella annularis
+      scientific: "Orbicella annularis"
       confidence: 0.2015
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786159595.7075388
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Canthigaster rostrata
+    - scientific: "Canthigaster rostrata"
       confidence: 0.7723
-    - scientific: Thalassoma bifasciatum
+    - scientific: "Thalassoma bifasciatum"
       confidence: 0.0186
-    - scientific: Ophioblennius macclurei
+    - scientific: "Ophioblennius macclurei"
       confidence: 0.0153
 species:
-- scientific: Canthigaster rostrata
-  role: primary
+- scientific: "Canthigaster rostrata"
+  role: "primary"
   confidence: 0.3861
-  identified_by: bioclip-2.5
+  identified_by: "bioclip-2.5"

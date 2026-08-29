@@ -1,42 +1,42 @@
-date: '2025-08-13 13:54:58'
-location: Bonaire
-location_source: dive_site
-dive_site: Pink Beach
-credit: Matthew Kulukundis
-import_album: 2025-08-13 - Bonaire, Pink Beach
-import_original_name: PXL_20250813_175458564.jpg
+date: "2025-08-13 13:54:58"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Pink Beach"
+credit: "Matthew Kulukundis"
+import_album: "2025-08-13 - Bonaire, Pink Beach"
+import_original_name: "PXL_20250813_175458564.jpg"
 variants:
-- method: dive-plus
-  file: f68ca262787ebb65.dive-plus.webp
-  import_original_name: 2c71922cecaffa25.webp
+- method: "dive-plus"
+  file: "f68ca262787ebb65.dive-plus.webp"
+  import_original_name: "2c71922cecaffa25.webp"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786158186.9802802
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Mycteroperca tigris
+    - scientific: "Mycteroperca tigris"
       confidence: 0.2723
-    - scientific: Epinephelus striatus
+    - scientific: "Epinephelus striatus"
       confidence: 0.2208
-    - scientific: Serranus tigrinus
+    - scientific: "Serranus tigrinus"
       confidence: 0.0871
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786158186.9802802
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Mycteroperca tigris
+    - scientific: "Mycteroperca tigris"
       confidence: 0.9094
-    - scientific: Lutjanus analis
+    - scientific: "Lutjanus analis"
       confidence: 0.042
-    - scientific: Epinephelus striatus
+    - scientific: "Epinephelus striatus"
       confidence: 0.0148
 species:
-- scientific: Mycteroperca tigris
-  role: primary
+- scientific: "Mycteroperca tigris"
+  role: "primary"
   confidence: 0.5908
-  identified_by: bioclip-2+bioclip-2.5
+  identified_by: "bioclip-2+bioclip-2.5"

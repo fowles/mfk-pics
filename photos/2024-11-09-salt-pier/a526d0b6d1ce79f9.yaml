@@ -1,45 +1,45 @@
-date: '2024-11-09 14:09:23'
-location: Bonaire
-location_source: dive_site
-dive_site: Salt Pier
-credit: Matthew Kulukundis
-import_album: 2024-11-09, Bonaire, Salt Pier
-import_original_name: PXL_20241109_180923734.MP.jpg
+date: "2024-11-09 14:09:23"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Salt Pier"
+credit: "Matthew Kulukundis"
+import_album: "2024-11-09, Bonaire, Salt Pier"
+import_original_name: "PXL_20241109_180923734.MP.jpg"
 lat: 12.082963699999999
 lon: -68.28180019999999
-gps_source: dive_site
+gps_source: "dive_site"
 variants:
-- method: dive-plus
-  file: a526d0b6d1ce79f9.dive-plus.webp
-  import_original_name: d6ab444e27ae7e24.webp
+- method: "dive-plus"
+  file: "a526d0b6d1ce79f9.dive-plus.webp"
+  import_original_name: "d6ab444e27ae7e24.webp"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786156578.9718661
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Haemulon aurolineatum
+    - scientific: "Haemulon aurolineatum"
       confidence: 0.3805
-    - scientific: Haemulon chrysargyreum
+    - scientific: "Haemulon chrysargyreum"
       confidence: 0.1924
-    - scientific: Mulloidichthys martinicus
+    - scientific: "Mulloidichthys martinicus"
       confidence: 0.1416
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786156578.9718661
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Haemulon aurolineatum
+    - scientific: "Haemulon aurolineatum"
       confidence: 0.5622
-    - scientific: Haemulon chrysargyreum
+    - scientific: "Haemulon chrysargyreum"
       confidence: 0.4002
-    - scientific: Ocyurus chrysurus
+    - scientific: "Ocyurus chrysurus"
       confidence: 0.0184
 species:
-- scientific: Haemulon aurolineatum
-  role: primary
+- scientific: "Haemulon aurolineatum"
+  role: "primary"
   confidence: 0.4714
-  identified_by: bioclip-2+bioclip-2.5
+  identified_by: "bioclip-2+bioclip-2.5"

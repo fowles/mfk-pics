@@ -1,50 +1,50 @@
-date: '2025-08-10 13:23:53'
-location: Bonaire
-location_source: dive_site
-dive_site: Salt Pier
-credit: Delia Kulukundis
-import_album: 2025-08-10 - Bonaire, Salt Pier
-import_original_name: IMG_5441.JPG
+date: "2025-08-10 13:23:53"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Salt Pier"
+credit: "Delia Kulukundis"
+import_album: "2025-08-10 - Bonaire, Salt Pier"
+import_original_name: "IMG_5441.JPG"
 lat: 12.082963699999999
 lon: -68.28180019999999
-gps_source: dive_site
+gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786157571.2255654
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Lutjanus apodus
+    - scientific: "Lutjanus apodus"
       confidence: 0.9134
-    - scientific: Lutjanus jocu
+    - scientific: "Lutjanus jocu"
       confidence: 0.0807
-    - scientific: Lutjanus analis
+    - scientific: "Lutjanus analis"
       confidence: 0.0025
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786157571.2255654
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Lutjanus apodus
+    - scientific: "Lutjanus apodus"
       confidence: 0.9981
-    - scientific: Lutjanus jocu
+    - scientific: "Lutjanus jocu"
       confidence: 0.0019
-    - scientific: Mycteroperca tigris
+    - scientific: "Mycteroperca tigris"
       confidence: 0.0
 species:
-- scientific: Lutjanus apodus
-  role: primary
-  identified_by: human
-  confirmed_from: bioclip-2+bioclip-2.5
-  reviewed_by: matt
-- scientific: Lactophrys triqueter
-  role: secondary
-  identified_by: human
-  reviewed_by: matt
+- scientific: "Lutjanus apodus"
+  role: "primary"
+  identified_by: "human"
+  confirmed_from: "bioclip-2+bioclip-2.5"
+  reviewed_by: "matt"
+- scientific: "Lactophrys triqueter"
+  role: "secondary"
+  identified_by: "human"
+  reviewed_by: "matt"
 species_reviewed:
-- primary
-- secondary
+- "primary"
+- "secondary"

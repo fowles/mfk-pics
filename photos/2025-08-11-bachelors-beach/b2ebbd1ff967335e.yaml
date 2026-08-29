@@ -1,44 +1,44 @@
-date: '2025-08-11 16:41:36'
-location: Bonaire
-location_source: dive_site
-dive_site: Bachelor's Beach
-credit: Matthew Kulukundis
-import_album: 2025-08-11 - Bonaire, Bachelor's Beach
-import_original_name: PXL_20250811_204136420.MP.jpg
+date: "2025-08-11 16:41:36"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Bachelor's Beach"
+credit: "Matthew Kulukundis"
+import_album: "2025-08-11 - Bonaire, Bachelor's Beach"
+import_original_name: "PXL_20250811_204136420.MP.jpg"
 lat: 12.125370400000001
 lon: -68.2874429
-gps_source: dive_site
+gps_source: "dive_site"
 variants:
-- method: dive-plus
-  file: b2ebbd1ff967335e.dive-plus.webp
-  import_original_name: 33f5f45ae536f448.webp
+- method: "dive-plus"
+  file: "b2ebbd1ff967335e.dive-plus.webp"
+  import_original_name: "33f5f45ae536f448.webp"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786157882.157809
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Acanthurus coeruleus
+    - scientific: "Acanthurus coeruleus"
       confidence: 0.0644
-    - scientific: Bodianus rufus
+    - scientific: "Bodianus rufus"
       confidence: 0.0618
-    - scientific: Chromis cyanea
+    - scientific: "Chromis cyanea"
       confidence: 0.0515
     absorbed_by:
-      scientific: Orbicella faveolata
+      scientific: "Orbicella faveolata"
       confidence: 0.1949
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786157882.157809
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Scarus iseri
+    - scientific: "Scarus iseri"
       confidence: 0.1668
-    - scientific: Scarus coeruleus
+    - scientific: "Scarus coeruleus"
       confidence: 0.1604
-    - scientific: Scarus vetula
+    - scientific: "Scarus vetula"
       confidence: 0.1435
 species: []

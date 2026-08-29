@@ -1,42 +1,42 @@
-date: '2024-11-14 14:40:17'
-location: Bonaire
-location_source: dive_site
-dive_site: Red Slave
-credit: Delia Kulukundis
-import_album: 2024-11-14, Bonaire, Red Slave
-import_original_name: IMG_5322.JPG
+date: "2024-11-14 14:40:17"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Red Slave"
+credit: "Delia Kulukundis"
+import_album: "2024-11-14, Bonaire, Red Slave"
+import_original_name: "IMG_5322.JPG"
 lat: 12.026556999999999
 lon: -68.2513754
-gps_source: dive_site
+gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786156974.6460235
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Caranx ruber
+    - scientific: "Caranx ruber"
       confidence: 0.2415
-    - scientific: Trachinotus falcatus
+    - scientific: "Trachinotus falcatus"
       confidence: 0.1959
-    - scientific: Chromis multilineata
+    - scientific: "Chromis multilineata"
       confidence: 0.1075
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786156974.6460235
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Caranx ruber
+    - scientific: "Caranx ruber"
       confidence: 0.8425
-    - scientific: Chromis multilineata
+    - scientific: "Chromis multilineata"
       confidence: 0.0773
-    - scientific: Caranx crysos
+    - scientific: "Caranx crysos"
       confidence: 0.0588
 species:
-- scientific: Caranx ruber
-  role: primary
+- scientific: "Caranx ruber"
+  role: "primary"
   confidence: 0.542
-  identified_by: bioclip-2+bioclip-2.5
+  identified_by: "bioclip-2+bioclip-2.5"

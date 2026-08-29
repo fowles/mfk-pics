@@ -1,46 +1,46 @@
-date: '2015-05-20 14:49:11'
-location: Maui, Hawaii, USA
-location_source: dive_site
-dive_site: Mala Wharf
-credit: Delia Kulukundis
-import_album: 2015-05-20, USA, Hawaii, Maui, Mala Wharf
-import_original_name: DSC_1790.JPG
+date: "2015-05-20 14:49:11"
+location: "Maui, Hawaii, USA"
+location_source: "dive_site"
+dive_site: "Mala Wharf"
+credit: "Delia Kulukundis"
+import_album: "2015-05-20, USA, Hawaii, Maui, Mala Wharf"
+import_original_name: "DSC_1790.JPG"
 lat: 20.88461
 lon: -156.68646
-gps_source: dive_site
+gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-25T05:43:58Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1787441082.933595
-    vocab: 43f646ed780c
+    vocab: "23e0d65f5ba2"
     top:
-    - scientific: Triaenodon obesus
+    - scientific: "Triaenodon obesus"
       confidence: 0.9101
-    - scientific: Nebrius ferrugineus
+    - scientific: "Nebrius ferrugineus"
       confidence: 0.0306
-    - scientific: Gracila albomarginata
+    - scientific: "Gracila albomarginata"
       confidence: 0.0116
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-25T05:46:15Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1787441082.933595
-    vocab: 43f646ed780c
+    vocab: "23e0d65f5ba2"
     top:
-    - scientific: Triaenodon obesus
+    - scientific: "Triaenodon obesus"
       confidence: 0.9999
-    - scientific: Nebrius ferrugineus
+    - scientific: "Nebrius ferrugineus"
       confidence: 0.0
-    - scientific: Carcharhinus amblyrhynchos
+    - scientific: "Carcharhinus amblyrhynchos"
       confidence: 0.0
 species:
-- scientific: Triaenodon obesus
-  role: primary
-  identified_by: human
-  confirmed_from: bioclip
-  reviewed_by: matt
+- scientific: "Triaenodon obesus"
+  role: "primary"
+  identified_by: "human"
+  confirmed_from: "bioclip"
+  reviewed_by: "matt"
 species_reviewed:
-- primary
-- secondary
+- "primary"
+- "secondary"

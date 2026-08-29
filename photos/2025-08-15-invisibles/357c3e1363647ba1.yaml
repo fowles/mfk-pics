@@ -1,42 +1,42 @@
-date: '2025-08-15 10:16:38'
-location: Bonaire
-location_source: dive_site
-dive_site: Invisibles
-credit: Delia Kulukundis
-import_album: 2025-08-15 - Bonaire, Invisibles
-import_original_name: IMG_5914.JPG
+date: "2025-08-15 10:16:38"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Invisibles"
+credit: "Delia Kulukundis"
+import_album: "2025-08-15 - Bonaire, Invisibles"
+import_original_name: "IMG_5914.JPG"
 lat: 12.0776183
 lon: -68.28015169999999
-gps_source: dive_site
+gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786071946.035063
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Octopus briareus
+    - scientific: "Octopus briareus"
       confidence: 0.7465
-    - scientific: Octopus insularis
+    - scientific: "Octopus insularis"
       confidence: 0.2529
-    - scientific: Urobatis jamaicensis
+    - scientific: "Urobatis jamaicensis"
       confidence: 0.0002
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786071946.035063
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Octopus insularis
+    - scientific: "Octopus insularis"
       confidence: 0.9155
-    - scientific: Octopus briareus
+    - scientific: "Octopus briareus"
       confidence: 0.0845
-    - scientific: Urobatis jamaicensis
+    - scientific: "Urobatis jamaicensis"
       confidence: 0.0
 species:
-- scientific: Octopus insularis
-  role: primary
+- scientific: "Octopus insularis"
+  role: "primary"
   confidence: 0.5842
-  identified_by: bioclip-2+bioclip-2.5
+  identified_by: "bioclip-2+bioclip-2.5"

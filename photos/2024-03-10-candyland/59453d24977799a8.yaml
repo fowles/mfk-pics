@@ -1,47 +1,47 @@
-date: '2024-03-10 11:54:02'
-location: Bonaire
-location_source: dive_site
-dive_site: Candyland
-credit: Matthew Kulukundis
-import_album: Bonaire, Candyland, 2024-03-10
-import_original_name: PXL_20240310_155402577.jpg
+date: "2024-03-10 11:54:02"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Candyland"
+credit: "Matthew Kulukundis"
+import_album: "Bonaire, Candyland, 2024-03-10"
+import_original_name: "PXL_20240310_155402577.jpg"
 lat: 12.222591
 lon: -68.40111449999999
-gps_source: dive_site
+gps_source: "dive_site"
 variants:
-- method: dive-plus
-  file: 59453d24977799a8.dive-plus.webp
-  import_original_name: 70d4394ab3b2bc5d.webp
+- method: "dive-plus"
+  file: "59453d24977799a8.dive-plus.webp"
+  import_original_name: "70d4394ab3b2bc5d.webp"
 date_reviewed: true
 extra_variants:
-- dicam
+- "dicam"
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786158873.5873415
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Pomacanthus arcuatus
+    - scientific: "Pomacanthus arcuatus"
       confidence: 0.2148
-    - scientific: Pomacanthus paru
+    - scientific: "Pomacanthus paru"
       confidence: 0.1895
-    - scientific: Holacanthus tricolor
+    - scientific: "Holacanthus tricolor"
       confidence: 0.1196
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786158873.5873415
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Chromis cyanea
+    - scientific: "Chromis cyanea"
       confidence: 0.5324
-    - scientific: Clepticus parrae
+    - scientific: "Clepticus parrae"
       confidence: 0.1491
-    - scientific: Scarus coeruleus
+    - scientific: "Scarus coeruleus"
       confidence: 0.0678
 species:
-- scientific: Chromis cyanea
-  role: primary
+- scientific: "Chromis cyanea"
+  role: "primary"
   confidence: 0.2662
-  identified_by: bioclip-2.5
+  identified_by: "bioclip-2.5"

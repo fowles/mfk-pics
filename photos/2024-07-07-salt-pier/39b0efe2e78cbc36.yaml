@@ -1,45 +1,45 @@
-date: '2024-07-07 17:35:17'
-location: Bonaire
-location_source: dive_site
-dive_site: Salt Pier
-credit: Matthew Kulukundis
-import_album: Salt Pier, Bonaire, 7-7-2024
-import_original_name: PXL_20240707_213517111.jpg
+date: "2024-07-07 17:35:17"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Salt Pier"
+credit: "Matthew Kulukundis"
+import_album: "Salt Pier, Bonaire, 7-7-2024"
+import_original_name: "PXL_20240707_213517111.jpg"
 lat: 12.082963699999999
 lon: -68.28180019999999
-gps_source: dive_site
+gps_source: "dive_site"
 variants:
-- method: dive-plus
-  file: 39b0efe2e78cbc36.dive-plus.webp
-  import_original_name: 33087a21c784ab29.webp
+- method: "dive-plus"
+  file: "39b0efe2e78cbc36.dive-plus.webp"
+  import_original_name: "33087a21c784ab29.webp"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786159986.4970071
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Serranus tigrinus
+    - scientific: "Serranus tigrinus"
       confidence: 0.0978
-    - scientific: Panulirus argus
+    - scientific: "Panulirus argus"
       confidence: 0.0693
-    - scientific: Acanthostracion polygonius
+    - scientific: "Acanthostracion polygonius"
       confidence: 0.0363
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786159986.4970071
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Serranus tigrinus
+    - scientific: "Serranus tigrinus"
       confidence: 0.1866
-    - scientific: Myrichthys breviceps
+    - scientific: "Myrichthys breviceps"
       confidence: 0.1816
-    - scientific: Acanthostracion polygonius
+    - scientific: "Acanthostracion polygonius"
       confidence: 0.1707
 species:
-- scientific: Serranus tigrinus
-  role: primary
+- scientific: "Serranus tigrinus"
+  role: "primary"
   confidence: 0.1422
-  identified_by: bioclip-2+bioclip-2.5
+  identified_by: "bioclip-2+bioclip-2.5"

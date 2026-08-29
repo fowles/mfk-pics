@@ -1,42 +1,42 @@
-date: '2024-03-10 15:07:04'
-location: Bonaire
-location_source: dive_site
-dive_site: Something Special
-credit: Delia Kulukundis
-import_album: Bonaire, Something Special, 2024-03-10
-import_original_name: IMG_4040.JPG
+date: "2024-03-10 15:07:04"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Something Special"
+credit: "Delia Kulukundis"
+import_album: "Bonaire, Something Special, 2024-03-10"
+import_original_name: "IMG_4040.JPG"
 lat: 12.150402
 lon: -68.2854452
-gps_source: dive_site
+gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786159050.9908342
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Acanthostracion polygonius
+    - scientific: "Acanthostracion polygonius"
       confidence: 0.148
-    - scientific: Sparisoma viride
+    - scientific: "Sparisoma viride"
       confidence: 0.1431
-    - scientific: Aluterus scriptus
+    - scientific: "Aluterus scriptus"
       confidence: 0.0721
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786159050.9908342
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Mycteroperca tigris
+    - scientific: "Mycteroperca tigris"
       confidence: 0.8139
-    - scientific: Epinephelus striatus
+    - scientific: "Epinephelus striatus"
       confidence: 0.0621
-    - scientific: Cantherhines pullus
+    - scientific: "Cantherhines pullus"
       confidence: 0.0505
 species:
-- scientific: Mycteroperca tigris
-  role: primary
+- scientific: "Mycteroperca tigris"
+  role: "primary"
   confidence: 0.4069
-  identified_by: bioclip-2.5
+  identified_by: "bioclip-2.5"

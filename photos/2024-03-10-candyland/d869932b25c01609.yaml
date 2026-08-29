@@ -1,44 +1,44 @@
-date: '2024-03-10 12:22:56'
-location: Bonaire
-location_source: dive_site
-dive_site: Candyland
-credit: Delia Kulukundis
-import_album: Bonaire, Candyland, 2024-03-10
-import_original_name: IMG_3979.JPG
+date: "2024-03-10 12:22:56"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Candyland"
+credit: "Delia Kulukundis"
+import_album: "Bonaire, Candyland, 2024-03-10"
+import_original_name: "IMG_3979.JPG"
 lat: 12.222591
 lon: -68.40111449999999
-gps_source: dive_site
+gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786158867.6961095
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Chromis cyanea
+    - scientific: "Chromis cyanea"
       confidence: 0.085
-    - scientific: Bodianus rufus
+    - scientific: "Bodianus rufus"
       confidence: 0.046
-    - scientific: Thalassoma bifasciatum
+    - scientific: "Thalassoma bifasciatum"
       confidence: 0.0399
     absorbed_by:
-      scientific: Porites porites
+      scientific: "Porites porites"
       confidence: 0.1615
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786158867.6961095
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Thalassoma bifasciatum
+    - scientific: "Thalassoma bifasciatum"
       confidence: 0.1965
-    - scientific: Chromis cyanea
+    - scientific: "Chromis cyanea"
       confidence: 0.1594
-    - scientific: Halichoeres pictus
+    - scientific: "Halichoeres pictus"
       confidence: 0.0204
     absorbed_by:
-      scientific: Aplysina archeri
+      scientific: "Aplysina archeri"
       confidence: 0.5761
 species: []

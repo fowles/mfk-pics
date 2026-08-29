@@ -1,45 +1,45 @@
-date: '2025-10-07 11:04:19'
-location: Bahamas
-location_source: dive_site
-dive_site: Krispy Kreme
-credit: Delia Kulukundis
-import_album: Juliet Bahamas 2025 Underwater (all)
-import_original_name: IMG_6187.JPG
+date: "2025-10-07 11:04:19"
+location: "Bahamas"
+location_source: "dive_site"
+dive_site: "Krispy Kreme"
+credit: "Delia Kulukundis"
+import_album: "Juliet Bahamas 2025 Underwater (all)"
+import_original_name: "IMG_6187.JPG"
 lat: 25.5543
 lon: -79.2886
-gps_source: dive_site
+gps_source: "dive_site"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786159796.6633222
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Caranx latus
+    - scientific: "Caranx latus"
       confidence: 0.5778
-    - scientific: Alectis ciliaris
+    - scientific: "Alectis ciliaris"
       confidence: 0.1458
-    - scientific: Seriola rivoliana
+    - scientific: "Seriola rivoliana"
       confidence: 0.124
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786159796.6633222
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Caranx latus
+    - scientific: "Caranx latus"
       confidence: 0.9929
-    - scientific: Seriola rivoliana
+    - scientific: "Seriola rivoliana"
       confidence: 0.0036
-    - scientific: Caranx ruber
+    - scientific: "Caranx ruber"
       confidence: 0.0017
 species:
-- scientific: Caranx latus
-  role: primary
-  identified_by: human
-  confirmed_from: bioclip+bioclip-2.5
-  reviewed_by: matt
+- scientific: "Caranx latus"
+  role: "primary"
+  identified_by: "human"
+  confirmed_from: "bioclip+bioclip-2.5"
+  reviewed_by: "matt"
 species_reviewed:
-- primary
-- secondary
+- "primary"
+- "secondary"

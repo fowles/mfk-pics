@@ -1,45 +1,45 @@
-date: '2024-03-10 11:49:26'
-location: Bonaire
-location_source: dive_site
-dive_site: Candyland
-credit: Delia Kulukundis
-import_album: Bonaire, Candyland, 2024-03-10
-import_original_name: IMG_3860.JPG
+date: "2024-03-10 11:49:26"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Candyland"
+credit: "Delia Kulukundis"
+import_album: "Bonaire, Candyland, 2024-03-10"
+import_original_name: "IMG_3860.JPG"
 lat: 12.222591
 lon: -68.40111449999999
-gps_source: dive_site
+gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786158855.2500694
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Chromis cyanea
+    - scientific: "Chromis cyanea"
       confidence: 0.8102
-    - scientific: Gramma loreto
+    - scientific: "Gramma loreto"
       confidence: 0.0736
-    - scientific: Bodianus rufus
+    - scientific: "Bodianus rufus"
       confidence: 0.0259
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786158855.2500694
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Chromis cyanea
+    - scientific: "Chromis cyanea"
       confidence: 0.1045
-    - scientific: Halichoeres pictus
+    - scientific: "Halichoeres pictus"
       confidence: 0.0371
-    - scientific: Gramma loreto
+    - scientific: "Gramma loreto"
       confidence: 0.0216
     absorbed_by:
-      scientific: Orbicella annularis
+      scientific: "Orbicella annularis"
       confidence: 0.6776
 species:
-- scientific: Chromis cyanea
-  role: primary
+- scientific: "Chromis cyanea"
+  role: "primary"
   confidence: 0.4574
-  identified_by: bioclip-2+bioclip-2.5
+  identified_by: "bioclip-2+bioclip-2.5"

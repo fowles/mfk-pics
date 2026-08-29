@@ -1,45 +1,45 @@
-date: '2024-11-09 14:53:17'
-location: Bonaire
-location_source: dive_site
-dive_site: Salt Pier
-credit: Matthew Kulukundis
-import_album: 2024-11-09, Bonaire, Salt Pier
-import_original_name: PXL_20241109_185317028.jpg
+date: "2024-11-09 14:53:17"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Salt Pier"
+credit: "Matthew Kulukundis"
+import_album: "2024-11-09, Bonaire, Salt Pier"
+import_original_name: "PXL_20241109_185317028.jpg"
 lat: 12.082963699999999
 lon: -68.28180019999999
-gps_source: dive_site
+gps_source: "dive_site"
 variants:
-- method: dive-plus
-  file: 3031c6dfc61ec50a.dive-plus.webp
-  import_original_name: 2d9c881f8f765b40.webp
+- method: "dive-plus"
+  file: "3031c6dfc61ec50a.dive-plus.webp"
+  import_original_name: "2d9c881f8f765b40.webp"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786156586.3480706
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Carcharhinus perezi
+    - scientific: "Carcharhinus perezi"
       confidence: 0.184
-    - scientific: Decapterus macarellus
+    - scientific: "Decapterus macarellus"
       confidence: 0.1703
-    - scientific: Dactylopterus volitans
+    - scientific: "Dactylopterus volitans"
       confidence: 0.1567
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786156586.3480706
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Echeneis naucrates
+    - scientific: "Echeneis naucrates"
       confidence: 0.308
-    - scientific: Elagatis bipinnulata
+    - scientific: "Elagatis bipinnulata"
       confidence: 0.252
-    - scientific: Tylosurus crocodilus
+    - scientific: "Tylosurus crocodilus"
       confidence: 0.1542
 species:
-- scientific: Echeneis naucrates
-  role: primary
+- scientific: "Echeneis naucrates"
+  role: "primary"
   confidence: 0.154
-  identified_by: bioclip-2.5
+  identified_by: "bioclip-2.5"

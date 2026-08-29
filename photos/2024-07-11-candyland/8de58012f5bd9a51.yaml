@@ -1,41 +1,41 @@
-date: '2024-07-11 15:23:36'
-location: Bonaire
-location_source: dive_site
-dive_site: Candyland
-credit: Delia Kulukundis
-import_album: Candyland, Bonaire, 7-11-2024
-import_original_name: IMG_4487.JPG
+date: "2024-07-11 15:23:36"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Candyland"
+credit: "Delia Kulukundis"
+import_album: "Candyland, Bonaire, 7-11-2024"
+import_original_name: "IMG_4487.JPG"
 lat: 12.222591
 lon: -68.40111449999999
-gps_source: dive_site
+gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786159267.2791424
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Eretmochelys imbricata
+    - scientific: "Eretmochelys imbricata"
       confidence: 0.5367
-    - scientific: Chelonia mydas
+    - scientific: "Chelonia mydas"
       confidence: 0.3453
-    - scientific: Caretta caretta
+    - scientific: "Caretta caretta"
       confidence: 0.0916
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786159267.2791424
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Chelonia mydas
+    - scientific: "Chelonia mydas"
       confidence: 0.6405
-    - scientific: Stenella longirostris
+    - scientific: "Stenella longirostris"
       confidence: 0.3121
-    - scientific: Eretmochelys imbricata
+    - scientific: "Eretmochelys imbricata"
       confidence: 0.0395
 species: []
 species_reviewed:
-- primary
-- secondary
+- "primary"
+- "secondary"

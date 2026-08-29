@@ -1,42 +1,42 @@
-date: '2025-08-11 16:29:33'
-location: Bonaire
-location_source: dive_site
-dive_site: Bachelor's Beach
-credit: Matthew Kulukundis
-import_album: 2025-08-11 - Bonaire, Bachelor's Beach
-import_original_name: PXL_20250811_202933755.MP.jpg
+date: "2025-08-11 16:29:33"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Bachelor's Beach"
+credit: "Matthew Kulukundis"
+import_album: "2025-08-11 - Bonaire, Bachelor's Beach"
+import_original_name: "PXL_20250811_202933755.MP.jpg"
 variants:
-- method: dive-plus
-  file: 471a8b1b4219d75b.dive-plus.webp
-  import_original_name: 5cc5a6a63411c11d.webp
+- method: "dive-plus"
+  file: "471a8b1b4219d75b.dive-plus.webp"
+  import_original_name: "5cc5a6a63411c11d.webp"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786157880.996438
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Gymnothorax funebris
+    - scientific: "Gymnothorax funebris"
       confidence: 0.9701
-    - scientific: Enchelycore carychroa
+    - scientific: "Enchelycore carychroa"
       confidence: 0.0058
-    - scientific: Chromis multilineata
+    - scientific: "Chromis multilineata"
       confidence: 0.0056
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786157880.996438
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Gymnothorax funebris
+    - scientific: "Gymnothorax funebris"
       confidence: 0.9732
-    - scientific: Chromis multilineata
+    - scientific: "Chromis multilineata"
       confidence: 0.0223
-    - scientific: Myripristis jacobus
+    - scientific: "Myripristis jacobus"
       confidence: 0.0028
 species:
-- scientific: Gymnothorax funebris
-  role: primary
+- scientific: "Gymnothorax funebris"
+  role: "primary"
   confidence: 0.9716
-  identified_by: bioclip-2+bioclip-2.5
+  identified_by: "bioclip-2+bioclip-2.5"

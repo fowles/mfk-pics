@@ -1,46 +1,46 @@
-date: '2024-07-08 15:28:30'
-location: Bonaire
-location_source: dive_site
-dive_site: Cliff
-credit: Delia Kulukundis
-import_album: Cliff, Bonaire 7-8-24
-import_original_name: IMG_4265.JPG
+date: "2024-07-08 15:28:30"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Cliff"
+credit: "Delia Kulukundis"
+import_album: "Cliff, Bonaire 7-8-24"
+import_original_name: "IMG_4265.JPG"
 lat: 12.1743341
 lon: -68.2903018
-gps_source: dive_site
+gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786159383.1236167
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Hermodice carunculata
+    - scientific: "Hermodice carunculata"
       confidence: 0.9911
-    - scientific: Astrophyton muricatum
+    - scientific: "Astrophyton muricatum"
       confidence: 0.0033
-    - scientific: Cyphoma gibbosum
+    - scientific: "Cyphoma gibbosum"
       confidence: 0.001
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786159383.1236167
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Hermodice carunculata
+    - scientific: "Hermodice carunculata"
       confidence: 0.978
-    - scientific: Ophiothrix suensonii
+    - scientific: "Ophiothrix suensonii"
       confidence: 0.0
-    - scientific: Eurythoe complanata
+    - scientific: "Eurythoe complanata"
       confidence: 0.0
 species:
-- scientific: Hermodice carunculata
-  role: primary
-  identified_by: human
-  confirmed_from: bioclip
-  reviewed_by: matt
+- scientific: "Hermodice carunculata"
+  role: "primary"
+  identified_by: "human"
+  confirmed_from: "bioclip"
+  reviewed_by: "matt"
 species_reviewed:
-- primary
-- secondary
+- "primary"
+- "secondary"

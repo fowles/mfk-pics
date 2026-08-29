@@ -1,49 +1,49 @@
-date: '2024-11-15 14:17:48'
-location: Bonaire
-location_source: dive_site
-dive_site: Angel City
-credit: Matthew Kulukundis
-import_album: 2024-11-15, Bonaire, Angel City
-import_original_name: PXL_20241115_182523137.jpg
+date: "2024-11-15 14:17:48"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Angel City"
+credit: "Matthew Kulukundis"
+import_album: "2024-11-15, Bonaire, Angel City"
+import_original_name: "PXL_20241115_182523137.jpg"
 lat: 12.103454
 lon: -68.2872912
-gps_source: dive_site
+gps_source: "dive_site"
 variants:
-- method: dive-plus
-  file: 9f30327bd92c0135.dive-plus.webp
-  import_original_name: cc50824a1dea6b41.webp
+- method: "dive-plus"
+  file: "9f30327bd92c0135.dive-plus.webp"
+  import_original_name: "cc50824a1dea6b41.webp"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786157056.9807305
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Tripneustes ventricosus
+    - scientific: "Tripneustes ventricosus"
       confidence: 0.9996
-    - scientific: Cassiopea xamachana
+    - scientific: "Cassiopea xamachana"
       confidence: 0.0
-    - scientific: Diadema antillarum
+    - scientific: "Diadema antillarum"
       confidence: 0.0
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786157056.9807305
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Tripneustes ventricosus
+    - scientific: "Tripneustes ventricosus"
       confidence: 1.0
-    - scientific: Cassiopea xamachana
+    - scientific: "Cassiopea xamachana"
       confidence: 0.0
-    - scientific: Thalassoma bifasciatum
+    - scientific: "Thalassoma bifasciatum"
       confidence: 0.0
 species:
-- scientific: Tripneustes ventricosus
-  role: primary
-  identified_by: human
-  confirmed_from: bioclip-2+bioclip-2.5
-  reviewed_by: matt
+- scientific: "Tripneustes ventricosus"
+  role: "primary"
+  identified_by: "human"
+  confirmed_from: "bioclip-2+bioclip-2.5"
+  reviewed_by: "matt"
 species_reviewed:
-- primary
-- secondary
+- "primary"
+- "secondary"

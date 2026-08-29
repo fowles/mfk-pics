@@ -1,42 +1,42 @@
-date: '2024-07-10 15:52:10'
-location: Bonaire
-location_source: dive_site
-dive_site: Bachelor's Beach
-credit: Delia Kulukundis
-import_album: Bachelor's Beach, Bonaire 7-10-2024
-import_original_name: IMG_4407.JPG
+date: "2024-07-10 15:52:10"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Bachelor's Beach"
+credit: "Delia Kulukundis"
+import_album: "Bachelor's Beach, Bonaire 7-10-2024"
+import_original_name: "IMG_4407.JPG"
 lat: 12.125370400000001
 lon: -68.2874429
-gps_source: dive_site
+gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786158712.268849
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Anisotremus surinamensis
+    - scientific: "Anisotremus surinamensis"
       confidence: 0.5997
-    - scientific: Haemulon album
+    - scientific: "Haemulon album"
       confidence: 0.2933
-    - scientific: Canthidermis sufflamen
+    - scientific: "Canthidermis sufflamen"
       confidence: 0.0314
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786158712.268849
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Anisotremus surinamensis
+    - scientific: "Anisotremus surinamensis"
       confidence: 0.9871
-    - scientific: Haemulon album
+    - scientific: "Haemulon album"
       confidence: 0.0062
-    - scientific: Haemulon carbonarium
+    - scientific: "Haemulon carbonarium"
       confidence: 0.0037
 species:
-- scientific: Anisotremus surinamensis
-  role: primary
+- scientific: "Anisotremus surinamensis"
+  role: "primary"
   confidence: 0.7934
-  identified_by: bioclip-2+bioclip-2.5
+  identified_by: "bioclip-2+bioclip-2.5"

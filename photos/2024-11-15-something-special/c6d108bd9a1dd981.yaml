@@ -1,45 +1,45 @@
-date: '2024-11-15 10:53:52'
-location: Bonaire
-location_source: dive_site
-dive_site: Something Special
-credit: Matthew Kulukundis
-import_album: 2024-11-15, Bonaire, Something Special
-import_original_name: PXL_20241115_145352727.jpg
+date: "2024-11-15 10:53:52"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Something Special"
+credit: "Matthew Kulukundis"
+import_album: "2024-11-15, Bonaire, Something Special"
+import_original_name: "PXL_20241115_145352727.jpg"
 lat: 12.150402
 lon: -68.2854452
-gps_source: dive_site
+gps_source: "dive_site"
 variants:
-- method: dive-plus
-  file: c6d108bd9a1dd981.dive-plus.webp
-  import_original_name: 9395e5b0da6f921b.webp
+- method: "dive-plus"
+  file: "c6d108bd9a1dd981.dive-plus.webp"
+  import_original_name: "9395e5b0da6f921b.webp"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786157213.4146788
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Enchelycore carychroa
+    - scientific: "Enchelycore carychroa"
       confidence: 0.1021
-    - scientific: Holacanthus tricolor
+    - scientific: "Holacanthus tricolor"
       confidence: 0.0947
-    - scientific: Gymnothorax funebris
+    - scientific: "Gymnothorax funebris"
       confidence: 0.0885
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786157213.4146788
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Davidaster rubiginosus
+    - scientific: "Davidaster rubiginosus"
       confidence: 0.3824
-    - scientific: Ophiothrix suensonii
+    - scientific: "Ophiothrix suensonii"
       confidence: 0.1946
-    - scientific: Octopus insularis
+    - scientific: "Octopus insularis"
       confidence: 0.1106
 species:
-- scientific: Davidaster rubiginosus
-  role: primary
+- scientific: "Davidaster rubiginosus"
+  role: "primary"
   confidence: 0.1912
-  identified_by: bioclip-2.5
+  identified_by: "bioclip-2.5"

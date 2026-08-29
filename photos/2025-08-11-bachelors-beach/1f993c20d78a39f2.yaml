@@ -1,45 +1,45 @@
-date: '2025-08-11 16:41:40'
-location: Bonaire
-location_source: dive_site
-dive_site: Bachelor's Beach
-credit: Matthew Kulukundis
-import_album: 2025-08-11 - Bonaire, Bachelor's Beach
-import_original_name: PXL_20250811_204140796.jpg
+date: "2025-08-11 16:41:40"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Bachelor's Beach"
+credit: "Matthew Kulukundis"
+import_album: "2025-08-11 - Bonaire, Bachelor's Beach"
+import_original_name: "PXL_20250811_204140796.jpg"
 lat: 12.125370400000001
 lon: -68.2874429
-gps_source: dive_site
+gps_source: "dive_site"
 variants:
-- method: dive-plus
-  file: 1f993c20d78a39f2.dive-plus.webp
-  import_original_name: b40f53da72975a2d.webp
+- method: "dive-plus"
+  file: "1f993c20d78a39f2.dive-plus.webp"
+  import_original_name: "b40f53da72975a2d.webp"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786157882.1110415
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Acanthostracion polygonius
+    - scientific: "Acanthostracion polygonius"
       confidence: 0.2474
-    - scientific: Anisotremus surinamensis
+    - scientific: "Anisotremus surinamensis"
       confidence: 0.2281
-    - scientific: Haemulon album
+    - scientific: "Haemulon album"
       confidence: 0.1632
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786157882.1110415
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Acanthostracion polygonius
+    - scientific: "Acanthostracion polygonius"
       confidence: 0.7201
-    - scientific: Sparisoma viride
+    - scientific: "Sparisoma viride"
       confidence: 0.1502
-    - scientific: Lactophrys bicaudalis
+    - scientific: "Lactophrys bicaudalis"
       confidence: 0.0674
 species:
-- scientific: Acanthostracion polygonius
-  role: primary
+- scientific: "Acanthostracion polygonius"
+  role: "primary"
   confidence: 0.4838
-  identified_by: bioclip-2+bioclip-2.5
+  identified_by: "bioclip-2+bioclip-2.5"

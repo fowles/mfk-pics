@@ -1,45 +1,45 @@
-date: '2024-11-09 14:53:10'
-location: Bonaire
-location_source: dive_site
-dive_site: Salt Pier
-credit: Matthew Kulukundis
-import_album: 2024-11-09, Bonaire, Salt Pier
-import_original_name: PXL_20241109_185310262.jpg
+date: "2024-11-09 14:53:10"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Salt Pier"
+credit: "Matthew Kulukundis"
+import_album: "2024-11-09, Bonaire, Salt Pier"
+import_original_name: "PXL_20241109_185310262.jpg"
 lat: 12.082963699999999
 lon: -68.28180019999999
-gps_source: dive_site
+gps_source: "dive_site"
 variants:
-- method: dive-plus
-  file: 92d632c1059a3dc0.dive-plus.webp
-  import_original_name: f6d09df9304b382c.webp
+- method: "dive-plus"
+  file: "92d632c1059a3dc0.dive-plus.webp"
+  import_original_name: "f6d09df9304b382c.webp"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786156586.225508
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Aetobatus narinari
+    - scientific: "Aetobatus narinari"
       confidence: 0.5725
-    - scientific: Hypanus americanus
+    - scientific: "Hypanus americanus"
       confidence: 0.0529
-    - scientific: Alectis ciliaris
+    - scientific: "Alectis ciliaris"
       confidence: 0.05
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786156586.225508
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Aetobatus narinari
+    - scientific: "Aetobatus narinari"
       confidence: 0.9957
-    - scientific: Trachinotus falcatus
+    - scientific: "Trachinotus falcatus"
       confidence: 0.0017
-    - scientific: Trachinotus goodei
+    - scientific: "Trachinotus goodei"
       confidence: 0.0016
 species:
-- scientific: Aetobatus narinari
-  role: primary
+- scientific: "Aetobatus narinari"
+  role: "primary"
   confidence: 0.7841
-  identified_by: bioclip-2+bioclip-2.5
+  identified_by: "bioclip-2+bioclip-2.5"

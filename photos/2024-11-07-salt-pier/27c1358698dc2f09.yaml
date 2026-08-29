@@ -1,55 +1,55 @@
-date: '2024-11-07 10:02:47'
-location: Bonaire
-location_source: dive_site
-dive_site: Salt Pier
-credit: Matthew Kulukundis
-import_album: 2024-11-07, Bonaire, Salt Pier
-import_original_name: PXL_20241107_140247488.jpg
+date: "2024-11-07 10:02:47"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Salt Pier"
+credit: "Matthew Kulukundis"
+import_album: "2024-11-07, Bonaire, Salt Pier"
+import_original_name: "PXL_20241107_140247488.jpg"
 variants:
-- method: dive-plus
-  file: 27c1358698dc2f09.dive-plus.webp
-  import_original_name: 3f4333f6c0d975ff.webp
+- method: "dive-plus"
+  file: "27c1358698dc2f09.dive-plus.webp"
+  import_original_name: "3f4333f6c0d975ff.webp"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786156336.0616283
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Thalassoma bifasciatum
+    - scientific: "Thalassoma bifasciatum"
       confidence: 0.0061
-    - scientific: Abudefduf saxatilis
+    - scientific: "Abudefduf saxatilis"
       confidence: 0.0039
-    - scientific: Chaetodon ocellatus
+    - scientific: "Chaetodon ocellatus"
       confidence: 0.0021
     absorbed_by:
-      scientific: Orbicella annularis
+      scientific: "Orbicella annularis"
       confidence: 0.7781
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786156336.0616283
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Decapterus macarellus
+    - scientific: "Decapterus macarellus"
       confidence: 0.0025
-    - scientific: Thalassoma bifasciatum
+    - scientific: "Thalassoma bifasciatum"
       confidence: 0.0018
-    - scientific: Ocyurus chrysurus
+    - scientific: "Ocyurus chrysurus"
       confidence: 0.0014
     absorbed_by:
-      scientific: Orbicella annularis
+      scientific: "Orbicella annularis"
       confidence: 0.9619
 species:
-- scientific: Halichoeres radiatus
-  role: primary
-  identified_by: human
-  reviewed_by: matt
-- scientific: Mulloidichthys martinicus
-  role: secondary
-  identified_by: human
-  reviewed_by: matt
+- scientific: "Halichoeres radiatus"
+  role: "primary"
+  identified_by: "human"
+  reviewed_by: "matt"
+- scientific: "Mulloidichthys martinicus"
+  role: "secondary"
+  identified_by: "human"
+  reviewed_by: "matt"
 species_reviewed:
-- primary
-- secondary
+- "primary"
+- "secondary"

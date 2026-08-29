@@ -1,47 +1,47 @@
-date: '2025-08-15 06:01:21'
-location: Bonaire
-location_source: dive_site
-dive_site: Bachelor's Beach
-credit: Delia Kulukundis
-import_album: 2025-08-15 - Bonaire, Bachelor's Beach (dawn)
-import_original_name: IMG_5806.JPG
+date: "2025-08-15 06:01:21"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Bachelor's Beach"
+credit: "Delia Kulukundis"
+import_album: "2025-08-15 - Bonaire, Bachelor's Beach (dawn)"
+import_original_name: "IMG_5806.JPG"
 lat: 12.125370400000001
 lon: -68.2874429
-gps_source: dive_site
+gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
 rotation_applied: 270
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1787175995.427368
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Mithrax spinosissimus
+    - scientific: "Mithrax spinosissimus"
       confidence: 0.996
-    - scientific: Percnon gibbesi
+    - scientific: "Percnon gibbesi"
       confidence: 0.0016
-    - scientific: Petrochirus diogenes
+    - scientific: "Petrochirus diogenes"
       confidence: 0.0006
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1787175995.427368
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Mithrax spinosissimus
+    - scientific: "Mithrax spinosissimus"
       confidence: 1.0
-    - scientific: Stenorhynchus seticornis
+    - scientific: "Stenorhynchus seticornis"
       confidence: 0.0
-    - scientific: Percnon gibbesi
+    - scientific: "Percnon gibbesi"
       confidence: 0.0
 species:
-- scientific: Mithrax spinosissimus
-  role: primary
-  identified_by: human
-  confirmed_from: bioclip-2+bioclip-2.5
-  reviewed_by: matt
+- scientific: "Mithrax spinosissimus"
+  role: "primary"
+  identified_by: "human"
+  confirmed_from: "bioclip-2+bioclip-2.5"
+  reviewed_by: "matt"
 species_reviewed:
-- primary
-- secondary
+- "primary"
+- "secondary"

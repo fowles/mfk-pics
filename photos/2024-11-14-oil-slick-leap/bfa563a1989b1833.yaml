@@ -1,45 +1,45 @@
-date: '2024-11-14 17:22:54'
-location: Bonaire
-location_source: dive_site
-dive_site: Oil Slick Leap
-credit: Matthew Kulukundis
-import_album: 2024-11-14, Bonaire, Oil Slick Leap
-import_original_name: PXL_20241114_212254821.jpg
+date: "2024-11-14 17:22:54"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Oil Slick Leap"
+credit: "Matthew Kulukundis"
+import_album: "2024-11-14, Bonaire, Oil Slick Leap"
+import_original_name: "PXL_20241114_212254821.jpg"
 lat: 12.2001484
 lon: -68.3086211
-gps_source: dive_site
+gps_source: "dive_site"
 variants:
-- method: dive-plus
-  file: bfa563a1989b1833.dive-plus.webp
-  import_original_name: f8a92b1eefbae704.webp
+- method: "dive-plus"
+  file: "bfa563a1989b1833.dive-plus.webp"
+  import_original_name: "f8a92b1eefbae704.webp"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786156901.575016
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Lactophrys bicaudalis
+    - scientific: "Lactophrys bicaudalis"
       confidence: 0.9237
-    - scientific: Epinephelus adscensionis
+    - scientific: "Epinephelus adscensionis"
       confidence: 0.0152
-    - scientific: Myrichthys ocellatus
+    - scientific: "Myrichthys ocellatus"
       confidence: 0.0094
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786156901.575016
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Lactophrys bicaudalis
+    - scientific: "Lactophrys bicaudalis"
       confidence: 0.9973
-    - scientific: Lactophrys triqueter
+    - scientific: "Lactophrys triqueter"
       confidence: 0.0026
-    - scientific: Canthigaster rostrata
+    - scientific: "Canthigaster rostrata"
       confidence: 0.0
 species:
-- scientific: Lactophrys bicaudalis
-  role: primary
+- scientific: "Lactophrys bicaudalis"
+  role: "primary"
   confidence: 0.9605
-  identified_by: bioclip-2+bioclip-2.5
+  identified_by: "bioclip-2+bioclip-2.5"

@@ -1,45 +1,45 @@
-date: '2024-07-10 13:08:59'
-location: Bonaire
-location_source: dive_site
-dive_site: Tori's Reef
-credit: Matthew Kulukundis
-import_album: Tori's Reef, Bonaire, 7-10-2024
-import_original_name: PXL_20240710_170859583.jpg
+date: "2024-07-10 13:08:59"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Tori's Reef"
+credit: "Matthew Kulukundis"
+import_album: "Tori's Reef, Bonaire, 7-10-2024"
+import_original_name: "PXL_20240710_170859583.jpg"
 variants:
-- method: dive-plus
-  file: 66611be28198d481.dive-plus.webp
-  import_original_name: 06615a9d65defe19.webp
+- method: "dive-plus"
+  file: "66611be28198d481.dive-plus.webp"
+  import_original_name: "06615a9d65defe19.webp"
 lat: 12.070475199999999
 lon: -68.2806703
-gps_source: manual
+gps_source: "manual"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786160192.5830646
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Pseudupeneus maculatus
+    - scientific: "Pseudupeneus maculatus"
       confidence: 0.2177
-    - scientific: Epinephelus striatus
+    - scientific: "Epinephelus striatus"
       confidence: 0.1585
-    - scientific: Chilomycterus antillarum
+    - scientific: "Chilomycterus antillarum"
       confidence: 0.0995
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786160192.5830646
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Epinephelus striatus
+    - scientific: "Epinephelus striatus"
       confidence: 0.9222
-    - scientific: Diodon hystrix
+    - scientific: "Diodon hystrix"
       confidence: 0.0627
-    - scientific: Calamus calamus
+    - scientific: "Calamus calamus"
       confidence: 0.0031
 species:
-- scientific: Epinephelus striatus
-  role: primary
+- scientific: "Epinephelus striatus"
+  role: "primary"
   confidence: 0.5403
-  identified_by: bioclip-2+bioclip-2.5
+  identified_by: "bioclip-2+bioclip-2.5"

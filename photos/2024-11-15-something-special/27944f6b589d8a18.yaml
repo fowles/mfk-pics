@@ -1,42 +1,42 @@
-date: '2024-11-15 10:37:51'
-location: Bonaire
-location_source: dive_site
-dive_site: Something Special
-credit: Matthew Kulukundis
-import_album: 2024-11-15, Bonaire, Something Special
-import_original_name: PXL_20241115_143751553.MP.jpg
+date: "2024-11-15 10:37:51"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Something Special"
+credit: "Matthew Kulukundis"
+import_album: "2024-11-15, Bonaire, Something Special"
+import_original_name: "PXL_20241115_143751553.MP.jpg"
 variants:
-- method: dive-plus
-  file: 27944f6b589d8a18.dive-plus.webp
-  import_original_name: 4daa15ce9376ede5.webp
+- method: "dive-plus"
+  file: "27944f6b589d8a18.dive-plus.webp"
+  import_original_name: "4daa15ce9376ede5.webp"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786157212.5728452
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Gymnothorax funebris
+    - scientific: "Gymnothorax funebris"
       confidence: 0.1861
-    - scientific: Myrichthys breviceps
+    - scientific: "Myrichthys breviceps"
       confidence: 0.1566
-    - scientific: Enchelycore carychroa
+    - scientific: "Enchelycore carychroa"
       confidence: 0.1533
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786157212.5728452
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Cephalopholis cruentata
+    - scientific: "Cephalopholis cruentata"
       confidence: 0.9983
-    - scientific: Rypticus saponaceus
+    - scientific: "Rypticus saponaceus"
       confidence: 0.0009
-    - scientific: Epinephelus guttatus
+    - scientific: "Epinephelus guttatus"
       confidence: 0.0004
 species:
-- scientific: Cephalopholis cruentata
-  role: primary
+- scientific: "Cephalopholis cruentata"
+  role: "primary"
   confidence: 0.4991
-  identified_by: bioclip-2.5
+  identified_by: "bioclip-2.5"

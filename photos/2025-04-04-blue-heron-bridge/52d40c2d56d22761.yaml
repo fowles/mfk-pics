@@ -1,45 +1,45 @@
-date: '2025-04-04 14:17:28'
-location: West Palm Beach, FL, USA
-location_source: dive_site
-dive_site: Blue Heron Bridge
-credit: Matthew Kulukundis
-import_album: 2025-04-04, Blue Heron Bridge, West Palm Beach, FL
-import_original_name: PXL_20250404_181728301.jpg
+date: "2025-04-04 14:17:28"
+location: "West Palm Beach, FL, USA"
+location_source: "dive_site"
+dive_site: "Blue Heron Bridge"
+credit: "Matthew Kulukundis"
+import_album: "2025-04-04, Blue Heron Bridge, West Palm Beach, FL"
+import_original_name: "PXL_20250404_181728301.jpg"
 lat: 26.7838864
 lon: -80.044118
-gps_source: dive_site
+gps_source: "dive_site"
 variants:
-- method: dive-plus
-  file: 52d40c2d56d22761.dive-plus.webp
-  import_original_name: 34f8da41e64cdba5.webp
+- method: "dive-plus"
+  file: "52d40c2d56d22761.dive-plus.webp"
+  import_original_name: "34f8da41e64cdba5.webp"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786157492.15104
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Calamus calamus
+    - scientific: "Calamus calamus"
       confidence: 0.5577
-    - scientific: Dactylopterus volitans
+    - scientific: "Dactylopterus volitans"
       confidence: 0.0834
-    - scientific: Diodon holocanthus
+    - scientific: "Diodon holocanthus"
       confidence: 0.0538
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786157492.15104
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Aluterus monoceros
+    - scientific: "Aluterus monoceros"
       confidence: 0.4331
-    - scientific: Diodon holocanthus
+    - scientific: "Diodon holocanthus"
       confidence: 0.222
-    - scientific: Calamus calamus
+    - scientific: "Calamus calamus"
       confidence: 0.2107
 species:
-- scientific: Calamus calamus
-  role: primary
+- scientific: "Calamus calamus"
+  role: "primary"
   confidence: 0.3842
-  identified_by: bioclip-2+bioclip-2.5
+  identified_by: "bioclip-2+bioclip-2.5"

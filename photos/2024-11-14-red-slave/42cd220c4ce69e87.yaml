@@ -1,42 +1,42 @@
-date: '2024-11-14 14:05:58'
-location: Bonaire
-location_source: dive_site
-dive_site: Red Slave
-credit: Matthew Kulukundis
-import_album: 2024-11-14, Bonaire, Red Slave
-import_original_name: PXL_20241114_180558333.MP.jpg
+date: "2024-11-14 14:05:58"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Red Slave"
+credit: "Matthew Kulukundis"
+import_album: "2024-11-14, Bonaire, Red Slave"
+import_original_name: "PXL_20241114_180558333.MP.jpg"
 variants:
-- method: dive-plus
-  file: 42cd220c4ce69e87.dive-plus.webp
-  import_original_name: c8e4ca05e165898c.webp
+- method: "dive-plus"
+  file: "42cd220c4ce69e87.dive-plus.webp"
+  import_original_name: "c8e4ca05e165898c.webp"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786156978.320991
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Melichthys niger
+    - scientific: "Melichthys niger"
       confidence: 0.2337
-    - scientific: Clepticus parrae
+    - scientific: "Clepticus parrae"
       confidence: 0.1304
-    - scientific: Haemulon macrostomum
+    - scientific: "Haemulon macrostomum"
       confidence: 0.0362
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786156978.320991
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Lutjanus jocu
+    - scientific: "Lutjanus jocu"
       confidence: 0.289
-    - scientific: Haemulon macrostomum
+    - scientific: "Haemulon macrostomum"
       confidence: 0.2465
-    - scientific: Lutjanus apodus
+    - scientific: "Lutjanus apodus"
       confidence: 0.095
 species:
-- scientific: Lutjanus jocu
-  role: primary
+- scientific: "Lutjanus jocu"
+  role: "primary"
   confidence: 0.1445
-  identified_by: bioclip-2.5
+  identified_by: "bioclip-2.5"

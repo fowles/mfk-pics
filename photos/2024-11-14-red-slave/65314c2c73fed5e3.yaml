@@ -1,45 +1,45 @@
-date: '2024-11-14 14:52:32'
-location: Bonaire
-location_source: dive_site
-dive_site: Red Slave
-credit: Matthew Kulukundis
-import_album: 2024-11-14, Bonaire, Red Slave
-import_original_name: PXL_20241114_185232009.MP.jpg
+date: "2024-11-14 14:52:32"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Red Slave"
+credit: "Matthew Kulukundis"
+import_album: "2024-11-14, Bonaire, Red Slave"
+import_original_name: "PXL_20241114_185232009.MP.jpg"
 lat: 12.026556999999999
 lon: -68.2513754
-gps_source: dive_site
+gps_source: "dive_site"
 variants:
-- method: dive-plus
-  file: 65314c2c73fed5e3.dive-plus.webp
-  import_original_name: 55f1b7fb6d84947e.webp
+- method: "dive-plus"
+  file: "65314c2c73fed5e3.dive-plus.webp"
+  import_original_name: "55f1b7fb6d84947e.webp"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786156982.0360317
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Mycteroperca tigris
+    - scientific: "Mycteroperca tigris"
       confidence: 0.9345
-    - scientific: Mycteroperca bonaci
+    - scientific: "Mycteroperca bonaci"
       confidence: 0.0213
-    - scientific: Epinephelus striatus
+    - scientific: "Epinephelus striatus"
       confidence: 0.0166
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786156982.0360317
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Mycteroperca tigris
+    - scientific: "Mycteroperca tigris"
       confidence: 1.0
-    - scientific: Mycteroperca bonaci
+    - scientific: "Mycteroperca bonaci"
       confidence: 0.0
-    - scientific: Epinephelus striatus
+    - scientific: "Epinephelus striatus"
       confidence: 0.0
 species:
-- scientific: Mycteroperca tigris
-  role: primary
+- scientific: "Mycteroperca tigris"
+  role: "primary"
   confidence: 0.9672
-  identified_by: bioclip-2+bioclip-2.5
+  identified_by: "bioclip-2+bioclip-2.5"

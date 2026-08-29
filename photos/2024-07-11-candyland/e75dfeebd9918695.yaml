@@ -1,42 +1,42 @@
-date: '2024-07-11 15:49:22'
-location: Bonaire
-location_source: dive_site
-dive_site: Candyland
-credit: Delia Kulukundis
-import_album: Candyland, Bonaire, 7-11-2024
-import_original_name: IMG_4529.JPG
+date: "2024-07-11 15:49:22"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Candyland"
+credit: "Delia Kulukundis"
+import_album: "Candyland, Bonaire, 7-11-2024"
+import_original_name: "IMG_4529.JPG"
 lat: 12.222591
 lon: -68.40111449999999
-gps_source: dive_site
+gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786159273.0966647
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Chromis multilineata
+    - scientific: "Chromis multilineata"
       confidence: 0.7573
-    - scientific: Pempheris schomburgkii
+    - scientific: "Pempheris schomburgkii"
       confidence: 0.1063
-    - scientific: Chromis cyanea
+    - scientific: "Chromis cyanea"
       confidence: 0.0846
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786159273.0966647
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Chromis multilineata
+    - scientific: "Chromis multilineata"
       confidence: 0.9967
-    - scientific: Chromis cyanea
+    - scientific: "Chromis cyanea"
       confidence: 0.0032
-    - scientific: Abudefduf saxatilis
+    - scientific: "Abudefduf saxatilis"
       confidence: 0.0001
 species:
-- scientific: Chromis multilineata
-  role: primary
+- scientific: "Chromis multilineata"
+  role: "primary"
   confidence: 0.877
-  identified_by: bioclip-2+bioclip-2.5
+  identified_by: "bioclip-2+bioclip-2.5"

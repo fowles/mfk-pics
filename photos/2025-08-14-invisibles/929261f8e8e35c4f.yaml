@@ -1,46 +1,46 @@
-date: '2025-08-14 12:56:52'
-location: Bonaire
-location_source: dive_site
-dive_site: Invisibles
-credit: Delia Kulukundis
-import_album: 2025-08-14 - Bonaire, Invisibles
-import_original_name: IMG_5649.JPG
+date: "2025-08-14 12:56:52"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Invisibles"
+credit: "Delia Kulukundis"
+import_album: "2025-08-14 - Bonaire, Invisibles"
+import_original_name: "IMG_5649.JPG"
 lat: 12.0776183
 lon: -68.28015169999999
-gps_source: dive_site
+gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786158226.403543
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Canthidermis sufflamen
+    - scientific: "Canthidermis sufflamen"
       confidence: 0.9953
-    - scientific: Aluterus monoceros
+    - scientific: "Aluterus monoceros"
       confidence: 0.004
-    - scientific: Haemulon album
+    - scientific: "Haemulon album"
       confidence: 0.0003
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786158226.403543
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Canthidermis sufflamen
+    - scientific: "Canthidermis sufflamen"
       confidence: 1.0
-    - scientific: Melichthys niger
+    - scientific: "Melichthys niger"
       confidence: 0.0
-    - scientific: Balistes vetula
+    - scientific: "Balistes vetula"
       confidence: 0.0
 species:
-- scientific: Canthidermis sufflamen
-  role: primary
-  identified_by: human
-  confirmed_from: bioclip+bioclip-2+bioclip-2.5
-  reviewed_by: matt
+- scientific: "Canthidermis sufflamen"
+  role: "primary"
+  identified_by: "human"
+  confirmed_from: "bioclip+bioclip-2+bioclip-2.5"
+  reviewed_by: "matt"
 species_reviewed:
-- primary
-- secondary
+- "primary"
+- "secondary"

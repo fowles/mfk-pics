@@ -1,47 +1,47 @@
-date: '2024-07-10 13:37:50'
-location: Bonaire
-location_source: dive_site
-dive_site: Tori's Reef
-credit: Matthew Kulukundis
-import_album: Tori's Reef, Bonaire, 7-10-2024
-import_original_name: PXL_20240710_173750939.jpg
+date: "2024-07-10 13:37:50"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Tori's Reef"
+credit: "Matthew Kulukundis"
+import_album: "Tori's Reef, Bonaire, 7-10-2024"
+import_original_name: "PXL_20240710_173750939.jpg"
 lat: 12.070475199999999
 lon: -68.2806703
-gps_source: dive_site
+gps_source: "dive_site"
 variants:
-- method: dive-plus
-  file: e13ecd853f38db6e.dive-plus.webp
-  import_original_name: 49d4e99174520acf.webp
+- method: "dive-plus"
+  file: "e13ecd853f38db6e.dive-plus.webp"
+  import_original_name: "49d4e99174520acf.webp"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786160209.658466
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Aulostomus maculatus
+    - scientific: "Aulostomus maculatus"
       confidence: 0.0539
-    - scientific: Bodianus rufus
+    - scientific: "Bodianus rufus"
       confidence: 0.0361
-    - scientific: Holacanthus tricolor
+    - scientific: "Holacanthus tricolor"
       confidence: 0.021
     absorbed_by:
-      scientific: Orbicella annularis
+      scientific: "Orbicella annularis"
       confidence: 0.1955
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786160209.658466
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Davidaster rubiginosus
+    - scientific: "Davidaster rubiginosus"
       confidence: 0.005
-    - scientific: Nemaster grandis
+    - scientific: "Nemaster grandis"
       confidence: 0.0021
-    - scientific: Sparisoma viride
+    - scientific: "Sparisoma viride"
       confidence: 0.0008
     absorbed_by:
-      scientific: Aplysina archeri
+      scientific: "Aplysina archeri"
       confidence: 0.7591
 species: []

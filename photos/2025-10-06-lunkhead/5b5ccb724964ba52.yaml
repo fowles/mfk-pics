@@ -1,42 +1,42 @@
-date: '2025-10-06 16:08:11'
-location: Bahamas
-location_source: dive_site
-dive_site: Lunkhead
-credit: Delia Kulukundis
-import_album: Juliet Bahamas 2025 Underwater (all)
-import_original_name: IMG_6046.JPG
+date: "2025-10-06 16:08:11"
+location: "Bahamas"
+location_source: "dive_site"
+dive_site: "Lunkhead"
+credit: "Delia Kulukundis"
+import_album: "Juliet Bahamas 2025 Underwater (all)"
+import_original_name: "IMG_6046.JPG"
 lat: 25.4636
 lon: -79.2431
-gps_source: dive_site
+gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786159780.1714432
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Chromis multilineata
+    - scientific: "Chromis multilineata"
       confidence: 0.4982
-    - scientific: Jenkinsia lamprotaenia
+    - scientific: "Jenkinsia lamprotaenia"
       confidence: 0.1905
-    - scientific: Selar crumenophthalmus
+    - scientific: "Selar crumenophthalmus"
       confidence: 0.0705
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786159780.1714432
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Chromis cyanea
+    - scientific: "Chromis cyanea"
       confidence: 0.4979
-    - scientific: Decapterus macarellus
+    - scientific: "Decapterus macarellus"
       confidence: 0.217
-    - scientific: Jenkinsia lamprotaenia
+    - scientific: "Jenkinsia lamprotaenia"
       confidence: 0.0944
 species:
-- scientific: Chromis multilineata
-  role: primary
+- scientific: "Chromis multilineata"
+  role: "primary"
   confidence: 0.2491
-  identified_by: bioclip-2
+  identified_by: "bioclip-2"

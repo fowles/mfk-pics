@@ -1,43 +1,43 @@
-date: '2024-07-10 13:05:54'
-location: Bonaire
-location_source: dive_site
-dive_site: Tori's Reef
-credit: Delia Kulukundis
-import_album: Tori's Reef, Bonaire, 7-10-2024
-import_original_name: IMG_4308.JPG
+date: "2024-07-10 13:05:54"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Tori's Reef"
+credit: "Delia Kulukundis"
+import_album: "Tori's Reef, Bonaire, 7-10-2024"
+import_original_name: "IMG_4308.JPG"
 lat: 12.070475199999999
 lon: -68.2806703
-gps_source: dive_site
+gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
 rotation_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786160154.7065065
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Chilomycterus antillarum
+    - scientific: "Chilomycterus antillarum"
       confidence: 0.853
-    - scientific: Acanthostracion polygonius
+    - scientific: "Acanthostracion polygonius"
       confidence: 0.036
-    - scientific: Diodon holocanthus
+    - scientific: "Diodon holocanthus"
       confidence: 0.036
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786160154.7065065
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Diodon hystrix
+    - scientific: "Diodon hystrix"
       confidence: 1.0
-    - scientific: Diodon holocanthus
+    - scientific: "Diodon holocanthus"
       confidence: 0.0
-    - scientific: Lactophrys bicaudalis
+    - scientific: "Lactophrys bicaudalis"
       confidence: 0.0
 species:
-- scientific: Diodon hystrix
-  role: primary
+- scientific: "Diodon hystrix"
+  role: "primary"
   confidence: 0.5
-  identified_by: bioclip-2.5
+  identified_by: "bioclip-2.5"

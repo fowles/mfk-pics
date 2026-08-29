@@ -1,45 +1,45 @@
-date: '2024-11-15 10:45:42'
-location: Bonaire
-location_source: dive_site
-dive_site: Something Special
-credit: Matthew Kulukundis
-import_album: 2024-11-15, Bonaire, Something Special
-import_original_name: PXL_20241115_144542799.jpg
+date: "2024-11-15 10:45:42"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Something Special"
+credit: "Matthew Kulukundis"
+import_album: "2024-11-15, Bonaire, Something Special"
+import_original_name: "PXL_20241115_144542799.jpg"
 variants:
-- method: dive-plus
-  file: e6a844648ca1b39e.dive-plus.webp
-  import_original_name: 139b8a1ddf781bcf.webp
+- method: "dive-plus"
+  file: "e6a844648ca1b39e.dive-plus.webp"
+  import_original_name: "139b8a1ddf781bcf.webp"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786157212.9578798
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Eretmochelys imbricata
+    - scientific: "Eretmochelys imbricata"
       confidence: 0.5506
-    - scientific: Chelonia mydas
+    - scientific: "Chelonia mydas"
       confidence: 0.3321
-    - scientific: Caretta caretta
+    - scientific: "Caretta caretta"
       confidence: 0.0632
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786157212.9578798
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Bothus lunatus
+    - scientific: "Bothus lunatus"
       confidence: 0.5513
-    - scientific: Hypanus americanus
+    - scientific: "Hypanus americanus"
       confidence: 0.2569
-    - scientific: Urobatis jamaicensis
+    - scientific: "Urobatis jamaicensis"
       confidence: 0.1077
 species:
-- scientific: Acanthostracion polygonius
-  role: primary
-  identified_by: human
-  reviewed_by: matt
+- scientific: "Acanthostracion polygonius"
+  role: "primary"
+  identified_by: "human"
+  reviewed_by: "matt"
 species_reviewed:
-- primary
-- secondary
+- "primary"
+- "secondary"

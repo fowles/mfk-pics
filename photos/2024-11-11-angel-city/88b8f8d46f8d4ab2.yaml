@@ -1,45 +1,45 @@
-date: '2024-11-11 16:02:15'
-location: Bonaire
-location_source: dive_site
-dive_site: Angel City
-credit: Matthew Kulukundis
-import_album: 2024-11-11, Bonaire, Angel City
-import_original_name: PXL_20241111_200215997.jpg
+date: "2024-11-11 16:02:15"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Angel City"
+credit: "Matthew Kulukundis"
+import_album: "2024-11-11, Bonaire, Angel City"
+import_original_name: "PXL_20241111_200215997.jpg"
 lat: 12.103454
 lon: -68.2872912
-gps_source: dive_site
+gps_source: "dive_site"
 variants:
-- method: dive-plus
-  file: 88b8f8d46f8d4ab2.dive-plus.webp
-  import_original_name: b1b32c624170ae72.webp
+- method: "dive-plus"
+  file: "88b8f8d46f8d4ab2.dive-plus.webp"
+  import_original_name: "b1b32c624170ae72.webp"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786156745.9905665
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Thalassoma bifasciatum
+    - scientific: "Thalassoma bifasciatum"
       confidence: 0.1397
-    - scientific: Holacanthus tricolor
+    - scientific: "Holacanthus tricolor"
       confidence: 0.1069
-    - scientific: Pomacanthus arcuatus
+    - scientific: "Pomacanthus arcuatus"
       confidence: 0.0696
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786156745.9905665
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Equetus punctatus
+    - scientific: "Equetus punctatus"
       confidence: 0.3138
-    - scientific: Scarus coelestinus
+    - scientific: "Scarus coelestinus"
       confidence: 0.178
-    - scientific: Diodon hystrix
+    - scientific: "Diodon hystrix"
       confidence: 0.1124
 species:
-- scientific: Equetus punctatus
-  role: primary
+- scientific: "Equetus punctatus"
+  role: "primary"
   confidence: 0.1569
-  identified_by: bioclip-2.5
+  identified_by: "bioclip-2.5"

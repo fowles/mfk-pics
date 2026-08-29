@@ -1,43 +1,43 @@
-date: '2024-11-08 10:20:35'
-location: Bonaire
-location_source: dive_site
-dive_site: Weber's Joy
-credit: Delia Kulukundis
-import_album: 2024-11-08, Bonaire, Weber's Joy
-import_original_name: IMG_4740.JPG
+date: "2024-11-08 10:20:35"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Weber's Joy"
+credit: "Delia Kulukundis"
+import_album: "2024-11-08, Bonaire, Weber's Joy"
+import_original_name: "IMG_4740.JPG"
 lat: 12.2065506
 lon: -68.3164123
-gps_source: dive_site
+gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786156520.2423124
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Heteropriacanthus cruentatus
+    - scientific: "Heteropriacanthus cruentatus"
       confidence: 0.9553
-    - scientific: Priacanthus arenatus
+    - scientific: "Priacanthus arenatus"
       confidence: 0.0437
-    - scientific: Myripristis jacobus
+    - scientific: "Myripristis jacobus"
       confidence: 0.0005
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786156520.2423124
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Heteropriacanthus cruentatus
+    - scientific: "Heteropriacanthus cruentatus"
       confidence: 1.0
-    - scientific: Priacanthus arenatus
+    - scientific: "Priacanthus arenatus"
       confidence: 0.0
-    - scientific: Mycteroperca venenosa
+    - scientific: "Mycteroperca venenosa"
       confidence: 0.0
 species:
-- scientific: Heteropriacanthus cruentatus
-  role: primary
-  identified_by: human
-  confirmed_from: bioclip-2+bioclip-2.5
-  reviewed_by: matt
+- scientific: "Heteropriacanthus cruentatus"
+  role: "primary"
+  identified_by: "human"
+  confirmed_from: "bioclip-2+bioclip-2.5"
+  reviewed_by: "matt"

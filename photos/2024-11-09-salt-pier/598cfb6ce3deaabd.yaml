@@ -1,42 +1,42 @@
-date: '2024-11-09 13:41:46'
-location: Bonaire
-location_source: dive_site
-dive_site: Salt Pier
-credit: Matthew Kulukundis
-import_album: 2024-11-09, Bonaire, Salt Pier
-import_original_name: PXL_20241109_174146336.jpg
+date: "2024-11-09 13:41:46"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Salt Pier"
+credit: "Matthew Kulukundis"
+import_album: "2024-11-09, Bonaire, Salt Pier"
+import_original_name: "PXL_20241109_174146336.jpg"
 variants:
-- method: dive-plus
-  file: 598cfb6ce3deaabd.dive-plus.webp
-  import_original_name: 4086f37ecb0131dd.webp
+- method: "dive-plus"
+  file: "598cfb6ce3deaabd.dive-plus.webp"
+  import_original_name: "4086f37ecb0131dd.webp"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786156576.1033769
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Hypanus americanus
+    - scientific: "Hypanus americanus"
       confidence: 0.3019
-    - scientific: Heteroconger longissimus
+    - scientific: "Heteroconger longissimus"
       confidence: 0.098
-    - scientific: Carcharhinus perezi
+    - scientific: "Carcharhinus perezi"
       confidence: 0.065
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786156576.1033769
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Malacanthus plumieri
+    - scientific: "Malacanthus plumieri"
       confidence: 0.5343
-    - scientific: Halichoeres garnoti
+    - scientific: "Halichoeres garnoti"
       confidence: 0.1795
-    - scientific: Heteroconger longissimus
+    - scientific: "Heteroconger longissimus"
       confidence: 0.1237
 species:
-- scientific: Malacanthus plumieri
-  role: primary
+- scientific: "Malacanthus plumieri"
+  role: "primary"
   confidence: 0.2671
-  identified_by: bioclip-2.5
+  identified_by: "bioclip-2.5"

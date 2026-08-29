@@ -1,47 +1,47 @@
-date: '2024-11-11 16:03:46'
-location: Bonaire
-location_source: dive_site
-dive_site: Angel City
-credit: Matthew Kulukundis
-import_album: 2024-11-11, Bonaire, Angel City
-import_original_name: PXL_20241111_200346038.MP.jpg
+date: "2024-11-11 16:03:46"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Angel City"
+credit: "Matthew Kulukundis"
+import_album: "2024-11-11, Bonaire, Angel City"
+import_original_name: "PXL_20241111_200346038.MP.jpg"
 lat: 12.103454
 lon: -68.2872912
-gps_source: dive_site
+gps_source: "dive_site"
 variants:
-- method: dive-plus
-  file: 7096ed1307f1f691.dive-plus.webp
-  import_original_name: dd26cbd6f00d80f4.webp
+- method: "dive-plus"
+  file: "7096ed1307f1f691.dive-plus.webp"
+  import_original_name: "dd26cbd6f00d80f4.webp"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786156746.7238808
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Pomacanthus arcuatus
+    - scientific: "Pomacanthus arcuatus"
       confidence: 0.0782
-    - scientific: Abudefduf saxatilis
+    - scientific: "Abudefduf saxatilis"
       confidence: 0.0248
-    - scientific: Holacanthus tricolor
+    - scientific: "Holacanthus tricolor"
       confidence: 0.0169
     absorbed_by:
-      scientific: Orbicella faveolata
+      scientific: "Orbicella faveolata"
       confidence: 0.2935
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786156746.7238808
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Mycteroperca bonaci
+    - scientific: "Mycteroperca bonaci"
       confidence: 0.2484
-    - scientific: Mycteroperca venenosa
+    - scientific: "Mycteroperca venenosa"
       confidence: 0.0205
-    - scientific: Sparisoma viride
+    - scientific: "Sparisoma viride"
       confidence: 0.0199
     absorbed_by:
-      scientific: Orbicella faveolata
+      scientific: "Orbicella faveolata"
       confidence: 0.4488
 species: []

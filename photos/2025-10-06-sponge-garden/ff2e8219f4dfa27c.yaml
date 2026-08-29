@@ -1,42 +1,42 @@
-date: '2025-10-06 08:27:39'
-location: Bahamas
-location_source: dive_site
-dive_site: Sponge Garden
-credit: Delia Kulukundis
-import_album: Juliet Bahamas 2025 Underwater (all)
-import_original_name: IMG_6019.JPG
+date: "2025-10-06 08:27:39"
+location: "Bahamas"
+location_source: "dive_site"
+dive_site: "Sponge Garden"
+credit: "Delia Kulukundis"
+import_album: "Juliet Bahamas 2025 Underwater (all)"
+import_original_name: "IMG_6019.JPG"
 lat: 25.5251
 lon: -79.303
-gps_source: dive_site
+gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786159776.0522335
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Sphyraena barracuda
+    - scientific: "Sphyraena barracuda"
       confidence: 0.9267
-    - scientific: Aulostomus maculatus
+    - scientific: "Aulostomus maculatus"
       confidence: 0.0166
-    - scientific: Echeneis naucrates
+    - scientific: "Echeneis naucrates"
       confidence: 0.0114
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786159776.0522335
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Sphyraena barracuda
+    - scientific: "Sphyraena barracuda"
       confidence: 0.9822
-    - scientific: Aulostomus maculatus
+    - scientific: "Aulostomus maculatus"
       confidence: 0.0122
-    - scientific: Tylosurus crocodilus
+    - scientific: "Tylosurus crocodilus"
       confidence: 0.0023
 species:
-- scientific: Sphyraena barracuda
-  role: primary
+- scientific: "Sphyraena barracuda"
+  role: "primary"
   confidence: 0.9545
-  identified_by: bioclip-2+bioclip-2.5
+  identified_by: "bioclip-2+bioclip-2.5"

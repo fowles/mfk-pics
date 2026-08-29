@@ -1,46 +1,46 @@
-date: '2025-08-15 06:13:33'
-location: Bonaire
-location_source: dive_site
-dive_site: Bachelor's Beach
-credit: Delia Kulukundis
-import_album: 2025-08-15 - Bonaire, Bachelor's Beach (dawn)
-import_original_name: IMG_5826.JPG
+date: "2025-08-15 06:13:33"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Bachelor's Beach"
+credit: "Delia Kulukundis"
+import_album: "2025-08-15 - Bonaire, Bachelor's Beach (dawn)"
+import_original_name: "IMG_5826.JPG"
 lat: 12.125370400000001
 lon: -68.2874429
-gps_source: dive_site
+gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786158393.0289445
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Holocentrus rufus
+    - scientific: "Holocentrus rufus"
       confidence: 0.715
-    - scientific: Holocentrus adscensionis
+    - scientific: "Holocentrus adscensionis"
       confidence: 0.1714
-    - scientific: Myripristis jacobus
+    - scientific: "Myripristis jacobus"
       confidence: 0.0494
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786158393.0289445
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Holocentrus rufus
+    - scientific: "Holocentrus rufus"
       confidence: 0.8209
-    - scientific: Holocentrus adscensionis
+    - scientific: "Holocentrus adscensionis"
       confidence: 0.1674
-    - scientific: Sargocentron coruscum
+    - scientific: "Sargocentron coruscum"
       confidence: 0.0059
 species:
-- scientific: Holocentrus rufus
-  role: primary
-  identified_by: human
-  confirmed_from: bioclip-2+bioclip-2.5
-  reviewed_by: matt
+- scientific: "Holocentrus rufus"
+  role: "primary"
+  identified_by: "human"
+  confirmed_from: "bioclip-2+bioclip-2.5"
+  reviewed_by: "matt"
 species_reviewed:
-- primary
-- secondary
+- "primary"
+- "secondary"

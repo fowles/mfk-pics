@@ -1,42 +1,42 @@
-date: '2024-11-14 14:04:01'
-location: Bonaire
-location_source: dive_site
-dive_site: Red Slave
-credit: Matthew Kulukundis
-import_album: 2024-11-14, Bonaire, Red Slave
-import_original_name: PXL_20241114_180401669.jpg
+date: "2024-11-14 14:04:01"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Red Slave"
+credit: "Matthew Kulukundis"
+import_album: "2024-11-14, Bonaire, Red Slave"
+import_original_name: "PXL_20241114_180401669.jpg"
 variants:
-- method: dive-plus
-  file: d31e4bff32aa8032.dive-plus.webp
-  import_original_name: 8cd07db02b3d9ff3.webp
+- method: "dive-plus"
+  file: "d31e4bff32aa8032.dive-plus.webp"
+  import_original_name: "8cd07db02b3d9ff3.webp"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786156978.359685
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Caranx ruber
+    - scientific: "Caranx ruber"
       confidence: 0.1328
-    - scientific: Ocyurus chrysurus
+    - scientific: "Ocyurus chrysurus"
       confidence: 0.1055
-    - scientific: Haemulon album
+    - scientific: "Haemulon album"
       confidence: 0.096
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786156978.359685
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Myrichthys breviceps
+    - scientific: "Myrichthys breviceps"
       confidence: 0.7292
-    - scientific: Gymnothorax moringa
+    - scientific: "Gymnothorax moringa"
       confidence: 0.1992
-    - scientific: Epinephelus guttatus
+    - scientific: "Epinephelus guttatus"
       confidence: 0.0183
 species:
-- scientific: Myrichthys breviceps
-  role: primary
+- scientific: "Myrichthys breviceps"
+  role: "primary"
   confidence: 0.3646
-  identified_by: bioclip-2.5
+  identified_by: "bioclip-2.5"

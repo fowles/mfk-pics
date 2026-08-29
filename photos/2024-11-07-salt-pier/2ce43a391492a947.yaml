@@ -1,42 +1,42 @@
-date: '2024-11-07 10:00:29'
-location: Bonaire
-location_source: dive_site
-dive_site: Salt Pier
-credit: Matthew Kulukundis
-import_album: 2024-11-07, Bonaire, Salt Pier
-import_original_name: PXL_20241107_140029951.jpg
+date: "2024-11-07 10:00:29"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Salt Pier"
+credit: "Matthew Kulukundis"
+import_album: "2024-11-07, Bonaire, Salt Pier"
+import_original_name: "PXL_20241107_140029951.jpg"
 variants:
-- method: dive-plus
-  file: 2ce43a391492a947.dive-plus.webp
-  import_original_name: b7aab2a141f2e236.webp
+- method: "dive-plus"
+  file: "2ce43a391492a947.dive-plus.webp"
+  import_original_name: "b7aab2a141f2e236.webp"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786156328.1080697
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Aurelia aurita
+    - scientific: "Aurelia aurita"
       confidence: 0.3096
-    - scientific: Sepioteuthis sepioidea
+    - scientific: "Sepioteuthis sepioidea"
       confidence: 0.1088
-    - scientific: Cassiopea xamachana
+    - scientific: "Cassiopea xamachana"
       confidence: 0.085
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786156328.1080697
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Alectis ciliaris
+    - scientific: "Alectis ciliaris"
       confidence: 0.4782
-    - scientific: Sepioteuthis sepioidea
+    - scientific: "Sepioteuthis sepioidea"
       confidence: 0.1611
-    - scientific: Aurelia aurita
+    - scientific: "Aurelia aurita"
       confidence: 0.1072
 species:
-- scientific: Alectis ciliaris
-  role: primary
+- scientific: "Alectis ciliaris"
+  role: "primary"
   confidence: 0.2391
-  identified_by: bioclip-2.5
+  identified_by: "bioclip-2.5"

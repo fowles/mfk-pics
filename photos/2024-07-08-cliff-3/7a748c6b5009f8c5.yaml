@@ -1,43 +1,43 @@
-date: '2024-07-08 15:18:28'
-location: Bonaire
-location_source: dive_site
-dive_site: Cliff
-credit: Delia Kulukundis
-import_album: Cliff, Bonaire 7-8-24
-import_original_name: IMG_4249.JPG
+date: "2024-07-08 15:18:28"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Cliff"
+credit: "Delia Kulukundis"
+import_album: "Cliff, Bonaire 7-8-24"
+import_original_name: "IMG_4249.JPG"
 lat: 12.1743341
 lon: -68.2903018
-gps_source: dive_site
+gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
 rotation_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786159381.3759573
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Aulostomus maculatus
+    - scientific: "Aulostomus maculatus"
       confidence: 0.9983
-    - scientific: Fistularia tabacaria
+    - scientific: "Fistularia tabacaria"
       confidence: 0.0001
-    - scientific: Halichoeres bivittatus
+    - scientific: "Halichoeres bivittatus"
       confidence: 0.0
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786159381.3759573
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Aulostomus maculatus
+    - scientific: "Aulostomus maculatus"
       confidence: 0.9995
-    - scientific: Fistularia tabacaria
+    - scientific: "Fistularia tabacaria"
       confidence: 0.0005
-    - scientific: Panulirus argus
+    - scientific: "Panulirus argus"
       confidence: 0.0
 species:
-- scientific: Aulostomus maculatus
-  role: primary
+- scientific: "Aulostomus maculatus"
+  role: "primary"
   confidence: 0.9989
-  identified_by: bioclip-2+bioclip-2.5
+  identified_by: "bioclip-2+bioclip-2.5"

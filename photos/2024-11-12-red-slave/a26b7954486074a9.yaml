@@ -1,43 +1,43 @@
-date: '2024-11-12 11:54:57'
-location: Bonaire
-location_source: dive_site
-dive_site: Red Slave
-credit: Delia Kulukundis
-import_album: 2024-11-12, Bonaire, Red Slave
-import_original_name: IMG_5010.JPG
+date: "2024-11-12 11:54:57"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Red Slave"
+credit: "Delia Kulukundis"
+import_album: "2024-11-12, Bonaire, Red Slave"
+import_original_name: "IMG_5010.JPG"
 lat: 12.026556999999999
 lon: -68.2513754
-gps_source: dive_site
+gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
 rotation_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786156808.6662133
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Abudefduf saxatilis
+    - scientific: "Abudefduf saxatilis"
       confidence: 0.9602
-    - scientific: Chaetodon striatus
+    - scientific: "Chaetodon striatus"
       confidence: 0.0171
-    - scientific: Chaetodipterus faber
+    - scientific: "Chaetodipterus faber"
       confidence: 0.0079
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786156808.6662133
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Abudefduf saxatilis
+    - scientific: "Abudefduf saxatilis"
       confidence: 1.0
-    - scientific: Chromis cyanea
+    - scientific: "Chromis cyanea"
       confidence: 0.0
-    - scientific: Chaetodon striatus
+    - scientific: "Chaetodon striatus"
       confidence: 0.0
 species:
-- scientific: Abudefduf saxatilis
-  role: primary
+- scientific: "Abudefduf saxatilis"
+  role: "primary"
   confidence: 0.9801
-  identified_by: bioclip-2+bioclip-2.5
+  identified_by: "bioclip-2+bioclip-2.5"

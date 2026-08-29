@@ -1,46 +1,46 @@
-date: '2024-07-07 17:31:25'
-location: Bonaire
-location_source: dive_site
-dive_site: Salt Pier
-credit: Matthew Kulukundis
-import_album: Salt Pier, Bonaire, 7-7-2024
-import_original_name: PXL_20240707_213125975.jpg
+date: "2024-07-07 17:31:25"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Salt Pier"
+credit: "Matthew Kulukundis"
+import_album: "Salt Pier, Bonaire, 7-7-2024"
+import_original_name: "PXL_20240707_213125975.jpg"
 lat: 12.082963699999999
 lon: -68.28180019999999
-gps_source: dive_site
+gps_source: "dive_site"
 variants:
-- method: dive-plus
-  file: 3997356fbc4904c8.dive-plus.webp
-  import_original_name: 78f06e29bd8180e5.webp
+- method: "dive-plus"
+  file: "3997356fbc4904c8.dive-plus.webp"
+  import_original_name: "78f06e29bd8180e5.webp"
 date_reviewed: true
 rotation_applied: 90
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1787028732.2970006
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Acanthostracion polygonius
+    - scientific: "Acanthostracion polygonius"
       confidence: 0.0814
-    - scientific: Chilomycterus antillarum
+    - scientific: "Chilomycterus antillarum"
       confidence: 0.0672
-    - scientific: Synodus intermedius
+    - scientific: "Synodus intermedius"
       confidence: 0.0569
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1787028732.2970006
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Haemulon carbonarium
+    - scientific: "Haemulon carbonarium"
       confidence: 0.7044
-    - scientific: Chromis multilineata
+    - scientific: "Chromis multilineata"
       confidence: 0.0916
-    - scientific: Lutjanus mahogoni
+    - scientific: "Lutjanus mahogoni"
       confidence: 0.0467
 species:
-- scientific: Haemulon carbonarium
-  role: primary
+- scientific: "Haemulon carbonarium"
+  role: "primary"
   confidence: 0.3522
-  identified_by: bioclip-2.5
+  identified_by: "bioclip-2.5"

@@ -1,45 +1,45 @@
-date: '2025-08-13 14:03:36'
-location: Bonaire
-location_source: dive_site
-dive_site: Pink Beach
-credit: Matthew Kulukundis
-import_album: 2025-08-13 - Bonaire, Pink Beach
-import_original_name: PXL_20250813_180336132.jpg
+date: "2025-08-13 14:03:36"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Pink Beach"
+credit: "Matthew Kulukundis"
+import_album: "2025-08-13 - Bonaire, Pink Beach"
+import_original_name: "PXL_20250813_180336132.jpg"
 lat: 12.0662114
 lon: -68.2814167
-gps_source: dive_site
+gps_source: "dive_site"
 variants:
-- method: dive-plus
-  file: 2dc500e7518fa4a2.dive-plus.webp
-  import_original_name: 613362061e0bba14.webp
+- method: "dive-plus"
+  file: "2dc500e7518fa4a2.dive-plus.webp"
+  import_original_name: "613362061e0bba14.webp"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786158188.1515806
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Mycteroperca tigris
+    - scientific: "Mycteroperca tigris"
       confidence: 0.2821
-    - scientific: Cephalopholis cruentata
+    - scientific: "Cephalopholis cruentata"
       confidence: 0.1701
-    - scientific: Epinephelus guttatus
+    - scientific: "Epinephelus guttatus"
       confidence: 0.1554
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786158188.1515806
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Acanthostracion polygonius
+    - scientific: "Acanthostracion polygonius"
       confidence: 0.9333
-    - scientific: Mycteroperca venenosa
+    - scientific: "Mycteroperca venenosa"
       confidence: 0.0307
-    - scientific: Mycteroperca bonaci
+    - scientific: "Mycteroperca bonaci"
       confidence: 0.0105
 species:
-- scientific: Acanthostracion polygonius
-  role: primary
+- scientific: "Acanthostracion polygonius"
+  role: "primary"
   confidence: 0.4667
-  identified_by: bioclip-2.5
+  identified_by: "bioclip-2.5"

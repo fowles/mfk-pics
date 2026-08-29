@@ -1,45 +1,45 @@
-date: '2024-07-10 13:08:53'
-location: Bonaire
-location_source: dive_site
-dive_site: Tori's Reef
-credit: Matthew Kulukundis
-import_album: Tori's Reef, Bonaire, 7-10-2024
-import_original_name: PXL_20240710_170853816.jpg
+date: "2024-07-10 13:08:53"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Tori's Reef"
+credit: "Matthew Kulukundis"
+import_album: "Tori's Reef, Bonaire, 7-10-2024"
+import_original_name: "PXL_20240710_170853816.jpg"
 variants:
-- method: dive-plus
-  file: a46db29751239035.dive-plus.webp
-  import_original_name: d91d6ba149a762f6.webp
+- method: "dive-plus"
+  file: "a46db29751239035.dive-plus.webp"
+  import_original_name: "d91d6ba149a762f6.webp"
 lat: 12.070475199999999
 lon: -68.2806703
-gps_source: manual
+gps_source: "manual"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786160192.5405338
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Diodon holocanthus
+    - scientific: "Diodon holocanthus"
       confidence: 0.7248
-    - scientific: Chilomycterus antillarum
+    - scientific: "Chilomycterus antillarum"
       confidence: 0.1071
-    - scientific: Lactophrys triqueter
+    - scientific: "Lactophrys triqueter"
       confidence: 0.0148
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786160192.5405338
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Diodon hystrix
+    - scientific: "Diodon hystrix"
       confidence: 0.9883
-    - scientific: Diodon holocanthus
+    - scientific: "Diodon holocanthus"
       confidence: 0.0108
-    - scientific: Sepioteuthis sepioidea
+    - scientific: "Sepioteuthis sepioidea"
       confidence: 0.0003
 species:
-- scientific: Diodon hystrix
-  role: primary
+- scientific: "Diodon hystrix"
+  role: "primary"
   confidence: 0.4941
-  identified_by: bioclip-2.5
+  identified_by: "bioclip-2.5"

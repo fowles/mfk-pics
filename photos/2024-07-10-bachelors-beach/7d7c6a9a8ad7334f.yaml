@@ -1,44 +1,44 @@
-date: '2024-07-10 16:18:55'
-location: Bonaire
-location_source: dive_site
-dive_site: Bachelor's Beach
-credit: Matthew Kulukundis
-import_album: Bachelor's Beach, Bonaire 7-10-2024
-import_original_name: PXL_20240710_201855720.jpg
+date: "2024-07-10 16:18:55"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Bachelor's Beach"
+credit: "Matthew Kulukundis"
+import_album: "Bachelor's Beach, Bonaire 7-10-2024"
+import_original_name: "PXL_20240710_201855720.jpg"
 lat: 12.125370400000001
 lon: -68.2874429
-gps_source: dive_site
+gps_source: "dive_site"
 variants:
-- method: dive-plus
-  file: 7d7c6a9a8ad7334f.dive-plus.webp
-  import_original_name: 4810d51788c10e57.webp
+- method: "dive-plus"
+  file: "7d7c6a9a8ad7334f.dive-plus.webp"
+  import_original_name: "4810d51788c10e57.webp"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786158751.3145463
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Cephalopholis fulva
+    - scientific: "Cephalopholis fulva"
       confidence: 0.0451
-    - scientific: Cephalopholis cruentata
+    - scientific: "Cephalopholis cruentata"
       confidence: 0.0183
-    - scientific: Bothus lunatus
+    - scientific: "Bothus lunatus"
       confidence: 0.0126
     absorbed_by:
-      scientific: Porites astreoides
+      scientific: "Porites astreoides"
       confidence: 0.2934
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786158751.3145463
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Gymnothorax miliaris
+    - scientific: "Gymnothorax miliaris"
       confidence: 0.2529
-    - scientific: Gymnothorax moringa
+    - scientific: "Gymnothorax moringa"
       confidence: 0.1212
-    - scientific: Stegastes partitus
+    - scientific: "Stegastes partitus"
       confidence: 0.052
 species: []

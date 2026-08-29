@@ -1,42 +1,42 @@
-date: '2024-07-09 12:42:37'
-location: Bonaire
-location_source: dive_site
-dive_site: Candyland
-credit: Matthew Kulukundis
-import_album: Candyland, Bonaire, 7-9-2024
-import_original_name: PXL_20240709_164237929.jpg
+date: "2024-07-09 12:42:37"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Candyland"
+credit: "Matthew Kulukundis"
+import_album: "Candyland, Bonaire, 7-9-2024"
+import_original_name: "PXL_20240709_164237929.jpg"
 variants:
-- method: dive-plus
-  file: 2c951f58e5729069.dive-plus.webp
-  import_original_name: 6f54679285069bb4.webp
+- method: "dive-plus"
+  file: "2c951f58e5729069.dive-plus.webp"
+  import_original_name: "6f54679285069bb4.webp"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786159168.393814
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Melichthys niger
+    - scientific: "Melichthys niger"
       confidence: 0.7731
-    - scientific: Thalassoma bifasciatum
+    - scientific: "Thalassoma bifasciatum"
       confidence: 0.066
-    - scientific: Chromis cyanea
+    - scientific: "Chromis cyanea"
       confidence: 0.0429
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786159168.393814
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Melichthys niger
+    - scientific: "Melichthys niger"
       confidence: 0.4316
-    - scientific: Thalassoma bifasciatum
+    - scientific: "Thalassoma bifasciatum"
       confidence: 0.081
-    - scientific: Chromis cyanea
+    - scientific: "Chromis cyanea"
       confidence: 0.0524
 species:
-- scientific: Melichthys niger
-  role: primary
+- scientific: "Melichthys niger"
+  role: "primary"
   confidence: 0.6023
-  identified_by: bioclip-2+bioclip-2.5
+  identified_by: "bioclip-2+bioclip-2.5"

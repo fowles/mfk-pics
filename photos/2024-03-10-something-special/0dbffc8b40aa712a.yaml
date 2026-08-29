@@ -1,42 +1,42 @@
-date: '2024-03-10 15:26:24'
-location: Bonaire
-location_source: dive_site
-dive_site: Something Special
-credit: Delia Kulukundis
-import_album: Bonaire, Something Special, 2024-03-10
-import_original_name: IMG_4094.JPG
+date: "2024-03-10 15:26:24"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Something Special"
+credit: "Delia Kulukundis"
+import_album: "Bonaire, Something Special, 2024-03-10"
+import_original_name: "IMG_4094.JPG"
 lat: 12.150402
 lon: -68.2854452
-gps_source: dive_site
+gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786159057.4122958
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Pomacanthus arcuatus
+    - scientific: "Pomacanthus arcuatus"
       confidence: 0.6457
-    - scientific: Pomacanthus paru
+    - scientific: "Pomacanthus paru"
       confidence: 0.3294
-    - scientific: Holacanthus tricolor
+    - scientific: "Holacanthus tricolor"
       confidence: 0.0161
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786159057.4122958
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Pomacanthus paru
+    - scientific: "Pomacanthus paru"
       confidence: 0.9662
-    - scientific: Pomacanthus arcuatus
+    - scientific: "Pomacanthus arcuatus"
       confidence: 0.0337
-    - scientific: Scarus coelestinus
+    - scientific: "Scarus coelestinus"
       confidence: 0.0
 species:
-- scientific: Pomacanthus paru
-  role: primary
+- scientific: "Pomacanthus paru"
+  role: "primary"
   confidence: 0.6478
-  identified_by: bioclip-2+bioclip-2.5
+  identified_by: "bioclip-2+bioclip-2.5"

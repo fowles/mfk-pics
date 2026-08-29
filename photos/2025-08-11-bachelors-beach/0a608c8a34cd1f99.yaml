@@ -1,46 +1,46 @@
-date: '2025-08-11 17:01:00'
-location: Bonaire
-location_source: dive_site
-dive_site: Bachelor's Beach
-credit: Matthew Kulukundis
-import_album: 2025-08-11 - Bonaire, Bachelor's Beach
-import_original_name: PXL_20250811_210100918.jpg
+date: "2025-08-11 17:01:00"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Bachelor's Beach"
+credit: "Matthew Kulukundis"
+import_album: "2025-08-11 - Bonaire, Bachelor's Beach"
+import_original_name: "PXL_20250811_210100918.jpg"
 lat: 12.125370400000001
 lon: -68.2874429
-gps_source: dive_site
+gps_source: "dive_site"
 variants:
-- method: dive-plus
-  file: 0a608c8a34cd1f99.dive-plus.webp
-  import_original_name: 5254fb30f26e6b24.webp
+- method: "dive-plus"
+  file: "0a608c8a34cd1f99.dive-plus.webp"
+  import_original_name: "5254fb30f26e6b24.webp"
 date_reviewed: true
 rotation_applied: 270
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1787030852.3753874
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Synodus intermedius
+    - scientific: "Synodus intermedius"
       confidence: 0.999
-    - scientific: Synodus foetens
+    - scientific: "Synodus foetens"
       confidence: 0.0004
-    - scientific: Holothuria mexicana
+    - scientific: "Holothuria mexicana"
       confidence: 0.0002
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1787030852.3753874
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Synodus intermedius
+    - scientific: "Synodus intermedius"
       confidence: 1.0
-    - scientific: Epinephelus adscensionis
+    - scientific: "Epinephelus adscensionis"
       confidence: 0.0
-    - scientific: Serranus tigrinus
+    - scientific: "Serranus tigrinus"
       confidence: 0.0
 species:
-- scientific: Synodus intermedius
-  role: primary
+- scientific: "Synodus intermedius"
+  role: "primary"
   confidence: 0.9995
-  identified_by: bioclip-2+bioclip-2.5
+  identified_by: "bioclip-2+bioclip-2.5"

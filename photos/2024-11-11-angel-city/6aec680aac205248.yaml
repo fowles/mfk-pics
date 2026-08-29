@@ -1,45 +1,45 @@
-date: '2024-11-11 16:01:19'
-location: Bonaire
-location_source: dive_site
-dive_site: Angel City
-credit: Matthew Kulukundis
-import_album: 2024-11-11, Bonaire, Angel City
-import_original_name: PXL_20241111_200119560.jpg
+date: "2024-11-11 16:01:19"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Angel City"
+credit: "Matthew Kulukundis"
+import_album: "2024-11-11, Bonaire, Angel City"
+import_original_name: "PXL_20241111_200119560.jpg"
 lat: 12.103454
 lon: -68.2872912
-gps_source: dive_site
+gps_source: "dive_site"
 variants:
-- method: dive-plus
-  file: 6aec680aac205248.dive-plus.webp
-  import_original_name: f26c057485438e75.webp
+- method: "dive-plus"
+  file: "6aec680aac205248.dive-plus.webp"
+  import_original_name: "f26c057485438e75.webp"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786156744.2017355
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Canthidermis sufflamen
+    - scientific: "Canthidermis sufflamen"
       confidence: 0.2813
-    - scientific: Sphyraena barracuda
+    - scientific: "Sphyraena barracuda"
       confidence: 0.1434
-    - scientific: Carcharhinus perezi
+    - scientific: "Carcharhinus perezi"
       confidence: 0.0793
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786156744.2017355
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Diodon hystrix
+    - scientific: "Diodon hystrix"
       confidence: 0.5014
-    - scientific: Mycteroperca bonaci
+    - scientific: "Mycteroperca bonaci"
       confidence: 0.2951
-    - scientific: Mycteroperca tigris
+    - scientific: "Mycteroperca tigris"
       confidence: 0.1005
 species:
-- scientific: Diodon hystrix
-  role: primary
+- scientific: "Diodon hystrix"
+  role: "primary"
   confidence: 0.2507
-  identified_by: bioclip-2.5
+  identified_by: "bioclip-2.5"

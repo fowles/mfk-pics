@@ -1,46 +1,46 @@
-date: '2025-04-04 13:50:32'
-location: West Palm Beach, FL, USA
-location_source: dive_site
-dive_site: Blue Heron Bridge
-credit: Matthew Kulukundis
-import_album: 2025-04-04, Blue Heron Bridge, West Palm Beach, FL
-import_original_name: PXL_20250404_175032636.jpg
+date: "2025-04-04 13:50:32"
+location: "West Palm Beach, FL, USA"
+location_source: "dive_site"
+dive_site: "Blue Heron Bridge"
+credit: "Matthew Kulukundis"
+import_album: "2025-04-04, Blue Heron Bridge, West Palm Beach, FL"
+import_original_name: "PXL_20250404_175032636.jpg"
 variants:
-- method: dive-plus
-  file: a280b1f2fafba29c.dive-plus.webp
-  import_original_name: 53969d07f5eae9cd.webp
+- method: "dive-plus"
+  file: "a280b1f2fafba29c.dive-plus.webp"
+  import_original_name: "53969d07f5eae9cd.webp"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786157489.8646092
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Sphoeroides spengleri
+    - scientific: "Sphoeroides spengleri"
       confidence: 0.9908
-    - scientific: Sparisoma rubripinne
+    - scientific: "Sparisoma rubripinne"
       confidence: 0.0025
-    - scientific: Sparisoma amplum
+    - scientific: "Sparisoma amplum"
       confidence: 0.0015
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786157489.8646092
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Sphoeroides spengleri
+    - scientific: "Sphoeroides spengleri"
       confidence: 0.9992
-    - scientific: Monacanthus tuckeri
+    - scientific: "Monacanthus tuckeri"
       confidence: 0.0005
-    - scientific: Serranus tigrinus
+    - scientific: "Serranus tigrinus"
       confidence: 0.0002
 species:
-- scientific: Sphoeroides spengleri
-  role: primary
-  identified_by: human
-  confirmed_from: bioclip+bioclip-2+bioclip-2.5
-  reviewed_by: matt
+- scientific: "Sphoeroides spengleri"
+  role: "primary"
+  identified_by: "human"
+  confirmed_from: "bioclip+bioclip-2+bioclip-2.5"
+  reviewed_by: "matt"
 species_reviewed:
-- primary
-- secondary
+- "primary"
+- "secondary"

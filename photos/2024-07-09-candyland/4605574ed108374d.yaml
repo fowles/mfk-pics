@@ -1,42 +1,42 @@
-date: '2024-07-09 12:50:10'
-location: Bonaire
-location_source: dive_site
-dive_site: Candyland
-credit: Matthew Kulukundis
-import_album: Candyland, Bonaire, 7-9-2024
-import_original_name: PXL_20240709_165010888.jpg
+date: "2024-07-09 12:50:10"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Candyland"
+credit: "Matthew Kulukundis"
+import_album: "Candyland, Bonaire, 7-9-2024"
+import_original_name: "PXL_20240709_165010888.jpg"
 variants:
-- method: dive-plus
-  file: 4605574ed108374d.dive-plus.webp
-  import_original_name: e6f6330eac0d8133.webp
+- method: "dive-plus"
+  file: "4605574ed108374d.dive-plus.webp"
+  import_original_name: "e6f6330eac0d8133.webp"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786159176.4337556
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Melichthys niger
+    - scientific: "Melichthys niger"
       confidence: 0.9991
-    - scientific: Canthidermis sufflamen
+    - scientific: "Canthidermis sufflamen"
       confidence: 0.0002
-    - scientific: Aluterus scriptus
+    - scientific: "Aluterus scriptus"
       confidence: 0.0001
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786159176.4337556
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Melichthys niger
+    - scientific: "Melichthys niger"
       confidence: 1.0
-    - scientific: Canthidermis sufflamen
+    - scientific: "Canthidermis sufflamen"
       confidence: 0.0
-    - scientific: Acanthurus coeruleus
+    - scientific: "Acanthurus coeruleus"
       confidence: 0.0
 species:
-- scientific: Melichthys niger
-  role: primary
+- scientific: "Melichthys niger"
+  role: "primary"
   confidence: 0.9995
-  identified_by: bioclip-2+bioclip-2.5
+  identified_by: "bioclip-2+bioclip-2.5"

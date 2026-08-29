@@ -1,45 +1,45 @@
-date: '2024-07-10 12:56:31'
-location: Bonaire
-location_source: dive_site
-dive_site: Tori's Reef
-credit: Matthew Kulukundis
-import_album: Tori's Reef, Bonaire, 7-10-2024
-import_original_name: PXL_20240710_165631684.jpg
+date: "2024-07-10 12:56:31"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Tori's Reef"
+credit: "Matthew Kulukundis"
+import_album: "Tori's Reef, Bonaire, 7-10-2024"
+import_original_name: "PXL_20240710_165631684.jpg"
 variants:
-- method: dive-plus
-  file: 2ea1759bd4712565.dive-plus.webp
-  import_original_name: 8bf83b477fe080d2.webp
+- method: "dive-plus"
+  file: "2ea1759bd4712565.dive-plus.webp"
+  import_original_name: "8bf83b477fe080d2.webp"
 lat: 12.070475199999999
 lon: -68.2806703
-gps_source: manual
+gps_source: "manual"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786160162.145287
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Aetobatus narinari
+    - scientific: "Aetobatus narinari"
       confidence: 0.4228
-    - scientific: Sphyraena barracuda
+    - scientific: "Sphyraena barracuda"
       confidence: 0.3121
-    - scientific: Mycteroperca bonaci
+    - scientific: "Mycteroperca bonaci"
       confidence: 0.0958
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786160162.145287
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Canthidermis sufflamen
+    - scientific: "Canthidermis sufflamen"
       confidence: 0.3838
-    - scientific: Diodon hystrix
+    - scientific: "Diodon hystrix"
       confidence: 0.342
-    - scientific: Sphyraena barracuda
+    - scientific: "Sphyraena barracuda"
       confidence: 0.0828
 species:
-- scientific: Aetobatus narinari
-  role: primary
+- scientific: "Aetobatus narinari"
+  role: "primary"
   confidence: 0.2114
-  identified_by: bioclip-2
+  identified_by: "bioclip-2"

@@ -1,42 +1,42 @@
-date: '2025-08-14 13:28:04'
-location: Bonaire
-location_source: dive_site
-dive_site: Invisibles
-credit: Delia Kulukundis
-import_album: 2025-08-14 - Bonaire, Invisibles
-import_original_name: IMG_5703.JPG
+date: "2025-08-14 13:28:04"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Invisibles"
+credit: "Delia Kulukundis"
+import_album: "2025-08-14 - Bonaire, Invisibles"
+import_original_name: "IMG_5703.JPG"
 lat: 12.0776183
 lon: -68.28015169999999
-gps_source: dive_site
+gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786158232.6175401
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Cantherhines pullus
+    - scientific: "Cantherhines pullus"
       confidence: 0.7352
-    - scientific: Equetus punctatus
+    - scientific: "Equetus punctatus"
       confidence: 0.0268
-    - scientific: Myripristis jacobus
+    - scientific: "Myripristis jacobus"
       confidence: 0.0262
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786158232.6175401
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Cantherhines pullus
+    - scientific: "Cantherhines pullus"
       confidence: 0.6414
-    - scientific: Haemulon macrostomum
+    - scientific: "Haemulon macrostomum"
       confidence: 0.1502
-    - scientific: Pareques acuminatus
+    - scientific: "Pareques acuminatus"
       confidence: 0.0769
 species:
-- scientific: Cantherhines pullus
-  role: primary
+- scientific: "Cantherhines pullus"
+  role: "primary"
   confidence: 0.6883
-  identified_by: bioclip-2+bioclip-2.5
+  identified_by: "bioclip-2+bioclip-2.5"

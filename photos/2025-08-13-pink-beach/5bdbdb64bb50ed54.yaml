@@ -1,46 +1,46 @@
-date: '2025-08-13 14:16:07'
-location: Bonaire
-location_source: dive_site
-dive_site: Pink Beach
-credit: Matthew Kulukundis
-import_album: 2025-08-13 - Bonaire, Pink Beach
-import_original_name: PXL_20250813_181607014.jpg
+date: "2025-08-13 14:16:07"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Pink Beach"
+credit: "Matthew Kulukundis"
+import_album: "2025-08-13 - Bonaire, Pink Beach"
+import_original_name: "PXL_20250813_181607014.jpg"
 lat: 12.0662114
 lon: -68.2814167
-gps_source: dive_site
+gps_source: "dive_site"
 variants:
-- method: dive-plus
-  file: 5bdbdb64bb50ed54.dive-plus.webp
-  import_original_name: a38c74cd07f1be7d.webp
+- method: "dive-plus"
+  file: "5bdbdb64bb50ed54.dive-plus.webp"
+  import_original_name: "a38c74cd07f1be7d.webp"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786158189.0061548
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Cephalopholis cruentata
+    - scientific: "Cephalopholis cruentata"
       confidence: 0.0004
-    - scientific: Cyphoma gibbosum
+    - scientific: "Cyphoma gibbosum"
       confidence: 0.0003
-    - scientific: Aluterus scriptus
+    - scientific: "Aluterus scriptus"
       confidence: 0.0003
     absorbed_by:
-      scientific: Callyspongia plicifera
+      scientific: "Callyspongia plicifera"
       confidence: 0.8398
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786158189.0061548
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Cephalopholis cruentata
+    - scientific: "Cephalopholis cruentata"
       confidence: 0.0
-    - scientific: Mycteroperca tigris
+    - scientific: "Mycteroperca tigris"
       confidence: 0.0
-    - scientific: Mycteroperca venenosa
+    - scientific: "Mycteroperca venenosa"
       confidence: 0.0
     absorbed_by:
-      scientific: Callyspongia plicifera
+      scientific: "Callyspongia plicifera"
       confidence: 0.9667

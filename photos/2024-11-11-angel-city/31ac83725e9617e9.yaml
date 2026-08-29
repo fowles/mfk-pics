@@ -1,47 +1,47 @@
-date: '2024-11-11 16:26:54'
-location: Bonaire
-location_source: dive_site
-dive_site: Angel City
-credit: Matthew Kulukundis
-import_album: 2024-11-11, Bonaire, Angel City
-import_original_name: PXL_20241111_202654332.jpg
+date: "2024-11-11 16:26:54"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Angel City"
+credit: "Matthew Kulukundis"
+import_album: "2024-11-11, Bonaire, Angel City"
+import_original_name: "PXL_20241111_202654332.jpg"
 lat: 12.103454
 lon: -68.2872912
-gps_source: dive_site
+gps_source: "dive_site"
 variants:
-- method: dive-plus
-  file: 31ac83725e9617e9.dive-plus.webp
-  import_original_name: c7a0d1a5a8398164.webp
+- method: "dive-plus"
+  file: "31ac83725e9617e9.dive-plus.webp"
+  import_original_name: "c7a0d1a5a8398164.webp"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786156747.7394614
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Gymnothorax miliaris
+    - scientific: "Gymnothorax miliaris"
       confidence: 0.0192
-    - scientific: Myrichthys breviceps
+    - scientific: "Myrichthys breviceps"
       confidence: 0.0044
-    - scientific: Stegastes partitus
+    - scientific: "Stegastes partitus"
       confidence: 0.0037
     absorbed_by:
-      scientific: Madracis auretenra
+      scientific: "Madracis auretenra"
       confidence: 0.3886
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786156747.7394614
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Thalassoma bifasciatum
+    - scientific: "Thalassoma bifasciatum"
       confidence: 0.0001
-    - scientific: Ophioblennius macclurei
+    - scientific: "Ophioblennius macclurei"
       confidence: 0.0001
-    - scientific: Coryphopterus lipernes
+    - scientific: "Coryphopterus lipernes"
       confidence: 0.0
     absorbed_by:
-      scientific: Orbicella annularis
+      scientific: "Orbicella annularis"
       confidence: 0.9974
 species: []

@@ -1,42 +1,42 @@
-date: '2025-08-12 13:48:17'
-location: Bonaire
-location_source: dive_site
-dive_site: Candyland
-credit: Delia Kulukundis
-import_album: 2025-08-12 - Candyland
-import_original_name: IMG_5577.JPG
+date: "2025-08-12 13:48:17"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Candyland"
+credit: "Delia Kulukundis"
+import_album: "2025-08-12 - Candyland"
+import_original_name: "IMG_5577.JPG"
 lat: 12.222591
 lon: -68.40111449999999
-gps_source: dive_site
+gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786158132.1691089
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Gymnothorax moringa
+    - scientific: "Gymnothorax moringa"
       confidence: 0.9975
-    - scientific: Gymnothorax vicinus
+    - scientific: "Gymnothorax vicinus"
       confidence: 0.0006
-    - scientific: Enchelycore carychroa
+    - scientific: "Enchelycore carychroa"
       confidence: 0.0005
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786158132.1691089
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Gymnothorax moringa
+    - scientific: "Gymnothorax moringa"
       confidence: 1.0
-    - scientific: Rypticus saponaceus
+    - scientific: "Rypticus saponaceus"
       confidence: 0.0
-    - scientific: Enchelycore carychroa
+    - scientific: "Enchelycore carychroa"
       confidence: 0.0
 species:
-- scientific: Gymnothorax moringa
-  role: primary
+- scientific: "Gymnothorax moringa"
+  role: "primary"
   confidence: 0.9988
-  identified_by: bioclip-2+bioclip-2.5
+  identified_by: "bioclip-2+bioclip-2.5"

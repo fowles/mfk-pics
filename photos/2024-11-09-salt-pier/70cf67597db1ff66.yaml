@@ -1,46 +1,46 @@
-date: '2024-11-09 13:50:32'
-location: Bonaire
-location_source: dive_site
-dive_site: Salt Pier
-credit: Matthew Kulukundis
-import_album: 2024-11-09, Bonaire, Salt Pier
-import_original_name: PXL_20241109_175032234.jpg
+date: "2024-11-09 13:50:32"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Salt Pier"
+credit: "Matthew Kulukundis"
+import_album: "2024-11-09, Bonaire, Salt Pier"
+import_original_name: "PXL_20241109_175032234.jpg"
 variants:
-- method: dive-plus
-  file: 70cf67597db1ff66.dive-plus.webp
-  import_original_name: 6c1609631e9b41a5.webp
+- method: "dive-plus"
+  file: "70cf67597db1ff66.dive-plus.webp"
+  import_original_name: "6c1609631e9b41a5.webp"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786156576.9743571
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Megalops atlanticus
+    - scientific: "Megalops atlanticus"
       confidence: 0.5315
-    - scientific: Scomberomorus regalis
+    - scientific: "Scomberomorus regalis"
       confidence: 0.4563
-    - scientific: Echeneis naucrates
+    - scientific: "Echeneis naucrates"
       confidence: 0.0032
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786156576.9743571
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Megalops atlanticus
+    - scientific: "Megalops atlanticus"
       confidence: 0.9997
-    - scientific: Scomberomorus regalis
+    - scientific: "Scomberomorus regalis"
       confidence: 0.0003
-    - scientific: Sphyraena barracuda
+    - scientific: "Sphyraena barracuda"
       confidence: 0.0
 species:
-- scientific: Megalops atlanticus
-  role: primary
-  identified_by: human
-  confirmed_from: bioclip-2+bioclip-2.5
-  reviewed_by: matt
+- scientific: "Megalops atlanticus"
+  role: "primary"
+  identified_by: "human"
+  confirmed_from: "bioclip-2+bioclip-2.5"
+  reviewed_by: "matt"
 species_reviewed:
-- primary
-- secondary
+- "primary"
+- "secondary"

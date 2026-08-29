@@ -1,42 +1,42 @@
-date: '2025-08-13 13:55:08'
-location: Bonaire
-location_source: dive_site
-dive_site: Pink Beach
-credit: Matthew Kulukundis
-import_album: 2025-08-13 - Bonaire, Pink Beach
-import_original_name: PXL_20250813_175508125.jpg
+date: "2025-08-13 13:55:08"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Pink Beach"
+credit: "Matthew Kulukundis"
+import_album: "2025-08-13 - Bonaire, Pink Beach"
+import_original_name: "PXL_20250813_175508125.jpg"
 variants:
-- method: dive-plus
-  file: e68b7331b5b3df51.dive-plus.webp
-  import_original_name: a5f5afcfdcad6bba.webp
+- method: "dive-plus"
+  file: "e68b7331b5b3df51.dive-plus.webp"
+  import_original_name: "a5f5afcfdcad6bba.webp"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786158187.103474
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Mycteroperca tigris
+    - scientific: "Mycteroperca tigris"
       confidence: 0.4866
-    - scientific: Lutjanus analis
+    - scientific: "Lutjanus analis"
       confidence: 0.2285
-    - scientific: Lutjanus jocu
+    - scientific: "Lutjanus jocu"
       confidence: 0.1505
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786158187.103474
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Mycteroperca tigris
+    - scientific: "Mycteroperca tigris"
       confidence: 0.9999
-    - scientific: Epinephelus striatus
+    - scientific: "Epinephelus striatus"
       confidence: 0.0001
-    - scientific: Mycteroperca bonaci
+    - scientific: "Mycteroperca bonaci"
       confidence: 0.0
 species:
-- scientific: Mycteroperca tigris
-  role: primary
+- scientific: "Mycteroperca tigris"
+  role: "primary"
   confidence: 0.7432
-  identified_by: bioclip-2+bioclip-2.5
+  identified_by: "bioclip-2+bioclip-2.5"

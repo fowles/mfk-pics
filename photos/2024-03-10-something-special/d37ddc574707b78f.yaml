@@ -1,42 +1,42 @@
-date: '2024-03-10 15:40:36'
-location: Bonaire
-location_source: dive_site
-dive_site: Something Special
-credit: Delia Kulukundis
-import_album: Bonaire, Something Special, 2024-03-10
-import_original_name: IMG_4134.JPG
+date: "2024-03-10 15:40:36"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Something Special"
+credit: "Delia Kulukundis"
+import_album: "Bonaire, Something Special, 2024-03-10"
+import_original_name: "IMG_4134.JPG"
 lat: 12.150402
 lon: -68.2854452
-gps_source: dive_site
+gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786159061.9005098
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Bodianus rufus
+    - scientific: "Bodianus rufus"
       confidence: 0.8469
-    - scientific: Scarus taeniopterus
+    - scientific: "Scarus taeniopterus"
       confidence: 0.0465
-    - scientific: Bodianus pulchellus
+    - scientific: "Bodianus pulchellus"
       confidence: 0.0402
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786159061.9005098
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Bodianus pulchellus
+    - scientific: "Bodianus pulchellus"
       confidence: 0.8011
-    - scientific: Bodianus rufus
+    - scientific: "Bodianus rufus"
       confidence: 0.1982
-    - scientific: Serranus tabacarius
+    - scientific: "Serranus tabacarius"
       confidence: 0.0002
 species:
-- scientific: Bodianus rufus
-  role: primary
+- scientific: "Bodianus rufus"
+  role: "primary"
   confidence: 0.5225
-  identified_by: bioclip-2+bioclip-2.5
+  identified_by: "bioclip-2+bioclip-2.5"

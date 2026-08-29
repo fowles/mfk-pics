@@ -1,44 +1,44 @@
-date: '2024-03-10 15:40:57'
-location: Bonaire
-location_source: dive_site
-dive_site: Something Special
-credit: Matthew Kulukundis
-import_album: Bonaire, Something Special, 2024-03-10
-import_original_name: PXL_20240310_194057605.jpg
+date: "2024-03-10 15:40:57"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Something Special"
+credit: "Matthew Kulukundis"
+import_album: "Bonaire, Something Special, 2024-03-10"
+import_original_name: "PXL_20240310_194057605.jpg"
 lat: 12.150402
 lon: -68.2854452
-gps_source: dive_site
+gps_source: "dive_site"
 variants:
-- method: dive-plus
-  file: 6650c44792484321.dive-plus.webp
-  import_original_name: b35bb9605b6212c6.webp
+- method: "dive-plus"
+  file: "6650c44792484321.dive-plus.webp"
+  import_original_name: "b35bb9605b6212c6.webp"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786159067.4560494
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Carcharhinus longimanus
+    - scientific: "Carcharhinus longimanus"
       confidence: 0.1795
-    - scientific: Decapterus macarellus
+    - scientific: "Decapterus macarellus"
       confidence: 0.1059
-    - scientific: Sepioteuthis sepioidea
+    - scientific: "Sepioteuthis sepioidea"
       confidence: 0.0809
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786159067.4560494
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Sepioteuthis sepioidea
+    - scientific: "Sepioteuthis sepioidea"
       confidence: 0.7933
-    - scientific: Astrophyton muricatum
+    - scientific: "Astrophyton muricatum"
       confidence: 0.0046
-    - scientific: Xyrichtys splendens
+    - scientific: "Xyrichtys splendens"
       confidence: 0.0009
 species: []
 species_reviewed:
-- primary
-- secondary
+- "primary"
+- "secondary"

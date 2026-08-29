@@ -1,45 +1,45 @@
-date: '2025-08-14 13:05:56'
-location: Bonaire
-location_source: dive_site
-dive_site: Invisibles
-credit: Matthew Kulukundis
-import_album: 2025-08-14 - Bonaire, Invisibles
-import_original_name: PXL_20250814_170556339.jpg
+date: "2025-08-14 13:05:56"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Invisibles"
+credit: "Matthew Kulukundis"
+import_album: "2025-08-14 - Bonaire, Invisibles"
+import_original_name: "PXL_20250814_170556339.jpg"
 lat: 12.0776183
 lon: -68.28015169999999
-gps_source: dive_site
+gps_source: "dive_site"
 variants:
-- method: dive-plus
-  file: b2a40a206137d67a.dive-plus.webp
-  import_original_name: bba2edbf22c9490a.webp
+- method: "dive-plus"
+  file: "b2a40a206137d67a.dive-plus.webp"
+  import_original_name: "bba2edbf22c9490a.webp"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786158237.1555357
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Aulostomus maculatus
+    - scientific: "Aulostomus maculatus"
       confidence: 0.3742
-    - scientific: Caranx ruber
+    - scientific: "Caranx ruber"
       confidence: 0.164
-    - scientific: Acanthurus coeruleus
+    - scientific: "Acanthurus coeruleus"
       confidence: 0.0808
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786158237.1555357
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Aulostomus maculatus
+    - scientific: "Aulostomus maculatus"
       confidence: 0.9154
-    - scientific: Acanthostracion polygonius
+    - scientific: "Acanthostracion polygonius"
       confidence: 0.0483
-    - scientific: Acanthurus coeruleus
+    - scientific: "Acanthurus coeruleus"
       confidence: 0.0136
 species:
-- scientific: Aulostomus maculatus
-  role: primary
+- scientific: "Aulostomus maculatus"
+  role: "primary"
   confidence: 0.6448
-  identified_by: bioclip-2+bioclip-2.5
+  identified_by: "bioclip-2+bioclip-2.5"

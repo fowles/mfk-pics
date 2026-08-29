@@ -1,49 +1,49 @@
-date: '2025-08-11 14:36:22'
-location: Bonaire
-location_source: dive_site
-dive_site: Weber's Joy
-credit: Matthew Kulukundis
-import_album: 2025-08-11 - Bonaire, Weber's Joy
-import_original_name: PXL_20250811_183622340.MP.jpg
+date: "2025-08-11 14:36:22"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Weber's Joy"
+credit: "Matthew Kulukundis"
+import_album: "2025-08-11 - Bonaire, Weber's Joy"
+import_original_name: "PXL_20250811_183622340.MP.jpg"
 lat: 12.2065506
 lon: -68.3164123
-gps_source: dive_site
+gps_source: "dive_site"
 variants:
-- method: dive-plus
-  file: ced84637e980e4b5.dive-plus.webp
-  import_original_name: 087fe1e0279cf29f.webp
+- method: "dive-plus"
+  file: "ced84637e980e4b5.dive-plus.webp"
+  import_original_name: "087fe1e0279cf29f.webp"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786071915.9386625
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Pterois volitans
+    - scientific: "Pterois volitans"
       confidence: 0.9967
-    - scientific: Panulirus argus
+    - scientific: "Panulirus argus"
       confidence: 0.0017
-    - scientific: Diadema antillarum
+    - scientific: "Diadema antillarum"
       confidence: 0.0005
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786071915.9386625
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Pterois volitans
+    - scientific: "Pterois volitans"
       confidence: 1.0
-    - scientific: Diadema antillarum
+    - scientific: "Diadema antillarum"
       confidence: 0.0
-    - scientific: Mycteroperca tigris
+    - scientific: "Mycteroperca tigris"
       confidence: 0.0
 species:
-- scientific: Pterois volitans
-  role: primary
-  identified_by: human
-  confirmed_from: bioclip-2+bioclip-2.5
-  reviewed_by: matt
+- scientific: "Pterois volitans"
+  role: "primary"
+  identified_by: "human"
+  confirmed_from: "bioclip-2+bioclip-2.5"
+  reviewed_by: "matt"
 species_reviewed:
-- primary
-- secondary
+- "primary"
+- "secondary"

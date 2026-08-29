@@ -1,45 +1,45 @@
-date: '2024-11-07 10:29:11'
-location: Bonaire
-location_source: dive_site
-dive_site: Salt Pier
-credit: Matthew Kulukundis
-import_album: 2024-11-07, Bonaire, Salt Pier
-import_original_name: PXL_20241107_142911150.jpg
+date: "2024-11-07 10:29:11"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Salt Pier"
+credit: "Matthew Kulukundis"
+import_album: "2024-11-07, Bonaire, Salt Pier"
+import_original_name: "PXL_20241107_142911150.jpg"
 lat: 12.082963699999999
 lon: -68.28180019999999
-gps_source: dive_site
+gps_source: "dive_site"
 variants:
-- method: dive-plus
-  file: be53fbd9c9bd613e.dive-plus.webp
-  import_original_name: 0f64866799002379.webp
+- method: "dive-plus"
+  file: "be53fbd9c9bd613e.dive-plus.webp"
+  import_original_name: "0f64866799002379.webp"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786156359.8318682
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Gymnothorax miliaris
+    - scientific: "Gymnothorax miliaris"
       confidence: 0.5219
-    - scientific: Gymnothorax funebris
+    - scientific: "Gymnothorax funebris"
       confidence: 0.2508
-    - scientific: Octopus insularis
+    - scientific: "Octopus insularis"
       confidence: 0.0656
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786156359.8318682
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Gymnothorax miliaris
+    - scientific: "Gymnothorax miliaris"
       confidence: 0.6272
-    - scientific: Gymnothorax vicinus
+    - scientific: "Gymnothorax vicinus"
       confidence: 0.2989
-    - scientific: Gymnothorax funebris
+    - scientific: "Gymnothorax funebris"
       confidence: 0.0185
 species:
-- scientific: Gymnothorax miliaris
-  role: primary
+- scientific: "Gymnothorax miliaris"
+  role: "primary"
   confidence: 0.5746
-  identified_by: bioclip-2+bioclip-2.5
+  identified_by: "bioclip-2+bioclip-2.5"

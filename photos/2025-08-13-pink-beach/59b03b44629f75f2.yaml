@@ -1,46 +1,46 @@
-date: '2025-08-13 14:16:04'
-location: Bonaire
-location_source: dive_site
-dive_site: Pink Beach
-credit: Matthew Kulukundis
-import_album: 2025-08-13 - Bonaire, Pink Beach
-import_original_name: PXL_20250813_181604627.jpg
+date: "2025-08-13 14:16:04"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Pink Beach"
+credit: "Matthew Kulukundis"
+import_album: "2025-08-13 - Bonaire, Pink Beach"
+import_original_name: "PXL_20250813_181604627.jpg"
 lat: 12.0662114
 lon: -68.2814167
-gps_source: dive_site
+gps_source: "dive_site"
 variants:
-- method: dive-plus
-  file: 59b03b44629f75f2.dive-plus.webp
-  import_original_name: 83d95c9f72e72ec6.webp
+- method: "dive-plus"
+  file: "59b03b44629f75f2.dive-plus.webp"
+  import_original_name: "83d95c9f72e72ec6.webp"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786158188.9654589
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Bodianus rufus
+    - scientific: "Bodianus rufus"
       confidence: 0.0001
-    - scientific: Stegastes planifrons
+    - scientific: "Stegastes planifrons"
       confidence: 0.0001
-    - scientific: Aluterus scriptus
+    - scientific: "Aluterus scriptus"
       confidence: 0.0001
     absorbed_by:
-      scientific: Callyspongia plicifera
+      scientific: "Callyspongia plicifera"
       confidence: 0.8764
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786158188.9654589
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Bodianus rufus
+    - scientific: "Bodianus rufus"
       confidence: 0.0
-    - scientific: Octopus briareus
+    - scientific: "Octopus briareus"
       confidence: 0.0
-    - scientific: Scarus iseri
+    - scientific: "Scarus iseri"
       confidence: 0.0
     absorbed_by:
-      scientific: Callyspongia plicifera
+      scientific: "Callyspongia plicifera"
       confidence: 0.9654

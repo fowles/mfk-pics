@@ -1,42 +1,42 @@
-date: '2024-03-10 12:24:38'
-location: Bonaire
-location_source: dive_site
-dive_site: Candyland
-credit: Delia Kulukundis
-import_album: Bonaire, Candyland, 2024-03-10
-import_original_name: IMG_4000.JPG
+date: "2024-03-10 12:24:38"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Candyland"
+credit: "Delia Kulukundis"
+import_album: "Bonaire, Candyland, 2024-03-10"
+import_original_name: "IMG_4000.JPG"
 lat: 12.222591
 lon: -68.40111449999999
-gps_source: dive_site
+gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786158870.0443916
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Hypoplectrus nigricans
+    - scientific: "Hypoplectrus nigricans"
       confidence: 0.1941
-    - scientific: Holacanthus tricolor
+    - scientific: "Holacanthus tricolor"
       confidence: 0.0995
-    - scientific: Acanthurus coeruleus
+    - scientific: "Acanthurus coeruleus"
       confidence: 0.0497
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786158870.0443916
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Scarus coelestinus
+    - scientific: "Scarus coelestinus"
       confidence: 0.9399
-    - scientific: Acanthurus coeruleus
+    - scientific: "Acanthurus coeruleus"
       confidence: 0.0313
-    - scientific: Melichthys niger
+    - scientific: "Melichthys niger"
       confidence: 0.0053
 species:
-- scientific: Scarus coelestinus
-  role: primary
+- scientific: "Scarus coelestinus"
+  role: "primary"
   confidence: 0.4699
-  identified_by: bioclip-2.5
+  identified_by: "bioclip-2.5"

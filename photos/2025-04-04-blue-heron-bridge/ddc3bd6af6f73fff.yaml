@@ -1,42 +1,42 @@
-date: '2025-04-04 14:03:17'
-location: West Palm Beach, FL, USA
-location_source: dive_site
-dive_site: Blue Heron Bridge
-credit: Matthew Kulukundis
-import_album: 2025-04-04, Blue Heron Bridge, West Palm Beach, FL
-import_original_name: PXL_20250404_180317437.MP.jpg
+date: "2025-04-04 14:03:17"
+location: "West Palm Beach, FL, USA"
+location_source: "dive_site"
+dive_site: "Blue Heron Bridge"
+credit: "Matthew Kulukundis"
+import_album: "2025-04-04, Blue Heron Bridge, West Palm Beach, FL"
+import_original_name: "PXL_20250404_180317437.MP.jpg"
 variants:
-- method: dive-plus
-  file: ddc3bd6af6f73fff.dive-plus.webp
-  import_original_name: 6261b593f9216046.webp
+- method: "dive-plus"
+  file: "ddc3bd6af6f73fff.dive-plus.webp"
+  import_original_name: "6261b593f9216046.webp"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786157491.3555253
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Serranus tortugarum
+    - scientific: "Serranus tortugarum"
       confidence: 0.1545
-    - scientific: Halichoeres maculipinna
+    - scientific: "Halichoeres maculipinna"
       confidence: 0.1127
-    - scientific: Haemulon plumierii
+    - scientific: "Haemulon plumierii"
       confidence: 0.1077
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786157491.3555253
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Serranus tabacarius
+    - scientific: "Serranus tabacarius"
       confidence: 0.3859
-    - scientific: Canthigaster rostrata
+    - scientific: "Canthigaster rostrata"
       confidence: 0.2142
-    - scientific: Scarus iseri
+    - scientific: "Scarus iseri"
       confidence: 0.0828
 species:
-- scientific: Serranus tabacarius
-  role: primary
+- scientific: "Serranus tabacarius"
+  role: "primary"
   confidence: 0.193
-  identified_by: bioclip-2.5
+  identified_by: "bioclip-2.5"

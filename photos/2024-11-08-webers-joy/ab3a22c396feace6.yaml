@@ -1,42 +1,42 @@
-date: '2024-11-08 10:17:15'
-location: Bonaire
-location_source: dive_site
-dive_site: Weber's Joy
-credit: Delia Kulukundis
-import_album: 2024-11-08, Bonaire, Weber's Joy
-import_original_name: IMG_4736.JPG
+date: "2024-11-08 10:17:15"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Weber's Joy"
+credit: "Delia Kulukundis"
+import_album: "2024-11-08, Bonaire, Weber's Joy"
+import_original_name: "IMG_4736.JPG"
 lat: 12.2065506
 lon: -68.3164123
-gps_source: dive_site
+gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786156520.1428885
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Aliger gigas
+    - scientific: "Aliger gigas"
       confidence: 0.9964
-    - scientific: Petrochirus diogenes
+    - scientific: "Petrochirus diogenes"
       confidence: 0.0018
-    - scientific: Scorpaena plumieri
+    - scientific: "Scorpaena plumieri"
       confidence: 0.0003
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786156520.1428885
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Aliger gigas
+    - scientific: "Aliger gigas"
       confidence: 0.8773
-    - scientific: Petrochirus diogenes
+    - scientific: "Petrochirus diogenes"
       confidence: 0.1223
-    - scientific: Pterois volitans
+    - scientific: "Pterois volitans"
       confidence: 0.0001
 species:
-- scientific: Aliger gigas
-  role: primary
+- scientific: "Aliger gigas"
+  role: "primary"
   confidence: 0.9368
-  identified_by: bioclip-2+bioclip-2.5
+  identified_by: "bioclip-2+bioclip-2.5"

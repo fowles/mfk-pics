@@ -1,41 +1,41 @@
-date: '2025-08-10 14:08:32'
-location: Bonaire
-location_source: dive_site
-dive_site: Salt Pier
-credit: Delia Kulukundis
-import_album: 2025-08-10 - Bonaire, Salt Pier
-import_original_name: IMG_5514.JPG
+date: "2025-08-10 14:08:32"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Salt Pier"
+credit: "Delia Kulukundis"
+import_album: "2025-08-10 - Bonaire, Salt Pier"
+import_original_name: "IMG_5514.JPG"
 lat: 12.082963699999999
 lon: -68.28180019999999
-gps_source: dive_site
+gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786157580.6569514
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Sparisoma viride
+    - scientific: "Sparisoma viride"
       confidence: 0.2699
-    - scientific: Sparisoma aurofrenatum
+    - scientific: "Sparisoma aurofrenatum"
       confidence: 0.2396
-    - scientific: Cephalopholis cruentata
+    - scientific: "Cephalopholis cruentata"
       confidence: 0.046
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786157580.6569514
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Ophioblennius macclurei
+    - scientific: "Ophioblennius macclurei"
       confidence: 0.0135
-    - scientific: Gymnothorax moringa
+    - scientific: "Gymnothorax moringa"
       confidence: 0.0065
-    - scientific: Octopus insularis
+    - scientific: "Octopus insularis"
       confidence: 0.006
     absorbed_by:
-      scientific: Orbicella annularis
+      scientific: "Orbicella annularis"
       confidence: 0.3147
 species: []

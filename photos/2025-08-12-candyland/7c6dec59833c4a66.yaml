@@ -1,53 +1,53 @@
-date: '2025-08-12 14:14:43'
-location: Bonaire
-location_source: dive_site
-dive_site: Candyland
-credit: Delia Kulukundis
-import_album: 2025-08-12 - Candyland
-import_original_name: IMG_5628.JPG
+date: "2025-08-12 14:14:43"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Candyland"
+credit: "Delia Kulukundis"
+import_album: "2025-08-12 - Candyland"
+import_original_name: "IMG_5628.JPG"
 lat: 12.222591
 lon: -68.40111449999999
-gps_source: dive_site
+gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
 rotation_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786158136.7454534
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Elysia crispata
+    - scientific: "Elysia crispata"
       confidence: 0.9756
-    - scientific: Hermodice carunculata
+    - scientific: "Hermodice carunculata"
       confidence: 0.0083
-    - scientific: Cyphoma gibbosum
+    - scientific: "Cyphoma gibbosum"
       confidence: 0.0015
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786158136.7454534
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Elysia crispata
+    - scientific: "Elysia crispata"
       confidence: 0.9999
-    - scientific: Hermodice carunculata
+    - scientific: "Hermodice carunculata"
       confidence: 0.0
-    - scientific: Scorpaena plumieri
+    - scientific: "Scorpaena plumieri"
       confidence: 0.0
 species:
-- scientific: Elysia crispata
-  role: primary
-  identified_by: human
-  confirmed_from: bioclip-2+bioclip-2.5
-  reviewed_by: matt
-- scientific: Homo sapiens
-  role: secondary
-  identified_by: human
-  reviewed_by: matt
+- scientific: "Elysia crispata"
+  role: "primary"
+  identified_by: "human"
+  confirmed_from: "bioclip-2+bioclip-2.5"
+  reviewed_by: "matt"
+- scientific: "Homo sapiens"
+  role: "secondary"
+  identified_by: "human"
+  reviewed_by: "matt"
   person:
-  - Matthew Kulukundis
+  - "Matthew Kulukundis"
 species_reviewed:
-- primary
-- secondary
+- "primary"
+- "secondary"

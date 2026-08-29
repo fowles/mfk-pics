@@ -1,43 +1,43 @@
-date: '2025-08-15 06:56:11'
-location: Bonaire
-location_source: dive_site
-dive_site: Bachelor's Beach
-credit: Delia Kulukundis
-import_album: 2025-08-15 - Bonaire, Bachelor's Beach (dawn)
-import_original_name: IMG_5863.JPG
+date: "2025-08-15 06:56:11"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Bachelor's Beach"
+credit: "Delia Kulukundis"
+import_album: "2025-08-15 - Bonaire, Bachelor's Beach (dawn)"
+import_original_name: "IMG_5863.JPG"
 lat: 12.125370400000001
 lon: -68.2874429
-gps_source: dive_site
+gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
 rotation_applied: 90
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1787176513.2133524
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Eucidaris tribuloides
+    - scientific: "Eucidaris tribuloides"
       confidence: 0.0977
-    - scientific: Hermodice carunculata
+    - scientific: "Hermodice carunculata"
       confidence: 0.0869
-    - scientific: Gymnothorax moringa
+    - scientific: "Gymnothorax moringa"
       confidence: 0.0869
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1787176513.2133524
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Panulirus guttatus
+    - scientific: "Panulirus guttatus"
       confidence: 0.4218
-    - scientific: Mithrax spinosissimus
+    - scientific: "Mithrax spinosissimus"
       confidence: 0.2355
-    - scientific: Malacoctenus triangulatus
+    - scientific: "Malacoctenus triangulatus"
       confidence: 0.1295
 species:
-- scientific: Panulirus guttatus
-  role: primary
+- scientific: "Panulirus guttatus"
+  role: "primary"
   confidence: 0.2109
-  identified_by: bioclip-2.5
+  identified_by: "bioclip-2.5"

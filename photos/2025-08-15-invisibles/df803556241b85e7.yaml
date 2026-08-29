@@ -1,42 +1,42 @@
-date: '2025-08-15 10:09:12'
-location: Bonaire
-location_source: dive_site
-dive_site: Invisibles
-credit: Delia Kulukundis
-import_album: 2025-08-15 - Bonaire, Invisibles
-import_original_name: IMG_5906.JPG
+date: "2025-08-15 10:09:12"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Invisibles"
+credit: "Delia Kulukundis"
+import_album: "2025-08-15 - Bonaire, Invisibles"
+import_original_name: "IMG_5906.JPG"
 lat: 12.0776183
 lon: -68.28015169999999
-gps_source: dive_site
+gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786071944.8010955
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Coryphopterus lipernes
+    - scientific: "Coryphopterus lipernes"
       confidence: 0.6499
-    - scientific: Acanthemblemaria spinosa
+    - scientific: "Acanthemblemaria spinosa"
       confidence: 0.1268
-    - scientific: Acanthemblemaria maria
+    - scientific: "Acanthemblemaria maria"
       confidence: 0.0708
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786071944.8010955
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Acanthemblemaria spinosa
+    - scientific: "Acanthemblemaria spinosa"
       confidence: 0.6186
-    - scientific: Coryphopterus lipernes
+    - scientific: "Coryphopterus lipernes"
       confidence: 0.3456
-    - scientific: Acanthemblemaria maria
+    - scientific: "Acanthemblemaria maria"
       confidence: 0.011
 species:
-- scientific: Coryphopterus lipernes
-  role: primary
+- scientific: "Coryphopterus lipernes"
+  role: "primary"
   confidence: 0.4978
-  identified_by: bioclip-2+bioclip-2.5
+  identified_by: "bioclip-2+bioclip-2.5"

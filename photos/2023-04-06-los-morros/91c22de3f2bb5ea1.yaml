@@ -1,52 +1,52 @@
-date: '2023-04-06 10:10:23'
-location: Cabo Pulmo, Baja California Sur, Mexico
-location_source: dive_site
-dive_site: Los Morros
-credit: Matthew Kulukundis
-import_album: 2023-04-06, Mexico, Baja California Sur, Cabo Pulmo, Los Morros
-import_original_name: 638163726231446960.jpg
+date: "2023-04-06 10:10:23"
+location: "Cabo Pulmo, Baja California Sur, Mexico"
+location_source: "dive_site"
+dive_site: "Los Morros"
+credit: "Matthew Kulukundis"
+import_album: "2023-04-06, Mexico, Baja California Sur, Cabo Pulmo, Los Morros"
+import_original_name: "638163726231446960.jpg"
 lat: 23.4627
 lon: -109.405
-gps_source: dive_site
+gps_source: "dive_site"
 variants:
-- method: dive-plus
-  file: 91c22de3f2bb5ea1.dive-plus.webp
-  import_original_name: c795c57b39e6a6ac.webp
+- method: "dive-plus"
+  file: "91c22de3f2bb5ea1.dive-plus.webp"
+  import_original_name: "c795c57b39e6a6ac.webp"
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-25T05:43:58Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1787445729.38099
-    vocab: 2184a73cc476
+    vocab: "d7c53541e79e"
     top:
-    - scientific: Sufflamen verres
+    - scientific: "Sufflamen verres"
       confidence: 0.146
-    - scientific: Mycteroperca rosacea
+    - scientific: "Mycteroperca rosacea"
       confidence: 0.1303
-    - scientific: Kyphosus elegans
+    - scientific: "Kyphosus elegans"
       confidence: 0.0986
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-25T05:46:15Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1787445729.38099
-    vocab: 2184a73cc476
+    vocab: "d7c53541e79e"
     top:
-    - scientific: Gymnothorax castaneus
+    - scientific: "Gymnothorax castaneus"
       confidence: 0.775
-    - scientific: Mycteroperca rosacea
+    - scientific: "Mycteroperca rosacea"
       confidence: 0.0823
-    - scientific: Gymnothorax dovii
+    - scientific: "Gymnothorax dovii"
       confidence: 0.0411
 species:
-- scientific: Gymnothorax castaneus
-  role: primary
-  identified_by: human
-  confirmed_from: bioclip+bioclip-2.5
-  reviewed_by: matt
-- scientific: Paranthias colonus
-  role: secondary
-  identified_by: human
-  reviewed_by: matt
+- scientific: "Gymnothorax castaneus"
+  role: "primary"
+  identified_by: "human"
+  confirmed_from: "bioclip+bioclip-2.5"
+  reviewed_by: "matt"
+- scientific: "Paranthias colonus"
+  role: "secondary"
+  identified_by: "human"
+  reviewed_by: "matt"
 species_reviewed:
-- primary
-- secondary
+- "primary"
+- "secondary"

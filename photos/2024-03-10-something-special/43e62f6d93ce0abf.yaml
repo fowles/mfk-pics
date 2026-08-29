@@ -1,42 +1,42 @@
-date: '2024-03-10 15:24:57'
-location: Bonaire
-location_source: dive_site
-dive_site: Something Special
-credit: Delia Kulukundis
-import_album: Bonaire, Something Special, 2024-03-10
-import_original_name: IMG_4087.JPG
+date: "2024-03-10 15:24:57"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Something Special"
+credit: "Delia Kulukundis"
+import_album: "Bonaire, Something Special, 2024-03-10"
+import_original_name: "IMG_4087.JPG"
 lat: 12.150402
 lon: -68.2854452
-gps_source: dive_site
+gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786159057.881755
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Gerres cinereus
+    - scientific: "Gerres cinereus"
       confidence: 0.4709
-    - scientific: Haemulon aurolineatum
+    - scientific: "Haemulon aurolineatum"
       confidence: 0.1809
-    - scientific: Scomberomorus regalis
+    - scientific: "Scomberomorus regalis"
       confidence: 0.0906
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786159057.881755
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Caranx ruber
+    - scientific: "Caranx ruber"
       confidence: 0.8702
-    - scientific: Gerres cinereus
+    - scientific: "Gerres cinereus"
       confidence: 0.1118
-    - scientific: Haemulon carbonarium
+    - scientific: "Haemulon carbonarium"
       confidence: 0.0086
 species:
-- scientific: Caranx ruber
-  role: primary
+- scientific: "Caranx ruber"
+  role: "primary"
   confidence: 0.4351
-  identified_by: bioclip-2.5
+  identified_by: "bioclip-2.5"

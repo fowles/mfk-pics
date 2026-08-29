@@ -1,45 +1,45 @@
-date: '2015-05-20 14:51:43'
-location: Maui, Hawaii, USA
-location_source: dive_site
-dive_site: Mala Wharf
-credit: Delia Kulukundis
-import_album: 2015-05-20, USA, Hawaii, Maui, Mala Wharf
-import_original_name: DSC_1797.JPG
+date: "2015-05-20 14:51:43"
+location: "Maui, Hawaii, USA"
+location_source: "dive_site"
+dive_site: "Mala Wharf"
+credit: "Delia Kulukundis"
+import_album: "2015-05-20, USA, Hawaii, Maui, Mala Wharf"
+import_original_name: "DSC_1797.JPG"
 lat: 20.88461
 lon: -156.68646
-gps_source: dive_site
+gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-25T05:43:58Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1787441083.797181
-    vocab: 43f646ed780c
+    vocab: "23e0d65f5ba2"
     top:
-    - scientific: Selar crumenophthalmus
+    - scientific: "Selar crumenophthalmus"
       confidence: 0.2022
-    - scientific: Caesio caerulaurea
+    - scientific: "Caesio caerulaurea"
       confidence: 0.1974
-    - scientific: Caesio xanthonota
+    - scientific: "Caesio xanthonota"
       confidence: 0.129
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-25T05:46:15Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1787441083.797181
-    vocab: 43f646ed780c
+    vocab: "23e0d65f5ba2"
     top:
-    - scientific: Mulloidichthys vanicolensis
+    - scientific: "Mulloidichthys vanicolensis"
       confidence: 0.395
-    - scientific: Caesio xanthonota
+    - scientific: "Caesio xanthonota"
       confidence: 0.2991
-    - scientific: Pterocaesio chrysozona
+    - scientific: "Pterocaesio chrysozona"
       confidence: 0.1208
 species:
-- scientific: Mulloidichthys vanicolensis
-  role: primary
-  identified_by: human
-  reviewed_by: matt
+- scientific: "Mulloidichthys vanicolensis"
+  role: "primary"
+  identified_by: "human"
+  reviewed_by: "matt"
 species_reviewed:
-- primary
-- secondary
+- "primary"
+- "secondary"

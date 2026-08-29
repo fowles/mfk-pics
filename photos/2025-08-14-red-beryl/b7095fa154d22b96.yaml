@@ -1,45 +1,45 @@
-date: '2025-08-14 15:54:13'
-location: Bonaire
-location_source: dive_site
-dive_site: Red Beryl
-credit: Matthew Kulukundis
-import_album: 2025-08-14 - Bonaire, Red Beryl
-import_original_name: PXL_20250814_200429756.jpg
+date: "2025-08-14 15:54:13"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Red Beryl"
+credit: "Matthew Kulukundis"
+import_album: "2025-08-14 - Bonaire, Red Beryl"
+import_original_name: "PXL_20250814_200429756.jpg"
 lat: 12.0464185
 lon: -68.2678076
-gps_source: dive_site
+gps_source: "dive_site"
 variants:
-- method: dive-plus
-  file: b7095fa154d22b96.dive-plus.webp
-  import_original_name: 95c918e2794c5fb9.webp
+- method: "dive-plus"
+  file: "b7095fa154d22b96.dive-plus.webp"
+  import_original_name: "95c918e2794c5fb9.webp"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786158339.1363013
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Malacanthus plumieri
+    - scientific: "Malacanthus plumieri"
       confidence: 0.5742
-    - scientific: Caranx ruber
+    - scientific: "Caranx ruber"
       confidence: 0.0901
-    - scientific: Aulostomus maculatus
+    - scientific: "Aulostomus maculatus"
       confidence: 0.0533
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786158339.1363013
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Aulostomus maculatus
+    - scientific: "Aulostomus maculatus"
       confidence: 0.5968
-    - scientific: Sphyraena barracuda
+    - scientific: "Sphyraena barracuda"
       confidence: 0.29
-    - scientific: Ginglymostoma cirratum
+    - scientific: "Ginglymostoma cirratum"
       confidence: 0.065
 species:
-- scientific: Aulostomus maculatus
-  role: primary
+- scientific: "Aulostomus maculatus"
+  role: "primary"
   confidence: 0.3251
-  identified_by: bioclip-2+bioclip-2.5
+  identified_by: "bioclip-2+bioclip-2.5"

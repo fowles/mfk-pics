@@ -1,49 +1,49 @@
-date: '2019-10-16 08:56:49'
-location: Palau
-location_source: dive_site
-dive_site: Blue Corner
-credit: Delia Kulukundis
-import_album: 2019-10-16 - Palau, Blue Corner
-import_original_name: IMG_0742.JPG
+date: "2019-10-16 08:56:49"
+location: "Palau"
+location_source: "dive_site"
+dive_site: "Blue Corner"
+credit: "Delia Kulukundis"
+import_album: "2019-10-16 - Palau, Blue Corner"
+import_original_name: "IMG_0742.JPG"
 lat: 7.1343
 lon: 134.2213
-gps_source: dive_site
+gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-25T05:43:58Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1787436656.666253
-    vocab: 43f646ed780c
+    vocab: "23e0d65f5ba2"
     top:
-    - scientific: Pseudobalistes flavimarginatus
+    - scientific: "Pseudobalistes flavimarginatus"
       confidence: 0.4115
-    - scientific: Xanthichthys caeruleolineatus
+    - scientific: "Xanthichthys caeruleolineatus"
       confidence: 0.3011
-    - scientific: Sufflamen fraenatum
+    - scientific: "Sufflamen fraenatum"
       confidence: 0.1489
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-25T05:46:15Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1787436656.666253
-    vocab: 43f646ed780c
+    vocab: "23e0d65f5ba2"
     top:
-    - scientific: Balistoides viridescens
+    - scientific: "Balistoides viridescens"
       confidence: 0.2856
-    - scientific: Xanthichthys mento
+    - scientific: "Xanthichthys mento"
       confidence: 0.1802
-    - scientific: Rhinecanthus verrucosus
+    - scientific: "Rhinecanthus verrucosus"
       confidence: 0.1585
 species:
-- scientific: Balistoides viridescens
-  role: primary
-  identified_by: human
-  reviewed_by: matt
-- scientific: Homo sapiens
-  role: secondary
-  identified_by: human
-  reviewed_by: matt
+- scientific: "Balistoides viridescens"
+  role: "primary"
+  identified_by: "human"
+  reviewed_by: "matt"
+- scientific: "Homo sapiens"
+  role: "secondary"
+  identified_by: "human"
+  reviewed_by: "matt"
 species_reviewed:
-- primary
-- secondary
+- "primary"
+- "secondary"

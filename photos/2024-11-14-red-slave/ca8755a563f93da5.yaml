@@ -1,46 +1,46 @@
-date: '2024-11-14 14:57:23'
-location: Bonaire
-location_source: dive_site
-dive_site: Red Slave
-credit: Matthew Kulukundis
-import_album: 2024-11-14, Bonaire, Red Slave
-import_original_name: PXL_20241114_185723182.MP.jpg
+date: "2024-11-14 14:57:23"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Red Slave"
+credit: "Matthew Kulukundis"
+import_album: "2024-11-14, Bonaire, Red Slave"
+import_original_name: "PXL_20241114_185723182.MP.jpg"
 lat: 12.026556999999999
 lon: -68.2513754
-gps_source: dive_site
+gps_source: "dive_site"
 variants:
-- method: dive-plus
-  file: ca8755a563f93da5.dive-plus.webp
-  import_original_name: 4f52bb4896cce1d5.webp
+- method: "dive-plus"
+  file: "ca8755a563f93da5.dive-plus.webp"
+  import_original_name: "4f52bb4896cce1d5.webp"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786156982.466497
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Sepioteuthis sepioidea
+    - scientific: "Sepioteuthis sepioidea"
       confidence: 0.215
-    - scientific: Gerres cinereus
+    - scientific: "Gerres cinereus"
       confidence: 0.1147
-    - scientific: Scomberomorus regalis
+    - scientific: "Scomberomorus regalis"
       confidence: 0.0853
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786156982.466497
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Eretmochelys imbricata
+    - scientific: "Eretmochelys imbricata"
       confidence: 0.8133
-    - scientific: Chelonia mydas
+    - scientific: "Chelonia mydas"
       confidence: 0.1351
-    - scientific: Aetobatus narinari
+    - scientific: "Aetobatus narinari"
       confidence: 0.0287
 species:
-- scientific: Eretmochelys imbricata
-  role: primary
+- scientific: "Eretmochelys imbricata"
+  role: "primary"
   confidence: 0.4067
-  identified_by: bioclip-2.5
+  identified_by: "bioclip-2.5"
 cull_reviewed: true

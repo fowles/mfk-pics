@@ -1,46 +1,46 @@
-date: '2024-07-10 16:17:41'
-location: Bonaire
-location_source: dive_site
-dive_site: Bachelor's Beach
-credit: Matthew Kulukundis
-import_album: Bachelor's Beach, Bonaire 7-10-2024
-import_original_name: PXL_20240710_201741184.jpg
+date: "2024-07-10 16:17:41"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Bachelor's Beach"
+credit: "Matthew Kulukundis"
+import_album: "Bachelor's Beach, Bonaire 7-10-2024"
+import_original_name: "PXL_20240710_201741184.jpg"
 lat: 12.125370400000001
 lon: -68.2874429
-gps_source: dive_site
+gps_source: "dive_site"
 variants:
-- method: dive-plus
-  file: 30b255381d0de6b6.dive-plus.webp
-  import_original_name: b8c8ae2ca31e36c2.webp
+- method: "dive-plus"
+  file: "30b255381d0de6b6.dive-plus.webp"
+  import_original_name: "b8c8ae2ca31e36c2.webp"
 date_reviewed: true
 rotation_applied: 270
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1787028974.2192643
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Serranus tigrinus
+    - scientific: "Serranus tigrinus"
       confidence: 0.4371
-    - scientific: Mycteroperca tigris
+    - scientific: "Mycteroperca tigris"
       confidence: 0.1159
-    - scientific: Hypoplectrus puella
+    - scientific: "Hypoplectrus puella"
       confidence: 0.0458
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1787028974.2192643
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Stegastes partitus
+    - scientific: "Stegastes partitus"
       confidence: 0.3814
-    - scientific: Monacanthus tuckeri
+    - scientific: "Monacanthus tuckeri"
       confidence: 0.1295
-    - scientific: Serranus tortugarum
+    - scientific: "Serranus tortugarum"
       confidence: 0.0867
 species:
-- scientific: Serranus tigrinus
-  role: primary
+- scientific: "Serranus tigrinus"
+  role: "primary"
   confidence: 0.2185
-  identified_by: bioclip-2
+  identified_by: "bioclip-2"

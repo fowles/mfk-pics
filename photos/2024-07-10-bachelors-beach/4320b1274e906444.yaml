@@ -1,45 +1,45 @@
-date: '2024-07-10 16:16:06'
-location: Bonaire
-location_source: dive_site
-dive_site: Bachelor's Beach
-credit: Matthew Kulukundis
-import_album: Bachelor's Beach, Bonaire 7-10-2024
-import_original_name: PXL_20240710_201606994.jpg
+date: "2024-07-10 16:16:06"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Bachelor's Beach"
+credit: "Matthew Kulukundis"
+import_album: "Bachelor's Beach, Bonaire 7-10-2024"
+import_original_name: "PXL_20240710_201606994.jpg"
 lat: 12.125370400000001
 lon: -68.2874429
-gps_source: dive_site
+gps_source: "dive_site"
 variants:
-- method: dive-plus
-  file: 4320b1274e906444.dive-plus.webp
-  import_original_name: f9b8344a1759b50e.webp
+- method: "dive-plus"
+  file: "4320b1274e906444.dive-plus.webp"
+  import_original_name: "f9b8344a1759b50e.webp"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786158743.037901
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Halichoeres garnoti
+    - scientific: "Halichoeres garnoti"
       confidence: 0.1357
-    - scientific: Malacanthus plumieri
+    - scientific: "Malacanthus plumieri"
       confidence: 0.0601
-    - scientific: Cyphoma gibbosum
+    - scientific: "Cyphoma gibbosum"
       confidence: 0.0526
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786158743.037901
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Aulostomus maculatus
+    - scientific: "Aulostomus maculatus"
       confidence: 0.2646
-    - scientific: Monacanthus tuckeri
+    - scientific: "Monacanthus tuckeri"
       confidence: 0.1536
-    - scientific: Abudefduf saxatilis
+    - scientific: "Abudefduf saxatilis"
       confidence: 0.0666
 species:
-- scientific: Aulostomus maculatus
-  role: primary
+- scientific: "Aulostomus maculatus"
+  role: "primary"
   confidence: 0.1323
-  identified_by: bioclip-2.5
+  identified_by: "bioclip-2.5"

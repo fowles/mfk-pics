@@ -1,50 +1,50 @@
-date: '2025-10-08 16:48:00'
-location: Bahamas
-location_source: dive_site
-dive_site: Bull Run
-credit: Delia Kulukundis
-import_album: Juliet Bahamas 2025 Underwater (all)
-import_original_name: IMG_6295.JPG
+date: "2025-10-08 16:48:00"
+location: "Bahamas"
+location_source: "dive_site"
+dive_site: "Bull Run"
+credit: "Delia Kulukundis"
+import_album: "Juliet Bahamas 2025 Underwater (all)"
+import_original_name: "IMG_6295.JPG"
 lat: 25.5006
 lon: -79.2641
-gps_source: dive_site
+gps_source: "dive_site"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786159807.9003747
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Chromis cyanea
+    - scientific: "Chromis cyanea"
       confidence: 0.302
-    - scientific: Chromis multilineata
+    - scientific: "Chromis multilineata"
       confidence: 0.1718
-    - scientific: Caranx ruber
+    - scientific: "Caranx ruber"
       confidence: 0.1331
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786159807.9003747
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Clepticus parrae
+    - scientific: "Clepticus parrae"
       confidence: 0.6442
-    - scientific: Chromis cyanea
+    - scientific: "Chromis cyanea"
       confidence: 0.3258
-    - scientific: Chromis multilineata
+    - scientific: "Chromis multilineata"
       confidence: 0.0198
 species:
-- scientific: Clepticus parrae
-  role: primary
-  identified_by: human
-  confirmed_from: bioclip-2.5
-  reviewed_by: matt
-- scientific: Chromis cyanea
-  role: secondary
-  identified_by: human
-  confirmed_from: bioclip-2+bioclip-2.5
-  reviewed_by: matt
+- scientific: "Clepticus parrae"
+  role: "primary"
+  identified_by: "human"
+  confirmed_from: "bioclip-2.5"
+  reviewed_by: "matt"
+- scientific: "Chromis cyanea"
+  role: "secondary"
+  identified_by: "human"
+  confirmed_from: "bioclip-2+bioclip-2.5"
+  reviewed_by: "matt"
 species_reviewed:
-- primary
-- secondary
+- "primary"
+- "secondary"

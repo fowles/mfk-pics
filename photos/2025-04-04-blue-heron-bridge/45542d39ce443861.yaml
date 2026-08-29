@@ -1,46 +1,46 @@
-date: '2025-04-04 13:51:34'
-location: West Palm Beach, FL, USA
-location_source: dive_site
-dive_site: Blue Heron Bridge
-credit: Delia Kulukundis
-import_album: 2025-04-04, Blue Heron Bridge, West Palm Beach, FL
-import_original_name: IMG_5382.JPG
+date: "2025-04-04 13:51:34"
+location: "West Palm Beach, FL, USA"
+location_source: "dive_site"
+dive_site: "Blue Heron Bridge"
+credit: "Delia Kulukundis"
+import_album: "2025-04-04, Blue Heron Bridge, West Palm Beach, FL"
+import_original_name: "IMG_5382.JPG"
 lat: 26.7838864
 lon: -80.044118
-gps_source: dive_site
+gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786157485.5643566
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Acanthemblemaria maria
+    - scientific: "Acanthemblemaria maria"
       confidence: 0.6415
-    - scientific: Parablennius marmoreus
+    - scientific: "Parablennius marmoreus"
       confidence: 0.2516
-    - scientific: Emblemaria pandionis
+    - scientific: "Emblemaria pandionis"
       confidence: 0.0571
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786157485.5643566
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Parablennius marmoreus
+    - scientific: "Parablennius marmoreus"
       confidence: 0.9903
-    - scientific: Hermodice carunculata
+    - scientific: "Hermodice carunculata"
       confidence: 0.0093
-    - scientific: Emblemaria pandionis
+    - scientific: "Emblemaria pandionis"
       confidence: 0.0001
 species:
-- scientific: Parablennius marmoreus
-  role: primary
-  identified_by: human
-  confirmed_from: bioclip-2+bioclip-2.5
-  reviewed_by: matt
+- scientific: "Parablennius marmoreus"
+  role: "primary"
+  identified_by: "human"
+  confirmed_from: "bioclip-2+bioclip-2.5"
+  reviewed_by: "matt"
 species_reviewed:
-- primary
-- secondary
+- "primary"
+- "secondary"

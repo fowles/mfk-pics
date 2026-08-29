@@ -1,45 +1,45 @@
-date: '2024-11-09 14:10:07'
-location: Bonaire
-location_source: dive_site
-dive_site: Salt Pier
-credit: Matthew Kulukundis
-import_album: 2024-11-09, Bonaire, Salt Pier
-import_original_name: PXL_20241109_181007462.jpg
+date: "2024-11-09 14:10:07"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Salt Pier"
+credit: "Matthew Kulukundis"
+import_album: "2024-11-09, Bonaire, Salt Pier"
+import_original_name: "PXL_20241109_181007462.jpg"
 lat: 12.082963699999999
 lon: -68.28180019999999
-gps_source: dive_site
+gps_source: "dive_site"
 variants:
-- method: dive-plus
-  file: 4ff3d77ba8d4defb.dive-plus.webp
-  import_original_name: 54337ee3f5834b42.webp
+- method: "dive-plus"
+  file: "4ff3d77ba8d4defb.dive-plus.webp"
+  import_original_name: "54337ee3f5834b42.webp"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786156579.401923
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Holacanthus ciliaris
+    - scientific: "Holacanthus ciliaris"
       confidence: 0.7532
-    - scientific: Chaetodon ocellatus
+    - scientific: "Chaetodon ocellatus"
       confidence: 0.0669
-    - scientific: Acanthurus coeruleus
+    - scientific: "Acanthurus coeruleus"
       confidence: 0.0376
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786156579.401923
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Holacanthus ciliaris
+    - scientific: "Holacanthus ciliaris"
       confidence: 0.9515
-    - scientific: Pomacanthus arcuatus
+    - scientific: "Pomacanthus arcuatus"
       confidence: 0.0319
-    - scientific: Acanthurus coeruleus
+    - scientific: "Acanthurus coeruleus"
       confidence: 0.0084
 species:
-- scientific: Holacanthus ciliaris
-  role: primary
+- scientific: "Holacanthus ciliaris"
+  role: "primary"
   confidence: 0.8523
-  identified_by: bioclip-2+bioclip-2.5
+  identified_by: "bioclip-2+bioclip-2.5"

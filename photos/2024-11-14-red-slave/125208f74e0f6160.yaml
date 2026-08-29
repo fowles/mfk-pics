@@ -1,42 +1,42 @@
-date: '2024-11-14 14:03:33'
-location: Bonaire
-location_source: dive_site
-dive_site: Red Slave
-credit: Matthew Kulukundis
-import_album: 2024-11-14, Bonaire, Red Slave
-import_original_name: PXL_20241114_180333442.jpg
+date: "2024-11-14 14:03:33"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Red Slave"
+credit: "Matthew Kulukundis"
+import_album: "2024-11-14, Bonaire, Red Slave"
+import_original_name: "PXL_20241114_180333442.jpg"
 variants:
-- method: dive-plus
-  file: 125208f74e0f6160.dive-plus.webp
-  import_original_name: 52d8bf3e5b7cadac.webp
+- method: "dive-plus"
+  file: "125208f74e0f6160.dive-plus.webp"
+  import_original_name: "52d8bf3e5b7cadac.webp"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786156977.99268
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Myrichthys breviceps
+    - scientific: "Myrichthys breviceps"
       confidence: 0.4794
-    - scientific: Myrichthys ocellatus
+    - scientific: "Myrichthys ocellatus"
       confidence: 0.0655
-    - scientific: Aulostomus maculatus
+    - scientific: "Aulostomus maculatus"
       confidence: 0.0512
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786156977.99268
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Panulirus argus
+    - scientific: "Panulirus argus"
       confidence: 0.4817
-    - scientific: Myrichthys breviceps
+    - scientific: "Myrichthys breviceps"
       confidence: 0.2967
-    - scientific: Octopus briareus
+    - scientific: "Octopus briareus"
       confidence: 0.0532
 species:
-- scientific: Myrichthys breviceps
-  role: primary
+- scientific: "Myrichthys breviceps"
+  role: "primary"
   confidence: 0.3881
-  identified_by: bioclip-2+bioclip-2.5
+  identified_by: "bioclip-2+bioclip-2.5"

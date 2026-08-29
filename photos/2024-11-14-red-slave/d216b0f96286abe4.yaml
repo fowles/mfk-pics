@@ -1,43 +1,43 @@
-date: '2024-11-14 14:17:37'
-location: Bonaire
-location_source: dive_site
-dive_site: Red Slave
-credit: Matthew Kulukundis
-import_album: 2024-11-14, Bonaire, Red Slave
-import_original_name: PXL_20241114_181737550.jpg
+date: "2024-11-14 14:17:37"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Red Slave"
+credit: "Matthew Kulukundis"
+import_album: "2024-11-14, Bonaire, Red Slave"
+import_original_name: "PXL_20241114_181737550.jpg"
 variants:
-- method: dive-plus
-  file: d216b0f96286abe4.dive-plus.webp
-  import_original_name: 0586e0993d9730aa.webp
+- method: "dive-plus"
+  file: "d216b0f96286abe4.dive-plus.webp"
+  import_original_name: "0586e0993d9730aa.webp"
 date_reviewed: true
 rotation_applied: 90
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1787028630.4828255
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Bodianus rufus
+    - scientific: "Bodianus rufus"
       confidence: 0.1103
-    - scientific: Gymnothorax funebris
+    - scientific: "Gymnothorax funebris"
       confidence: 0.0852
-    - scientific: Ocyurus chrysurus
+    - scientific: "Ocyurus chrysurus"
       confidence: 0.081
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1787028630.4828255
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Cantherhines macrocerus
+    - scientific: "Cantherhines macrocerus"
       confidence: 0.6826
-    - scientific: Haemulon plumierii
+    - scientific: "Haemulon plumierii"
       confidence: 0.1132
-    - scientific: Haemulon macrostomum
+    - scientific: "Haemulon macrostomum"
       confidence: 0.052
 species:
-- scientific: Cantherhines macrocerus
-  role: primary
+- scientific: "Cantherhines macrocerus"
+  role: "primary"
   confidence: 0.3413
-  identified_by: bioclip-2.5
+  identified_by: "bioclip-2.5"

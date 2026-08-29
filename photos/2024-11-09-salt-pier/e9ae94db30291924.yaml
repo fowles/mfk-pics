@@ -1,46 +1,46 @@
-date: '2024-11-09 14:49:14'
-location: Bonaire
-location_source: dive_site
-dive_site: Salt Pier
-credit: Matthew Kulukundis
-import_album: 2024-11-09, Bonaire, Salt Pier
-import_original_name: PXL_20241109_184914745.jpg
+date: "2024-11-09 14:49:14"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Salt Pier"
+credit: "Matthew Kulukundis"
+import_album: "2024-11-09, Bonaire, Salt Pier"
+import_original_name: "PXL_20241109_184914745.jpg"
 lat: 12.082963699999999
 lon: -68.28180019999999
-gps_source: dive_site
+gps_source: "dive_site"
 variants:
-- method: dive-plus
-  file: e9ae94db30291924.dive-plus.webp
-  import_original_name: 7828702299525806.webp
+- method: "dive-plus"
+  file: "e9ae94db30291924.dive-plus.webp"
+  import_original_name: "7828702299525806.webp"
 date_reviewed: true
 rotation_applied: 90
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1787029041.0502942
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Chaetodon striatus
+    - scientific: "Chaetodon striatus"
       confidence: 0.1788
-    - scientific: Chaetodon capistratus
+    - scientific: "Chaetodon capistratus"
       confidence: 0.1169
-    - scientific: Stegastes planifrons
+    - scientific: "Stegastes planifrons"
       confidence: 0.0599
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1787029041.0502942
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Halichoeres garnoti
+    - scientific: "Halichoeres garnoti"
       confidence: 0.3469
-    - scientific: Sparisoma viride
+    - scientific: "Sparisoma viride"
       confidence: 0.1724
-    - scientific: Microspathodon chrysurus
+    - scientific: "Microspathodon chrysurus"
       confidence: 0.1622
 species:
-- scientific: Halichoeres garnoti
-  role: primary
+- scientific: "Halichoeres garnoti"
+  role: "primary"
   confidence: 0.1734
-  identified_by: bioclip-2.5
+  identified_by: "bioclip-2.5"

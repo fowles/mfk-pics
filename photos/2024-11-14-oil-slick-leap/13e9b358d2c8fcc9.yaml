@@ -1,45 +1,45 @@
-date: '2024-11-14 17:13:31'
-location: Bonaire
-location_source: dive_site
-dive_site: Oil Slick Leap
-credit: Delia Kulukundis
-import_album: 2024-11-14, Bonaire, Oil Slick Leap
-import_original_name: IMG_5371.JPG
+date: "2024-11-14 17:13:31"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Oil Slick Leap"
+credit: "Delia Kulukundis"
+import_album: "2024-11-14, Bonaire, Oil Slick Leap"
+import_original_name: "IMG_5371.JPG"
 lat: 12.2001484
 lon: -68.3086211
-gps_source: dive_site
+gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786156896.6915627
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Acanthostracion polygonius
+    - scientific: "Acanthostracion polygonius"
       confidence: 0.6904
-    - scientific: Chilomycterus antillarum
+    - scientific: "Chilomycterus antillarum"
       confidence: 0.0999
-    - scientific: Acanthostracion quadricornis
+    - scientific: "Acanthostracion quadricornis"
       confidence: 0.0834
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786156896.6915627
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Mycteroperca tigris
+    - scientific: "Mycteroperca tigris"
       confidence: 0.6611
-    - scientific: Cephalopholis cruentata
+    - scientific: "Cephalopholis cruentata"
       confidence: 0.2732
-    - scientific: Mycteroperca bonaci
+    - scientific: "Mycteroperca bonaci"
       confidence: 0.0491
 species:
-- scientific: Epinephelus adscensionis
-  role: primary
-  identified_by: human
-  reviewed_by: matt
+- scientific: "Epinephelus adscensionis"
+  role: "primary"
+  identified_by: "human"
+  reviewed_by: "matt"
 species_reviewed:
-- primary
-- secondary
+- "primary"
+- "secondary"

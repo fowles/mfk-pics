@@ -1,48 +1,48 @@
-date: '2024-03-10 12:10:01'
-location: Bonaire
-location_source: dive_site
-dive_site: Candyland
-credit: Matthew Kulukundis
-import_album: Bonaire, Candyland, 2024-03-10
-import_original_name: PXL_20240310_161001566.jpg
+date: "2024-03-10 12:10:01"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Candyland"
+credit: "Matthew Kulukundis"
+import_album: "Bonaire, Candyland, 2024-03-10"
+import_original_name: "PXL_20240310_161001566.jpg"
 lat: 12.222591
 lon: -68.40111449999999
-gps_source: dive_site
+gps_source: "dive_site"
 variants:
-- method: dive-plus
-  file: 6acdfded26ab72b7.dive-plus.webp
-  import_original_name: f83543628499df1f.webp
+- method: "dive-plus"
+  file: "6acdfded26ab72b7.dive-plus.webp"
+  import_original_name: "f83543628499df1f.webp"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786158874.8549926
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Aulostomus maculatus
+    - scientific: "Aulostomus maculatus"
       confidence: 0.031
-    - scientific: Thalassoma bifasciatum
+    - scientific: "Thalassoma bifasciatum"
       confidence: 0.0189
-    - scientific: Pseudupeneus maculatus
+    - scientific: "Pseudupeneus maculatus"
       confidence: 0.0134
     absorbed_by:
-      scientific: Orbicella annularis
+      scientific: "Orbicella annularis"
       confidence: 0.1853
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786158874.8549926
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Monacanthus tuckeri
+    - scientific: "Monacanthus tuckeri"
       confidence: 0.9305
-    - scientific: Aluterus scriptus
+    - scientific: "Aluterus scriptus"
       confidence: 0.0365
-    - scientific: Cantherhines macrocerus
+    - scientific: "Cantherhines macrocerus"
       confidence: 0.0091
 species:
-- scientific: Monacanthus tuckeri
-  role: primary
+- scientific: "Monacanthus tuckeri"
+  role: "primary"
   confidence: 0.4652
-  identified_by: bioclip-2.5
+  identified_by: "bioclip-2.5"

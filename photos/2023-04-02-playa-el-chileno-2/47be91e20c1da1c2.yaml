@@ -1,54 +1,54 @@
-date: '2023-04-02 09:37:35'
-location: Los Cabos, Baja California Sur, Mexico
-location_source: dive_site
-dive_site: Playa el Chileno
-credit: Matthew Kulukundis
-import_album: 2023-04-02, Mexico, Baja California Sur, Los Cabos, Playa el Chileno
-import_original_name: IMG_638160250557629810.jpg
+date: "2023-04-02 09:37:35"
+location: "Los Cabos, Baja California Sur, Mexico"
+location_source: "dive_site"
+dive_site: "Playa el Chileno"
+credit: "Matthew Kulukundis"
+import_album: "2023-04-02, Mexico, Baja California Sur, Los Cabos, Playa el Chileno"
+import_original_name: "IMG_638160250557629810.jpg"
 lat: 22.94523
 lon: -109.80243
-gps_source: dive_site
+gps_source: "dive_site"
 variants:
-- method: dive-plus
-  file: 47be91e20c1da1c2.dive-plus.webp
-  import_original_name: 1c65cb6762d0e3d8.webp
+- method: "dive-plus"
+  file: "47be91e20c1da1c2.dive-plus.webp"
+  import_original_name: "1c65cb6762d0e3d8.webp"
 date_reviewed: true
 correction_standalone: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-25T05:43:58Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1787438622.4611497
-    vocab: 2184a73cc476
+    vocab: "d7c53541e79e"
     top:
-    - scientific: Isostichopus fuscus
+    - scientific: "Isostichopus fuscus"
       confidence: 0.0682
-    - scientific: Cephalopholis panamensis
+    - scientific: "Cephalopholis panamensis"
       confidence: 0.0448
-    - scientific: Apogon pacificus
+    - scientific: "Apogon pacificus"
       confidence: 0.0284
     absorbed_by:
-      scientific: Pavona gigantea
+      scientific: "Pavona gigantea"
       confidence: 0.143
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-25T05:46:15Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1787438622.4611497
-    vocab: 2184a73cc476
+    vocab: "d7c53541e79e"
     top:
-    - scientific: Microspathodon dorsalis
+    - scientific: "Microspathodon dorsalis"
       confidence: 0.1046
-    - scientific: Isostichopus fuscus
+    - scientific: "Isostichopus fuscus"
       confidence: 0.104
-    - scientific: Pseudobalistes naufragium
+    - scientific: "Pseudobalistes naufragium"
       confidence: 0.0892
 species:
-- scientific: Homo sapiens
-  role: primary
-  identified_by: human
-  reviewed_by: matt
+- scientific: "Homo sapiens"
+  role: "primary"
+  identified_by: "human"
+  reviewed_by: "matt"
   person:
-  - David Bede Rinaldi
+  - "David Bede Rinaldi"
 species_reviewed:
-- primary
-- secondary
+- "primary"
+- "secondary"

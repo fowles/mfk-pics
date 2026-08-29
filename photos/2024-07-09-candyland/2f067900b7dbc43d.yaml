@@ -1,45 +1,45 @@
-date: '2024-07-09 13:07:29'
-location: Bonaire
-location_source: dive_site
-dive_site: Candyland
-credit: Matthew Kulukundis
-import_album: Candyland, Bonaire, 7-9-2024
-import_original_name: PXL_20240709_170729371.jpg
+date: "2024-07-09 13:07:29"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Candyland"
+credit: "Matthew Kulukundis"
+import_album: "Candyland, Bonaire, 7-9-2024"
+import_original_name: "PXL_20240709_170729371.jpg"
 lat: 12.222591
 lon: -68.40111449999999
-gps_source: dive_site
+gps_source: "dive_site"
 variants:
-- method: dive-plus
-  file: 2f067900b7dbc43d.dive-plus.webp
-  import_original_name: 43bfae3666f33e68.webp
+- method: "dive-plus"
+  file: "2f067900b7dbc43d.dive-plus.webp"
+  import_original_name: "43bfae3666f33e68.webp"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786159178.6906216
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Clepticus parrae
+    - scientific: "Clepticus parrae"
       confidence: 0.6431
-    - scientific: Melichthys niger
+    - scientific: "Melichthys niger"
       confidence: 0.1956
-    - scientific: Paranthias furcifer
+    - scientific: "Paranthias furcifer"
       confidence: 0.0237
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786159178.6906216
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Melichthys niger
+    - scientific: "Melichthys niger"
       confidence: 0.4921
-    - scientific: Scarus coelestinus
+    - scientific: "Scarus coelestinus"
       confidence: 0.3401
-    - scientific: Mycteroperca tigris
+    - scientific: "Mycteroperca tigris"
       confidence: 0.0692
 species:
-- scientific: Melichthys niger
-  role: primary
+- scientific: "Melichthys niger"
+  role: "primary"
   confidence: 0.3438
-  identified_by: bioclip-2+bioclip-2.5
+  identified_by: "bioclip-2+bioclip-2.5"

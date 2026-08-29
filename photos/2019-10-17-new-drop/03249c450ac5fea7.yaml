@@ -1,49 +1,49 @@
-date: '2019-10-17 09:40:39'
-location: Palau
-location_source: dive_site
-dive_site: New Drop
-credit: Delia Kulukundis
-import_album: 2019-10-17 - Palau, New Drop
-import_original_name: IMG_1238.JPG
+date: "2019-10-17 09:40:39"
+location: "Palau"
+location_source: "dive_site"
+dive_site: "New Drop"
+credit: "Delia Kulukundis"
+import_album: "2019-10-17 - Palau, New Drop"
+import_original_name: "IMG_1238.JPG"
 lat: 7.106
 lon: 134.2395
-gps_source: dive_site
+gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-25T05:43:58Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1787436661.9343781
-    vocab: 43f646ed780c
+    vocab: "23e0d65f5ba2"
     top:
-    - scientific: Carcharhinus amblyrhynchos
+    - scientific: "Carcharhinus amblyrhynchos"
       confidence: 0.6187
-    - scientific: Carcharhinus falciformis
+    - scientific: "Carcharhinus falciformis"
       confidence: 0.1259
-    - scientific: Carcharhinus albimarginatus
+    - scientific: "Carcharhinus albimarginatus"
       confidence: 0.1043
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-25T05:46:15Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1787436661.9343781
-    vocab: 43f646ed780c
+    vocab: "23e0d65f5ba2"
     top:
-    - scientific: Carcharhinus amblyrhynchos
+    - scientific: "Carcharhinus amblyrhynchos"
       confidence: 0.8002
-    - scientific: Carcharhinus albimarginatus
+    - scientific: "Carcharhinus albimarginatus"
       confidence: 0.1962
-    - scientific: Carcharhinus galapagensis
+    - scientific: "Carcharhinus galapagensis"
       confidence: 0.0026
 species:
-- scientific: Homo sapiens
-  role: secondary
-  identified_by: human
-  reviewed_by: matt
-- scientific: Carcharhinus amblyrhynchos
-  role: primary
-  identified_by: human
-  reviewed_by: matt
+- scientific: "Homo sapiens"
+  role: "secondary"
+  identified_by: "human"
+  reviewed_by: "matt"
+- scientific: "Carcharhinus amblyrhynchos"
+  role: "primary"
+  identified_by: "human"
+  reviewed_by: "matt"
 species_reviewed:
-- primary
-- secondary
+- "primary"
+- "secondary"

@@ -1,45 +1,45 @@
-date: '2024-11-09 14:31:03'
-location: Bonaire
-location_source: dive_site
-dive_site: Salt Pier
-credit: Matthew Kulukundis
-import_album: 2024-11-09, Bonaire, Salt Pier
-import_original_name: PXL_20241109_183103185.jpg
+date: "2024-11-09 14:31:03"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Salt Pier"
+credit: "Matthew Kulukundis"
+import_album: "2024-11-09, Bonaire, Salt Pier"
+import_original_name: "PXL_20241109_183103185.jpg"
 lat: 12.082963699999999
 lon: -68.28180019999999
-gps_source: dive_site
+gps_source: "dive_site"
 variants:
-- method: dive-plus
-  file: 85a2b94ce9c73c8a.dive-plus.webp
-  import_original_name: 6655ebb1d86db3b7.webp
+- method: "dive-plus"
+  file: "85a2b94ce9c73c8a.dive-plus.webp"
+  import_original_name: "6655ebb1d86db3b7.webp"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786156583.2143695
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Canthidermis sufflamen
+    - scientific: "Canthidermis sufflamen"
       confidence: 0.6368
-    - scientific: Trachinotus falcatus
+    - scientific: "Trachinotus falcatus"
       confidence: 0.1799
-    - scientific: Lachnolaimus maximus
+    - scientific: "Lachnolaimus maximus"
       confidence: 0.0232
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786156583.2143695
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Megalops atlanticus
+    - scientific: "Megalops atlanticus"
       confidence: 0.595
-    - scientific: Canthidermis sufflamen
+    - scientific: "Canthidermis sufflamen"
       confidence: 0.3857
-    - scientific: Sphyraena barracuda
+    - scientific: "Sphyraena barracuda"
       confidence: 0.0129
 species:
-- scientific: Canthidermis sufflamen
-  role: primary
+- scientific: "Canthidermis sufflamen"
+  role: "primary"
   confidence: 0.5112
-  identified_by: bioclip-2+bioclip-2.5
+  identified_by: "bioclip-2+bioclip-2.5"

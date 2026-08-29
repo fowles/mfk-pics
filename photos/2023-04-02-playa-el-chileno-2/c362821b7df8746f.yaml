@@ -1,54 +1,54 @@
-date: '2023-04-02 09:45:37'
-location: Los Cabos, Baja California Sur, Mexico
-location_source: dive_site
-dive_site: Playa el Chileno
-credit: Matthew Kulukundis
-import_album: 2023-04-02, Mexico, Baja California Sur, Los Cabos, Playa el Chileno
-import_original_name: IMG_638160255372402250.jpg
+date: "2023-04-02 09:45:37"
+location: "Los Cabos, Baja California Sur, Mexico"
+location_source: "dive_site"
+dive_site: "Playa el Chileno"
+credit: "Matthew Kulukundis"
+import_album: "2023-04-02, Mexico, Baja California Sur, Los Cabos, Playa el Chileno"
+import_original_name: "IMG_638160255372402250.jpg"
 lat: 22.94523
 lon: -109.80243
-gps_source: dive_site
+gps_source: "dive_site"
 variants:
-- method: dive-plus
-  file: c362821b7df8746f.dive-plus.webp
-  import_original_name: aa4d33f0ecb40682.webp
+- method: "dive-plus"
+  file: "c362821b7df8746f.dive-plus.webp"
+  import_original_name: "aa4d33f0ecb40682.webp"
 date_reviewed: true
 correction_standalone: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-25T05:43:58Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1787438633.5034568
-    vocab: 2184a73cc476
+    vocab: "d7c53541e79e"
     top:
-    - scientific: Chilomycterus reticulatus
+    - scientific: "Chilomycterus reticulatus"
       confidence: 0.4825
-    - scientific: Urobatis maculatus
+    - scientific: "Urobatis maculatus"
       confidence: 0.1363
-    - scientific: Urobatis halleri
+    - scientific: "Urobatis halleri"
       confidence: 0.1173
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-25T05:46:15Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1787438633.5034568
-    vocab: 2184a73cc476
+    vocab: "d7c53541e79e"
     top:
-    - scientific: Pseudobalistes naufragium
+    - scientific: "Pseudobalistes naufragium"
       confidence: 0.3902
-    - scientific: Urobatis concentricus
+    - scientific: "Urobatis concentricus"
       confidence: 0.2647
-    - scientific: Sufflamen verres
+    - scientific: "Sufflamen verres"
       confidence: 0.1113
 species:
-- scientific: Zanclus cornutus
-  role: secondary
-  identified_by: human
-  reviewed_by: matt
-- scientific: Urobatis concentricus
-  role: primary
-  identified_by: human
-  confirmed_from: bioclip-2+bioclip-2.5
-  reviewed_by: matt
+- scientific: "Zanclus cornutus"
+  role: "secondary"
+  identified_by: "human"
+  reviewed_by: "matt"
+- scientific: "Urobatis concentricus"
+  role: "primary"
+  identified_by: "human"
+  confirmed_from: "bioclip-2+bioclip-2.5"
+  reviewed_by: "matt"
 species_reviewed:
-- primary
-- secondary
+- "primary"
+- "secondary"

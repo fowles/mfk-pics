@@ -1,46 +1,46 @@
-date: '2025-08-11 17:01:54'
-location: Bonaire
-location_source: dive_site
-dive_site: Bachelor's Beach
-credit: Matthew Kulukundis
-import_album: 2025-08-11 - Bonaire, Bachelor's Beach
-import_original_name: PXL_20250811_210154581.jpg
+date: "2025-08-11 17:01:54"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Bachelor's Beach"
+credit: "Matthew Kulukundis"
+import_album: "2025-08-11 - Bonaire, Bachelor's Beach"
+import_original_name: "PXL_20250811_210154581.jpg"
 lat: 12.125370400000001
 lon: -68.2874429
-gps_source: dive_site
+gps_source: "dive_site"
 variants:
-- method: dive-plus
-  file: 483d4a84f2068a21.dive-plus.webp
-  import_original_name: 97fa6cd1df742e30.webp
+- method: "dive-plus"
+  file: "483d4a84f2068a21.dive-plus.webp"
+  import_original_name: "97fa6cd1df742e30.webp"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786157882.9210339
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Hypoplectrus puella
+    - scientific: "Hypoplectrus puella"
       confidence: 0.8165
-    - scientific: Hypoplectrus indigo
+    - scientific: "Hypoplectrus indigo"
       confidence: 0.073
-    - scientific: Hypoplectrus chlorurus
+    - scientific: "Hypoplectrus chlorurus"
       confidence: 0.0303
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786157882.9210339
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Hypoplectrus puella
+    - scientific: "Hypoplectrus puella"
       confidence: 0.9238
-    - scientific: Hypoplectrus indigo
+    - scientific: "Hypoplectrus indigo"
       confidence: 0.0762
-    - scientific: Serranus tortugarum
+    - scientific: "Serranus tortugarum"
       confidence: 0.0
 species:
-- scientific: Hypoplectrus puella
-  role: primary
-  identified_by: human
-  confirmed_from: bioclip-2+bioclip-2.5
-  reviewed_by: matt
+- scientific: "Hypoplectrus puella"
+  role: "primary"
+  identified_by: "human"
+  confirmed_from: "bioclip-2+bioclip-2.5"
+  reviewed_by: "matt"

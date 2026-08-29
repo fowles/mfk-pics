@@ -1,45 +1,45 @@
-date: '2025-10-09 10:23:14'
-location: Bahamas
-location_source: dive_site
-dive_site: 'Wreck #2'
-credit: Delia Kulukundis
-import_album: Juliet Bahamas 2025 Underwater (all)
-import_original_name: IMG_6317.JPG
+date: "2025-10-09 10:23:14"
+location: "Bahamas"
+location_source: "dive_site"
+dive_site: "Wreck #2"
+credit: "Delia Kulukundis"
+import_album: "Juliet Bahamas 2025 Underwater (all)"
+import_original_name: "IMG_6317.JPG"
 lat: 25.7183
 lon: -79.3154
-gps_source: dive_site
+gps_source: "dive_site"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786159810.2849915
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Balistes vetula
+    - scientific: "Balistes vetula"
       confidence: 0.9974
-    - scientific: Sparisoma amplum
+    - scientific: "Sparisoma amplum"
       confidence: 0.0005
-    - scientific: Scarus coeruleus
+    - scientific: "Scarus coeruleus"
       confidence: 0.0004
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786159810.2849915
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Balistes vetula
+    - scientific: "Balistes vetula"
       confidence: 1.0
-    - scientific: Melichthys niger
+    - scientific: "Melichthys niger"
       confidence: 0.0
-    - scientific: Sparisoma viride
+    - scientific: "Sparisoma viride"
       confidence: 0.0
 species:
-- scientific: Balistes vetula
-  role: primary
-  identified_by: human
-  reviewed_by: matt
+- scientific: "Balistes vetula"
+  role: "primary"
+  identified_by: "human"
+  reviewed_by: "matt"
   cover: true
 species_reviewed:
-- primary
-- secondary
+- "primary"
+- "secondary"

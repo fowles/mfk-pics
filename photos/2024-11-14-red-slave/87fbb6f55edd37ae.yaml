@@ -1,42 +1,42 @@
-date: '2024-11-14 14:08:43'
-location: Bonaire
-location_source: dive_site
-dive_site: Red Slave
-credit: Matthew Kulukundis
-import_album: 2024-11-14, Bonaire, Red Slave
-import_original_name: PXL_20241114_180843539.jpg
+date: "2024-11-14 14:08:43"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Red Slave"
+credit: "Matthew Kulukundis"
+import_album: "2024-11-14, Bonaire, Red Slave"
+import_original_name: "PXL_20241114_180843539.jpg"
 variants:
-- method: dive-plus
-  file: 87fbb6f55edd37ae.dive-plus.webp
-  import_original_name: db6d9d6693d9c511.webp
+- method: "dive-plus"
+  file: "87fbb6f55edd37ae.dive-plus.webp"
+  import_original_name: "db6d9d6693d9c511.webp"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786156978.2405114
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Chromis cyanea
+    - scientific: "Chromis cyanea"
       confidence: 0.1806
-    - scientific: Bodianus rufus
+    - scientific: "Bodianus rufus"
       confidence: 0.1518
-    - scientific: Chromis multilineata
+    - scientific: "Chromis multilineata"
       confidence: 0.0777
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786156978.2405114
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Chromis multilineata
+    - scientific: "Chromis multilineata"
       confidence: 0.8964
-    - scientific: Chromis cyanea
+    - scientific: "Chromis cyanea"
       confidence: 0.0974
-    - scientific: Abudefduf saxatilis
+    - scientific: "Abudefduf saxatilis"
       confidence: 0.0047
 species:
-- scientific: Chromis multilineata
-  role: primary
+- scientific: "Chromis multilineata"
+  role: "primary"
   confidence: 0.487
-  identified_by: bioclip-2+bioclip-2.5
+  identified_by: "bioclip-2+bioclip-2.5"

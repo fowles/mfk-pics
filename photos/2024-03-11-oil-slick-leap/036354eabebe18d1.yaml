@@ -1,42 +1,42 @@
-date: '2024-03-11 13:02:29'
-location: Bonaire
-location_source: dive_site
-dive_site: Oil Slick Leap
-credit: Matthew Kulukundis
-import_album: Bonaire, Oil Slick Leap, 2024-03-11
-import_original_name: PXL_20240311_170603600.jpg
+date: "2024-03-11 13:02:29"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Oil Slick Leap"
+credit: "Matthew Kulukundis"
+import_album: "Bonaire, Oil Slick Leap, 2024-03-11"
+import_original_name: "PXL_20240311_170603600.jpg"
 variants:
-- method: dive-plus
-  file: 036354eabebe18d1.dive-plus.webp
-  import_original_name: 382b7eaf7407e4de.webp
+- method: "dive-plus"
+  file: "036354eabebe18d1.dive-plus.webp"
+  import_original_name: "382b7eaf7407e4de.webp"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786158971.3768892
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Epinephelus striatus
+    - scientific: "Epinephelus striatus"
       confidence: 0.1697
-    - scientific: Stegastes planifrons
+    - scientific: "Stegastes planifrons"
       confidence: 0.0567
-    - scientific: Cephalopholis fulva
+    - scientific: "Cephalopholis fulva"
       confidence: 0.0531
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786158971.3768892
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Cephalopholis fulva
+    - scientific: "Cephalopholis fulva"
       confidence: 0.2353
-    - scientific: Lutjanus jocu
+    - scientific: "Lutjanus jocu"
       confidence: 0.1944
-    - scientific: Lactophrys bicaudalis
+    - scientific: "Lactophrys bicaudalis"
       confidence: 0.1371
 species:
-- scientific: Cephalopholis fulva
-  role: primary
+- scientific: "Cephalopholis fulva"
+  role: "primary"
   confidence: 0.1442
-  identified_by: bioclip-2+bioclip-2.5
+  identified_by: "bioclip-2+bioclip-2.5"

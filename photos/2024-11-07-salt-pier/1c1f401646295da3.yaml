@@ -1,42 +1,42 @@
-date: '2024-11-07 10:51:00'
-location: Bonaire
-location_source: dive_site
-dive_site: Salt Pier
-credit: Delia Kulukundis
-import_album: 2024-11-07, Bonaire, Salt Pier
-import_original_name: IMG_4717.JPG
+date: "2024-11-07 10:51:00"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Salt Pier"
+credit: "Delia Kulukundis"
+import_album: "2024-11-07, Bonaire, Salt Pier"
+import_original_name: "IMG_4717.JPG"
 lat: 12.082963699999999
 lon: -68.28180019999999
-gps_source: dive_site
+gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786156326.0418935
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Carcharhinus perezi
+    - scientific: "Carcharhinus perezi"
       confidence: 0.3936
-    - scientific: Sphyraena barracuda
+    - scientific: "Sphyraena barracuda"
       confidence: 0.1413
-    - scientific: Caranx ruber
+    - scientific: "Caranx ruber"
       confidence: 0.1201
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786156326.0418935
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Sphyraena barracuda
+    - scientific: "Sphyraena barracuda"
       confidence: 0.9865
-    - scientific: Diodon hystrix
+    - scientific: "Diodon hystrix"
       confidence: 0.0123
-    - scientific: Scomberomorus regalis
+    - scientific: "Scomberomorus regalis"
       confidence: 0.0009
 species:
-- scientific: Sphyraena barracuda
-  role: primary
+- scientific: "Sphyraena barracuda"
+  role: "primary"
   confidence: 0.5639
-  identified_by: bioclip-2+bioclip-2.5
+  identified_by: "bioclip-2+bioclip-2.5"

@@ -1,41 +1,41 @@
-date: '2025-10-07 10:59:54'
-location: Bahamas
-location_source: dive_site
-dive_site: Krispy Kreme
-credit: Delia Kulukundis
-import_album: Juliet Bahamas 2025 Underwater (all)
-import_original_name: IMG_6180.JPG
+date: "2025-10-07 10:59:54"
+location: "Bahamas"
+location_source: "dive_site"
+dive_site: "Krispy Kreme"
+credit: "Delia Kulukundis"
+import_album: "Juliet Bahamas 2025 Underwater (all)"
+import_original_name: "IMG_6180.JPG"
 lat: 25.5543
 lon: -79.2886
-gps_source: dive_site
+gps_source: "dive_site"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786159798.4176574
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Myrichthys ocellatus
+    - scientific: "Myrichthys ocellatus"
       confidence: 0.1191
-    - scientific: Epinephelus adscensionis
+    - scientific: "Epinephelus adscensionis"
       confidence: 0.1157
-    - scientific: Serranus tigrinus
+    - scientific: "Serranus tigrinus"
       confidence: 0.0706
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786159798.4176574
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Malacoctenus triangulatus
+    - scientific: "Malacoctenus triangulatus"
       confidence: 0.1859
-    - scientific: Lactophrys triqueter
+    - scientific: "Lactophrys triqueter"
       confidence: 0.1801
-    - scientific: Gymnothorax moringa
+    - scientific: "Gymnothorax moringa"
       confidence: 0.1683
 species:
-- scientific: Malacoctenus triangulatus
-  role: primary
+- scientific: "Malacoctenus triangulatus"
+  role: "primary"
   confidence: 0.093
-  identified_by: bioclip-2.5
+  identified_by: "bioclip-2.5"

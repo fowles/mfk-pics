@@ -1,49 +1,49 @@
-date: '2024-03-11 13:19:50'
-location: Bonaire
-location_source: dive_site
-dive_site: Oil Slick Leap
-credit: Matthew Kulukundis
-import_album: Bonaire, Oil Slick Leap, 2024-03-11
-import_original_name: PXL_20240311_172324465.jpg
+date: "2024-03-11 13:19:50"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Oil Slick Leap"
+credit: "Matthew Kulukundis"
+import_album: "Bonaire, Oil Slick Leap, 2024-03-11"
+import_original_name: "PXL_20240311_172324465.jpg"
 lat: 12.2001484
 lon: -68.3086211
-gps_source: dive_site
+gps_source: "dive_site"
 variants:
-- method: dive-plus
-  file: 7e152b601aad9678.dive-plus.webp
-  import_original_name: ec5ad7484796d338.webp
+- method: "dive-plus"
+  file: "7e152b601aad9678.dive-plus.webp"
+  import_original_name: "ec5ad7484796d338.webp"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786158973.6109903
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Caranx latus
+    - scientific: "Caranx latus"
       confidence: 0.7874
-    - scientific: Caranx ruber
+    - scientific: "Caranx ruber"
       confidence: 0.1789
-    - scientific: Seriola rivoliana
+    - scientific: "Seriola rivoliana"
       confidence: 0.0124
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786158973.6109903
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Caranx ruber
+    - scientific: "Caranx ruber"
       confidence: 0.9755
-    - scientific: Carangoides bartholomaei
+    - scientific: "Carangoides bartholomaei"
       confidence: 0.016
-    - scientific: Caranx latus
+    - scientific: "Caranx latus"
       confidence: 0.0064
 species:
-- scientific: Caranx ruber
-  role: primary
-  identified_by: human
-  confirmed_from: bioclip-2+bioclip-2.5
-  reviewed_by: matt
+- scientific: "Caranx ruber"
+  role: "primary"
+  identified_by: "human"
+  confirmed_from: "bioclip-2+bioclip-2.5"
+  reviewed_by: "matt"
 species_reviewed:
-- primary
-- secondary
+- "primary"
+- "secondary"

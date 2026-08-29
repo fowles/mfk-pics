@@ -1,45 +1,45 @@
-date: '2025-08-11 14:15:09'
-location: Bonaire
-location_source: dive_site
-dive_site: Weber's Joy
-credit: Matthew Kulukundis
-import_album: 2025-08-11 - Bonaire, Weber's Joy
-import_original_name: PXL_20250811_181509538.MP.jpg
+date: "2025-08-11 14:15:09"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Weber's Joy"
+credit: "Matthew Kulukundis"
+import_album: "2025-08-11 - Bonaire, Weber's Joy"
+import_original_name: "PXL_20250811_181509538.MP.jpg"
 lat: 12.2065506
 lon: -68.3164123
-gps_source: dive_site
+gps_source: "dive_site"
 variants:
-- method: dive-plus
-  file: 78216d50151af957.dive-plus.webp
-  import_original_name: 6ceeb7ade316f27e.webp
+- method: "dive-plus"
+  file: "78216d50151af957.dive-plus.webp"
+  import_original_name: "6ceeb7ade316f27e.webp"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786071915.0205078
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Acanthostracion polygonius
+    - scientific: "Acanthostracion polygonius"
       confidence: 0.5765
-    - scientific: Aluterus scriptus
+    - scientific: "Aluterus scriptus"
       confidence: 0.3434
-    - scientific: Aluterus schoepfii
+    - scientific: "Aluterus schoepfii"
       confidence: 0.0155
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786071915.0205078
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Aluterus scriptus
+    - scientific: "Aluterus scriptus"
       confidence: 0.9579
-    - scientific: Acanthostracion polygonius
+    - scientific: "Acanthostracion polygonius"
       confidence: 0.0393
-    - scientific: Mycteroperca bonaci
+    - scientific: "Mycteroperca bonaci"
       confidence: 0.0014
 species:
-- scientific: Aluterus scriptus
-  role: primary
+- scientific: "Aluterus scriptus"
+  role: "primary"
   confidence: 0.6506
-  identified_by: bioclip-2+bioclip-2.5
+  identified_by: "bioclip-2+bioclip-2.5"

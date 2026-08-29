@@ -1,45 +1,45 @@
-date: '2025-08-14 16:08:15'
-location: Bonaire
-location_source: dive_site
-dive_site: Red Beryl
-credit: Matthew Kulukundis
-import_album: 2025-08-14 - Bonaire, Red Beryl
-import_original_name: PXL_20250814_201831474.jpg
+date: "2025-08-14 16:08:15"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Red Beryl"
+credit: "Matthew Kulukundis"
+import_album: "2025-08-14 - Bonaire, Red Beryl"
+import_original_name: "PXL_20250814_201831474.jpg"
 lat: 12.0464185
 lon: -68.2678076
-gps_source: dive_site
+gps_source: "dive_site"
 variants:
-- method: dive-plus
-  file: 2057e1d31fc06189.dive-plus.webp
-  import_original_name: e08b0c0f00c27494.webp
+- method: "dive-plus"
+  file: "2057e1d31fc06189.dive-plus.webp"
+  import_original_name: "e08b0c0f00c27494.webp"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786158339.1848729
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Synodus intermedius
+    - scientific: "Synodus intermedius"
       confidence: 0.5817
-    - scientific: Epinephelus adscensionis
+    - scientific: "Epinephelus adscensionis"
       confidence: 0.0629
-    - scientific: Serranus tigrinus
+    - scientific: "Serranus tigrinus"
       confidence: 0.0413
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786158339.1848729
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Synodus intermedius
+    - scientific: "Synodus intermedius"
       confidence: 0.9989
-    - scientific: Serranus tigrinus
+    - scientific: "Serranus tigrinus"
       confidence: 0.0004
-    - scientific: Mycteroperca tigris
+    - scientific: "Mycteroperca tigris"
       confidence: 0.0002
 species:
-- scientific: Synodus intermedius
-  role: primary
+- scientific: "Synodus intermedius"
+  role: "primary"
   confidence: 0.7903
-  identified_by: bioclip-2+bioclip-2.5
+  identified_by: "bioclip-2+bioclip-2.5"

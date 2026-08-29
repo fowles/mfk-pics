@@ -1,45 +1,45 @@
-date: '2024-11-11 16:02:04'
-location: Bonaire
-location_source: dive_site
-dive_site: Angel City
-credit: Matthew Kulukundis
-import_album: 2024-11-11, Bonaire, Angel City
-import_original_name: PXL_20241111_200204271.jpg
+date: "2024-11-11 16:02:04"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Angel City"
+credit: "Matthew Kulukundis"
+import_album: "2024-11-11, Bonaire, Angel City"
+import_original_name: "PXL_20241111_200204271.jpg"
 lat: 12.103454
 lon: -68.2872912
-gps_source: dive_site
+gps_source: "dive_site"
 variants:
-- method: dive-plus
-  file: 77856ff95ed1a6ee.dive-plus.webp
-  import_original_name: 77863eee99b8cd92.webp
+- method: "dive-plus"
+  file: "77856ff95ed1a6ee.dive-plus.webp"
+  import_original_name: "77863eee99b8cd92.webp"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786156745.748456
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Holocentrus adscensionis
+    - scientific: "Holocentrus adscensionis"
       confidence: 0.0683
-    - scientific: Chromis cyanea
+    - scientific: "Chromis cyanea"
       confidence: 0.053
-    - scientific: Myripristis jacobus
+    - scientific: "Myripristis jacobus"
       confidence: 0.0492
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786156745.748456
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Acanthostracion polygonius
+    - scientific: "Acanthostracion polygonius"
       confidence: 0.2946
-    - scientific: Chromis multilineata
+    - scientific: "Chromis multilineata"
       confidence: 0.1439
-    - scientific: Pomacanthus arcuatus
+    - scientific: "Pomacanthus arcuatus"
       confidence: 0.0958
 species:
-- scientific: Acanthostracion polygonius
-  role: primary
+- scientific: "Acanthostracion polygonius"
+  role: "primary"
   confidence: 0.1473
-  identified_by: bioclip-2.5
+  identified_by: "bioclip-2.5"

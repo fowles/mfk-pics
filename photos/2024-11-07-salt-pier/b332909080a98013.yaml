@@ -1,46 +1,46 @@
-date: '2024-11-07 10:24:44'
-location: Bonaire
-location_source: dive_site
-dive_site: Salt Pier
-credit: Matthew Kulukundis
-import_album: 2024-11-07, Bonaire, Salt Pier
-import_original_name: PXL_20241107_142444617.jpg
+date: "2024-11-07 10:24:44"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Salt Pier"
+credit: "Matthew Kulukundis"
+import_album: "2024-11-07, Bonaire, Salt Pier"
+import_original_name: "PXL_20241107_142444617.jpg"
 lat: 12.082963699999999
 lon: -68.28180019999999
-gps_source: dive_site
+gps_source: "dive_site"
 variants:
-- method: dive-plus
-  file: b332909080a98013.dive-plus.webp
-  import_original_name: ee6dfdbb8277de46.webp
+- method: "dive-plus"
+  file: "b332909080a98013.dive-plus.webp"
+  import_original_name: "ee6dfdbb8277de46.webp"
 date_reviewed: true
 rotation_applied: 270
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1787030910.5752738
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Myrichthys breviceps
+    - scientific: "Myrichthys breviceps"
       confidence: 0.7204
-    - scientific: Myrichthys ocellatus
+    - scientific: "Myrichthys ocellatus"
       confidence: 0.1605
-    - scientific: Hermodice carunculata
+    - scientific: "Hermodice carunculata"
       confidence: 0.033
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1787030910.5752738
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Myrichthys breviceps
+    - scientific: "Myrichthys breviceps"
       confidence: 0.999
-    - scientific: Gymnothorax moringa
+    - scientific: "Gymnothorax moringa"
       confidence: 0.0005
-    - scientific: Myrichthys ocellatus
+    - scientific: "Myrichthys ocellatus"
       confidence: 0.0003
 species:
-- scientific: Myrichthys breviceps
-  role: primary
+- scientific: "Myrichthys breviceps"
+  role: "primary"
   confidence: 0.8597
-  identified_by: bioclip-2+bioclip-2.5
+  identified_by: "bioclip-2+bioclip-2.5"

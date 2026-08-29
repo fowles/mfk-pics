@@ -1,42 +1,42 @@
-date: '2024-07-10 15:49:11'
-location: Bonaire
-location_source: dive_site
-dive_site: Bachelor's Beach
-credit: Matthew Kulukundis
-import_album: Bachelor's Beach, Bonaire 7-10-2024
-import_original_name: PXL_20240710_194911707.jpg
+date: "2024-07-10 15:49:11"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Bachelor's Beach"
+credit: "Matthew Kulukundis"
+import_album: "Bachelor's Beach, Bonaire 7-10-2024"
+import_original_name: "PXL_20240710_194911707.jpg"
 variants:
-- method: dive-plus
-  file: f17bd4abc61a1a8a.dive-plus.webp
-  import_original_name: fc57ff42160934a8.webp
+- method: "dive-plus"
+  file: "f17bd4abc61a1a8a.dive-plus.webp"
+  import_original_name: "fc57ff42160934a8.webp"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786158724.773868
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Scarus taeniopterus
+    - scientific: "Scarus taeniopterus"
       confidence: 0.4472
-    - scientific: Scarus vetula
+    - scientific: "Scarus vetula"
       confidence: 0.1235
-    - scientific: Malacanthus plumieri
+    - scientific: "Malacanthus plumieri"
       confidence: 0.0583
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786158724.773868
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Caranx ruber
+    - scientific: "Caranx ruber"
       confidence: 0.8574
-    - scientific: Scarus taeniopterus
+    - scientific: "Scarus taeniopterus"
       confidence: 0.0705
-    - scientific: Scarus vetula
+    - scientific: "Scarus vetula"
       confidence: 0.0589
 species:
-- scientific: Caranx ruber
-  role: primary
+- scientific: "Caranx ruber"
+  role: "primary"
   confidence: 0.4287
-  identified_by: bioclip-2.5
+  identified_by: "bioclip-2.5"

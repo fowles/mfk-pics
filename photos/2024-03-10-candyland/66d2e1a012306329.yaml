@@ -1,45 +1,45 @@
-date: '2024-03-10 11:40:07'
-location: Bonaire
-location_source: dive_site
-dive_site: Candyland
-credit: Matthew Kulukundis
-import_album: Bonaire, Candyland, 2024-03-10
-import_original_name: PXL_20240310_154007810.jpg
+date: "2024-03-10 11:40:07"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Candyland"
+credit: "Matthew Kulukundis"
+import_album: "Bonaire, Candyland, 2024-03-10"
+import_original_name: "PXL_20240310_154007810.jpg"
 variants:
-- method: dive-plus
-  file: 66d2e1a012306329.dive-plus.webp
-  import_original_name: c47863542b8b29ab.webp
+- method: "dive-plus"
+  file: "66d2e1a012306329.dive-plus.webp"
+  import_original_name: "c47863542b8b29ab.webp"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786158872.4275901
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Aluterus scriptus
+    - scientific: "Aluterus scriptus"
       confidence: 0.5201
-    - scientific: Bodianus rufus
+    - scientific: "Bodianus rufus"
       confidence: 0.1267
-    - scientific: Aulostomus maculatus
+    - scientific: "Aulostomus maculatus"
       confidence: 0.0847
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786158872.4275901
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Sparisoma viride
+    - scientific: "Sparisoma viride"
       confidence: 0.4225
-    - scientific: Scarus coelestinus
+    - scientific: "Scarus coelestinus"
       confidence: 0.2573
-    - scientific: Scarus vetula
+    - scientific: "Scarus vetula"
       confidence: 0.1353
 species:
-- scientific: Aluterus scriptus
-  role: primary
-  identified_by: human
-  reviewed_by: matt
+- scientific: "Aluterus scriptus"
+  role: "primary"
+  identified_by: "human"
+  reviewed_by: "matt"
 species_reviewed:
-- primary
-- secondary
+- "primary"
+- "secondary"

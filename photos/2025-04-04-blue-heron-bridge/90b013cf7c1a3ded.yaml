@@ -1,46 +1,46 @@
-date: '2025-04-04 13:53:48'
-location: West Palm Beach, FL, USA
-location_source: dive_site
-dive_site: Blue Heron Bridge
-credit: Matthew Kulukundis
-import_album: 2025-04-04, Blue Heron Bridge, West Palm Beach, FL
-import_original_name: PXL_20250404_175348607.MP.jpg
+date: "2025-04-04 13:53:48"
+location: "West Palm Beach, FL, USA"
+location_source: "dive_site"
+dive_site: "Blue Heron Bridge"
+credit: "Matthew Kulukundis"
+import_album: "2025-04-04, Blue Heron Bridge, West Palm Beach, FL"
+import_original_name: "PXL_20250404_175348607.MP.jpg"
 variants:
-- method: dive-plus
-  file: 90b013cf7c1a3ded.dive-plus.webp
-  import_original_name: e6f7edd244318d09.webp
+- method: "dive-plus"
+  file: "90b013cf7c1a3ded.dive-plus.webp"
+  import_original_name: "e6f7edd244318d09.webp"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786157490.4488852
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Petrochirus diogenes
+    - scientific: "Petrochirus diogenes"
       confidence: 0.8073
-    - scientific: Aliger gigas
+    - scientific: "Aliger gigas"
       confidence: 0.173
-    - scientific: Paguristes cadenati
+    - scientific: "Paguristes cadenati"
       confidence: 0.0159
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786157490.4488852
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Petrochirus diogenes
+    - scientific: "Petrochirus diogenes"
       confidence: 0.9922
-    - scientific: Aliger gigas
+    - scientific: "Aliger gigas"
       confidence: 0.0073
-    - scientific: Antennarius striatus
+    - scientific: "Antennarius striatus"
       confidence: 0.0003
 species:
-- scientific: Petrochirus diogenes
-  role: primary
-  identified_by: human
-  confirmed_from: bioclip-2+bioclip-2.5
-  reviewed_by: matt
+- scientific: "Petrochirus diogenes"
+  role: "primary"
+  identified_by: "human"
+  confirmed_from: "bioclip-2+bioclip-2.5"
+  reviewed_by: "matt"
 species_reviewed:
-- primary
-- secondary
+- "primary"
+- "secondary"

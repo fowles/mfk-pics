@@ -1,42 +1,42 @@
-date: '2024-03-11 13:00:33'
-location: Bonaire
-location_source: dive_site
-dive_site: Oil Slick Leap
-credit: Matthew Kulukundis
-import_album: Bonaire, Oil Slick Leap, 2024-03-11
-import_original_name: PXL_20240311_170407921.jpg
+date: "2024-03-11 13:00:33"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Oil Slick Leap"
+credit: "Matthew Kulukundis"
+import_album: "Bonaire, Oil Slick Leap, 2024-03-11"
+import_original_name: "PXL_20240311_170407921.jpg"
 variants:
-- method: dive-plus
-  file: 74870c0cf286f422.dive-plus.webp
-  import_original_name: 13780e8c637f09ed.webp
+- method: "dive-plus"
+  file: "74870c0cf286f422.dive-plus.webp"
+  import_original_name: "13780e8c637f09ed.webp"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786158969.1202126
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Bodianus rufus
+    - scientific: "Bodianus rufus"
       confidence: 0.6714
-    - scientific: Holacanthus tricolor
+    - scientific: "Holacanthus tricolor"
       confidence: 0.1007
-    - scientific: Holacanthus ciliaris
+    - scientific: "Holacanthus ciliaris"
       confidence: 0.0631
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786158969.1202126
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Stegastes planifrons
+    - scientific: "Stegastes planifrons"
       confidence: 0.4495
-    - scientific: Halichoeres garnoti
+    - scientific: "Halichoeres garnoti"
       confidence: 0.2146
-    - scientific: Bodianus rufus
+    - scientific: "Bodianus rufus"
       confidence: 0.2033
 species:
-- scientific: Bodianus rufus
-  role: primary
+- scientific: "Bodianus rufus"
+  role: "primary"
   confidence: 0.4374
-  identified_by: bioclip-2+bioclip-2.5
+  identified_by: "bioclip-2+bioclip-2.5"

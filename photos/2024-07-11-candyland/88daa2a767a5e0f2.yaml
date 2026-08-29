@@ -1,52 +1,52 @@
-date: '2024-07-11 15:46:28'
-location: Bonaire
-location_source: dive_site
-dive_site: Candyland
-credit: Matthew Kulukundis
-import_album: Candyland, Bonaire, 7-11-2024
-import_original_name: PXL_20240711_194628510.jpg
+date: "2024-07-11 15:46:28"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Candyland"
+credit: "Matthew Kulukundis"
+import_album: "Candyland, Bonaire, 7-11-2024"
+import_original_name: "PXL_20240711_194628510.jpg"
 variants:
-- method: dive-plus
-  file: 88daa2a767a5e0f2.dive-plus.webp
-  import_original_name: 8e320a9836321364.webp
+- method: "dive-plus"
+  file: "88daa2a767a5e0f2.dive-plus.webp"
+  import_original_name: "8e320a9836321364.webp"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786159286.268437
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Holacanthus tricolor
+    - scientific: "Holacanthus tricolor"
       confidence: 0.0133
-    - scientific: Cephalopholis cruentata
+    - scientific: "Cephalopholis cruentata"
       confidence: 0.0132
-    - scientific: Stegastes partitus
+    - scientific: "Stegastes partitus"
       confidence: 0.013
     absorbed_by:
-      scientific: Orbicella annularis
+      scientific: "Orbicella annularis"
       confidence: 0.3612
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786159286.268437
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Pterois volitans
+    - scientific: "Pterois volitans"
       confidence: 0.0125
-    - scientific: Sparisoma viride
+    - scientific: "Sparisoma viride"
       confidence: 0.0072
-    - scientific: Mycteroperca tigris
+    - scientific: "Mycteroperca tigris"
       confidence: 0.0049
     absorbed_by:
-      scientific: Orbicella annularis
+      scientific: "Orbicella annularis"
       confidence: 0.9139
 species:
-- scientific: Pterois volitans
-  role: primary
-  identified_by: human
-  confirmed_from: bioclip-2.5
-  reviewed_by: matt
+- scientific: "Pterois volitans"
+  role: "primary"
+  identified_by: "human"
+  confirmed_from: "bioclip-2.5"
+  reviewed_by: "matt"
 species_reviewed:
-- primary
-- secondary
+- "primary"
+- "secondary"

@@ -1,45 +1,45 @@
-date: '2024-07-10 13:46:27'
-location: Bonaire
-location_source: dive_site
-dive_site: Tori's Reef
-credit: Matthew Kulukundis
-import_album: Tori's Reef, Bonaire, 7-10-2024
-import_original_name: PXL_20240710_174627306.jpg
+date: "2024-07-10 13:46:27"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Tori's Reef"
+credit: "Matthew Kulukundis"
+import_album: "Tori's Reef, Bonaire, 7-10-2024"
+import_original_name: "PXL_20240710_174627306.jpg"
 lat: 12.070475199999999
 lon: -68.2806703
-gps_source: dive_site
+gps_source: "dive_site"
 variants:
-- method: dive-plus
-  file: 5263aa586adcc1b3.dive-plus.webp
-  import_original_name: dafcacf26fcdca62.webp
+- method: "dive-plus"
+  file: "5263aa586adcc1b3.dive-plus.webp"
+  import_original_name: "dafcacf26fcdca62.webp"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786160213.428713
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Lactophrys triqueter
+    - scientific: "Lactophrys triqueter"
       confidence: 0.2585
-    - scientific: Trachinotus goodei
+    - scientific: "Trachinotus goodei"
       confidence: 0.1898
-    - scientific: Lactophrys bicaudalis
+    - scientific: "Lactophrys bicaudalis"
       confidence: 0.0514
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786160213.428713
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Lactophrys triqueter
+    - scientific: "Lactophrys triqueter"
       confidence: 0.9936
-    - scientific: Dactylopterus volitans
+    - scientific: "Dactylopterus volitans"
       confidence: 0.0019
-    - scientific: Xyrichtys martinicensis
+    - scientific: "Xyrichtys martinicensis"
       confidence: 0.0013
 species:
-- scientific: Lactophrys triqueter
-  role: primary
+- scientific: "Lactophrys triqueter"
+  role: "primary"
   confidence: 0.626
-  identified_by: bioclip-2+bioclip-2.5
+  identified_by: "bioclip-2+bioclip-2.5"

@@ -1,42 +1,42 @@
-date: '2024-11-08 10:38:35'
-location: Bonaire
-location_source: dive_site
-dive_site: Weber's Joy
-credit: Delia Kulukundis
-import_album: 2024-11-08, Bonaire, Weber's Joy
-import_original_name: IMG_4754.JPG
+date: "2024-11-08 10:38:35"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Weber's Joy"
+credit: "Delia Kulukundis"
+import_album: "2024-11-08, Bonaire, Weber's Joy"
+import_original_name: "IMG_4754.JPG"
 lat: 12.2065506
 lon: -68.3164123
-gps_source: dive_site
+gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786156521.7302368
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Ocyurus chrysurus
+    - scientific: "Ocyurus chrysurus"
       confidence: 0.1649
-    - scientific: Haemulon sciurus
+    - scientific: "Haemulon sciurus"
       confidence: 0.1568
-    - scientific: Bodianus rufus
+    - scientific: "Bodianus rufus"
       confidence: 0.1164
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786156521.7302368
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Lutjanus apodus
+    - scientific: "Lutjanus apodus"
       confidence: 0.9487
-    - scientific: Haemulon macrostomum
+    - scientific: "Haemulon macrostomum"
       confidence: 0.0167
-    - scientific: Ocyurus chrysurus
+    - scientific: "Ocyurus chrysurus"
       confidence: 0.0094
 species:
-- scientific: Lutjanus apodus
-  role: primary
+- scientific: "Lutjanus apodus"
+  role: "primary"
   confidence: 0.4743
-  identified_by: bioclip-2.5
+  identified_by: "bioclip-2.5"

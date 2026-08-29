@@ -1,41 +1,41 @@
-date: '2024-03-10 14:51:28'
-location: Bonaire
-location_source: dive_site
-dive_site: Something Special
-credit: Matthew Kulukundis
-import_album: Bonaire, Something Special, 2024-03-10
-import_original_name: PXL_20240310_185128825.MP.jpg
+date: "2024-03-10 14:51:28"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Something Special"
+credit: "Matthew Kulukundis"
+import_album: "Bonaire, Something Special, 2024-03-10"
+import_original_name: "PXL_20240310_185128825.MP.jpg"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786159062.944696
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Eretmochelys imbricata
+    - scientific: "Eretmochelys imbricata"
       confidence: 0.2753
-    - scientific: Chelonia mydas
+    - scientific: "Chelonia mydas"
       confidence: 0.0581
-    - scientific: Halichoeres radiatus
+    - scientific: "Halichoeres radiatus"
       confidence: 0.0391
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786159062.944696
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Sepioteuthis sepioidea
+    - scientific: "Sepioteuthis sepioidea"
       confidence: 0.2573
-    - scientific: Lutjanus apodus
+    - scientific: "Lutjanus apodus"
       confidence: 0.0423
-    - scientific: Eretmochelys imbricata
+    - scientific: "Eretmochelys imbricata"
       confidence: 0.0257
     absorbed_by:
-      scientific: Acropora cervicornis
+      scientific: "Acropora cervicornis"
       confidence: 0.2785
 species:
-- scientific: Eretmochelys imbricata
-  role: primary
+- scientific: "Eretmochelys imbricata"
+  role: "primary"
   confidence: 0.1505
-  identified_by: bioclip-2+bioclip-2.5
+  identified_by: "bioclip-2+bioclip-2.5"

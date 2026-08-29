@@ -1,45 +1,45 @@
-date: '2025-08-14 13:34:28'
-location: Bonaire
-location_source: dive_site
-dive_site: Invisibles
-credit: Matthew Kulukundis
-import_album: 2025-08-14 - Bonaire, Invisibles
-import_original_name: PXL_20250814_173428197.jpg
+date: "2025-08-14 13:34:28"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Invisibles"
+credit: "Matthew Kulukundis"
+import_album: "2025-08-14 - Bonaire, Invisibles"
+import_original_name: "PXL_20250814_173428197.jpg"
 lat: 12.0776183
 lon: -68.28015169999999
-gps_source: dive_site
+gps_source: "dive_site"
 variants:
-- method: dive-plus
-  file: 03a28f54f5383e2b.dive-plus.webp
-  import_original_name: 71aa2c5c0699ec05.webp
+- method: "dive-plus"
+  file: "03a28f54f5383e2b.dive-plus.webp"
+  import_original_name: "71aa2c5c0699ec05.webp"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786158237.7591274
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Halichoeres pictus
+    - scientific: "Halichoeres pictus"
       confidence: 0.1882
-    - scientific: Thalassoma bifasciatum
+    - scientific: "Thalassoma bifasciatum"
       confidence: 0.0891
-    - scientific: Serranus tigrinus
+    - scientific: "Serranus tigrinus"
       confidence: 0.0498
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786158237.7591274
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Thalassoma bifasciatum
+    - scientific: "Thalassoma bifasciatum"
       confidence: 0.8495
-    - scientific: Halichoeres pictus
+    - scientific: "Halichoeres pictus"
       confidence: 0.0566
-    - scientific: Coryphopterus lipernes
+    - scientific: "Coryphopterus lipernes"
       confidence: 0.0498
 species:
-- scientific: Thalassoma bifasciatum
-  role: primary
+- scientific: "Thalassoma bifasciatum"
+  role: "primary"
   confidence: 0.4693
-  identified_by: bioclip-2+bioclip-2.5
+  identified_by: "bioclip-2+bioclip-2.5"

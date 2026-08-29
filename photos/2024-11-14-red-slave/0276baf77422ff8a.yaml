@@ -1,42 +1,42 @@
-date: '2024-11-14 14:13:12'
-location: Bonaire
-location_source: dive_site
-dive_site: Red Slave
-credit: Matthew Kulukundis
-import_album: 2024-11-14, Bonaire, Red Slave
-import_original_name: PXL_20241114_181312412.MP.jpg
+date: "2024-11-14 14:13:12"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Red Slave"
+credit: "Matthew Kulukundis"
+import_album: "2024-11-14, Bonaire, Red Slave"
+import_original_name: "PXL_20241114_181312412.MP.jpg"
 variants:
-- method: dive-plus
-  file: 0276baf77422ff8a.dive-plus.webp
-  import_original_name: cf408e404add287d.webp
+- method: "dive-plus"
+  file: "0276baf77422ff8a.dive-plus.webp"
+  import_original_name: "cf408e404add287d.webp"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786156979.4642572
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Gymnothorax funebris
+    - scientific: "Gymnothorax funebris"
       confidence: 0.4344
-    - scientific: Enchelycore carychroa
+    - scientific: "Enchelycore carychroa"
       confidence: 0.112
-    - scientific: Rypticus saponaceus
+    - scientific: "Rypticus saponaceus"
       confidence: 0.0581
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786156979.4642572
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Gymnothorax funebris
+    - scientific: "Gymnothorax funebris"
       confidence: 0.9301
-    - scientific: Diodon hystrix
+    - scientific: "Diodon hystrix"
       confidence: 0.0216
-    - scientific: Ginglymostoma cirratum
+    - scientific: "Ginglymostoma cirratum"
       confidence: 0.0186
 species:
-- scientific: Gymnothorax funebris
-  role: primary
+- scientific: "Gymnothorax funebris"
+  role: "primary"
   confidence: 0.6823
-  identified_by: bioclip-2+bioclip-2.5
+  identified_by: "bioclip-2+bioclip-2.5"

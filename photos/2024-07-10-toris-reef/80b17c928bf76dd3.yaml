@@ -1,45 +1,45 @@
-date: '2024-07-10 13:28:17'
-location: Bonaire
-location_source: dive_site
-dive_site: Tori's Reef
-credit: Matthew Kulukundis
-import_album: Tori's Reef, Bonaire, 7-10-2024
-import_original_name: PXL_20240710_172817721.jpg
+date: "2024-07-10 13:28:17"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Tori's Reef"
+credit: "Matthew Kulukundis"
+import_album: "Tori's Reef, Bonaire, 7-10-2024"
+import_original_name: "PXL_20240710_172817721.jpg"
 lat: 12.070475199999999
 lon: -68.2806703
-gps_source: dive_site
+gps_source: "dive_site"
 variants:
-- method: dive-plus
-  file: 80b17c928bf76dd3.dive-plus.webp
-  import_original_name: 78a8eebd62e4b876.webp
+- method: "dive-plus"
+  file: "80b17c928bf76dd3.dive-plus.webp"
+  import_original_name: "78a8eebd62e4b876.webp"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786160204.4461577
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Stenorhynchus seticornis
+    - scientific: "Stenorhynchus seticornis"
       confidence: 0.3623
-    - scientific: Panulirus guttatus
+    - scientific: "Panulirus guttatus"
       confidence: 0.3227
-    - scientific: Stenopus hispidus
+    - scientific: "Stenopus hispidus"
       confidence: 0.1133
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786160204.4461577
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Stenorhynchus seticornis
+    - scientific: "Stenorhynchus seticornis"
       confidence: 0.9733
-    - scientific: Panulirus guttatus
+    - scientific: "Panulirus guttatus"
       confidence: 0.0201
-    - scientific: Ancylomenes pedersoni
+    - scientific: "Ancylomenes pedersoni"
       confidence: 0.0029
 species:
-- scientific: Stenorhynchus seticornis
-  role: primary
+- scientific: "Stenorhynchus seticornis"
+  role: "primary"
   confidence: 0.6678
-  identified_by: bioclip-2+bioclip-2.5
+  identified_by: "bioclip-2+bioclip-2.5"

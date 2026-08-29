@@ -1,42 +1,42 @@
-date: '2024-07-07 16:52:59'
-location: Bonaire
-location_source: dive_site
-dive_site: Salt Pier
-credit: Matthew Kulukundis
-import_album: Salt Pier, Bonaire, 7-7-2024
-import_original_name: PXL_20240707_205259236.jpg
+date: "2024-07-07 16:52:59"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Salt Pier"
+credit: "Matthew Kulukundis"
+import_album: "Salt Pier, Bonaire, 7-7-2024"
+import_original_name: "PXL_20240707_205259236.jpg"
 variants:
-- method: dive-plus
-  file: e7b577f46392735f.dive-plus.webp
-  import_original_name: c699a03812da8932.webp
+- method: "dive-plus"
+  file: "e7b577f46392735f.dive-plus.webp"
+  import_original_name: "c699a03812da8932.webp"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786159959.8952541
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Hypoplectrus indigo
+    - scientific: "Hypoplectrus indigo"
       confidence: 0.2153
-    - scientific: Canthidermis sufflamen
+    - scientific: "Canthidermis sufflamen"
       confidence: 0.204
-    - scientific: Melichthys niger
+    - scientific: "Melichthys niger"
       confidence: 0.0515
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786159959.8952541
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Equetus punctatus
+    - scientific: "Equetus punctatus"
       confidence: 0.4927
-    - scientific: Pomacanthus arcuatus
+    - scientific: "Pomacanthus arcuatus"
       confidence: 0.112
-    - scientific: Scarus vetula
+    - scientific: "Scarus vetula"
       confidence: 0.0761
 species:
-- scientific: Equetus punctatus
-  role: primary
+- scientific: "Equetus punctatus"
+  role: "primary"
   confidence: 0.2464
-  identified_by: bioclip-2.5
+  identified_by: "bioclip-2.5"

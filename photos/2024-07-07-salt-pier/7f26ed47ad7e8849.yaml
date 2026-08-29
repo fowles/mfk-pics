@@ -1,42 +1,42 @@
-date: '2024-07-07 17:03:26'
-location: Bonaire
-location_source: dive_site
-dive_site: Salt Pier
-credit: Matthew Kulukundis
-import_album: Salt Pier, Bonaire, 7-7-2024
-import_original_name: PXL_20240707_210326498.jpg
+date: "2024-07-07 17:03:26"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Salt Pier"
+credit: "Matthew Kulukundis"
+import_album: "Salt Pier, Bonaire, 7-7-2024"
+import_original_name: "PXL_20240707_210326498.jpg"
 variants:
-- method: dive-plus
-  file: 7f26ed47ad7e8849.dive-plus.webp
-  import_original_name: acf46c136cfe1f5f.webp
+- method: "dive-plus"
+  file: "7f26ed47ad7e8849.dive-plus.webp"
+  import_original_name: "acf46c136cfe1f5f.webp"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786159965.4164357
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Enchelycore carychroa
+    - scientific: "Enchelycore carychroa"
       confidence: 0.2462
-    - scientific: Gymnothorax funebris
+    - scientific: "Gymnothorax funebris"
       confidence: 0.064
-    - scientific: Ginglymostoma cirratum
+    - scientific: "Ginglymostoma cirratum"
       confidence: 0.0394
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786159965.4164357
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Myrichthys breviceps
+    - scientific: "Myrichthys breviceps"
       confidence: 0.4996
-    - scientific: Serranus tigrinus
+    - scientific: "Serranus tigrinus"
       confidence: 0.206
-    - scientific: Synodus intermedius
+    - scientific: "Synodus intermedius"
       confidence: 0.082
 species:
-- scientific: Myrichthys breviceps
-  role: primary
+- scientific: "Myrichthys breviceps"
+  role: "primary"
   confidence: 0.2498
-  identified_by: bioclip-2.5
+  identified_by: "bioclip-2.5"

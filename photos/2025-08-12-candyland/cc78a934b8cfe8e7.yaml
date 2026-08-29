@@ -1,42 +1,42 @@
-date: '2025-08-12 13:34:54'
-location: Bonaire
-location_source: dive_site
-dive_site: Candyland
-credit: Delia Kulukundis
-import_album: 2025-08-12 - Candyland
-import_original_name: IMG_5552.JPG
+date: "2025-08-12 13:34:54"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Candyland"
+credit: "Delia Kulukundis"
+import_album: "2025-08-12 - Candyland"
+import_original_name: "IMG_5552.JPG"
 lat: 12.222591
 lon: -68.40111449999999
-gps_source: dive_site
+gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786158128.6697428
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Cantherhines pullus
+    - scientific: "Cantherhines pullus"
       confidence: 0.9673
-    - scientific: Hypoplectrus chlorurus
+    - scientific: "Hypoplectrus chlorurus"
       confidence: 0.0233
-    - scientific: Cantherhines macrocerus
+    - scientific: "Cantherhines macrocerus"
       confidence: 0.0066
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786158128.6697428
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Cantherhines pullus
+    - scientific: "Cantherhines pullus"
       confidence: 0.9987
-    - scientific: Cantherhines macrocerus
+    - scientific: "Cantherhines macrocerus"
       confidence: 0.0012
-    - scientific: Hypoplectrus chlorurus
+    - scientific: "Hypoplectrus chlorurus"
       confidence: 0.0
 species:
-- scientific: Cantherhines pullus
-  role: primary
+- scientific: "Cantherhines pullus"
+  role: "primary"
   confidence: 0.983
-  identified_by: bioclip-2+bioclip-2.5
+  identified_by: "bioclip-2+bioclip-2.5"

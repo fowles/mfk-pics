@@ -1,47 +1,47 @@
-date: '2024-03-10 12:03:35'
-location: Bonaire
-location_source: dive_site
-dive_site: Candyland
-credit: Matthew Kulukundis
-import_album: Bonaire, Candyland, 2024-03-10
-import_original_name: PXL_20240310_160335599.MP.jpg
+date: "2024-03-10 12:03:35"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Candyland"
+credit: "Matthew Kulukundis"
+import_album: "Bonaire, Candyland, 2024-03-10"
+import_original_name: "PXL_20240310_160335599.MP.jpg"
 lat: 12.222591
 lon: -68.40111449999999
-gps_source: dive_site
+gps_source: "dive_site"
 variants:
-- method: dive-plus
-  file: 6633cf1147ecaf64.dive-plus.webp
-  import_original_name: c1e4bd0be81be516.webp
+- method: "dive-plus"
+  file: "6633cf1147ecaf64.dive-plus.webp"
+  import_original_name: "c1e4bd0be81be516.webp"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786158874.1083994
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Stenopus hispidus
+    - scientific: "Stenopus hispidus"
       confidence: 0.0157
-    - scientific: Ophiothrix suensonii
+    - scientific: "Ophiothrix suensonii"
       confidence: 0.0116
-    - scientific: Mobula birostris
+    - scientific: "Mobula birostris"
       confidence: 0.0044
     absorbed_by:
-      scientific: Cirrhipathes leutkeni
+      scientific: "Cirrhipathes leutkeni"
       confidence: 0.8178
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786158874.1083994
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Stenopus hispidus
+    - scientific: "Stenopus hispidus"
       confidence: 0.2421
-    - scientific: Lysmata grabhami
+    - scientific: "Lysmata grabhami"
       confidence: 0.2364
-    - scientific: Equetus punctatus
+    - scientific: "Equetus punctatus"
       confidence: 0.0236
     absorbed_by:
-      scientific: Cirrhipathes leutkeni
+      scientific: "Cirrhipathes leutkeni"
       confidence: 0.4707
 species: []

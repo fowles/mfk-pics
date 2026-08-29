@@ -1,42 +1,42 @@
-date: '2025-08-14 12:43:02'
-location: Bonaire
-location_source: dive_site
-dive_site: Invisibles
-credit: Matthew Kulukundis
-import_album: 2025-08-14 - Bonaire, Invisibles
-import_original_name: PXL_20250814_164302745.jpg
+date: "2025-08-14 12:43:02"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Invisibles"
+credit: "Matthew Kulukundis"
+import_album: "2025-08-14 - Bonaire, Invisibles"
+import_original_name: "PXL_20250814_164302745.jpg"
 variants:
-- method: dive-plus
-  file: c61e3b3bf62c70c7.dive-plus.webp
-  import_original_name: 39ee3c3586a30f82.webp
+- method: "dive-plus"
+  file: "c61e3b3bf62c70c7.dive-plus.webp"
+  import_original_name: "39ee3c3586a30f82.webp"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786158235.0866954
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Sepioteuthis sepioidea
+    - scientific: "Sepioteuthis sepioidea"
       confidence: 0.1581
-    - scientific: Caranx ruber
+    - scientific: "Caranx ruber"
       confidence: 0.1177
-    - scientific: Carcharhinus perezi
+    - scientific: "Carcharhinus perezi"
       confidence: 0.0821
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786158235.0866954
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Sepioteuthis sepioidea
+    - scientific: "Sepioteuthis sepioidea"
       confidence: 0.4996
-    - scientific: Bothus lunatus
+    - scientific: "Bothus lunatus"
       confidence: 0.0928
-    - scientific: Caranx ruber
+    - scientific: "Caranx ruber"
       confidence: 0.0825
 species:
-- scientific: Sepioteuthis sepioidea
-  role: primary
+- scientific: "Sepioteuthis sepioidea"
+  role: "primary"
   confidence: 0.3288
-  identified_by: bioclip-2+bioclip-2.5
+  identified_by: "bioclip-2+bioclip-2.5"

@@ -1,46 +1,46 @@
-date: '2025-10-06 16:53:02'
-location: Bahamas
-location_source: dive_site
-dive_site: Lunkhead
-credit: Delia Kulukundis
-import_album: Juliet Bahamas 2025 Underwater (all)
-import_original_name: IMG_6143.JPG
+date: "2025-10-06 16:53:02"
+location: "Bahamas"
+location_source: "dive_site"
+dive_site: "Lunkhead"
+credit: "Delia Kulukundis"
+import_album: "Juliet Bahamas 2025 Underwater (all)"
+import_original_name: "IMG_6143.JPG"
 lat: 25.4636
 lon: -79.2431
-gps_source: dive_site
+gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786159791.273224
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Chaetodipterus faber
+    - scientific: "Chaetodipterus faber"
       confidence: 0.9847
-    - scientific: Seriola rivoliana
+    - scientific: "Seriola rivoliana"
       confidence: 0.0031
-    - scientific: Alectis ciliaris
+    - scientific: "Alectis ciliaris"
       confidence: 0.0023
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786159791.273224
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Chaetodipterus faber
+    - scientific: "Chaetodipterus faber"
       confidence: 0.9999
-    - scientific: Seriola rivoliana
+    - scientific: "Seriola rivoliana"
       confidence: 0.0
-    - scientific: Alectis ciliaris
+    - scientific: "Alectis ciliaris"
       confidence: 0.0
 species:
-- scientific: Chaetodipterus faber
-  role: primary
-  identified_by: human
-  confirmed_from: bioclip+bioclip-2
-  reviewed_by: matt
+- scientific: "Chaetodipterus faber"
+  role: "primary"
+  identified_by: "human"
+  confirmed_from: "bioclip+bioclip-2"
+  reviewed_by: "matt"
 species_reviewed:
-- primary
-- secondary
+- "primary"
+- "secondary"

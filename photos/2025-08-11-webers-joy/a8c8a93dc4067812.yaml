@@ -1,45 +1,45 @@
-date: '2025-08-11 14:46:08'
-location: Bonaire
-location_source: dive_site
-dive_site: Weber's Joy
-credit: Matthew Kulukundis
-import_album: 2025-08-11 - Bonaire, Weber's Joy
-import_original_name: PXL_20250811_184608067.jpg
+date: "2025-08-11 14:46:08"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Weber's Joy"
+credit: "Matthew Kulukundis"
+import_album: "2025-08-11 - Bonaire, Weber's Joy"
+import_original_name: "PXL_20250811_184608067.jpg"
 lat: 12.2065506
 lon: -68.3164123
-gps_source: dive_site
+gps_source: "dive_site"
 variants:
-- method: dive-plus
-  file: a8c8a93dc4067812.dive-plus.webp
-  import_original_name: e2ec512117ebd9ca.webp
+- method: "dive-plus"
+  file: "a8c8a93dc4067812.dive-plus.webp"
+  import_original_name: "e2ec512117ebd9ca.webp"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786071915.9156764
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Bothus lunatus
+    - scientific: "Bothus lunatus"
       confidence: 0.6438
-    - scientific: Synodus intermedius
+    - scientific: "Synodus intermedius"
       confidence: 0.0684
-    - scientific: Halichoeres radiatus
+    - scientific: "Halichoeres radiatus"
       confidence: 0.0582
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786071915.9156764
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Halichoeres radiatus
+    - scientific: "Halichoeres radiatus"
       confidence: 0.544
-    - scientific: Serranus tigrinus
+    - scientific: "Serranus tigrinus"
       confidence: 0.2136
-    - scientific: Synodus intermedius
+    - scientific: "Synodus intermedius"
       confidence: 0.0458
 species:
-- scientific: Bothus lunatus
-  role: primary
+- scientific: "Bothus lunatus"
+  role: "primary"
   confidence: 0.3219
-  identified_by: bioclip-2
+  identified_by: "bioclip-2"

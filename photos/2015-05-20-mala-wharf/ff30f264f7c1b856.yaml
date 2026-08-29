@@ -1,45 +1,45 @@
-date: '2015-05-20 14:41:59'
-location: Maui, Hawaii, USA
-location_source: dive_site
-dive_site: Mala Wharf
-credit: Delia Kulukundis
-import_album: 2015-05-20, USA, Hawaii, Maui, Mala Wharf
-import_original_name: DSC_1775.JPG
+date: "2015-05-20 14:41:59"
+location: "Maui, Hawaii, USA"
+location_source: "dive_site"
+dive_site: "Mala Wharf"
+credit: "Delia Kulukundis"
+import_album: "2015-05-20, USA, Hawaii, Maui, Mala Wharf"
+import_original_name: "DSC_1775.JPG"
 lat: 20.88461
 lon: -156.68646
-gps_source: dive_site
+gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-25T05:43:58Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1787441081.0625126
-    vocab: 43f646ed780c
+    vocab: "23e0d65f5ba2"
     top:
-    - scientific: Chaetodon ornatissimus
+    - scientific: "Chaetodon ornatissimus"
       confidence: 0.3142
-    - scientific: Chaetodon lunulatus
+    - scientific: "Chaetodon lunulatus"
       confidence: 0.2241
-    - scientific: Chaetodon unimaculatus
+    - scientific: "Chaetodon unimaculatus"
       confidence: 0.1081
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-25T05:46:15Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1787441081.0625126
-    vocab: 43f646ed780c
+    vocab: "23e0d65f5ba2"
     top:
-    - scientific: Chaetodon lunulatus
+    - scientific: "Chaetodon lunulatus"
       confidence: 0.9325
-    - scientific: Chaetodon ornatissimus
+    - scientific: "Chaetodon ornatissimus"
       confidence: 0.0674
-    - scientific: Chaetodon ephippium
+    - scientific: "Chaetodon ephippium"
       confidence: 0.0
 species:
-- scientific: Chaetodon lunulatus
-  role: primary
-  identified_by: human
-  reviewed_by: matt
+- scientific: "Chaetodon lunulatus"
+  role: "primary"
+  identified_by: "human"
+  reviewed_by: "matt"
 species_reviewed:
-- primary
-- secondary
+- "primary"
+- "secondary"

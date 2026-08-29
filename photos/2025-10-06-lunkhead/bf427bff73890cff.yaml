@@ -1,42 +1,42 @@
-date: '2025-10-06 16:14:57'
-location: Bahamas
-location_source: dive_site
-dive_site: Lunkhead
-credit: Delia Kulukundis
-import_album: Juliet Bahamas 2025 Underwater (all)
-import_original_name: IMG_6054.JPG
+date: "2025-10-06 16:14:57"
+location: "Bahamas"
+location_source: "dive_site"
+dive_site: "Lunkhead"
+credit: "Delia Kulukundis"
+import_album: "Juliet Bahamas 2025 Underwater (all)"
+import_original_name: "IMG_6054.JPG"
 lat: 25.4636
 lon: -79.2431
-gps_source: dive_site
+gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786159782.84737
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Pseudupeneus maculatus
+    - scientific: "Pseudupeneus maculatus"
       confidence: 0.7937
-    - scientific: Lutjanus synagris
+    - scientific: "Lutjanus synagris"
       confidence: 0.0605
-    - scientific: Lutjanus mahogoni
+    - scientific: "Lutjanus mahogoni"
       confidence: 0.0184
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786159782.84737
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Hypoplectrus puella
+    - scientific: "Hypoplectrus puella"
       confidence: 0.2477
-    - scientific: Hypoplectrus unicolor
+    - scientific: "Hypoplectrus unicolor"
       confidence: 0.1871
-    - scientific: Chaetodon capistratus
+    - scientific: "Chaetodon capistratus"
       confidence: 0.1665
 species:
-- scientific: Pseudupeneus maculatus
-  role: primary
+- scientific: "Pseudupeneus maculatus"
+  role: "primary"
   confidence: 0.3968
-  identified_by: bioclip-2
+  identified_by: "bioclip-2"

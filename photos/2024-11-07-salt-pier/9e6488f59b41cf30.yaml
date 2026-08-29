@@ -1,42 +1,42 @@
-date: '2024-11-07 10:07:51'
-location: Bonaire
-location_source: dive_site
-dive_site: Salt Pier
-credit: Matthew Kulukundis
-import_album: 2024-11-07, Bonaire, Salt Pier
-import_original_name: PXL_20241107_140751376.jpg
+date: "2024-11-07 10:07:51"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Salt Pier"
+credit: "Matthew Kulukundis"
+import_album: "2024-11-07, Bonaire, Salt Pier"
+import_original_name: "PXL_20241107_140751376.jpg"
 variants:
-- method: dive-plus
-  file: 9e6488f59b41cf30.dive-plus.webp
-  import_original_name: b836a9a09218c59e.webp
+- method: "dive-plus"
+  file: "9e6488f59b41cf30.dive-plus.webp"
+  import_original_name: "b836a9a09218c59e.webp"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786156339.092657
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Synodus intermedius
+    - scientific: "Synodus intermedius"
       confidence: 0.9971
-    - scientific: Dactylopterus volitans
+    - scientific: "Dactylopterus volitans"
       confidence: 0.0012
-    - scientific: Synodus foetens
+    - scientific: "Synodus foetens"
       confidence: 0.0004
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786156339.092657
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Synodus intermedius
+    - scientific: "Synodus intermedius"
       confidence: 1.0
-    - scientific: Synodus foetens
+    - scientific: "Synodus foetens"
       confidence: 0.0
-    - scientific: Epinephelus adscensionis
+    - scientific: "Epinephelus adscensionis"
       confidence: 0.0
 species:
-- scientific: Synodus intermedius
-  role: primary
+- scientific: "Synodus intermedius"
+  role: "primary"
   confidence: 0.9986
-  identified_by: bioclip-2+bioclip-2.5
+  identified_by: "bioclip-2+bioclip-2.5"

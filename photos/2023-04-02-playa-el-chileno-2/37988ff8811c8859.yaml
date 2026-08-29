@@ -1,54 +1,54 @@
-date: '2023-04-02 09:37:51'
-location: Los Cabos, Baja California Sur, Mexico
-location_source: dive_site
-dive_site: Playa el Chileno
-credit: Matthew Kulukundis
-import_album: 2023-04-02, Mexico, Baja California Sur, Los Cabos, Playa el Chileno
-import_original_name: IMG_638160250715797180.jpg
+date: "2023-04-02 09:37:51"
+location: "Los Cabos, Baja California Sur, Mexico"
+location_source: "dive_site"
+dive_site: "Playa el Chileno"
+credit: "Matthew Kulukundis"
+import_album: "2023-04-02, Mexico, Baja California Sur, Los Cabos, Playa el Chileno"
+import_original_name: "IMG_638160250715797180.jpg"
 lat: 22.94523
 lon: -109.80243
-gps_source: dive_site
+gps_source: "dive_site"
 variants:
-- method: dive-plus
-  file: 37988ff8811c8859.dive-plus.webp
-  import_original_name: f0d260f3dc1629ea.webp
+- method: "dive-plus"
+  file: "37988ff8811c8859.dive-plus.webp"
+  import_original_name: "f0d260f3dc1629ea.webp"
 date_reviewed: true
 correction_standalone: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-25T05:43:58Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1787438626.598933
-    vocab: 2184a73cc476
+    vocab: "d7c53541e79e"
     top:
-    - scientific: Triaenodon obesus
+    - scientific: "Triaenodon obesus"
       confidence: 0.0736
-    - scientific: Carcharhinus albimarginatus
+    - scientific: "Carcharhinus albimarginatus"
       confidence: 0.0343
-    - scientific: Thalassoma grammaticum
+    - scientific: "Thalassoma grammaticum"
       confidence: 0.0269
     absorbed_by:
-      scientific: Pavona duerdeni
+      scientific: "Pavona duerdeni"
       confidence: 0.1142
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-25T05:46:15Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1787438626.598933
-    vocab: 2184a73cc476
+    vocab: "d7c53541e79e"
     top:
-    - scientific: Antennarius commerson
+    - scientific: "Antennarius commerson"
       confidence: 0.1174
-    - scientific: Triaenodon obesus
+    - scientific: "Triaenodon obesus"
       confidence: 0.0831
-    - scientific: Isostichopus fuscus
+    - scientific: "Isostichopus fuscus"
       confidence: 0.033
 species:
-- scientific: Homo sapiens
-  role: primary
-  identified_by: human
-  reviewed_by: matt
+- scientific: "Homo sapiens"
+  role: "primary"
+  identified_by: "human"
+  reviewed_by: "matt"
   person:
-  - David Bede Rinaldi
+  - "David Bede Rinaldi"
 species_reviewed:
-- primary
-- secondary
+- "primary"
+- "secondary"

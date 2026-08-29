@@ -1,51 +1,51 @@
-date: '2025-10-09 10:39:11'
-location: Bahamas
-location_source: dive_site
-dive_site: 'Wreck #2'
-credit: Delia Kulukundis
-import_album: Juliet Bahamas 2025 Underwater (all)
-import_original_name: IMG_6320.JPG
+date: "2025-10-09 10:39:11"
+location: "Bahamas"
+location_source: "dive_site"
+dive_site: "Wreck #2"
+credit: "Delia Kulukundis"
+import_album: "Juliet Bahamas 2025 Underwater (all)"
+import_original_name: "IMG_6320.JPG"
 lat: 25.7183
 lon: -79.3154
-gps_source: dive_site
+gps_source: "dive_site"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1787430419.119263
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Haemulon aurolineatum
+    - scientific: "Haemulon aurolineatum"
       confidence: 0.4229
-    - scientific: Lutjanus mahogoni
+    - scientific: "Lutjanus mahogoni"
       confidence: 0.1315
-    - scientific: Haemulon chrysargyreum
+    - scientific: "Haemulon chrysargyreum"
       confidence: 0.0615
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1787430419.119263
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Ginglymostoma cirratum
+    - scientific: "Ginglymostoma cirratum"
       confidence: 0.9683
-    - scientific: Pomacanthus arcuatus
+    - scientific: "Pomacanthus arcuatus"
       confidence: 0.0065
-    - scientific: Haemulon album
+    - scientific: "Haemulon album"
       confidence: 0.0043
 species:
-- scientific: Acanthurus coeruleus
-  role: primary
-  identified_by: human
-  confirmed_from: bioclip-2
-  reviewed_by: matt
-- scientific: Haemulon aurolineatum
-  role: secondary
-  identified_by: human
-  confirmed_from: bioclip-2+bioclip-2.5
-  reviewed_by: matt
+- scientific: "Acanthurus coeruleus"
+  role: "primary"
+  identified_by: "human"
+  confirmed_from: "bioclip-2"
+  reviewed_by: "matt"
+- scientific: "Haemulon aurolineatum"
+  role: "secondary"
+  identified_by: "human"
+  confirmed_from: "bioclip-2+bioclip-2.5"
+  reviewed_by: "matt"
 rotation_applied: 180
 species_reviewed:
-- primary
-- secondary
+- "primary"
+- "secondary"

@@ -1,47 +1,47 @@
-date: '2024-03-10 11:48:19'
-location: Bonaire
-location_source: dive_site
-dive_site: Candyland
-credit: Delia Kulukundis
-import_album: Bonaire, Candyland, 2024-03-10
-import_original_name: IMG_3851.JPG
+date: "2024-03-10 11:48:19"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Candyland"
+credit: "Delia Kulukundis"
+import_album: "Bonaire, Candyland, 2024-03-10"
+import_original_name: "IMG_3851.JPG"
 lat: 12.222591
 lon: -68.40111449999999
-gps_source: dive_site
+gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786158853.9885585
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Chromis multilineata
+    - scientific: "Chromis multilineata"
       confidence: 0.1483
-    - scientific: Thalassoma bifasciatum
+    - scientific: "Thalassoma bifasciatum"
       confidence: 0.1275
-    - scientific: Chromis cyanea
+    - scientific: "Chromis cyanea"
       confidence: 0.031
     absorbed_by:
-      scientific: Gorgonia ventalina
+      scientific: "Gorgonia ventalina"
       confidence: 0.159
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786158853.9885585
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Aluterus scriptus
+    - scientific: "Aluterus scriptus"
       confidence: 0.006
-    - scientific: Thalassoma bifasciatum
+    - scientific: "Thalassoma bifasciatum"
       confidence: 0.0012
-    - scientific: Davidaster rubiginosus
+    - scientific: "Davidaster rubiginosus"
       confidence: 0.001
     absorbed_by:
-      scientific: Millepora alcicornis
+      scientific: "Millepora alcicornis"
       confidence: 0.7526
 species_reviewed:
-- primary
-- secondary
+- "primary"
+- "secondary"
 species: []

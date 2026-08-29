@@ -1,45 +1,45 @@
-date: '2024-03-10 11:49:37'
-location: Bonaire
-location_source: dive_site
-dive_site: Candyland
-credit: Delia Kulukundis
-import_album: Bonaire, Candyland, 2024-03-10
-import_original_name: IMG_3861.JPG
+date: "2024-03-10 11:49:37"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Candyland"
+credit: "Delia Kulukundis"
+import_album: "Bonaire, Candyland, 2024-03-10"
+import_original_name: "IMG_3861.JPG"
 lat: 12.222591
 lon: -68.40111449999999
-gps_source: dive_site
+gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786158855.2043426
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Chromis cyanea
+    - scientific: "Chromis cyanea"
       confidence: 0.8024
-    - scientific: Gramma loreto
+    - scientific: "Gramma loreto"
       confidence: 0.0618
-    - scientific: Bodianus rufus
+    - scientific: "Bodianus rufus"
       confidence: 0.0406
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786158855.2043426
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Bodianus rufus
+    - scientific: "Bodianus rufus"
       confidence: 0.0183
-    - scientific: Halichoeres pictus
+    - scientific: "Halichoeres pictus"
       confidence: 0.0181
-    - scientific: Thalassoma bifasciatum
+    - scientific: "Thalassoma bifasciatum"
       confidence: 0.0041
     absorbed_by:
-      scientific: Orbicella faveolata
+      scientific: "Orbicella faveolata"
       confidence: 0.6073
 species:
-- scientific: Chromis cyanea
-  role: primary
+- scientific: "Chromis cyanea"
+  role: "primary"
   confidence: 0.4012
-  identified_by: bioclip-2
+  identified_by: "bioclip-2"

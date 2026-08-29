@@ -1,44 +1,44 @@
-date: '2025-10-06 16:56:16'
-location: Bahamas
-location_source: dive_site
-dive_site: Lunkhead
-credit: Delia Kulukundis
-import_album: Juliet Bahamas 2025 Underwater (all)
-import_original_name: IMG_6147.JPG
+date: "2025-10-06 16:56:16"
+location: "Bahamas"
+location_source: "dive_site"
+dive_site: "Lunkhead"
+credit: "Delia Kulukundis"
+import_album: "Juliet Bahamas 2025 Underwater (all)"
+import_original_name: "IMG_6147.JPG"
 lat: 25.4636
 lon: -79.2431
-gps_source: dive_site
+gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786159792.1387365
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Pterois volitans
+    - scientific: "Pterois volitans"
       confidence: 0.0418
-    - scientific: Panulirus argus
+    - scientific: "Panulirus argus"
       confidence: 0.0144
-    - scientific: Ophiothrix suensonii
+    - scientific: "Ophiothrix suensonii"
       confidence: 0.0129
     absorbed_by:
-      scientific: Clavelina picta
+      scientific: "Clavelina picta"
       confidence: 0.2961
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786159792.1387365
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Astrophyton muricatum
+    - scientific: "Astrophyton muricatum"
       confidence: 0.017
-    - scientific: Sparisoma viride
+    - scientific: "Sparisoma viride"
       confidence: 0.0066
-    - scientific: Davidaster rubiginosus
+    - scientific: "Davidaster rubiginosus"
       confidence: 0.005
     absorbed_by:
-      scientific: Antillogorgia americana
+      scientific: "Antillogorgia americana"
       confidence: 0.2934
 species: []

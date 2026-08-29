@@ -1,42 +1,42 @@
-date: '2025-08-14 15:17:20'
-location: Bonaire
-location_source: dive_site
-dive_site: Red Beryl
-credit: Matthew Kulukundis
-import_album: 2025-08-14 - Bonaire, Red Beryl
-import_original_name: PXL_20250814_192736233.MP.jpg
+date: "2025-08-14 15:17:20"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Red Beryl"
+credit: "Matthew Kulukundis"
+import_album: "2025-08-14 - Bonaire, Red Beryl"
+import_original_name: "PXL_20250814_192736233.MP.jpg"
 variants:
-- method: dive-plus
-  file: 7ef47bbd00ec619e.dive-plus.webp
-  import_original_name: aeba5cd1c2fba4e3.webp
+- method: "dive-plus"
+  file: "7ef47bbd00ec619e.dive-plus.webp"
+  import_original_name: "aeba5cd1c2fba4e3.webp"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786158335.867472
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Hypanus americanus
+    - scientific: "Hypanus americanus"
       confidence: 0.3265
-    - scientific: Heteroconger longissimus
+    - scientific: "Heteroconger longissimus"
       confidence: 0.1965
-    - scientific: Caranx ruber
+    - scientific: "Caranx ruber"
       confidence: 0.0931
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786158335.867472
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Dactylopterus volitans
+    - scientific: "Dactylopterus volitans"
       confidence: 0.9196
-    - scientific: Caranx ruber
+    - scientific: "Caranx ruber"
       confidence: 0.0393
-    - scientific: Sepioteuthis sepioidea
+    - scientific: "Sepioteuthis sepioidea"
       confidence: 0.0271
 species:
-- scientific: Dactylopterus volitans
-  role: primary
+- scientific: "Dactylopterus volitans"
+  role: "primary"
   confidence: 0.4598
-  identified_by: bioclip-2.5
+  identified_by: "bioclip-2.5"

@@ -1,43 +1,43 @@
-date: '2025-08-14 15:55:47'
-location: Bonaire
-location_source: dive_site
-dive_site: Red Beryl
-credit: Delia Kulukundis
-import_album: 2025-08-14 - Bonaire, Red Beryl
-import_original_name: IMG_5759.JPG
+date: "2025-08-14 15:55:47"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Red Beryl"
+credit: "Delia Kulukundis"
+import_album: "2025-08-14 - Bonaire, Red Beryl"
+import_original_name: "IMG_5759.JPG"
 lat: 12.0464185
 lon: -68.2678076
-gps_source: dive_site
+gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
 rotation_applied: 180
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1787028781.7208474
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Lactophrys triqueter
+    - scientific: "Lactophrys triqueter"
       confidence: 0.2016
-    - scientific: Myrichthys breviceps
+    - scientific: "Myrichthys breviceps"
       confidence: 0.0401
-    - scientific: Stegastes partitus
+    - scientific: "Stegastes partitus"
       confidence: 0.0384
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1787028781.7208474
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Epinephelus adscensionis
+    - scientific: "Epinephelus adscensionis"
       confidence: 0.7064
-    - scientific: Scorpaena plumieri
+    - scientific: "Scorpaena plumieri"
       confidence: 0.1388
-    - scientific: Cephalopholis cruentata
+    - scientific: "Cephalopholis cruentata"
       confidence: 0.0427
 species:
-- scientific: Epinephelus adscensionis
-  role: primary
+- scientific: "Epinephelus adscensionis"
+  role: "primary"
   confidence: 0.3532
-  identified_by: bioclip-2.5
+  identified_by: "bioclip-2.5"

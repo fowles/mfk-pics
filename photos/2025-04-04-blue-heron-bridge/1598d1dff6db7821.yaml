@@ -1,42 +1,42 @@
-date: '2025-04-04 14:03:26'
-location: West Palm Beach, FL, USA
-location_source: dive_site
-dive_site: Blue Heron Bridge
-credit: Matthew Kulukundis
-import_album: 2025-04-04, Blue Heron Bridge, West Palm Beach, FL
-import_original_name: PXL_20250404_180326382.jpg
+date: "2025-04-04 14:03:26"
+location: "West Palm Beach, FL, USA"
+location_source: "dive_site"
+dive_site: "Blue Heron Bridge"
+credit: "Matthew Kulukundis"
+import_album: "2025-04-04, Blue Heron Bridge, West Palm Beach, FL"
+import_original_name: "PXL_20250404_180326382.jpg"
 variants:
-- method: dive-plus
-  file: 1598d1dff6db7821.dive-plus.webp
-  import_original_name: efe1d7d45c7ab88d.webp
+- method: "dive-plus"
+  file: "1598d1dff6db7821.dive-plus.webp"
+  import_original_name: "efe1d7d45c7ab88d.webp"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786157491.4543896
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Canthigaster rostrata
+    - scientific: "Canthigaster rostrata"
       confidence: 0.7281
-    - scientific: Canthigaster jamestyleri
+    - scientific: "Canthigaster jamestyleri"
       confidence: 0.1829
-    - scientific: Carangoides bartholomaei
+    - scientific: "Carangoides bartholomaei"
       confidence: 0.0299
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786157491.4543896
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Canthigaster rostrata
+    - scientific: "Canthigaster rostrata"
       confidence: 0.9971
-    - scientific: Canthigaster jamestyleri
+    - scientific: "Canthigaster jamestyleri"
       confidence: 0.0029
-    - scientific: Sphoeroides spengleri
+    - scientific: "Sphoeroides spengleri"
       confidence: 0.0
 species:
-- scientific: Canthigaster rostrata
-  role: primary
+- scientific: "Canthigaster rostrata"
+  role: "primary"
   confidence: 0.8626
-  identified_by: bioclip-2+bioclip-2.5
+  identified_by: "bioclip-2+bioclip-2.5"

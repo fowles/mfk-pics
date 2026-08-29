@@ -1,42 +1,42 @@
-date: '2024-03-10 15:00:28'
-location: Bonaire
-location_source: dive_site
-dive_site: Something Special
-credit: Matthew Kulukundis
-import_album: Bonaire, Something Special, 2024-03-10
-import_original_name: PXL_20240310_190028447.jpg
+date: "2024-03-10 15:00:28"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Something Special"
+credit: "Matthew Kulukundis"
+import_album: "Bonaire, Something Special, 2024-03-10"
+import_original_name: "PXL_20240310_190028447.jpg"
 variants:
-- method: dive-plus
-  file: ccd947599dc5cf47.dive-plus.webp
-  import_original_name: 12dd355054fed4cf.webp
+- method: "dive-plus"
+  file: "ccd947599dc5cf47.dive-plus.webp"
+  import_original_name: "12dd355054fed4cf.webp"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786159064.0305917
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Myrichthys breviceps
+    - scientific: "Myrichthys breviceps"
       confidence: 0.3285
-    - scientific: Myrichthys ocellatus
+    - scientific: "Myrichthys ocellatus"
       confidence: 0.1538
-    - scientific: Stenopus hispidus
+    - scientific: "Stenopus hispidus"
       confidence: 0.036
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786159064.0305917
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Mycteroperca tigris
+    - scientific: "Mycteroperca tigris"
       confidence: 0.7763
-    - scientific: Sparisoma viride
+    - scientific: "Sparisoma viride"
       confidence: 0.1541
-    - scientific: Scarus coelestinus
+    - scientific: "Scarus coelestinus"
       confidence: 0.0226
 species:
-- scientific: Mycteroperca tigris
-  role: primary
+- scientific: "Mycteroperca tigris"
+  role: "primary"
   confidence: 0.3881
-  identified_by: bioclip-2.5
+  identified_by: "bioclip-2.5"

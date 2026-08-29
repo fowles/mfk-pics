@@ -1,45 +1,45 @@
-date: '2025-08-11 14:15:17'
-location: Bonaire
-location_source: dive_site
-dive_site: Weber's Joy
-credit: Matthew Kulukundis
-import_album: 2025-08-11 - Bonaire, Weber's Joy
-import_original_name: PXL_20250811_181517481.jpg
+date: "2025-08-11 14:15:17"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Weber's Joy"
+credit: "Matthew Kulukundis"
+import_album: "2025-08-11 - Bonaire, Weber's Joy"
+import_original_name: "PXL_20250811_181517481.jpg"
 lat: 12.2065506
 lon: -68.3164123
-gps_source: dive_site
+gps_source: "dive_site"
 variants:
-- method: dive-plus
-  file: c8685d7b4270ff16.dive-plus.webp
-  import_original_name: ffb6a8147aff550e.webp
+- method: "dive-plus"
+  file: "c8685d7b4270ff16.dive-plus.webp"
+  import_original_name: "ffb6a8147aff550e.webp"
 date_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786071915.029917
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Pomacanthus arcuatus
+    - scientific: "Pomacanthus arcuatus"
       confidence: 0.2501
-    - scientific: Anisotremus surinamensis
+    - scientific: "Anisotremus surinamensis"
       confidence: 0.1008
-    - scientific: Acanthostracion polygonius
+    - scientific: "Acanthostracion polygonius"
       confidence: 0.0816
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786071915.029917
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Canthidermis sufflamen
+    - scientific: "Canthidermis sufflamen"
       confidence: 0.7745
-    - scientific: Scarus coelestinus
+    - scientific: "Scarus coelestinus"
       confidence: 0.1826
-    - scientific: Pomacanthus arcuatus
+    - scientific: "Pomacanthus arcuatus"
       confidence: 0.0157
 species:
-- scientific: Canthidermis sufflamen
-  role: primary
+- scientific: "Canthidermis sufflamen"
+  role: "primary"
   confidence: 0.3872
-  identified_by: bioclip-2.5
+  identified_by: "bioclip-2.5"

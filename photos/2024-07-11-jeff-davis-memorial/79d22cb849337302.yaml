@@ -1,42 +1,42 @@
-date: '2024-07-11 13:38:37'
-location: Bonaire
-location_source: dive_site
-dive_site: Jeff Davis Memorial
-credit: Delia Kulukundis
-import_album: Jeff Davis Memorial, Bonaire, 7-11-2024
-import_original_name: IMG_4483.JPG
+date: "2024-07-11 13:38:37"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Jeff Davis Memorial"
+credit: "Delia Kulukundis"
+import_album: "Jeff Davis Memorial, Bonaire, 7-11-2024"
+import_original_name: "IMG_4483.JPG"
 lat: 12.2050008
 lon: -68.3139741
-gps_source: dive_site
+gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786159565.3367643
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Sparisoma viride
+    - scientific: "Sparisoma viride"
       confidence: 0.8599
-    - scientific: Sparisoma amplum
+    - scientific: "Sparisoma amplum"
       confidence: 0.0718
-    - scientific: Sparisoma rubripinne
+    - scientific: "Sparisoma rubripinne"
       confidence: 0.0277
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786159565.3367643
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Sparisoma viride
+    - scientific: "Sparisoma viride"
       confidence: 0.9958
-    - scientific: Sparisoma amplum
+    - scientific: "Sparisoma amplum"
       confidence: 0.0031
-    - scientific: Scarus vetula
+    - scientific: "Scarus vetula"
       confidence: 0.0007
 species:
-- scientific: Sparisoma viride
-  role: primary
+- scientific: "Sparisoma viride"
+  role: "primary"
   confidence: 0.9279
-  identified_by: bioclip-2+bioclip-2.5
+  identified_by: "bioclip-2+bioclip-2.5"

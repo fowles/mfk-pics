@@ -1,42 +1,42 @@
-date: '2024-11-07 10:47:08'
-location: Bonaire
-location_source: dive_site
-dive_site: Salt Pier
-credit: Delia Kulukundis
-import_album: 2024-11-07, Bonaire, Salt Pier
-import_original_name: IMG_4705.JPG
+date: "2024-11-07 10:47:08"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Salt Pier"
+credit: "Delia Kulukundis"
+import_album: "2024-11-07, Bonaire, Salt Pier"
+import_original_name: "IMG_4705.JPG"
 lat: 12.082963699999999
 lon: -68.28180019999999
-gps_source: dive_site
+gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
 rotation_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-29T01:35:36Z"
     src_mtime: 1786156324.678558
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Carangoides bartholomaei
+    - scientific: "Carangoides bartholomaei"
       confidence: 0.1558
-    - scientific: Selar crumenophthalmus
+    - scientific: "Selar crumenophthalmus"
       confidence: 0.0856
-    - scientific: Caranx latus
+    - scientific: "Caranx latus"
       confidence: 0.0819
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-29T01:37:53Z"
     src_mtime: 1786156324.678558
-    vocab: 8d0a807ec25f
+    vocab: "196fd4dae51e"
     top:
-    - scientific: Caranx ruber
+    - scientific: "Caranx ruber"
       confidence: 0.0462
-    - scientific: Astrophyton muricatum
+    - scientific: "Astrophyton muricatum"
       confidence: 0.0269
-    - scientific: Scarus coeruleus
+    - scientific: "Scarus coeruleus"
       confidence: 0.0249
     absorbed_by:
-      scientific: Dendrogyra cylindrus
+      scientific: "Dendrogyra cylindrus"
       confidence: 0.3134
 species: []
