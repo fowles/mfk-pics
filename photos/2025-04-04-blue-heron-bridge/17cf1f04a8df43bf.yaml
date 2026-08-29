@@ -16,9 +16,9 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-29T01:35:36Z"
+    created: "2026-08-29T21:45:59Z"
     src_mtime: 1786157494.0366197
-    vocab: "196fd4dae51e"
+    vocab: "70e86894c9ec"
     top:
     - scientific: "Haemulon chrysargyreum"
       confidence: 0.5886
@@ -28,16 +28,16 @@ species_suggestions:
       confidence: 0.0374
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-29T01:37:53Z"
+    created: "2026-08-29T21:48:07Z"
     src_mtime: 1786157494.0366197
-    vocab: "196fd4dae51e"
+    vocab: "70e86894c9ec"
     top:
     - scientific: "Haemulon chrysargyreum"
       confidence: 0.6017
     - scientific: "Ocyurus chrysurus"
       confidence: 0.0918
-    - scientific: "Haemulon flavolineatum"
-      confidence: 0.0235
+    - scientific: "Acropora palmata"
+      confidence: 0.0667
 species:
 - scientific: "Haemulon chrysargyreum"
   role: "primary"

@@ -13,9 +13,9 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-29T01:35:36Z"
+    created: "2026-08-29T21:45:59Z"
     src_mtime: 1786071913.0307007
-    vocab: "196fd4dae51e"
+    vocab: "70e86894c9ec"
     top:
     - scientific: "Cephalopholis cruentata"
       confidence: 0.0748
@@ -28,16 +28,16 @@ species_suggestions:
       confidence: 0.3365
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-29T01:37:53Z"
+    created: "2026-08-29T21:48:07Z"
     src_mtime: 1786071913.0307007
-    vocab: "196fd4dae51e"
+    vocab: "70e86894c9ec"
     top:
     - scientific: "Gymnothorax miliaris"
       confidence: 0.0466
+    - scientific: "Acropora palmata"
+      confidence: 0.0097
     - scientific: "Ophioblennius macclurei"
       confidence: 0.0071
-    - scientific: "Cephalopholis cruentata"
-      confidence: 0.0065
     absorbed_by:
       scientific: "Niphates digitalis"
       confidence: 0.3233

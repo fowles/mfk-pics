@@ -13,9 +13,9 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-29T01:35:36Z"
+    created: "2026-08-29T21:45:59Z"
     src_mtime: 1786156691.571933
-    vocab: "196fd4dae51e"
+    vocab: "70e86894c9ec"
     top:
     - scientific: "Chaetodon capistratus"
       confidence: 0.0843
@@ -25,19 +25,16 @@ species_suggestions:
       confidence: 0.0666
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-29T01:37:53Z"
+    created: "2026-08-29T21:48:07Z"
     src_mtime: 1786156691.571933
-    vocab: "196fd4dae51e"
+    vocab: "70e86894c9ec"
     top:
+    - scientific: "Acropora palmata"
+      confidence: 0.163
     - scientific: "Ophioblennius macclurei"
       confidence: 0.1213
     - scientific: "Abudefduf saxatilis"
       confidence: 0.0837
-    - scientific: "Microspathodon chrysurus"
-      confidence: 0.0681
-    absorbed_by:
-      scientific: "Acropora palmata"
-      confidence: 0.163
 species: []
 tags:
 - "anchor"

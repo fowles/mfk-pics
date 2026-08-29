@@ -16,24 +16,24 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-29T01:35:36Z"
+    created: "2026-08-29T21:45:59Z"
     src_mtime: 1786158188.9654589
-    vocab: "196fd4dae51e"
+    vocab: "70e86894c9ec"
     top:
+    - scientific: "Acropora palmata"
+      confidence: 0.0006
+    - scientific: "Condylactis gigantea"
+      confidence: 0.0001
     - scientific: "Bodianus rufus"
-      confidence: 0.0001
-    - scientific: "Stegastes planifrons"
-      confidence: 0.0001
-    - scientific: "Aluterus scriptus"
       confidence: 0.0001
     absorbed_by:
       scientific: "Callyspongia plicifera"
       confidence: 0.8764
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-29T01:37:53Z"
+    created: "2026-08-29T21:48:07Z"
     src_mtime: 1786158188.9654589
-    vocab: "196fd4dae51e"
+    vocab: "70e86894c9ec"
     top:
     - scientific: "Bodianus rufus"
       confidence: 0.0

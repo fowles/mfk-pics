@@ -13,34 +13,28 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-29T01:35:36Z"
+    created: "2026-08-29T21:45:59Z"
     src_mtime: 1787326220.7599537
-    vocab: "196fd4dae51e"
+    vocab: "70e86894c9ec"
     top:
+    - scientific: "Acropora palmata"
+      confidence: 0.271
     - scientific: "Holacanthus tricolor"
       confidence: 0.0653
     - scientific: "Thalassoma bifasciatum"
       confidence: 0.0155
-    - scientific: "Stegastes planifrons"
-      confidence: 0.0127
-    absorbed_by:
-      scientific: "Acropora palmata"
-      confidence: 0.271
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-29T01:37:53Z"
+    created: "2026-08-29T21:48:07Z"
     src_mtime: 1787326220.7599537
-    vocab: "196fd4dae51e"
+    vocab: "70e86894c9ec"
     top:
+    - scientific: "Acropora palmata"
+      confidence: 0.4822
     - scientific: "Halichoeres garnoti"
       confidence: 0.0604
     - scientific: "Sparisoma viride"
       confidence: 0.0401
-    - scientific: "Thalassoma bifasciatum"
-      confidence: 0.0173
-    absorbed_by:
-      scientific: "Acropora palmata"
-      confidence: 0.4822
 species:
 - scientific: "Sparisoma amplum"
   role: "primary"

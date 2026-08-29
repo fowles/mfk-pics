@@ -14,9 +14,9 @@ rotation_applied: 90
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-29T01:35:36Z"
+    created: "2026-08-29T21:45:59Z"
     src_mtime: 1787175235.267173
-    vocab: "196fd4dae51e"
+    vocab: "70e86894c9ec"
     top:
     - scientific: "Aluterus scriptus"
       confidence: 0.8315
@@ -26,9 +26,9 @@ species_suggestions:
       confidence: 0.0123
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-29T01:37:53Z"
+    created: "2026-08-29T21:48:07Z"
     src_mtime: 1787175235.267173
-    vocab: "196fd4dae51e"
+    vocab: "70e86894c9ec"
     top:
     - scientific: "Aluterus scriptus"
       confidence: 0.9783

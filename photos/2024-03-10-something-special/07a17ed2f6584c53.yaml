@@ -9,9 +9,9 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-29T01:35:36Z"
+    created: "2026-08-29T21:45:59Z"
     src_mtime: 1786159062.944696
-    vocab: "196fd4dae51e"
+    vocab: "70e86894c9ec"
     top:
     - scientific: "Eretmochelys imbricata"
       confidence: 0.2753
@@ -21,21 +21,17 @@ species_suggestions:
       confidence: 0.0391
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-29T01:37:53Z"
+    created: "2026-08-29T21:48:07Z"
     src_mtime: 1786159062.944696
-    vocab: "196fd4dae51e"
+    vocab: "70e86894c9ec"
     top:
     - scientific: "Sepioteuthis sepioidea"
       confidence: 0.2573
+    - scientific: "Acropora palmata"
+      confidence: 0.0736
     - scientific: "Lutjanus apodus"
       confidence: 0.0423
-    - scientific: "Eretmochelys imbricata"
-      confidence: 0.0257
     absorbed_by:
       scientific: "Acropora cervicornis"
       confidence: 0.2785
-species:
-- scientific: "Eretmochelys imbricata"
-  role: "primary"
-  confidence: 0.1505
-  identified_by: "bioclip-2+bioclip-2.5"
+species: []

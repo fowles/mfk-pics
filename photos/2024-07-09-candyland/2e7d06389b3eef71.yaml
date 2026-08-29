@@ -16,30 +16,30 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-29T01:35:36Z"
+    created: "2026-08-29T21:45:59Z"
     src_mtime: 1786159186.665072
-    vocab: "196fd4dae51e"
+    vocab: "70e86894c9ec"
     top:
+    - scientific: "Acropora palmata"
+      confidence: 0.0633
     - scientific: "Holacanthus tricolor"
       confidence: 0.0068
     - scientific: "Stegastes planifrons"
       confidence: 0.0054
-    - scientific: "Abudefduf saxatilis"
-      confidence: 0.005
     absorbed_by:
       scientific: "Orbicella faveolata"
       confidence: 0.7332
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-29T01:37:53Z"
+    created: "2026-08-29T21:48:07Z"
     src_mtime: 1786159186.665072
-    vocab: "196fd4dae51e"
+    vocab: "70e86894c9ec"
     top:
+    - scientific: "Acropora palmata"
+      confidence: 0.0029
     - scientific: "Elacatinus evelynae"
       confidence: 0.0
     - scientific: "Abudefduf saxatilis"
-      confidence: 0.0
-    - scientific: "Stegastes planifrons"
       confidence: 0.0
     absorbed_by:
       scientific: "Orbicella faveolata"

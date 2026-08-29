@@ -13,9 +13,9 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-29T01:35:36Z"
+    created: "2026-08-29T21:45:59Z"
     src_mtime: 1786156741.1427703
-    vocab: "196fd4dae51e"
+    vocab: "70e86894c9ec"
     top:
     - scientific: "Stegastes partitus"
       confidence: 0.0488
@@ -28,15 +28,15 @@ species_suggestions:
       confidence: 0.3426
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-29T01:37:53Z"
+    created: "2026-08-29T21:48:07Z"
     src_mtime: 1786156741.1427703
-    vocab: "196fd4dae51e"
+    vocab: "70e86894c9ec"
     top:
     - scientific: "Lutjanus apodus"
       confidence: 0.0005
+    - scientific: "Acropora palmata"
+      confidence: 0.0002
     - scientific: "Microspathodon chrysurus"
-      confidence: 0.0001
-    - scientific: "Abudefduf saxatilis"
       confidence: 0.0001
     absorbed_by:
       scientific: "Millepora complanata"
