@@ -1,42 +1,43 @@
-date: '2024-11-10 13:45:54'
-location: Bonaire
-location_source: dive_site
-dive_site: La Dania's Leap
-credit: Delia Kulukundis
-import_album: 2024-11-10, Bonaire, La Dania's Leap
-import_original_name: IMG_4903.JPG
+date: "2024-11-10 13:45:54"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "La Dania's Leap"
+credit: "Delia Kulukundis"
+import_album: "2024-11-10, Bonaire, La Dania's Leap"
+import_original_name: "IMG_4903.JPG"
 lat: 12.2181035
 lon: -68.34805419999999
-gps_source: dive_site
+gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-26T21:40:45Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-26T21:40:45Z"
     src_mtime: 1786156686.5736039
-    vocab: 8d0a807ec25f
+    vocab: "8d0a807ec25f"
     top:
-    - scientific: Bodianus pulchellus
+    - scientific: "Bodianus pulchellus"
       confidence: 0.1825
-    - scientific: Eretmochelys imbricata
+    - scientific: "Eretmochelys imbricata"
       confidence: 0.0948
-    - scientific: Sparisoma viride
+    - scientific: "Sparisoma viride"
       confidence: 0.063
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-26T21:42:54Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-26T21:42:54Z"
     src_mtime: 1786156686.5736039
-    vocab: 8d0a807ec25f
+    vocab: "8d0a807ec25f"
     top:
-    - scientific: Rhincodon typus
+    - scientific: "Rhincodon typus"
       confidence: 0.3458
-    - scientific: Grapsus grapsus
+    - scientific: "Grapsus grapsus"
       confidence: 0.2058
-    - scientific: Aetobatus narinari
+    - scientific: "Aetobatus narinari"
       confidence: 0.0392
 species:
-- scientific: Rhincodon typus
-  role: primary
+- scientific: "Rhincodon typus"
+  role: "primary"
   confidence: 0.1729
-  identified_by: bioclip-2.5
+  identified_by: "bioclip-2.5"
+culled: true
