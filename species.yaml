@@ -262,7 +262,7 @@
 - {scientific: "Briareum asbestinum", common: "Corky Sea Finger", regions: ["Caribbean"], distractor: true, taxonomy: "Animalia Cnidaria Anthozoa Scleralcyonacea Briareidae"}
 - {scientific: "Cirrhipathes leutkeni", common: "Wire Coral", regions: ["Caribbean"], distractor: true, taxonomy: "Animalia Cnidaria Anthozoa Antipatharia Antipathidae"}
 - {scientific: "Palythoa caribaeorum", common: "White Encrusting Zoanthid", regions: ["Caribbean"], distractor: true, taxonomy: "Animalia Cnidaria Anthozoa Zoantharia Sphenopidae"}
-- {scientific: "Condylactis gigantea", common: "Giant Anemone", regions: ["Caribbean"], distractor: true, taxonomy: "Animalia Cnidaria Anthozoa Actiniaria Actiniidae"}
+- {scientific: "Condylactis gigantea", common: "Giant Anemone", regions: ["Caribbean"], taxonomy: "Animalia Cnidaria Anthozoa Actiniaria Actiniidae"}
 - {scientific: "Bartholomea annulata", common: "Corkscrew Anemone", regions: ["Caribbean"], taxonomy: "Animalia Cnidaria Anthozoa Actiniaria Aiptasiidae"}
 - {scientific: "Stichodactyla helianthus", common: "Sun Anemone", regions: ["Caribbean"], distractor: true, taxonomy: "Animalia Cnidaria Anthozoa Actiniaria Stichodactylidae"}
 - {scientific: "Lebrunia neglecta", common: "Branching Anemone", regions: ["Caribbean"], distractor: true, taxonomy: "Animalia Cnidaria Anthozoa Actiniaria Aliciidae"}
