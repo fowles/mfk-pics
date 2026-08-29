@@ -39,7 +39,10 @@ species_suggestions:
     - scientific: "Lutjanus analis"
       confidence: 0.0439
 species:
-- scientific: "Sparisoma amplum"
+- scientific: "Acanthostracion polygonius"
   role: "primary"
-  confidence: 0.3366
-  identified_by: "bioclip-2.5"
+  identified_by: "human"
+  reviewed_by: "matt"
+species_reviewed:
+- "primary"
+- "secondary"

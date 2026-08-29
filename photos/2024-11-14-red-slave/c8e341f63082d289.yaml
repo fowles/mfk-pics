@@ -39,7 +39,10 @@ species_suggestions:
     - scientific: "Calamus calamus"
       confidence: 0.1251
 species:
-- scientific: "Lutjanus analis"
+- scientific: "Acanthostracion polygonius"
   role: "primary"
-  confidence: 0.0975
-  identified_by: "bioclip-2"
+  identified_by: "human"
+  reviewed_by: "matt"
+species_reviewed:
+- "primary"
+- "secondary"

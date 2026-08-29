@@ -41,5 +41,10 @@ species_suggestions:
 species:
 - scientific: "Diodon hystrix"
   role: "primary"
-  confidence: 0.5
-  identified_by: "bioclip-2.5"
+  identified_by: "human"
+  confirmed_from: "bioclip-2.5"
+  reviewed_by: "matt"
+  cover: true
+species_reviewed:
+- "primary"
+- "secondary"

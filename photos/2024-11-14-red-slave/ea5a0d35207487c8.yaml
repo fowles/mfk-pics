@@ -44,4 +44,11 @@ species_suggestions:
     absorbed_by:
       scientific: "Condylactis gigantea"
       confidence: 0.9999
-species: []
+species:
+- scientific: "Condylactis gigantea"
+  role: "primary"
+  identified_by: "human"
+  reviewed_by: "matt"
+species_reviewed:
+- "primary"
+- "secondary"

@@ -35,8 +35,7 @@ species_suggestions:
       confidence: 0.1562
     - scientific: "Hermodice carunculata"
       confidence: 0.0778
-species:
-- scientific: "Grapsus grapsus"
-  role: "primary"
-  confidence: 0.2069
-  identified_by: "bioclip-2.5"
+species: []
+species_reviewed:
+- "primary"
+- "secondary"

@@ -35,8 +35,8 @@ species_suggestions:
       confidence: 0.0002
     - scientific: "Scarus coeruleus"
       confidence: 0.0001
-species:
-- scientific: "Canthidermis sufflamen"
-  role: "primary"
-  confidence: 0.9913
-  identified_by: "bioclip-2+bioclip-2.5"
+species: []
+culled: true
+species_reviewed:
+- "primary"
+- "secondary"

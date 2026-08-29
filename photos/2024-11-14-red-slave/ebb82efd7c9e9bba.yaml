@@ -39,7 +39,11 @@ species_suggestions:
     - scientific: "Lactophrys triqueter"
       confidence: 0.0675
 species:
-- scientific: "Anisotremus surinamensis"
+- scientific: "Lactophrys triqueter"
   role: "primary"
-  confidence: 0.2835
-  identified_by: "bioclip-2.5"
+  identified_by: "human"
+  confirmed_from: "bioclip-2.5"
+  reviewed_by: "matt"
+species_reviewed:
+- "primary"
+- "secondary"

@@ -39,7 +39,10 @@ species_suggestions:
     - scientific: "Lutjanus synagris"
       confidence: 0.0137
 species:
-- scientific: "Lachnolaimus maximus"
+- scientific: "Gerres cinereus"
   role: "primary"
-  confidence: 0.5091
-  identified_by: "bioclip-2+bioclip-2.5"
+  identified_by: "human"
+  reviewed_by: "matt"
+species_reviewed:
+- "primary"
+- "secondary"

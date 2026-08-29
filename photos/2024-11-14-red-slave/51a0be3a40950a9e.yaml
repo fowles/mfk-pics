@@ -36,7 +36,10 @@ species_suggestions:
     - scientific: "Caranx crysos"
       confidence: 0.0588
 species:
-- scientific: "Caranx ruber"
+- scientific: "Trachinotus goodei"
   role: "primary"
-  confidence: 0.542
-  identified_by: "bioclip-2+bioclip-2.5"
+  identified_by: "human"
+  reviewed_by: "matt"
+species_reviewed:
+- "primary"
+- "secondary"

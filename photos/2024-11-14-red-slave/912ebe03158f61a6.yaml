@@ -41,4 +41,11 @@ species_suggestions:
     absorbed_by:
       scientific: "Agaricia agaricites"
       confidence: 0.9772
-species: []
+species:
+- scientific: "Lactophrys bicaudalis"
+  role: "primary"
+  identified_by: "human"
+  reviewed_by: "matt"
+species_reviewed:
+- "primary"
+- "secondary"

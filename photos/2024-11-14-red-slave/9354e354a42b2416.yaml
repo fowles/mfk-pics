@@ -41,4 +41,11 @@ species_suggestions:
       confidence: 0.1358
     - scientific: "Chromis cyanea"
       confidence: 0.0858
-species: []
+species:
+- scientific: "Acanthostracion polygonius"
+  role: "primary"
+  identified_by: "human"
+  reviewed_by: "matt"
+species_reviewed:
+- "primary"
+- "secondary"
