@@ -1,4 +1,4 @@
-date: "2023-04-06"
+date: "2023-04-06 10:17:38"
 location: "Cabo Pulmo, Baja California Sur, Mexico"
 location_source: "dive_site"
 dive_site: "Los Morros"
@@ -44,3 +44,5 @@ species:
 species_reviewed:
 - "primary"
 - "secondary"
+date_reviewed: true
+dive_window_reviewed: true
