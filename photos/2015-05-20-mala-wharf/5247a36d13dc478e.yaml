@@ -1,20 +1,21 @@
-date: '2015-05-20 15:12:00'
-location: Maui, Hawaii, USA
-location_source: dive_site
-dive_site: Mala Wharf
-credit: Delia Kulukundis
-import_album: 2015-05-20, USA, Hawaii, Maui, Mala Wharf
-import_original_name: DSC_1839.MOV
+date: "2015-05-20 15:11:53"
+location: "Maui, Hawaii, USA"
+location_source: "dive_site"
+dive_site: "Mala Wharf"
+credit: "Delia Kulukundis"
+import_album: "2015-05-20, USA, Hawaii, Maui, Mala Wharf"
+import_original_name: "DSC_1839.MOV"
 lat: 20.88461
 lon: -156.68646
-gps_source: dive_site
+gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
 species:
-- scientific: Mulloidichthys flavolineatus
-  role: primary
-  identified_by: human
-  reviewed_by: matt
+- scientific: "Mulloidichthys flavolineatus"
+  role: "primary"
+  identified_by: "human"
+  reviewed_by: "matt"
 species_reviewed:
-- primary
-- secondary
+- "primary"
+- "secondary"
+video_start_anchored: true

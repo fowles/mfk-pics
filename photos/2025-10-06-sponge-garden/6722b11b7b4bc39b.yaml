@@ -1,12 +1,13 @@
-date: '2025-10-06 08:38:34'
-location: Bahamas
-location_source: dive_site
-dive_site: Sponge Garden
-credit: Delia Kulukundis
-import_album: Juliet Bahamas 2025 Underwater (all)
-import_original_name: MVI_6032.MP4
+date: "2025-10-06 08:38:08"
+location: "Bahamas"
+location_source: "dive_site"
+dive_site: "Sponge Garden"
+credit: "Delia Kulukundis"
+import_album: "Juliet Bahamas 2025 Underwater (all)"
+import_original_name: "MVI_6032.MP4"
 lat: 25.5251
 lon: -79.303
-gps_source: dive_site
+gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
+video_start_anchored: true

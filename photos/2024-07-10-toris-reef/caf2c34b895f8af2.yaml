@@ -1,10 +1,12 @@
-date: '2024-07-10 13:12:39'
-location: Bonaire
-location_source: dive_site
-dive_site: Tori's Reef
-credit: Matthew Kulukundis
-import_album: Tori's Reef, Bonaire, 7-10-2024
-import_original_name: PXL_20240710_171214424.mp4
+date: "2024-07-10 13:12:14"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Tori's Reef"
+credit: "Matthew Kulukundis"
+import_album: "Tori's Reef, Bonaire, 7-10-2024"
+import_original_name: "PXL_20240710_171214424.mp4"
 lat: 12.070475199999999
 lon: -68.2806703
-gps_source: dive_site
+gps_source: "dive_site"
+video_start_anchored: true
+date_reviewed: true

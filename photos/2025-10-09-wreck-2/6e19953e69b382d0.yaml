@@ -1,26 +1,27 @@
-date: '2025-10-09 10:28:47'
-location: Bahamas
-location_source: dive_site
-dive_site: 'Wreck #2'
-credit: Delia Kulukundis
-import_album: Juliet Bahamas 2025 Underwater (all)
-import_original_name: MVI_6318.MP4
+date: "2025-10-09 10:28:19"
+location: "Bahamas"
+location_source: "dive_site"
+dive_site: "Wreck #2"
+credit: "Delia Kulukundis"
+import_album: "Juliet Bahamas 2025 Underwater (all)"
+import_original_name: "MVI_6318.MP4"
 lat: 25.7183
 lon: -79.3154
-gps_source: dive_site
+gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
 species:
-- scientific: Pterois volitans
-  role: primary
-  identified_by: human
-  reviewed_by: matt
-- scientific: Homo sapiens
-  role: secondary
-  identified_by: human
-  reviewed_by: matt
+- scientific: "Pterois volitans"
+  role: "primary"
+  identified_by: "human"
+  reviewed_by: "matt"
+- scientific: "Homo sapiens"
+  role: "secondary"
+  identified_by: "human"
+  reviewed_by: "matt"
   person:
-  - Matthew Kulukundis
+  - "Matthew Kulukundis"
 species_reviewed:
-- primary
-- secondary
+- "primary"
+- "secondary"
+video_start_anchored: true

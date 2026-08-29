@@ -1,25 +1,26 @@
-date: '2023-04-02 09:52:41'
-location: Los Cabos, Baja California Sur, Mexico
-location_source: dive_site
-dive_site: Playa el Chileno
-credit: Matthew Kulukundis
-import_album: 2023-04-02, Mexico, Baja California Sur, Los Cabos, Playa el Chileno
-import_original_name: VID_20230204_095241.mp4
+date: "2023-04-02 09:52:10"
+location: "Los Cabos, Baja California Sur, Mexico"
+location_source: "dive_site"
+dive_site: "Playa el Chileno"
+credit: "Matthew Kulukundis"
+import_album: "2023-04-02, Mexico, Baja California Sur, Los Cabos, Playa el Chileno"
+import_original_name: "VID_20230204_095241.mp4"
 lat: 22.94523
 lon: -109.80243
-gps_source: dive_site
+gps_source: "dive_site"
 date_reviewed: true
 variants:
-- method: dive-plus
-  file: 92ff003b5b3dc5a5.dive-plus.mp4
-  import_original_name: 1680480853095-1410704927.mp4
+- method: "dive-plus"
+  file: "92ff003b5b3dc5a5.dive-plus.mp4"
+  import_original_name: "1680480853095-1410704927.mp4"
 species:
-- scientific: Homo sapiens
-  role: primary
-  identified_by: human
-  reviewed_by: matt
+- scientific: "Homo sapiens"
+  role: "primary"
+  identified_by: "human"
+  reviewed_by: "matt"
   person:
-  - David Bede Rinaldi
+  - "David Bede Rinaldi"
 species_reviewed:
-- primary
-- secondary
+- "primary"
+- "secondary"
+video_start_anchored: true

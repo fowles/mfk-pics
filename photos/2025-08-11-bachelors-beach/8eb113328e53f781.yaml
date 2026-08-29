@@ -1,14 +1,16 @@
-date: '2025-08-11 16:25:31'
-location: Bonaire
-location_source: dive_site
-dive_site: Bachelor's Beach
-credit: Matthew Kulukundis
-import_album: 2025-08-11 - Bonaire, Bachelor's Beach
-import_original_name: PXL_20250811_202505308.mp4
+date: "2025-08-11 16:25:05"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Bachelor's Beach"
+credit: "Matthew Kulukundis"
+import_album: "2025-08-11 - Bonaire, Bachelor's Beach"
+import_original_name: "PXL_20250811_202505308.mp4"
 lat: 12.125370400000001
 lon: -68.2874429
-gps_source: dive_site
+gps_source: "dive_site"
 variants:
-- method: dive-plus
-  file: 8eb113328e53f781.dive-plus.mp4
-  import_original_name: e82d22ddddfbf7e8.mp4
+- method: "dive-plus"
+  file: "8eb113328e53f781.dive-plus.mp4"
+  import_original_name: "e82d22ddddfbf7e8.mp4"
+video_start_anchored: true
+date_reviewed: true

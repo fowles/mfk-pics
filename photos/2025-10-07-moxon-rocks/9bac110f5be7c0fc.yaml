@@ -1,10 +1,13 @@
-date: '2025-10-07 17:04:14'
-location: Bahamas
-location_source: dive_site
-dive_site: Moxon Rocks
-credit: Delia Kulukundis
-import_album: Juliet Bahamas 2025 Underwater (all)
-import_original_name: MVI_6257.MP4
+date: "2025-10-07 17:03:55"
+location: "Bahamas"
+location_source: "dive_site"
+dive_site: "Moxon Rocks"
+credit: "Delia Kulukundis"
+import_album: "Juliet Bahamas 2025 Underwater (all)"
+import_original_name: "MVI_6257.MP4"
 lat: 25.54167
 lon: -79.27083
-gps_source: dive_site
+gps_source: "dive_site"
+date_reviewed: true
+dive_window_reviewed: true
+video_start_anchored: true

@@ -1,32 +1,33 @@
-date: '2025-08-15 10:20:24'
-location: Bonaire
-location_source: dive_site
-dive_site: Invisibles
-credit: Delia Kulukundis
-import_album: 2025-08-15 - Bonaire, Invisibles
-import_original_name: MVI_5944.MP4
+date: "2025-08-15 10:19:30"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Invisibles"
+credit: "Delia Kulukundis"
+import_album: "2025-08-15 - Bonaire, Invisibles"
+import_original_name: "MVI_5944.MP4"
 lat: 12.0776183
 lon: -68.28015169999999
-gps_source: dive_site
+gps_source: "dive_site"
 variants:
-- method: dive-plus
-  file: 27ca8d281e814251.dive-plus.mp4
-  import_original_name: b21f379a4cf0852b.mp4
+- method: "dive-plus"
+  file: "27ca8d281e814251.dive-plus.mp4"
+  import_original_name: "b21f379a4cf0852b.mp4"
 date_reviewed: true
 dive_window_reviewed: true
 species:
-- scientific: Octopus insularis
-  role: primary
-  identified_by: human
-  reviewed_by: matt
-- scientific: Thalassoma bifasciatum
-  role: secondary
-  identified_by: human
-  reviewed_by: matt
-- scientific: Stegastes partitus
-  role: secondary
-  identified_by: human
-  reviewed_by: matt
+- scientific: "Octopus insularis"
+  role: "primary"
+  identified_by: "human"
+  reviewed_by: "matt"
+- scientific: "Thalassoma bifasciatum"
+  role: "secondary"
+  identified_by: "human"
+  reviewed_by: "matt"
+- scientific: "Stegastes partitus"
+  role: "secondary"
+  identified_by: "human"
+  reviewed_by: "matt"
 species_reviewed:
-- primary
-- secondary
+- "primary"
+- "secondary"
+video_start_anchored: true
