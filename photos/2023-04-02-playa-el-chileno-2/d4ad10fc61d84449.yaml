@@ -13,7 +13,6 @@ variants:
   file: "d4ad10fc61d84449.dive-plus.webp"
   import_original_name: "7b3dbfeca41d9e58.webp"
 date_reviewed: true
-correction_standalone: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"

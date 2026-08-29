@@ -9,7 +9,6 @@ lat: 12.0776183
 lon: -68.28015169999999
 gps_source: "dive_site"
 date_reviewed: true
-correction_standalone: true
 dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
