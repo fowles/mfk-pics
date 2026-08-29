@@ -41,3 +41,11 @@ species_suggestions:
     absorbed_by:
       scientific: "Acropora palmata"
       confidence: 1.0
+species:
+- scientific: "Acropora palmata"
+  role: "primary"
+  identified_by: "human"
+  reviewed_by: "matt"
+species_reviewed:
+- "primary"
+- "secondary"

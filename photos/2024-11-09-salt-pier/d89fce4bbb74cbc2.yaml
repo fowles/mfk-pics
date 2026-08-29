@@ -36,7 +36,11 @@ species_suggestions:
     - scientific: "Lutjanus analis"
       confidence: 0.1411
 species:
-- scientific: "Haemulon album"
+- scientific: "Malacanthus plumieri"
   role: "primary"
-  confidence: 0.1224
-  identified_by: "bioclip-2.5"
+  identified_by: "human"
+  confirmed_from: "bioclip-2.5"
+  reviewed_by: "matt"
+species_reviewed:
+- "primary"
+- "secondary"

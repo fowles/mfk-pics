@@ -41,3 +41,6 @@ species_suggestions:
     absorbed_by:
       scientific: "Siderastrea siderea"
       confidence: 0.968
+species_reviewed:
+- "primary"
+- "secondary"

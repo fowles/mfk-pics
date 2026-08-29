@@ -32,7 +32,14 @@ species_suggestions:
     - scientific: "Sphyrna lewini"
       confidence: 0.0873
 species:
-- scientific: "Rhincodon typus"
+- scientific: "Homo sapiens"
   role: "primary"
-  confidence: 0.3192
-  identified_by: "bioclip-2.5"
+  identified_by: "human"
+  reviewed_by: "matt"
+  person:
+  - "Delia Kulukundis"
+  - "Jane Bulnes-Fowles"
+  - "Alice Watson"
+species_reviewed:
+- "primary"
+- "secondary"

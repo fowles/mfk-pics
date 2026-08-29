@@ -36,7 +36,11 @@ species_suggestions:
     - scientific: "Haemulon carbonarium"
       confidence: 0.0868
 species:
-- scientific: "Lutjanus mahogoni"
+- scientific: "Malacanthus plumieri"
   role: "primary"
-  confidence: 0.2997
-  identified_by: "bioclip-2.5"
+  identified_by: "human"
+  confirmed_from: "bioclip-2"
+  reviewed_by: "matt"
+species_reviewed:
+- "primary"
+- "secondary"

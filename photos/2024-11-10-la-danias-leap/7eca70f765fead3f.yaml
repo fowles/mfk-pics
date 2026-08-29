@@ -36,7 +36,10 @@ species_suggestions:
     - scientific: "Kyphosus sectatrix"
       confidence: 0.0239
 species:
-- scientific: "Scarus vetula"
+- scientific: "Halichoeres radiatus"
   role: "primary"
-  confidence: 0.6167
-  identified_by: "bioclip-2+bioclip-2.5"
+  identified_by: "human"
+  reviewed_by: "matt"
+species_reviewed:
+- "primary"
+- "secondary"

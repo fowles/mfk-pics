@@ -35,8 +35,8 @@ species_suggestions:
       confidence: 0.1193
     - scientific: "Hypoplectrus puella"
       confidence: 0.0393
-species:
-- scientific: "Pomacanthus arcuatus"
-  role: "primary"
-  confidence: 0.4554
-  identified_by: "bioclip-2+bioclip-2.5"
+species: []
+culled: true
+species_reviewed:
+- "primary"
+- "secondary"

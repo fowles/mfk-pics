@@ -35,8 +35,9 @@ species_suggestions:
       confidence: 0.0811
     - scientific: "Davidaster rubiginosus"
       confidence: 0.0526
-species:
-- scientific: "Aulostomus maculatus"
-  role: "primary"
-  confidence: 0.215
-  identified_by: "bioclip-2+bioclip-2.5"
+species: []
+tags:
+- "anchor"
+species_reviewed:
+- "primary"
+- "secondary"

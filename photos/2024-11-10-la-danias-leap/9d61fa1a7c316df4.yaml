@@ -41,4 +41,17 @@ species_suggestions:
     absorbed_by:
       scientific: "Acropora palmata"
       confidence: 0.9935
-species: []
+species:
+- scientific: "Homo sapiens"
+  role: "secondary"
+  identified_by: "human"
+  reviewed_by: "matt"
+  person:
+  - "Matthew Kulukundis"
+- scientific: "Acropora palmata"
+  role: "primary"
+  identified_by: "human"
+  reviewed_by: "matt"
+species_reviewed:
+- "primary"
+- "secondary"

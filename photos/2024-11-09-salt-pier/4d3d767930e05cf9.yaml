@@ -36,7 +36,10 @@ species_suggestions:
     - scientific: "Halichoeres garnoti"
       confidence: 0.1197
 species:
-- scientific: "Caranx ruber"
+- scientific: "Malacanthus plumieri"
   role: "primary"
-  confidence: 0.1321
-  identified_by: "bioclip-2+bioclip-2.5"
+  identified_by: "human"
+  reviewed_by: "matt"
+species_reviewed:
+- "primary"
+- "secondary"

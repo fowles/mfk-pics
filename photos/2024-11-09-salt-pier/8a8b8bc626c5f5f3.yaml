@@ -36,7 +36,10 @@ species_suggestions:
     - scientific: "Lutjanus analis"
       confidence: 0.0907
 species:
-- scientific: "Caranx ruber"
+- scientific: "Malacanthus plumieri"
   role: "primary"
-  confidence: 0.1177
-  identified_by: "bioclip-2.5"
+  identified_by: "human"
+  reviewed_by: "matt"
+species_reviewed:
+- "primary"
+- "secondary"

@@ -39,3 +39,8 @@ species_suggestions:
       scientific: "Aplysina archeri"
       confidence: 0.7094
 species: []
+tags:
+- "anchor"
+species_reviewed:
+- "primary"
+- "secondary"

@@ -36,7 +36,16 @@ species_suggestions:
     - scientific: "Halichoeres garnoti"
       confidence: 0.1463
 species:
-- scientific: "Scarus iseri"
+- scientific: "Halichoeres radiatus"
   role: "primary"
-  confidence: 0.4072
-  identified_by: "bioclip-2+bioclip-2.5"
+  identified_by: "human"
+  confirmed_from: "bioclip-2"
+  reviewed_by: "matt"
+- scientific: "Halichoeres garnoti"
+  role: "secondary"
+  identified_by: "human"
+  confirmed_from: "bioclip-2+bioclip-2.5"
+  reviewed_by: "matt"
+species_reviewed:
+- "primary"
+- "secondary"

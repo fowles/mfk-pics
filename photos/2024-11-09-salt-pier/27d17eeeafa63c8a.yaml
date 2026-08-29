@@ -36,7 +36,12 @@ species_suggestions:
     - scientific: "Canthidermis sufflamen"
       confidence: 0.0158
 species:
-- scientific: "Scarus coelestinus"
+- scientific: "Homo sapiens"
   role: "primary"
-  confidence: 0.4312
-  identified_by: "bioclip-2.5"
+  identified_by: "human"
+  reviewed_by: "matt"
+  person:
+  - "Delia Kulukundis"
+species_reviewed:
+- "primary"
+- "secondary"

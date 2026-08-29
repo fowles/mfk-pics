@@ -32,7 +32,14 @@ species_suggestions:
     - scientific: "Carcharhinus limbatus"
       confidence: 0.0521
 species:
-- scientific: "Sphyrna lewini"
+- scientific: "Homo sapiens"
   role: "primary"
-  confidence: 0.2777
-  identified_by: "bioclip-2.5"
+  identified_by: "human"
+  reviewed_by: "matt"
+  person:
+  - "Delia Kulukundis"
+  - "Jane Bulnes-Fowles"
+  - "Alice Watson"
+species_reviewed:
+- "primary"
+- "secondary"

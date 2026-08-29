@@ -35,8 +35,7 @@ species_suggestions:
       confidence: 0.2092
     - scientific: "Caranx ruber"
       confidence: 0.0311
-species:
-- scientific: "Malacanthus plumieri"
-  role: "primary"
-  confidence: 0.7118
-  identified_by: "bioclip-2+bioclip-2.5"
+species: []
+species_reviewed:
+- "primary"
+- "secondary"

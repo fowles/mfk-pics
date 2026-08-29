@@ -36,7 +36,11 @@ species_suggestions:
     - scientific: "Halichoeres garnoti"
       confidence: 0.0591
 species:
-- scientific: "Heteroconger longissimus"
+- scientific: "Malacanthus plumieri"
   role: "primary"
-  confidence: 0.1379
-  identified_by: "bioclip-2"
+  identified_by: "human"
+  confirmed_from: "bioclip-2"
+  reviewed_by: "matt"
+species_reviewed:
+- "primary"
+- "secondary"

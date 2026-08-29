@@ -39,3 +39,8 @@ species_suggestions:
       scientific: "Acropora palmata"
       confidence: 0.163
 species: []
+tags:
+- "anchor"
+species_reviewed:
+- "primary"
+- "secondary"

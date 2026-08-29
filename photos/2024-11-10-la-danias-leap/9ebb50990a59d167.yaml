@@ -36,7 +36,16 @@ species_suggestions:
     - scientific: "Aulostomus maculatus"
       confidence: 0.1199
 species:
-- scientific: "Thalassoma bifasciatum"
+- scientific: "Diodon hystrix"
   role: "primary"
-  confidence: 0.1108
-  identified_by: "bioclip-2+bioclip-2.5"
+  identified_by: "human"
+  reviewed_by: "matt"
+- scientific: "Homo sapiens"
+  role: "secondary"
+  identified_by: "human"
+  reviewed_by: "matt"
+  person:
+  - "Jane Bulnes-Fowles"
+species_reviewed:
+- "primary"
+- "secondary"

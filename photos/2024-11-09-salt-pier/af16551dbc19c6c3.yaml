@@ -36,7 +36,10 @@ species_suggestions:
     - scientific: "Urobatis jamaicensis"
       confidence: 0.0342
 species:
-- scientific: "Halichoeres garnoti"
+- scientific: "Malacanthus plumieri"
   role: "primary"
-  confidence: 0.2899
-  identified_by: "bioclip-2+bioclip-2.5"
+  identified_by: "human"
+  reviewed_by: "matt"
+species_reviewed:
+- "primary"
+- "secondary"

@@ -36,7 +36,10 @@ species_suggestions:
     - scientific: "Halichoeres garnoti"
       confidence: 0.1577
 species:
-- scientific: "Scarus coeruleus"
+- scientific: "Halichoeres radiatus"
   role: "primary"
-  confidence: 0.1285
-  identified_by: "bioclip-2.5"
+  identified_by: "human"
+  reviewed_by: "matt"
+species_reviewed:
+- "primary"
+- "secondary"

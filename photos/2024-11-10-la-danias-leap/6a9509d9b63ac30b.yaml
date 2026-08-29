@@ -37,7 +37,16 @@ species_suggestions:
     - scientific: "Sparisoma viride"
       confidence: 0.0626
 species:
-- scientific: "Chromis multilineata"
+- scientific: "Diodon hystrix"
   role: "primary"
-  confidence: 0.1258
-  identified_by: "bioclip-2.5"
+  identified_by: "human"
+  reviewed_by: "matt"
+- scientific: "Homo sapiens"
+  role: "secondary"
+  identified_by: "human"
+  reviewed_by: "matt"
+  person:
+  - "Jane Bulnes-Fowles"
+species_reviewed:
+- "primary"
+- "secondary"
