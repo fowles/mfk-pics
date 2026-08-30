@@ -17,21 +17,21 @@ rotation_applied: 270
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-29T21:45:59Z"
+    created: "2026-08-30T16:31:47Z"
     src_mtime: 1787028974.2192643
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Serranus tigrinus"
-      confidence: 0.4371
+      confidence: 0.4367
     - scientific: "Mycteroperca tigris"
-      confidence: 0.1159
+      confidence: 0.1158
     - scientific: "Hypoplectrus puella"
-      confidence: 0.0458
+      confidence: 0.0457
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-29T21:48:07Z"
+    created: "2026-08-30T16:33:54Z"
     src_mtime: 1787028974.2192643
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Stegastes partitus"
       confidence: 0.3814
@@ -42,5 +42,5 @@ species_suggestions:
 species:
 - scientific: "Serranus tigrinus"
   role: "primary"
-  confidence: 0.2185
+  confidence: 0.2183
   identified_by: "bioclip-2"

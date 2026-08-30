@@ -13,9 +13,9 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-29T21:45:59Z"
+    created: "2026-08-30T16:31:47Z"
     src_mtime: 1786157488.920887
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Haemulon flavolineatum"
       confidence: 0.2887
@@ -25,16 +25,16 @@ species_suggestions:
       confidence: 0.0852
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-29T21:48:07Z"
+    created: "2026-08-30T16:33:54Z"
     src_mtime: 1786157488.920887
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Haemulon flavolineatum"
-      confidence: 0.2787
+      confidence: 0.2786
     - scientific: "Chaetodon striatus"
-      confidence: 0.263
+      confidence: 0.2629
     - scientific: "Scarus iseri"
-      confidence: 0.1459
+      confidence: 0.1458
 species:
 - scientific: "Haemulon flavolineatum"
   role: "primary"

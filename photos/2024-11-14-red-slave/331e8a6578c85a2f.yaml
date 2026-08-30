@@ -16,28 +16,28 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-29T21:45:59Z"
+    created: "2026-08-30T16:31:47Z"
     src_mtime: 1786156981.5058832
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Calamus calamus"
-      confidence: 0.2064
+      confidence: 0.205
     - scientific: "Aluterus scriptus"
-      confidence: 0.1334
+      confidence: 0.1325
     - scientific: "Acanthostracion quadricornis"
-      confidence: 0.078
+      confidence: 0.0775
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-29T21:48:07Z"
+    created: "2026-08-30T16:33:54Z"
     src_mtime: 1786156981.5058832
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Sparisoma amplum"
-      confidence: 0.6732
+      confidence: 0.6615
     - scientific: "Calamus calamus"
-      confidence: 0.0502
+      confidence: 0.0493
     - scientific: "Lutjanus analis"
-      confidence: 0.0439
+      confidence: 0.0431
 species:
 - scientific: "Acanthostracion polygonius"
   role: "primary"

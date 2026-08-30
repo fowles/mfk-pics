@@ -13,32 +13,30 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-29T21:45:59Z"
+    created: "2026-08-30T16:31:47Z"
     src_mtime: 1786156577.964776
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
+    - scientific: "Aplysina archeri"
+      confidence: 0.3648
     - scientific: "Myrichthys breviceps"
       confidence: 0.0851
     - scientific: "Cyphoma gibbosum"
       confidence: 0.0706
-    - scientific: "Chromis cyanea"
-      confidence: 0.0197
-    absorbed_by:
-      scientific: "Aplysina archeri"
-      confidence: 0.3649
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-29T21:48:07Z"
+    created: "2026-08-30T16:33:54Z"
     src_mtime: 1786156577.964776
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
+    - scientific: "Aplysina archeri"
+      confidence: 0.67
     - scientific: "Gymnothorax moringa"
       confidence: 0.0434
     - scientific: "Acanthurus coeruleus"
       confidence: 0.0378
-    - scientific: "Abudefduf saxatilis"
-      confidence: 0.0234
-    absorbed_by:
-      scientific: "Aplysina archeri"
-      confidence: 0.67
-species: []
+species:
+- scientific: "Aplysina archeri"
+  role: "primary"
+  confidence: 0.5174
+  identified_by: "bioclip-2+bioclip-2.5"

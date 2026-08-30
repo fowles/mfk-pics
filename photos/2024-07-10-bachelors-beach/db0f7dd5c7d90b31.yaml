@@ -16,24 +16,24 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-29T21:45:59Z"
+    created: "2026-08-30T16:31:47Z"
     src_mtime: 1786158736.9960306
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Nemaster grandis"
       confidence: 0.0526
     - scientific: "Astrophyton muricatum"
       confidence: 0.0486
-    - scientific: "Thalassoma bifasciatum"
-      confidence: 0.0188
+    - scientific: "Aplysina archeri"
+      confidence: 0.0425
     absorbed_by:
       scientific: "Cirrhipathes leutkeni"
       confidence: 0.1241
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-29T21:48:07Z"
+    created: "2026-08-30T16:33:54Z"
     src_mtime: 1786158736.9960306
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Davidaster rubiginosus"
       confidence: 0.026

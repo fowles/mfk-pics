@@ -16,30 +16,30 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-29T21:45:59Z"
+    created: "2026-08-30T16:31:47Z"
     src_mtime: 1786159197.1533458
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Canthidermis sufflamen"
-      confidence: 0.2559
+      confidence: 0.2556
     - scientific: "Pomacanthus arcuatus"
-      confidence: 0.1035
+      confidence: 0.1034
     - scientific: "Scarus vetula"
-      confidence: 0.0959
+      confidence: 0.0957
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-29T21:48:07Z"
+    created: "2026-08-30T16:33:54Z"
     src_mtime: 1786159197.1533458
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Canthidermis sufflamen"
-      confidence: 0.268
+      confidence: 0.2668
     - scientific: "Mycteroperca venenosa"
-      confidence: 0.2334
+      confidence: 0.2324
     - scientific: "Caranx ruber"
-      confidence: 0.0886
+      confidence: 0.0882
 species:
 - scientific: "Canthidermis sufflamen"
   role: "primary"
-  confidence: 0.262
+  confidence: 0.2612
   identified_by: "bioclip-2+bioclip-2.5"

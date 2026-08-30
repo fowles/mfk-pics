@@ -16,21 +16,21 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-29T21:45:59Z"
+    created: "2026-08-30T16:31:47Z"
     src_mtime: 1786156583.2143695
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Canthidermis sufflamen"
-      confidence: 0.6368
+      confidence: 0.6366
     - scientific: "Trachinotus falcatus"
-      confidence: 0.1799
+      confidence: 0.1798
     - scientific: "Lachnolaimus maximus"
       confidence: 0.0232
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-29T21:48:07Z"
+    created: "2026-08-30T16:33:54Z"
     src_mtime: 1786156583.2143695
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Megalops atlanticus"
       confidence: 0.595
@@ -41,5 +41,5 @@ species_suggestions:
 species:
 - scientific: "Canthidermis sufflamen"
   role: "primary"
-  confidence: 0.5112
+  confidence: 0.5111
   identified_by: "bioclip-2+bioclip-2.5"

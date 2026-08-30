@@ -16,24 +16,24 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-29T21:45:59Z"
+    created: "2026-08-30T16:31:47Z"
     src_mtime: 1787531267.076271
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Chaetodon striatus"
-      confidence: 0.564
+      confidence: 0.5639
     - scientific: "Equetus punctatus"
-      confidence: 0.4088
+      confidence: 0.4087
     - scientific: "Anisotremus surinamensis"
       confidence: 0.0076
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-29T21:48:07Z"
+    created: "2026-08-30T16:33:54Z"
     src_mtime: 1787531267.076271
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Equetus punctatus"
-      confidence: 0.8024
+      confidence: 0.8023
     - scientific: "Chaetodon striatus"
       confidence: 0.1939
     - scientific: "Pareques acuminatus"

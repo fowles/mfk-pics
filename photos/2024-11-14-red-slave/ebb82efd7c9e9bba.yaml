@@ -16,28 +16,28 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-29T21:45:59Z"
+    created: "2026-08-30T16:31:47Z"
     src_mtime: 1786156983.6853337
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Canthigaster rostrata"
-      confidence: 0.3913
+      confidence: 0.3912
     - scientific: "Xyrichtys martinicensis"
       confidence: 0.1772
     - scientific: "Sepioteuthis sepioidea"
       confidence: 0.0592
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-29T21:48:07Z"
+    created: "2026-08-30T16:33:54Z"
     src_mtime: 1786156983.6853337
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Anisotremus surinamensis"
-      confidence: 0.567
+      confidence: 0.5661
     - scientific: "Lactophrys bicaudalis"
-      confidence: 0.1275
+      confidence: 0.1273
     - scientific: "Lactophrys triqueter"
-      confidence: 0.0675
+      confidence: 0.0674
 species:
 - scientific: "Lactophrys triqueter"
   role: "primary"

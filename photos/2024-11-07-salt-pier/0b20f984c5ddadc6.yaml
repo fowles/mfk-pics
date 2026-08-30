@@ -16,28 +16,28 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-29T21:45:59Z"
+    created: "2026-08-30T16:31:47Z"
     src_mtime: 1786156367.7584488
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Opistognathus aurifrons"
       confidence: 0.1342
+    - scientific: "Aplysina archeri"
+      confidence: 0.0784
     - scientific: "Stegastes partitus"
       confidence: 0.0472
-    - scientific: "Amblycirrhitus pinos"
-      confidence: 0.0469
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-29T21:48:07Z"
+    created: "2026-08-30T16:33:54Z"
     src_mtime: 1786156367.7584488
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Haemulon carbonarium"
-      confidence: 0.1268
+      confidence: 0.1266
     - scientific: "Stegastes diencaeus"
-      confidence: 0.1255
-    - scientific: "Canthigaster rostrata"
       confidence: 0.1254
+    - scientific: "Canthigaster rostrata"
+      confidence: 0.1252
 species:
 - scientific: "Opistognathus aurifrons"
   role: "primary"

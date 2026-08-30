@@ -14,21 +14,21 @@ rotation_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-29T21:45:59Z"
+    created: "2026-08-30T16:31:47Z"
     src_mtime: 1786159270.3361092
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Ocyurus chrysurus"
-      confidence: 0.6273
+      confidence: 0.6271
     - scientific: "Caranx ruber"
-      confidence: 0.1069
+      confidence: 0.1068
     - scientific: "Caranx latus"
       confidence: 0.0368
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-29T21:48:07Z"
+    created: "2026-08-30T16:33:54Z"
     src_mtime: 1786159270.3361092
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Ocyurus chrysurus"
       confidence: 0.9906
@@ -39,5 +39,5 @@ species_suggestions:
 species:
 - scientific: "Ocyurus chrysurus"
   role: "primary"
-  confidence: 0.809
+  confidence: 0.8089
   identified_by: "bioclip-2+bioclip-2.5"

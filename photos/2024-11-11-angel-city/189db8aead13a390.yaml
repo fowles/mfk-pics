@@ -16,30 +16,30 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-29T21:45:59Z"
+    created: "2026-08-30T16:31:47Z"
     src_mtime: 1786156745.2980905
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Chromis cyanea"
-      confidence: 0.1358
+      confidence: 0.1354
     - scientific: "Sepioteuthis sepioidea"
-      confidence: 0.0858
+      confidence: 0.0855
     - scientific: "Hypoplectrus indigo"
-      confidence: 0.0789
+      confidence: 0.0787
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-29T21:48:07Z"
+    created: "2026-08-30T16:33:54Z"
     src_mtime: 1786156745.2980905
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Diodon hystrix"
-      confidence: 0.8192
+      confidence: 0.819
     - scientific: "Anisotremus surinamensis"
-      confidence: 0.0476
+      confidence: 0.0475
     - scientific: "Pomacanthus arcuatus"
       confidence: 0.0353
 species:
 - scientific: "Diodon hystrix"
   role: "primary"
-  confidence: 0.4096
+  confidence: 0.4095
   identified_by: "bioclip-2.5"

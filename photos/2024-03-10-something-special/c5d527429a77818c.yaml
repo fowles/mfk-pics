@@ -13,12 +13,12 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-29T21:45:59Z"
+    created: "2026-08-30T16:31:47Z"
     src_mtime: 1786159052.824718
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Mulloidichthys martinicus"
-      confidence: 0.0931
+      confidence: 0.093
     - scientific: "Abudefduf saxatilis"
       confidence: 0.0483
     - scientific: "Ocyurus chrysurus"
@@ -28,18 +28,18 @@ species_suggestions:
       confidence: 0.1434
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-29T21:48:07Z"
+    created: "2026-08-30T16:33:54Z"
     src_mtime: 1786159052.824718
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Haemulon carbonarium"
-      confidence: 0.287
+      confidence: 0.2863
     - scientific: "Mulloidichthys martinicus"
-      confidence: 0.1631
+      confidence: 0.1627
     - scientific: "Haemulon chrysargyreum"
-      confidence: 0.0873
+      confidence: 0.0871
 species:
 - scientific: "Haemulon carbonarium"
   role: "primary"
-  confidence: 0.1435
+  confidence: 0.1431
   identified_by: "bioclip-2.5"

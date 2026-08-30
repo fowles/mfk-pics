@@ -14,21 +14,21 @@ rotation_applied: 270
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-29T21:45:59Z"
+    created: "2026-08-30T16:31:47Z"
     src_mtime: 1787174975.381908
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Mycteroperca tigris"
-      confidence: 0.3244
+      confidence: 0.324
     - scientific: "Lutjanus analis"
-      confidence: 0.3232
+      confidence: 0.3228
     - scientific: "Lutjanus griseus"
-      confidence: 0.1425
+      confidence: 0.1424
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-29T21:48:07Z"
+    created: "2026-08-30T16:33:54Z"
     src_mtime: 1787174975.381908
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Mycteroperca tigris"
       confidence: 0.9101
@@ -39,5 +39,5 @@ species_suggestions:
 species:
 - scientific: "Mycteroperca tigris"
   role: "primary"
-  confidence: 0.6173
+  confidence: 0.617
   identified_by: "bioclip-2+bioclip-2.5"

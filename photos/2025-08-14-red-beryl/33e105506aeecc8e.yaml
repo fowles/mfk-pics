@@ -16,9 +16,9 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-29T21:45:59Z"
+    created: "2026-08-30T16:31:47Z"
     src_mtime: 1786158338.826714
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Chaetodon striatus"
       confidence: 0.0325
@@ -28,20 +28,20 @@ species_suggestions:
       confidence: 0.0144
     absorbed_by:
       scientific: "Antillogorgia americana"
-      confidence: 0.5603
+      confidence: 0.5602
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-29T21:48:07Z"
+    created: "2026-08-30T16:33:54Z"
     src_mtime: 1786158338.826714
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Aulostomus maculatus"
-      confidence: 0.2342
+      confidence: 0.2339
     - scientific: "Haemulon flavolineatum"
       confidence: 0.018
     - scientific: "Epinephelus striatus"
-      confidence: 0.0166
+      confidence: 0.0165
     absorbed_by:
       scientific: "Antillogorgia americana"
-      confidence: 0.5721
+      confidence: 0.5714
 species: []

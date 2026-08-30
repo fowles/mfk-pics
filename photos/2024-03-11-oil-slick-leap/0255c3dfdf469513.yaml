@@ -13,30 +13,30 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-29T21:45:59Z"
+    created: "2026-08-30T16:31:47Z"
     src_mtime: 1786158971.7390924
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Hypoplectrus chlorurus"
       confidence: 0.1853
     - scientific: "Holacanthus tricolor"
-      confidence: 0.0875
+      confidence: 0.0874
     - scientific: "Stegastes planifrons"
       confidence: 0.0672
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-29T21:48:07Z"
+    created: "2026-08-30T16:33:54Z"
     src_mtime: 1786158971.7390924
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Anisotremus surinamensis"
-      confidence: 0.4833
+      confidence: 0.4828
     - scientific: "Lutjanus jocu"
-      confidence: 0.2675
+      confidence: 0.2672
     - scientific: "Lactophrys bicaudalis"
-      confidence: 0.0801
+      confidence: 0.08
 species:
 - scientific: "Anisotremus surinamensis"
   role: "primary"
-  confidence: 0.2417
+  confidence: 0.2414
   identified_by: "bioclip-2.5"

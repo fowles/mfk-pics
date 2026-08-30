@@ -13,21 +13,21 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-29T21:45:59Z"
+    created: "2026-08-30T16:31:47Z"
     src_mtime: 1786158502.1248438
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Mycteroperca tigris"
-      confidence: 0.8535
+      confidence: 0.8534
     - scientific: "Mycteroperca bonaci"
       confidence: 0.0567
     - scientific: "Epinephelus striatus"
       confidence: 0.0273
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-29T21:48:07Z"
+    created: "2026-08-30T16:33:54Z"
     src_mtime: 1786158502.1248438
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Mycteroperca tigris"
       confidence: 0.9668
@@ -38,5 +38,5 @@ species_suggestions:
 species:
 - scientific: "Mycteroperca tigris"
   role: "primary"
-  confidence: 0.9102
+  confidence: 0.9101
   identified_by: "bioclip-2+bioclip-2.5"

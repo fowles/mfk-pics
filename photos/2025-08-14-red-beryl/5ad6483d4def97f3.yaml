@@ -13,30 +13,30 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-29T21:45:59Z"
+    created: "2026-08-30T16:31:47Z"
     src_mtime: 1786158335.8192723
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Haemulon plumierii"
-      confidence: 0.4755
+      confidence: 0.4754
     - scientific: "Cephalopholis fulva"
-      confidence: 0.329
+      confidence: 0.3289
     - scientific: "Epinephelus guttatus"
       confidence: 0.1174
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-29T21:48:07Z"
+    created: "2026-08-30T16:33:54Z"
     src_mtime: 1786158335.8192723
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Epinephelus guttatus"
-      confidence: 0.3562
+      confidence: 0.3534
     - scientific: "Cephalopholis fulva"
-      confidence: 0.3531
+      confidence: 0.3503
     - scientific: "Haemulon plumierii"
-      confidence: 0.2776
+      confidence: 0.2754
 species:
 - scientific: "Haemulon plumierii"
   role: "primary"
-  confidence: 0.3765
+  confidence: 0.3754
   identified_by: "bioclip-2+bioclip-2.5"

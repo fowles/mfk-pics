@@ -13,24 +13,24 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-29T21:45:59Z"
+    created: "2026-08-30T16:31:47Z"
     src_mtime: 1786157572.6980023
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Lutjanus apodus"
-      confidence: 0.528
+      confidence: 0.5277
     - scientific: "Mulloidichthys martinicus"
-      confidence: 0.1418
+      confidence: 0.1417
     - scientific: "Haemulon chrysargyreum"
       confidence: 0.1048
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-29T21:48:07Z"
+    created: "2026-08-30T16:33:54Z"
     src_mtime: 1786157572.6980023
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Haemulon chrysargyreum"
-      confidence: 0.9247
+      confidence: 0.9245
     - scientific: "Haemulon macrostomum"
       confidence: 0.0244
     - scientific: "Lutjanus apodus"
@@ -38,5 +38,5 @@ species_suggestions:
 species:
 - scientific: "Haemulon chrysargyreum"
   role: "primary"
-  confidence: 0.5148
+  confidence: 0.5147
   identified_by: "bioclip-2+bioclip-2.5"

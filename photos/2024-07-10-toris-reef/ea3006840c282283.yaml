@@ -13,30 +13,30 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-29T21:45:59Z"
+    created: "2026-08-30T16:31:47Z"
     src_mtime: 1786160157.707077
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Scarus vetula"
-      confidence: 0.4642
+      confidence: 0.4616
     - scientific: "Caranx ruber"
-      confidence: 0.154
+      confidence: 0.1531
     - scientific: "Malacanthus plumieri"
-      confidence: 0.0349
+      confidence: 0.0347
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-29T21:48:07Z"
+    created: "2026-08-30T16:33:54Z"
     src_mtime: 1786160157.707077
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Scarus vetula"
-      confidence: 0.2496
+      confidence: 0.2366
     - scientific: "Chromis multilineata"
-      confidence: 0.2198
+      confidence: 0.2084
     - scientific: "Lutjanus mahogoni"
-      confidence: 0.1246
+      confidence: 0.1181
 species:
 - scientific: "Scarus vetula"
   role: "primary"
-  confidence: 0.3569
+  confidence: 0.3491
   identified_by: "bioclip-2+bioclip-2.5"

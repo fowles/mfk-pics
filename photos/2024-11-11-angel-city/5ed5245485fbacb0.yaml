@@ -13,21 +13,21 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-29T21:45:59Z"
+    created: "2026-08-30T16:31:47Z"
     src_mtime: 1786156742.1876962
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Melichthys niger"
-      confidence: 0.2808
+      confidence: 0.2806
     - scientific: "Holacanthus tricolor"
-      confidence: 0.2234
+      confidence: 0.2233
     - scientific: "Pomacanthus arcuatus"
       confidence: 0.073
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-29T21:48:07Z"
+    created: "2026-08-30T16:33:54Z"
     src_mtime: 1786156742.1876962
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Melichthys niger"
       confidence: 0.9821
@@ -38,5 +38,5 @@ species_suggestions:
 species:
 - scientific: "Melichthys niger"
   role: "primary"
-  confidence: 0.6314
+  confidence: 0.6313
   identified_by: "bioclip-2+bioclip-2.5"

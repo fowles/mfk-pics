@@ -13,30 +13,30 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-29T21:45:59Z"
+    created: "2026-08-30T16:31:47Z"
     src_mtime: 1786156897.4192293
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Haemulon sciurus"
-      confidence: 0.2213
+      confidence: 0.2212
     - scientific: "Acanthostracion quadricornis"
       confidence: 0.1011
     - scientific: "Acanthostracion polygonius"
       confidence: 0.0969
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-29T21:48:07Z"
+    created: "2026-08-30T16:33:54Z"
     src_mtime: 1786156897.4192293
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Sparisoma viride"
-      confidence: 0.2351
+      confidence: 0.235
     - scientific: "Mycteroperca venenosa"
-      confidence: 0.0949
+      confidence: 0.0948
     - scientific: "Sparisoma rubripinne"
       confidence: 0.0791
 species:
 - scientific: "Sparisoma viride"
   role: "primary"
-  confidence: 0.1176
+  confidence: 0.1175
   identified_by: "bioclip-2.5"

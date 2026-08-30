@@ -14,24 +14,24 @@ rotation_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-29T21:45:59Z"
+    created: "2026-08-30T16:31:47Z"
     src_mtime: 1786159563.9260583
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Holacanthus tricolor"
-      confidence: 0.4628
+      confidence: 0.4627
     - scientific: "Bodianus rufus"
       confidence: 0.2
     - scientific: "Thalassoma bifasciatum"
       confidence: 0.0417
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-29T21:48:07Z"
+    created: "2026-08-30T16:33:54Z"
     src_mtime: 1786159563.9260583
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Bodianus rufus"
-      confidence: 0.3149
+      confidence: 0.3148
     - scientific: "Aulostomus maculatus"
       confidence: 0.0788
     - scientific: "Holacanthus tricolor"

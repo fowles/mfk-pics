@@ -13,24 +13,24 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-29T21:45:59Z"
+    created: "2026-08-30T16:31:47Z"
     src_mtime: 1786159051.1248612
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Cephalopholis cruentata"
-      confidence: 0.8857
+      confidence: 0.8849
     - scientific: "Mycteroperca tigris"
       confidence: 0.03
     - scientific: "Epinephelus adscensionis"
       confidence: 0.0253
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-29T21:48:07Z"
+    created: "2026-08-30T16:33:54Z"
     src_mtime: 1786159051.1248612
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Cephalopholis cruentata"
-      confidence: 0.8597
+      confidence: 0.8596
     - scientific: "Rypticus saponaceus"
       confidence: 0.0942
     - scientific: "Mycteroperca tigris"
@@ -38,5 +38,5 @@ species_suggestions:
 species:
 - scientific: "Cephalopholis cruentata"
   role: "primary"
-  confidence: 0.8727
+  confidence: 0.8722
   identified_by: "bioclip-2+bioclip-2.5"

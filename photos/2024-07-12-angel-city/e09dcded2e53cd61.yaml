@@ -16,30 +16,30 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-29T21:45:59Z"
+    created: "2026-08-30T16:31:47Z"
     src_mtime: 1786158514.644028
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Ginglymostoma cirratum"
-      confidence: 0.2838
+      confidence: 0.2815
     - scientific: "Pomacanthus arcuatus"
-      confidence: 0.1355
+      confidence: 0.1344
     - scientific: "Anisotremus surinamensis"
-      confidence: 0.1283
+      confidence: 0.1273
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-29T21:48:07Z"
+    created: "2026-08-30T16:33:54Z"
     src_mtime: 1786158514.644028
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Pomacanthus arcuatus"
-      confidence: 0.3041
+      confidence: 0.2985
     - scientific: "Anisotremus surinamensis"
-      confidence: 0.2986
+      confidence: 0.2931
     - scientific: "Ginglymostoma cirratum"
-      confidence: 0.2789
+      confidence: 0.2737
 species:
 - scientific: "Ginglymostoma cirratum"
   role: "primary"
-  confidence: 0.2813
+  confidence: 0.2776
   identified_by: "bioclip-2+bioclip-2.5"

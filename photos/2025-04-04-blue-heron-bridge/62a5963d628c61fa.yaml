@@ -16,30 +16,30 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-29T21:45:59Z"
+    created: "2026-08-30T16:31:47Z"
     src_mtime: 1786157491.8851714
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Haemulon plumierii"
-      confidence: 0.8967
+      confidence: 0.8916
     - scientific: "Haemulon album"
-      confidence: 0.0652
+      confidence: 0.0648
     - scientific: "Haemulon sciurus"
-      confidence: 0.0325
+      confidence: 0.0324
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-29T21:48:07Z"
+    created: "2026-08-30T16:33:54Z"
     src_mtime: 1786157491.8851714
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Haemulon plumierii"
-      confidence: 0.9996
+      confidence: 0.9567
+    - scientific: "Haemulon parra"
+      confidence: 0.0429
     - scientific: "Haemulon album"
       confidence: 0.0003
-    - scientific: "Lutjanus griseus"
-      confidence: 0.0
 species:
 - scientific: "Haemulon plumierii"
   role: "primary"
-  confidence: 0.9482
+  confidence: 0.9242
   identified_by: "bioclip-2+bioclip-2.5"

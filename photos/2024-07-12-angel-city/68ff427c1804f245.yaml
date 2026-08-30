@@ -13,30 +13,30 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-29T21:45:59Z"
+    created: "2026-08-30T16:31:47Z"
     src_mtime: 1786158488.6057608
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Lutjanus apodus"
-      confidence: 0.8034
+      confidence: 0.802
     - scientific: "Lutjanus jocu"
-      confidence: 0.0558
+      confidence: 0.0557
     - scientific: "Ocyurus chrysurus"
       confidence: 0.0312
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-29T21:48:07Z"
+    created: "2026-08-30T16:33:54Z"
     src_mtime: 1786158488.6057608
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Lutjanus apodus"
-      confidence: 0.7361
+      confidence: 0.7304
     - scientific: "Ocyurus chrysurus"
-      confidence: 0.1045
+      confidence: 0.1037
     - scientific: "Lutjanus jocu"
-      confidence: 0.0528
+      confidence: 0.0524
 species:
 - scientific: "Lutjanus apodus"
   role: "primary"
-  confidence: 0.7697
+  confidence: 0.7662
   identified_by: "bioclip-2+bioclip-2.5"

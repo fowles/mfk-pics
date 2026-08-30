@@ -13,26 +13,26 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-29T21:45:59Z"
+    created: "2026-08-30T16:31:47Z"
     src_mtime: 1786156576.1224258
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Heteroconger longissimus"
       confidence: 0.136
     - scientific: "Sepioteuthis sepioidea"
-      confidence: 0.0884
+      confidence: 0.0883
     - scientific: "Ocyurus chrysurus"
       confidence: 0.0874
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-29T21:48:07Z"
+    created: "2026-08-30T16:33:54Z"
     src_mtime: 1786156576.1224258
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Malacanthus plumieri"
       confidence: 0.6127
     - scientific: "Lutjanus analis"
-      confidence: 0.196
+      confidence: 0.1959
     - scientific: "Halichoeres garnoti"
       confidence: 0.0738
 species:

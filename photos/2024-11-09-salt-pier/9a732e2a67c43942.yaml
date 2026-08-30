@@ -13,30 +13,30 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-29T21:45:59Z"
+    created: "2026-08-30T16:31:47Z"
     src_mtime: 1786156576.522784
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Haemulon aurolineatum"
-      confidence: 0.3629
+      confidence: 0.3606
     - scientific: "Lutjanus mahogoni"
-      confidence: 0.2636
+      confidence: 0.2619
     - scientific: "Caranx latus"
-      confidence: 0.152
+      confidence: 0.151
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-29T21:48:07Z"
+    created: "2026-08-30T16:33:54Z"
     src_mtime: 1786156576.522784
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Haemulon aurolineatum"
-      confidence: 0.5618
+      confidence: 0.5464
     - scientific: "Lutjanus mahogoni"
-      confidence: 0.2426
+      confidence: 0.2359
     - scientific: "Haemulon album"
-      confidence: 0.1677
+      confidence: 0.1631
 species:
 - scientific: "Haemulon aurolineatum"
   role: "primary"
-  confidence: 0.4623
+  confidence: 0.4535
   identified_by: "bioclip-2+bioclip-2.5"

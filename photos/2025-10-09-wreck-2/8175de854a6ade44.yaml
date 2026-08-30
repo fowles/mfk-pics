@@ -13,28 +13,28 @@ rotation_applied: 180
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-29T21:45:59Z"
+    created: "2026-08-30T16:31:47Z"
     src_mtime: 1787030601.7328548
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Lutjanus jocu"
-      confidence: 0.3378
+      confidence: 0.3361
     - scientific: "Lutjanus mahogoni"
-      confidence: 0.113
+      confidence: 0.1125
     - scientific: "Haemulon album"
-      confidence: 0.1111
+      confidence: 0.1106
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-29T21:48:07Z"
+    created: "2026-08-30T16:33:54Z"
     src_mtime: 1787030601.7328548
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Lutjanus jocu"
-      confidence: 0.5313
+      confidence: 0.5297
     - scientific: "Pomacanthus arcuatus"
-      confidence: 0.2504
+      confidence: 0.2496
     - scientific: "Lutjanus griseus"
-      confidence: 0.16
+      confidence: 0.1595
 species:
 - scientific: "Anisotremus virginicus"
   role: "secondary"

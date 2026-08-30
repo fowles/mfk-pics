@@ -14,14 +14,14 @@ rotation_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-29T21:45:59Z"
+    created: "2026-08-30T16:31:47Z"
     src_mtime: 1786156523.7381456
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Chromis cyanea"
       confidence: 0.077
     - scientific: "Thalassoma bifasciatum"
-      confidence: 0.0733
+      confidence: 0.0732
     - scientific: "Stegastes partitus"
       confidence: 0.0693
     absorbed_by:
@@ -29,9 +29,9 @@ species_suggestions:
       confidence: 0.1408
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-29T21:48:07Z"
+    created: "2026-08-30T16:33:54Z"
     src_mtime: 1786156523.7381456
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Acropora palmata"
       confidence: 0.1211

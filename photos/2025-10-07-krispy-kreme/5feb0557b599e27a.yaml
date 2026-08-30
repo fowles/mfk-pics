@@ -13,21 +13,21 @@ rotation_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-29T21:45:59Z"
+    created: "2026-08-30T16:31:47Z"
     src_mtime: 1786159793.9712543
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Holocentrus adscensionis"
-      confidence: 0.1653
+      confidence: 0.1647
     - scientific: "Lutjanus mahogoni"
-      confidence: 0.044
+      confidence: 0.0439
     - scientific: "Haemulon carbonarium"
-      confidence: 0.0408
+      confidence: 0.0407
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-29T21:48:07Z"
+    created: "2026-08-30T16:33:54Z"
     src_mtime: 1786159793.9712543
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Holocentrus rufus"
       confidence: 0.813

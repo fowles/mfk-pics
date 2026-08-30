@@ -14,21 +14,21 @@ rotation_applied: 90
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-29T21:45:59Z"
+    created: "2026-08-30T16:31:47Z"
     src_mtime: 1787173598.8626065
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Pomacanthus arcuatus"
-      confidence: 0.2704
+      confidence: 0.2691
     - scientific: "Pomacanthus paru"
-      confidence: 0.1294
+      confidence: 0.1288
     - scientific: "Haemulon sciurus"
-      confidence: 0.0628
+      confidence: 0.0625
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-29T21:48:07Z"
+    created: "2026-08-30T16:33:54Z"
     src_mtime: 1787173598.8626065
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Diodon hystrix"
       confidence: 0.9473

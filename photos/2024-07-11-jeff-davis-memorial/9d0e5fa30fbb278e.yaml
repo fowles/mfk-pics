@@ -13,24 +13,24 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-29T21:45:59Z"
+    created: "2026-08-30T16:31:47Z"
     src_mtime: 1786159563.777805
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Acropora palmata"
       confidence: 0.0832
     - scientific: "Chaetodon capistratus"
-      confidence: 0.0561
+      confidence: 0.056
     - scientific: "Thalassoma bifasciatum"
       confidence: 0.0457
     absorbed_by:
       scientific: "Colpophyllia natans"
-      confidence: 0.1454
+      confidence: 0.1453
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-29T21:48:07Z"
+    created: "2026-08-30T16:33:54Z"
     src_mtime: 1786159563.777805
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Elacatinus evelynae"
       confidence: 0.0064

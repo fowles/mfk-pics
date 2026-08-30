@@ -17,21 +17,21 @@ rotation_applied: 90
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-29T21:45:59Z"
+    created: "2026-08-30T16:31:47Z"
     src_mtime: 1787029041.0502942
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Chaetodon striatus"
-      confidence: 0.1788
+      confidence: 0.1787
     - scientific: "Chaetodon capistratus"
-      confidence: 0.1169
+      confidence: 0.1168
     - scientific: "Stegastes planifrons"
       confidence: 0.0599
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-29T21:48:07Z"
+    created: "2026-08-30T16:33:54Z"
     src_mtime: 1787029041.0502942
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Halichoeres garnoti"
       confidence: 0.3469

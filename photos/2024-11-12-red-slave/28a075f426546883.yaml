@@ -13,24 +13,24 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-29T21:45:59Z"
+    created: "2026-08-30T16:31:47Z"
     src_mtime: 1786156807.1168888
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Lutjanus mahogoni"
-      confidence: 0.2667
+      confidence: 0.2666
     - scientific: "Mycteroperca venenosa"
-      confidence: 0.1795
+      confidence: 0.1794
     - scientific: "Mycteroperca tigris"
       confidence: 0.1068
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-29T21:48:07Z"
+    created: "2026-08-30T16:33:54Z"
     src_mtime: 1786156807.1168888
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Mycteroperca venenosa"
-      confidence: 0.7303
+      confidence: 0.7302
     - scientific: "Mycteroperca bonaci"
       confidence: 0.0795
     - scientific: "Scarus coeruleus"
@@ -38,5 +38,5 @@ species_suggestions:
 species:
 - scientific: "Mycteroperca venenosa"
   role: "primary"
-  confidence: 0.4549
+  confidence: 0.4548
   identified_by: "bioclip-2+bioclip-2.5"

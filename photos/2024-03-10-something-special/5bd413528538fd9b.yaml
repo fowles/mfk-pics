@@ -13,21 +13,21 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-29T21:45:59Z"
+    created: "2026-08-30T16:31:47Z"
     src_mtime: 1786159055.9730651
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Mulloidichthys martinicus"
-      confidence: 0.131
+      confidence: 0.1305
     - scientific: "Bodianus rufus"
-      confidence: 0.055
+      confidence: 0.0548
     - scientific: "Thalassoma bifasciatum"
-      confidence: 0.0543
+      confidence: 0.0541
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-29T21:48:07Z"
+    created: "2026-08-30T16:33:54Z"
     src_mtime: 1786159055.9730651
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Haemulon chrysargyreum"
       confidence: 0.6264

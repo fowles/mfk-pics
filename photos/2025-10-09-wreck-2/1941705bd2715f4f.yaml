@@ -12,28 +12,28 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-29T21:45:59Z"
+    created: "2026-08-30T16:31:47Z"
     src_mtime: 1786159810.6224241
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Haemulon album"
-      confidence: 0.4659
+      confidence: 0.4156
     - scientific: "Anisotremus surinamensis"
-      confidence: 0.3097
-    - scientific: "Anisotremus virginicus"
-      confidence: 0.0458
+      confidence: 0.2763
+    - scientific: "Haemulon parra"
+      confidence: 0.1081
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-29T21:48:07Z"
+    created: "2026-08-30T16:33:54Z"
     src_mtime: 1786159810.6224241
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Anisotremus virginicus"
-      confidence: 0.596
+      confidence: 0.55
     - scientific: "Haemulon album"
-      confidence: 0.2203
+      confidence: 0.2033
     - scientific: "Anisotremus surinamensis"
-      confidence: 0.1813
+      confidence: 0.1673
 species:
 - scientific: "Anisotremus virginicus"
   role: "primary"

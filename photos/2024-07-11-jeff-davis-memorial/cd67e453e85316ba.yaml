@@ -13,31 +13,31 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-29T21:45:59Z"
+    created: "2026-08-30T16:31:47Z"
     src_mtime: 1786159560.4145355
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
+    - scientific: "Aplysina archeri"
+      confidence: 0.0737
     - scientific: "Pterois volitans"
-      confidence: 0.0564
+      confidence: 0.0563
     - scientific: "Halichoeres pictus"
       confidence: 0.0401
-    - scientific: "Eretmochelys imbricata"
-      confidence: 0.0203
     absorbed_by:
       scientific: "Agelas clathrodes"
       confidence: 0.1174
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-29T21:48:07Z"
+    created: "2026-08-30T16:33:54Z"
     src_mtime: 1786159560.4145355
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
+    - scientific: "Aplysina archeri"
+      confidence: 0.0042
     - scientific: "Halichoeres garnoti"
       confidence: 0.0024
     - scientific: "Nemaster grandis"
       confidence: 0.0022
-    - scientific: "Halichoeres pictus"
-      confidence: 0.0016
     absorbed_by:
       scientific: "Cirrhipathes leutkeni"
       confidence: 0.4594

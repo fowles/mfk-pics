@@ -13,30 +13,30 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-29T21:45:59Z"
+    created: "2026-08-30T16:31:47Z"
     src_mtime: 1786157486.094354
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Epinephelus striatus"
-      confidence: 0.5141
+      confidence: 0.5119
     - scientific: "Abudefduf saxatilis"
-      confidence: 0.1866
+      confidence: 0.1858
     - scientific: "Haemulon album"
-      confidence: 0.0863
+      confidence: 0.0859
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-29T21:48:07Z"
+    created: "2026-08-30T16:33:54Z"
     src_mtime: 1786157486.094354
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Abudefduf saxatilis"
-      confidence: 0.5501
+      confidence: 0.5489
     - scientific: "Calamus calamus"
-      confidence: 0.202
+      confidence: 0.2016
     - scientific: "Chaetodipterus faber"
-      confidence: 0.1707
+      confidence: 0.1703
 species:
 - scientific: "Abudefduf saxatilis"
   role: "primary"
-  confidence: 0.3684
+  confidence: 0.3674
   identified_by: "bioclip-2+bioclip-2.5"

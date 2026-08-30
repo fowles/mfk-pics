@@ -13,21 +13,21 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-29T21:45:59Z"
+    created: "2026-08-30T16:31:47Z"
     src_mtime: 1786158853.8693376
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Thalassoma bifasciatum"
       confidence: 0.1245
     - scientific: "Chromis multilineata"
-      confidence: 0.0983
+      confidence: 0.0982
     - scientific: "Holacanthus tricolor"
-      confidence: 0.0413
+      confidence: 0.0412
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-29T21:48:07Z"
+    created: "2026-08-30T16:33:54Z"
     src_mtime: 1786158853.8693376
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Thalassoma bifasciatum"
       confidence: 0.1702

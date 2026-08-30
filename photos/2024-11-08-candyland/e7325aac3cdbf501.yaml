@@ -13,34 +13,28 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-29T21:45:59Z"
+    created: "2026-08-30T16:31:47Z"
     src_mtime: 1786156493.4000704
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
+    - scientific: "Aplysina archeri"
+      confidence: 0.9724
     - scientific: "Cyphoma gibbosum"
       confidence: 0.0004
     - scientific: "Parribacus antarcticus"
       confidence: 0.0002
-    - scientific: "Aluterus scriptus"
-      confidence: 0.0002
-    absorbed_by:
-      scientific: "Aplysina archeri"
-      confidence: 0.9724
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-29T21:48:07Z"
+    created: "2026-08-30T16:33:54Z"
     src_mtime: 1786156493.4000704
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
+    - scientific: "Aplysina archeri"
+      confidence: 0.9798
     - scientific: "Holothuria mexicana"
       confidence: 0.0
     - scientific: "Ophiothrix suensonii"
       confidence: 0.0
-    - scientific: "Diadema antillarum"
-      confidence: 0.0
-    absorbed_by:
-      scientific: "Aplysina archeri"
-      confidence: 0.9798
 species:
 - scientific: "Aplysina archeri"
   role: "primary"

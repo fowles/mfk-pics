@@ -13,30 +13,30 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-29T21:45:59Z"
+    created: "2026-08-30T16:31:47Z"
     src_mtime: 1786159055.312708
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Lutjanus mahogoni"
-      confidence: 0.6125
+      confidence: 0.6095
     - scientific: "Haemulon chrysargyreum"
-      confidence: 0.2198
+      confidence: 0.2187
     - scientific: "Haemulon aurolineatum"
-      confidence: 0.0967
+      confidence: 0.0962
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-29T21:48:07Z"
+    created: "2026-08-30T16:33:54Z"
     src_mtime: 1786159055.312708
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Lutjanus mahogoni"
-      confidence: 0.9703
+      confidence: 0.9664
     - scientific: "Haemulon chrysargyreum"
-      confidence: 0.0136
+      confidence: 0.0135
     - scientific: "Haemulon aurolineatum"
       confidence: 0.0108
 species:
 - scientific: "Lutjanus mahogoni"
   role: "primary"
-  confidence: 0.7914
+  confidence: 0.788
   identified_by: "bioclip-2+bioclip-2.5"

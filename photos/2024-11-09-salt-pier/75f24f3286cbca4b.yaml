@@ -16,9 +16,9 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-29T21:45:59Z"
+    created: "2026-08-30T16:31:47Z"
     src_mtime: 1786156583.5844543
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Canthidermis sufflamen"
       confidence: 0.4958
@@ -28,12 +28,12 @@ species_suggestions:
       confidence: 0.049
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-29T21:48:07Z"
+    created: "2026-08-30T16:33:54Z"
     src_mtime: 1786156583.5844543
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Canthidermis sufflamen"
-      confidence: 0.7549
+      confidence: 0.7548
     - scientific: "Lutjanus jocu"
       confidence: 0.0454
     - scientific: "Lactophrys bicaudalis"
@@ -41,5 +41,5 @@ species_suggestions:
 species:
 - scientific: "Canthidermis sufflamen"
   role: "primary"
-  confidence: 0.6254
+  confidence: 0.6253
   identified_by: "bioclip-2+bioclip-2.5"

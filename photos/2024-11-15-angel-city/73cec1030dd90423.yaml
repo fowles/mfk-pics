@@ -13,24 +13,24 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-29T21:45:59Z"
+    created: "2026-08-30T16:31:47Z"
     src_mtime: 1786157055.0837953
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Mulloidichthys martinicus"
-      confidence: 0.4881
+      confidence: 0.488
     - scientific: "Caranx latus"
-      confidence: 0.1863
+      confidence: 0.1862
     - scientific: "Caranx ruber"
       confidence: 0.0893
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-29T21:48:07Z"
+    created: "2026-08-30T16:33:54Z"
     src_mtime: 1786157055.0837953
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Mulloidichthys martinicus"
-      confidence: 0.8427
+      confidence: 0.8425
     - scientific: "Caranx latus"
       confidence: 0.1294
     - scientific: "Haemulon chrysargyreum"
@@ -38,5 +38,5 @@ species_suggestions:
 species:
 - scientific: "Mulloidichthys martinicus"
   role: "primary"
-  confidence: 0.6654
+  confidence: 0.6653
   identified_by: "bioclip-2+bioclip-2.5"

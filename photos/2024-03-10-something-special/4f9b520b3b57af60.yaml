@@ -13,21 +13,21 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-29T21:45:59Z"
+    created: "2026-08-30T16:31:47Z"
     src_mtime: 1786159055.4865708
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Mulloidichthys martinicus"
-      confidence: 0.9806
+      confidence: 0.9805
     - scientific: "Haemulon chrysargyreum"
       confidence: 0.006
     - scientific: "Ocyurus chrysurus"
       confidence: 0.0058
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-29T21:48:07Z"
+    created: "2026-08-30T16:33:54Z"
     src_mtime: 1786159055.4865708
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Mulloidichthys martinicus"
       confidence: 0.9999
@@ -38,5 +38,5 @@ species_suggestions:
 species:
 - scientific: "Mulloidichthys martinicus"
   role: "primary"
-  confidence: 0.9903
+  confidence: 0.9902
   identified_by: "bioclip-2+bioclip-2.5"

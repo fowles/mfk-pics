@@ -13,30 +13,30 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-29T21:45:59Z"
+    created: "2026-08-30T16:31:47Z"
     src_mtime: 1786158391.7977057
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Anisotremus surinamensis"
-      confidence: 0.1962
+      confidence: 0.1796
     - scientific: "Equetus punctatus"
-      confidence: 0.1887
+      confidence: 0.1727
     - scientific: "Pareques acuminatus"
-      confidence: 0.1546
+      confidence: 0.1415
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-29T21:48:07Z"
+    created: "2026-08-30T16:33:54Z"
     src_mtime: 1786158391.7977057
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Gymnothorax funebris"
-      confidence: 0.3911
+      confidence: 0.3907
     - scientific: "Rypticus saponaceus"
-      confidence: 0.2859
+      confidence: 0.2857
     - scientific: "Cephalopholis cruentata"
-      confidence: 0.1091
+      confidence: 0.109
 species:
 - scientific: "Gymnothorax funebris"
   role: "primary"
-  confidence: 0.1956
+  confidence: 0.1953
   identified_by: "bioclip-2.5"

@@ -16,21 +16,21 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-29T21:45:59Z"
+    created: "2026-08-30T16:31:47Z"
     src_mtime: 1786156742.5192492
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Melichthys niger"
-      confidence: 0.6369
+      confidence: 0.6333
     - scientific: "Hypoplectrus chlorurus"
-      confidence: 0.0535
+      confidence: 0.0531
     - scientific: "Caranx ruber"
-      confidence: 0.0381
+      confidence: 0.0379
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-29T21:48:07Z"
+    created: "2026-08-30T16:33:54Z"
     src_mtime: 1786156742.5192492
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Melichthys niger"
       confidence: 0.9919
@@ -41,5 +41,5 @@ species_suggestions:
 species:
 - scientific: "Melichthys niger"
   role: "primary"
-  confidence: 0.8144
+  confidence: 0.8126
   identified_by: "bioclip-2+bioclip-2.5"

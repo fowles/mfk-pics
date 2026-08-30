@@ -13,30 +13,30 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-29T21:45:59Z"
+    created: "2026-08-30T16:31:47Z"
     src_mtime: 1786159779.4032478
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Haemulon macrostomum"
-      confidence: 0.1165
+      confidence: 0.1143
     - scientific: "Lutjanus apodus"
-      confidence: 0.096
+      confidence: 0.0942
     - scientific: "Anisotremus surinamensis"
-      confidence: 0.085
+      confidence: 0.0834
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-29T21:48:07Z"
+    created: "2026-08-30T16:33:54Z"
     src_mtime: 1786159779.4032478
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Haemulon chrysargyreum"
-      confidence: 0.2743
+      confidence: 0.273
     - scientific: "Haemulon macrostomum"
-      confidence: 0.1541
+      confidence: 0.1533
     - scientific: "Sparisoma viride"
-      confidence: 0.1402
+      confidence: 0.1395
 species:
 - scientific: "Haemulon chrysargyreum"
   role: "primary"
-  confidence: 0.1371
+  confidence: 0.1365
   identified_by: "bioclip-2.5"

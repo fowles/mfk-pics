@@ -12,24 +12,24 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-29T21:45:59Z"
+    created: "2026-08-30T16:31:47Z"
     src_mtime: 1786159808.627628
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Epinephelus striatus"
-      confidence: 0.8578
+      confidence: 0.8555
     - scientific: "Mycteroperca bonaci"
-      confidence: 0.0625
+      confidence: 0.0623
     - scientific: "Cantherhines pullus"
-      confidence: 0.0179
+      confidence: 0.0178
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-29T21:48:07Z"
+    created: "2026-08-30T16:33:54Z"
     src_mtime: 1786159808.627628
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Epinephelus striatus"
-      confidence: 0.9984
+      confidence: 0.9983
     - scientific: "Mycteroperca bonaci"
       confidence: 0.0011
     - scientific: "Pareques acuminatus"
@@ -37,5 +37,5 @@ species_suggestions:
 species:
 - scientific: "Epinephelus striatus"
   role: "primary"
-  confidence: 0.9281
+  confidence: 0.9269
   identified_by: "bioclip-2+bioclip-2.5"

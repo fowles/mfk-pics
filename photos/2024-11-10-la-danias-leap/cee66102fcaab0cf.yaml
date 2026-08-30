@@ -14,21 +14,21 @@ rotation_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-29T21:45:59Z"
+    created: "2026-08-30T16:31:47Z"
     src_mtime: 1786156690.0003726
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Diodon hystrix"
-      confidence: 0.4229
+      confidence: 0.4228
     - scientific: "Epinephelus guttatus"
       confidence: 0.1944
     - scientific: "Lactophrys bicaudalis"
       confidence: 0.1416
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-29T21:48:07Z"
+    created: "2026-08-30T16:33:54Z"
     src_mtime: 1786156690.0003726
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Diodon hystrix"
       confidence: 1.0

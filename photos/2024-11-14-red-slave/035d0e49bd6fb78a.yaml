@@ -13,30 +13,30 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-29T21:45:59Z"
+    created: "2026-08-30T16:31:47Z"
     src_mtime: 1786156967.4590125
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Anisotremus surinamensis"
-      confidence: 0.5495
+      confidence: 0.5352
     - scientific: "Haemulon album"
-      confidence: 0.2966
+      confidence: 0.2889
     - scientific: "Calamus calamus"
-      confidence: 0.0304
+      confidence: 0.0296
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-29T21:48:07Z"
+    created: "2026-08-30T16:33:54Z"
     src_mtime: 1786156967.4590125
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Anisotremus surinamensis"
-      confidence: 0.8829
+      confidence: 0.876
     - scientific: "Haemulon carbonarium"
-      confidence: 0.0743
+      confidence: 0.0738
     - scientific: "Haemulon album"
-      confidence: 0.0365
+      confidence: 0.0363
 species:
 - scientific: "Anisotremus surinamensis"
   role: "primary"
-  confidence: 0.7162
+  confidence: 0.7056
   identified_by: "bioclip-2+bioclip-2.5"

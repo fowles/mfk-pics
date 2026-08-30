@@ -16,21 +16,21 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-29T21:45:59Z"
+    created: "2026-08-30T16:31:47Z"
     src_mtime: 1786157214.9089475
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Bothus lunatus"
-      confidence: 0.1189
+      confidence: 0.1188
     - scientific: "Chaetodon striatus"
-      confidence: 0.0977
+      confidence: 0.0976
     - scientific: "Diodon holocanthus"
-      confidence: 0.0903
+      confidence: 0.0902
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-29T21:48:07Z"
+    created: "2026-08-30T16:33:54Z"
     src_mtime: 1786157214.9089475
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Diodon holocanthus"
       confidence: 0.6945
@@ -41,5 +41,5 @@ species_suggestions:
 species:
 - scientific: "Diodon holocanthus"
   role: "primary"
-  confidence: 0.3924
+  confidence: 0.3923
   identified_by: "bioclip-2+bioclip-2.5"

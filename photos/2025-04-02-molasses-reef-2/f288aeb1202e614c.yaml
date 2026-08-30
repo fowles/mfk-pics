@@ -16,30 +16,38 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-29T21:45:59Z"
+    created: "2026-08-30T16:31:47Z"
     src_mtime: 1786157279.9623692
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Holacanthus tricolor"
-      confidence: 0.2696
+      confidence: 0.2695
     - scientific: "Bodianus rufus"
-      confidence: 0.1614
+      confidence: 0.1613
     - scientific: "Chaetodon ocellatus"
       confidence: 0.0881
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-29T21:48:07Z"
+    created: "2026-08-30T16:33:54Z"
     src_mtime: 1786157279.9623692
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Ocyurus chrysurus"
-      confidence: 0.4631
+      confidence: 0.4627
     - scientific: "Haemulon macrostomum"
-      confidence: 0.218
+      confidence: 0.2178
     - scientific: "Haemulon chrysargyreum"
-      confidence: 0.1015
+      confidence: 0.1014
 species:
-- scientific: "Ocyurus chrysurus"
+- scientific: "Lactophrys triqueter"
   role: "primary"
-  confidence: 0.2316
-  identified_by: "bioclip-2.5"
+  identified_by: "human"
+  reviewed_by: "matt"
+- scientific: "Bodianus rufus"
+  role: "secondary"
+  identified_by: "human"
+  confirmed_from: "bioclip-2"
+  reviewed_by: "matt"
+species_reviewed:
+- "primary"
+- "secondary"

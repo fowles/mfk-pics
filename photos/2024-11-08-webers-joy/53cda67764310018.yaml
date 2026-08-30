@@ -13,21 +13,21 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-29T21:45:59Z"
+    created: "2026-08-30T16:31:47Z"
     src_mtime: 1786156521.8210046
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Bodianus rufus"
-      confidence: 0.1854
+      confidence: 0.1853
     - scientific: "Ocyurus chrysurus"
-      confidence: 0.1539
+      confidence: 0.1538
     - scientific: "Lutjanus apodus"
-      confidence: 0.128
+      confidence: 0.1279
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-29T21:48:07Z"
+    created: "2026-08-30T16:33:54Z"
     src_mtime: 1786156521.8210046
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Lutjanus apodus"
       confidence: 0.8719
@@ -38,5 +38,5 @@ species_suggestions:
 species:
 - scientific: "Lutjanus apodus"
   role: "primary"
-  confidence: 0.5
+  confidence: 0.4999
   identified_by: "bioclip-2+bioclip-2.5"

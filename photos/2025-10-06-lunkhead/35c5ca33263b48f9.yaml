@@ -14,31 +14,31 @@ rotation_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-29T21:45:59Z"
+    created: "2026-08-30T16:31:47Z"
     src_mtime: 1786159791.9777513
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
+    - scientific: "Aplysina archeri"
+      confidence: 0.0441
     - scientific: "Acropora palmata"
       confidence: 0.0242
     - scientific: "Cephalopholis cruentata"
       confidence: 0.0219
-    - scientific: "Monacanthus tuckeri"
-      confidence: 0.0178
     absorbed_by:
       scientific: "Xestospongia muta"
       confidence: 0.2691
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-29T21:48:07Z"
+    created: "2026-08-30T16:33:54Z"
     src_mtime: 1786159791.9777513
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
+    - scientific: "Aplysina archeri"
+      confidence: 0.0178
     - scientific: "Equetus punctatus"
       confidence: 0.0162
     - scientific: "Sparisoma viride"
       confidence: 0.0117
-    - scientific: "Thalassoma bifasciatum"
-      confidence: 0.007
     absorbed_by:
       scientific: "Niphates digitalis"
       confidence: 0.428

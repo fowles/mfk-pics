@@ -13,26 +13,26 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-29T21:45:59Z"
+    created: "2026-08-30T16:31:47Z"
     src_mtime: 1786156808.8325088
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Mycteroperca bonaci"
-      confidence: 0.107
+      confidence: 0.1069
     - scientific: "Mycteroperca tigris"
-      confidence: 0.106
+      confidence: 0.1059
     - scientific: "Melichthys niger"
       confidence: 0.0768
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-29T21:48:07Z"
+    created: "2026-08-30T16:33:54Z"
     src_mtime: 1786156808.8325088
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Diodon hystrix"
       confidence: 0.4635
     - scientific: "Mycteroperca tigris"
-      confidence: 0.1534
+      confidence: 0.1533
     - scientific: "Canthidermis sufflamen"
       confidence: 0.1344
 species:

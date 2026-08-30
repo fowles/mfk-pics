@@ -9,9 +9,9 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-29T21:45:59Z"
+    created: "2026-08-30T05:49:21Z"
     src_mtime: 1786157052.9941514
-    vocab: "70e86894c9ec"
+    vocab: "463021a67fcb"
     top:
     - scientific: "Chelonia mydas"
       confidence: 0.2664
@@ -21,9 +21,9 @@ species_suggestions:
       confidence: 0.0612
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-29T21:48:07Z"
+    created: "2026-08-30T05:51:27Z"
     src_mtime: 1786157052.9941514
-    vocab: "70e86894c9ec"
+    vocab: "463021a67fcb"
     top:
     - scientific: "Stenella longirostris"
       confidence: 0.7495
@@ -36,3 +36,4 @@ species:
   role: "primary"
   confidence: 0.3748
   identified_by: "bioclip-2.5"
+culled: true

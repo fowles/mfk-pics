@@ -17,24 +17,24 @@ rotation_applied: 90
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-29T21:45:59Z"
+    created: "2026-08-30T16:31:47Z"
     src_mtime: 1787030621.238266
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Chaetodon capistratus"
-      confidence: 0.3622
+      confidence: 0.3618
     - scientific: "Acanthurus coeruleus"
-      confidence: 0.0889
+      confidence: 0.0888
     - scientific: "Hypoplectrus unicolor"
       confidence: 0.0571
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-29T21:48:07Z"
+    created: "2026-08-30T16:33:54Z"
     src_mtime: 1787030621.238266
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Lactophrys triqueter"
-      confidence: 0.9173
+      confidence: 0.9172
     - scientific: "Balistes vetula"
       confidence: 0.028
     - scientific: "Lactophrys bicaudalis"
@@ -42,5 +42,5 @@ species_suggestions:
 species:
 - scientific: "Lactophrys triqueter"
   role: "primary"
-  confidence: 0.4587
+  confidence: 0.4586
   identified_by: "bioclip-2.5"

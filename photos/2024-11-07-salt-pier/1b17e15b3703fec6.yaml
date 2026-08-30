@@ -17,29 +17,30 @@ rotation_applied: 270
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-29T21:45:59Z"
+    created: "2026-08-30T16:31:47Z"
     src_mtime: 1787030515.0486608
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Cyphoma gibbosum"
       confidence: 0.3546
     - scientific: "Myrichthys breviceps"
       confidence: 0.1596
-    - scientific: "Myrichthys ocellatus"
-      confidence: 0.0309
+    - scientific: "Aplysina archeri"
+      confidence: 0.0931
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-29T21:48:07Z"
+    created: "2026-08-30T16:33:54Z"
     src_mtime: 1787030515.0486608
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
+    - scientific: "Aplysina archeri"
+      confidence: 0.6038
     - scientific: "Myrichthys breviceps"
-      confidence: 0.0536
+      confidence: 0.0535
     - scientific: "Thalassoma bifasciatum"
       confidence: 0.0453
-    - scientific: "Sparisoma viride"
-      confidence: 0.0083
-    absorbed_by:
-      scientific: "Aplysina archeri"
-      confidence: 0.6039
-species: []
+species:
+- scientific: "Aplysina archeri"
+  role: "primary"
+  confidence: 0.3484
+  identified_by: "bioclip-2+bioclip-2.5"

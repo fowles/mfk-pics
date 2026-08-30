@@ -13,21 +13,21 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-29T21:45:59Z"
+    created: "2026-08-30T16:31:47Z"
     src_mtime: 1786156964.7630246
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Myrichthys breviceps"
-      confidence: 0.9697
+      confidence: 0.9696
     - scientific: "Myrichthys ocellatus"
       confidence: 0.0108
     - scientific: "Ocyurus chrysurus"
       confidence: 0.003
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-29T21:48:07Z"
+    created: "2026-08-30T16:33:54Z"
     src_mtime: 1786156964.7630246
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Myrichthys breviceps"
       confidence: 1.0
@@ -38,6 +38,6 @@ species_suggestions:
 species:
 - scientific: "Myrichthys breviceps"
   role: "primary"
-  confidence: 0.9849
+  confidence: 0.9848
   identified_by: "bioclip-2+bioclip-2.5"
 rotation_reviewed: true

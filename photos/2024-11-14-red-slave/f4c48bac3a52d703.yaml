@@ -13,9 +13,9 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-29T21:45:59Z"
+    created: "2026-08-30T16:31:47Z"
     src_mtime: 1786156978.0401127
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Aulostomus maculatus"
       confidence: 0.3565
@@ -25,12 +25,12 @@ species_suggestions:
       confidence: 0.0844
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-29T21:48:07Z"
+    created: "2026-08-30T16:33:54Z"
     src_mtime: 1786156978.0401127
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Scarus iseri"
-      confidence: 0.4005
+      confidence: 0.4004
     - scientific: "Scarus taeniopterus"
       confidence: 0.1855
     - scientific: "Scarus vetula"
@@ -38,5 +38,5 @@ species_suggestions:
 species:
 - scientific: "Scarus iseri"
   role: "primary"
-  confidence: 0.2003
+  confidence: 0.2002
   identified_by: "bioclip-2.5"

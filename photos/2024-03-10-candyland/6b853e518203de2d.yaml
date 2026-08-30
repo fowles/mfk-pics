@@ -13,27 +13,27 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-29T21:45:59Z"
+    created: "2026-08-30T16:31:47Z"
     src_mtime: 1786158872.0695443
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Sparisoma viride"
-      confidence: 0.0492
+      confidence: 0.0491
     - scientific: "Sepioteuthis sepioidea"
       confidence: 0.0455
     - scientific: "Serranus tigrinus"
-      confidence: 0.0379
+      confidence: 0.0378
     absorbed_by:
       scientific: "Orbicella annularis"
       confidence: 0.0505
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-29T21:48:07Z"
+    created: "2026-08-30T16:33:54Z"
     src_mtime: 1786158872.0695443
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Halichoeres garnoti"
-      confidence: 0.4198
+      confidence: 0.4196
     - scientific: "Haemulon chrysargyreum"
       confidence: 0.1294
     - scientific: "Sparisoma viride"

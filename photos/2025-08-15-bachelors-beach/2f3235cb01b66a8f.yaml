@@ -14,30 +14,30 @@ rotation_applied: 180
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-29T21:45:59Z"
+    created: "2026-08-30T16:31:47Z"
     src_mtime: 1787176383.0505064
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Elacatinus genie"
-      confidence: 0.4238
+      confidence: 0.4232
     - scientific: "Equetus punctatus"
-      confidence: 0.1787
+      confidence: 0.1785
     - scientific: "Elacatinus oceanops"
-      confidence: 0.1489
+      confidence: 0.1487
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-29T21:48:07Z"
+    created: "2026-08-30T16:33:54Z"
     src_mtime: 1787176383.0505064
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Equetus punctatus"
-      confidence: 0.3975
+      confidence: 0.3974
     - scientific: "Ancylomenes pedersoni"
-      confidence: 0.2734
+      confidence: 0.2733
     - scientific: "Chaetodon sedentarius"
-      confidence: 0.0968
+      confidence: 0.0967
 species:
 - scientific: "Equetus punctatus"
   role: "primary"
-  confidence: 0.2881
+  confidence: 0.2879
   identified_by: "bioclip-2+bioclip-2.5"

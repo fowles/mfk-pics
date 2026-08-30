@@ -12,9 +12,9 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-29T21:45:59Z"
+    created: "2026-08-30T16:31:47Z"
     src_mtime: 1786159812.1011014
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Gymnothorax funebris"
       confidence: 0.1276
@@ -24,16 +24,16 @@ species_suggestions:
       confidence: 0.0587
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-29T21:48:07Z"
+    created: "2026-08-30T16:33:54Z"
     src_mtime: 1786159812.1011014
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Antennarius multiocellatus"
       confidence: 0.1424
     - scientific: "Acropora palmata"
       confidence: 0.1295
-    - scientific: "Sparisoma viride"
-      confidence: 0.0588
+    - scientific: "Aplysina archeri"
+      confidence: 0.0909
     absorbed_by:
       scientific: "Millepora alcicornis"
       confidence: 0.3436

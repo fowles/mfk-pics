@@ -13,21 +13,21 @@ rotation_applied: 270
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-29T21:45:59Z"
+    created: "2026-08-30T16:31:47Z"
     src_mtime: 1787029181.4912775
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Echeneis naucrates"
-      confidence: 0.2658
+      confidence: 0.2657
+    - scientific: "Aplysina archeri"
+      confidence: 0.1325
     - scientific: "Equetus lanceolatus"
       confidence: 0.035
-    - scientific: "Aluterus monoceros"
-      confidence: 0.0331
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-29T21:48:07Z"
+    created: "2026-08-30T16:33:54Z"
     src_mtime: 1787029181.4912775
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Scarus coeruleus"
       confidence: 0.083

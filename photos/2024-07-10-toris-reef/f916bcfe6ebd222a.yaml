@@ -16,21 +16,21 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-29T21:45:59Z"
+    created: "2026-08-30T16:31:47Z"
     src_mtime: 1786160214.1307337
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Xyrichtys martinicensis"
-      confidence: 0.9406
+      confidence: 0.9405
     - scientific: "Sepioteuthis sepioidea"
       confidence: 0.0159
     - scientific: "Xyrichtys splendens"
       confidence: 0.0104
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-29T21:48:07Z"
+    created: "2026-08-30T16:33:54Z"
     src_mtime: 1786160214.1307337
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Xyrichtys martinicensis"
       confidence: 0.9822
@@ -41,5 +41,5 @@ species_suggestions:
 species:
 - scientific: "Xyrichtys martinicensis"
   role: "primary"
-  confidence: 0.9614
+  confidence: 0.9613
   identified_by: "bioclip-2+bioclip-2.5"

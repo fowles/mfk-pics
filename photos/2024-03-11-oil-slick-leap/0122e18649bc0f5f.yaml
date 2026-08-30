@@ -13,30 +13,30 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-29T21:45:59Z"
+    created: "2026-08-30T16:31:47Z"
     src_mtime: 1786158966.132816
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Thalassoma bifasciatum"
-      confidence: 0.0816
+      confidence: 0.0815
     - scientific: "Mycteroperca bonaci"
       confidence: 0.0592
     - scientific: "Chromis cyanea"
       confidence: 0.0418
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-29T21:48:07Z"
+    created: "2026-08-30T16:33:54Z"
     src_mtime: 1786158966.132816
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Haemulon macrostomum"
-      confidence: 0.4725
+      confidence: 0.4723
     - scientific: "Equetus punctatus"
-      confidence: 0.299
+      confidence: 0.2988
     - scientific: "Pomacanthus arcuatus"
       confidence: 0.0514
 species:
 - scientific: "Haemulon macrostomum"
   role: "primary"
-  confidence: 0.2362
+  confidence: 0.2361
   identified_by: "bioclip-2.5"

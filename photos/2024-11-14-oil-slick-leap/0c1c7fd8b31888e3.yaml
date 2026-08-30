@@ -13,26 +13,26 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-29T21:45:59Z"
+    created: "2026-08-30T16:31:47Z"
     src_mtime: 1786156897.757423
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Chromis multilineata"
-      confidence: 0.1649
+      confidence: 0.1647
     - scientific: "Sparisoma rubripinne"
-      confidence: 0.1083
+      confidence: 0.1082
     - scientific: "Canthigaster jamestyleri"
-      confidence: 0.0531
+      confidence: 0.053
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-29T21:48:07Z"
+    created: "2026-08-30T16:33:54Z"
     src_mtime: 1786156897.757423
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Sparisoma viride"
       confidence: 0.3742
     - scientific: "Scarus iseri"
-      confidence: 0.2436
+      confidence: 0.2435
     - scientific: "Sparisoma rubripinne"
       confidence: 0.1053
 species:

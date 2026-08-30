@@ -13,21 +13,21 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-29T21:45:59Z"
+    created: "2026-08-30T16:31:47Z"
     src_mtime: 1786158234.8692396
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Myrichthys breviceps"
-      confidence: 0.1726
+      confidence: 0.1724
     - scientific: "Gymnothorax funebris"
-      confidence: 0.1701
+      confidence: 0.1699
     - scientific: "Gymnothorax moringa"
-      confidence: 0.1249
+      confidence: 0.1248
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-29T21:48:07Z"
+    created: "2026-08-30T16:33:54Z"
     src_mtime: 1786158234.8692396
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Myrichthys breviceps"
       confidence: 0.9586
@@ -38,5 +38,5 @@ species_suggestions:
 species:
 - scientific: "Myrichthys breviceps"
   role: "primary"
-  confidence: 0.5656
+  confidence: 0.5655
   identified_by: "bioclip-2+bioclip-2.5"

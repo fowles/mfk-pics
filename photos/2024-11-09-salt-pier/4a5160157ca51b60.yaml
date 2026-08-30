@@ -16,24 +16,24 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-29T21:45:59Z"
+    created: "2026-08-30T16:31:47Z"
     src_mtime: 1786156578.9947994
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Haemulon aurolineatum"
-      confidence: 0.8709
+      confidence: 0.8707
     - scientific: "Haemulon chrysargyreum"
       confidence: 0.0471
     - scientific: "Mulloidichthys martinicus"
       confidence: 0.0263
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-29T21:48:07Z"
+    created: "2026-08-30T16:33:54Z"
     src_mtime: 1786156578.9947994
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Haemulon aurolineatum"
-      confidence: 0.9914
+      confidence: 0.9913
     - scientific: "Haemulon chrysargyreum"
       confidence: 0.0075
     - scientific: "Mulloidichthys martinicus"
@@ -41,5 +41,5 @@ species_suggestions:
 species:
 - scientific: "Haemulon aurolineatum"
   role: "primary"
-  confidence: 0.9311
+  confidence: 0.931
   identified_by: "bioclip-2+bioclip-2.5"

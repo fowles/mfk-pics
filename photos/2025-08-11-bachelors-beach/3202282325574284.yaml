@@ -14,30 +14,30 @@ rotation_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-29T21:45:59Z"
+    created: "2026-08-30T16:31:47Z"
     src_mtime: 1786157880.0993962
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Gymnothorax funebris"
-      confidence: 0.0987
+      confidence: 0.0984
     - scientific: "Cephalopholis cruentata"
-      confidence: 0.0908
+      confidence: 0.0906
     - scientific: "Cantherhines pullus"
-      confidence: 0.0573
+      confidence: 0.0571
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-29T21:48:07Z"
+    created: "2026-08-30T16:33:54Z"
     src_mtime: 1786157880.0993962
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Rypticus saponaceus"
-      confidence: 0.345
+      confidence: 0.3447
     - scientific: "Haemulon carbonarium"
-      confidence: 0.2665
+      confidence: 0.2663
     - scientific: "Acanthostracion polygonius"
       confidence: 0.0495
 species:
 - scientific: "Rypticus saponaceus"
   role: "primary"
-  confidence: 0.1725
+  confidence: 0.1724
   identified_by: "bioclip-2.5"

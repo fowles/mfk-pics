@@ -13,21 +13,21 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-29T21:45:59Z"
+    created: "2026-08-30T16:31:47Z"
     src_mtime: 1786156967.0896924
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Lutjanus apodus"
-      confidence: 0.6229
+      confidence: 0.6227
     - scientific: "Lutjanus jocu"
       confidence: 0.1363
     - scientific: "Lutjanus mahogoni"
       confidence: 0.1362
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-29T21:48:07Z"
+    created: "2026-08-30T16:33:54Z"
     src_mtime: 1786156967.0896924
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Lutjanus jocu"
       confidence: 0.4976
@@ -38,5 +38,5 @@ species_suggestions:
 species:
 - scientific: "Lutjanus apodus"
   role: "primary"
-  confidence: 0.5481
+  confidence: 0.548
   identified_by: "bioclip-2+bioclip-2.5"

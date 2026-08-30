@@ -13,30 +13,30 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-29T21:45:59Z"
+    created: "2026-08-30T16:31:47Z"
     src_mtime: 1786159778.25134
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Lutjanus griseus"
-      confidence: 0.1693
+      confidence: 0.1688
     - scientific: "Megalops atlanticus"
-      confidence: 0.116
+      confidence: 0.1157
     - scientific: "Caranx ruber"
-      confidence: 0.0803
+      confidence: 0.08
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-29T21:48:07Z"
+    created: "2026-08-30T16:33:54Z"
     src_mtime: 1786159778.25134
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Lutjanus mahogoni"
-      confidence: 0.4981
+      confidence: 0.4964
     - scientific: "Caranx latus"
-      confidence: 0.1252
+      confidence: 0.1248
     - scientific: "Haemulon aurolineatum"
-      confidence: 0.0857
+      confidence: 0.0854
 species:
 - scientific: "Lutjanus mahogoni"
   role: "primary"
-  confidence: 0.249
+  confidence: 0.2482
   identified_by: "bioclip-2.5"

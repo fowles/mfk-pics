@@ -13,30 +13,30 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-29T21:45:59Z"
+    created: "2026-08-30T16:31:47Z"
     src_mtime: 1786159955.2359753
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Gerres cinereus"
-      confidence: 0.2808
+      confidence: 0.2785
     - scientific: "Haemulon aurolineatum"
-      confidence: 0.1191
+      confidence: 0.1181
     - scientific: "Mulloidichthys martinicus"
-      confidence: 0.0933
+      confidence: 0.0925
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-29T21:48:07Z"
+    created: "2026-08-30T16:33:54Z"
     src_mtime: 1786159955.2359753
-    vocab: "70e86894c9ec"
+    vocab: "d39945a1dfd8"
     top:
     - scientific: "Lutjanus mahogoni"
-      confidence: 0.741
+      confidence: 0.7289
     - scientific: "Lutjanus analis"
-      confidence: 0.0535
+      confidence: 0.0526
     - scientific: "Haemulon chrysargyreum"
-      confidence: 0.0475
+      confidence: 0.0467
 species:
 - scientific: "Lutjanus mahogoni"
   role: "primary"
-  confidence: 0.3705
+  confidence: 0.3644
   identified_by: "bioclip-2.5"
