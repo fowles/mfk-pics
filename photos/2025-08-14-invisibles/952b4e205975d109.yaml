@@ -39,7 +39,17 @@ species_suggestions:
     - scientific: "Sparisoma viride"
       confidence: 0.1454
 species:
-- scientific: "Gymnothorax moringa"
+- scientific: "Homo sapiens"
   role: "primary"
-  confidence: 0.1447
-  identified_by: "bioclip-2.5"
+  identified_by: "human"
+  reviewed_by: "matt"
+  person:
+  - "Delia Kulukundis"
+  cover: true
+- scientific: "Caranx ruber"
+  role: "secondary"
+  identified_by: "human"
+  reviewed_by: "matt"
+species_reviewed:
+- "primary"
+- "secondary"

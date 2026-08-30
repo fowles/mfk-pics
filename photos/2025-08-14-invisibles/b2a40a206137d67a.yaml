@@ -39,7 +39,24 @@ species_suggestions:
     - scientific: "Acanthurus coeruleus"
       confidence: 0.0136
 species:
-- scientific: "Aulostomus maculatus"
+- scientific: "Aluterus scriptus"
   role: "primary"
-  confidence: 0.6447
-  identified_by: "bioclip-2+bioclip-2.5"
+  identified_by: "human"
+  reviewed_by: "matt"
+- scientific: "Acanthurus coeruleus"
+  role: "secondary"
+  identified_by: "human"
+  confirmed_from: "bioclip-2+bioclip-2.5"
+  reviewed_by: "matt"
+- scientific: "Acanthurus chirurgus"
+  role: "secondary"
+  identified_by: "human"
+  reviewed_by: "matt"
+- scientific: "Aulostomus maculatus"
+  role: "secondary"
+  identified_by: "human"
+  confirmed_from: "bioclip-2+bioclip-2.5"
+  reviewed_by: "matt"
+species_reviewed:
+- "primary"
+- "secondary"

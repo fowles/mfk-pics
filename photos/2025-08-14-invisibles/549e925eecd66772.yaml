@@ -36,7 +36,20 @@ species_suggestions:
     - scientific: "Scarus coelestinus"
       confidence: 0.2566
 species:
-- scientific: "Acanthostracion polygonius"
+- scientific: "Aluterus scriptus"
   role: "primary"
-  confidence: 0.4319
-  identified_by: "bioclip-2+bioclip-2.5"
+  identified_by: "human"
+  confirmed_from: "bioclip-2"
+  reviewed_by: "matt"
+- scientific: "Acanthurus coeruleus"
+  role: "secondary"
+  identified_by: "human"
+  confirmed_from: "bioclip-2.5"
+  reviewed_by: "matt"
+- scientific: "Acanthurus chirurgus"
+  role: "secondary"
+  identified_by: "human"
+  reviewed_by: "matt"
+species_reviewed:
+- "primary"
+- "secondary"

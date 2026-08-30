@@ -36,7 +36,18 @@ species_suggestions:
     - scientific: "Aluterus scriptus"
       confidence: 0.0631
 species:
-- scientific: "Serranus tigrinus"
+- scientific: "Gymnothorax moringa"
   role: "primary"
-  confidence: 0.4899
-  identified_by: "bioclip-2+bioclip-2.5"
+  identified_by: "human"
+  reviewed_by: "matt"
+- scientific: "Homo sapiens"
+  role: "secondary"
+  identified_by: "human"
+  reviewed_by: "matt"
+  person:
+  - "Matthew Kulukundis"
+tags:
+- "metapicture"
+species_reviewed:
+- "primary"
+- "secondary"

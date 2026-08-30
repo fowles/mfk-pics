@@ -39,7 +39,14 @@ species_suggestions:
     - scientific: "Gymnothorax moringa"
       confidence: 0.047
 species:
-- scientific: "Acanthostracion polygonius"
+- scientific: "Aluterus scriptus"
   role: "primary"
-  confidence: 0.2495
-  identified_by: "bioclip-2+bioclip-2.5"
+  identified_by: "human"
+  reviewed_by: "matt"
+- scientific: "Aulostomus maculatus"
+  role: "secondary"
+  identified_by: "human"
+  reviewed_by: "matt"
+species_reviewed:
+- "primary"
+- "secondary"

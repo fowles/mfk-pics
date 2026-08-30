@@ -11,3 +11,19 @@ gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
 video_start_anchored: true
+tags:
+- "metapicture"
+species:
+- scientific: "Gymnothorax moringa"
+  role: "primary"
+  identified_by: "human"
+  reviewed_by: "matt"
+- scientific: "Homo sapiens"
+  role: "secondary"
+  identified_by: "human"
+  reviewed_by: "matt"
+  person:
+  - "Matthew Kulukundis"
+species_reviewed:
+- "primary"
+- "secondary"

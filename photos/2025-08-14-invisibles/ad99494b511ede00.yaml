@@ -36,7 +36,19 @@ species_suggestions:
     - scientific: "Gymnothorax moringa"
       confidence: 0.1448
 species:
-- scientific: "Eretmochelys imbricata"
+- scientific: "Gymnothorax moringa"
   role: "primary"
-  confidence: 0.4589
-  identified_by: "bioclip-2"
+  identified_by: "human"
+  confirmed_from: "bioclip-2.5"
+  reviewed_by: "matt"
+- scientific: "Homo sapiens"
+  role: "secondary"
+  identified_by: "human"
+  reviewed_by: "matt"
+  person:
+  - "Matthew Kulukundis"
+tags:
+- "metapicture"
+species_reviewed:
+- "primary"
+- "secondary"

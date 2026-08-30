@@ -39,7 +39,16 @@ species_suggestions:
     - scientific: "Scarus coelestinus"
       confidence: 0.0627
 species:
-- scientific: "Mycteroperca tigris"
+- scientific: "Homo sapiens"
   role: "primary"
-  confidence: 0.2739
-  identified_by: "bioclip-2.5"
+  identified_by: "human"
+  reviewed_by: "matt"
+  person:
+  - "Delia Kulukundis"
+- scientific: "Caranx ruber"
+  role: "secondary"
+  identified_by: "human"
+  reviewed_by: "matt"
+species_reviewed:
+- "primary"
+- "secondary"
