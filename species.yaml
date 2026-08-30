@@ -233,7 +233,7 @@
 
 - {scientific: "Xestospongia muta", common: "Giant Barrel Sponge", regions: ["Caribbean"], distractor: true, taxonomy: "Animalia Porifera Demospongiae Haplosclerida Petrosiidae"}
 - {scientific: "Aplysina fistularis", common: "Yellow Tube Sponge", regions: ["Caribbean"], distractor: true, taxonomy: "Animalia Porifera Demospongiae Verongiida Aplysinidae"}
-- {scientific: "Aplysina archeri", common: "Stove-pipe Sponge", regions: ["Caribbean"], distractor: true, taxonomy: "Animalia Porifera Demospongiae Verongiida Aplysinidae"}
+- {scientific: "Aplysina archeri", common: "Stove-pipe Sponge", regions: ["Caribbean"], taxonomy: "Animalia Porifera Demospongiae Verongiida Aplysinidae"}
 - {scientific: "Callyspongia plicifera", common: "Azure Vase Sponge", regions: ["Caribbean"], distractor: true, taxonomy: "Animalia Porifera Demospongiae Haplosclerida Callyspongiidae"}
 - {scientific: "Niphates digitalis", common: "Pink Vase Sponge", regions: ["Caribbean"], distractor: true, taxonomy: "Animalia Porifera Demospongiae Haplosclerida Niphatidae"}
 - {scientific: "Agelas clathrodes", common: "Orange Elephant Ear Sponge", regions: ["Caribbean"], distractor: true, taxonomy: "Animalia Porifera Demospongiae Agelasida Agelasidae"}
