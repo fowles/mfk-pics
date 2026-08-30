@@ -36,7 +36,12 @@ species_suggestions:
     - scientific: "Decapterus macarellus"
       confidence: 0.0748
 species:
-- scientific: "Chromis multilineata"
+- scientific: "Homo sapiens"
   role: "primary"
-  confidence: 0.6001
-  identified_by: "bioclip-2+bioclip-2.5"
+  identified_by: "human"
+  reviewed_by: "matt"
+  person:
+  - "Matthew Kulukundis"
+species_reviewed:
+- "primary"
+- "secondary"

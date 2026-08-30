@@ -35,8 +35,7 @@ species_suggestions:
       confidence: 0.0001
     - scientific: "Caranx ruber"
       confidence: 0.0
-species:
-- scientific: "Caranx latus"
-  role: "primary"
-  confidence: 0.9894
-  identified_by: "bioclip-2+bioclip-2.5"
+species: []
+species_reviewed:
+- "primary"
+- "secondary"

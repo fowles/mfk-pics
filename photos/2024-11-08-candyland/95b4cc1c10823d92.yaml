@@ -41,4 +41,17 @@ species_suggestions:
     absorbed_by:
       scientific: "Callyspongia plicifera"
       confidence: 0.8691
-species: []
+species:
+- scientific: "Aplysina archeri"
+  role: "primary"
+  identified_by: "human"
+  reviewed_by: "matt"
+- scientific: "Homo sapiens"
+  role: "secondary"
+  identified_by: "human"
+  reviewed_by: "matt"
+  person:
+  - "Matthew Kulukundis"
+species_reviewed:
+- "primary"
+- "secondary"

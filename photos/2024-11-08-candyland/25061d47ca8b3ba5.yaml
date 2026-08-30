@@ -41,4 +41,17 @@ species_suggestions:
     absorbed_by:
       scientific: "Aplysina archeri"
       confidence: 0.9013
-species: []
+species:
+- scientific: "Homo sapiens"
+  role: "secondary"
+  identified_by: "human"
+  reviewed_by: "matt"
+  person:
+  - "Matthew Kulukundis"
+- scientific: "Aplysina archeri"
+  role: "primary"
+  identified_by: "human"
+  reviewed_by: "matt"
+species_reviewed:
+- "primary"
+- "secondary"

@@ -36,7 +36,17 @@ species_suggestions:
     - scientific: "Chromis multilineata"
       confidence: 0.0498
 species:
-- scientific: "Melichthys niger"
+- scientific: "Homo sapiens"
   role: "primary"
-  confidence: 0.3963
-  identified_by: "bioclip-2+bioclip-2.5"
+  identified_by: "human"
+  reviewed_by: "matt"
+  person:
+  - "Matthew Kulukundis"
+- scientific: "Melichthys niger"
+  role: "secondary"
+  identified_by: "human"
+  confirmed_from: "bioclip-2+bioclip-2.5"
+  reviewed_by: "matt"
+species_reviewed:
+- "primary"
+- "secondary"

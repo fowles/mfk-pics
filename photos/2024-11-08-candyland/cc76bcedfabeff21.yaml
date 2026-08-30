@@ -41,4 +41,11 @@ species_suggestions:
     absorbed_by:
       scientific: "Aplysina archeri"
       confidence: 0.9937
-species: []
+species:
+- scientific: "Aplysina archeri"
+  role: "primary"
+  identified_by: "human"
+  reviewed_by: "matt"
+species_reviewed:
+- "primary"
+- "secondary"

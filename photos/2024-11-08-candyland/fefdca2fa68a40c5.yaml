@@ -35,8 +35,7 @@ species_suggestions:
       confidence: 0.0
     - scientific: "Holacanthus ciliaris"
       confidence: 0.0
-species:
-- scientific: "Caranx latus"
-  role: "primary"
-  confidence: 0.994
-  identified_by: "bioclip-2+bioclip-2.5"
+species: []
+species_reviewed:
+- "primary"
+- "secondary"

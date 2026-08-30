@@ -36,7 +36,11 @@ species_suggestions:
     - scientific: "Acanthurus coeruleus"
       confidence: 0.004
 species:
-- scientific: "Chromis cyanea"
+- scientific: "Clepticus parrae"
   role: "primary"
-  confidence: 0.8545
-  identified_by: "bioclip-2+bioclip-2.5"
+  identified_by: "human"
+  confirmed_from: "bioclip-2.5"
+  reviewed_by: "matt"
+species_reviewed:
+- "primary"
+- "secondary"

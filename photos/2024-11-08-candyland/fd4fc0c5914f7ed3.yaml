@@ -36,7 +36,11 @@ species_suggestions:
     - scientific: "Diadema antillarum"
       confidence: 0.0025
 species:
-- scientific: "Pterois volitans"
+- scientific: "Nemaster grandis"
   role: "primary"
-  confidence: 0.5121
-  identified_by: "bioclip-2+bioclip-2.5"
+  identified_by: "human"
+  confirmed_from: "bioclip-2"
+  reviewed_by: "matt"
+species_reviewed:
+- "primary"
+- "secondary"

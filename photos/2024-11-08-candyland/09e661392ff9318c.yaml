@@ -36,7 +36,16 @@ species_suggestions:
     - scientific: "Chromis cyanea"
       confidence: 0.2033
 species:
-- scientific: "Chromis multilineata"
+- scientific: "Homo sapiens"
   role: "primary"
-  confidence: 0.4275
-  identified_by: "bioclip-2+bioclip-2.5"
+  identified_by: "human"
+  reviewed_by: "matt"
+  person:
+  - "Matthew Kulukundis"
+- scientific: "Melichthys niger"
+  role: "secondary"
+  identified_by: "human"
+  reviewed_by: "matt"
+species_reviewed:
+- "primary"
+- "secondary"

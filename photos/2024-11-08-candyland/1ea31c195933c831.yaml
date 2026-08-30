@@ -42,4 +42,17 @@ species_suggestions:
     absorbed_by:
       scientific: "Aplysina archeri"
       confidence: 0.983
-species: []
+species:
+- scientific: "Aplysina archeri"
+  role: "primary"
+  identified_by: "human"
+  reviewed_by: "matt"
+- scientific: "Homo sapiens"
+  role: "secondary"
+  identified_by: "human"
+  reviewed_by: "matt"
+  person:
+  - "Jane Bulnes-Fowles"
+species_reviewed:
+- "primary"
+- "secondary"

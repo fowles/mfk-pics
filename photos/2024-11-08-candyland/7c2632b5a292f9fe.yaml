@@ -36,7 +36,11 @@ species_suggestions:
     - scientific: "Scarus coelestinus"
       confidence: 0.0032
 species:
-- scientific: "Chromis cyanea"
+- scientific: "Clepticus parrae"
   role: "primary"
-  confidence: 0.7738
-  identified_by: "bioclip-2+bioclip-2.5"
+  identified_by: "human"
+  confirmed_from: "bioclip-2.5"
+  reviewed_by: "matt"
+species_reviewed:
+- "primary"
+- "secondary"
