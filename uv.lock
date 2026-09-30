@@ -1367,6 +1367,9 @@ provides-extras = ["dicam"]
 
 [package.metadata.requires-dev]
 dev = [
+    { name = "onnx", specifier = ">=1.23.1" },
+    { name = "onnxruntime", specifier = ">=1.23.2" },
+    { name = "onnxscript", specifier = ">=0.7.2" },
     { name = "pytest" },
     { name = "pytest-xdist", specifier = ">=3.8.0" },
     { name = "torch", specifier = ">=2.14.0" },
