@@ -38,5 +38,5 @@ species_suggestions:
 species:
 - scientific: "Monacanthus tuckeri"
   role: "primary"
-  confidence: 0.9895
-  identified_by: "bioclip-2+bioclip-2.5"
+  identified_by: "human"
+  confirmed_from: "bioclip-2+bioclip-2.5"
