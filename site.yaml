@@ -4,6 +4,7 @@ author: Matthew Kulukundis
 photo_dir: photos
 output_dir: output
 site_url: https://mfk.pics
+share_photo: "092cd1fbdb2b40bb"   # octopus at Invisibles: homepage + list-page share image
 feedback:
   repo: "fowles/mfk-pics"
   template: "photo-report.yml"
