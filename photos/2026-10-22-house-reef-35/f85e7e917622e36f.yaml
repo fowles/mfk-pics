@@ -1,0 +1,43 @@
+date: "2026-10-22 16:37:52"
+location: "Curacao"
+location_source: "dive_site"
+dive_site: "House Reef 35"
+credit: "Marc Howard"
+import_album: "Curacao Diving - House Reef 10-22"
+import_original_name: "PA210044.JPG"
+lat: 12.1926667
+lon: -69.0735556
+gps_source: "dive_site"
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-10-26T00:29:55Z"
+    src_mtime: 1792974107.4060106
+    vocab: "d39945a1dfd8"
+    top:
+    - scientific: "Carcharhinus perezi"
+      confidence: 0.1981
+    - scientific: "Chelonia mydas"
+      confidence: 0.0811
+    - scientific: "Alectis ciliaris"
+      confidence: 0.0797
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-10-26T00:29:59Z"
+    src_mtime: 1792974107.4060106
+    vocab: "d39945a1dfd8"
+    top:
+    - scientific: "Acanthurus coeruleus"
+      confidence: 0.5272
+    - scientific: "Thalassoma bifasciatum"
+      confidence: 0.0761
+    - scientific: "Hypanus americanus"
+      confidence: 0.0675
+species:
+- scientific: "Acanthurus coeruleus"
+  role: "primary"
+  confidence: 0.2636
+  identified_by: "bioclip-2.5"
+culled: true
+date_reviewed: true
+dive_window_reviewed: true

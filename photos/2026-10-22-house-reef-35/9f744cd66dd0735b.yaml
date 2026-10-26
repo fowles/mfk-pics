@@ -1,0 +1,43 @@
+date: "2026-10-22 17:30:24"
+location: "Curacao"
+location_source: "dive_site"
+dive_site: "House Reef 35"
+credit: "Marc Howard"
+import_album: "Curacao Diving - House Reef 10-22"
+import_original_name: "PA210084.JPG"
+lat: 12.1926667
+lon: -69.0735556
+gps_source: "dive_site"
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-10-26T00:29:55Z"
+    src_mtime: 1792974109.81823
+    vocab: "d39945a1dfd8"
+    top:
+    - scientific: "Chromis cyanea"
+      confidence: 0.1543
+    - scientific: "Holacanthus tricolor"
+      confidence: 0.1157
+    - scientific: "Pomacanthus arcuatus"
+      confidence: 0.0743
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-10-26T00:29:59Z"
+    src_mtime: 1792974109.81823
+    vocab: "d39945a1dfd8"
+    top:
+    - scientific: "Chromis cyanea"
+      confidence: 0.5592
+    - scientific: "Chromis multilineata"
+      confidence: 0.1307
+    - scientific: "Clepticus parrae"
+      confidence: 0.0306
+species:
+- scientific: "Chromis cyanea"
+  role: "primary"
+  confidence: 0.3568
+  identified_by: "bioclip-2+bioclip-2.5"
+culled: true
+date_reviewed: true
+dive_window_reviewed: true

@@ -1,0 +1,41 @@
+date: "2026-10-22 16:48:39"
+location: "Curacao"
+location_source: "dive_site"
+dive_site: "House Reef 35"
+credit: "Marc Howard"
+import_album: "Curacao Diving - House Reef 10-22"
+import_original_name: "PA210049.JPG"
+lat: 12.1926667
+lon: -69.0735556
+gps_source: "dive_site"
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-10-26T00:29:55Z"
+    src_mtime: 1792974107.330052
+    vocab: "d39945a1dfd8"
+    top:
+    - scientific: "Caranx ruber"
+      confidence: 0.2946
+    - scientific: "Caranx latus"
+      confidence: 0.1386
+    - scientific: "Megalops atlanticus"
+      confidence: 0.055
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-10-26T00:29:59Z"
+    src_mtime: 1792974107.330052
+    vocab: "d39945a1dfd8"
+    top:
+    - scientific: "Ocyurus chrysurus"
+      confidence: 0.562
+    - scientific: "Chromis multilineata"
+      confidence: 0.1269
+    - scientific: "Caranx ruber"
+      confidence: 0.123
+species: []
+species_reviewed:
+- "primary"
+- "secondary"
+date_reviewed: true
+dive_window_reviewed: true

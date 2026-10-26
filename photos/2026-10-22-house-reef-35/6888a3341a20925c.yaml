@@ -1,0 +1,41 @@
+date: "2026-10-22 17:29:43"
+location: "Curacao"
+location_source: "dive_site"
+dive_site: "House Reef 35"
+credit: "Miriam Melnick"
+import_album: "Curacao Diving - House Reef 10-22"
+import_original_name: "PA220179.JPG"
+lat: 12.1926667
+lon: -69.0735556
+gps_source: "dive_site"
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-10-26T00:29:55Z"
+    src_mtime: 1792974114.145639
+    vocab: "d39945a1dfd8"
+    top:
+    - scientific: "Hypanus americanus"
+      confidence: 0.2678
+    - scientific: "Bothus lunatus"
+      confidence: 0.159
+    - scientific: "Urobatis jamaicensis"
+      confidence: 0.0458
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-10-26T00:29:59Z"
+    src_mtime: 1792974114.145639
+    vocab: "d39945a1dfd8"
+    top:
+    - scientific: "Equetus lanceolatus"
+      confidence: 0.7354
+    - scientific: "Equetus punctatus"
+      confidence: 0.1039
+    - scientific: "Octopus insularis"
+      confidence: 0.0743
+species:
+- scientific: "Equetus lanceolatus"
+  role: "primary"
+  confidence: 0.3677
+  identified_by: "bioclip-2.5"
+culled: true

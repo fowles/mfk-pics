@@ -1,0 +1,41 @@
+date: "2026-10-22 16:59:22"
+location: "Curacao"
+location_source: "dive_site"
+dive_site: "House Reef 35"
+credit: "Miriam Melnick"
+import_album: "Curacao Diving - House Reef 10-22"
+import_original_name: "PA220150.JPG"
+lat: 12.1926667
+lon: -69.0735556
+gps_source: "dive_site"
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-10-26T00:29:55Z"
+    src_mtime: 1792974111.5689867
+    vocab: "d39945a1dfd8"
+    top:
+    - scientific: "Chromis multilineata"
+      confidence: 0.74
+    - scientific: "Stegastes planifrons"
+      confidence: 0.0413
+    - scientific: "Haemulon aurolineatum"
+      confidence: 0.0379
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-10-26T00:29:59Z"
+    src_mtime: 1792974111.5689867
+    vocab: "d39945a1dfd8"
+    top:
+    - scientific: "Chromis multilineata"
+      confidence: 0.9995
+    - scientific: "Stegastes planifrons"
+      confidence: 0.0002
+    - scientific: "Pempheris schomburgkii"
+      confidence: 0.0
+species:
+- scientific: "Chromis multilineata"
+  role: "primary"
+  confidence: 0.8698
+  identified_by: "bioclip-2+bioclip-2.5"
+culled: true

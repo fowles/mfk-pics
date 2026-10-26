@@ -18,6 +18,8 @@ photographers:
   Google Pixel 7 Pro: Matthew Kulukundis
   NIKON CORPORATION NIKON 1 AW1: Delia Kulukundis
   Canon PowerShot G1 X: Keith Saddler
+  "OLYMPUS CORPORATION TG-6": "Marc Howard"
+  "OM Digital Solutions TG-7": "Miriam Melnick"
 dive_sites:
   Weber's Joy:
     lat: 12.2065506
@@ -118,6 +120,9 @@ dive_sites:
   Los Morros:
     lat: 23.4627
     lon: -109.405
+  "House Reef 35":
+    lat: 12.1926667
+    lon: -69.0735556
 deploy:
   account_id: 605649affbab92b2f8367d609dc4f3b6
   bucket: mfk-pics-images

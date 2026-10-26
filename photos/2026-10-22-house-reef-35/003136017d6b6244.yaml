@@ -1,0 +1,46 @@
+date: "2026-10-22 17:27:48"
+location: "Curacao"
+location_source: "dive_site"
+dive_site: "House Reef 35"
+credit: "Miriam Melnick"
+import_album: "Curacao Diving - House Reef 10-22"
+import_original_name: "PA220176.JPG"
+lat: 12.1926667
+lon: -69.0735556
+gps_source: "dive_site"
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-10-26T00:29:55Z"
+    src_mtime: 1792974113.4343464
+    vocab: "d39945a1dfd8"
+    top:
+    - scientific: "Echeneis naucrates"
+      confidence: 0.3353
+    - scientific: "Carcharhinus perezi"
+      confidence: 0.2755
+    - scientific: "Pristis pristis"
+      confidence: 0.1683
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-10-26T00:29:59Z"
+    src_mtime: 1792974113.4343464
+    vocab: "d39945a1dfd8"
+    top:
+    - scientific: "Echeneis naucrates"
+      confidence: 0.9867
+    - scientific: "Carcharhinus falciformis"
+      confidence: 0.0085
+    - scientific: "Elagatis bipinnulata"
+      confidence: 0.003
+species:
+- scientific: "Echeneis naucrates"
+  role: "primary"
+  identified_by: "human"
+  confirmed_from: "bioclip-2+bioclip-2.5"
+- scientific: "Seriola rivoliana"
+  role: "secondary"
+  identified_by: "human"
+species_reviewed:
+- "primary"
+- "secondary"

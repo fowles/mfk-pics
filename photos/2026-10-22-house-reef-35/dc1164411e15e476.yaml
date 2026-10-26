@@ -1,0 +1,43 @@
+date: "2026-10-22 17:02:44"
+location: "Curacao"
+location_source: "dive_site"
+dive_site: "House Reef 35"
+credit: "Marc Howard"
+import_album: "Curacao Diving - House Reef 10-22"
+import_original_name: "PA210066.JPG"
+lat: 12.1926667
+lon: -69.0735556
+gps_source: "dive_site"
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-10-26T00:29:55Z"
+    src_mtime: 1792974108.3989305
+    vocab: "d39945a1dfd8"
+    top:
+    - scientific: "Stegastes partitus"
+      confidence: 0.1084
+    - scientific: "Anisotremus surinamensis"
+      confidence: 0.0879
+    - scientific: "Chromis cyanea"
+      confidence: 0.0805
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-10-26T00:29:59Z"
+    src_mtime: 1792974108.3989305
+    vocab: "d39945a1dfd8"
+    top:
+    - scientific: "Holacanthus tricolor"
+      confidence: 0.3954
+    - scientific: "Halichoeres garnoti"
+      confidence: 0.3051
+    - scientific: "Holacanthus ciliaris"
+      confidence: 0.0618
+species:
+- scientific: "Holacanthus tricolor"
+  role: "primary"
+  confidence: 0.1977
+  identified_by: "bioclip-2.5"
+culled: true
+date_reviewed: true
+dive_window_reviewed: true

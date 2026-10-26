@@ -1,0 +1,46 @@
+date: "2026-10-22 16:58:50"
+location: "Curacao"
+location_source: "dive_site"
+dive_site: "House Reef 35"
+credit: "Marc Howard"
+import_album: "Curacao Diving - House Reef 10-22"
+import_original_name: "PA210062.JPG"
+lat: 12.1926667
+lon: -69.0735556
+gps_source: "dive_site"
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-10-26T00:29:55Z"
+    src_mtime: 1792974108.2901719
+    vocab: "d39945a1dfd8"
+    top:
+    - scientific: "Halichoeres pictus"
+      confidence: 0.0833
+    - scientific: "Holacanthus tricolor"
+      confidence: 0.0803
+    - scientific: "Aplysina archeri"
+      confidence: 0.0404
+    absorbed_by:
+      scientific: "Clavelina picta"
+      confidence: 0.1038
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-10-26T00:29:59Z"
+    src_mtime: 1792974108.2901719
+    vocab: "d39945a1dfd8"
+    top:
+    - scientific: "Mycteroperca tigris"
+      confidence: 0.3102
+    - scientific: "Halichoeres garnoti"
+      confidence: 0.1029
+    - scientific: "Scarus coeruleus"
+      confidence: 0.0517
+species:
+- scientific: "Mycteroperca tigris"
+  role: "primary"
+  confidence: 0.1551
+  identified_by: "bioclip-2.5"
+culled: true
+date_reviewed: true
+dive_window_reviewed: true

@@ -1,0 +1,43 @@
+date: "2026-10-22 17:06:13"
+location: "Curacao"
+location_source: "dive_site"
+dive_site: "House Reef 35"
+credit: "Marc Howard"
+import_album: "Curacao Diving - House Reef 10-22"
+import_original_name: "PA210067.JPG"
+lat: 12.1926667
+lon: -69.0735556
+gps_source: "dive_site"
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-10-26T00:29:55Z"
+    src_mtime: 1792974108.3141096
+    vocab: "d39945a1dfd8"
+    top:
+    - scientific: "Scomberomorus regalis"
+      confidence: 0.8804
+    - scientific: "Carcharhinus perezi"
+      confidence: 0.0624
+    - scientific: "Sphyraena barracuda"
+      confidence: 0.0203
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-10-26T00:29:59Z"
+    src_mtime: 1792974108.3141096
+    vocab: "d39945a1dfd8"
+    top:
+    - scientific: "Sphyraena barracuda"
+      confidence: 0.5219
+    - scientific: "Scomberomorus regalis"
+      confidence: 0.4778
+    - scientific: "Megalops atlanticus"
+      confidence: 0.0002
+species:
+- scientific: "Scomberomorus regalis"
+  role: "primary"
+  confidence: 0.6791
+  identified_by: "bioclip-2+bioclip-2.5"
+culled: true
+date_reviewed: true
+dive_window_reviewed: true
