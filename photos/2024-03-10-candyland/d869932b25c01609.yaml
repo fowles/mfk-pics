@@ -38,8 +38,8 @@ species_suggestions:
       confidence: 0.1965
     - scientific: "Chromis cyanea"
       confidence: 0.1594
-species:
-- scientific: "Aplysina archeri"
-  role: "primary"
-  confidence: 0.288
-  identified_by: "bioclip-2.5"
+species: []
+culled: true
+species_reviewed:
+- "primary"
+- "secondary"

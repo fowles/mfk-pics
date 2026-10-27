@@ -35,8 +35,8 @@ species_suggestions:
       confidence: 0.1508
     - scientific: "Abudefduf saxatilis"
       confidence: 0.0443
-species:
-- scientific: "Mobula birostris"
-  role: "primary"
-  confidence: 0.2209
-  identified_by: "bioclip-2"
+species: []
+culled: true
+species_reviewed:
+- "primary"
+- "secondary"

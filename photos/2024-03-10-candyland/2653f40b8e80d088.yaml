@@ -11,3 +11,10 @@ gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
 video_start_anchored: true
+species:
+- scientific: "Melichthys niger"
+  role: "primary"
+  identified_by: "human"
+species_reviewed:
+- "primary"
+- "secondary"

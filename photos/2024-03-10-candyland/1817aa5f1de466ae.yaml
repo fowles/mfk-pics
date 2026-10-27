@@ -38,4 +38,17 @@ species_suggestions:
     absorbed_by:
       scientific: "Orbicella faveolata"
       confidence: 0.8859
-species: []
+species:
+- scientific: "Chromis multilineata"
+  role: "primary"
+  identified_by: "human"
+- scientific: "Stegastes partitus"
+  role: "secondary"
+  identified_by: "human"
+- scientific: "Chromis cyanea"
+  role: "secondary"
+  identified_by: "human"
+  confirmed_from: "bioclip-2"
+species_reviewed:
+- "primary"
+- "secondary"

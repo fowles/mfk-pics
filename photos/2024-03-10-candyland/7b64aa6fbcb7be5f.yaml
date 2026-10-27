@@ -39,7 +39,16 @@ species_suggestions:
       scientific: "Orbicella annularis"
       confidence: 0.6776
 species:
+- scientific: "Chromis multilineata"
+  role: "secondary"
+  identified_by: "human"
+- scientific: "Stegastes partitus"
+  role: "secondary"
+  identified_by: "human"
 - scientific: "Chromis cyanea"
   role: "primary"
-  confidence: 0.4574
-  identified_by: "bioclip-2+bioclip-2.5"
+  identified_by: "human"
+  confirmed_from: "bioclip-2+bioclip-2.5"
+species_reviewed:
+- "primary"
+- "secondary"

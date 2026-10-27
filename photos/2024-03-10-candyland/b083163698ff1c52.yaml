@@ -35,8 +35,8 @@ species_suggestions:
       confidence: 0.2318
     - scientific: "Chromis cyanea"
       confidence: 0.1159
-species:
-- scientific: "Chromis cyanea"
-  role: "primary"
-  confidence: 0.4284
-  identified_by: "bioclip-2+bioclip-2.5"
+species: []
+culled: true
+species_reviewed:
+- "primary"
+- "secondary"

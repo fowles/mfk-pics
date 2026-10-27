@@ -42,7 +42,9 @@ species_suggestions:
     - scientific: "Sphyraena barracuda"
       confidence: 0.1065
 species:
-- scientific: "Aulostomus maculatus"
+- scientific: "Aluterus scriptus"
   role: "primary"
-  confidence: 0.3029
-  identified_by: "bioclip-2+bioclip-2.5"
+  identified_by: "human"
+species_reviewed:
+- "primary"
+- "secondary"

@@ -38,5 +38,14 @@ species_suggestions:
 species:
 - scientific: "Aulostomus maculatus"
   role: "primary"
-  confidence: 0.9931
-  identified_by: "bioclip-2+bioclip-2.5"
+  identified_by: "human"
+  confirmed_from: "bioclip-2+bioclip-2.5"
+- scientific: "Clepticus parrae"
+  role: "secondary"
+  identified_by: "human"
+- scientific: "Cephalopholis fulva"
+  role: "secondary"
+  identified_by: "human"
+species_reviewed:
+- "primary"
+- "secondary"

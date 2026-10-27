@@ -11,3 +11,4 @@ gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
 video_start_anchored: true
+culled: true

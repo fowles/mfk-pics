@@ -41,5 +41,13 @@ species_suggestions:
 species:
 - scientific: "Scomberomorus regalis"
   role: "primary"
-  confidence: 0.3871
-  identified_by: "bioclip-2"
+  identified_by: "human"
+  confirmed_from: "bioclip-2"
+- scientific: "Caranx ruber"
+  role: "secondary"
+  identified_by: "human"
+  confirmed_from: "bioclip-2.5"
+species_reviewed:
+- "primary"
+- "secondary"
+cluster: "continue"

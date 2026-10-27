@@ -39,7 +39,17 @@ species_suggestions:
     - scientific: "Chromis cyanea"
       confidence: 0.0584
 species:
-- scientific: "Melichthys niger"
+- scientific: "Homo sapiens"
   role: "primary"
-  confidence: 0.3256
-  identified_by: "bioclip-2.5"
+  identified_by: "human"
+  person:
+  - "Delia Kulukundis"
+- scientific: "Melichthys niger"
+  role: "secondary"
+  identified_by: "human"
+  confirmed_from: "bioclip-2.5"
+tags:
+- "metapicture"
+species_reviewed:
+- "primary"
+- "secondary"

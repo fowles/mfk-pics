@@ -41,5 +41,11 @@ species_suggestions:
 species:
 - scientific: "Stenopus hispidus"
   role: "primary"
-  confidence: 0.2938
-  identified_by: "bioclip-2+bioclip-2.5"
+  identified_by: "human"
+  confirmed_from: "bioclip-2+bioclip-2.5"
+- scientific: "Gramma loreto"
+  role: "secondary"
+  identified_by: "human"
+species_reviewed:
+- "primary"
+- "secondary"

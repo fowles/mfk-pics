@@ -38,5 +38,14 @@ species_suggestions:
 species:
 - scientific: "Ocyurus chrysurus"
   role: "primary"
-  confidence: 0.8481
-  identified_by: "bioclip-2+bioclip-2.5"
+  identified_by: "human"
+  confirmed_from: "bioclip-2+bioclip-2.5"
+- scientific: "Melichthys niger"
+  role: "secondary"
+  identified_by: "human"
+- scientific: "Chromis multilineata"
+  role: "secondary"
+  identified_by: "human"
+species_reviewed:
+- "primary"
+- "secondary"

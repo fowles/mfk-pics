@@ -36,7 +36,10 @@ species_suggestions:
     - scientific: "Clepticus parrae"
       confidence: 0.0004
 species:
-- scientific: "Aplysina archeri"
+- scientific: "Clepticus parrae"
   role: "primary"
-  confidence: 0.4791
-  identified_by: "bioclip-2.5"
+  identified_by: "human"
+  confirmed_from: "bioclip-2.5"
+species_reviewed:
+- "primary"
+- "secondary"

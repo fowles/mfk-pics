@@ -39,7 +39,11 @@ species_suggestions:
       scientific: "Dendrogyra cylindrus"
       confidence: 0.3108
 species:
-- scientific: "Aplysina archeri"
+- scientific: "Condylactis gigantea"
   role: "primary"
-  confidence: 0.443
-  identified_by: "bioclip-2+bioclip-2.5"
+  identified_by: "human"
+  confirmed_from: "bioclip-2+bioclip-2.5"
+cluster: "start"
+species_reviewed:
+- "primary"
+- "secondary"

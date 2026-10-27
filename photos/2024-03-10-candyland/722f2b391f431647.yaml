@@ -35,8 +35,8 @@ species_suggestions:
       confidence: 0.019
     - scientific: "Haemulon carbonarium"
       confidence: 0.0172
-species:
-- scientific: "Chromis multilineata"
-  role: "primary"
-  confidence: 0.4725
-  identified_by: "bioclip-2.5"
+species: []
+culled: true
+species_reviewed:
+- "primary"
+- "secondary"

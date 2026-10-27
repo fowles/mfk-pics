@@ -40,4 +40,10 @@ species_suggestions:
     absorbed_by:
       scientific: "Montastraea cavernosa"
       confidence: 0.3757
-species: []
+species:
+- scientific: "Aluterus scriptus"
+  role: "primary"
+  identified_by: "human"
+species_reviewed:
+- "primary"
+- "secondary"

@@ -45,3 +45,5 @@ species:
 species_reviewed:
 - "primary"
 - "secondary"
+tags:
+- "metapicture"

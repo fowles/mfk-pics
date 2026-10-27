@@ -42,7 +42,10 @@ species_suggestions:
     - scientific: "Cantherhines macrocerus"
       confidence: 0.0091
 species:
-- scientific: "Monacanthus tuckeri"
+- scientific: "Aluterus scriptus"
   role: "primary"
-  confidence: 0.4652
-  identified_by: "bioclip-2.5"
+  identified_by: "human"
+  confirmed_from: "bioclip-2.5"
+species_reviewed:
+- "primary"
+- "secondary"

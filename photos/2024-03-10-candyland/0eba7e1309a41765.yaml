@@ -36,7 +36,17 @@ species_suggestions:
     - scientific: "Melichthys niger"
       confidence: 0.1472
 species:
-- scientific: "Chromis cyanea"
+- scientific: "Melichthys niger"
   role: "primary"
-  confidence: 0.6621
-  identified_by: "bioclip-2+bioclip-2.5"
+  identified_by: "human"
+  confirmed_from: "bioclip-2+bioclip-2.5"
+- scientific: "Chromis cyanea"
+  role: "secondary"
+  identified_by: "human"
+  confirmed_from: "bioclip-2+bioclip-2.5"
+- scientific: "Chromis multilineata"
+  role: "secondary"
+  identified_by: "human"
+species_reviewed:
+- "primary"
+- "secondary"

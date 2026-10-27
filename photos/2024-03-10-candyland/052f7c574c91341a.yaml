@@ -45,3 +45,4 @@ species_suggestions:
       scientific: "Cirrhipathes leutkeni"
       confidence: 0.9716
 species: []
+culled: true

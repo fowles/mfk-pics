@@ -45,3 +45,7 @@ species_suggestions:
       scientific: "Millepora complanata"
       confidence: 0.937
 species: []
+culled: true
+species_reviewed:
+- "primary"
+- "secondary"

@@ -41,3 +41,6 @@ species_suggestions:
     absorbed_by:
       scientific: "Antillogorgia americana"
       confidence: 0.9885
+species_reviewed:
+- "primary"
+- "secondary"

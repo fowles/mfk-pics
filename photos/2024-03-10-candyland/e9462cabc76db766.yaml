@@ -42,7 +42,11 @@ species_suggestions:
     - scientific: "Sparisoma viride"
       confidence: 0.0652
 species:
-- scientific: "Cephalopholis cruentata"
+- scientific: "Aluterus scriptus"
   role: "primary"
-  confidence: 0.2992
-  identified_by: "bioclip-2+bioclip-2.5"
+  identified_by: "human"
+tags:
+- "metapicture"
+species_reviewed:
+- "primary"
+- "secondary"

@@ -36,7 +36,13 @@ species_suggestions:
     - scientific: "Thalassoma bifasciatum"
       confidence: 0.0991
 species:
-- scientific: "Chromis cyanea"
+- scientific: "Chromis multilineata"
   role: "primary"
-  confidence: 0.4435
-  identified_by: "bioclip-2+bioclip-2.5"
+  identified_by: "human"
+- scientific: "Chromis cyanea"
+  role: "secondary"
+  identified_by: "human"
+  confirmed_from: "bioclip-2+bioclip-2.5"
+species_reviewed:
+- "primary"
+- "secondary"

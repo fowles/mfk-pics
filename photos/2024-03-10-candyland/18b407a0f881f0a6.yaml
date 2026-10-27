@@ -38,4 +38,11 @@ species_suggestions:
     absorbed_by:
       scientific: "Orbicella annularis"
       confidence: 0.9183
-species: []
+species:
+- scientific: "Clepticus parrae"
+  role: "primary"
+  identified_by: "human"
+  confirmed_from: "bioclip-2.5"
+species_reviewed:
+- "primary"
+- "secondary"

@@ -44,5 +44,8 @@ species_suggestions:
 species:
 - scientific: "Equetus punctatus"
   role: "primary"
-  confidence: 0.4049
-  identified_by: "bioclip-2.5"
+  identified_by: "human"
+  confirmed_from: "bioclip-2.5"
+species_reviewed:
+- "primary"
+- "secondary"

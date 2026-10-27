@@ -35,8 +35,8 @@ species_suggestions:
       confidence: 0.3341
     - scientific: "Halichoeres radiatus"
       confidence: 0.108
-species:
-- scientific: "Halichoeres radiatus"
-  role: "primary"
-  confidence: 0.3435
-  identified_by: "bioclip-2+bioclip-2.5"
+species: []
+species_reviewed:
+- "primary"
+- "secondary"
+culled: true

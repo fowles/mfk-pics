@@ -41,3 +41,7 @@ species_suggestions:
     absorbed_by:
       scientific: "Millepora complanata"
       confidence: 0.4744
+culled: true
+species_reviewed:
+- "primary"
+- "secondary"

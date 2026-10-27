@@ -39,7 +39,9 @@ species_suggestions:
     - scientific: "Stegastes diencaeus"
       confidence: 0.0063
 species:
-- scientific: "Microspathodon chrysurus"
+- scientific: "Canthigaster rostrata"
   role: "primary"
-  confidence: 0.4525
-  identified_by: "bioclip-2.5"
+  identified_by: "human"
+species_reviewed:
+- "primary"
+- "secondary"

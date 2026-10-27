@@ -36,7 +36,17 @@ species_suggestions:
     - scientific: "Scarus coelestinus"
       confidence: 0.0045
 species:
-- scientific: "Melichthys niger"
+- scientific: "Homo sapiens"
   role: "primary"
-  confidence: 0.5433
-  identified_by: "bioclip-2+bioclip-2.5"
+  identified_by: "human"
+  person:
+  - "Matthew Kulukundis"
+- scientific: "Melichthys niger"
+  role: "secondary"
+  identified_by: "human"
+  confirmed_from: "bioclip-2+bioclip-2.5"
+tags:
+- "metapicture"
+species_reviewed:
+- "primary"
+- "secondary"

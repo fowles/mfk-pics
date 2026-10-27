@@ -35,8 +35,8 @@ species_suggestions:
       confidence: 0.0153
     - scientific: "Mycteroperca bonaci"
       confidence: 0.0039
-species:
-- scientific: "Aluterus scriptus"
-  role: "primary"
-  confidence: 0.9565
-  identified_by: "bioclip-2+bioclip-2.5"
+species: []
+culled: true
+species_reviewed:
+- "primary"
+- "secondary"

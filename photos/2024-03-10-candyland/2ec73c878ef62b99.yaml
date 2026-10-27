@@ -35,8 +35,8 @@ species_suggestions:
       confidence: 0.0104
     - scientific: "Chromis multilineata"
       confidence: 0.001
-species:
-- scientific: "Melichthys niger"
-  role: "primary"
-  confidence: 0.9931
-  identified_by: "bioclip-2+bioclip-2.5"
+species: []
+culled: true
+species_reviewed:
+- "primary"
+- "secondary"

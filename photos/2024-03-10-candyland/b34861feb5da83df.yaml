@@ -38,8 +38,8 @@ species_suggestions:
       confidence: 0.0433
     - scientific: "Acanthurus tractus"
       confidence: 0.0246
-species:
-- scientific: "Clepticus parrae"
-  role: "primary"
-  confidence: 0.4688
-  identified_by: "bioclip-2+bioclip-2.5"
+species: []
+culled: true
+species_reviewed:
+- "primary"
+- "secondary"

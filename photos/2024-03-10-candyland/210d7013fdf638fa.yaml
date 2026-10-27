@@ -35,8 +35,8 @@ species_suggestions:
       confidence: 0.3212
     - scientific: "Scarus coelestinus"
       confidence: 0.0362
-species:
-- scientific: "Melichthys niger"
-  role: "primary"
-  confidence: 0.2843
-  identified_by: "bioclip-2.5"
+species: []
+culled: true
+species_reviewed:
+- "primary"
+- "secondary"

@@ -37,6 +37,15 @@ species_suggestions:
       confidence: 0.0089
 species:
 - scientific: "Caranx ruber"
+  role: "secondary"
+  identified_by: "human"
+  confirmed_from: "bioclip-2+bioclip-2.5"
+- scientific: "Megalops atlanticus"
   role: "primary"
-  confidence: 0.5044
-  identified_by: "bioclip-2+bioclip-2.5"
+  identified_by: "human"
+- scientific: "Echeneis naucrates"
+  role: "secondary"
+  identified_by: "human"
+species_reviewed:
+- "primary"
+- "secondary"

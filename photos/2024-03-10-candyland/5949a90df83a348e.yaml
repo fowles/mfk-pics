@@ -39,7 +39,9 @@ species_suggestions:
     - scientific: "Diodon hystrix"
       confidence: 0.0036
 species:
-- scientific: "Canthidermis sufflamen"
+- scientific: "Megalops atlanticus"
   role: "primary"
-  confidence: 0.4924
-  identified_by: "bioclip-2.5"
+  identified_by: "human"
+species_reviewed:
+- "primary"
+- "secondary"

@@ -39,7 +39,9 @@ species_suggestions:
     - scientific: "Lactophrys bicaudalis"
       confidence: 0.122
 species:
-- scientific: "Amblycirrhitus pinos"
+- scientific: "Canthigaster rostrata"
   role: "primary"
-  confidence: 0.0896
-  identified_by: "bioclip-2.5"
+  identified_by: "human"
+species_reviewed:
+- "primary"
+- "secondary"

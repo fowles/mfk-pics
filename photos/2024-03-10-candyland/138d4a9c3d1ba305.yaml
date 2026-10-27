@@ -35,8 +35,8 @@ species_suggestions:
       confidence: 0.007
     - scientific: "Chromis multilineata"
       confidence: 0.0003
-species:
-- scientific: "Chromis cyanea"
-  role: "primary"
-  confidence: 0.8759
-  identified_by: "bioclip-2+bioclip-2.5"
+species: []
+culled: true
+species_reviewed:
+- "primary"
+- "secondary"

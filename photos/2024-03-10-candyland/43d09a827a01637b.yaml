@@ -41,3 +41,12 @@ species_suggestions:
     absorbed_by:
       scientific: "Orbicella annularis"
       confidence: 0.9165
+species:
+- scientific: "Homo sapiens"
+  role: "primary"
+  identified_by: "human"
+  person:
+  - "Matthew Kulukundis"
+species_reviewed:
+- "primary"
+- "secondary"

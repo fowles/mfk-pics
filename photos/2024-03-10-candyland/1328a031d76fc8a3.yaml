@@ -35,8 +35,8 @@ species_suggestions:
       confidence: 0.0522
     - scientific: "Scarus coelestinus"
       confidence: 0.0189
-species:
-- scientific: "Clepticus parrae"
-  role: "primary"
-  confidence: 0.4596
-  identified_by: "bioclip-2.5"
+species: []
+culled: true
+species_reviewed:
+- "primary"
+- "secondary"

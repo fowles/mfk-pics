@@ -41,4 +41,10 @@ species_suggestions:
       confidence: 0.142
     - scientific: "Thalassoma bifasciatum"
       confidence: 0.129
-species: []
+species:
+- scientific: "Equetus punctatus"
+  role: "primary"
+  identified_by: "human"
+species_reviewed:
+- "primary"
+- "secondary"
