@@ -41,3 +41,6 @@ species_suggestions:
       scientific: "Diploria labyrinthiformis"
       confidence: 0.9844
 species: []
+species_reviewed:
+- "primary"
+- "secondary"

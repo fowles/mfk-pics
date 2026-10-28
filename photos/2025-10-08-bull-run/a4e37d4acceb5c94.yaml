@@ -40,3 +40,4 @@ species:
   confidence: 0.3567
   identified_by: "bioclip-2+bioclip-2.5"
 rotation_reviewed: true
+culled: true

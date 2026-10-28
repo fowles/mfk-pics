@@ -40,3 +40,4 @@ species:
   role: "primary"
   confidence: 0.1454
   identified_by: "bioclip-2"
+culled: true

@@ -36,6 +36,10 @@ species_suggestions:
       confidence: 0.0279
 species:
 - scientific: "Decapterus macarellus"
-  role: "primary"
+  role: "secondary"
   confidence: 0.4242
   identified_by: "bioclip-2.5"
+- scientific: "Sphyraena barracuda"
+  role: "primary"
+  identified_by: "human"
+culled: true

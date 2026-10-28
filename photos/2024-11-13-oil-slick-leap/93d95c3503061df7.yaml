@@ -38,5 +38,12 @@ species_suggestions:
 species:
 - scientific: "Clepticus parrae"
   role: "primary"
-  confidence: 0.4911
-  identified_by: "bioclip-2.5"
+  identified_by: "human"
+  confirmed_from: "bioclip-2.5"
+- scientific: "Scarus taeniopterus"
+  role: "secondary"
+  identified_by: "human"
+  confirmed_from: "bioclip-2+bioclip-2.5"
+species_reviewed:
+- "primary"
+- "secondary"

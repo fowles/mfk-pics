@@ -36,7 +36,13 @@ species_suggestions:
     - scientific: "Thalassoma bifasciatum"
       confidence: 0.011
 species:
-- scientific: "Chromis multilineata"
+- scientific: "Clepticus parrae"
   role: "primary"
-  confidence: 0.3945
-  identified_by: "bioclip-2.5"
+  identified_by: "human"
+- scientific: "Chromis multilineata"
+  role: "secondary"
+  identified_by: "human"
+  confirmed_from: "bioclip-2.5"
+species_reviewed:
+- "primary"
+- "secondary"

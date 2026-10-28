@@ -35,8 +35,8 @@ species_suggestions:
       confidence: 0.2951
     - scientific: "Caranx crysos"
       confidence: 0.2359
-species:
-- scientific: "Caranx crysos"
-  role: "primary"
-  confidence: 0.451
-  identified_by: "bioclip-2+bioclip-2.5"
+species: []
+culled: true
+species_reviewed:
+- "primary"
+- "secondary"

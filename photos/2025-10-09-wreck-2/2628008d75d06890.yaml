@@ -37,4 +37,13 @@ species_suggestions:
     absorbed_by:
       scientific: "Cirrhipathes leutkeni"
       confidence: 0.4202
-species: []
+species:
+- scientific: "Homo sapiens"
+  role: "primary"
+  identified_by: "human"
+  person:
+  - "David Bede Rinaldi"
+  - "Matthew Kulukundis"
+species_reviewed:
+- "primary"
+- "secondary"

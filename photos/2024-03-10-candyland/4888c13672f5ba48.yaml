@@ -41,4 +41,11 @@ species_suggestions:
     absorbed_by:
       scientific: "Agaricia agaricites"
       confidence: 0.9997
-species: []
+species:
+- scientific: "Thalassoma bifasciatum"
+  role: "primary"
+  identified_by: "human"
+  confirmed_from: "bioclip-2.5"
+species_reviewed:
+- "primary"
+- "secondary"

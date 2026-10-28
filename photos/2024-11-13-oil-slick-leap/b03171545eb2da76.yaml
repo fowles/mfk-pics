@@ -39,5 +39,8 @@ species_suggestions:
 species:
 - scientific: "Cephalopholis cruentata"
   role: "primary"
-  confidence: 0.6374
-  identified_by: "bioclip-2+bioclip-2.5"
+  identified_by: "human"
+  confirmed_from: "bioclip-2+bioclip-2.5"
+species_reviewed:
+- "primary"
+- "secondary"

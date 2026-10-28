@@ -40,4 +40,17 @@ species_suggestions:
     absorbed_by:
       scientific: "Cirrhipathes leutkeni"
       confidence: 0.37
-species: []
+species:
+- scientific: "Homo sapiens"
+  role: "primary"
+  identified_by: "human"
+  person:
+  - "David Bede Rinaldi"
+  - "Matthew Kulukundis"
+- scientific: "Pterois volitans"
+  role: "secondary"
+  identified_by: "human"
+species_reviewed:
+- "primary"
+- "secondary"
+culled: true

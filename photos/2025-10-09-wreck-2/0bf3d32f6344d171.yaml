@@ -37,5 +37,8 @@ species_suggestions:
 species:
 - scientific: "Synodus intermedius"
   role: "primary"
-  confidence: 0.9873
-  identified_by: "bioclip-2+bioclip-2.5"
+  identified_by: "human"
+  confirmed_from: "bioclip-2+bioclip-2.5"
+species_reviewed:
+- "primary"
+- "secondary"

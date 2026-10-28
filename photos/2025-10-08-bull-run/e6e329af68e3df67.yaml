@@ -34,8 +34,8 @@ species_suggestions:
       confidence: 0.4265
     - scientific: "Katsuwonus pelamis"
       confidence: 0.041
-species:
-- scientific: "Decapterus macarellus"
-  role: "primary"
-  confidence: 0.3999
-  identified_by: "bioclip-2+bioclip-2.5"
+species: []
+culled: true
+species_reviewed:
+- "primary"
+- "secondary"

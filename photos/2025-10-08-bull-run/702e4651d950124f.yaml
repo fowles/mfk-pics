@@ -34,8 +34,8 @@ species_suggestions:
       confidence: 0.4836
     - scientific: "Katsuwonus pelamis"
       confidence: 0.0125
-species:
-- scientific: "Elagatis bipinnulata"
-  role: "primary"
-  confidence: 0.3213
-  identified_by: "bioclip-2+bioclip-2.5"
+species: []
+culled: true
+species_reviewed:
+- "primary"
+- "secondary"

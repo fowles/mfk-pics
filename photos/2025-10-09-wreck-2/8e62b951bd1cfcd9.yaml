@@ -37,5 +37,15 @@ species_suggestions:
 species:
 - scientific: "Lachnolaimus maximus"
   role: "primary"
-  confidence: 0.251
-  identified_by: "bioclip-2.5"
+  identified_by: "human"
+  confirmed_from: "bioclip-2.5"
+- scientific: "Lutjanus synagris"
+  role: "secondary"
+  identified_by: "human"
+- scientific: "Holocentrus adscensionis"
+  role: "secondary"
+  identified_by: "human"
+  confirmed_from: "bioclip-2.5"
+species_reviewed:
+- "primary"
+- "secondary"

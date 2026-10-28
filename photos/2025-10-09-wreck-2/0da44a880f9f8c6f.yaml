@@ -37,7 +37,10 @@ species_suggestions:
     - scientific: "Haemulon macrostomum"
       confidence: 0.1367
 species:
-- scientific: "Haemulon sciurus"
+- scientific: "Lutjanus apodus"
   role: "primary"
-  confidence: 0.181
-  identified_by: "bioclip-2+bioclip-2.5"
+  identified_by: "human"
+  confirmed_from: "bioclip-2"
+species_reviewed:
+- "primary"
+- "secondary"

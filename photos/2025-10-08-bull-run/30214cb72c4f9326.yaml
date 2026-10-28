@@ -41,3 +41,4 @@ species_suggestions:
       scientific: "Xestospongia muta"
       confidence: 0.9654
 species: []
+culled: true

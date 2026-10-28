@@ -46,3 +46,4 @@ species:
 species_reviewed:
 - "primary"
 - "secondary"
+culled: true

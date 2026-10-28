@@ -40,3 +40,4 @@ species_suggestions:
     absorbed_by:
       scientific: "Xestospongia muta"
       confidence: 0.9994
+culled: true

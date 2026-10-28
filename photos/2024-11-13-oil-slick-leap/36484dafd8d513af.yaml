@@ -36,7 +36,13 @@ species_suggestions:
     - scientific: "Scarus coeruleus"
       confidence: 0.0147
 species:
+- scientific: "Scarus taeniopterus"
+  role: "secondary"
+  identified_by: "human"
 - scientific: "Clepticus parrae"
   role: "primary"
-  confidence: 0.8213
-  identified_by: "bioclip-2+bioclip-2.5"
+  identified_by: "human"
+  confirmed_from: "bioclip-2+bioclip-2.5"
+species_reviewed:
+- "primary"
+- "secondary"

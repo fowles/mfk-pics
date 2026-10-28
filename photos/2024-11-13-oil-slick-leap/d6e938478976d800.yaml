@@ -42,3 +42,6 @@ species_suggestions:
       scientific: "Niphates digitalis"
       confidence: 0.6166
 species: []
+species_reviewed:
+- "primary"
+- "secondary"

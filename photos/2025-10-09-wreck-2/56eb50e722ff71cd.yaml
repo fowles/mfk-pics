@@ -35,7 +35,16 @@ species_suggestions:
     - scientific: "Haemulon flavolineatum"
       confidence: 0.0013
 species:
+- scientific: "Haemulon aurolineatum"
+  role: "secondary"
+  identified_by: "human"
 - scientific: "Mulloidichthys martinicus"
   role: "primary"
-  confidence: 0.9783
-  identified_by: "bioclip-2+bioclip-2.5"
+  identified_by: "human"
+  confirmed_from: "bioclip-2+bioclip-2.5"
+- scientific: "Haemulon plumierii"
+  role: "secondary"
+  identified_by: "human"
+species_reviewed:
+- "primary"
+- "secondary"

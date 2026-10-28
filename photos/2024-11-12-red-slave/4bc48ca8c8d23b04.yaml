@@ -20,10 +20,10 @@ species:
   identified_by: "human"
   person:
   - "Matthew Kulukundis"
-- scientific: "Sepioteuthis sepioidea"
+- scientific: "Chelonia mydas"
   role: "primary"
-  confidence: 0.6494
-  identified_by: "bioclip-2+bioclip-2.5"
+  identified_by: "human"
+  confirmed_from: "bioclip-2.5"
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
@@ -49,3 +49,6 @@ species_suggestions:
       confidence: 0.1391
     - scientific: "Caranx ruber"
       confidence: 0.1374
+species_reviewed:
+- "primary"
+- "secondary"
