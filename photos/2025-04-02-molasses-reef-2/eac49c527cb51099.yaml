@@ -44,3 +44,11 @@ species_suggestions:
     absorbed_by:
       scientific: "Gorgonia ventalina"
       confidence: 1.0
+species:
+- scientific: "Thalassoma bifasciatum"
+  role: "primary"
+  identified_by: "human"
+  confirmed_from: "bioclip-2+bioclip-2.5"
+species_reviewed:
+- "primary"
+- "secondary"
