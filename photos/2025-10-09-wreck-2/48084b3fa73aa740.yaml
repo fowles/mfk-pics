@@ -39,7 +39,7 @@ species:
   role: "primary"
   identified_by: "human"
   reviewed_by: "matt"
-  cover: true
 species_reviewed:
 - "primary"
 - "secondary"
+cover: "species | dive"

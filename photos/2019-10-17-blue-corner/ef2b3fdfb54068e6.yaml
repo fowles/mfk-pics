@@ -40,7 +40,6 @@ species:
   role: "primary"
   identified_by: "human"
   reviewed_by: "matt"
-  cover: true
 - scientific: "Homo sapiens"
   role: "secondary"
   identified_by: "human"
@@ -48,3 +47,4 @@ species:
 species_reviewed:
 - "primary"
 - "secondary"
+cover: "species | trip"

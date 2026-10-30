@@ -38,7 +38,7 @@ species:
   role: "primary"
   identified_by: "human"
   confirmed_from: "bioclip-2+bioclip-2.5"
-  cover: true
 species_reviewed:
 - "primary"
 - "secondary"
+cover: "species"

@@ -45,7 +45,6 @@ species:
   reviewed_by: "matt"
   person:
   - "Delia Kulukundis"
-  cover: true
 - scientific: "Caranx ruber"
   role: "secondary"
   identified_by: "human"
@@ -53,3 +52,4 @@ species:
 species_reviewed:
 - "primary"
 - "secondary"
+cover: "species"

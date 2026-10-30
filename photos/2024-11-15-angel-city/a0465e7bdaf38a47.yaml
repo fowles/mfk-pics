@@ -41,7 +41,6 @@ species:
   identified_by: "human"
   confirmed_from: "bioclip-2+bioclip-2.5"
   reviewed_by: "matt"
-  cover: true
 - scientific: "Melichthys niger"
   role: "secondary"
   identified_by: "human"
@@ -49,3 +48,4 @@ species:
 species_reviewed:
 - "primary"
 - "secondary"
+cover: "species"

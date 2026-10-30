@@ -41,7 +41,7 @@ species:
   identified_by: "human"
   confirmed_from: "bioclip-2+bioclip-2.5"
   reviewed_by: "matt"
-  cover: true
 species_reviewed:
 - "primary"
 - "secondary"
+cover: "species"
