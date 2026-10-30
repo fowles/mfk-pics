@@ -234,7 +234,7 @@
 - {scientific: "Xestospongia muta", common: "Giant Barrel Sponge", regions: ["Caribbean"], distractor: true, taxonomy: "Animalia Porifera Demospongiae Haplosclerida Petrosiidae"}
 - {scientific: "Aplysina fistularis", common: "Yellow Tube Sponge", regions: ["Caribbean"], distractor: true, taxonomy: "Animalia Porifera Demospongiae Verongiida Aplysinidae"}
 - {scientific: "Aplysina archeri", common: "Stove-pipe Sponge", regions: ["Caribbean"], taxonomy: "Animalia Porifera Demospongiae Verongiida Aplysinidae"}
-- {scientific: "Callyspongia plicifera", common: "Azure Vase Sponge", regions: ["Caribbean"], distractor: true, taxonomy: "Animalia Porifera Demospongiae Haplosclerida Callyspongiidae"}
+- {scientific: "Callyspongia plicifera", common: "Azure Vase Sponge", regions: ["Caribbean"], taxonomy: "Animalia Porifera Demospongiae Haplosclerida Callyspongiidae"}
 - {scientific: "Niphates digitalis", common: "Pink Vase Sponge", regions: ["Caribbean"], distractor: true, taxonomy: "Animalia Porifera Demospongiae Haplosclerida Niphatidae"}
 - {scientific: "Agelas clathrodes", common: "Orange Elephant Ear Sponge", regions: ["Caribbean"], distractor: true, taxonomy: "Animalia Porifera Demospongiae Agelasida Agelasidae"}
 - {scientific: "Acropora palmata", common: "Elkhorn Coral", regions: ["Caribbean"], taxonomy: "Animalia Cnidaria Anthozoa Scleractinia Acroporidae"}
@@ -266,8 +266,8 @@
 - {scientific: "Bartholomea annulata", common: "Corkscrew Anemone", regions: ["Caribbean"], taxonomy: "Animalia Cnidaria Anthozoa Actiniaria Aiptasiidae"}
 - {scientific: "Stichodactyla helianthus", common: "Sun Anemone", regions: ["Caribbean"], distractor: true, taxonomy: "Animalia Cnidaria Anthozoa Actiniaria Stichodactylidae"}
 - {scientific: "Lebrunia neglecta", common: "Branching Anemone", regions: ["Caribbean"], distractor: true, taxonomy: "Animalia Cnidaria Anthozoa Actiniaria Aliciidae"}
-- {scientific: "Sabellastarte magnifica", common: "Magnificent Feather Duster", regions: ["Caribbean"], distractor: true, taxonomy: "Animalia Annelida Polychaeta Sabellida Sabellidae"}
-- {scientific: "Spirobranchus giganteus", common: "Christmas Tree Worm", regions: ["Caribbean"], distractor: true, taxonomy: "Animalia Annelida Polychaeta Sabellida Serpulidae"}
+- {scientific: "Sabellastarte magnifica", common: "Magnificent Feather Duster", regions: ["Caribbean"], taxonomy: "Animalia Annelida Polychaeta Sabellida Sabellidae"}
+- {scientific: "Spirobranchus giganteus", common: "Christmas Tree Worm", regions: ["Caribbean"], taxonomy: "Animalia Annelida Polychaeta Sabellida Serpulidae"}
 - {scientific: "Clavelina picta", common: "Painted Tunicate", regions: ["Caribbean"], distractor: true, taxonomy: "Animalia Chordata Ascidiacea Aplousobranchia Clavelinidae"}
 - {scientific: "Thalassia testudinum", common: "Turtle Grass", regions: ["Caribbean"], distractor: true, taxonomy: "Plantae Tracheophyta Liliopsida Alismatales Hydrocharitaceae"}
 - {scientific: "Halimeda opuntia", common: "Watercress Alga", regions: ["Caribbean", "Eastern Pacific", "Indo-Pacific"], distractor: true, taxonomy: "Plantae Chlorophyta Ulvophyceae Bryopsidales Halimedaceae"}
@@ -1894,3 +1894,4 @@
 - {scientific: "Paranthias furcifer", common: "Atlantic Creolefish", regions: ["Caribbean"], taxonomy: "Animalia Chordata Teleostei Perciformes Serranidae"}
 - {scientific: "Nemaster grandis", common: "Black and white crinoid", regions: ["Caribbean"], taxonomy: "Animalia Echinodermata Crinoidea Comatulida Comatulidae"}
 - {scientific: "Haemulon parra", common: "Sailor's Choice", regions: ["Caribbean"], taxonomy: "Animalia Chordata Teleostei Perciformes Haemulidae"}
+- {scientific: "Erythropodium caribaeorum", common: "Encrusting Gorgonian", regions: ["Caribbean"], taxonomy: "Animalia Cnidaria Anthozoa Scleralcyonacea Erythropodiidae"}
