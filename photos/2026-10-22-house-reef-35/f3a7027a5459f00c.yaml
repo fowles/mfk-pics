@@ -39,3 +39,4 @@ species_reviewed:
 - "secondary"
 date_reviewed: true
 dive_window_reviewed: true
+culled: true

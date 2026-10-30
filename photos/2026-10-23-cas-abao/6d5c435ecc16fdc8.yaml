@@ -1,0 +1,41 @@
+date: "2026-10-23 12:29:05"
+location: "Curacao"
+location_source: "dive_site"
+dive_site: "Cas Abao"
+credit: "Miriam Melnick"
+import_album: "Curacao Diving - Cas Abao 10-23"
+import_original_name: "PA230228.JPG"
+lat: 12.2280727
+lon: -69.0921544
+gps_source: "dive_site"
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-10-30T19:00:12Z"
+    src_mtime: 1793386141.788715
+    vocab: "d39945a1dfd8"
+    top:
+    - scientific: "Acanthurus coeruleus"
+      confidence: 0.952
+    - scientific: "Acanthurus chirurgus"
+      confidence: 0.0159
+    - scientific: "Acanthurus tractus"
+      confidence: 0.0126
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-10-30T19:00:18Z"
+    src_mtime: 1793386141.788715
+    vocab: "d39945a1dfd8"
+    top:
+    - scientific: "Acanthurus coeruleus"
+      confidence: 0.9983
+    - scientific: "Acanthurus chirurgus"
+      confidence: 0.0011
+    - scientific: "Acanthurus tractus"
+      confidence: 0.0006
+species:
+- scientific: "Acanthurus coeruleus"
+  role: "primary"
+  confidence: 0.9751
+  identified_by: "bioclip-2+bioclip-2.5"
+culled: true

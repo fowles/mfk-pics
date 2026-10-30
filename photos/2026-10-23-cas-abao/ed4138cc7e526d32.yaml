@@ -1,0 +1,42 @@
+date: "2026-10-23 12:20:02"
+location: "Curacao"
+location_source: "dive_site"
+dive_site: "Cas Abao"
+credit: "Miriam Melnick"
+import_album: "Curacao Diving - Cas Abao 10-23"
+import_original_name: "PA230208.JPG"
+lat: 12.2280727
+lon: -69.0921544
+gps_source: "dive_site"
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-10-30T19:00:12Z"
+    src_mtime: 1793386140.4734046
+    vocab: "d39945a1dfd8"
+    top:
+    - scientific: "Aplysina archeri"
+      confidence: 0.031
+    - scientific: "Eretmochelys imbricata"
+      confidence: 0.0116
+    - scientific: "Chelonia mydas"
+      confidence: 0.0066
+    absorbed_by:
+      scientific: "Xestospongia muta"
+      confidence: 0.6239
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-10-30T19:00:18Z"
+    src_mtime: 1793386140.4734046
+    vocab: "d39945a1dfd8"
+    top:
+    - scientific: "Aplysina archeri"
+      confidence: 0.0012
+    - scientific: "Nemaster grandis"
+      confidence: 0.0009
+    - scientific: "Stegastes partitus"
+      confidence: 0.0006
+    absorbed_by:
+      scientific: "Agelas clathrodes"
+      confidence: 0.3047
+culled: true

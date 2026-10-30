@@ -1,0 +1,46 @@
+date: "2026-10-23 13:03:50"
+location: "Curacao"
+location_source: "dive_site"
+dive_site: "Cas Abao"
+credit: "Miriam Melnick"
+import_album: "Curacao Diving - Cas Abao 10-23"
+import_original_name: "PA230284.JPG"
+lat: 12.2280727
+lon: -69.0921544
+gps_source: "dive_site"
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-10-30T19:00:12Z"
+    src_mtime: 1793386149.3830276
+    vocab: "d39945a1dfd8"
+    top:
+    - scientific: "Parablennius marmoreus"
+      confidence: 0.0231
+    - scientific: "Octopus insularis"
+      confidence: 0.0222
+    - scientific: "Synodus intermedius"
+      confidence: 0.0124
+    absorbed_by:
+      scientific: "Montastraea cavernosa"
+      confidence: 0.8682
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-10-30T19:00:18Z"
+    src_mtime: 1793386149.3830276
+    vocab: "d39945a1dfd8"
+    top:
+    - scientific: "Acanthemblemaria maria"
+      confidence: 0.5087
+    - scientific: "Acanthemblemaria spinosa"
+      confidence: 0.3397
+    - scientific: "Chilomycterus antillarum"
+      confidence: 0.0114
+species:
+- scientific: "Acanthemblemaria maria"
+  role: "primary"
+  identified_by: "human"
+  confirmed_from: "bioclip-2.5"
+species_reviewed:
+- "primary"
+- "secondary"

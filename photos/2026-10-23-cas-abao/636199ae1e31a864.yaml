@@ -1,0 +1,40 @@
+date: "2026-10-23 13:17:32"
+location: "Curacao"
+location_source: "dive_site"
+dive_site: "Cas Abao"
+credit: "Delia Kulukundis"
+import_album: "Curacao Diving - Cas Abao 10-23"
+import_original_name: "IMG_6430.JPG"
+lat: 12.2280727
+lon: -69.0921544
+gps_source: "dive_site"
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-10-30T19:00:12Z"
+    src_mtime: 1793386138.345365
+    vocab: "d39945a1dfd8"
+    top:
+    - scientific: "Holothuria mexicana"
+      confidence: 0.2674
+    - scientific: "Heteroconger longissimus"
+      confidence: 0.0801
+    - scientific: "Myrichthys ocellatus"
+      confidence: 0.0636
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-10-30T19:00:18Z"
+    src_mtime: 1793386138.345365
+    vocab: "d39945a1dfd8"
+    top:
+    - scientific: "Holothuria mexicana"
+      confidence: 0.0399
+    - scientific: "Linckia guildingi"
+      confidence: 0.006
+    - scientific: "Holothuria impatiens"
+      confidence: 0.0046
+    absorbed_by:
+      scientific: "Porites porites"
+      confidence: 0.935
+species: []
+culled: true

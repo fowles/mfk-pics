@@ -1,0 +1,42 @@
+date: "2026-10-23 12:33:46"
+location: "Curacao"
+location_source: "dive_site"
+dive_site: "Cas Abao"
+credit: "Miriam Melnick"
+import_album: "Curacao Diving - Cas Abao 10-23"
+import_original_name: "PA230239.JPG"
+lat: 12.2280727
+lon: -69.0921544
+gps_source: "dive_site"
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-10-30T19:00:12Z"
+    src_mtime: 1793386142.575652
+    vocab: "d39945a1dfd8"
+    top:
+    - scientific: "Aulostomus maculatus"
+      confidence: 0.033
+    - scientific: "Cyphoma gibbosum"
+      confidence: 0.0289
+    - scientific: "Astrophyton muricatum"
+      confidence: 0.0193
+    absorbed_by:
+      scientific: "Antillogorgia americana"
+      confidence: 0.5139
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-10-30T19:00:18Z"
+    src_mtime: 1793386142.575652
+    vocab: "d39945a1dfd8"
+    top:
+    - scientific: "Aplysina archeri"
+      confidence: 0.081
+    - scientific: "Aulostomus maculatus"
+      confidence: 0.0061
+    - scientific: "Abudefduf saxatilis"
+      confidence: 0.0025
+    absorbed_by:
+      scientific: "Cirrhipathes leutkeni"
+      confidence: 0.6076
+culled: true

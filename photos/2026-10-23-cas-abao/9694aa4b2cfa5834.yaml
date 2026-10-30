@@ -1,0 +1,40 @@
+date: "2026-10-23 12:39:21"
+location: "Curacao"
+location_source: "dive_site"
+dive_site: "Cas Abao"
+credit: "Marc Howard"
+import_album: "Curacao Diving - Cas Abao 10-23"
+import_original_name: "PA230116.JPG"
+lat: 12.2280727
+lon: -69.0921544
+gps_source: "dive_site"
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-10-30T19:00:12Z"
+    src_mtime: 1793386138.4629996
+    vocab: "d39945a1dfd8"
+    top:
+    - scientific: "Aplysina archeri"
+      confidence: 0.1607
+    - scientific: "Aluterus scriptus"
+      confidence: 0.0276
+    - scientific: "Halichoeres pictus"
+      confidence: 0.0248
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-10-30T19:00:18Z"
+    src_mtime: 1793386138.4629996
+    vocab: "d39945a1dfd8"
+    top:
+    - scientific: "Bodianus pulchellus"
+      confidence: 0.0004
+    - scientific: "Eretmochelys imbricata"
+      confidence: 0.0004
+    - scientific: "Davidaster rubiginosus"
+      confidence: 0.0002
+    absorbed_by:
+      scientific: "Cirrhipathes leutkeni"
+      confidence: 0.9966
+species: []
+culled: true

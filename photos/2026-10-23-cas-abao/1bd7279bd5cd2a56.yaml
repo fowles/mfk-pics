@@ -1,0 +1,41 @@
+date: "2026-10-23 12:13:00"
+location: "Curacao"
+location_source: "dive_site"
+dive_site: "Cas Abao"
+credit: "Marc Howard"
+import_album: "Curacao Diving - Cas Abao 10-23"
+import_original_name: "PA230103.JPG"
+lat: 12.2280727
+lon: -69.0921544
+gps_source: "dive_site"
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-10-30T19:00:12Z"
+    src_mtime: 1793386133.9566596
+    vocab: "d39945a1dfd8"
+    top:
+    - scientific: "Melichthys niger"
+      confidence: 0.3745
+    - scientific: "Echeneis naucrates"
+      confidence: 0.111
+    - scientific: "Aluterus scriptus"
+      confidence: 0.0593
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-10-30T19:00:18Z"
+    src_mtime: 1793386133.9566596
+    vocab: "d39945a1dfd8"
+    top:
+    - scientific: "Mobula birostris"
+      confidence: 0.1775
+    - scientific: "Carcharhinus longimanus"
+      confidence: 0.1026
+    - scientific: "Opistognathus aurifrons"
+      confidence: 0.1023
+species:
+- scientific: "Melichthys niger"
+  role: "primary"
+  confidence: 0.1872
+  identified_by: "bioclip-2"
+culled: true

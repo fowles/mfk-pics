@@ -1,0 +1,40 @@
+date: "2026-10-23 13:00:01"
+location: "Curacao"
+location_source: "dive_site"
+dive_site: "Cas Abao"
+credit: "Marc Howard"
+import_album: "Curacao Diving - Cas Abao 10-23"
+import_original_name: "PA230130.JPG"
+lat: 12.2280727
+lon: -69.0921544
+gps_source: "dive_site"
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-10-30T19:00:12Z"
+    src_mtime: 1793386139.5208144
+    vocab: "d39945a1dfd8"
+    top:
+    - scientific: "Carcharhinus perezi"
+      confidence: 0.1261
+    - scientific: "Echeneis naucrates"
+      confidence: 0.0922
+    - scientific: "Rhincodon typus"
+      confidence: 0.0584
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-10-30T19:00:18Z"
+    src_mtime: 1793386139.5208144
+    vocab: "d39945a1dfd8"
+    top:
+    - scientific: "Decapterus macarellus"
+      confidence: 0.0718
+    - scientific: "Acanthurus tractus"
+      confidence: 0.0691
+    - scientific: "Opistognathus aurifrons"
+      confidence: 0.0419
+    absorbed_by:
+      scientific: "Cirrhipathes leutkeni"
+      confidence: 0.5305
+species: []
+culled: true

@@ -1,0 +1,41 @@
+date: "2026-10-23 12:25:42"
+location: "Curacao"
+location_source: "dive_site"
+dive_site: "Cas Abao"
+credit: "Delia Kulukundis"
+import_album: "Curacao Diving - Cas Abao 10-23"
+import_original_name: "IMG_6402.JPG"
+lat: 12.2280727
+lon: -69.0921544
+gps_source: "dive_site"
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-10-30T19:00:12Z"
+    src_mtime: 1793386131.503774
+    vocab: "d39945a1dfd8"
+    top:
+    - scientific: "Scarus vetula"
+      confidence: 0.9434
+    - scientific: "Echeneis naucrates"
+      confidence: 0.0292
+    - scientific: "Scarus taeniopterus"
+      confidence: 0.0138
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-10-30T19:00:18Z"
+    src_mtime: 1793386131.503774
+    vocab: "d39945a1dfd8"
+    top:
+    - scientific: "Scarus vetula"
+      confidence: 0.9985
+    - scientific: "Scarus taeniopterus"
+      confidence: 0.0012
+    - scientific: "Melichthys niger"
+      confidence: 0.0002
+species:
+- scientific: "Scarus vetula"
+  role: "primary"
+  confidence: 0.9709
+  identified_by: "bioclip-2+bioclip-2.5"
+culled: true

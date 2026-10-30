@@ -1,0 +1,43 @@
+date: "2026-10-23 13:15:15"
+location: "Curacao"
+location_source: "dive_site"
+dive_site: "Cas Abao"
+credit: "Miriam Melnick"
+import_album: "Curacao Diving - Cas Abao 10-23"
+import_original_name: "PA230305.JPG"
+lat: 12.2280727
+lon: -69.0921544
+gps_source: "dive_site"
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-10-30T19:00:12Z"
+    src_mtime: 1793386152.3176465
+    vocab: "d39945a1dfd8"
+    top:
+    - scientific: "Ocyurus chrysurus"
+      confidence: 0.4974
+    - scientific: "Caranx ruber"
+      confidence: 0.3414
+    - scientific: "Malacanthus plumieri"
+      confidence: 0.0451
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-10-30T19:00:18Z"
+    src_mtime: 1793386152.3176465
+    vocab: "d39945a1dfd8"
+    top:
+    - scientific: "Ocyurus chrysurus"
+      confidence: 0.4717
+    - scientific: "Malacanthus plumieri"
+      confidence: 0.4433
+    - scientific: "Elagatis bipinnulata"
+      confidence: 0.0537
+species:
+- scientific: "Malacanthus plumieri"
+  role: "primary"
+  identified_by: "human"
+  confirmed_from: "bioclip-2+bioclip-2.5"
+species_reviewed:
+- "primary"
+- "secondary"

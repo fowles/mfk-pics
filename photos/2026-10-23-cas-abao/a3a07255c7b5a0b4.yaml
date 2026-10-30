@@ -1,0 +1,41 @@
+date: "2026-10-23 12:42:26"
+location: "Curacao"
+location_source: "dive_site"
+dive_site: "Cas Abao"
+credit: "Miriam Melnick"
+import_album: "Curacao Diving - Cas Abao 10-23"
+import_original_name: "PA230259.JPG"
+lat: 12.2280727
+lon: -69.0921544
+gps_source: "dive_site"
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-10-30T19:00:12Z"
+    src_mtime: 1793386144.694328
+    vocab: "d39945a1dfd8"
+    top:
+    - scientific: "Elysia crispata"
+      confidence: 0.132
+    - scientific: "Bartholomea annulata"
+      confidence: 0.1013
+    - scientific: "Condylactis gigantea"
+      confidence: 0.0885
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-10-30T19:00:18Z"
+    src_mtime: 1793386144.694328
+    vocab: "d39945a1dfd8"
+    top:
+    - scientific: "Canthigaster rostrata"
+      confidence: 0.3465
+    - scientific: "Serranus tigrinus"
+      confidence: 0.2949
+    - scientific: "Myrichthys breviceps"
+      confidence: 0.0908
+species:
+- scientific: "Canthigaster rostrata"
+  role: "primary"
+  confidence: 0.1732
+  identified_by: "bioclip-2.5"
+culled: true

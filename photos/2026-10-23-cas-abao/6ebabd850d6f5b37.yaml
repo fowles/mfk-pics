@@ -1,0 +1,44 @@
+date: "2026-10-23 13:15:23"
+location: "Curacao"
+location_source: "dive_site"
+dive_site: "Cas Abao"
+credit: "Miriam Melnick"
+import_album: "Curacao Diving - Cas Abao 10-23"
+import_original_name: "PA230310.JPG"
+lat: 12.2280727
+lon: -69.0921544
+gps_source: "dive_site"
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-10-30T19:00:12Z"
+    src_mtime: 1793386152.686999
+    vocab: "d39945a1dfd8"
+    top:
+    - scientific: "Malacanthus plumieri"
+      confidence: 0.982
+    - scientific: "Decapterus macarellus"
+      confidence: 0.0121
+    - scientific: "Elagatis bipinnulata"
+      confidence: 0.0029
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-10-30T19:00:18Z"
+    src_mtime: 1793386152.686999
+    vocab: "d39945a1dfd8"
+    top:
+    - scientific: "Malacanthus plumieri"
+      confidence: 0.9995
+    - scientific: "Halichoeres pictus"
+      confidence: 0.0005
+    - scientific: "Scomberomorus regalis"
+      confidence: 0.0
+species:
+- scientific: "Malacanthus plumieri"
+  role: "primary"
+  identified_by: "human"
+  confirmed_from: "bioclip-2+bioclip-2.5"
+cover: "cluster"
+species_reviewed:
+- "primary"
+- "secondary"

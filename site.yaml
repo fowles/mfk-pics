@@ -122,6 +122,9 @@ dive_sites:
   "House Reef 35":
     lat: 12.1926667
     lon: -69.0735556
+  "Cas Abao":
+    lat: 12.2280727
+    lon: -69.0921544
 deploy:
   account_id: 605649affbab92b2f8367d609dc4f3b6
   bucket: mfk-pics-images

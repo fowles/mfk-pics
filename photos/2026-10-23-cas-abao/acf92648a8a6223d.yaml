@@ -1,0 +1,41 @@
+date: "2026-10-23 12:31:04"
+location: "Curacao"
+location_source: "dive_site"
+dive_site: "Cas Abao"
+credit: "Miriam Melnick"
+import_album: "Curacao Diving - Cas Abao 10-23"
+import_original_name: "PA230234.JPG"
+lat: 12.2280727
+lon: -69.0921544
+gps_source: "dive_site"
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-10-30T19:00:12Z"
+    src_mtime: 1793386142.2868855
+    vocab: "d39945a1dfd8"
+    top:
+    - scientific: "Gramma loreto"
+      confidence: 0.9697
+    - scientific: "Centropyge argi"
+      confidence: 0.0209
+    - scientific: "Holacanthus ciliaris"
+      confidence: 0.0068
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-10-30T19:00:18Z"
+    src_mtime: 1793386142.2868855
+    vocab: "d39945a1dfd8"
+    top:
+    - scientific: "Gramma loreto"
+      confidence: 0.7484
+    - scientific: "Stegastes diencaeus"
+      confidence: 0.1939
+    - scientific: "Microspathodon chrysurus"
+      confidence: 0.0378
+species:
+- scientific: "Gramma loreto"
+  role: "primary"
+  confidence: 0.859
+  identified_by: "bioclip-2+bioclip-2.5"
+culled: true

@@ -1,0 +1,43 @@
+date: "2026-10-23 12:26:33"
+location: "Curacao"
+location_source: "dive_site"
+dive_site: "Cas Abao"
+credit: "Miriam Melnick"
+import_album: "Curacao Diving - Cas Abao 10-23"
+import_original_name: "PA230213.JPG"
+lat: 12.2280727
+lon: -69.0921544
+gps_source: "dive_site"
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-10-30T19:00:12Z"
+    src_mtime: 1793386140.8412678
+    vocab: "d39945a1dfd8"
+    top:
+    - scientific: "Acanthostracion polygonius"
+      confidence: 0.9979
+    - scientific: "Lactophrys bicaudalis"
+      confidence: 0.0011
+    - scientific: "Acanthostracion quadricornis"
+      confidence: 0.0008
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-10-30T19:00:18Z"
+    src_mtime: 1793386140.8412678
+    vocab: "d39945a1dfd8"
+    top:
+    - scientific: "Acanthostracion polygonius"
+      confidence: 0.9999
+    - scientific: "Acanthostracion quadricornis"
+      confidence: 0.0
+    - scientific: "Lactophrys bicaudalis"
+      confidence: 0.0
+species:
+- scientific: "Acanthostracion polygonius"
+  role: "primary"
+  identified_by: "human"
+  confirmed_from: "bioclip-2+bioclip-2.5"
+species_reviewed:
+- "primary"
+- "secondary"

@@ -1,0 +1,49 @@
+date: "2026-10-23 12:45:56"
+location: "Curacao"
+location_source: "dive_site"
+dive_site: "Cas Abao"
+credit: "Marc Howard"
+import_album: "Curacao Diving - Cas Abao 10-23"
+import_original_name: "PA230123.JPG"
+lat: 12.2280727
+lon: -69.0921544
+gps_source: "dive_site"
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-10-30T19:00:12Z"
+    src_mtime: 1793386139.2115493
+    vocab: "d39945a1dfd8"
+    top:
+    - scientific: "Aplysina archeri"
+      confidence: 0.1165
+    - scientific: "Aluterus scriptus"
+      confidence: 0.1158
+    - scientific: "Nemaster grandis"
+      confidence: 0.0688
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-10-30T19:00:18Z"
+    src_mtime: 1793386139.2115493
+    vocab: "d39945a1dfd8"
+    top:
+    - scientific: "Mycteroperca tigris"
+      confidence: 0.0896
+    - scientific: "Sparisoma viride"
+      confidence: 0.0662
+    - scientific: "Halichoeres garnoti"
+      confidence: 0.0444
+    absorbed_by:
+      scientific: "Montastraea cavernosa"
+      confidence: 0.3329
+species:
+- scientific: "Homo sapiens"
+  role: "primary"
+  identified_by: "human"
+  person:
+  - "Miriam Melnick"
+tags:
+- "metapicture"
+species_reviewed:
+- "primary"
+- "secondary"

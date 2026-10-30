@@ -1,0 +1,40 @@
+date: "2026-10-23 12:56:24"
+location: "Curacao"
+location_source: "dive_site"
+dive_site: "Cas Abao"
+credit: "Miriam Melnick"
+import_album: "Curacao Diving - Cas Abao 10-23"
+import_original_name: "PA230278.JPG"
+lat: 12.2280727
+lon: -69.0921544
+gps_source: "dive_site"
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-10-30T19:00:12Z"
+    src_mtime: 1793386148.4868512
+    vocab: "d39945a1dfd8"
+    top:
+    - scientific: "Cephalopholis cruentata"
+      confidence: 0.1665
+    - scientific: "Acanthostracion polygonius"
+      confidence: 0.1158
+    - scientific: "Acanthurus chirurgus"
+      confidence: 0.0906
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-10-30T19:00:18Z"
+    src_mtime: 1793386148.4868512
+    vocab: "d39945a1dfd8"
+    top:
+    - scientific: "Sparisoma aurofrenatum"
+      confidence: 0.0724
+    - scientific: "Gymnothorax miliaris"
+      confidence: 0.0713
+    - scientific: "Cantherhines pullus"
+      confidence: 0.0445
+    absorbed_by:
+      scientific: "Aplysina fistularis"
+      confidence: 0.7641
+species: []
+culled: true

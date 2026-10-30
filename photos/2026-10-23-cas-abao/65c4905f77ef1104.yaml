@@ -1,0 +1,47 @@
+date: "2026-10-23 12:29:57"
+location: "Curacao"
+location_source: "dive_site"
+dive_site: "Cas Abao"
+credit: "Miriam Melnick"
+import_album: "Curacao Diving - Cas Abao 10-23"
+import_original_name: "PA230229.JPG"
+lat: 12.2280727
+lon: -69.0921544
+gps_source: "dive_site"
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-10-30T19:00:12Z"
+    src_mtime: 1793386141.826007
+    vocab: "d39945a1dfd8"
+    top:
+    - scientific: "Clepticus parrae"
+      confidence: 0.4117
+    - scientific: "Serranus tortugarum"
+      confidence: 0.3671
+    - scientific: "Chromis cyanea"
+      confidence: 0.1476
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-10-30T19:00:18Z"
+    src_mtime: 1793386141.826007
+    vocab: "d39945a1dfd8"
+    top:
+    - scientific: "Clepticus parrae"
+      confidence: 0.9961
+    - scientific: "Scarus coeruleus"
+      confidence: 0.0034
+    - scientific: "Paranthias furcifer"
+      confidence: 0.0003
+species:
+- scientific: "Clepticus parrae"
+  role: "primary"
+  identified_by: "human"
+  confirmed_from: "bioclip-2+bioclip-2.5"
+- scientific: "Scarus coeruleus"
+  role: "secondary"
+  identified_by: "human"
+  confirmed_from: "bioclip-2.5"
+species_reviewed:
+- "primary"
+- "secondary"

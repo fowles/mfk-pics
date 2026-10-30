@@ -1,0 +1,41 @@
+date: "2026-10-23 12:52:01"
+location: "Curacao"
+location_source: "dive_site"
+dive_site: "Cas Abao"
+credit: "Delia Kulukundis"
+import_album: "Curacao Diving - Cas Abao 10-23"
+import_original_name: "IMG_6418.JPG"
+lat: 12.2280727
+lon: -69.0921544
+gps_source: "dive_site"
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-10-30T19:00:12Z"
+    src_mtime: 1793386132.7064917
+    vocab: "d39945a1dfd8"
+    top:
+    - scientific: "Serranus tigrinus"
+      confidence: 0.9831
+    - scientific: "Mycteroperca tigris"
+      confidence: 0.0122
+    - scientific: "Mycteroperca venenosa"
+      confidence: 0.0011
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-10-30T19:00:18Z"
+    src_mtime: 1793386132.7064917
+    vocab: "d39945a1dfd8"
+    top:
+    - scientific: "Serranus tigrinus"
+      confidence: 0.9954
+    - scientific: "Serranus tortugarum"
+      confidence: 0.0031
+    - scientific: "Mycteroperca tigris"
+      confidence: 0.0015
+species:
+- scientific: "Serranus tigrinus"
+  role: "primary"
+  identified_by: "human"
+  confirmed_from: "bioclip-2+bioclip-2.5"
+culled: true

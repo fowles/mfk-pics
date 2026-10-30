@@ -1,0 +1,41 @@
+date: "2026-10-23 12:59:50"
+location: "Curacao"
+location_source: "dive_site"
+dive_site: "Cas Abao"
+credit: "Miriam Melnick"
+import_album: "Curacao Diving - Cas Abao 10-23"
+import_original_name: "PA230280.JPG"
+lat: 12.2280727
+lon: -69.0921544
+gps_source: "dive_site"
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-10-30T19:00:12Z"
+    src_mtime: 1793386148.350085
+    vocab: "d39945a1dfd8"
+    top:
+    - scientific: "Rypticus saponaceus"
+      confidence: 0.5379
+    - scientific: "Calamus calamus"
+      confidence: 0.0657
+    - scientific: "Aluterus scriptus"
+      confidence: 0.062
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-10-30T19:00:18Z"
+    src_mtime: 1793386148.350085
+    vocab: "d39945a1dfd8"
+    top:
+    - scientific: "Diodon hystrix"
+      confidence: 0.9972
+    - scientific: "Diodon holocanthus"
+      confidence: 0.0028
+    - scientific: "Chelonia mydas"
+      confidence: 0.0
+species:
+- scientific: "Diodon hystrix"
+  role: "primary"
+  confidence: 0.4986
+  identified_by: "bioclip-2.5"
+culled: true

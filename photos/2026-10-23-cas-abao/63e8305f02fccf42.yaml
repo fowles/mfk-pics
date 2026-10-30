@@ -1,0 +1,41 @@
+date: "2026-10-23 12:28:01"
+location: "Curacao"
+location_source: "dive_site"
+dive_site: "Cas Abao"
+credit: "Marc Howard"
+import_album: "Curacao Diving - Cas Abao 10-23"
+import_original_name: "PA230110.JPG"
+lat: 12.2280727
+lon: -69.0921544
+gps_source: "dive_site"
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-10-30T19:00:12Z"
+    src_mtime: 1793386137.0741863
+    vocab: "d39945a1dfd8"
+    top:
+    - scientific: "Aplysina archeri"
+      confidence: 0.176
+    - scientific: "Halichoeres pictus"
+      confidence: 0.0245
+    - scientific: "Apogon maculatus"
+      confidence: 0.0194
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-10-30T19:00:18Z"
+    src_mtime: 1793386137.0741863
+    vocab: "d39945a1dfd8"
+    top:
+    - scientific: "Gymnothorax moringa"
+      confidence: 0.5206
+    - scientific: "Myrichthys breviceps"
+      confidence: 0.1331
+    - scientific: "Halichoeres garnoti"
+      confidence: 0.089
+species:
+- scientific: "Gymnothorax moringa"
+  role: "primary"
+  confidence: 0.2603
+  identified_by: "bioclip-2.5"
+culled: true
