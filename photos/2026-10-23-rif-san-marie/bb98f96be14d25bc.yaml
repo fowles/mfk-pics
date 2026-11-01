@@ -1,0 +1,43 @@
+date: "2026-10-23 18:37:44"
+location: "Curacao"
+location_source: "dive_site"
+dive_site: "Habitat"
+credit: "Miriam Melnick"
+import_album: "Curacao Diving - Rif San Marie 10-23"
+import_original_name: "PA230394.JPG"
+lat: 12.197904
+lon: -69.078854
+gps_source: "dive_site"
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-01T13:24:58Z"
+    src_mtime: 1793537904.3313913
+    vocab: "9e5c5738f5cb"
+    top:
+    - scientific: "Myrichthys breviceps"
+      confidence: 0.8646
+    - scientific: "Gymnothorax moringa"
+      confidence: 0.0311
+    - scientific: "Aulostomus maculatus"
+      confidence: 0.0293
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-01T13:27:07Z"
+    src_mtime: 1793537904.3313913
+    vocab: "9e5c5738f5cb"
+    top:
+    - scientific: "Myrichthys breviceps"
+      confidence: 0.9973
+    - scientific: "Gymnothorax moringa"
+      confidence: 0.0024
+    - scientific: "Holothuria thomasi"
+      confidence: 0.0001
+species:
+- scientific: "Myrichthys breviceps"
+  role: "primary"
+  identified_by: "human"
+  confirmed_from: "bioclip-2+bioclip-2.5"
+species_reviewed:
+- "primary"
+- "secondary"

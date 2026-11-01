@@ -1,0 +1,41 @@
+date: "2026-10-23 18:08:53"
+location: "Curacao"
+location_source: "dive_site"
+dive_site: "Habitat"
+credit: "Marc Howard"
+import_album: "Curacao Diving - Rif San Marie 10-23"
+import_original_name: "PA230205.JPG"
+lat: 12.197904
+lon: -69.078854
+gps_source: "dive_site"
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-01T13:24:58Z"
+    src_mtime: 1793537894.8226085
+    vocab: "9e5c5738f5cb"
+    top:
+    - scientific: "Stegastes partitus"
+      confidence: 0.1094
+    - scientific: "Opistognathus aurifrons"
+      confidence: 0.0934
+    - scientific: "Holacanthus tricolor"
+      confidence: 0.0458
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-01T13:27:07Z"
+    src_mtime: 1793537894.8226085
+    vocab: "9e5c5738f5cb"
+    top:
+    - scientific: "Mycteroperca tigris"
+      confidence: 0.3263
+    - scientific: "Rypticus saponaceus"
+      confidence: 0.0864
+    - scientific: "Mycteroperca bonaci"
+      confidence: 0.0699
+species:
+- scientific: "Mycteroperca tigris"
+  role: "primary"
+  confidence: 0.1631
+  identified_by: "bioclip-2.5"
+culled: true

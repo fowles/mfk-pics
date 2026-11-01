@@ -1,0 +1,44 @@
+date: "2026-10-23 18:07:59"
+location: "Curacao"
+location_source: "dive_site"
+dive_site: "Habitat"
+credit: "Miriam Melnick"
+import_album: "Curacao Diving - Rif San Marie 10-23"
+import_original_name: "PA230356.JPG"
+lat: 12.197904
+lon: -69.078854
+gps_source: "dive_site"
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-01T13:24:58Z"
+    src_mtime: 1793537901.0350585
+    vocab: "9e5c5738f5cb"
+    top:
+    - scientific: "Sepioteuthis sepioidea"
+      confidence: 0.0417
+    - scientific: "Opistognathus aurifrons"
+      confidence: 0.0389
+    - scientific: "Aplysina archeri"
+      confidence: 0.037
+    absorbed_by:
+      scientific: "Palythoa caribaeorum"
+      confidence: 0.0472
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-01T13:27:07Z"
+    src_mtime: 1793537901.0350585
+    vocab: "9e5c5738f5cb"
+    top:
+    - scientific: "Antennarius multiocellatus"
+      confidence: 0.3748
+    - scientific: "Aliger gigas"
+      confidence: 0.1706
+    - scientific: "Bothus lunatus"
+      confidence: 0.0806
+species:
+- scientific: "Antennarius multiocellatus"
+  role: "primary"
+  confidence: 0.1874
+  identified_by: "bioclip-2.5"
+culled: true

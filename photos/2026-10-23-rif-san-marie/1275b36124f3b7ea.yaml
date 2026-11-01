@@ -1,0 +1,17 @@
+date: "2026-10-23 18:07:44"
+location: "Curacao"
+location_source: "dive_site"
+dive_site: "Habitat"
+credit: "Marc Howard"
+import_album: "Curacao Diving - Rif San Marie 10-23"
+import_original_name: "PA230203.MOV"
+lat: 12.197904
+lon: -69.078854
+gps_source: "dive_site"
+species:
+- scientific: "Diodon hystrix"
+  role: "primary"
+  identified_by: "human"
+species_reviewed:
+- "primary"
+- "secondary"

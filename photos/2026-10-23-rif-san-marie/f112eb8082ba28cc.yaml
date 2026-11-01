@@ -1,0 +1,41 @@
+date: "2026-10-23 18:22:44"
+location: "Curacao"
+location_source: "dive_site"
+dive_site: "Habitat"
+credit: "Miriam Melnick"
+import_album: "Curacao Diving - Rif San Marie 10-23"
+import_original_name: "PA230366.JPG"
+lat: 12.197904
+lon: -69.078854
+gps_source: "dive_site"
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-01T13:24:58Z"
+    src_mtime: 1793537902.0055418
+    vocab: "9e5c5738f5cb"
+    top:
+    - scientific: "Equetus punctatus"
+      confidence: 0.9882
+    - scientific: "Elacatinus oceanops"
+      confidence: 0.0019
+    - scientific: "Cephalopholis fulva"
+      confidence: 0.001
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-01T13:27:07Z"
+    src_mtime: 1793537902.0055418
+    vocab: "9e5c5738f5cb"
+    top:
+    - scientific: "Equetus punctatus"
+      confidence: 0.9227
+    - scientific: "Pareques acuminatus"
+      confidence: 0.063
+    - scientific: "Haemulon carbonarium"
+      confidence: 0.01
+species:
+- scientific: "Equetus punctatus"
+  role: "primary"
+  confidence: 0.9554
+  identified_by: "bioclip-2+bioclip-2.5"
+culled: true

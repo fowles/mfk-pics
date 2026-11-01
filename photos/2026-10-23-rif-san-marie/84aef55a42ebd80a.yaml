@@ -1,0 +1,44 @@
+date: "2026-10-23 17:22:03"
+location: "Curacao"
+location_source: "dive_site"
+dive_site: "Habitat"
+credit: "Marc Howard"
+import_album: "Curacao Diving - Rif San Marie 10-23"
+import_original_name: "PA230136.JPG"
+lat: 12.197904
+lon: -69.078854
+gps_source: "dive_site"
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-01T13:24:58Z"
+    src_mtime: 1793537890.9793468
+    vocab: "9e5c5738f5cb"
+    top:
+    - scientific: "Caretta caretta"
+      confidence: 0.5975
+    - scientific: "Thunnus albacares"
+      confidence: 0.1306
+    - scientific: "Chilomycterus schoepfii"
+      confidence: 0.0829
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-01T13:27:07Z"
+    src_mtime: 1793537890.9793468
+    vocab: "9e5c5738f5cb"
+    top:
+    - scientific: "Physeter macrocephalus"
+      confidence: 0.203
+    - scientific: "Physalia physalis"
+      confidence: 0.0627
+    - scientific: "Rhincodon typus"
+      confidence: 0.0456
+    absorbed_by:
+      scientific: "Pennaria disticha"
+      confidence: 0.3948
+species:
+- scientific: "Caretta caretta"
+  role: "primary"
+  confidence: 0.2988
+  identified_by: "bioclip-2"
+culled: true

@@ -1,0 +1,17 @@
+date: "2026-10-23 18:43:46"
+location: "Curacao"
+location_source: "dive_site"
+dive_site: "Habitat"
+credit: "Miriam Melnick"
+import_album: "Curacao Diving - Rif San Marie 10-23"
+import_original_name: "PA230401.MOV"
+lat: 12.197904
+lon: -69.078854
+gps_source: "dive_site"
+species:
+- scientific: "Parribacus antarcticus"
+  role: "primary"
+  identified_by: "human"
+species_reviewed:
+- "primary"
+- "secondary"

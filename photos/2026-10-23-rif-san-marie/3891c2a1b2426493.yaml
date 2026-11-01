@@ -1,0 +1,42 @@
+date: "2026-10-23 17:51:22"
+location: "Curacao"
+location_source: "dive_site"
+dive_site: "Habitat"
+credit: "Marc Howard"
+import_album: "Curacao Diving - Rif San Marie 10-23"
+import_original_name: "PA230159.JPG"
+lat: 12.197904
+lon: -69.078854
+gps_source: "dive_site"
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-01T13:24:58Z"
+    src_mtime: 1793537891.8470087
+    vocab: "9e5c5738f5cb"
+    top:
+    - scientific: "Aluterus scriptus"
+      confidence: 0.0432
+    - scientific: "Cassiopea xamachana"
+      confidence: 0.0374
+    - scientific: "Sepioteuthis sepioidea"
+      confidence: 0.0323
+    absorbed_by:
+      scientific: "Clavelina picta"
+      confidence: 0.0861
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-01T13:27:07Z"
+    src_mtime: 1793537891.8470087
+    vocab: "9e5c5738f5cb"
+    top:
+    - scientific: "Opistognathus aurifrons"
+      confidence: 0.1654
+    - scientific: "Cassiopea xamachana"
+      confidence: 0.0682
+    - scientific: "Mobula birostris"
+      confidence: 0.0259
+    absorbed_by:
+      scientific: "Cirrhipathes leutkeni"
+      confidence: 0.6887
+culled: true

@@ -1,0 +1,41 @@
+date: "2026-10-23 18:35:52"
+location: "Curacao"
+location_source: "dive_site"
+dive_site: "Habitat"
+credit: "Miriam Melnick"
+import_album: "Curacao Diving - Rif San Marie 10-23"
+import_original_name: "PA230386.JPG"
+lat: 12.197904
+lon: -69.078854
+gps_source: "dive_site"
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-01T13:24:58Z"
+    src_mtime: 1793537903.8202665
+    vocab: "9e5c5738f5cb"
+    top:
+    - scientific: "Elysia crispata"
+      confidence: 0.992
+    - scientific: "Micromelo undatus"
+      confidence: 0.0026
+    - scientific: "Felimare bayeri"
+      confidence: 0.0012
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-01T13:27:07Z"
+    src_mtime: 1793537903.8202665
+    vocab: "9e5c5738f5cb"
+    top:
+    - scientific: "Elysia crispata"
+      confidence: 0.6588
+    - scientific: "Stylocheilus striatus"
+      confidence: 0.2693
+    - scientific: "Aplysia dactylomela"
+      confidence: 0.0321
+species:
+- scientific: "Elysia crispata"
+  role: "primary"
+  confidence: 0.8254
+  identified_by: "bioclip-2+bioclip-2.5"
+culled: true

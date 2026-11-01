@@ -1,0 +1,40 @@
+date: "2026-10-23 17:57:09"
+location: "Curacao"
+location_source: "dive_site"
+dive_site: "Habitat"
+credit: "Marc Howard"
+import_album: "Curacao Diving - Rif San Marie 10-23"
+import_original_name: "PA230173.JPG"
+lat: 12.197904
+lon: -69.078854
+gps_source: "dive_site"
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-01T13:24:58Z"
+    src_mtime: 1793537892.774391
+    vocab: "9e5c5738f5cb"
+    top:
+    - scientific: "Cyphoma gibbosum"
+      confidence: 0.0682
+    - scientific: "Sepioteuthis sepioidea"
+      confidence: 0.04
+    - scientific: "Aplysina archeri"
+      confidence: 0.0326
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-01T13:27:07Z"
+    src_mtime: 1793537892.774391
+    vocab: "9e5c5738f5cb"
+    top:
+    - scientific: "Carcharhinus falciformis"
+      confidence: 0.0046
+    - scientific: "Galeocerdo cuvier"
+      confidence: 0.0023
+    - scientific: "Sphyrna lewini"
+      confidence: 0.002
+    absorbed_by:
+      scientific: "Cirrhipathes leutkeni"
+      confidence: 0.9805
+species: []
+culled: true

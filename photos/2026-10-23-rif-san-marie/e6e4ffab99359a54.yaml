@@ -1,0 +1,42 @@
+date: "2026-10-23 17:49:53"
+location: "Curacao"
+location_source: "dive_site"
+dive_site: "Habitat"
+credit: "Marc Howard"
+import_album: "Curacao Diving - Rif San Marie 10-23"
+import_original_name: "PA230153.JPG"
+lat: 12.197904
+lon: -69.078854
+gps_source: "dive_site"
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-01T13:24:58Z"
+    src_mtime: 1793537891.8617468
+    vocab: "9e5c5738f5cb"
+    top:
+    - scientific: "Mycteroperca bonaci"
+      confidence: 0.0374
+    - scientific: "Aplysina archeri"
+      confidence: 0.0366
+    - scientific: "Sepioteuthis sepioidea"
+      confidence: 0.0328
+    absorbed_by:
+      scientific: "Briareum asbestinum"
+      confidence: 0.0535
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-01T13:27:07Z"
+    src_mtime: 1793537891.8617468
+    vocab: "9e5c5738f5cb"
+    top:
+    - scientific: "Mycteroperca tigris"
+      confidence: 0.1423
+    - scientific: "Mycteroperca bonaci"
+      confidence: 0.1074
+    - scientific: "Aetobatus narinari"
+      confidence: 0.067
+    absorbed_by:
+      scientific: "Antillogorgia americana"
+      confidence: 0.3448
+culled: true

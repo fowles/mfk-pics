@@ -1,0 +1,41 @@
+date: "2026-10-23 17:52:36"
+location: "Curacao"
+location_source: "dive_site"
+dive_site: "Habitat"
+credit: "Marc Howard"
+import_album: "Curacao Diving - Rif San Marie 10-23"
+import_original_name: "PA230164.JPG"
+lat: 12.197904
+lon: -69.078854
+gps_source: "dive_site"
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-01T13:24:58Z"
+    src_mtime: 1793537892.6095686
+    vocab: "9e5c5738f5cb"
+    top:
+    - scientific: "Ocyurus chrysurus"
+      confidence: 0.0541
+    - scientific: "Sepioteuthis sepioidea"
+      confidence: 0.0513
+    - scientific: "Caranx ruber"
+      confidence: 0.0449
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-01T13:27:07Z"
+    src_mtime: 1793537892.6095686
+    vocab: "9e5c5738f5cb"
+    top:
+    - scientific: "Malacanthus plumieri"
+      confidence: 0.792
+    - scientific: "Xyrichtys martinicensis"
+      confidence: 0.0317
+    - scientific: "Halichoeres garnoti"
+      confidence: 0.0262
+species:
+- scientific: "Malacanthus plumieri"
+  role: "primary"
+  confidence: 0.396
+  identified_by: "bioclip-2.5"
+culled: true

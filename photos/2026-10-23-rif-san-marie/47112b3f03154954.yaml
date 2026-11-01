@@ -1,0 +1,43 @@
+date: "2026-10-23 17:59:12"
+location: "Curacao"
+location_source: "dive_site"
+dive_site: "Habitat"
+credit: "Miriam Melnick"
+import_album: "Curacao Diving - Rif San Marie 10-23"
+import_original_name: "PA230345.JPG"
+lat: 12.197904
+lon: -69.078854
+gps_source: "dive_site"
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-01T13:24:58Z"
+    src_mtime: 1793537899.4469433
+    vocab: "9e5c5738f5cb"
+    top:
+    - scientific: "Gymnothorax funebris"
+      confidence: 0.9981
+    - scientific: "Enchelycore carychroa"
+      confidence: 0.0013
+    - scientific: "Gymnothorax vicinus"
+      confidence: 0.0003
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-01T13:27:07Z"
+    src_mtime: 1793537899.4469433
+    vocab: "9e5c5738f5cb"
+    top:
+    - scientific: "Gymnothorax funebris"
+      confidence: 1.0
+    - scientific: "Gymnothorax miliaris"
+      confidence: 0.0
+    - scientific: "Condylactis gigantea"
+      confidence: 0.0
+species:
+- scientific: "Gymnothorax funebris"
+  role: "primary"
+  identified_by: "human"
+  confirmed_from: "bioclip-2+bioclip-2.5"
+species_reviewed:
+- "primary"
+- "secondary"
