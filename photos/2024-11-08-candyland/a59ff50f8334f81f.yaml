@@ -13,24 +13,24 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-30T16:31:47Z"
+    created: "2026-11-01T13:24:58Z"
     src_mtime: 1786156487.4990015
-    vocab: "d39945a1dfd8"
+    vocab: "9e5c5738f5cb"
     top:
     - scientific: "Davidaster rubiginosus"
-      confidence: 0.0661
+      confidence: 0.0647
     - scientific: "Aulostomus maculatus"
-      confidence: 0.0481
+      confidence: 0.047
     - scientific: "Thalassoma bifasciatum"
-      confidence: 0.0344
+      confidence: 0.0336
     absorbed_by:
       scientific: "Orbicella annularis"
-      confidence: 0.1826
+      confidence: 0.1787
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-30T16:33:54Z"
+    created: "2026-11-01T13:27:07Z"
     src_mtime: 1786156487.4990015
-    vocab: "d39945a1dfd8"
+    vocab: "9e5c5738f5cb"
     top:
     - scientific: "Davidaster rubiginosus"
       confidence: 0.0114

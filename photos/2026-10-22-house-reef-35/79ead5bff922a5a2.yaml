@@ -11,21 +11,21 @@ gps_source: "dive_site"
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-10-26T00:29:55Z"
+    created: "2026-11-01T13:24:58Z"
     src_mtime: 1792974114.2004793
-    vocab: "d39945a1dfd8"
+    vocab: "9e5c5738f5cb"
     top:
     - scientific: "Gymnothorax funebris"
-      confidence: 0.6992
+      confidence: 0.6989
     - scientific: "Gymnothorax miliaris"
-      confidence: 0.1598
+      confidence: 0.1597
     - scientific: "Enchelycore carychroa"
       confidence: 0.0113
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-10-26T00:29:59Z"
+    created: "2026-11-01T13:27:07Z"
     src_mtime: 1792974114.2004793
-    vocab: "d39945a1dfd8"
+    vocab: "9e5c5738f5cb"
     top:
     - scientific: "Gymnothorax funebris"
       confidence: 0.9998

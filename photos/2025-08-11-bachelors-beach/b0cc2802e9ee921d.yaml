@@ -16,24 +16,24 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-30T16:31:47Z"
+    created: "2026-11-01T13:24:58Z"
     src_mtime: 1786157883.0744452
-    vocab: "d39945a1dfd8"
+    vocab: "9e5c5738f5cb"
     top:
     - scientific: "Haemulon flavolineatum"
-      confidence: 0.4762
+      confidence: 0.4761
     - scientific: "Haemulon plumierii"
-      confidence: 0.0491
+      confidence: 0.049
     - scientific: "Pseudupeneus maculatus"
       confidence: 0.047
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-30T16:33:54Z"
+    created: "2026-11-01T13:27:07Z"
     src_mtime: 1786157883.0744452
-    vocab: "d39945a1dfd8"
+    vocab: "9e5c5738f5cb"
     top:
     - scientific: "Acanthostracion polygonius"
-      confidence: 0.3327
+      confidence: 0.3326
     - scientific: "Halichoeres garnoti"
       confidence: 0.1892
     - scientific: "Serranus tigrinus"

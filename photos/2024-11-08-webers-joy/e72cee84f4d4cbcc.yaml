@@ -13,31 +13,33 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-30T16:31:47Z"
+    created: "2026-11-01T13:24:58Z"
     src_mtime: 1786156520.3864076
-    vocab: "d39945a1dfd8"
+    vocab: "9e5c5738f5cb"
     top:
+    - scientific: "Erythropodium caribaeorum"
+      confidence: 0.2456
     - scientific: "Acropora palmata"
-      confidence: 0.0067
+      confidence: 0.005
     - scientific: "Amblycirrhitus pinos"
-      confidence: 0.0033
-    - scientific: "Stegastes partitus"
-      confidence: 0.0032
+      confidence: 0.0025
     absorbed_by:
       scientific: "Porites porites"
-      confidence: 0.421
+      confidence: 0.3176
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-30T16:33:54Z"
+    created: "2026-11-01T13:27:07Z"
     src_mtime: 1786156520.3864076
-    vocab: "d39945a1dfd8"
+    vocab: "9e5c5738f5cb"
     top:
+    - scientific: "Erythropodium caribaeorum"
+      confidence: 0.9796
+    - scientific: "Spirobranchus giganteus"
+      confidence: 0.0011
     - scientific: "Acropora palmata"
-      confidence: 0.008
-    - scientific: "Stenopus hispidus"
-      confidence: 0.0003
-    - scientific: "Stegastes planifrons"
       confidence: 0.0002
-    absorbed_by:
-      scientific: "Dendrogyra cylindrus"
-      confidence: 0.4374
+species:
+- scientific: "Erythropodium caribaeorum"
+  role: "primary"
+  confidence: 0.6126
+  identified_by: "bioclip-2+bioclip-2.5"

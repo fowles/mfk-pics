@@ -12,28 +12,28 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-30T16:31:47Z"
+    created: "2026-11-01T13:24:58Z"
     src_mtime: 1786159816.496758
-    vocab: "d39945a1dfd8"
+    vocab: "9e5c5738f5cb"
     top:
     - scientific: "Pterois volitans"
-      confidence: 0.6596
+      confidence: 0.6595
     - scientific: "Mobula birostris"
-      confidence: 0.1292
+      confidence: 0.1291
     - scientific: "Rhincodon typus"
       confidence: 0.0448
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-30T16:33:54Z"
+    created: "2026-11-01T13:27:07Z"
     src_mtime: 1786159816.496758
-    vocab: "d39945a1dfd8"
+    vocab: "9e5c5738f5cb"
     top:
     - scientific: "Pterois volitans"
       confidence: 0.7599
     - scientific: "Mycteroperca tigris"
       confidence: 0.0968
-    - scientific: "Astrophyton muricatum"
-      confidence: 0.009
+    - scientific: "Sabellastarte magnifica"
+      confidence: 0.0434
 species:
 - scientific: "Pterois volitans"
   role: "primary"

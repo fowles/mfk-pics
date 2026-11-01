@@ -14,24 +14,21 @@ rotation_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-30T16:31:47Z"
+    created: "2026-11-01T13:24:58Z"
     src_mtime: 1786156523.2473242
-    vocab: "d39945a1dfd8"
+    vocab: "9e5c5738f5cb"
     top:
+    - scientific: "Callyspongia plicifera"
+      confidence: 0.5736
     - scientific: "Aplysina archeri"
-      confidence: 0.1694
+      confidence: 0.1691
     - scientific: "Cyphoma gibbosum"
       confidence: 0.0111
-    - scientific: "Chromis cyanea"
-      confidence: 0.0052
-    absorbed_by:
-      scientific: "Callyspongia plicifera"
-      confidence: 0.5747
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-30T16:33:54Z"
+    created: "2026-11-01T13:27:07Z"
     src_mtime: 1786156523.2473242
-    vocab: "d39945a1dfd8"
+    vocab: "9e5c5738f5cb"
     top:
     - scientific: "Sepioteuthis sepioidea"
       confidence: 0.4
@@ -39,4 +36,8 @@ species_suggestions:
       confidence: 0.0957
     - scientific: "Aplysina archeri"
       confidence: 0.0829
-species: []
+species:
+- scientific: "Callyspongia plicifera"
+  role: "primary"
+  confidence: 0.2868
+  identified_by: "bioclip-2"

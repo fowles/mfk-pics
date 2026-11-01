@@ -13,30 +13,30 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-30T16:31:47Z"
+    created: "2026-11-01T13:24:58Z"
     src_mtime: 1786157581.438095
-    vocab: "d39945a1dfd8"
+    vocab: "9e5c5738f5cb"
     top:
     - scientific: "Aplysina archeri"
-      confidence: 0.489
+      confidence: 0.4889
     - scientific: "Cephalopholis cruentata"
       confidence: 0.1802
     - scientific: "Gymnothorax miliaris"
       confidence: 0.0277
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-30T16:33:54Z"
+    created: "2026-11-01T13:27:07Z"
     src_mtime: 1786157581.438095
-    vocab: "d39945a1dfd8"
+    vocab: "9e5c5738f5cb"
     top:
     - scientific: "Octopus insularis"
-      confidence: 0.5128
+      confidence: 0.512
     - scientific: "Aplysina archeri"
-      confidence: 0.2311
+      confidence: 0.2307
     - scientific: "Scorpaena plumieri"
-      confidence: 0.0649
+      confidence: 0.0648
 species:
 - scientific: "Aplysina archeri"
   role: "primary"
-  confidence: 0.36
+  confidence: 0.3598
   identified_by: "bioclip-2+bioclip-2.5"

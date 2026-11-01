@@ -13,21 +13,21 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-30T16:31:47Z"
+    created: "2026-11-01T13:24:58Z"
     src_mtime: 1786158390.4246395
-    vocab: "d39945a1dfd8"
+    vocab: "9e5c5738f5cb"
     top:
     - scientific: "Stenorhynchus seticornis"
-      confidence: 0.8826
+      confidence: 0.8801
+    - scientific: "Sabellastarte magnifica"
+      confidence: 0.0247
     - scientific: "Davidaster rubiginosus"
       confidence: 0.0225
-    - scientific: "Ancylomenes pedersoni"
-      confidence: 0.015
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-30T16:33:54Z"
+    created: "2026-11-01T13:27:07Z"
     src_mtime: 1786158390.4246395
-    vocab: "d39945a1dfd8"
+    vocab: "9e5c5738f5cb"
     top:
     - scientific: "Stenorhynchus seticornis"
       confidence: 0.8981
@@ -38,5 +38,5 @@ species_suggestions:
 species:
 - scientific: "Stenorhynchus seticornis"
   role: "primary"
-  confidence: 0.8903
+  confidence: 0.8891
   identified_by: "bioclip-2+bioclip-2.5"

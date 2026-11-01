@@ -13,32 +13,33 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-30T16:31:47Z"
+    created: "2026-11-01T13:24:58Z"
     src_mtime: 1786158232.7295384
-    vocab: "d39945a1dfd8"
+    vocab: "9e5c5738f5cb"
     top:
     - scientific: "Halichoeres garnoti"
       confidence: 0.1271
+    - scientific: "Callyspongia plicifera"
+      confidence: 0.1084
     - scientific: "Opistognathus aurifrons"
       confidence: 0.1016
-    - scientific: "Centropyge argi"
-      confidence: 0.0275
     absorbed_by:
       scientific: "Niphates digitalis"
-      confidence: 0.4579
+      confidence: 0.4578
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-30T16:33:54Z"
+    created: "2026-11-01T13:27:07Z"
     src_mtime: 1786158232.7295384
-    vocab: "d39945a1dfd8"
+    vocab: "9e5c5738f5cb"
     top:
+    - scientific: "Callyspongia plicifera"
+      confidence: 0.5196
     - scientific: "Cephalopholis cruentata"
       confidence: 0.0797
     - scientific: "Mycteroperca tigris"
       confidence: 0.0408
-    - scientific: "Epinephelus guttatus"
-      confidence: 0.0321
-    absorbed_by:
-      scientific: "Callyspongia plicifera"
-      confidence: 0.5196
-species: []
+species:
+- scientific: "Callyspongia plicifera"
+  role: "primary"
+  confidence: 0.314
+  identified_by: "bioclip-2+bioclip-2.5"

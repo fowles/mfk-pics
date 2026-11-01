@@ -13,32 +13,32 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-30T16:31:47Z"
+    created: "2026-11-01T13:24:58Z"
     src_mtime: 1786156521.48405
-    vocab: "d39945a1dfd8"
+    vocab: "9e5c5738f5cb"
     top:
     - scientific: "Stegastes partitus"
-      confidence: 0.1022
+      confidence: 0.1016
     - scientific: "Thalassoma bifasciatum"
-      confidence: 0.0363
+      confidence: 0.036
     - scientific: "Cephalopholis cruentata"
-      confidence: 0.0264
+      confidence: 0.0262
     absorbed_by:
       scientific: "Agaricia agaricites"
-      confidence: 0.3153
+      confidence: 0.3134
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-30T16:33:54Z"
+    created: "2026-11-01T13:27:07Z"
     src_mtime: 1786156521.48405
-    vocab: "d39945a1dfd8"
+    vocab: "9e5c5738f5cb"
     top:
+    - scientific: "Erythropodium caribaeorum"
+      confidence: 0.0019
     - scientific: "Thalassoma bifasciatum"
       confidence: 0.0003
-    - scientific: "Scarus iseri"
-      confidence: 0.0
-    - scientific: "Holocentrus adscensionis"
+    - scientific: "Callyspongia plicifera"
       confidence: 0.0
     absorbed_by:
       scientific: "Agaricia agaricites"
-      confidence: 0.548
+      confidence: 0.547
 species: []

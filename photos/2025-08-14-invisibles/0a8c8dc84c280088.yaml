@@ -9,21 +9,21 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-30T16:31:47Z"
+    created: "2026-11-01T13:24:58Z"
     src_mtime: 1786158234.9491508
-    vocab: "d39945a1dfd8"
+    vocab: "9e5c5738f5cb"
     top:
     - scientific: "Heteroconger longissimus"
-      confidence: 0.2341
+      confidence: 0.2336
     - scientific: "Panulirus argus"
-      confidence: 0.0618
+      confidence: 0.0616
     - scientific: "Aetobatus narinari"
-      confidence: 0.042
+      confidence: 0.0419
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-30T16:33:54Z"
+    created: "2026-11-01T13:27:07Z"
     src_mtime: 1786158234.9491508
-    vocab: "d39945a1dfd8"
+    vocab: "9e5c5738f5cb"
     top:
     - scientific: "Panulirus argus"
       confidence: 0.7377

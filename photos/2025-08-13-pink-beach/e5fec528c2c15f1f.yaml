@@ -16,31 +16,31 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-30T16:31:47Z"
+    created: "2026-11-01T13:24:58Z"
     src_mtime: 1786158190.117644
-    vocab: "d39945a1dfd8"
+    vocab: "9e5c5738f5cb"
     top:
     - scientific: "Davidaster rubiginosus"
-      confidence: 0.0625
+      confidence: 0.0623
     - scientific: "Serranus tigrinus"
-      confidence: 0.0282
+      confidence: 0.0281
     - scientific: "Astrophyton muricatum"
-      confidence: 0.0143
+      confidence: 0.0142
     absorbed_by:
       scientific: "Antillogorgia americana"
-      confidence: 0.5659
+      confidence: 0.5637
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-30T16:33:54Z"
+    created: "2026-11-01T13:27:07Z"
     src_mtime: 1786158190.117644
-    vocab: "d39945a1dfd8"
+    vocab: "9e5c5738f5cb"
     top:
+    - scientific: "Erythropodium caribaeorum"
+      confidence: 0.0024
     - scientific: "Davidaster rubiginosus"
       confidence: 0.001
     - scientific: "Thalassoma bifasciatum"
       confidence: 0.0006
-    - scientific: "Sparisoma viride"
-      confidence: 0.0002
     absorbed_by:
       scientific: "Orbicella annularis"
-      confidence: 0.6989
+      confidence: 0.6972

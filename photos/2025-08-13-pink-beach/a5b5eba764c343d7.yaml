@@ -16,21 +16,21 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-30T16:31:47Z"
+    created: "2026-11-01T13:24:58Z"
     src_mtime: 1786158189.036493
-    vocab: "d39945a1dfd8"
+    vocab: "9e5c5738f5cb"
     top:
     - scientific: "Cephalopholis cruentata"
-      confidence: 0.5587
+      confidence: 0.5586
     - scientific: "Epinephelus guttatus"
-      confidence: 0.3393
+      confidence: 0.3392
     - scientific: "Mycteroperca tigris"
       confidence: 0.0193
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-30T16:33:54Z"
+    created: "2026-11-01T13:27:07Z"
     src_mtime: 1786158189.036493
-    vocab: "d39945a1dfd8"
+    vocab: "9e5c5738f5cb"
     top:
     - scientific: "Cephalopholis cruentata"
       confidence: 0.7217
@@ -41,5 +41,5 @@ species_suggestions:
 species:
 - scientific: "Cephalopholis cruentata"
   role: "primary"
-  confidence: 0.6402
+  confidence: 0.6401
   identified_by: "bioclip-2+bioclip-2.5"

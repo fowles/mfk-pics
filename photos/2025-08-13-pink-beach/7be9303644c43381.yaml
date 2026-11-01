@@ -16,32 +16,30 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-30T16:31:47Z"
+    created: "2026-11-01T13:24:58Z"
     src_mtime: 1786158188.831069
-    vocab: "d39945a1dfd8"
+    vocab: "9e5c5738f5cb"
     top:
+    - scientific: "Callyspongia plicifera"
+      confidence: 0.637
     - scientific: "Aplysina archeri"
       confidence: 0.0051
-    - scientific: "Coryphopterus lipernes"
-      confidence: 0.0026
-    - scientific: "Cephalopholis cruentata"
-      confidence: 0.002
-    absorbed_by:
-      scientific: "Callyspongia plicifera"
-      confidence: 0.6377
+    - scientific: "Spirobranchus giganteus"
+      confidence: 0.0031
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-30T16:33:54Z"
+    created: "2026-11-01T13:27:07Z"
     src_mtime: 1786158188.831069
-    vocab: "d39945a1dfd8"
+    vocab: "9e5c5738f5cb"
     top:
-    - scientific: "Cephalopholis cruentata"
-      confidence: 0.0001
-    - scientific: "Scarus iseri"
-      confidence: 0.0001
-    - scientific: "Halichoeres garnoti"
-      confidence: 0.0001
-    absorbed_by:
-      scientific: "Callyspongia plicifera"
+    - scientific: "Callyspongia plicifera"
       confidence: 0.866
-species: []
+    - scientific: "Sabellastarte magnifica"
+      confidence: 0.0021
+    - scientific: "Spirobranchus giganteus"
+      confidence: 0.0002
+species:
+- scientific: "Callyspongia plicifera"
+  role: "primary"
+  confidence: 0.7515
+  identified_by: "bioclip-2+bioclip-2.5"

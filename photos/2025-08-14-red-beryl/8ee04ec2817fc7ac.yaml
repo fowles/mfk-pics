@@ -13,21 +13,21 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-30T16:31:47Z"
+    created: "2026-11-01T13:24:58Z"
     src_mtime: 1786158337.35738
-    vocab: "d39945a1dfd8"
+    vocab: "9e5c5738f5cb"
     top:
     - scientific: "Pterois volitans"
-      confidence: 0.1966
+      confidence: 0.1965
     - scientific: "Gymnothorax funebris"
       confidence: 0.1452
     - scientific: "Pomacanthus paru"
       confidence: 0.107
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-30T16:33:54Z"
+    created: "2026-11-01T13:27:07Z"
     src_mtime: 1786158337.35738
-    vocab: "d39945a1dfd8"
+    vocab: "9e5c5738f5cb"
     top:
     - scientific: "Pterois volitans"
       confidence: 0.9942

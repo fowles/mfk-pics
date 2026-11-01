@@ -13,24 +13,24 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-30T16:31:47Z"
+    created: "2026-11-01T13:24:58Z"
     src_mtime: 1786158128.2519114
-    vocab: "d39945a1dfd8"
+    vocab: "9e5c5738f5cb"
     top:
     - scientific: "Nemaster grandis"
-      confidence: 0.0545
+      confidence: 0.0544
     - scientific: "Davidaster rubiginosus"
-      confidence: 0.0443
+      confidence: 0.0442
     - scientific: "Chromis multilineata"
-      confidence: 0.0156
+      confidence: 0.0155
     absorbed_by:
       scientific: "Antillogorgia americana"
-      confidence: 0.7278
+      confidence: 0.7268
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-30T16:33:54Z"
+    created: "2026-11-01T13:27:07Z"
     src_mtime: 1786158128.2519114
-    vocab: "d39945a1dfd8"
+    vocab: "9e5c5738f5cb"
     top:
     - scientific: "Davidaster rubiginosus"
       confidence: 0.0377

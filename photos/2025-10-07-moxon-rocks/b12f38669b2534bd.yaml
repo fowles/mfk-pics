@@ -12,9 +12,9 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-30T16:31:47Z"
+    created: "2026-11-01T13:24:58Z"
     src_mtime: 1786159799.381574
-    vocab: "d39945a1dfd8"
+    vocab: "9e5c5738f5cb"
     top:
     - scientific: "Stegastes partitus"
       confidence: 0.008
@@ -24,22 +24,22 @@ species_suggestions:
       confidence: 0.0047
     absorbed_by:
       scientific: "Dendrogyra cylindrus"
-      confidence: 0.7987
+      confidence: 0.7977
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-30T16:33:54Z"
+    created: "2026-11-01T13:27:07Z"
     src_mtime: 1786159799.381574
-    vocab: "d39945a1dfd8"
+    vocab: "9e5c5738f5cb"
     top:
+    - scientific: "Spirobranchus giganteus"
+      confidence: 0.0004
+    - scientific: "Erythropodium caribaeorum"
+      confidence: 0.0001
     - scientific: "Acropora palmata"
-      confidence: 0.0
-    - scientific: "Abudefduf saxatilis"
-      confidence: 0.0
-    - scientific: "Stegastes adustus"
       confidence: 0.0
     absorbed_by:
       scientific: "Dendrogyra cylindrus"
-      confidence: 0.9839
+      confidence: 0.9838
 species:
 - scientific: "Abudefduf saxatilis"
   role: "primary"

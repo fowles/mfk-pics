@@ -13,21 +13,21 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-30T16:31:47Z"
+    created: "2026-11-01T13:24:58Z"
     src_mtime: 1786159556.57257
-    vocab: "d39945a1dfd8"
+    vocab: "9e5c5738f5cb"
     top:
     - scientific: "Centropyge argi"
-      confidence: 0.2837
+      confidence: 0.2836
     - scientific: "Gramma loreto"
-      confidence: 0.1476
+      confidence: 0.1475
     - scientific: "Holacanthus tricolor"
       confidence: 0.072
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-30T16:33:54Z"
+    created: "2026-11-01T13:27:07Z"
     src_mtime: 1786159556.57257
-    vocab: "d39945a1dfd8"
+    vocab: "9e5c5738f5cb"
     top:
     - scientific: "Scarus coelestinus"
       confidence: 0.2705
@@ -38,5 +38,5 @@ species_suggestions:
 species:
 - scientific: "Centropyge argi"
   role: "primary"
-  confidence: 0.1419
+  confidence: 0.1418
   identified_by: "bioclip-2"

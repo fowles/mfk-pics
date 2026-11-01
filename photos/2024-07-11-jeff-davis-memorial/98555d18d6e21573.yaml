@@ -13,30 +13,30 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-30T16:31:47Z"
+    created: "2026-11-01T13:24:58Z"
     src_mtime: 1786159557.9745922
-    vocab: "d39945a1dfd8"
+    vocab: "9e5c5738f5cb"
     top:
     - scientific: "Apogon maculatus"
-      confidence: 0.119
+      confidence: 0.1182
     - scientific: "Aplysina archeri"
-      confidence: 0.0688
+      confidence: 0.0684
     - scientific: "Holacanthus tricolor"
-      confidence: 0.059
+      confidence: 0.0586
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-30T16:33:54Z"
+    created: "2026-11-01T13:27:07Z"
     src_mtime: 1786159557.9745922
-    vocab: "d39945a1dfd8"
+    vocab: "9e5c5738f5cb"
     top:
     - scientific: "Halichoeres garnoti"
-      confidence: 0.3049
+      confidence: 0.3034
     - scientific: "Ancylomenes pedersoni"
-      confidence: 0.0317
+      confidence: 0.0315
     - scientific: "Mycteroperca tigris"
-      confidence: 0.0281
+      confidence: 0.028
 species:
 - scientific: "Halichoeres garnoti"
   role: "primary"
-  confidence: 0.1525
+  confidence: 0.1517
   identified_by: "bioclip-2.5"

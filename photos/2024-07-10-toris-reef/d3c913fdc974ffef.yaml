@@ -16,24 +16,24 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-30T16:31:47Z"
+    created: "2026-11-01T13:24:58Z"
     src_mtime: 1786160171.0988255
-    vocab: "d39945a1dfd8"
+    vocab: "9e5c5738f5cb"
     top:
     - scientific: "Aulostomus maculatus"
-      confidence: 0.2689
+      confidence: 0.2686
     - scientific: "Cyphoma gibbosum"
       confidence: 0.0406
     - scientific: "Cephalopholis cruentata"
       confidence: 0.0245
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-30T16:33:54Z"
+    created: "2026-11-01T13:27:07Z"
     src_mtime: 1786160171.0988255
-    vocab: "d39945a1dfd8"
+    vocab: "9e5c5738f5cb"
     top:
     - scientific: "Aulostomus maculatus"
-      confidence: 0.3045
+      confidence: 0.3044
     - scientific: "Monacanthus tuckeri"
       confidence: 0.1895
     - scientific: "Cephalopholis cruentata"
@@ -41,5 +41,5 @@ species_suggestions:
 species:
 - scientific: "Aulostomus maculatus"
   role: "primary"
-  confidence: 0.2867
+  confidence: 0.2865
   identified_by: "bioclip-2+bioclip-2.5"

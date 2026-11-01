@@ -16,21 +16,21 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-30T16:31:47Z"
+    created: "2026-11-01T13:24:58Z"
     src_mtime: 1786158743.037901
-    vocab: "d39945a1dfd8"
+    vocab: "9e5c5738f5cb"
     top:
     - scientific: "Halichoeres garnoti"
-      confidence: 0.1357
+      confidence: 0.1355
     - scientific: "Malacanthus plumieri"
-      confidence: 0.0601
+      confidence: 0.06
     - scientific: "Cyphoma gibbosum"
-      confidence: 0.0526
+      confidence: 0.0525
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-30T16:33:54Z"
+    created: "2026-11-01T13:27:07Z"
     src_mtime: 1786158743.037901
-    vocab: "d39945a1dfd8"
+    vocab: "9e5c5738f5cb"
     top:
     - scientific: "Aulostomus maculatus"
       confidence: 0.2644

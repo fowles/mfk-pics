@@ -11,34 +11,28 @@ gps_source: "dive_site"
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-10-30T19:00:12Z"
+    created: "2026-11-01T13:24:58Z"
     src_mtime: 1793386131.1715963
-    vocab: "d39945a1dfd8"
+    vocab: "9e5c5738f5cb"
     top:
+    - scientific: "Sabellastarte magnifica"
+      confidence: 0.9584
     - scientific: "Pterois volitans"
       confidence: 0.0039
-    - scientific: "Tripneustes ventricosus"
-      confidence: 0.0021
-    - scientific: "Condylactis gigantea"
-      confidence: 0.0016
-    absorbed_by:
-      scientific: "Sabellastarte magnifica"
-      confidence: 0.9584
+    - scientific: "Spirobranchus giganteus"
+      confidence: 0.0027
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-10-30T19:00:18Z"
+    created: "2026-11-01T13:27:07Z"
     src_mtime: 1793386131.1715963
-    vocab: "d39945a1dfd8"
+    vocab: "9e5c5738f5cb"
     top:
+    - scientific: "Sabellastarte magnifica"
+      confidence: 0.9927
     - scientific: "Condylactis gigantea"
       confidence: 0.0049
     - scientific: "Bartholomea annulata"
       confidence: 0.0001
-    - scientific: "Stenorhynchus seticornis"
-      confidence: 0.0
-    absorbed_by:
-      scientific: "Sabellastarte magnifica"
-      confidence: 0.9927
 species:
 - scientific: "Sabellastarte magnifica"
   role: "primary"

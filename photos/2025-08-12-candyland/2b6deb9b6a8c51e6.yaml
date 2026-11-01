@@ -13,32 +13,32 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-30T16:31:47Z"
+    created: "2026-11-01T13:24:58Z"
     src_mtime: 1786158137.199628
-    vocab: "d39945a1dfd8"
+    vocab: "9e5c5738f5cb"
     top:
     - scientific: "Cyphoma gibbosum"
-      confidence: 0.0431
+      confidence: 0.0427
     - scientific: "Elysia crispata"
-      confidence: 0.0337
+      confidence: 0.0335
     - scientific: "Acropora palmata"
-      confidence: 0.0164
+      confidence: 0.0163
     absorbed_by:
       scientific: "Palythoa caribaeorum"
-      confidence: 0.2959
+      confidence: 0.2937
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-30T16:33:54Z"
+    created: "2026-11-01T13:27:07Z"
     src_mtime: 1786158137.199628
-    vocab: "d39945a1dfd8"
+    vocab: "9e5c5738f5cb"
     top:
     - scientific: "Elacatinus evelynae"
       confidence: 0.0027
-    - scientific: "Gymnothorax miliaris"
-      confidence: 0.0002
-    - scientific: "Acanthemblemaria spinosa"
-      confidence: 0.0001
+    - scientific: "Sabellastarte magnifica"
+      confidence: 0.0019
+    - scientific: "Erythropodium caribaeorum"
+      confidence: 0.0019
     absorbed_by:
       scientific: "Montastraea cavernosa"
-      confidence: 0.6768
+      confidence: 0.6755
 species: []

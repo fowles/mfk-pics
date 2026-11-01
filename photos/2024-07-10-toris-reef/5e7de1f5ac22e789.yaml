@@ -16,31 +16,31 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-30T16:31:47Z"
+    created: "2026-11-01T13:24:58Z"
     src_mtime: 1786160212.2869163
-    vocab: "d39945a1dfd8"
+    vocab: "9e5c5738f5cb"
     top:
     - scientific: "Aulostomus maculatus"
-      confidence: 0.0454
+      confidence: 0.0453
     - scientific: "Halichoeres pictus"
-      confidence: 0.0425
+      confidence: 0.0424
     - scientific: "Sparisoma viride"
-      confidence: 0.0407
+      confidence: 0.0406
     absorbed_by:
       scientific: "Orbicella faveolata"
-      confidence: 0.1701
+      confidence: 0.1698
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-30T16:33:54Z"
+    created: "2026-11-01T13:27:07Z"
     src_mtime: 1786160212.2869163
-    vocab: "d39945a1dfd8"
+    vocab: "9e5c5738f5cb"
     top:
     - scientific: "Myripristis jacobus"
       confidence: 0.2814
     - scientific: "Gymnothorax funebris"
       confidence: 0.0824
     - scientific: "Chromis multilineata"
-      confidence: 0.0658
+      confidence: 0.0657
 species:
 - scientific: "Myripristis jacobus"
   role: "primary"

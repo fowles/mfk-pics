@@ -11,34 +11,28 @@ gps_source: "dive_site"
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-10-30T19:00:12Z"
+    created: "2026-11-01T13:24:58Z"
     src_mtime: 1793386151.837365
-    vocab: "d39945a1dfd8"
+    vocab: "9e5c5738f5cb"
     top:
+    - scientific: "Spirobranchus giganteus"
+      confidence: 0.9848
+    - scientific: "Sabellastarte magnifica"
+      confidence: 0.0027
     - scientific: "Amblycirrhitus pinos"
       confidence: 0.0023
-    - scientific: "Ophioblennius macclurei"
-      confidence: 0.0017
-    - scientific: "Neoniphon marianus"
-      confidence: 0.0017
-    absorbed_by:
-      scientific: "Spirobranchus giganteus"
-      confidence: 0.985
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-10-30T19:00:18Z"
+    created: "2026-11-01T13:27:07Z"
     src_mtime: 1793386151.837365
-    vocab: "d39945a1dfd8"
+    vocab: "9e5c5738f5cb"
     top:
-    - scientific: "Acanthemblemaria maria"
-      confidence: 0.0
-    - scientific: "Amblycirrhitus pinos"
-      confidence: 0.0
-    - scientific: "Acanthemblemaria spinosa"
-      confidence: 0.0
-    absorbed_by:
-      scientific: "Spirobranchus giganteus"
+    - scientific: "Spirobranchus giganteus"
       confidence: 1.0
+    - scientific: "Sabellastarte magnifica"
+      confidence: 0.0
+    - scientific: "Erythropodium caribaeorum"
+      confidence: 0.0
 species:
 - scientific: "Spirobranchus giganteus"
   role: "primary"

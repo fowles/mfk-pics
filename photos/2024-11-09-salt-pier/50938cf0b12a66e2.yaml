@@ -16,9 +16,9 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-30T16:31:47Z"
+    created: "2026-11-01T13:24:58Z"
     src_mtime: 1786156579.1561465
-    vocab: "d39945a1dfd8"
+    vocab: "9e5c5738f5cb"
     top:
     - scientific: "Enchelycore carychroa"
       confidence: 0.4107
@@ -28,16 +28,16 @@ species_suggestions:
       confidence: 0.1093
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-30T16:33:54Z"
+    created: "2026-11-01T13:27:07Z"
     src_mtime: 1786156579.1561465
-    vocab: "d39945a1dfd8"
+    vocab: "9e5c5738f5cb"
     top:
     - scientific: "Gymnothorax vicinus"
-      confidence: 0.3247
+      confidence: 0.3237
     - scientific: "Linckia guildingi"
-      confidence: 0.2438
+      confidence: 0.243
     - scientific: "Davidaster rubiginosus"
-      confidence: 0.0533
+      confidence: 0.0531
 species:
 - scientific: "Enchelycore carychroa"
   role: "primary"

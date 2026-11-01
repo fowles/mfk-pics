@@ -14,28 +14,28 @@ rotation_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-30T16:31:47Z"
+    created: "2026-11-01T13:24:58Z"
     src_mtime: 1786156691.034072
-    vocab: "d39945a1dfd8"
+    vocab: "9e5c5738f5cb"
     top:
     - scientific: "Sepioteuthis sepioidea"
       confidence: 0.1477
     - scientific: "Holocentrus adscensionis"
       confidence: 0.1014
     - scientific: "Lachnolaimus maximus"
-      confidence: 0.0888
+      confidence: 0.0887
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-30T16:33:54Z"
+    created: "2026-11-01T13:27:07Z"
     src_mtime: 1786156691.034072
-    vocab: "d39945a1dfd8"
+    vocab: "9e5c5738f5cb"
     top:
     - scientific: "Chromis multilineata"
-      confidence: 0.2517
+      confidence: 0.2514
     - scientific: "Abudefduf saxatilis"
-      confidence: 0.1537
+      confidence: 0.1535
     - scientific: "Sparisoma viride"
-      confidence: 0.0626
+      confidence: 0.0625
 species:
 - scientific: "Diodon hystrix"
   role: "primary"

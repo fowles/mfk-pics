@@ -13,27 +13,27 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-30T16:31:47Z"
+    created: "2026-11-01T13:24:58Z"
     src_mtime: 1786156689.3478894
-    vocab: "d39945a1dfd8"
+    vocab: "9e5c5738f5cb"
     top:
     - scientific: "Aplysina archeri"
-      confidence: 0.036
+      confidence: 0.0356
     - scientific: "Holacanthus tricolor"
-      confidence: 0.0353
+      confidence: 0.0349
     - scientific: "Apogon maculatus"
-      confidence: 0.0347
+      confidence: 0.0343
     absorbed_by:
       scientific: "Agelas clathrodes"
-      confidence: 0.0825
+      confidence: 0.0816
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-30T16:33:54Z"
+    created: "2026-11-01T13:27:07Z"
     src_mtime: 1786156689.3478894
-    vocab: "d39945a1dfd8"
+    vocab: "9e5c5738f5cb"
     top:
     - scientific: "Halichoeres garnoti"
-      confidence: 0.4359
+      confidence: 0.4358
     - scientific: "Mycteroperca tigris"
       confidence: 0.0482
     - scientific: "Sparisoma viride"

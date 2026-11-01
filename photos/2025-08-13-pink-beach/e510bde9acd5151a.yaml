@@ -16,24 +16,24 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-30T16:31:47Z"
+    created: "2026-11-01T13:24:58Z"
     src_mtime: 1786158190.1198032
-    vocab: "d39945a1dfd8"
+    vocab: "9e5c5738f5cb"
     top:
     - scientific: "Hypoplectrus puella"
-      confidence: 0.0848
+      confidence: 0.0847
     - scientific: "Monacanthus tuckeri"
-      confidence: 0.0664
+      confidence: 0.0663
     - scientific: "Sepioteuthis sepioidea"
-      confidence: 0.0442
+      confidence: 0.0441
     absorbed_by:
       scientific: "Acropora cervicornis"
-      confidence: 0.1686
+      confidence: 0.1685
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-30T16:33:54Z"
+    created: "2026-11-01T13:27:07Z"
     src_mtime: 1786158190.1198032
-    vocab: "d39945a1dfd8"
+    vocab: "9e5c5738f5cb"
     top:
     - scientific: "Myrichthys breviceps"
       confidence: 0.004

@@ -13,33 +13,33 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-30T16:31:47Z"
+    created: "2026-11-01T13:24:58Z"
     src_mtime: 1786159372.2627563
-    vocab: "d39945a1dfd8"
+    vocab: "9e5c5738f5cb"
     top:
     - scientific: "Cyphoma gibbosum"
-      confidence: 0.1223
+      confidence: 0.1197
     - scientific: "Astrophyton muricatum"
-      confidence: 0.0337
+      confidence: 0.033
     - scientific: "Monacanthus tuckeri"
-      confidence: 0.0319
+      confidence: 0.0312
     absorbed_by:
       scientific: "Antillogorgia americana"
-      confidence: 0.3288
+      confidence: 0.322
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-30T16:33:54Z"
+    created: "2026-11-01T13:27:07Z"
     src_mtime: 1786159372.2627563
-    vocab: "d39945a1dfd8"
+    vocab: "9e5c5738f5cb"
     top:
     - scientific: "Antennarius multiocellatus"
-      confidence: 0.9533
+      confidence: 0.9514
     - scientific: "Astrophyton muricatum"
       confidence: 0.0109
-    - scientific: "Cyphoma gibbosum"
-      confidence: 0.0015
+    - scientific: "Erythropodium caribaeorum"
+      confidence: 0.002
 species:
 - scientific: "Antennarius multiocellatus"
   role: "primary"
-  confidence: 0.4767
+  confidence: 0.4757
   identified_by: "bioclip-2.5"

@@ -16,24 +16,24 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-30T16:31:47Z"
+    created: "2026-11-01T13:24:58Z"
     src_mtime: 1786158874.8549926
-    vocab: "d39945a1dfd8"
+    vocab: "9e5c5738f5cb"
     top:
     - scientific: "Aulostomus maculatus"
-      confidence: 0.031
+      confidence: 0.0306
     - scientific: "Thalassoma bifasciatum"
-      confidence: 0.0189
+      confidence: 0.0187
     - scientific: "Pseudupeneus maculatus"
-      confidence: 0.0134
+      confidence: 0.0132
     absorbed_by:
       scientific: "Orbicella annularis"
-      confidence: 0.1853
+      confidence: 0.1833
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-30T16:33:54Z"
+    created: "2026-11-01T13:27:07Z"
     src_mtime: 1786158874.8549926
-    vocab: "d39945a1dfd8"
+    vocab: "9e5c5738f5cb"
     top:
     - scientific: "Monacanthus tuckeri"
       confidence: 0.9305

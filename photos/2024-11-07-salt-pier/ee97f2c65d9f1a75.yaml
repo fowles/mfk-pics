@@ -16,21 +16,21 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-30T16:31:47Z"
+    created: "2026-11-01T13:24:58Z"
     src_mtime: 1786156350.0616982
-    vocab: "d39945a1dfd8"
+    vocab: "9e5c5738f5cb"
     top:
     - scientific: "Myrichthys breviceps"
-      confidence: 0.4201
+      confidence: 0.42
     - scientific: "Hermodice carunculata"
       confidence: 0.1525
     - scientific: "Myrichthys ocellatus"
       confidence: 0.135
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-30T16:33:54Z"
+    created: "2026-11-01T13:27:07Z"
     src_mtime: 1786156350.0616982
-    vocab: "d39945a1dfd8"
+    vocab: "9e5c5738f5cb"
     top:
     - scientific: "Myrichthys breviceps"
       confidence: 0.9359
@@ -41,5 +41,5 @@ species_suggestions:
 species:
 - scientific: "Myrichthys breviceps"
   role: "primary"
-  confidence: 0.678
+  confidence: 0.6779
   identified_by: "bioclip-2+bioclip-2.5"

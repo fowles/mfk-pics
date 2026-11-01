@@ -16,21 +16,21 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-30T16:31:47Z"
+    created: "2026-11-01T13:24:58Z"
     src_mtime: 1786158238.6374037
-    vocab: "d39945a1dfd8"
+    vocab: "9e5c5738f5cb"
     top:
     - scientific: "Gymnothorax funebris"
-      confidence: 0.1741
+      confidence: 0.1736
     - scientific: "Cephalopholis fulva"
-      confidence: 0.0869
+      confidence: 0.0866
     - scientific: "Myrichthys breviceps"
-      confidence: 0.0561
+      confidence: 0.0559
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-30T16:33:54Z"
+    created: "2026-11-01T13:27:07Z"
     src_mtime: 1786158238.6374037
-    vocab: "d39945a1dfd8"
+    vocab: "9e5c5738f5cb"
     top:
     - scientific: "Halichoeres garnoti"
       confidence: 0.363
@@ -41,5 +41,5 @@ species_suggestions:
 species:
 - scientific: "Myrichthys breviceps"
   role: "primary"
-  confidence: 0.2085
+  confidence: 0.2084
   identified_by: "bioclip-2+bioclip-2.5"

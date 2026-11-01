@@ -16,30 +16,30 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-30T16:31:47Z"
+    created: "2026-11-01T13:24:58Z"
     src_mtime: 1786156581.042978
-    vocab: "d39945a1dfd8"
+    vocab: "9e5c5738f5cb"
     top:
     - scientific: "Gymnothorax funebris"
-      confidence: 0.5538
+      confidence: 0.553
     - scientific: "Gymnothorax miliaris"
-      confidence: 0.361
+      confidence: 0.3604
     - scientific: "Gymnothorax vicinus"
       confidence: 0.0122
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-30T16:33:54Z"
+    created: "2026-11-01T13:27:07Z"
     src_mtime: 1786156581.042978
-    vocab: "d39945a1dfd8"
+    vocab: "9e5c5738f5cb"
     top:
     - scientific: "Elysia crispata"
-      confidence: 0.2588
+      confidence: 0.2581
     - scientific: "Ophioblennius macclurei"
-      confidence: 0.127
+      confidence: 0.1267
     - scientific: "Stegastes adustus"
-      confidence: 0.0787
+      confidence: 0.0785
 species:
 - scientific: "Gymnothorax funebris"
   role: "primary"
-  confidence: 0.2769
+  confidence: 0.2765
   identified_by: "bioclip-2"

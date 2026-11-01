@@ -14,24 +14,24 @@ rotation_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-30T16:31:47Z"
+    created: "2026-11-01T13:24:58Z"
     src_mtime: 1786156319.1548762
-    vocab: "d39945a1dfd8"
+    vocab: "9e5c5738f5cb"
     top:
     - scientific: "Stegastes partitus"
-      confidence: 0.107
+      confidence: 0.106
     - scientific: "Thalassoma bifasciatum"
-      confidence: 0.0178
-    - scientific: "Cephalopholis cruentata"
-      confidence: 0.0092
+      confidence: 0.0176
+    - scientific: "Erythropodium caribaeorum"
+      confidence: 0.0094
     absorbed_by:
       scientific: "Palythoa caribaeorum"
-      confidence: 0.1696
+      confidence: 0.168
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-30T16:33:54Z"
+    created: "2026-11-01T13:27:07Z"
     src_mtime: 1786156319.1548762
-    vocab: "d39945a1dfd8"
+    vocab: "9e5c5738f5cb"
     top:
     - scientific: "Stegastes partitus"
       confidence: 0.0144

@@ -16,21 +16,21 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-30T16:31:47Z"
+    created: "2026-11-01T13:24:58Z"
     src_mtime: 1786157214.692983
-    vocab: "d39945a1dfd8"
+    vocab: "9e5c5738f5cb"
     top:
     - scientific: "Acanthostracion polygonius"
-      confidence: 0.3827
+      confidence: 0.3826
     - scientific: "Serranus tigrinus"
-      confidence: 0.1115
+      confidence: 0.1114
     - scientific: "Myrichthys breviceps"
       confidence: 0.0607
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-30T16:33:54Z"
+    created: "2026-11-01T13:27:07Z"
     src_mtime: 1786157214.692983
-    vocab: "d39945a1dfd8"
+    vocab: "9e5c5738f5cb"
     top:
     - scientific: "Gymnothorax moringa"
       confidence: 0.9252

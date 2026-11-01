@@ -13,28 +13,28 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-30T16:31:47Z"
+    created: "2026-11-01T13:24:58Z"
     src_mtime: 1786158867.577095
-    vocab: "d39945a1dfd8"
+    vocab: "9e5c5738f5cb"
     top:
     - scientific: "Chromis cyanea"
-      confidence: 0.4392
+      confidence: 0.4348
     - scientific: "Thalassoma bifasciatum"
-      confidence: 0.0246
+      confidence: 0.0243
     - scientific: "Acanthurus coeruleus"
-      confidence: 0.021
+      confidence: 0.0207
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-30T16:33:54Z"
+    created: "2026-11-01T13:27:07Z"
     src_mtime: 1786158867.577095
-    vocab: "d39945a1dfd8"
+    vocab: "9e5c5738f5cb"
     top:
     - scientific: "Aplysina archeri"
       confidence: 0.9582
     - scientific: "Chromis cyanea"
       confidence: 0.0366
-    - scientific: "Clepticus parrae"
-      confidence: 0.0004
+    - scientific: "Callyspongia plicifera"
+      confidence: 0.0025
 species:
 - scientific: "Clepticus parrae"
   role: "primary"

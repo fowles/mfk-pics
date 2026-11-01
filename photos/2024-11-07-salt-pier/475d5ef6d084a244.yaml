@@ -13,21 +13,21 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-30T16:31:47Z"
+    created: "2026-11-01T13:24:58Z"
     src_mtime: 1786156337.9007614
-    vocab: "d39945a1dfd8"
+    vocab: "9e5c5738f5cb"
     top:
     - scientific: "Myrichthys breviceps"
-      confidence: 0.5651
+      confidence: 0.5649
     - scientific: "Holothuria thomasi"
       confidence: 0.0781
     - scientific: "Aulostomus maculatus"
-      confidence: 0.0544
+      confidence: 0.0543
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-30T16:33:54Z"
+    created: "2026-11-01T13:27:07Z"
     src_mtime: 1786156337.9007614
-    vocab: "d39945a1dfd8"
+    vocab: "9e5c5738f5cb"
     top:
     - scientific: "Aulostomus maculatus"
       confidence: 0.4071
@@ -38,5 +38,5 @@ species_suggestions:
 species:
 - scientific: "Myrichthys breviceps"
   role: "primary"
-  confidence: 0.3994
+  confidence: 0.3993
   identified_by: "bioclip-2+bioclip-2.5"

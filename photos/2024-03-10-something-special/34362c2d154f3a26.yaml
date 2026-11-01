@@ -13,31 +13,31 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-30T16:31:47Z"
+    created: "2026-11-01T13:24:58Z"
     src_mtime: 1786159065.100807
-    vocab: "d39945a1dfd8"
+    vocab: "9e5c5738f5cb"
     top:
     - scientific: "Gramma loreto"
-      confidence: 0.0543
+      confidence: 0.054
     - scientific: "Holacanthus tricolor"
-      confidence: 0.0394
+      confidence: 0.0392
     - scientific: "Stegastes partitus"
-      confidence: 0.0244
+      confidence: 0.0243
     absorbed_by:
       scientific: "Porites astreoides"
-      confidence: 0.3393
+      confidence: 0.3377
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-30T16:33:54Z"
+    created: "2026-11-01T13:27:07Z"
     src_mtime: 1786159065.100807
-    vocab: "d39945a1dfd8"
+    vocab: "9e5c5738f5cb"
     top:
     - scientific: "Sparisoma aurofrenatum"
-      confidence: 0.0547
+      confidence: 0.0545
     - scientific: "Acropora palmata"
-      confidence: 0.0474
+      confidence: 0.0472
     - scientific: "Chaetodon sedentarius"
-      confidence: 0.0311
+      confidence: 0.031
     absorbed_by:
       scientific: "Orbicella faveolata"
-      confidence: 0.354
+      confidence: 0.3527

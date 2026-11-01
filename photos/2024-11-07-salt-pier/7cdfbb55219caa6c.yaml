@@ -13,29 +13,29 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-30T16:31:47Z"
+    created: "2026-11-01T13:24:58Z"
     src_mtime: 1786156317.9974113
-    vocab: "d39945a1dfd8"
+    vocab: "9e5c5738f5cb"
     top:
     - scientific: "Mycteroperca tigris"
-      confidence: 0.0643
+      confidence: 0.064
     - scientific: "Ginglymostoma cirratum"
-      confidence: 0.0642
+      confidence: 0.064
     - scientific: "Malacanthus plumieri"
-      confidence: 0.0581
+      confidence: 0.0579
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-30T16:33:54Z"
+    created: "2026-11-01T13:27:07Z"
     src_mtime: 1786156317.9974113
-    vocab: "d39945a1dfd8"
+    vocab: "9e5c5738f5cb"
     top:
+    - scientific: "Sabellastarte magnifica"
+      confidence: 0.06
     - scientific: "Aplysina archeri"
-      confidence: 0.0352
+      confidence: 0.0351
     - scientific: "Halichoeres garnoti"
-      confidence: 0.0175
-    - scientific: "Holothuria thomasi"
-      confidence: 0.0166
+      confidence: 0.0174
     absorbed_by:
       scientific: "Antillogorgia americana"
-      confidence: 0.3096
+      confidence: 0.3087
 species: []

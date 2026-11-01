@@ -16,24 +16,24 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-30T16:31:47Z"
+    created: "2026-11-01T13:24:58Z"
     src_mtime: 1786158238.056014
-    vocab: "d39945a1dfd8"
+    vocab: "9e5c5738f5cb"
     top:
     - scientific: "Thalassoma bifasciatum"
-      confidence: 0.0612
+      confidence: 0.0607
     - scientific: "Holacanthus tricolor"
-      confidence: 0.0493
+      confidence: 0.049
     - scientific: "Acropora palmata"
-      confidence: 0.0225
+      confidence: 0.0224
     absorbed_by:
       scientific: "Orbicella annularis"
-      confidence: 0.2549
+      confidence: 0.2532
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-30T16:33:54Z"
+    created: "2026-11-01T13:27:07Z"
     src_mtime: 1786158238.056014
-    vocab: "d39945a1dfd8"
+    vocab: "9e5c5738f5cb"
     top:
     - scientific: "Halichoeres garnoti"
       confidence: 0.0646

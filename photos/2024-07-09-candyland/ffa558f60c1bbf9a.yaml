@@ -16,21 +16,21 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-30T16:31:47Z"
+    created: "2026-11-01T13:24:58Z"
     src_mtime: 1786159168.1334217
-    vocab: "d39945a1dfd8"
+    vocab: "9e5c5738f5cb"
     top:
     - scientific: "Chelonia mydas"
-      confidence: 0.3417
+      confidence: 0.3415
     - scientific: "Eretmochelys imbricata"
-      confidence: 0.264
+      confidence: 0.2638
     - scientific: "Homo sapiens"
-      confidence: 0.1453
+      confidence: 0.1452
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-30T16:33:54Z"
+    created: "2026-11-01T13:27:07Z"
     src_mtime: 1786159168.1334217
-    vocab: "d39945a1dfd8"
+    vocab: "9e5c5738f5cb"
     top:
     - scientific: "Eurythoe complanata"
       confidence: 0.433

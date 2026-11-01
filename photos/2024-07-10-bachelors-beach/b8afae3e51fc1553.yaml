@@ -16,32 +16,32 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-30T16:31:47Z"
+    created: "2026-11-01T13:24:58Z"
     src_mtime: 1786158733.3617053
-    vocab: "d39945a1dfd8"
+    vocab: "9e5c5738f5cb"
     top:
     - scientific: "Cephalopholis cruentata"
-      confidence: 0.1348
+      confidence: 0.1343
     - scientific: "Stegastes partitus"
-      confidence: 0.0391
+      confidence: 0.0389
     - scientific: "Chromis multilineata"
-      confidence: 0.0261
+      confidence: 0.026
     absorbed_by:
       scientific: "Xestospongia muta"
-      confidence: 0.4316
+      confidence: 0.43
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-30T16:33:54Z"
+    created: "2026-11-01T13:27:07Z"
     src_mtime: 1786158733.3617053
-    vocab: "d39945a1dfd8"
+    vocab: "9e5c5738f5cb"
     top:
     - scientific: "Acropora palmata"
-      confidence: 0.0551
+      confidence: 0.055
     - scientific: "Stegastes partitus"
-      confidence: 0.0455
+      confidence: 0.0454
     - scientific: "Abudefduf saxatilis"
-      confidence: 0.0419
+      confidence: 0.0418
     absorbed_by:
       scientific: "Montastraea cavernosa"
-      confidence: 0.6436
+      confidence: 0.6425
 species: []

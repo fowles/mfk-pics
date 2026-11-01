@@ -13,21 +13,21 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-30T16:31:47Z"
+    created: "2026-11-01T13:24:58Z"
     src_mtime: 1786156520.0245194
-    vocab: "d39945a1dfd8"
+    vocab: "9e5c5738f5cb"
     top:
     - scientific: "Canthigaster rostrata"
-      confidence: 0.8871
+      confidence: 0.8868
     - scientific: "Stegastes planifrons"
       confidence: 0.037
     - scientific: "Stegastes partitus"
       confidence: 0.0287
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-30T16:33:54Z"
+    created: "2026-11-01T13:27:07Z"
     src_mtime: 1786156520.0245194
-    vocab: "d39945a1dfd8"
+    vocab: "9e5c5738f5cb"
     top:
     - scientific: "Canthigaster rostrata"
       confidence: 0.9999
@@ -38,5 +38,5 @@ species_suggestions:
 species:
 - scientific: "Canthigaster rostrata"
   role: "primary"
-  confidence: 0.9435
+  confidence: 0.9434
   identified_by: "bioclip-2+bioclip-2.5"

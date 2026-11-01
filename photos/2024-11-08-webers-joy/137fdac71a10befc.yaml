@@ -13,29 +13,29 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-30T16:31:47Z"
+    created: "2026-11-01T13:24:58Z"
     src_mtime: 1786156521.5935345
-    vocab: "d39945a1dfd8"
+    vocab: "9e5c5738f5cb"
     top:
     - scientific: "Chromis multilineata"
-      confidence: 0.0545
+      confidence: 0.0542
     - scientific: "Davidaster rubiginosus"
-      confidence: 0.0443
+      confidence: 0.0441
     - scientific: "Thalassoma bifasciatum"
-      confidence: 0.0267
+      confidence: 0.0266
     absorbed_by:
       scientific: "Antillogorgia americana"
-      confidence: 0.222
+      confidence: 0.2211
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-30T16:33:54Z"
+    created: "2026-11-01T13:27:07Z"
     src_mtime: 1786156521.5935345
-    vocab: "d39945a1dfd8"
+    vocab: "9e5c5738f5cb"
     top:
     - scientific: "Chromis cyanea"
       confidence: 0.1784
     - scientific: "Chromis multilineata"
-      confidence: 0.0875
+      confidence: 0.0874
     - scientific: "Davidaster rubiginosus"
       confidence: 0.0268
     absorbed_by:

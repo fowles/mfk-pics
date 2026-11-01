@@ -13,32 +13,29 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-30T16:31:47Z"
+    created: "2026-11-01T13:24:58Z"
     src_mtime: 1786158131.0950518
-    vocab: "d39945a1dfd8"
+    vocab: "9e5c5738f5cb"
     top:
+    - scientific: "Erythropodium caribaeorum"
+      confidence: 0.0246
     - scientific: "Coryphopterus lipernes"
-      confidence: 0.0028
+      confidence: 0.0027
     - scientific: "Gymnothorax miliaris"
       confidence: 0.0013
-    - scientific: "Acanthemblemaria spinosa"
-      confidence: 0.0008
     absorbed_by:
       scientific: "Orbicella annularis"
-      confidence: 0.731
+      confidence: 0.7131
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-30T16:33:54Z"
+    created: "2026-11-01T13:27:07Z"
     src_mtime: 1786158131.0950518
-    vocab: "d39945a1dfd8"
+    vocab: "9e5c5738f5cb"
     top:
+    - scientific: "Erythropodium caribaeorum"
+      confidence: 0.5304
+    - scientific: "Spirobranchus giganteus"
+      confidence: 0.0017
     - scientific: "Abudefduf saxatilis"
-      confidence: 0.0012
-    - scientific: "Stegastes adustus"
-      confidence: 0.0011
-    - scientific: "Acropora palmata"
-      confidence: 0.0005
-    absorbed_by:
-      scientific: "Porites porites"
-      confidence: 0.4017
+      confidence: 0.0006
 species: []

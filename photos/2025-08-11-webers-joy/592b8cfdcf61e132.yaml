@@ -16,27 +16,27 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-30T16:31:47Z"
+    created: "2026-11-01T13:24:58Z"
     src_mtime: 1786071914.1815748
-    vocab: "d39945a1dfd8"
+    vocab: "9e5c5738f5cb"
     top:
+    - scientific: "Erythropodium caribaeorum"
+      confidence: 0.0672
     - scientific: "Serranus tigrinus"
-      confidence: 0.0619
+      confidence: 0.0577
     - scientific: "Panulirus argus"
-      confidence: 0.0424
-    - scientific: "Monacanthus tuckeri"
-      confidence: 0.0358
+      confidence: 0.0395
     absorbed_by:
       scientific: "Millepora alcicornis"
-      confidence: 0.1988
+      confidence: 0.1854
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-30T16:33:54Z"
+    created: "2026-11-01T13:27:07Z"
     src_mtime: 1786071914.1815748
-    vocab: "d39945a1dfd8"
+    vocab: "9e5c5738f5cb"
     top:
     - scientific: "Ancylomenes pedersoni"
-      confidence: 0.8907
+      confidence: 0.8904
     - scientific: "Periclimenes yucatanicus"
       confidence: 0.0687
     - scientific: "Stenopus hispidus"
@@ -44,5 +44,5 @@ species_suggestions:
 species:
 - scientific: "Ancylomenes pedersoni"
   role: "primary"
-  confidence: 0.4454
+  confidence: 0.4452
   identified_by: "bioclip-2.5"

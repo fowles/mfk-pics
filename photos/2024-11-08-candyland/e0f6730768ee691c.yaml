@@ -13,32 +13,32 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-30T16:31:47Z"
+    created: "2026-11-01T13:24:58Z"
     src_mtime: 1786156494.8640351
-    vocab: "d39945a1dfd8"
+    vocab: "9e5c5738f5cb"
     top:
     - scientific: "Chromis cyanea"
-      confidence: 0.0565
+      confidence: 0.0558
     - scientific: "Davidaster rubiginosus"
-      confidence: 0.0559
+      confidence: 0.0552
     - scientific: "Thalassoma bifasciatum"
-      confidence: 0.0518
+      confidence: 0.0512
     absorbed_by:
       scientific: "Orbicella annularis"
-      confidence: 0.3099
+      confidence: 0.3063
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-30T16:33:54Z"
+    created: "2026-11-01T13:27:07Z"
     src_mtime: 1786156494.8640351
-    vocab: "d39945a1dfd8"
+    vocab: "9e5c5738f5cb"
     top:
     - scientific: "Aulostomus maculatus"
-      confidence: 0.0748
+      confidence: 0.0747
     - scientific: "Abudefduf saxatilis"
-      confidence: 0.0738
+      confidence: 0.0737
     - scientific: "Davidaster rubiginosus"
       confidence: 0.0181
     absorbed_by:
       scientific: "Antillogorgia americana"
-      confidence: 0.5644
+      confidence: 0.5643
 species: []

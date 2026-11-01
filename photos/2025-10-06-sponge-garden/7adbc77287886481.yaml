@@ -13,9 +13,9 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-30T16:31:47Z"
+    created: "2026-11-01T13:24:58Z"
     src_mtime: 1786159779.4032478
-    vocab: "d39945a1dfd8"
+    vocab: "9e5c5738f5cb"
     top:
     - scientific: "Haemulon macrostomum"
       confidence: 0.1143
@@ -25,12 +25,12 @@ species_suggestions:
       confidence: 0.0834
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-30T16:33:54Z"
+    created: "2026-11-01T13:27:07Z"
     src_mtime: 1786159779.4032478
-    vocab: "d39945a1dfd8"
+    vocab: "9e5c5738f5cb"
     top:
     - scientific: "Haemulon chrysargyreum"
-      confidence: 0.273
+      confidence: 0.2729
     - scientific: "Haemulon macrostomum"
       confidence: 0.1533
     - scientific: "Sparisoma viride"
@@ -38,5 +38,5 @@ species_suggestions:
 species:
 - scientific: "Haemulon chrysargyreum"
   role: "primary"
-  confidence: 0.1365
+  confidence: 0.1364
   identified_by: "bioclip-2.5"

@@ -16,32 +16,32 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-30T16:31:47Z"
+    created: "2026-11-01T13:24:58Z"
     src_mtime: 1786156372.0536664
-    vocab: "d39945a1dfd8"
+    vocab: "9e5c5738f5cb"
     top:
     - scientific: "Aplysina archeri"
-      confidence: 0.0486
+      confidence: 0.0484
     - scientific: "Holacanthus tricolor"
-      confidence: 0.0288
+      confidence: 0.0287
     - scientific: "Thalassoma bifasciatum"
-      confidence: 0.0204
+      confidence: 0.0203
     absorbed_by:
       scientific: "Xestospongia muta"
-      confidence: 0.3243
+      confidence: 0.323
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-30T16:33:54Z"
+    created: "2026-11-01T13:27:07Z"
     src_mtime: 1786156372.0536664
-    vocab: "d39945a1dfd8"
+    vocab: "9e5c5738f5cb"
     top:
     - scientific: "Thalassoma bifasciatum"
-      confidence: 0.0727
+      confidence: 0.0724
     - scientific: "Halichoeres garnoti"
-      confidence: 0.0351
+      confidence: 0.035
     - scientific: "Halichoeres pictus"
-      confidence: 0.0217
+      confidence: 0.0216
     absorbed_by:
       scientific: "Dendrogyra cylindrus"
-      confidence: 0.5155
+      confidence: 0.5131
 species: []

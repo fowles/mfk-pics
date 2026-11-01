@@ -16,21 +16,21 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-30T16:31:47Z"
+    created: "2026-11-01T13:24:58Z"
     src_mtime: 1786156901.602562
-    vocab: "d39945a1dfd8"
+    vocab: "9e5c5738f5cb"
     top:
     - scientific: "Percnon gibbesi"
-      confidence: 0.0901
+      confidence: 0.09
     - scientific: "Myrichthys ocellatus"
       confidence: 0.0706
     - scientific: "Canthigaster jamestyleri"
-      confidence: 0.0659
+      confidence: 0.0658
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-30T16:33:54Z"
+    created: "2026-11-01T13:27:07Z"
     src_mtime: 1786156901.602562
-    vocab: "d39945a1dfd8"
+    vocab: "9e5c5738f5cb"
     top:
     - scientific: "Epinephelus adscensionis"
       confidence: 0.4843

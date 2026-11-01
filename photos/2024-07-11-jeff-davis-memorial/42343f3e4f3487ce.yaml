@@ -16,32 +16,32 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-30T16:31:47Z"
+    created: "2026-11-01T13:24:58Z"
     src_mtime: 1786159613.301697
-    vocab: "d39945a1dfd8"
+    vocab: "9e5c5738f5cb"
     top:
     - scientific: "Stegastes partitus"
-      confidence: 0.0593
+      confidence: 0.0587
     - scientific: "Coryphopterus lipernes"
-      confidence: 0.0461
-    - scientific: "Gymnothorax miliaris"
-      confidence: 0.0074
+      confidence: 0.0456
+    - scientific: "Spirobranchus giganteus"
+      confidence: 0.0217
     absorbed_by:
       scientific: "Orbicella annularis"
-      confidence: 0.7693
+      confidence: 0.7612
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-30T16:33:54Z"
+    created: "2026-11-01T13:27:07Z"
     src_mtime: 1786159613.301697
-    vocab: "d39945a1dfd8"
+    vocab: "9e5c5738f5cb"
     top:
+    - scientific: "Spirobranchus giganteus"
+      confidence: 0.0952
     - scientific: "Stegastes planifrons"
       confidence: 0.0144
     - scientific: "Stegastes partitus"
       confidence: 0.0045
-    - scientific: "Gymnothorax miliaris"
-      confidence: 0.0023
     absorbed_by:
       scientific: "Orbicella annularis"
-      confidence: 0.8752
+      confidence: 0.8751
 species: []

@@ -14,21 +14,21 @@ rotation_applied: 270
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-30T16:31:47Z"
+    created: "2026-11-01T13:24:58Z"
     src_mtime: 1787178442.442586
-    vocab: "d39945a1dfd8"
+    vocab: "9e5c5738f5cb"
     top:
     - scientific: "Ginglymostoma cirratum"
-      confidence: 0.5562
+      confidence: 0.5554
     - scientific: "Urobatis jamaicensis"
-      confidence: 0.0882
+      confidence: 0.0881
     - scientific: "Aetobatus narinari"
       confidence: 0.0227
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-30T16:33:54Z"
+    created: "2026-11-01T13:27:07Z"
     src_mtime: 1787178442.442586
-    vocab: "d39945a1dfd8"
+    vocab: "9e5c5738f5cb"
     top:
     - scientific: "Diodon hystrix"
       confidence: 0.8582

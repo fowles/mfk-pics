@@ -11,21 +11,21 @@ gps_source: "dive_site"
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-10-30T19:00:12Z"
+    created: "2026-11-01T13:24:58Z"
     src_mtime: 1793386147.5627341
-    vocab: "d39945a1dfd8"
+    vocab: "9e5c5738f5cb"
     top:
     - scientific: "Pterois volitans"
       confidence: 0.9958
     - scientific: "Nemaster grandis"
       confidence: 0.001
-    - scientific: "Panulirus argus"
-      confidence: 0.0009
+    - scientific: "Sabellastarte magnifica"
+      confidence: 0.001
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-10-30T19:00:18Z"
+    created: "2026-11-01T13:27:07Z"
     src_mtime: 1793386147.5627341
-    vocab: "d39945a1dfd8"
+    vocab: "9e5c5738f5cb"
     top:
     - scientific: "Pterois volitans"
       confidence: 1.0

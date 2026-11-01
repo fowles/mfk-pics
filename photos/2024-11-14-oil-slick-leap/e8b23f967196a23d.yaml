@@ -16,31 +16,31 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-08-30T16:31:47Z"
+    created: "2026-11-01T13:24:58Z"
     src_mtime: 1786156900.4186296
-    vocab: "d39945a1dfd8"
+    vocab: "9e5c5738f5cb"
     top:
     - scientific: "Cephalopholis fulva"
-      confidence: 0.0254
+      confidence: 0.0253
     - scientific: "Cephalopholis cruentata"
-      confidence: 0.025
+      confidence: 0.0249
     - scientific: "Sparisoma viride"
-      confidence: 0.0081
+      confidence: 0.008
     absorbed_by:
       scientific: "Orbicella annularis"
-      confidence: 0.2354
+      confidence: 0.2344
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-08-30T16:33:54Z"
+    created: "2026-11-01T13:27:07Z"
     src_mtime: 1786156900.4186296
-    vocab: "d39945a1dfd8"
+    vocab: "9e5c5738f5cb"
     top:
     - scientific: "Halichoeres garnoti"
       confidence: 0.0316
     - scientific: "Haemulon macrostomum"
       confidence: 0.0284
-    - scientific: "Serranus tigrinus"
-      confidence: 0.0068
+    - scientific: "Sabellastarte magnifica"
+      confidence: 0.0081
     absorbed_by:
       scientific: "Eusmilia fastigiata"
-      confidence: 0.3179
+      confidence: 0.3176
