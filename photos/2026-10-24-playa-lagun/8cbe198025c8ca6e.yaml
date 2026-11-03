@@ -1,0 +1,44 @@
+date: "2026-10-24 12:05:58"
+location: "Curacao"
+location_source: "dive_site"
+dive_site: "Playa Lagun"
+credit: "Marc Howard"
+import_album: "Curacao Diving - Playa Lagun 10-24"
+import_original_name: "PA240036(1).JPG"
+lat: 12.3182733
+lon: -69.1504569
+gps_source: "dive_site"
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-03T14:28:54Z"
+    src_mtime: 1793715613.221069
+    vocab: "9e5c5738f5cb"
+    top:
+    - scientific: "Aplysina archeri"
+      confidence: 0.117
+    - scientific: "Opistognathus aurifrons"
+      confidence: 0.0338
+    - scientific: "Serranus tigrinus"
+      confidence: 0.0272
+    absorbed_by:
+      scientific: "Niphates digitalis"
+      confidence: 0.2108
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-03T14:29:05Z"
+    src_mtime: 1793715613.221069
+    vocab: "9e5c5738f5cb"
+    top:
+    - scientific: "Chaetodon striatus"
+      confidence: 0.7029
+    - scientific: "Thalassoma bifasciatum"
+      confidence: 0.1823
+    - scientific: "Hypoplectrus indigo"
+      confidence: 0.0515
+species:
+- scientific: "Chaetodon striatus"
+  role: "primary"
+  confidence: 0.3514
+  identified_by: "bioclip-2.5"
+culled: true

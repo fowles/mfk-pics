@@ -1,0 +1,38 @@
+date: "2026-10-24 11:16:18"
+location: "Curacao"
+location_source: "dive_site"
+dive_site: "Playa Lagun"
+credit: "Marc Howard"
+import_album: "Curacao Diving - Playa Lagun 10-24"
+import_original_name: "PXL_20261024_151618470.jpg"
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-03T14:28:54Z"
+    src_mtime: 1793715645.7886612
+    vocab: "9e5c5738f5cb"
+    top:
+    - scientific: "Chelonia mydas"
+      confidence: 0.2637
+    - scientific: "Eretmochelys imbricata"
+      confidence: 0.1199
+    - scientific: "Selar crumenophthalmus"
+      confidence: 0.0935
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-03T14:29:05Z"
+    src_mtime: 1793715645.7886612
+    vocab: "9e5c5738f5cb"
+    top:
+    - scientific: "Alectis ciliaris"
+      confidence: 0.4227
+    - scientific: "Tylosurus crocodilus"
+      confidence: 0.064
+    - scientific: "Carangoides bartholomaei"
+      confidence: 0.0628
+species:
+- scientific: "Alectis ciliaris"
+  role: "primary"
+  confidence: 0.2114
+  identified_by: "bioclip-2.5"
+culled: true

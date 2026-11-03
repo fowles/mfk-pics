@@ -1,0 +1,41 @@
+date: "2026-10-24 12:25:53"
+location: "Curacao"
+location_source: "dive_site"
+dive_site: "Playa Lagun"
+credit: "Miriam Melnick"
+import_album: "Curacao Diving - Playa Lagun 10-24"
+import_original_name: "PA240056.JPG"
+lat: 12.3182733
+lon: -69.1504569
+gps_source: "dive_site"
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-03T14:28:54Z"
+    src_mtime: 1793715615.7659636
+    vocab: "9e5c5738f5cb"
+    top:
+    - scientific: "Scorpaena plumieri"
+      confidence: 0.2367
+    - scientific: "Hippocampus reidi"
+      confidence: 0.1546
+    - scientific: "Petrochirus diogenes"
+      confidence: 0.0769
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-03T14:29:05Z"
+    src_mtime: 1793715615.7659636
+    vocab: "9e5c5738f5cb"
+    top:
+    - scientific: "Holothuria mexicana"
+      confidence: 0.7661
+    - scientific: "Aliger gigas"
+      confidence: 0.1648
+    - scientific: "Scorpaena plumieri"
+      confidence: 0.0209
+species:
+- scientific: "Holothuria mexicana"
+  role: "primary"
+  confidence: 0.3831
+  identified_by: "bioclip-2.5"
+culled: true

@@ -1,0 +1,41 @@
+date: "2026-10-24 11:57:25"
+location: "Curacao"
+location_source: "dive_site"
+dive_site: "Playa Lagun"
+credit: "Marc Howard"
+import_album: "Curacao Diving - Playa Lagun 10-24"
+import_original_name: "PA240011(1).JPG"
+lat: 12.3182733
+lon: -69.1504569
+gps_source: "dive_site"
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-03T14:28:54Z"
+    src_mtime: 1793715608.8501668
+    vocab: "9e5c5738f5cb"
+    top:
+    - scientific: "Sphyrna mokarran"
+      confidence: 0.4913
+    - scientific: "Sphyrna lewini"
+      confidence: 0.0974
+    - scientific: "Ginglymostoma cirratum"
+      confidence: 0.0777
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-03T14:29:05Z"
+    src_mtime: 1793715608.8501668
+    vocab: "9e5c5738f5cb"
+    top:
+    - scientific: "Eretmochelys imbricata"
+      confidence: 0.3418
+    - scientific: "Opistognathus aurifrons"
+      confidence: 0.1824
+    - scientific: "Chelonia mydas"
+      confidence: 0.1358
+species:
+- scientific: "Sphyrna mokarran"
+  role: "primary"
+  confidence: 0.2457
+  identified_by: "bioclip-2"
+culled: true

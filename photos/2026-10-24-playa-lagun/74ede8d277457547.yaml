@@ -1,0 +1,40 @@
+date: "2026-10-24 12:06:22"
+location: "Curacao"
+location_source: "dive_site"
+dive_site: "Playa Lagun"
+credit: "Miriam Melnick"
+import_album: "Curacao Diving - Playa Lagun 10-24"
+import_original_name: "PA240021.JPG"
+lat: 12.3182733
+lon: -69.1504569
+gps_source: "dive_site"
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-03T14:28:54Z"
+    src_mtime: 1793715611.2818193
+    vocab: "9e5c5738f5cb"
+    top:
+    - scientific: "Aplysina archeri"
+      confidence: 0.4771
+    - scientific: "Nemaster grandis"
+      confidence: 0.0885
+    - scientific: "Astrophyton muricatum"
+      confidence: 0.036
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-03T14:29:05Z"
+    src_mtime: 1793715611.2818193
+    vocab: "9e5c5738f5cb"
+    top:
+    - scientific: "Monacanthus tuckeri"
+      confidence: 0.0866
+    - scientific: "Astrophyton muricatum"
+      confidence: 0.0073
+    - scientific: "Ophiothrix suensonii"
+      confidence: 0.0055
+    absorbed_by:
+      scientific: "Cirrhipathes leutkeni"
+      confidence: 0.8343
+species: []
+culled: true

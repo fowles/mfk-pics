@@ -1,0 +1,41 @@
+date: "2026-10-24 12:03:15"
+location: "Curacao"
+location_source: "dive_site"
+dive_site: "Playa Lagun"
+credit: "Marc Howard"
+import_album: "Curacao Diving - Playa Lagun 10-24"
+import_original_name: "PA240015(1).JPG"
+lat: 12.3182733
+lon: -69.1504569
+gps_source: "dive_site"
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-03T14:28:54Z"
+    src_mtime: 1793715610.2211838
+    vocab: "9e5c5738f5cb"
+    top:
+    - scientific: "Scarus guacamaia"
+      confidence: 0.3282
+    - scientific: "Scarus coelestinus"
+      confidence: 0.2958
+    - scientific: "Scarus vetula"
+      confidence: 0.0757
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-03T14:29:05Z"
+    src_mtime: 1793715610.2211838
+    vocab: "9e5c5738f5cb"
+    top:
+    - scientific: "Mycteroperca tigris"
+      confidence: 0.2537
+    - scientific: "Sphyrna mokarran"
+      confidence: 0.1864
+    - scientific: "Aetobatus narinari"
+      confidence: 0.0609
+species:
+- scientific: "Scarus guacamaia"
+  role: "primary"
+  confidence: 0.1641
+  identified_by: "bioclip-2"
+culled: true

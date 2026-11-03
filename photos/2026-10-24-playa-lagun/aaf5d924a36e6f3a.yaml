@@ -1,0 +1,43 @@
+date: "2026-10-24 12:16:52"
+location: "Curacao"
+location_source: "dive_site"
+dive_site: "Playa Lagun"
+credit: "Matthew Kulukundis"
+import_album: "Curacao Diving - Playa Lagun 10-24"
+import_original_name: "PXL_20261024_161652320.jpg"
+lat: 12.3182733
+lon: -69.1504569
+gps_source: "dive_site"
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-03T14:28:54Z"
+    src_mtime: 1793715655.7585163
+    vocab: "9e5c5738f5cb"
+    top:
+    - scientific: "Myrichthys breviceps"
+      confidence: 0.0769
+    - scientific: "Sepioteuthis sepioidea"
+      confidence: 0.0737
+    - scientific: "Halichoeres garnoti"
+      confidence: 0.0721
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-03T14:29:05Z"
+    src_mtime: 1793715655.7585163
+    vocab: "9e5c5738f5cb"
+    top:
+    - scientific: "Halichoeres pictus"
+      confidence: 0.8098
+    - scientific: "Halichoeres garnoti"
+      confidence: 0.0829
+    - scientific: "Halichoeres maculipinna"
+      confidence: 0.0582
+species:
+- scientific: "Halichoeres garnoti"
+  role: "primary"
+  identified_by: "human"
+  confirmed_from: "bioclip-2+bioclip-2.5"
+species_reviewed:
+- "primary"
+- "secondary"

@@ -1,0 +1,42 @@
+date: "2026-10-24 12:03:58"
+location: "Curacao"
+location_source: "dive_site"
+dive_site: "Playa Lagun"
+credit: "Marc Howard"
+import_album: "Curacao Diving - Playa Lagun 10-24"
+import_original_name: "PA240023(1).JPG"
+lat: 12.3182733
+lon: -69.1504569
+gps_source: "dive_site"
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-03T14:28:54Z"
+    src_mtime: 1793715611.6160145
+    vocab: "9e5c5738f5cb"
+    top:
+    - scientific: "Callyspongia plicifera"
+      confidence: 0.0994
+    - scientific: "Aplysina archeri"
+      confidence: 0.0678
+    - scientific: "Cyphoma gibbosum"
+      confidence: 0.0333
+    absorbed_by:
+      scientific: "Clavelina picta"
+      confidence: 0.2665
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-03T14:29:05Z"
+    src_mtime: 1793715611.6160145
+    vocab: "9e5c5738f5cb"
+    top:
+    - scientific: "Callyspongia plicifera"
+      confidence: 0.08
+    - scientific: "Mycteroperca tigris"
+      confidence: 0.0193
+    - scientific: "Scarus coeruleus"
+      confidence: 0.018
+    absorbed_by:
+      scientific: "Cirrhipathes leutkeni"
+      confidence: 0.724
+culled: true

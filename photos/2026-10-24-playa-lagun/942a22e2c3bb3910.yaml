@@ -1,0 +1,38 @@
+date: "2026-10-24 11:47:12"
+location: "Curacao"
+location_source: "dive_site"
+dive_site: "Playa Lagun"
+credit: "Matthew Kulukundis"
+import_album: "Curacao Diving - Playa Lagun 10-24"
+import_original_name: "PXL_20261024_154712685.MP.jpg"
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-03T14:28:54Z"
+    src_mtime: 1793715649.3028948
+    vocab: "9e5c5738f5cb"
+    top:
+    - scientific: "Chaetodon striatus"
+      confidence: 0.1757
+    - scientific: "Hypoplectrus puella"
+      confidence: 0.1755
+    - scientific: "Serranus tabacarius"
+      confidence: 0.1411
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-03T14:29:05Z"
+    src_mtime: 1793715649.3028948
+    vocab: "9e5c5738f5cb"
+    top:
+    - scientific: "Sparisoma aurofrenatum"
+      confidence: 0.3329
+    - scientific: "Hypoplectrus puella"
+      confidence: 0.2076
+    - scientific: "Sparisoma amplum"
+      confidence: 0.0885
+species:
+- scientific: "Hypoplectrus puella"
+  role: "primary"
+  confidence: 0.1915
+  identified_by: "bioclip-2+bioclip-2.5"
+culled: true

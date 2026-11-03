@@ -1,0 +1,42 @@
+date: "2026-10-24 12:57:32"
+location: "Curacao"
+location_source: "dive_site"
+dive_site: "Playa Lagun"
+credit: "Miriam Melnick"
+import_album: "Curacao Diving - Playa Lagun 10-24"
+import_original_name: "PA240119.JPG"
+lat: 12.3182733
+lon: -69.1504569
+gps_source: "dive_site"
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-03T14:28:54Z"
+    src_mtime: 1793715627.2521946
+    vocab: "9e5c5738f5cb"
+    top:
+    - scientific: "Histrio histrio"
+      confidence: 0.7419
+    - scientific: "Aplysia dactylomela"
+      confidence: 0.0258
+    - scientific: "Caretta caretta"
+      confidence: 0.017
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-03T14:29:05Z"
+    src_mtime: 1793715627.2521946
+    vocab: "9e5c5738f5cb"
+    top:
+    - scientific: "Physalia physalis"
+      confidence: 0.3217
+    - scientific: "Cassiopea xamachana"
+      confidence: 0.1739
+    - scientific: "Sepioteuthis sepioidea"
+      confidence: 0.086
+species:
+- scientific: "Hippocampus reidi"
+  role: "primary"
+  identified_by: "human"
+species_reviewed:
+- "primary"
+- "secondary"

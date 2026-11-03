@@ -1,0 +1,44 @@
+date: "2026-10-24 12:04:29"
+location: "Curacao"
+location_source: "dive_site"
+dive_site: "Playa Lagun"
+credit: "Marc Howard"
+import_album: "Curacao Diving - Playa Lagun 10-24"
+import_original_name: "PA240029(1).JPG"
+lat: 12.3182733
+lon: -69.1504569
+gps_source: "dive_site"
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-03T14:28:54Z"
+    src_mtime: 1793715612.3408012
+    vocab: "9e5c5738f5cb"
+    top:
+    - scientific: "Astrophyton muricatum"
+      confidence: 0.146
+    - scientific: "Callyspongia plicifera"
+      confidence: 0.1233
+    - scientific: "Aplysina archeri"
+      confidence: 0.1158
+    absorbed_by:
+      scientific: "Gorgonia ventalina"
+      confidence: 0.1943
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-03T14:29:05Z"
+    src_mtime: 1793715612.3408012
+    vocab: "9e5c5738f5cb"
+    top:
+    - scientific: "Aplysina archeri"
+      confidence: 0.1848
+    - scientific: "Callyspongia plicifera"
+      confidence: 0.0565
+    - scientific: "Mycteroperca tigris"
+      confidence: 0.031
+species:
+- scientific: "Aplysina archeri"
+  role: "primary"
+  confidence: 0.1503
+  identified_by: "bioclip-2+bioclip-2.5"
+culled: true

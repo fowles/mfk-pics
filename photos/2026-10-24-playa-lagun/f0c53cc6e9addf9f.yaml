@@ -1,0 +1,38 @@
+date: "2026-10-24 10:52:36"
+location: "Curacao"
+location_source: "dive_site"
+dive_site: "Playa Lagun"
+credit: "Matthew Kulukundis"
+import_album: "Curacao Diving - Playa Lagun 10-24"
+import_original_name: "PXL_20261024_145236389.jpg"
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-03T14:28:54Z"
+    src_mtime: 1793715644.952293
+    vocab: "9e5c5738f5cb"
+    top:
+    - scientific: "Caracara plancus"
+      confidence: 0.1656
+    - scientific: "Echinometra viridis"
+      confidence: 0.0631
+    - scientific: "Davidaster rubiginosus"
+      confidence: 0.0409
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-03T14:29:05Z"
+    src_mtime: 1793715644.952293
+    vocab: "9e5c5738f5cb"
+    top:
+    - scientific: "Acropora palmata"
+      confidence: 0.2247
+    - scientific: "Caracara plancus"
+      confidence: 0.1565
+    - scientific: "Holothuria mexicana"
+      confidence: 0.0617
+species:
+- scientific: "Caracara plancus"
+  role: "primary"
+  confidence: 0.161
+  identified_by: "bioclip-2+bioclip-2.5"
+culled: true

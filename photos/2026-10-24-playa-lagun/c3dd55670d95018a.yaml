@@ -1,0 +1,41 @@
+date: "2026-10-24 13:03:10"
+location: "Curacao"
+location_source: "dive_site"
+dive_site: "Playa Lagun"
+credit: "Miriam Melnick"
+import_album: "Curacao Diving - Playa Lagun 10-24"
+import_original_name: "PA240134.JPG"
+lat: 12.3182733
+lon: -69.1504569
+gps_source: "dive_site"
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-03T14:28:54Z"
+    src_mtime: 1793715630.4612093
+    vocab: "9e5c5738f5cb"
+    top:
+    - scientific: "Bodianus pulchellus"
+      confidence: 0.5258
+    - scientific: "Apogon maculatus"
+      confidence: 0.0546
+    - scientific: "Sepioteuthis sepioidea"
+      confidence: 0.0374
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-03T14:29:05Z"
+    src_mtime: 1793715630.4612093
+    vocab: "9e5c5738f5cb"
+    top:
+    - scientific: "Sepioteuthis sepioidea"
+      confidence: 0.8117
+    - scientific: "Xyrichtys splendens"
+      confidence: 0.0765
+    - scientific: "Holacanthus tricolor"
+      confidence: 0.0271
+species:
+- scientific: "Sepioteuthis sepioidea"
+  role: "primary"
+  confidence: 0.4245
+  identified_by: "bioclip-2+bioclip-2.5"
+culled: true

@@ -1,0 +1,17 @@
+date: "2026-10-24 13:09:59"
+location: "Curacao"
+location_source: "dive_site"
+dive_site: "Playa Lagun"
+credit: "Miriam Melnick"
+import_album: "Curacao Diving - Playa Lagun 10-24"
+import_original_name: "PA240162.MOV"
+lat: 12.3182733
+lon: -69.1504569
+gps_source: "dive_site"
+species:
+- scientific: "Hippocampus reidi"
+  role: "primary"
+  identified_by: "human"
+species_reviewed:
+- "primary"
+- "secondary"
