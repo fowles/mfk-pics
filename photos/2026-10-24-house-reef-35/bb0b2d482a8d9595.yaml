@@ -1,0 +1,17 @@
+date: "2026-10-24 17:46:50"
+location: "Curacao"
+location_source: "dive_site"
+dive_site: "House Reef 35"
+credit: "Marc Howard"
+import_album: "Curacao Diving - House Reef 10-24"
+import_original_name: "PA240201.MOV"
+lat: 12.1926667
+lon: -69.0735556
+gps_source: "dive_site"
+species:
+- scientific: "Eretmochelys imbricata"
+  role: "primary"
+  identified_by: "human"
+species_reviewed:
+- "primary"
+- "secondary"

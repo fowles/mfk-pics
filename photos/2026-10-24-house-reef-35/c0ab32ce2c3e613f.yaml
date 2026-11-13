@@ -1,0 +1,42 @@
+date: "2026-10-24 17:45:11"
+location: "Curacao"
+location_source: "dive_site"
+dive_site: "House Reef 35"
+credit: "Matthew Kulukundis"
+import_album: "Curacao Diving - House Reef 10-24"
+import_original_name: "PXL_20261024_214511837.jpg"
+lat: 12.1926667
+lon: -69.0735556
+gps_source: "dive_site"
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-13T18:18:51Z"
+    src_mtime: 1794591850.2736506
+    vocab: "3b1887becf08"
+    top:
+    - scientific: "Diodon holocanthus"
+      confidence: 0.5001
+    - scientific: "Chaetodon striatus"
+      confidence: 0.119
+    - scientific: "Chilomycterus antillarum"
+      confidence: 0.1061
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-13T18:21:06Z"
+    src_mtime: 1794591850.2736506
+    vocab: "3b1887becf08"
+    top:
+    - scientific: "Diodon holocanthus"
+      confidence: 0.8475
+    - scientific: "Lactophrys bicaudalis"
+      confidence: 0.0639
+    - scientific: "Chilomycterus antennatus"
+      confidence: 0.0411
+species:
+- scientific: "Chilomycterus antennatus"
+  role: "primary"
+  identified_by: "human"
+species_reviewed:
+- "primary"
+- "secondary"

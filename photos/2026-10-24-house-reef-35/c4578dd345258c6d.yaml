@@ -1,0 +1,40 @@
+date: "2026-10-24 17:25:00"
+location: "Curacao"
+location_source: "dive_site"
+dive_site: "House Reef 35"
+credit: "Miriam Melnick"
+import_album: "Curacao Diving - House Reef 10-24"
+import_original_name: "PA240128.JPG"
+lat: 12.1926667
+lon: -69.0735556
+gps_source: "dive_site"
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-13T17:48:33Z"
+    src_mtime: 1794591818.9852552
+    vocab: "9e5c5738f5cb"
+    top:
+    - scientific: "Aplysina archeri"
+      confidence: 0.1923
+    - scientific: "Panulirus argus"
+      confidence: 0.0284
+    - scientific: "Callyspongia plicifera"
+      confidence: 0.0246
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-13T17:48:38Z"
+    src_mtime: 1794591818.9852552
+    vocab: "9e5c5738f5cb"
+    top:
+    - scientific: "Astrophyton muricatum"
+      confidence: 0.249
+    - scientific: "Mycteroperca tigris"
+      confidence: 0.0178
+    - scientific: "Mycteroperca bonaci"
+      confidence: 0.0106
+    absorbed_by:
+      scientific: "Cirrhipathes leutkeni"
+      confidence: 0.3863
+species: []
+culled: true

@@ -1,0 +1,41 @@
+date: "2026-10-24 18:06:06"
+location: "Curacao"
+location_source: "dive_site"
+dive_site: "House Reef 35"
+credit: "Marc Howard"
+import_album: "Curacao Diving - House Reef 10-24"
+import_original_name: "PA240218.JPG"
+lat: 12.1926667
+lon: -69.0735556
+gps_source: "dive_site"
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-13T18:18:51Z"
+    src_mtime: 1794591838.925132
+    vocab: "3b1887becf08"
+    top:
+    - scientific: "Sepioteuthis sepioidea"
+      confidence: 0.1408
+    - scientific: "Caranx ruber"
+      confidence: 0.0451
+    - scientific: "Halichoeres pictus"
+      confidence: 0.0363
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-13T18:21:06Z"
+    src_mtime: 1794591838.925132
+    vocab: "3b1887becf08"
+    top:
+    - scientific: "Halichoeres garnoti"
+      confidence: 0.7229
+    - scientific: "Mycteroperca tigris"
+      confidence: 0.0479
+    - scientific: "Opistognathus aurifrons"
+      confidence: 0.0188
+species:
+- scientific: "Halichoeres garnoti"
+  role: "primary"
+  confidence: 0.3614
+  identified_by: "bioclip-2.5"
+culled: true

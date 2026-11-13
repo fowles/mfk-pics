@@ -1,0 +1,40 @@
+date: "2026-10-24 17:06:39"
+location: "Curacao"
+location_source: "dive_site"
+dive_site: "House Reef 35"
+credit: "Marc Howard"
+import_album: "Curacao Diving - House Reef 10-24"
+import_original_name: "PA240177.JPG"
+lat: 12.1926667
+lon: -69.0735556
+gps_source: "dive_site"
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-13T17:48:33Z"
+    src_mtime: 1794591827.324387
+    vocab: "9e5c5738f5cb"
+    top:
+    - scientific: "Halichoeres pictus"
+      confidence: 0.0594
+    - scientific: "Thalassoma bifasciatum"
+      confidence: 0.0586
+    - scientific: "Panulirus argus"
+      confidence: 0.0357
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-13T17:48:38Z"
+    src_mtime: 1794591827.324387
+    vocab: "9e5c5738f5cb"
+    top:
+    - scientific: "Astrophyton muricatum"
+      confidence: 0.2016
+    - scientific: "Davidaster rubiginosus"
+      confidence: 0.0829
+    - scientific: "Sparisoma amplum"
+      confidence: 0.0044
+    absorbed_by:
+      scientific: "Antillogorgia americana"
+      confidence: 0.5265
+species: []
+culled: true

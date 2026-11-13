@@ -1,0 +1,43 @@
+date: "2026-10-24 17:48:44"
+location: "Curacao"
+location_source: "dive_site"
+dive_site: "House Reef 35"
+credit: "Matthew Kulukundis"
+import_album: "Curacao Diving - House Reef 10-24"
+import_original_name: "PXL_20261024_214844487.jpg"
+lat: 12.1926667
+lon: -69.0735556
+gps_source: "dive_site"
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-13T18:18:51Z"
+    src_mtime: 1794591853.8263
+    vocab: "3b1887becf08"
+    top:
+    - scientific: "Aluterus scriptus"
+      confidence: 0.9539
+    - scientific: "Cephalopholis fulva"
+      confidence: 0.0171
+    - scientific: "Aluterus schoepfii"
+      confidence: 0.0085
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-13T18:21:06Z"
+    src_mtime: 1794591853.8263
+    vocab: "3b1887becf08"
+    top:
+    - scientific: "Aluterus scriptus"
+      confidence: 0.9686
+    - scientific: "Mycteroperca bonaci"
+      confidence: 0.031
+    - scientific: "Mycteroperca venenosa"
+      confidence: 0.0001
+species:
+- scientific: "Aluterus scriptus"
+  role: "primary"
+  identified_by: "human"
+  confirmed_from: "bioclip-2+bioclip-2.5"
+species_reviewed:
+- "primary"
+- "secondary"

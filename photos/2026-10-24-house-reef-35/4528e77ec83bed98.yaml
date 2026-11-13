@@ -1,0 +1,41 @@
+date: "2026-10-24 18:23:16"
+location: "Curacao"
+location_source: "dive_site"
+dive_site: "House Reef 35"
+credit: "Marc Howard"
+import_album: "Curacao Diving - House Reef 10-24"
+import_original_name: "PA240223.JPG"
+lat: 12.1926667
+lon: -69.0735556
+gps_source: "dive_site"
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-13T18:18:51Z"
+    src_mtime: 1794591839.4862392
+    vocab: "3b1887becf08"
+    top:
+    - scientific: "Opistognathus aurifrons"
+      confidence: 0.1201
+    - scientific: "Sepioteuthis sepioidea"
+      confidence: 0.0767
+    - scientific: "Caretta caretta"
+      confidence: 0.0644
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-13T18:21:06Z"
+    src_mtime: 1794591839.4862392
+    vocab: "3b1887becf08"
+    top:
+    - scientific: "Mobula birostris"
+      confidence: 0.6149
+    - scientific: "Sphyrna mokarran"
+      confidence: 0.0916
+    - scientific: "Galeocerdo cuvier"
+      confidence: 0.0555
+species:
+- scientific: "Mobula birostris"
+  role: "primary"
+  confidence: 0.3075
+  identified_by: "bioclip-2.5"
+culled: true

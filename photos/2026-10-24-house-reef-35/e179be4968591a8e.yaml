@@ -1,0 +1,55 @@
+date: "2026-10-24 17:09:37"
+location: "Curacao"
+location_source: "dive_site"
+dive_site: "House Reef 35"
+credit: "Marc Howard"
+import_album: "Curacao Diving - House Reef 10-24"
+import_original_name: "PA240183.JPG"
+lat: 12.1926667
+lon: -69.0735556
+gps_source: "dive_site"
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-13T17:48:33Z"
+    src_mtime: 1794591828.6744964
+    vocab: "9e5c5738f5cb"
+    top:
+    - scientific: "Hypanus americanus"
+      confidence: 0.1393
+    - scientific: "Panulirus argus"
+      confidence: 0.0568
+    - scientific: "Caranx ruber"
+      confidence: 0.0479
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-13T17:48:38Z"
+    src_mtime: 1794591828.6744964
+    vocab: "9e5c5738f5cb"
+    top:
+    - scientific: "Astrophyton muricatum"
+      confidence: 0.0636
+    - scientific: "Caranx ruber"
+      confidence: 0.0359
+    - scientific: "Mycteroperca bonaci"
+      confidence: 0.0342
+    absorbed_by:
+      scientific: "Antillogorgia americana"
+      confidence: 0.4162
+species:
+- scientific: "Hypanus americanus"
+  role: "primary"
+  identified_by: "human"
+  confirmed_from: "bioclip-2"
+- scientific: "Homo sapiens"
+  role: "secondary"
+  identified_by: "human"
+  person:
+  - "Matthew Kulukundis"
+  - "Miriam Melnick"
+tags:
+- "metapicture"
+species_reviewed:
+- "primary"
+- "secondary"
+culled: true
