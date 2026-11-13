@@ -16,30 +16,30 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-11-01T13:24:58Z"
+    created: "2026-11-13T18:18:51Z"
     src_mtime: 1786156581.8999112
-    vocab: "9e5c5738f5cb"
+    vocab: "3b1887becf08"
     top:
     - scientific: "Diodon holocanthus"
-      confidence: 0.7484
+      confidence: 0.7376
     - scientific: "Epinephelus itajara"
-      confidence: 0.1015
+      confidence: 0.1001
     - scientific: "Chilomycterus antillarum"
-      confidence: 0.0219
+      confidence: 0.0215
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-11-01T13:27:07Z"
+    created: "2026-11-13T18:21:06Z"
     src_mtime: 1786156581.8999112
-    vocab: "9e5c5738f5cb"
+    vocab: "3b1887becf08"
     top:
     - scientific: "Diodon hystrix"
-      confidence: 0.5618
+      confidence: 0.5617
     - scientific: "Chelonia mydas"
-      confidence: 0.3746
+      confidence: 0.3745
     - scientific: "Eretmochelys imbricata"
       confidence: 0.0317
 species:
 - scientific: "Diodon holocanthus"
   role: "primary"
-  confidence: 0.3742
+  confidence: 0.3688
   identified_by: "bioclip-2"

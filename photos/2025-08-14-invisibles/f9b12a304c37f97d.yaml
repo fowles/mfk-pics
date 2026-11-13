@@ -14,24 +14,24 @@ rotation_applied: 90
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-11-01T13:24:58Z"
+    created: "2026-11-13T18:18:51Z"
     src_mtime: 1787173696.5030704
-    vocab: "9e5c5738f5cb"
+    vocab: "3b1887becf08"
     top:
     - scientific: "Lactophrys triqueter"
-      confidence: 0.8713
+      confidence: 0.8707
     - scientific: "Acanthostracion polygonius"
       confidence: 0.0886
     - scientific: "Lactophrys bicaudalis"
       confidence: 0.0297
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-11-01T13:27:07Z"
+    created: "2026-11-13T18:21:06Z"
     src_mtime: 1787173696.5030704
-    vocab: "9e5c5738f5cb"
+    vocab: "3b1887becf08"
     top:
     - scientific: "Lactophrys triqueter"
-      confidence: 0.9735
+      confidence: 0.9734
     - scientific: "Lactophrys bicaudalis"
       confidence: 0.0182
     - scientific: "Acanthostracion polygonius"
@@ -39,5 +39,5 @@ species_suggestions:
 species:
 - scientific: "Lactophrys triqueter"
   role: "primary"
-  confidence: 0.9224
+  confidence: 0.9221
   identified_by: "bioclip-2+bioclip-2.5"

@@ -16,14 +16,14 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-11-01T13:24:58Z"
+    created: "2026-11-13T18:18:51Z"
     src_mtime: 1786157214.1887565
-    vocab: "9e5c5738f5cb"
+    vocab: "3b1887becf08"
     top:
     - scientific: "Gymnothorax funebris"
       confidence: 0.0624
     - scientific: "Callyspongia plicifera"
-      confidence: 0.0561
+      confidence: 0.056
     - scientific: "Aulostomus maculatus"
       confidence: 0.0475
     absorbed_by:
@@ -31,17 +31,17 @@ species_suggestions:
       confidence: 0.1412
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-11-01T13:27:07Z"
+    created: "2026-11-13T18:21:06Z"
     src_mtime: 1786157214.1887565
-    vocab: "9e5c5738f5cb"
+    vocab: "3b1887becf08"
     top:
     - scientific: "Mycteroperca tigris"
-      confidence: 0.3364
+      confidence: 0.3363
     - scientific: "Periclimenes yucatanicus"
-      confidence: 0.0086
+      confidence: 0.0085
     - scientific: "Cephalopholis cruentata"
       confidence: 0.005
     absorbed_by:
       scientific: "Montastraea cavernosa"
-      confidence: 0.4318
+      confidence: 0.4316
 species: []

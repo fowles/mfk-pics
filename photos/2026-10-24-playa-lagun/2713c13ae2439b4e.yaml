@@ -11,9 +11,9 @@ gps_source: "dive_site"
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-11-03T14:28:54Z"
+    created: "2026-11-13T18:18:51Z"
     src_mtime: 1793715612.9902437
-    vocab: "9e5c5738f5cb"
+    vocab: "3b1887becf08"
     top:
     - scientific: "Lactophrys triqueter"
       confidence: 0.9518
@@ -23,9 +23,9 @@ species_suggestions:
       confidence: 0.003
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-11-03T14:29:05Z"
+    created: "2026-11-13T18:21:06Z"
     src_mtime: 1793715612.9902437
-    vocab: "9e5c5738f5cb"
+    vocab: "3b1887becf08"
     top:
     - scientific: "Lactophrys triqueter"
       confidence: 0.9988

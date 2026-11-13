@@ -9,21 +9,21 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-11-01T13:24:58Z"
+    created: "2026-11-13T18:18:51Z"
     src_mtime: 1786156895.9919426
-    vocab: "9e5c5738f5cb"
+    vocab: "3b1887becf08"
     top:
     - scientific: "Chaetodon capistratus"
-      confidence: 0.2258
+      confidence: 0.2256
     - scientific: "Bodianus pulchellus"
-      confidence: 0.147
+      confidence: 0.1468
     - scientific: "Chaetodon sedentarius"
       confidence: 0.0659
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-11-01T13:27:07Z"
+    created: "2026-11-13T18:21:06Z"
     src_mtime: 1786156895.9919426
-    vocab: "9e5c5738f5cb"
+    vocab: "3b1887becf08"
     top:
     - scientific: "Diodon hystrix"
       confidence: 0.2828

@@ -16,21 +16,21 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-11-01T13:24:58Z"
+    created: "2026-11-13T18:18:51Z"
     src_mtime: 1786156584.6648178
-    vocab: "9e5c5738f5cb"
+    vocab: "3b1887becf08"
     top:
     - scientific: "Holacanthus tricolor"
-      confidence: 0.7855
+      confidence: 0.7854
     - scientific: "Holacanthus ciliaris"
       confidence: 0.048
     - scientific: "Halichoeres garnoti"
       confidence: 0.0376
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-11-01T13:27:07Z"
+    created: "2026-11-13T18:21:06Z"
     src_mtime: 1786156584.6648178
-    vocab: "9e5c5738f5cb"
+    vocab: "3b1887becf08"
     top:
     - scientific: "Holacanthus tricolor"
       confidence: 0.8663
@@ -41,5 +41,5 @@ species_suggestions:
 species:
 - scientific: "Holacanthus tricolor"
   role: "primary"
-  confidence: 0.8259
+  confidence: 0.8258
   identified_by: "bioclip-2+bioclip-2.5"

@@ -17,21 +17,21 @@ rotation_applied: 270
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-11-01T13:24:58Z"
+    created: "2026-11-13T18:18:51Z"
     src_mtime: 1787178313.6237645
-    vocab: "9e5c5738f5cb"
+    vocab: "3b1887becf08"
     top:
     - scientific: "Bothus lunatus"
-      confidence: 0.5433
+      confidence: 0.5429
     - scientific: "Synodus intermedius"
-      confidence: 0.4183
+      confidence: 0.418
     - scientific: "Dactylopterus volitans"
       confidence: 0.015
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-11-01T13:27:07Z"
+    created: "2026-11-13T18:21:06Z"
     src_mtime: 1787178313.6237645
-    vocab: "9e5c5738f5cb"
+    vocab: "3b1887becf08"
     top:
     - scientific: "Bothus lunatus"
       confidence: 0.9997
@@ -42,5 +42,5 @@ species_suggestions:
 species:
 - scientific: "Bothus lunatus"
   role: "primary"
-  confidence: 0.7715
+  confidence: 0.7713
   identified_by: "bioclip-2+bioclip-2.5"

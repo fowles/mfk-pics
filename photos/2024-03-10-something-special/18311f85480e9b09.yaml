@@ -14,21 +14,21 @@ rotation_applied: 90
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-11-01T13:24:58Z"
+    created: "2026-11-13T18:18:51Z"
     src_mtime: 1787176519.436818
-    vocab: "9e5c5738f5cb"
+    vocab: "3b1887becf08"
     top:
     - scientific: "Haemulon flavolineatum"
-      confidence: 0.4958
+      confidence: 0.4957
     - scientific: "Gymnothorax funebris"
       confidence: 0.1762
     - scientific: "Haemulon chrysargyreum"
       confidence: 0.0664
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-11-01T13:27:07Z"
+    created: "2026-11-13T18:21:06Z"
     src_mtime: 1787176519.436818
-    vocab: "9e5c5738f5cb"
+    vocab: "3b1887becf08"
     top:
     - scientific: "Haemulon flavolineatum"
       confidence: 0.8361
@@ -39,5 +39,5 @@ species_suggestions:
 species:
 - scientific: "Haemulon flavolineatum"
   role: "primary"
-  confidence: 0.666
+  confidence: 0.6659
   identified_by: "bioclip-2+bioclip-2.5"

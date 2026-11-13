@@ -14,30 +14,30 @@ rotation_applied: 180
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-11-01T13:24:58Z"
+    created: "2026-11-13T18:18:51Z"
     src_mtime: 1787175839.907681
-    vocab: "9e5c5738f5cb"
+    vocab: "3b1887becf08"
     top:
     - scientific: "Diodon hystrix"
-      confidence: 0.3625
+      confidence: 0.3561
     - scientific: "Diodon holocanthus"
-      confidence: 0.3479
+      confidence: 0.3417
     - scientific: "Epinephelus adscensionis"
-      confidence: 0.1021
+      confidence: 0.1003
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-11-01T13:27:07Z"
+    created: "2026-11-13T18:21:06Z"
     src_mtime: 1787175839.907681
-    vocab: "9e5c5738f5cb"
+    vocab: "3b1887becf08"
     top:
     - scientific: "Diodon hystrix"
       confidence: 1.0
-    - scientific: "Diodon holocanthus"
+    - scientific: "Chilomycterus antennatus"
       confidence: 0.0
-    - scientific: "Lactophrys bicaudalis"
+    - scientific: "Diodon holocanthus"
       confidence: 0.0
 species:
 - scientific: "Diodon hystrix"
   role: "primary"
-  confidence: 0.6813
+  confidence: 0.6781
   identified_by: "bioclip-2+bioclip-2.5"

@@ -11,21 +11,21 @@ gps_source: "dive_site"
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-11-03T14:28:54Z"
+    created: "2026-11-13T18:18:51Z"
     src_mtime: 1793715616.2533307
-    vocab: "9e5c5738f5cb"
+    vocab: "3b1887becf08"
     top:
     - scientific: "Gymnothorax moringa"
       confidence: 0.1473
     - scientific: "Cephalopholis cruentata"
       confidence: 0.1259
     - scientific: "Epinephelus guttatus"
-      confidence: 0.1173
+      confidence: 0.1172
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-11-03T14:29:05Z"
+    created: "2026-11-13T18:21:06Z"
     src_mtime: 1793715616.2533307
-    vocab: "9e5c5738f5cb"
+    vocab: "3b1887becf08"
     top:
     - scientific: "Gymnothorax moringa"
       confidence: 0.8545

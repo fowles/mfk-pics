@@ -16,12 +16,12 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-11-01T13:24:58Z"
+    created: "2026-11-13T18:18:51Z"
     src_mtime: 1786156900.5060093
-    vocab: "9e5c5738f5cb"
+    vocab: "3b1887becf08"
     top:
     - scientific: "Gymnothorax funebris"
-      confidence: 0.0847
+      confidence: 0.0846
     - scientific: "Cephalopholis cruentata"
       confidence: 0.0398
     - scientific: "Holacanthus tricolor"
@@ -31,18 +31,18 @@ species_suggestions:
       confidence: 0.1351
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-11-01T13:27:07Z"
+    created: "2026-11-13T18:21:06Z"
     src_mtime: 1786156900.5060093
-    vocab: "9e5c5738f5cb"
+    vocab: "3b1887becf08"
     top:
     - scientific: "Haemulon macrostomum"
-      confidence: 0.1264
+      confidence: 0.1229
     - scientific: "Halichoeres garnoti"
-      confidence: 0.1208
+      confidence: 0.1174
     - scientific: "Cephalopholis cruentata"
-      confidence: 0.1036
+      confidence: 0.1007
 species:
 - scientific: "Cephalopholis cruentata"
   role: "primary"
-  confidence: 0.0717
+  confidence: 0.0703
   identified_by: "bioclip-2+bioclip-2.5"

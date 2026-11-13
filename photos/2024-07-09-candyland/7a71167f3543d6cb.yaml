@@ -16,21 +16,21 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-11-01T13:24:58Z"
+    created: "2026-11-13T18:18:51Z"
     src_mtime: 1786159197.1533458
-    vocab: "9e5c5738f5cb"
+    vocab: "3b1887becf08"
     top:
     - scientific: "Canthidermis sufflamen"
-      confidence: 0.2556
+      confidence: 0.2555
     - scientific: "Pomacanthus arcuatus"
       confidence: 0.1034
     - scientific: "Scarus vetula"
       confidence: 0.0957
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-11-01T13:27:07Z"
+    created: "2026-11-13T18:21:06Z"
     src_mtime: 1786159197.1533458
-    vocab: "9e5c5738f5cb"
+    vocab: "3b1887becf08"
     top:
     - scientific: "Canthidermis sufflamen"
       confidence: 0.2668
@@ -41,5 +41,5 @@ species_suggestions:
 species:
 - scientific: "Canthidermis sufflamen"
   role: "primary"
-  confidence: 0.2612
+  confidence: 0.2611
   identified_by: "bioclip-2+bioclip-2.5"

@@ -16,21 +16,21 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-11-01T13:24:58Z"
+    created: "2026-11-13T18:18:51Z"
     src_mtime: 1786157056.1671946
-    vocab: "9e5c5738f5cb"
+    vocab: "3b1887becf08"
     top:
     - scientific: "Halichoeres garnoti"
-      confidence: 0.2761
+      confidence: 0.276
     - scientific: "Bodianus rufus"
       confidence: 0.1718
     - scientific: "Bodianus pulchellus"
-      confidence: 0.0733
+      confidence: 0.0732
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-11-01T13:27:07Z"
+    created: "2026-11-13T18:21:06Z"
     src_mtime: 1786157056.1671946
-    vocab: "9e5c5738f5cb"
+    vocab: "3b1887becf08"
     top:
     - scientific: "Halichoeres garnoti"
       confidence: 0.4599
@@ -41,5 +41,5 @@ species_suggestions:
 species:
 - scientific: "Halichoeres garnoti"
   role: "primary"
-  confidence: 0.368
+  confidence: 0.3679
   identified_by: "bioclip-2+bioclip-2.5"

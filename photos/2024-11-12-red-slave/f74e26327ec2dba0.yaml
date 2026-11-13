@@ -14,30 +14,30 @@ rotation_applied: 90
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-11-01T13:24:58Z"
+    created: "2026-11-13T18:18:51Z"
     src_mtime: 1787173709.2468028
-    vocab: "9e5c5738f5cb"
+    vocab: "3b1887becf08"
     top:
     - scientific: "Scorpaena plumieri"
-      confidence: 0.3073
+      confidence: 0.2967
     - scientific: "Holothuria mexicana"
-      confidence: 0.1476
+      confidence: 0.1424
     - scientific: "Holothuria thomasi"
-      confidence: 0.0904
+      confidence: 0.0873
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-11-01T13:27:07Z"
+    created: "2026-11-13T18:21:06Z"
     src_mtime: 1787173709.2468028
-    vocab: "9e5c5738f5cb"
+    vocab: "3b1887becf08"
     top:
     - scientific: "Ogcocephalus nasutus"
-      confidence: 0.4489
+      confidence: 0.4451
     - scientific: "Scorpaena plumieri"
-      confidence: 0.4391
+      confidence: 0.4354
     - scientific: "Antennarius multiocellatus"
-      confidence: 0.0379
+      confidence: 0.0376
 species:
 - scientific: "Scorpaena plumieri"
   role: "primary"
-  confidence: 0.3732
+  confidence: 0.366
   identified_by: "bioclip-2+bioclip-2.5"

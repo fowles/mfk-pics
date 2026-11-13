@@ -16,30 +16,30 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-11-01T13:24:58Z"
+    created: "2026-11-13T18:18:51Z"
     src_mtime: 1786157493.7284126
-    vocab: "9e5c5738f5cb"
+    vocab: "3b1887becf08"
     top:
     - scientific: "Osachila antillensis"
-      confidence: 0.5245
+      confidence: 0.4711
     - scientific: "Diodon holocanthus"
-      confidence: 0.1538
-    - scientific: "Chilomycterus antillarum"
-      confidence: 0.1035
+      confidence: 0.1382
+    - scientific: "Chilomycterus antennatus"
+      confidence: 0.1018
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-11-01T13:27:07Z"
+    created: "2026-11-13T18:21:06Z"
     src_mtime: 1786157493.7284126
-    vocab: "9e5c5738f5cb"
+    vocab: "3b1887becf08"
     top:
+    - scientific: "Chilomycterus antennatus"
+      confidence: 0.6709
     - scientific: "Diodon holocanthus"
-      confidence: 0.804
+      confidence: 0.2646
     - scientific: "Chilomycterus schoepfii"
-      confidence: 0.0801
-    - scientific: "Acanthostracion polygonius"
-      confidence: 0.056
+      confidence: 0.0264
 species:
-- scientific: "Diodon holocanthus"
+- scientific: "Chilomycterus antennatus"
   role: "primary"
-  confidence: 0.4789
+  confidence: 0.3864
   identified_by: "bioclip-2+bioclip-2.5"

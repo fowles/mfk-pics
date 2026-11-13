@@ -13,30 +13,30 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-11-01T13:24:58Z"
+    created: "2026-11-13T18:18:51Z"
     src_mtime: 1786156741.1866152
-    vocab: "9e5c5738f5cb"
+    vocab: "3b1887becf08"
     top:
     - scientific: "Apogon maculatus"
-      confidence: 0.1745
+      confidence: 0.1744
     - scientific: "Heteroconger longissimus"
       confidence: 0.0727
     - scientific: "Opistognathus aurifrons"
       confidence: 0.0374
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-11-01T13:27:07Z"
+    created: "2026-11-13T18:21:06Z"
     src_mtime: 1786156741.1866152
-    vocab: "9e5c5738f5cb"
+    vocab: "3b1887becf08"
     top:
     - scientific: "Ogcocephalus nasutus"
-      confidence: 0.2124
+      confidence: 0.2107
     - scientific: "Bodianus pulchellus"
-      confidence: 0.2081
+      confidence: 0.2064
     - scientific: "Equetus punctatus"
-      confidence: 0.1591
+      confidence: 0.1578
 species:
 - scientific: "Ogcocephalus nasutus"
   role: "primary"
-  confidence: 0.1062
+  confidence: 0.1053
   identified_by: "bioclip-2.5"

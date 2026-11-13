@@ -16,30 +16,30 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-11-01T13:24:58Z"
+    created: "2026-11-13T18:18:51Z"
     src_mtime: 1786157493.8014283
-    vocab: "9e5c5738f5cb"
+    vocab: "3b1887becf08"
     top:
+    - scientific: "Chilomycterus antennatus"
+      confidence: 0.3237
     - scientific: "Osachila antillensis"
-      confidence: 0.4289
+      confidence: 0.2901
     - scientific: "Acanthostracion quadricornis"
-      confidence: 0.1806
-    - scientific: "Carpilius corallinus"
-      confidence: 0.075
+      confidence: 0.1221
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-11-01T13:27:07Z"
+    created: "2026-11-13T18:21:06Z"
     src_mtime: 1786157493.8014283
-    vocab: "9e5c5738f5cb"
+    vocab: "3b1887becf08"
     top:
+    - scientific: "Chilomycterus antennatus"
+      confidence: 0.8368
     - scientific: "Acanthostracion polygonius"
-      confidence: 0.4526
+      confidence: 0.0739
     - scientific: "Chilomycterus antillarum"
-      confidence: 0.2355
-    - scientific: "Chilomycterus schoepfii"
-      confidence: 0.1918
+      confidence: 0.0384
 species:
-- scientific: "Acanthostracion polygonius"
+- scientific: "Chilomycterus antennatus"
   role: "primary"
-  confidence: 0.2263
-  identified_by: "bioclip-2.5"
+  confidence: 0.5802
+  identified_by: "bioclip-2+bioclip-2.5"

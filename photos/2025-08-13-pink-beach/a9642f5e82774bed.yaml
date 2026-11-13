@@ -16,30 +16,30 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-11-01T13:24:58Z"
+    created: "2026-11-13T18:18:51Z"
     src_mtime: 1786158187.751513
-    vocab: "9e5c5738f5cb"
+    vocab: "3b1887becf08"
     top:
     - scientific: "Cephalopholis cruentata"
-      confidence: 0.3858
+      confidence: 0.3857
     - scientific: "Acanthostracion polygonius"
       confidence: 0.1511
     - scientific: "Epinephelus guttatus"
       confidence: 0.0468
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-11-01T13:27:07Z"
+    created: "2026-11-13T18:21:06Z"
     src_mtime: 1786158187.751513
-    vocab: "9e5c5738f5cb"
+    vocab: "3b1887becf08"
     top:
     - scientific: "Acanthostracion polygonius"
-      confidence: 0.9952
+      confidence: 0.9914
+    - scientific: "Chilomycterus antennatus"
+      confidence: 0.0038
     - scientific: "Diodon hystrix"
       confidence: 0.0005
-    - scientific: "Epinephelus guttatus"
-      confidence: 0.0004
 species:
 - scientific: "Acanthostracion polygonius"
   role: "primary"
-  confidence: 0.5732
+  confidence: 0.5713
   identified_by: "bioclip-2+bioclip-2.5"

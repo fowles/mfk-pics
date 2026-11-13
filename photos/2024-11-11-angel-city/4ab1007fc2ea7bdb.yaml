@@ -16,30 +16,30 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-11-01T13:24:58Z"
+    created: "2026-11-13T18:18:51Z"
     src_mtime: 1786156745.194608
-    vocab: "9e5c5738f5cb"
+    vocab: "3b1887becf08"
     top:
     - scientific: "Chaetodon ocellatus"
-      confidence: 0.2141
+      confidence: 0.2131
     - scientific: "Pomacanthus arcuatus"
-      confidence: 0.2076
+      confidence: 0.2066
     - scientific: "Lachnolaimus maximus"
-      confidence: 0.0978
+      confidence: 0.0973
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-11-01T13:27:07Z"
+    created: "2026-11-13T18:21:06Z"
     src_mtime: 1786156745.194608
-    vocab: "9e5c5738f5cb"
+    vocab: "3b1887becf08"
     top:
     - scientific: "Anisotremus surinamensis"
-      confidence: 0.5974
+      confidence: 0.5967
     - scientific: "Hypoplectrus puella"
-      confidence: 0.0713
+      confidence: 0.0712
     - scientific: "Lactophrys triqueter"
-      confidence: 0.0608
+      confidence: 0.0607
 species:
 - scientific: "Anisotremus surinamensis"
   role: "primary"
-  confidence: 0.2987
+  confidence: 0.2984
   identified_by: "bioclip-2.5"

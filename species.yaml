@@ -1895,3 +1895,4 @@
 - {scientific: "Nemaster grandis", common: "Black and white crinoid", regions: ["Caribbean"], taxonomy: "Animalia Echinodermata Crinoidea Comatulida Comatulidae"}
 - {scientific: "Haemulon parra", common: "Sailor's Choice", regions: ["Caribbean"], taxonomy: "Animalia Chordata Teleostei Perciformes Haemulidae"}
 - {scientific: "Erythropodium caribaeorum", common: "Encrusting Gorgonian", regions: ["Caribbean"], taxonomy: "Animalia Cnidaria Anthozoa Scleralcyonacea Erythropodiidae"}
+- {scientific: "Chilomycterus antennatus", common: "Bridled Burrfish", regions: ["Caribbean"], taxonomy: "Animalia Chordata Teleostei Tetraodontiformes Diodontidae"}

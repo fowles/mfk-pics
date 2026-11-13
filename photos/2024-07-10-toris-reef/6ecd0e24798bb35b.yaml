@@ -16,33 +16,33 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-11-01T13:24:58Z"
+    created: "2026-11-13T18:18:51Z"
     src_mtime: 1786160213.0866368
-    vocab: "9e5c5738f5cb"
+    vocab: "3b1887becf08"
     top:
     - scientific: "Gymnothorax funebris"
-      confidence: 0.0749
+      confidence: 0.0748
     - scientific: "Cephalopholis cruentata"
-      confidence: 0.0401
+      confidence: 0.04
     - scientific: "Holacanthus tricolor"
       confidence: 0.0311
     absorbed_by:
       scientific: "Orbicella faveolata"
-      confidence: 0.0754
+      confidence: 0.0753
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-11-01T13:27:07Z"
+    created: "2026-11-13T18:21:06Z"
     src_mtime: 1786160213.0866368
-    vocab: "9e5c5738f5cb"
+    vocab: "3b1887becf08"
     top:
     - scientific: "Sparisoma viride"
-      confidence: 0.2065
+      confidence: 0.2058
     - scientific: "Antennarius multiocellatus"
-      confidence: 0.119
+      confidence: 0.1186
     - scientific: "Lactophrys triqueter"
-      confidence: 0.0999
+      confidence: 0.0995
 species:
 - scientific: "Sparisoma viride"
   role: "primary"
-  confidence: 0.1032
+  confidence: 0.1029
   identified_by: "bioclip-2.5"

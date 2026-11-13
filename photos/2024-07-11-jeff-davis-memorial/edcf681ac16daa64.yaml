@@ -16,21 +16,21 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-11-01T13:24:58Z"
+    created: "2026-11-13T18:18:51Z"
     src_mtime: 1786159606.7531366
-    vocab: "9e5c5738f5cb"
+    vocab: "3b1887becf08"
     top:
     - scientific: "Serranus tigrinus"
-      confidence: 0.0727
+      confidence: 0.0724
     - scientific: "Halichoeres garnoti"
-      confidence: 0.0514
+      confidence: 0.0512
     - scientific: "Xyrichtys splendens"
-      confidence: 0.0397
+      confidence: 0.0396
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-11-01T13:27:07Z"
+    created: "2026-11-13T18:21:06Z"
     src_mtime: 1786159606.7531366
-    vocab: "9e5c5738f5cb"
+    vocab: "3b1887becf08"
     top:
     - scientific: "Serranus tigrinus"
       confidence: 0.985
@@ -41,5 +41,5 @@ species_suggestions:
 species:
 - scientific: "Serranus tigrinus"
   role: "primary"
-  confidence: 0.5289
+  confidence: 0.5287
   identified_by: "bioclip-2+bioclip-2.5"

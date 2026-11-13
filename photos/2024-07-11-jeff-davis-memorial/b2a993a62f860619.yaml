@@ -13,9 +13,9 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-11-01T13:24:58Z"
+    created: "2026-11-13T18:18:51Z"
     src_mtime: 1786159575.525394
-    vocab: "9e5c5738f5cb"
+    vocab: "3b1887becf08"
     top:
     - scientific: "Acropora palmata"
       confidence: 0.0493
@@ -25,17 +25,17 @@ species_suggestions:
       confidence: 0.0203
     absorbed_by:
       scientific: "Orbicella faveolata"
-      confidence: 0.3944
+      confidence: 0.3943
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-11-01T13:27:07Z"
+    created: "2026-11-13T18:21:06Z"
     src_mtime: 1786159575.525394
-    vocab: "9e5c5738f5cb"
+    vocab: "3b1887becf08"
     top:
     - scientific: "Sparisoma viride"
-      confidence: 0.1893
+      confidence: 0.1888
     - scientific: "Acropora palmata"
-      confidence: 0.0894
+      confidence: 0.0892
     - scientific: "Halichoeres garnoti"
-      confidence: 0.0512
+      confidence: 0.051
 species: []

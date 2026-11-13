@@ -13,21 +13,21 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-11-01T13:24:58Z"
+    created: "2026-11-13T18:18:51Z"
     src_mtime: 1786159372.9124613
-    vocab: "9e5c5738f5cb"
+    vocab: "3b1887becf08"
     top:
     - scientific: "Acanthostracion polygonius"
-      confidence: 0.7925
+      confidence: 0.7924
     - scientific: "Epinephelus guttatus"
-      confidence: 0.1878
+      confidence: 0.1877
     - scientific: "Cephalopholis fulva"
       confidence: 0.0068
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-11-01T13:27:07Z"
+    created: "2026-11-13T18:21:06Z"
     src_mtime: 1786159372.9124613
-    vocab: "9e5c5738f5cb"
+    vocab: "3b1887becf08"
     top:
     - scientific: "Acanthostracion polygonius"
       confidence: 0.9992
@@ -38,5 +38,5 @@ species_suggestions:
 species:
 - scientific: "Acanthostracion polygonius"
   role: "primary"
-  confidence: 0.8959
+  confidence: 0.8958
   identified_by: "bioclip-2+bioclip-2.5"

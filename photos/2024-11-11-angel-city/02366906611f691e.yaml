@@ -16,24 +16,24 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-11-01T13:24:58Z"
+    created: "2026-11-13T18:18:51Z"
     src_mtime: 1786156746.934919
-    vocab: "9e5c5738f5cb"
+    vocab: "3b1887becf08"
     top:
     - scientific: "Anisotremus surinamensis"
-      confidence: 0.3574
+      confidence: 0.3572
     - scientific: "Canthidermis sufflamen"
       confidence: 0.0941
     - scientific: "Chaetodon striatus"
       confidence: 0.0851
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-11-01T13:27:07Z"
+    created: "2026-11-13T18:21:06Z"
     src_mtime: 1786156746.934919
-    vocab: "9e5c5738f5cb"
+    vocab: "3b1887becf08"
     top:
     - scientific: "Diodon hystrix"
-      confidence: 0.8692
+      confidence: 0.8691
     - scientific: "Canthidermis sufflamen"
       confidence: 0.0474
     - scientific: "Lactophrys triqueter"
@@ -41,5 +41,5 @@ species_suggestions:
 species:
 - scientific: "Diodon hystrix"
   role: "primary"
-  confidence: 0.4346
+  confidence: 0.4345
   identified_by: "bioclip-2.5"

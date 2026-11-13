@@ -14,30 +14,30 @@ rotation_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-11-01T13:24:58Z"
+    created: "2026-11-13T18:18:51Z"
     src_mtime: 1786156320.624673
-    vocab: "9e5c5738f5cb"
+    vocab: "3b1887becf08"
     top:
     - scientific: "Chilomycterus antillarum"
-      confidence: 0.2655
+      confidence: 0.2648
     - scientific: "Acanthostracion polygonius"
-      confidence: 0.1969
+      confidence: 0.1963
     - scientific: "Balistes vetula"
-      confidence: 0.1598
+      confidence: 0.1594
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-11-01T13:27:07Z"
+    created: "2026-11-13T18:21:06Z"
     src_mtime: 1786156320.624673
-    vocab: "9e5c5738f5cb"
+    vocab: "3b1887becf08"
     top:
     - scientific: "Diodon hystrix"
-      confidence: 0.8883
+      confidence: 0.8861
     - scientific: "Canthidermis sufflamen"
-      confidence: 0.1024
+      confidence: 0.1021
     - scientific: "Lactophrys bicaudalis"
       confidence: 0.0034
 species:
 - scientific: "Diodon hystrix"
   role: "primary"
-  confidence: 0.4441
+  confidence: 0.443
   identified_by: "bioclip-2.5"

@@ -13,24 +13,24 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-11-01T13:24:58Z"
+    created: "2026-11-13T18:18:51Z"
     src_mtime: 1786158393.2789075
-    vocab: "9e5c5738f5cb"
+    vocab: "3b1887becf08"
     top:
     - scientific: "Holothuria mexicana"
-      confidence: 0.2867
+      confidence: 0.2845
     - scientific: "Holothuria thomasi"
-      confidence: 0.0939
+      confidence: 0.0932
     - scientific: "Bothus lunatus"
-      confidence: 0.0874
+      confidence: 0.0867
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-11-01T13:27:07Z"
+    created: "2026-11-13T18:21:06Z"
     src_mtime: 1786158393.2789075
-    vocab: "9e5c5738f5cb"
+    vocab: "3b1887becf08"
     top:
     - scientific: "Rypticus saponaceus"
-      confidence: 0.5615
+      confidence: 0.5612
     - scientific: "Pareques acuminatus"
       confidence: 0.1648
     - scientific: "Gymnothorax vicinus"
@@ -38,5 +38,5 @@ species_suggestions:
 species:
 - scientific: "Rypticus saponaceus"
   role: "primary"
-  confidence: 0.2807
+  confidence: 0.2806
   identified_by: "bioclip-2.5"

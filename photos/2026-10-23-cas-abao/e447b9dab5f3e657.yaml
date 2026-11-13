@@ -11,31 +11,31 @@ gps_source: "dive_site"
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-11-01T13:24:58Z"
+    created: "2026-11-13T18:18:51Z"
     src_mtime: 1793386149.3830276
-    vocab: "9e5c5738f5cb"
+    vocab: "3b1887becf08"
     top:
     - scientific: "Parablennius marmoreus"
-      confidence: 0.0231
+      confidence: 0.023
     - scientific: "Octopus insularis"
-      confidence: 0.0222
+      confidence: 0.0221
     - scientific: "Synodus intermedius"
-      confidence: 0.0124
+      confidence: 0.0123
     absorbed_by:
       scientific: "Montastraea cavernosa"
-      confidence: 0.8682
+      confidence: 0.863
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-11-01T13:27:07Z"
+    created: "2026-11-13T18:21:06Z"
     src_mtime: 1793386149.3830276
-    vocab: "9e5c5738f5cb"
+    vocab: "3b1887becf08"
     top:
     - scientific: "Acanthemblemaria maria"
-      confidence: 0.5087
+      confidence: 0.4331
     - scientific: "Acanthemblemaria spinosa"
-      confidence: 0.3397
-    - scientific: "Chilomycterus antillarum"
-      confidence: 0.0114
+      confidence: 0.2892
+    - scientific: "Chilomycterus antennatus"
+      confidence: 0.1486
 species:
 - scientific: "Acanthemblemaria maria"
   role: "primary"

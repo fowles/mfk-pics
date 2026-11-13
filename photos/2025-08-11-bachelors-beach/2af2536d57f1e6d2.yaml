@@ -16,21 +16,21 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-11-01T13:24:58Z"
+    created: "2026-11-13T18:18:51Z"
     src_mtime: 1786157883.3283918
-    vocab: "9e5c5738f5cb"
+    vocab: "3b1887becf08"
     top:
     - scientific: "Holothuria mexicana"
-      confidence: 0.4519
+      confidence: 0.4493
     - scientific: "Holothuria thomasi"
-      confidence: 0.1808
+      confidence: 0.1797
     - scientific: "Myrichthys breviceps"
-      confidence: 0.0834
+      confidence: 0.0829
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-11-01T13:27:07Z"
+    created: "2026-11-13T18:21:06Z"
     src_mtime: 1786157883.3283918
-    vocab: "9e5c5738f5cb"
+    vocab: "3b1887becf08"
     top:
     - scientific: "Holothuria mexicana"
       confidence: 0.4448
@@ -41,6 +41,6 @@ species_suggestions:
 species:
 - scientific: "Holothuria mexicana"
   role: "primary"
-  confidence: 0.4484
+  confidence: 0.447
   identified_by: "bioclip-2+bioclip-2.5"
 rotation_reviewed: true

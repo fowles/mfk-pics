@@ -16,30 +16,30 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-11-01T13:24:58Z"
+    created: "2026-11-13T18:18:51Z"
     src_mtime: 1786157493.6624742
-    vocab: "9e5c5738f5cb"
+    vocab: "3b1887becf08"
     top:
     - scientific: "Parribacus antarcticus"
-      confidence: 0.1978
+      confidence: 0.1894
     - scientific: "Cassiopea xamachana"
-      confidence: 0.1511
+      confidence: 0.1447
     - scientific: "Elysia crispata"
-      confidence: 0.1221
+      confidence: 0.1169
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-11-01T13:27:07Z"
+    created: "2026-11-13T18:21:06Z"
     src_mtime: 1786157493.6624742
-    vocab: "9e5c5738f5cb"
+    vocab: "3b1887becf08"
     top:
+    - scientific: "Chilomycterus antennatus"
+      confidence: 0.472
     - scientific: "Chilomycterus antillarum"
-      confidence: 0.4901
+      confidence: 0.2588
     - scientific: "Chilomycterus schoepfii"
-      confidence: 0.2568
-    - scientific: "Acanthostracion polygonius"
-      confidence: 0.126
+      confidence: 0.1356
 species:
-- scientific: "Chilomycterus antillarum"
+- scientific: "Chilomycterus antennatus"
   role: "primary"
-  confidence: 0.245
+  confidence: 0.236
   identified_by: "bioclip-2.5"

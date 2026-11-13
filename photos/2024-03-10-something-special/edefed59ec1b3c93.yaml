@@ -13,24 +13,24 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-11-01T13:24:58Z"
+    created: "2026-11-13T18:18:51Z"
     src_mtime: 1786159063.1901553
-    vocab: "9e5c5738f5cb"
+    vocab: "3b1887becf08"
     top:
     - scientific: "Aplysina archeri"
-      confidence: 0.2599
+      confidence: 0.2598
     - scientific: "Gymnothorax miliaris"
       confidence: 0.0459
     - scientific: "Stegastes planifrons"
-      confidence: 0.0406
+      confidence: 0.0405
     absorbed_by:
       scientific: "Aplysina fistularis"
-      confidence: 0.3985
+      confidence: 0.3984
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-11-01T13:27:07Z"
+    created: "2026-11-13T18:21:06Z"
     src_mtime: 1786159063.1901553
-    vocab: "9e5c5738f5cb"
+    vocab: "3b1887becf08"
     top:
     - scientific: "Gymnothorax miliaris"
       confidence: 0.0324
