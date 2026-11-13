@@ -37,7 +37,7 @@ species_suggestions:
       scientific: "Antillogorgia americana"
       confidence: 0.9637
 species:
-- scientific: "Chilomycterus antennatus"
+- scientific: "Diodon holocanthus"
   role: "primary"
   identified_by: "human"
 species_reviewed:

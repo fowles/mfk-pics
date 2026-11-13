@@ -34,7 +34,7 @@ species_suggestions:
     - scientific: "Ogcocephalus nasutus"
       confidence: 0.0016
 species:
-- scientific: "Chilomycterus antennatus"
+- scientific: "Diodon holocanthus"
   role: "primary"
   identified_by: "human"
 species_reviewed:

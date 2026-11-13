@@ -34,7 +34,7 @@ species_suggestions:
     - scientific: "Lactophrys bicaudalis"
       confidence: 0.0764
 species:
-- scientific: "Chilomycterus antennatus"
+- scientific: "Diodon holocanthus"
   role: "primary"
   identified_by: "human"
 species_reviewed:

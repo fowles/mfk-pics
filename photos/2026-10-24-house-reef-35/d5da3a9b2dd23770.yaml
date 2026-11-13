@@ -34,10 +34,9 @@ species_suggestions:
     - scientific: "Chilomycterus antennatus"
       confidence: 0.0
 species:
-- scientific: "Chilomycterus antennatus"
+- scientific: "Diodon holocanthus"
   role: "primary"
   identified_by: "human"
-  confirmed_from: "bioclip-2.5"
 species_reviewed:
 - "primary"
 - "secondary"
