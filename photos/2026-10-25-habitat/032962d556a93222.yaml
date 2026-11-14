@@ -1,0 +1,41 @@
+date: "2026-10-25 11:33:52"
+location: "Curacao"
+location_source: "dive_site"
+dive_site: "Habitat"
+credit: "Marc Howard"
+import_album: "Curacao Diving - Habitat 10-25"
+import_original_name: "PA250232(1).JPG"
+lat: 12.197904
+lon: -69.078854
+gps_source: "dive_site"
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-14T14:16:50Z"
+    src_mtime: 1794665236.6180394
+    vocab: "3b1887becf08"
+    top:
+    - scientific: "Abudefduf saxatilis"
+      confidence: 0.1074
+    - scientific: "Scarus guacamaia"
+      confidence: 0.0885
+    - scientific: "Holocentrus adscensionis"
+      confidence: 0.0417
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-14T14:16:57Z"
+    src_mtime: 1794665236.6180394
+    vocab: "3b1887becf08"
+    top:
+    - scientific: "Lutjanus apodus"
+      confidence: 0.2059
+    - scientific: "Sparisoma viride"
+      confidence: 0.0739
+    - scientific: "Acropora palmata"
+      confidence: 0.0402
+species:
+- scientific: "Lutjanus apodus"
+  role: "primary"
+  confidence: 0.1029
+  identified_by: "bioclip-2.5"
+culled: true

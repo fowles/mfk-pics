@@ -1,0 +1,15 @@
+date: "2026-10-25 12:34:07"
+location: "Curacao"
+location_source: "dive_site"
+dive_site: "Habitat"
+credit: "Miriam Melnick"
+import_album: "Curacao Diving - Habitat 10-25"
+import_original_name: "PA250248.MOV"
+lat: 12.197904
+lon: -69.078854
+gps_source: "dive_site"
+species:
+- scientific: "Bothus lunatus"
+  role: "primary"
+  identified_by: "human"
+culled: true

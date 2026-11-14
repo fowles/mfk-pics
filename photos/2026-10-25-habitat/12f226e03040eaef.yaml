@@ -1,0 +1,43 @@
+date: "2026-10-25 12:34:46"
+location: "Curacao"
+location_source: "dive_site"
+dive_site: "Habitat"
+credit: "Delia Kulukundis"
+import_album: "Curacao Diving - Habitat 10-25"
+import_original_name: "IMG_6487.JPG"
+lat: 12.197904
+lon: -69.078854
+gps_source: "dive_site"
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-14T14:16:50Z"
+    src_mtime: 1794665223.7222457
+    vocab: "3b1887becf08"
+    top:
+    - scientific: "Halichoeres radiatus"
+      confidence: 0.9807
+    - scientific: "Ocyurus chrysurus"
+      confidence: 0.0048
+    - scientific: "Thalassoma bifasciatum"
+      confidence: 0.0025
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-14T14:16:57Z"
+    src_mtime: 1794665223.7222457
+    vocab: "3b1887becf08"
+    top:
+    - scientific: "Halichoeres radiatus"
+      confidence: 0.9974
+    - scientific: "Sparisoma rubripinne"
+      confidence: 0.0023
+    - scientific: "Lutjanus apodus"
+      confidence: 0.0001
+species:
+- scientific: "Halichoeres radiatus"
+  role: "primary"
+  identified_by: "human"
+  confirmed_from: "bioclip-2+bioclip-2.5"
+species_reviewed:
+- "primary"
+- "secondary"

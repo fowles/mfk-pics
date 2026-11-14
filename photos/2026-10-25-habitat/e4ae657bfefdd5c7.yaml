@@ -1,0 +1,55 @@
+date: "2026-10-25 12:16:58"
+location: "Curacao"
+location_source: "dive_site"
+dive_site: "Habitat"
+credit: "Marc Howard"
+import_album: "Curacao Diving - Habitat 10-25"
+import_original_name: "PA250267(1).JPG"
+lat: 12.197904
+lon: -69.078854
+gps_source: "dive_site"
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-14T14:16:50Z"
+    src_mtime: 1794665251.5205808
+    vocab: "3b1887becf08"
+    top:
+    - scientific: "Carpilius corallinus"
+      confidence: 0.0809
+    - scientific: "Aplysina archeri"
+      confidence: 0.0566
+    - scientific: "Stenopus hispidus"
+      confidence: 0.0331
+    absorbed_by:
+      scientific: "Agelas clathrodes"
+      confidence: 0.1471
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-14T14:16:57Z"
+    src_mtime: 1794665251.5205808
+    vocab: "3b1887becf08"
+    top:
+    - scientific: "Carpilius corallinus"
+      confidence: 0.0003
+    - scientific: "Stenopus hispidus"
+      confidence: 0.0002
+    - scientific: "Lysmata grabhami"
+      confidence: 0.0002
+    absorbed_by:
+      scientific: "Orbicella annularis"
+      confidence: 0.8647
+species:
+- scientific: "Gymnothorax miliaris"
+  role: "primary"
+  identified_by: "human"
+- scientific: "Homo sapiens"
+  role: "secondary"
+  identified_by: "human"
+  person:
+  - "Miriam Melnick"
+tags:
+- "metapicture"
+species_reviewed:
+- "primary"
+- "secondary"

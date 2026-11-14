@@ -1,0 +1,41 @@
+date: "2026-10-25 11:45:48"
+location: "Curacao"
+location_source: "dive_site"
+dive_site: "Habitat"
+credit: "Miriam Melnick"
+import_album: "Curacao Diving - Habitat 10-25"
+import_original_name: "PA250172.JPG"
+lat: 12.197904
+lon: -69.078854
+gps_source: "dive_site"
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-14T14:16:50Z"
+    src_mtime: 1794665227.4519057
+    vocab: "3b1887becf08"
+    top:
+    - scientific: "Elysia crispata"
+      confidence: 0.4732
+    - scientific: "Parribacus antarcticus"
+      confidence: 0.1267
+    - scientific: "Aluterus scriptus"
+      confidence: 0.1114
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-14T14:16:57Z"
+    src_mtime: 1794665227.4519057
+    vocab: "3b1887becf08"
+    top:
+    - scientific: "Elysia crispata"
+      confidence: 0.9983
+    - scientific: "Callyspongia plicifera"
+      confidence: 0.0002
+    - scientific: "Octopus briareus"
+      confidence: 0.0001
+species:
+- scientific: "Elysia crispata"
+  role: "primary"
+  confidence: 0.7358
+  identified_by: "bioclip-2+bioclip-2.5"
+culled: true

@@ -1,0 +1,41 @@
+date: "2026-10-25 11:49:17"
+location: "Curacao"
+location_source: "dive_site"
+dive_site: "Habitat"
+credit: "Miriam Melnick"
+import_album: "Curacao Diving - Habitat 10-25"
+import_original_name: "PA250176.JPG"
+lat: 12.197904
+lon: -69.078854
+gps_source: "dive_site"
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-14T14:16:50Z"
+    src_mtime: 1794665227.927044
+    vocab: "3b1887becf08"
+    top:
+    - scientific: "Lachnolaimus maximus"
+      confidence: 0.1515
+    - scientific: "Lutjanus analis"
+      confidence: 0.0923
+    - scientific: "Bodianus rufus"
+      confidence: 0.0891
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-14T14:16:57Z"
+    src_mtime: 1794665227.927044
+    vocab: "3b1887becf08"
+    top:
+    - scientific: "Haemulon macrostomum"
+      confidence: 0.4058
+    - scientific: "Anisotremus virginicus"
+      confidence: 0.2583
+    - scientific: "Chaetodon striatus"
+      confidence: 0.2446
+species:
+- scientific: "Haemulon macrostomum"
+  role: "primary"
+  confidence: 0.2029
+  identified_by: "bioclip-2.5"
+culled: true

@@ -1,0 +1,17 @@
+date: "2026-10-25 12:04:33"
+location: "Curacao"
+location_source: "dive_site"
+dive_site: "Habitat"
+credit: "Miriam Melnick"
+import_album: "Curacao Diving - Habitat 10-25"
+import_original_name: "PA250217.MOV"
+lat: 12.197904
+lon: -69.078854
+gps_source: "dive_site"
+species:
+- scientific: "Clepticus parrae"
+  role: "primary"
+  identified_by: "human"
+species_reviewed:
+- "primary"
+- "secondary"

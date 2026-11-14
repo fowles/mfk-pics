@@ -1,0 +1,42 @@
+date: "2026-10-25 11:51:57"
+location: "Curacao"
+location_source: "dive_site"
+dive_site: "Habitat"
+credit: "Marc Howard"
+import_album: "Curacao Diving - Habitat 10-25"
+import_original_name: "PA250248.JPG"
+lat: 12.197904
+lon: -69.078854
+gps_source: "dive_site"
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-14T14:16:50Z"
+    src_mtime: 1794665241.213031
+    vocab: "3b1887becf08"
+    top:
+    - scientific: "Carangoides bartholomaei"
+      confidence: 0.0405
+    - scientific: "Bodianus rufus"
+      confidence: 0.039
+    - scientific: "Astrophyton muricatum"
+      confidence: 0.0286
+    absorbed_by:
+      scientific: "Gorgonia ventalina"
+      confidence: 0.2224
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-14T14:16:57Z"
+    src_mtime: 1794665241.213031
+    vocab: "3b1887becf08"
+    top:
+    - scientific: "Decapterus macarellus"
+      confidence: 0.0472
+    - scientific: "Elagatis bipinnulata"
+      confidence: 0.0286
+    - scientific: "Rhincodon typus"
+      confidence: 0.0145
+    absorbed_by:
+      scientific: "Cirrhipathes leutkeni"
+      confidence: 0.8826
+culled: true

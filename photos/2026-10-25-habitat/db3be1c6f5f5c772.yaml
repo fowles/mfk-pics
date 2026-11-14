@@ -1,0 +1,42 @@
+date: "2026-10-25 11:43:01"
+location: "Curacao"
+location_source: "dive_site"
+dive_site: "Habitat"
+credit: "Miriam Melnick"
+import_album: "Curacao Diving - Habitat 10-25"
+import_original_name: "PA250162.JPG"
+lat: 12.197904
+lon: -69.078854
+gps_source: "dive_site"
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-14T14:16:50Z"
+    src_mtime: 1794665224.7667398
+    vocab: "3b1887becf08"
+    top:
+    - scientific: "Sparisoma viride"
+      confidence: 0.0095
+    - scientific: "Callyspongia plicifera"
+      confidence: 0.0028
+    - scientific: "Thalassoma bifasciatum"
+      confidence: 0.0026
+    absorbed_by:
+      scientific: "Porites astreoides"
+      confidence: 0.8317
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-14T14:16:57Z"
+    src_mtime: 1794665224.7667398
+    vocab: "3b1887becf08"
+    top:
+    - scientific: "Paguristes cadenati"
+      confidence: 0.0001
+    - scientific: "Spirobranchus giganteus"
+      confidence: 0.0001
+    - scientific: "Gymnothorax miliaris"
+      confidence: 0.0
+    absorbed_by:
+      scientific: "Porites astreoides"
+      confidence: 0.9989
+culled: true

@@ -1,0 +1,41 @@
+date: "2026-10-25 11:58:59"
+location: "Curacao"
+location_source: "dive_site"
+dive_site: "Habitat"
+credit: "Miriam Melnick"
+import_album: "Curacao Diving - Habitat 10-25"
+import_original_name: "PA250202.JPG"
+lat: 12.197904
+lon: -69.078854
+gps_source: "dive_site"
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-14T14:16:50Z"
+    src_mtime: 1794665232.0712724
+    vocab: "3b1887becf08"
+    top:
+    - scientific: "Chaetodon striatus"
+      confidence: 0.9985
+    - scientific: "Chaetodon sedentarius"
+      confidence: 0.001
+    - scientific: "Chaetodon capistratus"
+      confidence: 0.0003
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-14T14:16:57Z"
+    src_mtime: 1794665232.0712724
+    vocab: "3b1887becf08"
+    top:
+    - scientific: "Chaetodon striatus"
+      confidence: 1.0
+    - scientific: "Chaetodipterus faber"
+      confidence: 0.0
+    - scientific: "Equetus punctatus"
+      confidence: 0.0
+species:
+- scientific: "Chaetodon striatus"
+  role: "primary"
+  confidence: 0.9992
+  identified_by: "bioclip-2+bioclip-2.5"
+culled: true

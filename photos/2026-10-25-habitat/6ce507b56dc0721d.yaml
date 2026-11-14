@@ -1,0 +1,45 @@
+date: "2026-10-25 11:41:20"
+location: "Curacao"
+location_source: "dive_site"
+dive_site: "Habitat"
+credit: "Marc Howard"
+import_album: "Curacao Diving - Habitat 10-25"
+import_original_name: "PA250235(1).JPG"
+lat: 12.197904
+lon: -69.078854
+gps_source: "dive_site"
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-14T14:16:50Z"
+    src_mtime: 1794665237.2787015
+    vocab: "3b1887becf08"
+    top:
+    - scientific: "Holacanthus tricolor"
+      confidence: 0.1402
+    - scientific: "Hypoplectrus unicolor"
+      confidence: 0.0582
+    - scientific: "Halichoeres pictus"
+      confidence: 0.044
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-14T14:16:57Z"
+    src_mtime: 1794665237.2787015
+    vocab: "3b1887becf08"
+    top:
+    - scientific: "Mycteroperca tigris"
+      confidence: 0.3303
+    - scientific: "Halichoeres garnoti"
+      confidence: 0.1297
+    - scientific: "Sparisoma amplum"
+      confidence: 0.0825
+species:
+- scientific: "Homo sapiens"
+  role: "primary"
+  identified_by: "human"
+  person:
+  - "Jesse Geffen"
+  - "Kearstin Reinoso"
+species_reviewed:
+- "primary"
+- "secondary"

@@ -1,0 +1,44 @@
+date: "2026-10-25 11:38:49"
+location: "Curacao"
+location_source: "dive_site"
+dive_site: "Habitat"
+credit: "Miriam Melnick"
+import_album: "Curacao Diving - Habitat 10-25"
+import_original_name: "PA250156.JPG"
+lat: 12.197904
+lon: -69.078854
+gps_source: "dive_site"
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-14T14:16:50Z"
+    src_mtime: 1794665224.4785693
+    vocab: "3b1887becf08"
+    top:
+    - scientific: "Pterois volitans"
+      confidence: 0.4799
+    - scientific: "Echeneis naucrates"
+      confidence: 0.0627
+    - scientific: "Nemaster grandis"
+      confidence: 0.0485
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-14T14:16:57Z"
+    src_mtime: 1794665224.4785693
+    vocab: "3b1887becf08"
+    top:
+    - scientific: "Tylosurus crocodilus"
+      confidence: 0.1496
+    - scientific: "Decapterus macarellus"
+      confidence: 0.0691
+    - scientific: "Ablennes hians"
+      confidence: 0.0671
+    absorbed_by:
+      scientific: "Cirrhipathes leutkeni"
+      confidence: 0.2851
+species:
+- scientific: "Pterois volitans"
+  role: "primary"
+  confidence: 0.2399
+  identified_by: "bioclip-2"
+culled: true

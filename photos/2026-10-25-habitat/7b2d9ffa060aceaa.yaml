@@ -1,0 +1,44 @@
+date: "2026-10-25 12:05:40"
+location: "Curacao"
+location_source: "dive_site"
+dive_site: "Habitat"
+credit: "Delia Kulukundis"
+import_album: "Curacao Diving - Habitat 10-25"
+import_original_name: "IMG_6466.JPG"
+lat: 12.197904
+lon: -69.078854
+gps_source: "dive_site"
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-14T14:16:50Z"
+    src_mtime: 1794665221.9170487
+    vocab: "3b1887becf08"
+    top:
+    - scientific: "Chilomycterus antillarum"
+      confidence: 0.7791
+    - scientific: "Chilomycterus antennatus"
+      confidence: 0.0717
+    - scientific: "Diodon hystrix"
+      confidence: 0.0655
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-14T14:16:57Z"
+    src_mtime: 1794665221.9170487
+    vocab: "3b1887becf08"
+    top:
+    - scientific: "Diodon hystrix"
+      confidence: 0.9992
+    - scientific: "Lactophrys bicaudalis"
+      confidence: 0.0008
+    - scientific: "Chilomycterus antennatus"
+      confidence: 0.0
+species:
+- scientific: "Diodon hystrix"
+  role: "primary"
+  identified_by: "human"
+  confirmed_from: "bioclip-2+bioclip-2.5"
+rotation_applied: 180
+species_reviewed:
+- "primary"
+- "secondary"

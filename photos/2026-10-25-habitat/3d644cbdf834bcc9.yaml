@@ -1,0 +1,41 @@
+date: "2026-10-25 12:16:53"
+location: "Curacao"
+location_source: "dive_site"
+dive_site: "Habitat"
+credit: "Marc Howard"
+import_album: "Curacao Diving - Habitat 10-25"
+import_original_name: "PA250266(1).JPG"
+lat: 12.197904
+lon: -69.078854
+gps_source: "dive_site"
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-14T14:16:50Z"
+    src_mtime: 1794665251.151124
+    vocab: "3b1887becf08"
+    top:
+    - scientific: "Stenopus hispidus"
+      confidence: 0.0886
+    - scientific: "Echeneis naucrates"
+      confidence: 0.0717
+    - scientific: "Pterois volitans"
+      confidence: 0.0553
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-14T14:16:57Z"
+    src_mtime: 1794665251.151124
+    vocab: "3b1887becf08"
+    top:
+    - scientific: "Bodianus pulchellus"
+      confidence: 0.2693
+    - scientific: "Centropyge argi"
+      confidence: 0.2073
+    - scientific: "Mycteroperca tigris"
+      confidence: 0.1393
+species:
+- scientific: "Bodianus pulchellus"
+  role: "primary"
+  confidence: 0.1346
+  identified_by: "bioclip-2.5"
+culled: true

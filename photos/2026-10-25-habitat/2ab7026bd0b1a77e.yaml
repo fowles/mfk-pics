@@ -1,0 +1,40 @@
+date: "2026-10-25 12:16:52"
+location: "Curacao"
+location_source: "dive_site"
+dive_site: "Habitat"
+credit: "Marc Howard"
+import_album: "Curacao Diving - Habitat 10-25"
+import_original_name: "PA250265(1).JPG"
+lat: 12.197904
+lon: -69.078854
+gps_source: "dive_site"
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-14T14:16:50Z"
+    src_mtime: 1794665250.7964458
+    vocab: "3b1887becf08"
+    top:
+    - scientific: "Holacanthus tricolor"
+      confidence: 0.2935
+    - scientific: "Melichthys niger"
+      confidence: 0.1455
+    - scientific: "Pomacanthus arcuatus"
+      confidence: 0.1411
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-14T14:16:57Z"
+    src_mtime: 1794665250.7964458
+    vocab: "3b1887becf08"
+    top:
+    - scientific: "Astrophyton muricatum"
+      confidence: 0.025
+    - scientific: "Erythropodium caribaeorum"
+      confidence: 0.016
+    - scientific: "Mycteroperca tigris"
+      confidence: 0.0138
+    absorbed_by:
+      scientific: "Cirrhipathes leutkeni"
+      confidence: 0.4818
+species: []
+culled: true

@@ -1,0 +1,43 @@
+date: "2026-10-25 11:48:19"
+location: "Curacao"
+location_source: "dive_site"
+dive_site: "Habitat"
+credit: "Delia Kulukundis"
+import_album: "Curacao Diving - Habitat 10-25"
+import_original_name: "IMG_6441.JPG"
+lat: 12.197904
+lon: -69.078854
+gps_source: "dive_site"
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-14T14:16:50Z"
+    src_mtime: 1794665219.139639
+    vocab: "3b1887becf08"
+    top:
+    - scientific: "Diodon hystrix"
+      confidence: 0.564
+    - scientific: "Diodon holocanthus"
+      confidence: 0.3332
+    - scientific: "Epinephelus adscensionis"
+      confidence: 0.0247
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-14T14:16:57Z"
+    src_mtime: 1794665219.139639
+    vocab: "3b1887becf08"
+    top:
+    - scientific: "Diodon hystrix"
+      confidence: 1.0
+    - scientific: "Diodon holocanthus"
+      confidence: 0.0
+    - scientific: "Chilomycterus antennatus"
+      confidence: 0.0
+species:
+- scientific: "Diodon hystrix"
+  role: "primary"
+  identified_by: "human"
+  confirmed_from: "bioclip-2+bioclip-2.5"
+species_reviewed:
+- "primary"
+- "secondary"
