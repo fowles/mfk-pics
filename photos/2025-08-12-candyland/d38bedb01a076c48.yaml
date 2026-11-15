@@ -36,7 +36,14 @@ species_suggestions:
     - scientific: "Chromis multilineata"
       confidence: 0.0159
 species:
-- scientific: "Chromis cyanea"
+- scientific: "Clepticus parrae"
+  role: "secondary"
+  identified_by: "human"
+  confirmed_from: "bioclip-2.5"
+- scientific: "Chromis multilineata"
   role: "primary"
-  confidence: 0.6328
-  identified_by: "bioclip-2+bioclip-2.5"
+  identified_by: "human"
+  confirmed_from: "bioclip-2+bioclip-2.5"
+species_reviewed:
+- "primary"
+- "secondary"

@@ -38,5 +38,9 @@ species_suggestions:
 species:
 - scientific: "Ginglymostoma cirratum"
   role: "primary"
-  confidence: 0.9709
-  identified_by: "bioclip-2+bioclip-2.5"
+  identified_by: "human"
+  confirmed_from: "bioclip-2+bioclip-2.5"
+species_reviewed:
+- "primary"
+- "secondary"
+rotation_applied: 180

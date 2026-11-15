@@ -39,5 +39,10 @@ species_suggestions:
 species:
 - scientific: "Chromis multilineata"
   role: "primary"
-  confidence: 0.3229
-  identified_by: "bioclip-2"
+  identified_by: "human"
+  confirmed_from: "bioclip-2"
+tags:
+- "science"
+species_reviewed:
+- "primary"
+- "secondary"

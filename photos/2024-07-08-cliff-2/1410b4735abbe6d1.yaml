@@ -35,8 +35,8 @@ species_suggestions:
       confidence: 0.0011
     - scientific: "Chilomycterus antennatus"
       confidence: 0.0
-species:
-- scientific: "Diodon hystrix"
-  role: "primary"
-  confidence: 0.8855
-  identified_by: "bioclip-2+bioclip-2.5"
+species: []
+culled: true
+species_reviewed:
+- "primary"
+- "secondary"

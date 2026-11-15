@@ -15,6 +15,9 @@ species:
 - scientific: "Aetobatus narinari"
   role: "primary"
   identified_by: "human"
+- scientific: "Heteroconger longissimus"
+  role: "secondary"
+  identified_by: "human"
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
@@ -40,3 +43,6 @@ species_suggestions:
       confidence: 0.0
     - scientific: "Rhincodon typus"
       confidence: 0.0
+species_reviewed:
+- "primary"
+- "secondary"

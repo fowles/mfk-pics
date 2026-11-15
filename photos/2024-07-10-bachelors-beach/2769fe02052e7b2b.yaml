@@ -45,3 +45,8 @@ species_suggestions:
       scientific: "Acropora cervicornis"
       confidence: 0.8688
 species: []
+tags:
+- "science"
+species_reviewed:
+- "primary"
+- "secondary"

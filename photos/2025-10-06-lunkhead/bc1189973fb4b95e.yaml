@@ -37,6 +37,10 @@ species_suggestions:
       confidence: 0.1316
 species:
 - scientific: "Haemulon plumierii"
-  role: "primary"
+  role: "secondary"
   confidence: 0.1454
   identified_by: "bioclip-2.5"
+- scientific: "Epinephelus itajara"
+  role: "primary"
+  identified_by: "human"
+  confirmed_from: "bioclip-2.5"

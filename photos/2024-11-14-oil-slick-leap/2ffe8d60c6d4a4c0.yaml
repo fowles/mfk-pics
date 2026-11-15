@@ -39,7 +39,9 @@ species_suggestions:
     - scientific: "Gymnothorax moringa"
       confidence: 0.1335
 species:
-- scientific: "Epinephelus adscensionis"
+- scientific: "Lactophrys bicaudalis"
   role: "primary"
-  confidence: 0.2418
-  identified_by: "bioclip-2.5"
+  identified_by: "human"
+species_reviewed:
+- "primary"
+- "secondary"

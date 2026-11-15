@@ -39,7 +39,9 @@ species_suggestions:
     - scientific: "Ophioblennius macclurei"
       confidence: 0.0854
 species:
-- scientific: "Chaetodon sedentarius"
+- scientific: "Lactophrys bicaudalis"
   role: "primary"
-  confidence: 0.118
-  identified_by: "bioclip-2.5"
+  identified_by: "human"
+species_reviewed:
+- "primary"
+- "secondary"

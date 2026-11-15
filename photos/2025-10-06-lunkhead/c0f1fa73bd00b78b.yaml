@@ -41,4 +41,15 @@ species_suggestions:
     absorbed_by:
       scientific: "Antillogorgia americana"
       confidence: 0.4186
-species: []
+species:
+- scientific: "Pterois volitans"
+  role: "primary"
+  identified_by: "human"
+- scientific: "Homo sapiens"
+  role: "secondary"
+  identified_by: "human"
+  person:
+  - "Matthew Kulukundis"
+species_reviewed:
+- "primary"
+- "secondary"

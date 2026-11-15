@@ -37,7 +37,9 @@ species_suggestions:
     - scientific: "Panulirus argus"
       confidence: 0.0582
 species:
-- scientific: "Chilomycterus antennatus"
+- scientific: "Scorpaena plumieri"
   role: "primary"
-  confidence: 0.1844
-  identified_by: "bioclip-2.5"
+  identified_by: "human"
+species_reviewed:
+- "primary"
+- "secondary"

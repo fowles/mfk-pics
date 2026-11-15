@@ -41,5 +41,8 @@ species_suggestions:
 species:
 - scientific: "Chelonia mydas"
   role: "primary"
-  confidence: 0.9218
-  identified_by: "bioclip-2+bioclip-2.5"
+  identified_by: "human"
+  confirmed_from: "bioclip-2+bioclip-2.5"
+species_reviewed:
+- "primary"
+- "secondary"

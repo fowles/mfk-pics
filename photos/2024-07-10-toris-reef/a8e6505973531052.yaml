@@ -39,7 +39,10 @@ species_suggestions:
     - scientific: "Acanthostracion quadricornis"
       confidence: 0.0947
 species:
-- scientific: "Lactophrys bicaudalis"
+- scientific: "Diodon hystrix"
   role: "primary"
-  confidence: 0.1835
-  identified_by: "bioclip-2+bioclip-2.5"
+  identified_by: "human"
+  confirmed_from: "bioclip-2.5"
+species_reviewed:
+- "primary"
+- "secondary"

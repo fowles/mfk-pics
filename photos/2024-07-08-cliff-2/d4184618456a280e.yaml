@@ -39,7 +39,10 @@ species_suggestions:
     - scientific: "Gymnothorax moringa"
       confidence: 0.0857
 species:
-- scientific: "Enchelycore carychroa"
+- scientific: "Gymnothorax moringa"
   role: "primary"
-  confidence: 0.2228
-  identified_by: "bioclip-2.5"
+  identified_by: "human"
+  confirmed_from: "bioclip-2.5"
+species_reviewed:
+- "primary"
+- "secondary"

@@ -14,3 +14,12 @@ variants:
   import_original_name: "bec8120180eff91b.mp4"
 video_start_anchored: true
 date_reviewed: true
+species:
+- scientific: "Chromis multilineata"
+  role: "primary"
+  identified_by: "human"
+- scientific: "Homo sapiens"
+  role: "secondary"
+  identified_by: "human"
+  person:
+  - "Delia Kulukundis"

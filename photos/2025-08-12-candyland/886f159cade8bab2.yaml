@@ -35,8 +35,8 @@ species_suggestions:
       confidence: 0.212
     - scientific: "Halichoeres pictus"
       confidence: 0.0808
-species:
-- scientific: "Chromis cyanea"
-  role: "primary"
-  confidence: 0.463
-  identified_by: "bioclip-2"
+species: []
+culled: true
+species_reviewed:
+- "primary"
+- "secondary"

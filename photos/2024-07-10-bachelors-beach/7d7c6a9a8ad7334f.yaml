@@ -42,3 +42,4 @@ species_suggestions:
     - scientific: "Stegastes partitus"
       confidence: 0.052
 species: []
+culled: true

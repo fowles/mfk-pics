@@ -41,5 +41,9 @@ species_suggestions:
 species:
 - scientific: "Lactophrys bicaudalis"
   role: "primary"
-  confidence: 0.5986
-  identified_by: "bioclip-2+bioclip-2.5"
+  identified_by: "human"
+  confirmed_from: "bioclip-2+bioclip-2.5"
+species_reviewed:
+- "primary"
+- "secondary"
+cover: "cluster"

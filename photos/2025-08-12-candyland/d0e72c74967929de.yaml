@@ -38,5 +38,11 @@ species_suggestions:
 species:
 - scientific: "Clepticus parrae"
   role: "primary"
-  confidence: 0.5114
-  identified_by: "bioclip-2+bioclip-2.5"
+  identified_by: "human"
+  confirmed_from: "bioclip-2+bioclip-2.5"
+- scientific: "Melichthys niger"
+  role: "secondary"
+  identified_by: "human"
+species_reviewed:
+- "primary"
+- "secondary"

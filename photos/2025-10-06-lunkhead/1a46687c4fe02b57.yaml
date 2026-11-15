@@ -11,3 +11,15 @@ gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
 video_start_anchored: true
+species:
+- scientific: "Pterois volitans"
+  role: "primary"
+  identified_by: "human"
+- scientific: "Homo sapiens"
+  role: "secondary"
+  identified_by: "human"
+  person:
+  - "Matthew Kulukundis"
+species_reviewed:
+- "primary"
+- "secondary"

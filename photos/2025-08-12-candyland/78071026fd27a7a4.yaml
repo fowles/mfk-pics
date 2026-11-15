@@ -37,7 +37,10 @@ species_suggestions:
     - scientific: "Clepticus parrae"
       confidence: 0.0229
 species:
-- scientific: "Acanthurus coeruleus"
+- scientific: "Clepticus parrae"
   role: "primary"
-  confidence: 0.5876
-  identified_by: "bioclip-2+bioclip-2.5"
+  identified_by: "human"
+  confirmed_from: "bioclip-2.5"
+species_reviewed:
+- "primary"
+- "secondary"

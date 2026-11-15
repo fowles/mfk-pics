@@ -41,4 +41,13 @@ species_suggestions:
     absorbed_by:
       scientific: "Millepora alcicornis"
       confidence: 0.5213
-species: []
+species:
+- scientific: "Chromis multilineata"
+  role: "primary"
+  identified_by: "human"
+  confirmed_from: "bioclip-2+bioclip-2.5"
+tags:
+- "science"
+species_reviewed:
+- "primary"
+- "secondary"

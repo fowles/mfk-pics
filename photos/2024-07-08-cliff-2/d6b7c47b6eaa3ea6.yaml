@@ -37,6 +37,12 @@ species_suggestions:
       confidence: 0.0
 species:
 - scientific: "Haemulon flavolineatum"
+  role: "secondary"
+  identified_by: "human"
+  confirmed_from: "bioclip-2+bioclip-2.5"
+- scientific: "Diodon hystrix"
   role: "primary"
-  confidence: 0.9829
-  identified_by: "bioclip-2+bioclip-2.5"
+  identified_by: "human"
+species_reviewed:
+- "primary"
+- "secondary"

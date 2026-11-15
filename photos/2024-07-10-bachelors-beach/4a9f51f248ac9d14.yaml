@@ -37,7 +37,10 @@ species_suggestions:
     - scientific: "Lactophrys triqueter"
       confidence: 0.0459
 species:
-- scientific: "Equetus punctatus"
+- scientific: "Hippocampus reidi"
   role: "primary"
-  confidence: 0.264
-  identified_by: "bioclip-2.5"
+  identified_by: "human"
+  confirmed_from: "bioclip-2"
+species_reviewed:
+- "primary"
+- "secondary"

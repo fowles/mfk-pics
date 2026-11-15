@@ -39,7 +39,10 @@ species_suggestions:
     - scientific: "Aetobatus narinari"
       confidence: 0.0983
 species:
-- scientific: "Hypanus americanus"
+- scientific: "Chelonia mydas"
   role: "primary"
-  confidence: 0.3322
-  identified_by: "bioclip-2.5"
+  identified_by: "human"
+  confirmed_from: "bioclip-2"
+species_reviewed:
+- "primary"
+- "secondary"

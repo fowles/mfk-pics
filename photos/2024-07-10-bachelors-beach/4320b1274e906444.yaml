@@ -39,7 +39,9 @@ species_suggestions:
     - scientific: "Abudefduf saxatilis"
       confidence: 0.0666
 species:
-- scientific: "Aulostomus maculatus"
+- scientific: "Hippocampus reidi"
   role: "primary"
-  confidence: 0.1322
-  identified_by: "bioclip-2.5"
+  identified_by: "human"
+species_reviewed:
+- "primary"
+- "secondary"

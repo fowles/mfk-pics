@@ -10,3 +10,10 @@ lon: -68.2806703
 gps_source: "dive_site"
 video_start_anchored: true
 date_reviewed: true
+species:
+- scientific: "Diodon hystrix"
+  role: "primary"
+  identified_by: "human"
+species_reviewed:
+- "primary"
+- "secondary"

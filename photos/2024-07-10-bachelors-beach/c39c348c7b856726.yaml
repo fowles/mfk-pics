@@ -41,4 +41,17 @@ species_suggestions:
     absorbed_by:
       scientific: "Antillogorgia americana"
       confidence: 0.2159
-species: []
+species:
+- scientific: "Hippocampus reidi"
+  role: "primary"
+  identified_by: "human"
+- scientific: "Homo sapiens"
+  role: "secondary"
+  identified_by: "human"
+  person:
+  - "Delia Kulukundis"
+tags:
+- "metapicture"
+species_reviewed:
+- "primary"
+- "secondary"

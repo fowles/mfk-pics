@@ -39,3 +39,6 @@ species_suggestions:
       confidence: 0.0019
     - scientific: "Caranx ruber"
       confidence: 0.0001
+species_reviewed:
+- "primary"
+- "secondary"

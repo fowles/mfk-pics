@@ -39,7 +39,10 @@ species_suggestions:
     - scientific: "Canthidermis sufflamen"
       confidence: 0.0201
 species:
-- scientific: "Pomacanthus arcuatus"
+- scientific: "Chelonia mydas"
   role: "primary"
-  confidence: 0.4563
-  identified_by: "bioclip-2.5"
+  identified_by: "human"
+  confirmed_from: "bioclip-2"
+species_reviewed:
+- "primary"
+- "secondary"

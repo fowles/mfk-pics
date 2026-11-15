@@ -37,8 +37,8 @@ species_suggestions:
       confidence: 0.0
     - scientific: "Scomberomorus regalis"
       confidence: 0.0
-species:
-- scientific: "Megalops atlanticus"
-  role: "primary"
-  confidence: 0.838
-  identified_by: "bioclip-2+bioclip-2.5"
+species: []
+culled: true
+species_reviewed:
+- "primary"
+- "secondary"

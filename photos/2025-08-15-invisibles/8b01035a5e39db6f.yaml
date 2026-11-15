@@ -14,6 +14,12 @@ species:
 - scientific: "Aetobatus narinari"
   role: "primary"
   identified_by: "human"
+- scientific: "Heteroconger longissimus"
+  role: "secondary"
+  identified_by: "human"
+- scientific: "Trachinotus goodei"
+  role: "secondary"
+  identified_by: "human"
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
@@ -39,3 +45,7 @@ species_suggestions:
       confidence: 0.0
     - scientific: "Dactylopterus volitans"
       confidence: 0.0
+species_reviewed:
+- "primary"
+- "secondary"
+cluster: "start"

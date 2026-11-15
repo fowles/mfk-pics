@@ -42,7 +42,9 @@ species_suggestions:
     - scientific: "Acanthostracion polygonius"
       confidence: 0.1495
 species:
-- scientific: "Aluterus scriptus"
+- scientific: "Diodon hystrix"
   role: "primary"
-  confidence: 0.1979
-  identified_by: "bioclip-2.5"
+  identified_by: "human"
+species_reviewed:
+- "primary"
+- "secondary"

@@ -38,4 +38,10 @@ species_suggestions:
     absorbed_by:
       scientific: "Millepora complanata"
       confidence: 0.6876
-species: []
+species:
+- scientific: "Gymnothorax moringa"
+  role: "primary"
+  identified_by: "human"
+species_reviewed:
+- "primary"
+- "secondary"

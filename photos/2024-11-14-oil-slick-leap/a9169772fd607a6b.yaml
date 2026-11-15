@@ -39,7 +39,9 @@ species_suggestions:
     - scientific: "Halichoeres garnoti"
       confidence: 0.0769
 species:
-- scientific: "Serranus tigrinus"
+- scientific: "Halichoeres radiatus"
   role: "primary"
-  confidence: 0.4476
-  identified_by: "bioclip-2+bioclip-2.5"
+  identified_by: "human"
+species_reviewed:
+- "primary"
+- "secondary"

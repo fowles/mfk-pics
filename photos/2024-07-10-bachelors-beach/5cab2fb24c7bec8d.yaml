@@ -43,3 +43,4 @@ species_suggestions:
       scientific: "Briareum asbestinum"
       confidence: 0.6992
 species: []
+culled: true

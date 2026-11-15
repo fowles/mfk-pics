@@ -18,3 +18,6 @@ species:
   role: "secondary"
   identified_by: "human"
 video_start_anchored: true
+species_reviewed:
+- "primary"
+- "secondary"

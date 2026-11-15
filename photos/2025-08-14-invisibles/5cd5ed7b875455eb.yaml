@@ -36,7 +36,9 @@ species_suggestions:
     - scientific: "Chromis multilineata"
       confidence: 0.0947
 species:
-- scientific: "Myripristis jacobus"
+- scientific: "Gymnothorax moringa"
   role: "primary"
-  confidence: 0.2666
-  identified_by: "bioclip-2+bioclip-2.5"
+  identified_by: "human"
+species_reviewed:
+- "primary"
+- "secondary"

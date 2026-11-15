@@ -14,3 +14,10 @@ variants:
   import_original_name: "5d776799c090a011.mp4"
 video_start_anchored: true
 date_reviewed: true
+species:
+- scientific: "Chelonia mydas"
+  role: "primary"
+  identified_by: "human"
+species_reviewed:
+- "primary"
+- "secondary"

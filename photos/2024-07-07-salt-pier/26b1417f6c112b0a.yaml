@@ -39,7 +39,11 @@ species_suggestions:
     - scientific: "Caretta caretta"
       confidence: 0.002
 species:
-- scientific: "Eretmochelys imbricata"
+- scientific: "Chelonia mydas"
   role: "primary"
-  confidence: 0.5759
-  identified_by: "bioclip-2+bioclip-2.5"
+  identified_by: "human"
+  confirmed_from: "bioclip-2+bioclip-2.5"
+species_reviewed:
+- "primary"
+- "secondary"
+cluster: "start"

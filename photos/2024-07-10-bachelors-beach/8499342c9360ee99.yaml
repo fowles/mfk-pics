@@ -39,7 +39,13 @@ species_suggestions:
     - scientific: "Sparisoma viride"
       confidence: 0.0507
 species:
-- scientific: "Halichoeres garnoti"
+- scientific: "Cephalopholis cruentata"
+  role: "secondary"
+  identified_by: "human"
+- scientific: "Equetus punctatus"
   role: "primary"
-  confidence: 0.3541
-  identified_by: "bioclip-2.5"
+  identified_by: "human"
+  confirmed_from: "bioclip-2"
+species_reviewed:
+- "primary"
+- "secondary"

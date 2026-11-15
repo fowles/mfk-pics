@@ -39,3 +39,6 @@ species_suggestions:
       confidence: 0.0
     - scientific: "Echeneis naucrates"
       confidence: 0.0
+species_reviewed:
+- "primary"
+- "secondary"

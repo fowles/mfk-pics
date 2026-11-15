@@ -37,7 +37,13 @@ species_suggestions:
     - scientific: "Ophioblennius macclurei"
       confidence: 0.1136
 species:
-- scientific: "Stegastes partitus"
+- scientific: "Octopus insularis"
   role: "primary"
-  confidence: 0.3727
-  identified_by: "bioclip-2"
+  identified_by: "human"
+- scientific: "Stegastes partitus"
+  role: "secondary"
+  identified_by: "human"
+  confirmed_from: "bioclip-2"
+species_reviewed:
+- "primary"
+- "secondary"

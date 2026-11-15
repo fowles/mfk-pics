@@ -10,3 +10,16 @@ lon: -68.40111449999999
 gps_source: "dive_site"
 video_start_anchored: true
 date_reviewed: true
+species:
+- scientific: "Melichthys niger"
+  role: "primary"
+  identified_by: "human"
+- scientific: "Chromis multilineata"
+  role: "secondary"
+  identified_by: "human"
+- scientific: "Cantherhines macrocerus"
+  role: "secondary"
+  identified_by: "human"
+species_reviewed:
+- "primary"
+- "secondary"

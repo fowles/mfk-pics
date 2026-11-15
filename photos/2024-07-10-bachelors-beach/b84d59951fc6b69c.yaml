@@ -45,3 +45,4 @@ species_suggestions:
       scientific: "Montastraea cavernosa"
       confidence: 0.3379
 species: []
+culled: true

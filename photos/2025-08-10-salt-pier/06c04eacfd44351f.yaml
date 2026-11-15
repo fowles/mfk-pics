@@ -38,4 +38,10 @@ species_suggestions:
     absorbed_by:
       scientific: "Siderastrea siderea"
       confidence: 0.9437
-species: []
+species:
+- scientific: "Hermodice carunculata"
+  role: "primary"
+  identified_by: "human"
+species_reviewed:
+- "primary"
+- "secondary"

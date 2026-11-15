@@ -40,7 +40,16 @@ species_suggestions:
     - scientific: "Thalassoma bifasciatum"
       confidence: 0.0006
 species:
-- scientific: "Callyspongia plicifera"
+- scientific: "Hippocampus reidi"
   role: "primary"
-  confidence: 0.4373
-  identified_by: "bioclip-2+bioclip-2.5"
+  identified_by: "human"
+- scientific: "Homo sapiens"
+  role: "secondary"
+  identified_by: "human"
+  person:
+  - "Matthew Kulukundis"
+tags:
+- "metapicture"
+species_reviewed:
+- "primary"
+- "secondary"
