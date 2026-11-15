@@ -24,3 +24,28 @@ species:
 species_reviewed:
 - "primary"
 - "secondary"
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-15T19:44:56Z"
+    src_mtime: 1786681340.7860446
+    vocab: "4ed0f80ff391"
+    top:
+    - scientific: "Melichthys niger"
+      confidence: 0.514
+    - scientific: "Chromis multilineata"
+      confidence: 0.2943
+    - scientific: "Pempheris schomburgkii"
+      confidence: 0.1293
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-15T19:45:45Z"
+    src_mtime: 1786681340.7860446
+    vocab: "4ed0f80ff391"
+    top:
+    - scientific: "Melichthys niger"
+      confidence: 0.7201
+    - scientific: "Chromis multilineata"
+      confidence: 0.2353
+    - scientific: "Decapterus macarellus"
+      confidence: 0.0118

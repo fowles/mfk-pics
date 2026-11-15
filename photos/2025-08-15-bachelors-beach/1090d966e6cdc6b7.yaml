@@ -11,3 +11,36 @@ gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
 video_start_anchored: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-15T19:44:56Z"
+    src_mtime: 1786681206.9156048
+    vocab: "4ed0f80ff391"
+    top:
+    - scientific: "Gymnothorax moringa"
+      confidence: 0.4076
+    - scientific: "Equetus punctatus"
+      confidence: 0.0314
+    - scientific: "Erythropodium caribaeorum"
+      confidence: 0.0107
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-15T19:45:45Z"
+    src_mtime: 1786681206.9156048
+    vocab: "4ed0f80ff391"
+    top:
+    - scientific: "Gymnothorax moringa"
+      confidence: 0.3985
+    - scientific: "Scorpaena plumieri"
+      confidence: 0.1339
+    - scientific: "Equetus punctatus"
+      confidence: 0.0558
+species:
+- scientific: "Gymnothorax moringa"
+  role: "primary"
+  identified_by: "human"
+  confirmed_from: "bioclip-2+bioclip-2.5"
+species_reviewed:
+- "primary"
+- "secondary"

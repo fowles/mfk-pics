@@ -35,3 +35,28 @@ species_reviewed:
 - "primary"
 - "secondary"
 video_start_anchored: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-15T19:44:56Z"
+    src_mtime: 1786681258.2523282
+    vocab: "4ed0f80ff391"
+    top:
+    - scientific: "Chaetodon striatus"
+      confidence: 0.3915
+    - scientific: "Stegastes partitus"
+      confidence: 0.2588
+    - scientific: "Equetus punctatus"
+      confidence: 0.032
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-15T19:45:45Z"
+    src_mtime: 1786681258.2523282
+    vocab: "4ed0f80ff391"
+    top:
+    - scientific: "Chaetodon striatus"
+      confidence: 0.3724
+    - scientific: "Stegastes partitus"
+      confidence: 0.2497
+    - scientific: "Scorpaena plumieri"
+      confidence: 0.2365
