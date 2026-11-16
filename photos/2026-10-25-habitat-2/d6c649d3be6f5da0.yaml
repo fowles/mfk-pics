@@ -33,8 +33,7 @@ species_suggestions:
       confidence: 0.1195
     - scientific: "Lutjanus griseus"
       confidence: 0.0875
-species:
-- scientific: "Lutjanus mahogoni"
-  role: "primary"
-  confidence: 0.4886
-  identified_by: "bioclip-2+bioclip-2.5"
+species: []
+species_reviewed:
+- "primary"
+- "secondary"

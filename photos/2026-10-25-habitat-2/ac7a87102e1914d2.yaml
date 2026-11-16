@@ -38,3 +38,9 @@ species:
   role: "primary"
   identified_by: "human"
   confirmed_from: "bioclip-2+bioclip-2.5"
+- scientific: "Lutjanus mahogoni"
+  role: "secondary"
+  identified_by: "human"
+species_reviewed:
+- "primary"
+- "secondary"
