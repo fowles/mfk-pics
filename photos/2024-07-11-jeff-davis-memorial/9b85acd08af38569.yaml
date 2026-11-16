@@ -13,9 +13,9 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-11-13T18:18:51Z"
+    created: "2026-11-16T16:55:38Z"
     src_mtime: 1786159561.381956
-    vocab: "3b1887becf08"
+    vocab: "d2095ad2da51"
     top:
     - scientific: "Eretmochelys imbricata"
       confidence: 0.07
@@ -25,12 +25,12 @@ species_suggestions:
       confidence: 0.0553
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-11-13T18:21:06Z"
+    created: "2026-11-16T16:59:00Z"
     src_mtime: 1786159561.381956
-    vocab: "3b1887becf08"
+    vocab: "d2095ad2da51"
     top:
     - scientific: "Halichoeres garnoti"
-      confidence: 0.5092
+      confidence: 0.5091
     - scientific: "Equetus punctatus"
       confidence: 0.0932
     - scientific: "Sparisoma viride"
@@ -38,5 +38,5 @@ species_suggestions:
 species:
 - scientific: "Halichoeres garnoti"
   role: "primary"
-  confidence: 0.2546
+  confidence: 0.2545
   identified_by: "bioclip-2.5"

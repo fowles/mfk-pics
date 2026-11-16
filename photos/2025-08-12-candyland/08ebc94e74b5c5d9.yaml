@@ -24,9 +24,9 @@ species_reviewed:
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-11-15T19:44:56Z"
+    created: "2026-11-16T16:55:38Z"
     src_mtime: 1786681074.1606848
-    vocab: "4ed0f80ff391"
+    vocab: "5e42ca118682"
     top:
     - scientific: "Chromis cyanea"
       confidence: 0.6873
@@ -36,9 +36,9 @@ species_suggestions:
       confidence: 0.021
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-11-15T19:45:45Z"
+    created: "2026-11-16T16:59:00Z"
     src_mtime: 1786681074.1606848
-    vocab: "4ed0f80ff391"
+    vocab: "5e42ca118682"
     top:
     - scientific: "Clepticus parrae"
       confidence: 0.4914

@@ -12,9 +12,9 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-11-13T18:18:51Z"
+    created: "2026-11-16T16:55:38Z"
     src_mtime: 1786159795.2654984
-    vocab: "3b1887becf08"
+    vocab: "d2095ad2da51"
     top:
     - scientific: "Holacanthus tricolor"
       confidence: 0.0578
@@ -27,9 +27,9 @@ species_suggestions:
       confidence: 0.1102
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-11-13T18:21:06Z"
+    created: "2026-11-16T16:59:00Z"
     src_mtime: 1786159795.2654984
-    vocab: "3b1887becf08"
+    vocab: "d2095ad2da51"
     top:
     - scientific: "Rhincodon typus"
       confidence: 0.0153
@@ -39,5 +39,5 @@ species_suggestions:
       confidence: 0.0024
     absorbed_by:
       scientific: "Colpophyllia natans"
-      confidence: 0.2826
+      confidence: 0.2825
 species: []
