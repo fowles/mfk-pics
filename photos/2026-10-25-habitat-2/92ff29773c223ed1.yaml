@@ -1,0 +1,41 @@
+date: "2026-10-25 14:31:09"
+location: "Curacao"
+location_source: "dive_site"
+dive_site: "Habitat"
+credit: "Miriam Melnick"
+import_album: "Curacao Diving - Rif San Marie 10-25"
+import_original_name: "PA250312.JPG"
+lat: 12.197904
+lon: -69.078854
+gps_source: "dive_site"
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-16T14:43:36Z"
+    src_mtime: 1794839106.2351742
+    vocab: "3b1887becf08"
+    top:
+    - scientific: "Davidaster rubiginosus"
+      confidence: 0.4334
+    - scientific: "Stenorhynchus seticornis"
+      confidence: 0.12
+    - scientific: "Stenopus hispidus"
+      confidence: 0.1166
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-16T14:44:16Z"
+    src_mtime: 1794839106.2351742
+    vocab: "3b1887becf08"
+    top:
+    - scientific: "Stenorhynchus seticornis"
+      confidence: 0.974
+    - scientific: "Percnon gibbesi"
+      confidence: 0.02
+    - scientific: "Stenopus hispidus"
+      confidence: 0.0031
+species:
+- scientific: "Stenorhynchus seticornis"
+  role: "primary"
+  confidence: 0.547
+  identified_by: "bioclip-2+bioclip-2.5"
+culled: true

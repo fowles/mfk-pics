@@ -1,0 +1,41 @@
+date: "2026-10-25 16:03:55"
+location: "Curacao"
+location_source: "dive_site"
+dive_site: "Habitat"
+credit: "Marc Howard"
+import_album: "Curacao Diving - Rif San Marie 10-25"
+import_original_name: "PA250424.JPG"
+lat: 12.197904
+lon: -69.078854
+gps_source: "dive_site"
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-16T14:43:36Z"
+    src_mtime: 1794839233.231671
+    vocab: "3b1887becf08"
+    top:
+    - scientific: "Grapsus grapsus"
+      confidence: 0.5249
+    - scientific: "Abudefduf saxatilis"
+      confidence: 0.0758
+    - scientific: "Aluterus scriptus"
+      confidence: 0.0297
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-16T14:44:16Z"
+    src_mtime: 1794839233.231671
+    vocab: "3b1887becf08"
+    top:
+    - scientific: "Histrio histrio"
+      confidence: 0.1513
+    - scientific: "Percnon gibbesi"
+      confidence: 0.0787
+    - scientific: "Parribacus antarcticus"
+      confidence: 0.0466
+species:
+- scientific: "Grapsus grapsus"
+  role: "primary"
+  confidence: 0.2625
+  identified_by: "bioclip-2"
+culled: true

@@ -1,0 +1,41 @@
+date: "2026-10-25 15:17:00"
+location: "Curacao"
+location_source: "dive_site"
+dive_site: "Habitat"
+credit: "Marc Howard"
+import_album: "Curacao Diving - Rif San Marie 10-25"
+import_original_name: "PA250314.MOV"
+lat: 12.197904
+lon: -69.078854
+gps_source: "dive_site"
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-16T14:43:36Z"
+    src_mtime: 1794839114.664073
+    vocab: "4ed0f80ff391"
+    top:
+    - scientific: "Hypanus americanus"
+      confidence: 0.2521
+    - scientific: "Octopus insularis"
+      confidence: 0.2139
+    - scientific: "Sphyrna mokarran"
+      confidence: 0.0984
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-16T14:44:16Z"
+    src_mtime: 1794839114.664073
+    vocab: "4ed0f80ff391"
+    top:
+    - scientific: "Canthidermis sufflamen"
+      confidence: 0.2188
+    - scientific: "Eretmochelys imbricata"
+      confidence: 0.1577
+    - scientific: "Chelonia mydas"
+      confidence: 0.1143
+species:
+- scientific: "Hypanus americanus"
+  role: "primary"
+  confidence: 0.126
+  identified_by: "bioclip-2"
+culled: true

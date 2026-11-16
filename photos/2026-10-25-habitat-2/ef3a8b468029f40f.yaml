@@ -1,0 +1,41 @@
+date: "2026-10-25 15:39:14"
+location: "Curacao"
+location_source: "dive_site"
+dive_site: "Habitat"
+credit: "Marc Howard"
+import_album: "Curacao Diving - Rif San Marie 10-25"
+import_original_name: "PA250388.JPG"
+lat: 12.197904
+lon: -69.078854
+gps_source: "dive_site"
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-16T14:43:36Z"
+    src_mtime: 1794839179.7699182
+    vocab: "3b1887becf08"
+    top:
+    - scientific: "Octopus insularis"
+      confidence: 0.957
+    - scientific: "Octopus briareus"
+      confidence: 0.0399
+    - scientific: "Enchelycore carychroa"
+      confidence: 0.0012
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-16T14:44:16Z"
+    src_mtime: 1794839179.7699182
+    vocab: "3b1887becf08"
+    top:
+    - scientific: "Octopus insularis"
+      confidence: 0.9445
+    - scientific: "Octopus briareus"
+      confidence: 0.0067
+    - scientific: "Acropora palmata"
+      confidence: 0.0
+species:
+- scientific: "Octopus insularis"
+  role: "primary"
+  confidence: 0.9507
+  identified_by: "bioclip-2+bioclip-2.5"
+culled: true
