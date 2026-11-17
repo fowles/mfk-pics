@@ -38,8 +38,7 @@ species_suggestions:
       confidence: 0.062
     - scientific: "Phyllacanthus imperialis"
       confidence: 0.0321
-species:
-- scientific: "Tridacna gigas"
-  role: "primary"
-  confidence: 0.44
-  identified_by: "bioclip-2.5"
+species: []
+species_reviewed:
+- "primary"
+- "secondary"

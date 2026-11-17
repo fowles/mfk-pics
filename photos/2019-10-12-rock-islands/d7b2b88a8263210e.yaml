@@ -38,3 +38,4 @@ species_suggestions:
       confidence: 0.2079
     - scientific: "Chelonia mydas"
       confidence: 0.0654
+culled: true

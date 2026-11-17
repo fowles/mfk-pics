@@ -39,3 +39,4 @@ species_suggestions:
       scientific: "Porites lobata"
       confidence: 0.1731
 species: []
+culled: true

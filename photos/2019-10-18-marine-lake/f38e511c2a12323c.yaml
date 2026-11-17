@@ -36,7 +36,13 @@ species_suggestions:
     - scientific: "Dunckerocampus pessuliferus"
       confidence: 0.1177
 species:
-- scientific: "Diadema setosum"
+- scientific: "Dunckerocampus dactyliophorus"
   role: "primary"
-  confidence: 0.5463
-  identified_by: "bioclip-2+bioclip-2.5"
+  identified_by: "human"
+- scientific: "Diadema setosum"
+  role: "secondary"
+  identified_by: "human"
+  confirmed_from: "bioclip-2+bioclip-2.5"
+species_reviewed:
+- "primary"
+- "secondary"

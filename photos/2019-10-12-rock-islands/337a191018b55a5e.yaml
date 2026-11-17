@@ -39,3 +39,4 @@ species_suggestions:
       scientific: "Lobophytum crassum"
       confidence: 0.2028
 species: []
+culled: true

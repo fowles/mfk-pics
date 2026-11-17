@@ -41,3 +41,4 @@ species_suggestions:
     absorbed_by:
       scientific: "Porites lobata"
       confidence: 0.2796
+culled: true

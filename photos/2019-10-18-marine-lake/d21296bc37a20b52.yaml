@@ -38,3 +38,7 @@ species_suggestions:
       confidence: 0.1906
     - scientific: "Triaenodon obesus"
       confidence: 0.1798
+species_reviewed:
+- "primary"
+- "secondary"
+culled: true

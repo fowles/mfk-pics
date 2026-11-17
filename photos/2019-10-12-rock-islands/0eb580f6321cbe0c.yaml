@@ -38,3 +38,4 @@ species_suggestions:
       confidence: 0.2363
     - scientific: "Gomphosus varius"
       confidence: 0.1735
+culled: true

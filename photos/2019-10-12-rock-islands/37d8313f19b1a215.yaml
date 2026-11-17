@@ -38,3 +38,4 @@ species_suggestions:
       confidence: 0.0226
     - scientific: "Laticauda colubrina"
       confidence: 0.0169
+culled: true

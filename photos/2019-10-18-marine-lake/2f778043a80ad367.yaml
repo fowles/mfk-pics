@@ -35,8 +35,7 @@ species_suggestions:
       confidence: 0.2402
     - scientific: "Stenella longirostris"
       confidence: 0.1329
-species:
-- scientific: "Megaptera novaeangliae"
-  role: "primary"
-  confidence: 0.2064
-  identified_by: "bioclip-2+bioclip-2.5"
+species: []
+species_reviewed:
+- "primary"
+- "secondary"

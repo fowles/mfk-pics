@@ -36,7 +36,15 @@ species_suggestions:
     - scientific: "Dunckerocampus boylei"
       confidence: 0.1281
 species:
-- scientific: "Diadema setosum"
+- scientific: "Dunckerocampus dactyliophorus"
   role: "primary"
-  confidence: 0.2356
-  identified_by: "bioclip-2"
+  identified_by: "human"
+  confirmed_from: "bioclip-2.5"
+- scientific: "Diadema setosum"
+  role: "secondary"
+  identified_by: "human"
+  confirmed_from: "bioclip-2"
+species_reviewed:
+- "primary"
+- "secondary"
+cover: "cluster"

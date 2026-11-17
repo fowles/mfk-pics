@@ -6,7 +6,7 @@ credit: "Delia Kulukundis"
 import_album: "2019-10-14 - Palau, Jellyfish Lake"
 import_original_name: "IMG_0423.JPG"
 lat: 7.1612
-lon: 134.3762
+lon: 134.3763
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
@@ -38,5 +38,8 @@ species_suggestions:
 species:
 - scientific: "Sphaeramia orbicularis"
   role: "primary"
-  confidence: 0.9685
-  identified_by: "bioclip-2+bioclip-2.5"
+  identified_by: "human"
+  confirmed_from: "bioclip-2+bioclip-2.5"
+species_reviewed:
+- "primary"
+- "secondary"

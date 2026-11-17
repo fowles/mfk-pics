@@ -41,3 +41,4 @@ species_suggestions:
     absorbed_by:
       scientific: "Sonneratia alba"
       confidence: 0.9234
+culled: true

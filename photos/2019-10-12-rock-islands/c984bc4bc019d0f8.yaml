@@ -41,3 +41,4 @@ species_suggestions:
     absorbed_by:
       scientific: "Amplexidiscus fenestrafer"
       confidence: 0.3052
+culled: true

@@ -37,6 +37,12 @@ species_suggestions:
       confidence: 0.0013
 species:
 - scientific: "Diadema setosum"
+  role: "secondary"
+  identified_by: "human"
+  confirmed_from: "bioclip-2+bioclip-2.5"
+- scientific: "Dunckerocampus dactyliophorus"
   role: "primary"
-  confidence: 0.9727
-  identified_by: "bioclip-2+bioclip-2.5"
+  identified_by: "human"
+species_reviewed:
+- "primary"
+- "secondary"

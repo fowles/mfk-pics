@@ -38,3 +38,4 @@ species_suggestions:
       confidence: 0.0755
     - scientific: "Hexabranchus sanguineus"
       confidence: 0.0255
+culled: true

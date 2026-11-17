@@ -38,3 +38,4 @@ species_suggestions:
       confidence: 0.2431
     - scientific: "Crocodylus porosus"
       confidence: 0.0419
+culled: true

@@ -39,3 +39,4 @@ species_suggestions:
       scientific: "Sonneratia alba"
       confidence: 0.6354
 species: []
+culled: true
