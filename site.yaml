@@ -111,6 +111,21 @@ dive_sites:
   Ulong Channel:
     lat: 7.2834
     lon: 134.2447
+  "Sand Bar":
+    lat: 7.2708
+    lon: 134.2448
+  "Clarence's Drop":
+    lat: 7.1301
+    lon: 134.2256
+  "Jellyfish Lake":
+    lat: 7.1612
+    lon: 134.3762
+  "Rock Islands":
+    lat: 7.22
+    lon: 134.37
+  "Marine Lake":
+    lat: 7.22
+    lon: 134.37
   Playa el Chileno:
     lat: 22.94523
     lon: -109.80243
