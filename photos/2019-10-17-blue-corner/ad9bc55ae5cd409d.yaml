@@ -10,3 +10,33 @@ lon: 134.2213
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T18:19:53Z"
+    src_mtime: 1794931471.9240417
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Panulirus penicillatus"
+      confidence: 0.1131
+    - scientific: "Dardanus lagopodes"
+      confidence: 0.0627
+    - scientific: "Panulirus versicolor"
+      confidence: 0.0471
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T18:20:41Z"
+    src_mtime: 1794931471.9240417
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Pearsonothuria graeffei"
+      confidence: 0.7076
+    - scientific: "Bohadschia argus"
+      confidence: 0.0508
+    - scientific: "Nembrotha cristata"
+      confidence: 0.0351
+species:
+- scientific: "Pearsonothuria graeffei"
+  role: "primary"
+  confidence: 0.3538
+  identified_by: "bioclip-2.5"

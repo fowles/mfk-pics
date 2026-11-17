@@ -10,3 +10,33 @@ lon: 134.2213
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T18:19:53Z"
+    src_mtime: 1794931410.1968942
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Cheilinus undulatus"
+      confidence: 0.2395
+    - scientific: "Aethaloperca rogaa"
+      confidence: 0.1015
+    - scientific: "Cantherhines dumerilii"
+      confidence: 0.0577
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T18:20:41Z"
+    src_mtime: 1794931410.1968942
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Sufflamen bursa"
+      confidence: 0.6359
+    - scientific: "Cantherhines dumerilii"
+      confidence: 0.0846
+    - scientific: "Balistoides viridescens"
+      confidence: 0.0501
+species:
+- scientific: "Sufflamen bursa"
+  role: "primary"
+  confidence: 0.318
+  identified_by: "bioclip-2.5"

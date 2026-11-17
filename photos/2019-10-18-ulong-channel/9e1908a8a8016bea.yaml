@@ -10,3 +10,33 @@ lon: 134.2447
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T18:19:53Z"
+    src_mtime: 1794931545.5468392
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Carcharhinus albimarginatus"
+      confidence: 0.1827
+    - scientific: "Carcharhinus amblyrhynchos"
+      confidence: 0.0342
+    - scientific: "Carcharhinus falciformis"
+      confidence: 0.0252
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T18:20:41Z"
+    src_mtime: 1794931545.5468392
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Cheilinus undulatus"
+      confidence: 0.2496
+    - scientific: "Nebrius ferrugineus"
+      confidence: 0.1445
+    - scientific: "Triaenodon obesus"
+      confidence: 0.1101
+species:
+- scientific: "Cheilinus undulatus"
+  role: "primary"
+  confidence: 0.1248
+  identified_by: "bioclip-2.5"

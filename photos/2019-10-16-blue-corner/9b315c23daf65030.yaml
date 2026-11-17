@@ -10,3 +10,33 @@ lon: 134.2213
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T18:19:53Z"
+    src_mtime: 1794931411.7013361
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Cheilinus undulatus"
+      confidence: 0.2478
+    - scientific: "Aethaloperca rogaa"
+      confidence: 0.1927
+    - scientific: "Bolbometopon muricatum"
+      confidence: 0.1325
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T18:20:41Z"
+    src_mtime: 1794931411.7013361
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Cheilinus undulatus"
+      confidence: 0.7673
+    - scientific: "Aethaloperca rogaa"
+      confidence: 0.1596
+    - scientific: "Epibulus insidiator"
+      confidence: 0.0583
+species:
+- scientific: "Cheilinus undulatus"
+  role: "primary"
+  confidence: 0.5075
+  identified_by: "bioclip-2+bioclip-2.5"

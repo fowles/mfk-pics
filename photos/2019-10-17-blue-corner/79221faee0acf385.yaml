@@ -11,3 +11,33 @@ gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
 video_start_anchored: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T17:53:46Z"
+    src_mtime: 1794931487.300014
+    vocab: "fcc8562538b1"
+    top:
+    - scientific: "Naso vlamingii"
+      confidence: 0.2615
+    - scientific: "Pempheris vanicolensis"
+      confidence: 0.1919
+    - scientific: "Melichthys niger"
+      confidence: 0.1179
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T17:53:55Z"
+    src_mtime: 1794931487.300014
+    vocab: "fcc8562538b1"
+    top:
+    - scientific: "Naso vlamingii"
+      confidence: 0.3388
+    - scientific: "Odonus niger"
+      confidence: 0.2576
+    - scientific: "Naso hexacanthus"
+      confidence: 0.2245
+species:
+- scientific: "Naso vlamingii"
+  role: "primary"
+  confidence: 0.3002
+  identified_by: "bioclip-2+bioclip-2.5"

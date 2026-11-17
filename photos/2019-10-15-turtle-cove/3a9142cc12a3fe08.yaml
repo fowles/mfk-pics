@@ -10,3 +10,33 @@ lon: 134.2596
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T18:19:53Z"
+    src_mtime: 1794931392.3764129
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Forcipiger longirostris"
+      confidence: 0.3089
+    - scientific: "Forcipiger flavissimus"
+      confidence: 0.3017
+    - scientific: "Hemitaurichthys polylepis"
+      confidence: 0.1197
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T18:20:41Z"
+    src_mtime: 1794931392.3764129
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Odonus niger"
+      confidence: 0.3655
+    - scientific: "Hemitaurichthys polylepis"
+      confidence: 0.1834
+    - scientific: "Chromis margaritifer"
+      confidence: 0.1075
+species:
+- scientific: "Odonus niger"
+  role: "primary"
+  confidence: 0.1827
+  identified_by: "bioclip-2.5"

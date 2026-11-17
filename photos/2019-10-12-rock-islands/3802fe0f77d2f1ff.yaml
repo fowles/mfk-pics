@@ -10,3 +10,34 @@ lon: 134.37
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T18:19:53Z"
+    src_mtime: 1794931332.2144732
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Crocodylus porosus"
+      confidence: 0.1276
+    - scientific: "Kuhlia xenura"
+      confidence: 0.0628
+    - scientific: "Carcharhinus melanopterus"
+      confidence: 0.0259
+    absorbed_by:
+      scientific: "Rhizophora apiculata"
+      confidence: 0.5365
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T18:20:41Z"
+    src_mtime: 1794931332.2144732
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Crocodylus porosus"
+      confidence: 0.0989
+    - scientific: "Carcharhinus melanopterus"
+      confidence: 0.0429
+    - scientific: "Platax boersii"
+      confidence: 0.0175
+    absorbed_by:
+      scientific: "Sonneratia alba"
+      confidence: 0.7702

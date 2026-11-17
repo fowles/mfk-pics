@@ -10,3 +10,33 @@ lon: 134.2213
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T18:19:53Z"
+    src_mtime: 1794931468.393165
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Myrichthys colubrinus"
+      confidence: 0.0514
+    - scientific: "Nemateleotris magnifica"
+      confidence: 0.0264
+    - scientific: "Myrichthys maculosus"
+      confidence: 0.0248
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T18:20:41Z"
+    src_mtime: 1794931468.393165
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Rhinecanthus verrucosus"
+      confidence: 0.1827
+    - scientific: "Thalassoma jansenii"
+      confidence: 0.0971
+    - scientific: "Dascyllus melanurus"
+      confidence: 0.0959
+species:
+- scientific: "Rhinecanthus verrucosus"
+  role: "primary"
+  confidence: 0.0914
+  identified_by: "bioclip-2.5"

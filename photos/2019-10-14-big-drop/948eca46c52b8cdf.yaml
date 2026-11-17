@@ -10,3 +10,33 @@ lon: 134.2497
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T18:19:53Z"
+    src_mtime: 1794931369.6703262
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Lepidochelys olivacea"
+      confidence: 0.3475
+    - scientific: "Caretta caretta"
+      confidence: 0.2279
+    - scientific: "Homo sapiens"
+      confidence: 0.1856
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T18:20:41Z"
+    src_mtime: 1794931369.6703262
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Mobula birostris"
+      confidence: 0.2193
+    - scientific: "Homo sapiens"
+      confidence: 0.0839
+    - scientific: "Rhincodon typus"
+      confidence: 0.0666
+species:
+- scientific: "Lepidochelys olivacea"
+  role: "primary"
+  confidence: 0.1737
+  identified_by: "bioclip-2"

@@ -10,3 +10,34 @@ lon: 134.2447
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T18:19:53Z"
+    src_mtime: 1794931545.4282603
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Amphiprion ocellaris"
+      confidence: 0.109
+    - scientific: "Hexabranchus sanguineus"
+      confidence: 0.0546
+    - scientific: "Amphiprion percula"
+      confidence: 0.0327
+    absorbed_by:
+      scientific: "Cryptodendrum adhaesivum"
+      confidence: 0.1326
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T18:20:41Z"
+    src_mtime: 1794931545.4282603
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Cromileptes altivelis"
+      confidence: 0.1734
+    - scientific: "Tridacna gigas"
+      confidence: 0.0536
+    - scientific: "Bohadschia argus"
+      confidence: 0.0281
+    absorbed_by:
+      scientific: "Junceella fragilis"
+      confidence: 0.2281

@@ -10,3 +10,33 @@ lon: 134.2213
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T18:19:53Z"
+    src_mtime: 1794931409.9634976
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Naso vlamingii"
+      confidence: 0.9311
+    - scientific: "Gracila albomarginata"
+      confidence: 0.0103
+    - scientific: "Acanthurus mata"
+      confidence: 0.0095
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T18:20:41Z"
+    src_mtime: 1794931409.9634976
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Naso vlamingii"
+      confidence: 0.8627
+    - scientific: "Naso hexacanthus"
+      confidence: 0.1354
+    - scientific: "Acanthurus mata"
+      confidence: 0.0013
+species:
+- scientific: "Naso vlamingii"
+  role: "primary"
+  confidence: 0.8969
+  identified_by: "bioclip-2+bioclip-2.5"

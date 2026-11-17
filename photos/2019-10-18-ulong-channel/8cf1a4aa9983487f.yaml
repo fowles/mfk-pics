@@ -10,3 +10,32 @@ lon: 134.2447
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T18:19:53Z"
+    src_mtime: 1794931546.814431
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Laticauda colubrina"
+      confidence: 0.4258
+    - scientific: "Laticauda laticaudata"
+      confidence: 0.0481
+    - scientific: "Triaenodon obesus"
+      confidence: 0.0288
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T18:20:41Z"
+    src_mtime: 1794931546.814431
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Laticauda colubrina"
+      confidence: 0.0509
+    - scientific: "Lambis lambis"
+      confidence: 0.016
+    - scientific: "Birgus latro"
+      confidence: 0.0157
+    absorbed_by:
+      scientific: "Sonneratia alba"
+      confidence: 0.8496
+species: []

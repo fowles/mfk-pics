@@ -10,3 +10,33 @@ lon: 134.2213
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T18:19:53Z"
+    src_mtime: 1794931409.449039
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Naso vlamingii"
+      confidence: 0.5488
+    - scientific: "Acanthurus nigricauda"
+      confidence: 0.1096
+    - scientific: "Naso hexacanthus"
+      confidence: 0.109
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T18:20:41Z"
+    src_mtime: 1794931409.449039
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Naso vlamingii"
+      confidence: 0.5557
+    - scientific: "Naso hexacanthus"
+      confidence: 0.4412
+    - scientific: "Naso lituratus"
+      confidence: 0.0021
+species:
+- scientific: "Naso vlamingii"
+  role: "primary"
+  confidence: 0.5522
+  identified_by: "bioclip-2+bioclip-2.5"

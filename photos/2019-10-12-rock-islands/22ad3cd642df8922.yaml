@@ -10,3 +10,33 @@ lon: 134.37
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T18:19:53Z"
+    src_mtime: 1794931332.2548978
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Mobula alfredi"
+      confidence: 0.3005
+    - scientific: "Stenella longirostris"
+      confidence: 0.1037
+    - scientific: "Mobula birostris"
+      confidence: 0.018
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T18:20:41Z"
+    src_mtime: 1794931332.2548978
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Aetobatus ocellatus"
+      confidence: 0.643
+    - scientific: "Carcharhinus melanopterus"
+      confidence: 0.1358
+    - scientific: "Pearsonothuria graeffei"
+      confidence: 0.0148
+species:
+- scientific: "Aetobatus ocellatus"
+  role: "primary"
+  confidence: 0.3215
+  identified_by: "bioclip-2.5"

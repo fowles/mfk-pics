@@ -10,3 +10,33 @@ lon: 134.2596
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T18:19:53Z"
+    src_mtime: 1794931393.112917
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Melichthys vidua"
+      confidence: 0.4547
+    - scientific: "Melichthys niger"
+      confidence: 0.1756
+    - scientific: "Odonus niger"
+      confidence: 0.11
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T18:20:41Z"
+    src_mtime: 1794931393.112917
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Thalassoma jansenii"
+      confidence: 0.7012
+    - scientific: "Chlorurus bleekeri"
+      confidence: 0.0711
+    - scientific: "Cephalopholis argus"
+      confidence: 0.048
+species:
+- scientific: "Thalassoma jansenii"
+  role: "primary"
+  confidence: 0.3506
+  identified_by: "bioclip-2.5"

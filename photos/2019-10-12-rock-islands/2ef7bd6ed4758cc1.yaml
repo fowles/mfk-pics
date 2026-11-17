@@ -10,3 +10,33 @@ lon: 134.37
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T18:19:53Z"
+    src_mtime: 1794931343.1486633
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Hemiglyphidodon plagiometopon"
+      confidence: 0.2391
+    - scientific: "Pomacentrus brachialis"
+      confidence: 0.1578
+    - scientific: "Stegastes albifasciatus"
+      confidence: 0.1165
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T18:20:41Z"
+    src_mtime: 1794931343.1486633
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Stegastes nigricans"
+      confidence: 0.3123
+    - scientific: "Pomacentrus brachialis"
+      confidence: 0.2441
+    - scientific: "Stegastes fasciolatus"
+      confidence: 0.1406
+species:
+- scientific: "Pomacentrus brachialis"
+  role: "primary"
+  confidence: 0.201
+  identified_by: "bioclip-2+bioclip-2.5"

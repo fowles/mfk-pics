@@ -10,3 +10,32 @@ lon: 134.2857
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T18:19:53Z"
+    src_mtime: 1794931374.541418
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Plectropomus laevis"
+      confidence: 0.2503
+    - scientific: "Lutjanus bohar"
+      confidence: 0.1681
+    - scientific: "Plectropomus oligacanthus"
+      confidence: 0.0612
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T18:20:41Z"
+    src_mtime: 1794931374.541418
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Monotaxis grandoculis"
+      confidence: 0.0556
+    - scientific: "Epinephelus tukula"
+      confidence: 0.0456
+    - scientific: "Macolor macularis"
+      confidence: 0.0433
+    absorbed_by:
+      scientific: "Tubipora musica"
+      confidence: 0.2797
+species: []

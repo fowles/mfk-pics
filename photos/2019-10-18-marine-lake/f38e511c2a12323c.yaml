@@ -10,3 +10,33 @@ lon: 134.37
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T18:19:53Z"
+    src_mtime: 1794931506.669798
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Diadema setosum"
+      confidence: 0.963
+    - scientific: "Diadema savignyi"
+      confidence: 0.0163
+    - scientific: "Echinothrix calamaris"
+      confidence: 0.0072
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T18:20:41Z"
+    src_mtime: 1794931506.669798
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Dunckerocampus multiannulatus"
+      confidence: 0.6156
+    - scientific: "Diadema setosum"
+      confidence: 0.1296
+    - scientific: "Dunckerocampus pessuliferus"
+      confidence: 0.1177
+species:
+- scientific: "Diadema setosum"
+  role: "primary"
+  confidence: 0.5463
+  identified_by: "bioclip-2+bioclip-2.5"

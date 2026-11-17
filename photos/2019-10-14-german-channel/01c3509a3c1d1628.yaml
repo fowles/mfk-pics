@@ -10,3 +10,33 @@ lon: 134.2857
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T18:19:53Z"
+    src_mtime: 1794931375.9523637
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Chromis iomelas"
+      confidence: 0.2313
+    - scientific: "Chromis margaritifer"
+      confidence: 0.1163
+    - scientific: "Acanthurus thompsoni"
+      confidence: 0.0359
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T18:20:41Z"
+    src_mtime: 1794931375.9523637
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Acanthurus thompsoni"
+      confidence: 0.686
+    - scientific: "Chromis margaritifer"
+      confidence: 0.1406
+    - scientific: "Chromis iomelas"
+      confidence: 0.0311
+species:
+- scientific: "Acanthurus thompsoni"
+  role: "primary"
+  confidence: 0.361
+  identified_by: "bioclip-2+bioclip-2.5"

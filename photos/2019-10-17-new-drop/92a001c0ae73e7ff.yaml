@@ -10,3 +10,33 @@ lon: 134.2395
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T18:19:53Z"
+    src_mtime: 1794931490.6056085
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Carcharhinus albimarginatus"
+      confidence: 0.5933
+    - scientific: "Carcharhinus amblyrhynchos"
+      confidence: 0.159
+    - scientific: "Elagatis bipinnulata"
+      confidence: 0.0788
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T18:20:41Z"
+    src_mtime: 1794931490.6056085
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Carcharhinus albimarginatus"
+      confidence: 0.6832
+    - scientific: "Carcharhinus amblyrhynchos"
+      confidence: 0.2999
+    - scientific: "Carcharhinus falciformis"
+      confidence: 0.0156
+species:
+- scientific: "Carcharhinus albimarginatus"
+  role: "primary"
+  confidence: 0.6382
+  identified_by: "bioclip-2+bioclip-2.5"

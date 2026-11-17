@@ -10,3 +10,33 @@ lon: 134.2226
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T18:19:53Z"
+    src_mtime: 1794931437.7902985
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Acanthurus nigrofuscus"
+      confidence: 0.1522
+    - scientific: "Chromis vanderbilti"
+      confidence: 0.1419
+    - scientific: "Acanthurus olivaceus"
+      confidence: 0.0464
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T18:20:41Z"
+    src_mtime: 1794931437.7902985
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Acanthurus olivaceus"
+      confidence: 0.4317
+    - scientific: "Acanthurus nigrofuscus"
+      confidence: 0.3186
+    - scientific: "Chromis vanderbilti"
+      confidence: 0.1375
+species:
+- scientific: "Acanthurus olivaceus"
+  role: "primary"
+  confidence: 0.239
+  identified_by: "bioclip-2+bioclip-2.5"

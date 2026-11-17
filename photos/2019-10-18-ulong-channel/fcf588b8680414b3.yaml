@@ -10,3 +10,36 @@ lon: 134.2447
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T18:19:53Z"
+    src_mtime: 1794931545.3894262
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Chaetodon auriga"
+      confidence: 0.0478
+    - scientific: "Heniochus acuminatus"
+      confidence: 0.0213
+    - scientific: "Kuhlia xenura"
+      confidence: 0.0199
+    absorbed_by:
+      scientific: "Macrorhynchia philippina"
+      confidence: 0.1128
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T18:20:41Z"
+    src_mtime: 1794931545.3894262
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Physalia physalis"
+      confidence: 0.1643
+    - scientific: "Cassiopea andromeda"
+      confidence: 0.0847
+    - scientific: "Triaenodon obesus"
+      confidence: 0.0703
+species:
+- scientific: "Physalia physalis"
+  role: "primary"
+  confidence: 0.0822
+  identified_by: "bioclip-2.5"

@@ -10,3 +10,33 @@ lon: 134.37
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T18:19:53Z"
+    src_mtime: 1794931350.0245185
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Heniochus chrysostomus"
+      confidence: 0.8264
+    - scientific: "Heniochus acuminatus"
+      confidence: 0.1206
+    - scientific: "Chaetodon ephippium"
+      confidence: 0.012
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T18:20:41Z"
+    src_mtime: 1794931350.0245185
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Heniochus chrysostomus"
+      confidence: 0.917
+    - scientific: "Heniochus acuminatus"
+      confidence: 0.0689
+    - scientific: "Heniochus varius"
+      confidence: 0.0066
+species:
+- scientific: "Heniochus chrysostomus"
+  role: "primary"
+  confidence: 0.8717
+  identified_by: "bioclip-2+bioclip-2.5"

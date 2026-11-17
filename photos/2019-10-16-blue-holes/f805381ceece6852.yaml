@@ -11,3 +11,33 @@ gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
 video_start_anchored: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T17:53:46Z"
+    src_mtime: 1794931446.8738608
+    vocab: "fcc8562538b1"
+    top:
+    - scientific: "Hemitaurichthys polylepis"
+      confidence: 0.2032
+    - scientific: "Abudefduf abdominalis"
+      confidence: 0.1138
+    - scientific: "Chaetodon auriga"
+      confidence: 0.0837
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T17:53:55Z"
+    src_mtime: 1794931446.8738608
+    vocab: "fcc8562538b1"
+    top:
+    - scientific: "Hemitaurichthys polylepis"
+      confidence: 0.6844
+    - scientific: "Abudefduf vaigiensis"
+      confidence: 0.2174
+    - scientific: "Caesio xanthonota"
+      confidence: 0.031
+species:
+- scientific: "Hemitaurichthys polylepis"
+  role: "primary"
+  confidence: 0.4438
+  identified_by: "bioclip-2+bioclip-2.5"

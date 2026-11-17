@@ -10,3 +10,34 @@ lon: 134.2596
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T18:19:53Z"
+    src_mtime: 1794931391.262807
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Chaetodon ephippium"
+      confidence: 0.0159
+    - scientific: "Cenometra bella"
+      confidence: 0.0131
+    - scientific: "Chromodoris lochi"
+      confidence: 0.0123
+    absorbed_by:
+      scientific: "Cryptodendrum adhaesivum"
+      confidence: 0.1054
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T18:20:41Z"
+    src_mtime: 1794931391.262807
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Paracanthurus hepatus"
+      confidence: 0.0201
+    - scientific: "Labropsis xanthura"
+      confidence: 0.0176
+    - scientific: "Acanthurus thompsoni"
+      confidence: 0.0168
+    absorbed_by:
+      scientific: "Ianthella basta"
+      confidence: 0.3098

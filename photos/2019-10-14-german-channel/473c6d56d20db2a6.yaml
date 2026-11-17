@@ -10,3 +10,33 @@ lon: 134.2857
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T18:19:53Z"
+    src_mtime: 1794931372.1134424
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Lutjanus gibbus"
+      confidence: 0.3394
+    - scientific: "Caranx sexfasciatus"
+      confidence: 0.1356
+    - scientific: "Symphorichthys spilurus"
+      confidence: 0.124
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T18:20:41Z"
+    src_mtime: 1794931372.1134424
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Caranx sexfasciatus"
+      confidence: 0.6147
+    - scientific: "Monotaxis grandoculis"
+      confidence: 0.0798
+    - scientific: "Gymnocranius grandoculis"
+      confidence: 0.0537
+species:
+- scientific: "Caranx sexfasciatus"
+  role: "primary"
+  confidence: 0.3751
+  identified_by: "bioclip-2+bioclip-2.5"

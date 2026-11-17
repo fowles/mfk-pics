@@ -10,3 +10,33 @@ lon: 134.2256
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T18:19:53Z"
+    src_mtime: 1794931452.723632
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Chromis lepidolepis"
+      confidence: 0.1734
+    - scientific: "Chromis weberi"
+      confidence: 0.1126
+    - scientific: "Scolopsis margaritifera"
+      confidence: 0.0912
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T18:20:41Z"
+    src_mtime: 1794931452.723632
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Monotaxis grandoculis"
+      confidence: 0.9578
+    - scientific: "Scarus rubroviolaceus"
+      confidence: 0.0143
+    - scientific: "Scarus psittacus"
+      confidence: 0.0068
+species:
+- scientific: "Monotaxis grandoculis"
+  role: "primary"
+  confidence: 0.4789
+  identified_by: "bioclip-2.5"

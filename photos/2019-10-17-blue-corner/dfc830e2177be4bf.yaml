@@ -10,3 +10,33 @@ lon: 134.2213
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T18:19:53Z"
+    src_mtime: 1794931478.367082
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Cheilinus undulatus"
+      confidence: 0.1996
+    - scientific: "Aethaloperca rogaa"
+      confidence: 0.1364
+    - scientific: "Epinephelus lanceolatus"
+      confidence: 0.1271
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T18:20:41Z"
+    src_mtime: 1794931478.367082
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Epinephelus lanceolatus"
+      confidence: 0.671
+    - scientific: "Cheilinus undulatus"
+      confidence: 0.2959
+    - scientific: "Dugong dugon"
+      confidence: 0.0164
+species:
+- scientific: "Epinephelus lanceolatus"
+  role: "primary"
+  confidence: 0.3991
+  identified_by: "bioclip-2+bioclip-2.5"

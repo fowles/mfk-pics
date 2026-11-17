@@ -10,3 +10,33 @@ lon: 134.2447
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T18:19:53Z"
+    src_mtime: 1794931536.3698685
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Pterocaesio tile"
+      confidence: 0.1008
+    - scientific: "Labrichthys unilineatus"
+      confidence: 0.1002
+    - scientific: "Labroides bicolor"
+      confidence: 0.0614
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T18:20:41Z"
+    src_mtime: 1794931536.3698685
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Pterocaesio tile"
+      confidence: 0.4328
+    - scientific: "Ptereleotris evides"
+      confidence: 0.067
+    - scientific: "Labrichthys unilineatus"
+      confidence: 0.0597
+species:
+- scientific: "Pterocaesio tile"
+  role: "primary"
+  confidence: 0.2668
+  identified_by: "bioclip-2+bioclip-2.5"

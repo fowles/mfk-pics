@@ -10,3 +10,36 @@ lon: 134.2447
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T18:19:53Z"
+    src_mtime: 1794931546.7411475
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Carcharhinus melanopterus"
+      confidence: 0.0641
+    - scientific: "Eretmochelys imbricata"
+      confidence: 0.0407
+    - scientific: "Sphyraena barracuda"
+      confidence: 0.0362
+    absorbed_by:
+      scientific: "Porites evermanni"
+      confidence: 0.0641
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T18:20:41Z"
+    src_mtime: 1794931546.7411475
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Carcharhinus melanopterus"
+      confidence: 0.1449
+    - scientific: "Heterocentrotus mamillatus"
+      confidence: 0.058
+    - scientific: "Lambis lambis"
+      confidence: 0.0512
+species:
+- scientific: "Carcharhinus melanopterus"
+  role: "primary"
+  confidence: 0.1045
+  identified_by: "bioclip-2+bioclip-2.5"

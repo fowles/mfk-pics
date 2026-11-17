@@ -10,3 +10,31 @@ lon: 134.37
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T18:19:53Z"
+    src_mtime: 1794931335.7828825
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Birgus latro"
+      confidence: 0.0145
+    - scientific: "Physeter macrocephalus"
+      confidence: 0.0029
+    - scientific: "Homo sapiens"
+      confidence: 0.0023
+    absorbed_by:
+      scientific: "Rhizophora apiculata"
+      confidence: 0.921
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T18:20:41Z"
+    src_mtime: 1794931335.7828825
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Spondylus varius"
+      confidence: 0.4927
+    - scientific: "Colobocentrotus atratus"
+      confidence: 0.0226
+    - scientific: "Laticauda colubrina"
+      confidence: 0.0169

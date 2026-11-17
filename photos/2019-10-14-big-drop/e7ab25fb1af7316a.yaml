@@ -10,3 +10,34 @@ lon: 134.2497
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T18:19:53Z"
+    src_mtime: 1794931361.857201
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Hippocampus denise"
+      confidence: 0.0011
+    - scientific: "Cromileptes altivelis"
+      confidence: 0.0006
+    - scientific: "Cenometra bella"
+      confidence: 0.0005
+    absorbed_by:
+      scientific: "Melithaea ochracea"
+      confidence: 0.59
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T18:20:41Z"
+    src_mtime: 1794931361.857201
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Astroboa nuda"
+      confidence: 0.0021
+    - scientific: "Anneissia bennetti"
+      confidence: 0.0005
+    - scientific: "Comaster schlegelii"
+      confidence: 0.0004
+    absorbed_by:
+      scientific: "Annella mollis"
+      confidence: 0.829

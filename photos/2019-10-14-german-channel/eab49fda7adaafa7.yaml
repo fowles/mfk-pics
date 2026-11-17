@@ -10,3 +10,33 @@ lon: 134.2857
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T18:19:53Z"
+    src_mtime: 1794931375.0296745
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Canthidermis maculata"
+      confidence: 0.2326
+    - scientific: "Pempheris vanicolensis"
+      confidence: 0.213
+    - scientific: "Lepidozygus tapeinosoma"
+      confidence: 0.0869
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T18:20:41Z"
+    src_mtime: 1794931375.0296745
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Chromis weberi"
+      confidence: 0.3394
+    - scientific: "Chromis ternatensis"
+      confidence: 0.273
+    - scientific: "Odonus niger"
+      confidence: 0.187
+species:
+- scientific: "Chromis weberi"
+  role: "primary"
+  confidence: 0.1697
+  identified_by: "bioclip-2.5"

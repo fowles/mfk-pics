@@ -10,3 +10,33 @@ lon: 134.2213
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T18:19:53Z"
+    src_mtime: 1794931466.5578532
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Centropyge vrolikii"
+      confidence: 0.0854
+    - scientific: "Labrichthys unilineatus"
+      confidence: 0.0506
+    - scientific: "Cephalopholis urodeta"
+      confidence: 0.04
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T18:20:41Z"
+    src_mtime: 1794931466.5578532
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Acanthurus thompsoni"
+      confidence: 0.2648
+    - scientific: "Pomacentrus chrysurus"
+      confidence: 0.2104
+    - scientific: "Acanthurus nigricans"
+      confidence: 0.1147
+species:
+- scientific: "Acanthurus thompsoni"
+  role: "primary"
+  confidence: 0.1324
+  identified_by: "bioclip-2.5"

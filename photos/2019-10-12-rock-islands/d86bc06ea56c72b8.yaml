@@ -10,3 +10,33 @@ lon: 134.37
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T18:19:53Z"
+    src_mtime: 1794931340.2058148
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Amblyglyphidodon curacao"
+      confidence: 0.7744
+    - scientific: "Dischistodus melanotus"
+      confidence: 0.0372
+    - scientific: "Thalassoma hardwicke"
+      confidence: 0.0254
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T18:20:41Z"
+    src_mtime: 1794931340.2058148
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Amblyglyphidodon curacao"
+      confidence: 0.5341
+    - scientific: "Thalassoma hardwicke"
+      confidence: 0.123
+    - scientific: "Cirrhilabrus cyanopleura"
+      confidence: 0.1228
+species:
+- scientific: "Amblyglyphidodon curacao"
+  role: "primary"
+  confidence: 0.6542
+  identified_by: "bioclip-2+bioclip-2.5"

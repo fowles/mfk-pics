@@ -10,3 +10,33 @@ lon: 134.2497
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T18:19:53Z"
+    src_mtime: 1794931365.8607378
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Naso vlamingii"
+      confidence: 0.5228
+    - scientific: "Odonus niger"
+      confidence: 0.1033
+    - scientific: "Pempheris vanicolensis"
+      confidence: 0.0589
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T18:20:41Z"
+    src_mtime: 1794931365.8607378
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Naso hexacanthus"
+      confidence: 0.6362
+    - scientific: "Siganus punctatissimus"
+      confidence: 0.1117
+    - scientific: "Acanthurus thompsoni"
+      confidence: 0.0407
+species:
+- scientific: "Naso hexacanthus"
+  role: "primary"
+  confidence: 0.3181
+  identified_by: "bioclip-2.5"

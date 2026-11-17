@@ -10,3 +10,33 @@ lon: 134.2256
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T18:19:53Z"
+    src_mtime: 1794931458.2240078
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Tridacna crocea"
+      confidence: 0.1399
+    - scientific: "Tridacna squamosa"
+      confidence: 0.1182
+    - scientific: "Tridacna maxima"
+      confidence: 0.0644
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T18:20:41Z"
+    src_mtime: 1794931458.2240078
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Epinephelus fuscoguttatus"
+      confidence: 0.7536
+    - scientific: "Diodon liturosus"
+      confidence: 0.0727
+    - scientific: "Bohadschia argus"
+      confidence: 0.0472
+species:
+- scientific: "Epinephelus fuscoguttatus"
+  role: "primary"
+  confidence: 0.3768
+  identified_by: "bioclip-2.5"

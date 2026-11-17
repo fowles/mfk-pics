@@ -10,3 +10,34 @@ lon: 134.2448
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T18:19:53Z"
+    src_mtime: 1794931517.9542289
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Pterocaesio pisang"
+      confidence: 0.0121
+    - scientific: "Cephalopholis cyanostigma"
+      confidence: 0.0115
+    - scientific: "Tridacna gigas"
+      confidence: 0.0099
+    absorbed_by:
+      scientific: "Porites evermanni"
+      confidence: 0.1077
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T18:20:41Z"
+    src_mtime: 1794931517.9542289
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Chromis ternatensis"
+      confidence: 0.0517
+    - scientific: "Lutjanus decussatus"
+      confidence: 0.0374
+    - scientific: "Acanthochromis polyacanthus"
+      confidence: 0.0178
+    absorbed_by:
+      scientific: "Favites abdita"
+      confidence: 0.2137

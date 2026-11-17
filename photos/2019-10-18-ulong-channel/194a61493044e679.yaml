@@ -10,3 +10,34 @@ lon: 134.2447
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T18:19:53Z"
+    src_mtime: 1794931546.2809432
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Lambis lambis"
+      confidence: 0.0236
+    - scientific: "Cassiopea andromeda"
+      confidence: 0.0104
+    - scientific: "Carcharhinus melanopterus"
+      confidence: 0.0087
+    absorbed_by:
+      scientific: "Porites evermanni"
+      confidence: 0.2679
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T18:20:41Z"
+    src_mtime: 1794931546.2809432
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Urogymnus granulatus"
+      confidence: 0.0001
+    - scientific: "Carcharhinus melanopterus"
+      confidence: 0.0001
+    - scientific: "Tridacna gigas"
+      confidence: 0.0001
+    absorbed_by:
+      scientific: "Sonneratia alba"
+      confidence: 0.9981

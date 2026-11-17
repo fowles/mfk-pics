@@ -10,3 +10,33 @@ lon: 134.2448
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T18:19:53Z"
+    src_mtime: 1794931509.5236719
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Chaetodon trifascialis"
+      confidence: 0.6558
+    - scientific: "Hemitaurichthys polylepis"
+      confidence: 0.2224
+    - scientific: "Chaetodon vagabundus"
+      confidence: 0.0576
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T18:20:41Z"
+    src_mtime: 1794931509.5236719
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Chaetodon trifascialis"
+      confidence: 0.9225
+    - scientific: "Lutjanus gibbus"
+      confidence: 0.0345
+    - scientific: "Lethrinus atkinsoni"
+      confidence: 0.01
+species:
+- scientific: "Chaetodon trifascialis"
+  role: "primary"
+  confidence: 0.7892
+  identified_by: "bioclip-2+bioclip-2.5"

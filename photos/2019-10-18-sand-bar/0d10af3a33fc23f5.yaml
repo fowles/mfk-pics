@@ -10,3 +10,33 @@ lon: 134.2448
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T18:19:53Z"
+    src_mtime: 1794931521.3907363
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Gymnothorax javanicus"
+      confidence: 0.1898
+    - scientific: "Gymnothorax rueppelliae"
+      confidence: 0.1523
+    - scientific: "Gymnothorax flavimarginatus"
+      confidence: 0.0839
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T18:20:41Z"
+    src_mtime: 1794931521.3907363
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Gymnothorax breedeni"
+      confidence: 0.3832
+    - scientific: "Gymnothorax javanicus"
+      confidence: 0.3253
+    - scientific: "Gymnothorax rueppelliae"
+      confidence: 0.1287
+species:
+- scientific: "Gymnothorax javanicus"
+  role: "primary"
+  confidence: 0.2576
+  identified_by: "bioclip-2+bioclip-2.5"

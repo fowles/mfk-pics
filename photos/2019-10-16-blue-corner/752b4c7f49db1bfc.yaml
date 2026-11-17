@@ -10,3 +10,36 @@ lon: 134.2213
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T18:19:53Z"
+    src_mtime: 1794931408.4947689
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Caesio xanthonota"
+      confidence: 0.1561
+    - scientific: "Pterocaesio pisang"
+      confidence: 0.106
+    - scientific: "Lutjanus gibbus"
+      confidence: 0.0707
+    absorbed_by:
+      scientific: "Porites cylindrica"
+      confidence: 0.171
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T18:20:41Z"
+    src_mtime: 1794931408.4947689
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Caesio xanthonota"
+      confidence: 0.6639
+    - scientific: "Chromis analis"
+      confidence: 0.0248
+    - scientific: "Paracanthurus hepatus"
+      confidence: 0.0228
+species:
+- scientific: "Caesio xanthonota"
+  role: "primary"
+  confidence: 0.41
+  identified_by: "bioclip-2+bioclip-2.5"

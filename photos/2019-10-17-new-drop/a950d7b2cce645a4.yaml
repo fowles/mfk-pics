@@ -10,3 +10,33 @@ lon: 134.2395
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T18:19:53Z"
+    src_mtime: 1794931494.9621766
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Caesio xanthonota"
+      confidence: 0.7254
+    - scientific: "Mulloidichthys vanicolensis"
+      confidence: 0.0636
+    - scientific: "Lutjanus kasmira"
+      confidence: 0.0581
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T18:20:41Z"
+    src_mtime: 1794931494.9621766
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Lutjanus kasmira"
+      confidence: 0.5089
+    - scientific: "Mulloidichthys vanicolensis"
+      confidence: 0.2258
+    - scientific: "Caesio xanthonota"
+      confidence: 0.2106
+species:
+- scientific: "Caesio xanthonota"
+  role: "primary"
+  confidence: 0.468
+  identified_by: "bioclip-2+bioclip-2.5"

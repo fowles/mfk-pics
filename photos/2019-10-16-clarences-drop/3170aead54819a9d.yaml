@@ -10,3 +10,33 @@ lon: 134.2256
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T18:19:53Z"
+    src_mtime: 1794931455.4495234
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Synodus binotatus"
+      confidence: 0.5231
+    - scientific: "Synodus variegatus"
+      confidence: 0.2756
+    - scientific: "Epinephelus tauvina"
+      confidence: 0.0267
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T18:20:41Z"
+    src_mtime: 1794931455.4495234
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Synodus variegatus"
+      confidence: 0.6952
+    - scientific: "Saurida gracilis"
+      confidence: 0.2372
+    - scientific: "Synodus binotatus"
+      confidence: 0.0356
+species:
+- scientific: "Synodus variegatus"
+  role: "primary"
+  confidence: 0.4854
+  identified_by: "bioclip-2+bioclip-2.5"

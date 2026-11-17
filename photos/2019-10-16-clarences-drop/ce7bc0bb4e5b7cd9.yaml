@@ -10,3 +10,33 @@ lon: 134.2256
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T18:19:53Z"
+    src_mtime: 1794931456.8458822
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Chelonia mydas"
+      confidence: 0.4983
+    - scientific: "Echeneis naucrates"
+      confidence: 0.2906
+    - scientific: "Eretmochelys imbricata"
+      confidence: 0.0796
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T18:20:41Z"
+    src_mtime: 1794931456.8458822
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Chelonia mydas"
+      confidence: 0.9996
+    - scientific: "Echeneis naucrates"
+      confidence: 0.0002
+    - scientific: "Eretmochelys imbricata"
+      confidence: 0.0002
+species:
+- scientific: "Chelonia mydas"
+  role: "primary"
+  confidence: 0.749
+  identified_by: "bioclip-2+bioclip-2.5"

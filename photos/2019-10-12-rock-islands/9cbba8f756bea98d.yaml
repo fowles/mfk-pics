@@ -10,3 +10,34 @@ lon: 134.37
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T18:19:53Z"
+    src_mtime: 1794931348.4399793
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Hemigymnus fasciatus"
+      confidence: 0.0012
+    - scientific: "Scarus dimidiatus"
+      confidence: 0.0009
+    - scientific: "Tridacna crocea"
+      confidence: 0.0004
+    absorbed_by:
+      scientific: "Porites evermanni"
+      confidence: 0.5514
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T18:20:41Z"
+    src_mtime: 1794931348.4399793
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Tridacna crocea"
+      confidence: 0.0004
+    - scientific: "Lutjanus gibbus"
+      confidence: 0.0001
+    - scientific: "Halichoeres melanurus"
+      confidence: 0.0001
+    absorbed_by:
+      scientific: "Pavona clavus"
+      confidence: 0.355

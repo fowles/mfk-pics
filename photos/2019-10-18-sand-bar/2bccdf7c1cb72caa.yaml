@@ -10,3 +10,31 @@ lon: 134.2448
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T18:19:53Z"
+    src_mtime: 1794931515.4693308
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Gobiodon histrio"
+      confidence: 0.0424
+    - scientific: "Chromis viridis"
+      confidence: 0.0109
+    - scientific: "Gobiodon citrinus"
+      confidence: 0.0095
+    absorbed_by:
+      scientific: "Acropora nasuta"
+      confidence: 0.3752
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T18:20:41Z"
+    src_mtime: 1794931515.4693308
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Neoglyphidodon oxyodon"
+      confidence: 0.1735
+    - scientific: "Labroides dimidiatus"
+      confidence: 0.0663
+    - scientific: "Chrysiptera parasema"
+      confidence: 0.0559

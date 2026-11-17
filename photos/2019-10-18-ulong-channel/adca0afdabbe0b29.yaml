@@ -10,3 +10,33 @@ lon: 134.2447
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T18:19:53Z"
+    src_mtime: 1794931544.1642022
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Coris aygula"
+      confidence: 0.1089
+    - scientific: "Aphareus furca"
+      confidence: 0.1058
+    - scientific: "Pterocaesio pisang"
+      confidence: 0.0803
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T18:20:41Z"
+    src_mtime: 1794931544.1642022
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Scarus rubroviolaceus"
+      confidence: 0.4316
+    - scientific: "Monotaxis grandoculis"
+      confidence: 0.2459
+    - scientific: "Plectropomus areolatus"
+      confidence: 0.0923
+species:
+- scientific: "Scarus rubroviolaceus"
+  role: "primary"
+  confidence: 0.2158
+  identified_by: "bioclip-2.5"

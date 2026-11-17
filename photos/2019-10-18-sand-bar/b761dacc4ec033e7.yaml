@@ -10,3 +10,33 @@ lon: 134.2448
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T18:19:53Z"
+    src_mtime: 1794931526.9418988
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Aphareus furca"
+      confidence: 0.0479
+    - scientific: "Scomberoides lysan"
+      confidence: 0.0479
+    - scientific: "Lethrinus olivaceus"
+      confidence: 0.0444
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T18:20:41Z"
+    src_mtime: 1794931526.9418988
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Urogymnus asperrimus"
+      confidence: 0.332
+    - scientific: "Cromileptes altivelis"
+      confidence: 0.0919
+    - scientific: "Eretmochelys imbricata"
+      confidence: 0.0549
+species:
+- scientific: "Urogymnus asperrimus"
+  role: "primary"
+  confidence: 0.166
+  identified_by: "bioclip-2.5"

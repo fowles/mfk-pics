@@ -10,3 +10,33 @@ lon: 134.2226
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T18:19:53Z"
+    src_mtime: 1794931440.2625844
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Platax boersii"
+      confidence: 0.5398
+    - scientific: "Diagramma pictum"
+      confidence: 0.2364
+    - scientific: "Platax orbicularis"
+      confidence: 0.1396
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T18:20:41Z"
+    src_mtime: 1794931440.2625844
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Platax boersii"
+      confidence: 0.9884
+    - scientific: "Platax orbicularis"
+      confidence: 0.0083
+    - scientific: "Platax pinnatus"
+      confidence: 0.0019
+species:
+- scientific: "Platax boersii"
+  role: "primary"
+  confidence: 0.7641
+  identified_by: "bioclip-2+bioclip-2.5"

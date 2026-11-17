@@ -10,3 +10,36 @@ lon: 134.2447
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T18:19:53Z"
+    src_mtime: 1794931545.5101337
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Mobula alfredi"
+      confidence: 0.0903
+    - scientific: "Crocodylus porosus"
+      confidence: 0.0647
+    - scientific: "Cassiopea andromeda"
+      confidence: 0.0314
+    absorbed_by:
+      scientific: "Porites evermanni"
+      confidence: 0.1885
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T18:20:41Z"
+    src_mtime: 1794931545.5101337
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Stichopus chloronotus"
+      confidence: 0.1722
+    - scientific: "Mobula alfredi"
+      confidence: 0.1717
+    - scientific: "Heterocentrotus mamillatus"
+      confidence: 0.1096
+species:
+- scientific: "Mobula alfredi"
+  role: "primary"
+  confidence: 0.131
+  identified_by: "bioclip-2+bioclip-2.5"

@@ -10,3 +10,33 @@ lon: 134.2596
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T18:19:53Z"
+    src_mtime: 1794931388.933009
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Myripristis vittata"
+      confidence: 0.2251
+    - scientific: "Ostorhinchus aureus"
+      confidence: 0.0992
+    - scientific: "Chromis weberi"
+      confidence: 0.0657
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T18:20:41Z"
+    src_mtime: 1794931388.933009
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Priacanthus hamrur"
+      confidence: 0.2979
+    - scientific: "Chromis lepidolepis"
+      confidence: 0.1863
+    - scientific: "Pomacanthus imperator"
+      confidence: 0.1326
+species:
+- scientific: "Priacanthus hamrur"
+  role: "primary"
+  confidence: 0.1489
+  identified_by: "bioclip-2.5"

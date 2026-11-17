@@ -10,3 +10,34 @@ lon: 134.37
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T18:19:53Z"
+    src_mtime: 1794931343.091862
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Chromis viridis"
+      confidence: 0.0013
+    - scientific: "Pomacentrus moluccensis"
+      confidence: 0.0012
+    - scientific: "Plectroglyphidodon johnstonianus"
+      confidence: 0.0008
+    absorbed_by:
+      scientific: "Pocillopora damicornis"
+      confidence: 0.7601
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T18:20:41Z"
+    src_mtime: 1794931343.091862
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Gobiodon histrio"
+      confidence: 0.0
+    - scientific: "Paracirrhites forsteri"
+      confidence: 0.0
+    - scientific: "Dascyllus aruanus"
+      confidence: 0.0
+    absorbed_by:
+      scientific: "Pocillopora damicornis"
+      confidence: 0.9865

@@ -10,3 +10,33 @@ lon: 134.2395
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T18:19:53Z"
+    src_mtime: 1794931492.6460347
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Ptereleotris evides"
+      confidence: 0.2268
+    - scientific: "Chromis xanthura"
+      confidence: 0.2128
+    - scientific: "Chromis vanderbilti"
+      confidence: 0.1323
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T18:20:41Z"
+    src_mtime: 1794931492.6460347
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Chromis margaritifer"
+      confidence: 0.4504
+    - scientific: "Chromis iomelas"
+      confidence: 0.2053
+    - scientific: "Acanthurus thompsoni"
+      confidence: 0.087
+species:
+- scientific: "Chromis margaritifer"
+  role: "primary"
+  confidence: 0.2252
+  identified_by: "bioclip-2.5"

@@ -10,3 +10,33 @@ lon: 134.2213
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T18:19:53Z"
+    src_mtime: 1794931474.0870385
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Melichthys niger"
+      confidence: 0.6202
+    - scientific: "Odonus niger"
+      confidence: 0.0772
+    - scientific: "Pempheris vanicolensis"
+      confidence: 0.0766
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T18:20:41Z"
+    src_mtime: 1794931474.0870385
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Melichthys niger"
+      confidence: 0.8209
+    - scientific: "Odonus niger"
+      confidence: 0.0603
+    - scientific: "Naso vlamingii"
+      confidence: 0.0349
+species:
+- scientific: "Melichthys niger"
+  role: "primary"
+  confidence: 0.7206
+  identified_by: "bioclip-2+bioclip-2.5"

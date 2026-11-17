@@ -10,3 +10,33 @@ lon: 134.2213
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T18:19:53Z"
+    src_mtime: 1794931460.2573516
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Lutjanus gibbus"
+      confidence: 0.6699
+    - scientific: "Aethaloperca rogaa"
+      confidence: 0.051
+    - scientific: "Diagramma pictum"
+      confidence: 0.0468
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T18:20:41Z"
+    src_mtime: 1794931460.2573516
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Acanthurus blochii"
+      confidence: 0.4815
+    - scientific: "Acanthurus nigrofuscus"
+      confidence: 0.1955
+    - scientific: "Bolbometopon muricatum"
+      confidence: 0.131
+species:
+- scientific: "Lutjanus gibbus"
+  role: "primary"
+  confidence: 0.335
+  identified_by: "bioclip-2"

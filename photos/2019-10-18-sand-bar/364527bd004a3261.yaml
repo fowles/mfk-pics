@@ -10,3 +10,33 @@ lon: 134.2448
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T18:19:53Z"
+    src_mtime: 1794931512.4077969
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Lethrinus atkinsoni"
+      confidence: 0.3131
+    - scientific: "Lethrinus xanthochilus"
+      confidence: 0.1609
+    - scientific: "Lethrinus erythracanthus"
+      confidence: 0.1403
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T18:20:41Z"
+    src_mtime: 1794931512.4077969
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Cheilinus undulatus"
+      confidence: 0.1574
+    - scientific: "Kyphosus vaigiensis"
+      confidence: 0.1526
+    - scientific: "Siganus vermiculatus"
+      confidence: 0.1007
+species:
+- scientific: "Lethrinus atkinsoni"
+  role: "primary"
+  confidence: 0.1565
+  identified_by: "bioclip-2"

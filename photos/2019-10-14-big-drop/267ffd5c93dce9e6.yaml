@@ -10,3 +10,33 @@ lon: 134.2497
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T18:19:53Z"
+    src_mtime: 1794931368.9442203
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Mobula alfredi"
+      confidence: 0.0584
+    - scientific: "Sepioteuthis lessoniana"
+      confidence: 0.0578
+    - scientific: "Pterois volitans"
+      confidence: 0.0469
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T18:20:41Z"
+    src_mtime: 1794931368.9442203
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Cephea cephea"
+      confidence: 0.4697
+    - scientific: "Carcharhinus albimarginatus"
+      confidence: 0.0939
+    - scientific: "Carcharhinus amblyrhynchos"
+      confidence: 0.0497
+species:
+- scientific: "Cephea cephea"
+  role: "primary"
+  confidence: 0.2349
+  identified_by: "bioclip-2.5"

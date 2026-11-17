@@ -10,3 +10,34 @@ lon: 134.2448
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T18:19:53Z"
+    src_mtime: 1794931517.7998397
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Calpurnus verrucosus"
+      confidence: 0.0277
+    - scientific: "Ecsenius yaeyamaensis"
+      confidence: 0.0075
+    - scientific: "Ecsenius bicolor"
+      confidence: 0.0053
+    absorbed_by:
+      scientific: "Goniastrea stelligera"
+      confidence: 0.718
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T18:20:41Z"
+    src_mtime: 1794931517.7998397
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Ecsenius midas"
+      confidence: 0.0075
+    - scientific: "Ecsenius namiyei"
+      confidence: 0.0069
+    - scientific: "Calpurnus verrucosus"
+      confidence: 0.0033
+    absorbed_by:
+      scientific: "Porites evermanni"
+      confidence: 0.8485

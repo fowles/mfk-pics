@@ -10,3 +10,33 @@ lon: 134.2448
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T18:19:53Z"
+    src_mtime: 1794931513.97797
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Arothron nigropunctatus"
+      confidence: 0.3216
+    - scientific: "Arothron caeruleopunctatus"
+      confidence: 0.218
+    - scientific: "Arothron meleagris"
+      confidence: 0.0569
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T18:20:41Z"
+    src_mtime: 1794931513.97797
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Tridacna crocea"
+      confidence: 0.5081
+    - scientific: "Cephalopholis argus"
+      confidence: 0.0525
+    - scientific: "Tridacna derasa"
+      confidence: 0.0506
+species:
+- scientific: "Tridacna crocea"
+  role: "primary"
+  confidence: 0.254
+  identified_by: "bioclip-2.5"

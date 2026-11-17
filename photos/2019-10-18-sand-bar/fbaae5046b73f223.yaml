@@ -10,3 +10,36 @@ lon: 134.2448
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T18:19:53Z"
+    src_mtime: 1794931524.0961487
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Cheilinus fasciatus"
+      confidence: 0.0467
+    - scientific: "Hemigymnus fasciatus"
+      confidence: 0.0378
+    - scientific: "Enchelycore pardalis"
+      confidence: 0.0344
+    absorbed_by:
+      scientific: "Porites cylindrica"
+      confidence: 0.0527
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T18:20:41Z"
+    src_mtime: 1794931524.0961487
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Chaetodon ulietensis"
+      confidence: 0.1706
+    - scientific: "Chaetodon meyeri"
+      confidence: 0.1421
+    - scientific: "Chromis iomelas"
+      confidence: 0.0779
+species:
+- scientific: "Chaetodon ulietensis"
+  role: "primary"
+  confidence: 0.0853
+  identified_by: "bioclip-2.5"

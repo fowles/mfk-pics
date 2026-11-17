@@ -10,3 +10,31 @@ lon: 134.37
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T18:19:53Z"
+    src_mtime: 1794931507.0241034
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Crocodylus porosus"
+      confidence: 0.0314
+    - scientific: "Harpago chiragra"
+      confidence: 0.021
+    - scientific: "Holothuria fuscogilva"
+      confidence: 0.0172
+    absorbed_by:
+      scientific: "Pavona clavus"
+      confidence: 0.4149
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T18:20:41Z"
+    src_mtime: 1794931507.0241034
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Triaenodon obesus"
+      confidence: 0.1853
+    - scientific: "Urogymnus granulatus"
+      confidence: 0.0912
+    - scientific: "Crocodylus porosus"
+      confidence: 0.0906

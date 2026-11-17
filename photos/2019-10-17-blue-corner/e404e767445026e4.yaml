@@ -10,3 +10,36 @@ lon: 134.2213
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T18:19:53Z"
+    src_mtime: 1794931472.7051756
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Labroides bicolor"
+      confidence: 0.0661
+    - scientific: "Plectorhinchus vittatus"
+      confidence: 0.0276
+    - scientific: "Nemateleotris magnifica"
+      confidence: 0.0259
+    absorbed_by:
+      scientific: "Porites cylindrica"
+      confidence: 0.2254
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T18:20:41Z"
+    src_mtime: 1794931472.7051756
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Dascyllus aruanus"
+      confidence: 0.2426
+    - scientific: "Chromis iomelas"
+      confidence: 0.12
+    - scientific: "Bodianus anthioides"
+      confidence: 0.0776
+species:
+- scientific: "Dascyllus aruanus"
+  role: "primary"
+  confidence: 0.1213
+  identified_by: "bioclip-2.5"

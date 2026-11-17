@@ -10,3 +10,34 @@ lon: 134.37
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T18:19:53Z"
+    src_mtime: 1794931337.2254035
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Physeter macrocephalus"
+      confidence: 0.0828
+    - scientific: "Mobula birostris"
+      confidence: 0.0726
+    - scientific: "Gymnosarda unicolor"
+      confidence: 0.0195
+    absorbed_by:
+      scientific: "Rhizophora apiculata"
+      confidence: 0.1198
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T18:20:41Z"
+    src_mtime: 1794931337.2254035
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Mobula thurstoni"
+      confidence: 0.1401
+    - scientific: "Carcharhinus longimanus"
+      confidence: 0.1388
+    - scientific: "Mobula alfredi"
+      confidence: 0.0513
+    absorbed_by:
+      scientific: "Sonneratia alba"
+      confidence: 0.2041

@@ -10,3 +10,33 @@ lon: 134.2497
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T18:19:53Z"
+    src_mtime: 1794931363.6310847
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Chromis ternatensis"
+      confidence: 0.0442
+    - scientific: "Acanthochromis polyacanthus"
+      confidence: 0.0437
+    - scientific: "Lutjanus gibbus"
+      confidence: 0.0349
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T18:20:41Z"
+    src_mtime: 1794931363.6310847
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Dascyllus reticulatus"
+      confidence: 0.2437
+    - scientific: "Chaetodon reticulatus"
+      confidence: 0.084
+    - scientific: "Paracanthurus hepatus"
+      confidence: 0.0825
+species:
+- scientific: "Dascyllus reticulatus"
+  role: "primary"
+  confidence: 0.1218
+  identified_by: "bioclip-2.5"

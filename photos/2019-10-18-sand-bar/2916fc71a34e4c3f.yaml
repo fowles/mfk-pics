@@ -10,3 +10,33 @@ lon: 134.2448
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T18:19:53Z"
+    src_mtime: 1794931522.3993096
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Octopus cyanea"
+      confidence: 0.2548
+    - scientific: "Abdopus aculeatus"
+      confidence: 0.1135
+    - scientific: "Amphioctopus marginatus"
+      confidence: 0.0849
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T18:20:41Z"
+    src_mtime: 1794931522.3993096
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Callistoctopus ornatus"
+      confidence: 0.6844
+    - scientific: "Octopus cyanea"
+      confidence: 0.2787
+    - scientific: "Bohadschia argus"
+      confidence: 0.0131
+species:
+- scientific: "Callistoctopus ornatus"
+  role: "primary"
+  confidence: 0.3422
+  identified_by: "bioclip-2.5"

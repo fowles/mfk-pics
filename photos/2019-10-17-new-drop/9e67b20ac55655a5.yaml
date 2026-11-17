@@ -10,3 +10,33 @@ lon: 134.2395
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T18:19:53Z"
+    src_mtime: 1794931496.9283688
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Eretmochelys imbricata"
+      confidence: 0.4392
+    - scientific: "Chelonia mydas"
+      confidence: 0.4248
+    - scientific: "Caretta caretta"
+      confidence: 0.0529
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T18:20:41Z"
+    src_mtime: 1794931496.9283688
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Chelonia mydas"
+      confidence: 0.9962
+    - scientific: "Eretmochelys imbricata"
+      confidence: 0.0038
+    - scientific: "Caretta caretta"
+      confidence: 0.0
+species:
+- scientific: "Chelonia mydas"
+  role: "primary"
+  confidence: 0.7105
+  identified_by: "bioclip-2+bioclip-2.5"

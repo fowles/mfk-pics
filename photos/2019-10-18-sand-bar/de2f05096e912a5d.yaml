@@ -10,3 +10,34 @@ lon: 134.2448
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T18:19:53Z"
+    src_mtime: 1794931518.7139695
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Cephalopholis urodeta"
+      confidence: 0.0006
+    - scientific: "Amblycirrhitus bimacula"
+      confidence: 0.0002
+    - scientific: "Ecsenius midas"
+      confidence: 0.0002
+    absorbed_by:
+      scientific: "Goniastrea stelligera"
+      confidence: 0.3393
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T18:20:41Z"
+    src_mtime: 1794931518.7139695
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Epinephelus fuscoguttatus"
+      confidence: 0.0617
+    - scientific: "Scorpaenopsis diabolus"
+      confidence: 0.0563
+    - scientific: "Antennarius commerson"
+      confidence: 0.0548
+    absorbed_by:
+      scientific: "Goniastrea pectinata"
+      confidence: 0.3713

@@ -10,3 +10,33 @@ lon: 134.2213
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T18:19:53Z"
+    src_mtime: 1794931471.2044358
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Arothron hispidus"
+      confidence: 0.3146
+    - scientific: "Arothron nigropunctatus"
+      confidence: 0.1363
+    - scientific: "Chilomycterus reticulatus"
+      confidence: 0.1208
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T18:20:41Z"
+    src_mtime: 1794931471.2044358
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Diodon liturosus"
+      confidence: 0.2376
+    - scientific: "Aluterus scriptus"
+      confidence: 0.1316
+    - scientific: "Arothron nigropunctatus"
+      confidence: 0.1273
+species:
+- scientific: "Arothron hispidus"
+  role: "primary"
+  confidence: 0.1573
+  identified_by: "bioclip-2"

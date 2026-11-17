@@ -10,3 +10,33 @@ lon: 134.2213
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T18:19:53Z"
+    src_mtime: 1794931474.3411021
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Naso vlamingii"
+      confidence: 0.5336
+    - scientific: "Naso brevirostris"
+      confidence: 0.2872
+    - scientific: "Naso hexacanthus"
+      confidence: 0.0497
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T18:20:41Z"
+    src_mtime: 1794931474.3411021
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Naso vlamingii"
+      confidence: 0.8332
+    - scientific: "Naso hexacanthus"
+      confidence: 0.1039
+    - scientific: "Melichthys niger"
+      confidence: 0.0297
+species:
+- scientific: "Naso vlamingii"
+  role: "primary"
+  confidence: 0.6834
+  identified_by: "bioclip-2+bioclip-2.5"

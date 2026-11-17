@@ -10,3 +10,34 @@ lon: 134.2256
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T18:19:53Z"
+    src_mtime: 1794931454.4191208
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Cephalopholis urodeta"
+      confidence: 0.0561
+    - scientific: "Cephalopholis miniata"
+      confidence: 0.0242
+    - scientific: "Amphiprion melanopus"
+      confidence: 0.0215
+    absorbed_by:
+      scientific: "Millepora dichotoma"
+      confidence: 0.1047
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T18:20:41Z"
+    src_mtime: 1794931454.4191208
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Pearsonothuria graeffei"
+      confidence: 0.0816
+    - scientific: "Bohadschia argus"
+      confidence: 0.0679
+    - scientific: "Phyllidia coelestis"
+      confidence: 0.0504
+    absorbed_by:
+      scientific: "Polycarpa aurata"
+      confidence: 0.1094

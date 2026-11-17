@@ -10,3 +10,34 @@ lon: 134.2256
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T18:19:53Z"
+    src_mtime: 1794931449.4957137
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Labrichthys unilineatus"
+      confidence: 0.006
+    - scientific: "Dichrometra palmata"
+      confidence: 0.0044
+    - scientific: "Anyperodon leucogrammicus"
+      confidence: 0.0029
+    absorbed_by:
+      scientific: "Macrorhynchia philippina"
+      confidence: 0.3416
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T18:20:41Z"
+    src_mtime: 1794931449.4957137
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Comaster schlegelii"
+      confidence: 0.04
+    - scientific: "Centropyge vrolikii"
+      confidence: 0.0188
+    - scientific: "Anneissia bennetti"
+      confidence: 0.015
+    absorbed_by:
+      scientific: "Pachyrhynchia cuppressina"
+      confidence: 0.6035

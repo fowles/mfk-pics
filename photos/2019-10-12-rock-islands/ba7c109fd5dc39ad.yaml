@@ -11,3 +11,33 @@ gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
 video_start_anchored: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T17:53:46Z"
+    src_mtime: 1794931357.1782444
+    vocab: "fcc8562538b1"
+    top:
+    - scientific: "Plectroglyphidodon dickii"
+      confidence: 0.1251
+    - scientific: "Stegastes albifasciatus"
+      confidence: 0.0732
+    - scientific: "Chrysiptera unimaculata"
+      confidence: 0.0527
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T17:53:55Z"
+    src_mtime: 1794931357.1782444
+    vocab: "fcc8562538b1"
+    top:
+    - scientific: "Stegastes fasciolatus"
+      confidence: 0.2456
+    - scientific: "Amblyglyphidodon curacao"
+      confidence: 0.1983
+    - scientific: "Pomacentrus brachialis"
+      confidence: 0.0418
+species:
+- scientific: "Stegastes fasciolatus"
+  role: "primary"
+  confidence: 0.1228
+  identified_by: "bioclip-2.5"

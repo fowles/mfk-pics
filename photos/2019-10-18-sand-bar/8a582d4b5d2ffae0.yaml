@@ -10,3 +10,36 @@ lon: 134.2448
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T18:19:53Z"
+    src_mtime: 1794931528.9311688
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Paracirrhites arcatus"
+      confidence: 0.2166
+    - scientific: "Paracirrhites forsteri"
+      confidence: 0.1214
+    - scientific: "Amphiprion perideraion"
+      confidence: 0.0541
+    absorbed_by:
+      scientific: "Amplexidiscus fenestrafer"
+      confidence: 0.2557
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T18:20:41Z"
+    src_mtime: 1794931528.9311688
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Tridacna gigas"
+      confidence: 0.8356
+    - scientific: "Tridacna derasa"
+      confidence: 0.0286
+    - scientific: "Labroides dimidiatus"
+      confidence: 0.0228
+species:
+- scientific: "Tridacna gigas"
+  role: "primary"
+  confidence: 0.4178
+  identified_by: "bioclip-2.5"

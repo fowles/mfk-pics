@@ -10,3 +10,33 @@ lon: 134.2596
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T18:19:53Z"
+    src_mtime: 1794931392.205756
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Siganus puellus"
+      confidence: 0.4029
+    - scientific: "Parupeneus cyclostomus"
+      confidence: 0.3639
+    - scientific: "Thalassoma lutescens"
+      confidence: 0.0776
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T18:20:41Z"
+    src_mtime: 1794931392.205756
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Siganus corallinus"
+      confidence: 0.7102
+    - scientific: "Siganus puellus"
+      confidence: 0.2834
+    - scientific: "Siganus punctatus"
+      confidence: 0.0015
+species:
+- scientific: "Siganus corallinus"
+  role: "primary"
+  confidence: 0.3551
+  identified_by: "bioclip-2.5"

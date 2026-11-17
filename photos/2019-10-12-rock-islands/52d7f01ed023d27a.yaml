@@ -10,3 +10,33 @@ lon: 134.37
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T18:19:53Z"
+    src_mtime: 1794931337.5078633
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Mobula birostris"
+      confidence: 0.2046
+    - scientific: "Mobula alfredi"
+      confidence: 0.1024
+    - scientific: "Amphiprion percula"
+      confidence: 0.0459
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T18:20:41Z"
+    src_mtime: 1794931337.5078633
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Carcharhinus longimanus"
+      confidence: 0.6915
+    - scientific: "Amphiprion polymnus"
+      confidence: 0.0666
+    - scientific: "Mobula thurstoni"
+      confidence: 0.0386
+species:
+- scientific: "Carcharhinus longimanus"
+  role: "primary"
+  confidence: 0.3458
+  identified_by: "bioclip-2.5"

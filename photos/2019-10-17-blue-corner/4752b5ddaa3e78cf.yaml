@@ -10,3 +10,36 @@ lon: 134.2213
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T18:19:53Z"
+    src_mtime: 1794931471.6587014
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Ancylomenes sarasvati"
+      confidence: 0.1009
+    - scientific: "Periclimenes brevicarpalis"
+      confidence: 0.0628
+    - scientific: "Cirrhitichthys oxycephalus"
+      confidence: 0.0338
+    absorbed_by:
+      scientific: "Entacmaea quadricolor"
+      confidence: 0.2006
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T18:20:41Z"
+    src_mtime: 1794931471.6587014
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Cirrhitichthys oxycephalus"
+      confidence: 0.2624
+    - scientific: "Amphiprion perideraion"
+      confidence: 0.1057
+    - scientific: "Epinephelus merra"
+      confidence: 0.0782
+species:
+- scientific: "Cirrhitichthys oxycephalus"
+  role: "primary"
+  confidence: 0.1481
+  identified_by: "bioclip-2+bioclip-2.5"

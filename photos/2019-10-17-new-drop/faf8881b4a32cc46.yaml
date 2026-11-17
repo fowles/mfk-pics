@@ -10,3 +10,33 @@ lon: 134.2395
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T18:19:53Z"
+    src_mtime: 1794931495.9258676
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Mulloidichthys vanicolensis"
+      confidence: 0.138
+    - scientific: "Caesio xanthonota"
+      confidence: 0.0709
+    - scientific: "Lutjanus gibbus"
+      confidence: 0.0673
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T18:20:41Z"
+    src_mtime: 1794931495.9258676
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Atule mate"
+      confidence: 0.3677
+    - scientific: "Caranx sexfasciatus"
+      confidence: 0.2405
+    - scientific: "Sepioteuthis lessoniana"
+      confidence: 0.1658
+species:
+- scientific: "Atule mate"
+  role: "primary"
+  confidence: 0.1839
+  identified_by: "bioclip-2.5"

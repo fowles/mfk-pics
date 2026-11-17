@@ -10,3 +10,34 @@ lon: 134.2213
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T18:19:53Z"
+    src_mtime: 1794931468.2955341
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Epinephelus merra"
+      confidence: 0.0144
+    - scientific: "Gymnothorax javanicus"
+      confidence: 0.011
+    - scientific: "Thelenota ananas"
+      confidence: 0.0101
+    absorbed_by:
+      scientific: "Goniastrea stelligera"
+      confidence: 0.1079
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T18:20:41Z"
+    src_mtime: 1794931468.2955341
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Euapta godeffroyi"
+      confidence: 0.0759
+    - scientific: "Synanceia verrucosa"
+      confidence: 0.0584
+    - scientific: "Cymbacephalus beauforti"
+      confidence: 0.051
+    absorbed_by:
+      scientific: "Blastomussa wellsi"
+      confidence: 0.1488

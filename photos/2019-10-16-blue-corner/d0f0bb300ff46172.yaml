@@ -10,3 +10,34 @@ lon: 134.2213
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T18:19:53Z"
+    src_mtime: 1794931398.0154295
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Carcharhinus melanopterus"
+      confidence: 0.0315
+    - scientific: "Carcharhinus galapagensis"
+      confidence: 0.005
+    - scientific: "Cassiopea andromeda"
+      confidence: 0.0046
+    absorbed_by:
+      scientific: "Porites evermanni"
+      confidence: 0.3223
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T18:20:41Z"
+    src_mtime: 1794931398.0154295
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Calcinus laevimanus"
+      confidence: 0.0025
+    - scientific: "Lutjanus argentimaculatus"
+      confidence: 0.0015
+    - scientific: "Echinometra mathaei"
+      confidence: 0.0002
+    absorbed_by:
+      scientific: "Sonneratia alba"
+      confidence: 0.9942

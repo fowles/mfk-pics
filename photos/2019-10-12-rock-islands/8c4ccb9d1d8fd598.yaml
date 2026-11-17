@@ -10,3 +10,33 @@ lon: 134.37
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T18:19:53Z"
+    src_mtime: 1794931333.48745
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Decapterus macarellus"
+      confidence: 0.1165
+    - scientific: "Gymnosarda unicolor"
+      confidence: 0.1155
+    - scientific: "Laticauda laticaudata"
+      confidence: 0.0569
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T18:20:41Z"
+    src_mtime: 1794931333.48745
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Naso lituratus"
+      confidence: 0.3883
+    - scientific: "Gomphosus varius"
+      confidence: 0.2816
+    - scientific: "Birgus latro"
+      confidence: 0.1116
+species:
+- scientific: "Naso lituratus"
+  role: "primary"
+  confidence: 0.1941
+  identified_by: "bioclip-2.5"

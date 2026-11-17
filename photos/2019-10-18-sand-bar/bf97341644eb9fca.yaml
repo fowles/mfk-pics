@@ -10,3 +10,33 @@ lon: 134.2448
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T18:19:53Z"
+    src_mtime: 1794931513.4213083
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Labrichthys unilineatus"
+      confidence: 0.2624
+    - scientific: "Labroides bicolor"
+      confidence: 0.1434
+    - scientific: "Labropsis xanthonota"
+      confidence: 0.0597
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T18:20:41Z"
+    src_mtime: 1794931513.4213083
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Chromis ternatensis"
+      confidence: 0.9617
+    - scientific: "Chromis amboinensis"
+      confidence: 0.0048
+    - scientific: "Ptereleotris evides"
+      confidence: 0.0046
+species:
+- scientific: "Chromis ternatensis"
+  role: "primary"
+  confidence: 0.4808
+  identified_by: "bioclip-2.5"

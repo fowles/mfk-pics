@@ -10,3 +10,33 @@ lon: 134.2447
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T18:19:53Z"
+    src_mtime: 1794931536.215395
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Paracirrhites forsteri"
+      confidence: 0.8273
+    - scientific: "Paracirrhites arcatus"
+      confidence: 0.0807
+    - scientific: "Paracirrhites hemistictus"
+      confidence: 0.0145
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T18:20:41Z"
+    src_mtime: 1794931536.215395
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Paracirrhites forsteri"
+      confidence: 0.9999
+    - scientific: "Paracirrhites hemistictus"
+      confidence: 0.0
+    - scientific: "Exallias brevis"
+      confidence: 0.0
+species:
+- scientific: "Paracirrhites forsteri"
+  role: "primary"
+  confidence: 0.9136
+  identified_by: "bioclip-2+bioclip-2.5"

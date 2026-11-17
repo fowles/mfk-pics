@@ -10,3 +10,33 @@ lon: 134.2497
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T18:19:53Z"
+    src_mtime: 1794931365.1220982
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Hemitaurichthys polylepis"
+      confidence: 0.896
+    - scientific: "Forcipiger flavissimus"
+      confidence: 0.0108
+    - scientific: "Heniochus monoceros"
+      confidence: 0.0107
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T18:20:41Z"
+    src_mtime: 1794931365.1220982
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Hemitaurichthys polylepis"
+      confidence: 0.9959
+    - scientific: "Chaetodon auriga"
+      confidence: 0.0033
+    - scientific: "Forcipiger flavissimus"
+      confidence: 0.0007
+species:
+- scientific: "Hemitaurichthys polylepis"
+  role: "primary"
+  confidence: 0.946
+  identified_by: "bioclip-2+bioclip-2.5"

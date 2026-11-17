@@ -10,3 +10,33 @@ lon: 134.2395
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T18:19:53Z"
+    src_mtime: 1794931499.495511
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Pterocaesio tile"
+      confidence: 0.1985
+    - scientific: "Coris gaimard"
+      confidence: 0.1059
+    - scientific: "Gomphosus varius"
+      confidence: 0.032
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T18:20:41Z"
+    src_mtime: 1794931499.495511
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Variola louti"
+      confidence: 0.2092
+    - scientific: "Hologymnosus annulatus"
+      confidence: 0.1152
+    - scientific: "Coris aygula"
+      confidence: 0.0789
+species:
+- scientific: "Variola louti"
+  role: "primary"
+  confidence: 0.1046
+  identified_by: "bioclip-2.5"

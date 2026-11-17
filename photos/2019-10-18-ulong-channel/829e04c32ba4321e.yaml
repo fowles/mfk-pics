@@ -10,3 +10,36 @@ lon: 134.2447
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T18:19:53Z"
+    src_mtime: 1794931546.042169
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Hemigymnus fasciatus"
+      confidence: 0.0574
+    - scientific: "Balistoides conspicillum"
+      confidence: 0.0307
+    - scientific: "Epinephelus tauvina"
+      confidence: 0.0183
+    absorbed_by:
+      scientific: "Millepora dichotoma"
+      confidence: 0.0801
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T18:20:41Z"
+    src_mtime: 1794931546.042169
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Gymnothorax javanicus"
+      confidence: 0.5916
+    - scientific: "Arothron nigropunctatus"
+      confidence: 0.0805
+    - scientific: "Cephalopholis urodeta"
+      confidence: 0.08
+species:
+- scientific: "Gymnothorax javanicus"
+  role: "primary"
+  confidence: 0.2958
+  identified_by: "bioclip-2.5"

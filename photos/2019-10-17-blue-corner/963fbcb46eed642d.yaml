@@ -10,3 +10,33 @@ lon: 134.2213
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T18:19:53Z"
+    src_mtime: 1794931464.8562698
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Rhincodon typus"
+      confidence: 0.0521
+    - scientific: "Carcharhinus amblyrhynchos"
+      confidence: 0.0432
+    - scientific: "Aetobatus ocellatus"
+      confidence: 0.04
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T18:20:41Z"
+    src_mtime: 1794931464.8562698
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Carcharhinus amblyrhynchos"
+      confidence: 0.1655
+    - scientific: "Decapterus macarellus"
+      confidence: 0.1489
+    - scientific: "Sepioteuthis lessoniana"
+      confidence: 0.1481
+species:
+- scientific: "Carcharhinus amblyrhynchos"
+  role: "primary"
+  confidence: 0.1043
+  identified_by: "bioclip-2+bioclip-2.5"

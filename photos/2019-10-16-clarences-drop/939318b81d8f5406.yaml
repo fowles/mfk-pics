@@ -10,3 +10,33 @@ lon: 134.2256
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T18:19:53Z"
+    src_mtime: 1794931452.443065
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Aulostomus chinensis"
+      confidence: 0.3671
+    - scientific: "Sphyraena flavicauda"
+      confidence: 0.1238
+    - scientific: "Cheilio inermis"
+      confidence: 0.1059
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T18:20:41Z"
+    src_mtime: 1794931452.443065
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Triaenodon obesus"
+      confidence: 0.9583
+    - scientific: "Carcharhinus amblyrhynchos"
+      confidence: 0.0152
+    - scientific: "Aulostomus chinensis"
+      confidence: 0.008
+species:
+- scientific: "Triaenodon obesus"
+  role: "primary"
+  confidence: 0.4792
+  identified_by: "bioclip-2.5"

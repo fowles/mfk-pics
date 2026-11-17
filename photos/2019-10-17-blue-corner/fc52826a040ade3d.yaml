@@ -10,3 +10,33 @@ lon: 134.2213
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T18:19:53Z"
+    src_mtime: 1794931473.831625
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Naso vlamingii"
+      confidence: 0.4314
+    - scientific: "Melichthys niger"
+      confidence: 0.1711
+    - scientific: "Labrichthys unilineatus"
+      confidence: 0.0621
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T18:20:41Z"
+    src_mtime: 1794931473.831625
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Melichthys niger"
+      confidence: 0.8118
+    - scientific: "Naso vlamingii"
+      confidence: 0.1636
+    - scientific: "Naso hexacanthus"
+      confidence: 0.0125
+species:
+- scientific: "Melichthys niger"
+  role: "primary"
+  confidence: 0.4914
+  identified_by: "bioclip-2+bioclip-2.5"

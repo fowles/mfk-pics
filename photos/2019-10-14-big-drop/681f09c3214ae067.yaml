@@ -10,3 +10,33 @@ lon: 134.2497
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T18:19:53Z"
+    src_mtime: 1794931361.8584926
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Sargocentron spiniferum"
+      confidence: 0.655
+    - scientific: "Neoniphon opercularis"
+      confidence: 0.1891
+    - scientific: "Monotaxis heterodon"
+      confidence: 0.0848
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T18:20:41Z"
+    src_mtime: 1794931361.8584926
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Sargocentron spiniferum"
+      confidence: 0.9574
+    - scientific: "Monotaxis heterodon"
+      confidence: 0.032
+    - scientific: "Neoniphon opercularis"
+      confidence: 0.0046
+species:
+- scientific: "Sargocentron spiniferum"
+  role: "primary"
+  confidence: 0.8062
+  identified_by: "bioclip-2+bioclip-2.5"

@@ -10,3 +10,33 @@ lon: 134.2448
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T18:19:53Z"
+    src_mtime: 1794931513.9237103
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Gymnothorax nudivomer"
+      confidence: 0.1166
+    - scientific: "Chrysiptera springeri"
+      confidence: 0.0865
+    - scientific: "Centropyge bispinosa"
+      confidence: 0.0497
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T18:20:41Z"
+    src_mtime: 1794931513.9237103
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Tridacna crocea"
+      confidence: 0.687
+    - scientific: "Tridacna maxima"
+      confidence: 0.0279
+    - scientific: "Tridacna derasa"
+      confidence: 0.0094
+species:
+- scientific: "Tridacna crocea"
+  role: "primary"
+  confidence: 0.3435
+  identified_by: "bioclip-2.5"

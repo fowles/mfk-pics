@@ -10,3 +10,33 @@ lon: 134.2447
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T18:19:53Z"
+    src_mtime: 1794931537.3881166
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Siganus vulpinus"
+      confidence: 0.9045
+    - scientific: "Siganus unimaculatus"
+      confidence: 0.0341
+    - scientific: "Siganus puellus"
+      confidence: 0.0272
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T18:20:41Z"
+    src_mtime: 1794931537.3881166
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Siganus vulpinus"
+      confidence: 0.9989
+    - scientific: "Siganus unimaculatus"
+      confidence: 0.0006
+    - scientific: "Siganus puellus"
+      confidence: 0.0004
+species:
+- scientific: "Siganus vulpinus"
+  role: "primary"
+  confidence: 0.9517
+  identified_by: "bioclip-2+bioclip-2.5"

@@ -10,3 +10,34 @@ lon: 134.2447
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T18:19:53Z"
+    src_mtime: 1794931543.9583771
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Cromileptes altivelis"
+      confidence: 0.0007
+    - scientific: "Neoniphon sammara"
+      confidence: 0.0004
+    - scientific: "Chaetodon trifascialis"
+      confidence: 0.0004
+    absorbed_by:
+      scientific: "Acropora hyacinthus"
+      confidence: 0.2544
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T18:20:41Z"
+    src_mtime: 1794931543.9583771
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Dascyllus reticulatus"
+      confidence: 0.0
+    - scientific: "Tridacna squamosa"
+      confidence: 0.0
+    - scientific: "Plectorhinchus chaetodonoides"
+      confidence: 0.0
+    absorbed_by:
+      scientific: "Acropora cytherea"
+      confidence: 0.5296

@@ -10,3 +10,33 @@ lon: 134.2596
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T18:19:53Z"
+    src_mtime: 1794931388.8826015
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Amblycirrhitus bimacula"
+      confidence: 0.3189
+    - scientific: "Cirrhilabrus exquisitus"
+      confidence: 0.0938
+    - scientific: "Cirrhitichthys falco"
+      confidence: 0.076
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T18:20:41Z"
+    src_mtime: 1794931388.8826015
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Trimma cana"
+      confidence: 0.4673
+    - scientific: "Cirrhitichthys falco"
+      confidence: 0.2206
+    - scientific: "Ecsenius bathi"
+      confidence: 0.1634
+species:
+- scientific: "Trimma cana"
+  role: "primary"
+  confidence: 0.2336
+  identified_by: "bioclip-2.5"

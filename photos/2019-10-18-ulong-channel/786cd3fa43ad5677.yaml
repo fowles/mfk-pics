@@ -10,3 +10,33 @@ lon: 134.2447
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T18:19:53Z"
+    src_mtime: 1794931542.0601637
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Centropyge bispinosa"
+      confidence: 0.878
+    - scientific: "Centropyge bicolor"
+      confidence: 0.0201
+    - scientific: "Pygoplites diacanthus"
+      confidence: 0.0194
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T18:20:41Z"
+    src_mtime: 1794931542.0601637
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Centropyge bispinosa"
+      confidence: 0.9987
+    - scientific: "Pomacentrus vaiuli"
+      confidence: 0.0008
+    - scientific: "Chrysiptera traceyi"
+      confidence: 0.0001
+species:
+- scientific: "Centropyge bispinosa"
+  role: "primary"
+  confidence: 0.9384
+  identified_by: "bioclip-2+bioclip-2.5"

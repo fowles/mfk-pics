@@ -10,3 +10,33 @@ lon: 134.2213
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T18:19:53Z"
+    src_mtime: 1794931467.9741435
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Gymnothorax fimbriatus"
+      confidence: 0.034
+    - scientific: "Arothron nigropunctatus"
+      confidence: 0.027
+    - scientific: "Myrichthys maculosus"
+      confidence: 0.0254
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T18:20:41Z"
+    src_mtime: 1794931467.9741435
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Epinephelus maculatus"
+      confidence: 0.2432
+    - scientific: "Epinephelus polyphekadion"
+      confidence: 0.096
+    - scientific: "Cheilinus fasciatus"
+      confidence: 0.0713
+species:
+- scientific: "Epinephelus maculatus"
+  role: "primary"
+  confidence: 0.1216
+  identified_by: "bioclip-2.5"

@@ -10,3 +10,34 @@ lon: 134.2447
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T18:19:53Z"
+    src_mtime: 1794931538.1232083
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Tridacna squamosa"
+      confidence: 0.0111
+    - scientific: "Cephalopholis cyanostigma"
+      confidence: 0.0047
+    - scientific: "Tridacna gigas"
+      confidence: 0.0042
+    absorbed_by:
+      scientific: "Isopora palifera"
+      confidence: 0.1054
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T18:20:41Z"
+    src_mtime: 1794931538.1232083
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Tridacna squamosa"
+      confidence: 0.16
+    - scientific: "Tridacna gigas"
+      confidence: 0.0856
+    - scientific: "Tridacna derasa"
+      confidence: 0.0189
+    absorbed_by:
+      scientific: "Porites rus"
+      confidence: 0.3205

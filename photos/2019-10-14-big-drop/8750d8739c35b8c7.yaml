@@ -10,3 +10,33 @@ lon: 134.2497
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T18:19:53Z"
+    src_mtime: 1794931360.901285
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Aluterus scriptus"
+      confidence: 0.7564
+    - scientific: "Anyperodon leucogrammicus"
+      confidence: 0.1208
+    - scientific: "Oxymonacanthus longirostris"
+      confidence: 0.0575
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T18:20:41Z"
+    src_mtime: 1794931360.901285
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Aluterus scriptus"
+      confidence: 0.8358
+    - scientific: "Anyperodon leucogrammicus"
+      confidence: 0.0702
+    - scientific: "Oxymonacanthus longirostris"
+      confidence: 0.0623
+species:
+- scientific: "Aluterus scriptus"
+  role: "primary"
+  confidence: 0.7961
+  identified_by: "bioclip-2+bioclip-2.5"

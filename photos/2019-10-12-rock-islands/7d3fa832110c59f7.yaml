@@ -10,3 +10,33 @@ lon: 134.37
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T18:19:53Z"
+    src_mtime: 1794931334.6517315
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Mobula alfredi"
+      confidence: 0.1428
+    - scientific: "Aetobatus ocellatus"
+      confidence: 0.1229
+    - scientific: "Physeter macrocephalus"
+      confidence: 0.0514
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T18:20:41Z"
+    src_mtime: 1794931334.6517315
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Mobula alfredi"
+      confidence: 0.2969
+    - scientific: "Chromis vanderbilti"
+      confidence: 0.2537
+    - scientific: "Sepioteuthis lessoniana"
+      confidence: 0.1827
+species:
+- scientific: "Mobula alfredi"
+  role: "primary"
+  confidence: 0.2198
+  identified_by: "bioclip-2+bioclip-2.5"

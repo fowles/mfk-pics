@@ -10,3 +10,33 @@ lon: 134.2256
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T18:19:53Z"
+    src_mtime: 1794931457.8559806
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Pseudanthias pascalus"
+      confidence: 0.5741
+    - scientific: "Lepidozygus tapeinosoma"
+      confidence: 0.1042
+    - scientific: "Chrysiptera cyanea"
+      confidence: 0.0825
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T18:20:41Z"
+    src_mtime: 1794931457.8559806
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Caesio lunaris"
+      confidence: 0.3633
+    - scientific: "Pseudanthias pascalus"
+      confidence: 0.1805
+    - scientific: "Pomacentrus pavo"
+      confidence: 0.1503
+species:
+- scientific: "Pseudanthias pascalus"
+  role: "primary"
+  confidence: 0.3773
+  identified_by: "bioclip-2+bioclip-2.5"

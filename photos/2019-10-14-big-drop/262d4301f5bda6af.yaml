@@ -10,3 +10,34 @@ lon: 134.2497
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T18:19:53Z"
+    src_mtime: 1794931366.554112
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Carangoides bajad"
+      confidence: 0.0048
+    - scientific: "Anneissia bennetti"
+      confidence: 0.0015
+    - scientific: "Pterocaesio tile"
+      confidence: 0.0012
+    absorbed_by:
+      scientific: "Melithaea ochracea"
+      confidence: 0.6237
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T18:20:41Z"
+    src_mtime: 1794931366.554112
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Anneissia bennetti"
+      confidence: 0.0033
+    - scientific: "Amblyglyphidodon aureus"
+      confidence: 0.0024
+    - scientific: "Pygoplites diacanthus"
+      confidence: 0.0006
+    absorbed_by:
+      scientific: "Melithaea ochracea"
+      confidence: 0.7379

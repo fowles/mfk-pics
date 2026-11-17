@@ -10,3 +10,33 @@ lon: 134.2857
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T18:19:53Z"
+    src_mtime: 1794931371.727887
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Holothuria fuscopunctata"
+      confidence: 0.2245
+    - scientific: "Epinephelus polyphekadion"
+      confidence: 0.06
+    - scientific: "Bohadschia vitiensis"
+      confidence: 0.0572
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T18:20:41Z"
+    src_mtime: 1794931371.727887
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Holothuria fuscopunctata"
+      confidence: 0.7077
+    - scientific: "Valenciennea strigata"
+      confidence: 0.0492
+    - scientific: "Rhinecanthus verrucosus"
+      confidence: 0.0199
+species:
+- scientific: "Holothuria fuscopunctata"
+  role: "primary"
+  confidence: 0.4661
+  identified_by: "bioclip-2+bioclip-2.5"

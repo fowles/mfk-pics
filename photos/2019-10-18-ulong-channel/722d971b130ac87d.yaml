@@ -11,3 +11,34 @@ gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
 video_start_anchored: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T17:53:46Z"
+    src_mtime: 1794931550.5050569
+    vocab: "fcc8562538b1"
+    top:
+    - scientific: "Triaenodon obesus"
+      confidence: 0.024
+    - scientific: "Carcharhinus albimarginatus"
+      confidence: 0.0236
+    - scientific: "Cephea cephea"
+      confidence: 0.0236
+    absorbed_by:
+      scientific: "Antipathes grandis"
+      confidence: 0.0302
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T17:53:55Z"
+    src_mtime: 1794931550.5050569
+    vocab: "fcc8562538b1"
+    top:
+    - scientific: "Mobula alfredi"
+      confidence: 0.2649
+    - scientific: "Cephea cephea"
+      confidence: 0.1631
+    - scientific: "Cromileptes altivelis"
+      confidence: 0.0132
+    absorbed_by:
+      scientific: "Junceella fragilis"
+      confidence: 0.3831

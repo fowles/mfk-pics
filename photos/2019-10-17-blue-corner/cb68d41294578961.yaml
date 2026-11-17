@@ -10,3 +10,33 @@ lon: 134.2213
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T18:19:53Z"
+    src_mtime: 1794931468.0637941
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Chaetodon kleinii"
+      confidence: 0.9555
+    - scientific: "Heniochus monoceros"
+      confidence: 0.016
+    - scientific: "Chaetodon semeion"
+      confidence: 0.0039
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T18:20:41Z"
+    src_mtime: 1794931468.0637941
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Chaetodon kleinii"
+      confidence: 1.0
+    - scientific: "Heniochus monoceros"
+      confidence: 0.0
+    - scientific: "Siganus virgatus"
+      confidence: 0.0
+species:
+- scientific: "Chaetodon kleinii"
+  role: "primary"
+  confidence: 0.9778
+  identified_by: "bioclip-2+bioclip-2.5"

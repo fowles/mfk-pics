@@ -10,3 +10,33 @@ lon: 134.2395
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T18:19:53Z"
+    src_mtime: 1794931494.0591407
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Forcipiger flavissimus"
+      confidence: 0.2419
+    - scientific: "Hemitaurichthys polylepis"
+      confidence: 0.1452
+    - scientific: "Dascyllus reticulatus"
+      confidence: 0.1119
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T18:20:41Z"
+    src_mtime: 1794931494.0591407
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Hemitaurichthys polylepis"
+      confidence: 0.8572
+    - scientific: "Chaetodon unimaculatus"
+      confidence: 0.0323
+    - scientific: "Chromis iomelas"
+      confidence: 0.0186
+species:
+- scientific: "Hemitaurichthys polylepis"
+  role: "primary"
+  confidence: 0.5012
+  identified_by: "bioclip-2+bioclip-2.5"

@@ -10,3 +10,33 @@ lon: 134.2213
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T18:19:53Z"
+    src_mtime: 1794931463.442735
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Lepidozygus tapeinosoma"
+      confidence: 0.1179
+    - scientific: "Chrysiptera glauca"
+      confidence: 0.0779
+    - scientific: "Parupeneus cyclostomus"
+      confidence: 0.0669
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T18:20:41Z"
+    src_mtime: 1794931463.442735
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Lutjanus bohar"
+      confidence: 0.349
+    - scientific: "Macolor macularis"
+      confidence: 0.3311
+    - scientific: "Monotaxis grandoculis"
+      confidence: 0.1986
+species:
+- scientific: "Lutjanus bohar"
+  role: "primary"
+  confidence: 0.1745
+  identified_by: "bioclip-2.5"

@@ -10,3 +10,33 @@ lon: 134.2256
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T18:19:53Z"
+    src_mtime: 1794931451.0235252
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Eretmochelys imbricata"
+      confidence: 0.2444
+    - scientific: "Gymnosarda unicolor"
+      confidence: 0.1596
+    - scientific: "Aulostomus chinensis"
+      confidence: 0.0669
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T18:20:41Z"
+    src_mtime: 1794931451.0235252
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Triaenodon obesus"
+      confidence: 0.9659
+    - scientific: "Carcharhinus amblyrhynchos"
+      confidence: 0.0129
+    - scientific: "Carcharhinus melanopterus"
+      confidence: 0.0083
+species:
+- scientific: "Triaenodon obesus"
+  role: "primary"
+  confidence: 0.4829
+  identified_by: "bioclip-2.5"

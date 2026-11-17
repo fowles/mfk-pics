@@ -10,3 +10,33 @@ lon: 134.2448
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T18:19:53Z"
+    src_mtime: 1794931521.5219092
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Eretmochelys imbricata"
+      confidence: 0.1318
+    - scientific: "Enchelycore pardalis"
+      confidence: 0.0758
+    - scientific: "Stichopus horrens"
+      confidence: 0.0591
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T18:20:41Z"
+    src_mtime: 1794931521.5219092
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Bohadschia argus"
+      confidence: 0.3707
+    - scientific: "Pearsonothuria graeffei"
+      confidence: 0.1766
+    - scientific: "Enchelycore pardalis"
+      confidence: 0.1222
+species:
+- scientific: "Bohadschia argus"
+  role: "primary"
+  confidence: 0.1853
+  identified_by: "bioclip-2.5"

@@ -10,3 +10,33 @@ lon: 134.2497
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T18:19:53Z"
+    src_mtime: 1794931368.6445339
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Lutjanus gibbus"
+      confidence: 0.628
+    - scientific: "Balistapus undulatus"
+      confidence: 0.059
+    - scientific: "Acanthurus nigrofuscus"
+      confidence: 0.0382
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T18:20:41Z"
+    src_mtime: 1794931368.6445339
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Acanthurus xanthopterus"
+      confidence: 0.3276
+    - scientific: "Acanthurus nigrofuscus"
+      confidence: 0.285
+    - scientific: "Ctenochaetus striatus"
+      confidence: 0.1585
+species:
+- scientific: "Lutjanus gibbus"
+  role: "primary"
+  confidence: 0.314
+  identified_by: "bioclip-2"

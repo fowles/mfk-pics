@@ -10,3 +10,32 @@ lon: 134.2596
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T18:19:53Z"
+    src_mtime: 1794931395.3261344
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Goniobranchus leopardus"
+      confidence: 0.3466
+    - scientific: "Goniobranchus geometricus"
+      confidence: 0.0498
+    - scientific: "Epinephelus fasciatus"
+      confidence: 0.0486
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T18:20:41Z"
+    src_mtime: 1794931395.3261344
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Plectorhinchus chaetodonoides"
+      confidence: 0.189
+    - scientific: "Dendrochirus biocellatus"
+      confidence: 0.0163
+    - scientific: "Tridacna squamosa"
+      confidence: 0.0103
+    absorbed_by:
+      scientific: "Goniastrea pectinata"
+      confidence: 0.6681
+species: []

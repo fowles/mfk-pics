@@ -10,3 +10,33 @@ lon: 134.2256
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T18:19:53Z"
+    src_mtime: 1794931452.6271741
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Scarus forsteni"
+      confidence: 0.0927
+    - scientific: "Aluterus scriptus"
+      confidence: 0.0874
+    - scientific: "Gnathodentex aureolineatus"
+      confidence: 0.0417
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T18:20:41Z"
+    src_mtime: 1794931452.6271741
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Oxycheilinus digramma"
+      confidence: 0.3808
+    - scientific: "Oxycheilinus unifasciatus"
+      confidence: 0.1102
+    - scientific: "Pseudocheilinus evanidus"
+      confidence: 0.1077
+species:
+- scientific: "Oxycheilinus digramma"
+  role: "primary"
+  confidence: 0.1904
+  identified_by: "bioclip-2.5"

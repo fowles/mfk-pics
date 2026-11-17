@@ -10,3 +10,34 @@ lon: 134.2448
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T18:19:53Z"
+    src_mtime: 1794931519.2817578
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Acanthochromis polyacanthus"
+      confidence: 0.0151
+    - scientific: "Labroides bicolor"
+      confidence: 0.0127
+    - scientific: "Hemitaurichthys polylepis"
+      confidence: 0.012
+    absorbed_by:
+      scientific: "Acropora hyacinthus"
+      confidence: 0.2209
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T18:20:41Z"
+    src_mtime: 1794931519.2817578
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Triaenodon obesus"
+      confidence: 0.1385
+    - scientific: "Plectorhinchus vittatus"
+      confidence: 0.0682
+    - scientific: "Plagiotremus laudandus"
+      confidence: 0.0069
+    absorbed_by:
+      scientific: "Acropora hyacinthus"
+      confidence: 0.6434

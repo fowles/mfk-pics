@@ -10,3 +10,34 @@ lon: 134.2447
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T18:19:53Z"
+    src_mtime: 1794931546.7048619
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Gymnosarda unicolor"
+      confidence: 0.0573
+    - scientific: "Sphyraena barracuda"
+      confidence: 0.0449
+    - scientific: "Chelonia mydas"
+      confidence: 0.038
+    absorbed_by:
+      scientific: "Porites evermanni"
+      confidence: 0.085
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T18:20:41Z"
+    src_mtime: 1794931546.7048619
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Mobula alfredi"
+      confidence: 0.0475
+    - scientific: "Stichopus chloronotus"
+      confidence: 0.0435
+    - scientific: "Carcharhinus melanopterus"
+      confidence: 0.0434
+    absorbed_by:
+      scientific: "Sonneratia alba"
+      confidence: 0.4718

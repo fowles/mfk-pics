@@ -10,3 +10,34 @@ lon: 134.37
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-17T18:19:53Z"
+    src_mtime: 1794931345.911219
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Pomacentrus moluccensis"
+      confidence: 0.0083
+    - scientific: "Chromis viridis"
+      confidence: 0.0036
+    - scientific: "Epinephelus merra"
+      confidence: 0.0032
+    absorbed_by:
+      scientific: "Pavona clavus"
+      confidence: 0.0998
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-17T18:20:41Z"
+    src_mtime: 1794931345.911219
+    vocab: "23e0d65f5ba2"
+    top:
+    - scientific: "Lutjanus fulvus"
+      confidence: 0.189
+    - scientific: "Lutjanus decussatus"
+      confidence: 0.0511
+    - scientific: "Stethojulis bandanensis"
+      confidence: 0.0374
+    absorbed_by:
+      scientific: "Pocillopora damicornis"
+      confidence: 0.3203
