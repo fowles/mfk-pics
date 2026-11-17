@@ -41,5 +41,9 @@ species_suggestions:
 species:
 - scientific: "Myrichthys breviceps"
   role: "primary"
-  confidence: 0.2082
-  identified_by: "bioclip-2+bioclip-2.5"
+  identified_by: "human"
+  confirmed_from: "bioclip-2+bioclip-2.5"
+rotation_applied: 90
+species_reviewed:
+- "primary"
+- "secondary"

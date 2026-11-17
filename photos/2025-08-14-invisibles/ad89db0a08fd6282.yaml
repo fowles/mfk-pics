@@ -39,7 +39,14 @@ species_suggestions:
     - scientific: "Mycteroperca tigris"
       confidence: 0.0408
 species:
-- scientific: "Callyspongia plicifera"
+- scientific: "Cephalopholis cruentata"
   role: "primary"
-  confidence: 0.3139
-  identified_by: "bioclip-2+bioclip-2.5"
+  identified_by: "human"
+  confirmed_from: "bioclip-2.5"
+- scientific: "Callyspongia plicifera"
+  role: "secondary"
+  identified_by: "human"
+  confirmed_from: "bioclip-2+bioclip-2.5"
+species_reviewed:
+- "primary"
+- "secondary"

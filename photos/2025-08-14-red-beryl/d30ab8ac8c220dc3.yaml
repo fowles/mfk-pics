@@ -41,5 +41,15 @@ species_suggestions:
 species:
 - scientific: "Gymnothorax funebris"
   role: "primary"
-  confidence: 0.983
-  identified_by: "bioclip-2+bioclip-2.5"
+  identified_by: "human"
+  confirmed_from: "bioclip-2+bioclip-2.5"
+- scientific: "Homo sapiens"
+  role: "secondary"
+  identified_by: "human"
+  person:
+  - "Delia Kulukundis"
+tags:
+- "metapicture"
+species_reviewed:
+- "primary"
+- "secondary"

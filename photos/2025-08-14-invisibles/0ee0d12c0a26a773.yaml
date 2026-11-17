@@ -10,7 +10,7 @@ lon: -68.28015169999999
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
-rotation_applied: 90
+rotation_applied: 180
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
@@ -39,5 +39,8 @@ species_suggestions:
 species:
 - scientific: "Synodus intermedius"
   role: "primary"
-  confidence: 0.691
-  identified_by: "bioclip-2+bioclip-2.5"
+  identified_by: "human"
+  confirmed_from: "bioclip-2+bioclip-2.5"
+species_reviewed:
+- "primary"
+- "secondary"

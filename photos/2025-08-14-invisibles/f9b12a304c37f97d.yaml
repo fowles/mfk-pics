@@ -37,7 +37,10 @@ species_suggestions:
     - scientific: "Acanthostracion polygonius"
       confidence: 0.0082
 species:
-- scientific: "Lactophrys triqueter"
+- scientific: "Acanthostracion polygonius"
   role: "primary"
-  confidence: 0.9221
-  identified_by: "bioclip-2+bioclip-2.5"
+  identified_by: "human"
+  confirmed_from: "bioclip-2+bioclip-2.5"
+species_reviewed:
+- "primary"
+- "secondary"

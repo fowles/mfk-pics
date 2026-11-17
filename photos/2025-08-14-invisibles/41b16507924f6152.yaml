@@ -36,7 +36,14 @@ species_suggestions:
     - scientific: "Pareques acuminatus"
       confidence: 0.0769
 species:
-- scientific: "Cantherhines pullus"
+- scientific: "Equetus punctatus"
   role: "primary"
-  confidence: 0.6877
-  identified_by: "bioclip-2+bioclip-2.5"
+  identified_by: "human"
+  confirmed_from: "bioclip-2"
+- scientific: "Myripristis jacobus"
+  role: "secondary"
+  identified_by: "human"
+  confirmed_from: "bioclip-2"
+species_reviewed:
+- "primary"
+- "secondary"

@@ -41,5 +41,13 @@ species_suggestions:
 species:
 - scientific: "Cephalopholis cruentata"
   role: "primary"
-  confidence: 0.9501
-  identified_by: "bioclip-2+bioclip-2.5"
+  identified_by: "human"
+  confirmed_from: "bioclip-2+bioclip-2.5"
+- scientific: "Periclimenes yucatanicus"
+  role: "secondary"
+  identified_by: "human"
+tags:
+- "cleaning station"
+species_reviewed:
+- "primary"
+- "secondary"

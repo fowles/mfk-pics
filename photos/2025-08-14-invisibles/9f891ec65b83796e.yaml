@@ -36,7 +36,13 @@ species_suggestions:
     - scientific: "Haemulon carbonarium"
       confidence: 0.0008
 species:
-- scientific: "Scomberomorus regalis"
+- scientific: "Aluterus scriptus"
   role: "primary"
-  confidence: 0.4919
-  identified_by: "bioclip-2.5"
+  identified_by: "human"
+- scientific: "Aulostomus maculatus"
+  role: "secondary"
+  identified_by: "human"
+  confirmed_from: "bioclip-2+bioclip-2.5"
+species_reviewed:
+- "primary"
+- "secondary"

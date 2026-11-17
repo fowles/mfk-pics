@@ -36,7 +36,16 @@ species_suggestions:
     - scientific: "Serranus tigrinus"
       confidence: 0.0638
 species:
-- scientific: "Gymnothorax moringa"
+- scientific: "Myrichthys breviceps"
   role: "primary"
-  confidence: 0.378
-  identified_by: "bioclip-2.5"
+  identified_by: "human"
+  confirmed_from: "bioclip-2+bioclip-2.5"
+- scientific: "Halichoeres garnoti"
+  role: "secondary"
+  identified_by: "human"
+- scientific: "Acanthurus tractus"
+  role: "secondary"
+  identified_by: "human"
+species_reviewed:
+- "primary"
+- "secondary"

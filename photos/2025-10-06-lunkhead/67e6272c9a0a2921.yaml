@@ -38,5 +38,12 @@ species_suggestions:
 species:
 - scientific: "Pseudupeneus maculatus"
   role: "primary"
-  confidence: 0.9271
-  identified_by: "bioclip-2+bioclip-2.5"
+  identified_by: "human"
+  confirmed_from: "bioclip-2+bioclip-2.5"
+- scientific: "Hypoplectrus puella"
+  role: "secondary"
+  identified_by: "human"
+  confirmed_from: "bioclip-2+bioclip-2.5"
+species_reviewed:
+- "primary"
+- "secondary"

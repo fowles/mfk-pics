@@ -36,7 +36,25 @@ species_suggestions:
     - scientific: "Clepticus parrae"
       confidence: 0.0033
 species:
-- scientific: "Scarus coelestinus"
+- scientific: "Anisotremus surinamensis"
+  role: "secondary"
+  identified_by: "human"
+- scientific: "Acanthurus coeruleus"
+  role: "secondary"
+  identified_by: "human"
+- scientific: "Acanthurus chirurgus"
+  role: "secondary"
+  identified_by: "human"
+- scientific: "Abudefduf saxatilis"
+  role: "secondary"
+  identified_by: "human"
+- scientific: "Aluterus scriptus"
   role: "primary"
-  confidence: 0.4002
-  identified_by: "bioclip-2.5"
+  identified_by: "human"
+  confirmed_from: "bioclip-2"
+- scientific: "Chromis multilineata"
+  role: "secondary"
+  identified_by: "human"
+species_reviewed:
+- "primary"
+- "secondary"

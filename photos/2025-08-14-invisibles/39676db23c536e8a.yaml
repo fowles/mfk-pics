@@ -36,7 +36,22 @@ species_suggestions:
     - scientific: "Acanthurus tractus"
       confidence: 0.0016
 species:
-- scientific: "Scarus coelestinus"
+- scientific: "Aluterus scriptus"
   role: "primary"
-  confidence: 0.8463
-  identified_by: "bioclip-2+bioclip-2.5"
+  identified_by: "human"
+- scientific: "Acanthurus coeruleus"
+  role: "secondary"
+  identified_by: "human"
+  confirmed_from: "bioclip-2"
+- scientific: "Acanthurus chirurgus"
+  role: "secondary"
+  identified_by: "human"
+- scientific: "Aulostomus maculatus"
+  role: "secondary"
+  identified_by: "human"
+- scientific: "Chromis multilineata"
+  role: "secondary"
+  identified_by: "human"
+species_reviewed:
+- "primary"
+- "secondary"

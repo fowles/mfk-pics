@@ -36,7 +36,14 @@ species_suggestions:
     - scientific: "Octopus briareus"
       confidence: 0.0621
 species:
-- scientific: "Echeneis naucrates"
+- scientific: "Caranx ruber"
   role: "primary"
-  confidence: 0.4786
-  identified_by: "bioclip-2+bioclip-2.5"
+  identified_by: "human"
+- scientific: "Homo sapiens"
+  role: "secondary"
+  identified_by: "human"
+  person:
+  - "Matthew Kulukundis"
+species_reviewed:
+- "primary"
+- "secondary"

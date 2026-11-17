@@ -36,7 +36,22 @@ species_suggestions:
     - scientific: "Equetus punctatus"
       confidence: 0.0255
 species:
-- scientific: "Scarus coelestinus"
+- scientific: "Aluterus scriptus"
   role: "primary"
-  confidence: 0.4055
-  identified_by: "bioclip-2.5"
+  identified_by: "human"
+- scientific: "Acanthurus coeruleus"
+  role: "secondary"
+  identified_by: "human"
+- scientific: "Acanthurus chirurgus"
+  role: "secondary"
+  identified_by: "human"
+- scientific: "Aulostomus maculatus"
+  role: "secondary"
+  identified_by: "human"
+  confirmed_from: "bioclip-2"
+- scientific: "Chromis multilineata"
+  role: "secondary"
+  identified_by: "human"
+species_reviewed:
+- "primary"
+- "secondary"

@@ -39,5 +39,12 @@ species_suggestions:
 species:
 - scientific: "Myripristis jacobus"
   role: "primary"
-  confidence: 0.3362
-  identified_by: "bioclip-2+bioclip-2.5"
+  identified_by: "human"
+  confirmed_from: "bioclip-2+bioclip-2.5"
+- scientific: "Equetus punctatus"
+  role: "secondary"
+  identified_by: "human"
+  confirmed_from: "bioclip-2"
+species_reviewed:
+- "primary"
+- "secondary"
