@@ -13,29 +13,30 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-11-16T16:55:38Z"
+    created: "2026-11-18T17:16:21Z"
     src_mtime: 1786158972.963943
-    vocab: "d2095ad2da51"
+    vocab: "3af0e25c4875"
     top:
     - scientific: "Aplysina archeri"
       confidence: 0.2244
+    - scientific: "Dendrogyra cylindrus"
+      confidence: 0.2098
     - scientific: "Cephalopholis cruentata"
       confidence: 0.0108
-    - scientific: "Rypticus saponaceus"
-      confidence: 0.0043
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-11-16T16:59:00Z"
+    created: "2026-11-18T17:19:50Z"
     src_mtime: 1786158972.963943
-    vocab: "d2095ad2da51"
+    vocab: "3af0e25c4875"
     top:
+    - scientific: "Dendrogyra cylindrus"
+      confidence: 0.8959
     - scientific: "Aplysina archeri"
       confidence: 0.0147
     - scientific: "Spirobranchus giganteus"
       confidence: 0.0003
-    - scientific: "Callyspongia plicifera"
-      confidence: 0.0001
-    absorbed_by:
-      scientific: "Dendrogyra cylindrus"
-      confidence: 0.8959
-species: []
+species:
+- scientific: "Dendrogyra cylindrus"
+  role: "primary"
+  confidence: 0.5529
+  identified_by: "bioclip-2+bioclip-2.5"

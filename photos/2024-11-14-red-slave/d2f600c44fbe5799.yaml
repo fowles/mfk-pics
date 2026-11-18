@@ -13,9 +13,9 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-11-16T16:55:38Z"
+    created: "2026-11-18T17:16:21Z"
     src_mtime: 1786156975.9894588
-    vocab: "d2095ad2da51"
+    vocab: "3af0e25c4875"
     top:
     - scientific: "Canthidermis sufflamen"
       confidence: 0.993
@@ -25,9 +25,9 @@ species_suggestions:
       confidence: 0.0008
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-11-16T16:59:00Z"
+    created: "2026-11-18T17:19:50Z"
     src_mtime: 1786156975.9894588
-    vocab: "d2095ad2da51"
+    vocab: "3af0e25c4875"
     top:
     - scientific: "Canthidermis sufflamen"
       confidence: 1.0

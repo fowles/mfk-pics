@@ -13,30 +13,30 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-11-16T16:55:38Z"
+    created: "2026-11-18T17:16:21Z"
     src_mtime: 1786159051.4661226
-    vocab: "d2095ad2da51"
+    vocab: "3af0e25c4875"
     top:
     - scientific: "Stegastes partitus"
       confidence: 0.1048
     - scientific: "Erythropodium caribaeorum"
       confidence: 0.0074
-    - scientific: "Holacanthus tricolor"
-      confidence: 0.0032
+    - scientific: "Dendrogyra cylindrus"
+      confidence: 0.0039
     absorbed_by:
       scientific: "Orbicella annularis"
       confidence: 0.5696
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-11-16T16:59:00Z"
+    created: "2026-11-18T17:19:50Z"
     src_mtime: 1786159051.4661226
-    vocab: "d2095ad2da51"
+    vocab: "3af0e25c4875"
     top:
     - scientific: "Stegastes partitus"
       confidence: 0.0001
     - scientific: "Erythropodium caribaeorum"
       confidence: 0.0001
-    - scientific: "Coryphopterus lipernes"
+    - scientific: "Dendrogyra cylindrus"
       confidence: 0.0
     absorbed_by:
       scientific: "Orbicella annularis"
