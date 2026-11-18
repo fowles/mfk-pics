@@ -147,6 +147,11 @@ dive_sites:
   "Playa Lagun":
     lat: 12.3182733
     lon: -69.1504569
+location_names:
+  "Los Cabos, Baja California Sur, Mexico": "Los Cabos"
+  "Cabo Pulmo, Baja California Sur, Mexico": "Cabo Pulmo"
+  "Key West, FL, USA": "Key West"
+  "West Palm Beach, FL, USA": "West Palm Beach"
 deploy:
   account_id: 605649affbab92b2f8367d609dc4f3b6
   bucket: mfk-pics-images
