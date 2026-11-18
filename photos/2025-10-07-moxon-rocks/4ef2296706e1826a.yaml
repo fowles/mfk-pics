@@ -35,7 +35,10 @@ species_suggestions:
     - scientific: "Haemulon plumierii"
       confidence: 0.1832
 species:
-- scientific: "Haemulon flavolineatum"
+- scientific: "Haemulon plumierii"
   role: "primary"
-  confidence: 0.2319
-  identified_by: "bioclip-2.5"
+  identified_by: "human"
+  confirmed_from: "bioclip-2.5"
+species_reviewed:
+- "primary"
+- "secondary"

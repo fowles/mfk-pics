@@ -1,0 +1,46 @@
+date: "2026-10-28 05:41:02"
+location: "Curacao"
+location_source: "dive_site"
+dive_site: "House Reef 35"
+credit: "Delia Kulukundis"
+import_album: "Curacao House Reef 35 Dawn 2026-10-28"
+import_original_name: "IMG_6637.JPG"
+lat: 12.1926667
+lon: -69.0735556
+gps_source: "dive_site"
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-18T15:57:45Z"
+    src_mtime: 1795017280.7195585
+    vocab: "d2095ad2da51"
+    top:
+    - scientific: "Apogon maculatus"
+      confidence: 0.093
+    - scientific: "Stenopus hispidus"
+      confidence: 0.0619
+    - scientific: "Malacoctenus triangulatus"
+      confidence: 0.0418
+    absorbed_by:
+      scientific: "Agelas clathrodes"
+      confidence: 0.2006
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-18T15:57:49Z"
+    src_mtime: 1795017280.7195585
+    vocab: "d2095ad2da51"
+    top:
+    - scientific: "Lysmata grabhami"
+      confidence: 0.461
+    - scientific: "Malacoctenus triangulatus"
+      confidence: 0.1333
+    - scientific: "Percnon gibbesi"
+      confidence: 0.0706
+species:
+- scientific: "Stenopus hispidus"
+  role: "primary"
+  identified_by: "human"
+  confirmed_from: "bioclip-2"
+species_reviewed:
+- "primary"
+- "secondary"

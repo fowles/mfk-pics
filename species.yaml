@@ -245,7 +245,7 @@
 - {scientific: "Colpophyllia natans", common: "Boulder Brain Coral", regions: ["Caribbean"], distractor: true, taxonomy: "Animalia Cnidaria Anthozoa Scleractinia Faviidae"}
 - {scientific: "Diploria labyrinthiformis", common: "Grooved Brain Coral", regions: ["Caribbean"], distractor: true, taxonomy: "Animalia Cnidaria Anthozoa Scleractinia Faviidae"}
 - {scientific: "Pseudodiploria strigosa", common: "Symmetrical Brain Coral", regions: ["Caribbean"], distractor: true, taxonomy: "Animalia Cnidaria Anthozoa Scleractinia Faviidae"}
-- {scientific: "Dendrogyra cylindrus", common: "Pillar Coral", regions: ["Caribbean"], distractor: true, taxonomy: "Animalia Cnidaria Anthozoa Scleractinia Meandrinidae"}
+- {scientific: "Dendrogyra cylindrus", common: "Pillar Coral", regions: ["Caribbean"], taxonomy: "Animalia Cnidaria Anthozoa Scleractinia Meandrinidae"}
 - {scientific: "Siderastrea siderea", common: "Massive Starlet Coral", regions: ["Caribbean"], distractor: true, taxonomy: "Animalia Cnidaria Anthozoa Scleractinia Rhizangiidae"}
 - {scientific: "Agaricia agaricites", common: "Lettuce Coral", regions: ["Caribbean"], distractor: true, taxonomy: "Animalia Cnidaria Anthozoa Scleractinia Agariciidae"}
 - {scientific: "Porites astreoides", common: "Mustard Hill Coral", regions: ["Caribbean"], distractor: true, taxonomy: "Animalia Cnidaria Anthozoa Scleractinia Poritidae"}

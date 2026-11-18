@@ -1,0 +1,42 @@
+date: "2026-10-28 05:39:36"
+location: "Curacao"
+location_source: "dive_site"
+dive_site: "House Reef 35"
+credit: "Delia Kulukundis"
+import_album: "Curacao House Reef 35 Dawn 2026-10-28"
+import_original_name: "IMG_6635.JPG"
+lat: 12.1926667
+lon: -69.0735556
+gps_source: "dive_site"
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-18T15:57:45Z"
+    src_mtime: 1795017280.3480282
+    vocab: "d2095ad2da51"
+    top:
+    - scientific: "Elysia crispata"
+      confidence: 0.0145
+    - scientific: "Acropora palmata"
+      confidence: 0.0053
+    - scientific: "Callyspongia plicifera"
+      confidence: 0.0044
+    absorbed_by:
+      scientific: "Eusmilia fastigiata"
+      confidence: 0.7519
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-18T15:57:49Z"
+    src_mtime: 1795017280.3480282
+    vocab: "d2095ad2da51"
+    top:
+    - scientific: "Cephalopholis cruentata"
+      confidence: 0.0044
+    - scientific: "Callyspongia plicifera"
+      confidence: 0.0012
+    - scientific: "Rypticus saponaceus"
+      confidence: 0.0009
+    absorbed_by:
+      scientific: "Agaricia agaricites"
+      confidence: 0.9714
+culled: true

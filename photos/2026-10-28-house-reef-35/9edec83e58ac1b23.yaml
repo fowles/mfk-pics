@@ -1,0 +1,47 @@
+date: "2026-10-28 05:56:57"
+location: "Curacao"
+location_source: "dive_site"
+dive_site: "House Reef 35"
+credit: "Delia Kulukundis"
+import_album: "Curacao House Reef 35 Dawn 2026-10-28"
+import_original_name: "MVI_6667.MP4"
+lat: 12.1926667
+lon: -69.0735556
+gps_source: "dive_site"
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-18T15:57:45Z"
+    src_mtime: 1795017293.239358
+    vocab: "5e42ca118682"
+    top:
+    - scientific: "Ophiothrix suensonii"
+      confidence: 0.4744
+    - scientific: "Enchelycore carychroa"
+      confidence: 0.1871
+    - scientific: "Gymnothorax miliaris"
+      confidence: 0.0823
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-18T15:57:49Z"
+    src_mtime: 1795017293.239358
+    vocab: "5e42ca118682"
+    top:
+    - scientific: "Ophiothrix suensonii"
+      confidence: 0.4816
+    - scientific: "Enchelycore carychroa"
+      confidence: 0.1224
+    - scientific: "Paguristes cadenati"
+      confidence: 0.1091
+species:
+- scientific: "Ophiothrix suensonii"
+  role: "primary"
+  identified_by: "human"
+  confirmed_from: "bioclip-2+bioclip-2.5"
+- scientific: "Gymnothorax miliaris"
+  role: "secondary"
+  identified_by: "human"
+  confirmed_from: "bioclip-2"
+species_reviewed:
+- "primary"
+- "secondary"
