@@ -1865,7 +1865,7 @@
 - {scientific: "Nephtheis fascicularis", common: "Blue Palm Tunicate", aliases: ["Oxycorynia fascicularis"], regions: ["Indo-Pacific"], distractor: true, taxonomy: "Animalia Chordata Ascidiacea Aplousobranchia Clavelinidae"}
 - {scientific: "Pachyrhynchia cuppressina", common: "Stinging Feather Hydroid", aliases: ["Aglaophenia cupressina"], regions: ["Indo-Pacific"], distractor: true, taxonomy: "Animalia Cnidaria Hydrozoa Leptothecata Aglaopheniidae"}
 - {scientific: "Macrorhynchia philippina", common: "White Stinging Hydroid", regions: ["Indo-Pacific"], distractor: true, taxonomy: "Animalia Cnidaria Hydrozoa Leptothecata Aglaopheniidae"}
-- {scientific: "Pennaria disticha", common: "Christmas Tree Hydroid", regions: ["Caribbean", "Eastern Pacific", "Indo-Pacific"], distractor: true, taxonomy: "Animalia Cnidaria Hydrozoa Anthoathecata Pennariidae"}
+- {scientific: "Pennaria disticha", common: "Christmas Tree Hydroid", regions: ["Caribbean", "Eastern Pacific", "Indo-Pacific"], taxonomy: "Animalia Cnidaria Hydrozoa Anthoathecata Pennariidae"}
 - {scientific: "Sabellastarte spectabilis", common: "Indo-Pacific Feather Duster", regions: ["Indo-Pacific"], distractor: true, taxonomy: "Animalia Annelida Polychaeta Sabellida Sabellidae"}
 - {scientific: "Protula bispiralis", common: "Red Fanworm", regions: ["Indo-Pacific"], distractor: true, taxonomy: "Animalia Annelida Polychaeta Sabellida Serpulidae"}
 - {scientific: "Spirobranchus corniculatus", common: "Indo-Pacific Christmas Tree Worm", regions: ["Indo-Pacific"], distractor: true, taxonomy: "Animalia Annelida Polychaeta Sabellida Serpulidae"}

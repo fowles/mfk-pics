@@ -1,4 +1,4 @@
-date: "2026-10-28 05:53:06"
+date: "2026-10-28 05:48:13"
 location: "Curacao"
 location_source: "dive_site"
 dive_site: "House Reef 35"
@@ -42,3 +42,5 @@ species_reviewed:
 - "primary"
 - "secondary"
 culled: true
+date_reviewed: true
+dive_window_reviewed: true

@@ -1,4 +1,4 @@
-date: "2026-10-24 13:02:09"
+date: "2026-10-24 13:01:52"
 location: "Curacao"
 location_source: "dive_site"
 dive_site: "Playa Lagun"
@@ -13,3 +13,4 @@ species:
   role: "primary"
   identified_by: "human"
 culled: true
+video_start_anchored: true

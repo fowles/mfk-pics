@@ -1,4 +1,4 @@
-date: "2026-10-25 14:23:52"
+date: "2026-10-25 14:18:59"
 location: "Curacao"
 location_source: "dive_site"
 dive_site: "Habitat"
@@ -40,3 +40,5 @@ species_suggestions:
       scientific: "Millepora alcicornis"
       confidence: 0.8212
 culled: true
+date_reviewed: true
+dive_window_reviewed: true

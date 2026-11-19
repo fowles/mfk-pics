@@ -1,4 +1,4 @@
-date: "2026-10-28 05:39:36"
+date: "2026-10-28 05:34:43"
 location: "Curacao"
 location_source: "dive_site"
 dive_site: "House Reef 35"
@@ -40,3 +40,5 @@ species_suggestions:
       scientific: "Agaricia agaricites"
       confidence: 0.9714
 culled: true
+date_reviewed: true
+dive_window_reviewed: true

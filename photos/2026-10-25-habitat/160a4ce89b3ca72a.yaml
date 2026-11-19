@@ -1,4 +1,4 @@
-date: "2026-10-25 12:34:58"
+date: "2026-10-25 12:30:05"
 location: "Curacao"
 location_source: "dive_site"
 dive_site: "Habitat"
@@ -39,3 +39,5 @@ species:
   confidence: 1.0
   identified_by: "bioclip-2+bioclip-2.5"
 culled: true
+date_reviewed: true
+dive_window_reviewed: true

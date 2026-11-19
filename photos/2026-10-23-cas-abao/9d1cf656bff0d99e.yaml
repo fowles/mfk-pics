@@ -1,4 +1,4 @@
-date: "2026-10-23 13:05:50"
+date: "2026-10-23 13:00:57"
 location: "Curacao"
 location_source: "dive_site"
 dive_site: "Cas Abao"
@@ -39,3 +39,5 @@ species:
   confidence: 0.2296
   identified_by: "bioclip-2.5"
 culled: true
+date_reviewed: true
+dive_window_reviewed: true

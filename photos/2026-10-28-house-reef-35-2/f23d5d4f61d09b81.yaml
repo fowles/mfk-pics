@@ -1,4 +1,4 @@
-date: "2026-10-28 13:13:25"
+date: "2026-10-28 13:08:32"
 location: "Curacao"
 location_source: "dive_site"
 dive_site: "House Reef 35"
@@ -42,3 +42,5 @@ species:
   confidence: 0.3325
   identified_by: "bioclip-2.5"
 culled: true
+date_reviewed: true
+dive_window_reviewed: true

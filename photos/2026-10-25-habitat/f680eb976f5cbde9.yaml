@@ -1,4 +1,4 @@
-date: "2026-10-25 12:34:07"
+date: "2026-10-25 12:34:03"
 location: "Curacao"
 location_source: "dive_site"
 dive_site: "Habitat"
@@ -13,3 +13,4 @@ species:
   role: "primary"
   identified_by: "human"
 culled: true
+video_start_anchored: true

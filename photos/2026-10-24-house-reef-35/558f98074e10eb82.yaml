@@ -1,4 +1,4 @@
-date: "2026-10-24 17:34:06"
+date: "2026-10-24 17:34:02"
 location: "Curacao"
 location_source: "dive_site"
 dive_site: "House Reef 35"
@@ -9,3 +9,4 @@ lat: 12.1926667
 lon: -69.0735556
 gps_source: "dive_site"
 culled: true
+video_start_anchored: true

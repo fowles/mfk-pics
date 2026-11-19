@@ -1,4 +1,4 @@
-date: "2026-10-25 14:26:34"
+date: "2026-10-25 14:21:41"
 location: "Curacao"
 location_source: "dive_site"
 dive_site: "Habitat"
@@ -38,3 +38,5 @@ species_suggestions:
       confidence: 0.1917
 species: []
 culled: true
+date_reviewed: true
+dive_window_reviewed: true

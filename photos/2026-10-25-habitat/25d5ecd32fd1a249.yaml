@@ -1,4 +1,4 @@
-date: "2026-10-25 12:33:54"
+date: "2026-10-25 12:33:50"
 location: "Curacao"
 location_source: "dive_site"
 dive_site: "Habitat"
@@ -9,3 +9,4 @@ lat: 12.197904
 lon: -69.078854
 gps_source: "dive_site"
 culled: true
+video_start_anchored: true

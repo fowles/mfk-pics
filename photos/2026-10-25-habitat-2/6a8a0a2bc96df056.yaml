@@ -1,4 +1,4 @@
-date: "2026-10-25 14:44:30"
+date: "2026-10-25 14:39:37"
 location: "Curacao"
 location_source: "dive_site"
 dive_site: "Habitat"
@@ -40,3 +40,5 @@ species_suggestions:
       scientific: "Antillogorgia americana"
       confidence: 0.8044
 culled: true
+date_reviewed: true
+dive_window_reviewed: true
