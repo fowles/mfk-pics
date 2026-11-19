@@ -1,0 +1,41 @@
+date: "2026-10-28 12:34:00"
+location: "Curacao"
+location_source: "dive_site"
+dive_site: "House Reef 35"
+credit: "Delia Kulukundis"
+import_album: "Curacao, House Reef 35 (noon) - 2026-10-28"
+import_original_name: "IMG_6730.JPG"
+lat: 12.1926667
+lon: -69.0735556
+gps_source: "dive_site"
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-19T16:38:07Z"
+    src_mtime: 1795106049.0936046
+    vocab: "3af0e25c4875"
+    top:
+    - scientific: "Holacanthus ciliaris"
+      confidence: 0.8848
+    - scientific: "Bodianus rufus"
+      confidence: 0.0633
+    - scientific: "Chaetodon ocellatus"
+      confidence: 0.0208
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-19T16:38:14Z"
+    src_mtime: 1795106049.0936046
+    vocab: "3af0e25c4875"
+    top:
+    - scientific: "Holacanthus ciliaris"
+      confidence: 0.9991
+    - scientific: "Lutjanus apodus"
+      confidence: 0.0003
+    - scientific: "Gramma loreto"
+      confidence: 0.0002
+species:
+- scientific: "Holacanthus ciliaris"
+  role: "primary"
+  confidence: 0.942
+  identified_by: "bioclip-2+bioclip-2.5"
+culled: true

@@ -1,0 +1,40 @@
+date: "2026-10-28 12:19:59"
+location: "Curacao"
+location_source: "dive_site"
+dive_site: "House Reef 35"
+credit: "Matthew Kulukundis"
+import_album: "Curacao, House Reef 35 (noon) - 2026-10-28"
+import_original_name: "PXL_20261028_161959599.jpg"
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-19T16:38:07Z"
+    src_mtime: 1795106056.4804308
+    vocab: "3af0e25c4875"
+    top:
+    - scientific: "Gramma loreto"
+      confidence: 0.8679
+    - scientific: "Holacanthus ciliaris"
+      confidence: 0.0753
+    - scientific: "Centropyge argi"
+      confidence: 0.0182
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-19T16:38:14Z"
+    src_mtime: 1795106056.4804308
+    vocab: "3af0e25c4875"
+    top:
+    - scientific: "Gramma loreto"
+      confidence: 0.9995
+    - scientific: "Microspathodon chrysurus"
+      confidence: 0.0001
+    - scientific: "Callyspongia plicifera"
+      confidence: 0.0001
+species:
+- scientific: "Gramma loreto"
+  role: "primary"
+  identified_by: "human"
+  confirmed_from: "bioclip-2+bioclip-2.5"
+species_reviewed:
+- "primary"
+- "secondary"

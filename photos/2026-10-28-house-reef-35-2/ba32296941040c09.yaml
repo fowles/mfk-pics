@@ -1,0 +1,52 @@
+date: "2026-10-28 12:55:30"
+location: "Curacao"
+location_source: "dive_site"
+dive_site: "House Reef 35"
+credit: "Delia Kulukundis"
+import_album: "Curacao, House Reef 35 (noon) - 2026-10-28"
+import_original_name: "IMG_6755.JPG"
+lat: 12.1926667
+lon: -69.0735556
+gps_source: "dive_site"
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-19T16:38:07Z"
+    src_mtime: 1795106052.1555016
+    vocab: "3af0e25c4875"
+    top:
+    - scientific: "Acanthostracion polygonius"
+      confidence: 0.2255
+    - scientific: "Hypanus americanus"
+      confidence: 0.13
+    - scientific: "Aetobatus narinari"
+      confidence: 0.1075
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-19T16:38:14Z"
+    src_mtime: 1795106052.1555016
+    vocab: "3af0e25c4875"
+    top:
+    - scientific: "Gymnothorax moringa"
+      confidence: 0.3802
+    - scientific: "Halichoeres garnoti"
+      confidence: 0.2689
+    - scientific: "Holothuria mexicana"
+      confidence: 0.0344
+species:
+- scientific: "Hypanus americanus"
+  role: "primary"
+  identified_by: "human"
+  confirmed_from: "bioclip-2"
+- scientific: "Homo sapiens"
+  role: "secondary"
+  identified_by: "human"
+  person:
+  - "Matthew Kulukundis"
+rotation_applied: 270
+tags:
+- "metapicture"
+species_reviewed:
+- "primary"
+- "secondary"
+cluster: "start"

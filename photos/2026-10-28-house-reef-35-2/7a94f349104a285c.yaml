@@ -1,0 +1,49 @@
+date: "2026-10-28 12:39:43"
+location: "Curacao"
+location_source: "dive_site"
+dive_site: "House Reef 35"
+credit: "Delia Kulukundis"
+import_album: "Curacao, House Reef 35 (noon) - 2026-10-28"
+import_original_name: "IMG_6740.JPG"
+lat: 12.1926667
+lon: -69.0735556
+gps_source: "dive_site"
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-19T16:38:07Z"
+    src_mtime: 1795106050.7040567
+    vocab: "3af0e25c4875"
+    top:
+    - scientific: "Chilomycterus antillarum"
+      confidence: 0.0768
+    - scientific: "Epinephelus adscensionis"
+      confidence: 0.0678
+    - scientific: "Gymnothorax funebris"
+      confidence: 0.0657
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-19T16:38:14Z"
+    src_mtime: 1795106050.7040567
+    vocab: "3af0e25c4875"
+    top:
+    - scientific: "Diodon holocanthus"
+      confidence: 0.3653
+    - scientific: "Epinephelus striatus"
+      confidence: 0.1861
+    - scientific: "Mycteroperca tigris"
+      confidence: 0.0757
+species:
+- scientific: "Scorpaena plumieri"
+  role: "primary"
+  identified_by: "human"
+- scientific: "Homo sapiens"
+  role: "secondary"
+  identified_by: "human"
+  person:
+  - "Matthew Kulukundis"
+species_reviewed:
+- "primary"
+- "secondary"
+tags:
+- "metapicture"

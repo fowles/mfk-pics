@@ -1,0 +1,46 @@
+date: "2026-10-28 12:31:46"
+location: "Curacao"
+location_source: "dive_site"
+dive_site: "House Reef 35"
+credit: "Delia Kulukundis"
+import_album: "Curacao, House Reef 35 (noon) - 2026-10-28"
+import_original_name: "IMG_6725.JPG"
+lat: 12.1926667
+lon: -69.0735556
+gps_source: "dive_site"
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-19T16:38:07Z"
+    src_mtime: 1795106048.9704187
+    vocab: "3af0e25c4875"
+    top:
+    - scientific: "Chromis cyanea"
+      confidence: 0.6148
+    - scientific: "Halichoeres pictus"
+      confidence: 0.1601
+    - scientific: "Clepticus parrae"
+      confidence: 0.0732
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-19T16:38:14Z"
+    src_mtime: 1795106048.9704187
+    vocab: "3af0e25c4875"
+    top:
+    - scientific: "Halichoeres pictus"
+      confidence: 0.5234
+    - scientific: "Clepticus parrae"
+      confidence: 0.4044
+    - scientific: "Thalassoma bifasciatum"
+      confidence: 0.0633
+species:
+- scientific: "Clepticus parrae"
+  role: "primary"
+  identified_by: "human"
+  confirmed_from: "bioclip-2+bioclip-2.5"
+- scientific: "Chaetodon striatus"
+  role: "secondary"
+  identified_by: "human"
+species_reviewed:
+- "primary"
+- "secondary"

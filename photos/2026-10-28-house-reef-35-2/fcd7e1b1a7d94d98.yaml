@@ -1,0 +1,38 @@
+date: "2026-10-28 12:21:57"
+location: "Curacao"
+location_source: "dive_site"
+dive_site: "House Reef 35"
+credit: "Matthew Kulukundis"
+import_album: "Curacao, House Reef 35 (noon) - 2026-10-28"
+import_original_name: "PXL_20261028_162157057.jpg"
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-19T16:38:07Z"
+    src_mtime: 1795106057.2105987
+    vocab: "3af0e25c4875"
+    top:
+    - scientific: "Holacanthus tricolor"
+      confidence: 0.2516
+    - scientific: "Stegastes partitus"
+      confidence: 0.1937
+    - scientific: "Hypoplectrus chlorurus"
+      confidence: 0.1192
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-19T16:38:14Z"
+    src_mtime: 1795106057.2105987
+    vocab: "3af0e25c4875"
+    top:
+    - scientific: "Stegastes partitus"
+      confidence: 0.4037
+    - scientific: "Prognathodes aculeatus"
+      confidence: 0.3997
+    - scientific: "Hypoplectrus chlorurus"
+      confidence: 0.1082
+species:
+- scientific: "Stegastes partitus"
+  role: "primary"
+  confidence: 0.2987
+  identified_by: "bioclip-2+bioclip-2.5"
+culled: true

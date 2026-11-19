@@ -1,0 +1,43 @@
+date: "2026-10-28 12:14:48"
+location: "Curacao"
+location_source: "dive_site"
+dive_site: "House Reef 35"
+credit: "Matthew Kulukundis"
+import_album: "Curacao, House Reef 35 (noon) - 2026-10-28"
+import_original_name: "PXL_20261028_161448152.jpg"
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-19T16:38:07Z"
+    src_mtime: 1795106055.404891
+    vocab: "3af0e25c4875"
+    top:
+    - scientific: "Chromis cyanea"
+      confidence: 0.2878
+    - scientific: "Halichoeres garnoti"
+      confidence: 0.1063
+    - scientific: "Halichoeres pictus"
+      confidence: 0.0765
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-19T16:38:14Z"
+    src_mtime: 1795106055.404891
+    vocab: "3af0e25c4875"
+    top:
+    - scientific: "Hypoplectrus indigo"
+      confidence: 0.4959
+    - scientific: "Chromis cyanea"
+      confidence: 0.2199
+    - scientific: "Halichoeres garnoti"
+      confidence: 0.0402
+species:
+- scientific: "Chromis cyanea"
+  role: "primary"
+  identified_by: "human"
+  confirmed_from: "bioclip-2+bioclip-2.5"
+tags:
+- "kissing"
+- "gawping"
+species_reviewed:
+- "primary"
+- "secondary"

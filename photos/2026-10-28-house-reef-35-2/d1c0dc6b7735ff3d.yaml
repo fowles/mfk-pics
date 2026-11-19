@@ -1,0 +1,43 @@
+date: "2026-10-28 12:39:33"
+location: "Curacao"
+location_source: "dive_site"
+dive_site: "House Reef 35"
+credit: "Matthew Kulukundis"
+import_album: "Curacao, House Reef 35 (noon) - 2026-10-28"
+import_original_name: "PXL_20261028_163933423.MP.jpg"
+lat: 12.1926667
+lon: -69.0735556
+gps_source: "dive_site"
+species_suggestions:
+  bioclip-2:
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-11-19T16:38:07Z"
+    src_mtime: 1795106058.3366427
+    vocab: "3af0e25c4875"
+    top:
+    - scientific: "Periclimenes yucatanicus"
+      confidence: 0.2397
+    - scientific: "Panulirus guttatus"
+      confidence: 0.1901
+    - scientific: "Astrophyton muricatum"
+      confidence: 0.0747
+    absorbed_by:
+      scientific: "Millepora alcicornis"
+      confidence: 0.249
+  bioclip-2.5:
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-11-19T16:38:14Z"
+    src_mtime: 1795106058.3366427
+    vocab: "3af0e25c4875"
+    top:
+    - scientific: "Bartholomea annulata"
+      confidence: 0.5204
+    - scientific: "Periclimenes yucatanicus"
+      confidence: 0.0259
+    - scientific: "Ophiothrix suensonii"
+      confidence: 0.0032
+species:
+- scientific: "Bartholomea annulata"
+  role: "primary"
+  confidence: 0.2602
+  identified_by: "bioclip-2.5"
