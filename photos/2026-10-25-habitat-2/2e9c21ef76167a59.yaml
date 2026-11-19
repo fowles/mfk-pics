@@ -34,7 +34,7 @@ species_suggestions:
     - scientific: "Acanthurus coeruleus"
       confidence: 0.0001
 species:
-- scientific: "Octopus briareus"
+- scientific: "Octopus insularis"
   role: "primary"
   identified_by: "human"
   confirmed_from: "bioclip-2+bioclip-2.5"
