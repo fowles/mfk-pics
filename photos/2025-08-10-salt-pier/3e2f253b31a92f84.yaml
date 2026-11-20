@@ -13,9 +13,9 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-11-20T16:03:38Z"
+    created: "2026-11-20T16:24:07Z"
     src_mtime: 1786157572.7540917
-    vocab: "29f7af860abc"
+    vocab: "42433c3b32c5"
     top:
     - scientific: "Lutjanus cyanopterus"
       confidence: 0.4668
@@ -25,9 +25,9 @@ species_suggestions:
       confidence: 0.0341
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-11-20T16:03:38Z"
+    created: "2026-11-20T16:27:41Z"
     src_mtime: 1786157572.7540917
-    vocab: "29f7af860abc"
+    vocab: "42433c3b32c5"
     top:
     - scientific: "Lutjanus cyanopterus"
       confidence: 0.9986

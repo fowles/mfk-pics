@@ -13,28 +13,28 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-11-19T19:47:19Z"
+    created: "2026-11-20T16:24:07Z"
     src_mtime: 1786156966.9693944
-    vocab: "34e769e5a8a5"
+    vocab: "42433c3b32c5"
     top:
     - scientific: "Anisotremus surinamensis"
-      confidence: 0.9688
+      confidence: 0.9667
     - scientific: "Haemulon album"
       confidence: 0.0198
     - scientific: "Canthidermis sufflamen"
       confidence: 0.0036
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-11-19T19:51:57Z"
+    created: "2026-11-20T16:27:41Z"
     src_mtime: 1786156966.9693944
-    vocab: "34e769e5a8a5"
+    vocab: "42433c3b32c5"
     top:
     - scientific: "Anisotremus surinamensis"
-      confidence: 0.9828
+      confidence: 0.9734
+    - scientific: "Lutjanus cyanopterus"
+      confidence: 0.0096
     - scientific: "Haemulon parra"
       confidence: 0.0048
-    - scientific: "Diodon hystrix"
-      confidence: 0.0046
 species:
 - scientific: "Anisotremus surinamensis"
   role: "primary"

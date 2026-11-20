@@ -16,21 +16,21 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-11-19T19:47:19Z"
+    created: "2026-11-20T16:24:07Z"
     src_mtime: 1786157214.8396075
-    vocab: "34e769e5a8a5"
+    vocab: "42433c3b32c5"
     top:
     - scientific: "Aluterus scriptus"
-      confidence: 0.4261
+      confidence: 0.4256
     - scientific: "Acanthostracion polygonius"
-      confidence: 0.2293
+      confidence: 0.229
     - scientific: "Chromis cyanea"
-      confidence: 0.0731
+      confidence: 0.073
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-11-19T19:51:57Z"
+    created: "2026-11-20T16:27:41Z"
     src_mtime: 1786157214.8396075
-    vocab: "34e769e5a8a5"
+    vocab: "42433c3b32c5"
     top:
     - scientific: "Acanthurus coeruleus"
       confidence: 0.2966
@@ -41,5 +41,5 @@ species_suggestions:
 species:
 - scientific: "Aluterus scriptus"
   role: "primary"
-  confidence: 0.213
+  confidence: 0.2128
   identified_by: "bioclip-2"

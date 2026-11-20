@@ -13,21 +13,21 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-11-19T19:47:19Z"
+    created: "2026-11-20T16:24:07Z"
     src_mtime: 1786156578.0793383
-    vocab: "34e769e5a8a5"
+    vocab: "42433c3b32c5"
     top:
     - scientific: "Acanthostracion polygonius"
-      confidence: 0.6633
+      confidence: 0.6631
     - scientific: "Acanthostracion quadricornis"
       confidence: 0.0915
     - scientific: "Urobatis jamaicensis"
       confidence: 0.0795
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-11-19T19:51:57Z"
+    created: "2026-11-20T16:27:41Z"
     src_mtime: 1786156578.0793383
-    vocab: "34e769e5a8a5"
+    vocab: "42433c3b32c5"
     top:
     - scientific: "Acanthostracion polygonius"
       confidence: 0.95
@@ -38,5 +38,5 @@ species_suggestions:
 species:
 - scientific: "Acanthostracion polygonius"
   role: "primary"
-  confidence: 0.8066
+  confidence: 0.8065
   identified_by: "bioclip-2+bioclip-2.5"

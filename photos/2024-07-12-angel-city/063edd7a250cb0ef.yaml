@@ -16,36 +16,36 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-11-19T19:47:19Z"
+    created: "2026-11-20T16:24:07Z"
     src_mtime: 1786158501.878644
-    vocab: "34e769e5a8a5"
+    vocab: "42433c3b32c5"
     top:
     - scientific: "Chromis cyanea"
-      confidence: 0.0719
+      confidence: 0.0718
     - scientific: "Abudefduf saxatilis"
-      confidence: 0.0347
+      confidence: 0.0346
     - scientific: "Caranx ruber"
       confidence: 0.0266
     absorbed_by:
       scientific: "Orbicella annularis"
-      confidence: 0.1536
+      confidence: 0.1535
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-11-19T19:51:57Z"
+    created: "2026-11-20T16:27:41Z"
     src_mtime: 1786158501.878644
-    vocab: "34e769e5a8a5"
+    vocab: "42433c3b32c5"
     top:
     - scientific: "Abudefduf saxatilis"
-      confidence: 0.1707
+      confidence: 0.1705
     - scientific: "Chromis cyanea"
-      confidence: 0.1433
+      confidence: 0.1432
     - scientific: "Chromis multilineata"
-      confidence: 0.1223
+      confidence: 0.1222
     absorbed_by:
       scientific: "Acropora cervicornis"
-      confidence: 0.181
+      confidence: 0.1809
 species:
 - scientific: "Chromis cyanea"
   role: "primary"
-  confidence: 0.1076
+  confidence: 0.1075
   identified_by: "bioclip-2+bioclip-2.5"

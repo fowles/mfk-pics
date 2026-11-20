@@ -13,9 +13,9 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-11-19T19:47:19Z"
+    created: "2026-11-20T16:24:07Z"
     src_mtime: 1786156689.9500623
-    vocab: "34e769e5a8a5"
+    vocab: "42433c3b32c5"
     top:
     - scientific: "Lactophrys bicaudalis"
       confidence: 0.8644
@@ -25,9 +25,9 @@ species_suggestions:
       confidence: 0.0164
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-11-19T19:51:57Z"
+    created: "2026-11-20T16:27:41Z"
     src_mtime: 1786156689.9500623
-    vocab: "34e769e5a8a5"
+    vocab: "42433c3b32c5"
     top:
     - scientific: "Diodon hystrix"
       confidence: 0.9996

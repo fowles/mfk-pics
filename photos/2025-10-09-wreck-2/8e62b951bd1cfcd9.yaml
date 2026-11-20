@@ -12,28 +12,28 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-11-19T19:47:19Z"
+    created: "2026-11-20T16:24:07Z"
     src_mtime: 1786159812.3850493
-    vocab: "34e769e5a8a5"
+    vocab: "42433c3b32c5"
     top:
     - scientific: "Lutjanus mahogoni"
-      confidence: 0.2001
+      confidence: 0.1986
     - scientific: "Bodianus pulchellus"
-      confidence: 0.1854
+      confidence: 0.184
     - scientific: "Lutjanus griseus"
-      confidence: 0.158
+      confidence: 0.1567
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-11-19T19:51:57Z"
+    created: "2026-11-20T16:27:41Z"
     src_mtime: 1786159812.3850493
-    vocab: "34e769e5a8a5"
+    vocab: "42433c3b32c5"
     top:
     - scientific: "Lachnolaimus maximus"
-      confidence: 0.502
+      confidence: 0.5018
     - scientific: "Holocentrus adscensionis"
-      confidence: 0.4372
+      confidence: 0.437
     - scientific: "Lutjanus griseus"
-      confidence: 0.0326
+      confidence: 0.0325
 species:
 - scientific: "Lachnolaimus maximus"
   role: "primary"

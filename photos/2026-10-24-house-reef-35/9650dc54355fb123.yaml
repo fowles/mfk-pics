@@ -11,28 +11,28 @@ gps_source: "dive_site"
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-11-19T19:47:19Z"
+    created: "2026-11-20T16:24:07Z"
     src_mtime: 1794591828.9726114
-    vocab: "34e769e5a8a5"
+    vocab: "42433c3b32c5"
     top:
     - scientific: "Halichoeres pictus"
-      confidence: 0.0493
+      confidence: 0.0491
     - scientific: "Serranus tigrinus"
-      confidence: 0.0457
+      confidence: 0.0456
     - scientific: "Halichoeres radiatus"
-      confidence: 0.0435
+      confidence: 0.0434
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-11-19T19:51:57Z"
+    created: "2026-11-20T16:27:41Z"
     src_mtime: 1794591828.9726114
-    vocab: "34e769e5a8a5"
+    vocab: "42433c3b32c5"
     top:
     - scientific: "Lutjanus jocu"
-      confidence: 0.6131
+      confidence: 0.4645
+    - scientific: "Lutjanus cyanopterus"
+      confidence: 0.2424
     - scientific: "Anisotremus virginicus"
-      confidence: 0.0947
-    - scientific: "Anisotremus surinamensis"
-      confidence: 0.0652
+      confidence: 0.0718
 species:
 - scientific: "Hypanus americanus"
   role: "primary"

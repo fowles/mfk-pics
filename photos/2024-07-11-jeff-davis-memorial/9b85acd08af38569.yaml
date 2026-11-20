@@ -13,30 +13,30 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-11-19T19:47:19Z"
+    created: "2026-11-20T16:24:07Z"
     src_mtime: 1786159561.381956
-    vocab: "34e769e5a8a5"
+    vocab: "42433c3b32c5"
     top:
+    - scientific: "Neoniphon vexillarius"
+      confidence: 0.8251
     - scientific: "Eretmochelys imbricata"
-      confidence: 0.07
+      confidence: 0.0122
     - scientific: "Neoniphon marianus"
-      confidence: 0.058
-    - scientific: "Apogon maculatus"
-      confidence: 0.0553
+      confidence: 0.0101
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-11-19T19:51:57Z"
+    created: "2026-11-20T16:27:41Z"
     src_mtime: 1786159561.381956
-    vocab: "34e769e5a8a5"
+    vocab: "42433c3b32c5"
     top:
     - scientific: "Halichoeres garnoti"
-      confidence: 0.5091
+      confidence: 0.5008
     - scientific: "Equetus punctatus"
-      confidence: 0.0932
+      confidence: 0.0917
     - scientific: "Sparisoma viride"
-      confidence: 0.0611
+      confidence: 0.0601
 species:
-- scientific: "Halichoeres garnoti"
+- scientific: "Neoniphon vexillarius"
   role: "primary"
-  confidence: 0.2545
-  identified_by: "bioclip-2.5"
+  confidence: 0.4125
+  identified_by: "bioclip-2"
