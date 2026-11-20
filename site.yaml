@@ -21,7 +21,7 @@ photographers:
   "OM Digital Solutions TG-7": "Miriam Melnick"
   "Google Pixel 11 Pro XL": "Marc Howard"
 dive_sites:
-  Weber's Joy:
+  "Weber’s Joy":
     lat: 12.2065506
     lon: -68.3164123
   Invisibles:
@@ -33,7 +33,7 @@ dive_sites:
   Candyland:
     lat: 12.222591
     lon: -68.40111449999999
-  La Dania's Leap:
+  "La Dania’s Leap":
     lat: 12.2181035
     lon: -68.34805419999999
   Angel City:
@@ -54,10 +54,10 @@ dive_sites:
   Blue Heron Bridge:
     lat: 26.7838864
     lon: -80.044118
-  Bachelor's Beach:
+  "Bachelor’s Beach":
     lat: 12.125370400000001
     lon: -68.2874429
-  Tori's Reef:
+  "Tori’s Reef":
     lat: 12.070475199999999
     lon: -68.2806703
   Pink Beach:
@@ -114,7 +114,7 @@ dive_sites:
   "Sand Bar":
     lat: 7.2708
     lon: 134.2448
-  "Clarence's Drop":
+  "Clarence’s Drop":
     lat: 7.1301
     lon: 134.2256
   "Jellyfish Lake":
@@ -126,7 +126,7 @@ dive_sites:
   "Marine Lake":
     lat: 7.22
     lon: 134.37
-  Playa el Chileno:
+  "Playa El Chileno":
     lat: 22.94523
     lon: -109.80243
   Mala Wharf:
