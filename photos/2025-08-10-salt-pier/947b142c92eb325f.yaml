@@ -36,7 +36,15 @@ species_suggestions:
     - scientific: "Scorpaena plumieri"
       confidence: 0.0645
 species:
-- scientific: "Aplysina archeri"
+- scientific: "Octopus insularis"
   role: "primary"
-  confidence: 0.3591
-  identified_by: "bioclip-2+bioclip-2.5"
+  identified_by: "human"
+  confirmed_from: "bioclip-2.5"
+- scientific: "Homo sapiens"
+  role: "secondary"
+  identified_by: "human"
+  person:
+  - "Matthew Kulukundis"
+species_reviewed:
+- "primary"
+- "secondary"

@@ -37,7 +37,13 @@ species_suggestions:
     - scientific: "Myripristis jacobus"
       confidence: 0.0679
 species:
-- scientific: "Holocentrus adscensionis"
+- scientific: "Myripristis jacobus"
   role: "primary"
-  confidence: 0.3045
-  identified_by: "bioclip-2+bioclip-2.5"
+  identified_by: "human"
+  confirmed_from: "bioclip-2.5"
+- scientific: "Abudefduf saxatilis"
+  role: "secondary"
+  identified_by: "human"
+species_reviewed:
+- "primary"
+- "secondary"

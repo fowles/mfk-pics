@@ -36,7 +36,10 @@ species_suggestions:
     - scientific: "Halichoeres maculipinna"
       confidence: 0.0289
 species:
-- scientific: "Halichoeres garnoti"
+- scientific: "Prognathodes aculeatus"
   role: "primary"
-  confidence: 0.4516
-  identified_by: "bioclip-2.5"
+  identified_by: "human"
+species_reviewed:
+- "primary"
+- "secondary"
+cluster: "start"

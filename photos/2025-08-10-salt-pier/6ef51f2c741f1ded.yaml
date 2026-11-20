@@ -38,5 +38,9 @@ species_suggestions:
 species:
 - scientific: "Astrophyton muricatum"
   role: "primary"
-  confidence: 0.7056
-  identified_by: "bioclip-2+bioclip-2.5"
+  identified_by: "human"
+  confirmed_from: "bioclip-2+bioclip-2.5"
+species_reviewed:
+- "primary"
+- "secondary"
+cover: "cluster"

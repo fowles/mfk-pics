@@ -36,7 +36,11 @@ species_suggestions:
     - scientific: "Stegastes planifrons"
       confidence: 0.025
 species:
-- scientific: "Stegastes partitus"
+- scientific: "Prognathodes aculeatus"
   role: "primary"
-  confidence: 0.3362
-  identified_by: "bioclip-2.5"
+  identified_by: "human"
+  confirmed_from: "bioclip-2.5"
+species_reviewed:
+- "primary"
+- "secondary"
+cover: "cluster"

@@ -36,7 +36,9 @@ species_suggestions:
     - scientific: "Cephalopholis cruentata"
       confidence: 0.1466
 species:
-- scientific: "Cephalopholis cruentata"
+- scientific: "Octopus insularis"
   role: "primary"
-  confidence: 0.1795
-  identified_by: "bioclip-2+bioclip-2.5"
+  identified_by: "human"
+species_reviewed:
+- "primary"
+- "secondary"

@@ -36,7 +36,13 @@ species_suggestions:
     - scientific: "Lutjanus apodus"
       confidence: 0.048
 species:
-- scientific: "Lutjanus jocu"
+- scientific: "Lutjanus cyanopterus"
   role: "primary"
-  confidence: 0.5106
-  identified_by: "bioclip-2+bioclip-2.5"
+  identified_by: "human"
+- scientific: "Lutjanus apodus"
+  role: "secondary"
+  identified_by: "human"
+  confirmed_from: "bioclip-2.5"
+species_reviewed:
+- "primary"
+- "secondary"

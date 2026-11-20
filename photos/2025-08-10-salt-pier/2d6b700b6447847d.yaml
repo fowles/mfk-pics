@@ -38,5 +38,9 @@ species_suggestions:
 species:
 - scientific: "Haemulon chrysargyreum"
   role: "primary"
-  confidence: 0.9453
-  identified_by: "bioclip-2+bioclip-2.5"
+  identified_by: "human"
+  confirmed_from: "bioclip-2+bioclip-2.5"
+cover: "cluster"
+species_reviewed:
+- "primary"
+- "secondary"

@@ -42,3 +42,10 @@ species_suggestions:
     absorbed_by:
       scientific: "Aplysina fistularis"
       confidence: 0.322
+species:
+- scientific: "Astrophyton muricatum"
+  role: "primary"
+  identified_by: "human"
+species_reviewed:
+- "primary"
+- "secondary"

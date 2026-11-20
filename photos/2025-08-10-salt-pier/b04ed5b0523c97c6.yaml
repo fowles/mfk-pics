@@ -36,7 +36,11 @@ species_suggestions:
     - scientific: "Spirobranchus giganteus"
       confidence: 0.0227
 species:
-- scientific: "Sabellastarte magnifica"
+- scientific: "Octopus insularis"
   role: "primary"
-  confidence: 0.3093
-  identified_by: "bioclip-2.5"
+  identified_by: "human"
+  confirmed_from: "bioclip-2"
+species_reviewed:
+- "primary"
+- "secondary"
+cluster: "start"

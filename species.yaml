@@ -1897,3 +1897,5 @@
 - {scientific: "Erythropodium caribaeorum", common: "Encrusting Gorgonian", regions: ["Caribbean"], taxonomy: "Animalia Cnidaria Anthozoa Scleralcyonacea Erythropodiidae"}
 - {scientific: "Chilomycterus antennatus", common: "Bridled Burrfish", regions: ["Caribbean"], taxonomy: "Animalia Chordata Teleostei Tetraodontiformes Diodontidae"}
 - {scientific: "Scolymia cubensis", common: "Artichoke Coral", regions: ["Caribbean"], taxonomy: "Animalia Cnidaria Anthozoa Scleractinia Faviidae"}
+- {scientific: "Lutjanus cyanopterus", common: "Cubera Snapper", regions: ["Caribbean"], taxonomy: "Animalia Chordata Teleostei Perciformes Lutjanidae"}
+- {scientific: "Neoniphon vexillarius", common: "Dusky Squirrelfish", regions: ["Caribbean"], taxonomy: "Animalia Chordata Teleostei Beryciformes Holocentridae"}

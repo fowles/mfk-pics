@@ -36,7 +36,10 @@ species_suggestions:
     - scientific: "Gymnothorax moringa"
       confidence: 0.0519
 species:
-- scientific: "Gymnothorax miliaris"
+- scientific: "Octopus insularis"
   role: "primary"
-  confidence: 0.5419
-  identified_by: "bioclip-2+bioclip-2.5"
+  identified_by: "human"
+  confirmed_from: "bioclip-2.5"
+species_reviewed:
+- "primary"
+- "secondary"
