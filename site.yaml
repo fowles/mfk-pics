@@ -152,6 +152,7 @@ location_names:
   "Cabo Pulmo, Baja California Sur, Mexico": "Cabo Pulmo"
   "Key West, FL, USA": "Key West"
   "West Palm Beach, FL, USA": "West Palm Beach"
+  "Maui, Hawaiʻi, USA": "Maui"
 deploy:
   account_id: 605649affbab92b2f8367d609dc4f3b6
   bucket: mfk-pics-images
