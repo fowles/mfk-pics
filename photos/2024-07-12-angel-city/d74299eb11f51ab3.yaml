@@ -1,42 +1,42 @@
-date: '2024-07-12 15:52:48'
-location: Bonaire
-location_source: dive_site
-dive_site: Angel City
-credit: Delia Kulukundis
-import_album: Angel City, Bonaire, 7-12-2024
-import_original_name: IMG_4610.JPG
+date: "2024-07-12 15:55:05"
+location: "Bonaire"
+location_source: "dive_site"
+dive_site: "Angel City"
+credit: "Delia Kulukundis"
+import_album: "Angel City, Bonaire, 7-12-2024"
+import_original_name: "IMG_4610.JPG"
 lat: 12.103454
 lon: -68.2872912
-gps_source: dive_site
+gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
-    model: hf-hub:imageomics/bioclip-2
-    created: '2026-08-23T18:22:34Z'
+    model: "hf-hub:imageomics/bioclip-2"
+    created: "2026-08-23T18:22:34Z"
     src_mtime: 1786158490.9621463
-    vocab: 9eb53da9d7d6
+    vocab: "9eb53da9d7d6"
     top:
-    - scientific: Chromis multilineata
+    - scientific: "Chromis multilineata"
       confidence: 0.5175
-    - scientific: Selar crumenophthalmus
+    - scientific: "Selar crumenophthalmus"
       confidence: 0.0821
-    - scientific: Pempheris schomburgkii
+    - scientific: "Pempheris schomburgkii"
       confidence: 0.0813
   bioclip-2.5:
-    model: hf-hub:imageomics/bioclip-2.5-vith14
-    created: '2026-08-23T18:25:36Z'
+    model: "hf-hub:imageomics/bioclip-2.5-vith14"
+    created: "2026-08-23T18:25:36Z"
     src_mtime: 1786158490.9621463
-    vocab: 9eb53da9d7d6
+    vocab: "9eb53da9d7d6"
     top:
-    - scientific: Chromis multilineata
+    - scientific: "Chromis multilineata"
       confidence: 0.9557
-    - scientific: Chromis cyanea
+    - scientific: "Chromis cyanea"
       confidence: 0.0232
-    - scientific: Abudefduf saxatilis
+    - scientific: "Abudefduf saxatilis"
       confidence: 0.0161
 species: []
 culled: true
 species_reviewed:
-- primary
-- secondary
+- "primary"
+- "secondary"
