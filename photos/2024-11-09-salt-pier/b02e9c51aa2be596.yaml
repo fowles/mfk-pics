@@ -13,8 +13,6 @@ variants:
   file: "b02e9c51aa2be596.dive-plus.webp"
   import_original_name: "6d273bf91b70e925.webp"
 date_reviewed: true
-extra_variants:
-- "dive-plus"
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
@@ -45,3 +43,6 @@ species:
   role: "primary"
   confidence: 0.0961
   identified_by: "bioclip-2.5"
+corrections:
+- "dive-plus"
+- "hue-shift-clarity"

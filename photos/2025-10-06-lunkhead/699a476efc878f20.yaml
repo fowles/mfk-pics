@@ -10,8 +10,6 @@ lon: -79.2431
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
-extra_variants:
-- "ancuti-fusion"
 rotation_reviewed: true
 species_suggestions:
   bioclip-2:
@@ -42,3 +40,6 @@ species_suggestions:
       scientific: "Cirrhipathes leutkeni"
       confidence: 0.8903
 species: []
+corrections:
+- "ancuti-fusion"
+- "hue-shift-clarity"

@@ -10,8 +10,6 @@ lon: -68.2903018
 gps_source: "dive_site"
 date_reviewed: true
 dive_window_reviewed: true
-extra_variants:
-- "ancuti-fusion"
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
@@ -46,3 +44,6 @@ species_reviewed:
 - "primary"
 - "secondary"
 cover: "species | trip"
+corrections:
+- "ancuti-fusion"
+- "hue-shift-clarity"
