@@ -34,10 +34,10 @@ species_suggestions:
     - scientific: "Parribacus antarcticus"
       confidence: 0.0179
 species:
-- scientific: "Carpilius corallinus"
+- scientific: "Octopus insularis"
   role: "primary"
   identified_by: "human"
-  confirmed_from: "bioclip-2.5"
+  confirmed_from: "bioclip-2"
 species_reviewed:
 - "primary"
 - "secondary"
