@@ -35,8 +35,7 @@ species_suggestions:
       confidence: 0.2081
     - scientific: "Negaprion brevirostris"
       confidence: 0.0588
-species:
-- scientific: "Abudefduf saxatilis"
-  role: "primary"
-  confidence: 0.2848
-  identified_by: "bioclip-2.5"
+species: []
+species_reviewed:
+- "primary"
+- "secondary"

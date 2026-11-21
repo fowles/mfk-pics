@@ -42,4 +42,10 @@ species_suggestions:
     absorbed_by:
       scientific: "Orbicella annularis"
       confidence: 0.987
-species: []
+species:
+- scientific: "Gymnothorax miliaris"
+  role: "primary"
+  identified_by: "human"
+species_reviewed:
+- "primary"
+- "secondary"

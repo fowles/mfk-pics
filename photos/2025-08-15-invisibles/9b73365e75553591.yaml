@@ -44,10 +44,9 @@ species:
   role: "secondary"
   identified_by: "human"
   reviewed_by: "matt"
-- scientific: "Epinephelus adscensionis"
+- scientific: "Cephalopholis cruentata"
   role: "secondary"
   identified_by: "human"
-  reviewed_by: "matt"
 species_reviewed:
 - "primary"
 - "secondary"

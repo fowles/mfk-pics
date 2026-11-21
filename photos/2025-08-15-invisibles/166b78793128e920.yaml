@@ -36,7 +36,10 @@ species_suggestions:
     - scientific: "Equetus punctatus"
       confidence: 0.004
 species:
-- scientific: "Epinephelus adscensionis"
+- scientific: "Cephalopholis cruentata"
   role: "primary"
-  confidence: 0.523
-  identified_by: "bioclip-2+bioclip-2.5"
+  identified_by: "human"
+  confirmed_from: "bioclip-2+bioclip-2.5"
+species_reviewed:
+- "primary"
+- "secondary"

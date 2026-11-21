@@ -40,6 +40,9 @@ species:
   role: "primary"
   identified_by: "human"
   reviewed_by: "matt"
+- scientific: "Stegastes planifrons"
+  role: "secondary"
+  identified_by: "human"
 species_reviewed:
 - "primary"
 - "secondary"

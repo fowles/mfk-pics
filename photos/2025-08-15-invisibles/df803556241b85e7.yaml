@@ -38,5 +38,12 @@ species_suggestions:
 species:
 - scientific: "Coryphopterus lipernes"
   role: "primary"
-  confidence: 0.4927
-  identified_by: "bioclip-2+bioclip-2.5"
+  identified_by: "human"
+  confirmed_from: "bioclip-2+bioclip-2.5"
+- scientific: "Spirobranchus giganteus"
+  role: "secondary"
+  identified_by: "human"
+  confirmed_from: "bioclip-2"
+species_reviewed:
+- "primary"
+- "secondary"

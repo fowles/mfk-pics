@@ -43,3 +43,4 @@ species_suggestions:
       scientific: "Orbicella faveolata"
       confidence: 0.3626
 species: []
+culled: true
