@@ -35,8 +35,8 @@ species_suggestions:
       confidence: 0.1454
     - scientific: "Eretmochelys imbricata"
       confidence: 0.0799
-species:
-- scientific: "Rhincodon typus"
-  role: "primary"
-  confidence: 0.1989
-  identified_by: "bioclip-2.5"
+species: []
+species_reviewed:
+- "primary"
+- "secondary"
+cover: "trip"
