@@ -13,21 +13,21 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-11-20T16:24:07Z"
+    created: "2026-11-23T17:00:15Z"
     src_mtime: 1786156346.0282762
-    vocab: "42433c3b32c5"
+    vocab: "8254e53ca65c"
     top:
     - scientific: "Heteroconger longissimus"
-      confidence: 0.1671
+      confidence: 0.1666
     - scientific: "Myrichthys breviceps"
-      confidence: 0.1262
+      confidence: 0.1258
     - scientific: "Myrichthys ocellatus"
-      confidence: 0.1058
+      confidence: 0.1055
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-11-20T16:27:41Z"
+    created: "2026-11-23T17:03:50Z"
     src_mtime: 1786156346.0282762
-    vocab: "42433c3b32c5"
+    vocab: "8254e53ca65c"
     top:
     - scientific: "Equetus punctatus"
       confidence: 0.3049

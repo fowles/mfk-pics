@@ -16,21 +16,21 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-11-20T16:24:07Z"
+    created: "2026-11-23T17:00:15Z"
     src_mtime: 1786160162.145287
-    vocab: "42433c3b32c5"
+    vocab: "8254e53ca65c"
     top:
     - scientific: "Aetobatus narinari"
-      confidence: 0.4157
+      confidence: 0.4156
     - scientific: "Sphyraena barracuda"
       confidence: 0.3068
     - scientific: "Mycteroperca bonaci"
       confidence: 0.0942
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-11-20T16:27:41Z"
+    created: "2026-11-23T17:03:50Z"
     src_mtime: 1786160162.145287
-    vocab: "42433c3b32c5"
+    vocab: "8254e53ca65c"
     top:
     - scientific: "Canthidermis sufflamen"
       confidence: 0.3789
@@ -41,5 +41,5 @@ species_suggestions:
 species:
 - scientific: "Aetobatus narinari"
   role: "primary"
-  confidence: 0.2079
+  confidence: 0.2078
   identified_by: "bioclip-2"

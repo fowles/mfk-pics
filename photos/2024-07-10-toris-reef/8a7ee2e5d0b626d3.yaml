@@ -13,21 +13,21 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-11-20T16:24:07Z"
+    created: "2026-11-23T17:00:15Z"
     src_mtime: 1786160159.3931825
-    vocab: "42433c3b32c5"
+    vocab: "8254e53ca65c"
     top:
     - scientific: "Lactophrys bicaudalis"
       confidence: 0.4665
     - scientific: "Lactophrys triqueter"
-      confidence: 0.4612
+      confidence: 0.4611
     - scientific: "Acanthostracion quadricornis"
       confidence: 0.0315
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-11-20T16:27:41Z"
+    created: "2026-11-23T17:03:50Z"
     src_mtime: 1786160159.3931825
-    vocab: "42433c3b32c5"
+    vocab: "8254e53ca65c"
     top:
     - scientific: "Lactophrys triqueter"
       confidence: 0.9979
@@ -38,5 +38,5 @@ species_suggestions:
 species:
 - scientific: "Lactophrys triqueter"
   role: "primary"
-  confidence: 0.7296
+  confidence: 0.7295
   identified_by: "bioclip-2+bioclip-2.5"

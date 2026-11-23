@@ -13,21 +13,21 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-11-20T16:24:07Z"
+    created: "2026-11-23T17:00:15Z"
     src_mtime: 1786156972.2600143
-    vocab: "42433c3b32c5"
+    vocab: "8254e53ca65c"
     top:
     - scientific: "Decapterus macarellus"
-      confidence: 0.5495
+      confidence: 0.5494
     - scientific: "Selar crumenophthalmus"
       confidence: 0.114
     - scientific: "Elagatis bipinnulata"
       confidence: 0.0841
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-11-20T16:27:41Z"
+    created: "2026-11-23T17:03:50Z"
     src_mtime: 1786156972.2600143
-    vocab: "42433c3b32c5"
+    vocab: "8254e53ca65c"
     top:
     - scientific: "Decapterus macarellus"
       confidence: 0.8199
@@ -38,5 +38,5 @@ species_suggestions:
 species:
 - scientific: "Decapterus macarellus"
   role: "primary"
-  confidence: 0.6847
+  confidence: 0.6846
   identified_by: "bioclip-2+bioclip-2.5"

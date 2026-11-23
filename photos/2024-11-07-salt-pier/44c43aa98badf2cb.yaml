@@ -13,21 +13,21 @@ dive_window_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-11-20T16:24:07Z"
+    created: "2026-11-23T17:00:15Z"
     src_mtime: 1786156311.3517768
-    vocab: "42433c3b32c5"
+    vocab: "8254e53ca65c"
     top:
     - scientific: "Aurelia aurita"
-      confidence: 0.7807
+      confidence: 0.7803
     - scientific: "Ablennes hians"
       confidence: 0.1001
     - scientific: "Sphyrna mokarran"
       confidence: 0.0137
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-11-20T16:27:41Z"
+    created: "2026-11-23T17:03:50Z"
     src_mtime: 1786156311.3517768
-    vocab: "42433c3b32c5"
+    vocab: "8254e53ca65c"
     top:
     - scientific: "Aurelia aurita"
       confidence: 0.9158
@@ -38,5 +38,5 @@ species_suggestions:
 species:
 - scientific: "Aurelia aurita"
   role: "primary"
-  confidence: 0.8482
+  confidence: 0.848
   identified_by: "bioclip-2+bioclip-2.5"

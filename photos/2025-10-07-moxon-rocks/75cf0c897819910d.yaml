@@ -21,9 +21,9 @@ species_reviewed:
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-11-20T16:24:07Z"
+    created: "2026-11-23T17:00:15Z"
     src_mtime: 1786681481.6545599
-    vocab: "bf7867ed3e36"
+    vocab: "e01e9576e2ea"
     top:
     - scientific: "Abudefduf saxatilis"
       confidence: 0.9576
@@ -33,9 +33,9 @@ species_suggestions:
       confidence: 0.0036
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-11-20T16:27:41Z"
+    created: "2026-11-23T17:03:50Z"
     src_mtime: 1786681481.6545599
-    vocab: "bf7867ed3e36"
+    vocab: "e01e9576e2ea"
     top:
     - scientific: "Abudefduf saxatilis"
       confidence: 0.9997

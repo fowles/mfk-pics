@@ -16,21 +16,21 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-11-20T16:24:07Z"
+    created: "2026-11-23T17:00:15Z"
     src_mtime: 1786157281.936417
-    vocab: "42433c3b32c5"
+    vocab: "8254e53ca65c"
     top:
     - scientific: "Hypanus americanus"
-      confidence: 0.6095
+      confidence: 0.6067
     - scientific: "Heteroconger longissimus"
-      confidence: 0.0425
+      confidence: 0.0423
     - scientific: "Sepioteuthis sepioidea"
-      confidence: 0.0356
+      confidence: 0.0354
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-11-20T16:27:41Z"
+    created: "2026-11-23T17:03:50Z"
     src_mtime: 1786157281.936417
-    vocab: "42433c3b32c5"
+    vocab: "8254e53ca65c"
     top:
     - scientific: "Hypanus americanus"
       confidence: 0.9986
@@ -41,5 +41,5 @@ species_suggestions:
 species:
 - scientific: "Hypanus americanus"
   role: "primary"
-  confidence: 0.8041
+  confidence: 0.8027
   identified_by: "bioclip-2+bioclip-2.5"

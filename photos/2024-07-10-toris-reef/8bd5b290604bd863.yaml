@@ -16,21 +16,21 @@ date_reviewed: true
 species_suggestions:
   bioclip-2:
     model: "hf-hub:imageomics/bioclip-2"
-    created: "2026-11-20T16:24:07Z"
+    created: "2026-11-23T17:00:15Z"
     src_mtime: 1786160211.8073423
-    vocab: "42433c3b32c5"
+    vocab: "8254e53ca65c"
     top:
     - scientific: "Selar crumenophthalmus"
-      confidence: 0.4881
+      confidence: 0.4875
     - scientific: "Caranx ruber"
-      confidence: 0.1377
+      confidence: 0.1375
     - scientific: "Alectis ciliaris"
-      confidence: 0.0795
+      confidence: 0.0794
   bioclip-2.5:
     model: "hf-hub:imageomics/bioclip-2.5-vith14"
-    created: "2026-11-20T16:27:41Z"
+    created: "2026-11-23T17:03:50Z"
     src_mtime: 1786160211.8073423
-    vocab: "42433c3b32c5"
+    vocab: "8254e53ca65c"
     top:
     - scientific: "Trachinotus goodei"
       confidence: 0.4125
@@ -41,5 +41,5 @@ species_suggestions:
 species:
 - scientific: "Caranx ruber"
   role: "primary"
-  confidence: 0.2717
+  confidence: 0.2716
   identified_by: "bioclip-2+bioclip-2.5"
