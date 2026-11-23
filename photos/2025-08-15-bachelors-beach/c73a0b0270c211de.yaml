@@ -36,7 +36,9 @@ species_suggestions:
     - scientific: "Cephalopholis cruentata"
       confidence: 0.0372
 species:
-- scientific: "Gymnothorax moringa"
+- scientific: "Echiophis punctifer"
   role: "primary"
-  confidence: 0.4239
-  identified_by: "bioclip-2.5"
+  identified_by: "human"
+species_reviewed:
+- "primary"
+- "secondary"

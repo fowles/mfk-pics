@@ -37,7 +37,9 @@ species_suggestions:
     - scientific: "Malacoctenus triangulatus"
       confidence: 0.1295
 species:
-- scientific: "Panulirus guttatus"
+- scientific: "Hippocampus reidi"
   role: "primary"
-  confidence: 0.2109
-  identified_by: "bioclip-2.5"
+  identified_by: "human"
+species_reviewed:
+- "primary"
+- "secondary"

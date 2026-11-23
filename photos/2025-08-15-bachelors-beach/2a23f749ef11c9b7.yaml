@@ -36,7 +36,9 @@ species_suggestions:
     - scientific: "Carpilius corallinus"
       confidence: 0.107
 species:
-- scientific: "Elacatinus genie"
+- scientific: "Stenorhynchus seticornis"
   role: "primary"
-  confidence: 0.2091
-  identified_by: "bioclip-2"
+  identified_by: "human"
+species_reviewed:
+- "primary"
+- "secondary"

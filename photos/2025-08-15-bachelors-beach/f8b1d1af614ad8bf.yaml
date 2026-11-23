@@ -36,7 +36,9 @@ species_suggestions:
     - scientific: "Octopus insularis"
       confidence: 0.131
 species:
-- scientific: "Octopus insularis"
+- scientific: "Echiophis punctifer"
   role: "primary"
-  confidence: 0.1637
-  identified_by: "bioclip-2+bioclip-2.5"
+  identified_by: "human"
+species_reviewed:
+- "primary"
+- "secondary"

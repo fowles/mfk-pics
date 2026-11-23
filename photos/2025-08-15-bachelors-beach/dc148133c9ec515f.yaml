@@ -38,6 +38,9 @@ species_suggestions:
 species:
 - scientific: "Scarus taeniopterus"
   role: "primary"
-  confidence: 0.6884
-  identified_by: "bioclip-2+bioclip-2.5"
+  identified_by: "human"
+  confirmed_from: "bioclip-2+bioclip-2.5"
 rotation_reviewed: true
+species_reviewed:
+- "primary"
+- "secondary"

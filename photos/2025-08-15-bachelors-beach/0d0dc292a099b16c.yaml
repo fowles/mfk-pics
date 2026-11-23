@@ -36,7 +36,10 @@ species_suggestions:
     - scientific: "Hippocampus reidi"
       confidence: 0.1032
 species:
-- scientific: "Pseudosquilla ciliata"
+- scientific: "Hippocampus reidi"
   role: "primary"
-  confidence: 0.3276
-  identified_by: "bioclip-2+bioclip-2.5"
+  identified_by: "human"
+  confirmed_from: "bioclip-2.5"
+species_reviewed:
+- "primary"
+- "secondary"

@@ -41,3 +41,6 @@ species_suggestions:
     absorbed_by:
       scientific: "Millepora alcicornis"
       confidence: 0.536
+species_reviewed:
+- "primary"
+- "secondary"

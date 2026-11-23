@@ -36,7 +36,10 @@ species_suggestions:
     - scientific: "Pseudosquilla ciliata"
       confidence: 0.0291
 species:
-- scientific: "Malacoctenus triangulatus"
+- scientific: "Hippocampus reidi"
   role: "primary"
-  confidence: 0.465
-  identified_by: "bioclip-2.5"
+  identified_by: "human"
+  confirmed_from: "bioclip-2"
+species_reviewed:
+- "primary"
+- "secondary"
