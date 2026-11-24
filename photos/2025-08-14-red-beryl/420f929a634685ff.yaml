@@ -39,7 +39,10 @@ species_suggestions:
     - scientific: "Haemulon carbonarium"
       confidence: 0.0317
 species:
-- scientific: "Scarus vetula"
+- scientific: "Paranthias furcifer"
   role: "primary"
-  confidence: 0.4083
-  identified_by: "bioclip-2.5"
+  identified_by: "human"
+rotation_applied: 90
+species_reviewed:
+- "primary"
+- "secondary"

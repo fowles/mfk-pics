@@ -36,7 +36,10 @@ species_suggestions:
     - scientific: "Halichoeres garnoti"
       confidence: 0.0091
 species:
-- scientific: "Halichoeres pictus"
+- scientific: "Thalassoma bifasciatum"
   role: "primary"
-  confidence: 0.5942
-  identified_by: "bioclip-2+bioclip-2.5"
+  identified_by: "human"
+  confirmed_from: "bioclip-2+bioclip-2.5"
+species_reviewed:
+- "primary"
+- "secondary"

@@ -36,7 +36,10 @@ species_suggestions:
     - scientific: "Haemulon plumierii"
       confidence: 0.2754
 species:
-- scientific: "Haemulon plumierii"
+- scientific: "Cephalopholis fulva"
   role: "primary"
-  confidence: 0.3753
-  identified_by: "bioclip-2+bioclip-2.5"
+  identified_by: "human"
+  confirmed_from: "bioclip-2+bioclip-2.5"
+species_reviewed:
+- "primary"
+- "secondary"

@@ -37,7 +37,10 @@ species_suggestions:
     - scientific: "Gymnothorax vicinus"
       confidence: 0.0025
 species:
-- scientific: "Gymnothorax funebris"
+- scientific: "Gymnothorax miliaris"
   role: "primary"
-  confidence: 0.6811
-  identified_by: "bioclip-2+bioclip-2.5"
+  identified_by: "human"
+  confirmed_from: "bioclip-2.5"
+species_reviewed:
+- "primary"
+- "secondary"

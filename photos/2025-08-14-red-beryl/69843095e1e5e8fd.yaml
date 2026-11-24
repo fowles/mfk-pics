@@ -37,7 +37,14 @@ species_suggestions:
     - scientific: "Cephalopholis cruentata"
       confidence: 0.0417
 species:
-- scientific: "Epinephelus adscensionis"
+- scientific: "Cephalopholis cruentata"
   role: "primary"
-  confidence: 0.3456
-  identified_by: "bioclip-2.5"
+  identified_by: "human"
+  confirmed_from: "bioclip-2.5"
+- scientific: "Ancylomenes pedersoni"
+  role: "secondary"
+  identified_by: "human"
+cluster: "start"
+species_reviewed:
+- "primary"
+- "secondary"

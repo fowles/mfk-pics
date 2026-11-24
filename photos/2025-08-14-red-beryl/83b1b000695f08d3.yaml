@@ -39,7 +39,10 @@ species_suggestions:
     - scientific: "Sparisoma aurofrenatum"
       confidence: 0.1709
 species:
-- scientific: "Caranx ruber"
+- scientific: "Paranthias furcifer"
   role: "primary"
-  confidence: 0.2074
-  identified_by: "bioclip-2"
+  identified_by: "human"
+rotation_applied: 90
+species_reviewed:
+- "primary"
+- "secondary"

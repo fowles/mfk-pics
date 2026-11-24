@@ -39,7 +39,16 @@ species_suggestions:
     - scientific: "Halichoeres garnoti"
       confidence: 0.0373
 species:
-- scientific: "Eretmochelys imbricata"
+- scientific: "Gymnothorax funebris"
   role: "primary"
-  confidence: 0.1303
-  identified_by: "bioclip-2.5"
+  identified_by: "human"
+- scientific: "Homo sapiens"
+  role: "secondary"
+  identified_by: "human"
+  person:
+  - "Delia Kulukundis"
+tags:
+- "metapicture"
+species_reviewed:
+- "primary"
+- "secondary"

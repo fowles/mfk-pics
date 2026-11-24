@@ -36,9 +36,18 @@ species_suggestions:
     - scientific: "Caranx ruber"
       confidence: 0.0318
 species:
-- scientific: "Chromis multilineata"
+- scientific: "Acanthurus chirurgus"
   role: "primary"
-  confidence: 0.6812
-  identified_by: "bioclip-2+bioclip-2.5"
+  identified_by: "human"
+  confirmed_from: "bioclip-2.5"
+- scientific: "Aluterus scriptus"
+  role: "secondary"
+  identified_by: "human"
+- scientific: "Holacanthus tricolor"
+  role: "secondary"
+  identified_by: "human"
 culled: false
 cull_reviewed: true
+species_reviewed:
+- "primary"
+- "secondary"

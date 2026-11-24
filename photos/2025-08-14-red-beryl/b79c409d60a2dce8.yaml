@@ -39,7 +39,9 @@ species_suggestions:
     - scientific: "Ocyurus chrysurus"
       confidence: 0.0445
 species:
-- scientific: "Scarus vetula"
+- scientific: "Paranthias furcifer"
   role: "primary"
-  confidence: 0.3524
-  identified_by: "bioclip-2.5"
+  identified_by: "human"
+species_reviewed:
+- "primary"
+- "secondary"

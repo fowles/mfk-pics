@@ -36,7 +36,14 @@ species_suggestions:
     - scientific: "Caranx ruber"
       confidence: 0.0002
 species:
+- scientific: "Caranx ruber"
+  role: "secondary"
+  identified_by: "human"
+  confirmed_from: "bioclip-2.5"
 - scientific: "Hypanus americanus"
   role: "primary"
-  confidence: 0.5589
-  identified_by: "bioclip-2+bioclip-2.5"
+  identified_by: "human"
+  confirmed_from: "bioclip-2+bioclip-2.5"
+species_reviewed:
+- "primary"
+- "secondary"

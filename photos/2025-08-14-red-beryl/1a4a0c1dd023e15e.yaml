@@ -44,4 +44,10 @@ species_suggestions:
     absorbed_by:
       scientific: "Antillogorgia americana"
       confidence: 0.4729
-species: []
+species:
+- scientific: "Aulostomus maculatus"
+  role: "primary"
+  identified_by: "human"
+species_reviewed:
+- "primary"
+- "secondary"

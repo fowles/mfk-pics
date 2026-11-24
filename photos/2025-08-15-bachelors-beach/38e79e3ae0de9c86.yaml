@@ -36,8 +36,10 @@ species_suggestions:
     - scientific: "Haemulon carbonarium"
       confidence: 0.0828
 species:
-- scientific: "Gymnothorax funebris"
+- scientific: "Scarus taeniopterus"
   role: "primary"
-  confidence: 0.3907
-  identified_by: "bioclip-2"
+  identified_by: "human"
 cover: "dive"
+species_reviewed:
+- "primary"
+- "secondary"

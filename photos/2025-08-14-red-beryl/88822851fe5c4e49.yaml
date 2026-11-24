@@ -36,7 +36,12 @@ species_suggestions:
     - scientific: "Melichthys niger"
       confidence: 0.1673
 species:
-- scientific: "Melichthys niger"
+- scientific: "Acanthurus chirurgus"
   role: "primary"
-  confidence: 0.4032
-  identified_by: "bioclip-2+bioclip-2.5"
+  identified_by: "human"
+- scientific: "Aluterus scriptus"
+  role: "secondary"
+  identified_by: "human"
+species_reviewed:
+- "primary"
+- "secondary"

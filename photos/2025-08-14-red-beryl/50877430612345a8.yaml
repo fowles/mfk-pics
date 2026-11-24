@@ -40,7 +40,10 @@ species_suggestions:
     - scientific: "Ginglymostoma cirratum"
       confidence: 0.1921
 species:
-- scientific: "Ginglymostoma cirratum"
+- scientific: "Gymnothorax funebris"
   role: "primary"
-  confidence: 0.2568
-  identified_by: "bioclip-2+bioclip-2.5"
+  identified_by: "human"
+  confirmed_from: "bioclip-2.5"
+species_reviewed:
+- "primary"
+- "secondary"

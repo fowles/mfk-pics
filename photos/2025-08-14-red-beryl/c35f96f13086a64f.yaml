@@ -44,4 +44,13 @@ species_suggestions:
     absorbed_by:
       scientific: "Millepora alcicornis"
       confidence: 0.136
-species: []
+species:
+- scientific: "Cephalopholis cruentata"
+  role: "primary"
+  identified_by: "human"
+- scientific: "Ancylomenes pedersoni"
+  role: "secondary"
+  identified_by: "human"
+species_reviewed:
+- "primary"
+- "secondary"

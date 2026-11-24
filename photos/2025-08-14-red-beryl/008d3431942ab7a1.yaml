@@ -40,6 +40,11 @@ species:
   role: "primary"
   identified_by: "human"
   confirmed_from: "bioclip-2+bioclip-2.5"
+- scientific: "Caranx ruber"
+  role: "secondary"
+  identified_by: "human"
+  confirmed_from: "bioclip-2+bioclip-2.5"
 species_reviewed:
 - "primary"
 - "secondary"
+cluster: "start"

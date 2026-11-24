@@ -45,3 +45,4 @@ species_suggestions:
       scientific: "Millepora alcicornis"
       confidence: 0.5529
 species: []
+culled: true

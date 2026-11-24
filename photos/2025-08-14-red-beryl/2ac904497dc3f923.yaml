@@ -36,7 +36,10 @@ species_suggestions:
     - scientific: "Abudefduf saxatilis"
       confidence: 0.068
 species:
-- scientific: "Mycteroperca tigris"
+- scientific: "Pterois volitans"
   role: "primary"
-  confidence: 0.166
-  identified_by: "bioclip-2+bioclip-2.5"
+  identified_by: "human"
+  confirmed_from: "bioclip-2"
+species_reviewed:
+- "primary"
+- "secondary"
