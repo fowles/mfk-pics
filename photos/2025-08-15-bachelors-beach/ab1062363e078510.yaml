@@ -36,9 +36,11 @@ species_suggestions:
     - scientific: "Gymnothorax vicinus"
       confidence: 0.0623
 species:
-- scientific: "Scarus taeniopterus"
+- scientific: "Unknown"
   role: "primary"
   identified_by: "human"
 species_reviewed:
 - "primary"
 - "secondary"
+tags:
+- "Parrotfish"

@@ -42,7 +42,7 @@ species_suggestions:
       scientific: "Madracis auretenra"
       confidence: 0.9998
 species:
-- scientific: "Halichoeres garnoti"
+- scientific: "Unknown"
   role: "primary"
   identified_by: "human"
 species_reviewed:
