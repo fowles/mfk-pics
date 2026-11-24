@@ -1900,3 +1900,4 @@
 - {scientific: "Lutjanus cyanopterus", common: "Cubera Snapper", regions: ["Caribbean"], taxonomy: "Animalia Chordata Teleostei Perciformes Lutjanidae"}
 - {scientific: "Neoniphon vexillarius", common: "Dusky Squirrelfish", regions: ["Caribbean"], taxonomy: "Animalia Chordata Teleostei Beryciformes Holocentridae"}
 - {scientific: "Echiophis punctifer", common: "Stippled Spoon-nose Eel", regions: ["Caribbean"], taxonomy: "Animalia Chordata Teleostei Anguilliformes Ophichthidae"}
+- {scientific: "Unknown", common: "Unidentified", manual: true, sort_last: true}
